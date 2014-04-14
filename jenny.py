@@ -1,5 +1,5 @@
 import gspread
-gc = gspread.login('bernhard.konrad@gmail.com','??????')
+gc = gspread.login('bernhard.konrad@gmail.com','???????')
 
 pre_name = "2014-04-12_vanNH-at-pdxST"
 sh = gc.open(pre_name)
@@ -15,13 +15,22 @@ for sheet_num in range(num_spreadsheets):
     else:
         file_num = str(sheet_num+1)
 
-    ## I will need to loop over the sheets that actually describe points, e.g. '1', '2', etc.
-    ## Example for the first point
-    worksheet = sh.worksheet("1")
+    ## Loop over the sheets that actually describe points
+    worksheet = sh.worksheet(str(sheet_num+1))
     ## getting offense data
     offensive = worksheet.col_values(1)
     ## getting defense data
     defensive = worksheet.col_values(2)
+    
+    #make both lists of the same length, for zip to work later
+    lendiff = len(offensive)-len(defensive)
+    if lendiff > 0: 
+        for i in range(lendiff):
+            defensive.append(None)
+    elif lendiff < 0:
+        for i in range(lendiff):       
+            offensive.append(None)
+            
     ## some identifiers for point-level info
     point_level_indentifier = worksheet.col_values(3)
     ## actual point-level info
@@ -34,8 +43,8 @@ for sheet_num in range(num_spreadsheets):
     out_file.write("Period: " + period + "\n")
     out_file.write("Clock before point: " + clock_before + "\n")
     out_file.write("Clock after point: " + clock_after + "\n")
-    out_file.write("Offensive" + "\t" + "Defensive" + "\n")
-    for offense, defense in zip(offensive, defensive):
+    out_file.write("Offense" + "\t" + "Defense" + "\n")
+    for offense, defense in zip(offensive[2:], defensive[2:]): #skip 2 header lines
         if offense is None:
             offense = ""
         if defense is None:
