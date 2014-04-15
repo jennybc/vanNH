@@ -1,5 +1,5 @@
 import gspread
-gc = gspread.login('jenny@stat.ubc.ca','IY1Ua1vFll')
+gc = gspread.login('jenny@stat.ubc.ca','????????')
 
 pre_name = "2014-04-12_vanNH-at-pdxST"
 sh = gc.open(pre_name)
