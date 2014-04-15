@@ -8,6 +8,7 @@ worksheet_list = sh.worksheets()
 num_spreadsheets = len(worksheet_list)
 
 for sheet_num in range(num_spreadsheets):
+#for sheet_num in range(5):
 
     # get naming correct. Also, Python indexes by zero!
     if sheet_num < 9:
@@ -25,11 +26,11 @@ for sheet_num in range(num_spreadsheets):
     #make both lists of the same length, for zip to work later
     lendiff = len(offensive)-len(defensive)
     if lendiff > 0: 
-        for i in range(lendiff):
-            defensive.append(None)
+        for i in range(abs(lendiff)):
+            defensive.extend([""])
     elif lendiff < 0:
-        for i in range(lendiff):       
-            offensive.append(None)
+        for i in range(abs(lendiff)):
+            offensive.extend([""])
             
     ## some identifiers for point-level info
     point_level_indentifier = worksheet.col_values(3)
