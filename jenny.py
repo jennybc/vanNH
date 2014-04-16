@@ -15,9 +15,12 @@ for sheet_num in range(num_spreadsheets):
         file_num = "0" + str(sheet_num+1)
     else:
         file_num = str(sheet_num+1)
-
-    ## Loop over the sheets that actually describe points
-    worksheet = sh.worksheet(str(sheet_num+1))
+    try:
+        ## Loop over the sheets that actually describe points
+        worksheet = sh.worksheet(str(sheet_num+1))
+    except gspread.exceptions.WorksheetNotFound:
+        break
+ 
     ## getting offense data
     offensive = worksheet.col_values(1)
     ## getting defense data
@@ -38,6 +41,9 @@ for sheet_num in range(num_spreadsheets):
     point_level_info = worksheet.col_values(4)
 
     team_name, period, clock_before, clock_after = point_level_info[0:4]
+
+    if team_name is None:
+        continue
 
     out_file = file(pre_name + "_point" + file_num + ".txt",'w')
     out_file.write("Pulling team: " + team_name + "\n")
