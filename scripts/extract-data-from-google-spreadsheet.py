@@ -5,10 +5,13 @@ import argparse, sys
 
 parser = argparse.ArgumentParser(description='This is a script by jenny.')
 parser.add_argument('-g','--game', help='Game identifier', required=True)
+parser.add_argument('-p','--point', help='Point', type=int, default = 0)
 args = parser.parse_args()
  
 ## advertise resolved command line args
 print ("Game identifier: %s" % args.game )
+if args.point:
+    print ("Point: %d" % args.point )
 
 ## get ready to talk to the Google
 f = open('google-credentials.txt', 'rb')
@@ -21,11 +24,18 @@ password = password.rstrip()
 gc = gspread.login(username, password)
 sh = gc.open(args.game)
 worksheet_list = sh.worksheets()
+
+## determine which point(s) to process
 num_worksheets = len(worksheet_list)
 print ("Worksheets found : 1 + %s " % (num_worksheets - 1) )
+if args.point == 0:
+    points_to_process = range(num_worksheets)
+else:
+    points_to_process = [args.point - 1]
 
-for sheet_num in range(num_worksheets):
+#for sheet_num in range(num_worksheets):
 #for sheet_num in range(5):
+for sheet_num in points_to_process:
 
     # get naming correct. Also, Python indexes by zero!
     if sheet_num < 9:
@@ -39,8 +49,8 @@ for sheet_num in range(num_worksheets):
     except gspread.exceptions.WorksheetNotFound:
         break
 
-    ## some identifiers for point-level info
-    point_level_indentifier = worksheet.col_values(3)
+    ## some identifiers for point-level info ... currently not used
+    #point_level_identifier = worksheet.col_values(3)
     ## actual point-level info
     point_level_info = worksheet.col_values(4)
 
@@ -66,7 +76,6 @@ for sheet_num in range(num_worksheets):
     elif lendiff < 0:
         for i in range(abs(lendiff)):
             offensive.extend([""])
-
 
     out_file = file("../games/" + args.game + "/rawGoogleExtract/" + args.game + "_point" + file_num + ".txt",'w')
     out_file.write("Pulling team: " + team_name + "\n")
