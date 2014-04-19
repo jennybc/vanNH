@@ -1,14 +1,23 @@
-import gspread
-gc = gspread.login('jenny@stat.ubc.ca','??????????')
+#!/Users/jenny/anaconda/bin/python
 
-pre_name = "2014-04-12_vanNH-at-pdxST"
-sh = gc.open(pre_name)
+import gspread
+import argparse
+
+parser = argparse.ArgumentParser(description='This is a script by jenny.')
+parser.add_argument('-g','--game', help='Game identifier', required=True)
+args = parser.parse_args()
+ 
+## show values ##
+print ("Game identifier: %s" % args.game )
+
+gc = gspread.login('jenny@stat.ubc.ca','???')
+sh = gc.open(args.game)
 worksheet_list = sh.worksheets()
 
 num_spreadsheets = len(worksheet_list)
 
-for sheet_num in range(num_spreadsheets):
-#for sheet_num in range(5):
+#for sheet_num in range(num_spreadsheets):
+for sheet_num in range(5):
 
     # get naming correct. Also, Python indexes by zero!
     if sheet_num < 9:
@@ -46,7 +55,7 @@ for sheet_num in range(num_spreadsheets):
     if team_name is None:
         continue
 
-    out_file = file("../games/" + pre_name + "/" + pre_name + "_point" + file_num + ".txt",'w')
+    out_file = file("../games/" + args.game + "/" + args.game + "_point" + file_num + ".txt",'w')
     out_file.write("Pulling team: " + team_name + "\n")
     out_file.write("Period: " + period + "\n")
     out_file.write("Clock before point: " + clock_before + "\n")
