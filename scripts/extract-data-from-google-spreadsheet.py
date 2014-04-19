@@ -1,7 +1,7 @@
 #!/Users/jenny/anaconda/bin/python
 
 import gspread
-import argparse
+import argparse, sys
 
 parser = argparse.ArgumentParser(description='This is a script by jenny.')
 parser.add_argument('-g','--game', help='Game identifier', required=True)
@@ -24,8 +24,8 @@ worksheet_list = sh.worksheets()
 num_worksheets = len(worksheet_list)
 print ("Worksheets found : 1 + %s " % (num_worksheets - 1) )
 
-#for sheet_num in range(num_worksheets):
-for sheet_num in range(5):
+for sheet_num in range(num_worksheets):
+#for sheet_num in range(5):
 
     # get naming correct. Also, Python indexes by zero!
     if sheet_num < 9:
@@ -38,6 +38,20 @@ for sheet_num in range(5):
         worksheet = sh.worksheet(str(sheet_num+1))
     except gspread.exceptions.WorksheetNotFound:
         break
+
+    ## some identifiers for point-level info
+    point_level_indentifier = worksheet.col_values(3)
+    ## actual point-level info
+    point_level_info = worksheet.col_values(4)
+
+    team_name, period, clock_before, clock_after = point_level_info[0:4]
+
+    if team_name is None:
+        print ("team_name is None ... quitting")
+        break
+    
+    print (file_num)
+    sys.stdout.flush()
 
     ## getting offense data
     offensive = worksheet.col_values(1)
@@ -53,17 +67,8 @@ for sheet_num in range(5):
         for i in range(abs(lendiff)):
             offensive.extend([""])
 
-    ## some identifiers for point-level info
-    point_level_indentifier = worksheet.col_values(3)
-    ## actual point-level info
-    point_level_info = worksheet.col_values(4)
 
-    team_name, period, clock_before, clock_after = point_level_info[0:4]
-
-    if team_name is None:
-        continue
-
-    out_file = file("../games/" + args.game + "/" + args.game + "_point" + file_num + ".txt",'w')
+    out_file = file("../games/" + args.game + "/rawGoogleExtract/" + args.game + "_point" + file_num + ".txt",'w')
     out_file.write("Pulling team: " + team_name + "\n")
     out_file.write("Period: " + period + "\n")
     out_file.write("Clock before point: " + clock_before + "\n")
