@@ -1,5 +1,5 @@
 import gspread
-gc = gspread.login('jenny@stat.ubc.ca','????????')
+gc = gspread.login('jenny@stat.ubc.ca',';D98P$qyi5XN')
 
 pre_name = "2014-04-12_vanNH-at-pdxST"
 sh = gc.open(pre_name)
@@ -16,8 +16,12 @@ for sheet_num in range(num_spreadsheets):
     else:
         file_num = str(sheet_num+1)
 
-    ## Loop over the sheets that actually describe points
-    worksheet = sh.worksheet(str(sheet_num+1))
+    try:
+        ## Loop over the sheets that actually describe points
+        worksheet = sh.worksheet(str(sheet_num+1))
+    except gspread.exceptions.WorksheetNotFound:
+        break
+
     ## getting offense data
     offensive = worksheet.col_values(1)
     ## getting defense data
@@ -39,7 +43,10 @@ for sheet_num in range(num_spreadsheets):
 
     team_name, period, clock_before, clock_after = point_level_info[0:4]
 
-    out_file = file(pre_name + "_point" + file_num + ".txt",'w')
+    if team_name is None:
+        continue
+
+    out_file = file("../games/" + pre_name + "/" + pre_name + "_point" + file_num + ".txt",'w')
     out_file.write("Pulling team: " + team_name + "\n")
     out_file.write("Period: " + period + "\n")
     out_file.write("Clock before point: " + clock_before + "\n")
@@ -52,27 +59,3 @@ for sheet_num in range(num_spreadsheets):
             defense = ""
         out_file.write(offense + "\t" + defense + "\n")
     out_file.close()
-## I would like to loop over the sheets = points and write one file per point
-## naming scheme: 2014-04-12_vanNH-at-pdxST_point01.txt
-## ideally the Python script would take Google spreadsheet name as argument
-## and use it programmatically from there on out
-
-## point-level info stored in first few lines, like so:
-## Pulling team: Vancouver Nighthawks
-## Period: 1
-## Clock before point: 10:00:00
-## Clock after point: 9:23:00
-
-## then the rest of file would give the offense and defense data in tab delimited form, just like the spreadsheet
-## Offense	Defense
-## 	8P
-## 7
-## 24
-## 13
-## 7
-## 24	81D
-## 	18
-## 	45
-## 	31
-## 	8
-## 	81LG
