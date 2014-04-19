@@ -1,2 +1,6 @@
 pvt/*
 private.txt
+.Rproj.user
+*point*
+*.Rproj
+
