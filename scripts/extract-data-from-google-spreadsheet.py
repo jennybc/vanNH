@@ -7,10 +7,17 @@ parser = argparse.ArgumentParser(description='This is a script by jenny.')
 parser.add_argument('-g','--game', help='Game identifier', required=True)
 args = parser.parse_args()
  
-## show values ##
+## advertise resolved command line args
 print ("Game identifier: %s" % args.game )
 
-gc = gspread.login('jenny@stat.ubc.ca','???')
+## get ready to talk to the Google
+f = open('google-credentials.txt', 'rb')
+user_name = f.readline()
+user_name = user_name.rstrip()
+password = f.readline()
+password = password.rstrip()
+
+gc = gspread.login(user_name, password)
 sh = gc.open(args.game)
 worksheet_list = sh.worksheets()
 
