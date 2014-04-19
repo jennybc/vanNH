@@ -12,18 +12,19 @@ print ("Game identifier: %s" % args.game )
 
 ## get ready to talk to the Google
 f = open('google-credentials.txt', 'rb')
-user_name = f.readline()
-user_name = user_name.rstrip()
+username = f.readline()
+username = username.rstrip()
 password = f.readline()
 password = password.rstrip()
 
-gc = gspread.login(user_name, password)
+## access the Google doc
+gc = gspread.login(username, password)
 sh = gc.open(args.game)
 worksheet_list = sh.worksheets()
+num_worksheets = len(worksheet_list)
+print ("Worksheets found : 1 + %s " % (num_worksheets - 1) )
 
-num_spreadsheets = len(worksheet_list)
-
-#for sheet_num in range(num_spreadsheets):
+#for sheet_num in range(num_worksheets):
 for sheet_num in range(5):
 
     # get naming correct. Also, Python indexes by zero!
