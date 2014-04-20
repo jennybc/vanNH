@@ -5,10 +5,7 @@ In-house statistics for the Vancouver Nighthawks of Major League Ultimate
 
 To do
 
-  * Create today's spreadsheet: real one and practice (with date off by one?)
-  * dogfish roster
-  * test pipeline
-    - figure out why test game doesn't "work" until I've got ~ 3 points
+  * figure out why test game doesn't "work" until I've got ~ 3 points
     - use Transmit or Make to push to web
     - share link with the right people
   * Makefile stuff

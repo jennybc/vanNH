@@ -26,9 +26,12 @@ proc_goog: 03_process-game-data.r
 web: 06_vanNH-nowPlaying.rmd
 	Rscript -e "library(knitr); knit2html('06_vanNH-nowPlaying.rmd')"
 
+web_copy:
+	cp 06_vanNH-nowPlaying.html vanNH_nowPlaying.html
+
 r_bits: clean_cat clean_proc cat_goog proc_goog web
 
-yo: eg_pt clean_cat clean_proc cat_goog proc_goog web
+yo: eg_pt clean_cat clean_proc cat_goog proc_goog web web_copy sync
 
 sync:
 	rsync -av --exclude-from=/Users/jenny/.rsync/exclude vanNH_nowPlaying.html jenny@stat.ubc.ca:public_html/notOcto/vanNH/
