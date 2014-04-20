@@ -7,72 +7,82 @@ library(plyr)
 ```
 
 ```{r, echo=FALSE, results="hide"}
-vanNH_roster_file <- "../gamedata/2013-06-22_vanNH-roster.txt"
-opp_roster_file   <- "../gamedata/2013-06-22_seaRM-roster.txt"
-game_file         <- "../gamedata/sDat.txt"
+vanNH_roster_file <- file.path("..", "rosters", "2014_vanNH-roster.tsv")
+opp_roster_file   <- file.path("..", "rosters", "2014_pdxST-roster.tsv")
+game_file         <- file.path("..", "games", "2014-04-12_vanNH-at-pdxST",
+                               "cleanGoogleExtract",
+                               "2014-04-12_vanNH-at-pdxST_gameplay-clean.tsv")
 
-sDat <- read.table(game_file,
-                   col.names = c("point", "player", "team", "event", "comment"),
-                   fill = TRUE, as.is = 5)
-vRoster <- read.table(vanNH_roster_file,
-                      col.names = c("number", "firstName", "lastName"),
-                      as.is = 2:3)
-oRoster <- read.table(opp_roster_file,
-                      col.names = c("number", "firstName", "lastName"),
-                      as.is = 2:3)
+sDat <- read.delim(game_file)
+vRoster <- read.delim(vanNH_roster_file, stringsAsFactors = FALSE)
+oRoster <- read.delim(opp_roster_file, stringsAsFactors = FALSE)
 
-## if in first period and no comments so far, comment will be all NA
-## reset all to empty string
-sDat$comment[is.na(sDat$comment)] <- ""
+## until I decide otherwise, make sure player numbers are character
+## replace NAs with ''
+jFun <- function(x) {
+  x <- as.character(x)
+  x[is.na(x)] <- ""
+  return(x)
+  }
+sDat <- transform(sDat, oNum = jFun(oNum), dNum = jFun(dNum))
 
-## if a point ends with no recorded events -- period or game ends and there's
-## been no D or goal -- the "eop" or "eog" comment has been erroneously read in
-## as the player variable ... FIX THAT
-noEvents <- sDat$player %in% c("eop", "eog")
-if(any(noEvents)) {
-  sDat$comment[noEvents] <- as.character(sDat$player[noEvents])
-  sDat$player[noEvents] <- NA
-  sDat$team[noEvents] <- NA
-  sDat$event[noEvents] <- NA
-  sDat <- droplevels(sDat)
-}
+## keep only D's, goals, and assists
+ddd <- with(sDat, oCode == 'D' | dCode == 'D' |  # defensed
+              oCode == 'FB' | dCode == 'FB' |    # foot block
+              oCode == 'HB' | dCode == 'HB')     # hand block
+ddd <- which(ddd)
+ggg <- with(sDat, oCode == 'G' | dCode == 'G' |  # goal
+              oCode == 'LG' | dCode == 'LG')     # long goal >40 yds
+ggg <- which(ggg)
+aaa <- ggg - 1
+keep_me <- sort(c(ddd, ggg, aaa))
+sDat <- sDat[keep_me, ]
+# add formal check that G + LG = A for oCode and dCode
+#table(sDat$oCode)
 
-## separate true 'eop' and 'eog' from free comments
-## presumes a comma delimiter, e.g. "eop, fascinating comment"
-sDat$eop <- ""
-foo <- strsplit(sDat$comment, split = ",")
-foo <- data.frame(firstBit = I(sapply(foo, function(z) z[1])),
-                  secondBit = I(sapply(foo, function(z) z[2])))
-sDat$eop[foo$firstBit %in% c('eop', 'eog')] <-
-  foo$firstBit[foo$firstBit %in% c('eop', 'eog')]
-sDat$comment <-
-  ifelse(is.na(foo$secondBit), foo$firstBit, foo$secondBit)
+## deduce the score
+sDat$goal <- grepl('G', with(sDat, paste(oCode, dCode)))
+jFun <- function(x) {x[is.na(x)] <- FALSE; x}
+jLevels <- levels(sDat$dTeam)
+sDat$teamOne <- cumsum(jFun(with(sDat, goal & scTeam == jLevels[1])))
+sDat$teamTwo <- cumsum(jFun(with(sDat, goal & scTeam == jLevels[2])))
+sDat <- rename(sDat, c("teamOne" = jLevels[1], "teamTwo" = jLevels[2]))
 
+## last year, I tracked the period too ... would need to get from point_info
+# sDat$period <- c(TRUE, sDat$period[-nrow(sDat)])
+# sDat$period <- cumsum(sDat$period)
 
-## use goal and eop info to deduce the period and score
-sDat <- data.frame(sDat, period = with(sDat, eop == "eop"),
-                   vanNH = with(sDat, team == "V" & event == "G"),
-                   seaRM = with(sDat, team == "S" & event == "G"))
-sDat$vanNH[is.na(sDat$vanNH)] <- FALSE
-sDat$seaRM[is.na(sDat$seaRM)] <- FALSE
-sDat$period <- c(TRUE, sDat$period[-nrow(sDat)])
-sDat$period <- cumsum(sDat$period)
-sDat$vanNH <- cumsum(sDat$vanNH)
-sDat$seaRM <- cumsum(sDat$seaRM)
-## subset(sDat, event == "G")
+## get the team associated with the players making the D, A, or G
+sDat$assist <- grepl('A', with(sDat, paste(oCode, dCode)))
+tmp <- with(sDat, ifelse(goal | assist, scTeam, NA))
+sDat$plTeam <- jLevels[tmp]
 
-## import player names from roster into sDat
-tmpVanLastNames <- vRoster$lastName[match(sDat$player, vRoster$number)]
-tmpSfoLastNames <- oRoster$lastName[match(sDat$player, oRoster$number)]
-sDat$lastName <- ifelse(sDat$team == "V",
-                        tmpVanLastNames, tmpSfoLastNames)
+## some of the D's are getting assigned to the wrong team
+
+sDat$D <- grepl('D', with(sDat, paste(oCode, dCode)))
+tmp <- with(sDat, ifelse(D & oCode == '', dTeam, oTeam))
+sDat$plTeam[sDat$D] <- jLevels[tmp[sDat$D]]
+tmp <- with(sDat,
+            ifelse(goal & (oCode == 'G' | oCode == 'LG'), dTeam, oTeam))
+sDat$plTeam[sDat$D] <- jLevels[tmp[sDat$D]]
+# with(sDat, table(oCode %in% c('D', 'A', 'G', 'LG'),
+#                  dCode %in% c('D', 'A', 'G', 'LG')))
+sDat$plNum <- with(sDat, ifelse(oCode %in% c('D', 'A', 'G', 'LG'), oNum, dNum))
+sDat$lname <- I(with(sDat,
+                     ifelse(plTeam == "vanNH",
+                            vRoster$last[match(sDat$plNum, vRoster$number)],
+                            oRoster$last[match(sDat$plNum, oRoster$number)])))
+
 ## deal with cases where we have no last name
 ## happens when we use a number that's not on the roster or when we don't
 ## capture the number and enter ? instead
-foo <- is.na(sDat$lastName)
+foo <- is.na(sDat$lname)
 sDat[foo, ]
-sDat$lastName[foo] <- paste0(sDat$team[foo], "-unknown")
-sDat$player <- factor(paste(sDat$team, sDat$player, sep = "-"))
+sDat$lname[foo] <- paste0(sDat$plTeam[foo], "-unknown")
+
+sDat$player <- factor(paste(sDat$plTeam, sDat$plNum, sep = "-"))
+
+subset(sDat, select = c(point, oTeam, dTeam, oNum, oCode, dNum, dCode, plTeam, plNum, lname, player))
 
 ## tally events by player
 pDat <- ddply(sDat, .(player, lastName, team), function(z) {
