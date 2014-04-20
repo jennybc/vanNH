@@ -96,7 +96,7 @@ game_play <- with(game_play,
 
 ## determine who's on O vs. D, at the event level
 ## ... leave this for another day
-## let's just figure out who scored
+## let's just figure out who scored and assign the assist
 jFun <- function(x) {
   n <- nrow(x)
   jCodes <- c(x$oCode[n], x$dCode[n])
@@ -104,8 +104,10 @@ jFun <- function(x) {
   if(is_a_score) {
     if(x$dNum[n] != '') {
       scTeam <- x$dTeam[n]
+      x$dCode[n - 1] <- 'A'
     } else {
       scTeam <- x$oTeam[n]
+      x$oCode[n - 1] <- 'A'
     }
   } else {
     scTeam <- NA
@@ -113,6 +115,10 @@ jFun <- function(x) {
   return(data.frame(x, scTeam))
 }
 game_play <- ddply(game_play, ~ point, jFun)
+
+## make sure all codes are upper case
+game_play <- transform(game_play,
+                       oCode = toupper(oCode), dCode = toupper(dCode))
 
 out_dir <- file.path("..", "games", game, "cleanGoogleExtract")
 if(!file.exists(out_dir)) dir.create(out_dir)
@@ -137,4 +143,5 @@ point_info <-
 out_file <- file.path(out_dir, paste0(game, "_points-clean.tsv"))
 write.table(point_info, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
 message("wrote ", out_file)
-## write the abbreviated output I will use during the game
+
+
