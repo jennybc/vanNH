@@ -6,7 +6,8 @@ library(plyr)
 # read from command line and pre-stored in the environment
 # for interactive use and development, set the game here
 if(!exists("game")) { # default to first game of season, my development game
-  game <- "2014-04-12_vanNH-at-pdxST"
+  #game <- "2014-04-12_vanNH-at-pdxST"
+  game <- "2014-04-20_sfoDF-at-vanNH"
   }
 
 ## parse the game identifier
