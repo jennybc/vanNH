@@ -75,18 +75,31 @@ get_opponent <- function(x) {
 }
 game_play$oTeam <- get_opponent(game_play$dTeam)
 
-## insert a row if a D is recorded on same row as O and separate the info
+## find rows where a play is recorded for both the O and the D
+## insert a row to make two rows
+## first row will hold O info, second will hold D
+
+## 2014-04-12_vanNH-at-pdxST: happens for some D and F events. point:
+## D: 1, 13, 22, 23, 29, 30, 32, 43
+## F: 6, 9, 20, 22, 24, 35
+x <- subset(game_play, point == 22)
+## this needs to be refactored
 jFun <- function(x) {
-  fix_me <- which(with(x, dNum != "" & oNum != "" & dCode == "D"))
-  if(length(fix_me) > 0) {
-    x <- x[rep(1:nrow(x), ifelse(1:nrow(x) %in% fix_me, 2, 1)), ]
-    x[fix_me, c('Defense', 'dNum', 'dCode')] <- ''
-    x[fix_me + 1, c('Offense', 'oNum', 'oCode')] <- ''
-    x$event <- 1:nrow(x)    
-  }
+  fix_me <- which(with(x, dNum != "" & oNum != ""))
+  needs_fix <- length(fix_me) > 0
+  while(needs_fix) {
+    fix_this <- fix_me[1]
+    x <- x[rep(1:nrow(x), ifelse(1:nrow(x) %in% fix_this, 2, 1)), ]
+    x[fix_this, c('Defense', 'dNum', 'dCode')] <- ''
+    x[fix_this + 1, c('Offense', 'oNum', 'oCode')] <- ''
+    fix_me <- which(with(x, dNum != "" & oNum != ""))
+    needs_fix <- length(fix_me) > 0
+  } 
+  x$event <- 1:nrow(x)
   return(x)
 }
 game_play <- ddply(game_play, ~ point, jFun)
+#which(with(game_play, dNum != "" & oNum != ""))
 
 ## tidy up
 game_play <- with(game_play,
