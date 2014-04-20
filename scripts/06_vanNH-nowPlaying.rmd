@@ -25,12 +25,6 @@ build_roster_path <- function(team) {
   file.path("..", "rosters", paste0("2014_", team, "-roster.tsv"))}
 away_roster_file <- build_roster_path(away_team)
 home_roster_file <- build_roster_path(home_team)
-game_file        <- file.path("..", "games", game, "cleanGoogleExtract",
-                              paste0(game, "_gameplay-clean.tsv"))
-
-sDat <- read.delim(game_file,
-                   colClasses = list(oNum = 'character', oCode = 'character',
-                                     dNum = 'character', dCode = 'character'))
 read_roster <- function(roster_file) {
   x <- read.delim(roster_file, stringsAsFactors = FALSE)
   x[c('number', 'last')]
@@ -38,6 +32,17 @@ read_roster <- function(roster_file) {
 away_roster <- read_roster(away_roster_file)
 home_roster <- read_roster(home_roster_file)
 
+game_file <- file.path("..", "games", game, "cleanGoogleExtract",
+                       paste0(game, "_gameplay-clean.tsv"))
+sDat <- read.delim(game_file,
+                   colClasses = list(oNum = 'character', oCode = 'character',
+                                     dNum = 'character', dCode = 'character'))
+
+point_file <- file.path("..", "games", game, "cleanGoogleExtract",
+                       paste0(game, "_points-clean.tsv"))
+point_info <- read.delim(point_file)
+sDat$period <- point_info$Period[match(sDat$point, point_info$point)]
+  
 ## for now, player numbers in game data should be character
 ## why? so we can use '?' for anonymous
 ## make sure that is true and replace NAs with ''
@@ -77,8 +82,8 @@ sDat$teamTwo <- cumsum(jFun(with(sDat, goal & scTeam == jTeams[2])))
 sDat <- rename(sDat, c("teamOne" = jTeams[1], "teamTwo" = jTeams[2]))
 
 ## tidy up
-vars_to_keep <- c("point", "oTeam", "dTeam", "scTeam", "code", "plTeam",
-                  "plNum", jTeams)
+vars_to_keep <- c("period", "point", "oTeam", "dTeam", "scTeam", "code",
+                  "plTeam", "plNum", jTeams)
 sDat <- sDat[vars_to_keep]
 
 ## look up player's last name
@@ -100,11 +105,11 @@ sDat$player <-
   with(sDat,
        factor(paste(plTeam, plNum, lname, sep = "-")))
 
-## last year, I tracked the period too ... would need to get from point_info
-# sDat$period <- c(TRUE, sDat$period[-nrow(sDat)])
-# sDat$period <- cumsum(sDat$period)
-
 ## DONE WITH EVENT LEVEL DATA!
+
+## prepare to say which period we're in or if game over
+#   if(???) whereInGame <- "game is complete"
+whereInGame <- paste("period", sDat$period[nrow(sDat)])
 
 ## tally events by player
 plDat <- ddply(sDat, ~ player + plTeam, function(z) {
@@ -121,41 +126,37 @@ teamDat <- llply(teamDat, function(z) {
   subset(z, select = -plTeam)
 })
 
-## prepare to say which period we're in or if game over
-# if(sDat$eop[nrow(sDat)] == "eog") {
-#   whereInGame <- "game is complete"
-# } else {
-#   whereInGame <- paste("period", sDat$period[nrow(sDat)])
-# }
-
-## prepare for a game scoring progression table
-# gDat <- ddply(sDat, .(point),
-#               function(z) {
-#                 period <- z$period[nrow(z)]
-#                 vanNH <- z$vanNH[nrow(z)]
-#                 seaRM <- z$seaRM[nrow(z)]
-#                 comment <- z$comment[nrow(z)]
-#                 
-#                 score <- z$event == "G"
-#                 if(sum(score, na.rm = TRUE) == 0) {
-#                   ## no score
-#                   desc <- "- no score -"
-#                   return(c(period = period, desc = desc,
-#                            vanNH = vanNH, seaRM = seaRM,
-#                            comment = comment))
-#                 }
-#                 scorer <- paste(z$player[z$event == "G"],
-#                                 z$lastName[z$event == "G"])
-#                 assist <- z$event == "A"
-#                 assister <- paste(z$player[z$event == "A"],
-#                                   z$lastName[z$event == "A"])
-#                 if(length(assister) != 1) assister <- NA
-#                 desc <- paste(assister, "to", scorer)
-#                 return(c(period = period, desc = desc,
-#                          vanNH = vanNH, seaRM = seaRM,
-#                          comment = comment))
-#                 })
-# gDat <- gDat[rev(seq_len(nrow(gDat))), ]
+## prepare game scoring progression table
+gDat <- ddply(sDat, ~ point,
+              function(z) {
+                period <- z$period[nrow(z)]
+                away_score <- z[[away_team]][nrow(z)]
+                home_score <- z[[home_team]][nrow(z)]
+                #comment <- z$comment[nrow(z)]
+                
+                score <- z$code == "G" | z$code == "LG"
+                if(sum(score, na.rm = TRUE) == 0) {
+                  ## no score
+                  desc <- "- no score -"
+                  ret_val <- c(period = period, desc = desc,
+                               away_score = away_score,
+                               home_score = home_score)
+                  }
+                scorer <- paste(z$player[z$code == "G" | z$code == "LG"],
+                                z$lastName[z$code == "G" | z$code == "LG"])
+                assist <- z$code == "A"
+                assister <- paste(z$player[z$code == "A"],
+                                  z$lastName[z$code == "A"])
+                if(length(assister) != 1) assister <- NA
+                desc <- paste(assister, "to", scorer)
+                ret_val <- c(period = period, desc = desc,
+                             away_score = away_score,
+                             home_score = home_score)
+                names(ret_val)[grep("away", names(ret_val))] <- away_team
+                names(ret_val)[grep("home", names(ret_val))] <- home_team
+                return(ret_val)
+                })
+gDat <- gDat[rev(seq_len(nrow(gDat))), ]
 ```
 
 #### last update `r date()`:
@@ -170,7 +171,7 @@ Go to ...
   * [Raw data](#rawData)
 
 Scoring progression<a id="scoringProgression"></a>:
-```{r results='asis', echo=FALSE, eval = FALSE}
+```{r results='asis', echo=FALSE}
 foo <- xtable(gDat)
 print(foo, type='html', include.rownames = FALSE)
 ```
