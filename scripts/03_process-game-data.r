@@ -82,7 +82,6 @@ game_play$oTeam <- get_opponent(game_play$dTeam)
 ## 2014-04-12_vanNH-at-pdxST: happens for some D and F events. point:
 ## D: 1, 13, 22, 23, 29, 30, 32, 43
 ## F: 6, 9, 20, 22, 24, 35
-x <- subset(game_play, point == 22)
 ## this needs to be refactored
 jFun <- function(x) {
   fix_me <- which(with(x, dNum != "" & oNum != ""))
@@ -117,10 +116,18 @@ jFun <- function(x) {
   if(is_a_score) {
     if(x$dNum[n] != '') {
       scTeam <- x$dTeam[n]
-      x$dCode[n - 1] <- 'A'
+      if(x$dNum[n - 1] == '') { # assister was fouled by the defense
+        x$dCode[n - 2] <- 'A'
+      } else {
+        x$dCode[n - 1] <- 'A'
+      }
     } else {
       scTeam <- x$oTeam[n]
-      x$oCode[n - 1] <- 'A'
+      if(x$oNum[n - 1] == '') { # assister was fouled by the defense
+        x$oCode[n - 2] <- 'A'
+      } else {
+        x$oCode[n - 1] <- 'A'
+      }
     }
   } else {
     scTeam <- NA
