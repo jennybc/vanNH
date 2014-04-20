@@ -7,7 +7,7 @@ parser = argparse.ArgumentParser(description='This is a script by jenny.')
 parser.add_argument('-g','--game', help='Game identifier', required=True)
 parser.add_argument('-p','--point', help='Point', type=int, default = 0)
 args = parser.parse_args()
- 
+
 ## advertise resolved command line args
 print ("Game identifier: %s" % args.game )
 if args.point:
@@ -59,7 +59,7 @@ for sheet_num in points_to_process:
     if team_name is None:
         print ("team_name is None ... quitting")
         break
-    
+
     print (file_num)
     sys.stdout.flush()
 
