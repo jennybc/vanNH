@@ -15,6 +15,7 @@ game_date <- tmp[1]
 tmp <- strsplit(tmp[2], split = "-")[[1]]
 away_team <- tmp[1]
 home_team <- tmp[3]
+jTeams <- sort(c(away_team, home_team))
 ```
 
 # `r away_team` at `r home_team` `r game_date`
@@ -27,12 +28,19 @@ home_roster_file <- build_roster_path(home_team)
 game_file        <- file.path("..", "games", game, "cleanGoogleExtract",
                               paste0(game, "_gameplay-clean.tsv"))
 
-sDat <- read.delim(game_file)
-away_roster <- read.delim(away_roster_file, stringsAsFactors = FALSE)
-home_roster <- read.delim(home_roster_file, stringsAsFactors = FALSE)
+sDat <- read.delim(game_file,
+                   colClasses = list(oNum = 'character', oCode = 'character',
+                                     dNum = 'character', dCode = 'character'))
+read_roster <- function(roster_file) {
+  x <- read.delim(roster_file, stringsAsFactors = FALSE)
+  x[c('number', 'last')]
+}
+away_roster <- read_roster(away_roster_file)
+home_roster <- read_roster(home_roster_file)
 
-## until I decide otherwise, make sure player numbers are character
-## replace NAs with ''
+## for now, player numbers in game data should be character
+## why? so we can use '?' for anonymous
+## make sure that is true and replace NAs with ''
 jFun <- function(x) {
   x <- as.character(x)
   x[is.na(x)] <- ""
@@ -40,78 +48,78 @@ jFun <- function(x) {
   }
 sDat <- transform(sDat, oNum = jFun(oNum), dNum = jFun(dNum))
 
+## determine 'master' code for an event
+## assumes only one of oCode and dCode is populated, which is dangerous FIX
+# tmp <- with(sDat, data.frame(oCode, dCode))
+# tmp[apply(tmp, 1, function(x) sum(x != '') > 1), ]
+sDat$code <- with(sDat, ifelse(oCode != '', oCode, dCode))
+## attribute the event to a team
+
 ## keep only D's, goals, and assists
-ddd <- with(sDat, oCode == 'D' | dCode == 'D' |  # defensed
-              oCode == 'FB' | dCode == 'FB' |    # foot block
-              oCode == 'HB' | dCode == 'HB')     # hand block
-ddd <- which(ddd)
-ggg <- with(sDat, oCode == 'G' | dCode == 'G' |  # goal
-              oCode == 'LG' | dCode == 'LG')     # long goal >40 yds
-ggg <- which(ggg)
-aaa <- ggg - 1
-keep_me <- sort(c(ddd, ggg, aaa))
-sDat <- sDat[keep_me, ]
-# add formal check that G + LG = A for oCode and dCode
-#table(sDat$oCode)
+sDat <- subset(sDat, code %in% c('A', 'D', 'G', 'LG'))
+# str(sDat)
+# table(sDat$code)
+
+## attribute the Ds, goals and assists to a team
+## at some point I need to look into / take control of jTeams vis-a-vis levels
+## of any teams factors
+tmp <- with(sDat, ifelse(oCode == '', dTeam, oTeam))
+sDat$plTeam <- jTeams[tmp]
+
+## identify the specific player associated with event
+sDat$plNum <- with(sDat, ifelse(oCode == '', dNum, oNum))
 
 ## deduce the score
-sDat$goal <- grepl('G', with(sDat, paste(oCode, dCode)))
+sDat$goal <- grepl('G', sDat$code)
 jFun <- function(x) {x[is.na(x)] <- FALSE; x}
-jLevels <- levels(sDat$dTeam)
-sDat$teamOne <- cumsum(jFun(with(sDat, goal & scTeam == jLevels[1])))
-sDat$teamTwo <- cumsum(jFun(with(sDat, goal & scTeam == jLevels[2])))
-sDat <- rename(sDat, c("teamOne" = jLevels[1], "teamTwo" = jLevels[2]))
+sDat$teamOne <- cumsum(jFun(with(sDat, goal & scTeam == jTeams[1])))
+sDat$teamTwo <- cumsum(jFun(with(sDat, goal & scTeam == jTeams[2])))
+sDat <- rename(sDat, c("teamOne" = jTeams[1], "teamTwo" = jTeams[2]))
+
+## tidy up
+vars_to_keep <- c("point", "oTeam", "dTeam", "scTeam", "code", "plTeam",
+                  "plNum", jTeams)
+sDat <- sDat[vars_to_keep]
+
+## look up player's last name
+sDat$lname <-
+  I(with(sDat,
+         ifelse(plTeam == away_team,
+                away_roster$last[match(sDat$plNum, away_roster$number)],
+                home_roster$last[match(sDat$plNum, home_roster$number)])))
+
+## deal with cases where we have no last name
+## happens when we use a number that's not on the roster or when we don't
+## capture the number and enter ? instead
+## this is fairly untested in 2014 :( 
+tmp <- is.na(sDat$lname)
+#sDat[tmp, ]
+sDat$lname[tmp] <- paste0(sDat$plTeam[tmp], "-?")
+
+sDat$player <-
+  with(sDat,
+       factor(paste(plTeam, plNum, lname, sep = "-")))
 
 ## last year, I tracked the period too ... would need to get from point_info
 # sDat$period <- c(TRUE, sDat$period[-nrow(sDat)])
 # sDat$period <- cumsum(sDat$period)
 
-## get the team associated with the players making the D, A, or G
-sDat$assist <- grepl('A', with(sDat, paste(oCode, dCode)))
-tmp <- with(sDat, ifelse(goal | assist, scTeam, NA))
-sDat$plTeam <- jLevels[tmp]
-
-## some of the D's are getting assigned to the wrong team
-
-sDat$D <- grepl('D', with(sDat, paste(oCode, dCode)))
-tmp <- with(sDat, ifelse(D & oCode == '', dTeam, oTeam))
-sDat$plTeam[sDat$D] <- jLevels[tmp[sDat$D]]
-tmp <- with(sDat,
-            ifelse(goal & (oCode == 'G' | oCode == 'LG'), dTeam, oTeam))
-sDat$plTeam[sDat$D] <- jLevels[tmp[sDat$D]]
-# with(sDat, table(oCode %in% c('D', 'A', 'G', 'LG'),
-#                  dCode %in% c('D', 'A', 'G', 'LG')))
-sDat$plNum <- with(sDat, ifelse(oCode %in% c('D', 'A', 'G', 'LG'), oNum, dNum))
-sDat$lname <- I(with(sDat,
-                     ifelse(plTeam == "vanNH",
-                            vRoster$last[match(sDat$plNum, vRoster$number)],
-                            oRoster$last[match(sDat$plNum, oRoster$number)])))
-
-## deal with cases where we have no last name
-## happens when we use a number that's not on the roster or when we don't
-## capture the number and enter ? instead
-foo <- is.na(sDat$lname)
-sDat[foo, ]
-sDat$lname[foo] <- paste0(sDat$plTeam[foo], "-unknown")
-
-sDat$player <- factor(paste(sDat$plTeam, sDat$plNum, sep = "-"))
-
-subset(sDat, select = c(point, oTeam, dTeam, oNum, oCode, dNum, dCode, plTeam, plNum, lname, player))
+## DONE WITH EVENT LEVEL DATA!
 
 ## tally events by player
-# pDat <- ddply(sDat, .(player, lastName, team), function(z) {
-#   goals <- sum(z$event == "G")
-#   assists  <-  sum(z$event == "A")
-#   Ds  <-  sum(z$event == "D")
-#   c(points = goals + assists,
-#     goals = goals, assists = assists, Ds = Ds)
-#   })
-# teamDat <- split(pDat, pDat$team)
-# teamDat <- llply(teamDat, function(z) {
-#   z <- z[order(z$points, decreasing = TRUE), ]
-#   rownames(z) <- NULL
-#   subset(z, select = -team)
-# })
+plDat <- ddply(sDat, ~ player + plTeam, function(z) {
+  goals <- sum(z$code == "G" | z$code == "LG")
+  assists <- sum(z$code == "A")
+  Ds  <-  sum(z$code == "D")
+  c(points = goals + assists,
+    goals = goals, assists = assists, Ds = Ds)
+  })
+teamDat <- split(plDat, plDat$plTeam)
+teamDat <- llply(teamDat, function(z) {
+  z <- z[order(z$points, decreasing = TRUE), ]
+  rownames(z) <- NULL
+  subset(z, select = -plTeam)
+})
 
 ## prepare to say which period we're in or if game over
 # if(sDat$eop[nrow(sDat)] == "eog") {
@@ -119,9 +127,6 @@ subset(sDat, select = c(point, oTeam, dTeam, oNum, oCode, dNum, dCode, plTeam, p
 # } else {
 #   whereInGame <- paste("period", sDat$period[nrow(sDat)])
 # }
-
-## this must be a remnant of something ad hoc I was doing?
-#z <- subset(sDat, point == 34)
 
 ## prepare for a game scoring progression table
 # gDat <- ddply(sDat, .(point),
@@ -154,8 +159,8 @@ subset(sDat, select = c(point, oTeam, dTeam, oNum, oCode, dNum, dCode, plTeam, p
 ```
 
 #### last update `r date()`:
-# Vancouver Nighthawks `r sDat$vanNH[nrow(sDat)]`
-# Seattle Rainmakers `r sDat$seaRM[nrow(sDat)]`
+# `r away_team` `r sDat[[away_team]][nrow(sDat)]`
+# `r home_team` `r sDat[[home_team]][nrow(sDat)]`
 ## `r whereInGame`
 
 Go to ...
@@ -174,24 +179,24 @@ points = goals + assists
 tables sorted in decreasing order based on points  
 stats are cumulative for this game
 
-Player stats for Vancouver Nighthawks <a id="vanNH"></a>:
-```{r results='asis', echo=FALSE, eval = FALSE}
-if(!is.null(teamDat$V)) {
-  foo <- xtable(teamDat$V)
+Player stats for `r away_team` <a id="away"></a>:
+```{r results='asis', echo=FALSE}
+if(!is.null(teamDat[[away_team]])) {
+  foo <- xtable(teamDat[[away_team]])
   print(foo, type='html', include.rownames = FALSE)
   }
 ```
 
-Player stats for Seattle Rainmakers <a id="seaRM"></a>:
-```{r results='asis', echo=FALSE, eval = FALSE}
-if(!is.null(teamDat$S)) {
-  foo <- xtable(teamDat$S)
+Player stats for `r home_team` <a id="home"></a>:
+```{r results='asis', echo=FALSE}
+if(!is.null(teamDat[[home_team]])) {
+  foo <- xtable(teamDat[[home_team]])
   print(foo, type='html', include.rownames = FALSE)
-}
+  }
 ```
 
 Raw data from which above tables are made <a id="rawData"></a>:
-```{r results='asis', echo=FALSE, eval = FALSE}
+```{r results='asis', echo=FALSE}
 foo <- xtable(sDat)
 print(foo, type='html', include.rownames = FALSE)
 ```

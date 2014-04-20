@@ -3,6 +3,12 @@ vanNH
 
 In-house statistics for the Vancouver Nighthawks of Major League Ultimate
 
+Notes
+
+  * It is evil to record info for offense and defense on the same row of the spreadsheet. Eliminate that at the source whenever possible.
+  * I am really not set up to record hand blocks (HB) and foot blocks (FB) right now. Rather I'm expecting plain D's (D).
+  * Test if I can write a note in column 3 without breaking anything; would be a good place to record, e.g. a hand block or foot block for later processing.
+
 Helpful for Python command line argument processing:
 http://www.cyberciti.biz/faq/python-command-line-arguments-argv-example/
 
