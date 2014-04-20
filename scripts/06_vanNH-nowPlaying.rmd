@@ -1,21 +1,35 @@
-Vancouver Nighthawks now playing ...
-================
-
 ```{r, echo=FALSE}
 library(xtable)
 library(plyr)
+
+# when compiled via the control script, game identifier will have been
+# read from command line and pre-stored in the environment
+# for interactive use and development, set the game here
+if(!exists("game")) { # default to first game of season, my development game
+  game <- "2014-04-12_vanNH-at-pdxST"
+  }
+
+## parse the game identifier
+tmp <- strsplit(game, split = "_")[[1]]
+game_date <- tmp[1]
+tmp <- strsplit(tmp[2], split = "-")[[1]]
+away_team <- tmp[1]
+home_team <- tmp[3]
 ```
 
+# `r away_team` at `r home_team` `r game_date`
+
 ```{r, echo=FALSE, results="hide"}
-vanNH_roster_file <- file.path("..", "rosters", "2014_vanNH-roster.tsv")
-opp_roster_file   <- file.path("..", "rosters", "2014_pdxST-roster.tsv")
-game_file         <- file.path("..", "games", "2014-04-12_vanNH-at-pdxST",
-                               "cleanGoogleExtract",
-                               "2014-04-12_vanNH-at-pdxST_gameplay-clean.tsv")
+build_roster_path <- function(team) {
+  file.path("..", "rosters", paste0("2014_", team, "-roster.tsv"))}
+away_roster_file <- build_roster_path(away_team)
+home_roster_file <- build_roster_path(home_team)
+game_file        <- file.path("..", "games", game, "cleanGoogleExtract",
+                              paste0(game, "_gameplay-clean.tsv"))
 
 sDat <- read.delim(game_file)
-vRoster <- read.delim(vanNH_roster_file, stringsAsFactors = FALSE)
-oRoster <- read.delim(opp_roster_file, stringsAsFactors = FALSE)
+away_roster <- read.delim(away_roster_file, stringsAsFactors = FALSE)
+home_roster <- read.delim(home_roster_file, stringsAsFactors = FALSE)
 
 ## until I decide otherwise, make sure player numbers are character
 ## replace NAs with ''
@@ -85,61 +99,61 @@ sDat$player <- factor(paste(sDat$plTeam, sDat$plNum, sep = "-"))
 subset(sDat, select = c(point, oTeam, dTeam, oNum, oCode, dNum, dCode, plTeam, plNum, lname, player))
 
 ## tally events by player
-pDat <- ddply(sDat, .(player, lastName, team), function(z) {
-  goals <- sum(z$event == "G")
-  assists  <-  sum(z$event == "A")
-  Ds  <-  sum(z$event == "D")
-  c(points = goals + assists,
-    goals = goals, assists = assists, Ds = Ds)
-  })
-teamDat <- split(pDat, pDat$team)
-teamDat <- llply(teamDat, function(z) {
-  z <- z[order(z$points, decreasing = TRUE), ]
-  rownames(z) <- NULL
-  subset(z, select = -team)
-})
+# pDat <- ddply(sDat, .(player, lastName, team), function(z) {
+#   goals <- sum(z$event == "G")
+#   assists  <-  sum(z$event == "A")
+#   Ds  <-  sum(z$event == "D")
+#   c(points = goals + assists,
+#     goals = goals, assists = assists, Ds = Ds)
+#   })
+# teamDat <- split(pDat, pDat$team)
+# teamDat <- llply(teamDat, function(z) {
+#   z <- z[order(z$points, decreasing = TRUE), ]
+#   rownames(z) <- NULL
+#   subset(z, select = -team)
+# })
 
 ## prepare to say which period we're in or if game over
-if(sDat$eop[nrow(sDat)] == "eog") {
-  whereInGame <- "game is complete"
-} else {
-  whereInGame <- paste("period", sDat$period[nrow(sDat)])
-}
+# if(sDat$eop[nrow(sDat)] == "eog") {
+#   whereInGame <- "game is complete"
+# } else {
+#   whereInGame <- paste("period", sDat$period[nrow(sDat)])
+# }
 
 ## this must be a remnant of something ad hoc I was doing?
 #z <- subset(sDat, point == 34)
 
 ## prepare for a game scoring progression table
-gDat <- ddply(sDat, .(point),
-              function(z) {
-                period <- z$period[nrow(z)]
-                vanNH <- z$vanNH[nrow(z)]
-                seaRM <- z$seaRM[nrow(z)]
-                comment <- z$comment[nrow(z)]
-                
-                score <- z$event == "G"
-                if(sum(score, na.rm = TRUE) == 0) {
-                  ## no score
-                  desc <- "- no score -"
-                  return(c(period = period, desc = desc,
-                           vanNH = vanNH, seaRM = seaRM,
-                           comment = comment))
-                }
-                scorer <- paste(z$player[z$event == "G"],
-                                z$lastName[z$event == "G"])
-                assist <- z$event == "A"
-                assister <- paste(z$player[z$event == "A"],
-                                  z$lastName[z$event == "A"])
-                if(length(assister) != 1) assister <- NA
-                desc <- paste(assister, "to", scorer)
-                return(c(period = period, desc = desc,
-                         vanNH = vanNH, seaRM = seaRM,
-                         comment = comment))
-                })
-gDat <- gDat[rev(seq_len(nrow(gDat))), ]
+# gDat <- ddply(sDat, .(point),
+#               function(z) {
+#                 period <- z$period[nrow(z)]
+#                 vanNH <- z$vanNH[nrow(z)]
+#                 seaRM <- z$seaRM[nrow(z)]
+#                 comment <- z$comment[nrow(z)]
+#                 
+#                 score <- z$event == "G"
+#                 if(sum(score, na.rm = TRUE) == 0) {
+#                   ## no score
+#                   desc <- "- no score -"
+#                   return(c(period = period, desc = desc,
+#                            vanNH = vanNH, seaRM = seaRM,
+#                            comment = comment))
+#                 }
+#                 scorer <- paste(z$player[z$event == "G"],
+#                                 z$lastName[z$event == "G"])
+#                 assist <- z$event == "A"
+#                 assister <- paste(z$player[z$event == "A"],
+#                                   z$lastName[z$event == "A"])
+#                 if(length(assister) != 1) assister <- NA
+#                 desc <- paste(assister, "to", scorer)
+#                 return(c(period = period, desc = desc,
+#                          vanNH = vanNH, seaRM = seaRM,
+#                          comment = comment))
+#                 })
+# gDat <- gDat[rev(seq_len(nrow(gDat))), ]
 ```
 
-## At last update (`r date()`):
+#### last update `r date()`:
 # Vancouver Nighthawks `r sDat$vanNH[nrow(sDat)]`
 # Seattle Rainmakers `r sDat$seaRM[nrow(sDat)]`
 ## `r whereInGame`
@@ -151,7 +165,7 @@ Go to ...
   * [Raw data](#rawData)
 
 Scoring progression<a id="scoringProgression"></a>:
-```{r results='asis', echo=FALSE}
+```{r results='asis', echo=FALSE, eval = FALSE}
 foo <- xtable(gDat)
 print(foo, type='html', include.rownames = FALSE)
 ```
@@ -161,7 +175,7 @@ tables sorted in decreasing order based on points
 stats are cumulative for this game
 
 Player stats for Vancouver Nighthawks <a id="vanNH"></a>:
-```{r results='asis', echo=FALSE}
+```{r results='asis', echo=FALSE, eval = FALSE}
 if(!is.null(teamDat$V)) {
   foo <- xtable(teamDat$V)
   print(foo, type='html', include.rownames = FALSE)
@@ -169,7 +183,7 @@ if(!is.null(teamDat$V)) {
 ```
 
 Player stats for Seattle Rainmakers <a id="seaRM"></a>:
-```{r results='asis', echo=FALSE}
+```{r results='asis', echo=FALSE, eval = FALSE}
 if(!is.null(teamDat$S)) {
   foo <- xtable(teamDat$S)
   print(foo, type='html', include.rownames = FALSE)
@@ -177,12 +191,12 @@ if(!is.null(teamDat$S)) {
 ```
 
 Raw data from which above tables are made <a id="rawData"></a>:
-```{r results='asis', echo=FALSE}
+```{r results='asis', echo=FALSE, eval = FALSE}
 foo <- xtable(sDat)
 print(foo, type='html', include.rownames = FALSE)
 ```
 
-```{r, echo=FALSE, results="hide"}
+```{r, echo=FALSE, results="hide", eval = FALSE}
 ## one off analysis
 ## looking for double happinesses
 dhDat <- dlply(sDat, .(point),
