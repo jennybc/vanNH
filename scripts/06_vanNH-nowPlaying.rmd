@@ -167,8 +167,8 @@ gDat <- gDat[rev(seq_len(nrow(gDat))), ]
 
 Go to ...
   * [Scoring progression](#scoringProgression)
-  * [Player stats for Vancouver Nighthawks](#vanNH)
-  * [Player stats for Seattle Rainmakers](#seaRM)
+  * [Player stats for `r away_team`](#away)
+  * [Player stats for `r home_team`](#home)
   * [Raw data](#rawData)
 
 Scoring progression<a id="scoringProgression"></a>:
