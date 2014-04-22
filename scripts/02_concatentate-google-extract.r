@@ -3,11 +3,17 @@ library(plyr)
 
 options <- commandArgs(trailingOnly = TRUE)
 
-#game <- "2014-04-12_vanNH-at-pdxST"
-game <- options[1]
+if(length(options) < 1) {
+  #game <- "2014-04-12_vanNH-at-pdxST"
+  game <- "2014-04-20_sfoDF-at-vanNH"
+} else {
+  game <- options[1]
+}
 
 game_dir <-
   list.files(file.path("..", "games"), pattern = game, full.names = TRUE)
+## TO DO: the above matches multiple directories if I have, e.g.:
+## 2014-04-20_sfoDF-at-vanNH and 2014-04-20_sfoDF-at-vanNH_GAMETIME
 google_dir <- file.path(game_dir, "rawGoogleExtract")
 google_files <- list.files(google_dir, full.names = TRUE)
 nPoints <- length(google_files)
