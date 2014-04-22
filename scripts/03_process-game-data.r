@@ -4,7 +4,8 @@ library(plyr)
 options <- commandArgs(trailingOnly = TRUE)
 
 if(length(options) < 1) {
-  game <- "2014-04-12_vanNH-at-pdxST"
+  #game <- "2014-04-12_vanNH-at-pdxST"
+  game <- "2014-04-20_sfoDF-at-vanNH"
 } else {
   game <- options[1]
 }
@@ -31,7 +32,7 @@ game_play <-
 
 ## formalize this later ... I want to see NO LETTERS here!
 # table(substr(game_play$Defense, 1, 1))
-# table(substr(game_play$Defense, 1, 1))
+# table(substr(game_play$Offense, 1, 1))
 #       1   2   3   4   5   6   7   8   9 
 # 415  27  40  23  19   5  17  13  72   9 
 
