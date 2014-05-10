@@ -4,11 +4,13 @@ import gspread
 import argparse, sys
 
 parser = argparse.ArgumentParser(description='This is a script by jenny.')
+parser.add_argument('-gg','--googame', help='Google doc name', required=True)
 parser.add_argument('-g','--game', help='Game identifier', required=True)
 parser.add_argument('-p','--point', help='Point', type=int, default = 0)
 args = parser.parse_args()
 
 ## advertise resolved command line args
+print ("Google doc name: %s" % args.googame )
 print ("Game identifier: %s" % args.game )
 if args.point:
     print ("Point: %d" % args.point )
@@ -22,7 +24,7 @@ password = password.rstrip()
 
 ## access the Google doc
 gc = gspread.login(username, password)
-sh = gc.open(args.game)
+sh = gc.open(args.googame)
 worksheet_list = sh.worksheets()
 
 ## determine which point(s) to process
@@ -37,7 +39,7 @@ else:
 #for sheet_num in range(5):
 for sheet_num in points_to_process:
 
-    # get naming correct. Also, Python indexes by zero!
+    # get naming correct. Also, Python indexes from zero!
     if sheet_num < 9:
         file_num = "0" + str(sheet_num+1)
     else:
@@ -52,6 +54,9 @@ for sheet_num in points_to_process:
     ## some identifiers for point-level info ... currently not used
     #point_level_identifier = worksheet.col_values(3)
     ## actual point-level info
+    
+    ## TO DO: make this more robust when there's no data in the pulling team
+    ## field but the drop-down menu has been set-up
     point_level_info = worksheet.col_values(4)
 
     team_name, period, clock_before, clock_after = point_level_info[0:4]
