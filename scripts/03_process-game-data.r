@@ -5,10 +5,19 @@ options <- commandArgs(trailingOnly = TRUE)
 
 if(length(options) < 1) {
   #game <- "2014-04-12_vanNH-at-pdxST"
-  game <- "2014-04-20_sfoDF-at-vanNH"
+  #game <- "2014-04-20_sfoDF-at-vanNH"
+  game <- "2014-05-10_seaRM-at-vanNH"
 } else {
   game <- options[1]
 }
+
+## parse the game identifier
+tmp <- strsplit(game, split = "_")[[1]]
+game_date <- tmp[1]
+tmp <- strsplit(tmp[2], split = "-")[[1]]
+away_team <- tmp[1]
+home_team <- tmp[3]
+jTeams <- sort(c(away_team, home_team))
 
 game_dir <- file.path("..", "games", game, "concatGoogleExtract")
 
@@ -23,7 +32,8 @@ str(point_info)
 ## add short version of the teams
 mlu_teams <- read.delim(file.path("..", "data", "mlu-teams.tsv"))
 point_info$pullTeam <-
-  factor(mlu_teams$team[match(point_info$Pulling.team, mlu_teams$longName)])
+  factor(mlu_teams$team[match(point_info$Pulling.team, mlu_teams$longName)],
+         levels = jTeams)
 
 ## replace NAs in game_play$Offense and game_play$Defense with ""
 jFun <- function(x) {x[is.na(x)] <- ""; return(x)}
@@ -64,8 +74,7 @@ if(game == "2014-04-12_vanNH-at-pdxST") {
 }
 
 ## add variables to hold team on O and on D
-game_play$oTeam <- game_play$dTeam <- 
-  factor(NA, levels = levels(point_info$pullTeam))
+game_play$oTeam <- game_play$dTeam <- factor(NA, levels = jTeams)
 game_play$dTeam <- rep(point_info$pullTeam,
                        aggregate(event ~ point, game_play, max)$event)
 ## populate oTeam based on dTeam

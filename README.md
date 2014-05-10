@@ -18,7 +18,6 @@ Things I learned prepping for 2014-05-10_seaRM-at-vanNH
 To do
 
   * share link to [live game page](http://www.stat.ubc.ca/~jenny/notOcto/vanNH/vanNH_nowPlaying.html) with the right people
-  * figure out why test game doesn't "work" until I've got ~ 3 points; of course, as I prep for 2014-05-10_seaRM-at-vanNH, I can't reproduce this problem
   * make it easy for me to insert a message into the live game page, such as "fake data, prepping for game" or "final"
   * players print ugly when their number is not found in the roster; fix that
   * serve up all the games I've ever done, instead of just the current game
