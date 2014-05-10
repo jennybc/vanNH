@@ -3,22 +3,37 @@ vanNH
 
 In-house statistics for the Vancouver Nighthawks of Major League Ultimate
 
+Things I learned prepping for 2014-05-10_seaRM-at-vanNH
+
+  * To pass my Python script a Google spreadsheet name with all sorts of awful spaces and punctuation in it, this will work, i.e. surround it with single quotes
+  
+        ./01_extract-data-from-google-spreadsheet.py -gg 'Official Statistics - 2014 - Week 5 - 5/10 - Rainmakers @ Nighthawks' -g 2014-05-10_seaRM-at-vanNH
+
+  * To use my Makefile target to do same, surround it with single AND double quotes
+
+        make eg_all GOOGAME='"Official Statistics - 2014 - Week 5 - 5/10 - Rainmakers @ Nighthawks"' GAME=2014-05-10_seaRM-at-vanNH
+
+  * Note: neither of those is necessary during live game work because I set a default value for `GOOGAME` and `GAME` inside the Makefile now
+
 To do
 
-  * figure out why test game doesn't "work" until I've got ~ 3 points
-    - use Transmit or Make to push to web
-    - share link with the right people
+  * share link to [live game page](http://www.stat.ubc.ca/~jenny/notOcto/vanNH/vanNH_nowPlaying.html) with the right people
+  * figure out why test game doesn't "work" until I've got ~ 3 points; of course, as I prep for 2014-05-10_seaRM-at-vanNH, I can't reproduce this problem
+  * make it easy for me to insert a message into the live game page, such as "fake data, prepping for game" or "final"
+  * players print ugly when their number is not found in the roster; fix that
+  * serve up all the games I've ever done, instead of just the current game
   * Makefile stuff
-    - `make yo GAME=2014-04-12_vanNH-at-pdxST POINT=3` adds Google data for point 3 and reruns all the R stuff
-    - `make clean_goog GAME=2014-04-12_vanNH-at-pdxST` cleans out the `rawGoogleExtract` directory
-    - `make eg_pt GAME=2014-04-12_vanNH-at-pdxST POINT=7` processes worksheet = point 7
-    - `make eg_all GAME=2014-04-12_vanNH-at-pdxST` processes all worksheets
-    - `make r_bits GAME=2014-04-12_vanNH-at-pdxST` runs all the R scripts
-    - `make clean_cat GAME=2014-04-12_vanNH-at-pdxST` cleans out the raw, concatenated Google info
-    - `make cat_goog GAME=2014-04-12_vanNH-at-pdxST` concatenates the raw Google info
-    - `make clean_proc GAME=2014-04-12_vanNH-at-pdxST` cleans out the clean, processed game data
-    - `make proc_goog GAME=2014-04-12_vanNH-at-pdxST` processes the game
-    - `make web` bakes the webpage (currently hard-wired for game)
+    - __assuming the `GOOGAME` and `GAME` have been set up in the Makefile and are not being passed constantly via command line__
+    - `make yo POINT=3` adds Google data for point 3 and reruns all the R stuff
+    - `make clean_goog` cleans out the `rawGoogleExtract` directory
+    - `make eg_pt POINT=7` processes worksheet = point 7
+    - `make eg_all` processes all worksheets
+    - `make r_bits` runs all the R scripts
+    - `make clean_cat` cleans out the raw, concatenated Google info
+    - `make cat_goog` concatenates the raw Google info
+    - `make clean_proc` cleans out the clean, processed game data
+    - `make proc_goog` processes the game
+    - `make web` bakes the webpage
 
 Notes
 
