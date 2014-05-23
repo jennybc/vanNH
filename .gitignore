@@ -6,3 +6,5 @@ pvt/*
 *gameplay-raw*
 *gameplay-clean*
 README.html
+.RData
+*.ipynb
