@@ -101,7 +101,8 @@ sDat$lname <-
 ## this is fairly untested in 2014 :( 
 tmp <- is.na(sDat$lname)
 #sDat[tmp, ]
-sDat$lname[tmp] <- paste0(sDat$plTeam[tmp], "-?")
+#sDat$lname[tmp] <- paste0(sDat$plTeam[tmp], "-?")
+sDat$lname[tmp] <- "?name?"
 
 sDat$player <-
   with(sDat,
