@@ -23,10 +23,10 @@ clean_cat:
 cat_goog: 02_concatentate-google-extract.r
 	Rscript ./02_concatentate-google-extract.r $(GAME)
 
-clean_proc:
-	rm -rf ../games/$(GAME)/cleanGoogleExtract/*
+clean_clean:
+	rm -rf ../games/$(GAME)/04_cleanedGame/*
 
-proc_goog: 03_process-game-data.r
+clean_goog: 03_process-game-data.r
 	Rscript ./03_process-game-data.r $(GAME)
 
 old_web: 06_vanNH-nowPlaying.rmd
