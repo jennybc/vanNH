@@ -3,6 +3,8 @@ vanNH
 
 In-house statistics for the Vancouver Nighthawks of Major League Ultimate
 
+http://www.stat.ubc.ca/~jenny/notOcto/vanNH/vanNH_nowPlaying.html
+
 Things I learned prepping for 2014-05-10_seaRM-at-vanNH
 
   * To pass my Python script a Google spreadsheet name with all sorts of awful spaces and punctuation in it, this will work, i.e. surround it with single quotes
@@ -20,7 +22,6 @@ To do
   * create a structure for serving multiple games
   * fix the Makefile for sync
   * write script to initialize a game
-  * knit in a way that I can save and commit intermediate markdown (or make it easy to preview the HTML off of github)
   * share link to [live game page](http://www.stat.ubc.ca/~jenny/notOcto/vanNH/vanNH_nowPlaying.html) with the right people
   * formalize these distinct concepts of a team
     - specific team identity, e.g. Vancouver Nighthawks or Seattle Rainmakers -- an absolute definition of team (in theory, could even be specific to a season or a game)

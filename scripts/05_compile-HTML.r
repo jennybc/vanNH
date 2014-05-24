@@ -10,6 +10,7 @@
 ## but purpose #1 is not easy to address that way; hence this script
 
 library(knitr)
+library(markdown)
 
 options <- commandArgs(trailingOnly = TRUE)
 
@@ -26,6 +27,12 @@ rm(pathToCSS)
 
 out_dir <- file.path("..", "games", game, "05_htmlArchive")
 if(!file.exists(out_dir)) dir.create(out_dir)
-out_file <- file.path(out_dir, paste0(game, "_live-stats.html"))
-knit2html('06_vanNH-nowPlaying.rmd', output = out_file, quiet = TRUE)
-message("wrote ", out_file)
+md_file <- file.path(out_dir, paste0(game, "_live-stats.md"))
+html_file <- file.path(out_dir, paste0(game, "_live-stats.html"))
+md_file <- knit('06_vanNH-nowPlaying.rmd', output = md_file, quiet = TRUE)
+message("wrote ", md_file)
+markdownToHTML(md_file, output = html_file,
+               stylesheet = file.path(path.expand("~/"),
+                                      "resources/css/jasonm23-markdown-css-themes",
+                                      "markdown7.css"))
+message("wrote ", html_file)
