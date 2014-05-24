@@ -10,11 +10,7 @@ if(length(options) < 1) {
   game <- options[1]
 }
 
-game_dir <-
-  list.files(file.path("..", "games"), pattern = game, full.names = TRUE)
-## TO DO: the above matches multiple directories if I have, e.g.:
-## 2014-04-20_sfoDF-at-vanNH and 2014-04-20_sfoDF-at-vanNH_GAMETIME
-## that's not good; fix it
+game_dir <- file.path("..", "games", game)
 google_dir <- file.path(game_dir, "01_rawGoogleExtract")
 google_files <- list.files(google_dir, full.names = TRUE)
 nPoints <- length(google_files)
