@@ -6,7 +6,7 @@ all: liveStats sync
 liveStats: vanNH_nowPlaying.html
 
 clean_goog:
-	rm -rf ../games/$(GAME)/rawGoogleExtract/*
+	rm -rf ../games/$(GAME)/01_rawGoogleExtract/*
 
 eg_all: 01_extract-data-from-google-spreadsheet.py
 	./01_extract-data-from-google-spreadsheet.py -gg $(GOOGAME) -g $(GAME)
