@@ -1,9 +1,8 @@
-GOOGAME ?= "Official Statistics - 2014 - Week 2 - 4/20 - Dogfish @ Nighthawks"
-GAME ?= 2014-04-20_sfoDF-at-vanNH
+#GOOGAME ?= "Official Statistics - 2014 - Week 2 - 4/20 - Dogfish @ Nighthawks"
+#GAME ?= 2014-04-20_sfoDF-at-vanNH
 
-
-#GOOGAME ?= "Official Statistics - 2014 - Week 5 - 5/10 - Rainmakers @ Nighthawks"
-#GAME ?= 2014-05-10_seaRM-at-vanNH
+GOOGAME ?= "Official Statistics - 2014 - Week 5 - 5/10 - Rainmakers @ Nighthawks"
+GAME ?= 2014-05-10_seaRM-at-vanNH
 
 all: liveStats sync
 
@@ -32,6 +31,9 @@ clean_game: 03_process-game-data.r
 
 web: 06_vanNH-nowPlaying.rmd
 	./05_compile-HTML.r $(GAME)
+
+web_copy:
+	cp ../games/$(GAME)/05_htmlArchive/$(GAME)_live-stats.html ../web/
 
 r_bits: clean_cat clean_clean cat_goog clean_game web
 
