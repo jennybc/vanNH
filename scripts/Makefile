@@ -44,12 +44,16 @@ web_copy:
 set_web:
 	cd ../web; cp $(GAME)_live-stats.html vanNH_nowPlaying.html
 
-compile_index: 
-	cd ../web; Rscript -e "library(markdown); markdownToHTML('index.md')"
+# this works if not using Preview version of RStudio, new rmarkdown package, very recent version of Pandoc
+#index.html: ../web/index.md 
+#	cd ../web; Rscript -e "library(markdown); markdownToHTML('index.md', output = 'index.html', stylesheet = file.path(path.expand('~/'), 'resources/css/jasonm23-markdown-css-themes', 'markdown7.css'))"
+
+index.html: ../web/index.md 
+	cd ../web; Rscript -e "rmarkdown::render('index.md')"
 
 r_bits: clean_cat clean_clean cat_goog clean_game web
 
-yo: eg_pt clean_cat clean_clean cat_goog clean_game web web_copy sync
+yo: eg_pt clean_cat clean_clean cat_goog clean_game web web_copy set_web sync
 
 sync:
 	cd ../web; rsync -av --exclude-from=/Users/jenny/.rsync/exclude ./ jenny@stat.ubc.ca:public_html/notOcto/vanNH/

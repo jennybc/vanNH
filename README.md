@@ -5,6 +5,10 @@ In-house statistics for the Vancouver Nighthawks of Major League Ultimate
 
 <http://www.stat.ubc.ca/~jenny/notOcto/vanNH/>
 
+Things I learned prepping for 2014-05-24_pdxST-at-vanNH
+
+  * It is lethal right now to forget to populate the Pulling Team field. I have GOT to fix that soon.
+
 Things I learned prepping for 2014-05-10_seaRM-at-vanNH
 
   * To pass my Python script a Google spreadsheet name with all sorts of awful spaces and punctuation in it, this will work, i.e. surround it with single quotes
