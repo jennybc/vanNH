@@ -19,6 +19,11 @@ To do
 
   * share link to [live game page](http://www.stat.ubc.ca/~jenny/notOcto/vanNH/vanNH_nowPlaying.html) with the right people
   * make it easy for me to insert a message into the live game page, such as "fake data, prepping for game" or "final"
+  * formalize these distinct concepts of a team
+    - specific team identity, e.g. Vancouver Nighthawks or Seattle Rainmakers -- an absolute definition of team (in theory, could even be specific to a season or a game)
+    - home team vs away team -- absolute *within a game*
+    - pulling team vs receiving team -- absolute *within a point*
+    - offense vs defense -- relative
   * serve up all the games I've ever done, instead of just the current game
   * Makefile stuff
     - __assuming the `GOOGAME` and `GAME` have been set up in the Makefile and are not being passed constantly via command line__
