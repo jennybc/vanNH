@@ -1,13 +1,15 @@
 #!/usr/bin/Rscript
 
-## this script had two purposes
+## this script has two purposes
 ##   1 command line argument processing -- specifically getting the game
-##   2 knitting to HTML the vanNH-nowPlaying.rmd
+##   2 knitting vanNH-nowPlaying.rmd to HTML 
 
 ## note that purpose #2 can be achieved through a target like this in a Makefile:
-# web: 06_vanNH-nowPlaying.rmd
-#   Rscript -e "library(knitr); knit2html('06_vanNH-nowPlaying.rmd')"
+# web: vanNH-nowPlaying.rmd
+#   Rscript -e "library(knitr); knit2html('vanNH-nowPlaying.rmd')"
 ## but purpose #1 is not easy to address that way; hence this script
+
+library(knitr)
 
 options <- commandArgs(trailingOnly = TRUE)
 
@@ -17,5 +19,8 @@ if(length(options) < 1) {
   game <- options[1]
 }
 
-library(knitr)
-knit2html('06_vanNH-nowPlaying.rmd')
+out_dir <- file.path("..", "games", game, "05_htmlArchive")
+if(!file.exists(out_dir)) dir.create(out_dir)
+out_file <- file.path(out_dir, paste0(game, "_live-stats.html"))
+knit2html('06_vanNH-nowPlaying.rmd', output = out_file, quiet = TRUE)
+message("wrote ", out_file)
