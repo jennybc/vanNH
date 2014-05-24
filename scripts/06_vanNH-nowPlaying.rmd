@@ -66,6 +66,9 @@ sDat <- transform(sDat, oNum = jFun(oNum), dNum = jFun(dNum))
 sDat$code <- with(sDat, ifelse(oCode != '', oCode, dCode))
 ## attribute the event to a team
 
+## save a version of sDat to display as raw data
+sDat_safe <- sDat
+
 ## keep only D's, goals, and assists
 sDat <- subset(sDat, code %in% c('A', 'D', 'G', 'LG'))
 # str(sDat)
@@ -197,6 +200,7 @@ Go to ...
   * [Player stats for `r away_team`](#away)
   * [Player stats for `r home_team`](#home)
   * [Data on goals, assists, D's](#selectData)
+  * [Full raw data](#rawData)
 
 ## Scoring progression<a id="scoringProgression"></a>:
 ```{r results='asis', echo=FALSE}
@@ -235,6 +239,16 @@ if(!is.null(teamDat[[home_team]])) {
 foo <- xtable(sDat)
 print(foo, type='html', include.rownames = FALSE)
 ```
+
+## Full raw data<a id="rawData"></a>:
+
+__Note: just for display purposes.__ Raw data in more useful forms can be found in the [GitHub repository](https://github.com/jennybc/vanNH). Find the game you're interested in in the `games` subdirectory.
+
+```{r results='asis', echo=FALSE}
+foo <- xtable(sDat_safe)
+print(foo, type='html', include.rownames = FALSE)
+```
+
 
 ```{r, echo=FALSE, results="hide", eval = FALSE}
 ## one off analysis
