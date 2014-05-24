@@ -35,15 +35,24 @@ web: 06_vanNH-nowPlaying.rmd
 web_copy:
 	cp ../games/$(GAME)/05_htmlArchive/$(GAME)_live-stats.html ../web/
 
+## the resulting symlink does not work on the server; gets this error:
+## Forbidden
+## You don't have permission to access /~jenny/notOcto/vanNH/vanNH_nowPlaying.html on this server.
+##set_web:
+##	ln -s ../web/$(GAME)_live-stats.html ../web/vanNH_nowPlaying.html
+
+set_web:
+	cd ../web; cp $(GAME)_live-stats.html vanNH_nowPlaying.html
+
 compile_index: 
-	cd ../web; Rscript -e "library(rmarkdown); render('index.md')"
+	cd ../web; Rscript -e "library(markdown); markdownToHTML('index.md')"
 
 r_bits: clean_cat clean_clean cat_goog clean_game web
 
 yo: eg_pt clean_cat clean_clean cat_goog clean_game web web_copy sync
 
 sync:
-	rsync -av --exclude-from=/Users/jenny/.rsync/exclude vanNH_nowPlaying.html jenny@stat.ubc.ca:public_html/notOcto/vanNH/
+	cd ../web; rsync -av --exclude-from=/Users/jenny/.rsync/exclude ./ jenny@stat.ubc.ca:public_html/notOcto/vanNH/
 
 clean:
 	rm -rf *.md *.html *~ figure/

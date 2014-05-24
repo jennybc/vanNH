@@ -3,7 +3,7 @@ vanNH
 
 In-house statistics for the Vancouver Nighthawks of Major League Ultimate
 
-http://www.stat.ubc.ca/~jenny/notOcto/vanNH/vanNH_nowPlaying.html
+<http://www.stat.ubc.ca/~jenny/notOcto/vanNH/>
 
 Things I learned prepping for 2014-05-10_seaRM-at-vanNH
 
@@ -20,7 +20,6 @@ Things I learned prepping for 2014-05-10_seaRM-at-vanNH
 To do
 
   * sort out the offline access for Google spreadsheet
-  * fix the Makefile for sync
   * write script to initialize a game
   * share link to [live game page](http://www.stat.ubc.ca/~jenny/notOcto/vanNH/vanNH_nowPlaying.html) with the right people
   * formalize these distinct concepts of a team
@@ -39,9 +38,11 @@ To do
     - `make clean_clean` cleans out the clean, processed game data, sitting in `04_cleanedGame`
     - `make clean_game` processes the game
     - `make web` bakes the "now playing" style game webpage
+    - `make web_copy` copies the "now playing" webpage into `web`
+    - `make set_web` copies the "now playing" webpage to `vanNH_nowPlaying.html`; ideally this would be just symlinking but I'm having trouble with that and can't troubleshoot now
+    - `make compile_index` compiles `web/index.md`; should only need to be re-done when new game is added to `index.md`
     - `make r_bits` runs all the R scripts
-    
-    
+    - `make sync` syncs `web/*` to `notOcto/vanNH` subdirectory of my stat website  
 
 Notes
 
