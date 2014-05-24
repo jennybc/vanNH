@@ -8,8 +8,8 @@ library(yaml)
 # for interactive use and development, set the game here
 if(!exists("game")) {
   #game <- "2014-04-12_vanNH-at-pdxST"
-  game <- "2014-04-20_sfoDF-at-vanNH"
-  #game <- "2014-05-10_seaRM-at-vanNH"
+  #game <- "2014-04-20_sfoDF-at-vanNH"
+  game <- "2014-05-10_seaRM-at-vanNH"
   }
 
 ## parse the game identifier
@@ -46,7 +46,7 @@ sDat <- read.delim(game_file,
 
 point_file <- file.path("..", "games", game, "04_cleanedGame",
                        paste0(game, "_points-clean.tsv"))
-point_info <- read.delim(point_file)
+point_info <- read.delim(point_file, stringsAsFactors = FALSE)
 sDat$period <- point_info$Period[match(sDat$point, point_info$point)]
   
 ## for now, player numbers in game data should be character
@@ -139,11 +139,25 @@ teamDat <- llply(teamDat, function(z) {
 ## prepare game scoring progression table
 gDat <- ddply(sDat, ~ point,
               function(z) {
+                point <- z$point[1]
                 period <- z$period[nrow(z)]
                 away_score <- z[[away_team]][nrow(z)]
                 home_score <- z[[home_team]][nrow(z)]
                 #comment <- z$comment[nrow(z)]
                 
+                time_before_after <-
+                  unlist(point_info[point_info$point == point,
+                                    grep("Clock", names(point_info))])
+                names(time_before_after) <- NULL
+                point_duration <-
+                  -1 * diff(laply(strsplit(time_before_after, split = ":"),
+                                  function(x) {
+                                    x <- as.numeric(x)
+                                    x[1] * 60 + x[2]
+                                    }))
+                point_duration_text <-
+                  sprintf("%02d:%02d", point_duration %/% 60, point_duration %% 60)
+
                 score <- z$code == "G" | z$code == "LG"
                 if(sum(score, na.rm = TRUE) == 0) {
                   ## no score
@@ -159,7 +173,11 @@ gDat <- ddply(sDat, ~ point,
                                   z$lastName[z$code == "A"])
                 if(length(assister) != 1) assister <- NA
                 desc <- paste(assister, "to", scorer)
-                ret_val <- c(period = period, desc = desc,
+                ret_val <- c(period = period, 
+                             begin = time_before_after[1],
+                             end = time_before_after[2],
+                             pt_duration = point_duration_text,
+                             desc = desc,
                              away_score = away_score,
                              home_score = home_score)
                 names(ret_val)[grep("away", names(ret_val))] <- away_team
