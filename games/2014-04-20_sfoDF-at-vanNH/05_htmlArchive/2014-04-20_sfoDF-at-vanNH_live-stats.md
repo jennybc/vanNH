@@ -4,7 +4,7 @@
 
 
 
-#### last update Sat May 24 10:58:30 2014
+#### last update Sat May 24 13:29:01 2014
 # sfoDF 15
 # vanNH 26
 ## game is complete
@@ -17,7 +17,7 @@ Go to ...
 
 ## Scoring progression<a id="scoringProgression"></a>:
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sat May 24 10:58:30 2014 -->
+<!-- Sat May 24 13:29:01 2014 -->
 <TABLE border=1>
 <TR> <TH> point </TH> <TH> period </TH> <TH> desc </TH> <TH> sfoDF </TH> <TH> vanNH </TH>  </TR>
   <TR> <TD align="right">  44 </TD> <TD> 4 </TD> <TD> sfoDF-83-Husak  to sfoDF-21-Stearns  </TD> <TD> 15 </TD> <TD> 26 </TD> </TR>
@@ -72,7 +72,7 @@ tables sorted in decreasing order based on points
 stats are cumulative for this game
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sat May 24 10:58:30 2014 -->
+<!-- Sat May 24 13:29:01 2014 -->
 <TABLE border=1>
 <TR> <TH> player </TH> <TH> points </TH> <TH> goals </TH> <TH> assists </TH> <TH> Ds </TH>  </TR>
   <TR> <TD> sfoDF-34-Boucher </TD> <TD align="right">   7 </TD> <TD align="right">   3 </TD> <TD align="right">   4 </TD> <TD align="right">   1 </TD> </TR>
@@ -97,7 +97,7 @@ tables sorted in decreasing order based on points
 stats are cumulative for this game
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sat May 24 10:58:30 2014 -->
+<!-- Sat May 24 13:29:01 2014 -->
 <TABLE border=1>
 <TR> <TH> player </TH> <TH> points </TH> <TH> goals </TH> <TH> assists </TH> <TH> Ds </TH>  </TR>
   <TR> <TD> vanNH-98-wong </TD> <TD align="right">  10 </TD> <TD align="right">   7 </TD> <TD align="right">   3 </TD> <TD align="right">   0 </TD> </TR>
@@ -127,7 +127,7 @@ stats are cumulative for this game
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sat May 24 10:58:30 2014 -->
+<!-- Sat May 24 13:29:01 2014 -->
 <TABLE border=1>
 <TR> <TH> period </TH> <TH> point </TH> <TH> oTeam </TH> <TH> dTeam </TH> <TH> scTeam </TH> <TH> code </TH> <TH> plTeam </TH> <TH> plNum </TH> <TH> sfoDF </TH> <TH> vanNH </TH> <TH> lname </TH> <TH> player </TH>  </TR>
   <TR> <TD align="right">   1 </TD> <TD align="right">   1 </TD> <TD> sfoDF </TD> <TD> vanNH </TD> <TD> vanNH </TD> <TD> D </TD> <TD> vanNH </TD> <TD> 27 </TD> <TD align="right">   0 </TD> <TD align="right">   0 </TD> <TD> davis </TD> <TD> vanNH-27-davis </TD> </TR>

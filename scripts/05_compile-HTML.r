@@ -32,6 +32,7 @@ html_file <- file.path(out_dir, paste0(game, "_live-stats.html"))
 md_file <- knit('06_vanNH-nowPlaying.rmd', output = md_file, quiet = TRUE)
 message("wrote ", md_file)
 markdownToHTML(md_file, output = html_file,
+               header = '<a href="index.html">Back to index</a>',
                stylesheet = file.path(path.expand("~/"),
                                       "resources/css/jasonm23-markdown-css-themes",
                                       "markdown7.css"))
