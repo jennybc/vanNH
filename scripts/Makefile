@@ -1,15 +1,13 @@
 #GOOGAME ?= "Official Statistics - 2014 - Week 2 - 4/20 - Dogfish @ Nighthawks"
 #GAME ?= 2014-04-20_sfoDF-at-vanNH
 
-GOOGAME ?= "Official Statistics - 2014 - Week 5 - 5/10 - Rainmakers @ Nighthawks"
-GAME ?= 2014-05-10_seaRM-at-vanNH
+#GOOGAME ?= "Official Statistics - 2014 - Week 5 - 5/10 - Rainmakers @ Nighthawks"
+#GAME ?= 2014-05-10_seaRM-at-vanNH
 
-#GOOGAME ?= "Official Statistics - 2014 - Week 7 - 5/24 - Stags @ Nighthawks"
-#GAME ?= 2014-05-24_pdxST-at-vanNH
+GOOGAME ?= "Official Statistics - 2014 - Week 7 - 5/24 - Stags @ Nighthawks"
+GAME ?= 2014-05-24_pdxST-at-vanNH
 
 all: liveStats sync
-
-liveStats: vanNH_nowPlaying.html
 
 clean_raw:
 	rm -rf ../games/$(GAME)/01_rawGoogleExtract/*
@@ -54,7 +52,7 @@ set_web:
 index.html: ../web/index.md 
 	cd ../web; Rscript -e "rmarkdown::render('index.md')"
 
-r_bits: clean_cat clean_clean cat_goog clean_game web
+r_bits: clean_cat clean_clean cat_goog clean_game web web_copy
 
 yo: eg_pt clean_cat clean_clean cat_goog clean_game web web_copy set_web sync
 
