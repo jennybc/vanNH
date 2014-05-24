@@ -1,0 +1,52 @@
+point	event	oTeam	dTeam	oNum	oCode	dNum	dCode	scTeam
+1	1	vanNH	pdxST			24	P	vanNH
+1	2	vanNH	pdxST	19	PU			vanNH
+1	3	vanNH	pdxST	89				vanNH
+1	4	vanNH	pdxST	19				vanNH
+1	5	vanNH	pdxST	89				vanNH
+1	6	vanNH	pdxST	21				vanNH
+1	7	vanNH	pdxST	19				vanNH
+1	8	vanNH	pdxST	5				vanNH
+1	9	vanNH	pdxST	19				vanNH
+1	10	vanNH	pdxST	98				vanNH
+1	11	vanNH	pdxST	21				vanNH
+1	12	vanNH	pdxST	19				vanNH
+1	13	vanNH	pdxST	5				vanNH
+1	14	vanNH	pdxST	19				vanNH
+1	15	vanNH	pdxST			21	F	vanNH
+1	16	vanNH	pdxST	5				vanNH
+1	17	vanNH	pdxST	89				vanNH
+1	18	vanNH	pdxST	5				vanNH
+1	19	vanNH	pdxST	72				vanNH
+1	20	vanNH	pdxST	89	A			vanNH
+1	21	vanNH	pdxST	10	G			vanNH
+2	1	pdxST	vanNH			8	P	vanNH
+2	2	pdxST	vanNH	20				vanNH
+2	3	pdxST	vanNH	6				vanNH
+2	4	pdxST	vanNH	51	TT			vanNH
+2	5	pdxST	vanNH			18	PU	vanNH
+2	6	pdxST	vanNH			8		vanNH
+2	7	pdxST	vanNH			24		vanNH
+2	8	pdxST	vanNH			18	TT	vanNH
+2	9	pdxST	vanNH	1	PU			vanNH
+2	10	pdxST	vanNH	20				vanNH
+2	11	pdxST	vanNH	6				vanNH
+2	12	pdxST	vanNH	20				vanNH
+2	13	pdxST	vanNH			24	D	vanNH
+2	14	pdxST	vanNH			18	PU	vanNH
+2	15	pdxST	vanNH			13		vanNH
+2	16	pdxST	vanNH			45		vanNH
+2	17	pdxST	vanNH			24		vanNH
+2	18	pdxST	vanNH			45		vanNH
+2	19	pdxST	vanNH	20	PU			vanNH
+2	20	pdxST	vanNH	6	TT			vanNH
+2	21	pdxST	vanNH			18	PU	vanNH
+2	22	pdxST	vanNH			8		vanNH
+2	23	pdxST	vanNH			31		vanNH
+2	24	pdxST	vanNH			18	A	vanNH
+2	25	pdxST	vanNH			8	LG	vanNH
+3	1	pdxST	vanNH			33	P	pdxST
+3	2	pdxST	vanNH	17				pdxST
+3	3	pdxST	vanNH	20				pdxST
+3	4	pdxST	vanNH	48	A			pdxST
+3	5	pdxST	vanNH	6	G			pdxST
