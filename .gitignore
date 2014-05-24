@@ -2,7 +2,6 @@
 *.Rproj
 google-credentials.txt
 pvt/*
-*point*
 *gameplay-raw*
 *gameplay-clean*
 README.html

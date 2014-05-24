@@ -1,0 +1,18 @@
+Pulling team: San Francisco Dogfish
+Period: 4
+Clock before point: 10:00:00
+Clock after point: 9:22:00
+Offense	Defense
+	46P
+91PU	
+89	
+22	
+21	
+98	
+5	
+91	
+89	
+98	
+91	
+21	
+98G	
