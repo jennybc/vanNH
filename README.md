@@ -24,7 +24,8 @@ Things I learned prepping for 2014-05-10_seaRM-at-vanNH
 To do
 
   * sort out the offline access for Google spreadsheet
-  * share link to [live game page](http://www.stat.ubc.ca/~jenny/notOcto/vanNH/vanNH_nowPlaying.html) with the right people
+  * add a comment column
+  * resolve possessions and individual plays *long-term goal*
   * formalize these distinct concepts of a team
     - specific team identity, e.g. Vancouver Nighthawks or Seattle Rainmakers -- an absolute definition of team (in theory, could even be specific to a season or a game)
     - home team vs away team -- absolute *within a game*
@@ -51,9 +52,7 @@ Notes
 
   * It is evil to record info for offense and defense on the same row of the spreadsheet. Eliminate that at the source whenever possible.
   * I am really not set up to record hand blocks (HB) and foot blocks (FB) right now. Rather I'm expecting plain D's (D).
-  * Test if I can write a note in column 3 without breaking anything; would be a good place to record, e.g. a hand block or foot block for later processing.
-  * Test with dummy Google Spreadsheet. How to create pull down for pulling team?
-
+  
 Helpful for Python command line argument processing:
 http://www.cyberciti.biz/faq/python-command-line-arguments-argv-example/
 
