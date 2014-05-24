@@ -30,16 +30,18 @@ To do
     - offense vs defense -- relative
   * Makefile stuff
     - __assuming the `GOOGAME` and `GAME` have been set up in the Makefile and are not being passed constantly via command line__
+    - `make clean_raw` removes all data extracted from Google spreadsheet, sitting in `01_rawGoogleExtract`
+    - `make eg_pt POINT=7` extracts raw data from the Google worksheet for point 7
+    - `make eg_all` extracts raw data from all worksheets, all points
     - `make yo POINT=3` adds Google data for point 3 and reruns all the R stuff
-    - `make clean_goog` cleans out the `rawGoogleExtract` directory
-    - `make eg_pt POINT=7` processes worksheet = point 7
-    - `make eg_all` processes all worksheets
+    - `make clean_cat` cleans out the raw, concatenated Google data, sitting in `03_concatGoogleExtract`
+    - `make cat_goog` concatenates the raw Google data across all points
+    - `make clean_clean` cleans out the clean, processed game data, sitting in `04_cleanedGame`
+    - `make clean_game` processes the game
+    - `make web` bakes the "now playing" style game webpage
     - `make r_bits` runs all the R scripts
-    - `make clean_cat` cleans out the raw, concatenated Google info
-    - `make cat_goog` concatenates the raw Google info
-    - `make clean_proc` cleans out the clean, processed game data
-    - `make proc_goog` processes the game
-    - `make web` bakes the webpage
+    
+    
 
 Notes
 
