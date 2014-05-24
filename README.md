@@ -19,7 +19,7 @@ Things I learned prepping for 2014-05-10_seaRM-at-vanNH
 
 To do
 
-  * create a structure for serving multiple games
+  * sort out the offline access for Google spreadsheet
   * fix the Makefile for sync
   * write script to initialize a game
   * share link to [live game page](http://www.stat.ubc.ca/~jenny/notOcto/vanNH/vanNH_nowPlaying.html) with the right people

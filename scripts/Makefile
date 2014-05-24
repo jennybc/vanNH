@@ -35,6 +35,9 @@ web: 06_vanNH-nowPlaying.rmd
 web_copy:
 	cp ../games/$(GAME)/05_htmlArchive/$(GAME)_live-stats.html ../web/
 
+compile_index: 
+	cd ../web; Rscript -e "library(rmarkdown); render('index.md')"
+
 r_bits: clean_cat clean_clean cat_goog clean_game web
 
 yo: eg_pt clean_cat clean_clean cat_goog clean_game web web_copy sync
