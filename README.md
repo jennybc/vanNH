@@ -20,7 +20,6 @@ Things I learned prepping for 2014-05-10_seaRM-at-vanNH
 To do
 
   * sort out the offline access for Google spreadsheet
-  * write script to initialize a game
   * share link to [live game page](http://www.stat.ubc.ca/~jenny/notOcto/vanNH/vanNH_nowPlaying.html) with the right people
   * formalize these distinct concepts of a team
     - specific team identity, e.g. Vancouver Nighthawks or Seattle Rainmakers -- an absolute definition of team (in theory, could even be specific to a season or a game)
