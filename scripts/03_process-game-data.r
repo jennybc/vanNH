@@ -166,5 +166,3 @@ point_info <-
 out_file <- file.path(out_dir, paste0(game, "_points-clean.tsv"))
 write.table(point_info, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
 message("wrote ", out_file)
-
-

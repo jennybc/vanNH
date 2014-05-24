@@ -8,7 +8,7 @@ all: liveStats sync
 
 liveStats: vanNH_nowPlaying.html
 
-clean_goog:
+clean_raw:
 	rm -rf ../games/$(GAME)/01_rawGoogleExtract/*
 
 eg_all: 01_extract-data-from-google-spreadsheet.py
@@ -26,7 +26,7 @@ cat_goog: 02_concatentate-google-extract.r
 clean_clean:
 	rm -rf ../games/$(GAME)/04_cleanedGame/*
 
-clean_goog: 03_process-game-data.r
+clean_game: 03_process-game-data.r
 	Rscript ./03_process-game-data.r $(GAME)
 
 old_web: 06_vanNH-nowPlaying.rmd
@@ -38,9 +38,9 @@ web: 06_vanNH-nowPlaying.rmd
 web_copy:
 	cp 06_vanNH-nowPlaying.html vanNH_nowPlaying.html
 
-r_bits: clean_cat clean_proc cat_goog proc_goog web
+r_bits: clean_cat clean_clean cat_goog clean_game web
 
-yo: eg_pt clean_cat clean_proc cat_goog proc_goog web web_copy sync
+yo: eg_pt clean_cat clean_clean cat_goog clean_game web web_copy sync
 
 sync:
 	rsync -av --exclude-from=/Users/jenny/.rsync/exclude vanNH_nowPlaying.html jenny@stat.ubc.ca:public_html/notOcto/vanNH/
