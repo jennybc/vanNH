@@ -5,8 +5,8 @@ options <- commandArgs(trailingOnly = TRUE)
 
 if(length(options) < 1) {
   #game <- "2014-04-12_vanNH-at-pdxST"
-  #game <- "2014-04-20_sfoDF-at-vanNH"
-  game <- "2014-05-10_seaRM-at-vanNH"
+  game <- "2014-04-20_sfoDF-at-vanNH"
+  #game <- "2014-05-10_seaRM-at-vanNH"
 } else {
   game <- options[1]
 }
@@ -19,7 +19,7 @@ away_team <- tmp[1]
 home_team <- tmp[3]
 jTeams <- sort(c(away_team, home_team))
 
-game_dir <- file.path("..", "games", game, "concatGoogleExtract")
+game_dir <- file.path("..", "games", game, "03_concatGoogleExtract")
 
 in_file <- file.path(game_dir, paste0(game, "_gameplay-raw.tsv"))
 game_play <- read.delim(in_file, stringsAsFactors = FALSE)
@@ -61,17 +61,12 @@ jFun <- function(x) {
 game_play <-
   transform(game_play, oCode = I(jFun(Offense)), dCode = I(jFun(Defense)))
 
+## make sure all codes are upper case
+game_play <- transform(game_play,
+                       oCode = toupper(oCode), dCode = toupper(dCode))
+
 ## add an event counter within point
 game_play$event <- ddply(game_play['point'], ~ point, row)[ , 2]
-
-## TO DO: systematically populate the pull, if somehow missing
-## temporary kludge for 2014-04-12_vanNH-at-pdxST
-if(game == "2014-04-12_vanNH-at-pdxST") {
-  fix_me <- with(game_play, point == 2 & event == 1)
-  game_play[fix_me, 'Defense'] <- '?P'
-  game_play[fix_me, 'dNum'] <- '?'
-  game_play[fix_me, 'dCode'] <- 'P'
-}
 
 ## add variables to hold team on O and on D
 game_play$oTeam <- game_play$dTeam <- factor(NA, levels = jTeams)
@@ -89,10 +84,12 @@ game_play$oTeam <- get_opponent(game_play$dTeam)
 ## insert a row to make two rows
 ## first row will hold O info, second will hold D
 
-## 2014-04-12_vanNH-at-pdxST: happens for some D and F events. point:
+## originally this happened for some D and F events in 2014-04-12_vanNH-at-pdxST
+## specifically, these points:
 ## D: 1, 13, 22, 23, 29, 30, 32, 43
 ## F: 6, 9, 20, 22, 24, 35
-## this needs to be refactored
+## but it has been eliminated earlier now
+## this code needs to be refactored
 jFun <- function(x) {
   fix_me <- which(with(x, dNum != "" & oNum != ""))
   needs_fix <- length(fix_me) > 0
@@ -146,11 +143,7 @@ jFun <- function(x) {
 }
 game_play <- ddply(game_play, ~ point, jFun)
 
-## make sure all codes are upper case
-game_play <- transform(game_play,
-                       oCode = toupper(oCode), dCode = toupper(dCode))
-
-out_dir <- file.path("..", "games", game, "cleanGoogleExtract")
+out_dir <- file.path("..", "games", game, "04_cleanedGame")
 if(!file.exists(out_dir)) dir.create(out_dir)
 
 out_file <- file.path(out_dir, paste0(game, "_gameplay-clean.tsv"))
