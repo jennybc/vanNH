@@ -33,7 +33,7 @@ old_web: 06_vanNH-nowPlaying.rmd
 	Rscript -e "library(knitr); knit2html('06_vanNH-nowPlaying.rmd')"
 
 web: 06_vanNH-nowPlaying.rmd
-	./05_compile-vanNH-nowPlaying.r $(GAME)
+	./05_compile-HTML.r $(GAME)
 
 web_copy:
 	cp 06_vanNH-nowPlaying.html vanNH_nowPlaying.html
