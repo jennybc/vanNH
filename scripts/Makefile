@@ -15,7 +15,7 @@ eg_pt: 01_extract-data-from-google-spreadsheet.py
 	./01_extract-data-from-google-spreadsheet.py -gg $(GOOGAME) -g $(GAME) -p $(POINT)
 
 clean_cat:
-	rm -rf ../games/$(GAME)/concatGoogleExtract/*
+	rm -rf ../games/$(GAME)/03_concatGoogleExtract/*
 
 cat_goog: 02_concatentate-google-extract.r
 	Rscript ./02_concatentate-google-extract.r $(GAME)
