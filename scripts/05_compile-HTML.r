@@ -19,6 +19,11 @@ if(length(options) < 1) {
   game <- options[1]
 }
 
+pathToCSS <- "resources/css/jasonm23-markdown-css-themes"
+pathToCSS <- file.path(path.expand("~/"), pathToCSS, "markdown7.css")
+options(markdown.HTML.stylesheet = pathToCSS)
+rm(pathToCSS)
+
 out_dir <- file.path("..", "games", game, "05_htmlArchive")
 if(!file.exists(out_dir)) dir.create(out_dir)
 out_file <- file.path(out_dir, paste0(game, "_live-stats.html"))
