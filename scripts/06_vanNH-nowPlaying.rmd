@@ -1,14 +1,15 @@
 ```{r, echo=FALSE}
 library(xtable)
 library(plyr)
+library(yaml)
 
 # when compiled via the control script, game identifier will have been
 # read from command line and pre-stored in the environment
 # for interactive use and development, set the game here
 if(!exists("game")) {
   #game <- "2014-04-12_vanNH-at-pdxST"
-  #game <- "2014-04-20_sfoDF-at-vanNH"
-  game <- "2014-05-10_seaRM-at-vanNH"
+  game <- "2014-04-20_sfoDF-at-vanNH"
+  #game <- "2014-05-10_seaRM-at-vanNH"
   }
 
 ## parse the game identifier
@@ -33,6 +34,9 @@ read_roster <- function(roster_file) {
 }
 away_roster <- read_roster(away_roster_file)
 home_roster <- read_roster(home_roster_file)
+
+yaml_file <- file.path("..", "games", game, paste0(game, "_game-info.yaml"))
+game_yaml <- yaml.load_file(yaml_file)
 
 game_file <- file.path("..", "games", game, "04_cleanedGame",
                        paste0(game, "_gameplay-clean.tsv"))
@@ -110,9 +114,12 @@ sDat$player <-
 
 ## DONE WITH EVENT LEVEL DATA!
 
-## prepare to say which period we're in or if game over
-#   if(???) whereInGame <- "game is complete"
-whereInGame <- paste("period", sDat$period[nrow(sDat)])
+## prepare text reporting game status
+whereInGame <-
+  switch(game_yaml$game_status,
+         complete = "game is complete",
+         upcoming = "game is upcoming -- any data here is fake and for set up purposes",
+         paste("period", sDat$period[nrow(sDat)]))
 
 ## tally events by player
 plDat <- ddply(sDat, ~ player + plTeam, function(z) {
@@ -162,7 +169,7 @@ gDat <- ddply(sDat, ~ point,
 gDat <- gDat[rev(seq_len(nrow(gDat))), ]
 ```
 
-#### last update `r date()`:
+#### last update `r date()`
 # `r away_team` `r sDat[[away_team]][nrow(sDat)]`
 # `r home_team` `r sDat[[home_team]][nrow(sDat)]`
 ## `r whereInGame`
@@ -171,19 +178,20 @@ Go to ...
   * [Scoring progression](#scoringProgression)
   * [Player stats for `r away_team`](#away)
   * [Player stats for `r home_team`](#home)
-  * [Raw data](#rawData)
+  * [Data on goals, assists, D's](#selectData)
 
-Scoring progression<a id="scoringProgression"></a>:
+## Scoring progression<a id="scoringProgression"></a>:
 ```{r results='asis', echo=FALSE}
 foo <- xtable(gDat)
 print(foo, type='html', include.rownames = FALSE)
 ```
 
+## Player stats for `r away_team` <a id="away"></a>:
+
 points = goals + assists  
 tables sorted in decreasing order based on points  
 stats are cumulative for this game
 
-Player stats for `r away_team` <a id="away"></a>:
 ```{r results='asis', echo=FALSE}
 if(!is.null(teamDat[[away_team]])) {
   foo <- xtable(teamDat[[away_team]])
@@ -191,7 +199,12 @@ if(!is.null(teamDat[[away_team]])) {
   }
 ```
 
-Player stats for `r home_team` <a id="home"></a>:
+## Player stats for `r home_team` <a id="home"></a>:
+
+points = goals + assists  
+tables sorted in decreasing order based on points  
+stats are cumulative for this game
+
 ```{r results='asis', echo=FALSE}
 if(!is.null(teamDat[[home_team]])) {
   foo <- xtable(teamDat[[home_team]])
@@ -199,7 +212,7 @@ if(!is.null(teamDat[[home_team]])) {
   }
 ```
 
-Raw data from which above tables are made <a id="rawData"></a>:
+## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 ```{r results='asis', echo=FALSE}
 foo <- xtable(sDat)
 print(foo, type='html', include.rownames = FALSE)
