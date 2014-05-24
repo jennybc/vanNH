@@ -2,8 +2,8 @@
 *.Rproj
 google-credentials.txt
 pvt/*
-*gameplay-raw*
-*gameplay-clean*
 README.html
 .RData
 *.ipynb
+data_check*
+2014-04-12_vanNH-at-pdxST
