@@ -34,13 +34,13 @@ read_roster <- function(roster_file) {
 away_roster <- read_roster(away_roster_file)
 home_roster <- read_roster(home_roster_file)
 
-game_file <- file.path("..", "games", game, "cleanGoogleExtract",
+game_file <- file.path("..", "games", game, "04_cleanedGame",
                        paste0(game, "_gameplay-clean.tsv"))
 sDat <- read.delim(game_file,
                    colClasses = list(oNum = 'character', oCode = 'character',
                                      dNum = 'character', dCode = 'character'))
 
-point_file <- file.path("..", "games", game, "cleanGoogleExtract",
+point_file <- file.path("..", "games", game, "04_cleanedGame",
                        paste0(game, "_points-clean.tsv"))
 point_info <- read.delim(point_file)
 sDat$period <- point_info$Period[match(sDat$point, point_info$point)]
