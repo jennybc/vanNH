@@ -4,7 +4,7 @@
 
 
 
-#### last update Sat May 24 21:15:11 2014
+#### last update Sun May 25 07:38:34 2014
 # pdxST 19
 # vanNH 16
 ## game is complete
@@ -18,7 +18,7 @@ Go to ...
 
 ## Scoring progression<a id="scoringProgression"></a>:
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sat May 24 21:15:11 2014 -->
+<!-- Sun May 25 07:38:34 2014 -->
 <TABLE border=1>
 <TR> <TH> point </TH> <TH> period </TH> <TH> begin </TH> <TH> end </TH> <TH> pt_duration </TH> <TH> desc </TH> <TH> pdxST </TH> <TH> vanNH </TH>  </TR>
   <TR> <TD align="right">  39 </TD> <TD> 4 </TD> <TD> 0:09:00 </TD> <TD> 0:00:00 </TD> <TD> 00:09 </TD> <TD> NA to  </TD> <TD> 19 </TD> <TD> 16 </TD> </TR>
@@ -69,7 +69,7 @@ tables sorted in decreasing order based on points
 stats are cumulative for this game
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sat May 24 21:15:11 2014 -->
+<!-- Sun May 25 07:38:34 2014 -->
 <TABLE border=1>
 <TR> <TH> player </TH> <TH> points </TH> <TH> goals </TH> <TH> assists </TH> <TH> Ds </TH>  </TR>
   <TR> <TD> pdxST-6-Bjorklund </TD> <TD align="right">   5 </TD> <TD align="right">   3 </TD> <TD align="right">   2 </TD> <TD align="right">   0 </TD> </TR>
@@ -98,7 +98,7 @@ tables sorted in decreasing order based on points
 stats are cumulative for this game
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sat May 24 21:15:11 2014 -->
+<!-- Sun May 25 07:38:34 2014 -->
 <TABLE border=1>
 <TR> <TH> player </TH> <TH> points </TH> <TH> goals </TH> <TH> assists </TH> <TH> Ds </TH>  </TR>
   <TR> <TD> vanNH-98-wong </TD> <TD align="right">   8 </TD> <TD align="right">   6 </TD> <TD align="right">   2 </TD> <TD align="right">   0 </TD> </TR>
@@ -122,7 +122,7 @@ stats are cumulative for this game
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sat May 24 21:15:11 2014 -->
+<!-- Sun May 25 07:38:34 2014 -->
 <TABLE border=1>
 <TR> <TH> period </TH> <TH> point </TH> <TH> oTeam </TH> <TH> dTeam </TH> <TH> scTeam </TH> <TH> code </TH> <TH> plTeam </TH> <TH> plNum </TH> <TH> pdxST </TH> <TH> vanNH </TH> <TH> lname </TH> <TH> player </TH>  </TR>
   <TR> <TD align="right">   1 </TD> <TD align="right">   1 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> A </TD> <TD> pdxST </TD> <TD> 11 </TD> <TD align="right">   0 </TD> <TD align="right">   0 </TD> <TD> Kenton </TD> <TD> pdxST-11-Kenton </TD> </TR>
@@ -221,7 +221,7 @@ stats are cumulative for this game
 __Note: just for display purposes.__ Raw data in more useful forms can be found in the [GitHub repository](https://github.com/jennybc/vanNH). Find the game you're interested in in the `games` subdirectory.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sat May 24 21:15:11 2014 -->
+<!-- Sun May 25 07:38:34 2014 -->
 <TABLE border=1>
 <TR> <TH> point </TH> <TH> event </TH> <TH> oTeam </TH> <TH> dTeam </TH> <TH> oNum </TH> <TH> oCode </TH> <TH> dNum </TH> <TH> dCode </TH> <TH> scTeam </TH> <TH> period </TH> <TH> code </TH>  </TR>
   <TR> <TD align="right">   1 </TD> <TD align="right">   1 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD> P </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD> P </TD> </TR>
