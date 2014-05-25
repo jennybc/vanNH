@@ -7,8 +7,6 @@
 GOOGAME ?= "Official Statistics - 2014 - Week 7 - 5/24 - Stags @ Nighthawks"
 GAME ?= 2014-05-24_pdxST-at-vanNH
 
-all: liveStats sync
-
 clean_raw:
 	rm -rf ../games/$(GAME)/01_rawGoogleExtract/*
 
@@ -29,6 +27,9 @@ clean_clean:
 
 clean_game: 03_process-game-data.r
 	Rscript ./03_process-game-data.r $(GAME)
+
+clean_web:
+	rm -rf ../games/$(GAME)/05_htmlArchive/*
 
 web: 06_vanNH-nowPlaying.rmd
 	./05_compile-HTML.r $(GAME)
