@@ -1,10 +1,53 @@
 Pulling team: Vancouver Nighthawks
 Period: 1
-Clock before point: 6:13:00
-Clock after point: 5:56:00
+Clock before point: 8:20:00
+Clock after point: 5:05:00
 Offense	Defense
-	33P
-17	
-20	
-48L	
-6G	
+	8P
+7	
+9	
+42	
+9	
+7	
+2	
+7	
+6	
+42	
+7	
+11	
+42	
+11	
+42	
+11	
+7	
+16	
+7	
+11	
+7	
+	24F
+6TT	
+	45PU
+	31
+	8
+	39
+7D	
+7PU	
+11	
+42	
+16	
+9	
+2	
+11TT	
+	TO
+	91PU
+	98
+	10
+	22
+	98
+	91
+88F	
+	98
+	19
+	22
+	10
+	98G

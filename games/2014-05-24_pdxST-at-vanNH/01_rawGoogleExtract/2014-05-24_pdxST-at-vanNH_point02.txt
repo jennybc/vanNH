@@ -1,30 +1,20 @@
-Pulling team: Vancouver Nighthawks
+Pulling team: Portland Stags
 Period: 1
-Clock before point: 8:46:00
-Clock after point: 6:13:00
+Clock before point: 9:28:00
+Clock after point: 8:20:00
 Offense	Defense
-	8P
-20	
-6	
-51TT	
-	18PU
+	22P
+89PU	
+5	
+22	
+98TT	
+	88PU
 	8
-	24
-	18TT
-1PU	
-20	
-6	
-20	
-	24D
-	18PU
-	13
-	45
-	24
-	45
-20PU	
-6TT	
-	18PU
-	8
-	31
-	18
-	8LG
+	17
+	88TT
+5PU	
+22	
+98	
+72	
+21	
+98LG	
