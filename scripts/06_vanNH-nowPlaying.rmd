@@ -9,7 +9,8 @@ library(yaml)
 if(!exists("game")) {
   #game <- "2014-04-12_vanNH-at-pdxST"
   #game <- "2014-04-20_sfoDF-at-vanNH"
-  game <- "2014-05-10_seaRM-at-vanNH"
+  #game <- "2014-05-10_seaRM-at-vanNH"
+  game <- "2014-05-31_vanNH-at-seaRM"
   }
 
 ## parse the game identifier
