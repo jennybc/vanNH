@@ -51,22 +51,58 @@ for sheet_num in points_to_process:
     except gspread.exceptions.WorksheetNotFound:
         break
 
-    ## some identifiers for point-level info ... currently not used
-    #point_level_identifier = worksheet.col_values(3)
-    ## actual point-level info
-    
-    ## TO DO: make this more robust when there's no data in the pulling team
-    ## field but the drop-down menu has been set-up
-    point_level_info = worksheet.col_values(4)
-
-    team_name, period, clock_before, clock_after = point_level_info[0:4]
-
-    if team_name is None:
-        print ("team_name is None ... quitting")
-        break
-
     print (file_num)
     sys.stdout.flush()
+
+    ## some identifiers for point-level info ... currently not used
+    #point_level_identifier = worksheet.col_values(3)
+    
+    ## actual point-level info
+    point_level_info = worksheet.col_values(4)
+
+    ## TO DO: make this less stupid? is there a way to check and assign in bulk?
+    ## should I be using a try-based strategy?
+    
+    ## my original strategy:
+    pulling_team, period, clock_before, clock_after = point_level_info[0:4]
+    ## not using anymore, because I prefer to be TOLD if these are empty
+    
+    ## will use to count empty fields and, if gets high enough, eventually give
+    ## up on this worksheet and assume game is over
+    empty_count = 0
+    
+    if point_level_info[0]:
+        pulling_team = point_level_info[0]
+    else:
+        empty_count += 1
+        pulling_team = "NA"
+        print "pulling team unspecified!"
+        # sys.exit("Error message")
+    
+    if point_level_info[1]:
+        period = point_level_info[1]
+    else:
+        empty_count += 1
+        period = "NA"
+        print "period unspecified!"
+        
+    if point_level_info[2]:
+        clock_before = point_level_info[2]
+    else:
+        empty_count += 1
+        clock_before = "NA"
+        print "clock_before unspecified!"
+                
+    if point_level_info[3]:
+        clock_after = point_level_info[3]
+    else:
+        empty_count += 1
+        clock_after = "NA"
+        print "clock_after unspecified!"
+        
+    if empty_count > 1:
+        print ("not enough point-level data ... aborting")
+        break
 
     ## getting offense data
     offensive = worksheet.col_values(1)
@@ -83,7 +119,7 @@ for sheet_num in points_to_process:
             offensive.extend([""])
 
     out_file = file("../games/" + args.game + "/01_rawGoogleExtract/" + args.game + "_point" + file_num + ".txt",'w')
-    out_file.write("Pulling team: " + team_name + "\n")
+    out_file.write("Pulling team: " + pulling_team + "\n")
     out_file.write("Period: " + period + "\n")
     out_file.write("Clock before point: " + clock_before + "\n")
     out_file.write("Clock after point: " + clock_after + "\n")
