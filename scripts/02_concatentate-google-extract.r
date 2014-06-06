@@ -5,7 +5,8 @@ options <- commandArgs(trailingOnly = TRUE)
 
 if(length(options) < 1) {
   #game <- "2014-04-12_vanNH-at-pdxST"
-  game <- "2014-04-20_sfoDF-at-vanNH"
+  #game <- "2014-04-20_sfoDF-at-vanNH"
+  game <- "foo"
 } else {
   game <- options[1]
 }
@@ -20,7 +21,6 @@ jFun <- function(point) {
   point_string <- sprintf("%02d", point)
   point_file <- grep(paste0("point", point_string), google_files, value = TRUE)
   point_info <- yaml.load(paste(readLines(point_file, n = 4), collapse = "\n"))
-  #point_info <- c(point = list(point), point_info)
   point_data <- read.delim(point_file, skip = 4, stringsAsFactors = FALSE)
   return(list(point_info = point_info, point_data = point_data))
 }

@@ -5,10 +5,6 @@ In-house statistics for the Vancouver Nighthawks of Major League Ultimate
 
 <http://www.stat.ubc.ca/~jenny/notOcto/vanNH/>
 
-Things I learned prepping for 2014-05-24_pdxST-at-vanNH
-
-  * It is lethal right now to forget to populate the Pulling Team field. I have GOT to fix that soon.
-
 Things I learned prepping for 2014-05-10_seaRM-at-vanNH
 
   * To pass my Python script a Google spreadsheet name with all sorts of awful spaces and punctuation in it, this will work, i.e. surround it with single quotes
@@ -24,7 +20,7 @@ Things I learned prepping for 2014-05-10_seaRM-at-vanNH
 To do
 
   * sort out the offline access for Google spreadsheet
-  * add a comment column
+  * add a comment column *have asked MLU to bless this but no response*
   * resolve possessions and individual plays *long-term goal*
   * formalize these distinct concepts of a team
     - specific team identity, e.g. Vancouver Nighthawks or Seattle Rainmakers -- an absolute definition of team (in theory, could even be specific to a season or a game)
