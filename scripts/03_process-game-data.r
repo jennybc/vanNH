@@ -7,7 +7,8 @@ if(length(options) < 1) {
   #game <- "2014-04-12_vanNH-at-pdxST"
   #game <- "2014-04-20_sfoDF-at-vanNH"
   #game <- "2014-05-10_seaRM-at-vanNH"
-  game <- "2014-05-24_pdxST-at-vanNH"
+  #game <- "2014-05-24_pdxST-at-vanNH"
+  game <- "2014-05-31_vanNH-at-seaRM"
 } else {
   game <- options[1]
 }
@@ -81,27 +82,41 @@ get_opponent <- function(x) {
 }
 game_play$oTeam <- get_opponent(game_play$dTeam)
 
-## find rows where a play is recorded for both the O and the D
-## insert a row to make two rows
-## first row will hold O info, second will hold D
+## tidy up
+game_play <- with(game_play,
+                  data.frame(point, event,
+                             oTeam, dTeam,
+                             Offense, oNum, oCode,
+                             Defense, dNum, dCode))
 
-## originally this happened for some D and F events in 2014-04-12_vanNH-at-pdxST
-## specifically, these points:
-## D: 1, 13, 22, 23, 29, 30, 32, 43
-## F: 6, 9, 20, 22, 24, 35
-## but it has been eliminated earlier now
-## this code needs to be refactored
+## find rows where a play is recorded for both the O and the D
+## when it's a defensive foul: insert a row to make two rows
+## first row will hold O info, second will hold D
 jFun <- function(x) {
   fix_me <- which(with(x, dNum != "" & oNum != ""))
   needs_fix <- length(fix_me) > 0
   while(needs_fix) {
     fix_this <- fix_me[1]
-    if(!grepl("F", paste(x[fix_this, "oCode"], x[fix_this, "dCode"]))) {
+    codes <- c(oCode = x[fix_this, "oCode"], dCode = x[fix_this, "dCode"])
+    
+    if(sum(grepl("F", codes)) == 1) {
+      is_a_foul <- TRUE
+      } else {
+        is_a_foul <- FALSE
+      }
+    
+    if(sum(grepl("S[OI]", codes)) == 2) {
+      is_a_dual_sub <- TRUE
+    } else {
+      is_a_dual_sub <- FALSE
+    }
+    
+    if(!is_a_foul & !is_a_dual_sub) {
       print(x[fix_this + (-1:1), ])
       stop(paste("Row", fix_this, "of point", x$point[1], 'indicates events for both teams, yet neither is a foul, i.e. carries code F\n'))
     }
     x <- x[rep(1:nrow(x), ifelse(1:nrow(x) %in% fix_this, 2, 1)), ]
-    if(x[fix_this, "oCode"] == "F") {
+    if(is_a_dual_sub | x[fix_this, "oCode"] == "F") {
       x[fix_this, c('Offense', 'oNum', 'oCode')] <- ''
       x[fix_this + 1, c('Defense', 'dNum', 'dCode')] <- ''
     } else {
@@ -117,11 +132,8 @@ jFun <- function(x) {
 game_play <- ddply(game_play, ~ point, jFun)
 #which(with(game_play, dNum != "" & oNum != ""))
 
-## tidy up
-game_play <- with(game_play,
-                  data.frame(point, event,
-                             oTeam, dTeam,
-                             oNum, oCode, dNum, dCode))
+## drop Offense, Defense
+game_play <- subset(game_play, select = -c(Offense, Defense))
 
 ## determine who's on O vs. D, at the event level
 ## ... leave this for another day
