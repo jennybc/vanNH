@@ -7,8 +7,7 @@ Offense	Defense
 91	
 19	
 91	
-98	
-	16F
+98	16F
 10F	
 	25PU
 	22

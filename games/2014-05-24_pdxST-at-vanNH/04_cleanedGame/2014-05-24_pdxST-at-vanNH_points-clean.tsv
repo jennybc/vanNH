@@ -26,7 +26,7 @@ point	Period	Clock.before.point	Clock.after.point	pullTeam	scTeam	pdxST	vanNH
 25	3	3:33:00	3:13:00	vanNH	vanNH	13	10
 26	3	3:13:00	2:18:00	vanNH	pdxST	14	10
 27	3	2:18:00	1:40:00	pdxST	vanNH	14	11
-28	3	1:40:00	0:36:00	vanNH	pdxST	15	11
+28	3	1:40:00	0:37:00	vanNH	pdxST	15	11
 29	3	0:37:00	0:00:00	pdxST	NA	15	11
 30	4	10:00:00	8:50:00	pdxST	vanNH	15	12
 31	4	8:50:00	8:23:00	vanNH	vanNH	15	13

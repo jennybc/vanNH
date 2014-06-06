@@ -10,6 +10,5 @@ Offense	Defense
 6	
 2TT	
 	27PU
-	81
-?F	
+4F	81
 	24G

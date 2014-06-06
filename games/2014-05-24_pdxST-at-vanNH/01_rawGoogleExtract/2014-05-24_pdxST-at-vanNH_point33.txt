@@ -7,15 +7,14 @@ Offense	Defense
 7	
 73	
 8	
-7	
-	4F
+7	4F
 8	
 42	
 	13D
 	75PU
 8D	
 8PU	
-?F	
+8F	
 73	
 7	
 73	

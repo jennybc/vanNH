@@ -7,11 +7,11 @@ Offense	Defense
 89PU	
 5	
 22	
-98TT	
+98	
 	88PU
 	8
 	17
-	88TT
+	88
 5PU	
 22	
 98	

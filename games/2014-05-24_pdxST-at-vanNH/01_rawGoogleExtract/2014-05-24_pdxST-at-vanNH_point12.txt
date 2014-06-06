@@ -19,7 +19,8 @@ Offense	Defense
 11PU	
 9	
 7	
-injury	
+42SO	
+73SI	
 7PU	
 9	
 11	
@@ -29,6 +30,6 @@ injury
 9TD	
 	45PU
 	27
-	39TT
+	39
 11PU	
 9G	

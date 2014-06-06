@@ -27,8 +27,8 @@ Offense	Defense
 7	
 9	
 7	
+42	
 	8F
-	injury
 	24SO
 	75SI
 42PU	

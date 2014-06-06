@@ -16,9 +16,7 @@ Offense	Defense
 	7
 	88VST
 5PU	
-5TT	
 	88PU
-	88TT
 89PU	
 75	
 33	
@@ -37,7 +35,7 @@ Offense	Defense
 	11
 	2L
 	7
-	6TT
+	6
 45PU	
 11	
 37	

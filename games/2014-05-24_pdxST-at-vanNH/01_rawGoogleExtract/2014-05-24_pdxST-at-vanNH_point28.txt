@@ -1,7 +1,7 @@
 Pulling team: Vancouver Nighthawks
 Period: 3
 Clock before point: 1:40:00
-Clock after point: 0:36:00
+Clock after point: 0:37:00
 Offense	Defense
 	18P
 73	

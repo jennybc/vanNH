@@ -23,9 +23,8 @@ Offense	Defense
 16	
 7	
 11	
-7	
-	24F
-6TT	
+7	24F
+6	
 	45PU
 	31
 	8
@@ -37,15 +36,14 @@ Offense	Defense
 16	
 9	
 2	
-11TT	
+11	
 	TO
 	91PU
 	98
 	10
 	22
 	98
-	91
-88F	
+88F	91
 	98
 	19
 	22

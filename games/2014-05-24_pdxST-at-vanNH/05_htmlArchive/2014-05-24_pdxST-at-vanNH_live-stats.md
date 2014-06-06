@@ -4,7 +4,7 @@
 
 
 
-#### last update Sun May 25 07:38:34 2014
+#### last update Fri Jun  6 10:25:50 2014
 # pdxST 19
 # vanNH 16
 ## game is complete
@@ -18,7 +18,7 @@ Go to ...
 
 ## Scoring progression<a id="scoringProgression"></a>:
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun May 25 07:38:34 2014 -->
+<!-- Fri Jun  6 10:25:50 2014 -->
 <TABLE border=1>
 <TR> <TH> point </TH> <TH> period </TH> <TH> begin </TH> <TH> end </TH> <TH> pt_duration </TH> <TH> desc </TH> <TH> pdxST </TH> <TH> vanNH </TH>  </TR>
   <TR> <TD align="right">  39 </TD> <TD> 4 </TD> <TD> 0:09:00 </TD> <TD> 0:00:00 </TD> <TD> 00:09 </TD> <TD> NA to  </TD> <TD> 19 </TD> <TD> 16 </TD> </TR>
@@ -32,7 +32,7 @@ Go to ...
   <TR> <TD align="right">  31 </TD> <TD> 4 </TD> <TD> 8:50:00 </TD> <TD> 8:23:00 </TD> <TD> 00:27 </TD> <TD> vanNH-24-yu  to vanNH-39-seraglia  </TD> <TD> 15 </TD> <TD> 13 </TD> </TR>
   <TR> <TD align="right">  30 </TD> <TD> 4 </TD> <TD> 10:00:00 </TD> <TD> 8:50:00 </TD> <TD> 01:10 </TD> <TD> vanNH-89-underhill  to vanNH-98-wong  </TD> <TD> 15 </TD> <TD> 12 </TD> </TR>
   <TR> <TD align="right">  29 </TD> <TD> 3 </TD> <TD> 0:37:00 </TD> <TD> 0:00:00 </TD> <TD> 00:37 </TD> <TD> NA to  </TD> <TD> 15 </TD> <TD> 11 </TD> </TR>
-  <TR> <TD align="right">  28 </TD> <TD> 3 </TD> <TD> 1:40:00 </TD> <TD> 0:36:00 </TD> <TD> 01:04 </TD> <TD> pdxST-7-Friedman  to pdxST-42-Lohre  </TD> <TD> 15 </TD> <TD> 11 </TD> </TR>
+  <TR> <TD align="right">  28 </TD> <TD> 3 </TD> <TD> 1:40:00 </TD> <TD> 0:37:00 </TD> <TD> 01:03 </TD> <TD> pdxST-7-Friedman  to pdxST-42-Lohre  </TD> <TD> 15 </TD> <TD> 11 </TD> </TR>
   <TR> <TD align="right">  27 </TD> <TD> 3 </TD> <TD> 2:18:00 </TD> <TD> 1:40:00 </TD> <TD> 00:38 </TD> <TD> vanNH-98-wong  to vanNH-10-chatha  </TD> <TD> 14 </TD> <TD> 11 </TD> </TR>
   <TR> <TD align="right">  26 </TD> <TD> 3 </TD> <TD> 3:13:00 </TD> <TD> 2:18:00 </TD> <TD> 00:55 </TD> <TD> pdxST-7-Friedman  to pdxST-42-Lohre  </TD> <TD> 14 </TD> <TD> 10 </TD> </TR>
   <TR> <TD align="right">  25 </TD> <TD> 3 </TD> <TD> 3:33:00 </TD> <TD> 3:13:00 </TD> <TD> 00:20 </TD> <TD> vanNH-8-hibbert  to vanNH-45-cowan  </TD> <TD> 13 </TD> <TD> 10 </TD> </TR>
@@ -69,7 +69,7 @@ tables sorted in decreasing order based on points
 stats are cumulative for this game
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun May 25 07:38:34 2014 -->
+<!-- Fri Jun  6 10:25:50 2014 -->
 <TABLE border=1>
 <TR> <TH> player </TH> <TH> points </TH> <TH> goals </TH> <TH> assists </TH> <TH> Ds </TH>  </TR>
   <TR> <TD> pdxST-6-Bjorklund </TD> <TD align="right">   5 </TD> <TD align="right">   3 </TD> <TD align="right">   2 </TD> <TD align="right">   0 </TD> </TR>
@@ -98,7 +98,7 @@ tables sorted in decreasing order based on points
 stats are cumulative for this game
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun May 25 07:38:34 2014 -->
+<!-- Fri Jun  6 10:25:50 2014 -->
 <TABLE border=1>
 <TR> <TH> player </TH> <TH> points </TH> <TH> goals </TH> <TH> assists </TH> <TH> Ds </TH>  </TR>
   <TR> <TD> vanNH-98-wong </TD> <TD align="right">   8 </TD> <TD align="right">   6 </TD> <TD align="right">   2 </TD> <TD align="right">   0 </TD> </TR>
@@ -122,7 +122,7 @@ stats are cumulative for this game
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun May 25 07:38:34 2014 -->
+<!-- Fri Jun  6 10:25:50 2014 -->
 <TABLE border=1>
 <TR> <TH> period </TH> <TH> point </TH> <TH> oTeam </TH> <TH> dTeam </TH> <TH> scTeam </TH> <TH> code </TH> <TH> plTeam </TH> <TH> plNum </TH> <TH> pdxST </TH> <TH> vanNH </TH> <TH> lname </TH> <TH> player </TH>  </TR>
   <TR> <TD align="right">   1 </TD> <TD align="right">   1 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> A </TD> <TD> pdxST </TD> <TD> 11 </TD> <TD align="right">   0 </TD> <TD align="right">   0 </TD> <TD> Kenton </TD> <TD> pdxST-11-Kenton </TD> </TR>
@@ -221,7 +221,7 @@ stats are cumulative for this game
 __Note: just for display purposes.__ Raw data in more useful forms can be found in the [GitHub repository](https://github.com/jennybc/vanNH). Find the game you're interested in in the `games` subdirectory.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun May 25 07:38:34 2014 -->
+<!-- Fri Jun  6 10:25:50 2014 -->
 <TABLE border=1>
 <TR> <TH> point </TH> <TH> event </TH> <TH> oTeam </TH> <TH> dTeam </TH> <TH> oNum </TH> <TH> oCode </TH> <TH> dNum </TH> <TH> dCode </TH> <TH> scTeam </TH> <TH> period </TH> <TH> code </TH>  </TR>
   <TR> <TD align="right">   1 </TD> <TD align="right">   1 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD> P </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD> P </TD> </TR>
@@ -238,11 +238,11 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">   2 </TD> <TD align="right">   2 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 89 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">   2 </TD> <TD align="right">   3 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 5 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   2 </TD> <TD align="right">   4 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 22 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">   2 </TD> <TD align="right">   5 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 98 </TD> <TD> TT </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> TT </TD> </TR>
+  <TR> <TD align="right">   2 </TD> <TD align="right">   5 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 98 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   2 </TD> <TD align="right">   6 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 88 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">   2 </TD> <TD align="right">   7 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   2 </TD> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">   2 </TD> <TD align="right">   9 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 88 </TD> <TD> TT </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> TT </TD> </TR>
+  <TR> <TD align="right">   2 </TD> <TD align="right">   9 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 88 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   2 </TD> <TD align="right">  10 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 5 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">   2 </TD> <TD align="right">  11 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 22 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   2 </TD> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 98 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
@@ -271,7 +271,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">   3 </TD> <TD align="right">  20 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   3 </TD> <TD align="right">  21 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 7 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   3 </TD> <TD align="right">  22 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 24 </TD> <TD> F </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> F </TD> </TR>
-  <TR> <TD align="right">   3 </TD> <TD align="right">  23 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 6 </TD> <TD> TT </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> TT </TD> </TR>
+  <TR> <TD align="right">   3 </TD> <TD align="right">  23 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 6 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   3 </TD> <TD align="right">  24 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 45 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">   3 </TD> <TD align="right">  25 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 31 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   3 </TD> <TD align="right">  26 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
@@ -283,7 +283,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">   3 </TD> <TD align="right">  32 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 16 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   3 </TD> <TD align="right">  33 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 9 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   3 </TD> <TD align="right">  34 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 2 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">   3 </TD> <TD align="right">  35 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD> TT </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> TT </TD> </TR>
+  <TR> <TD align="right">   3 </TD> <TD align="right">  35 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   3 </TD> <TD align="right">  36 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> TO </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> TO </TD> </TR>
   <TR> <TD align="right">   3 </TD> <TD align="right">  37 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 91 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">   3 </TD> <TD align="right">  38 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 98 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
@@ -298,17 +298,18 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">   3 </TD> <TD align="right">  47 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 10 </TD> <TD> A </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> A </TD> </TR>
   <TR> <TD align="right">   3 </TD> <TD align="right">  48 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 98 </TD> <TD> G </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">   4 </TD> <TD align="right">   1 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 33 </TD> <TD> P </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> P </TD> </TR>
-  <TR> <TD align="right">   4 </TD> <TD align="right">   2 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">   4 </TD> <TD align="right">   2 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">   4 </TD> <TD align="right">   3 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 9 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   4 </TD> <TD align="right">   4 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 73 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">   4 </TD> <TD align="right">   5 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">   4 </TD> <TD align="right">   6 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 37 </TD> <TD> D </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> D </TD> </TR>
-  <TR> <TD align="right">   4 </TD> <TD align="right">   7 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 18 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
-  <TR> <TD align="right">   4 </TD> <TD align="right">   8 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 33 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">   4 </TD> <TD align="right">   9 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 37 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">   4 </TD> <TD align="right">  10 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD> F </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> F </TD> </TR>
-  <TR> <TD align="right">   4 </TD> <TD align="right">  11 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 18 </TD> <TD> A </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> A </TD> </TR>
-  <TR> <TD align="right">   4 </TD> <TD align="right">  12 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 75 </TD> <TD> G </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> G </TD> </TR>
+  <TR> <TD align="right">   4 </TD> <TD align="right">   5 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 7 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">   4 </TD> <TD align="right">   6 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 73 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">   4 </TD> <TD align="right">   7 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 37 </TD> <TD> D </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> D </TD> </TR>
+  <TR> <TD align="right">   4 </TD> <TD align="right">   8 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 18 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">   4 </TD> <TD align="right">   9 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 33 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">   4 </TD> <TD align="right">  10 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 37 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">   4 </TD> <TD align="right">  11 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 7 </TD> <TD> F </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> F </TD> </TR>
+  <TR> <TD align="right">   4 </TD> <TD align="right">  12 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 18 </TD> <TD> A </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> A </TD> </TR>
+  <TR> <TD align="right">   4 </TD> <TD align="right">  13 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 75 </TD> <TD> G </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">   5 </TD> <TD align="right">   1 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD> P </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD> P </TD> </TR>
   <TR> <TD align="right">   5 </TD> <TD align="right">   2 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 9 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">   5 </TD> <TD align="right">   3 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
@@ -349,7 +350,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">   8 </TD> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 11 </TD> <TD> PU </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD align="right">  16 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 9 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD align="right">  17 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 7 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">   8 </TD> <TD align="right">  18 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD> VP </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD> VP </TD> </TR>
+  <TR> <TD align="right">   8 </TD> <TD align="right">  18 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> VP </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD> VP </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD align="right">  19 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 9 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD align="right">  20 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 2 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD align="right">  21 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 9 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
@@ -359,7 +360,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">   8 </TD> <TD align="right">  25 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 7 </TD> <TD> A </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD> A </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD align="right">  26 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 6 </TD> <TD> G </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">   9 </TD> <TD align="right">   1 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 88 </TD> <TD> P </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD> P </TD> </TR>
-  <TR> <TD align="right">   9 </TD> <TD align="right">   2 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 89 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">   9 </TD> <TD align="right">   2 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 89 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">   9 </TD> <TD align="right">   3 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 91 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   9 </TD> <TD align="right">   4 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD> D </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD> D </TD> </TR>
   <TR> <TD align="right">   9 </TD> <TD align="right">   5 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 88 </TD> <TD> PU </TD> <TD> pdxST </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
@@ -409,19 +410,20 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  12 </TD> <TD align="right">  14 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  12 </TD> <TD align="right">  15 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 9 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  12 </TD> <TD align="right">  16 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 7 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD align="right">  17 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD> INJURY </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> INJURY </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD align="right">  18 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 7 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD align="right">  19 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 9 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD align="right">  20 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD align="right">  21 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 73 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD align="right">  22 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD align="right">  23 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 73 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD align="right">  24 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 9 </TD> <TD> TD </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> TD </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD align="right">  25 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 45 </TD> <TD> PU </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD align="right">  26 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 27 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD align="right">  27 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 39 </TD> <TD> TT </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> TT </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD align="right">  28 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD> A </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> A </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD align="right">  29 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 9 </TD> <TD> G </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> G </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD align="right">  17 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 42 </TD> <TD> SO </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> SO </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD align="right">  18 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 73 </TD> <TD> SI </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> SI </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD align="right">  19 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 7 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD align="right">  20 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 9 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD align="right">  21 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD align="right">  22 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 73 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD align="right">  23 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD align="right">  24 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 73 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD align="right">  25 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 9 </TD> <TD> TD </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> TD </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD align="right">  26 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 45 </TD> <TD> PU </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD align="right">  27 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 27 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD align="right">  28 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 39 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD align="right">  29 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD> A </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> A </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD align="right">  30 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 9 </TD> <TD> G </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">  13 </TD> <TD align="right">   1 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD> P </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> P </TD> </TR>
   <TR> <TD align="right">  13 </TD> <TD align="right">   2 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 19 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  13 </TD> <TD align="right">   3 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 89 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
@@ -449,39 +451,37 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  14 </TD> <TD align="right">  11 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 7 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  14 </TD> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 88 </TD> <TD> VST </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> VST </TD> </TR>
   <TR> <TD align="right">  14 </TD> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 5 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  14 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 5 </TD> <TD> TT </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> TT </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 88 </TD> <TD> PU </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  16 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 88 </TD> <TD> TT </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> TT </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  17 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 89 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  14 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 88 </TD> <TD> PU </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 89 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  16 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 75 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  17 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 33 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  14 </TD> <TD align="right">  18 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 75 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  19 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 33 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  20 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 75 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  21 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 5 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  22 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 13 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  23 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 98 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  24 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 22 </TD> <TD> D </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> D </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  25 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 22 </TD> <TD> TO </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> TO </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  26 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 11 </TD> <TD> PU </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  27 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 73 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  28 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 11 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  19 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 5 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  20 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 13 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  21 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 98 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  22 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 22 </TD> <TD> D </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> D </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  23 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 22 </TD> <TD> TO </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> TO </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  24 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 11 </TD> <TD> PU </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  25 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 73 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  26 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 11 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  27 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 9 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  28 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 2 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  14 </TD> <TD align="right">  29 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 9 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  30 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 2 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  31 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 9 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  32 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 11 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  33 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 2 </TD> <TD> L </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> L </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  34 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 7 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  35 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 6 </TD> <TD> TT </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> TT </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  36 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 45 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  30 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 11 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  31 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 2 </TD> <TD> L </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> L </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  32 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 7 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  33 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 6 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  34 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 45 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  35 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 11 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  36 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 37 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  14 </TD> <TD align="right">  37 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 11 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  38 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 37 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  39 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 11 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  40 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD> D </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> D </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  41 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD> PU </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  42 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 11 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  43 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 7 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  44 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 2 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  45 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 73 </TD> <TD> A </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> A </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD align="right">  46 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 7 </TD> <TD> LG </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> LG </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  38 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD> D </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> D </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  39 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD> PU </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  40 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 11 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  41 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 7 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  42 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 2 </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  43 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 73 </TD> <TD> A </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> A </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD align="right">  44 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 7 </TD> <TD> LG </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> LG </TD> </TR>
   <TR> <TD align="right">  15 </TD> <TD align="right">   1 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 88 </TD> <TD> P </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD> P </TD> </TR>
   <TR> <TD align="right">  15 </TD> <TD align="right">   2 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 91 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  15 </TD> <TD align="right">   3 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 19 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
@@ -594,9 +594,9 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  22 </TD> <TD align="right">   7 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 6 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  22 </TD> <TD align="right">   8 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  22 </TD> <TD align="right">   9 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 6 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  22 </TD> <TD align="right">  10 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD> TT </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> TT </TD> </TR>
+  <TR> <TD align="right">  22 </TD> <TD align="right">  10 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  22 </TD> <TD align="right">  11 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 24 </TD> <TD> A </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> A </TD> </TR>
-  <TR> <TD align="right">  22 </TD> <TD align="right">  12 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD> F </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> F </TD> </TR>
+  <TR> <TD align="right">  22 </TD> <TD align="right">  12 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 9 </TD> <TD> F </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> F </TD> </TR>
   <TR> <TD align="right">  22 </TD> <TD align="right">  13 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 39 </TD> <TD> G </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">  23 </TD> <TD align="right">   1 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD> P </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD> P </TD> </TR>
   <TR> <TD align="right">  23 </TD> <TD align="right">   2 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 73 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
@@ -604,22 +604,20 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  23 </TD> <TD align="right">   4 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 16 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  23 </TD> <TD align="right">   5 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 73 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  23 </TD> <TD align="right">   6 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 2 </TD> <TD> L </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD> L </TD> </TR>
-  <TR> <TD align="right">  23 </TD> <TD align="right">   7 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> F </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD> F </TD> </TR>
+  <TR> <TD align="right">  23 </TD> <TD align="right">   7 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 39 </TD> <TD> F </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD> F </TD> </TR>
   <TR> <TD align="right">  23 </TD> <TD align="right">   8 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 7 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  23 </TD> <TD align="right">   9 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 8 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  23 </TD> <TD align="right">  10 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  23 </TD> <TD align="right">  10 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  23 </TD> <TD align="right">  11 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 7 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  23 </TD> <TD align="right">  12 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 8 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  23 </TD> <TD align="right">  13 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> F </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD> F </TD> </TR>
-  <TR> <TD align="right">  23 </TD> <TD align="right">  14 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD> F </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD> F </TD> </TR>
-  <TR> <TD align="right">  23 </TD> <TD align="right">  15 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  23 </TD> <TD align="right">  13 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  23 </TD> <TD align="right">  14 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 7 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  23 </TD> <TD align="right">  15 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 8 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  23 </TD> <TD align="right">  16 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 7 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  23 </TD> <TD align="right">  17 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 8 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  23 </TD> <TD align="right">  18 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 7 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  23 </TD> <TD align="right">  19 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 8 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  23 </TD> <TD align="right">  20 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 6 </TD> <TD> A </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD> A </TD> </TR>
-  <TR> <TD align="right">  23 </TD> <TD align="right">  21 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 18 </TD> <TD> F </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD> F </TD> </TR>
-  <TR> <TD align="right">  23 </TD> <TD align="right">  22 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 16 </TD> <TD> G </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD> G </TD> </TR>
+  <TR> <TD align="right">  23 </TD> <TD align="right">  18 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 6 </TD> <TD> A </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD> A </TD> </TR>
+  <TR> <TD align="right">  23 </TD> <TD align="right">  19 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 18 </TD> <TD> F </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD> F </TD> </TR>
+  <TR> <TD align="right">  23 </TD> <TD align="right">  20 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 16 </TD> <TD> G </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">  24 </TD> <TD align="right">   1 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD>  </TD> <TD>  </TD> <TD> 7 </TD> <TD> P </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> P </TD> </TR>
   <TR> <TD align="right">  24 </TD> <TD align="right">   2 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 89 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  24 </TD> <TD align="right">   3 </TD> <TD> vanNH </TD> <TD> pdxST </TD> <TD> 19 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
@@ -634,7 +632,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  25 </TD> <TD align="right">   2 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 42 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  25 </TD> <TD align="right">   3 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  25 </TD> <TD align="right">   4 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 73 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  25 </TD> <TD align="right">   5 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD> TT </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> TT </TD> </TR>
+  <TR> <TD align="right">  25 </TD> <TD align="right">   5 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  25 </TD> <TD align="right">   6 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD> A </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> A </TD> </TR>
   <TR> <TD align="right">  25 </TD> <TD align="right">   7 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 45 </TD> <TD> G </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">  26 </TD> <TD align="right">   1 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 81 </TD> <TD> P </TD> <TD> pdxST </TD> <TD align="right">   3 </TD> <TD> P </TD> </TR>
@@ -722,7 +720,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  32 </TD> <TD align="right">   6 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 2 </TD> <TD> TT </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> TT </TD> </TR>
   <TR> <TD align="right">  32 </TD> <TD align="right">   7 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 27 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  32 </TD> <TD align="right">   8 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 81 </TD> <TD> A </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> A </TD> </TR>
-  <TR> <TD align="right">  32 </TD> <TD align="right">   9 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD> F </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> F </TD> </TR>
+  <TR> <TD align="right">  32 </TD> <TD align="right">   9 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 4 </TD> <TD> F </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> F </TD> </TR>
   <TR> <TD align="right">  32 </TD> <TD align="right">  10 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 24 </TD> <TD> G </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">  33 </TD> <TD align="right">   1 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 33 </TD> <TD> P </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> P </TD> </TR>
   <TR> <TD align="right">  33 </TD> <TD align="right">   2 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 7 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
@@ -736,7 +734,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  33 </TD> <TD align="right">  10 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 75 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  33 </TD> <TD align="right">  11 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 8 </TD> <TD> D </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> D </TD> </TR>
   <TR> <TD align="right">  33 </TD> <TD align="right">  12 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 8 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> PU </TD> </TR>
-  <TR> <TD align="right">  33 </TD> <TD align="right">  13 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD> F </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> F </TD> </TR>
+  <TR> <TD align="right">  33 </TD> <TD align="right">  13 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 8 </TD> <TD> F </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> F </TD> </TR>
   <TR> <TD align="right">  33 </TD> <TD align="right">  14 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 73 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  33 </TD> <TD align="right">  15 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 7 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  33 </TD> <TD align="right">  16 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 73 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
@@ -772,8 +770,8 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  34 </TD> <TD align="right">  22 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 7 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  34 </TD> <TD align="right">  23 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 9 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  34 </TD> <TD align="right">  24 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 7 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  34 </TD> <TD align="right">  25 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD> F </TD> <TD> pdxST </TD> <TD align="right">   4 </TD> <TD> F </TD> </TR>
-  <TR> <TD align="right">  34 </TD> <TD align="right">  26 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> INJURY </TD> <TD> pdxST </TD> <TD align="right">   4 </TD> <TD> INJURY </TD> </TR>
+  <TR> <TD align="right">  34 </TD> <TD align="right">  25 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 42 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  34 </TD> <TD align="right">  26 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD> F </TD> <TD> pdxST </TD> <TD align="right">   4 </TD> <TD> F </TD> </TR>
   <TR> <TD align="right">  34 </TD> <TD align="right">  27 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 24 </TD> <TD> SO </TD> <TD> pdxST </TD> <TD align="right">   4 </TD> <TD> SO </TD> </TR>
   <TR> <TD align="right">  34 </TD> <TD align="right">  28 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD>  </TD> <TD>  </TD> <TD> 75 </TD> <TD> SI </TD> <TD> pdxST </TD> <TD align="right">   4 </TD> <TD> SI </TD> </TR>
   <TR> <TD align="right">  34 </TD> <TD align="right">  29 </TD> <TD> pdxST </TD> <TD> vanNH </TD> <TD> 42 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> pdxST </TD> <TD align="right">   4 </TD> <TD> PU </TD> </TR>

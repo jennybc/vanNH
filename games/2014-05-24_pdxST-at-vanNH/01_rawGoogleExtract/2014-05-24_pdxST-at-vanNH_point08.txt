@@ -20,12 +20,11 @@ Offense	Defense
 	11PU
 	9
 	7
-VP?	
+	?VP
 	9
 	2
 	9
 	2
-	16
-81F	
+81F	16
 	7L
 	6G
