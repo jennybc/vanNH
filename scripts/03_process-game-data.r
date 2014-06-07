@@ -8,7 +8,8 @@ if(length(options) < 1) {
   #game <- "2014-04-20_sfoDF-at-vanNH"
   #game <- "2014-05-10_seaRM-at-vanNH"
   #game <- "2014-05-24_pdxST-at-vanNH"
-  game <- "2014-05-31_vanNH-at-seaRM"
+  #game <- "2014-05-31_vanNH-at-seaRM"
+  game <- "2014-06-07_seaRM-at-vanNH"
 } else {
   game <- options[1]
 }
@@ -25,11 +26,11 @@ game_dir <- file.path("..", "games", game, "03_concatGoogleExtract")
 
 in_file <- file.path(game_dir, paste0(game, "_gameplay-raw.tsv"))
 game_play <- read.delim(in_file, stringsAsFactors = FALSE)
-str(game_play)
+#str(game_play)
 
 in_file <- file.path(game_dir, paste0(game, "_points-raw.tsv"))
 point_info <- read.delim(in_file, stringsAsFactors = FALSE)
-str(point_info)
+#str(point_info)
 
 ## add short version of the teams
 mlu_teams <- read.delim(file.path("..", "data", "mlu-teams.tsv"))
@@ -93,6 +94,14 @@ game_play <- with(game_play,
                   data.frame(point, pullTeam, recvTeam, event,
                              pullRaw, pullNum, pullCode,
                              recvRaw, recvNum, recvCode))
+
+## detect pulls with no valid pull code
+pull_codes <- c('P', 'OBP')
+no_explicit_pull <- with(game_play, event == 1 & !(pullCode %in% pull_codes))
+if(any(no_explicit_pull)) {
+  message(paste("ALERT: point(s) with NO explicit pull code (P, OBP)"))
+  print(game_play[no_explicit_pull, ])
+}
 
 ## find rows where a play is recorded for both the O and the D
 ## when it's a defensive foul: insert a row to make two rows
@@ -160,7 +169,11 @@ jFun <- function(x) {
     assist_row <- max(which(sc_team_num != ''))
     ## in my experience, existing code can be '', 'L', 'PU'
     assist_code <- x[assist_row, paste0(sc_team_rel, "Code")]
-    x[assist_row, paste0(sc_team_rel, "Code")] <- paste0(assist_code, 'A')
+    if(grepl("A$", assist_code)) {
+      message(paste("ALERT: point", x$point[1], "has an explicit assist (A)\n"))
+    } else {
+      x[assist_row, paste0(sc_team_rel, "Code")] <- paste0(assist_code, 'A')
+    }
   } else {
     sc_team_abs <- NA
   }
