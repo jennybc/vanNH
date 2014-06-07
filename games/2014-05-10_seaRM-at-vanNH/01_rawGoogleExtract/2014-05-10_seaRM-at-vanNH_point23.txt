@@ -10,8 +10,7 @@ Offense	Defense
 17	
 8	
 20	
-48	
-	8F
+48	8F
 1	
 99	
 1	

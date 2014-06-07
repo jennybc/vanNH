@@ -20,7 +20,7 @@ Offense	Defense
 	21
 	29
 	21
-	21TT
+	21
 91PU	
 98	
 22L	

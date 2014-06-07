@@ -16,8 +16,7 @@ Offense	Defense
 21	
 19	
 5	
-19	
-	21F
+19	21F
 5	
 89	
 5	

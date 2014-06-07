@@ -6,8 +6,7 @@ Offense	Defense
 	24OBP
 91PU	
 5	
-91	
-	?F
+91	51f
 10	
 22	
 5	

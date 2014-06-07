@@ -9,12 +9,12 @@ Offense	Defense
 ?	
 99	
 48	
-20TT	
+20	
 	45PU
 	31
 	8
 	45
-	31TT
+	31
 20PU	
 17	
 6	

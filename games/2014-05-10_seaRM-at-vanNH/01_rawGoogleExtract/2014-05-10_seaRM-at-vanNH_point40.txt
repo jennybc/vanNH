@@ -10,7 +10,6 @@ Offense	Defense
 20	
 17	
 6	
-51	
-	81F
+51	81F
 20	
 51LG	

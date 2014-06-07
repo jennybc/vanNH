@@ -7,8 +7,7 @@ Offense	Defense
 1	
 29	
 18	
-29	
-	18F
+29	18F
 20VST	
 	33PU
 	14
@@ -26,9 +25,7 @@ Offense	Defense
 29TD	
 	18PU
 20D	
+20to	
 20PU	
-TO	
-20PU	
-20TT	
 	98PU
 	72G

@@ -8,12 +8,10 @@ Offense	Defense
 1	
 17	
 48	
-	14D
+	14hb
 	33PU
-	18
-25F	
-	75
-	TO
+25F	18
+	75to
 	19PU
 	89
 	21

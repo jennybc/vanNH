@@ -7,7 +7,6 @@ Offense	Defense
 19	
 5	
 19	
-5	
-	7F
+5	7F
 72L	
 98G	

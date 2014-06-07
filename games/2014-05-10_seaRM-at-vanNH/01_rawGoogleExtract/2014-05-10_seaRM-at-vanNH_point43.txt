@@ -9,11 +9,11 @@ Offense	Defense
 14	
 20	
 48	
-17TT	
+17	
 	81PU
 	7
 	27
-	14TT
+	14
 20PU	
 25	
 48LG	

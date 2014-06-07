@@ -6,11 +6,11 @@ Offense	Defense
 	8P
 20	
 6	
-51TT	
+51	
 	18PU
 	8
 	24
-	18TT
+	18
 1PU	
 20	
 6	
@@ -22,7 +22,7 @@ Offense	Defense
 	24
 	45
 20PU	
-6TT	
+6	
 	18PU
 	8
 	31

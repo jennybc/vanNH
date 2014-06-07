@@ -64,8 +64,8 @@ code_seems_valid <- colwise(jFun)(game_play[c('pullRaw', 'recvRaw')])
 ## only valid exception is TO for timeout
 expect_true(all(game_play$pullRaw[!code_seems_valid$pullRaw] == "TO"))
 expect_true(all(game_play$recvRaw[!code_seems_valid$recvRaw] == "TO"))
-game_play[!code_seems_valid$pullRaw, ]
-game_play[!code_seems_valid$recvRaw, ]
+#game_play[!code_seems_valid$pullRaw, ]
+#game_play[!code_seems_valid$recvRaw, ]
 
 ## separate raw game play into a number and a code
 ## e.g. 81D into 81 and D

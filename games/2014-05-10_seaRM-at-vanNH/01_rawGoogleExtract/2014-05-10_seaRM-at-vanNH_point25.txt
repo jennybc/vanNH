@@ -7,9 +7,8 @@ Offense	Defense
 6	
 20	
 99	
-17	
-	22F
+17	22F
 1	
 	24D
-	27
-	45TT
+	27pu
+	45

@@ -8,9 +8,8 @@ Offense	Defense
 91	
 21	
 10	
-	?F
 	23D
-	TO
+	23TO
 	20PU
 	1
 	17
@@ -19,9 +18,8 @@ Offense	Defense
 	99
 	6
 	17
-	25TT
-81PU	
-TO	
+	25
+81to	
 5PU	
 19	
 98	

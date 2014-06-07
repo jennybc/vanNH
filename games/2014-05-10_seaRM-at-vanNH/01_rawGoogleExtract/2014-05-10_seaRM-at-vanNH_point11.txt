@@ -3,7 +3,7 @@ Period: 1
 Clock before point: 0:31:00
 Clock after point: 0:03:00
 Offense	Defense
-	40?
+	40p
 19PU	
 21	
 98	

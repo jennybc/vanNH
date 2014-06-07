@@ -7,14 +7,14 @@ Offense	Defense
 17	
 1	
 99	
-6TT	
+6	
 	18PU
 	18VTT
 1PU	
 17	
 14	
 6	
-14TT	
+14	
 	81PU
 	7TD
 6PU	

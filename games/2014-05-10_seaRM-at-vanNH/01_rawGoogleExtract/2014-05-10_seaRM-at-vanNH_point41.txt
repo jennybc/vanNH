@@ -12,13 +12,10 @@ Offense	Defense
 19	
 22	
 21	
-91TT	
-	29PU
-21F	
-21SO	
-8SI	
-	51SO
-	20SI
+91	
+21F	29PU
+21SO	51SO
+8SI	20SI
 	4PU
 	29
 	23

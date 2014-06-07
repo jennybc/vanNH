@@ -3,13 +3,13 @@ Period: 1
 Clock before point: 5:56:00
 Clock after point: 5:15:00
 Offense	Defense
-	?p
+	?P
 91	
 89	
 91	
 89TD	
 	21PU
 	9
-	?
+	23
 	9
 	29G
