@@ -4,7 +4,7 @@
 
 
 
-#### last update Fri Jun  6 23:58:48 2014
+#### last update Sat Jun  7 11:22:47 2014
 # vanNH 29
 # seaRM 24
 ## game is complete
@@ -18,76 +18,77 @@ Go to ...
 
 ## Scoring progression<a id="scoringProgression"></a>:
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Fri Jun  6 23:58:48 2014 -->
+<!-- Sat Jun  7 11:22:47 2014 -->
 <TABLE border=1>
 <TR> <TH> point </TH> <TH> period </TH> <TH> begin </TH> <TH> end </TH> <TH> pt_duration </TH> <TH> desc </TH> <TH> vanNH </TH> <TH> seaRM </TH>  </TR>
-  <TR> <TD align="right">  58 </TD> <TD> 6 </TD> <TD> 0:10:08 </TD> <TD> 0:00:00 </TD> <TD> 00:10 </TD> <TD> vanNH-37-sinclair  to vanNH-49-hayduk  </TD> <TD> 29 </TD> <TD> 24 </TD> </TR>
-  <TR> <TD align="right">  57 </TD> <TD> 6 </TD> <TD> 1:24:00 </TD> <TD> 0:10:08 </TD> <TD> 01:14 </TD> <TD> vanNH-4-doyle  to vanNH-45-cowan  </TD> <TD> 28 </TD> <TD> 24 </TD> </TR>
-  <TR> <TD align="right">  56 </TD> <TD> 6 </TD> <TD> 3:10:00 </TD> <TD> 1:24:00 </TD> <TD> 01:46 </TD> <TD> vanNH-11-greer  to vanNH-8-hibbert  </TD> <TD> 27 </TD> <TD> 24 </TD> </TR>
-  <TR> <TD align="right">  55 </TD> <TD> 6 </TD> <TD> 4:08:00 </TD> <TD> 3:10:00 </TD> <TD> 00:58 </TD> <TD> vanNH-91-savage  to vanNH-10-chatha  </TD> <TD> 26 </TD> <TD> 24 </TD> </TR>
-  <TR> <TD align="right">  54 </TD> <TD> 6 </TD> <TD> 5:00:00 </TD> <TD> 4:08:00 </TD> <TD> 00:52 </TD> <TD> vanNH-98-wong  to vanNH-91-savage  </TD> <TD> 25 </TD> <TD> 24 </TD> </TR>
-  <TR> <TD align="right">  52 </TD> <TD> 5 </TD> <TD> 2:17:00 </TD> <TD> 0:02:08 </TD> <TD> 02:15 </TD> <TD> vanNH-19-knapp  to vanNH-10-chatha  </TD> <TD> 24 </TD> <TD> 24 </TD> </TR>
-  <TR> <TD align="right">  51 </TD> <TD> 5 </TD> <TD> 2:40:00 </TD> <TD> 2:17:00 </TD> <TD> 00:23 </TD> <TD> seaRM-9-harkness  to seaRM-17-zemel  </TD> <TD> 23 </TD> <TD> 24 </TD> </TR>
-  <TR> <TD align="right">  50 </TD> <TD> 5 </TD> <TD> 4:32:00 </TD> <TD> 2:40:00 </TD> <TD> 01:52 </TD> <TD> vanNH-19-knapp  to vanNH-98-wong  </TD> <TD> 23 </TD> <TD> 23 </TD> </TR>
-  <TR> <TD align="right">  49 </TD> <TD> 5 </TD> <TD> 5:00:00 </TD> <TD> 4:32:00 </TD> <TD> 00:28 </TD> <TD> seaRM-20-simon  to seaRM-6-trytiak  </TD> <TD> 22 </TD> <TD> 23 </TD> </TR>
-  <TR> <TD align="right">  48 </TD> <TD> 4 </TD> <TD> 0:29:08 </TD> <TD> 0:00:00 </TD> <TD> 00:29 </TD> <TD> NA to  </TD> <TD> 22 </TD> <TD> 22 </TD> </TR>
-  <TR> <TD align="right">  47 </TD> <TD> 4 </TD> <TD> 1:04:00 </TD> <TD> 0:29:08 </TD> <TD> 00:35 </TD> <TD> vanNH-91-savage  to vanNH-89-underhill  </TD> <TD> 22 </TD> <TD> 22 </TD> </TR>
-  <TR> <TD align="right">  46 </TD> <TD> 4 </TD> <TD> 1:23:00 </TD> <TD> 1:04:00 </TD> <TD> 00:19 </TD> <TD> seaRM-9-harkness  to seaRM-48-clark  </TD> <TD> 21 </TD> <TD> 22 </TD> </TR>
-  <TR> <TD align="right">  45 </TD> <TD> 4 </TD> <TD> 1:47:00 </TD> <TD> 1:23:00 </TD> <TD> 00:24 </TD> <TD> vanNH-21-loach  to vanNH-91-savage  </TD> <TD> 21 </TD> <TD> 21 </TD> </TR>
-  <TR> <TD align="right">  44 </TD> <TD> 4 </TD> <TD> 2:15:00 </TD> <TD> 1:47:00 </TD> <TD> 00:28 </TD> <TD> seaRM-14-pickel  to seaRM-20-simon  </TD> <TD> 20 </TD> <TD> 21 </TD> </TR>
-  <TR> <TD align="right">  43 </TD> <TD> 4 </TD> <TD> 4:45:00 </TD> <TD> 2:15:00 </TD> <TD> 02:30 </TD> <TD> vanNH-27-davis  to vanNH-24-yu  </TD> <TD> 20 </TD> <TD> 20 </TD> </TR>
-  <TR> <TD align="right">  42 </TD> <TD> 4 </TD> <TD> 5:54:00 </TD> <TD> 4:45:00 </TD> <TD> 01:09 </TD> <TD> seaRM-8-fong  to seaRM-6-trytiak  </TD> <TD> 19 </TD> <TD> 20 </TD> </TR>
-  <TR> <TD align="right">  41 </TD> <TD> 4 </TD> <TD> 8:00:00 </TD> <TD> 5:54:00 </TD> <TD> 02:06 </TD> <TD> vanNH-91-savage  to vanNH-19-knapp  </TD> <TD> 19 </TD> <TD> 19 </TD> </TR>
-  <TR> <TD align="right">  40 </TD> <TD> 4 </TD> <TD> 9:34:00 </TD> <TD> 8:00:00 </TD> <TD> 01:34 </TD> <TD> vanNH-91-savage  to vanNH-10-chatha  </TD> <TD> 18 </TD> <TD> 19 </TD> </TR>
-  <TR> <TD align="right">  39 </TD> <TD> 4 </TD> <TD> 10:00:00 </TD> <TD> 9:34:00 </TD> <TD> 00:26 </TD> <TD> seaRM-17-zemel  to seaRM-9-harkness  </TD> <TD> 17 </TD> <TD> 19 </TD> </TR>
-  <TR> <TD align="right">  38 </TD> <TD> 3 </TD> <TD> 0:36:03 </TD> <TD> 0:00:00 </TD> <TD> 00:36 </TD> <TD> NA to  </TD> <TD> 17 </TD> <TD> 18 </TD> </TR>
-  <TR> <TD align="right">  37 </TD> <TD> 3 </TD> <TD> 1:55:00 </TD> <TD> 0:36:03 </TD> <TD> 01:19 </TD> <TD> vanNH-89-underhill  to vanNH-21-loach  </TD> <TD> 17 </TD> <TD> 18 </TD> </TR>
-  <TR> <TD align="right">  36 </TD> <TD> 3 </TD> <TD> 2:20:00 </TD> <TD> 1:55:00 </TD> <TD> 00:25 </TD> <TD> seaRM-21-phan  to seaRM-12-gallagher  </TD> <TD> 16 </TD> <TD> 18 </TD> </TR>
-  <TR> <TD align="right">  35 </TD> <TD> 3 </TD> <TD> 4:10:00 </TD> <TD> 2:20:00 </TD> <TD> 01:50 </TD> <TD> seaRM-17-zemel  to seaRM-1-mckibben  </TD> <TD> 16 </TD> <TD> 17 </TD> </TR>
-  <TR> <TD align="right">  34 </TD> <TD> 3 </TD> <TD> 5:38:00 </TD> <TD> 4:10:00 </TD> <TD> 01:28 </TD> <TD> vanNH-89-underhill  to vanNH-10-chatha  </TD> <TD> 16 </TD> <TD> 16 </TD> </TR>
-  <TR> <TD align="right">  33 </TD> <TD> 3 </TD> <TD> 6:02:00 </TD> <TD> 5:38:00 </TD> <TD> 00:24 </TD> <TD> vanNH-98-wong  to vanNH-72-leduc  </TD> <TD> 15 </TD> <TD> 16 </TD> </TR>
-  <TR> <TD align="right">  32 </TD> <TD> 3 </TD> <TD> 6:29:00 </TD> <TD> 6:02:00 </TD> <TD> 00:27 </TD> <TD> seaRM-6-trytiak  to seaRM-9-harkness  </TD> <TD> 14 </TD> <TD> 16 </TD> </TR>
-  <TR> <TD align="right">  31 </TD> <TD> 3 </TD> <TD> 6:54:00 </TD> <TD> 6:29:00 </TD> <TD> 00:25 </TD> <TD> vanNH-19-knapp  to vanNH-98-wong  </TD> <TD> 14 </TD> <TD> 15 </TD> </TR>
-  <TR> <TD align="right">  30 </TD> <TD> 3 </TD> <TD> 7:29:00 </TD> <TD> 6:54:00 </TD> <TD> 00:35 </TD> <TD> seaRM-23-sliva  to seaRM-18-uhrig-fox  </TD> <TD> 13 </TD> <TD> 15 </TD> </TR>
-  <TR> <TD align="right">  29 </TD> <TD> 3 </TD> <TD> 7:53:00 </TD> <TD> 7:29:00 </TD> <TD> 00:24 </TD> <TD> seaRM-6-trytiak  to seaRM-48-clark  </TD> <TD> 13 </TD> <TD> 14 </TD> </TR>
-  <TR> <TD align="right">  28 </TD> <TD> 3 </TD> <TD> 8:27:00 </TD> <TD> 7:53:00 </TD> <TD> 00:34 </TD> <TD> vanNH-21-loach  to vanNH-72-leduc  </TD> <TD> 13 </TD> <TD> 13 </TD> </TR>
-  <TR> <TD align="right">  27 </TD> <TD> 3 </TD> <TD> 10:00:00 </TD> <TD> 8:27:00 </TD> <TD> 01:33 </TD> <TD> seaRM-12-gallagher  to seaRM-21-phan  </TD> <TD> 12 </TD> <TD> 13 </TD> </TR>
-  <TR> <TD align="right">  26 </TD> <TD> 2 </TD> <TD> 0:08:04 </TD> <TD> 0:00:00 </TD> <TD> 00:08 </TD> <TD> NA to  </TD> <TD> 12 </TD> <TD> 12 </TD> </TR>
-  <TR> <TD align="right">  25 </TD> <TD> 2 </TD> <TD> 0:20:01 </TD> <TD> 0:08:04 </TD> <TD> 00:12 </TD> <TD> vanNH-21-loach  to vanNH-10-chatha  </TD> <TD> 12 </TD> <TD> 12 </TD> </TR>
-  <TR> <TD align="right">  24 </TD> <TD> 2 </TD> <TD> 0:45:01 </TD> <TD> 0:20:01 </TD> <TD> 00:25 </TD> <TD> seaRM-17-zemel  to seaRM-14-pickel  </TD> <TD> 11 </TD> <TD> 12 </TD> </TR>
-  <TR> <TD align="right">  23 </TD> <TD> 2 </TD> <TD> 2:04:00 </TD> <TD> 0:45:01 </TD> <TD> 01:19 </TD> <TD> vanNH-91-savage  to vanNH-21-loach  </TD> <TD> 11 </TD> <TD> 11 </TD> </TR>
-  <TR> <TD align="right">  22 </TD> <TD> 2 </TD> <TD> 3:40:00 </TD> <TD> 2:04:00 </TD> <TD> 01:36 </TD> <TD> vanNH-7-dandurand  to vanNH-27-davis  </TD> <TD> 10 </TD> <TD> 11 </TD> </TR>
-  <TR> <TD align="right">  21 </TD> <TD> 2 </TD> <TD> 3:59:00 </TD> <TD> 3:40:00 </TD> <TD> 00:19 </TD> <TD> seaRM-8-fong  to seaRM-17-zemel  </TD> <TD> 9 </TD> <TD> 11 </TD> </TR>
-  <TR> <TD align="right">  20 </TD> <TD> 2 </TD> <TD> 4:48:00 </TD> <TD> 3:59:00 </TD> <TD> 00:49 </TD> <TD> vanNH-89-underhill  to vanNH-10-chatha  </TD> <TD> 9 </TD> <TD> 10 </TD> </TR>
-  <TR> <TD align="right">  19 </TD> <TD> 2 </TD> <TD> 6:39:00 </TD> <TD> 4:48:00 </TD> <TD> 01:51 </TD> <TD> seaRM-17-zemel  to seaRM-6-trytiak  </TD> <TD> 8 </TD> <TD> 10 </TD> </TR>
-  <TR> <TD align="right">  18 </TD> <TD> 2 </TD> <TD> 7:01:00 </TD> <TD> 6:39:00 </TD> <TD> 00:22 </TD> <TD> vanNH-72-leduc  to vanNH-19-knapp  </TD> <TD> 8 </TD> <TD> 9 </TD> </TR>
-  <TR> <TD align="right">  17 </TD> <TD> 2 </TD> <TD> 8:15:00 </TD> <TD> 7:01:00 </TD> <TD> 01:14 </TD> <TD> seaRM-18-uhrig-fox  to seaRM-29-feeley  </TD> <TD> 7 </TD> <TD> 9 </TD> </TR>
-  <TR> <TD align="right">  16 </TD> <TD> 2 </TD> <TD> 9:21:00 </TD> <TD> 8:15:00 </TD> <TD> 01:06 </TD> <TD> seaRM-29-feeley  to seaRM-23-sliva  </TD> <TD> 7 </TD> <TD> 8 </TD> </TR>
-  <TR> <TD align="right">  15 </TD> <TD> 2 </TD> <TD> 10:00:00 </TD> <TD> 9:21:00 </TD> <TD> 00:39 </TD> <TD> seaRM-1-mckibben  to seaRM-00-rupp  </TD> <TD> 7 </TD> <TD> 7 </TD> </TR>
-  <TR> <TD align="right">  14 </TD> <TD> 1 </TD> <TD> 0:09:04 </TD> <TD> 0:00:00 </TD> <TD> 00:09 </TD> <TD> NA to  </TD> <TD> 7 </TD> <TD> 6 </TD> </TR>
-  <TR> <TD align="right">  13 </TD> <TD> 1 </TD> <TD> 1:16:00 </TD> <TD> 0:09:04 </TD> <TD> 01:07 </TD> <TD> vanNH-91-savage  to vanNH-19-knapp  </TD> <TD> 7 </TD> <TD> 6 </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD> 1 </TD> <TD> 1:44:00 </TD> <TD> 1:16:00 </TD> <TD> 00:28 </TD> <TD> seaRM-20-simon  to seaRM-9-harkness  </TD> <TD> 6 </TD> <TD> 6 </TD> </TR>
-  <TR> <TD align="right">  11 </TD> <TD> 1 </TD> <TD> 2:08:00 </TD> <TD> 1:44:00 </TD> <TD> 00:24 </TD> <TD> vanNH-89-underhill  to vanNH-98-wong  </TD> <TD> 6 </TD> <TD> 5 </TD> </TR>
-  <TR> <TD align="right">  10 </TD> <TD> 1 </TD> <TD> 3:22:00 </TD> <TD> 2:08:00 </TD> <TD> 01:14 </TD> <TD> seaRM-29-feeley  to seaRM-18-uhrig-fox  </TD> <TD> 5 </TD> <TD> 5 </TD> </TR>
-  <TR> <TD align="right">   9 </TD> <TD> 1 </TD> <TD> 3:49:00 </TD> <TD> 3:22:00 </TD> <TD> 00:27 </TD> <TD> seaRM-48-clark  to seaRM-20-simon  </TD> <TD> 5 </TD> <TD> 4 </TD> </TR>
-  <TR> <TD align="right">   8 </TD> <TD> 1 </TD> <TD> 5:02:00 </TD> <TD> 3:49:00 </TD> <TD> 01:13 </TD> <TD> vanNH-24-yu  to vanNH-37-sinclair  </TD> <TD> 5 </TD> <TD> 3 </TD> </TR>
-  <TR> <TD align="right">   7 </TD> <TD> 1 </TD> <TD> 7:00:00 </TD> <TD> 5:02:00 </TD> <TD> 01:58 </TD> <TD> vanNH-8-hibbert  to vanNH-11-greer  </TD> <TD> 4 </TD> <TD> 3 </TD> </TR>
-  <TR> <TD align="right">   6 </TD> <TD> 1 </TD> <TD> 7:18:00 </TD> <TD> 7:00:00 </TD> <TD> 00:18 </TD> <TD> vanNH-22-berezan  to vanNH-10-chatha  </TD> <TD> 3 </TD> <TD> 3 </TD> </TR>
-  <TR> <TD align="right">   5 </TD> <TD> 1 </TD> <TD> 8:05:00 </TD> <TD> 7:18:00 </TD> <TD> 00:47 </TD> <TD> seaRM-6-trytiak  to seaRM-1-mckibben  </TD> <TD> 2 </TD> <TD> 3 </TD> </TR>
-  <TR> <TD align="right">   4 </TD> <TD> 1 </TD> <TD> 8:22:00 </TD> <TD> 8:05:00 </TD> <TD> 00:17 </TD> <TD> vanNH-91-savage  to vanNH-72-leduc  </TD> <TD> 2 </TD> <TD> 2 </TD> </TR>
-  <TR> <TD align="right">   3 </TD> <TD> 1 </TD> <TD> 9:09:00 </TD> <TD> 8:22:00 </TD> <TD> 00:47 </TD> <TD> seaRM-2-bubernak  to seaRM-12-gallagher  </TD> <TD> 1 </TD> <TD> 2 </TD> </TR>
-  <TR> <TD align="right">   2 </TD> <TD> 1 </TD> <TD> 9:19:00 </TD> <TD> 9:09:00 </TD> <TD> 00:10 </TD> <TD> seaRM-6-trytiak  to seaRM-8-fong  </TD> <TD> 1 </TD> <TD> 1 </TD> </TR>
-  <TR> <TD align="right">   1 </TD> <TD> 1 </TD> <TD> 10:00:00 </TD> <TD> 9:19:00 </TD> <TD> 00:41 </TD> <TD> vanNH-91-savage  to vanNH-10-chatha  </TD> <TD> 1 </TD> <TD> 0 </TD> </TR>
+  <TR> <TD align="right">  58 </TD> <TD> 6 </TD> <TD> 0:10:08 </TD> <TD> 0:00:00 </TD> <TD> 00:10 </TD> <TD> vanNH-37-sinclair to vanNH-49-hayduk </TD> <TD> 29 </TD> <TD> 24 </TD> </TR>
+  <TR> <TD align="right">  57 </TD> <TD> 6 </TD> <TD> 1:24:00 </TD> <TD> 0:10:08 </TD> <TD> 01:14 </TD> <TD> vanNH-4-doyle to vanNH-45-cowan </TD> <TD> 28 </TD> <TD> 24 </TD> </TR>
+  <TR> <TD align="right">  56 </TD> <TD> 6 </TD> <TD> 3:10:00 </TD> <TD> 1:24:00 </TD> <TD> 01:46 </TD> <TD> vanNH-11-greer to vanNH-8-hibbert </TD> <TD> 27 </TD> <TD> 24 </TD> </TR>
+  <TR> <TD align="right">  55 </TD> <TD> 6 </TD> <TD> 4:08:00 </TD> <TD> 3:10:00 </TD> <TD> 00:58 </TD> <TD> vanNH-91-savage to vanNH-10-chatha </TD> <TD> 26 </TD> <TD> 24 </TD> </TR>
+  <TR> <TD align="right">  54 </TD> <TD> 6 </TD> <TD> 5:00:00 </TD> <TD> 4:08:00 </TD> <TD> 00:52 </TD> <TD> vanNH-98-wong to vanNH-91-savage </TD> <TD> 25 </TD> <TD> 24 </TD> </TR>
+  <TR> <TD align="right">  52 </TD> <TD> 5 </TD> <TD> 2:17:00 </TD> <TD> 0:02:08 </TD> <TD> 02:15 </TD> <TD> vanNH-19-knapp to vanNH-10-chatha </TD> <TD> 24 </TD> <TD> 24 </TD> </TR>
+  <TR> <TD align="right">  51 </TD> <TD> 5 </TD> <TD> 2:40:00 </TD> <TD> 2:17:00 </TD> <TD> 00:23 </TD> <TD> seaRM-9-harkness to seaRM-17-zemel </TD> <TD> 23 </TD> <TD> 24 </TD> </TR>
+  <TR> <TD align="right">  50 </TD> <TD> 5 </TD> <TD> 4:32:00 </TD> <TD> 2:40:00 </TD> <TD> 01:52 </TD> <TD> vanNH-19-knapp to vanNH-98-wong </TD> <TD> 23 </TD> <TD> 23 </TD> </TR>
+  <TR> <TD align="right">  49 </TD> <TD> 5 </TD> <TD> 5:00:00 </TD> <TD> 4:32:00 </TD> <TD> 00:28 </TD> <TD> seaRM-20-simon to seaRM-6-trytiak </TD> <TD> 22 </TD> <TD> 23 </TD> </TR>
+  <TR> <TD align="right">  48 </TD> <TD> 4 </TD> <TD> 0:29:08 </TD> <TD> 0:00:00 </TD> <TD> 00:29 </TD> <TD> - no goal - </TD> <TD> 22 </TD> <TD> 22 </TD> </TR>
+  <TR> <TD align="right">  47 </TD> <TD> 4 </TD> <TD> 1:04:00 </TD> <TD> 0:29:08 </TD> <TD> 00:35 </TD> <TD> vanNH-91-savage to vanNH-89-underhill </TD> <TD> 22 </TD> <TD> 22 </TD> </TR>
+  <TR> <TD align="right">  46 </TD> <TD> 4 </TD> <TD> 1:23:00 </TD> <TD> 1:04:00 </TD> <TD> 00:19 </TD> <TD> seaRM-9-harkness to seaRM-48-clark </TD> <TD> 21 </TD> <TD> 22 </TD> </TR>
+  <TR> <TD align="right">  45 </TD> <TD> 4 </TD> <TD> 1:47:00 </TD> <TD> 1:23:00 </TD> <TD> 00:24 </TD> <TD> vanNH-21-loach to vanNH-91-savage </TD> <TD> 21 </TD> <TD> 21 </TD> </TR>
+  <TR> <TD align="right">  44 </TD> <TD> 4 </TD> <TD> 2:15:00 </TD> <TD> 1:47:00 </TD> <TD> 00:28 </TD> <TD> seaRM-14-pickel to seaRM-20-simon </TD> <TD> 20 </TD> <TD> 21 </TD> </TR>
+  <TR> <TD align="right">  43 </TD> <TD> 4 </TD> <TD> 4:45:00 </TD> <TD> 2:15:00 </TD> <TD> 02:30 </TD> <TD> vanNH-27-davis to vanNH-24-yu </TD> <TD> 20 </TD> <TD> 20 </TD> </TR>
+  <TR> <TD align="right">  42 </TD> <TD> 4 </TD> <TD> 5:54:00 </TD> <TD> 4:45:00 </TD> <TD> 01:09 </TD> <TD> seaRM-8-fong to seaRM-6-trytiak </TD> <TD> 19 </TD> <TD> 20 </TD> </TR>
+  <TR> <TD align="right">  41 </TD> <TD> 4 </TD> <TD> 8:00:00 </TD> <TD> 5:54:00 </TD> <TD> 02:06 </TD> <TD> vanNH-91-savage to vanNH-19-knapp </TD> <TD> 19 </TD> <TD> 19 </TD> </TR>
+  <TR> <TD align="right">  40 </TD> <TD> 4 </TD> <TD> 9:34:00 </TD> <TD> 8:00:00 </TD> <TD> 01:34 </TD> <TD> vanNH-91-savage to vanNH-10-chatha </TD> <TD> 18 </TD> <TD> 19 </TD> </TR>
+  <TR> <TD align="right">  39 </TD> <TD> 4 </TD> <TD> 10:00:00 </TD> <TD> 9:34:00 </TD> <TD> 00:26 </TD> <TD> seaRM-17-zemel to seaRM-9-harkness </TD> <TD> 17 </TD> <TD> 19 </TD> </TR>
+  <TR> <TD align="right">  38 </TD> <TD> 3 </TD> <TD> 0:36:03 </TD> <TD> 0:00:00 </TD> <TD> 00:36 </TD> <TD> - no goal - </TD> <TD> 17 </TD> <TD> 18 </TD> </TR>
+  <TR> <TD align="right">  37 </TD> <TD> 3 </TD> <TD> 1:55:00 </TD> <TD> 0:36:03 </TD> <TD> 01:19 </TD> <TD> vanNH-89-underhill to vanNH-21-loach </TD> <TD> 17 </TD> <TD> 18 </TD> </TR>
+  <TR> <TD align="right">  36 </TD> <TD> 3 </TD> <TD> 2:20:00 </TD> <TD> 1:55:00 </TD> <TD> 00:25 </TD> <TD> seaRM-21-phan to seaRM-12-gallagher </TD> <TD> 16 </TD> <TD> 18 </TD> </TR>
+  <TR> <TD align="right">  35 </TD> <TD> 3 </TD> <TD> 4:10:00 </TD> <TD> 2:20:00 </TD> <TD> 01:50 </TD> <TD> seaRM-17-zemel to seaRM-1-mckibben </TD> <TD> 16 </TD> <TD> 17 </TD> </TR>
+  <TR> <TD align="right">  34 </TD> <TD> 3 </TD> <TD> 5:38:00 </TD> <TD> 4:10:00 </TD> <TD> 01:28 </TD> <TD> vanNH-89-underhill to vanNH-10-chatha </TD> <TD> 16 </TD> <TD> 16 </TD> </TR>
+  <TR> <TD align="right">  33 </TD> <TD> 3 </TD> <TD> 6:02:00 </TD> <TD> 5:38:00 </TD> <TD> 00:24 </TD> <TD> vanNH-98-wong to vanNH-72-leduc </TD> <TD> 15 </TD> <TD> 16 </TD> </TR>
+  <TR> <TD align="right">  32 </TD> <TD> 3 </TD> <TD> 6:29:00 </TD> <TD> 6:02:00 </TD> <TD> 00:27 </TD> <TD> seaRM-6-trytiak to seaRM-9-harkness </TD> <TD> 14 </TD> <TD> 16 </TD> </TR>
+  <TR> <TD align="right">  31 </TD> <TD> 3 </TD> <TD> 6:54:00 </TD> <TD> 6:29:00 </TD> <TD> 00:25 </TD> <TD> vanNH-19-knapp to vanNH-98-wong </TD> <TD> 14 </TD> <TD> 15 </TD> </TR>
+  <TR> <TD align="right">  30 </TD> <TD> 3 </TD> <TD> 7:29:00 </TD> <TD> 6:54:00 </TD> <TD> 00:35 </TD> <TD> seaRM-23-sliva to seaRM-18-uhrig-fox </TD> <TD> 13 </TD> <TD> 15 </TD> </TR>
+  <TR> <TD align="right">  29 </TD> <TD> 3 </TD> <TD> 7:53:00 </TD> <TD> 7:29:00 </TD> <TD> 00:24 </TD> <TD> seaRM-6-trytiak to seaRM-48-clark </TD> <TD> 13 </TD> <TD> 14 </TD> </TR>
+  <TR> <TD align="right">  28 </TD> <TD> 3 </TD> <TD> 8:27:00 </TD> <TD> 7:53:00 </TD> <TD> 00:34 </TD> <TD> vanNH-21-loach to vanNH-72-leduc </TD> <TD> 13 </TD> <TD> 13 </TD> </TR>
+  <TR> <TD align="right">  27 </TD> <TD> 3 </TD> <TD> 10:00:00 </TD> <TD> 8:27:00 </TD> <TD> 01:33 </TD> <TD> seaRM-12-gallagher to seaRM-21-phan </TD> <TD> 12 </TD> <TD> 13 </TD> </TR>
+  <TR> <TD align="right">  26 </TD> <TD> 2 </TD> <TD> 0:08:04 </TD> <TD> 0:00:00 </TD> <TD> 00:08 </TD> <TD> - no goal - </TD> <TD> 12 </TD> <TD> 12 </TD> </TR>
+  <TR> <TD align="right">  25 </TD> <TD> 2 </TD> <TD> 0:20:01 </TD> <TD> 0:08:04 </TD> <TD> 00:12 </TD> <TD> vanNH-21-loach to vanNH-10-chatha </TD> <TD> 12 </TD> <TD> 12 </TD> </TR>
+  <TR> <TD align="right">  24 </TD> <TD> 2 </TD> <TD> 0:45:01 </TD> <TD> 0:20:01 </TD> <TD> 00:25 </TD> <TD> seaRM-17-zemel to seaRM-14-pickel </TD> <TD> 11 </TD> <TD> 12 </TD> </TR>
+  <TR> <TD align="right">  23 </TD> <TD> 2 </TD> <TD> 2:04:00 </TD> <TD> 0:45:01 </TD> <TD> 01:19 </TD> <TD> vanNH-91-savage to vanNH-21-loach </TD> <TD> 11 </TD> <TD> 11 </TD> </TR>
+  <TR> <TD align="right">  22 </TD> <TD> 2 </TD> <TD> 3:40:00 </TD> <TD> 2:04:00 </TD> <TD> 01:36 </TD> <TD> vanNH-7-dandurand to vanNH-27-davis </TD> <TD> 10 </TD> <TD> 11 </TD> </TR>
+  <TR> <TD align="right">  21 </TD> <TD> 2 </TD> <TD> 3:59:00 </TD> <TD> 3:40:00 </TD> <TD> 00:19 </TD> <TD> seaRM-8-fong to seaRM-17-zemel </TD> <TD> 9 </TD> <TD> 11 </TD> </TR>
+  <TR> <TD align="right">  20 </TD> <TD> 2 </TD> <TD> 4:48:00 </TD> <TD> 3:59:00 </TD> <TD> 00:49 </TD> <TD> vanNH-89-underhill to vanNH-10-chatha </TD> <TD> 9 </TD> <TD> 10 </TD> </TR>
+  <TR> <TD align="right">  19 </TD> <TD> 2 </TD> <TD> 6:39:00 </TD> <TD> 4:48:00 </TD> <TD> 01:51 </TD> <TD> seaRM-17-zemel to seaRM-6-trytiak </TD> <TD> 8 </TD> <TD> 10 </TD> </TR>
+  <TR> <TD align="right">  18 </TD> <TD> 2 </TD> <TD> 7:01:00 </TD> <TD> 6:39:00 </TD> <TD> 00:22 </TD> <TD> vanNH-72-leduc to vanNH-19-knapp </TD> <TD> 8 </TD> <TD> 9 </TD> </TR>
+  <TR> <TD align="right">  17 </TD> <TD> 2 </TD> <TD> 8:15:00 </TD> <TD> 7:01:00 </TD> <TD> 01:14 </TD> <TD> seaRM-18-uhrig-fox to seaRM-29-feeley </TD> <TD> 7 </TD> <TD> 9 </TD> </TR>
+  <TR> <TD align="right">  16 </TD> <TD> 2 </TD> <TD> 9:21:00 </TD> <TD> 8:15:00 </TD> <TD> 01:06 </TD> <TD> seaRM-29-feeley to seaRM-23-sliva </TD> <TD> 7 </TD> <TD> 8 </TD> </TR>
+  <TR> <TD align="right">  15 </TD> <TD> 2 </TD> <TD> 10:00:00 </TD> <TD> 9:21:00 </TD> <TD> 00:39 </TD> <TD> seaRM-1-mckibben to seaRM-00-rupp </TD> <TD> 7 </TD> <TD> 7 </TD> </TR>
+  <TR> <TD align="right">  14 </TD> <TD> 1 </TD> <TD> 0:09:04 </TD> <TD> 0:00:00 </TD> <TD> 00:09 </TD> <TD> - no goal - </TD> <TD> 7 </TD> <TD> 6 </TD> </TR>
+  <TR> <TD align="right">  13 </TD> <TD> 1 </TD> <TD> 1:16:00 </TD> <TD> 0:09:04 </TD> <TD> 01:07 </TD> <TD> vanNH-91-savage to vanNH-19-knapp </TD> <TD> 7 </TD> <TD> 6 </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD> 1 </TD> <TD> 1:44:00 </TD> <TD> 1:16:00 </TD> <TD> 00:28 </TD> <TD> seaRM-20-simon to seaRM-9-harkness </TD> <TD> 6 </TD> <TD> 6 </TD> </TR>
+  <TR> <TD align="right">  11 </TD> <TD> 1 </TD> <TD> 2:08:00 </TD> <TD> 1:44:00 </TD> <TD> 00:24 </TD> <TD> vanNH-89-underhill to vanNH-98-wong </TD> <TD> 6 </TD> <TD> 5 </TD> </TR>
+  <TR> <TD align="right">  10 </TD> <TD> 1 </TD> <TD> 3:22:00 </TD> <TD> 2:08:00 </TD> <TD> 01:14 </TD> <TD> seaRM-29-feeley to seaRM-18-uhrig-fox </TD> <TD> 5 </TD> <TD> 5 </TD> </TR>
+  <TR> <TD align="right">   9 </TD> <TD> 1 </TD> <TD> 3:49:00 </TD> <TD> 3:22:00 </TD> <TD> 00:27 </TD> <TD> seaRM-48-clark to seaRM-20-simon </TD> <TD> 5 </TD> <TD> 4 </TD> </TR>
+  <TR> <TD align="right">   8 </TD> <TD> 1 </TD> <TD> 5:02:00 </TD> <TD> 3:49:00 </TD> <TD> 01:13 </TD> <TD> vanNH-24-yu to vanNH-37-sinclair </TD> <TD> 5 </TD> <TD> 3 </TD> </TR>
+  <TR> <TD align="right">   7 </TD> <TD> 1 </TD> <TD> 7:00:00 </TD> <TD> 5:02:00 </TD> <TD> 01:58 </TD> <TD> vanNH-8-hibbert to vanNH-11-greer </TD> <TD> 4 </TD> <TD> 3 </TD> </TR>
+  <TR> <TD align="right">   6 </TD> <TD> 1 </TD> <TD> 7:18:00 </TD> <TD> 7:00:00 </TD> <TD> 00:18 </TD> <TD> vanNH-22-berezan to vanNH-10-chatha </TD> <TD> 3 </TD> <TD> 3 </TD> </TR>
+  <TR> <TD align="right">   5 </TD> <TD> 1 </TD> <TD> 8:05:00 </TD> <TD> 7:18:00 </TD> <TD> 00:47 </TD> <TD> seaRM-6-trytiak to seaRM-1-mckibben </TD> <TD> 2 </TD> <TD> 3 </TD> </TR>
+  <TR> <TD align="right">   4 </TD> <TD> 1 </TD> <TD> 8:22:00 </TD> <TD> 8:05:00 </TD> <TD> 00:17 </TD> <TD> vanNH-91-savage to vanNH-72-leduc </TD> <TD> 2 </TD> <TD> 2 </TD> </TR>
+  <TR> <TD align="right">   3 </TD> <TD> 1 </TD> <TD> 9:09:00 </TD> <TD> 8:22:00 </TD> <TD> 00:47 </TD> <TD> seaRM-2-bubernak to seaRM-12-gallagher </TD> <TD> 1 </TD> <TD> 2 </TD> </TR>
+  <TR> <TD align="right">   2 </TD> <TD> 1 </TD> <TD> 9:19:00 </TD> <TD> 9:09:00 </TD> <TD> 00:10 </TD> <TD> seaRM-6-trytiak to seaRM-8-fong </TD> <TD> 1 </TD> <TD> 1 </TD> </TR>
+  <TR> <TD align="right">   1 </TD> <TD> 1 </TD> <TD> 10:00:00 </TD> <TD> 9:19:00 </TD> <TD> 00:41 </TD> <TD> vanNH-91-savage to vanNH-10-chatha </TD> <TD> 1 </TD> <TD> 0 </TD> </TR>
    </TABLE>
 
 ## Player stats for vanNH <a id="away"></a>:
 
 points = goals + assists  
-tables sorted in decreasing order based on points  
+tables sorted in decreasing order based on points (then goals, assists, Ds)  
+Ds = total of plain ol' D's (D), hand blocks (HB), and foot blocks (FB)  
 stats are cumulative for this game
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Fri Jun  6 23:58:48 2014 -->
+<!-- Sat Jun  7 11:22:47 2014 -->
 <TABLE border=1>
 <TR> <TH> player </TH> <TH> points </TH> <TH> goals </TH> <TH> assists </TH> <TH> Ds </TH>  </TR>
   <TR> <TD> vanNH-91-savage </TD> <TD align="right">  10 </TD> <TD align="right">   2 </TD> <TD align="right">   8 </TD> <TD align="right">   0 </TD> </TR>
@@ -113,11 +114,12 @@ stats are cumulative for this game
 ## Player stats for seaRM <a id="home"></a>:
 
 points = goals + assists  
-tables sorted in decreasing order based on points  
+tables sorted in decreasing order based on points (then goals, assists, Ds)  
+Ds = total of plain ol' D's (D), hand blocks (HB), and foot blocks (FB)  
 stats are cumulative for this game
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Fri Jun  6 23:58:48 2014 -->
+<!-- Sat Jun  7 11:22:47 2014 -->
 <TABLE border=1>
 <TR> <TH> player </TH> <TH> points </TH> <TH> goals </TH> <TH> assists </TH> <TH> Ds </TH>  </TR>
   <TR> <TD> seaRM-6-trytiak </TD> <TD align="right">   7 </TD> <TD align="right">   3 </TD> <TD align="right">   4 </TD> <TD align="right">   1 </TD> </TR>
@@ -141,7 +143,7 @@ stats are cumulative for this game
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Fri Jun  6 23:58:48 2014 -->
+<!-- Sat Jun  7 11:22:47 2014 -->
 <TABLE border=1>
 <TR> <TH> period </TH> <TH> point </TH> <TH> recvTeam </TH> <TH> pullTeam </TH> <TH> scorTeam </TH> <TH> code </TH> <TH> plTeam </TH> <TH> plNum </TH> <TH> seaRM </TH> <TH> vanNH </TH> <TH> lname </TH> <TH> player </TH>  </TR>
   <TR> <TD align="right">   1 </TD> <TD align="right">   1 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD> A </TD> <TD> vanNH </TD> <TD> 91 </TD> <TD align="right">   0 </TD> <TD align="right">   0 </TD> <TD> savage </TD> <TD> vanNH-91-savage </TD> </TR>
@@ -284,7 +286,7 @@ stats are cumulative for this game
 __Note: just for display purposes.__ Raw data in more useful forms can be found in the [GitHub repository](https://github.com/jennybc/vanNH). Find the game you're interested in in the `games` subdirectory.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Fri Jun  6 23:58:48 2014 -->
+<!-- Sat Jun  7 11:22:48 2014 -->
 <TABLE border=1>
 <TR> <TH> point </TH> <TH> pullTeam </TH> <TH> recvTeam </TH> <TH> event </TH> <TH> pullNum </TH> <TH> pullCode </TH> <TH> recvNum </TH> <TH> recvCode </TH> <TH> scorTeam </TH> <TH> period </TH> <TH> code </TH>  </TR>
   <TR> <TD align="right">   1 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> 18 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> P </TD> </TR>
