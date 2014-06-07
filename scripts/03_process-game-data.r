@@ -164,8 +164,8 @@ jFun <- function(x) {
   } else {
     sc_team_abs <- NA
   }
-  print(x[(n - 2):n, ])
-  cat("scoring team:", sc_team_abs, "\n\n")
+  #print(x[(n - 2):n, ])
+  #cat("scoring team:", sc_team_abs, "\n\n")
   return(data.frame(x, scorTeam = sc_team_abs))
 }
 game_play <- ddply(game_play, ~ point, jFun)
