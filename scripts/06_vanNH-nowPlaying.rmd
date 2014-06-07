@@ -111,7 +111,6 @@ sDat$lname <-
 ## deal with cases where we have no last name
 ## happens when we use a number that's not on the roster or when we don't
 ## capture the number and enter ? instead
-## this is fairly untested in 2014 :( 
 tmp <- is.na(sDat$lname)
 #sDat[tmp, ]
 #sDat$lname[tmp] <- paste0(sDat$plTeam[tmp], "-?")
@@ -140,7 +139,7 @@ plDat <- ddply(sDat, ~ player + plTeam, function(z) {
   })
 teamDat <- split(plDat, plDat$plTeam)
 teamDat <- llply(teamDat, function(z) {
-  z <- z[order(z$points, decreasing = TRUE), ]
+  z <- arrange(z, desc(points), desc(goals), desc(assists), desc(Ds))
   rownames(z) <- NULL
   subset(z, select = -plTeam)
 })
