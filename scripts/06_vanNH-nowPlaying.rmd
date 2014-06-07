@@ -42,8 +42,10 @@ game_yaml <- yaml.load_file(yaml_file)
 game_file <- file.path("..", "games", game, "04_cleanedGame",
                        paste0(game, "_gameplay-clean.tsv"))
 sDat <- read.delim(game_file,
-                   colClasses = list(oNum = 'character', oCode = 'character',
-                                     dNum = 'character', dCode = 'character'))
+                   colClasses = list(pullNum = 'character',
+                                     pullCode = 'character',
+                                     recvNum = 'character',
+                                     recvCode = 'character'))
 
 point_file <- file.path("..", "games", game, "04_cleanedGame",
                        paste0(game, "_points-clean.tsv"))
@@ -58,41 +60,42 @@ jFun <- function(x) {
   x[is.na(x)] <- ""
   return(x)
   }
-sDat <- transform(sDat, oNum = jFun(oNum), dNum = jFun(dNum))
+sDat <- transform(sDat, recvNum = jFun(recvNum), pullNum = jFun(pullNum))
 
 ## determine 'master' code for an event
-## assumes only one of oCode and dCode is populated, which is dangerous FIX
+## assumes only one of pullCode and recvCode is populated, which is dangerous FIX
 # tmp <- with(sDat, data.frame(oCode, dCode))
 # tmp[apply(tmp, 1, function(x) sum(x != '') > 1), ]
-sDat$code <- with(sDat, ifelse(oCode != '', oCode, dCode))
+sDat$code <- with(sDat, ifelse(recvCode != '', recvCode, pullCode))
 ## attribute the event to a team
 
 ## save a version of sDat to display as raw data
 sDat_safe <- sDat
 
 ## keep only D's, goals, and assists
-sDat <- subset(sDat, code %in% c('A', 'D', 'G', 'LG'))
-# str(sDat)
-# table(sDat$code)
+## problem: I'm not awarding a D for interceptions right now
+sDat <- subset(sDat, code %in% c('D', 'HB', 'FB', 'A', 'LA', 'PUA', 'G', 'LG'))
+#str(sDat)
+#table(sDat$code)
 
 ## attribute the Ds, goals and assists to a team
 ## at some point I need to look into / take control of jTeams vis-a-vis levels
 ## of any teams factors
-tmp <- with(sDat, ifelse(oCode == '', dTeam, oTeam))
+tmp <- with(sDat, ifelse(recvCode == '', pullTeam, recvTeam))
 sDat$plTeam <- jTeams[tmp]
 
 ## identify the specific player associated with event
-sDat$plNum <- with(sDat, ifelse(oCode == '', dNum, oNum))
+sDat$plNum <- with(sDat, ifelse(recvCode == '', pullNum, recvNum))
 
 ## deduce the score
 sDat$goal <- grepl('G', sDat$code)
 jFun <- function(x) {x[is.na(x)] <- FALSE; x}
-sDat$teamOne <- cumsum(jFun(with(sDat, goal & scTeam == jTeams[1])))
-sDat$teamTwo <- cumsum(jFun(with(sDat, goal & scTeam == jTeams[2])))
+sDat$teamOne <- cumsum(jFun(with(sDat, goal & scorTeam == jTeams[1])))
+sDat$teamTwo <- cumsum(jFun(with(sDat, goal & scorTeam == jTeams[2])))
 sDat <- rename(sDat, c("teamOne" = jTeams[1], "teamTwo" = jTeams[2]))
 
 ## tidy up
-vars_to_keep <- c("period", "point", "oTeam", "dTeam", "scTeam", "code",
+vars_to_keep <- c("period", "point", "recvTeam", "pullTeam", "scorTeam", "code",
                   "plTeam", "plNum", jTeams)
 sDat <- sDat[vars_to_keep]
 
@@ -100,8 +103,10 @@ sDat <- sDat[vars_to_keep]
 sDat$lname <-
   I(with(sDat,
          ifelse(plTeam == away_team,
-                away_roster$last[match(sDat$plNum, away_roster$number)],
-                home_roster$last[match(sDat$plNum, home_roster$number)])))
+                away_roster$last[match(as.numeric(sDat$plNum),
+                                       away_roster$number)],
+                home_roster$last[match(as.numeric(sDat$plNum),
+                                       home_roster$number)])))
 
 ## deal with cases where we have no last name
 ## happens when we use a number that's not on the roster or when we don't
@@ -127,9 +132,9 @@ whereInGame <-
 
 ## tally events by player
 plDat <- ddply(sDat, ~ player + plTeam, function(z) {
-  goals <- sum(z$code == "G" | z$code == "LG")
-  assists <- sum(z$code == "A")
-  Ds  <-  sum(z$code == "D")
+  goals <- sum(z$code %in% c("G", "LG"))
+  assists <- sum(z$code %in% c("A", "LA", "PUA"))
+  Ds  <-  sum(z$code %in% c("D", "HB", "FB"))
   c(points = goals + assists,
     goals = goals, assists = assists, Ds = Ds)
   })
@@ -162,7 +167,7 @@ gDat <- ddply(sDat, ~ point,
                 point_duration_text <-
                   sprintf("%02d:%02d", point_duration %/% 60, point_duration %% 60)
 
-                score <- z$code == "G" | z$code == "LG"
+                score <- z$code %in% c("G", "LG")
                 if(sum(score, na.rm = TRUE) == 0) {
                   ## no score
                   desc <- "- no score -"
@@ -170,11 +175,11 @@ gDat <- ddply(sDat, ~ point,
                                away_score = away_score,
                                home_score = home_score)
                   }
-                scorer <- paste(z$player[z$code == "G" | z$code == "LG"],
-                                z$lastName[z$code == "G" | z$code == "LG"])
-                assist <- z$code == "A"
-                assister <- paste(z$player[z$code == "A"],
-                                  z$lastName[z$code == "A"])
+                scorer <- paste(z$player[z$code %in% c("G", "LG")],
+                                z$lastName[z$code %in% c("G", "LG")])
+                assist <- z$code %in% c("A", "LA", "PUA")
+                assister <- paste(z$player[z$code %in% c("A", "LA", "PUA")],
+                                  z$lastName[z$code %in% c("A", "LA", "PUA")])
                 if(length(assister) != 1) assister <- NA
                 desc <- paste(assister, "to", scorer)
                 ret_val <- c(period = period, 
