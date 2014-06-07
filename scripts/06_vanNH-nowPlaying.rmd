@@ -10,7 +10,8 @@ if(!exists("game")) {
   #game <- "2014-04-12_vanNH-at-pdxST"
   #game <- "2014-04-20_sfoDF-at-vanNH"
   #game <- "2014-05-10_seaRM-at-vanNH"
-  game <- "2014-05-31_vanNH-at-seaRM"
+  #game <- "2014-05-31_vanNH-at-seaRM"
+  game <- "2014-06-07_seaRM-at-vanNH"
   }
 
 ## parse the game identifier
@@ -57,7 +58,14 @@ point_file <- file.path("..", "games", game, "04_cleanedGame",
                        paste0(game, "_points-clean.tsv"))
 point_info <- read.delim(point_file, stringsAsFactors = FALSE)
 sDat$period <- point_info$Period[match(sDat$point, point_info$point)]
-  
+
+## set factor levels uniformly for all relevant 'team' variables
+jFun <- function(x, jLevels = jTeams) factor(x, levels = jLevels)
+sDat <- transform(sDat, pullTeam = jFun(pullTeam), recvTeam = jFun(recvTeam),
+                  scorTeam = jFun(scorTeam))
+point_info <- transform(point_info, pullTeam = jFun(pullTeam),
+                        scorTeam = jFun(scorTeam))
+
 ## for now, player numbers in game data should be character
 ## why? so we can use '?' for anonymous
 ## make sure that is true and replace NAs with ''
@@ -225,8 +233,8 @@ print(foo, type='html', include.rownames = FALSE)
 ## Player stats for `r away_team` <a id="away"></a>:
 
 points = goals + assists  
-tables sorted in decreasing order based on points (then goals, assists, Ds)
-Ds = total of plain ol' D's (D), hand blocks (HB), and foot blocks (FB)
+tables sorted in decreasing order based on points (then goals, assists, Ds)  
+Ds = total of plain ol' D's (D), hand blocks (HB), and foot blocks (FB)  
 stats are cumulative for this game
 
 ```{r results='asis', echo=FALSE}
@@ -239,8 +247,8 @@ if(!is.null(teamDat[[away_team]])) {
 ## Player stats for `r home_team` <a id="home"></a>:
 
 points = goals + assists  
-tables sorted in decreasing order based on points (then goals, assists, Ds) 
-Ds = total of plain ol' D's (D), hand blocks (HB), and foot blocks (FB)
+tables sorted in decreasing order based on points (then goals, assists, Ds)  
+Ds = total of plain ol' D's (D), hand blocks (HB), and foot blocks (FB)  
 stats are cumulative for this game
 
 ```{r results='asis', echo=FALSE}
