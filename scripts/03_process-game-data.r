@@ -50,7 +50,7 @@ jFun <- function(x) {x[is.na(x)] <- ""; return(x)}
 game_play <-
   transform(game_play, recvRaw = jFun(recvRaw), pullRaw = jFun(pullRaw))
 
-## remove leading single quote from recvRaw and pullRaw
+## remove leading single quote from recvRaw and pullRaw, if present
 ## I have seen this happen for seaRM player 00
 jFun <- function(x) gsub("'","", x)
 game_play[c('pullRaw', 'recvRaw')] <-
@@ -65,7 +65,8 @@ code_seems_valid <- colwise(jFun)(game_play[c('pullRaw', 'recvRaw')])
 expect_true(all(game_play$pullRaw[!code_seems_valid$pullRaw] == "TO"))
 expect_true(all(game_play$recvRaw[!code_seems_valid$recvRaw] == "TO"))
 
-## separate, e.g. 81D into 81 and D
+## separate raw game play into a number and a code
+## e.g. 81D into 81 and D
 jFun <- function(x) {
   tmp <- regexpr("[0-9]+", x)
   return(substring(x, tmp, tmp + attr(tmp, "match.length") - 1))
@@ -81,30 +82,12 @@ game_play <-
   transform(game_play, recvCode = I(jFun(recvRaw)), pullCode = I(jFun(pullRaw)))
 
 ## make sure all codes are upper case
-game_play <- transform(game_play,
-                       recvCode = toupper(recvCode),
-                       pullCode = toupper(pullCode))
+game_play <-
+  transform(game_play,
+            recvCode = toupper(recvCode), pullCode = toupper(pullCode))
 
 ## add an event counter within point
 game_play$event <- ddply(game_play['point'], ~ point, row)[ , 2]
-
-## function to get the "other" team
-get_opponent <- function(x) {
-  jLevels <- levels(x)
-  x <- ifelse(unclass(x) == 1, 2, 1)
-  return(jLevels[x])
-}
-
-## add variables to hold pulling and receiving teams 
-game_play$pullTeam <-
-  point_info$pullTeam[match(game_play$point, point_info$point)]
-game_play$recvTeam <- get_opponent(game_play$pullTeam)
-
-## tidy up
-game_play <- with(game_play,
-                  data.frame(point, pullTeam, recvTeam, event,
-                             pullRaw, pullNum, pullCode,
-                             recvRaw, recvNum, recvCode))
 
 ## detect pulls with no valid pull code
 pull_codes <- c('P', 'OBP')
@@ -114,22 +97,56 @@ if(any(no_explicit_pull)) {
   print(game_play[no_explicit_pull, ])
 }
 
+## tidy up
+keeper_vars <- c("point", "event",
+                 "pullRaw", "pullNum", "pullCode",
+                 "recvRaw", "recvNum", "recvCode")
+game_play <- game_play[keeper_vars]
+
+## identify rows with game play recorded for both teams
+fix_me <- with(game_play, which(pullNum != "" & recvNum != ""))
+message("rows with game play recorded for both teams")
+game_play[fix_me, ]
+
+# simple_defensive_foul <- 
+#   intersect(fix_me,
+#             which(with(game_play, (pullCode == '' & recvCode == 'F') |
+#                          (pullCode == 'F' & recvCode == ''))))
+#game_play[simple_defensive_foul, ]
+
+# dual_sub <- 
+#   intersect(fix_me,
+#             which(with(game_play, grepl('S[OI]', pullCode) &
+#                          grepl('S[OI]', recvCode))))
+#game_play[dual_sub, ]
+
+## function to find fixable double game play rows
+find_double_game_plays <- function(z) {
+  fix_me <- with(z, which(pullNum != "" & recvNum != ""))
+  is_a_single_foul <- with(z, which((pullCode == '' & recvCode == 'F') |
+                           (pullCode == 'F' & recvCode == '')))
+  is_a_double_sub <- with(z, which(grepl('S[OI]', pullCode) &
+                                     grepl('S[OI]', recvCode)))
+  return(sort(intersect(fix_me, c(is_a_single_foul, is_a_double_sub))))
+}
+
 ## find rows where a play is recorded for both the O and the D
 ## when it's a defensive foul: insert a row to make two rows
 ## first row will hold O info, second will hold D
+## if it's a double sub, do something sensible, ie row order doesn't matter
 jFun <- function(x) {
-  fix_me <- which(with(x, pullNum != "" & recvNum != ""))
+  fix_me <- find_double_game_plays(x)
   needs_fix <- length(fix_me) > 0
   while(needs_fix) {
     fix_this <- fix_me[1]
     codes <- c(recvCode = x[fix_this, "recvCode"],
                pullCode = x[fix_this, "pullCode"])
-  
+    
     if(sum(grepl("F", codes)) == 1) {
       is_a_foul <- TRUE
-      } else {
-        is_a_foul <- FALSE
-      }
+    } else {
+      is_a_foul <- FALSE
+    }
     
     if(sum(grepl("S[OI]", codes)) == 2) {
       is_a_dual_sub <- TRUE
@@ -151,14 +168,34 @@ jFun <- function(x) {
       x[fix_this + 1, c('recvRaw', 'recvNum', 'recvCode')] <- ''
       x[fix_this, c('pullRaw', 'pullNum', 'pullCode')] <- ''
     }
-    fix_me <- which(with(x, pullNum != "" & recvNum != ""))
+    fix_me <- find_double_game_plays(x)
     needs_fix <- length(fix_me) > 0
   } 
   x$event <- 1:nrow(x)
   return(x)
 }
 game_play <- ddply(game_play, ~ point, jFun)
-#which(with(game_play, pullNum != "" & recvNum != ""))
+
+## do any double game play rows remain?
+fix_me <- with(game_play, which(pullNum != "" & recvNum != ""))
+if(length(fix_me) > 0) {
+  message("double game play rows we are not prepared to address and that remain")
+  game_play[fix_me, ]
+} else {
+  message("no double game play rows remain")
+}
+
+## function to get the "other" team
+get_opponent <- function(x) {
+  jLevels <- levels(x)
+  x <- ifelse(unclass(x) == 1, 2, 1)
+  return(jLevels[x])
+}
+
+## add variables to hold pulling and receiving teams 
+game_play$pullTeam <-
+  point_info$pullTeam[match(game_play$point, point_info$point)]
+game_play$recvTeam <- get_opponent(game_play$pullTeam)
 
 ## drop recvRaw, pullRaw
 game_play <- subset(game_play, select = -c(recvRaw, pullRaw))
@@ -194,8 +231,10 @@ jFun <- function(x) {
 }
 game_play <- ddply(game_play, ~ point, jFun)
 
-## determine who's on O vs. D, at the event level
-## ... leave this for another day
+## tidy up
+keeper_vars <- c("point", "pullTeam", "recvTeam", "event",
+                 "pullNum", "pullCode", "recvNum", "recvCode", "scorTeam")
+game_play <- game_play[keeper_vars]
 
 out_dir <- file.path("..", "games", game, "04_cleanedGame")
 if(!file.exists(out_dir)) dir.create(out_dir)
