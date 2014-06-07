@@ -9,8 +9,8 @@ if(length(options) < 1) {
   #game <- "2014-04-12_vanNH-at-pdxST"
   #game <- "2014-04-20_sfoDF-at-vanNH"
   #game <- "2014-05-10_seaRM-at-vanNH"
-  #game <- "2014-05-24_pdxST-at-vanNH"
-  game <- "2014-05-31_vanNH-at-seaRM"
+  game <- "2014-05-24_pdxST-at-vanNH"
+  #game <- "2014-05-31_vanNH-at-seaRM"
   #game <- "2014-06-07_seaRM-at-vanNH"
 } else {
   game <- options[1]
@@ -58,12 +58,14 @@ game_play[c('pullRaw', 'recvRaw')] <-
 
 ## game play data should be empty or start with a digit
 jFun <- function(x) {
-  grepl("^\\d", x, perl = TRUE) | x == ""
+  grepl("^[\\?\\d]", x, perl = TRUE) | x == ""
 }
 code_seems_valid <- colwise(jFun)(game_play[c('pullRaw', 'recvRaw')])
 ## only valid exception is TO for timeout
 expect_true(all(game_play$pullRaw[!code_seems_valid$pullRaw] == "TO"))
 expect_true(all(game_play$recvRaw[!code_seems_valid$recvRaw] == "TO"))
+game_play[!code_seems_valid$pullRaw, ]
+game_play[!code_seems_valid$recvRaw, ]
 
 ## separate raw game play into a number and a code
 ## e.g. 81D into 81 and D
@@ -123,8 +125,10 @@ game_play[fix_me, ]
 ## function to find fixable double game play rows
 find_double_game_plays <- function(z) {
   fix_me <- with(z, which(pullNum != "" & recvNum != ""))
-  is_a_single_foul <- with(z, which((pullCode == '' & recvCode == 'F') |
-                           (pullCode == 'F' & recvCode == '')))
+  non_foul_codes <- c('', 'PU', 'L')
+  is_a_single_foul <-
+    with(z, which((pullCode %in% non_foul_codes & recvCode == 'F') |
+                    (pullCode == 'F' & recvCode %in% non_foul_codes)))
   is_a_double_sub <- with(z, which(grepl('S[OI]', pullCode) &
                                      grepl('S[OI]', recvCode)))
   return(sort(intersect(fix_me, c(is_a_single_foul, is_a_double_sub))))
