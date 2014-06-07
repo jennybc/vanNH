@@ -1,7 +1,7 @@
 ---
 title: "In-house statistics for the Vancouver Nighthawks of Major League Ultimate"
 author: "Jenny Bryan"
-date: "06 June, 2014"
+date: "07 June, 2014"
 output: html_document
 ---
 
@@ -19,3 +19,4 @@ Selected games:
   * 2014 week 06: 2014-05-17_vanNH-at-sfoDF
   * 2014 week 07: [2014-05-24_pdxST-at-vanNH](2014-05-24_pdxST-at-vanNH_live-stats.html)
   * 2014 week 08: [2014-05-31_vanNH-at-seaRM](2014-05-31_vanNH-at-seaRM_live-stats.html)
+  * 2014 week 09: [2014-06-07_seaRM-at-vanNH](2014-06-07_seaRM-at-vanNH_live-stats.html)
