@@ -1,4 +1,6 @@
 library(plyr)
+library(methods)
+library(testthat)
 
 ## when run in batch mode, provide game identifier on command line
 options <- commandArgs(trailingOnly = TRUE)
@@ -8,8 +10,8 @@ if(length(options) < 1) {
   #game <- "2014-04-20_sfoDF-at-vanNH"
   #game <- "2014-05-10_seaRM-at-vanNH"
   #game <- "2014-05-24_pdxST-at-vanNH"
-  #game <- "2014-05-31_vanNH-at-seaRM"
-  game <- "2014-06-07_seaRM-at-vanNH"
+  game <- "2014-05-31_vanNH-at-seaRM"
+  #game <- "2014-06-07_seaRM-at-vanNH"
 } else {
   game <- options[1]
 }
@@ -41,18 +43,27 @@ point_info$pullTeam <-
 ## Offense and Defense are misleading variable names
 ## rename to suggest they record actions by the "receiving" and "pulling" teams,
 ## respectively
-game_play <- rename(game_play, c(Offense = "recvRaw", Defense = "pullRaw"))
+game_play <- rename(game_play, c("Offense" = "recvRaw", "Defense" = "pullRaw"))
 
 ## replace NAs in game_play$recvRaw and game_play$pullRaw with ""
 jFun <- function(x) {x[is.na(x)] <- ""; return(x)}
 game_play <-
   transform(game_play, recvRaw = jFun(recvRaw), pullRaw = jFun(pullRaw))
 
-## formalize this later ... I want to see NO LETTERS here!
-# table(substr(game_play$pullRaw, 1, 1))
-# table(substr(game_play$recvRaw, 1, 1))
-#       1   2   3   4   5   6   7   8   9 
-# 415  27  40  23  19   5  17  13  72   9 
+## remove leading single quote from recvRaw and pullRaw
+## I have seen this happen for seaRM player 00
+jFun <- function(x) gsub("'","", x)
+game_play[c('pullRaw', 'recvRaw')] <-
+  colwise(jFun)(game_play[c('pullRaw', 'recvRaw')])
+
+## game play data should be empty or start with a digit
+jFun <- function(x) {
+  grepl("^\\d", x, perl = TRUE) | x == ""
+}
+code_seems_valid <- colwise(jFun)(game_play[c('pullRaw', 'recvRaw')])
+## only valid exception is TO for timeout
+expect_true(all(game_play$pullRaw[!code_seems_valid$pullRaw] == "TO"))
+expect_true(all(game_play$recvRaw[!code_seems_valid$recvRaw] == "TO"))
 
 ## separate, e.g. 81D into 81 and D
 jFun <- function(x) {
