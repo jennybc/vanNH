@@ -5,6 +5,8 @@ In-house statistics for the Vancouver Nighthawks of Major League Ultimate
 
 <http://www.stat.ubc.ca/~jenny/notOcto/vanNH/>
 
+Handle interception case and award a D
+
 Things I learned prepping for 2014-05-10_seaRM-at-vanNH
 
   * To pass my Python script a Google spreadsheet name with all sorts of awful spaces and punctuation in it, this will work, i.e. surround it with single quotes
