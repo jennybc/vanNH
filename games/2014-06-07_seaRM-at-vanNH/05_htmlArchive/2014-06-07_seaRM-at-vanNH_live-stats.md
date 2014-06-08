@@ -4,7 +4,7 @@
 
 
 
-#### last update Sat Jun  7 21:15:33 2014
+#### last update Sun Jun  8 09:28:23 2014
 # seaRM 12
 # vanNH 27
 ## game is complete
@@ -18,13 +18,13 @@ Go to ...
 
 ## Scoring progression<a id="scoringProgression"></a>:
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sat Jun  7 21:15:33 2014 -->
+<!-- Sun Jun  8 09:28:23 2014 -->
 <TABLE border=1>
 <TR> <TH> point </TH> <TH> period </TH> <TH> begin </TH> <TH> end </TH> <TH> pt_duration </TH> <TH> desc </TH> <TH> seaRM </TH> <TH> vanNH </TH>  </TR>
   <TR> <TD align="right">  40 </TD> <TD> 4 </TD> <TD> 0:31:00 </TD> <TD> 0:08:03 </TD> <TD> 00:23 </TD> <TD> seaRM-18-uhrig-fox to seaRM-1-mckibben </TD> <TD> 12 </TD> <TD> 27 </TD> </TR>
   <TR> <TD align="right">  39 </TD> <TD> 4 </TD> <TD> 1:17:00 </TD> <TD> 0:31:00 </TD> <TD> 00:46 </TD> <TD> vanNH-18-menzies to vanNH-27-davis </TD> <TD> 11 </TD> <TD> 27 </TD> </TR>
   <TR> <TD align="right">  38 </TD> <TD> 4 </TD> <TD> 1:58:00 </TD> <TD> 1:17:00 </TD> <TD> 00:41 </TD> <TD> vanNH-5-norris to vanNH-89-underhill </TD> <TD> 11 </TD> <TD> 26 </TD> </TR>
-  <TR> <TD align="right">  37 </TD> <TD> 4 </TD> <TD> 3:29:00 </TD> <TD> 1:58:00 </TD> <TD> 01:31 </TD> <TD> seaRM-29-feeley to seaRM-31-?name? </TD> <TD> 11 </TD> <TD> 25 </TD> </TR>
+  <TR> <TD align="right">  37 </TD> <TD> 4 </TD> <TD> 3:29:00 </TD> <TD> 1:58:00 </TD> <TD> 01:31 </TD> <TD> seaRM-29-feeley to seaRM-31-barowski </TD> <TD> 11 </TD> <TD> 25 </TD> </TR>
   <TR> <TD align="right">  36 </TD> <TD> 4 </TD> <TD> 4:55:00 </TD> <TD> 3:29:00 </TD> <TD> 01:26 </TD> <TD> vanNH-45-cowan to vanNH-11-greer </TD> <TD> 10 </TD> <TD> 25 </TD> </TR>
   <TR> <TD align="right">  35 </TD> <TD> 4 </TD> <TD> 5:55:00 </TD> <TD> 4:55:00 </TD> <TD> 01:00 </TD> <TD> vanNH-33-collins to vanNH-13-tessarolo </TD> <TD> 10 </TD> <TD> 24 </TD> </TR>
   <TR> <TD align="right">  34 </TD> <TD> 4 </TD> <TD> 6:57:00 </TD> <TD> 5:55:00 </TD> <TD> 01:02 </TD> <TD> vanNH-31-saito to vanNH-4-doyle </TD> <TD> 10 </TD> <TD> 23 </TD> </TR>
@@ -70,7 +70,7 @@ Ds = total of plain ol' D's (D), hand blocks (HB), and foot blocks (FB)
 stats are cumulative for this game
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sat Jun  7 21:15:33 2014 -->
+<!-- Sun Jun  8 09:28:23 2014 -->
 <TABLE border=1>
 <TR> <TH> player </TH> <TH> points </TH> <TH> goals </TH> <TH> assists </TH> <TH> Ds </TH>  </TR>
   <TR> <TD> seaRM-1-mckibben </TD> <TD align="right">   4 </TD> <TD align="right">   4 </TD> <TD align="right">   0 </TD> <TD align="right">   0 </TD> </TR>
@@ -81,7 +81,7 @@ stats are cumulative for this game
   <TR> <TD> seaRM-29-feeley </TD> <TD align="right">   2 </TD> <TD align="right">   0 </TD> <TD align="right">   2 </TD> <TD align="right">   1 </TD> </TR>
   <TR> <TD> seaRM-0-rupp </TD> <TD align="right">   1 </TD> <TD align="right">   1 </TD> <TD align="right">   0 </TD> <TD align="right">   0 </TD> </TR>
   <TR> <TD> seaRM-24-duffel </TD> <TD align="right">   1 </TD> <TD align="right">   1 </TD> <TD align="right">   0 </TD> <TD align="right">   0 </TD> </TR>
-  <TR> <TD> seaRM-31-?name? </TD> <TD align="right">   1 </TD> <TD align="right">   1 </TD> <TD align="right">   0 </TD> <TD align="right">   0 </TD> </TR>
+  <TR> <TD> seaRM-31-barowski </TD> <TD align="right">   1 </TD> <TD align="right">   1 </TD> <TD align="right">   0 </TD> <TD align="right">   0 </TD> </TR>
   <TR> <TD> seaRM-15-beehner </TD> <TD align="right">   1 </TD> <TD align="right">   0 </TD> <TD align="right">   1 </TD> <TD align="right">   1 </TD> </TR>
   <TR> <TD> seaRM-6-trytiak </TD> <TD align="right">   1 </TD> <TD align="right">   0 </TD> <TD align="right">   1 </TD> <TD align="right">   0 </TD> </TR>
   <TR> <TD> seaRM-77-trotter </TD> <TD align="right">   1 </TD> <TD align="right">   0 </TD> <TD align="right">   1 </TD> <TD align="right">   0 </TD> </TR>
@@ -97,7 +97,7 @@ Ds = total of plain ol' D's (D), hand blocks (HB), and foot blocks (FB)
 stats are cumulative for this game
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sat Jun  7 21:15:33 2014 -->
+<!-- Sun Jun  8 09:28:23 2014 -->
 <TABLE border=1>
 <TR> <TH> player </TH> <TH> points </TH> <TH> goals </TH> <TH> assists </TH> <TH> Ds </TH>  </TR>
   <TR> <TD> vanNH-98-wong </TD> <TD align="right">   4 </TD> <TD align="right">   4 </TD> <TD align="right">   0 </TD> <TD align="right">   0 </TD> </TR>
@@ -126,7 +126,7 @@ stats are cumulative for this game
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sat Jun  7 21:15:33 2014 -->
+<!-- Sun Jun  8 09:28:23 2014 -->
 <TABLE border=1>
 <TR> <TH> period </TH> <TH> point </TH> <TH> recvTeam </TH> <TH> pullTeam </TH> <TH> scorTeam </TH> <TH> code </TH> <TH> plTeam </TH> <TH> plNum </TH> <TH> seaRM </TH> <TH> vanNH </TH> <TH> lname </TH> <TH> player </TH>  </TR>
   <TR> <TD align="right">   1 </TD> <TD align="right">   1 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD> seaRM </TD> <TD> A </TD> <TD> seaRM </TD> <TD> 15 </TD> <TD align="right">   0 </TD> <TD align="right">   0 </TD> <TD> beehner </TD> <TD> seaRM-15-beehner </TD> </TR>
@@ -207,7 +207,7 @@ stats are cumulative for this game
   <TR> <TD align="right">   4 </TD> <TD align="right">  36 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD> vanNH </TD> <TD> G </TD> <TD> vanNH </TD> <TD> 11 </TD> <TD align="right">  10 </TD> <TD align="right">  25 </TD> <TD> greer </TD> <TD> vanNH-11-greer </TD> </TR>
   <TR> <TD align="right">   4 </TD> <TD align="right">  37 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD> D </TD> <TD> seaRM </TD> <TD> 4 </TD> <TD align="right">  10 </TD> <TD align="right">  25 </TD> <TD> schneider </TD> <TD> seaRM-4-schneider </TD> </TR>
   <TR> <TD align="right">   4 </TD> <TD align="right">  37 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD> A </TD> <TD> seaRM </TD> <TD> 29 </TD> <TD align="right">  10 </TD> <TD align="right">  25 </TD> <TD> feeley </TD> <TD> seaRM-29-feeley </TD> </TR>
-  <TR> <TD align="right">   4 </TD> <TD align="right">  37 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD> LG </TD> <TD> seaRM </TD> <TD> 31 </TD> <TD align="right">  11 </TD> <TD align="right">  25 </TD> <TD> ?name? </TD> <TD> seaRM-31-?name? </TD> </TR>
+  <TR> <TD align="right">   4 </TD> <TD align="right">  37 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD> LG </TD> <TD> seaRM </TD> <TD> 31 </TD> <TD align="right">  11 </TD> <TD align="right">  25 </TD> <TD> barowski </TD> <TD> seaRM-31-barowski </TD> </TR>
   <TR> <TD align="right">   4 </TD> <TD align="right">  38 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD> A </TD> <TD> vanNH </TD> <TD> 5 </TD> <TD align="right">  11 </TD> <TD align="right">  25 </TD> <TD> norris </TD> <TD> vanNH-5-norris </TD> </TR>
   <TR> <TD align="right">   4 </TD> <TD align="right">  38 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD> G </TD> <TD> vanNH </TD> <TD> 89 </TD> <TD align="right">  11 </TD> <TD align="right">  26 </TD> <TD> underhill </TD> <TD> vanNH-89-underhill </TD> </TR>
   <TR> <TD align="right">   4 </TD> <TD align="right">  39 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD> vanNH </TD> <TD> A </TD> <TD> vanNH </TD> <TD> 18 </TD> <TD align="right">  11 </TD> <TD align="right">  26 </TD> <TD> menzies </TD> <TD> vanNH-18-menzies </TD> </TR>
@@ -221,7 +221,7 @@ stats are cumulative for this game
 __Note: just for display purposes.__ Raw data in more useful forms can be found in the [GitHub repository](https://github.com/jennybc/vanNH). Find the game you're interested in in the `games` subdirectory.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sat Jun  7 21:15:33 2014 -->
+<!-- Sun Jun  8 09:28:23 2014 -->
 <TABLE border=1>
 <TR> <TH> point </TH> <TH> pullTeam </TH> <TH> recvTeam </TH> <TH> event </TH> <TH> pullNum </TH> <TH> pullCode </TH> <TH> recvNum </TH> <TH> recvCode </TH> <TH> scorTeam </TH> <TH> period </TH> <TH> code </TH>  </TR>
   <TR> <TD align="right">   1 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> 29 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> P </TD> </TR>

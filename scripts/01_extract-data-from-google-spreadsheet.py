@@ -64,7 +64,7 @@ for sheet_num in points_to_process:
     ## should I be using a try-based strategy?
     
     ## my original strategy:
-    pulling_team, period, clock_before, clock_after = point_level_info[0:4]
+    #pulling_team, period, clock_before, clock_after = point_level_info[0:4]
     ## not using anymore, because I prefer to be TOLD if these are empty
     
     ## will use to count empty fields and, if gets high enough, eventually give
