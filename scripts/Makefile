@@ -1,5 +1,5 @@
-GOOGAME ?= "Official Statistics - 2014 - Week 2 - 4/20 - Dogfish @ Nighthawks"
-GAME ?= 2014-04-20_sfoDF-at-vanNH
+#GOOGAME ?= "Official Statistics - 2014 - Week 2 - 4/20 - Dogfish @ Nighthawks"
+#GAME ?= 2014-04-20_sfoDF-at-vanNH
 
 #GOOGAME ?= "Official Statistics - 2014 - Week 5 - 5/10 - Rainmakers @ Nighthawks"
 #GAME ?= 2014-05-10_seaRM-at-vanNH
@@ -10,8 +10,8 @@ GAME ?= 2014-04-20_sfoDF-at-vanNH
 #GOOGAME ?= "Official Statistics - 2014 - Week 8 - 5/31 - Nighthawks @ Rainmakers"
 #GAME ?= 2014-05-31_vanNH-at-seaRM
 
-#GOOGAME ?= "Official Statistics - 2014 - Week 9 - 6/7 - Rainmakers @ Nighthawks"
-#GAME ?= 2014-06-07_seaRM-at-vanNH
+GOOGAME ?= "Official Statistics - 2014 - Week 9 - 6/7 - Rainmakers @ Nighthawks"
+GAME ?= 2014-06-07_seaRM-at-vanNH
 
 clean_raw:
 	rm -rf ../games/$(GAME)/01_rawGoogleExtract/*

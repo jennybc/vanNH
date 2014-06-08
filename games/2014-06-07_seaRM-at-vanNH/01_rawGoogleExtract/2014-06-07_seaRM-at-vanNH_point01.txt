@@ -1,9 +1,28 @@
 Pulling team: Seattle Rainmakers
 Period: 1
 Clock before point: 10:00:00
-Clock after point: 9:30:00
+Clock after point: 8:32:00
 Offense	Defense
-	0P
-91	
-10	
-72G	
+	29P
+5pu	
+89	
+5	
+98	
+22	
+89	
+5	
+91TD	
+	29PU
+	15
+	4
+	29
+	77
+	24
+	77
+	4
+	29
+	77
+	24
+	77
+	15
+	18G
