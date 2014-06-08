@@ -38,11 +38,12 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 3	vanNH	seaRM	3			1		vanNH
 3	vanNH	seaRM	4			6		vanNH
 3	vanNH	seaRM	5			8	L	vanNH
-3	vanNH	seaRM	6	11	D	17		vanNH
-3	vanNH	seaRM	7	45	PU			vanNH
-3	vanNH	seaRM	8	31				vanNH
-3	vanNH	seaRM	9	8	A			vanNH
-3	vanNH	seaRM	10	45	G			vanNH
+3	vanNH	seaRM	6			17		vanNH
+3	vanNH	seaRM	7	11	D			vanNH
+3	vanNH	seaRM	8	45	PU			vanNH
+3	vanNH	seaRM	9	31				vanNH
+3	vanNH	seaRM	10	8	A			vanNH
+3	vanNH	seaRM	11	45	G			vanNH
 4	vanNH	seaRM	1	8	OBP			vanNH
 4	vanNH	seaRM	2			1	PU	vanNH
 4	vanNH	seaRM	3					vanNH
@@ -60,14 +61,14 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 5	vanNH	seaRM	9	14	A			vanNH
 5	vanNH	seaRM	10	33	G			vanNH
 6	vanNH	seaRM	1	49	P			seaRM
-6	vanNH	seaRM	2			0	PU	seaRM
+6	vanNH	seaRM	2			00	PU	seaRM
 6	vanNH	seaRM	3			6		seaRM
 6	vanNH	seaRM	4			1		seaRM
 6	vanNH	seaRM	5			14		seaRM
 6	vanNH	seaRM	6			1		seaRM
 6	vanNH	seaRM	7			14		seaRM
 6	vanNH	seaRM	8			1		seaRM
-6	vanNH	seaRM	9			0		seaRM
+6	vanNH	seaRM	9			00		seaRM
 6	vanNH	seaRM	10	81	F			seaRM
 6	vanNH	seaRM	11			17	A	seaRM
 6	vanNH	seaRM	12			1	G	seaRM
@@ -79,26 +80,26 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 7	seaRM	vanNH	6			72	A	vanNH
 7	seaRM	vanNH	7			10	LG	vanNH
 8	vanNH	seaRM	1	8	P			seaRM
-8	vanNH	seaRM	2			0	PU	seaRM
+8	vanNH	seaRM	2			00	PU	seaRM
 8	vanNH	seaRM	3			1		seaRM
 8	vanNH	seaRM	4			14		seaRM
 8	vanNH	seaRM	5			51		seaRM
 8	vanNH	seaRM	6			17		seaRM
 8	vanNH	seaRM	7			14		seaRM
-8	vanNH	seaRM	8			0		seaRM
+8	vanNH	seaRM	8			00		seaRM
 8	vanNH	seaRM	9			17		seaRM
 8	vanNH	seaRM	10			14		seaRM
 8	vanNH	seaRM	11			6		seaRM
 8	vanNH	seaRM	12	45	PU			seaRM
-8	vanNH	seaRM	13			0	F	seaRM
+8	vanNH	seaRM	13			00	F	seaRM
 8	vanNH	seaRM	14	8				seaRM
 8	vanNH	seaRM	15	37				seaRM
 8	vanNH	seaRM	16	27				seaRM
 8	vanNH	seaRM	17			17	PU	seaRM
-8	vanNH	seaRM	18			0		seaRM
+8	vanNH	seaRM	18			00		seaRM
 8	vanNH	seaRM	19			1		seaRM
 8	vanNH	seaRM	20			17	A	seaRM
-8	vanNH	seaRM	21			0	G	seaRM
+8	vanNH	seaRM	21			00	G	seaRM
 9	seaRM	vanNH	1	29	P			vanNH
 9	seaRM	vanNH	2			91	PU	vanNH
 9	seaRM	vanNH	3			5		vanNH
@@ -111,10 +112,10 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 10	vanNH	seaRM	1	8	P			vanNH
 10	vanNH	seaRM	2			17	PU	vanNH
 10	vanNH	seaRM	3			1		vanNH
-10	vanNH	seaRM	4			0		vanNH
+10	vanNH	seaRM	4			00		vanNH
 10	vanNH	seaRM	5			17		vanNH
 10	vanNH	seaRM	6			1		vanNH
-10	vanNH	seaRM	7			0		vanNH
+10	vanNH	seaRM	7			00		vanNH
 10	vanNH	seaRM	8			17		vanNH
 10	vanNH	seaRM	9	8	PU			vanNH
 10	vanNH	seaRM	10	31				vanNH
@@ -146,20 +147,20 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 10	vanNH	seaRM	36	89	A			vanNH
 10	vanNH	seaRM	37	10	G			vanNH
 11	vanNH	seaRM	1	8	P			NA
-11	vanNH	seaRM	2			0	PU	NA
+11	vanNH	seaRM	2			00	PU	NA
 11	vanNH	seaRM	3			1		NA
 11	vanNH	seaRM	4			6		NA
 11	vanNH	seaRM	5			1		NA
 12	vanNH	seaRM	1	8	P			vanNH
 12	vanNH	seaRM	2			1	PU	vanNH
-12	vanNH	seaRM	3			0		vanNH
+12	vanNH	seaRM	3			00		vanNH
 12	vanNH	seaRM	4			6		vanNH
-12	vanNH	seaRM	5			0		vanNH
+12	vanNH	seaRM	5			00		vanNH
 12	vanNH	seaRM	6			1		vanNH
 12	vanNH	seaRM	7			8		vanNH
-12	vanNH	seaRM	8			0		vanNH
+12	vanNH	seaRM	8			00		vanNH
 12	vanNH	seaRM	9			1		vanNH
-12	vanNH	seaRM	10			0		vanNH
+12	vanNH	seaRM	10			00		vanNH
 12	vanNH	seaRM	11			17		vanNH
 12	vanNH	seaRM	12			6	TD	vanNH
 12	vanNH	seaRM	13	45	PU			vanNH
@@ -167,25 +168,25 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 12	vanNH	seaRM	15	81	L			vanNH
 12	vanNH	seaRM	16	27	TD			vanNH
 12	vanNH	seaRM	17			17	PU	vanNH
-12	vanNH	seaRM	18			0		vanNH
+12	vanNH	seaRM	18			00		vanNH
 12	vanNH	seaRM	19			17		vanNH
 12	vanNH	seaRM	20			51		vanNH
-12	vanNH	seaRM	21	37				vanNH
+12	vanNH	seaRM	21	37	PU			vanNH
 12	vanNH	seaRM	22	11	A			vanNH
 12	vanNH	seaRM	23	37	G			vanNH
 13	vanNH	seaRM	1	18	P			vanNH
-13	vanNH	seaRM	2			0	PU	vanNH
+13	vanNH	seaRM	2			00	PU	vanNH
 13	vanNH	seaRM	3			1		vanNH
 13	vanNH	seaRM	4			8		vanNH
 13	vanNH	seaRM	5			17		vanNH
 13	vanNH	seaRM	6			1		vanNH
 13	vanNH	seaRM	7			6	VTT	vanNH
 13	vanNH	seaRM	8	18	PU			vanNH
-13	vanNH	seaRM	9			0	PU	vanNH
+13	vanNH	seaRM	9			00	PU	vanNH
 13	vanNH	seaRM	10			1		vanNH
 13	vanNH	seaRM	11			6		vanNH
 13	vanNH	seaRM	12			1		vanNH
-13	vanNH	seaRM	13			0		vanNH
+13	vanNH	seaRM	13			00		vanNH
 13	vanNH	seaRM	14			14		vanNH
 13	vanNH	seaRM	15	13	D			vanNH
 13	vanNH	seaRM	16	18	PU			vanNH
@@ -214,18 +215,18 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 14	vanNH	seaRM	16	11	A			vanNH
 14	vanNH	seaRM	17	45	G			vanNH
 15	vanNH	seaRM	1	18	P			seaRM
-15	vanNH	seaRM	2			0	PU	seaRM
+15	vanNH	seaRM	2			00	PU	seaRM
 15	vanNH	seaRM	3			1		seaRM
 15	vanNH	seaRM	4			6		seaRM
 15	vanNH	seaRM	5			17		seaRM
 15	vanNH	seaRM	6			14		seaRM
 15	vanNH	seaRM	7			1		seaRM
-15	vanNH	seaRM	8			0		seaRM
+15	vanNH	seaRM	8			00		seaRM
 15	vanNH	seaRM	9			1		seaRM
-15	vanNH	seaRM	10			0		seaRM
+15	vanNH	seaRM	10			00		seaRM
 15	vanNH	seaRM	11			1		seaRM
 15	vanNH	seaRM	12			14		seaRM
-15	vanNH	seaRM	13			0		seaRM
+15	vanNH	seaRM	13			00		seaRM
 15	vanNH	seaRM	14			17	A	seaRM
 15	vanNH	seaRM	15			14	G	seaRM
 16	seaRM	vanNH	1	18	P			vanNH
@@ -247,7 +248,7 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 16	seaRM	vanNH	17			10	A	vanNH
 16	seaRM	vanNH	18			98	G	vanNH
 17	vanNH	seaRM	1	8	OBP			seaRM
-17	vanNH	seaRM	2			0	PU	seaRM
+17	vanNH	seaRM	2			00	PU	seaRM
 17	vanNH	seaRM	3			1		seaRM
 17	vanNH	seaRM	4	24	F			seaRM
 17	vanNH	seaRM	5			17		seaRM
@@ -272,7 +273,7 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 19	vanNH	seaRM	3			1		seaRM
 19	vanNH	seaRM	4			17		seaRM
 19	vanNH	seaRM	5			1		seaRM
-19	vanNH	seaRM	6			0		seaRM
+19	vanNH	seaRM	6			00		seaRM
 19	vanNH	seaRM	7			6		seaRM
 19	vanNH	seaRM	8			1		seaRM
 19	vanNH	seaRM	9			51	A	seaRM
@@ -291,7 +292,7 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 21	seaRM	vanNH	7			21	A	vanNH
 21	seaRM	vanNH	8			89	LG	vanNH
 22	vanNH	seaRM	1	8	P			seaRM
-22	vanNH	seaRM	2			0	PU	seaRM
+22	vanNH	seaRM	2			00	PU	seaRM
 22	vanNH	seaRM	3			1		seaRM
 22	vanNH	seaRM	4			14		seaRM
 22	vanNH	seaRM	5			17		seaRM
@@ -312,14 +313,14 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 23	seaRM	vanNH	10			21	A	vanNH
 23	seaRM	vanNH	11			98	G	vanNH
 24	vanNH	seaRM	1	8	P			vanNH
-24	vanNH	seaRM	2			0	PU	vanNH
+24	vanNH	seaRM	2			00	PU	vanNH
 24	vanNH	seaRM	3			1		vanNH
 24	vanNH	seaRM	4			77		vanNH
 24	vanNH	seaRM	5	11	F			vanNH
-24	vanNH	seaRM	6			0		vanNH
+24	vanNH	seaRM	6			00		vanNH
 24	vanNH	seaRM	7			8		vanNH
 24	vanNH	seaRM	8			51		vanNH
-24	vanNH	seaRM	9			0		vanNH
+24	vanNH	seaRM	9			00		vanNH
 24	vanNH	seaRM	10			77		vanNH
 24	vanNH	seaRM	11			1		vanNH
 24	vanNH	seaRM	12			6		vanNH
@@ -372,12 +373,12 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 25	vanNH	seaRM	36	21	A			vanNH
 25	vanNH	seaRM	37	22	G			vanNH
 26	vanNH	seaRM	1	33	P			vanNH
-26	vanNH	seaRM	2			0	PU	vanNH
+26	vanNH	seaRM	2			00	PU	vanNH
 26	vanNH	seaRM	3			1		vanNH
 26	vanNH	seaRM	4			77		vanNH
 26	vanNH	seaRM	5			17		vanNH
 26	vanNH	seaRM	6			8		vanNH
-26	vanNH	seaRM	7			0		vanNH
+26	vanNH	seaRM	7			00		vanNH
 26	vanNH	seaRM	8			6		vanNH
 26	vanNH	seaRM	9	81	PU			vanNH
 26	vanNH	seaRM	10	18				vanNH
@@ -406,13 +407,13 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 28	vanNH	seaRM	6	37	A			vanNH
 28	vanNH	seaRM	7	7	G			vanNH
 29	vanNH	seaRM	1	33	P			seaRM
-29	vanNH	seaRM	2			0	PU	seaRM
+29	vanNH	seaRM	2			00	PU	seaRM
 29	vanNH	seaRM	3			1		seaRM
-29	vanNH	seaRM	4			0		seaRM
+29	vanNH	seaRM	4			00		seaRM
 29	vanNH	seaRM	5			14		seaRM
 29	vanNH	seaRM	6	14	SO			seaRM
 29	vanNH	seaRM	7	8	SI			seaRM
-29	vanNH	seaRM	8			0		seaRM
+29	vanNH	seaRM	8			00		seaRM
 29	vanNH	seaRM	9			14		seaRM
 29	vanNH	seaRM	10			1		seaRM
 29	vanNH	seaRM	11			17		seaRM
@@ -433,7 +434,7 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 30	vanNH	seaRM	8	45	A			vanNH
 30	vanNH	seaRM	9	4	G			vanNH
 31	vanNH	seaRM	1	8	P			seaRM
-31	vanNH	seaRM	2			0	PU	seaRM
+31	vanNH	seaRM	2			00	PU	seaRM
 31	vanNH	seaRM	3			1		seaRM
 31	vanNH	seaRM	4			14		seaRM
 31	vanNH	seaRM	5			17		seaRM
@@ -442,11 +443,11 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 31	vanNH	seaRM	8			1		seaRM
 31	vanNH	seaRM	9			77		seaRM
 31	vanNH	seaRM	10			14		seaRM
-31	vanNH	seaRM	11			0		seaRM
+31	vanNH	seaRM	11			00		seaRM
 31	vanNH	seaRM	12			51		seaRM
 31	vanNH	seaRM	13			77	A	seaRM
 31	vanNH	seaRM	14			1	G	seaRM
-32	seaRM	vanNH	1	29	PU			vanNH
+32	seaRM	vanNH	1	29	P			vanNH
 32	seaRM	vanNH	2			91	PU	vanNH
 32	seaRM	vanNH	3			98		vanNH
 32	seaRM	vanNH	4			5		vanNH
@@ -466,7 +467,7 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 33	vanNH	seaRM	2			1	PU	vanNH
 33	vanNH	seaRM	3			17		vanNH
 33	vanNH	seaRM	4			1		vanNH
-33	vanNH	seaRM	5			0		vanNH
+33	vanNH	seaRM	5			00		vanNH
 33	vanNH	seaRM	6			1		vanNH
 33	vanNH	seaRM	7			17		vanNH
 33	vanNH	seaRM	8			14		vanNH
@@ -479,7 +480,7 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 33	vanNH	seaRM	15	18	A			vanNH
 33	vanNH	seaRM	16	13	G			vanNH
 34	vanNH	seaRM	1	8	P			vanNH
-34	vanNH	seaRM	2			0	PU	vanNH
+34	vanNH	seaRM	2			00	PU	vanNH
 34	vanNH	seaRM	3			29		vanNH
 34	vanNH	seaRM	4			18		vanNH
 34	vanNH	seaRM	5			29		vanNH
@@ -514,7 +515,7 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 36	vanNH	seaRM	4			14		vanNH
 36	vanNH	seaRM	5			17		vanNH
 36	vanNH	seaRM	6			1		vanNH
-36	vanNH	seaRM	7	8				vanNH
+36	vanNH	seaRM	7	8	PU			vanNH
 36	vanNH	seaRM	8	4				vanNH
 36	vanNH	seaRM	9	8				vanNH
 36	vanNH	seaRM	10	24				vanNH
@@ -528,7 +529,7 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 36	vanNH	seaRM	18			23		vanNH
 36	vanNH	seaRM	19			77		vanNH
 36	vanNH	seaRM	20			14		vanNH
-36	vanNH	seaRM	21	45				vanNH
+36	vanNH	seaRM	21	45	PU			vanNH
 36	vanNH	seaRM	22	27				vanNH
 36	vanNH	seaRM	23	45	A			vanNH
 36	vanNH	seaRM	24	11	G			vanNH
@@ -581,7 +582,7 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 39	vanNH	seaRM	8			4		vanNH
 39	vanNH	seaRM	9			15		vanNH
 39	vanNH	seaRM	10			31		vanNH
-39	vanNH	seaRM	11	45				vanNH
+39	vanNH	seaRM	11	45	PU			vanNH
 39	vanNH	seaRM	12	31				vanNH
 39	vanNH	seaRM	13	8				vanNH
 39	vanNH	seaRM	14	18	A			vanNH
@@ -591,7 +592,7 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 40	vanNH	seaRM	3			1		seaRM
 40	vanNH	seaRM	4			77		seaRM
 40	vanNH	seaRM	5			1		seaRM
-40	vanNH	seaRM	6			0		seaRM
+40	vanNH	seaRM	6			00		seaRM
 40	vanNH	seaRM	7			77		seaRM
 40	vanNH	seaRM	8			14		seaRM
 40	vanNH	seaRM	9			18	A	seaRM

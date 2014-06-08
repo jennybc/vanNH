@@ -9,7 +9,7 @@ Offense	Defense
 14	
 17	
 1	
-	8
+	8pu
 	4
 	8
 	24
@@ -23,7 +23,7 @@ Offense	Defense
 23	
 77	
 14	
-	45
+	45pu
 	27
 	45
 	11G

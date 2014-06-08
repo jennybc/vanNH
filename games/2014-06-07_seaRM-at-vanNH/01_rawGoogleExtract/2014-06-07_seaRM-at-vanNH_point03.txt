@@ -8,7 +8,8 @@ Offense	Defense
 1	
 6	
 8L	
-17	11D
+17	
+	11D
 	45PU
 	31
 	8

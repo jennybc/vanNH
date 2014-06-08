@@ -4,13 +4,13 @@ Clock before point: 6:06:00
 Clock after point: 5:22:00
 Offense	Defense
 	49P
-0PU	
+00PU	
 6	
 1	
 14	
 1	
 14	
 1	
-0	81F
+'00	81F
 17	
 1G	

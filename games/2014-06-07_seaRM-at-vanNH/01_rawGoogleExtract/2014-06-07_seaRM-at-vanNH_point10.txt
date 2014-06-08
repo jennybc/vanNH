@@ -6,10 +6,10 @@ Offense	Defense
 	8P
 17PU	
 1	
-0	
+'00	
 17	
 1	
-0	
+'00	
 17	
 	8PU
 	31

@@ -5,14 +5,14 @@ Clock after point: 8:04:00
 Offense	Defense
 	8P
 1PU	
-0	
+'00	
 6	
-0	
+'00	
 1	
 8	
-0	
+'00	
 1	
-0	
+'00	
 17	
 6TD	
 	45PU
@@ -20,9 +20,9 @@ Offense	Defense
 	81L
 	27TD
 17PU	
-0	
+'00	
 17	
 51	
-	37
+	37pu
 	11
 	37G

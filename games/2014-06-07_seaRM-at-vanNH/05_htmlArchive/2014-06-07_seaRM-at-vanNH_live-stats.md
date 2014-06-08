@@ -4,7 +4,7 @@
 
 
 
-#### last update Sun Jun  8 09:28:23 2014
+#### last update Sun Jun  8 09:37:36 2014
 # seaRM 12
 # vanNH 27
 ## game is complete
@@ -18,7 +18,7 @@ Go to ...
 
 ## Scoring progression<a id="scoringProgression"></a>:
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun Jun  8 09:28:23 2014 -->
+<!-- Sun Jun  8 09:37:36 2014 -->
 <TABLE border=1>
 <TR> <TH> point </TH> <TH> period </TH> <TH> begin </TH> <TH> end </TH> <TH> pt_duration </TH> <TH> desc </TH> <TH> seaRM </TH> <TH> vanNH </TH>  </TR>
   <TR> <TD align="right">  40 </TD> <TD> 4 </TD> <TD> 0:31:00 </TD> <TD> 0:08:03 </TD> <TD> 00:23 </TD> <TD> seaRM-18-uhrig-fox to seaRM-1-mckibben </TD> <TD> 12 </TD> <TD> 27 </TD> </TR>
@@ -52,7 +52,7 @@ Go to ...
   <TR> <TD align="right">  12 </TD> <TD> 2 </TD> <TD> 10:00:00 </TD> <TD> 8:04:00 </TD> <TD> 01:56 </TD> <TD> vanNH-11-greer to vanNH-37-sinclair </TD> <TD> 3 </TD> <TD> 8 </TD> </TR>
   <TR> <TD align="right">  10 </TD> <TD> 1 </TD> <TD> 2:58:00 </TD> <TD> 0:12:04 </TD> <TD> 02:46 </TD> <TD> vanNH-89-underhill to vanNH-10-chatha </TD> <TD> 3 </TD> <TD> 7 </TD> </TR>
   <TR> <TD align="right">   9 </TD> <TD> 1 </TD> <TD> 3:32:00 </TD> <TD> 2:58:00 </TD> <TD> 00:34 </TD> <TD> vanNH-5-norris to vanNH-22-berezan </TD> <TD> 3 </TD> <TD> 6 </TD> </TR>
-  <TR> <TD align="right">   8 </TD> <TD> 1 </TD> <TD> 4:58:00 </TD> <TD> 3:32:00 </TD> <TD> 01:26 </TD> <TD> seaRM-17-zemel to seaRM-0-rupp </TD> <TD> 3 </TD> <TD> 5 </TD> </TR>
+  <TR> <TD align="right">   8 </TD> <TD> 1 </TD> <TD> 4:58:00 </TD> <TD> 3:32:00 </TD> <TD> 01:26 </TD> <TD> seaRM-17-zemel to seaRM-00-rupp </TD> <TD> 3 </TD> <TD> 5 </TD> </TR>
   <TR> <TD align="right">   7 </TD> <TD> 1 </TD> <TD> 5:22:00 </TD> <TD> 4:58:00 </TD> <TD> 00:24 </TD> <TD> vanNH-72-leduc to vanNH-10-chatha </TD> <TD> 2 </TD> <TD> 5 </TD> </TR>
   <TR> <TD align="right">   6 </TD> <TD> 1 </TD> <TD> 6:06:00 </TD> <TD> 5:22:00 </TD> <TD> 00:44 </TD> <TD> seaRM-17-zemel to seaRM-1-mckibben </TD> <TD> 2 </TD> <TD> 4 </TD> </TR>
   <TR> <TD align="right">   5 </TD> <TD> 1 </TD> <TD> 6:44:00 </TD> <TD> 6:06:00 </TD> <TD> 00:38 </TD> <TD> vanNH-14-eyrich to vanNH-33-collins </TD> <TD> 1 </TD> <TD> 4 </TD> </TR>
@@ -70,7 +70,7 @@ Ds = total of plain ol' D's (D), hand blocks (HB), and foot blocks (FB)
 stats are cumulative for this game
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun Jun  8 09:28:23 2014 -->
+<!-- Sun Jun  8 09:37:36 2014 -->
 <TABLE border=1>
 <TR> <TH> player </TH> <TH> points </TH> <TH> goals </TH> <TH> assists </TH> <TH> Ds </TH>  </TR>
   <TR> <TD> seaRM-1-mckibben </TD> <TD align="right">   4 </TD> <TD align="right">   4 </TD> <TD align="right">   0 </TD> <TD align="right">   0 </TD> </TR>
@@ -79,7 +79,7 @@ stats are cumulative for this game
   <TR> <TD> seaRM-14-pickel </TD> <TD align="right">   2 </TD> <TD align="right">   1 </TD> <TD align="right">   1 </TD> <TD align="right">   0 </TD> </TR>
   <TR> <TD> seaRM-18-uhrig-fox </TD> <TD align="right">   2 </TD> <TD align="right">   1 </TD> <TD align="right">   1 </TD> <TD align="right">   0 </TD> </TR>
   <TR> <TD> seaRM-29-feeley </TD> <TD align="right">   2 </TD> <TD align="right">   0 </TD> <TD align="right">   2 </TD> <TD align="right">   1 </TD> </TR>
-  <TR> <TD> seaRM-0-rupp </TD> <TD align="right">   1 </TD> <TD align="right">   1 </TD> <TD align="right">   0 </TD> <TD align="right">   0 </TD> </TR>
+  <TR> <TD> seaRM-00-rupp </TD> <TD align="right">   1 </TD> <TD align="right">   1 </TD> <TD align="right">   0 </TD> <TD align="right">   0 </TD> </TR>
   <TR> <TD> seaRM-24-duffel </TD> <TD align="right">   1 </TD> <TD align="right">   1 </TD> <TD align="right">   0 </TD> <TD align="right">   0 </TD> </TR>
   <TR> <TD> seaRM-31-barowski </TD> <TD align="right">   1 </TD> <TD align="right">   1 </TD> <TD align="right">   0 </TD> <TD align="right">   0 </TD> </TR>
   <TR> <TD> seaRM-15-beehner </TD> <TD align="right">   1 </TD> <TD align="right">   0 </TD> <TD align="right">   1 </TD> <TD align="right">   1 </TD> </TR>
@@ -97,7 +97,7 @@ Ds = total of plain ol' D's (D), hand blocks (HB), and foot blocks (FB)
 stats are cumulative for this game
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun Jun  8 09:28:23 2014 -->
+<!-- Sun Jun  8 09:37:36 2014 -->
 <TABLE border=1>
 <TR> <TH> player </TH> <TH> points </TH> <TH> goals </TH> <TH> assists </TH> <TH> Ds </TH>  </TR>
   <TR> <TD> vanNH-98-wong </TD> <TD align="right">   4 </TD> <TD align="right">   4 </TD> <TD align="right">   0 </TD> <TD align="right">   0 </TD> </TR>
@@ -126,7 +126,7 @@ stats are cumulative for this game
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun Jun  8 09:28:23 2014 -->
+<!-- Sun Jun  8 09:37:36 2014 -->
 <TABLE border=1>
 <TR> <TH> period </TH> <TH> point </TH> <TH> recvTeam </TH> <TH> pullTeam </TH> <TH> scorTeam </TH> <TH> code </TH> <TH> plTeam </TH> <TH> plNum </TH> <TH> seaRM </TH> <TH> vanNH </TH> <TH> lname </TH> <TH> player </TH>  </TR>
   <TR> <TD align="right">   1 </TD> <TD align="right">   1 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD> seaRM </TD> <TD> A </TD> <TD> seaRM </TD> <TD> 15 </TD> <TD align="right">   0 </TD> <TD align="right">   0 </TD> <TD> beehner </TD> <TD> seaRM-15-beehner </TD> </TR>
@@ -145,7 +145,7 @@ stats are cumulative for this game
   <TR> <TD align="right">   1 </TD> <TD align="right">   7 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD> A </TD> <TD> vanNH </TD> <TD> 72 </TD> <TD align="right">   2 </TD> <TD align="right">   4 </TD> <TD> leduc </TD> <TD> vanNH-72-leduc </TD> </TR>
   <TR> <TD align="right">   1 </TD> <TD align="right">   7 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD> LG </TD> <TD> vanNH </TD> <TD> 10 </TD> <TD align="right">   2 </TD> <TD align="right">   5 </TD> <TD> chatha </TD> <TD> vanNH-10-chatha </TD> </TR>
   <TR> <TD align="right">   1 </TD> <TD align="right">   8 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD> A </TD> <TD> seaRM </TD> <TD> 17 </TD> <TD align="right">   2 </TD> <TD align="right">   5 </TD> <TD> zemel </TD> <TD> seaRM-17-zemel </TD> </TR>
-  <TR> <TD align="right">   1 </TD> <TD align="right">   8 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD> G </TD> <TD> seaRM </TD> <TD> 0 </TD> <TD align="right">   3 </TD> <TD align="right">   5 </TD> <TD> rupp </TD> <TD> seaRM-0-rupp </TD> </TR>
+  <TR> <TD align="right">   1 </TD> <TD align="right">   8 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD> G </TD> <TD> seaRM </TD> <TD> 00 </TD> <TD align="right">   3 </TD> <TD align="right">   5 </TD> <TD> rupp </TD> <TD> seaRM-00-rupp </TD> </TR>
   <TR> <TD align="right">   1 </TD> <TD align="right">   9 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD> A </TD> <TD> vanNH </TD> <TD> 5 </TD> <TD align="right">   3 </TD> <TD align="right">   5 </TD> <TD> norris </TD> <TD> vanNH-5-norris </TD> </TR>
   <TR> <TD align="right">   1 </TD> <TD align="right">   9 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD> LG </TD> <TD> vanNH </TD> <TD> 22 </TD> <TD align="right">   3 </TD> <TD align="right">   6 </TD> <TD> berezan </TD> <TD> vanNH-22-berezan </TD> </TR>
   <TR> <TD align="right">   1 </TD> <TD align="right">  10 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD> vanNH </TD> <TD> A </TD> <TD> vanNH </TD> <TD> 89 </TD> <TD align="right">   3 </TD> <TD align="right">   6 </TD> <TD> underhill </TD> <TD> vanNH-89-underhill </TD> </TR>
@@ -221,7 +221,7 @@ stats are cumulative for this game
 __Note: just for display purposes.__ Raw data in more useful forms can be found in the [GitHub repository](https://github.com/jennybc/vanNH). Find the game you're interested in in the `games` subdirectory.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sun Jun  8 09:28:23 2014 -->
+<!-- Sun Jun  8 09:37:36 2014 -->
 <TABLE border=1>
 <TR> <TH> point </TH> <TH> pullTeam </TH> <TH> recvTeam </TH> <TH> event </TH> <TH> pullNum </TH> <TH> pullCode </TH> <TH> recvNum </TH> <TH> recvCode </TH> <TH> scorTeam </TH> <TH> period </TH> <TH> code </TH>  </TR>
   <TR> <TD align="right">   1 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> 29 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> P </TD> </TR>
@@ -263,11 +263,12 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">   3 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   3 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 6 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   3 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD> L </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> L </TD> </TR>
-  <TR> <TD align="right">   3 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   6 </TD> <TD> 11 </TD> <TD> D </TD> <TD> 17 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> D </TD> </TR>
-  <TR> <TD align="right">   3 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   7 </TD> <TD> 45 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
-  <TR> <TD align="right">   3 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD> 31 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">   3 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD> 8 </TD> <TD> A </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> A </TD> </TR>
-  <TR> <TD align="right">   3 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  10 </TD> <TD> 45 </TD> <TD> G </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> G </TD> </TR>
+  <TR> <TD align="right">   3 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   6 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">   3 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   7 </TD> <TD> 11 </TD> <TD> D </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> D </TD> </TR>
+  <TR> <TD align="right">   3 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD> 45 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">   3 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD> 31 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">   3 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  10 </TD> <TD> 8 </TD> <TD> A </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> A </TD> </TR>
+  <TR> <TD align="right">   3 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  11 </TD> <TD> 45 </TD> <TD> G </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">   4 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> 8 </TD> <TD> OBP </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> OBP </TD> </TR>
   <TR> <TD align="right">   4 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">   4 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
@@ -285,14 +286,14 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">   5 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD> 14 </TD> <TD> A </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> A </TD> </TR>
   <TR> <TD align="right">   5 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  10 </TD> <TD> 33 </TD> <TD> G </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">   6 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> 49 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> P </TD> </TR>
-  <TR> <TD align="right">   6 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD> PU </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">   6 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD> PU </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">   6 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 6 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   6 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   6 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 14 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   6 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   6 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   6 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   7 </TD> <TD>  </TD> <TD>  </TD> <TD> 14 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   6 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">   6 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">   6 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   6 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  10 </TD> <TD> 81 </TD> <TD> F </TD> <TD>  </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> F </TD> </TR>
   <TR> <TD align="right">   6 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  11 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD> A </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> A </TD> </TR>
   <TR> <TD align="right">   6 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  12 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD> G </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> G </TD> </TR>
@@ -304,26 +305,26 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">   7 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">   6 </TD> <TD>  </TD> <TD>  </TD> <TD> 72 </TD> <TD> A </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> A </TD> </TR>
   <TR> <TD align="right">   7 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">   7 </TD> <TD>  </TD> <TD>  </TD> <TD> 10 </TD> <TD> LG </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> LG </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> 8 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> P </TD> </TR>
-  <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD> PU </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD> PU </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 14 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 51 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   6 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   7 </TD> <TD>  </TD> <TD>  </TD> <TD> 14 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  10 </TD> <TD>  </TD> <TD>  </TD> <TD> 14 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  11 </TD> <TD>  </TD> <TD>  </TD> <TD> 6 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  12 </TD> <TD> 45 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
-  <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  13 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD> F </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> F </TD> </TR>
+  <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  13 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD> F </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> F </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  14 </TD> <TD> 8 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  15 </TD> <TD> 37 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  16 </TD> <TD> 27 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  17 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD> PU </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
-  <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  18 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  18 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  19 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  20 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD> A </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> A </TD> </TR>
-  <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  21 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD> G </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> G </TD> </TR>
+  <TR> <TD align="right">   8 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  21 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD> G </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">   9 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> 29 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> P </TD> </TR>
   <TR> <TD align="right">   9 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 91 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">   9 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 5 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
@@ -336,10 +337,10 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  10 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> 8 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> P </TD> </TR>
   <TR> <TD align="right">  10 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  10 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  10 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  10 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  10 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  10 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   6 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  10 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   7 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  10 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   7 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  10 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  10 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD> 8 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  10 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  10 </TD> <TD> 31 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
@@ -371,20 +372,20 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  10 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  36 </TD> <TD> 89 </TD> <TD> A </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> A </TD> </TR>
   <TR> <TD align="right">  10 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  37 </TD> <TD> 10 </TD> <TD> G </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">  11 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> 8 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD align="right">   1 </TD> <TD> P </TD> </TR>
-  <TR> <TD align="right">  11 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD> PU </TD> <TD>  </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  11 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD> PU </TD> <TD>  </TD> <TD align="right">   1 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  11 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD>  </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  11 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 6 </TD> <TD>  </TD> <TD>  </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  11 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD>  </TD> <TD align="right">   1 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> 8 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> P </TD> </TR>
   <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 6 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   6 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   7 </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  10 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  10 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  11 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  12 </TD> <TD>  </TD> <TD>  </TD> <TD> 6 </TD> <TD> TD </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> TD </TD> </TR>
   <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  13 </TD> <TD> 45 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
@@ -392,25 +393,25 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  15 </TD> <TD> 81 </TD> <TD> L </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> L </TD> </TR>
   <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  16 </TD> <TD> 27 </TD> <TD> TD </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> TD </TD> </TR>
   <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  17 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  18 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  18 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  19 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  20 </TD> <TD>  </TD> <TD>  </TD> <TD> 51 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  21 </TD> <TD> 37 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  21 </TD> <TD> 37 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  22 </TD> <TD> 11 </TD> <TD> A </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> A </TD> </TR>
   <TR> <TD align="right">  12 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  23 </TD> <TD> 37 </TD> <TD> G </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> 18 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> P </TD> </TR>
-  <TR> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   6 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   7 </TD> <TD>  </TD> <TD>  </TD> <TD> 6 </TD> <TD> VTT </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> VTT </TD> </TR>
   <TR> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD> 18 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
-  <TR> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  10 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  11 </TD> <TD>  </TD> <TD>  </TD> <TD> 6 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  12 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  13 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  13 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  14 </TD> <TD>  </TD> <TD>  </TD> <TD> 14 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  15 </TD> <TD> 13 </TD> <TD> D </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> D </TD> </TR>
   <TR> <TD align="right">  13 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  16 </TD> <TD> 18 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
@@ -439,18 +440,18 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  14 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  16 </TD> <TD> 11 </TD> <TD> A </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> A </TD> </TR>
   <TR> <TD align="right">  14 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  17 </TD> <TD> 45 </TD> <TD> G </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> 18 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD> P </TD> </TR>
-  <TR> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD> PU </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD> PU </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 6 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   6 </TD> <TD>  </TD> <TD>  </TD> <TD> 14 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   7 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  10 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  10 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  11 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  12 </TD> <TD>  </TD> <TD>  </TD> <TD> 14 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  13 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  13 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  14 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD> A </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD> A </TD> </TR>
   <TR> <TD align="right">  15 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  15 </TD> <TD>  </TD> <TD>  </TD> <TD> 14 </TD> <TD> G </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">  16 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> 18 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> P </TD> </TR>
@@ -472,7 +473,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  16 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">  17 </TD> <TD>  </TD> <TD>  </TD> <TD> 10 </TD> <TD> A </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> A </TD> </TR>
   <TR> <TD align="right">  16 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">  18 </TD> <TD>  </TD> <TD>  </TD> <TD> 98 </TD> <TD> G </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">  17 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> 8 </TD> <TD> OBP </TD> <TD>  </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD> OBP </TD> </TR>
-  <TR> <TD align="right">  17 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD> PU </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  17 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD> PU </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  17 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  17 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD> 24 </TD> <TD> F </TD> <TD>  </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD> F </TD> </TR>
   <TR> <TD align="right">  17 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
@@ -497,7 +498,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  19 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  19 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  19 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  19 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   6 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  19 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   6 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  19 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   7 </TD> <TD>  </TD> <TD>  </TD> <TD> 6 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  19 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  19 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD>  </TD> <TD>  </TD> <TD> 51 </TD> <TD> A </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD> A </TD> </TR>
@@ -516,7 +517,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  21 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">   7 </TD> <TD>  </TD> <TD>  </TD> <TD> 21 </TD> <TD> A </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> A </TD> </TR>
   <TR> <TD align="right">  21 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">   8 </TD> <TD>  </TD> <TD>  </TD> <TD> 89 </TD> <TD> LG </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD> LG </TD> </TR>
   <TR> <TD align="right">  22 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> 8 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD> P </TD> </TR>
-  <TR> <TD align="right">  22 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD> PU </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  22 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD> PU </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  22 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  22 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 14 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  22 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> </TR>
@@ -537,14 +538,14 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  23 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">  10 </TD> <TD>  </TD> <TD>  </TD> <TD> 21 </TD> <TD> A </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> A </TD> </TR>
   <TR> <TD align="right">  23 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">  11 </TD> <TD>  </TD> <TD>  </TD> <TD> 98 </TD> <TD> G </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">  24 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> 8 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> P </TD> </TR>
-  <TR> <TD align="right">  24 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  24 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  24 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  24 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 77 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  24 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD> 11 </TD> <TD> F </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> F </TD> </TR>
-  <TR> <TD align="right">  24 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   6 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  24 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   6 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  24 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   7 </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  24 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD>  </TD> <TD>  </TD> <TD> 51 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  24 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  24 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  24 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  10 </TD> <TD>  </TD> <TD>  </TD> <TD> 77 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  24 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  11 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  24 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  12 </TD> <TD>  </TD> <TD>  </TD> <TD> 6 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
@@ -597,12 +598,12 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  25 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  36 </TD> <TD> 21 </TD> <TD> A </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> A </TD> </TR>
   <TR> <TD align="right">  25 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  37 </TD> <TD> 22 </TD> <TD> G </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">  26 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> 33 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> P </TD> </TR>
-  <TR> <TD align="right">  26 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  26 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  26 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  26 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 77 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  26 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  26 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   6 </TD> <TD>  </TD> <TD>  </TD> <TD> 8 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  26 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   7 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  26 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   7 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  26 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD>  </TD> <TD>  </TD> <TD> 6 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  26 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD> 81 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  26 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  10 </TD> <TD> 18 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
@@ -631,13 +632,13 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  28 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   6 </TD> <TD> 37 </TD> <TD> A </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> A </TD> </TR>
   <TR> <TD align="right">  28 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   7 </TD> <TD> 7 </TD> <TD> G </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">  29 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> 33 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD> P </TD> </TR>
-  <TR> <TD align="right">  29 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD> PU </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  29 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD> PU </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  29 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  29 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  29 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  29 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 14 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  29 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   6 </TD> <TD> 14 </TD> <TD> SO </TD> <TD>  </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD> SO </TD> </TR>
   <TR> <TD align="right">  29 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   7 </TD> <TD> 8 </TD> <TD> SI </TD> <TD>  </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD> SI </TD> </TR>
-  <TR> <TD align="right">  29 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  29 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  29 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD>  </TD> <TD>  </TD> <TD> 14 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  29 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  10 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  29 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  11 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> </TR>
@@ -658,7 +659,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  30 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD> 45 </TD> <TD> A </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> A </TD> </TR>
   <TR> <TD align="right">  30 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD> 4 </TD> <TD> G </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">  31 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> 8 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD> P </TD> </TR>
-  <TR> <TD align="right">  31 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD> PU </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  31 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD> PU </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  31 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  31 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 14 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  31 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
@@ -667,11 +668,11 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  31 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  31 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD>  </TD> <TD>  </TD> <TD> 77 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  31 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  10 </TD> <TD>  </TD> <TD>  </TD> <TD> 14 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  31 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  11 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  31 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  11 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  31 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  12 </TD> <TD>  </TD> <TD>  </TD> <TD> 51 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  31 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  13 </TD> <TD>  </TD> <TD>  </TD> <TD> 77 </TD> <TD> A </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD> A </TD> </TR>
   <TR> <TD align="right">  31 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  14 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD> G </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD> G </TD> </TR>
-  <TR> <TD align="right">  32 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> 29 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  32 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> 29 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> P </TD> </TR>
   <TR> <TD align="right">  32 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 91 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  32 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 98 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  32 </TD> <TD> seaRM </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 5 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
@@ -691,7 +692,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  33 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  33 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  33 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  33 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  33 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  33 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   6 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  33 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   7 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  33 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD>  </TD> <TD>  </TD> <TD> 14 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
@@ -704,7 +705,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  33 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  15 </TD> <TD> 18 </TD> <TD> A </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> A </TD> </TR>
   <TR> <TD align="right">  33 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  16 </TD> <TD> 13 </TD> <TD> G </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> G </TD> </TR>
   <TR> <TD align="right">  34 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   1 </TD> <TD> 8 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> P </TD> </TR>
-  <TR> <TD align="right">  34 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> PU </TD> </TR>
+  <TR> <TD align="right">  34 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   2 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD> PU </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  34 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 29 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  34 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 18 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  34 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 29 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
@@ -739,7 +740,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  36 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 14 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  36 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 17 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  36 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   6 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  36 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   7 </TD> <TD> 8 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  36 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   7 </TD> <TD> 8 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  36 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD> 4 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  36 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD> 8 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  36 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  10 </TD> <TD> 24 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
@@ -753,7 +754,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  36 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  18 </TD> <TD>  </TD> <TD>  </TD> <TD> 23 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  36 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  19 </TD> <TD>  </TD> <TD>  </TD> <TD> 77 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  36 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  20 </TD> <TD>  </TD> <TD>  </TD> <TD> 14 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  36 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  21 </TD> <TD> 45 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  36 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  21 </TD> <TD> 45 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  36 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  22 </TD> <TD> 27 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  36 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  23 </TD> <TD> 45 </TD> <TD> A </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> A </TD> </TR>
   <TR> <TD align="right">  36 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  24 </TD> <TD> 11 </TD> <TD> G </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> G </TD> </TR>
@@ -806,7 +807,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  39 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD>  </TD> <TD>  </TD> <TD> 4 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  39 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD>  </TD> <TD>  </TD> <TD> 15 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  39 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  10 </TD> <TD>  </TD> <TD>  </TD> <TD> 31 </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  39 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  11 </TD> <TD> 45 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  39 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  11 </TD> <TD> 45 </TD> <TD> PU </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> PU </TD> </TR>
   <TR> <TD align="right">  39 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  12 </TD> <TD> 31 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  39 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  13 </TD> <TD> 8 </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  39 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">  14 </TD> <TD> 18 </TD> <TD> A </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   4 </TD> <TD> A </TD> </TR>
@@ -816,7 +817,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
   <TR> <TD align="right">  40 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   3 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  40 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> <TD>  </TD> <TD> 77 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  40 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   5 </TD> <TD>  </TD> <TD>  </TD> <TD> 1 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
-  <TR> <TD align="right">  40 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   6 </TD> <TD>  </TD> <TD>  </TD> <TD> 0 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
+  <TR> <TD align="right">  40 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   6 </TD> <TD>  </TD> <TD>  </TD> <TD> 00 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  40 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   7 </TD> <TD>  </TD> <TD>  </TD> <TD> 77 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  40 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   8 </TD> <TD>  </TD> <TD>  </TD> <TD> 14 </TD> <TD>  </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD>  </TD> </TR>
   <TR> <TD align="right">  40 </TD> <TD> vanNH </TD> <TD> seaRM </TD> <TD align="right">   9 </TD> <TD>  </TD> <TD>  </TD> <TD> 18 </TD> <TD> A </TD> <TD> seaRM </TD> <TD align="right">   4 </TD> <TD> A </TD> </TR>
