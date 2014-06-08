@@ -92,6 +92,10 @@ sDat <- subset(sDat, code %in% keeper_codes)
 #str(sDat)
 #table(sDat$code)
 
+## TO DO:
+## get back at least a dummy row for every point; necessary if a point has no
+## game play with a keeper code
+
 ## attribute the Ds, goals and assists to a team
 ## at some point I need to look into / take control of jTeams vis-a-vis levels
 ## of any teams factors
