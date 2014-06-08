@@ -193,7 +193,7 @@ if(length(fix_me) > 0) {
 get_opponent <- function(x) {
   jLevels <- levels(x)
   x <- ifelse(unclass(x) == 1, 2, 1)
-  return(jLevels[x])
+  return(factor(jLevels[x], levels = jLevels))
 }
 
 ## add variables to hold pulling and receiving teams 

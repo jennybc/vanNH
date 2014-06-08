@@ -1,4 +1,4 @@
-```{r, echo = FALSE}
+```{r, echo = FALSE, message = FALSE}
 library(xtable)
 library(plyr)
 library(yaml)
@@ -31,7 +31,7 @@ keeper_codes <- c(goal_codes, assist_codes, d_codes)
 
 # `r away_team` at `r home_team` `r game_date`
 
-```{r, echo = FALSE, results = "hide"}
+```{r, echo = FALSE, results = "hide", message = FALSE}
 build_roster_path <- function(team) {
   file.path("..", "rosters", paste0("2014_", team, "-roster.tsv"))}
 away_roster_file <- build_roster_path(away_team)
@@ -66,9 +66,9 @@ sDat <- transform(sDat, pullTeam = jFun(pullTeam), recvTeam = jFun(recvTeam),
 point_info <- transform(point_info, pullTeam = jFun(pullTeam),
                         scorTeam = jFun(scorTeam))
 
-## for now, player numbers in game data should be character
-## why? so we can use '?' for anonymous
-## make sure that is true and replace NAs with ''
+## player numbers should be character
+## why? so we can use '?' for anonymous. and because seaRM-00-rupp.
+## make sure player number is character and replace NAs with ''
 jFun <- function(x) {
   x <- as.character(x)
   x[is.na(x)] <- ""
@@ -92,9 +92,18 @@ sDat <- subset(sDat, code %in% keeper_codes)
 #str(sDat)
 #table(sDat$code)
 
-## TO DO:
 ## get back at least a dummy row for every point; necessary if a point has no
 ## game play with a keeper code
+## function to get the "other" team
+sDat <- join(point_info[c('point', 'pullTeam')], sDat)
+get_opponent <- function(x) {
+  jLevels <- levels(x)
+  x <- ifelse(unclass(x) == 1, 2, 1)
+  return(factor(jLevels[x], levels = jLevels))
+}
+## NAs in recvTeam and period can and will be eliminated
+sDat$recvTeam <- get_opponent(sDat$pullTeam)
+sDat$period[is.na(sDat$period)] <- sDat$period[which(is.na(sDat$period)) - 1]
 
 ## attribute the Ds, goals and assists to a team
 ## at some point I need to look into / take control of jTeams vis-a-vis levels

@@ -7,7 +7,6 @@ In-house statistics for the Vancouver Nighthawks of Major League Ultimate
 
 To do
 
-  * In "now playing" R markdown, I filter for D's, assists and goals. If the last point before a period ends has none of these, it drops out completely and does not appear in the game progression. Fix that.
   * Handle interception case and award a D
   * take comprehensive look at what's character vs factor
   * take comprehensive look at factor levels for team factors
