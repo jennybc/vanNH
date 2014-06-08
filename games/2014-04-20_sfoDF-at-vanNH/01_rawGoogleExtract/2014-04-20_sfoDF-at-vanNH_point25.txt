@@ -13,7 +13,6 @@ Offense	Defense
 83	
 57	
 83	
-21	
-	31F
+21	31F
 3	
 83G	

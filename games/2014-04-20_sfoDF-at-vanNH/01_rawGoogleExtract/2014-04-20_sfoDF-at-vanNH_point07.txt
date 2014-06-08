@@ -9,21 +9,20 @@ Offense	Defense
 22	
 21	
 72TD	
-	?PU
+	16pu
 	85
 	1
 	7
 22D	
 21PU	
-21TA	
+21	
 	16PU
 	25
 	16TO
 	83PU
 	88
 	34
-	8
-39F	
+39F	8
 	24
 	8
 	24G

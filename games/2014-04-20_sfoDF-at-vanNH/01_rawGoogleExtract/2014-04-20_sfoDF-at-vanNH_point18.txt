@@ -6,7 +6,7 @@ Offense	Defense
 	8P
 57	
 83	
-57TA	
+57	
 	8PU
 	45
 	11L

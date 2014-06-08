@@ -5,7 +5,7 @@ Clock after point: 4:40:00
 Offense	Defense
 	33OBP
 16PU	
-	4D
+	4d
 	75PU
 	14
 	13
@@ -14,9 +14,8 @@ Offense	Defense
 	75
 	13
 	14TD
-?PU	
-17	
-	18F
+16pu	
+17	18F
 18	
 1	
 46	
@@ -24,21 +23,18 @@ Offense	Defense
 37	
 1	
 18	
-1	
-	75F
+1	75F
 18	
 16	
 37	
 18	
 16	
 17TD	
-	?TO
+	14to
 	91PU
 	89
-	91
-25F	
-	89
-7F	
+25F	91
+7F	89
 	21
 	10
 	98G

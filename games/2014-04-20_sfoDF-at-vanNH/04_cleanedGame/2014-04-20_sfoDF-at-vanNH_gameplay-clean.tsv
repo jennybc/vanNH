@@ -1,584 +1,580 @@
-point	event	oTeam	dTeam	oNum	oCode	dNum	dCode	scTeam
-1	1	sfoDF	vanNH			8	P	vanNH
-1	2	sfoDF	vanNH	34				vanNH
-1	3	sfoDF	vanNH	83				vanNH
-1	4	sfoDF	vanNH	34				vanNH
-1	5	sfoDF	vanNH			27	D	vanNH
-1	6	sfoDF	vanNH			45	PU	vanNH
-1	7	sfoDF	vanNH			8		vanNH
-1	8	sfoDF	vanNH	34	D			vanNH
-1	9	sfoDF	vanNH	83	PU			vanNH
-1	10	sfoDF	vanNH	24	D			vanNH
-1	11	sfoDF	vanNH	23	TD			vanNH
-1	12	sfoDF	vanNH			81	PU	vanNH
-1	13	sfoDF	vanNH			27		vanNH
-1	14	sfoDF	vanNH			24		vanNH
-1	15	sfoDF	vanNH			81		vanNH
-1	16	sfoDF	vanNH			45		vanNH
-1	17	sfoDF	vanNH			27		vanNH
-1	18	sfoDF	vanNH			24		vanNH
-1	19	sfoDF	vanNH			39	A	vanNH
-1	20	sfoDF	vanNH			81	G	vanNH
-2	1	sfoDF	vanNH			33	P	sfoDF
-2	2	sfoDF	vanNH	5	PU			sfoDF
-2	3	sfoDF	vanNH	80				sfoDF
-2	4	sfoDF	vanNH	34	A			sfoDF
-2	5	sfoDF	vanNH	3	G			sfoDF
-3	1	vanNH	sfoDF			46	P	vanNH
-3	2	vanNH	sfoDF	89	PU			vanNH
-3	3	vanNH	sfoDF	5				vanNH
-3	4	vanNH	sfoDF	22				vanNH
-3	5	vanNH	sfoDF	21				vanNH
-3	6	vanNH	sfoDF	98	TT			vanNH
-3	7	vanNH	sfoDF				PU	vanNH
-3	8	vanNH	sfoDF			85		vanNH
-3	9	vanNH	sfoDF			17	TD	vanNH
-3	10	vanNH	sfoDF	5				vanNH
-3	11	vanNH	sfoDF	22	A			vanNH
-3	12	vanNH	sfoDF	91	G			vanNH
-4	1	sfoDF	vanNH			8	P	vanNH
-4	2	sfoDF	vanNH	88	PU			vanNH
-4	3	sfoDF	vanNH	1				vanNH
-4	4	sfoDF	vanNH			8	D	vanNH
-4	5	sfoDF	vanNH			8	TA	vanNH
-4	6	sfoDF	vanNH	13	PU			vanNH
-4	7	sfoDF	vanNH	11	TD			vanNH
-4	8	sfoDF	vanNH			24	PU	vanNH
-4	9	sfoDF	vanNH			81		vanNH
-4	10	sfoDF	vanNH			8		vanNH
-4	11	sfoDF	vanNH			27		vanNH
-4	12	sfoDF	vanNH			45		vanNH
-4	13	sfoDF	vanNH			39	TD	vanNH
-4	14	sfoDF	vanNH	34	PU			vanNH
-4	15	sfoDF	vanNH	13				vanNH
-4	16	sfoDF	vanNH	34				vanNH
-4	17	sfoDF	vanNH	88				vanNH
-4	18	sfoDF	vanNH	34				vanNH
-4	19	sfoDF	vanNH			27	D	vanNH
-4	20	sfoDF	vanNH			24		vanNH
-4	21	sfoDF	vanNH			8	VTT	vanNH
-4	22	sfoDF	vanNH	34	PU			vanNH
-4	23	sfoDF	vanNH	88	TO			vanNH
-4	24	sfoDF	vanNH			91	PU	vanNH
-4	25	sfoDF	vanNH			98		vanNH
-4	26	sfoDF	vanNH			19		vanNH
-4	27	sfoDF	vanNH			89		vanNH
-4	28	sfoDF	vanNH			72		vanNH
-4	29	sfoDF	vanNH			89		vanNH
-4	30	sfoDF	vanNH			21	A	vanNH
-4	31	sfoDF	vanNH			72	G	vanNH
-5	1	sfoDF	vanNH			8	P	vanNH
-5	2	sfoDF	vanNH		PU			vanNH
-5	3	sfoDF	vanNH	34				vanNH
-5	4	sfoDF	vanNH			75	PU	vanNH
-5	5	sfoDF	vanNH			8		vanNH
-5	6	sfoDF	vanNH			24		vanNH
-5	7	sfoDF	vanNH			4	L	vanNH
-5	8	sfoDF	vanNH			8	A	vanNH
-5	9	sfoDF	vanNH			14	G	vanNH
-6	1	sfoDF	vanNH			33	P	sfoDF
-6	2	sfoDF	vanNH	25	PU			sfoDF
-6	3	sfoDF	vanNH	46				sfoDF
-6	4	sfoDF	vanNH	25				sfoDF
-6	5	sfoDF	vanNH	85				sfoDF
-6	6	sfoDF	vanNH	2				sfoDF
-6	7	sfoDF	vanNH	25				sfoDF
-6	8	sfoDF	vanNH	46				sfoDF
-6	9	sfoDF	vanNH	25				sfoDF
-6	10	sfoDF	vanNH	17				sfoDF
-6	11	sfoDF	vanNH	85	A			sfoDF
-6	12	sfoDF	vanNH	1	G			sfoDF
-7	1	vanNH	sfoDF			16	P	sfoDF
-7	2	vanNH	sfoDF	5	PU			sfoDF
-7	3	vanNH	sfoDF	89				sfoDF
-7	4	vanNH	sfoDF	22				sfoDF
-7	5	vanNH	sfoDF	21				sfoDF
-7	6	vanNH	sfoDF	72	TD			sfoDF
-7	7	vanNH	sfoDF				PU	sfoDF
-7	8	vanNH	sfoDF			85		sfoDF
-7	9	vanNH	sfoDF			1		sfoDF
-7	10	vanNH	sfoDF			7		sfoDF
-7	11	vanNH	sfoDF	22	D			sfoDF
-7	12	vanNH	sfoDF	21	PU			sfoDF
-7	13	vanNH	sfoDF	21	TA			sfoDF
-7	14	vanNH	sfoDF			16	PU	sfoDF
-7	15	vanNH	sfoDF			25		sfoDF
-7	16	vanNH	sfoDF			16	TO	sfoDF
-7	17	vanNH	sfoDF			83	PU	sfoDF
-7	18	vanNH	sfoDF			88		sfoDF
-7	19	vanNH	sfoDF			34		sfoDF
-7	20	vanNH	sfoDF			8		sfoDF
-7	21	vanNH	sfoDF	39	F			sfoDF
-7	22	vanNH	sfoDF			24		sfoDF
-7	23	vanNH	sfoDF			8	A	sfoDF
-7	24	vanNH	sfoDF			24	G	sfoDF
-8	1	vanNH	sfoDF				P	vanNH
-8	2	vanNH	sfoDF	91	PU			vanNH
-8	3	vanNH	sfoDF	5				vanNH
-8	4	vanNH	sfoDF	91				vanNH
-8	5	vanNH	sfoDF	22				vanNH
-8	6	vanNH	sfoDF	10	TD			vanNH
-8	7	vanNH	sfoDF			16	PU	vanNH
-8	8	vanNH	sfoDF			85		vanNH
-8	9	vanNH	sfoDF	10	D			vanNH
-8	10	vanNH	sfoDF	91	PU			vanNH
-8	11	vanNH	sfoDF	5				vanNH
-8	12	vanNH	sfoDF	98				vanNH
-8	13	vanNH	sfoDF	10				vanNH
-8	14	vanNH	sfoDF	21	A			vanNH
-8	15	vanNH	sfoDF	19	LG			vanNH
-9	1	sfoDF	vanNH			8	P	NA
-9	2	sfoDF	vanNH	83	PU			NA
-9	3	sfoDF	vanNH	88				NA
-9	4	sfoDF	vanNH			13	D	NA
-9	5	sfoDF	vanNH			11		NA
-10	1	vanNH	sfoDF			46	P	vanNH
-10	2	vanNH	sfoDF	91	PU			vanNH
-10	3	vanNH	sfoDF	5				vanNH
-10	4	vanNH	sfoDF	91				vanNH
-10	5	vanNH	sfoDF	98	TD			vanNH
-10	6	vanNH	sfoDF				PU	vanNH
-10	7	vanNH	sfoDF				VTT	vanNH
-10	8	vanNH	sfoDF	89	A			vanNH
-10	9	vanNH	sfoDF	98	G			vanNH
-11	1	sfoDF	vanNH			8	OBP	vanNH
-11	2	sfoDF	vanNH	83	PU			vanNH
-11	3	sfoDF	vanNH	8				vanNH
-11	4	sfoDF	vanNH	34				vanNH
-11	5	sfoDF	vanNH	8				vanNH
-11	6	sfoDF	vanNH	34				vanNH
-11	7	sfoDF	vanNH			8	D	vanNH
-11	8	sfoDF	vanNH			8	PU	vanNH
-11	9	sfoDF	vanNH			45		vanNH
-11	10	sfoDF	vanNH			81		vanNH
-11	11	sfoDF	vanNH			45		vanNH
-11	12	sfoDF	vanNH			8		vanNH
-11	13	sfoDF	vanNH			31		vanNH
-11	14	sfoDF	vanNH			81		vanNH
-11	15	sfoDF	vanNH			8		vanNH
-11	16	sfoDF	vanNH			45		vanNH
-11	17	sfoDF	vanNH			39		vanNH
-11	18	sfoDF	vanNH			81		vanNH
-11	19	sfoDF	vanNH			45		vanNH
-11	20	sfoDF	vanNH			8	A	vanNH
-11	21	sfoDF	vanNH			27	G	vanNH
-12	1	sfoDF	vanNH			33	OBP	vanNH
-12	2	sfoDF	vanNH	16	PU			vanNH
-12	3	sfoDF	vanNH			4	D	vanNH
-12	4	sfoDF	vanNH			75	PU	vanNH
-12	5	sfoDF	vanNH			14		vanNH
-12	6	sfoDF	vanNH			13		vanNH
-12	7	sfoDF	vanNH			11		vanNH
-12	8	sfoDF	vanNH			33		vanNH
-12	9	sfoDF	vanNH			75		vanNH
-12	10	sfoDF	vanNH			13		vanNH
-12	11	sfoDF	vanNH			14	TD	vanNH
-12	12	sfoDF	vanNH		PU			vanNH
-12	13	sfoDF	vanNH	17				vanNH
-12	14	sfoDF	vanNH			18	F	vanNH
-12	15	sfoDF	vanNH	18				vanNH
-12	16	sfoDF	vanNH	1				vanNH
-12	17	sfoDF	vanNH	46				vanNH
-12	18	sfoDF	vanNH	1				vanNH
-12	19	sfoDF	vanNH	37				vanNH
-12	20	sfoDF	vanNH	1				vanNH
-12	21	sfoDF	vanNH	18				vanNH
-12	22	sfoDF	vanNH	1				vanNH
-12	23	sfoDF	vanNH			75	F	vanNH
-12	24	sfoDF	vanNH	18				vanNH
-12	25	sfoDF	vanNH	16				vanNH
-12	26	sfoDF	vanNH	37				vanNH
-12	27	sfoDF	vanNH	18				vanNH
-12	28	sfoDF	vanNH	16				vanNH
-12	29	sfoDF	vanNH	17	TD			vanNH
-12	30	sfoDF	vanNH				TO	vanNH
-12	31	sfoDF	vanNH			91	PU	vanNH
-12	32	sfoDF	vanNH			89		vanNH
-12	33	sfoDF	vanNH			91		vanNH
-12	34	sfoDF	vanNH	25	F			vanNH
-12	35	sfoDF	vanNH			89		vanNH
-12	36	sfoDF	vanNH	7	F			vanNH
-12	37	sfoDF	vanNH			21		vanNH
-12	38	sfoDF	vanNH			10	A	vanNH
-12	39	sfoDF	vanNH			98	G	vanNH
-13	1	sfoDF	vanNH			8	P	vanNH
-13	2	sfoDF	vanNH	83	PU			vanNH
-13	3	sfoDF	vanNH	13				vanNH
-13	4	sfoDF	vanNH	83				vanNH
-13	5	sfoDF	vanNH	13				vanNH
-13	6	sfoDF	vanNH	34				vanNH
-13	7	sfoDF	vanNH	83				vanNH
-13	8	sfoDF	vanNH	21				vanNH
-13	9	sfoDF	vanNH	88				vanNH
-13	10	sfoDF	vanNH	83				vanNH
-13	11	sfoDF	vanNH	88				vanNH
-13	12	sfoDF	vanNH	34				vanNH
-13	13	sfoDF	vanNH	83				vanNH
-13	14	sfoDF	vanNH	88				vanNH
-13	15	sfoDF	vanNH	83				vanNH
-13	16	sfoDF	vanNH			4	F	vanNH
-13	17	sfoDF	vanNH	34	PU			vanNH
-13	18	sfoDF	vanNH	34	VST			vanNH
-13	19	sfoDF	vanNH			45	PU	vanNH
-13	20	sfoDF	vanNH			31		vanNH
-13	21	sfoDF	vanNH			8	L	vanNH
-13	22	sfoDF	vanNH			4	A	vanNH
-13	23	sfoDF	vanNH			27	G	vanNH
-14	1	sfoDF	vanNH			33	P	vanNH
-14	2	sfoDF	vanNH	11	PU			vanNH
-14	3	sfoDF	vanNH	17				vanNH
-14	4	sfoDF	vanNH	21				vanNH
-14	5	sfoDF	vanNH			39	F	vanNH
-14	6	sfoDF	vanNH	39				vanNH
-14	7	sfoDF	vanNH	3				vanNH
-14	8	sfoDF	vanNH			18	D	vanNH
-14	9	sfoDF	vanNH			81	PU	vanNH
-14	10	sfoDF	vanNH			11	TA	vanNH
-14	11	sfoDF	vanNH	17	PU			vanNH
-14	12	sfoDF	vanNH		F			vanNH
-14	13	sfoDF	vanNH			81	PU	vanNH
-14	14	sfoDF	vanNH			14		vanNH
-14	15	sfoDF	vanNH			39		vanNH
-14	16	sfoDF	vanNH			14		vanNH
-14	17	sfoDF	vanNH			11	A	vanNH
-14	18	sfoDF	vanNH			39	G	vanNH
-15	1	sfoDF	vanNH			8	P	sfoDF
-15	2	sfoDF	vanNH		PU			sfoDF
-15	3	sfoDF	vanNH	83				sfoDF
-15	4	sfoDF	vanNH	88				sfoDF
-15	5	sfoDF	vanNH	8	A			sfoDF
-15	6	sfoDF	vanNH	34	LG			sfoDF
-16	1	vanNH	sfoDF			16	P	vanNH
-16	2	vanNH	sfoDF	19	PU			vanNH
-16	3	vanNH	sfoDF	5				vanNH
-16	4	vanNH	sfoDF	22				vanNH
-16	5	vanNH	sfoDF	5				vanNH
-16	6	vanNH	sfoDF	89				vanNH
-16	7	vanNH	sfoDF	19				vanNH
-16	8	vanNH	sfoDF	5				vanNH
-16	9	vanNH	sfoDF	98	A			vanNH
-16	10	vanNH	sfoDF	89	G			vanNH
-17	1	sfoDF	vanNH			8	P	NA
-17	2	sfoDF	vanNH	83	PU			NA
-17	3	sfoDF	vanNH	11				NA
-17	4	sfoDF	vanNH	34				NA
-17	5	sfoDF	vanNH	11				NA
-17	6	sfoDF	vanNH	34				NA
-17	7	sfoDF	vanNH	11				NA
-17	8	sfoDF	vanNH			8	D	NA
-18	1	sfoDF	vanNH			8	P	vanNH
-18	2	sfoDF	vanNH	57				vanNH
-18	3	sfoDF	vanNH	83				vanNH
-18	4	sfoDF	vanNH	57	TA			vanNH
-18	5	sfoDF	vanNH			8	PU	vanNH
-18	6	sfoDF	vanNH			45		vanNH
-18	7	sfoDF	vanNH			11	A	vanNH
-18	8	sfoDF	vanNH			81	G	vanNH
-19	1	sfoDF	vanNH			33	P	sfoDF
-19	2	sfoDF	vanNH	25	PU			sfoDF
-19	3	sfoDF	vanNH	17				sfoDF
-19	4	sfoDF	vanNH	25				sfoDF
-19	5	sfoDF	vanNH	2	L			sfoDF
-19	6	sfoDF	vanNH			13	D	sfoDF
-19	7	sfoDF	vanNH			13	PU	sfoDF
-19	8	sfoDF	vanNH			75		sfoDF
-19	9	sfoDF	vanNH			37	VTT	sfoDF
-19	10	sfoDF	vanNH	1	A			sfoDF
-19	11	sfoDF	vanNH	37	G			sfoDF
-20	1	vanNH	sfoDF			16	P	vanNH
-20	2	vanNH	sfoDF	89	PU			vanNH
-20	3	vanNH	sfoDF	5				vanNH
-20	4	vanNH	sfoDF	89				vanNH
-20	5	vanNH	sfoDF	91				vanNH
-20	6	vanNH	sfoDF	89				vanNH
-20	7	vanNH	sfoDF	5				vanNH
-20	8	vanNH	sfoDF	98				vanNH
-20	9	vanNH	sfoDF	72	A			vanNH
-20	10	vanNH	sfoDF	98	G			vanNH
-21	1	sfoDF	vanNH			8	P	sfoDF
-21	2	sfoDF	vanNH	13	PU			sfoDF
-21	3	sfoDF	vanNH	34				sfoDF
-21	4	sfoDF	vanNH	21				sfoDF
-21	5	sfoDF	vanNH	34				sfoDF
-21	6	sfoDF	vanNH	8				sfoDF
-21	7	sfoDF	vanNH	88				sfoDF
-21	8	sfoDF	vanNH	8				sfoDF
-21	9	sfoDF	vanNH	13				sfoDF
-21	10	sfoDF	vanNH	21	TA			sfoDF
-21	11	sfoDF	vanNH			45	PU	sfoDF
-21	12	sfoDF	vanNH			45	VTT	sfoDF
-21	13	sfoDF	vanNH	34	A			sfoDF
-21	14	sfoDF	vanNH	21	G			sfoDF
-22	1	vanNH	sfoDF			16	OBP	vanNH
-22	2	vanNH	sfoDF	5	PU			vanNH
-22	3	vanNH	sfoDF	19				vanNH
-22	4	vanNH	sfoDF	5	TD			vanNH
-22	5	vanNH	sfoDF			17	PU	vanNH
-22	6	vanNH	sfoDF			37		vanNH
-22	7	vanNH	sfoDF			46	VTT	vanNH
-22	8	vanNH	sfoDF	89	PU			vanNH
-22	9	vanNH	sfoDF	19				vanNH
-22	10	vanNH	sfoDF			18	F	vanNH
-22	11	vanNH	sfoDF	10				vanNH
-22	12	vanNH	sfoDF	22	TD			vanNH
-22	13	vanNH	sfoDF			16	PU	vanNH
-22	14	vanNH	sfoDF			16	VST	vanNH
-22	15	vanNH	sfoDF	89	PU			vanNH
-22	16	vanNH	sfoDF	22				vanNH
-22	17	vanNH	sfoDF			18	F	vanNH
-22	18	vanNH	sfoDF	89	A			vanNH
-22	19	vanNH	sfoDF	98	G			vanNH
-23	1	sfoDF	vanNH			33	P	sfoDF
-23	2	sfoDF	vanNH	34				sfoDF
-23	3	sfoDF	vanNH	24	L			sfoDF
-23	4	sfoDF	vanNH			11	F	sfoDF
-23	5	sfoDF	vanNH	8	A			sfoDF
-23	6	sfoDF	vanNH	57	G			sfoDF
-24	1	vanNH	sfoDF			16	P	vanNH
-24	2	vanNH	sfoDF	91	PU			vanNH
-24	3	vanNH	sfoDF	5				vanNH
-24	4	vanNH	sfoDF	91				vanNH
-24	5	vanNH	sfoDF	10				vanNH
-24	6	vanNH	sfoDF	98				vanNH
-24	7	vanNH	sfoDF	21				vanNH
-24	8	vanNH	sfoDF	5	A			vanNH
-24	9	vanNH	sfoDF	72	G			vanNH
-25	1	sfoDF	vanNH			8	P	sfoDF
-25	2	sfoDF	vanNH	11	PU			sfoDF
-25	3	sfoDF	vanNH	57				sfoDF
-25	4	sfoDF	vanNH	83				sfoDF
-25	5	sfoDF	vanNH	24				sfoDF
-25	6	sfoDF	vanNH	83				sfoDF
-25	7	sfoDF	vanNH	21				sfoDF
-25	8	sfoDF	vanNH	83				sfoDF
-25	9	sfoDF	vanNH	57				sfoDF
-25	10	sfoDF	vanNH	83				sfoDF
-25	11	sfoDF	vanNH	21				sfoDF
-25	12	sfoDF	vanNH			31	F	sfoDF
-25	13	sfoDF	vanNH	3	A			sfoDF
-25	14	sfoDF	vanNH	83	G			sfoDF
-26	1	vanNH	sfoDF			46	P	vanNH
-26	2	vanNH	sfoDF	91	PU			vanNH
-26	3	vanNH	sfoDF	5				vanNH
-26	4	vanNH	sfoDF	10	A			vanNH
-26	5	vanNH	sfoDF	98	LG			vanNH
-27	1	sfoDF	vanNH			33	P	vanNH
-27	2	sfoDF	vanNH	57				vanNH
-27	3	sfoDF	vanNH	83	TA			vanNH
-27	4	sfoDF	vanNH			18		vanNH
-27	5	sfoDF	vanNH			37		vanNH
-27	6	sfoDF	vanNH			18		vanNH
-27	7	sfoDF	vanNH			11	A	vanNH
-27	8	sfoDF	vanNH			33	G	vanNH
-28	1	sfoDF	vanNH			8	OBP	vanNH
-28	2	sfoDF	vanNH	17	PU			vanNH
-28	3	sfoDF	vanNH	25				vanNH
-28	4	sfoDF	vanNH	27				vanNH
-28	5	sfoDF	vanNH	25				vanNH
-28	6	sfoDF	vanNH	46	TD			vanNH
-28	7	sfoDF	vanNH			45	PU	vanNH
-28	8	sfoDF	vanNH			6		vanNH
-28	9	sfoDF	vanNH			45		vanNH
-28	10	sfoDF	vanNH			31		vanNH
-28	11	sfoDF	vanNH			27		vanNH
-28	12	sfoDF	vanNH			6	A	vanNH
-28	13	sfoDF	vanNH			45	G	vanNH
-29	1	sfoDF	vanNH			33	P	sfoDF
-29	2	sfoDF	vanNH	11				sfoDF
-29	3	sfoDF	vanNH	88				sfoDF
-29	4	sfoDF	vanNH	11				sfoDF
-29	5	sfoDF	vanNH	21				sfoDF
-29	6	sfoDF	vanNH	11				sfoDF
-29	7	sfoDF	vanNH	3				sfoDF
-29	8	sfoDF	vanNH	11				sfoDF
-29	9	sfoDF	vanNH	13	A			sfoDF
-29	10	sfoDF	vanNH	34	G			sfoDF
-30	1	vanNH	sfoDF			1	P	sfoDF
-30	2	vanNH	sfoDF	19	PU			sfoDF
-30	3	vanNH	sfoDF	5	TA			sfoDF
-30	4	vanNH	sfoDF			2		sfoDF
-30	5	vanNH	sfoDF					sfoDF
-30	6	vanNH	sfoDF			1		sfoDF
-30	7	vanNH	sfoDF			11		sfoDF
-30	8	vanNH	sfoDF			18		sfoDF
-30	9	vanNH	sfoDF			1		sfoDF
-30	10	vanNH	sfoDF			18		sfoDF
-30	11	vanNH	sfoDF			2		sfoDF
-30	12	vanNH	sfoDF			25		sfoDF
-30	13	vanNH	sfoDF	91	F			sfoDF
-30	14	vanNH	sfoDF			17	TA	sfoDF
-30	15	vanNH	sfoDF	5	PU			sfoDF
-30	16	vanNH	sfoDF			18	D	sfoDF
-30	17	vanNH	sfoDF			18	A	sfoDF
-30	18	vanNH	sfoDF			37	G	sfoDF
-31	1	vanNH	sfoDF			8	P	NA
-31	2	vanNH	sfoDF	5	PU			NA
-31	3	vanNH	sfoDF	91				NA
-31	4	vanNH	sfoDF	22				NA
-31	5	vanNH	sfoDF	8				NA
-32	1	vanNH	sfoDF			46	P	vanNH
-32	2	vanNH	sfoDF	91	PU			vanNH
-32	3	vanNH	sfoDF	89				vanNH
-32	4	vanNH	sfoDF	22				vanNH
-32	5	vanNH	sfoDF	21				vanNH
-32	6	vanNH	sfoDF	98				vanNH
-32	7	vanNH	sfoDF	5				vanNH
-32	8	vanNH	sfoDF	91				vanNH
-32	9	vanNH	sfoDF	89				vanNH
-32	10	vanNH	sfoDF	98				vanNH
-32	11	vanNH	sfoDF	91				vanNH
-32	12	vanNH	sfoDF	21	A			vanNH
-32	13	vanNH	sfoDF	98	G			vanNH
-33	1	sfoDF	vanNH			8	P	sfoDF
-33	2	sfoDF	vanNH	57	PU			sfoDF
-33	3	sfoDF	vanNH	83				sfoDF
-33	4	sfoDF	vanNH	8				sfoDF
-33	5	sfoDF	vanNH			39	D	sfoDF
-33	6	sfoDF	vanNH			39	SO	sfoDF
-33	7	sfoDF	vanNH			22	SI	sfoDF
-33	8	sfoDF	vanNH			81	PU	sfoDF
-33	9	sfoDF	vanNH			81	TA	sfoDF
-33	10	sfoDF	vanNH		PU			sfoDF
-33	11	sfoDF	vanNH	34	A			sfoDF
-33	12	sfoDF	vanNH	83	G			sfoDF
-34	1	vanNH	sfoDF			46	P	vanNH
-34	2	vanNH	sfoDF	19				vanNH
-34	3	vanNH	sfoDF	91				vanNH
-34	4	vanNH	sfoDF	98				vanNH
-34	5	vanNH	sfoDF	91				vanNH
-34	6	vanNH	sfoDF	89				vanNH
-34	7	vanNH	sfoDF	19				vanNH
-34	8	vanNH	sfoDF	21				vanNH
-34	9	vanNH	sfoDF	98	A			vanNH
-34	10	vanNH	sfoDF	10	LG			vanNH
-35	1	sfoDF	vanNH			33	P	sfoDF
-35	2	sfoDF	vanNH	13				sfoDF
-35	3	sfoDF	vanNH	88				sfoDF
-35	4	sfoDF	vanNH	13				sfoDF
-35	5	sfoDF	vanNH	11				sfoDF
-35	6	sfoDF	vanNH	8				sfoDF
-35	7	sfoDF	vanNH			11	D	sfoDF
-35	8	sfoDF	vanNH			11	PU	sfoDF
-35	9	sfoDF	vanNH	21	F			sfoDF
-35	10	sfoDF	vanNH			11	VST	sfoDF
-35	11	sfoDF	vanNH	34	PU			sfoDF
-35	12	sfoDF	vanNH	8				sfoDF
-35	13	sfoDF	vanNH	88				sfoDF
-35	14	sfoDF	vanNH	21	A			sfoDF
-35	15	sfoDF	vanNH	34	G			sfoDF
-36	1	vanNH	sfoDF			46	OBP	vanNH
-36	2	vanNH	sfoDF	89	PU			vanNH
-36	3	vanNH	sfoDF	19				vanNH
-36	4	vanNH	sfoDF	22				vanNH
-36	5	vanNH	sfoDF	98	A			vanNH
-36	6	vanNH	sfoDF	72	LG			vanNH
-37	1	sfoDF	vanNH			8	P	sfoDF
-37	2	sfoDF	vanNH	57	PU			sfoDF
-37	3	sfoDF	vanNH	83				sfoDF
-37	4	sfoDF	vanNH	34	L			sfoDF
-37	5	sfoDF	vanNH	88				sfoDF
-37	6	sfoDF	vanNH	8				sfoDF
-37	7	sfoDF	vanNH	34				sfoDF
-37	8	sfoDF	vanNH	8				sfoDF
-37	9	sfoDF	vanNH	34	A			sfoDF
-37	10	sfoDF	vanNH	88	G			sfoDF
-38	1	vanNH	sfoDF			34	P	vanNH
-38	2	vanNH	sfoDF	19	PU			vanNH
-38	3	vanNH	sfoDF	89				vanNH
-38	4	vanNH	sfoDF	21				vanNH
-38	5	vanNH	sfoDF	91				vanNH
-38	6	vanNH	sfoDF	19				vanNH
-38	7	vanNH	sfoDF	91				vanNH
-38	8	vanNH	sfoDF	89	A			vanNH
-38	9	vanNH	sfoDF	10	LG			vanNH
-39	1	sfoDF	vanNH			33	P	vanNH
-39	2	sfoDF	vanNH	11				vanNH
-39	3	sfoDF	vanNH			14	D	vanNH
-39	4	sfoDF	vanNH			6	PU	vanNH
-39	5	sfoDF	vanNH			11	A	vanNH
-39	6	sfoDF	vanNH			14	G	vanNH
-40	1	sfoDF	vanNH			8	P	sfoDF
-40	2	sfoDF	vanNH	13				sfoDF
-40	3	sfoDF	vanNH	88				sfoDF
-40	4	sfoDF	vanNH	8				sfoDF
-40	5	sfoDF	vanNH	88				sfoDF
-40	6	sfoDF	vanNH	13				sfoDF
-40	7	sfoDF	vanNH	83				sfoDF
-40	8	sfoDF	vanNH	3	L			sfoDF
-40	9	sfoDF	vanNH	3	TO			sfoDF
-40	10	sfoDF	vanNH			18	SI	sfoDF
-40	11	sfoDF	vanNH			81	SO	sfoDF
-40	12	sfoDF	vanNH	8	A			sfoDF
-40	13	sfoDF	vanNH	88	G			sfoDF
-41	1	vanNH	sfoDF			46	P	vanNH
-41	2	vanNH	sfoDF	19				vanNH
-41	3	vanNH	sfoDF	5				vanNH
-41	4	vanNH	sfoDF	21	A			vanNH
-41	5	vanNH	sfoDF	98	LG			vanNH
-42	1	sfoDF	vanNH			33	P	vanNH
-42	2	sfoDF	vanNH	57				vanNH
-42	3	sfoDF	vanNH	83				vanNH
-42	4	sfoDF	vanNH	3				vanNH
-42	5	sfoDF	vanNH	8				vanNH
-42	6	sfoDF	vanNH	88	TD			vanNH
-42	7	sfoDF	vanNH			33	PU	vanNH
-42	8	sfoDF	vanNH			4		vanNH
-42	9	sfoDF	vanNH			11		vanNH
-42	10	sfoDF	vanNH			8		vanNH
-42	11	sfoDF	vanNH			33		vanNH
-42	12	sfoDF	vanNH			37		vanNH
-42	13	sfoDF	vanNH			14		vanNH
-42	14	sfoDF	vanNH			37		vanNH
-42	15	sfoDF	vanNH			18		vanNH
-42	16	sfoDF	vanNH			8		vanNH
-42	17	sfoDF	vanNH			37		vanNH
-42	18	sfoDF	vanNH			14		vanNH
-42	19	sfoDF	vanNH			4		vanNH
-42	20	sfoDF	vanNH			14		vanNH
-42	21	sfoDF	vanNH			8		vanNH
-42	22	sfoDF	vanNH			37	A	vanNH
-42	23	sfoDF	vanNH			18	G	vanNH
-43	1	sfoDF	vanNH			6	P	vanNH
-43	2	sfoDF	vanNH	1				vanNH
-43	3	sfoDF	vanNH	17				vanNH
-43	4	sfoDF	vanNH	1				vanNH
-43	5	sfoDF	vanNH	85				vanNH
-43	6	sfoDF	vanNH			39	D	vanNH
-43	7	sfoDF	vanNH			39	PU	vanNH
-43	8	sfoDF	vanNH			45		vanNH
-43	9	sfoDF	vanNH			6		vanNH
-43	10	sfoDF	vanNH			31	L	vanNH
-43	11	sfoDF	vanNH			45	TD	vanNH
-43	12	sfoDF	vanNH	17	PU			vanNH
-43	13	sfoDF	vanNH	1				vanNH
-43	14	sfoDF	vanNH	46	TD			vanNH
-43	15	sfoDF	vanNH		F			vanNH
-43	16	sfoDF	vanNH			75	F	vanNH
-43	17	sfoDF	vanNH			75	A	vanNH
-43	18	sfoDF	vanNH			27	G	vanNH
-44	1	sfoDF	vanNH			33	P	sfoDF
-44	2	sfoDF	vanNH	83				sfoDF
-44	3	sfoDF	vanNH	57				sfoDF
-44	4	sfoDF	vanNH	83				sfoDF
-44	5	sfoDF	vanNH	21				sfoDF
-44	6	sfoDF	vanNH	24				sfoDF
-44	7	sfoDF	vanNH	83				sfoDF
-44	8	sfoDF	vanNH	11				sfoDF
-44	9	sfoDF	vanNH	57				sfoDF
-44	10	sfoDF	vanNH	83	A			sfoDF
-44	11	sfoDF	vanNH	21	G			sfoDF
-45	1	vanNH	sfoDF			46	P	NA
-45	2	vanNH	sfoDF	19	PU			NA
-45	3	vanNH	sfoDF	89				NA
-45	4	vanNH	sfoDF	19	TA			NA
-45	5	vanNH	sfoDF			25	PU	NA
-45	6	vanNH	sfoDF			1		NA
-45	7	vanNH	sfoDF			25		NA
-45	8	vanNH	sfoDF			85		NA
-45	9	vanNH	sfoDF			17		NA
-45	10	vanNH	sfoDF			25		NA
-45	11	vanNH	sfoDF			2		NA
-45	12	vanNH	sfoDF			25	TA	NA
-45	13	vanNH	sfoDF	98	PU			NA
-45	14	vanNH	sfoDF	89				NA
-45	15	vanNH	sfoDF	19				NA
+point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
+1	vanNH	sfoDF	1	8	P			vanNH
+1	vanNH	sfoDF	2			34		vanNH
+1	vanNH	sfoDF	3			83		vanNH
+1	vanNH	sfoDF	4			34		vanNH
+1	vanNH	sfoDF	5	27	D			vanNH
+1	vanNH	sfoDF	6	45	PU			vanNH
+1	vanNH	sfoDF	7	8				vanNH
+1	vanNH	sfoDF	8			34	HB	vanNH
+1	vanNH	sfoDF	9			83	PU	vanNH
+1	vanNH	sfoDF	10			24		vanNH
+1	vanNH	sfoDF	11			23	TD	vanNH
+1	vanNH	sfoDF	12	81	PU			vanNH
+1	vanNH	sfoDF	13	27				vanNH
+1	vanNH	sfoDF	14	24				vanNH
+1	vanNH	sfoDF	15	81				vanNH
+1	vanNH	sfoDF	16	45				vanNH
+1	vanNH	sfoDF	17	27				vanNH
+1	vanNH	sfoDF	18	24				vanNH
+1	vanNH	sfoDF	19	39	A			vanNH
+1	vanNH	sfoDF	20	81	G			vanNH
+2	vanNH	sfoDF	1	33	P			sfoDF
+2	vanNH	sfoDF	2			5	PU	sfoDF
+2	vanNH	sfoDF	3			8		sfoDF
+2	vanNH	sfoDF	4			34	A	sfoDF
+2	vanNH	sfoDF	5			3	G	sfoDF
+3	sfoDF	vanNH	1	46	P			vanNH
+3	sfoDF	vanNH	2			89	PU	vanNH
+3	sfoDF	vanNH	3			5		vanNH
+3	sfoDF	vanNH	4			22		vanNH
+3	sfoDF	vanNH	5			21		vanNH
+3	sfoDF	vanNH	6			98		vanNH
+3	sfoDF	vanNH	7	16	PU			vanNH
+3	sfoDF	vanNH	8	85				vanNH
+3	sfoDF	vanNH	9	17	TD			vanNH
+3	sfoDF	vanNH	10			5	PU	vanNH
+3	sfoDF	vanNH	11			22	A	vanNH
+3	sfoDF	vanNH	12			91	G	vanNH
+4	vanNH	sfoDF	1	8	P			vanNH
+4	vanNH	sfoDF	2			88	PU	vanNH
+4	vanNH	sfoDF	3			1		vanNH
+4	vanNH	sfoDF	4	8	D			vanNH
+4	vanNH	sfoDF	5	8				vanNH
+4	vanNH	sfoDF	6			13	PU	vanNH
+4	vanNH	sfoDF	7			11	TD	vanNH
+4	vanNH	sfoDF	8	24	PU			vanNH
+4	vanNH	sfoDF	9	81				vanNH
+4	vanNH	sfoDF	10	8				vanNH
+4	vanNH	sfoDF	11	27				vanNH
+4	vanNH	sfoDF	12	45				vanNH
+4	vanNH	sfoDF	13	39	TD			vanNH
+4	vanNH	sfoDF	14			34	PU	vanNH
+4	vanNH	sfoDF	15			13		vanNH
+4	vanNH	sfoDF	16			34		vanNH
+4	vanNH	sfoDF	17			88		vanNH
+4	vanNH	sfoDF	18			34		vanNH
+4	vanNH	sfoDF	19	27	D			vanNH
+4	vanNH	sfoDF	20	24	PU			vanNH
+4	vanNH	sfoDF	21	8	VTT			vanNH
+4	vanNH	sfoDF	22			34	PU	vanNH
+4	vanNH	sfoDF	23			88		vanNH
+4	vanNH	sfoDF	24	8	TO			vanNH
+4	vanNH	sfoDF	25	91	PU			vanNH
+4	vanNH	sfoDF	26	98	L			vanNH
+4	vanNH	sfoDF	27	19				vanNH
+4	vanNH	sfoDF	28	89				vanNH
+4	vanNH	sfoDF	29	72				vanNH
+4	vanNH	sfoDF	30	89				vanNH
+4	vanNH	sfoDF	31	21	A			vanNH
+4	vanNH	sfoDF	32	72	G			vanNH
+5	vanNH	sfoDF	1	8	P			vanNH
+5	vanNH	sfoDF	2			5	PU	vanNH
+5	vanNH	sfoDF	3			34		vanNH
+5	vanNH	sfoDF	4	75	PU			vanNH
+5	vanNH	sfoDF	5	8				vanNH
+5	vanNH	sfoDF	6	24				vanNH
+5	vanNH	sfoDF	7	4	L			vanNH
+5	vanNH	sfoDF	8	8	A			vanNH
+5	vanNH	sfoDF	9	14	G			vanNH
+6	vanNH	sfoDF	1	33	P			sfoDF
+6	vanNH	sfoDF	2			25	PU	sfoDF
+6	vanNH	sfoDF	3			46		sfoDF
+6	vanNH	sfoDF	4			25		sfoDF
+6	vanNH	sfoDF	5			85		sfoDF
+6	vanNH	sfoDF	6			2		sfoDF
+6	vanNH	sfoDF	7			25		sfoDF
+6	vanNH	sfoDF	8			46		sfoDF
+6	vanNH	sfoDF	9			25		sfoDF
+6	vanNH	sfoDF	10			17		sfoDF
+6	vanNH	sfoDF	11			85	A	sfoDF
+6	vanNH	sfoDF	12			1	G	sfoDF
+7	sfoDF	vanNH	1	16	P			sfoDF
+7	sfoDF	vanNH	2			5	PU	sfoDF
+7	sfoDF	vanNH	3			89		sfoDF
+7	sfoDF	vanNH	4			22		sfoDF
+7	sfoDF	vanNH	5			21		sfoDF
+7	sfoDF	vanNH	6			72	TD	sfoDF
+7	sfoDF	vanNH	7	16	PU			sfoDF
+7	sfoDF	vanNH	8	85				sfoDF
+7	sfoDF	vanNH	9	1				sfoDF
+7	sfoDF	vanNH	10	7				sfoDF
+7	sfoDF	vanNH	11			22	D	sfoDF
+7	sfoDF	vanNH	12			21	PU	sfoDF
+7	sfoDF	vanNH	13			21		sfoDF
+7	sfoDF	vanNH	14	16	PU			sfoDF
+7	sfoDF	vanNH	15	25				sfoDF
+7	sfoDF	vanNH	16	16	TO			sfoDF
+7	sfoDF	vanNH	17	83	PU			sfoDF
+7	sfoDF	vanNH	18	88				sfoDF
+7	sfoDF	vanNH	19	34				sfoDF
+7	sfoDF	vanNH	20	8				sfoDF
+7	sfoDF	vanNH	21			39	F	sfoDF
+7	sfoDF	vanNH	22	24				sfoDF
+7	sfoDF	vanNH	23	8	A			sfoDF
+7	sfoDF	vanNH	24	24	G			sfoDF
+8	sfoDF	vanNH	1	16	P			vanNH
+8	sfoDF	vanNH	2			91	PU	vanNH
+8	sfoDF	vanNH	3			5		vanNH
+8	sfoDF	vanNH	4			91		vanNH
+8	sfoDF	vanNH	5			22		vanNH
+8	sfoDF	vanNH	6			10	TD	vanNH
+8	sfoDF	vanNH	7	16	PU			vanNH
+8	sfoDF	vanNH	8	85				vanNH
+8	sfoDF	vanNH	9			10	D	vanNH
+8	sfoDF	vanNH	10			91	PU	vanNH
+8	sfoDF	vanNH	11			5		vanNH
+8	sfoDF	vanNH	12			98		vanNH
+8	sfoDF	vanNH	13			10		vanNH
+8	sfoDF	vanNH	14			21	A	vanNH
+8	sfoDF	vanNH	15			19	LG	vanNH
+9	vanNH	sfoDF	1	8	P			NA
+9	vanNH	sfoDF	2			83	PU	NA
+9	vanNH	sfoDF	3			88		NA
+9	vanNH	sfoDF	4	13	D			NA
+9	vanNH	sfoDF	5	11	PU			NA
+10	sfoDF	vanNH	1	46	P			vanNH
+10	sfoDF	vanNH	2			91	PU	vanNH
+10	sfoDF	vanNH	3			5		vanNH
+10	sfoDF	vanNH	4			91		vanNH
+10	sfoDF	vanNH	5	7	PU			vanNH
+10	sfoDF	vanNH	6	7	VTT			vanNH
+10	sfoDF	vanNH	7			89	PUA	vanNH
+10	sfoDF	vanNH	8			98	G	vanNH
+11	vanNH	sfoDF	1	8	OBP			vanNH
+11	vanNH	sfoDF	2			83	PU	vanNH
+11	vanNH	sfoDF	3			8		vanNH
+11	vanNH	sfoDF	4			34		vanNH
+11	vanNH	sfoDF	5			8		vanNH
+11	vanNH	sfoDF	6			34		vanNH
+11	vanNH	sfoDF	7	8	D			vanNH
+11	vanNH	sfoDF	8	8	PU			vanNH
+11	vanNH	sfoDF	9	45				vanNH
+11	vanNH	sfoDF	10	81				vanNH
+11	vanNH	sfoDF	11	45				vanNH
+11	vanNH	sfoDF	12	8				vanNH
+11	vanNH	sfoDF	13	31				vanNH
+11	vanNH	sfoDF	14	81				vanNH
+11	vanNH	sfoDF	15	8				vanNH
+11	vanNH	sfoDF	16	45				vanNH
+11	vanNH	sfoDF	17	39				vanNH
+11	vanNH	sfoDF	18	81				vanNH
+11	vanNH	sfoDF	19	45				vanNH
+11	vanNH	sfoDF	20	8	A			vanNH
+11	vanNH	sfoDF	21	27	G			vanNH
+12	vanNH	sfoDF	1	33	OBP			vanNH
+12	vanNH	sfoDF	2			16	PU	vanNH
+12	vanNH	sfoDF	3	4	D			vanNH
+12	vanNH	sfoDF	4	75	PU			vanNH
+12	vanNH	sfoDF	5	14				vanNH
+12	vanNH	sfoDF	6	13				vanNH
+12	vanNH	sfoDF	7	11				vanNH
+12	vanNH	sfoDF	8	33				vanNH
+12	vanNH	sfoDF	9	75				vanNH
+12	vanNH	sfoDF	10	13				vanNH
+12	vanNH	sfoDF	11	14	TD			vanNH
+12	vanNH	sfoDF	12			16	PU	vanNH
+12	vanNH	sfoDF	13			17		vanNH
+12	vanNH	sfoDF	14	18	F			vanNH
+12	vanNH	sfoDF	15			18		vanNH
+12	vanNH	sfoDF	16			1		vanNH
+12	vanNH	sfoDF	17			46		vanNH
+12	vanNH	sfoDF	18			1		vanNH
+12	vanNH	sfoDF	19			37		vanNH
+12	vanNH	sfoDF	20			1		vanNH
+12	vanNH	sfoDF	21			18		vanNH
+12	vanNH	sfoDF	22			1		vanNH
+12	vanNH	sfoDF	23	75	F			vanNH
+12	vanNH	sfoDF	24			18		vanNH
+12	vanNH	sfoDF	25			16		vanNH
+12	vanNH	sfoDF	26			37		vanNH
+12	vanNH	sfoDF	27			18		vanNH
+12	vanNH	sfoDF	28			16		vanNH
+12	vanNH	sfoDF	29			17	TD	vanNH
+12	vanNH	sfoDF	30	14	TO			vanNH
+12	vanNH	sfoDF	31	91	PU			vanNH
+12	vanNH	sfoDF	32	89				vanNH
+12	vanNH	sfoDF	33	91				vanNH
+12	vanNH	sfoDF	34			25	F	vanNH
+12	vanNH	sfoDF	35	89				vanNH
+12	vanNH	sfoDF	36			7	F	vanNH
+12	vanNH	sfoDF	37	21				vanNH
+12	vanNH	sfoDF	38	10	A			vanNH
+12	vanNH	sfoDF	39	98	G			vanNH
+13	vanNH	sfoDF	1	8	P			vanNH
+13	vanNH	sfoDF	2			83	PU	vanNH
+13	vanNH	sfoDF	3			13		vanNH
+13	vanNH	sfoDF	4			83		vanNH
+13	vanNH	sfoDF	5			13		vanNH
+13	vanNH	sfoDF	6			34		vanNH
+13	vanNH	sfoDF	7			83		vanNH
+13	vanNH	sfoDF	8			21		vanNH
+13	vanNH	sfoDF	9			88		vanNH
+13	vanNH	sfoDF	10			83		vanNH
+13	vanNH	sfoDF	11			88		vanNH
+13	vanNH	sfoDF	12			34		vanNH
+13	vanNH	sfoDF	13			83		vanNH
+13	vanNH	sfoDF	14			88		vanNH
+13	vanNH	sfoDF	15			83		vanNH
+13	vanNH	sfoDF	16	4	F			vanNH
+13	vanNH	sfoDF	17			34	PU	vanNH
+13	vanNH	sfoDF	18			34	VST	vanNH
+13	vanNH	sfoDF	19	45	PU			vanNH
+13	vanNH	sfoDF	20	31				vanNH
+13	vanNH	sfoDF	21	8	L			vanNH
+13	vanNH	sfoDF	22	4	A			vanNH
+13	vanNH	sfoDF	23	27	G			vanNH
+14	vanNH	sfoDF	1	33	P			vanNH
+14	vanNH	sfoDF	2			11	PU	vanNH
+14	vanNH	sfoDF	3			17		vanNH
+14	vanNH	sfoDF	4			21		vanNH
+14	vanNH	sfoDF	5	39	F			vanNH
+14	vanNH	sfoDF	6			37		vanNH
+14	vanNH	sfoDF	7			3		vanNH
+14	vanNH	sfoDF	8	18	D			vanNH
+14	vanNH	sfoDF	9	81	PU			vanNH
+14	vanNH	sfoDF	10	11				vanNH
+14	vanNH	sfoDF	11			17	PU	vanNH
+14	vanNH	sfoDF	12			11	F	vanNH
+14	vanNH	sfoDF	13	81	PU			vanNH
+14	vanNH	sfoDF	14	14				vanNH
+14	vanNH	sfoDF	15	39				vanNH
+14	vanNH	sfoDF	16	14				vanNH
+14	vanNH	sfoDF	17	11	A			vanNH
+14	vanNH	sfoDF	18	39	G			vanNH
+15	vanNH	sfoDF	1	8	P			sfoDF
+15	vanNH	sfoDF	2			17	PU	sfoDF
+15	vanNH	sfoDF	3			83		sfoDF
+15	vanNH	sfoDF	4			88		sfoDF
+15	vanNH	sfoDF	5			8	A	sfoDF
+15	vanNH	sfoDF	6			34	LG	sfoDF
+16	sfoDF	vanNH	1	16	P			vanNH
+16	sfoDF	vanNH	2			19	PU	vanNH
+16	sfoDF	vanNH	3			5		vanNH
+16	sfoDF	vanNH	4			22		vanNH
+16	sfoDF	vanNH	5			5		vanNH
+16	sfoDF	vanNH	6			89		vanNH
+16	sfoDF	vanNH	7			19		vanNH
+16	sfoDF	vanNH	8			5		vanNH
+16	sfoDF	vanNH	9			98	LA	vanNH
+16	sfoDF	vanNH	10			89	G	vanNH
+17	vanNH	sfoDF	1	8	P			NA
+17	vanNH	sfoDF	2			83	PU	NA
+17	vanNH	sfoDF	3			11		NA
+17	vanNH	sfoDF	4			34		NA
+17	vanNH	sfoDF	5			11		NA
+17	vanNH	sfoDF	6			34		NA
+17	vanNH	sfoDF	7			11		NA
+17	vanNH	sfoDF	8	8	D			NA
+18	vanNH	sfoDF	1	8	P			vanNH
+18	vanNH	sfoDF	2			57		vanNH
+18	vanNH	sfoDF	3			83		vanNH
+18	vanNH	sfoDF	4			57		vanNH
+18	vanNH	sfoDF	5	8	PU			vanNH
+18	vanNH	sfoDF	6	45				vanNH
+18	vanNH	sfoDF	7	11	LA			vanNH
+18	vanNH	sfoDF	8	81	G			vanNH
+19	vanNH	sfoDF	1	33	P			sfoDF
+19	vanNH	sfoDF	2			25	PU	sfoDF
+19	vanNH	sfoDF	3			17		sfoDF
+19	vanNH	sfoDF	4			25		sfoDF
+19	vanNH	sfoDF	5			2	L	sfoDF
+19	vanNH	sfoDF	6	13	D			sfoDF
+19	vanNH	sfoDF	7	13	PU			sfoDF
+19	vanNH	sfoDF	8	75				sfoDF
+19	vanNH	sfoDF	9	37	VTT			sfoDF
+19	vanNH	sfoDF	10			1	PUA	sfoDF
+19	vanNH	sfoDF	11			37	G	sfoDF
+20	sfoDF	vanNH	1	16	P			vanNH
+20	sfoDF	vanNH	2			89	PU	vanNH
+20	sfoDF	vanNH	3			5		vanNH
+20	sfoDF	vanNH	4			89		vanNH
+20	sfoDF	vanNH	5			91		vanNH
+20	sfoDF	vanNH	6			89		vanNH
+20	sfoDF	vanNH	7			5		vanNH
+20	sfoDF	vanNH	8			98		vanNH
+20	sfoDF	vanNH	9			72	A	vanNH
+20	sfoDF	vanNH	10			98	G	vanNH
+21	vanNH	sfoDF	1	8	P			sfoDF
+21	vanNH	sfoDF	2			13	PU	sfoDF
+21	vanNH	sfoDF	3			34		sfoDF
+21	vanNH	sfoDF	4			21		sfoDF
+21	vanNH	sfoDF	5			34		sfoDF
+21	vanNH	sfoDF	6			8		sfoDF
+21	vanNH	sfoDF	7			88		sfoDF
+21	vanNH	sfoDF	8			8		sfoDF
+21	vanNH	sfoDF	9			13		sfoDF
+21	vanNH	sfoDF	10			21		sfoDF
+21	vanNH	sfoDF	11	45	PU			sfoDF
+21	vanNH	sfoDF	12	45	VTT			sfoDF
+21	vanNH	sfoDF	13			34	PUA	sfoDF
+21	vanNH	sfoDF	14			21	G	sfoDF
+22	sfoDF	vanNH	1	16	OBP			vanNH
+22	sfoDF	vanNH	2			5	PU	vanNH
+22	sfoDF	vanNH	3			19		vanNH
+22	sfoDF	vanNH	4			5	TD	vanNH
+22	sfoDF	vanNH	5	17	PU			vanNH
+22	sfoDF	vanNH	6	37				vanNH
+22	sfoDF	vanNH	7	46	VTT			vanNH
+22	sfoDF	vanNH	8			89	PU	vanNH
+22	sfoDF	vanNH	9			19		vanNH
+22	sfoDF	vanNH	10	18	F			vanNH
+22	sfoDF	vanNH	11			10		vanNH
+22	sfoDF	vanNH	12			22	TD	vanNH
+22	sfoDF	vanNH	13	16	PU			vanNH
+22	sfoDF	vanNH	14	16	VST			vanNH
+22	sfoDF	vanNH	15			89	PU	vanNH
+22	sfoDF	vanNH	16			22		vanNH
+22	sfoDF	vanNH	17	18	F			vanNH
+22	sfoDF	vanNH	18			89	A	vanNH
+22	sfoDF	vanNH	19			98	G	vanNH
+23	vanNH	sfoDF	1	33	P			sfoDF
+23	vanNH	sfoDF	2			34		sfoDF
+23	vanNH	sfoDF	3			24	L	sfoDF
+23	vanNH	sfoDF	4	11	F			sfoDF
+23	vanNH	sfoDF	5			8	A	sfoDF
+23	vanNH	sfoDF	6			57	G	sfoDF
+24	sfoDF	vanNH	1	16	P			vanNH
+24	sfoDF	vanNH	2			91	PU	vanNH
+24	sfoDF	vanNH	3			5		vanNH
+24	sfoDF	vanNH	4			91		vanNH
+24	sfoDF	vanNH	5			10		vanNH
+24	sfoDF	vanNH	6			98		vanNH
+24	sfoDF	vanNH	7			21		vanNH
+24	sfoDF	vanNH	8			5	A	vanNH
+24	sfoDF	vanNH	9			72	G	vanNH
+25	vanNH	sfoDF	1	8	P			sfoDF
+25	vanNH	sfoDF	2			11	PU	sfoDF
+25	vanNH	sfoDF	3			57		sfoDF
+25	vanNH	sfoDF	4			83		sfoDF
+25	vanNH	sfoDF	5			24		sfoDF
+25	vanNH	sfoDF	6			83		sfoDF
+25	vanNH	sfoDF	7			21		sfoDF
+25	vanNH	sfoDF	8			83		sfoDF
+25	vanNH	sfoDF	9			57		sfoDF
+25	vanNH	sfoDF	10			83		sfoDF
+25	vanNH	sfoDF	11			21		sfoDF
+25	vanNH	sfoDF	12	31	F			sfoDF
+25	vanNH	sfoDF	13			3	A	sfoDF
+25	vanNH	sfoDF	14			83	G	sfoDF
+26	sfoDF	vanNH	1	46	P			vanNH
+26	sfoDF	vanNH	2			91	PU	vanNH
+26	sfoDF	vanNH	3			5		vanNH
+26	sfoDF	vanNH	4			10	A	vanNH
+26	sfoDF	vanNH	5			98	LG	vanNH
+27	vanNH	sfoDF	1	33	P			vanNH
+27	vanNH	sfoDF	2			57	PU	vanNH
+27	vanNH	sfoDF	3			83		vanNH
+27	vanNH	sfoDF	4	18	PU			vanNH
+27	vanNH	sfoDF	5	37				vanNH
+27	vanNH	sfoDF	6	18				vanNH
+27	vanNH	sfoDF	7	11	A			vanNH
+27	vanNH	sfoDF	8	33	G			vanNH
+28	vanNH	sfoDF	1	8	OBP			vanNH
+28	vanNH	sfoDF	2			17	PU	vanNH
+28	vanNH	sfoDF	3			25		vanNH
+28	vanNH	sfoDF	4			37		vanNH
+28	vanNH	sfoDF	5			25		vanNH
+28	vanNH	sfoDF	6			46	TD	vanNH
+28	vanNH	sfoDF	7	45	PU			vanNH
+28	vanNH	sfoDF	8	6				vanNH
+28	vanNH	sfoDF	9	45				vanNH
+28	vanNH	sfoDF	10	31				vanNH
+28	vanNH	sfoDF	11	27				vanNH
+28	vanNH	sfoDF	12	6	A			vanNH
+28	vanNH	sfoDF	13	45	G			vanNH
+29	vanNH	sfoDF	1	33	P			sfoDF
+29	vanNH	sfoDF	2			11		sfoDF
+29	vanNH	sfoDF	3			88		sfoDF
+29	vanNH	sfoDF	4			11		sfoDF
+29	vanNH	sfoDF	5			21		sfoDF
+29	vanNH	sfoDF	6			11		sfoDF
+29	vanNH	sfoDF	7			3		sfoDF
+29	vanNH	sfoDF	8			11		sfoDF
+29	vanNH	sfoDF	9			13	A	sfoDF
+29	vanNH	sfoDF	10			34	G	sfoDF
+30	sfoDF	vanNH	1	1	P			sfoDF
+30	sfoDF	vanNH	2			19	PU	sfoDF
+30	sfoDF	vanNH	3			5		sfoDF
+30	sfoDF	vanNH	4	2	PU			sfoDF
+30	sfoDF	vanNH	5	85				sfoDF
+30	sfoDF	vanNH	6	1				sfoDF
+30	sfoDF	vanNH	7	11				sfoDF
+30	sfoDF	vanNH	8	18				sfoDF
+30	sfoDF	vanNH	9	1				sfoDF
+30	sfoDF	vanNH	10	18				sfoDF
+30	sfoDF	vanNH	11	2				sfoDF
+30	sfoDF	vanNH	12	25				sfoDF
+30	sfoDF	vanNH	13			91	F	sfoDF
+30	sfoDF	vanNH	14	17				sfoDF
+30	sfoDF	vanNH	15			5	PU	sfoDF
+30	sfoDF	vanNH	16	18	D			sfoDF
+30	sfoDF	vanNH	17	18	PUA			sfoDF
+30	sfoDF	vanNH	18	37	G			sfoDF
+31	sfoDF	vanNH	1	8	P			NA
+31	sfoDF	vanNH	2			5	PU	NA
+31	sfoDF	vanNH	3			91		NA
+31	sfoDF	vanNH	4			22		NA
+31	sfoDF	vanNH	5			8		NA
+32	sfoDF	vanNH	1	46	P			vanNH
+32	sfoDF	vanNH	2			91	PU	vanNH
+32	sfoDF	vanNH	3			89		vanNH
+32	sfoDF	vanNH	4			22		vanNH
+32	sfoDF	vanNH	5			21		vanNH
+32	sfoDF	vanNH	6			98		vanNH
+32	sfoDF	vanNH	7			5		vanNH
+32	sfoDF	vanNH	8			91		vanNH
+32	sfoDF	vanNH	9			89		vanNH
+32	sfoDF	vanNH	10			98		vanNH
+32	sfoDF	vanNH	11			91		vanNH
+32	sfoDF	vanNH	12			21	A	vanNH
+32	sfoDF	vanNH	13			98	G	vanNH
+33	vanNH	sfoDF	1	8	P			sfoDF
+33	vanNH	sfoDF	2			57	PU	sfoDF
+33	vanNH	sfoDF	3			83		sfoDF
+33	vanNH	sfoDF	4			8		sfoDF
+33	vanNH	sfoDF	5	39	D			sfoDF
+33	vanNH	sfoDF	6	39	SO			sfoDF
+33	vanNH	sfoDF	7	22	SI			sfoDF
+33	vanNH	sfoDF	8	81	PU			sfoDF
+33	vanNH	sfoDF	9	8	TD			sfoDF
+33	vanNH	sfoDF	10			3	PU	sfoDF
+33	vanNH	sfoDF	11			34	A	sfoDF
+33	vanNH	sfoDF	12			83	G	sfoDF
+34	sfoDF	vanNH	1	46	P			vanNH
+34	sfoDF	vanNH	2			19	PU	vanNH
+34	sfoDF	vanNH	3			91		vanNH
+34	sfoDF	vanNH	4			98		vanNH
+34	sfoDF	vanNH	5			91		vanNH
+34	sfoDF	vanNH	6			89		vanNH
+34	sfoDF	vanNH	7			19		vanNH
+34	sfoDF	vanNH	8			21		vanNH
+34	sfoDF	vanNH	9			98	A	vanNH
+34	sfoDF	vanNH	10			10	LG	vanNH
+35	vanNH	sfoDF	1	33	P			sfoDF
+35	vanNH	sfoDF	2			13		sfoDF
+35	vanNH	sfoDF	3			88		sfoDF
+35	vanNH	sfoDF	4			13		sfoDF
+35	vanNH	sfoDF	5			11		sfoDF
+35	vanNH	sfoDF	6			8		sfoDF
+35	vanNH	sfoDF	7	11	D			sfoDF
+35	vanNH	sfoDF	8	11	PU			sfoDF
+35	vanNH	sfoDF	9			21	F	sfoDF
+35	vanNH	sfoDF	10	11	VST			sfoDF
+35	vanNH	sfoDF	11			34	PU	sfoDF
+35	vanNH	sfoDF	12			8		sfoDF
+35	vanNH	sfoDF	13			88		sfoDF
+35	vanNH	sfoDF	14			21	A	sfoDF
+35	vanNH	sfoDF	15			34	G	sfoDF
+36	sfoDF	vanNH	1	46	OBP			vanNH
+36	sfoDF	vanNH	2			89	PU	vanNH
+36	sfoDF	vanNH	3			19		vanNH
+36	sfoDF	vanNH	4			22		vanNH
+36	sfoDF	vanNH	5			98	A	vanNH
+36	sfoDF	vanNH	6			72	LG	vanNH
+37	vanNH	sfoDF	1	8	P			sfoDF
+37	vanNH	sfoDF	2			57	PU	sfoDF
+37	vanNH	sfoDF	3			83		sfoDF
+37	vanNH	sfoDF	4			34	L	sfoDF
+37	vanNH	sfoDF	5			88		sfoDF
+37	vanNH	sfoDF	6			8		sfoDF
+37	vanNH	sfoDF	7			34		sfoDF
+37	vanNH	sfoDF	8			8		sfoDF
+37	vanNH	sfoDF	9			34	A	sfoDF
+37	vanNH	sfoDF	10			88	G	sfoDF
+38	sfoDF	vanNH	1	34	P			vanNH
+38	sfoDF	vanNH	2			19	PU	vanNH
+38	sfoDF	vanNH	3			89		vanNH
+38	sfoDF	vanNH	4			21		vanNH
+38	sfoDF	vanNH	5			91		vanNH
+38	sfoDF	vanNH	6			19		vanNH
+38	sfoDF	vanNH	7			91		vanNH
+38	sfoDF	vanNH	8			89	A	vanNH
+38	sfoDF	vanNH	9			10	LG	vanNH
+39	vanNH	sfoDF	1	33	P			vanNH
+39	vanNH	sfoDF	2			11		vanNH
+39	vanNH	sfoDF	3	14	D			vanNH
+39	vanNH	sfoDF	4	6	PU			vanNH
+39	vanNH	sfoDF	5	11	A			vanNH
+39	vanNH	sfoDF	6	14	G			vanNH
+40	vanNH	sfoDF	1	8	P			sfoDF
+40	vanNH	sfoDF	2			13	PU	sfoDF
+40	vanNH	sfoDF	3			88		sfoDF
+40	vanNH	sfoDF	4			8		sfoDF
+40	vanNH	sfoDF	5			88		sfoDF
+40	vanNH	sfoDF	6			13		sfoDF
+40	vanNH	sfoDF	7			83		sfoDF
+40	vanNH	sfoDF	8			3	L	sfoDF
+40	vanNH	sfoDF	9			3	TO	sfoDF
+40	vanNH	sfoDF	10			8	PUA	sfoDF
+40	vanNH	sfoDF	11			88	G	sfoDF
+41	sfoDF	vanNH	1	46	P			vanNH
+41	sfoDF	vanNH	2			19		vanNH
+41	sfoDF	vanNH	3			5		vanNH
+41	sfoDF	vanNH	4			21	A	vanNH
+41	sfoDF	vanNH	5			98	LG	vanNH
+42	vanNH	sfoDF	1	33	P			vanNH
+42	vanNH	sfoDF	2			57		vanNH
+42	vanNH	sfoDF	3			83		vanNH
+42	vanNH	sfoDF	4			3		vanNH
+42	vanNH	sfoDF	5			8		vanNH
+42	vanNH	sfoDF	6			88	TD	vanNH
+42	vanNH	sfoDF	7	33	PU			vanNH
+42	vanNH	sfoDF	8	4				vanNH
+42	vanNH	sfoDF	9	11				vanNH
+42	vanNH	sfoDF	10	8				vanNH
+42	vanNH	sfoDF	11	33				vanNH
+42	vanNH	sfoDF	12	37				vanNH
+42	vanNH	sfoDF	13	14				vanNH
+42	vanNH	sfoDF	14	37				vanNH
+42	vanNH	sfoDF	15	18				vanNH
+42	vanNH	sfoDF	16	8				vanNH
+42	vanNH	sfoDF	17	37				vanNH
+42	vanNH	sfoDF	18	14				vanNH
+42	vanNH	sfoDF	19	4				vanNH
+42	vanNH	sfoDF	20	14				vanNH
+42	vanNH	sfoDF	21	8				vanNH
+42	vanNH	sfoDF	22	37	A			vanNH
+42	vanNH	sfoDF	23	18	G			vanNH
+43	vanNH	sfoDF	1	6	P			vanNH
+43	vanNH	sfoDF	2			1		vanNH
+43	vanNH	sfoDF	3			17		vanNH
+43	vanNH	sfoDF	4			1		vanNH
+43	vanNH	sfoDF	5			85		vanNH
+43	vanNH	sfoDF	6	39	D			vanNH
+43	vanNH	sfoDF	7	39	PU			vanNH
+43	vanNH	sfoDF	8	45				vanNH
+43	vanNH	sfoDF	9	6				vanNH
+43	vanNH	sfoDF	10	31	L			vanNH
+43	vanNH	sfoDF	11	45	TD			vanNH
+43	vanNH	sfoDF	12			17	PU	vanNH
+43	vanNH	sfoDF	13			1		vanNH
+43	vanNH	sfoDF	14			46	TD	vanNH
+43	vanNH	sfoDF	15	75	PUA			vanNH
+43	vanNH	sfoDF	16	27	G			vanNH
+44	vanNH	sfoDF	1	33	P			sfoDF
+44	vanNH	sfoDF	2			83		sfoDF
+44	vanNH	sfoDF	3			57		sfoDF
+44	vanNH	sfoDF	4			83		sfoDF
+44	vanNH	sfoDF	5			21		sfoDF
+44	vanNH	sfoDF	6			24		sfoDF
+44	vanNH	sfoDF	7			83		sfoDF
+44	vanNH	sfoDF	8			11		sfoDF
+44	vanNH	sfoDF	9			57		sfoDF
+44	vanNH	sfoDF	10			83	A	sfoDF
+44	vanNH	sfoDF	11			21	G	sfoDF
+45	sfoDF	vanNH	1	46	P			NA
+45	sfoDF	vanNH	2			19	PU	NA
+45	sfoDF	vanNH	3			89		NA
+45	sfoDF	vanNH	4			19		NA
+45	sfoDF	vanNH	5	25	PU			NA
+45	sfoDF	vanNH	6	1				NA
+45	sfoDF	vanNH	7	25				NA
+45	sfoDF	vanNH	8	85				NA
+45	sfoDF	vanNH	9	17				NA
+45	sfoDF	vanNH	10	25				NA
+45	sfoDF	vanNH	11	2				NA
+45	sfoDF	vanNH	12	25				NA
+45	sfoDF	vanNH	13			98	PU	NA
+45	sfoDF	vanNH	14			89		NA
+45	sfoDF	vanNH	15			19		NA

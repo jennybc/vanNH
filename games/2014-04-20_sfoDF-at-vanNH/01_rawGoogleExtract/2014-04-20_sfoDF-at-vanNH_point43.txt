@@ -17,7 +17,5 @@ Offense	Defense
 17PU	
 1	
 46TD	
-?F	
-	75F
 	75PU
 	27G

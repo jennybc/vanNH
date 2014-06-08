@@ -17,8 +17,7 @@ Offense	Defense
 34	
 83	
 88	
-83	
-	4F
+83	4F
 34PU	
 34VST	
 	45PU

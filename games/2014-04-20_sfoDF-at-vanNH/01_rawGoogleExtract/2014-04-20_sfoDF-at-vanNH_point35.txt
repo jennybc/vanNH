@@ -10,8 +10,7 @@ Offense	Defense
 11	
 8	
 	11D
-	11PU
-21F	
+21F	11PU
 	11VST
 34PU	
 8	

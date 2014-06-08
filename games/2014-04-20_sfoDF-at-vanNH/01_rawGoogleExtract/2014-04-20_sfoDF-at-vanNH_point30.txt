@@ -5,19 +5,18 @@ Clock after point: 0:14:00
 Offense	Defense
 	1P
 19PU	
-5TA	
-	2
-	?
+5	
+	2pu
+	85
 	1
 	11
 	18
 	1
 	18
 	2
-	25
-91F	
-	17TA
+91F	25
+	17
 5PU	
 	18D
-	18
+	18pu
 	37G

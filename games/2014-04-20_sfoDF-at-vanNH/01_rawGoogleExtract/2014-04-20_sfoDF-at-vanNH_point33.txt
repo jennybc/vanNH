@@ -11,7 +11,7 @@ Offense	Defense
 	39SO
 	22SI
 	81PU
-	81TA
-?PU	
+	8td
+3pu	
 34	
 83G	

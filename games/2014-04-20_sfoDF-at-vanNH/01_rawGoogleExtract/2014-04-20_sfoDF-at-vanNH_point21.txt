@@ -12,7 +12,7 @@ Offense	Defense
 88	
 8	
 13	
-21TA	
+21	
 	45PU
 	45VTT
 34PU	

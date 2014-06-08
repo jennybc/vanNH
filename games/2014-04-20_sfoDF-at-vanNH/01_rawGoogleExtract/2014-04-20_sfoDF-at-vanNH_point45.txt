@@ -6,7 +6,7 @@ Offense	Defense
 	46P
 19PU	
 89	
-19TA	
+19	
 	25PU
 	1
 	25
@@ -14,7 +14,7 @@ Offense	Defense
 	17
 	25
 	2
-	25TA
+	25
 98PU	
 89	
 19	

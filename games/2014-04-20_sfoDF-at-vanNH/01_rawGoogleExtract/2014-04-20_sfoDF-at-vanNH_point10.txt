@@ -7,8 +7,7 @@ Offense	Defense
 91PU	
 5	
 91	
-98TD	
-	?PU
-	?VTT
+	7pu
+	7vtt
 89PU	
 98G	

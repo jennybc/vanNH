@@ -6,15 +6,14 @@ Offense	Defense
 	33P
 11PU	
 17	
-21	
-	39F
-39	
+21	39F
+37	
 3	
 	18D
 	81PU
-	11TA
+	11
 17PU	
-?F	
+11f	
 	81PU
 	14
 	39

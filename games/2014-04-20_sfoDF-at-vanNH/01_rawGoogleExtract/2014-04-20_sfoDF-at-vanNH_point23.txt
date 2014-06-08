@@ -5,7 +5,6 @@ Clock after point: 4:26:00
 Offense	Defense
 	33P
 34	
-24L	
-	11F
+24L	11F
 8	
 57G	

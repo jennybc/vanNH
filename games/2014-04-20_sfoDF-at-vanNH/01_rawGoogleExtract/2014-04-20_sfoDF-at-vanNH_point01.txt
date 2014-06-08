@@ -10,11 +10,11 @@ Offense	Defense
 	27D
 	45PU
 	8
-34D	
+34hb	
 83PU	
-24D
-23TD
-	81PU
+24	
+23td	
+	81pu
 	27
 	24
 	81

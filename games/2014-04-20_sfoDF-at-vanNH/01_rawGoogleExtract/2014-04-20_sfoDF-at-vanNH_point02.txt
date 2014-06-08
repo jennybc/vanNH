@@ -5,6 +5,6 @@ Clock after point: 8:09:00
 Offense	Defense
 	33P
 5PU	
-80	
+8	
 34	
 3G	

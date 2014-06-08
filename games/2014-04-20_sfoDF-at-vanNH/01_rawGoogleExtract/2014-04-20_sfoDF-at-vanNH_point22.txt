@@ -11,14 +11,12 @@ Offense	Defense
 	37
 	46VTT
 89PU	
-19	
-	18F
+19	18F
 10	
 22TD	
 	16PU
 	16VST
 89PU	
-22	
-	18F
+22	18F
 89	
 98G	
