@@ -21,7 +21,8 @@ jFun <- function(point) {
   point_string <- sprintf("%02d", point)
   point_file <- grep(paste0("point", point_string), google_files, value = TRUE)
   point_info <- yaml.load(paste(readLines(point_file, n = 4), collapse = "\n"))
-  point_data <- read.delim(point_file, skip = 4, stringsAsFactors = FALSE)
+  point_data <- read.delim(point_file, skip = 4, stringsAsFactors = FALSE,
+                           strip.white = TRUE)
   return(list(point_info = point_info, point_data = point_data))
 }
 
