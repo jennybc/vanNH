@@ -9,7 +9,7 @@ Offense	Defense
 14	
 17	
 1	
-	8pu
+	8D
 	4
 	8
 	24
