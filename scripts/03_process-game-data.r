@@ -7,8 +7,8 @@ library(yaml)
 options <- commandArgs(trailingOnly = TRUE)
 
 if(length(options) < 1) {
-  game <- "2014-04-12_vanNH-at-pdxST"
-  #game <- "2014-04-20_sfoDF-at-vanNH"
+  #game <- "2014-04-12_vanNH-at-pdxST"
+  game <- "2014-04-20_sfoDF-at-vanNH"
   #game <- "2014-05-10_seaRM-at-vanNH"
   #game <- "2014-05-24_pdxST-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
@@ -290,10 +290,17 @@ out_file <- file.path(out_dir, paste0(game, "_points-clean.tsv"))
 write.table(point_info, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
 message("wrote ", out_file)
 
-out_dir <- file.path("..", "games", game, "04_cleanedGame")
-if(!file.exists(out_dir)) dir.create(out_dir)
-
 score_yaml <-
   file.path("..", "games", game, paste0(game, "_at-last-point.yaml"))
-writeLines(as.yaml(point_info[nrow(point_info), ]), score_yaml)
+## workaround because as.yaml() segfaults if a factor contains an NA
+## of course, there are no NAs ... except when there are
+yaml_fodder <- as.list(point_info[nrow(point_info), ])
+yaml_fodder <- lapply(yaml_fodder, function(x) {
+  if(is.factor(x) & any(is.na(x))) {
+    return(as.character(x))
+  } else {
+    return(x)
+  }
+})
+writeLines(as.yaml(yaml_fodder), score_yaml)
 message("wrote ", score_yaml)
