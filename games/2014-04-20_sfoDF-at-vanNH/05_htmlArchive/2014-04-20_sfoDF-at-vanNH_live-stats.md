@@ -4,7 +4,7 @@
 
 
 
-#### last update Sat Jun  7 16:55:59 2014
+#### last update Tue Jun 10 15:56:00 2014
 # sfoDF 15
 # vanNH 26
 ## game is complete
@@ -18,9 +18,10 @@ Go to ...
 
 ## Scoring progression<a id="scoringProgression"></a>:
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sat Jun  7 16:55:59 2014 -->
+<!-- Tue Jun 10 15:56:00 2014 -->
 <TABLE border=1>
 <TR> <TH> point </TH> <TH> period </TH> <TH> begin </TH> <TH> end </TH> <TH> pt_duration </TH> <TH> desc </TH> <TH> sfoDF </TH> <TH> vanNH </TH>  </TR>
+  <TR> <TD align="right">  45 </TD> <TD> 4 </TD> <TD> 1:06:00 </TD> <TD> 0:00:00 </TD> <TD> 01:06 </TD> <TD> - no goal - </TD> <TD> 15 </TD> <TD> 26 </TD> </TR>
   <TR> <TD align="right">  44 </TD> <TD> 4 </TD> <TD> 1:39:00 </TD> <TD> 1:06:00 </TD> <TD> 00:33 </TD> <TD> sfoDF-83-Husak to sfoDF-21-Stearns </TD> <TD> 15 </TD> <TD> 26 </TD> </TR>
   <TR> <TD align="right">  43 </TD> <TD> 4 </TD> <TD> 2:41:00 </TD> <TD> 1:39:00 </TD> <TD> 01:02 </TD> <TD> vanNH-75-bellavance to vanNH-27-davis </TD> <TD> 14 </TD> <TD> 26 </TD> </TR>
   <TR> <TD align="right">  42 </TD> <TD> 4 </TD> <TD> 4:07:00 </TD> <TD> 2:41:00 </TD> <TD> 01:26 </TD> <TD> vanNH-37-sinclair to vanNH-18-menzies </TD> <TD> 14 </TD> <TD> 25 </TD> </TR>
@@ -34,6 +35,7 @@ Go to ...
   <TR> <TD align="right">  34 </TD> <TD> 4 </TD> <TD> 8:42:00 </TD> <TD> 8:08:00 </TD> <TD> 00:34 </TD> <TD> vanNH-98-wong to vanNH-10-chatha </TD> <TD> 11 </TD> <TD> 20 </TD> </TR>
   <TR> <TD align="right">  33 </TD> <TD> 4 </TD> <TD> 9:22:00 </TD> <TD> 8:42:00 </TD> <TD> 00:40 </TD> <TD> sfoDF-34-Boucher to sfoDF-83-Husak </TD> <TD> 11 </TD> <TD> 19 </TD> </TR>
   <TR> <TD align="right">  32 </TD> <TD> 4 </TD> <TD> 10:00:00 </TD> <TD> 9:22:00 </TD> <TD> 00:38 </TD> <TD> vanNH-21-loach to vanNH-98-wong </TD> <TD> 10 </TD> <TD> 19 </TD> </TR>
+  <TR> <TD align="right">  31 </TD> <TD> 3 </TD> <TD> 0:14:00 </TD> <TD> 0:00:00 </TD> <TD> 00:14 </TD> <TD> - no goal - </TD> <TD> 10 </TD> <TD> 18 </TD> </TR>
   <TR> <TD align="right">  30 </TD> <TD> 3 </TD> <TD> 1:15:00 </TD> <TD> 0:14:00 </TD> <TD> 01:01 </TD> <TD> sfoDF-18-Weaver to sfoDF-37-Hart </TD> <TD> 10 </TD> <TD> 18 </TD> </TR>
   <TR> <TD align="right">  29 </TD> <TD> 3 </TD> <TD> 1:47:00 </TD> <TD> 1:15:00 </TD> <TD> 00:32 </TD> <TD> sfoDF-13-Grant to sfoDF-34-Boucher </TD> <TD> 9 </TD> <TD> 18 </TD> </TR>
   <TR> <TD align="right">  28 </TD> <TD> 3 </TD> <TD> 2:22:00 </TD> <TD> 1:47:00 </TD> <TD> 00:35 </TD> <TD> vanNH-6-gailits to vanNH-45-cowan </TD> <TD> 8 </TD> <TD> 18 </TD> </TR>
@@ -74,7 +76,7 @@ Ds = total of plain ol' D's (D), hand blocks (HB), and foot blocks (FB)
 stats are cumulative for this game
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sat Jun  7 16:55:59 2014 -->
+<!-- Tue Jun 10 15:56:00 2014 -->
 <TABLE border=1>
 <TR> <TH> player </TH> <TH> points </TH> <TH> goals </TH> <TH> assists </TH> <TH> Ds </TH>  </TR>
   <TR> <TD> sfoDF-34-Boucher </TD> <TD align="right">   7 </TD> <TD align="right">   3 </TD> <TD align="right">   4 </TD> <TD align="right">   1 </TD> </TR>
@@ -100,7 +102,7 @@ Ds = total of plain ol' D's (D), hand blocks (HB), and foot blocks (FB)
 stats are cumulative for this game
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sat Jun  7 16:55:59 2014 -->
+<!-- Tue Jun 10 15:56:00 2014 -->
 <TABLE border=1>
 <TR> <TH> player </TH> <TH> points </TH> <TH> goals </TH> <TH> assists </TH> <TH> Ds </TH>  </TR>
   <TR> <TD> vanNH-98-wong </TD> <TD align="right">  10 </TD> <TD align="right">   7 </TD> <TD align="right">   3 </TD> <TD align="right">   0 </TD> </TR>
@@ -130,7 +132,7 @@ stats are cumulative for this game
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sat Jun  7 16:55:59 2014 -->
+<!-- Tue Jun 10 15:56:00 2014 -->
 <TABLE border=1>
 <TR> <TH> period </TH> <TH> point </TH> <TH> recvTeam </TH> <TH> pullTeam </TH> <TH> scorTeam </TH> <TH> code </TH> <TH> plTeam </TH> <TH> plNum </TH> <TH> sfoDF </TH> <TH> vanNH </TH> <TH> lname </TH> <TH> player </TH>  </TR>
   <TR> <TD align="right">   1 </TD> <TD align="right">   1 </TD> <TD> sfoDF </TD> <TD> vanNH </TD> <TD> vanNH </TD> <TD> D </TD> <TD> vanNH </TD> <TD> 27 </TD> <TD align="right">   0 </TD> <TD align="right">   0 </TD> <TD> davis </TD> <TD> vanNH-27-davis </TD> </TR>
@@ -202,6 +204,7 @@ stats are cumulative for this game
   <TR> <TD align="right">   3 </TD> <TD align="right">  30 </TD> <TD> vanNH </TD> <TD> sfoDF </TD> <TD> sfoDF </TD> <TD> D </TD> <TD> sfoDF </TD> <TD> 18 </TD> <TD align="right">   9 </TD> <TD align="right">  18 </TD> <TD> Weaver </TD> <TD> sfoDF-18-Weaver </TD> </TR>
   <TR> <TD align="right">   3 </TD> <TD align="right">  30 </TD> <TD> vanNH </TD> <TD> sfoDF </TD> <TD> sfoDF </TD> <TD> PUA </TD> <TD> sfoDF </TD> <TD> 18 </TD> <TD align="right">   9 </TD> <TD align="right">  18 </TD> <TD> Weaver </TD> <TD> sfoDF-18-Weaver </TD> </TR>
   <TR> <TD align="right">   3 </TD> <TD align="right">  30 </TD> <TD> vanNH </TD> <TD> sfoDF </TD> <TD> sfoDF </TD> <TD> G </TD> <TD> sfoDF </TD> <TD> 37 </TD> <TD align="right">  10 </TD> <TD align="right">  18 </TD> <TD> Hart </TD> <TD> sfoDF-37-Hart </TD> </TR>
+  <TR> <TD align="right">   3 </TD> <TD align="right">  31 </TD> <TD> vanNH </TD> <TD> sfoDF </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD align="right">  10 </TD> <TD align="right">  18 </TD> <TD>  </TD> <TD> NA-NA-NA </TD> </TR>
   <TR> <TD align="right">   4 </TD> <TD align="right">  32 </TD> <TD> vanNH </TD> <TD> sfoDF </TD> <TD> vanNH </TD> <TD> A </TD> <TD> vanNH </TD> <TD> 21 </TD> <TD align="right">  10 </TD> <TD align="right">  18 </TD> <TD> loach </TD> <TD> vanNH-21-loach </TD> </TR>
   <TR> <TD align="right">   4 </TD> <TD align="right">  32 </TD> <TD> vanNH </TD> <TD> sfoDF </TD> <TD> vanNH </TD> <TD> G </TD> <TD> vanNH </TD> <TD> 98 </TD> <TD align="right">  10 </TD> <TD align="right">  19 </TD> <TD> wong </TD> <TD> vanNH-98-wong </TD> </TR>
   <TR> <TD align="right">   4 </TD> <TD align="right">  33 </TD> <TD> sfoDF </TD> <TD> vanNH </TD> <TD> sfoDF </TD> <TD> D </TD> <TD> vanNH </TD> <TD> 39 </TD> <TD align="right">  10 </TD> <TD align="right">  19 </TD> <TD> seraglia </TD> <TD> vanNH-39-seraglia </TD> </TR>
@@ -232,6 +235,7 @@ stats are cumulative for this game
   <TR> <TD align="right">   4 </TD> <TD align="right">  43 </TD> <TD> sfoDF </TD> <TD> vanNH </TD> <TD> vanNH </TD> <TD> G </TD> <TD> vanNH </TD> <TD> 27 </TD> <TD align="right">  14 </TD> <TD align="right">  26 </TD> <TD> davis </TD> <TD> vanNH-27-davis </TD> </TR>
   <TR> <TD align="right">   4 </TD> <TD align="right">  44 </TD> <TD> sfoDF </TD> <TD> vanNH </TD> <TD> sfoDF </TD> <TD> A </TD> <TD> sfoDF </TD> <TD> 83 </TD> <TD align="right">  14 </TD> <TD align="right">  26 </TD> <TD> Husak </TD> <TD> sfoDF-83-Husak </TD> </TR>
   <TR> <TD align="right">   4 </TD> <TD align="right">  44 </TD> <TD> sfoDF </TD> <TD> vanNH </TD> <TD> sfoDF </TD> <TD> G </TD> <TD> sfoDF </TD> <TD> 21 </TD> <TD align="right">  15 </TD> <TD align="right">  26 </TD> <TD> Stearns </TD> <TD> sfoDF-21-Stearns </TD> </TR>
+  <TR> <TD align="right">   4 </TD> <TD align="right">  45 </TD> <TD> vanNH </TD> <TD> sfoDF </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD>  </TD> <TD align="right">  15 </TD> <TD align="right">  26 </TD> <TD>  </TD> <TD> NA-NA-NA </TD> </TR>
    </TABLE>
 
 ## Full raw data<a id="rawData"></a>:
@@ -239,7 +243,7 @@ stats are cumulative for this game
 __Note: just for display purposes.__ Raw data in more useful forms can be found in the [GitHub repository](https://github.com/jennybc/vanNH). Find the game you're interested in in the `games` subdirectory.
 
 <!-- html table generated in R 3.1.0 by xtable 1.7-3 package -->
-<!-- Sat Jun  7 16:55:59 2014 -->
+<!-- Tue Jun 10 15:56:00 2014 -->
 <TABLE border=1>
 <TR> <TH> point </TH> <TH> pullTeam </TH> <TH> recvTeam </TH> <TH> event </TH> <TH> pullNum </TH> <TH> pullCode </TH> <TH> recvNum </TH> <TH> recvCode </TH> <TH> scorTeam </TH> <TH> period </TH> <TH> code </TH>  </TR>
   <TR> <TD align="right">   1 </TD> <TD> vanNH </TD> <TD> sfoDF </TD> <TD align="right">   1 </TD> <TD> 8 </TD> <TD> P </TD> <TD>  </TD> <TD>  </TD> <TD> vanNH </TD> <TD align="right">   1 </TD> <TD> P </TD> </TR>

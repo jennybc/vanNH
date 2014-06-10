@@ -1,0 +1,9 @@
+point: 45
+Period: 4
+Clock.before.point: '1:06:00'
+Clock.after.point: '0:00:00'
+pullTeam: sfoDF
+scorTeam: .na.character
+sfoDF: 15
+vanNH: 26
+
