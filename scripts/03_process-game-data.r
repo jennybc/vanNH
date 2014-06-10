@@ -293,7 +293,7 @@ message("wrote ", out_file)
 score_yaml <-
   file.path("..", "games", game, paste0(game, "_at-last-point.yaml"))
 ## workaround because as.yaml() segfaults if a factor contains an NA
-## of course, there are no NAs ... except when there are
+## scorTeam is a factor and will be NA for any point that ends due to time
 yaml_fodder <- as.list(point_info[nrow(point_info), ])
 yaml_fodder <- lapply(yaml_fodder, function(x) {
   if(is.factor(x) & any(is.na(x))) {

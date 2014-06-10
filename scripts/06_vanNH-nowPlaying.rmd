@@ -8,10 +8,10 @@ library(yaml)
 # for interactive use and development, set the game here
 if(!exists("game")) {
   #game <- "2014-04-12_vanNH-at-pdxST"
-  #game <- "2014-04-20_sfoDF-at-vanNH"
+  game <- "2014-04-20_sfoDF-at-vanNH"
   #game <- "2014-05-10_seaRM-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
-  game <- "2014-06-07_seaRM-at-vanNH"
+  #game <- "2014-06-07_seaRM-at-vanNH"
   }
 
 ## parse the game identifier
@@ -66,18 +66,9 @@ sDat <- transform(sDat, pullTeam = jFun(pullTeam), recvTeam = jFun(recvTeam),
 point_info <- transform(point_info, pullTeam = jFun(pullTeam),
                         scorTeam = jFun(scorTeam))
 
-## player numbers should be character
-## why? so we can use '?' for anonymous. and because seaRM-00-rupp.
-## make sure player number is character and replace NAs with ''
-jFun <- function(x) {
-  x <- as.character(x)
-  x[is.na(x)] <- ""
-  return(x)
-  }
-sDat <- transform(sDat, recvNum = jFun(recvNum), pullNum = jFun(pullNum))
-
 ## determine 'master' code for an event
-## assumes only one of pullCode and recvCode is populated, which is dangerous FIX
+## assumes only one of pullCode and recvCode is populated
+## TO DO: make sure my cleaning script guarantees this!
 # tmp <- with(sDat, data.frame(oCode, dCode))
 # tmp[apply(tmp, 1, function(x) sum(x != '') > 1), ]
 sDat$code <- with(sDat, ifelse(recvCode != '', recvCode, pullCode))
@@ -94,25 +85,31 @@ sDat <- subset(sDat, code %in% keeper_codes)
 
 ## get back at least a dummy row for every point; necessary if a point has no
 ## game play with a keeper code
-## function to get the "other" team
 sDat <- join(point_info[c('point', 'pullTeam')], sDat)
+## NAs in recvTeam and period can and will be eliminated
+sDat$period[is.na(sDat$period)] <- sDat$period[which(is.na(sDat$period)) - 1]
+## function to get the "other" team
 get_opponent <- function(x) {
   jLevels <- levels(x)
   x <- ifelse(unclass(x) == 1, 2, 1)
   return(factor(jLevels[x], levels = jLevels))
 }
-## NAs in recvTeam and period can and will be eliminated
 sDat$recvTeam <- get_opponent(sDat$pullTeam)
-sDat$period[is.na(sDat$period)] <- sDat$period[which(is.na(sDat$period)) - 1]
+
+## replace NAs in various character variables with ''
+jFun <- function(x) { x[is.na(x)] <- ''; return(x) }
+fix_vars <- c('pullNum', 'pullCode', 'recvNum', 'recvCode', 'code')
+sDat[fix_vars] <- colwise(jFun)(sDat[fix_vars])
 
 ## attribute the Ds, goals and assists to a team
-## at some point I need to look into / take control of jTeams vis-a-vis levels
-## of any teams factors
+## but remember some events could be null placeholders for non-scoring points
 tmp <- with(sDat, ifelse(recvCode == '', pullTeam, recvTeam))
+tmp[is.na(sDat$event)] <- NA
 sDat$plTeam <- jTeams[tmp]
 
 ## identify the specific player associated with event
 sDat$plNum <- with(sDat, ifelse(recvCode == '', pullNum, recvNum))
+sDat$plNum[is.na(sDat$event)] <- NA
 
 ## deduce the score
 sDat$goal <- grepl('G', sDat$code)
@@ -138,9 +135,8 @@ sDat$lname <-
 ## deal with cases where we have no last name
 ## happens when we use a number that's not on the roster or when we don't
 ## capture the number and enter ? instead
-tmp <- is.na(sDat$lname)
+tmp <- is.na(sDat$lname) & !is.na(sDat$plTeam)
 #sDat[tmp, ]
-#sDat$lname[tmp] <- paste0(sDat$plTeam[tmp], "-?")
 sDat$lname[tmp] <- "?name?"
 
 sDat$player <- with(sDat, factor(paste(plTeam, plNum, lname, sep = "-")))
