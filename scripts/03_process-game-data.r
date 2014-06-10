@@ -50,8 +50,27 @@ jFun <- function(x) {x[is.na(x)] <- ""; return(x)}
 game_play <-
   transform(game_play, recvRaw = jFun(recvRaw), pullRaw = jFun(pullRaw))
 
+## eliminate game play rows for which recvRaw == pullRaw == ''
+nBefore <- nrow(game_play)
+jFun <- function(z) {
+  n <- nrow(z)
+  offset_index <- c(2:n, n) # get entry from row below; last element: get self
+  z <- mutate(z, both = paste0(recvRaw, pullRaw),
+              bothOffset = both[offset_index],
+              is_empty = both == bothOffset & both == '')
+  return(subset(z, !is_empty, select = c(point, recvRaw, pullRaw))  )
+}
+game_play <- ddply(game_play, ~ point, jFun)
+nAfter <- nrow(game_play)
+nDiff <- nBefore - nAfter
+if(nDiff != 0) {
+  message(nDiff, " out of ", nBefore,
+          " rows eliminated; game play cells were empty")
+}
+
 ## remove leading single quote from recvRaw and pullRaw, if present
 ## I have seen this happen for seaRM player 00
+## seems to arise from the "extract data from Google spreadsheet" step
 jFun <- function(x) gsub("'","", x)
 game_play[c('pullRaw', 'recvRaw')] <-
   colwise(jFun)(game_play[c('pullRaw', 'recvRaw')])
@@ -98,6 +117,12 @@ if(any(no_explicit_pull)) {
   message(paste("ALERT: point(s) with NO explicit pull code (P, OBP)"))
   print(game_play[no_explicit_pull, ])
 }
+
+## TO DO?
+## detect points with no explicit goal
+# goal_regexp <- "L*G"
+# row_of_last_event <- daply(game_play, ~ point, function(x) x$event[nrow(x)])
+# ddply(game_play, ~ point, function(x) x[nrow(x), ])
 
 ## tidy up
 keeper_vars <- c("point", "event",
