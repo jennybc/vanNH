@@ -1,0 +1,98 @@
+---
+title: "In-house statistics for the Vancouver Nighthawks of Major League Ultimate"
+author: "Jenny Bryan"
+date: "10 June, 2014"
+output:
+  html_document:
+    theme: readable
+---
+
+Look under the hood: <https://github.com/jennybc/vanNH>
+
+Now playing: <http://www.stat.ubc.ca/~jenny/notOcto/vanNH/vanNH_nowPlaying.html>
+
+```{r include = FALSE, message = FALSE}
+library(yaml)
+library(plyr)
+library(magrittr)
+library(knitr)
+library(xtable)
+
+## I think I prefer an explicit whitelist approach here
+# game_dir <- file.path("..", "games")
+# list.files(game_dir)
+
+## games for which I have data
+tmp <- c("week game",
+         "01   2014-04-12_vanNH-at-pdxST",
+         "02   2014-04-20_sfoDF-at-vanNH",
+         #"03   2014-04-26_vanNH-at-seaRM",
+         # 04 was a bye week for vanNH
+         "05   2014-05-10_seaRM-at-vanNH",
+         #"06   2014-05-17_vanNH-at-sfoDF",
+         "07   2014-05-24_pdxST-at-vanNH",
+         "08   2014-05-31_vanNH-at-seaRM",
+         "09   2014-06-07_seaRM-at-vanNH")
+tmp <- read.table(text = tmp, header = TRUE,
+                  colClasses = list(week = "character", game = "character"))
+
+game_dirs <- file.path("..", "games", tmp$game)
+yaml_files <-
+  list.files(game_dirs, pattern = "at-last-point.yaml$", full.names = TRUE)
+names(yaml_files) <- basename(dirname(yaml_files))
+game_data <- ldply(yaml_files, function(x) {
+  x %>% yaml.load_file %>% data.frame(stringsAsFactors = FALSE)}, .id = "game")
+game_data <-
+  subset(game_data,
+         select = -c(point, Period, Clock.before.point, Clock.after.point,
+                     pullTeam, scorTeam))
+
+## learn the date, home team, away team from the game ID
+x <- levels(game_data$game)
+m <- regexec("([-0-9]+)_([a-zA-Z]+)-at-([a-zA-Z]+)", x)
+parsed_game_id <- ldply(regmatches(x, m), `[`, c(1L, 2L, 3L, 4L))
+colnames(parsed_game_id) <- c("game", "date","awayTeam","homeTeam")
+game_data <- join(game_data, parsed_game_id)
+game_data <- join(game_data, tmp)
+
+## add many more derived variables
+game_data <-
+  mutate(game_data,
+         status = ifelse(homeTeam == "vanNH", "home", "away"))
+all_teams <- with(game_data, sort(unique(c(awayTeam, homeTeam))))
+opponents <- all_teams[all_teams != "vanNH"]
+game_data$opponent <- 
+  aaply(game_data[opponents], 1,
+        function(x) opponents[!is.na(x)], .expand = FALSE)
+game_data$oppScore <- 
+  aaply(game_data[opponents], 1, function(x) x[!is.na(x)], .expand = FALSE)
+game_data<- transform(game_data,
+                      outcome = ifelse(vanNH > oppScore, "W", "L"),
+                      pt_diff = vanNH - oppScore,
+                      final = paste0("vanNH: ", vanNH, "  ",
+                                     opponent, ": ", oppScore),
+                      us = paste0("vanNH: ", vanNH),
+                      them = paste0(opponent, ": ", oppScore),
+                      link = paste0('<a href=http://www.stat.ubc.ca/~jenny/',
+                                   'notOcto/vanNH/', game_data$game,
+                                   '_live-stats.html>', date, '</a>'))
+  
+pretty_vars <- c("week", "link", "status", "us", "them", "outcome",
+                 "pt_diff")
+pretty_stuff <- game_data[pretty_vars]
+pretty_stuff <- rename(pretty_stuff, c("link" = "date"))
+```
+
+Click on a date to see stats for a game.
+
+```{r echo = FALSE, results = 'asis'}
+kable(pretty_stuff)
+```
+
+Note: week 04 was a bye week for vanNH. Games from weeks 03 (2014-04-26_vanNH-at-seaRM) and 06 (2014-05-17_vanNH-at-sfoDF) are coming soon.
+
+```{r results = 'asis', echo = FALSE, eval = FALSE}
+print(xtable(pretty_stuff, type = "html", sanitize.text.function = force),
+      type = "html", comment = FALSE)
+```
+
