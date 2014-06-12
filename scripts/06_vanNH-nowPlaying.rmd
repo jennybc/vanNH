@@ -244,7 +244,7 @@ Go to ...
 
 ## Scoring progression<a id="scoringProgression"></a>:
 ```{r echo = FALSE, results = 'asis'}
-kable(gDat)
+kable(gDat, row.names = FALSE)
 ```
 ```{r results='asis', echo=FALSE, eval = FALSE}
 foo <- xtable(gDat)
@@ -260,7 +260,7 @@ stats are cumulative for this game
 
 ```{r results='asis', echo=FALSE}
 if(!is.null(teamDat[[away_team]])) {
-  kable(teamDat[[away_team]])
+  kable(teamDat[[away_team]], row.names = TRUE)
 #   foo <- xtable(teamDat[[away_team]])
 #   print(foo, type='html', include.rownames = FALSE)
   }
@@ -275,7 +275,7 @@ stats are cumulative for this game
 
 ```{r results='asis', echo=FALSE}
 if(!is.null(teamDat[[home_team]])) {
-  kable(teamDat[[home_team]])
+  kable(teamDat[[home_team]], row.names = TRUE)
 #   foo <- xtable(teamDat[[home_team]])
 #   print(foo, type='html', include.rownames = FALSE)
   }
@@ -283,7 +283,7 @@ if(!is.null(teamDat[[home_team]])) {
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 ```{r results='asis', echo=FALSE}
-kable(sDat)
+kable(sDat, row.names = FALSE)
 # foo <- xtable(sDat)
 # print(foo, type='html', include.rownames = FALSE)
 ```
@@ -293,7 +293,7 @@ kable(sDat)
 __Note: just for display purposes.__ Raw data in more useful forms can be found in the [GitHub repository](https://github.com/jennybc/vanNH). Find the game you're interested in in the `games` subdirectory.
 
 ```{r results='asis', echo=FALSE}
-kable(sDat_safe)
+kable(sDat_safe, row.names = FALSE)
 # foo <- xtable(sDat_safe)
 # print(foo, type='html', include.rownames = FALSE)
 ```

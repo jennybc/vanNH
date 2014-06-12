@@ -29,7 +29,7 @@ local_knit_file <- '06_vanNH-nowPlaying.knit.md'
 local_utf8_file <- '06_vanNH-nowPlaying.utf8.md'
 
 render('06_vanNH-nowPlaying.rmd', output_file = local_html_file,
-       clean = FALSE)
+       clean = FALSE, quiet = TRUE)
 
 game_html_dir <- file.path("..", "games", game, "05_htmlArchive")
 if(!file.exists(game_html_dir)) dir.create(out_dir)

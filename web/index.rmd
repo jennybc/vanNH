@@ -73,8 +73,10 @@ game_data<- transform(game_data,
                                      opponent, ": ", oppScore),
                       us = paste0("vanNH: ", vanNH),
                       them = paste0(opponent, ": ", oppScore),
-                      link = paste0('<a href=http://www.stat.ubc.ca/~jenny/',
-                                   'notOcto/vanNH/', game_data$game,
+#                       link = paste0('<a href=http://www.stat.ubc.ca/~jenny/',
+#                                    'notOcto/vanNH/', game_data$game,
+#                                    '_live-stats.html>', date, '</a>'))
+                      link = paste0('<a href=', game_data$game,
                                    '_live-stats.html>', date, '</a>'))
   
 pretty_vars <- c("week", "link", "status", "us", "them", "outcome",
