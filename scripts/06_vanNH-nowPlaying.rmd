@@ -1,7 +1,16 @@
+---
+output:
+  html_document:
+    theme: readable
+    includes:
+      before_body: 06_before-body-back-to-index-href.txt
+---
+
 ```{r, echo = FALSE, message = FALSE}
 library(xtable)
 library(plyr)
 library(yaml)
+library(knitr)
 
 # when compiled via the control script, game identifier will have been
 # read from command line and pre-stored in the environment
@@ -226,15 +235,18 @@ gDat <- gDat[rev(seq_len(nrow(gDat))), ]
 # `r home_team` `r sDat[[home_team]][nrow(sDat)]`
 ## `r whereInGame`
 
-Go to ...
-  * [Scoring progression](#scoringProgression)
-  * [Player stats for `r away_team`](#away)
-  * [Player stats for `r home_team`](#home)
-  * [Data on goals, assists, D's](#selectData)
-  * [Full raw data](#rawData)
+Go to ...  
+  * [Scoring progression](#scoringProgression)  
+  * [Player stats for `r away_team`](#away)  
+  * [Player stats for `r home_team`](#home)  
+  * [Data on goals, assists, D's](#selectData)  
+  * [Full raw data](#rawData)  
 
 ## Scoring progression<a id="scoringProgression"></a>:
-```{r results='asis', echo=FALSE}
+```{r echo = FALSE, results = 'asis'}
+kable(gDat)
+```
+```{r results='asis', echo=FALSE, eval = FALSE}
 foo <- xtable(gDat)
 print(foo, type='html', include.rownames = FALSE)
 ```
@@ -248,8 +260,9 @@ stats are cumulative for this game
 
 ```{r results='asis', echo=FALSE}
 if(!is.null(teamDat[[away_team]])) {
-  foo <- xtable(teamDat[[away_team]])
-  print(foo, type='html', include.rownames = FALSE)
+  kable(teamDat[[away_team]])
+#   foo <- xtable(teamDat[[away_team]])
+#   print(foo, type='html', include.rownames = FALSE)
   }
 ```
 
@@ -262,15 +275,17 @@ stats are cumulative for this game
 
 ```{r results='asis', echo=FALSE}
 if(!is.null(teamDat[[home_team]])) {
-  foo <- xtable(teamDat[[home_team]])
-  print(foo, type='html', include.rownames = FALSE)
+  kable(teamDat[[home_team]])
+#   foo <- xtable(teamDat[[home_team]])
+#   print(foo, type='html', include.rownames = FALSE)
   }
 ```
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 ```{r results='asis', echo=FALSE}
-foo <- xtable(sDat)
-print(foo, type='html', include.rownames = FALSE)
+kable(sDat)
+# foo <- xtable(sDat)
+# print(foo, type='html', include.rownames = FALSE)
 ```
 
 ## Full raw data<a id="rawData"></a>:
@@ -278,8 +293,9 @@ print(foo, type='html', include.rownames = FALSE)
 __Note: just for display purposes.__ Raw data in more useful forms can be found in the [GitHub repository](https://github.com/jennybc/vanNH). Find the game you're interested in in the `games` subdirectory.
 
 ```{r results='asis', echo=FALSE}
-foo <- xtable(sDat_safe)
-print(foo, type='html', include.rownames = FALSE)
+kable(sDat_safe)
+# foo <- xtable(sDat_safe)
+# print(foo, type='html', include.rownames = FALSE)
 ```
 
 

@@ -9,31 +9,35 @@
 #   Rscript -e "library(knitr); knit2html('vanNH-nowPlaying.rmd')"
 ## but purpose #1 is not easy to address that way; hence this script
 
-library(knitr)
-library(markdown)
+library(rmarkdown)
 
 options <- commandArgs(trailingOnly = TRUE)
 
 if(length(options) < 1) {
-  stop("you must supply the game identifier via the command line")
+  #game <- "2014-04-12_vanNH-at-pdxST"
+  #game <- "2014-04-20_sfoDF-at-vanNH"
+  #game <- "2014-05-10_seaRM-at-vanNH"
+  #game <- "2014-05-24_pdxST-at-vanNH"
+  game <- "2014-05-31_vanNH-at-seaRM"
+  #game <- "2014-06-07_seaRM-at-vanNH"
 } else {
   game <- options[1]
 }
 
-pathToCSS <- "resources/css/jasonm23-markdown-css-themes"
-pathToCSS <- file.path(path.expand("~/"), pathToCSS, "markdown7.css")
-options(markdown.HTML.stylesheet = pathToCSS)
-rm(pathToCSS)
+local_html_file <- paste0(game, "_live-stats.html")
+local_knit_file <- '06_vanNH-nowPlaying.knit.md'
+local_utf8_file <- '06_vanNH-nowPlaying.utf8.md'
 
-out_dir <- file.path("..", "games", game, "05_htmlArchive")
-if(!file.exists(out_dir)) dir.create(out_dir)
-md_file <- file.path(out_dir, paste0(game, "_live-stats.md"))
-html_file <- file.path(out_dir, paste0(game, "_live-stats.html"))
-md_file <- knit('06_vanNH-nowPlaying.rmd', output = md_file, quiet = TRUE)
-message("wrote ", md_file)
-markdownToHTML(md_file, output = html_file,
-               header = '<a href="index.html">Back to index</a>',
-               stylesheet = file.path(path.expand("~/"),
-                                      "resources/css/jasonm23-markdown-css-themes",
-                                      "markdown7.css"))
-message("wrote ", html_file)
+render('06_vanNH-nowPlaying.rmd', output_file = local_html_file,
+       clean = FALSE)
+
+game_html_dir <- file.path("..", "games", game, "05_htmlArchive")
+if(!file.exists(game_html_dir)) dir.create(out_dir)
+game_md_file <- file.path(game_html_dir, paste0(game, "_live-stats.md"))
+game_html_file <- file.path(game_html_dir, paste0(game, "_live-stats.html"))
+
+file.rename(local_utf8_file, game_md_file)
+message("wrote ", game_md_file)
+file.rename(local_html_file, game_html_file)
+message("wrote ", game_html_file)
+file.remove(local_knit_file)
