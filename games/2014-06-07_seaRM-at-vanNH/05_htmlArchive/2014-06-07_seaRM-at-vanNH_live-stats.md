@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Thu Jun 12 15:42:56 2014
+#### last update Thu Jun 12 22:25:48 2014
 # seaRM 12
 # vanNH 27
 ## game is complete
@@ -252,7 +252,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |     1|seaRM    |vanNH    |    21|77      |         |        |         |seaRM    |      1|     |
 |     1|seaRM    |vanNH    |    22|15      |A        |        |         |seaRM    |      1|A    |
 |     1|seaRM    |vanNH    |    23|18      |G        |        |         |seaRM    |      1|G    |
-|     2|seaRM    |vanNH    |     1|        |P        |        |         |vanNH    |      1|P    |
+|     2|seaRM    |vanNH    |     1|?       |P        |        |         |vanNH    |      1|P    |
 |     2|seaRM    |vanNH    |     2|        |         |91      |PU       |vanNH    |      1|PU   |
 |     2|seaRM    |vanNH    |     3|        |         |89      |         |vanNH    |      1|     |
 |     2|seaRM    |vanNH    |     4|        |         |91      |         |vanNH    |      1|     |
@@ -276,7 +276,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |     3|vanNH    |seaRM    |    11|45      |G        |        |         |vanNH    |      1|G    |
 |     4|vanNH    |seaRM    |     1|8       |OBP      |        |         |vanNH    |      1|OBP  |
 |     4|vanNH    |seaRM    |     2|        |         |1       |PU       |vanNH    |      1|PU   |
-|     4|vanNH    |seaRM    |     3|        |         |        |         |vanNH    |      1|     |
+|     4|vanNH    |seaRM    |     3|        |         |?       |         |vanNH    |      1|     |
 |     4|vanNH    |seaRM    |     4|        |         |14      |         |vanNH    |      1|     |
 |     4|vanNH    |seaRM    |     5|81      |PUA      |        |         |vanNH    |      1|PUA  |
 |     4|vanNH    |seaRM    |     6|33      |G        |        |         |vanNH    |      1|G    |
@@ -431,7 +431,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    14|vanNH    |seaRM    |     2|        |         |29      |PU       |vanNH    |      2|PU   |
 |    14|vanNH    |seaRM    |     3|        |         |10      |         |vanNH    |      2|     |
 |    14|vanNH    |seaRM    |     4|        |         |77      |         |vanNH    |      2|     |
-|    14|vanNH    |seaRM    |     5|        |         |        |         |vanNH    |      2|     |
+|    14|vanNH    |seaRM    |     5|        |         |?       |         |vanNH    |      2|     |
 |    14|vanNH    |seaRM    |     6|        |         |10      |         |vanNH    |      2|     |
 |    14|vanNH    |seaRM    |     7|        |         |15      |         |vanNH    |      2|     |
 |    14|vanNH    |seaRM    |     8|        |         |23      |         |vanNH    |      2|     |
@@ -568,40 +568,42 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    25|vanNH    |seaRM    |     1|33      |P        |        |         |vanNH    |      3|P    |
 |    25|vanNH    |seaRM    |     2|        |         |29      |PU       |vanNH    |      3|PU   |
 |    25|vanNH    |seaRM    |     3|        |         |31      |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |     4|        |F        |29      |         |vanNH    |      3|F    |
-|    25|vanNH    |seaRM    |     5|        |         |4       |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |     6|        |         |29      |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |     7|        |         |23      |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |     8|        |         |29      |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |     9|        |         |23      |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |    10|        |         |18      |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |    11|        |F        |29      |         |vanNH    |      3|F    |
-|    25|vanNH    |seaRM    |    12|        |         |18      |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |    13|        |         |        |F        |vanNH    |      3|F    |
-|    25|vanNH    |seaRM    |    14|13      |PU       |        |         |vanNH    |      3|PU   |
-|    25|vanNH    |seaRM    |    15|18      |         |        |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |    16|37      |TO       |        |VP       |vanNH    |      3|VP   |
-|    25|vanNH    |seaRM    |    17|89      |PU       |        |         |vanNH    |      3|PU   |
-|    25|vanNH    |seaRM    |    18|91      |         |        |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |    19|89      |         |        |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |    20|21      |         |        |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |     4|        |         |29      |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |     5|?       |F        |        |         |vanNH    |      3|F    |
+|    25|vanNH    |seaRM    |     6|        |         |4       |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |     7|        |         |29      |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |     8|        |         |23      |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |     9|        |         |29      |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |    10|        |         |23      |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |    11|        |         |18      |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |    12|        |         |29      |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |    13|?       |F        |        |         |vanNH    |      3|F    |
+|    25|vanNH    |seaRM    |    14|        |         |18      |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |    15|        |         |?       |F        |vanNH    |      3|F    |
+|    25|vanNH    |seaRM    |    16|13      |PU       |        |         |vanNH    |      3|PU   |
+|    25|vanNH    |seaRM    |    17|18      |         |        |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |    18|37      |TO       |?       |VP       |vanNH    |      3|VP   |
+|    25|vanNH    |seaRM    |    19|89      |PU       |        |         |vanNH    |      3|PU   |
+|    25|vanNH    |seaRM    |    20|91      |         |        |         |vanNH    |      3|     |
 |    25|vanNH    |seaRM    |    21|89      |         |        |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |    22|98      |         |        |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |    23|91      |         |        |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |    24|72      |         |        |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |    22|21      |         |        |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |    23|89      |         |        |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |    24|98      |         |        |         |vanNH    |      3|     |
 |    25|vanNH    |seaRM    |    25|91      |         |        |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |    26|21      |         |        |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |    27|        |         |29      |F        |vanNH    |      3|F    |
-|    25|vanNH    |seaRM    |    28|72      |         |        |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |    29|        |         |29      |PU       |vanNH    |      3|PU   |
-|    25|vanNH    |seaRM    |    30|        |         |18      |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |    31|        |         |29      |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |    32|        |         |23      |TD       |vanNH    |      3|TD   |
-|    25|vanNH    |seaRM    |    33|91      |PU       |        |         |vanNH    |      3|PU   |
-|    25|vanNH    |seaRM    |    34|89      |         |        |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |    35|5       |         |        |         |vanNH    |      3|     |
-|    25|vanNH    |seaRM    |    36|21      |A        |        |         |vanNH    |      3|A    |
-|    25|vanNH    |seaRM    |    37|22      |G        |        |         |vanNH    |      3|G    |
+|    25|vanNH    |seaRM    |    26|72      |         |        |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |    27|91      |         |        |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |    28|21      |         |        |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |    29|        |         |29      |F        |vanNH    |      3|F    |
+|    25|vanNH    |seaRM    |    30|72      |         |        |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |    31|        |         |29      |PU       |vanNH    |      3|PU   |
+|    25|vanNH    |seaRM    |    32|        |         |18      |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |    33|        |         |29      |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |    34|        |         |23      |TD       |vanNH    |      3|TD   |
+|    25|vanNH    |seaRM    |    35|91      |PU       |        |         |vanNH    |      3|PU   |
+|    25|vanNH    |seaRM    |    36|89      |         |        |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |    37|5       |         |        |         |vanNH    |      3|     |
+|    25|vanNH    |seaRM    |    38|21      |A        |        |         |vanNH    |      3|A    |
+|    25|vanNH    |seaRM    |    39|22      |G        |        |         |vanNH    |      3|G    |
 |    26|vanNH    |seaRM    |     1|33      |P        |        |         |vanNH    |      3|P    |
 |    26|vanNH    |seaRM    |     2|        |         |00      |PU       |vanNH    |      3|PU   |
 |    26|vanNH    |seaRM    |     3|        |         |1       |         |vanNH    |      3|     |

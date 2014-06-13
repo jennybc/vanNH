@@ -7,7 +7,6 @@ In-house statistics for the Vancouver Nighthawks of Major League Ultimate
 
 To do
 
-  * Handle interception case and award a D
   * take comprehensive look at what's character vs factor
   * take comprehensive look at factor levels for team factors
   * sort out the offline access for Google spreadsheet

@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Thu Jun 12 19:55:34 2014
+#### last update Thu Jun 12 22:25:06 2014
 # vanNH 12
 # sfoDF 13
 ## game is complete
@@ -307,7 +307,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |     5|vanNH    |sfoDF    |    14|        |         |85      |         |sfoDF    |      1|     |
 |     5|vanNH    |sfoDF    |    15|        |         |16      |A        |sfoDF    |      1|A    |
 |     5|vanNH    |sfoDF    |    16|        |         |21      |G        |sfoDF    |      1|G    |
-|     6|sfoDF    |vanNH    |     1|        |P        |        |         |vanNH    |      1|P    |
+|     6|sfoDF    |vanNH    |     1|?       |P        |        |         |vanNH    |      1|P    |
 |     6|sfoDF    |vanNH    |     2|        |         |5       |PU       |vanNH    |      1|PU   |
 |     6|sfoDF    |vanNH    |     3|        |         |89      |         |vanNH    |      1|     |
 |     6|sfoDF    |vanNH    |     4|        |         |98      |         |vanNH    |      1|     |
@@ -593,16 +593,17 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    23|vanNH    |sfoDF    |    16|        |         |85      |         |vanNH    |      3|     |
 |    23|vanNH    |sfoDF    |    17|81      |PU       |        |         |vanNH    |      3|PU   |
 |    23|vanNH    |sfoDF    |    18|33      |         |        |         |vanNH    |      3|     |
-|    23|vanNH    |sfoDF    |    19|        |F        |16      |PU       |vanNH    |      3|PU   |
-|    23|vanNH    |sfoDF    |    20|45      |PU       |        |         |vanNH    |      3|PU   |
-|    23|vanNH    |sfoDF    |    21|24      |         |        |         |vanNH    |      3|     |
-|    23|vanNH    |sfoDF    |    22|8       |         |        |         |vanNH    |      3|     |
-|    23|vanNH    |sfoDF    |    23|31      |         |        |         |vanNH    |      3|     |
-|    23|vanNH    |sfoDF    |    24|        |         |12      |PU       |vanNH    |      3|PU   |
-|    23|vanNH    |sfoDF    |    25|        |         |17      |         |vanNH    |      3|     |
-|    23|vanNH    |sfoDF    |    26|45      |PU       |        |         |vanNH    |      3|PU   |
-|    23|vanNH    |sfoDF    |    27|39      |A        |        |         |vanNH    |      3|A    |
-|    23|vanNH    |sfoDF    |    28|8       |G        |        |         |vanNH    |      3|G    |
+|    23|vanNH    |sfoDF    |    19|        |         |16      |PU       |vanNH    |      3|PU   |
+|    23|vanNH    |sfoDF    |    20|?       |F        |        |         |vanNH    |      3|F    |
+|    23|vanNH    |sfoDF    |    21|45      |PU       |        |         |vanNH    |      3|PU   |
+|    23|vanNH    |sfoDF    |    22|24      |         |        |         |vanNH    |      3|     |
+|    23|vanNH    |sfoDF    |    23|8       |         |        |         |vanNH    |      3|     |
+|    23|vanNH    |sfoDF    |    24|31      |         |        |         |vanNH    |      3|     |
+|    23|vanNH    |sfoDF    |    25|        |         |12      |PU       |vanNH    |      3|PU   |
+|    23|vanNH    |sfoDF    |    26|        |         |17      |         |vanNH    |      3|     |
+|    23|vanNH    |sfoDF    |    27|45      |PU       |        |         |vanNH    |      3|PU   |
+|    23|vanNH    |sfoDF    |    28|39      |A        |        |         |vanNH    |      3|A    |
+|    23|vanNH    |sfoDF    |    29|8       |G        |        |         |vanNH    |      3|G    |
 |    24|vanNH    |sfoDF    |     1|33      |P        |        |         |vanNH    |      3|P    |
 |    24|vanNH    |sfoDF    |     2|        |         |25      |PU       |vanNH    |      3|PU   |
 |    24|vanNH    |sfoDF    |     3|        |         |34      |         |vanNH    |      3|     |
@@ -713,7 +714,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    28|sfoDF    |vanNH    |     9|        |         |5       |D        |NA       |      4|D    |
 |    28|sfoDF    |vanNH    |    10|        |         |5       |PU       |NA       |      4|PU   |
 |    28|sfoDF    |vanNH    |    11|34      |D        |        |         |NA       |      4|D    |
-|    29|sfoDF    |vanNH    |     1|        |P        |        |         |sfoDF    |      5|P    |
+|    29|sfoDF    |vanNH    |     1|?       |P        |        |         |sfoDF    |      5|P    |
 |    29|sfoDF    |vanNH    |     2|        |         |19      |PU       |sfoDF    |      5|PU   |
 |    29|sfoDF    |vanNH    |     3|        |         |5       |         |sfoDF    |      5|     |
 |    29|sfoDF    |vanNH    |     4|        |         |19      |         |sfoDF    |      5|     |

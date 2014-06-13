@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Thu Jun 12 15:50:02 2014
+#### last update Thu Jun 12 22:25:20 2014
 # seaRM 23
 # vanNH 29
 ## game is complete
@@ -326,7 +326,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |     3|vanNH    |seaRM    |     3|        |         |20      |         |seaRM    |      1|     |
 |     3|vanNH    |seaRM    |     4|        |         |48      |LA       |seaRM    |      1|LA   |
 |     3|vanNH    |seaRM    |     5|        |         |6       |G        |seaRM    |      1|G    |
-|     4|seaRM    |vanNH    |     1|        |P        |        |         |seaRM    |      1|P    |
+|     4|seaRM    |vanNH    |     1|?       |P        |        |         |seaRM    |      1|P    |
 |     4|seaRM    |vanNH    |     2|        |         |91      |         |seaRM    |      1|     |
 |     4|seaRM    |vanNH    |     3|        |         |89      |         |seaRM    |      1|     |
 |     4|seaRM    |vanNH    |     4|        |         |91      |         |seaRM    |      1|     |
@@ -361,7 +361,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |     6|vanNH    |seaRM    |     1|8       |OBP      |        |         |seaRM    |      1|OBP  |
 |     6|vanNH    |seaRM    |     2|        |         |20      |PU       |seaRM    |      1|PU   |
 |     6|vanNH    |seaRM    |     3|        |         |1       |         |seaRM    |      1|     |
-|     6|vanNH    |seaRM    |     4|        |         |        |         |seaRM    |      1|     |
+|     6|vanNH    |seaRM    |     4|        |         |?       |         |seaRM    |      1|     |
 |     6|vanNH    |seaRM    |     5|        |         |99      |         |seaRM    |      1|     |
 |     6|vanNH    |seaRM    |     6|        |         |48      |         |seaRM    |      1|     |
 |     6|vanNH    |seaRM    |     7|        |         |20      |         |seaRM    |      1|     |
@@ -388,7 +388,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |     7|seaRM    |vanNH    |    12|        |         |5       |A        |vanNH    |      1|A    |
 |     7|seaRM    |vanNH    |    13|        |         |22      |G        |vanNH    |      1|G    |
 |     8|vanNH    |seaRM    |     1|8       |P        |        |         |seaRM    |      1|P    |
-|     8|vanNH    |seaRM    |     2|        |         |        |         |seaRM    |      1|     |
+|     8|vanNH    |seaRM    |     2|        |         |?       |         |seaRM    |      1|     |
 |     8|vanNH    |seaRM    |     3|        |         |20      |         |seaRM    |      1|     |
 |     8|vanNH    |seaRM    |     4|        |         |1       |         |seaRM    |      1|     |
 |     8|vanNH    |seaRM    |     5|        |         |25      |         |seaRM    |      1|     |
@@ -406,8 +406,8 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |     9|seaRM    |vanNH    |    10|        |         |5       |         |vanNH    |      1|     |
 |     9|seaRM    |vanNH    |    11|        |         |21      |LA       |vanNH    |      1|LA   |
 |     9|seaRM    |vanNH    |    12|        |         |98      |G        |vanNH    |      1|G    |
-|    10|vanNH    |seaRM    |     1|        |P        |        |         |seaRM    |      1|P    |
-|    10|vanNH    |seaRM    |     2|        |         |        |         |seaRM    |      1|     |
+|    10|vanNH    |seaRM    |     1|?       |P        |        |         |seaRM    |      1|P    |
+|    10|vanNH    |seaRM    |     2|        |         |?       |         |seaRM    |      1|     |
 |    10|vanNH    |seaRM    |     3|        |         |6       |         |seaRM    |      1|     |
 |    10|vanNH    |seaRM    |     4|        |         |17      |L        |seaRM    |      1|L    |
 |    10|vanNH    |seaRM    |     5|        |         |6       |A        |seaRM    |      1|A    |
@@ -532,7 +532,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    21|vanNH    |seaRM    |     4|        |         |25      |         |seaRM    |      2|     |
 |    21|vanNH    |seaRM    |     5|        |         |20      |A        |seaRM    |      2|A    |
 |    21|vanNH    |seaRM    |     6|        |         |8       |LG       |seaRM    |      2|LG   |
-|    22|seaRM    |vanNH    |     1|        |P        |        |         |vanNH    |      2|P    |
+|    22|seaRM    |vanNH    |     1|?       |P        |        |         |vanNH    |      2|P    |
 |    22|seaRM    |vanNH    |     2|        |         |5       |PU       |vanNH    |      2|PU   |
 |    22|seaRM    |vanNH    |     3|        |         |21      |         |vanNH    |      2|     |
 |    22|seaRM    |vanNH    |     4|        |         |5       |         |vanNH    |      2|     |

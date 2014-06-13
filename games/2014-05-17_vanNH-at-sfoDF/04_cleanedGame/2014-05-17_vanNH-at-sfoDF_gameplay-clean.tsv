@@ -86,7 +86,7 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 5	vanNH	sfoDF	14			85		sfoDF
 5	vanNH	sfoDF	15			16	A	sfoDF
 5	vanNH	sfoDF	16			21	G	sfoDF
-6	sfoDF	vanNH	1		P			vanNH
+6	sfoDF	vanNH	1	?	P			vanNH
 6	sfoDF	vanNH	2			5	PU	vanNH
 6	sfoDF	vanNH	3			89		vanNH
 6	sfoDF	vanNH	4			98		vanNH
@@ -372,16 +372,17 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 23	vanNH	sfoDF	16			85		vanNH
 23	vanNH	sfoDF	17	81	PU			vanNH
 23	vanNH	sfoDF	18	33				vanNH
-23	vanNH	sfoDF	19		F	16	PU	vanNH
-23	vanNH	sfoDF	20	45	PU			vanNH
-23	vanNH	sfoDF	21	24				vanNH
-23	vanNH	sfoDF	22	8				vanNH
-23	vanNH	sfoDF	23	31				vanNH
-23	vanNH	sfoDF	24			12	PU	vanNH
-23	vanNH	sfoDF	25			17		vanNH
-23	vanNH	sfoDF	26	45	PU			vanNH
-23	vanNH	sfoDF	27	39	A			vanNH
-23	vanNH	sfoDF	28	8	G			vanNH
+23	vanNH	sfoDF	19			16	PU	vanNH
+23	vanNH	sfoDF	20	?	F			vanNH
+23	vanNH	sfoDF	21	45	PU			vanNH
+23	vanNH	sfoDF	22	24				vanNH
+23	vanNH	sfoDF	23	8				vanNH
+23	vanNH	sfoDF	24	31				vanNH
+23	vanNH	sfoDF	25			12	PU	vanNH
+23	vanNH	sfoDF	26			17		vanNH
+23	vanNH	sfoDF	27	45	PU			vanNH
+23	vanNH	sfoDF	28	39	A			vanNH
+23	vanNH	sfoDF	29	8	G			vanNH
 24	vanNH	sfoDF	1	33	P			vanNH
 24	vanNH	sfoDF	2			25	PU	vanNH
 24	vanNH	sfoDF	3			34		vanNH
@@ -492,7 +493,7 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 28	sfoDF	vanNH	9			5	D	NA
 28	sfoDF	vanNH	10			5	PU	NA
 28	sfoDF	vanNH	11	34	D			NA
-29	sfoDF	vanNH	1		P			sfoDF
+29	sfoDF	vanNH	1	?	P			sfoDF
 29	sfoDF	vanNH	2			19	PU	sfoDF
 29	sfoDF	vanNH	3			5		sfoDF
 29	sfoDF	vanNH	4			19		sfoDF
