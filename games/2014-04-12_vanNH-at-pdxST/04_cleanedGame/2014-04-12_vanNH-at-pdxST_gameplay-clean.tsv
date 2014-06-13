@@ -488,7 +488,8 @@ point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
 35	pdxST	vanNH	9	22				vanNH
 35	pdxST	vanNH	10	88	VST			vanNH
 35	pdxST	vanNH	11			91	PUA	vanNH
-35	pdxST	vanNH	12	88	F	75	G	vanNH
+35	pdxST	vanNH	12			75	G	vanNH
+35	pdxST	vanNH	13	88	F			vanNH
 36	vanNH	pdxST	1	8	P			NA
 36	vanNH	pdxST	2			7	PU	NA
 36	vanNH	pdxST	3			24		NA

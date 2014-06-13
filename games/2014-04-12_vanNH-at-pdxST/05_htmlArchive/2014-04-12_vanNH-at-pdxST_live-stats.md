@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Fri Jun 13 13:54:11 2014
+#### last update Fri Jun 13 16:24:44 2014
 # vanNH 21
 # pdxST 23
 ## game is complete
@@ -736,7 +736,8 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    35|pdxST    |vanNH    |     9|22      |         |        |         |vanNH    |      3|     |
 |    35|pdxST    |vanNH    |    10|88      |VST      |        |         |vanNH    |      3|VST  |
 |    35|pdxST    |vanNH    |    11|        |         |91      |PUA      |vanNH    |      3|PUA  |
-|    35|pdxST    |vanNH    |    12|88      |F        |75      |G        |vanNH    |      3|G    |
+|    35|pdxST    |vanNH    |    12|        |         |75      |G        |vanNH    |      3|G    |
+|    35|pdxST    |vanNH    |    13|88      |F        |        |         |vanNH    |      3|F    |
 |    36|vanNH    |pdxST    |     1|8       |P        |        |         |NA       |      3|P    |
 |    36|vanNH    |pdxST    |     2|        |         |7       |PU       |NA       |      3|PU   |
 |    36|vanNH    |pdxST    |     3|        |         |24      |         |NA       |      3|     |
