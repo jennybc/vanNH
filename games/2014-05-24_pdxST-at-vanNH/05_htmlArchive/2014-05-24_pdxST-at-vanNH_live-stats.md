@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Thu Jun 12 15:49:46 2014
+#### last update Fri Jun 13 14:46:42 2014
 # pdxST 19
 # vanNH 16
 ## game is complete
@@ -168,7 +168,7 @@ stats are cumulative for this game
 |      2|    15|vanNH    |pdxST    |pdxST    |A    |pdxST  |25    |     8|     5|Meinershagen |pdxST-25-Meinershagen |
 |      2|    15|vanNH    |pdxST    |pdxST    |G    |pdxST  |5     |     9|     5|Woodside     |pdxST-5-Woodside      |
 |      2|    16|vanNH    |pdxST    |NA       |D    |vanNH  |8     |     9|     5|hibbert      |vanNH-8-hibbert       |
-|      3|    17|pdxST    |vanNH    |pdxST    |A    |pdxST  |9     |     9|     5|Hancock      |pdxST-9-Hancock       |
+|      3|    17|pdxST    |vanNH    |pdxST    |PUA  |pdxST  |9     |     9|     5|Hancock      |pdxST-9-Hancock       |
 |      3|    17|pdxST    |vanNH    |pdxST    |LG   |pdxST  |2     |    10|     5|Allison-Hall |pdxST-2-Allison-Hall  |
 |      3|    18|vanNH    |pdxST    |vanNH    |A    |vanNH  |98    |    10|     5|wong         |vanNH-98-wong         |
 |      3|    18|vanNH    |pdxST    |vanNH    |G    |vanNH  |22    |    10|     6|berezan      |vanNH-22-berezan      |
@@ -252,7 +252,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |     2|pdxST    |vanNH    |    14|        |         |21      |A        |vanNH    |      1|A    |
 |     2|pdxST    |vanNH    |    15|        |         |98      |LG       |vanNH    |      1|LG   |
 |     3|vanNH    |pdxST    |     1|8       |P        |        |         |vanNH    |      1|P    |
-|     3|vanNH    |pdxST    |     2|        |         |7       |         |vanNH    |      1|     |
+|     3|vanNH    |pdxST    |     2|        |         |7       |PU       |vanNH    |      1|PU   |
 |     3|vanNH    |pdxST    |     3|        |         |9       |         |vanNH    |      1|     |
 |     3|vanNH    |pdxST    |     4|        |         |42      |         |vanNH    |      1|     |
 |     3|vanNH    |pdxST    |     5|        |         |9       |         |vanNH    |      1|     |
@@ -319,7 +319,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |     5|vanNH    |pdxST    |     5|        |         |16      |A        |pdxST    |      1|A    |
 |     5|vanNH    |pdxST    |     6|        |         |7       |LG       |pdxST    |      1|LG   |
 |     6|pdxST    |vanNH    |     1|22      |P        |        |         |vanNH    |      1|P    |
-|     6|pdxST    |vanNH    |     2|        |         |19      |         |vanNH    |      1|     |
+|     6|pdxST    |vanNH    |     2|        |         |19      |PU       |vanNH    |      1|PU   |
 |     6|pdxST    |vanNH    |     3|        |         |89      |         |vanNH    |      1|     |
 |     6|pdxST    |vanNH    |     4|        |         |10      |         |vanNH    |      1|     |
 |     6|pdxST    |vanNH    |     5|        |         |21      |         |vanNH    |      1|     |
@@ -329,14 +329,14 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |     6|pdxST    |vanNH    |     9|        |         |72      |A        |vanNH    |      1|A    |
 |     6|pdxST    |vanNH    |    10|        |         |98      |G        |vanNH    |      1|G    |
 |     7|vanNH    |pdxST    |     1|8       |P        |        |         |pdxST    |      1|P    |
-|     7|vanNH    |pdxST    |     2|        |         |11      |         |pdxST    |      1|     |
+|     7|vanNH    |pdxST    |     2|        |         |11      |PU       |pdxST    |      1|PU   |
 |     7|vanNH    |pdxST    |     3|        |         |9       |         |pdxST    |      1|     |
 |     7|vanNH    |pdxST    |     4|        |         |11      |         |pdxST    |      1|     |
 |     7|vanNH    |pdxST    |     5|        |         |7       |         |pdxST    |      1|     |
 |     7|vanNH    |pdxST    |     6|        |         |6       |LA       |pdxST    |      1|LA   |
 |     7|vanNH    |pdxST    |     7|        |         |16      |G        |pdxST    |      1|G    |
 |     8|pdxST    |vanNH    |     1|88      |P        |        |         |pdxST    |      1|P    |
-|     8|pdxST    |vanNH    |     2|        |         |5       |         |pdxST    |      1|     |
+|     8|pdxST    |vanNH    |     2|        |         |5       |PU       |pdxST    |      1|PU   |
 |     8|pdxST    |vanNH    |     3|        |         |19      |         |pdxST    |      1|     |
 |     8|pdxST    |vanNH    |     4|        |         |91      |         |pdxST    |      1|     |
 |     8|pdxST    |vanNH    |     5|        |         |22      |         |pdxST    |      1|     |
@@ -352,7 +352,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |     8|pdxST    |vanNH    |    15|11      |PU       |        |         |pdxST    |      1|PU   |
 |     8|pdxST    |vanNH    |    16|9       |         |        |         |pdxST    |      1|     |
 |     8|pdxST    |vanNH    |    17|7       |         |        |         |pdxST    |      1|     |
-|     8|pdxST    |vanNH    |    18|        |VP       |        |         |pdxST    |      1|VP   |
+|     8|pdxST    |vanNH    |    18|?       |VP       |        |         |pdxST    |      1|VP   |
 |     8|pdxST    |vanNH    |    19|9       |         |        |         |pdxST    |      1|     |
 |     8|pdxST    |vanNH    |    20|2       |         |        |         |pdxST    |      1|     |
 |     8|pdxST    |vanNH    |    21|9       |         |        |         |pdxST    |      1|     |
@@ -372,7 +372,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |     9|pdxST    |vanNH    |     9|22      |A        |        |         |pdxST    |      1|A    |
 |     9|pdxST    |vanNH    |    10|17      |G        |        |         |pdxST    |      1|G    |
 |    10|pdxST    |vanNH    |     1|88      |P        |        |         |NA       |      1|P    |
-|    10|pdxST    |vanNH    |     2|        |         |91      |         |NA       |      1|     |
+|    10|pdxST    |vanNH    |     2|        |         |91      |PU       |NA       |      1|PU   |
 |    10|pdxST    |vanNH    |     3|        |         |5       |         |NA       |      1|     |
 |    10|pdxST    |vanNH    |     4|17      |D        |        |         |NA       |      1|D    |
 |    10|pdxST    |vanNH    |     5|8       |PU       |        |         |NA       |      1|PU   |
@@ -385,7 +385,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    10|pdxST    |vanNH    |    12|        |         |72      |D        |NA       |      1|D    |
 |    10|pdxST    |vanNH    |    13|        |         |91      |PU       |NA       |      1|PU   |
 |    11|pdxST    |vanNH    |     1|88      |P        |        |         |vanNH    |      2|P    |
-|    11|pdxST    |vanNH    |     2|        |         |5       |         |vanNH    |      2|     |
+|    11|pdxST    |vanNH    |     2|        |         |5       |PU       |vanNH    |      2|PU   |
 |    11|pdxST    |vanNH    |     3|        |         |91      |         |vanNH    |      2|     |
 |    11|pdxST    |vanNH    |     4|        |         |21      |         |vanNH    |      2|     |
 |    11|pdxST    |vanNH    |     5|        |         |91      |         |vanNH    |      2|     |
@@ -427,10 +427,10 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    12|vanNH    |pdxST    |    29|        |         |11      |PUA      |pdxST    |      2|PUA  |
 |    12|vanNH    |pdxST    |    30|        |         |9       |G        |pdxST    |      2|G    |
 |    13|pdxST    |vanNH    |     1|8       |P        |        |         |pdxST    |      2|P    |
-|    13|pdxST    |vanNH    |     2|        |         |19      |         |pdxST    |      2|     |
+|    13|pdxST    |vanNH    |     2|        |         |19      |PU       |pdxST    |      2|PU   |
 |    13|pdxST    |vanNH    |     3|        |         |89      |         |pdxST    |      2|     |
 |    13|pdxST    |vanNH    |     4|        |         |22      |         |pdxST    |      2|     |
-|    13|pdxST    |vanNH    |     5|        |         |        |F        |pdxST    |      2|F    |
+|    13|pdxST    |vanNH    |     5|        |         |?       |F        |pdxST    |      2|F    |
 |    13|pdxST    |vanNH    |     6|5       |PU       |        |         |pdxST    |      2|PU   |
 |    13|pdxST    |vanNH    |     7|88      |         |        |         |pdxST    |      2|     |
 |    13|pdxST    |vanNH    |     8|14      |         |        |         |pdxST    |      2|     |
@@ -441,7 +441,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    13|pdxST    |vanNH    |    13|25      |A        |        |         |pdxST    |      2|A    |
 |    13|pdxST    |vanNH    |    14|20      |G        |        |         |pdxST    |      2|G    |
 |    14|pdxST    |vanNH    |     1|88      |P        |        |         |pdxST    |      2|P    |
-|    14|pdxST    |vanNH    |     2|        |         |75      |         |pdxST    |      2|     |
+|    14|pdxST    |vanNH    |     2|        |         |75      |PU       |pdxST    |      2|PU   |
 |    14|pdxST    |vanNH    |     3|        |         |5       |         |pdxST    |      2|     |
 |    14|pdxST    |vanNH    |     4|        |         |33      |         |pdxST    |      2|     |
 |    14|pdxST    |vanNH    |     5|        |         |5       |         |pdxST    |      2|     |
@@ -485,7 +485,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    14|pdxST    |vanNH    |    43|73      |A        |        |         |pdxST    |      2|A    |
 |    14|pdxST    |vanNH    |    44|7       |LG       |        |         |pdxST    |      2|LG   |
 |    15|pdxST    |vanNH    |     1|88      |P        |        |         |pdxST    |      2|P    |
-|    15|pdxST    |vanNH    |     2|        |         |91      |         |pdxST    |      2|     |
+|    15|pdxST    |vanNH    |     2|        |         |91      |PU       |pdxST    |      2|PU   |
 |    15|pdxST    |vanNH    |     3|        |         |19      |         |pdxST    |      2|     |
 |    15|pdxST    |vanNH    |     4|        |         |91      |         |pdxST    |      2|     |
 |    15|pdxST    |vanNH    |     5|        |         |98      |         |pdxST    |      2|     |
@@ -524,7 +524,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    16|pdxST    |vanNH    |    21|16      |L        |        |         |NA       |      2|L    |
 |    16|pdxST    |vanNH    |    22|        |         |8       |D        |NA       |      2|D    |
 |    17|vanNH    |pdxST    |     1|8       |P        |        |         |pdxST    |      3|P    |
-|    17|vanNH    |pdxST    |     2|        |         |9       |A        |pdxST    |      3|A    |
+|    17|vanNH    |pdxST    |     2|        |         |9       |PUA      |pdxST    |      3|PUA  |
 |    17|vanNH    |pdxST    |     3|        |         |2       |LG       |pdxST    |      3|LG   |
 |    18|pdxST    |vanNH    |     1|88      |OBP      |        |         |vanNH    |      3|OBP  |
 |    18|pdxST    |vanNH    |     2|        |         |89      |PU       |vanNH    |      3|PU   |
@@ -538,7 +538,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    18|pdxST    |vanNH    |    10|        |         |98      |A        |vanNH    |      3|A    |
 |    18|pdxST    |vanNH    |    11|        |         |22      |G        |vanNH    |      3|G    |
 |    19|vanNH    |pdxST    |     1|81      |P        |        |         |pdxST    |      3|P    |
-|    19|vanNH    |pdxST    |     2|        |         |42      |         |pdxST    |      3|     |
+|    19|vanNH    |pdxST    |     2|        |         |42      |PU       |pdxST    |      3|PU   |
 |    19|vanNH    |pdxST    |     3|        |         |9       |         |pdxST    |      3|     |
 |    19|vanNH    |pdxST    |     4|        |         |11      |         |pdxST    |      3|     |
 |    19|vanNH    |pdxST    |     5|        |         |2       |         |pdxST    |      3|     |
@@ -552,7 +552,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    19|vanNH    |pdxST    |    13|        |         |8       |A        |pdxST    |      3|A    |
 |    19|vanNH    |pdxST    |    14|        |         |6       |G        |pdxST    |      3|G    |
 |    20|pdxST    |vanNH    |     1|7       |P        |        |         |pdxST    |      3|P    |
-|    20|pdxST    |vanNH    |     2|        |         |91      |         |pdxST    |      3|     |
+|    20|pdxST    |vanNH    |     2|        |         |91      |PU       |pdxST    |      3|PU   |
 |    20|pdxST    |vanNH    |     3|        |         |89      |         |pdxST    |      3|     |
 |    20|pdxST    |vanNH    |     4|        |         |91      |         |pdxST    |      3|     |
 |    20|pdxST    |vanNH    |     5|        |         |98      |         |pdxST    |      3|     |
@@ -571,7 +571,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    20|pdxST    |vanNH    |    18|15      |A        |        |         |pdxST    |      3|A    |
 |    20|pdxST    |vanNH    |    19|17      |G        |        |         |pdxST    |      3|G    |
 |    21|pdxST    |vanNH    |     1|7       |P        |        |         |vanNH    |      3|P    |
-|    21|pdxST    |vanNH    |     2|        |         |19      |         |vanNH    |      3|     |
+|    21|pdxST    |vanNH    |     2|        |         |19      |PU       |vanNH    |      3|PU   |
 |    21|pdxST    |vanNH    |     3|        |         |89      |         |vanNH    |      3|     |
 |    21|pdxST    |vanNH    |     4|        |         |98      |         |vanNH    |      3|     |
 |    21|pdxST    |vanNH    |     5|        |         |21      |         |vanNH    |      3|     |
@@ -588,7 +588,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    21|pdxST    |vanNH    |    16|        |         |91      |A        |vanNH    |      3|A    |
 |    21|pdxST    |vanNH    |    17|        |         |19      |G        |vanNH    |      3|G    |
 |    22|vanNH    |pdxST    |     1|18      |P        |        |         |vanNH    |      3|P    |
-|    22|vanNH    |pdxST    |     2|        |         |11      |         |vanNH    |      3|     |
+|    22|vanNH    |pdxST    |     2|        |         |11      |PU       |vanNH    |      3|PU   |
 |    22|vanNH    |pdxST    |     3|        |         |9       |         |vanNH    |      3|     |
 |    22|vanNH    |pdxST    |     4|        |         |11      |         |vanNH    |      3|     |
 |    22|vanNH    |pdxST    |     5|        |         |9       |         |vanNH    |      3|     |
@@ -601,7 +601,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    22|vanNH    |pdxST    |    12|        |         |9       |F        |vanNH    |      3|F    |
 |    22|vanNH    |pdxST    |    13|39      |G        |        |         |vanNH    |      3|G    |
 |    23|vanNH    |pdxST    |     1|8       |P        |        |         |pdxST    |      3|P    |
-|    23|vanNH    |pdxST    |     2|        |         |73      |         |pdxST    |      3|     |
+|    23|vanNH    |pdxST    |     2|        |         |73      |PU       |pdxST    |      3|PU   |
 |    23|vanNH    |pdxST    |     3|        |         |9       |         |pdxST    |      3|     |
 |    23|vanNH    |pdxST    |     4|        |         |16      |         |pdxST    |      3|     |
 |    23|vanNH    |pdxST    |     5|        |         |73      |         |pdxST    |      3|     |
@@ -631,14 +631,14 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    24|pdxST    |vanNH    |     9|        |         |10      |A        |vanNH    |      3|A    |
 |    24|pdxST    |vanNH    |    10|        |         |91      |G        |vanNH    |      3|G    |
 |    25|vanNH    |pdxST    |     1|81      |P        |        |         |vanNH    |      3|P    |
-|    25|vanNH    |pdxST    |     2|        |         |42      |         |vanNH    |      3|     |
+|    25|vanNH    |pdxST    |     2|        |         |42      |PU       |vanNH    |      3|PU   |
 |    25|vanNH    |pdxST    |     3|        |         |11      |         |vanNH    |      3|     |
 |    25|vanNH    |pdxST    |     4|        |         |73      |         |vanNH    |      3|     |
 |    25|vanNH    |pdxST    |     5|        |         |11      |         |vanNH    |      3|     |
 |    25|vanNH    |pdxST    |     6|8       |PUA      |        |         |vanNH    |      3|PUA  |
 |    25|vanNH    |pdxST    |     7|45      |G        |        |         |vanNH    |      3|G    |
 |    26|vanNH    |pdxST    |     1|81      |P        |        |         |pdxST    |      3|P    |
-|    26|vanNH    |pdxST    |     2|        |         |42      |         |pdxST    |      3|     |
+|    26|vanNH    |pdxST    |     2|        |         |42      |PU       |pdxST    |      3|PU   |
 |    26|vanNH    |pdxST    |     3|        |         |7       |         |pdxST    |      3|     |
 |    26|vanNH    |pdxST    |     4|        |         |73      |         |pdxST    |      3|     |
 |    26|vanNH    |pdxST    |     5|        |         |7       |         |pdxST    |      3|     |
@@ -654,7 +654,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    26|vanNH    |pdxST    |    15|        |         |7       |A        |pdxST    |      3|A    |
 |    26|vanNH    |pdxST    |    16|        |         |42      |G        |pdxST    |      3|G    |
 |    27|pdxST    |vanNH    |     1|88      |P        |        |         |vanNH    |      3|P    |
-|    27|pdxST    |vanNH    |     2|        |         |19      |         |vanNH    |      3|     |
+|    27|pdxST    |vanNH    |     2|        |         |19      |PU       |vanNH    |      3|PU   |
 |    27|pdxST    |vanNH    |     3|        |         |89      |         |vanNH    |      3|     |
 |    27|pdxST    |vanNH    |     4|        |         |10      |         |vanNH    |      3|     |
 |    27|pdxST    |vanNH    |     5|        |         |21      |         |vanNH    |      3|     |
@@ -667,7 +667,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    27|pdxST    |vanNH    |    12|        |         |98      |A        |vanNH    |      3|A    |
 |    27|pdxST    |vanNH    |    13|        |         |10      |G        |vanNH    |      3|G    |
 |    28|vanNH    |pdxST    |     1|18      |P        |        |         |pdxST    |      3|P    |
-|    28|vanNH    |pdxST    |     2|        |         |73      |         |pdxST    |      3|     |
+|    28|vanNH    |pdxST    |     2|        |         |73      |PU       |pdxST    |      3|PU   |
 |    28|vanNH    |pdxST    |     3|        |         |9       |         |pdxST    |      3|     |
 |    28|vanNH    |pdxST    |     4|        |         |42      |         |pdxST    |      3|     |
 |    28|vanNH    |pdxST    |     5|        |         |9       |         |pdxST    |      3|     |
@@ -682,7 +682,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    28|vanNH    |pdxST    |    14|        |         |7       |PUA      |pdxST    |      3|PUA  |
 |    28|vanNH    |pdxST    |    15|        |         |42      |G        |pdxST    |      3|G    |
 |    29|pdxST    |vanNH    |     1|88      |P        |        |         |NA       |      3|P    |
-|    29|pdxST    |vanNH    |     2|        |         |89      |         |NA       |      3|     |
+|    29|pdxST    |vanNH    |     2|        |         |89      |PU       |NA       |      3|PU   |
 |    29|pdxST    |vanNH    |     3|        |         |19      |VST      |NA       |      3|VST  |
 |    29|pdxST    |vanNH    |     4|8       |PU       |        |         |NA       |      3|PU   |
 |    29|pdxST    |vanNH    |     5|88      |         |        |         |NA       |      3|     |
@@ -692,7 +692,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    29|pdxST    |vanNH    |     9|        |         |91      |TT       |NA       |      3|TT   |
 |    29|pdxST    |vanNH    |    10|17      |PU       |        |         |NA       |      3|PU   |
 |    30|pdxST    |vanNH    |     1|88      |P        |        |         |vanNH    |      4|P    |
-|    30|pdxST    |vanNH    |     2|        |         |19      |         |vanNH    |      4|     |
+|    30|pdxST    |vanNH    |     2|        |         |19      |PU       |vanNH    |      4|PU   |
 |    30|pdxST    |vanNH    |     3|        |         |91      |         |vanNH    |      4|     |
 |    30|pdxST    |vanNH    |     4|        |         |21      |         |vanNH    |      4|     |
 |    30|pdxST    |vanNH    |     5|        |         |10      |         |vanNH    |      4|     |
@@ -725,7 +725,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    32|vanNH    |pdxST    |     9|        |         |4       |F        |vanNH    |      4|F    |
 |    32|vanNH    |pdxST    |    10|24      |G        |        |         |vanNH    |      4|G    |
 |    33|vanNH    |pdxST    |     1|33      |P        |        |         |vanNH    |      4|P    |
-|    33|vanNH    |pdxST    |     2|        |         |7       |         |vanNH    |      4|     |
+|    33|vanNH    |pdxST    |     2|        |         |7       |PU       |vanNH    |      4|PU   |
 |    33|vanNH    |pdxST    |     3|        |         |73      |         |vanNH    |      4|     |
 |    33|vanNH    |pdxST    |     4|        |         |8       |         |vanNH    |      4|     |
 |    33|vanNH    |pdxST    |     5|        |         |7       |         |vanNH    |      4|     |
@@ -749,7 +749,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    33|vanNH    |pdxST    |    23|91      |PUA      |        |         |vanNH    |      4|PUA  |
 |    33|vanNH    |pdxST    |    24|22      |G        |        |         |vanNH    |      4|G    |
 |    34|vanNH    |pdxST    |     1|81      |P        |        |         |pdxST    |      4|P    |
-|    34|vanNH    |pdxST    |     2|        |         |42      |         |pdxST    |      4|     |
+|    34|vanNH    |pdxST    |     2|        |         |42      |PU       |pdxST    |      4|PU   |
 |    34|vanNH    |pdxST    |     3|        |         |9       |         |pdxST    |      4|     |
 |    34|vanNH    |pdxST    |     4|        |         |73      |         |pdxST    |      4|     |
 |    34|vanNH    |pdxST    |     5|        |         |6       |         |pdxST    |      4|     |
@@ -781,7 +781,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    34|vanNH    |pdxST    |    31|        |         |88      |A        |pdxST    |      4|A    |
 |    34|vanNH    |pdxST    |    32|        |         |9       |G        |pdxST    |      4|G    |
 |    35|pdxST    |vanNH    |     1|88      |P        |        |         |pdxST    |      4|P    |
-|    35|pdxST    |vanNH    |     2|        |         |89      |         |pdxST    |      4|     |
+|    35|pdxST    |vanNH    |     2|        |         |89      |PU       |pdxST    |      4|PU   |
 |    35|pdxST    |vanNH    |     3|        |         |19      |         |pdxST    |      4|     |
 |    35|pdxST    |vanNH    |     4|        |         |22      |         |pdxST    |      4|     |
 |    35|pdxST    |vanNH    |     5|        |         |10      |         |pdxST    |      4|     |
@@ -796,7 +796,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    35|pdxST    |vanNH    |    14|8       |A        |        |         |pdxST    |      4|A    |
 |    35|pdxST    |vanNH    |    15|4       |LG       |        |         |pdxST    |      4|LG   |
 |    36|pdxST    |vanNH    |     1|7       |P        |        |         |vanNH    |      4|P    |
-|    36|pdxST    |vanNH    |     2|        |         |89      |         |vanNH    |      4|     |
+|    36|pdxST    |vanNH    |     2|        |         |89      |PU       |vanNH    |      4|PU   |
 |    36|pdxST    |vanNH    |     3|        |         |91      |         |vanNH    |      4|     |
 |    36|pdxST    |vanNH    |     4|        |         |22      |         |vanNH    |      4|     |
 |    36|pdxST    |vanNH    |     5|        |         |21      |         |vanNH    |      4|     |
@@ -824,7 +824,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    37|vanNH    |pdxST    |    11|        |         |73      |A        |pdxST    |      4|A    |
 |    37|vanNH    |pdxST    |    12|        |         |2       |G        |pdxST    |      4|G    |
 |    38|pdxST    |vanNH    |     1|88      |P        |        |         |pdxST    |      4|P    |
-|    38|pdxST    |vanNH    |     2|        |         |89      |         |pdxST    |      4|     |
+|    38|pdxST    |vanNH    |     2|        |         |89      |PU       |pdxST    |      4|PU   |
 |    38|pdxST    |vanNH    |     3|        |         |91      |         |pdxST    |      4|     |
 |    38|pdxST    |vanNH    |     4|        |         |21      |         |pdxST    |      4|     |
 |    38|pdxST    |vanNH    |     5|5       |D        |        |         |pdxST    |      4|D    |
@@ -844,7 +844,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |    38|pdxST    |vanNH    |    19|11      |A        |        |         |pdxST    |      4|A    |
 |    38|pdxST    |vanNH    |    20|2       |LG       |        |         |pdxST    |      4|LG   |
 |    39|pdxST    |vanNH    |     1|88      |P        |        |         |NA       |      4|P    |
-|    39|pdxST    |vanNH    |     2|        |         |19      |         |NA       |      4|     |
+|    39|pdxST    |vanNH    |     2|        |         |19      |PU       |NA       |      4|PU   |
 |    39|pdxST    |vanNH    |     3|        |         |91      |         |NA       |      4|     |
 |    39|pdxST    |vanNH    |     4|        |         |10      |         |NA       |      4|     |
 |    39|pdxST    |vanNH    |     5|5       |D        |        |         |NA       |      4|D    |

@@ -235,6 +235,9 @@ if(length(fix_me) > 0) {
 # point event pullRaw pullNum pullCode recvRaw recvNum recvCode
 # 490    35    12     88F      88        F     75g      75        G
 
+# 2014-06-07_seaRM-at-vanNH
+# point event pullRaw pullNum pullCode recvRaw recvNum recvCode
+# 354    25    18    37TO      37       TO     ?VP       ?       VP
 
 ## function to get the "other" team
 get_opponent <- function(x) {

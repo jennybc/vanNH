@@ -1,6 +1,6 @@
 point	Offense	Defense
 1		18P
-1	19	
+1	19PU	
 1	89	
 1	21	
 1	89	
@@ -11,11 +11,11 @@ point	Offense	Defense
 1	91	
 1	10LG	
 2		8OBP
-2	1	
+2	1PU	
 2	6	
 2	8LG	
 3		18P
-3	19	
+3	19PU	
 3	91	
 3	19	
 3	22	
@@ -27,13 +27,13 @@ point	Offense	Defense
 3	89F	2
 3		12G
 4		24P
-4	19	
+4	19PU	
 4	89	
 4	21	
 4	91	
 4	72LG	
 5		8P
-5	'00	
+5	00PU	
 5	1	
 5	6	
 5	'00	
@@ -46,13 +46,13 @@ point	Offense	Defense
 5	6	
 5	1G	
 6		18P
-6	89	
+6	89PU	
 6	91	
 6	98	
 6	22	
 6	10LG	
 7		8P
-7	'00	
+7	00PU	
 7	20	
 7	48	
 7	20	
@@ -77,7 +77,7 @@ point	Offense	Defense
 7		8
 7		11G
 8		37P
-8	'00	
+8	00PU	
 8	1	
 8	14	
 8	'00	
@@ -91,7 +91,7 @@ point	Offense	Defense
 8		24pu
 8		37G
 9		8P
-9	'00	
+9	00PU	
 9	17	
 9	'00	
 9	6	
@@ -103,7 +103,7 @@ point	Offense	Defense
 9	48	
 9	20G	
 10		18OBP
-10	91	
+10	91PU	
 10	19	
 10	19f	
 10	89	
@@ -123,7 +123,7 @@ point	Offense	Defense
 10		29
 10		18G
 11		24P
-11	19	
+11	19PU	
 11	91	
 11	22	
 11	89	
@@ -132,7 +132,7 @@ point	Offense	Defense
 11	89L	
 11	98G	
 12		8OBP
-12	20	
+12	20PU	
 12	'00	
 12	8	
 12	20	
@@ -155,13 +155,13 @@ point	Offense	Defense
 13	89	
 13	91	
 13	19G	
-14	NA	8P
-14	14	
+14		8P
+14	14PU	
 14	1	
 14	6	
-14	NA	8D
+14		8D
 15		8P
-15	'00	
+15	00PU	
 15	1	
 15	9	
 15	1	
@@ -172,7 +172,7 @@ point	Offense	Defense
 15	1L	
 15	00G	
 16		29P
-16	89	
+16	89PU	
 16	91	
 16	10	
 16		29pu
@@ -182,23 +182,23 @@ point	Offense	Defense
 16	21F	24
 16		29
 16		23G
-17	NA	29P
-17	91	
+17		29P
+17	91PU	
 17	98	
 17	91	
 17	19	
 17	89	
-17	NA	29pu
-17	NA	12
-17	NA	15
-17	NA	23
-17	NA	77
-17	NA	29
-17	NA	2L
-17	NA	18
-17	NA	29G
+17		29pu
+17		12
+17		15
+17		23
+17		77
+17		29
+17		2L
+17		18
+17		29G
 18		24P
-18	89	
+18	89PU	
 18	91	
 18	19	
 18	72	
@@ -207,7 +207,7 @@ point	Offense	Defense
 18	72	
 18	19G	
 19		8P
-19	14	
+19	14PU	
 19	1	
 19	14	
 19	1	
@@ -227,7 +227,7 @@ point	Offense	Defense
 19	17	
 19	6G	
 20		29P
-20	89	
+20	89PU	
 20	19	
 20	21	
 20	91	
@@ -241,13 +241,13 @@ point	Offense	Defense
 20	89	
 20	10G	
 21		37P
-21	'00	
+21	00PU	
 21	20	
 21	48L	
 21	8	
 21	17G	
 22		29P
-22	89	
+22	89PU	
 22	19	
 22	89	
 22	10	
@@ -271,7 +271,7 @@ point	Offense	Defense
 22	7	
 22	27G	
 23		8P
-23	'00	
+23	00PU	
 23	1	
 23	17	
 23	6	
@@ -290,7 +290,7 @@ point	Offense	Defense
 23		91
 23		21G
 24		8P
-24	14	
+24	14PU	
 24	1	
 24	'00	
 24	1	
@@ -299,17 +299,17 @@ point	Offense	Defense
 24	17	
 24	14G	
 25		29P
-25	19	
+25	19PU	
 25	81	
 25	21	
 25	10LG	
-26	NA	8P
-26	1	
+26		8P
+26	1PU	
 26	20	
 26	1	
-26	NA	8D
-27	NA	29P
-27	19	
+26		8D
+27		29P
+27	19PU	
 27	89	
 27	10	
 27	22	
@@ -320,18 +320,18 @@ point	Offense	Defense
 27	19	
 27	91	
 27	21	
-27	NA	15D
-27	NA	29pu
-27	NA	21
-27	NA	18
-27	NA	21
-27	NA	29
-27	NA	23L
-27	NA	21
-27	NA	12
-27	NA	21G
+27		15D
+27		29pu
+27		21
+27		18
+27		21
+27		29
+27		23L
+27		21
+27		12
+27		21G
 28		24P
-28	89	
+28	89PU	
 28	91	
 28	89	
 28	10	
@@ -340,7 +340,7 @@ point	Offense	Defense
 28	21	
 28	72LG	
 29		8P
-29	1	
+29	1PU	
 29	20	
 29	1	
 29	20	
@@ -348,19 +348,19 @@ point	Offense	Defense
 29	17	
 29	6	
 29	48LG	
-30	NA	29P
-30	89	
+30		29P
+30	89PU	
 30	19	
 30	21	
 30	22	
-30	NA	18D
-30	NA	29pu
-30	NA	18
-30	NA	21
-30	NA	23L
-30	NA	18G
+30		18D
+30		29pu
+30		18
+30		21
+30		23L
+30		18G
 31		29P
-31	19	
+31	19PU	
 31	91	
 31	10	
 31	98	
@@ -368,7 +368,7 @@ point	Offense	Defense
 31	19	
 31	98G	
 32		8P
-32	'00	
+32	00PU	
 32	1	
 32	9	
 32	14	
@@ -377,7 +377,7 @@ point	Offense	Defense
 32	6L	
 32	9G	
 33		29P
-33	91	
+33	91PU	
 33	19	
 33	91	
 33	22	
@@ -386,7 +386,7 @@ point	Offense	Defense
 33	98	
 33	72G	
 34		8P
-34	'00	
+34	00PU	
 34	1	
 34	'00	
 34	6	
@@ -408,7 +408,7 @@ point	Offense	Defense
 34		89
 34		10G
 35		8P
-35	'00	
+35	00PU	
 35	1	
 35	'00	
 35	14	
@@ -428,17 +428,17 @@ point	Offense	Defense
 35	14	
 35	17	
 35	1G	
-36	NA	29P
-36	89	
+36		29P
+36	89PU	
 36	91	
-36	NA	23D
-36	NA	29pu
-36	NA	18
-36	NA	23
-36	NA	21
-36	NA	12G
+36		23D
+36		29pu
+36		18
+36		23
+36		21
+36		12G
 37		29P
-37	19	
+37	19PU	
 37	89	
 37	21	
 37	19	
@@ -459,7 +459,7 @@ point	Offense	Defense
 37	89	
 37	21G	
 38		8P
-38	1	
+38	1PU	
 38	20	
 38	1	
 38	20	
@@ -470,7 +470,7 @@ point	Offense	Defense
 38		8pu
 38	8HB	
 39		8P
-39	14	
+39	14PU	
 39	1	
 39	'00	
 39	1	
@@ -480,7 +480,7 @@ point	Offense	Defense
 39	17	
 39	9LG	
 40		18P
-40	19	
+40	19PU	
 40	89	
 40	91	
 40	19	
@@ -504,7 +504,7 @@ point	Offense	Defense
 40	91	
 40	10G	
 41		8P
-41	1	
+41	1PU	
 41	20	
 41	'00	
 41	20	
@@ -533,7 +533,7 @@ point	Offense	Defense
 41		91
 41		19G
 42		8OBP
-42	1	
+42	1PU	
 42	'00	
 42	1	
 42	'00	
@@ -551,7 +551,7 @@ point	Offense	Defense
 42	8pu	
 42	6G	
 43		29P
-43	89	
+43	89PU	
 43	91	
 43	98	
 43	91	
@@ -575,7 +575,7 @@ point	Offense	Defense
 43	27	
 43	24G	
 44		8P
-44	1	
+44	1PU	
 44	20	
 44	14	
 44	1	
@@ -586,12 +586,12 @@ point	Offense	Defense
 44	14	
 44	20LG	
 45		29P
-45	89	
+45	89PU	
 45	19	
 45	21	
 45	91LG	
 46		8P
-46	'00	
+46	00PU	
 46	20	
 46	9	
 46	'00	
@@ -600,7 +600,7 @@ point	Offense	Defense
 46	9	
 46	48G	
 47		24P
-47	89	
+47	89PU	
 47	91	
 47	19	
 47	21	
@@ -614,7 +614,7 @@ point	Offense	Defense
 47	91	
 47	89G	
 48		8P
-48	'00	
+48	00PU	
 48	20	
 48	9	
 48	'00	
@@ -625,14 +625,14 @@ point	Offense	Defense
 48		31pu
 48	6D	
 49		8P
-49	1	
+49	1PU	
 49	'00	
 49	20	
 49	48	
 49	20	
 49	6G	
 50		29P
-50	19	
+50	19PU	
 50	89	
 50	22	
 50	98	
@@ -657,14 +657,14 @@ point	Offense	Defense
 50	19	
 50	98G	
 51		8P
-51	20	
+51	20PU	
 51	1	
 51	17	
 51	8	
 51	9	
 51	17G	
 52		29P
-52	89	
+52	89PU	
 52	19	
 52	89	
 52	19	
@@ -704,12 +704,12 @@ point	Offense	Defense
 52	91	
 52	19	
 52	10G	
-53	NA	8P
-53	20	
+53		8P
+53	20PU	
 53	1	
 53	20	
 54		29P
-54	19	
+54	19PU	
 54	89	
 54	10	
 54	98	
@@ -723,7 +723,7 @@ point	Offense	Defense
 54	98	
 54	91G	
 55		8P
-55	1	
+55	1PU	
 55	20	
 55	17	
 55	20	
@@ -737,7 +737,7 @@ point	Offense	Defense
 55		91
 55		10G
 56		8P
-56	'00	
+56	00PU	
 56	20	
 56	17	
 56	8	11f
@@ -760,7 +760,7 @@ point	Offense	Defense
 56		11
 56		8G
 57		8P
-57	29	
+57	29PU	
 57	21	
 57	29	
 57	2	
@@ -778,9 +778,9 @@ point	Offense	Defense
 57		11
 57		4
 57		45G
-58	NA	8P
-58	20	
+58		8P
+58	20PU	
 58	1	
-58	NA	89pu
-58	NA	37
-58	NA	49G
+58		89pu
+58		37
+58		49G

@@ -20,7 +20,7 @@ point	Offense	Defense
 1	89	
 1	10G	
 2		8P
-2	20	
+2	20PU	
 2	6	
 2	51	
 2		18PU
@@ -45,12 +45,12 @@ point	Offense	Defense
 2		18
 2		8LG
 3		33P
-3	17	
+3	17PU	
 3	20	
 3	48L	
 3	6G	
 4		?P
-4	91	
+4	91PU	
 4	89	
 4	91	
 4	89TD	
@@ -98,7 +98,7 @@ point	Offense	Defense
 6	6	
 6	48LG	
 7		18P
-7	5	
+7	5PU	
 7	19	
 7	5	
 7	91	
@@ -111,14 +111,14 @@ point	Offense	Defense
 7	5	
 7	22G	
 8		8P
-8	?	
+8	?PU	
 8	20	
 8	1	
 8	25	
 8	99	
 8	48LG	
 9		18P
-9	89	
+9	89PU	
 9	5	
 9	98	
 9	21	
@@ -130,7 +130,7 @@ point	Offense	Defense
 9	21L	
 9	98G	
 10		?p
-10	?	
+10	?PU	
 10	6	
 10	17L	
 10	6	
@@ -152,7 +152,7 @@ point	Offense	Defense
 12	1	
 12		8D
 13		81P
-13	20	
+13	20PU	
 13	6	
 13	20	
 13	1	
@@ -168,7 +168,7 @@ point	Offense	Defense
 13	20	
 13	48G	
 14		18P
-14	5	
+14	5PU	
 14	91	
 14	21	
 14	19	
@@ -180,7 +180,7 @@ point	Offense	Defense
 15		8
 15		14G
 16		37P
-16	17	
+16	17PU	
 16	20	
 16	99	
 16	17	
@@ -197,7 +197,7 @@ point	Offense	Defense
 16		45L
 16		37G
 17		33P
-17	20	
+17	20PU	
 17	1	
 17	17	
 17	1	
@@ -213,7 +213,7 @@ point	Offense	Defense
 18	22	
 18	91LG	
 19		37P
-19	1	
+19	1PU	
 19	20	
 19	99	
 19	6	
@@ -228,7 +228,7 @@ point	Offense	Defense
 19	6	
 19	99G	
 20		18P
-20	19	
+20	19PU	
 20	5	
 20	21	
 20	5	
@@ -262,7 +262,7 @@ point	Offense	Defense
 22	91	
 22	21G	
 23		33P
-23	20	
+23	20PU	
 23	1	
 23	20	
 23	17	
@@ -275,7 +275,7 @@ point	Offense	Defense
 23	17	
 23	48G	
 24		18P
-24	19	
+24	19PU	
 24	91	
 24	21	
 24	10	
@@ -303,15 +303,15 @@ point	Offense	Defense
 24	19	
 24	5	
 24	72G	
-25	NA	33P
-25	6	
+25		33P
+25	6PU	
 25	20	
 25	99	
 25	17	22F
 25	1	
-25	NA	24D
-25	NA	27pu
-25	NA	45
+25		24D
+25		27pu
+25		45
 26		29P
 26	89PU	
 26	19	
@@ -338,7 +338,7 @@ point	Offense	Defense
 27	75	
 27	13G	
 28		81P
-28	1	
+28	1PU	
 28	20	
 28	1	
 28	20	
@@ -360,7 +360,7 @@ point	Offense	Defense
 29	72	
 29	98LG	
 30		33P
-30	17	
+30	17PU	
 30	20	
 30	25	
 30	1	
@@ -390,11 +390,11 @@ point	Offense	Defense
 31	8	
 31	4G	
 32		33P
-32	17	
+32	17PU	
 32	20	
 32	48G	
 33		29P
-33	5	
+33	5PU	
 33	19	
 33	5	
 33	22	
@@ -406,7 +406,7 @@ point	Offense	Defense
 33	5	
 33	22LG	
 34		81P
-34	17	
+34	17PU	
 34	25	
 34	17	
 34	1	
@@ -414,13 +414,13 @@ point	Offense	Defense
 34	1	
 34	99LG	
 35		29P
-35	89	
+35	89PU	
 35	5	
 35	21	
 35	72	
 35	98LG	
 36		81P
-36	1	
+36	1PU	
 36	20	
 36	17	
 36	25	
@@ -430,7 +430,7 @@ point	Offense	Defense
 36		31L
 36		4G
 37		33P
-37	25	
+37	25PU	
 37	1	
 37	17	
 37	48	
@@ -455,7 +455,7 @@ point	Offense	Defense
 38		8
 38		27G
 39		33P
-39	1	
+39	1PU	
 39	29	
 39	18	
 39	29	18F
@@ -481,7 +481,7 @@ point	Offense	Defense
 39		98PU
 39		72G
 40		81P
-40	1	
+40	1PU	
 40	20	
 40	1	
 40	20	
@@ -491,7 +491,7 @@ point	Offense	Defense
 40	20	
 40	51LG	
 41		4P
-41	5	
+41	5PU	
 41	91	
 41	5	
 41	22	
@@ -513,7 +513,7 @@ point	Offense	Defense
 41		20
 41		99LG
 42		29P
-42	75	
+42	75PU	
 42	89	
 42	75	
 42	8	
@@ -528,7 +528,7 @@ point	Offense	Defense
 42	22	
 42	8G	
 43		81P
-43	14	
+43	14PU	
 43	20	
 43	14	
 43	20	
@@ -542,14 +542,14 @@ point	Offense	Defense
 43	25	
 43	48LG	
 44		4P
-44	19	
+44	19PU	
 44	5	
 44	19	
 44	5	7F
 44	72L	
 44	98G	
 45		33P
-45	14	
+45	14PU	
 45	20	
 45	6	
 45	8L	
@@ -563,19 +563,19 @@ point	Offense	Defense
 46	72	
 46	98L	
 46	19G	
-47	NA	81P
-47	1	
+47		81P
+47	1PU	
 47	20	
 47	6	
 47	20	
-47	NA	4D
-47	NA	45PU
-47	NA	24
-47	NA	45
-47	NA	81
-47	NA	27G
+47		4D
+47		45PU
+47		24
+47		45
+47		81
+47		27G
 48		18P
-48	20	
+48	20PU	
 48	6	
 48	20	
 48	14	
@@ -595,7 +595,7 @@ point	Offense	Defense
 49	21	
 49	72G	
 50		33P
-50	14	
+50	14PU	
 50	1	
 50	6LG	
 51		24OBP
@@ -608,7 +608,7 @@ point	Offense	Defense
 51	91	
 51	22G	
 52		33P
-52	17	
+52	17PU	
 52	1	
 52	99	
 52	6	
@@ -627,7 +627,7 @@ point	Offense	Defense
 52	99	
 52	25G	
 53		18P
-53	19	
+53	19PU	
 53	89	
 53	10	
 53	21	
@@ -640,8 +640,8 @@ point	Offense	Defense
 54	1	
 54	99	
 54	48G	
-55	NA	4P
-55	19	
+55		4P
+55	19PU	
 55	91	
 55	21	
 55	89	
