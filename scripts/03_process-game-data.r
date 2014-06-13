@@ -124,6 +124,14 @@ if(any(no_explicit_pull)) {
   print(game_play[no_explicit_pull, ])
 }
 
+## detect pickups off the pull with no valid PU code
+pickup_codes <- c('PU', 'PUA')
+no_explicit_pu <- with(game_play, event == 2 & !(recvCode %in% pickup_codes))
+if(any(no_explicit_pu)) {
+  message(paste("ALERT: point(s) with NO explicit pickup off the pull code (PU, PUA)"))
+  print(game_play[no_explicit_pu, ])
+}
+
 ## TO DO?
 ## detect points with no explicit goal
 # goal_regexp <- "L*G"
@@ -219,6 +227,14 @@ if(length(fix_me) > 0) {
 } else {
   message("no double game play rows remain")
 }
+
+## I want to have NO double game play rows.
+## here are some that still remain.
+
+# 2014-04-12_vanNH-at-pdxST
+# point event pullRaw pullNum pullCode recvRaw recvNum recvCode
+# 490    35    12     88F      88        F     75g      75        G
+
 
 ## function to get the "other" team
 get_opponent <- function(x) {
