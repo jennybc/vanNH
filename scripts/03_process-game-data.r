@@ -7,14 +7,14 @@ library(stringr)
 options <- commandArgs(trailingOnly = TRUE)
 
 if(length(options) < 1) {
-  #game <- "2014-04-12_vanNH-at-pdxST"
+  game <- "2014-04-12_vanNH-at-pdxST"
   #game <- "2014-04-20_sfoDF-at-vanNH"
   #game <- "2014-04-26_vanNH-at-sfoDF"
   #game <- "2014-05-10_seaRM-at-vanNH"
   #game <- "2014-05-17_vanNH-at-sfoDF"
   #game <- "2014-05-24_pdxST-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
-  game <- "2014-06-07_seaRM-at-vanNH"
+  #game <- "2014-06-07_seaRM-at-vanNH"
 } else {
   game <- options[1]
 }
@@ -133,7 +133,7 @@ if(any(no_explicit_pu)) {
 }
 
 ## TO DO?
-## detect points with no explicit goal
+## detect points with no explicit goal and make sure it's at end of a period
 # goal_regexp <- "L*G"
 # row_of_last_event <- daply(game_play, ~ point, function(x) x$event[nrow(x)])
 # ddply(game_play, ~ point, function(x) x[nrow(x), ])
@@ -148,6 +148,9 @@ game_play <- game_play[keeper_vars]
 fix_me <- with(game_play, which(pullNum != "" & recvNum != ""))
 message("rows with game play recorded for both teams")
 game_play[fix_me, ]
+
+# dgp_codes <- game_play[fix_me, c('pullCode', 'recvCode')]
+# aaply(as.matrix(dgp_codes), 1, sort)
 
 # simple_defensive_foul <- 
 #   intersect(fix_me,
@@ -164,7 +167,7 @@ game_play[fix_me, ]
 ## function to find fixable double game play rows
 find_double_game_plays <- function(z) {
   fix_me <- with(z, which(pullNum != "" & recvNum != ""))
-  non_foul_codes <- c('', 'PU', 'L')
+  non_foul_codes <- c('', 'PU', 'L', 'G', 'LG')
   is_a_single_foul <-
     with(z, which((pullCode %in% non_foul_codes & recvCode == 'F') |
                     (pullCode == 'F' & recvCode %in% non_foul_codes)))
@@ -176,7 +179,7 @@ find_double_game_plays <- function(z) {
 ## find rows where a play is recorded for both the O and the D
 ## when it's a defensive foul: insert a row to make two rows
 ## first row will hold O info, second will hold D
-## if it's a double sub, do something sensible, ie row order doesn't matter
+## if it's a double sub, do SO, SI, SO, SI
 jFun <- function(x) {
   fix_me <- find_double_game_plays(x)
   needs_fix <- length(fix_me) > 0
@@ -257,15 +260,25 @@ game_play <- subset(game_play, select = -c(recvRaw, pullRaw))
 ## determine which team scored and assign the assist
 jFun <- function(x) {
   n <- nrow(x)
-  codes <- c(recvCode = x[n, "recvCode"], pullCode = x[n, "pullCode"])
-  is_a_goal <- grepl("L*G", codes)
-  if(any(is_a_goal)) {
-    sc_team_rel <- substr(names(codes)[is_a_goal], 1, 4) # pull or recv?
+  point <- x$point[1]
+  is_a_goal <- function(x) grepl("L*G", x)
+  goal_ind <- as.matrix(colwise(is_a_goal)(x[c('recvCode', 'pullCode')]))
+  if(sum(laply(goal_ind, sum)) > 1) {
+    message("point: ", point, " ... more than one goal code detected!")
+  }
+  goal_row <- which(aaply(goal_ind, 1, any))
+  if(length(goal_row) > 0) {
+    ## I do it this way in case there is foul on the goal catch, which
+    ## means the n-th event is not the goal itself    
+    goal_row <- max(goal_row)
+    codes <- c(recvCode = x[goal_row, "recvCode"],
+               pullCode = x[goal_row, "pullCode"])
+    sc_team_rel <- substr(names(codes)[is_a_goal(codes)], 1, 4) # pull or recv?
     sc_team_abs <-                                       # e.g. vanNH or seaRM?
       switch(sc_team_rel, recv = as.character(x$recvTeam[1]),
              pull = as.character(x$pullTeam[1]), NA)
     sc_team_num <- x[[paste0(sc_team_rel, "Num")]]  # all nums for scoring team
-    sc_team_num <- sc_team_num[-n]                  # peel the goal off the end
+    sc_team_num <- sc_team_num[-(goal_row:n)]       # peel the goal off the end
     ## I do it this way in case there is an intervening defensive foul, which
     ## means the (n-1)-th event is not the assist
     assist_row <- max(which(sc_team_num != ''))
@@ -279,8 +292,6 @@ jFun <- function(x) {
   } else {
     sc_team_abs <- NA
   }
-  #print(x[(n - 2):n, ])
-  #cat("scoring team:", sc_team_abs, "\n\n")
   return(data.frame(x, scorTeam = sc_team_abs))
 }
 game_play <- ddply(game_play, ~ point, jFun)
