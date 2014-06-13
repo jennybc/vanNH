@@ -1,6 +1,7 @@
 library(plyr)
 library(methods) # needed so testthat works when I call this via RScript
 library(yaml)
+library(stringr)
 
 ## when run in batch mode, provide game identifier on command line
 options <- commandArgs(trailingOnly = TRUE)
@@ -10,10 +11,10 @@ if(length(options) < 1) {
   #game <- "2014-04-20_sfoDF-at-vanNH"
   #game <- "2014-04-26_vanNH-at-sfoDF"
   #game <- "2014-05-10_seaRM-at-vanNH"
-  game <- "2014-05-17_vanNH-at-sfoDF"
+  #game <- "2014-05-17_vanNH-at-sfoDF"
   #game <- "2014-05-24_pdxST-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
-  #game <- "2014-06-07_seaRM-at-vanNH"
+  game <- "2014-06-07_seaRM-at-vanNH"
 } else {
   game <- options[1]
 }
@@ -77,7 +78,8 @@ jFun <- function(x) gsub("'","", x)
 game_play[c('pullRaw', 'recvRaw')] <-
   colwise(jFun)(game_play[c('pullRaw', 'recvRaw')])
 
-## game play data should be empty, start with a digit, or be [TO|to]
+## game play data should be empty, start with a ?, start with a digit, or be
+## [TO|to]
 jFun <- function(x) {
   x == "" | grepl("^[\\?\\d]", x, perl = TRUE) | 
     grepl("TO", x, ignore.case = TRUE)
@@ -92,8 +94,9 @@ if(any(weird_code)) {
 ## separate raw game play into a number and a code
 ## e.g. 81D into 81 and D
 jFun <- function(x) {
-  tmp <- regexpr("[0-9]+", x)
-  return(substring(x, tmp, tmp + attr(tmp, "match.length") - 1))
+  ret_val <- str_extract(x, perl("^[\\?\\d]+"))
+  ret_val[is.na(ret_val)] <- ""
+  return(ret_val)
 }
 game_play <-
   transform(game_play, recvNum = I(jFun(recvRaw)), pullNum = I(jFun(pullRaw)))
