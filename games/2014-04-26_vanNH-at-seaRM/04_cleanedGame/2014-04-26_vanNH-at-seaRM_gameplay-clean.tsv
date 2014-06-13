@@ -1,0 +1,530 @@
+point	pullTeam	recvTeam	event	pullNum	pullCode	recvNum	recvCode	scorTeam
+1	vanNH	seaRM	1	8	P			seaRM
+1	vanNH	seaRM	2			17		seaRM
+1	vanNH	seaRM	3			3		seaRM
+1	vanNH	seaRM	4			20		seaRM
+1	vanNH	seaRM	5			48		seaRM
+1	vanNH	seaRM	6			6		seaRM
+1	vanNH	seaRM	7			17		seaRM
+1	vanNH	seaRM	8			3		seaRM
+1	vanNH	seaRM	9			6	A	seaRM
+1	vanNH	seaRM	10			99	G	seaRM
+2	seaRM	vanNH	1	35	P			seaRM
+2	seaRM	vanNH	2			91		seaRM
+2	seaRM	vanNH	3			89		seaRM
+2	seaRM	vanNH	4			91		seaRM
+2	seaRM	vanNH	5			6		seaRM
+2	seaRM	vanNH	6			89		seaRM
+2	seaRM	vanNH	7			6	L	seaRM
+2	seaRM	vanNH	8	35	D			seaRM
+2	seaRM	vanNH	9	29	PU			seaRM
+2	seaRM	vanNH	10	23	L			seaRM
+2	seaRM	vanNH	11			89	PU	seaRM
+2	seaRM	vanNH	12			21		seaRM
+2	seaRM	vanNH	13			98		seaRM
+2	seaRM	vanNH	14	21	PU			seaRM
+2	seaRM	vanNH	15	35				seaRM
+2	seaRM	vanNH	16	9				seaRM
+2	seaRM	vanNH	17	29				seaRM
+2	seaRM	vanNH	18	9				seaRM
+2	seaRM	vanNH	19	29				seaRM
+2	seaRM	vanNH	20	21	A			seaRM
+2	seaRM	vanNH	21	35	LG			seaRM
+3	seaRM	vanNH	1	8	P			seaRM
+3	seaRM	vanNH	2			18		seaRM
+3	seaRM	vanNH	3	3	D			seaRM
+3	seaRM	vanNH	4	20	PU			seaRM
+3	seaRM	vanNH	5	6	A			seaRM
+3	seaRM	vanNH	6	51	G			seaRM
+4	seaRM	vanNH	1	35	P			vanNH
+4	seaRM	vanNH	2			19		vanNH
+4	seaRM	vanNH	3			91		vanNH
+4	seaRM	vanNH	4			98		vanNH
+4	seaRM	vanNH	5			89		vanNH
+4	seaRM	vanNH	6			91		vanNH
+4	seaRM	vanNH	7			98	A	vanNH
+4	seaRM	vanNH	8			22	LG	vanNH
+5	vanNH	seaRM	1	8	P			seaRM
+5	vanNH	seaRM	2			25		seaRM
+5	vanNH	seaRM	3			3		seaRM
+5	vanNH	seaRM	4			17		seaRM
+5	vanNH	seaRM	5			25		seaRM
+5	vanNH	seaRM	6			3		seaRM
+5	vanNH	seaRM	7			20	A	seaRM
+5	vanNH	seaRM	8			99	LG	seaRM
+6	seaRM	vanNH	1	35	P			vanNH
+6	seaRM	vanNH	2			91		vanNH
+6	seaRM	vanNH	3			89		vanNH
+6	seaRM	vanNH	4			19		vanNH
+6	seaRM	vanNH	5			89		vanNH
+6	seaRM	vanNH	6			98		vanNH
+6	seaRM	vanNH	7			21		vanNH
+6	seaRM	vanNH	8			19		vanNH
+6	seaRM	vanNH	9			91		vanNH
+6	seaRM	vanNH	10			98		vanNH
+6	seaRM	vanNH	11			10		vanNH
+6	seaRM	vanNH	12			21	A	vanNH
+6	seaRM	vanNH	13			98	LG	vanNH
+7	vanNH	seaRM	1	33	P			vanNH
+7	vanNH	seaRM	2			25		vanNH
+7	vanNH	seaRM	3			3		vanNH
+7	vanNH	seaRM	4			17		vanNH
+7	vanNH	seaRM	5			48	L	vanNH
+7	vanNH	seaRM	6	14	D			vanNH
+7	vanNH	seaRM	7	14	SO			vanNH
+7	vanNH	seaRM	8	91	SI			vanNH
+7	vanNH	seaRM	9	91	PU			vanNH
+7	vanNH	seaRM	10	8				vanNH
+7	vanNH	seaRM	11	21				vanNH
+7	vanNH	seaRM	12	91	LA			vanNH
+7	vanNH	seaRM	13	13	G			vanNH
+8	vanNH	seaRM	1	33	P			seaRM
+8	vanNH	seaRM	2			1		seaRM
+8	vanNH	seaRM	3			3		seaRM
+8	vanNH	seaRM	4			26		seaRM
+8	vanNH	seaRM	5			3		seaRM
+8	vanNH	seaRM	6	27	D			seaRM
+8	vanNH	seaRM	7	18	PU			seaRM
+8	vanNH	seaRM	8	31	L			seaRM
+8	vanNH	seaRM	9	27				seaRM
+8	vanNH	seaRM	10	37				seaRM
+8	vanNH	seaRM	11			3	PU	seaRM
+8	vanNH	seaRM	12			1		seaRM
+8	vanNH	seaRM	13			6		seaRM
+8	vanNH	seaRM	14			1		seaRM
+8	vanNH	seaRM	15	33	PU			seaRM
+8	vanNH	seaRM	16			20	D	seaRM
+8	vanNH	seaRM	17			3	PU	seaRM
+8	vanNH	seaRM	18			6	A	seaRM
+8	vanNH	seaRM	19			25	LG	seaRM
+9	seaRM	vanNH	1	35	OBP			vanNH
+9	seaRM	vanNH	2			91		vanNH
+9	seaRM	vanNH	3			21		vanNH
+9	seaRM	vanNH	4			91		vanNH
+9	seaRM	vanNH	5			72	LA	vanNH
+9	seaRM	vanNH	6			98	G	vanNH
+10	vanNH	seaRM	1	8	P			vanNH
+10	vanNH	seaRM	2			00		vanNH
+10	vanNH	seaRM	3			3		vanNH
+10	vanNH	seaRM	4			00		vanNH
+10	vanNH	seaRM	5			3		vanNH
+10	vanNH	seaRM	6			17		vanNH
+10	vanNH	seaRM	7	18	PU			vanNH
+10	vanNH	seaRM	8	14				vanNH
+10	vanNH	seaRM	9	8				vanNH
+10	vanNH	seaRM	10	13	LA			vanNH
+10	vanNH	seaRM	11	45	G			vanNH
+11	vanNH	seaRM	1	33	OBP			NA
+11	vanNH	seaRM	2			3		NA
+11	vanNH	seaRM	3			20		NA
+11	vanNH	seaRM	4	33	D			NA
+11	vanNH	seaRM	5	33				NA
+11	vanNH	seaRM	6	37				NA
+11	vanNH	seaRM	7	14				NA
+11	vanNH	seaRM	8	81				NA
+11	vanNH	seaRM	9	37				NA
+11	vanNH	seaRM	10	31				NA
+11	vanNH	seaRM	11	33				NA
+11	vanNH	seaRM	12	37				NA
+11	vanNH	seaRM	13	27	TD			NA
+11	vanNH	seaRM	14			3	PU	NA
+11	vanNH	seaRM	15	81	F			NA
+11	vanNH	seaRM	16	33	PU			NA
+12	vanNH	seaRM	1	8	P			vanNH
+12	vanNH	seaRM	2			20		vanNH
+12	vanNH	seaRM	3			3		vanNH
+12	vanNH	seaRM	4			6		vanNH
+12	vanNH	seaRM	5			20		vanNH
+12	vanNH	seaRM	6	18	D			vanNH
+12	vanNH	seaRM	7	81	PU			vanNH
+12	vanNH	seaRM	8	31				vanNH
+12	vanNH	seaRM	9	45				vanNH
+12	vanNH	seaRM	10	27				vanNH
+12	vanNH	seaRM	11	8				vanNH
+12	vanNH	seaRM	12			99	F	vanNH
+12	vanNH	seaRM	13	18	TD			vanNH
+12	vanNH	seaRM	14			3	PU	vanNH
+12	vanNH	seaRM	15			25		vanNH
+12	vanNH	seaRM	16			6		vanNH
+12	vanNH	seaRM	17			3		vanNH
+12	vanNH	seaRM	18			48		vanNH
+12	vanNH	seaRM	19			3		vanNH
+12	vanNH	seaRM	20	45	PUA			vanNH
+12	vanNH	seaRM	21	81	G			vanNH
+13	vanNH	seaRM	1	33	P			seaRM
+13	vanNH	seaRM	2			3	PU	seaRM
+13	vanNH	seaRM	3			20		seaRM
+13	vanNH	seaRM	4			6		seaRM
+13	vanNH	seaRM	5			25		seaRM
+13	vanNH	seaRM	6			99	LA	seaRM
+13	vanNH	seaRM	7			6	G	seaRM
+14	seaRM	vanNH	1	35	P			seaRM
+14	seaRM	vanNH	2			91		seaRM
+14	seaRM	vanNH	3			5		seaRM
+14	seaRM	vanNH	4	9	PU			seaRM
+14	seaRM	vanNH	5	8				seaRM
+14	seaRM	vanNH	6	29				seaRM
+14	seaRM	vanNH	7	28				seaRM
+14	seaRM	vanNH	8	28	TO			seaRM
+14	seaRM	vanNH	9	3	PU			seaRM
+14	seaRM	vanNH	10	17				seaRM
+14	seaRM	vanNH	11	6				seaRM
+14	seaRM	vanNH	12	3				seaRM
+14	seaRM	vanNH	13	6	A			seaRM
+14	seaRM	vanNH	14	48	G			seaRM
+15	seaRM	vanNH	1	4	P			seaRM
+15	seaRM	vanNH	2			91		seaRM
+15	seaRM	vanNH	3			89		seaRM
+15	seaRM	vanNH	4			19		seaRM
+15	seaRM	vanNH	5			91		seaRM
+15	seaRM	vanNH	6			19		seaRM
+15	seaRM	vanNH	7			21		seaRM
+15	seaRM	vanNH	8			19		seaRM
+15	seaRM	vanNH	9			91		seaRM
+15	seaRM	vanNH	10			89		seaRM
+15	seaRM	vanNH	11			98		seaRM
+15	seaRM	vanNH	12			89		seaRM
+15	seaRM	vanNH	13			21		seaRM
+15	seaRM	vanNH	14			5		seaRM
+15	seaRM	vanNH	15	9	D			seaRM
+15	seaRM	vanNH	16	29	PU			seaRM
+15	seaRM	vanNH	17			89	PU	seaRM
+15	seaRM	vanNH	18			19		seaRM
+15	seaRM	vanNH	19			5		seaRM
+15	seaRM	vanNH	20	13	D			seaRM
+15	seaRM	vanNH	21	21	PUA			seaRM
+15	seaRM	vanNH	22	2	G			seaRM
+16	seaRM	vanNH	1	35	P			vanNH
+16	seaRM	vanNH	2			89		vanNH
+16	seaRM	vanNH	3			91		vanNH
+16	seaRM	vanNH	4			89		vanNH
+16	seaRM	vanNH	5			91		vanNH
+16	seaRM	vanNH	6			22		vanNH
+16	seaRM	vanNH	7			89		vanNH
+16	seaRM	vanNH	8			8	A	vanNH
+16	seaRM	vanNH	9			10	G	vanNH
+17	vanNH	seaRM	1	33	P			seaRM
+17	vanNH	seaRM	2			3		seaRM
+17	vanNH	seaRM	3			48		seaRM
+17	vanNH	seaRM	4			25		seaRM
+17	vanNH	seaRM	5			17	A	seaRM
+17	vanNH	seaRM	6			48	LG	seaRM
+18	seaRM	vanNH	1	35	P			vanNH
+18	seaRM	vanNH	2			19		vanNH
+18	seaRM	vanNH	3			5		vanNH
+18	seaRM	vanNH	4			19		vanNH
+18	seaRM	vanNH	5			89		vanNH
+18	seaRM	vanNH	6			19		vanNH
+18	seaRM	vanNH	7			22		vanNH
+18	seaRM	vanNH	8			19		vanNH
+18	seaRM	vanNH	9			22		vanNH
+18	seaRM	vanNH	10			5		vanNH
+18	seaRM	vanNH	11			21		vanNH
+18	seaRM	vanNH	12	35	D			vanNH
+18	seaRM	vanNH	13	29	TO			vanNH
+18	seaRM	vanNH	14	3	PU			vanNH
+18	seaRM	vanNH	15	20				vanNH
+18	seaRM	vanNH	16	17				vanNH
+18	seaRM	vanNH	17	6				vanNH
+18	seaRM	vanNH	18			18	PU	vanNH
+18	seaRM	vanNH	19			31	L	vanNH
+18	seaRM	vanNH	20	3	PU			vanNH
+18	seaRM	vanNH	21	20				vanNH
+18	seaRM	vanNH	22			81	PU	vanNH
+18	seaRM	vanNH	23			18	TO	vanNH
+18	seaRM	vanNH	24			91	PU	vanNH
+18	seaRM	vanNH	25			98	A	vanNH
+18	seaRM	vanNH	26			22	G	vanNH
+19	vanNH	seaRM	1	8	OBP			seaRM
+19	vanNH	seaRM	2			3		seaRM
+19	vanNH	seaRM	3			00		seaRM
+19	vanNH	seaRM	4			3		seaRM
+19	vanNH	seaRM	5			6		seaRM
+19	vanNH	seaRM	6	45	D			seaRM
+19	vanNH	seaRM	7	45				seaRM
+19	vanNH	seaRM	8	8	SO			seaRM
+19	vanNH	seaRM	9	21	SI			seaRM
+19	vanNH	seaRM	10	45				seaRM
+19	vanNH	seaRM	11			00	D	seaRM
+19	vanNH	seaRM	12			3	PU	seaRM
+19	vanNH	seaRM	13			00		seaRM
+19	vanNH	seaRM	14			3		seaRM
+19	vanNH	seaRM	15			9		seaRM
+19	vanNH	seaRM	16			3		seaRM
+19	vanNH	seaRM	17			48		seaRM
+19	vanNH	seaRM	18			3	A	seaRM
+19	vanNH	seaRM	19			48	G	seaRM
+20	seaRM	vanNH	1	35	P			vanNH
+20	seaRM	vanNH	2			91		vanNH
+20	seaRM	vanNH	3			89		vanNH
+20	seaRM	vanNH	4			5		vanNH
+20	seaRM	vanNH	5			91		vanNH
+20	seaRM	vanNH	6			5		vanNH
+20	seaRM	vanNH	7			91		vanNH
+20	seaRM	vanNH	8			98		vanNH
+20	seaRM	vanNH	9			22		vanNH
+20	seaRM	vanNH	10			98		vanNH
+20	seaRM	vanNH	11			22		vanNH
+20	seaRM	vanNH	12			89		vanNH
+20	seaRM	vanNH	13	13	PU			vanNH
+20	seaRM	vanNH	14			89	D	vanNH
+20	seaRM	vanNH	15			89	A	vanNH
+20	seaRM	vanNH	16			98	LG	vanNH
+21	seaRM	vanNH	1	35	P			seaRM
+21	seaRM	vanNH	2			19		seaRM
+21	seaRM	vanNH	3			89		seaRM
+21	seaRM	vanNH	4			19		seaRM
+21	seaRM	vanNH	5			89		seaRM
+21	seaRM	vanNH	6			91		seaRM
+21	seaRM	vanNH	7			19		seaRM
+21	seaRM	vanNH	8			91		seaRM
+21	seaRM	vanNH	9			22		seaRM
+21	seaRM	vanNH	10			91		seaRM
+21	seaRM	vanNH	11	9	D			seaRM
+21	seaRM	vanNH	12	9				seaRM
+21	seaRM	vanNH	13	29				seaRM
+21	seaRM	vanNH	14	21	A			seaRM
+21	seaRM	vanNH	15	23	G			seaRM
+22	seaRM	vanNH	1	20	P			vanNH
+22	seaRM	vanNH	2			91	A	vanNH
+22	seaRM	vanNH	3			89	LG	vanNH
+23	vanNH	seaRM	1	8	P			seaRM
+23	vanNH	seaRM	2			25		seaRM
+23	vanNH	seaRM	3			20		seaRM
+23	vanNH	seaRM	4			3		seaRM
+23	vanNH	seaRM	5			6		seaRM
+23	vanNH	seaRM	6			25		seaRM
+23	vanNH	seaRM	7			3		seaRM
+23	vanNH	seaRM	8			25		seaRM
+23	vanNH	seaRM	9			17		seaRM
+23	vanNH	seaRM	10			3		seaRM
+23	vanNH	seaRM	11			17		seaRM
+23	vanNH	seaRM	12			20		seaRM
+23	vanNH	seaRM	13			48		seaRM
+23	vanNH	seaRM	14	18	F			seaRM
+23	vanNH	seaRM	15			3	A	seaRM
+23	vanNH	seaRM	16			99	G	seaRM
+24	seaRM	vanNH	1	35	P			vanNH
+24	seaRM	vanNH	2			91		vanNH
+24	seaRM	vanNH	3			89		vanNH
+24	seaRM	vanNH	4			72		vanNH
+24	seaRM	vanNH	5			91		vanNH
+24	seaRM	vanNH	6			5		vanNH
+24	seaRM	vanNH	7			98		vanNH
+24	seaRM	vanNH	8			5		vanNH
+24	seaRM	vanNH	9			91		vanNH
+24	seaRM	vanNH	10			89		vanNH
+24	seaRM	vanNH	11			91		vanNH
+24	seaRM	vanNH	12			5	A	vanNH
+24	seaRM	vanNH	13			98	LG	vanNH
+25	vanNH	seaRM	1	8	P			vanNH
+25	vanNH	seaRM	2			20		vanNH
+25	vanNH	seaRM	3			3		vanNH
+25	vanNH	seaRM	4			20		vanNH
+25	vanNH	seaRM	5			6		vanNH
+25	vanNH	seaRM	6			3		vanNH
+25	vanNH	seaRM	7			17		vanNH
+25	vanNH	seaRM	8	33	PU			vanNH
+25	vanNH	seaRM	9			17	D	vanNH
+25	vanNH	seaRM	10			3	PU	vanNH
+25	vanNH	seaRM	11			6		vanNH
+25	vanNH	seaRM	12			3		vanNH
+25	vanNH	seaRM	13			17		vanNH
+25	vanNH	seaRM	14			3		vanNH
+25	vanNH	seaRM	15			20		vanNH
+25	vanNH	seaRM	16	91	PU			vanNH
+25	vanNH	seaRM	17	21				vanNH
+25	vanNH	seaRM	18	91				vanNH
+25	vanNH	seaRM	19	98				vanNH
+25	vanNH	seaRM	20	19				vanNH
+25	vanNH	seaRM	21	21				vanNH
+25	vanNH	seaRM	22	5				vanNH
+25	vanNH	seaRM	23	89				vanNH
+25	vanNH	seaRM	24	5				vanNH
+25	vanNH	seaRM	25			13	F	vanNH
+25	vanNH	seaRM	26	98				vanNH
+25	vanNH	seaRM	27	91	A			vanNH
+25	vanNH	seaRM	28	21	G			vanNH
+26	vanNH	seaRM	1	8	P			seaRM
+26	vanNH	seaRM	2			3		seaRM
+26	vanNH	seaRM	3			20		seaRM
+26	vanNH	seaRM	4			99		seaRM
+26	vanNH	seaRM	5			5		seaRM
+26	vanNH	seaRM	6			20		seaRM
+26	vanNH	seaRM	7			3	A	seaRM
+26	vanNH	seaRM	8			6	LG	seaRM
+27	seaRM	vanNH	1	35	P			seaRM
+27	seaRM	vanNH	2			5		seaRM
+27	seaRM	vanNH	3			91		seaRM
+27	seaRM	vanNH	4			21		seaRM
+27	seaRM	vanNH	5			91		seaRM
+27	seaRM	vanNH	6			5		seaRM
+27	seaRM	vanNH	7			19		seaRM
+27	seaRM	vanNH	8	2	D			seaRM
+27	seaRM	vanNH	9	29	PU			seaRM
+27	seaRM	vanNH	10	35				seaRM
+27	seaRM	vanNH	11			5	PU	seaRM
+27	seaRM	vanNH	12			22		seaRM
+27	seaRM	vanNH	13			91		seaRM
+27	seaRM	vanNH	14	9	D			seaRM
+27	seaRM	vanNH	15	35	PU			seaRM
+27	seaRM	vanNH	16	2				seaRM
+27	seaRM	vanNH	17	32				seaRM
+27	seaRM	vanNH	18	28				seaRM
+27	seaRM	vanNH	19	21	A			seaRM
+27	seaRM	vanNH	20	24	G			seaRM
+28	seaRM	vanNH	1	35	P			NA
+28	seaRM	vanNH	2			91		NA
+28	seaRM	vanNH	3			8		NA
+28	seaRM	vanNH	4	9	F			NA
+28	seaRM	vanNH	5			91		NA
+28	seaRM	vanNH	6	35	TO			NA
+28	seaRM	vanNH	7	3	PU			NA
+28	seaRM	vanNH	8	17				NA
+28	seaRM	vanNH	9	3				NA
+28	seaRM	vanNH	10	6				NA
+28	seaRM	vanNH	11			27	F	NA
+28	seaRM	vanNH	12	3				NA
+28	seaRM	vanNH	13	6				NA
+28	seaRM	vanNH	14	99				NA
+28	seaRM	vanNH	15	3				NA
+28	seaRM	vanNH	16	99				NA
+28	seaRM	vanNH	17	48	L			NA
+29	seaRM	vanNH	1	35	P			seaRM
+29	seaRM	vanNH	2			19		seaRM
+29	seaRM	vanNH	3			5		seaRM
+29	seaRM	vanNH	4			19		seaRM
+29	seaRM	vanNH	5			91		seaRM
+29	seaRM	vanNH	6			5		seaRM
+29	seaRM	vanNH	7			89		seaRM
+29	seaRM	vanNH	8			5		seaRM
+29	seaRM	vanNH	9			21		seaRM
+29	seaRM	vanNH	10			5		seaRM
+29	seaRM	vanNH	11			19		seaRM
+29	seaRM	vanNH	12			5		seaRM
+29	seaRM	vanNH	13			89		seaRM
+29	seaRM	vanNH	14			22		seaRM
+29	seaRM	vanNH	15			89		seaRM
+29	seaRM	vanNH	16			98		seaRM
+29	seaRM	vanNH	17			89		seaRM
+29	seaRM	vanNH	18			22		seaRM
+29	seaRM	vanNH	19	29	PU			seaRM
+29	seaRM	vanNH	20	35				seaRM
+29	seaRM	vanNH	21	21	LA			seaRM
+29	seaRM	vanNH	22	9	G			seaRM
+30	seaRM	vanNH	1	29	P			vanNH
+30	seaRM	vanNH	2			89		vanNH
+30	seaRM	vanNH	3			18	A	vanNH
+30	seaRM	vanNH	4			8	LG	vanNH
+31	vanNH	seaRM	1	8	P			seaRM
+31	vanNH	seaRM	2			25		seaRM
+31	vanNH	seaRM	3			3		seaRM
+31	vanNH	seaRM	4			99		seaRM
+31	vanNH	seaRM	5	8	TO			seaRM
+31	vanNH	seaRM	6	91	PU			seaRM
+31	vanNH	seaRM	7	98				seaRM
+31	vanNH	seaRM	8			29	D	seaRM
+31	vanNH	seaRM	9			21	PU	seaRM
+31	vanNH	seaRM	10			35		seaRM
+31	vanNH	seaRM	11			23		seaRM
+31	vanNH	seaRM	12			35		seaRM
+31	vanNH	seaRM	13			29		seaRM
+31	vanNH	seaRM	14			21		seaRM
+31	vanNH	seaRM	15			13		seaRM
+31	vanNH	seaRM	16			35	A	seaRM
+31	vanNH	seaRM	17			9	G	seaRM
+32	seaRM	vanNH	1	35	P			vanNH
+32	seaRM	vanNH	2			89		vanNH
+32	seaRM	vanNH	3			91		vanNH
+32	seaRM	vanNH	4			89		vanNH
+32	seaRM	vanNH	5			10		vanNH
+32	seaRM	vanNH	6			8		vanNH
+32	seaRM	vanNH	7			72		vanNH
+32	seaRM	vanNH	8			10		vanNH
+32	seaRM	vanNH	9			8	A	vanNH
+32	seaRM	vanNH	10			72	G	vanNH
+33	vanNH	seaRM	1	8	P			seaRM
+33	vanNH	seaRM	2			3		seaRM
+33	vanNH	seaRM	3			17	A	seaRM
+33	vanNH	seaRM	4			48	G	seaRM
+34	seaRM	vanNH	1	35	P			vanNH
+34	seaRM	vanNH	2			91		vanNH
+34	seaRM	vanNH	3			22		vanNH
+34	seaRM	vanNH	4			89		vanNH
+34	seaRM	vanNH	5			13	A	vanNH
+34	seaRM	vanNH	6			5	G	vanNH
+35	vanNH	seaRM	1	33	P			seaRM
+35	vanNH	seaRM	2			3		seaRM
+35	vanNH	seaRM	3			5		seaRM
+35	vanNH	seaRM	4			6		seaRM
+35	vanNH	seaRM	5			3		seaRM
+35	vanNH	seaRM	6			25		seaRM
+35	vanNH	seaRM	7			17		seaRM
+35	vanNH	seaRM	8			3		seaRM
+35	vanNH	seaRM	9			5		seaRM
+35	vanNH	seaRM	10			20		seaRM
+35	vanNH	seaRM	11	18	PU			seaRM
+35	vanNH	seaRM	12	45				seaRM
+35	vanNH	seaRM	13	75				seaRM
+35	vanNH	seaRM	14	8				seaRM
+35	vanNH	seaRM	15	18				seaRM
+35	vanNH	seaRM	16			27	D	seaRM
+35	vanNH	seaRM	17			3	PU	seaRM
+35	vanNH	seaRM	18			20		seaRM
+35	vanNH	seaRM	19			25		seaRM
+35	vanNH	seaRM	20			5		seaRM
+35	vanNH	seaRM	21			3		seaRM
+35	vanNH	seaRM	22	18	PU			seaRM
+35	vanNH	seaRM	23	45				seaRM
+35	vanNH	seaRM	24	8				seaRM
+35	vanNH	seaRM	25	33				seaRM
+35	vanNH	seaRM	26			3	D	seaRM
+35	vanNH	seaRM	27			20	TO	seaRM
+35	vanNH	seaRM	28			3	PU	seaRM
+35	vanNH	seaRM	29			17		seaRM
+35	vanNH	seaRM	30			6		seaRM
+35	vanNH	seaRM	31			17		seaRM
+35	vanNH	seaRM	32			5		seaRM
+35	vanNH	seaRM	33	8	PU			seaRM
+35	vanNH	seaRM	34	18				seaRM
+35	vanNH	seaRM	35	31				seaRM
+35	vanNH	seaRM	36	81				seaRM
+35	vanNH	seaRM	37	8				seaRM
+35	vanNH	seaRM	38	75				seaRM
+35	vanNH	seaRM	39	81				seaRM
+35	vanNH	seaRM	40			99	D	seaRM
+35	vanNH	seaRM	41			3	PUA	seaRM
+35	vanNH	seaRM	42			99	LG	seaRM
+36	seaRM	vanNH	1	35	P			seaRM
+36	seaRM	vanNH	2			5		seaRM
+36	seaRM	vanNH	3			91		seaRM
+36	seaRM	vanNH	4			22		seaRM
+36	seaRM	vanNH	5	35	PU			seaRM
+36	seaRM	vanNH	6	29				seaRM
+36	seaRM	vanNH	7	35				seaRM
+36	seaRM	vanNH	8	29				seaRM
+36	seaRM	vanNH	9	35				seaRM
+36	seaRM	vanNH	10			21	F	seaRM
+36	seaRM	vanNH	11	29				seaRM
+36	seaRM	vanNH	12	21				seaRM
+36	seaRM	vanNH	13			5	F	seaRM
+36	seaRM	vanNH	14	29				seaRM
+36	seaRM	vanNH	15	21				seaRM
+36	seaRM	vanNH	16	28				seaRM
+36	seaRM	vanNH	17	23				seaRM
+36	seaRM	vanNH	18	29				seaRM
+36	seaRM	vanNH	19	28				seaRM
+36	seaRM	vanNH	20	29				seaRM
+36	seaRM	vanNH	21	21				seaRM
+36	seaRM	vanNH	22	13				seaRM
+36	seaRM	vanNH	23	29	A			seaRM
+36	seaRM	vanNH	24	9	G			seaRM
+37	seaRM	vanNH	1	10				seaRM
+37	seaRM	vanNH	2	00				seaRM
+37	seaRM	vanNH	3	4	A			seaRM
+37	seaRM	vanNH	4	23	G			seaRM
+38	seaRM	vanNH	1	4	P			NA
+38	seaRM	vanNH	2			33		NA
+38	seaRM	vanNH	3			75		NA
+38	seaRM	vanNH	4			31		NA
+38	seaRM	vanNH	5	4	PU			NA

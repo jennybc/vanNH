@@ -1,7 +1,7 @@
 ---
 title: "In-house statistics for the Vancouver Nighthawks of Major League Ultimate"
 author: "Jenny Bryan"
-date: "10 June, 2014"
+date: "12 June, 2014"
 output:
   html_document:
     theme: readable
@@ -26,7 +26,7 @@ library(xtable)
 tmp <- c("week game",
          "01   2014-04-12_vanNH-at-pdxST",
          "02   2014-04-20_sfoDF-at-vanNH",
-         #"03   2014-04-26_vanNH-at-seaRM",
+         "03   2014-04-26_vanNH-at-seaRM",
          # 04 was a bye week for vanNH
          "05   2014-05-10_seaRM-at-vanNH",
          #"06   2014-05-17_vanNH-at-sfoDF",
@@ -91,7 +91,7 @@ Click on a date to see stats for a game.
 kable(pretty_stuff)
 ```
 
-Note: week 04 was a bye week for vanNH. Games from weeks 03 (2014-04-26_vanNH-at-seaRM) and 06 (2014-05-17_vanNH-at-sfoDF) are coming soon.
+Note: week 04 was a bye week for vanNH. Game from week 06 (2014-05-17_vanNH-at-sfoDF) is coming soon.
 
 ```{r results = 'asis', echo = FALSE, eval = FALSE}
 print(xtable(pretty_stuff, type = "html", sanitize.text.function = force),
