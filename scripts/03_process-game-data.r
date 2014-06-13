@@ -1,6 +1,5 @@
 library(plyr)
 library(methods) # needed so testthat works when I call this via RScript
-library(testthat)
 library(yaml)
 
 ## when run in batch mode, provide game identifier on command line
@@ -8,8 +7,10 @@ options <- commandArgs(trailingOnly = TRUE)
 
 if(length(options) < 1) {
   #game <- "2014-04-12_vanNH-at-pdxST"
-  game <- "2014-04-20_sfoDF-at-vanNH"
+  #game <- "2014-04-20_sfoDF-at-vanNH"
+  #game <- "2014-04-26_vanNH-at-sfoDF"
   #game <- "2014-05-10_seaRM-at-vanNH"
+  game <- "2014-05-17_vanNH-at-sfoDF"
   #game <- "2014-05-24_pdxST-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
   #game <- "2014-06-07_seaRM-at-vanNH"
@@ -76,17 +77,18 @@ jFun <- function(x) gsub("'","", x)
 game_play[c('pullRaw', 'recvRaw')] <-
   colwise(jFun)(game_play[c('pullRaw', 'recvRaw')])
 
-## game play data should be empty or start with a digit
+## game play data should be empty, start with a digit, or be [TO|to]
 jFun <- function(x) {
-  grepl("^[\\?\\d]", x, perl = TRUE) | x == ""
+  x == "" | grepl("^[\\?\\d]", x, perl = TRUE) | 
+    grepl("TO", x, ignore.case = TRUE)
 }
 code_seems_valid <- colwise(jFun)(game_play[c('pullRaw', 'recvRaw')])
-## only valid exception is TO for timeout
-expect_true(all(game_play$pullRaw[!code_seems_valid$pullRaw] == "TO"))
-expect_true(all(game_play$recvRaw[!code_seems_valid$recvRaw] == "TO"))
-#game_play[!code_seems_valid$pullRaw, ]
-#game_play[!code_seems_valid$recvRaw, ]
-
+weird_code <- !apply(code_seems_valid, 1, all)
+if(any(weird_code)) {
+  message("these rows have game play that's not empty, not a TO, yet doesn't start with a digit")
+  game_play[weird_code, ]
+}
+  
 ## separate raw game play into a number and a code
 ## e.g. 81D into 81 and D
 jFun <- function(x) {
