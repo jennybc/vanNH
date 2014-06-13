@@ -234,13 +234,13 @@ if(length(fix_me) > 0) {
 ## I want to have NO double game play rows.
 ## here are some that still remain.
 
-# 2014-04-12_vanNH-at-pdxST
-# point event pullRaw pullNum pullCode recvRaw recvNum recvCode
-# 490    35    12     88F      88        F     75g      75        G
-
-# 2014-06-07_seaRM-at-vanNH
-# point event pullRaw pullNum pullCode recvRaw recvNum recvCode
-# 354    25    18    37TO      37       TO     ?VP       ?       VP
+# 2014-06-07_seaRM-at-vanNH point 25
+# pullTeam recvTeam event pullNum pullCode recvNum recvCode scorTeam
+# vanNH    seaRM    16      13       PU                     vanNH
+# vanNH    seaRM    17      18                              vanNH
+# vanNH    seaRM    18      37       TO       ?       VP    vanNH
+# vanNH    seaRM    19      89       PU                     vanNH
+# vanNH    seaRM    20      91                              vanNH
 
 ## function to get the "other" team
 get_opponent <- function(x) {

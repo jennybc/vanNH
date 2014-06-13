@@ -16,10 +16,10 @@ sDat <- ldply(game_file, function(gg) {
                                recvNum = 'character',
                                recvCode = 'character'))
 }, .id = "game")
-str(sDat) # 5024 obs. of  10 variables
+str(sDat) # 5025 obs. of  10 variables
 
 is_double_gp <- with(sDat, which(pullNum != "" & recvNum != ""))
-length(is_double_gp) # 2!
+length(is_double_gp) # 1!
 rows_i_want <- sort(unique(unlist(lapply(is_double_gp,
                                          function(x)
                                            seq(from = x - 2, to = x + 2)))))
