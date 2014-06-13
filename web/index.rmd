@@ -41,14 +41,15 @@ yaml_files <-
   list.files(game_dirs, pattern = "at-last-point.yaml$", full.names = TRUE)
 names(yaml_files) <- basename(dirname(yaml_files))
 game_data <- ldply(yaml_files, function(x) {
-  x %>% yaml.load_file %>% data.frame(stringsAsFactors = FALSE)}, .id = "game")
+  x %>% yaml.load_file %>% data.frame(stringsAsFactors = FALSE)})
+game_data <- rename(game_data, c(".id" = "game"))
 game_data <-
   subset(game_data,
          select = -c(point, Period, Clock.before.point, Clock.after.point,
                      pullTeam, scorTeam))
 
 ## learn the date, home team, away team from the game ID
-x <- levels(game_data$game)
+x <- unique(game_data$game)
 m <- regexec("([-0-9]+)_([a-zA-Z]+)-at-([a-zA-Z]+)", x)
 parsed_game_id <- ldply(regmatches(x, m), `[`, c(1L, 2L, 3L, 4L))
 colnames(parsed_game_id) <- c("game", "date","awayTeam","homeTeam")
@@ -69,20 +70,31 @@ game_data$oppScore <-
 game_data<- transform(game_data,
                       outcome = ifelse(vanNH > oppScore, "W", "L"),
                       pt_diff = vanNH - oppScore,
-                      final = paste0("vanNH: ", vanNH, "  ",
-                                     opponent, ": ", oppScore),
-                      us = paste0("vanNH: ", vanNH),
-                      them = paste0(opponent, ": ", oppScore),
-#                       link = paste0('<a href=http://www.stat.ubc.ca/~jenny/',
+                      final = I(paste0("vanNH: ", vanNH, "  ",
+                                       opponent, ": ", oppScore)),
+                      us = I(paste0("vanNH: ", vanNH)),
+                      them = I(paste0(opponent, ": ", oppScore)),
+#                       link = I(paste0('<a href=http://www.stat.ubc.ca/~jenny/',
 #                                    'notOcto/vanNH/', game_data$game,
-#                                    '_live-stats.html>', date, '</a>'))
-                      link = paste0('<a href=', game_data$game,
-                                   '_live-stats.html>', date, '</a>'))
+#                                    '_live-stats.html>', date, '</a>')))
+                      link = I(paste0('<a href=', game_data$game,
+                                      '_live-stats.html>', date, '</a>')))
   
 pretty_vars <- c("week", "link", "status", "us", "them", "outcome",
                  "pt_diff")
 pretty_stuff <- game_data[pretty_vars]
 pretty_stuff <- rename(pretty_stuff, c("link" = "date"))
+
+## convert to character, then add a last row with relevant summaries
+pretty_stuff <- as.matrix(colwise(as.character)(pretty_stuff))
+n <- nrow(pretty_stuff)
+pretty_stuff <- pretty_stuff[c(seq_len(n), n), ]
+pretty_stuff[n + 1, ] <- ""
+pretty_stuff[n + 1, "us"] <- paste0("vanNH: ", sum(game_data$vanNH))
+pretty_stuff[n + 1, "them"] <- paste0("opp: ", sum(game_data$oppScore))
+pretty_stuff[n + 1, "pt_diff"] <- as.character(sum(game_data$pt_diff))
+pretty_stuff[n + 1, "outcome"] <- 
+  with(game_data, paste0(sum(outcome == "W"), "W - ", sum(outcome == "L"), "L"))
 ```
 
 Click on a date to see stats for a game.
@@ -91,7 +103,9 @@ Click on a date to see stats for a game.
 kable(pretty_stuff)
 ```
 
-Note: week 04 was a bye week for vanNH.
+Week 04 was a bye week for vanNH.  
+Week 10: 2014-06-15_pdxST-at-vanNH.  
+Week 11: 2014-06-21_vanNH-at-sfoDF.  
 
 ```{r results = 'asis', echo = FALSE, eval = FALSE}
 print(xtable(pretty_stuff, type = "html", sanitize.text.function = force),
