@@ -19,8 +19,8 @@
 #GOOGAME ?= "Official Statistics - 2014 - Week 8 - 5/31 - Nighthawks @ Rainmakers"
 #GAME ?= 2014-05-31_vanNH-at-seaRM
 
-GOOGAME ?= "Official Statistics - 2014 - Week 9 - 6/7 - Rainmakers @ Nighthawks"
-GAME ?= 2014-06-07_seaRM-at-vanNH
+#GOOGAME ?= "Official Statistics - 2014 - Week 9 - 6/7 - Rainmakers @ Nighthawks"
+#GAME ?= 2014-06-07_seaRM-at-vanNH
 
 clean_raw:
 	rm -rf ../games/$(GAME)/01_rawGoogleExtract/*
@@ -34,14 +34,14 @@ eg_pt: 01_extract-data-from-google-spreadsheet.py
 clean_cat:
 	rm -rf ../games/$(GAME)/03_concatGoogleExtract/*
 
-cat_goog: 02_concatentate-google-extract.r
-	Rscript ./02_concatentate-google-extract.r $(GAME)
+cat_goog: 03_concatentate-google-extract.r
+	Rscript ./03_concatentate-google-extract.r $(GAME)
 
 clean_clean:
-	rm -rf ../games/$(GAME)/04_cleanedGame/*
+	rm -rf ../games/$(GAME)/05_cleanedGame/*
 
-clean_game: 03_process-game-data.r
-	Rscript ./03_process-game-data.r $(GAME)
+clean_game: 05_clean-and-expand-game-play.r
+	Rscript ./05_clean-and-expand-game-play.r $(GAME)
 
 clean_web:
 	rm -rf ../games/$(GAME)/05_htmlArchive/*

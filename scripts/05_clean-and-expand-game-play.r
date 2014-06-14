@@ -1,6 +1,4 @@
 library(plyr)
-library(methods) # needed so testthat works when I call this via RScript
-library(yaml)
 library(stringr)
 
 ## when run in batch mode, provide game identifier on command line
@@ -32,16 +30,6 @@ game_dir <- file.path("..", "games", game, "03_concatGoogleExtract")
 in_file <- file.path(game_dir, paste0(game, "_gameplay-raw.tsv"))
 game_play <- read.delim(in_file, stringsAsFactors = FALSE)
 #str(game_play)
-
-in_file <- file.path(game_dir, paste0(game, "_points-raw.tsv"))
-point_info <- read.delim(in_file, stringsAsFactors = FALSE)
-#str(point_info)
-
-## add short version of the teams
-mlu_teams <- read.delim(file.path("..", "data", "mlu-teams.tsv"))
-point_info$pullTeam <-
-  factor(mlu_teams$team[match(point_info$Pulling.team, mlu_teams$longName)],
-         levels = jTeams)
 
 ## Offense and Defense are misleading variable names
 ## rename to suggest they record actions by the "receiving" and "pulling" teams,
@@ -209,111 +197,12 @@ if(length(fix_me) > 0) {
   message("no double game play rows remain")
 }
 
-## I want to have NO double game play rows.
-## here are some that still remain.
-
-# 2014-06-07_seaRM-at-vanNH point 25
-# pullTeam recvTeam event pullNum pullCode recvNum recvCode scorTeam
-# vanNH    seaRM    16      13       PU                     vanNH
-# vanNH    seaRM    17      18                              vanNH
-# vanNH    seaRM    18      37       TO       ?       VP    vanNH
-# vanNH    seaRM    19      89       PU                     vanNH
-# vanNH    seaRM    20      91                              vanNH
-
-## function to get the "other" team
-get_opponent <- function(x) {
-  jLevels <- levels(x)
-  x <- ifelse(unclass(x) == 1, 2, 1)
-  return(factor(jLevels[x], levels = jLevels))
-}
-
-## add variables to hold pulling and receiving teams 
-game_play$pullTeam <-
-  point_info$pullTeam[match(game_play$point, point_info$point)]
-game_play$recvTeam <- get_opponent(game_play$pullTeam)
-
 ## drop recvRaw, pullRaw
 game_play <- subset(game_play, select = -c(recvRaw, pullRaw))
 
-## determine which team scored and assign the assist
-jFun <- function(x) {
-  n <- nrow(x)
-  point <- x$point[1]
-  is_a_goal <- function(x) grepl("L*G", x)
-  goal_ind <- as.matrix(colwise(is_a_goal)(x[c('recvCode', 'pullCode')]))
-  if(sum(laply(goal_ind, sum)) > 1) {
-    message("point: ", point, " ... more than one goal code detected!")
-  }
-  goal_row <- which(aaply(goal_ind, 1, any))
-  if(length(goal_row) > 0) {
-    ## I do it this way in case there is foul on the goal catch, which
-    ## means the n-th event is not the goal itself    
-    goal_row <- max(goal_row)
-    codes <- c(recvCode = x[goal_row, "recvCode"],
-               pullCode = x[goal_row, "pullCode"])
-    sc_team_rel <- substr(names(codes)[is_a_goal(codes)], 1, 4) # pull or recv?
-    sc_team_abs <-                                       # e.g. vanNH or seaRM?
-      switch(sc_team_rel, recv = as.character(x$recvTeam[1]),
-             pull = as.character(x$pullTeam[1]), NA)
-    sc_team_num <- x[[paste0(sc_team_rel, "Num")]]  # all nums for scoring team
-    sc_team_num <- sc_team_num[-(goal_row:n)]       # peel the goal off the end
-    ## I do it this way in case there is an intervening defensive foul, which
-    ## means the (n-1)-th event is not the assist
-    assist_row <- max(which(sc_team_num != ''))
-    ## in my experience, existing code can be '', 'L', 'PU'
-    assist_code <- x[assist_row, paste0(sc_team_rel, "Code")]
-    if(grepl("A$", assist_code)) {
-      message(paste("ALERT: point", x$point[1], "has an explicit assist (A)\n"))
-    } else {
-      x[assist_row, paste0(sc_team_rel, "Code")] <- paste0(assist_code, 'A')
-    }
-  } else {
-    sc_team_abs <- NA
-  }
-  return(data.frame(x, scorTeam = sc_team_abs))
-}
-game_play <- ddply(game_play, ~ point, jFun)
-
-## tidy up
-keeper_vars <- c("point", "pullTeam", "recvTeam", "event",
-                 "pullNum", "pullCode", "recvNum", "recvCode", "scorTeam")
-game_play <- game_play[keeper_vars]
-
-out_dir <- file.path("..", "games", game, "04_cleanedGame")
+out_dir <- file.path("..", "games", game, "05_cleanedGame")
 if(!file.exists(out_dir)) dir.create(out_dir)
 
 out_file <- file.path(out_dir, paste0(game, "_gameplay-clean.tsv"))
 write.table(game_play, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
 message("wrote ", out_file)
-
-## add who scored to point_info, among other things
-point_info$scorTeam <- game_play$scorTeam[game_play$event == 1]
-point_info <-
-  with(point_info,
-       data.frame(point, Period, Clock.before.point, Clock.after.point,
-                  pullTeam, scorTeam))
-jLevels <- levels(point_info$pullTeam)
-jFun <- function(x) {x[is.na(x)] <- FALSE; x}
-point_info$teamOne <- cumsum(jFun(with(point_info, scorTeam == jLevels[1])))
-point_info$teamTwo <- cumsum(jFun(with(point_info, scorTeam == jLevels[2])))
-point_info <-
-  rename(point_info, c("teamOne" = jLevels[1], "teamTwo" = jLevels[2]))
-
-out_file <- file.path(out_dir, paste0(game, "_points-clean.tsv"))
-write.table(point_info, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
-message("wrote ", out_file)
-
-score_yaml <-
-  file.path("..", "games", game, paste0(game, "_at-last-point.yaml"))
-## workaround because as.yaml() segfaults if a factor contains an NA
-## scorTeam is a factor and will be NA for any point that ends due to time
-yaml_fodder <- as.list(point_info[nrow(point_info), ])
-yaml_fodder <- lapply(yaml_fodder, function(x) {
-  if(is.factor(x) & any(is.na(x))) {
-    return(as.character(x))
-  } else {
-    return(x)
-  }
-})
-writeLines(as.yaml(yaml_fodder), score_yaml)
-message("wrote ", score_yaml)
