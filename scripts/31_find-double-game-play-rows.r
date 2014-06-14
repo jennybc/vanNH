@@ -16,7 +16,7 @@ sDat <- ldply(game_file, function(gg) {
                                recvNum = 'character',
                                recvCode = 'character'))
 }, .id = "game")
-str(sDat) # 5025 obs. of  10 variables
+str(sDat) # 5026 obs. of  10 variables
 
 is_double_gp <- with(sDat, which(pullNum != "" & recvNum != ""))
 length(is_double_gp) # 1!
