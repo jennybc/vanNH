@@ -44,13 +44,13 @@ clean_game: 05_clean-and-expand-game-play.r
 	Rscript ./05_clean-and-expand-game-play.r $(GAME)
 
 clean_web:
-	rm -rf ../games/$(GAME)/05_htmlArchive/*
+	rm -rf ../games/$(GAME)/09_htmlArchive/*
 
-web: 06_vanNH-nowPlaying.rmd
-	./05_compile-HTML.r $(GAME)
+web: 09_vanNH-nowPlaying.rmd
+	./08_compile-HTML.r $(GAME)
 
 web_copy:
-	cp ../games/$(GAME)/05_htmlArchive/$(GAME)_live-stats.html ../web/
+	cp ../games/$(GAME)/09_htmlArchive/$(GAME)_live-stats.html ../web/
 
 ## the resulting symlink does not work on the server; gets this error:
 ## Forbidden
