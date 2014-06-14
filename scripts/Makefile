@@ -52,7 +52,7 @@ resolve_game: 07_resolve-game-play.r
 clean_web:
 	rm -rf ../games/$(GAME)/09_htmlArchive/*
 
-web: 09_vanNH-nowPlaying.rmd
+web: 
 	./08_compile-HTML.r $(GAME)
 
 web_copy:
@@ -74,10 +74,9 @@ set_web:
 index.html: ../web/index.rmd ../games/2014*/*at-last-point.yaml
 	cd ../web; Rscript -e "rmarkdown::render('index.rmd', quiet = TRUE)"
 
-#r_bits: clean_cat clean_clean cat_goog clean_game web web_copy
-r_bits: clean_cat clean_clean clean_resolve cat_goog clean_game resolve_game
+r_bits: clean_cat clean_clean clean_resolve cat_goog clean_game resolve_game web web_copy
 
-yo: eg_pt clean_cat clean_clean cat_goog clean_game web web_copy set_web sync
+yo: eg_pt clean_cat clean_clean clean_resolve cat_goog clean_game resolve_game web web_copy set_web sync
 
 sync:
 	cd ../web; rsync -av --exclude-from=/Users/jenny/.rsync/exclude ./ jenny@stat.ubc.ca:public_html/notOcto/vanNH/
