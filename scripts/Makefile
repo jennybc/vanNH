@@ -71,7 +71,7 @@ set_web:
 #index.html: ../web/index.md 
 #	cd ../web; Rscript -e "library(markdown); markdownToHTML('index.md', output = 'index.html', stylesheet = file.path(path.expand('~/'), 'resources/css/jasonm23-markdown-css-themes', 'markdown7.css'))"
 
-index.html: ../web/index.rmd 
+index.html: ../web/index.rmd ../games/2014*/*at-last-point.yaml
 	cd ../web; Rscript -e "rmarkdown::render('index.rmd', quiet = TRUE)"
 
 #r_bits: clean_cat clean_clean cat_goog clean_game web web_copy
