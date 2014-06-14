@@ -1,7 +1,7 @@
 ---
 title: "In-house statistics for the Vancouver Nighthawks of Major League Ultimate"
 author: "Jenny Bryan"
-date: "12 June, 2014"
+date: "14 June, 2014"
 output:
   html_document:
     theme: readable
@@ -45,8 +45,7 @@ game_data <- ldply(yaml_files, function(x) {
 game_data <- rename(game_data, c(".id" = "game"))
 game_data <-
   subset(game_data,
-         select = -c(point, Period, Clock.before.point, Clock.after.point,
-                     pullTeam, scorTeam))
+         select = -c(point, period, clk_before, clk_before, pull_team, scor_team))
 
 ## learn the date, home team, away team from the game ID
 x <- unique(game_data$game)
