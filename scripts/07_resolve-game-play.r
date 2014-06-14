@@ -41,6 +41,7 @@ point_info$pullTeam <-
   factor(mlu_teams$team[match(point_info$Pulling.team, mlu_teams$longName)],
          levels = jTeams)
 point_info$Pulling.team <- NULL
+point_info <- rename(point_info, c("Period" = "period"))
 
 ## replace NAs in game_play$pullNum and game_play$recvNum with ""
 jFun <- function(x) {x[is.na(x)] <- ""; return(x)}
@@ -78,7 +79,7 @@ jFun <- function(x) {
   point <- x$point[1]
   pullTeam <- point_info$pullTeam[point_info$point == point]
   recvTeam <- get_opponent(pullTeam)
-  period <- point_info$Period[point_info$point == point]
+  period <- point_info$period[point_info$point == point]
   x$pl_team <- revalue(x$pl_team, c("pullTeam" = as.character(pullTeam),
                                     "recvTeam" = as.character (recvTeam)))
   x$pl_team <- factor(x$pl_team, levels = jTeams)
@@ -125,7 +126,7 @@ game_play <- ddply(game_play, ~ point, jFun)
 out_dir <- file.path("..", "games", game, "07_resolvedGame")
 if(!file.exists(out_dir)) dir.create(out_dir)
 
-out_file <- file.path(out_dir, paste0(game, "_gameplay-clean.tsv"))
+out_file <- file.path(out_dir, paste0(game, "_gameplay-resolved.tsv"))
 write.table(game_play, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
 message("wrote ", out_file)
 
@@ -142,7 +143,7 @@ point_info$teamTwo <- cumsum(jFun(with(point_info, scorTeam == jTeams[2])))
 point_info <-
   rename(point_info, c("teamOne" = jTeams[1], "teamTwo" = jTeams[2]))
 
-out_file <- file.path(out_dir, paste0(game, "_points-clean.tsv"))
+out_file <- file.path(out_dir, paste0(game, "_points-resolved.tsv"))
 write.table(point_info, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
 message("wrote ", out_file)
 
