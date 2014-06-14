@@ -7,14 +7,14 @@ library(stringr)
 options <- commandArgs(trailingOnly = TRUE)
 
 if(length(options) < 1) {
-  game <- "2014-04-12_vanNH-at-pdxST"
+  #game <- "2014-04-12_vanNH-at-pdxST"
   #game <- "2014-04-20_sfoDF-at-vanNH"
   #game <- "2014-04-26_vanNH-at-sfoDF"
   #game <- "2014-05-10_seaRM-at-vanNH"
   #game <- "2014-05-17_vanNH-at-sfoDF"
   #game <- "2014-05-24_pdxST-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
-  #game <- "2014-06-07_seaRM-at-vanNH"
+  game <- "2014-06-07_seaRM-at-vanNH"
 } else {
   game <- options[1]
 }
@@ -144,43 +144,22 @@ keeper_vars <- c("point", "event",
                  "recvRaw", "recvNum", "recvCode")
 game_play <- game_play[keeper_vars]
 
+## function to find double game play rows
+find_double_game_plays <-
+  function(z) with(z, which(pullNum != "" & recvNum != ""))
+
 ## identify rows with game play recorded for both teams
-fix_me <- with(game_play, which(pullNum != "" & recvNum != ""))
+fix_me <- find_double_game_plays(game_play)
 message("rows with game play recorded for both teams")
 game_play[fix_me, ]
 
-# dgp_codes <- game_play[fix_me, c('pullCode', 'recvCode')]
-# aaply(as.matrix(dgp_codes), 1, sort)
-
-# simple_defensive_foul <- 
-#   intersect(fix_me,
-#             which(with(game_play, (pullCode == '' & recvCode == 'F') |
-#                          (pullCode == 'F' & recvCode == ''))))
-#game_play[simple_defensive_foul, ]
-
-# dual_sub <- 
-#   intersect(fix_me,
-#             which(with(game_play, grepl('S[OI]', pullCode) &
-#                          grepl('S[OI]', recvCode))))
-#game_play[dual_sub, ]
-
-## function to find fixable double game play rows
-find_double_game_plays <- function(z) {
-  fix_me <- with(z, which(pullNum != "" & recvNum != ""))
-  non_foul_codes <- c('', 'PU', 'L', 'G', 'LG')
-  is_a_single_foul <-
-    with(z, which((pullCode %in% non_foul_codes & recvCode == 'F') |
-                    (pullCode == 'F' & recvCode %in% non_foul_codes)))
-  is_a_double_sub <- with(z, which(grepl('S[OI]', pullCode) &
-                                     grepl('S[OI]', recvCode)))
-  return(sort(intersect(fix_me, c(is_a_single_foul, is_a_double_sub))))
-}
-
-## find rows where a play is recorded for both the O and the D
-## when it's a defensive foul: insert a row to make two rows
-## first row will hold O info, second will hold D
-## if it's a double sub, do SO, SI, SO, SI
+## split double game play rows into two separate rows
+## the only tricky thing is deciding the order
+## big picture: try to keep the O play first, D play second
 jFun <- function(x) {
+  offense_codes <- c('', 'PU', 'L', 'G', 'LG', 'TO', 'LTO')
+  foul_codes <- c('F', 'VP')
+  sub_codes <- c('SO', 'SI')
   fix_me <- find_double_game_plays(x)
   needs_fix <- length(fix_me) > 0
   while(needs_fix) {
@@ -188,32 +167,29 @@ jFun <- function(x) {
     codes <- c(recvCode = x[fix_this, "recvCode"],
                pullCode = x[fix_this, "pullCode"])
     
-    if(sum(grepl("F", codes)) == 1) {
-      is_a_foul <- TRUE
+    ## most common situation: one code is from offense_codes, other from
+    ## foul_codes
+    if(all(codes %in% offense_codes == !(codes %in% foul_codes))) {
+      if(names(codes)[codes %in% offense_codes] == "recvCode") {
+        jOrder <- c("recv", "pull")
+      } else {
+        jOrder <- c("pull", "recv")
+      }
     } else {
-      is_a_foul <- FALSE
-    }
-    
-    if(sum(grepl("S[OI]", codes)) == 2) {
-      is_a_dual_sub <- TRUE
-    } else {
-      is_a_dual_sub <- FALSE
-    }
-    
-    if(!is_a_foul & !is_a_dual_sub) {
+      message(paste("Row", fix_this, "of point", x$point[1],
+                    "indicates events for both teams\n, but it's a novel code",
+                    "combination. LOOK AT THIS DATA!"))
       print(x[fix_this + (-1:1), ])
-      stop(paste("Row", fix_this, "of point", x$point[1],
-                 'indicates events for both teams, yet neither is a foul, i.e. carries code F\n'))
+      jOrder <- c("pull", "recv")
     }
     
+    ## duplicate the affected row
     x <- x[rep(1:nrow(x), ifelse(1:nrow(x) %in% fix_this, 2, 1)), ]
-    if(is_a_dual_sub | x[fix_this, "recvCode"] == "F") {
-      x[fix_this, c('recvRaw', 'recvNum', 'recvCode')] <- ''
-      x[fix_this + 1, c('pullRaw', 'pullNum', 'pullCode')] <- ''
-    } else {
-      x[fix_this + 1, c('recvRaw', 'recvNum', 'recvCode')] <- ''
-      x[fix_this, c('pullRaw', 'pullNum', 'pullCode')] <- ''
-    }
+    ## 'empty' out raw, num, and code for either recv or pull
+    x[fix_this, paste0(jOrder[2], c('Raw', 'Num', 'Code'))] <- ''
+    x[fix_this + 1, paste0(jOrder[1], c('Raw', 'Num', 'Code'))] <- ''
+        
+    ## update the to do list
     fix_me <- find_double_game_plays(x)
     needs_fix <- length(fix_me) > 0
   } 
@@ -223,7 +199,7 @@ jFun <- function(x) {
 game_play <- ddply(game_play, ~ point, jFun)
 
 ## do any double game play rows remain?
-fix_me <- with(game_play, which(pullNum != "" & recvNum != ""))
+fix_me <- find_double_game_plays(game_play)
 if(length(fix_me) > 0) {
   message("double game play rows we are not prepared to address and that remain")
   game_play[fix_me, ]
