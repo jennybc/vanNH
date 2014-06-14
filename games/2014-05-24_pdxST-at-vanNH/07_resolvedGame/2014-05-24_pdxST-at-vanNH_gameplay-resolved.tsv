@@ -1,4 +1,4 @@
-period	point	event	pl_team	pl_player	pl_code
+period	point	event	pl_team	pl_pnum	pl_code
 1	1	1	vanNH	8	P
 1	1	2	pdxST	7	PU
 1	1	3	pdxST	9	

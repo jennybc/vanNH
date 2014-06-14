@@ -1,4 +1,4 @@
-point	period	Clock.before.point	Clock.after.point	pullTeam	scorTeam	seaRM	vanNH
+point	period	clk_before	clk_after	pull_team	scor_team	seaRM	vanNH
 1	1	10:00:00	8:46:00	seaRM	vanNH	0	1
 2	1	8:46:00	6:13:00	vanNH	vanNH	0	2
 3	1	6:13:00	5:56:00	vanNH	seaRM	1	2

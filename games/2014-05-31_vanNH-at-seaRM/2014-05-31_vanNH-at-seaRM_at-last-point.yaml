@@ -1,9 +1,9 @@
 point: 58
 period: 6
-Clock.before.point: '0:10:08'
-Clock.after.point: '0:00:00'
-pullTeam: vanNH
-scorTeam: vanNH
+clk_before: '0:10:08'
+clk_after: '0:00:00'
+pull_team: vanNH
+scor_team: vanNH
 seaRM: 24
 vanNH: 29
 

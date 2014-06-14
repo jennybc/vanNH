@@ -1,9 +1,9 @@
 point: 39
 period: 4
-Clock.before.point: '0:09:00'
-Clock.after.point: '0:00:00'
-pullTeam: pdxST
-scorTeam: .na.character
+clk_before: '0:09:00'
+clk_after: '0:00:00'
+pull_team: pdxST
+scor_team: .na.character
 pdxST: 19
 vanNH: 16
 

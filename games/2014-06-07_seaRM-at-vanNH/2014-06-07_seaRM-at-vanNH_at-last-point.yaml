@@ -1,9 +1,9 @@
 point: 41
 period: 4
-Clock.before.point: '0:08:03'
-Clock.after.point: '0:00:00'
-pullTeam: seaRM
-scorTeam: .na.character
+clk_before: '0:08:03'
+clk_after: '0:00:00'
+pull_team: seaRM
+scor_team: .na.character
 seaRM: 12
 vanNH: 27
 

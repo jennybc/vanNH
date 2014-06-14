@@ -1,9 +1,9 @@
 point: 30
 period: 5
-Clock.before.point: '3:23:00'
-Clock.after.point: '0:00:00'
-pullTeam: sfoDF
-scorTeam: .na.character
+clk_before: '3:23:00'
+clk_after: '0:00:00'
+pull_team: sfoDF
+scor_team: .na.character
 sfoDF: 13
 vanNH: 12
 
