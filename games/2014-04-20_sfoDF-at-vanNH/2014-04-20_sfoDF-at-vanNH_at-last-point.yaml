@@ -1,5 +1,5 @@
 point: 45
-Period: 4
+period: 4
 Clock.before.point: '1:06:00'
 Clock.after.point: '0:00:00'
 pullTeam: sfoDF

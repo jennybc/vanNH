@@ -1,4 +1,4 @@
-point	Period	Clock.before.point	Clock.after.point	pullTeam	scorTeam	sfoDF	vanNH
+point	period	Clock.before.point	Clock.after.point	pullTeam	scorTeam	sfoDF	vanNH
 1	1	10:00:00	7:56:00	sfoDF	sfoDF	1	0
 2	1	7:56:00	6:55:00	sfoDF	sfoDF	2	0
 3	1	6:55:00	6:03:00	sfoDF	vanNH	2	1
