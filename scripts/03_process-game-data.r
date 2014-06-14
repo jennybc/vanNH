@@ -10,11 +10,11 @@ if(length(options) < 1) {
   #game <- "2014-04-12_vanNH-at-pdxST"
   #game <- "2014-04-20_sfoDF-at-vanNH"
   #game <- "2014-04-26_vanNH-at-sfoDF"
-  #game <- "2014-05-10_seaRM-at-vanNH"
+  game <- "2014-05-10_seaRM-at-vanNH"
   #game <- "2014-05-17_vanNH-at-sfoDF"
   #game <- "2014-05-24_pdxST-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
-  game <- "2014-06-07_seaRM-at-vanNH"
+  #game <- "2014-06-07_seaRM-at-vanNH"
 } else {
   game <- options[1]
 }
@@ -175,12 +175,14 @@ jFun <- function(x) {
       } else {
         jOrder <- c("pull", "recv")
       }
-    } else {
-      message(paste("Row", fix_this, "of point", x$point[1],
-                    "indicates events for both teams\n, but it's a novel code",
-                    "combination. LOOK AT THIS DATA!"))
-      print(x[fix_this + (-1:1), ])
+    } else { # just pick an order
       jOrder <- c("pull", "recv")
+      if(!all(grepl("S[OI]+", codes))) {
+        message(paste("Row", fix_this, "of point", x$point[1],
+                      "indicates events for both teams\n, but it's a novel code",
+                      "combination. LOOK AT THIS DATA!"))
+        print(x[fix_this + (-1:1), ])
+      }      
     }
     
     ## duplicate the affected row
