@@ -20,7 +20,8 @@ if(file.exists(game_dir)) {
 
 dirs_to_create <-
   file.path(game_dir, c("01_rawGoogleExtract", "03_concatGoogleExtract",
-                        "04_cleanedGame", "05_htmlArchive"))
+                        "05_cleanedGame", "07_resolvedGame",
+                        "09_htmlArchive"))
 lapply(dirs_to_create, dir.create)
 
 writeLines("game_status: upcoming",
