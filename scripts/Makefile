@@ -19,8 +19,8 @@
 #GOOGAME ?= "Official Statistics - 2014 - Week 8 - 5/31 - Nighthawks @ Rainmakers"
 #GAME ?= 2014-05-31_vanNH-at-seaRM
 
-#GOOGAME ?= "Official Statistics - 2014 - Week 9 - 6/7 - Rainmakers @ Nighthawks"
-#GAME ?= 2014-06-07_seaRM-at-vanNH
+GOOGAME ?= "Official Statistics - 2014 - Week 9 - 6/7 - Rainmakers @ Nighthawks"
+GAME ?= 2014-06-07_seaRM-at-vanNH
 
 clean_raw:
 	rm -rf ../games/$(GAME)/01_rawGoogleExtract/*
@@ -42,6 +42,12 @@ clean_clean:
 
 clean_game: 05_clean-and-expand-game-play.r
 	Rscript ./05_clean-and-expand-game-play.r $(GAME)
+
+clean_resolve:
+	rm -rf ../games/$(GAME)/07_resolvedGame/*
+
+resolve_game: 07_resolve-game-play.r
+	Rscript ./07_resolve-game-play.r $(GAME)
 
 clean_web:
 	rm -rf ../games/$(GAME)/09_htmlArchive/*
@@ -68,7 +74,8 @@ set_web:
 index.html: ../web/index.rmd 
 	cd ../web; Rscript -e "rmarkdown::render('index.rmd', quiet = TRUE)"
 
-r_bits: clean_cat clean_clean cat_goog clean_game web web_copy
+#r_bits: clean_cat clean_clean cat_goog clean_game web web_copy
+r_bits: clean_cat clean_clean clean_resolve cat_goog clean_game resolve_game
 
 yo: eg_pt clean_cat clean_clean cat_goog clean_game web web_copy set_web sync
 
