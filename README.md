@@ -7,16 +7,12 @@ In-house statistics for the Vancouver Nighthawks of Major League Ultimate
 
 To do
 
+  * look into `0` vs `00` re seattle rainmakers
   * take comprehensive look at what's character vs factor
-  * take comprehensive look at factor levels for team factors
   * sort out the offline access for Google spreadsheet
   * add a comment column *have asked MLU to bless this but no response*
   * resolve possessions and individual plays *long-term goal*
-  * formalize these distinct concepts of a team
-    - specific team identity, e.g. Vancouver Nighthawks or Seattle Rainmakers -- an absolute definition of team (in theory, could even be specific to a season or a game)
-    - home team vs away team -- absolute *within a game*
-    - pulling team vs receiving team -- absolute *within a point*
-    - offense vs defense -- relative
+  * get a handle on which offensive fouls cause posession to change and which ones don't
   * add this to the Makefile?
     - `Rscript ./10_init-game.r 2014-06-07_seaRM-at-vanNH`
 
