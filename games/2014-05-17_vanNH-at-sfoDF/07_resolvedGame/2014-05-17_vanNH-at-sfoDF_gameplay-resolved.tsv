@@ -134,7 +134,7 @@ period	point	event	pl_team	pl_pnum	pl_code
 1	9	3	sfoDF	1	
 1	9	4	sfoDF	5	
 1	9	5	sfoDF	10	
-1	9	6	vanNH	8	
+1	9	6	vanNH	8	D
 1	9	7	sfoDF	12	D
 2	10	1	vanNH	8	P
 2	10	2	sfoDF	34	PU
@@ -485,14 +485,16 @@ period	point	event	pl_team	pl_pnum	pl_code
 4	28	1	sfoDF	34	P
 4	28	2	vanNH	89	PU
 4	28	3	vanNH	75	
-4	28	4	sfoDF	34	PU
-4	28	5	vanNH	75	PU
-4	28	6	vanNH	5	
-4	28	7	sfoDF	23	PU
-4	28	8	sfoDF	6	
-4	28	9	vanNH	5	D
-4	28	10	vanNH	5	PU
-4	28	11	sfoDF	34	D
+4	28	4	sfoDF	34	HB
+4	28	5	sfoDF	34	PU
+4	28	6	vanNH	75	PU
+4	28	7	sfoDF	9	F
+4	28	8	vanNH	5	
+4	28	9	sfoDF	23	PU
+4	28	10	sfoDF	6	
+4	28	11	vanNH	5	D
+4	28	12	vanNH	5	PU
+4	28	13	sfoDF	34	D
 5	29	1	sfoDF	?	P
 5	29	2	vanNH	19	PU
 5	29	3	vanNH	5	

@@ -134,7 +134,7 @@ point	Offense	Defense
 9	1	
 9	5	
 9	10	
-9		8
+9		8D
 9	12d	
 10		8p
 10	34pu	
@@ -478,8 +478,9 @@ point	Offense	Defense
 28		34p
 28	89pu	
 28	75	
+28		34HB
 28		34pu
-28	75pu	
+28	75pu	9F
 28	5	
 28		23pu
 28		6

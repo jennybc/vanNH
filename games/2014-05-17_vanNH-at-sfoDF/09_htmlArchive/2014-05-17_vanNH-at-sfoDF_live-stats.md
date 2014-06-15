@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Sat Jun 14 08:53:11 2014
+#### last update Sat Jun 14 09:57:42 2014
 # vanNH 12
 # sfoDF 13
 ## game is complete
@@ -74,9 +74,9 @@ stats are cumulative for this game
 |2  |vanNH-98-wong       |      3|     2|       1|  1|
 |3  |vanNH-10-chatha     |      3|     2|       1|  0|
 |4  |vanNH-5-norris      |      3|     1|       2|  1|
-|5  |vanNH-33-collins    |      2|     1|       1|  1|
-|6  |vanNH-72-leduc      |      2|     1|       1|  1|
-|7  |vanNH-8-hibbert     |      2|     1|       1|  1|
+|5  |vanNH-8-hibbert     |      2|     1|       1|  2|
+|6  |vanNH-33-collins    |      2|     1|       1|  1|
+|7  |vanNH-72-leduc      |      2|     1|       1|  1|
 |8  |vanNH-21-loach      |      1|     1|       0|  1|
 |9  |vanNH-31-saito      |      1|     1|       0|  1|
 |10 |vanNH-13-tessarolo  |      1|     1|       0|  0|
@@ -101,7 +101,7 @@ stats are cumulative for this game
 |1  |sfoDF-18-Weaver        |      4|     4|       0|  1|
 |2  |sfoDF-6-Kim            |      4|     2|       2|  0|
 |3  |sfoDF-12-Bellinger     |      4|     1|       3|  4|
-|4  |sfoDF-34-Boucher       |      3|     1|       2|  4|
+|4  |sfoDF-34-Boucher       |      3|     1|       2|  5|
 |5  |sfoDF-21-Stearns       |      2|     2|       0|  2|
 |6  |sfoDF-10-Sugioka       |      2|     0|       2|  0|
 |7  |sfoDF-46-McCarty       |      1|     1|       0|  2|
@@ -142,6 +142,7 @@ stats are cumulative for this game
 |     8|      1|sfoDF     |    10|sfoDF   |34      |D       |Boucher       |sfoDF-34-Boucher       |     4|     4|
 |     8|      1|sfoDF     |    12|vanNH   |5       |PUA     |norris        |vanNH-5-norris         |     4|     4|
 |     8|      1|sfoDF     |    13|vanNH   |10      |G       |chatha        |vanNH-10-chatha        |     4|     4|
+|     9|      1|vanNH     |     6|vanNH   |8       |D       |hibbert       |vanNH-8-hibbert        |     4|     4|
 |     9|      1|vanNH     |     7|sfoDF   |12      |D       |Bellinger     |sfoDF-12-Bellinger     |     4|     4|
 |    10|      2|vanNH     |     6|sfoDF   |6       |A       |Kim           |sfoDF-6-Kim            |     5|     4|
 |    10|      2|vanNH     |     7|sfoDF   |11      |G       |Lee           |sfoDF-11-Lee           |     5|     4|
@@ -204,8 +205,9 @@ stats are cumulative for this game
 |    26|      4|vanNH     |    73|sfoDF   |18      |G       |Weaver        |sfoDF-18-Weaver        |    11|    12|
 |    27|      4|sfoDF     |    15|sfoDF   |12      |A       |Bellinger     |sfoDF-12-Bellinger     |    12|    12|
 |    27|      4|sfoDF     |    16|sfoDF   |18      |G       |Weaver        |sfoDF-18-Weaver        |    12|    12|
-|    28|      4|sfoDF     |     9|vanNH   |5       |D       |norris        |vanNH-5-norris         |    12|    12|
-|    28|      4|sfoDF     |    11|sfoDF   |34      |D       |Boucher       |sfoDF-34-Boucher       |    12|    12|
+|    28|      4|sfoDF     |     4|sfoDF   |34      |HB      |Boucher       |sfoDF-34-Boucher       |    12|    12|
+|    28|      4|sfoDF     |    11|vanNH   |5       |D       |norris        |vanNH-5-norris         |    12|    12|
+|    28|      4|sfoDF     |    13|sfoDF   |34      |D       |Boucher       |sfoDF-34-Boucher       |    12|    12|
 |    29|      5|sfoDF     |     5|sfoDF   |85      |D       |Brydon        |sfoDF-85-Brydon        |    13|    12|
 |    29|      5|sfoDF     |     7|vanNH   |21      |D       |loach         |vanNH-21-loach         |    13|    12|
 |    29|      5|sfoDF     |    13|sfoDF   |5       |D       |Cascino       |sfoDF-5-Cascino        |    13|    12|
@@ -355,7 +357,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      1|     9|     3|sfoDF   |1       |        |
 |      1|     9|     4|sfoDF   |5       |        |
 |      1|     9|     5|sfoDF   |10      |        |
-|      1|     9|     6|vanNH   |8       |        |
+|      1|     9|     6|vanNH   |8       |D       |
 |      1|     9|     7|sfoDF   |12      |D       |
 |      2|    10|     1|vanNH   |8       |P       |
 |      2|    10|     2|sfoDF   |34      |PU      |
@@ -706,14 +708,16 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      4|    28|     1|sfoDF   |34      |P       |
 |      4|    28|     2|vanNH   |89      |PU      |
 |      4|    28|     3|vanNH   |75      |        |
-|      4|    28|     4|sfoDF   |34      |PU      |
-|      4|    28|     5|vanNH   |75      |PU      |
-|      4|    28|     6|vanNH   |5       |        |
-|      4|    28|     7|sfoDF   |23      |PU      |
-|      4|    28|     8|sfoDF   |6       |        |
-|      4|    28|     9|vanNH   |5       |D       |
-|      4|    28|    10|vanNH   |5       |PU      |
-|      4|    28|    11|sfoDF   |34      |D       |
+|      4|    28|     4|sfoDF   |34      |HB      |
+|      4|    28|     5|sfoDF   |34      |PU      |
+|      4|    28|     6|vanNH   |75      |PU      |
+|      4|    28|     7|sfoDF   |9       |F       |
+|      4|    28|     8|vanNH   |5       |        |
+|      4|    28|     9|sfoDF   |23      |PU      |
+|      4|    28|    10|sfoDF   |6       |        |
+|      4|    28|    11|vanNH   |5       |D       |
+|      4|    28|    12|vanNH   |5       |PU      |
+|      4|    28|    13|sfoDF   |34      |D       |
 |      5|    29|     1|sfoDF   |?       |P       |
 |      5|    29|     2|vanNH   |19      |PU      |
 |      5|    29|     3|vanNH   |5       |        |

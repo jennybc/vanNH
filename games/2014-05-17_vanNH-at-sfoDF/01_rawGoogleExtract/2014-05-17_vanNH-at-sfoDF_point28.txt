@@ -6,8 +6,9 @@ Offense	Defense
 	34p
 89pu	
 75	
+	34HB
 	34pu
-75pu	
+75pu	9F
 5	
 	23pu
 	6

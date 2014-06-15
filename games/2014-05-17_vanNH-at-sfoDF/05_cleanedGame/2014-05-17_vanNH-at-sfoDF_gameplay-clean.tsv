@@ -134,7 +134,7 @@ point	event	pullNum	pullCode	recvNum	recvCode
 9	3			1	
 9	4			5	
 9	5			10	
-9	6	8			
+9	6	8	D		
 9	7			12	D
 10	1	8	P		
 10	2			34	PU
@@ -485,14 +485,16 @@ point	event	pullNum	pullCode	recvNum	recvCode
 28	1	34	P		
 28	2			89	PU
 28	3			75	
-28	4	34	PU		
-28	5			75	PU
-28	6			5	
-28	7	23	PU		
-28	8	6			
-28	9			5	D
-28	10			5	PU
-28	11	34	D		
+28	4	34	HB		
+28	5	34	PU		
+28	6			75	PU
+28	7	9	F		
+28	8			5	
+28	9	23	PU		
+28	10	6			
+28	11			5	D
+28	12			5	PU
+28	13	34	D		
 29	1	?	P		
 29	2			19	PU
 29	3			5	

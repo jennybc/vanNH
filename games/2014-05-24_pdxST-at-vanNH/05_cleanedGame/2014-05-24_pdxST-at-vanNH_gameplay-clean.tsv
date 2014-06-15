@@ -462,7 +462,7 @@ point	event	pullNum	pullCode	recvNum	recvCode
 29	6			89	D
 29	7			89	PU
 29	8			22	
-29	9			91	TT
+29	9			91	
 29	10	17	PU		
 30	1	88	P		
 30	2			19	PU
@@ -492,7 +492,7 @@ point	event	pullNum	pullCode	recvNum	recvCode
 32	3			6	
 32	4			7	
 32	5			6	
-32	6			2	TT
+32	6			2	
 32	7	27	PU		
 32	8	81			
 32	9			4	F
