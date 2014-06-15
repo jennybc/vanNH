@@ -118,13 +118,6 @@ jFun <- function(x) {
 }
 game_play <- ddply(game_play, ~ point, jFun)
 
-# x$who_off <- factor(NA, levels = jTeams)
-# x$who_off[1] <- x[1, "pull_team"]
-# if(x[2, "recvCode"] != 'PU') {
-#   warning("point ", point, ": no pick up (PU) after the pull!")
-# }
-# x$who_off[2] <- x[2, "pull_team"]
-
 out_dir <- file.path("..", "games", game, "07_resolvedGame")
 if(!file.exists(out_dir)) dir.create(out_dir)
 
