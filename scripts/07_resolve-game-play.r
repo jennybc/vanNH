@@ -5,10 +5,10 @@ library(yaml)
 options <- commandArgs(trailingOnly = TRUE)
 
 if(length(options) < 1) {
-  game <- "2014-04-12_vanNH-at-pdxST"
+  #game <- "2014-04-12_vanNH-at-pdxST"
   #game <- "2014-04-20_sfoDF-at-vanNH"
   #game <- "2014-04-26_vanNH-at-sfoDF"
-  #game <- "2014-05-10_seaRM-at-vanNH"
+  game <- "2014-05-10_seaRM-at-vanNH"
   #game <- "2014-05-17_vanNH-at-sfoDF"
   #game <- "2014-05-24_pdxST-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
@@ -117,6 +117,106 @@ jFun <- function(x) {
   return(x)
 }
 game_play <- ddply(game_play, ~ point, jFun)
+
+## determine who's got possession
+
+## define some code groups
+goal_codes <- c('G', 'LG')
+assist_codes <- c('A', 'LA', 'PUA')
+more_offense_codes <- c('', 'PU', 'L', 'TD', 'VST', 'VTT', 'TO')
+offense_codes <- c(more_offense_codes, goal_codes, assist_codes)
+d_codes <- c('D', 'HB', 'FB')
+pickup_codes <- c('PU', 'PUA')
+
+## check for PUs after the pull
+has_no_pu <- !with(game_play, pl_code[event == 2]) %in% pickup_codes
+if(any(has_no_pu)) {
+  message("these plays have no 'PU' after the pull:")
+  game_play[has_no_pu, ]
+}
+
+## determine who possesses the disc: the easy stuff, i.e. possession can be
+## determined directly from the event code
+jFun <- function(x) {
+  
+  x$poss_team <- factor(NA, levels = jTeams)
+  x$poss_team[1:2] <- x$pl_team[2]
+  play_is_offensive <- x$pl_code %in% offense_codes
+  x$poss_team[play_is_offensive] <- x$pl_team[play_is_offensive]
+  play_is_defensive <- x$pl_code %in% d_codes
+  if(any(play_is_defensive))
+    x$poss_team[play_is_defensive] <- get_opponent(x$pl_team[play_is_defensive])
+  return(x)
+}
+game_play <- ddply(game_play, ~ point, jFun)
+game_play <- mutate(game_play, poss_team = factor(poss_team, levels = jTeams))
+poss_ok <- sum(!is.na(game_play$poss_team))
+n <- nrow(game_play)
+message(poss_ok, "/", n, " = ", round(100 * poss_ok/n, 2),
+        "% of game play possessions established directly")
+
+## now we have to do some look ahead / behind to determine possession :(
+infer_possession <- function(x) {
+  naDat <- data.frame(row = which(is.na(x$poss_team)))
+  naDat <- mutate(naDat,
+                  pl_code = x$pl_code[row],
+                  row_bef = ifelse(row - 1 < 1, NA, row - 1),
+                  row_aft = ifelse(row + 1 > nrow(x), NA, row + 1),
+                  pl_team = x$pl_team[row],
+                  possb = x$poss_team[row_bef])
+  naDat$possa <- with(naDat, ifelse(is.na(row_aft), NA, x$poss_team[row_aft]))
+    
+  ## if previous possession is known and EITHER:
+  ##   possession after is known "iso, no poss change"
+  ##   OR
+  ##   pl_team != possession before and pl_code == 'F' "simple defensive foul"
+  ## possession can be set to possession before
+  copy_poss_before <- with(naDat,
+                           !is.na(possb) & 
+                             (!is.na(possa) |
+                                (possb != pl_team & pl_code == 'F')))
+  rows_to_fill <- naDat$row[copy_poss_before]
+  x$poss_team[rows_to_fill] <- x$poss_team[rows_to_fill - 1] 
+  x
+}
+game_play <- ddply(game_play, ~ point, infer_possession)
+poss_ok <- sum(!is.na(game_play$poss_team))
+message(poss_ok, "/", n, " = ", round(100 * poss_ok/n, 2),
+        "% of game play possessions established after first infer pass")
+
+## address SO/SI clumps
+na_and_sub <- with(game_play, is.na(poss_team) & grepl("S[OI]", pl_code))
+if(any(na_and_sub)) {
+  naDat <- data.frame(row = which(na_and_sub))
+  naDat <- mutate(naDat,
+                  diff = c(1, diff(row)),
+                  start = diff != 1,
+                  clump = cumsum(start) + 1,
+                  pl_code = game_play$pl_code[row],
+                  row_aft = ifelse(row + 1 > n, NA, row + 1))
+  naDat$possa <-
+    with(naDat, ifelse(is.na(row_aft), NA, game_play$poss_team[row_aft]))
+  ## consult the poss_team after the SO/SI clump
+  naDat <- ddply(naDat, ~ clump, function(x)
+    data.frame(x[c('row', 'clump')], poss_row = max(x$row) + 1))
+  naDat <- mutate(naDat,
+                  proposed_poss_team = game_play$poss_team[naDat$poss_row])
+  ## only proceed if the proposed poss_team is known
+  naDat <- subset(naDat, !is.na(proposed_poss_team))
+  game_play$poss_team[naDat$row] <- naDat$proposed_poss_team
+  poss_ok <- sum(!is.na(game_play$poss_team))
+  message(poss_ok, "/", n, " = ", round(100 * poss_ok/n, 2),
+          "% of game play possessions established after addressing SO/SIs")
+}
+
+## if NAs remain in poss_team, try to infer once more
+poss_ok <- sum(!is.na(game_play$poss_team))
+if(poss_ok < n) {
+  game_play <- ddply(game_play, ~ point, infer_possession)
+  poss_ok <- sum(!is.na(game_play$poss_team))
+  message(poss_ok, "/", n, " = ", round(100 * poss_ok/n, 2),
+          "% of game play possessions established after second and LAST infer pass")  
+}
 
 out_dir <- file.path("..", "games", game, "07_resolvedGame")
 if(!file.exists(out_dir)) dir.create(out_dir)
