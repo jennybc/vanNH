@@ -76,6 +76,8 @@ index.html: ../web/index.rmd ../games/2014*/*at-last-point.yaml
 
 r_bits: clean_cat clean_clean clean_resolve cat_goog clean_game resolve_game web web_copy
 
+pt_fix: eg_pt clean_cat clean_clean clean_resolve cat_goog clean_game resolve_game web web_copy
+
 yo: eg_pt clean_cat clean_clean clean_resolve cat_goog clean_game resolve_game web web_copy set_web sync
 
 sync:
