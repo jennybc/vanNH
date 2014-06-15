@@ -1,0 +1,20 @@
+---
+title: "Early analysis of gameplay"
+date: "14 June, 2014"
+output:
+  html_document:
+    theme: readable
+---
+
+<a href="index.html">Back to index</a>
+
+x = the number of possessions that occur before a goal is finally scored  
+y = the proportion of points scored after x possessions (relative to a team)  
+color indicates a hold vs. a break, i.e. holds and breaks must end after an odd and even number of possessions, respectively  
+
+Observations:
+
+  * pdsST and seaRM stand out as converting more points on their first possession -- well over 50% vs. well below for sfoDF and vanNH
+  * sfoDF D line is much less effective on offense than other D lines, with pdsST being best, then vanNH
+
+![Alt text](figs/poss_n_dist_by_scor_team_and_status.png)

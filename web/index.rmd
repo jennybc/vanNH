@@ -106,6 +106,8 @@ Week 04 was a bye week for vanNH.
 Week 10: 2014-06-15_pdxST-at-vanNH.  
 Week 11: 2014-06-21_vanNH-at-sfoDF.  
 
+*Very beta* [Analysis of game play](analysis.html)
+
 ```{r results = 'asis', echo = FALSE, eval = FALSE}
 print(xtable(pretty_stuff, type = "html", sanitize.text.function = force),
       type = "html", comment = FALSE)
