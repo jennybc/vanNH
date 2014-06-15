@@ -11,7 +11,7 @@ To do
   * take comprehensive look at what's character vs factor
   * sort out the offline access for Google spreadsheet
   * add a comment column *have asked MLU to bless this but no response*
-  * resolve possessions and individual plays *long-term goal*
+  * resolve individual throws
   * get a handle on which offensive fouls cause posession to change and which ones don't
   * add this to the Makefile?
     - `Rscript ./10_init-game.r 2014-06-07_seaRM-at-vanNH`
