@@ -1,4 +1,5 @@
-make_pre <- 'make pt_fix'
+#make_pre <- 'make pt_fix'
+make_pre <- 'make clean_resolve'
 
 # googame <- "Official Statistics - 2014 - Week 6 - 5/17 - Nighthawks @ Dogfish"
 # game <- "2014-05-17_vanNH-at-sfoDF"

@@ -1,792 +1,792 @@
-period	point	event	pl_team	pl_pnum	pl_code
-1	1	1	seaRM	18	P
-1	1	2	vanNH	19	PU
-1	1	3	vanNH	89	
-1	1	4	vanNH	21	
-1	1	5	vanNH	89	
-1	1	6	vanNH	91	
-1	1	7	vanNH	89	
-1	1	8	vanNH	21	
-1	1	9	vanNH	98	
-1	1	10	vanNH	91	A
-1	1	11	vanNH	10	LG
-1	2	1	vanNH	8	OBP
-1	2	2	seaRM	1	PU
-1	2	3	seaRM	6	A
-1	2	4	seaRM	8	LG
-1	3	1	seaRM	18	P
-1	3	2	vanNH	19	PU
-1	3	3	vanNH	91	
-1	3	4	vanNH	19	
-1	3	5	vanNH	22	
-1	3	6	seaRM	18	D
-1	3	7	seaRM	29	
-1	3	8	seaRM	21	
-1	3	9	seaRM	29	
-1	3	10	seaRM	21	
-1	3	11	seaRM	2	A
-1	3	12	vanNH	89	F
-1	3	13	seaRM	12	G
-1	4	1	seaRM	24	P
-1	4	2	vanNH	19	PU
-1	4	3	vanNH	89	
-1	4	4	vanNH	21	
-1	4	5	vanNH	91	A
-1	4	6	vanNH	72	LG
-1	5	1	vanNH	8	P
-1	5	2	seaRM	0	PU
-1	5	3	seaRM	1	
-1	5	4	seaRM	6	
-1	5	5	seaRM	0	
-1	5	6	seaRM	17	
-1	5	7	seaRM	14	
-1	5	8	seaRM	0	
-1	5	9	seaRM	17	
-1	5	10	seaRM	6	L
-1	5	11	seaRM	8	
-1	5	12	seaRM	6	A
-1	5	13	seaRM	1	G
-1	6	1	seaRM	18	P
-1	6	2	vanNH	89	PU
-1	6	3	vanNH	91	
-1	6	4	vanNH	98	
-1	6	5	vanNH	22	A
-1	6	6	vanNH	10	LG
-1	7	1	vanNH	8	P
-1	7	2	seaRM	0	PU
-1	7	3	seaRM	20	
-1	7	4	seaRM	48	
-1	7	5	seaRM	20	
-1	7	6	seaRM	0	
-1	7	7	seaRM	1	
-1	7	8	seaRM	20	
-1	7	9	seaRM	1	
-1	7	10	seaRM	0	
-1	7	11	seaRM	17	
-1	7	12	seaRM	0	
-1	7	13	seaRM	6	
-1	7	14	seaRM	48	TD
-1	7	15	vanNH	24	PU
-1	7	16	vanNH	8	
-1	7	17	vanNH	27	
-1	7	18	vanNH	11	
-1	7	19	vanNH	8	
-1	7	20	vanNH	4	
-1	7	21	vanNH	45	
-1	7	22	vanNH	27	
-1	7	23	vanNH	45	
-1	7	24	vanNH	8	A
-1	7	25	vanNH	11	G
-1	8	1	vanNH	37	P
-1	8	2	seaRM	0	PU
-1	8	3	seaRM	1	
-1	8	4	seaRM	14	
-1	8	5	seaRM	0	
-1	8	6	seaRM	17	
-1	8	7	seaRM	8	
-1	8	8	vanNH	75	PU
-1	8	9	vanNH	37	
-1	8	10	vanNH	24	
-1	8	11	seaRM	17	PU
-1	8	12	seaRM	14	
-1	8	13	vanNH	24	PUA
-1	8	14	vanNH	37	G
-1	9	1	vanNH	8	P
-1	9	2	seaRM	0	PU
-1	9	3	seaRM	17	
-1	9	4	seaRM	0	
-1	9	5	seaRM	6	
-1	9	6	seaRM	0	
-1	9	7	seaRM	6	
-1	9	8	seaRM	20	
-1	9	9	seaRM	17	
-1	9	10	seaRM	0	
-1	9	11	seaRM	48	A
-1	9	12	seaRM	20	G
-1	10	1	seaRM	18	OBP
-1	10	2	vanNH	91	PU
-1	10	3	vanNH	19	
-1	10	4	vanNH	19	F
-1	10	5	vanNH	89	
-1	10	6	vanNH	19	
-1	10	7	vanNH	91	
-1	10	8	vanNH	19	
-1	10	9	vanNH	21	
-1	10	10	vanNH	22	
-1	10	11	vanNH	89	
-1	10	12	vanNH	91	
-1	10	13	seaRM	18	D
-1	10	14	seaRM	23	PU
-1	10	15	seaRM	15	
-1	10	16	seaRM	29	
-1	10	17	seaRM	18	
-1	10	18	seaRM	2	L
-1	10	19	seaRM	29	A
-1	10	20	seaRM	18	G
-1	11	1	seaRM	24	P
-1	11	2	vanNH	19	PU
-1	11	3	vanNH	91	
-1	11	4	vanNH	22	
-1	11	5	vanNH	89	
-1	11	6	vanNH	21	
-1	11	7	vanNH	10	
-1	11	8	vanNH	89	LA
-1	11	9	vanNH	98	G
-1	12	1	vanNH	8	OBP
-1	12	2	seaRM	20	PU
-1	12	3	seaRM	0	
-1	12	4	seaRM	8	
-1	12	5	seaRM	20	
-1	12	6	seaRM	0	
-1	12	7	seaRM	20	A
-1	12	8	seaRM	9	LG
-1	13	1	seaRM	18	P
-1	13	2	vanNH	89	PU
-1	13	3	vanNH	19	
-1	13	4	vanNH	21	TD
-1	13	5	seaRM	29	PU
-1	13	6	vanNH	91	PU
-1	13	7	vanNH	89	
-1	13	8	vanNH	19	
-1	13	9	vanNH	21	
-1	13	10	vanNH	98	
-1	13	11	vanNH	22	
-1	13	12	vanNH	89	
-1	13	13	vanNH	19	
-1	13	14	vanNH	89	
-1	13	15	vanNH	91	A
-1	13	16	vanNH	19	G
-1	14	1	vanNH	8	P
-1	14	2	seaRM	14	PU
-1	14	3	seaRM	1	
-1	14	4	seaRM	6	
-1	14	5	vanNH	8	D
-2	15	1	vanNH	8	P
-2	15	2	seaRM	0	PU
-2	15	3	seaRM	1	
-2	15	4	seaRM	9	
-2	15	5	seaRM	1	
-2	15	6	seaRM	20	
-2	15	7	seaRM	0	
-2	15	8	seaRM	9	
-2	15	9	seaRM	6	
-2	15	10	seaRM	1	LA
-2	15	11	seaRM	0	G
-2	16	1	seaRM	29	P
-2	16	2	vanNH	89	PU
-2	16	3	vanNH	91	
-2	16	4	vanNH	10	
-2	16	5	seaRM	29	PU
-2	16	6	seaRM	21	
-2	16	7	seaRM	29	
-2	16	8	seaRM	21	
-2	16	9	seaRM	24	
-2	16	10	vanNH	21	F
-2	16	11	seaRM	29	A
-2	16	12	seaRM	23	G
-2	17	1	seaRM	29	P
-2	17	2	vanNH	91	PU
-2	17	3	vanNH	98	
-2	17	4	vanNH	91	
-2	17	5	vanNH	19	
-2	17	6	vanNH	89	
-2	17	7	seaRM	29	PU
-2	17	8	seaRM	12	
-2	17	9	seaRM	15	
-2	17	10	seaRM	23	
-2	17	11	seaRM	77	
-2	17	12	seaRM	29	
-2	17	13	seaRM	2	L
-2	17	14	seaRM	18	A
-2	17	15	seaRM	29	G
-2	18	1	seaRM	24	P
-2	18	2	vanNH	89	PU
-2	18	3	vanNH	91	
-2	18	4	vanNH	19	
-2	18	5	vanNH	72	
-2	18	6	vanNH	22	
-2	18	7	vanNH	89	
-2	18	8	vanNH	72	A
-2	18	9	vanNH	19	G
-2	19	1	vanNH	8	P
-2	19	2	seaRM	14	PU
-2	19	3	seaRM	1	
-2	19	4	seaRM	14	
-2	19	5	seaRM	1	
-2	19	6	seaRM	0	
-2	19	7	seaRM	6	
-2	19	8	seaRM	51	
-2	19	9	seaRM	17	
-2	19	10	seaRM	14	
-2	19	11	seaRM	6	
-2	19	12	vanNH	75	PU
-2	19	13	seaRM	0	PU
-2	19	14	seaRM	1	
-2	19	15	seaRM	51	
-2	19	16	seaRM	0	
-2	19	17	seaRM	1	
-2	19	18	seaRM	0	
-2	19	19	seaRM	17	A
-2	19	20	seaRM	6	G
-2	20	1	seaRM	29	P
-2	20	2	vanNH	89	PU
-2	20	3	vanNH	19	
-2	20	4	vanNH	21	
-2	20	5	vanNH	91	
-2	20	6	vanNH	21	
-2	20	7	vanNH	19	
-2	20	8	vanNH	98	
-2	20	9	vanNH	91	
-2	20	10	vanNH	89	
-2	20	11	vanNH	91	
-2	20	12	vanNH	21	
-2	20	13	vanNH	89	A
-2	20	14	vanNH	10	G
-2	21	1	vanNH	37	P
-2	21	2	seaRM	0	PU
-2	21	3	seaRM	20	
-2	21	4	seaRM	48	L
-2	21	5	seaRM	8	A
-2	21	6	seaRM	17	G
-2	22	1	seaRM	29	P
-2	22	2	vanNH	89	PU
-2	22	3	vanNH	19	
-2	22	4	vanNH	89	
-2	22	5	vanNH	10	
-2	22	6	vanNH	22	
-2	22	7	vanNH	21	
-2	22	8	vanNH	22	
-2	22	9	vanNH	91	
-2	22	10	vanNH	89	
-2	22	11	vanNH	91	
-2	22	12	seaRM	29	TO
-2	22	13	seaRM	1	PU
-2	22	14	seaRM	9	
-2	22	15	seaRM	1	
-2	22	16	seaRM	14	
-2	22	17	seaRM	17	
-2	22	18	vanNH	8	PU
-2	22	19	vanNH	31	
-2	22	20	vanNH	45	
-2	22	21	vanNH	8	
-2	22	22	vanNH	45	
-2	22	23	vanNH	7	A
-2	22	24	vanNH	27	G
-2	23	1	vanNH	8	P
-2	23	2	seaRM	0	PU
-2	23	3	seaRM	1	
-2	23	4	seaRM	17	
-2	23	5	seaRM	6	
-2	23	6	seaRM	17	
-2	23	7	vanNH	4	D
-2	23	8	vanNH	8	PU
-2	23	9	seaRM		
-2	23	10	vanNH	89	PU
-2	23	11	vanNH	22	
-2	23	12	vanNH	21	
-2	23	13	vanNH	89	
-2	23	14	vanNH	91	
-2	23	15	vanNH	19	
-2	23	16	vanNH	98	
-2	23	17	vanNH	19	
-2	23	18	vanNH	91	A
-2	23	19	vanNH	21	G
-2	24	1	vanNH	8	P
-2	24	2	seaRM	14	PU
-2	24	3	seaRM	1	
-2	24	4	seaRM	0	
-2	24	5	seaRM	1	
-2	24	6	seaRM	14	
-2	24	7	seaRM	6	
-2	24	8	seaRM	17	A
-2	24	9	seaRM	14	G
-2	25	1	seaRM	29	P
-2	25	2	vanNH	19	PU
-2	25	3	vanNH	81	
-2	25	4	vanNH	21	A
-2	25	5	vanNH	10	LG
-2	26	1	vanNH	8	P
-2	26	2	seaRM	1	PU
-2	26	3	seaRM	20	
-2	26	4	seaRM	1	
-2	26	5	vanNH	8	D
-3	27	1	seaRM	29	P
-3	27	2	vanNH	19	PU
-3	27	3	vanNH	89	
-3	27	4	vanNH	10	
-3	27	5	vanNH	22	
-3	27	6	vanNH	21	
-3	27	7	vanNH	98	
-3	27	8	vanNH	19	
-3	27	9	vanNH	89	
-3	27	10	vanNH	19	
-3	27	11	vanNH	91	
-3	27	12	vanNH	21	
-3	27	13	seaRM	15	D
-3	27	14	seaRM	29	PU
-3	27	15	seaRM	21	
-3	27	16	seaRM	18	
-3	27	17	seaRM	21	
-3	27	18	seaRM	29	
-3	27	19	seaRM	23	L
-3	27	20	seaRM	21	
-3	27	21	seaRM	12	A
-3	27	22	seaRM	21	G
-3	28	1	seaRM	24	P
-3	28	2	vanNH	89	PU
-3	28	3	vanNH	91	
-3	28	4	vanNH	89	
-3	28	5	vanNH	10	
-3	28	6	vanNH	91	
-3	28	7	vanNH	89	
-3	28	8	vanNH	21	A
-3	28	9	vanNH	72	LG
-3	29	1	vanNH	8	P
-3	29	2	seaRM	1	PU
-3	29	3	seaRM	20	
-3	29	4	seaRM	1	
-3	29	5	seaRM	20	
-3	29	6	seaRM	0	
-3	29	7	seaRM	17	
-3	29	8	seaRM	6	A
-3	29	9	seaRM	48	LG
-3	30	1	seaRM	29	P
-3	30	2	vanNH	89	PU
-3	30	3	vanNH	19	
-3	30	4	vanNH	21	
-3	30	5	vanNH	22	
-3	30	6	seaRM	18	D
-3	30	7	seaRM	29	PU
-3	30	8	seaRM	18	
-3	30	9	seaRM	21	
-3	30	10	seaRM	23	LA
-3	30	11	seaRM	18	G
-3	31	1	seaRM	29	P
-3	31	2	vanNH	19	PU
-3	31	3	vanNH	91	
-3	31	4	vanNH	10	
-3	31	5	vanNH	98	
-3	31	6	vanNH	22	
-3	31	7	vanNH	19	A
-3	31	8	vanNH	98	G
-3	32	1	vanNH	8	P
-3	32	2	seaRM	0	PU
-3	32	3	seaRM	1	
-3	32	4	seaRM	9	
-3	32	5	seaRM	14	
-3	32	6	seaRM	1	
-3	32	7	seaRM	17	
-3	32	8	seaRM	6	LA
-3	32	9	seaRM	9	G
-3	33	1	seaRM	29	P
-3	33	2	vanNH	91	PU
-3	33	3	vanNH	19	
-3	33	4	vanNH	91	
-3	33	5	vanNH	22	
-3	33	6	vanNH	19	
-3	33	7	vanNH	10	
-3	33	8	vanNH	98	A
-3	33	9	vanNH	72	G
-3	34	1	vanNH	8	P
-3	34	2	seaRM	0	PU
-3	34	3	seaRM	1	
-3	34	4	seaRM	0	
-3	34	5	seaRM	6	
-3	34	6	seaRM	48	
-3	34	7	vanNH	13	D
-3	34	8	vanNH	89	PU
-3	34	9	vanNH	98	
-3	34	10	vanNH	10	
-3	34	11	seaRM	29	PU
-3	34	12	seaRM	4	
-3	34	13	seaRM	29	
-3	34	14	seaRM	4	
-3	34	15	seaRM	29	
-3	34	16	seaRM	21	
-3	34	17	seaRM	29	
-3	34	18	seaRM	15	
-3	34	19	vanNH	91	PU
-3	34	20	vanNH	19	
-3	34	21	vanNH	89	A
-3	34	22	vanNH	10	G
-3	35	1	vanNH	8	P
-3	35	2	seaRM	0	PU
-3	35	3	seaRM	1	
-3	35	4	seaRM	0	
-3	35	5	seaRM	14	
-3	35	6	seaRM	51	
-3	35	7	seaRM	0	
-3	35	8	seaRM	14	
-3	35	9	seaRM	0	
-3	35	10	vanNH	45	F
-3	35	11	vanNH	11	PU
-3	35	12	vanNH	4	
-3	35	13	vanNH	45	
-3	35	14	vanNH	24	
-3	35	15	seaRM	4	D
-3	35	16	seaRM	1	PU
-3	35	17	seaRM	8	
-3	35	18	seaRM	9	L
-3	35	19	seaRM	17	
-3	35	20	seaRM	14	
-3	35	21	seaRM	17	A
-3	35	22	seaRM	1	G
-3	36	1	seaRM	29	P
-3	36	2	vanNH	89	PU
-3	36	3	vanNH	91	
-3	36	4	seaRM	23	D
-3	36	5	seaRM	29	PU
-3	36	6	seaRM	18	
-3	36	7	seaRM	23	
-3	36	8	seaRM	21	A
-3	36	9	seaRM	12	G
-3	37	1	seaRM	29	P
-3	37	2	vanNH	19	PU
-3	37	3	vanNH	89	
-3	37	4	vanNH	21	
-3	37	5	vanNH	19	
-3	37	6	vanNH	98	
-3	37	7	vanNH	22	
-3	37	8	vanNH	89	
-3	37	9	vanNH	10	
-3	37	10	vanNH	98	
-3	37	11	seaRM	4	PU
-3	37	12	vanNH	98	D
-3	37	13	vanNH	89	PU
-3	37	14	vanNH	10	
-3	37	15	vanNH	22	
-3	37	16	vanNH	98	
-3	37	17	vanNH	91	
-3	37	18	vanNH	19	
-3	37	19	vanNH	10	
-3	37	20	vanNH	89	A
-3	37	21	vanNH	21	G
-3	38	1	vanNH	8	P
-3	38	2	seaRM	1	PU
-3	38	3	seaRM	20	
-3	38	4	seaRM	1	
-3	38	5	seaRM	20	
-3	38	6	seaRM	8	
-3	38	7	seaRM	0	
-3	38	8	seaRM	6	
-3	38	9	vanNH	8	D
-3	38	10	vanNH	8	PU
-3	38	11	seaRM	8	HB
-4	39	1	vanNH	8	P
-4	39	2	seaRM	14	PU
-4	39	3	seaRM	1	
-4	39	4	seaRM	0	
-4	39	5	seaRM	1	
-4	39	6	seaRM	0	
-4	39	7	seaRM	9	
-4	39	8	seaRM	8	
-4	39	9	seaRM	17	A
-4	39	10	seaRM	9	LG
-4	40	1	seaRM	18	P
-4	40	2	vanNH	19	PU
-4	40	3	vanNH	89	
-4	40	4	vanNH	91	
-4	40	5	vanNH	19	
-4	40	6	vanNH	91	
-4	40	7	vanNH	22	
-4	40	8	vanNH	10	
-4	40	9	vanNH	22	
-4	40	10	vanNH	10	
-4	40	11	seaRM	18	D
-4	40	12	seaRM	18	SO
-4	40	13	vanNH	21	SO
-4	40	14	seaRM	17	SI
-4	40	15	vanNH	8	SI
-4	40	16	seaRM	29	PU
-4	40	17	seaRM	12	
-4	40	18	seaRM	29	
-4	40	19	vanNH	91	PU
-4	40	20	vanNH	89	
-4	40	21	vanNH	8	
-4	40	22	vanNH	10	
-4	40	23	vanNH	22	
-4	40	24	vanNH	98	
-4	40	25	vanNH	91	A
-4	40	26	vanNH	10	G
-4	41	1	vanNH	8	P
-4	41	2	seaRM	1	PU
-4	41	3	seaRM	20	
-4	41	4	seaRM	0	
-4	41	5	seaRM	20	
-4	41	6	seaRM	48	
-4	41	7	vanNH	8	D
-4	41	8	vanNH	8	PU
-4	41	9	vanNH	45	
-4	41	10	vanNH	31	
-4	41	11	seaRM	20	PU
-4	41	12	seaRM	1	
-4	41	13	seaRM	6	
-4	41	14	seaRM	1	
-4	41	15	seaRM	20	
-4	41	16	seaRM	48	
-4	41	17	vanNH	8	D
-4	41	18	seaRM		
-4	41	19	vanNH	89	PU
-4	41	20	vanNH	22	
-4	41	21	vanNH	89	
-4	41	22	vanNH	19	
-4	41	23	vanNH	91	
-4	41	24	vanNH	19	
-4	41	25	vanNH	72	
-4	41	26	vanNH	10	
-4	41	27	vanNH	89	
-4	41	28	vanNH	91	A
-4	41	29	vanNH	19	G
-4	42	1	vanNH	8	OBP
-4	42	2	seaRM	1	PU
-4	42	3	seaRM	0	
-4	42	4	seaRM	1	
-4	42	5	seaRM	0	
-4	42	6	seaRM	1	
-4	42	7	seaRM	8	
-4	42	8	seaRM	9	
-4	42	9	seaRM	1	
-4	42	10	seaRM	0	
-4	42	11	seaRM	6	
-4	42	12	vanNH	11	D
-4	42	13	vanNH	24	PU
-4	42	14	vanNH	91	
-4	42	15	vanNH	8	
-4	42	16	seaRM	8	D
-4	42	17	seaRM	8	PUA
-4	42	18	seaRM	6	G
-4	43	1	seaRM	29	P
-4	43	2	vanNH	89	PU
-4	43	3	vanNH	91	
-4	43	4	vanNH	98	
-4	43	5	vanNH	91	
-4	43	6	vanNH	89	
-4	43	7	vanNH	21	
-4	43	8	vanNH	10	
-4	43	9	vanNH	98	
-4	43	10	seaRM	29	PU
-4	43	11	seaRM	2	TO
-4	43	12	seaRM	1	PU
-4	43	13	seaRM	20	
-4	43	14	seaRM	1	
-4	43	15	seaRM	48	
-4	43	16	seaRM	9	
-4	43	17	seaRM	1	
-4	43	18	seaRM	0	
-4	43	19	seaRM	17	
-4	43	20	seaRM	48	
-4	43	21	vanNH	4	PU
-4	43	22	vanNH	8	
-4	43	23	vanNH	27	A
-4	43	24	vanNH	24	G
-4	44	1	vanNH	8	P
-4	44	2	seaRM	1	PU
-4	44	3	seaRM	20	
-4	44	4	seaRM	14	
-4	44	5	seaRM	1	
-4	44	6	seaRM	14	
-4	44	7	seaRM	9	
-4	44	8	seaRM	6	
-4	44	9	seaRM	1	
-4	44	10	seaRM	14	A
-4	44	11	seaRM	20	LG
-4	45	1	seaRM	29	P
-4	45	2	vanNH	89	PU
-4	45	3	vanNH	19	
-4	45	4	vanNH	21	A
-4	45	5	vanNH	91	LG
-4	46	1	vanNH	8	P
-4	46	2	seaRM	0	PU
-4	46	3	seaRM	20	
-4	46	4	seaRM	9	
-4	46	5	seaRM	0	
-4	46	6	seaRM	9	
-4	46	7	seaRM	6	
-4	46	8	seaRM	9	A
-4	46	9	seaRM	48	G
-4	47	1	seaRM	24	P
-4	47	2	vanNH	89	PU
-4	47	3	vanNH	91	
-4	47	4	vanNH	19	
-4	47	5	vanNH	21	
-4	47	6	vanNH	22	
-4	47	7	vanNH	10	
-4	47	8	vanNH	89	
-4	47	9	vanNH	91	
-4	47	10	seaRM	23	SO
-4	47	11	seaRM	7	SI
-4	47	12	vanNH	98	
-4	47	13	vanNH	91	A
-4	47	14	vanNH	89	G
-4	48	1	vanNH	8	P
-4	48	2	seaRM	0	PU
-4	48	3	seaRM	20	
-4	48	4	seaRM	9	
-4	48	5	seaRM	0	
-4	48	6	seaRM	1	
-4	48	7	seaRM	6	
-4	48	8	seaRM	9	
-4	48	9	vanNH	8	D
-4	48	10	vanNH	31	PU
-4	48	11	seaRM	6	D
-5	49	1	vanNH	8	P
-5	49	2	seaRM	1	PU
-5	49	3	seaRM	0	
-5	49	4	seaRM	20	
-5	49	5	seaRM	48	
-5	49	6	seaRM	20	A
-5	49	7	seaRM	6	G
-5	50	1	seaRM	29	P
-5	50	2	vanNH	19	PU
-5	50	3	vanNH	89	
-5	50	4	vanNH	22	
-5	50	5	vanNH	98	
-5	50	6	vanNH	89	
-5	50	7	vanNH	19	
-5	50	8	vanNH	10	
-5	50	9	vanNH	89	
-5	50	10	seaRM	21	D
-5	50	11	seaRM	29	PU
-5	50	12	seaRM	12	
-5	50	13	seaRM	29	
-5	50	14	vanNH	89	D
-5	50	15	vanNH	91	PU
-5	50	16	vanNH	98	
-5	50	17	vanNH	91	
-5	50	18	vanNH	89	
-5	50	19	vanNH	91	
-5	50	20	vanNH	21	
-5	50	21	vanNH	91	
-5	50	22	vanNH	10	
-5	50	23	vanNH	91	
-5	50	24	vanNH	19	A
-5	50	25	vanNH	98	G
-5	51	1	vanNH	8	P
-5	51	2	seaRM	20	PU
-5	51	3	seaRM	1	
-5	51	4	seaRM	17	
-5	51	5	seaRM	8	
-5	51	6	seaRM	9	A
-5	51	7	seaRM	17	G
-5	52	1	seaRM	29	P
-5	52	2	vanNH	89	PU
-5	52	3	vanNH	19	
-5	52	4	vanNH	89	
-5	52	5	vanNH	19	
-5	52	6	vanNH	89	
-5	52	7	vanNH	22	
-5	52	8	vanNH	19	
-5	52	9	vanNH	91	
-5	52	10	vanNH	21	
-5	52	11	vanNH	19	
-5	52	12	vanNH	91	
-5	52	13	vanNH	21	
-5	52	14	vanNH	89	
-5	52	15	vanNH	10	TD
-5	52	16	seaRM	29	PU
-5	52	17	seaRM	21	
-5	52	18	seaRM	29	
-5	52	19	seaRM	21	
-5	52	20	seaRM	29	
-5	52	21	vanNH		
-5	52	22	seaRM	20	PU
-5	52	23	seaRM	9	
-5	52	24	seaRM	17	
-5	52	25	seaRM	1	
-5	52	26	vanNH		TO
-5	52	27	vanNH	91	PU
-5	52	28	vanNH	10	
-5	52	29	vanNH	98	
-5	52	30	vanNH	91	
-5	52	31	vanNH	19	
-5	52	32	vanNH	22	
-5	52	33	vanNH	10	
-5	52	34	vanNH	98	
-5	52	35	vanNH	91	
-5	52	36	vanNH	89	
-5	52	37	vanNH	91	
-5	52	38	vanNH	98	
-5	52	39	vanNH	91	
-5	52	40	vanNH	19	A
-5	52	41	vanNH	10	G
-5	53	1	vanNH	8	P
-5	53	2	seaRM	20	PU
-5	53	3	seaRM	1	
-5	53	4	seaRM	20	
-6	54	1	seaRM	29	P
-6	54	2	vanNH	19	PU
-6	54	3	vanNH	89	
-6	54	4	vanNH	10	
-6	54	5	vanNH	98	
-6	54	6	vanNH	21	
-6	54	7	vanNH	91	
-6	54	8	vanNH	98	
-6	54	9	vanNH	19	
-6	54	10	vanNH	89	
-6	54	11	vanNH	19	
-6	54	12	vanNH	91	
-6	54	13	vanNH	98	A
-6	54	14	vanNH	91	G
-6	55	1	vanNH	8	P
-6	55	2	seaRM	1	PU
-6	55	3	seaRM	20	
-6	55	4	seaRM	17	
-6	55	5	seaRM	20	
-6	55	6	seaRM	0	
-6	55	7	seaRM	20	
-6	55	8	vanNH	24	D
-6	55	9	seaRM		
-6	55	10	vanNH	19	PU
-6	55	11	vanNH	21	
-6	55	12	vanNH	89	
-6	55	13	vanNH	91	A
-6	55	14	vanNH	10	G
-6	56	1	vanNH	8	P
-6	56	2	seaRM	0	PU
-6	56	3	seaRM	20	
-6	56	4	seaRM	17	
-6	56	5	seaRM	8	
-6	56	6	vanNH	11	F
-6	56	7	seaRM	0	TD
-6	56	8	vanNH	24	PU
-6	56	9	seaRM	48	D
-6	56	10	seaRM	48	PU
-6	56	11	seaRM	6	
-6	56	12	seaRM	0	
-6	56	13	seaRM	6	
-6	56	14	vanNH	4	D
-6	56	15	vanNH	7	PU
-6	56	16	vanNH	45	
-6	56	17	vanNH	8	
-6	56	18	vanNH	11	
-6	56	19	seaRM	20	D
-6	56	20	seaRM	0	PU
-6	56	21	vanNH	7	D
-6	56	22	vanNH	24	PU
-6	56	23	vanNH	11	A
-6	56	24	vanNH	8	G
-6	57	1	vanNH	8	P
-6	57	2	seaRM	29	PU
-6	57	3	seaRM	21	
-6	57	4	seaRM	29	
-6	57	5	seaRM	2	
-6	57	6	seaRM	24	
-6	57	7	seaRM	29	
-6	57	8	seaRM	12	
-6	57	9	seaRM	29	
-6	57	10	vanNH	45	PU
-6	57	11	vanNH	37	
-6	57	12	vanNH	8	
-6	57	13	seaRM	29	PU
-6	57	14	vanNH	89	PU
-6	57	15	vanNH	11	
-6	57	16	vanNH	8	
-6	57	17	vanNH	11	
-6	57	18	vanNH	4	A
-6	57	19	vanNH	45	G
-6	58	1	vanNH	8	P
-6	58	2	seaRM	20	PU
-6	58	3	seaRM	1	
-6	58	4	vanNH	89	PU
-6	58	5	vanNH	37	A
-6	58	6	vanNH	49	G
+period	point	event	pl_team	pl_pnum	pl_code	poss_team
+1	1	1	seaRM	18	P	vanNH
+1	1	2	vanNH	19	PU	vanNH
+1	1	3	vanNH	89		vanNH
+1	1	4	vanNH	21		vanNH
+1	1	5	vanNH	89		vanNH
+1	1	6	vanNH	91		vanNH
+1	1	7	vanNH	89		vanNH
+1	1	8	vanNH	21		vanNH
+1	1	9	vanNH	98		vanNH
+1	1	10	vanNH	91	A	vanNH
+1	1	11	vanNH	10	LG	vanNH
+1	2	1	vanNH	8	OBP	seaRM
+1	2	2	seaRM	1	PU	seaRM
+1	2	3	seaRM	6	A	seaRM
+1	2	4	seaRM	8	LG	seaRM
+1	3	1	seaRM	18	P	vanNH
+1	3	2	vanNH	19	PU	vanNH
+1	3	3	vanNH	91		vanNH
+1	3	4	vanNH	19		vanNH
+1	3	5	vanNH	22		vanNH
+1	3	6	seaRM	18	D	vanNH
+1	3	7	seaRM	29		seaRM
+1	3	8	seaRM	21		seaRM
+1	3	9	seaRM	29		seaRM
+1	3	10	seaRM	21		seaRM
+1	3	11	seaRM	2	A	seaRM
+1	3	12	vanNH	89	F	seaRM
+1	3	13	seaRM	12	G	seaRM
+1	4	1	seaRM	24	P	vanNH
+1	4	2	vanNH	19	PU	vanNH
+1	4	3	vanNH	89		vanNH
+1	4	4	vanNH	21		vanNH
+1	4	5	vanNH	91	A	vanNH
+1	4	6	vanNH	72	LG	vanNH
+1	5	1	vanNH	8	P	seaRM
+1	5	2	seaRM	0	PU	seaRM
+1	5	3	seaRM	1		seaRM
+1	5	4	seaRM	6		seaRM
+1	5	5	seaRM	0		seaRM
+1	5	6	seaRM	17		seaRM
+1	5	7	seaRM	14		seaRM
+1	5	8	seaRM	0		seaRM
+1	5	9	seaRM	17		seaRM
+1	5	10	seaRM	6	L	seaRM
+1	5	11	seaRM	8		seaRM
+1	5	12	seaRM	6	A	seaRM
+1	5	13	seaRM	1	G	seaRM
+1	6	1	seaRM	18	P	vanNH
+1	6	2	vanNH	89	PU	vanNH
+1	6	3	vanNH	91		vanNH
+1	6	4	vanNH	98		vanNH
+1	6	5	vanNH	22	A	vanNH
+1	6	6	vanNH	10	LG	vanNH
+1	7	1	vanNH	8	P	seaRM
+1	7	2	seaRM	0	PU	seaRM
+1	7	3	seaRM	20		seaRM
+1	7	4	seaRM	48		seaRM
+1	7	5	seaRM	20		seaRM
+1	7	6	seaRM	0		seaRM
+1	7	7	seaRM	1		seaRM
+1	7	8	seaRM	20		seaRM
+1	7	9	seaRM	1		seaRM
+1	7	10	seaRM	0		seaRM
+1	7	11	seaRM	17		seaRM
+1	7	12	seaRM	0		seaRM
+1	7	13	seaRM	6		seaRM
+1	7	14	seaRM	48	TD	seaRM
+1	7	15	vanNH	24	PU	vanNH
+1	7	16	vanNH	8		vanNH
+1	7	17	vanNH	27		vanNH
+1	7	18	vanNH	11		vanNH
+1	7	19	vanNH	8		vanNH
+1	7	20	vanNH	4		vanNH
+1	7	21	vanNH	45		vanNH
+1	7	22	vanNH	27		vanNH
+1	7	23	vanNH	45		vanNH
+1	7	24	vanNH	8	A	vanNH
+1	7	25	vanNH	11	G	vanNH
+1	8	1	vanNH	37	P	seaRM
+1	8	2	seaRM	0	PU	seaRM
+1	8	3	seaRM	1		seaRM
+1	8	4	seaRM	14		seaRM
+1	8	5	seaRM	0		seaRM
+1	8	6	seaRM	17		seaRM
+1	8	7	seaRM	8		seaRM
+1	8	8	vanNH	75	PU	vanNH
+1	8	9	vanNH	37		vanNH
+1	8	10	vanNH	24		vanNH
+1	8	11	seaRM	17	PU	seaRM
+1	8	12	seaRM	14		seaRM
+1	8	13	vanNH	24	PUA	vanNH
+1	8	14	vanNH	37	G	vanNH
+1	9	1	vanNH	8	P	seaRM
+1	9	2	seaRM	0	PU	seaRM
+1	9	3	seaRM	17		seaRM
+1	9	4	seaRM	0		seaRM
+1	9	5	seaRM	6		seaRM
+1	9	6	seaRM	0		seaRM
+1	9	7	seaRM	6		seaRM
+1	9	8	seaRM	20		seaRM
+1	9	9	seaRM	17		seaRM
+1	9	10	seaRM	0		seaRM
+1	9	11	seaRM	48	A	seaRM
+1	9	12	seaRM	20	G	seaRM
+1	10	1	seaRM	18	OBP	vanNH
+1	10	2	vanNH	91	PU	vanNH
+1	10	3	vanNH	19		vanNH
+1	10	4	vanNH	19	F	vanNH
+1	10	5	vanNH	89		vanNH
+1	10	6	vanNH	19		vanNH
+1	10	7	vanNH	91		vanNH
+1	10	8	vanNH	19		vanNH
+1	10	9	vanNH	21		vanNH
+1	10	10	vanNH	22		vanNH
+1	10	11	vanNH	89		vanNH
+1	10	12	vanNH	91		vanNH
+1	10	13	seaRM	18	D	vanNH
+1	10	14	seaRM	23	PU	seaRM
+1	10	15	seaRM	15		seaRM
+1	10	16	seaRM	29		seaRM
+1	10	17	seaRM	18		seaRM
+1	10	18	seaRM	2	L	seaRM
+1	10	19	seaRM	29	A	seaRM
+1	10	20	seaRM	18	G	seaRM
+1	11	1	seaRM	24	P	vanNH
+1	11	2	vanNH	19	PU	vanNH
+1	11	3	vanNH	91		vanNH
+1	11	4	vanNH	22		vanNH
+1	11	5	vanNH	89		vanNH
+1	11	6	vanNH	21		vanNH
+1	11	7	vanNH	10		vanNH
+1	11	8	vanNH	89	LA	vanNH
+1	11	9	vanNH	98	G	vanNH
+1	12	1	vanNH	8	OBP	seaRM
+1	12	2	seaRM	20	PU	seaRM
+1	12	3	seaRM	0		seaRM
+1	12	4	seaRM	8		seaRM
+1	12	5	seaRM	20		seaRM
+1	12	6	seaRM	0		seaRM
+1	12	7	seaRM	20	A	seaRM
+1	12	8	seaRM	9	LG	seaRM
+1	13	1	seaRM	18	P	vanNH
+1	13	2	vanNH	89	PU	vanNH
+1	13	3	vanNH	19		vanNH
+1	13	4	vanNH	21	TD	vanNH
+1	13	5	seaRM	29	PU	seaRM
+1	13	6	vanNH	91	PU	vanNH
+1	13	7	vanNH	89		vanNH
+1	13	8	vanNH	19		vanNH
+1	13	9	vanNH	21		vanNH
+1	13	10	vanNH	98		vanNH
+1	13	11	vanNH	22		vanNH
+1	13	12	vanNH	89		vanNH
+1	13	13	vanNH	19		vanNH
+1	13	14	vanNH	89		vanNH
+1	13	15	vanNH	91	A	vanNH
+1	13	16	vanNH	19	G	vanNH
+1	14	1	vanNH	8	P	seaRM
+1	14	2	seaRM	14	PU	seaRM
+1	14	3	seaRM	1		seaRM
+1	14	4	seaRM	6		seaRM
+1	14	5	vanNH	8	D	seaRM
+2	15	1	vanNH	8	P	seaRM
+2	15	2	seaRM	0	PU	seaRM
+2	15	3	seaRM	1		seaRM
+2	15	4	seaRM	9		seaRM
+2	15	5	seaRM	1		seaRM
+2	15	6	seaRM	20		seaRM
+2	15	7	seaRM	0		seaRM
+2	15	8	seaRM	9		seaRM
+2	15	9	seaRM	6		seaRM
+2	15	10	seaRM	1	LA	seaRM
+2	15	11	seaRM	0	G	seaRM
+2	16	1	seaRM	29	P	vanNH
+2	16	2	vanNH	89	PU	vanNH
+2	16	3	vanNH	91		vanNH
+2	16	4	vanNH	10		vanNH
+2	16	5	seaRM	29	PU	seaRM
+2	16	6	seaRM	21		seaRM
+2	16	7	seaRM	29		seaRM
+2	16	8	seaRM	21		seaRM
+2	16	9	seaRM	24		seaRM
+2	16	10	vanNH	21	F	seaRM
+2	16	11	seaRM	29	A	seaRM
+2	16	12	seaRM	23	G	seaRM
+2	17	1	seaRM	29	P	vanNH
+2	17	2	vanNH	91	PU	vanNH
+2	17	3	vanNH	98		vanNH
+2	17	4	vanNH	91		vanNH
+2	17	5	vanNH	19		vanNH
+2	17	6	vanNH	89		vanNH
+2	17	7	seaRM	29	PU	seaRM
+2	17	8	seaRM	12		seaRM
+2	17	9	seaRM	15		seaRM
+2	17	10	seaRM	23		seaRM
+2	17	11	seaRM	77		seaRM
+2	17	12	seaRM	29		seaRM
+2	17	13	seaRM	2	L	seaRM
+2	17	14	seaRM	18	A	seaRM
+2	17	15	seaRM	29	G	seaRM
+2	18	1	seaRM	24	P	vanNH
+2	18	2	vanNH	89	PU	vanNH
+2	18	3	vanNH	91		vanNH
+2	18	4	vanNH	19		vanNH
+2	18	5	vanNH	72		vanNH
+2	18	6	vanNH	22		vanNH
+2	18	7	vanNH	89		vanNH
+2	18	8	vanNH	72	A	vanNH
+2	18	9	vanNH	19	G	vanNH
+2	19	1	vanNH	8	P	seaRM
+2	19	2	seaRM	14	PU	seaRM
+2	19	3	seaRM	1		seaRM
+2	19	4	seaRM	14		seaRM
+2	19	5	seaRM	1		seaRM
+2	19	6	seaRM	0		seaRM
+2	19	7	seaRM	6		seaRM
+2	19	8	seaRM	51		seaRM
+2	19	9	seaRM	17		seaRM
+2	19	10	seaRM	14		seaRM
+2	19	11	seaRM	6		seaRM
+2	19	12	vanNH	75	PU	vanNH
+2	19	13	seaRM	0	PU	seaRM
+2	19	14	seaRM	1		seaRM
+2	19	15	seaRM	51		seaRM
+2	19	16	seaRM	0		seaRM
+2	19	17	seaRM	1		seaRM
+2	19	18	seaRM	0		seaRM
+2	19	19	seaRM	17	A	seaRM
+2	19	20	seaRM	6	G	seaRM
+2	20	1	seaRM	29	P	vanNH
+2	20	2	vanNH	89	PU	vanNH
+2	20	3	vanNH	19		vanNH
+2	20	4	vanNH	21		vanNH
+2	20	5	vanNH	91		vanNH
+2	20	6	vanNH	21		vanNH
+2	20	7	vanNH	19		vanNH
+2	20	8	vanNH	98		vanNH
+2	20	9	vanNH	91		vanNH
+2	20	10	vanNH	89		vanNH
+2	20	11	vanNH	91		vanNH
+2	20	12	vanNH	21		vanNH
+2	20	13	vanNH	89	A	vanNH
+2	20	14	vanNH	10	G	vanNH
+2	21	1	vanNH	37	P	seaRM
+2	21	2	seaRM	0	PU	seaRM
+2	21	3	seaRM	20		seaRM
+2	21	4	seaRM	48	L	seaRM
+2	21	5	seaRM	8	A	seaRM
+2	21	6	seaRM	17	G	seaRM
+2	22	1	seaRM	29	P	vanNH
+2	22	2	vanNH	89	PU	vanNH
+2	22	3	vanNH	19		vanNH
+2	22	4	vanNH	89		vanNH
+2	22	5	vanNH	10		vanNH
+2	22	6	vanNH	22		vanNH
+2	22	7	vanNH	21		vanNH
+2	22	8	vanNH	22		vanNH
+2	22	9	vanNH	91		vanNH
+2	22	10	vanNH	89		vanNH
+2	22	11	vanNH	91		vanNH
+2	22	12	seaRM	29	TO	seaRM
+2	22	13	seaRM	1	PU	seaRM
+2	22	14	seaRM	9		seaRM
+2	22	15	seaRM	1		seaRM
+2	22	16	seaRM	14		seaRM
+2	22	17	seaRM	17		seaRM
+2	22	18	vanNH	8	PU	vanNH
+2	22	19	vanNH	31		vanNH
+2	22	20	vanNH	45		vanNH
+2	22	21	vanNH	8		vanNH
+2	22	22	vanNH	45		vanNH
+2	22	23	vanNH	7	A	vanNH
+2	22	24	vanNH	27	G	vanNH
+2	23	1	vanNH	8	P	seaRM
+2	23	2	seaRM	0	PU	seaRM
+2	23	3	seaRM	1		seaRM
+2	23	4	seaRM	17		seaRM
+2	23	5	seaRM	6		seaRM
+2	23	6	seaRM	17		seaRM
+2	23	7	vanNH	4	D	seaRM
+2	23	8	vanNH	8	PU	vanNH
+2	23	9	seaRM			seaRM
+2	23	10	vanNH	89	PU	vanNH
+2	23	11	vanNH	22		vanNH
+2	23	12	vanNH	21		vanNH
+2	23	13	vanNH	89		vanNH
+2	23	14	vanNH	91		vanNH
+2	23	15	vanNH	19		vanNH
+2	23	16	vanNH	98		vanNH
+2	23	17	vanNH	19		vanNH
+2	23	18	vanNH	91	A	vanNH
+2	23	19	vanNH	21	G	vanNH
+2	24	1	vanNH	8	P	seaRM
+2	24	2	seaRM	14	PU	seaRM
+2	24	3	seaRM	1		seaRM
+2	24	4	seaRM	0		seaRM
+2	24	5	seaRM	1		seaRM
+2	24	6	seaRM	14		seaRM
+2	24	7	seaRM	6		seaRM
+2	24	8	seaRM	17	A	seaRM
+2	24	9	seaRM	14	G	seaRM
+2	25	1	seaRM	29	P	vanNH
+2	25	2	vanNH	19	PU	vanNH
+2	25	3	vanNH	81		vanNH
+2	25	4	vanNH	21	A	vanNH
+2	25	5	vanNH	10	LG	vanNH
+2	26	1	vanNH	8	P	seaRM
+2	26	2	seaRM	1	PU	seaRM
+2	26	3	seaRM	20		seaRM
+2	26	4	seaRM	1		seaRM
+2	26	5	vanNH	8	D	seaRM
+3	27	1	seaRM	29	P	vanNH
+3	27	2	vanNH	19	PU	vanNH
+3	27	3	vanNH	89		vanNH
+3	27	4	vanNH	10		vanNH
+3	27	5	vanNH	22		vanNH
+3	27	6	vanNH	21		vanNH
+3	27	7	vanNH	98		vanNH
+3	27	8	vanNH	19		vanNH
+3	27	9	vanNH	89		vanNH
+3	27	10	vanNH	19		vanNH
+3	27	11	vanNH	91		vanNH
+3	27	12	vanNH	21		vanNH
+3	27	13	seaRM	15	D	vanNH
+3	27	14	seaRM	29	PU	seaRM
+3	27	15	seaRM	21		seaRM
+3	27	16	seaRM	18		seaRM
+3	27	17	seaRM	21		seaRM
+3	27	18	seaRM	29		seaRM
+3	27	19	seaRM	23	L	seaRM
+3	27	20	seaRM	21		seaRM
+3	27	21	seaRM	12	A	seaRM
+3	27	22	seaRM	21	G	seaRM
+3	28	1	seaRM	24	P	vanNH
+3	28	2	vanNH	89	PU	vanNH
+3	28	3	vanNH	91		vanNH
+3	28	4	vanNH	89		vanNH
+3	28	5	vanNH	10		vanNH
+3	28	6	vanNH	91		vanNH
+3	28	7	vanNH	89		vanNH
+3	28	8	vanNH	21	A	vanNH
+3	28	9	vanNH	72	LG	vanNH
+3	29	1	vanNH	8	P	seaRM
+3	29	2	seaRM	1	PU	seaRM
+3	29	3	seaRM	20		seaRM
+3	29	4	seaRM	1		seaRM
+3	29	5	seaRM	20		seaRM
+3	29	6	seaRM	0		seaRM
+3	29	7	seaRM	17		seaRM
+3	29	8	seaRM	6	A	seaRM
+3	29	9	seaRM	48	LG	seaRM
+3	30	1	seaRM	29	P	vanNH
+3	30	2	vanNH	89	PU	vanNH
+3	30	3	vanNH	19		vanNH
+3	30	4	vanNH	21		vanNH
+3	30	5	vanNH	22		vanNH
+3	30	6	seaRM	18	D	vanNH
+3	30	7	seaRM	29	PU	seaRM
+3	30	8	seaRM	18		seaRM
+3	30	9	seaRM	21		seaRM
+3	30	10	seaRM	23	LA	seaRM
+3	30	11	seaRM	18	G	seaRM
+3	31	1	seaRM	29	P	vanNH
+3	31	2	vanNH	19	PU	vanNH
+3	31	3	vanNH	91		vanNH
+3	31	4	vanNH	10		vanNH
+3	31	5	vanNH	98		vanNH
+3	31	6	vanNH	22		vanNH
+3	31	7	vanNH	19	A	vanNH
+3	31	8	vanNH	98	G	vanNH
+3	32	1	vanNH	8	P	seaRM
+3	32	2	seaRM	0	PU	seaRM
+3	32	3	seaRM	1		seaRM
+3	32	4	seaRM	9		seaRM
+3	32	5	seaRM	14		seaRM
+3	32	6	seaRM	1		seaRM
+3	32	7	seaRM	17		seaRM
+3	32	8	seaRM	6	LA	seaRM
+3	32	9	seaRM	9	G	seaRM
+3	33	1	seaRM	29	P	vanNH
+3	33	2	vanNH	91	PU	vanNH
+3	33	3	vanNH	19		vanNH
+3	33	4	vanNH	91		vanNH
+3	33	5	vanNH	22		vanNH
+3	33	6	vanNH	19		vanNH
+3	33	7	vanNH	10		vanNH
+3	33	8	vanNH	98	A	vanNH
+3	33	9	vanNH	72	G	vanNH
+3	34	1	vanNH	8	P	seaRM
+3	34	2	seaRM	0	PU	seaRM
+3	34	3	seaRM	1		seaRM
+3	34	4	seaRM	0		seaRM
+3	34	5	seaRM	6		seaRM
+3	34	6	seaRM	48		seaRM
+3	34	7	vanNH	13	D	seaRM
+3	34	8	vanNH	89	PU	vanNH
+3	34	9	vanNH	98		vanNH
+3	34	10	vanNH	10		vanNH
+3	34	11	seaRM	29	PU	seaRM
+3	34	12	seaRM	4		seaRM
+3	34	13	seaRM	29		seaRM
+3	34	14	seaRM	4		seaRM
+3	34	15	seaRM	29		seaRM
+3	34	16	seaRM	21		seaRM
+3	34	17	seaRM	29		seaRM
+3	34	18	seaRM	15		seaRM
+3	34	19	vanNH	91	PU	vanNH
+3	34	20	vanNH	19		vanNH
+3	34	21	vanNH	89	A	vanNH
+3	34	22	vanNH	10	G	vanNH
+3	35	1	vanNH	8	P	seaRM
+3	35	2	seaRM	0	PU	seaRM
+3	35	3	seaRM	1		seaRM
+3	35	4	seaRM	0		seaRM
+3	35	5	seaRM	14		seaRM
+3	35	6	seaRM	51		seaRM
+3	35	7	seaRM	0		seaRM
+3	35	8	seaRM	14		seaRM
+3	35	9	seaRM	0		seaRM
+3	35	10	vanNH	45	F	seaRM
+3	35	11	vanNH	11	PU	vanNH
+3	35	12	vanNH	4		vanNH
+3	35	13	vanNH	45		vanNH
+3	35	14	vanNH	24		vanNH
+3	35	15	seaRM	4	D	vanNH
+3	35	16	seaRM	1	PU	seaRM
+3	35	17	seaRM	8		seaRM
+3	35	18	seaRM	9	L	seaRM
+3	35	19	seaRM	17		seaRM
+3	35	20	seaRM	14		seaRM
+3	35	21	seaRM	17	A	seaRM
+3	35	22	seaRM	1	G	seaRM
+3	36	1	seaRM	29	P	vanNH
+3	36	2	vanNH	89	PU	vanNH
+3	36	3	vanNH	91		vanNH
+3	36	4	seaRM	23	D	vanNH
+3	36	5	seaRM	29	PU	seaRM
+3	36	6	seaRM	18		seaRM
+3	36	7	seaRM	23		seaRM
+3	36	8	seaRM	21	A	seaRM
+3	36	9	seaRM	12	G	seaRM
+3	37	1	seaRM	29	P	vanNH
+3	37	2	vanNH	19	PU	vanNH
+3	37	3	vanNH	89		vanNH
+3	37	4	vanNH	21		vanNH
+3	37	5	vanNH	19		vanNH
+3	37	6	vanNH	98		vanNH
+3	37	7	vanNH	22		vanNH
+3	37	8	vanNH	89		vanNH
+3	37	9	vanNH	10		vanNH
+3	37	10	vanNH	98		vanNH
+3	37	11	seaRM	4	PU	seaRM
+3	37	12	vanNH	98	D	seaRM
+3	37	13	vanNH	89	PU	vanNH
+3	37	14	vanNH	10		vanNH
+3	37	15	vanNH	22		vanNH
+3	37	16	vanNH	98		vanNH
+3	37	17	vanNH	91		vanNH
+3	37	18	vanNH	19		vanNH
+3	37	19	vanNH	10		vanNH
+3	37	20	vanNH	89	A	vanNH
+3	37	21	vanNH	21	G	vanNH
+3	38	1	vanNH	8	P	seaRM
+3	38	2	seaRM	1	PU	seaRM
+3	38	3	seaRM	20		seaRM
+3	38	4	seaRM	1		seaRM
+3	38	5	seaRM	20		seaRM
+3	38	6	seaRM	8		seaRM
+3	38	7	seaRM	0		seaRM
+3	38	8	seaRM	6		seaRM
+3	38	9	vanNH	8	D	seaRM
+3	38	10	vanNH	8	PU	vanNH
+3	38	11	seaRM	8	HB	vanNH
+4	39	1	vanNH	8	P	seaRM
+4	39	2	seaRM	14	PU	seaRM
+4	39	3	seaRM	1		seaRM
+4	39	4	seaRM	0		seaRM
+4	39	5	seaRM	1		seaRM
+4	39	6	seaRM	0		seaRM
+4	39	7	seaRM	9		seaRM
+4	39	8	seaRM	8		seaRM
+4	39	9	seaRM	17	A	seaRM
+4	39	10	seaRM	9	LG	seaRM
+4	40	1	seaRM	18	P	vanNH
+4	40	2	vanNH	19	PU	vanNH
+4	40	3	vanNH	89		vanNH
+4	40	4	vanNH	91		vanNH
+4	40	5	vanNH	19		vanNH
+4	40	6	vanNH	91		vanNH
+4	40	7	vanNH	22		vanNH
+4	40	8	vanNH	10		vanNH
+4	40	9	vanNH	22		vanNH
+4	40	10	vanNH	10		vanNH
+4	40	11	seaRM	18	D	vanNH
+4	40	12	seaRM	18	SO	seaRM
+4	40	13	vanNH	21	SO	seaRM
+4	40	14	seaRM	17	SI	seaRM
+4	40	15	vanNH	8	SI	seaRM
+4	40	16	seaRM	29	PU	seaRM
+4	40	17	seaRM	12		seaRM
+4	40	18	seaRM	29		seaRM
+4	40	19	vanNH	91	PU	vanNH
+4	40	20	vanNH	89		vanNH
+4	40	21	vanNH	8		vanNH
+4	40	22	vanNH	10		vanNH
+4	40	23	vanNH	22		vanNH
+4	40	24	vanNH	98		vanNH
+4	40	25	vanNH	91	A	vanNH
+4	40	26	vanNH	10	G	vanNH
+4	41	1	vanNH	8	P	seaRM
+4	41	2	seaRM	1	PU	seaRM
+4	41	3	seaRM	20		seaRM
+4	41	4	seaRM	0		seaRM
+4	41	5	seaRM	20		seaRM
+4	41	6	seaRM	48		seaRM
+4	41	7	vanNH	8	D	seaRM
+4	41	8	vanNH	8	PU	vanNH
+4	41	9	vanNH	45		vanNH
+4	41	10	vanNH	31		vanNH
+4	41	11	seaRM	20	PU	seaRM
+4	41	12	seaRM	1		seaRM
+4	41	13	seaRM	6		seaRM
+4	41	14	seaRM	1		seaRM
+4	41	15	seaRM	20		seaRM
+4	41	16	seaRM	48		seaRM
+4	41	17	vanNH	8	D	seaRM
+4	41	18	seaRM			seaRM
+4	41	19	vanNH	89	PU	vanNH
+4	41	20	vanNH	22		vanNH
+4	41	21	vanNH	89		vanNH
+4	41	22	vanNH	19		vanNH
+4	41	23	vanNH	91		vanNH
+4	41	24	vanNH	19		vanNH
+4	41	25	vanNH	72		vanNH
+4	41	26	vanNH	10		vanNH
+4	41	27	vanNH	89		vanNH
+4	41	28	vanNH	91	A	vanNH
+4	41	29	vanNH	19	G	vanNH
+4	42	1	vanNH	8	OBP	seaRM
+4	42	2	seaRM	1	PU	seaRM
+4	42	3	seaRM	0		seaRM
+4	42	4	seaRM	1		seaRM
+4	42	5	seaRM	0		seaRM
+4	42	6	seaRM	1		seaRM
+4	42	7	seaRM	8		seaRM
+4	42	8	seaRM	9		seaRM
+4	42	9	seaRM	1		seaRM
+4	42	10	seaRM	0		seaRM
+4	42	11	seaRM	6		seaRM
+4	42	12	vanNH	11	D	seaRM
+4	42	13	vanNH	24	PU	vanNH
+4	42	14	vanNH	91		vanNH
+4	42	15	vanNH	8		vanNH
+4	42	16	seaRM	8	D	vanNH
+4	42	17	seaRM	8	PUA	seaRM
+4	42	18	seaRM	6	G	seaRM
+4	43	1	seaRM	29	P	vanNH
+4	43	2	vanNH	89	PU	vanNH
+4	43	3	vanNH	91		vanNH
+4	43	4	vanNH	98		vanNH
+4	43	5	vanNH	91		vanNH
+4	43	6	vanNH	89		vanNH
+4	43	7	vanNH	21		vanNH
+4	43	8	vanNH	10		vanNH
+4	43	9	vanNH	98		vanNH
+4	43	10	seaRM	29	PU	seaRM
+4	43	11	seaRM	2	TO	seaRM
+4	43	12	seaRM	1	PU	seaRM
+4	43	13	seaRM	20		seaRM
+4	43	14	seaRM	1		seaRM
+4	43	15	seaRM	48		seaRM
+4	43	16	seaRM	9		seaRM
+4	43	17	seaRM	1		seaRM
+4	43	18	seaRM	0		seaRM
+4	43	19	seaRM	17		seaRM
+4	43	20	seaRM	48		seaRM
+4	43	21	vanNH	4	PU	vanNH
+4	43	22	vanNH	8		vanNH
+4	43	23	vanNH	27	A	vanNH
+4	43	24	vanNH	24	G	vanNH
+4	44	1	vanNH	8	P	seaRM
+4	44	2	seaRM	1	PU	seaRM
+4	44	3	seaRM	20		seaRM
+4	44	4	seaRM	14		seaRM
+4	44	5	seaRM	1		seaRM
+4	44	6	seaRM	14		seaRM
+4	44	7	seaRM	9		seaRM
+4	44	8	seaRM	6		seaRM
+4	44	9	seaRM	1		seaRM
+4	44	10	seaRM	14	A	seaRM
+4	44	11	seaRM	20	LG	seaRM
+4	45	1	seaRM	29	P	vanNH
+4	45	2	vanNH	89	PU	vanNH
+4	45	3	vanNH	19		vanNH
+4	45	4	vanNH	21	A	vanNH
+4	45	5	vanNH	91	LG	vanNH
+4	46	1	vanNH	8	P	seaRM
+4	46	2	seaRM	0	PU	seaRM
+4	46	3	seaRM	20		seaRM
+4	46	4	seaRM	9		seaRM
+4	46	5	seaRM	0		seaRM
+4	46	6	seaRM	9		seaRM
+4	46	7	seaRM	6		seaRM
+4	46	8	seaRM	9	A	seaRM
+4	46	9	seaRM	48	G	seaRM
+4	47	1	seaRM	24	P	vanNH
+4	47	2	vanNH	89	PU	vanNH
+4	47	3	vanNH	91		vanNH
+4	47	4	vanNH	19		vanNH
+4	47	5	vanNH	21		vanNH
+4	47	6	vanNH	22		vanNH
+4	47	7	vanNH	10		vanNH
+4	47	8	vanNH	89		vanNH
+4	47	9	vanNH	91		vanNH
+4	47	10	seaRM	23	SO	vanNH
+4	47	11	seaRM	7	SI	vanNH
+4	47	12	vanNH	98		vanNH
+4	47	13	vanNH	91	A	vanNH
+4	47	14	vanNH	89	G	vanNH
+4	48	1	vanNH	8	P	seaRM
+4	48	2	seaRM	0	PU	seaRM
+4	48	3	seaRM	20		seaRM
+4	48	4	seaRM	9		seaRM
+4	48	5	seaRM	0		seaRM
+4	48	6	seaRM	1		seaRM
+4	48	7	seaRM	6		seaRM
+4	48	8	seaRM	9		seaRM
+4	48	9	vanNH	8	D	seaRM
+4	48	10	vanNH	31	PU	vanNH
+4	48	11	seaRM	6	D	vanNH
+5	49	1	vanNH	8	P	seaRM
+5	49	2	seaRM	1	PU	seaRM
+5	49	3	seaRM	0		seaRM
+5	49	4	seaRM	20		seaRM
+5	49	5	seaRM	48		seaRM
+5	49	6	seaRM	20	A	seaRM
+5	49	7	seaRM	6	G	seaRM
+5	50	1	seaRM	29	P	vanNH
+5	50	2	vanNH	19	PU	vanNH
+5	50	3	vanNH	89		vanNH
+5	50	4	vanNH	22		vanNH
+5	50	5	vanNH	98		vanNH
+5	50	6	vanNH	89		vanNH
+5	50	7	vanNH	19		vanNH
+5	50	8	vanNH	10		vanNH
+5	50	9	vanNH	89		vanNH
+5	50	10	seaRM	21	D	vanNH
+5	50	11	seaRM	29	PU	seaRM
+5	50	12	seaRM	12		seaRM
+5	50	13	seaRM	29		seaRM
+5	50	14	vanNH	89	D	seaRM
+5	50	15	vanNH	91	PU	vanNH
+5	50	16	vanNH	98		vanNH
+5	50	17	vanNH	91		vanNH
+5	50	18	vanNH	89		vanNH
+5	50	19	vanNH	91		vanNH
+5	50	20	vanNH	21		vanNH
+5	50	21	vanNH	91		vanNH
+5	50	22	vanNH	10		vanNH
+5	50	23	vanNH	91		vanNH
+5	50	24	vanNH	19	A	vanNH
+5	50	25	vanNH	98	G	vanNH
+5	51	1	vanNH	8	P	seaRM
+5	51	2	seaRM	20	PU	seaRM
+5	51	3	seaRM	1		seaRM
+5	51	4	seaRM	17		seaRM
+5	51	5	seaRM	8		seaRM
+5	51	6	seaRM	9	A	seaRM
+5	51	7	seaRM	17	G	seaRM
+5	52	1	seaRM	29	P	vanNH
+5	52	2	vanNH	89	PU	vanNH
+5	52	3	vanNH	19		vanNH
+5	52	4	vanNH	89		vanNH
+5	52	5	vanNH	19		vanNH
+5	52	6	vanNH	89		vanNH
+5	52	7	vanNH	22		vanNH
+5	52	8	vanNH	19		vanNH
+5	52	9	vanNH	91		vanNH
+5	52	10	vanNH	21		vanNH
+5	52	11	vanNH	19		vanNH
+5	52	12	vanNH	91		vanNH
+5	52	13	vanNH	21		vanNH
+5	52	14	vanNH	89		vanNH
+5	52	15	vanNH	10	TD	vanNH
+5	52	16	seaRM	29	PU	seaRM
+5	52	17	seaRM	21		seaRM
+5	52	18	seaRM	29		seaRM
+5	52	19	seaRM	21		seaRM
+5	52	20	seaRM	29		seaRM
+5	52	21	vanNH			vanNH
+5	52	22	seaRM	20	PU	seaRM
+5	52	23	seaRM	9		seaRM
+5	52	24	seaRM	17		seaRM
+5	52	25	seaRM	1		seaRM
+5	52	26	vanNH		TO	vanNH
+5	52	27	vanNH	91	PU	vanNH
+5	52	28	vanNH	10		vanNH
+5	52	29	vanNH	98		vanNH
+5	52	30	vanNH	91		vanNH
+5	52	31	vanNH	19		vanNH
+5	52	32	vanNH	22		vanNH
+5	52	33	vanNH	10		vanNH
+5	52	34	vanNH	98		vanNH
+5	52	35	vanNH	91		vanNH
+5	52	36	vanNH	89		vanNH
+5	52	37	vanNH	91		vanNH
+5	52	38	vanNH	98		vanNH
+5	52	39	vanNH	91		vanNH
+5	52	40	vanNH	19	A	vanNH
+5	52	41	vanNH	10	G	vanNH
+5	53	1	vanNH	8	P	seaRM
+5	53	2	seaRM	20	PU	seaRM
+5	53	3	seaRM	1		seaRM
+5	53	4	seaRM	20		seaRM
+6	54	1	seaRM	29	P	vanNH
+6	54	2	vanNH	19	PU	vanNH
+6	54	3	vanNH	89		vanNH
+6	54	4	vanNH	10		vanNH
+6	54	5	vanNH	98		vanNH
+6	54	6	vanNH	21		vanNH
+6	54	7	vanNH	91		vanNH
+6	54	8	vanNH	98		vanNH
+6	54	9	vanNH	19		vanNH
+6	54	10	vanNH	89		vanNH
+6	54	11	vanNH	19		vanNH
+6	54	12	vanNH	91		vanNH
+6	54	13	vanNH	98	A	vanNH
+6	54	14	vanNH	91	G	vanNH
+6	55	1	vanNH	8	P	seaRM
+6	55	2	seaRM	1	PU	seaRM
+6	55	3	seaRM	20		seaRM
+6	55	4	seaRM	17		seaRM
+6	55	5	seaRM	20		seaRM
+6	55	6	seaRM	0		seaRM
+6	55	7	seaRM	20		seaRM
+6	55	8	vanNH	24	D	seaRM
+6	55	9	seaRM			seaRM
+6	55	10	vanNH	19	PU	vanNH
+6	55	11	vanNH	21		vanNH
+6	55	12	vanNH	89		vanNH
+6	55	13	vanNH	91	A	vanNH
+6	55	14	vanNH	10	G	vanNH
+6	56	1	vanNH	8	P	seaRM
+6	56	2	seaRM	0	PU	seaRM
+6	56	3	seaRM	20		seaRM
+6	56	4	seaRM	17		seaRM
+6	56	5	seaRM	8		seaRM
+6	56	6	vanNH	11	F	seaRM
+6	56	7	seaRM	0	TD	seaRM
+6	56	8	vanNH	24	PU	vanNH
+6	56	9	seaRM	48	D	vanNH
+6	56	10	seaRM	48	PU	seaRM
+6	56	11	seaRM	6		seaRM
+6	56	12	seaRM	0		seaRM
+6	56	13	seaRM	6		seaRM
+6	56	14	vanNH	4	D	seaRM
+6	56	15	vanNH	7	PU	vanNH
+6	56	16	vanNH	45		vanNH
+6	56	17	vanNH	8		vanNH
+6	56	18	vanNH	11		vanNH
+6	56	19	seaRM	20	D	vanNH
+6	56	20	seaRM	0	PU	seaRM
+6	56	21	vanNH	7	D	seaRM
+6	56	22	vanNH	24	PU	vanNH
+6	56	23	vanNH	11	A	vanNH
+6	56	24	vanNH	8	G	vanNH
+6	57	1	vanNH	8	P	seaRM
+6	57	2	seaRM	29	PU	seaRM
+6	57	3	seaRM	21		seaRM
+6	57	4	seaRM	29		seaRM
+6	57	5	seaRM	2		seaRM
+6	57	6	seaRM	24		seaRM
+6	57	7	seaRM	29		seaRM
+6	57	8	seaRM	12		seaRM
+6	57	9	seaRM	29		seaRM
+6	57	10	vanNH	45	PU	vanNH
+6	57	11	vanNH	37		vanNH
+6	57	12	vanNH	8		vanNH
+6	57	13	seaRM	29	PU	seaRM
+6	57	14	vanNH	89	PU	vanNH
+6	57	15	vanNH	11		vanNH
+6	57	16	vanNH	8		vanNH
+6	57	17	vanNH	11		vanNH
+6	57	18	vanNH	4	A	vanNH
+6	57	19	vanNH	45	G	vanNH
+6	58	1	vanNH	8	P	seaRM
+6	58	2	seaRM	20	PU	seaRM
+6	58	3	seaRM	1		seaRM
+6	58	4	vanNH	89	PU	vanNH
+6	58	5	vanNH	37	A	vanNH
+6	58	6	vanNH	49	G	vanNH
