@@ -14,7 +14,7 @@ color indicates a hold vs. a break, i.e. holds and breaks must end after an odd 
 
 Observations:
 
-  * pdsST and seaRM stand out as converting more points on their first possession -- well over 50% vs. well below for sfoDF and vanNH
+  * pdsST and seaRM stand out as deriving more points by scoring on their first possession -- well over 50% vs. well below for sfoDF and vanNH
   * sfoDF D line is much less effective on offense than other D lines, with pdsST being best, then vanNH
 
 ![Alt text](figs/poss_n_dist_by_scor_team_and_status.png)
