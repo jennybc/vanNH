@@ -8,12 +8,12 @@ if(length(options) < 1) {
   #game <- "2014-04-12_vanNH-at-pdxST"
   #game <- "2014-04-20_sfoDF-at-vanNH"
   #game <- "2014-04-26_vanNH-at-seaRM"
-  #game <- "2014-05-10_seaRM-at-vanNH"
+  game <- "2014-05-10_seaRM-at-vanNH"
   #game <- "2014-05-17_vanNH-at-sfoDF"
   #game <- "2014-05-24_pdxST-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
   #game <- "2014-06-07_seaRM-at-vanNH"
-  game <- "2014-06-15_pdxST-at-vanNH"
+  #game <- "2014-06-15_pdxST-at-vanNH"
 } else {
   game <- options[1]
 }
@@ -206,16 +206,26 @@ if(any(na_and_sub)) {
   naDat$possa <-
     with(naDat, ifelse(is.na(row_aft), NA,
                        as.character(game_play$poss_team[row_aft])))
-  ## concatenate flanking poss_team, excluding NAs; reduce to unique
-  flanking_poss <- with(naDat, c(possb, possa))
-  flanking_poss <- unique(flanking_poss[!is.na(flanking_poss)])
-  ## if there is exactly one value, USE IT
-  if(length(flanking_poss) == 1) {
-    game_play$poss_team[naDat$row] <- flanking_poss
-  } else { ## if zero or two values, admit defeat
-    message("possession could not be resolved for this SO/SI clump:")
-    game_play[with(naDat, (min(row) - 2):(max(row) + 2)), ]
-  }
+  ## within clump, concatenate flanking poss_team, excluding NAs; reduce to
+  ## unique
+  naDat <- ddply(naDat, ~ clump, function(z) {
+    flanking_poss <- with(z, c(possb, possa))
+    flanking_poss <- unique(flanking_poss[!is.na(flanking_poss)])
+    ## if there is exactly one value, USE IT
+    if(length(flanking_poss) == 1) {
+      check_it <- FALSE
+      return(data.frame(z, poss = flanking_poss))
+    } else if(length(flanking_poss) == 2) { ## if two values, go with after
+      check_it <- TRUE
+      return(data.frame(z, poss = with(z, possa[!is.na(possa)])))
+    } else {
+      check_it <- TRUE
+      return(z)
+    }
+  })
+  game_play$poss_team[naDat$row] <- naDat$poss
+  message("check the possession resolution for these SO/SI clumps:")
+  print(game_play[naDat$row, ])
   poss_ok <- sum(!is.na(game_play$poss_team))
   message(poss_ok, "/", n, " = ", round(100 * poss_ok/n, 2),
           "% of game play possessions established after addressing SO/SIs")
