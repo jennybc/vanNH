@@ -34,7 +34,7 @@ jTeams <- sort(c(away_team, home_team))
 
 ## define some groups of codes used in multiple places
 goal_codes <- c('G', 'LG')
-assist_codes <- c('A', 'LA', 'PUA')
+assist_codes <- c('A', 'LA', 'PUA', 'DA')
 d_codes <- c('D', 'HB', 'FB', 'DA')
 keeper_codes <- c(goal_codes, assist_codes, d_codes)
 ```
@@ -47,7 +47,9 @@ build_roster_path <- function(team) {
 away_roster_file <- build_roster_path(away_team)
 home_roster_file <- build_roster_path(home_team)
 read_roster <- function(roster_file) {
-  x <- read.delim(roster_file, stringsAsFactors = FALSE)
+  x <- read.delim(roster_file, stringsAsFactors = FALSE,
+                  ## do this because of seaRM-rupp-00
+                  colClasses = list(number = "character"))
   x[c('number', 'last')]
 }
 away_roster <- read_roster(away_roster_file)
@@ -87,13 +89,13 @@ sDat <- join(point_info[c('point', 'period', 'pull_team')], sDat)
 
 ## look up pl_pnum's last name
 ## TO DO: make this not emit NA warnings ... it's the numeric/character thing re: player numbers
-suppressWarnings(sDat$pl_lname <-
-                   I(with(sDat,
-                          ifelse(pl_team == away_team,
-                                 away_roster$last[match(as.numeric(sDat$pl_pnum),
-                                                        away_roster$number)],
-                                 home_roster$last[match(as.numeric(sDat$pl_pnum),
-                                                        home_roster$number)]))))
+sDat$pl_lname <-
+  I(with(sDat,
+         ifelse(pl_team == away_team,
+                away_roster$last[match(sDat$pl_pnum,
+                                       away_roster$number)],
+                home_roster$last[match(sDat$pl_pnum,
+                                       home_roster$number)])))
 
 ## deal with cases where we have no last name
 ## happens when we use a number that's not on the roster or when we don't

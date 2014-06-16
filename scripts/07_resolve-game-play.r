@@ -7,8 +7,8 @@ options <- commandArgs(trailingOnly = TRUE)
 if(length(options) < 1) {
   #game <- "2014-04-12_vanNH-at-pdxST"
   #game <- "2014-04-20_sfoDF-at-vanNH"
-  #game <- "2014-04-26_vanNH-at-sfoDF"
-  game <- "2014-05-10_seaRM-at-vanNH"
+  game <- "2014-04-26_vanNH-at-seaRM"
+  #game <- "2014-05-10_seaRM-at-vanNH"
   #game <- "2014-05-17_vanNH-at-sfoDF"
   #game <- "2014-05-24_pdxST-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
@@ -27,7 +27,10 @@ jTeams <- sort(c(away_team, home_team))
 
 game_dir <- file.path("..", "games", game, "05_cleanedGame")
 in_file <- file.path(game_dir, paste0(game, "_gameplay-clean.tsv"))
-game_play <- read.delim(in_file, stringsAsFactors = FALSE)
+game_play <- read.delim(in_file, stringsAsFactors = FALSE,
+                        ## do this because of seaRM-rupp-00
+                        colClasses = list(pullNum = "character",
+                                          recvNum = "character"))
 #str(game_play)
 
 game_dir <- file.path("..", "games", game, "03_concatGoogleExtract")
@@ -106,7 +109,7 @@ jFun <- function(x) {
     ## I do it this way in case there is an intervening defensive foul, which
     ## means the assist is not in goal_row - 1
     assist_row <- rev(which(with(x, pl_team == sc_team)))[2]
-    ## in my experience, existing code can be '', 'L', 'PU'
+    ## in my experience, existing code can be '', 'L', 'PU', 'D'
     assist_code <- x$pl_code[assist_row]
     if(grepl("A$", assist_code)) {
       message(paste("ALERT: point", x$point[1], "has an explicit assist (A)\n"))
@@ -122,10 +125,10 @@ game_play <- ddply(game_play, ~ point, jFun)
 
 ## define some code groups
 goal_codes <- c('G', 'LG')
-assist_codes <- c('A', 'LA', 'PUA')
+assist_codes <- c('A', 'LA', 'PUA', 'DA')
 more_offense_codes <- c('', 'PU', 'L', 'TD', 'VST', 'VTT', 'TO')
 offense_codes <- c(more_offense_codes, goal_codes, assist_codes)
-d_codes <- c('D', 'HB', 'FB')
+d_codes <- c('D', 'HB', 'FB', 'DA')
 pickup_codes <- c('PU', 'PUA')
 
 ## check for PUs after the pull

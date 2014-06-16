@@ -7,8 +7,8 @@ options <- commandArgs(trailingOnly = TRUE)
 if(length(options) < 1) {
   #game <- "2014-04-12_vanNH-at-pdxST"
   #game <- "2014-04-20_sfoDF-at-vanNH"
-  #game <- "2014-04-26_vanNH-at-sfoDF"
-  game <- "2014-05-10_seaRM-at-vanNH"
+  game <- "2014-04-26_vanNH-at-seaRM"
+  #game <- "2014-05-10_seaRM-at-vanNH"
   #game <- "2014-05-17_vanNH-at-sfoDF"
   #game <- "2014-05-24_pdxST-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
@@ -29,7 +29,7 @@ game_dir <- file.path("..", "games", game, "03_concatGoogleExtract")
 
 in_file <- file.path(game_dir, paste0(game, "_gameplay-raw.tsv"))
 game_play <- read.delim(in_file, stringsAsFactors = FALSE)
-#str(game_play)
+str(game_play)
 
 ## Offense and Defense are misleading variable names
 ## rename to suggest they record actions by the "receiving" and "pulling" teams,
