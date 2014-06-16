@@ -15,7 +15,6 @@ To do
     - 2014-06-15_pdxST-at-vanNH point 34: possession should be known for the SO/SI/F events. verify the offensive foul (who?) that results in a turnover from pdxST to vanNH.
     - 2014-06-15_pdxST-at-vanNH point 20: 4 was not getting credited with an assist because the 4D interception code was messing things up. check my fix doesn't screw up other games.
   * still seems to be fatal if clock after is non filled in FIX THAT
-  * look into `0` vs `00` re seattle rainmakers
   * take comprehensive look at what's character vs factor
   * sort out the offline access for Google spreadsheet
   * add a comment column *have asked MLU to bless this but no response*
@@ -54,6 +53,12 @@ Notes
   * Note: neither of the above is necessary during live game work because I set a default value for `GOOGAME` and `GAME` inside the Makefile now
 
   * It is evil to record info for offense and defense on the same row of the spreadsheet. MLU likes that for defensive fouls, so I handle that with my own cleaning script.
+  
+  * Stay aware `0` vs `00` re seattle rainmakers. Always use `00`. Helpful lines for *ad hoc* checking for either in game play at the end of cleaning and expanding:
+        game_play[with(game_play, grepl("00", pullNum) | grepl("00", recvNum)), ]
+        game_play[with(game_play, grepl("\\b0\\b", pullNum) | grepl("\\b0\\b", recvNum)), ]
+
+  
   
 Helpful for Python command line argument processing:
 http://www.cyberciti.biz/faq/python-command-line-arguments-argv-example/
