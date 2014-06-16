@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Mon Jun 16 09:33:11 2014
+#### last update Mon Jun 16 13:19:19 2014
 # pdxST 18
 # vanNH 20
 ## game is complete
@@ -75,7 +75,7 @@ Go to ...
 
 points = goals + assists  
 tables sorted in decreasing order based on points (then goals, assists, Ds)  
-Ds = total of plain ol' D's (D), hand blocks (HB), and foot blocks (FB)  
+Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot blocks (FB)  
 stats are cumulative for this game
 
 
@@ -103,7 +103,7 @@ stats are cumulative for this game
 
 points = goals + assists  
 tables sorted in decreasing order based on points (then goals, assists, Ds)  
-Ds = total of plain ol' D's (D), hand blocks (HB), and foot blocks (FB)  
+Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot blocks (FB)  
 stats are cumulative for this game
 
 
@@ -784,9 +784,9 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      4|    34|    13|pdxST   |73      |        |pdxST     |
 |      4|    34|    14|pdxST   |24      |        |pdxST     |
 |      4|    34|    15|vanNH   |45      |F       |pdxST     |
-|      4|    34|    16|vanNH   |81      |SO      |NA        |
-|      4|    34|    17|vanNH   |27      |SI      |NA        |
-|      4|    34|    18|pdxST   |?       |F       |NA        |
+|      4|    34|    16|vanNH   |81      |SO      |pdxST     |
+|      4|    34|    17|vanNH   |27      |SI      |pdxST     |
+|      4|    34|    18|pdxST   |?       |F       |pdxST     |
 |      4|    34|    19|vanNH   |24      |PU      |vanNH     |
 |      4|    34|    20|pdxST   |7       |F       |vanNH     |
 |      4|    34|    21|vanNH   |31      |        |vanNH     |

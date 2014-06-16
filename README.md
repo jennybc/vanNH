@@ -20,8 +20,6 @@ To do
   * add a comment column *have asked MLU to bless this but no response*
   * resolve individual throws
   * get a handle on which offensive fouls cause posession to change and which ones don't
-  * add this to the Makefile?
-    - `Rscript ./10_init-game.r 2014-06-07_seaRM-at-vanNH`
 
 Makefile notes
   * __assuming the `GOOGAME` and `GAME` have been set up in the Makefile and are not being passed constantly via command line__

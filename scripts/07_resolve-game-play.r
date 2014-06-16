@@ -7,12 +7,13 @@ options <- commandArgs(trailingOnly = TRUE)
 if(length(options) < 1) {
   #game <- "2014-04-12_vanNH-at-pdxST"
   #game <- "2014-04-20_sfoDF-at-vanNH"
-  game <- "2014-04-26_vanNH-at-seaRM"
+  #game <- "2014-04-26_vanNH-at-seaRM"
   #game <- "2014-05-10_seaRM-at-vanNH"
   #game <- "2014-05-17_vanNH-at-sfoDF"
   #game <- "2014-05-24_pdxST-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
   #game <- "2014-06-07_seaRM-at-vanNH"
+  game <- "2014-06-15_pdxST-at-vanNH"
 } else {
   game <- options[1]
 }
@@ -109,7 +110,7 @@ jFun <- function(x) {
     ## I do it this way in case there is an intervening defensive foul, which
     ## means the assist is not in goal_row - 1
     assist_row <- rev(which(with(x, pl_team == sc_team)))[2]
-    ## in my experience, existing code can be '', 'L', 'PU', 'D'
+    ## in my experience, existing code can be '', 'L', 'PU'
     assist_code <- x$pl_code[assist_row]
     if(grepl("A$", assist_code)) {
       message(paste("ALERT: point", x$point[1], "has an explicit assist (A)\n"))
@@ -125,10 +126,10 @@ game_play <- ddply(game_play, ~ point, jFun)
 
 ## define some code groups
 goal_codes <- c('G', 'LG')
-assist_codes <- c('A', 'LA', 'PUA', 'DA')
+assist_codes <- c('A', 'LA', 'PUA')
 more_offense_codes <- c('', 'PU', 'L', 'TD', 'VST', 'VTT', 'TO')
 offense_codes <- c(more_offense_codes, goal_codes, assist_codes)
-d_codes <- c('D', 'HB', 'FB', 'DA')
+d_codes <- c('D', 'HB', 'FB')
 pickup_codes <- c('PU', 'PUA')
 
 ## check for PUs after the pull
@@ -196,17 +197,25 @@ if(any(na_and_sub)) {
                   start = diff != 1,
                   clump = cumsum(start) + 1,
                   pl_code = game_play$pl_code[row],
+                  row_bef = ifelse(row - 1 < 1, NA, row - 1),
                   row_aft = ifelse(row + 1 > n, NA, row + 1))
+  ## get the poss_team before and after individual SO/SI events
+  naDat$possb <-
+    with(naDat, ifelse(is.na(row_bef), NA,
+                       as.character(game_play$poss_team[row_bef])))
   naDat$possa <-
-    with(naDat, ifelse(is.na(row_aft), NA, game_play$poss_team[row_aft]))
-  ## consult the poss_team after the SO/SI clump
-  naDat <- ddply(naDat, ~ clump, function(x)
-    data.frame(x[c('row', 'clump')], poss_row = max(x$row) + 1))
-  naDat <- mutate(naDat,
-                  proposed_poss_team = game_play$poss_team[naDat$poss_row])
-  ## only proceed if the proposed poss_team is known
-  naDat <- subset(naDat, !is.na(proposed_poss_team))
-  game_play$poss_team[naDat$row] <- naDat$proposed_poss_team
+    with(naDat, ifelse(is.na(row_aft), NA,
+                       as.character(game_play$poss_team[row_aft])))
+  ## concatenate flanking poss_team, excluding NAs; reduce to unique
+  flanking_poss <- with(naDat, c(possb, possa))
+  flanking_poss <- unique(flanking_poss[!is.na(flanking_poss)])
+  ## if there is exactly one value, USE IT
+  if(length(flanking_poss) == 1) {
+    game_play$poss_team[naDat$row] <- flanking_poss
+  } else { ## if zero or two values, admit defeat
+    message("possession could not be resolved for this SO/SI clump:")
+    game_play[with(naDat, (min(row) - 2):(max(row) + 2)), ]
+  }
   poss_ok <- sum(!is.na(game_play$poss_team))
   message(poss_ok, "/", n, " = ", round(100 * poss_ok/n, 2),
           "% of game play possessions established after addressing SO/SIs")
