@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Mon Jun 16 13:19:19 2014
+#### last update Mon Jun 16 14:19:26 2014
 # pdxST 18
 # vanNH 20
 ## game is complete

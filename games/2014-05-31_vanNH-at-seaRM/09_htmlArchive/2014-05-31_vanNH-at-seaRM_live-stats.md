@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Mon Jun 16 07:44:26 2014
+#### last update Mon Jun 16 14:19:19 2014
 # vanNH 29
 # seaRM 24
 ## game is complete
@@ -92,7 +92,7 @@ Go to ...
 
 points = goals + assists  
 tables sorted in decreasing order based on points (then goals, assists, Ds)  
-Ds = total of plain ol' D's (D), hand blocks (HB), and foot blocks (FB)  
+Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot blocks (FB)  
 stats are cumulative for this game
 
 
@@ -121,7 +121,7 @@ stats are cumulative for this game
 
 points = goals + assists  
 tables sorted in decreasing order based on points (then goals, assists, Ds)  
-Ds = total of plain ol' D's (D), hand blocks (HB), and foot blocks (FB)  
+Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot blocks (FB)  
 stats are cumulative for this game
 
 
