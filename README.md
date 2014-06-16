@@ -7,6 +7,14 @@ In-house statistics for the Vancouver Nighthawks of Major League Ultimate
 
 To do
 
+  * gameplay that's awkward to record / should be checked on video:
+    - 2014-06-15_pdxST-at-vanNH point 7: pdxST-24 picks up, then has VST called
+    - 2014-06-15_pdxST-at-vanNH point 8: pdxST-7 catches then (need to check video) commits an offensive foul
+    - 2014-06-15_pdxST-at-vanNH point 28: how to record offensive VP foul?
+    - 2014-06-15_pdxST-at-vanNH point 30: around the VST (was that even called?) I think pdxST-8 was called for unsportsmanlike conduct?
+    - 2014-06-15_pdxST-at-vanNH point 34: possession should be known for the SO/SI/F events. verify the offensive foul (who?) that results in a turnover from pdxST to vanNH.
+    - 2014-06-15_pdxST-at-vanNH point 20: 4 was not getting credited with an assist because the 4D interception code was messing things up. check my fix doesn't screw up other games.
+  * still seems to be fatal if clock after is non filled in FIX THAT
   * look into `0` vs `00` re seattle rainmakers
   * take comprehensive look at what's character vs factor
   * sort out the offline access for Google spreadsheet

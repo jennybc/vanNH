@@ -3,7 +3,7 @@ Period: 4
 Clock before point: 7:09:00
 Clock after point: 6:09:00
 Offense	Defense
-	88PU
+	88P
 5PU	
 89	
 5	

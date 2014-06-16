@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Sun Jun 15 20:09:35 2014
+#### last update Sun Jun 15 21:50:39 2014
 # pdxST 18
 # vanNH 20
 ## game is complete
@@ -119,8 +119,8 @@ stats are cumulative for this game
 |8  |vanNH-72-leduc     |      2|     1|       1|  0|
 |9  |vanNH-11-greer     |      2|     0|       2|  1|
 |10 |vanNH-24-yu        |      1|     1|       0|  2|
-|11 |vanNH-31-saito     |      1|     1|       0|  0|
-|12 |vanNH-4-doyle      |      1|     1|       0|  0|
+|11 |vanNH-4-doyle      |      1|     1|       0|  1|
+|12 |vanNH-31-saito     |      1|     1|       0|  0|
 |13 |vanNH-81-tejpar    |      1|     1|       0|  0|
 |14 |vanNH-45-cowan     |      1|     0|       1|  0|
 |15 |vanNH-14-eyrich    |      0|     0|       0|  1|
@@ -176,6 +176,7 @@ stats are cumulative for this game
 |    18|      2|vanNH     |     9|pdxST   |2       |LG      |pdxST     |Allison-Hall |pdxST-2-Allison-Hall |     8|     9|
 |    19|      2|pdxST     |     9|vanNH   |89      |A       |vanNH     |underhill    |vanNH-89-underhill   |     8|    10|
 |    19|      2|pdxST     |    10|vanNH   |22      |G       |vanNH     |berezan      |vanNH-22-berezan     |     8|    10|
+|    20|      2|vanNH     |     3|vanNH   |4       |DA      |pdxST     |doyle        |vanNH-4-doyle        |     8|    11|
 |    20|      2|vanNH     |     4|vanNH   |10      |G       |vanNH     |chatha       |vanNH-10-chatha      |     8|    11|
 |    21|      3|pdxST     |     5|pdxST   |5       |D       |vanNH     |Woodside     |pdxST-5-Woodside     |     8|    12|
 |    21|      3|pdxST     |    12|vanNH   |5       |PUA     |vanNH     |norris       |vanNH-5-norris       |     8|    12|
@@ -529,7 +530,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      2|    18|     7|pdxST   |42      |        |pdxST     |
 |      2|    18|     8|pdxST   |24      |A       |pdxST     |
 |      2|    18|     9|pdxST   |2       |LG      |pdxST     |
-|      2|    19|     1|pdxST   |88      |PU      |pdxST     |
+|      2|    19|     1|pdxST   |88      |P       |vanNH     |
 |      2|    19|     2|vanNH   |5       |PU      |vanNH     |
 |      2|    19|     3|vanNH   |89      |        |vanNH     |
 |      2|    19|     4|vanNH   |10      |        |vanNH     |
@@ -734,7 +735,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      4|    31|    34|pdxST   |24      |A       |pdxST     |
 |      4|    31|    35|vanNH   |24      |F       |pdxST     |
 |      4|    31|    36|pdxST   |6       |G       |pdxST     |
-|      4|    32|     1|pdxST   |88      |PU      |pdxST     |
+|      4|    32|     1|pdxST   |88      |P       |vanNH     |
 |      4|    32|     2|vanNH   |5       |PU      |vanNH     |
 |      4|    32|     3|vanNH   |89      |        |vanNH     |
 |      4|    32|     4|vanNH   |5       |        |vanNH     |
