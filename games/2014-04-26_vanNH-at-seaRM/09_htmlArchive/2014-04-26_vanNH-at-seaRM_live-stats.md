@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Sun Jun 15 22:46:41 2014
+#### last update Sun Jun 15 23:29:26 2014
 # vanNH 15
 # seaRM 20
 ## game is complete
@@ -121,7 +121,7 @@ stats are cumulative for this game
 |14 |seaRM-20-simon     |      1|     0|       1|  1|
 |15 |seaRM-29-feeley    |      1|     0|       1|  1|
 |16 |seaRM-4-schneider  |      1|     0|       1|  0|
-|17 |seaRM-0-rupp       |      0|     0|       0|  1|
+|17 |seaRM-00-rupp      |      0|     0|       0|  1|
 |18 |seaRM-13-sewell    |      0|     0|       0|  1|
 |19 |seaRM-27-?name?    |      0|     0|       0|  1|
 
@@ -174,7 +174,7 @@ stats are cumulative for this game
 |    18|      2|seaRM     |    25|vanNH   |98      |A       |vanNH     |wong      |vanNH-98-wong      |     9|     8|
 |    18|      2|seaRM     |    26|vanNH   |22      |G       |vanNH     |berezan   |vanNH-22-berezan   |     9|     8|
 |    19|      2|vanNH     |     6|vanNH   |45      |D       |seaRM     |cowan     |vanNH-45-cowan     |    10|     8|
-|    19|      2|vanNH     |    11|seaRM   |0       |D       |vanNH     |rupp      |seaRM-0-rupp       |    10|     8|
+|    19|      2|vanNH     |    11|seaRM   |00      |D       |vanNH     |rupp      |seaRM-00-rupp      |    10|     8|
 |    19|      2|vanNH     |    18|seaRM   |3       |A       |seaRM     |o'brien   |seaRM-3-o'brien    |    10|     8|
 |    19|      2|vanNH     |    19|seaRM   |48      |G       |seaRM     |clark     |seaRM-48-clark     |    10|     8|
 |    20|      2|seaRM     |    14|vanNH   |89      |D       |seaRM     |underhill |vanNH-89-underhill |    10|     9|
@@ -335,9 +335,9 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      1|     9|     5|vanNH   |72      |LA      |vanNH     |
 |      1|     9|     6|vanNH   |98      |G       |vanNH     |
 |      1|    10|     1|vanNH   |8       |P       |seaRM     |
-|      1|    10|     2|seaRM   |0       |PU      |seaRM     |
+|      1|    10|     2|seaRM   |00      |PU      |seaRM     |
 |      1|    10|     3|seaRM   |3       |        |seaRM     |
-|      1|    10|     4|seaRM   |0       |        |seaRM     |
+|      1|    10|     4|seaRM   |00      |        |seaRM     |
 |      1|    10|     5|seaRM   |3       |        |seaRM     |
 |      1|    10|     6|seaRM   |17      |        |seaRM     |
 |      1|    10|     7|vanNH   |18      |PU      |vanNH     |
@@ -468,7 +468,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      2|    18|    26|vanNH   |22      |G       |vanNH     |
 |      2|    19|     1|vanNH   |8       |OBP     |seaRM     |
 |      2|    19|     2|seaRM   |3       |PU      |seaRM     |
-|      2|    19|     3|seaRM   |0       |        |seaRM     |
+|      2|    19|     3|seaRM   |00      |        |seaRM     |
 |      2|    19|     4|seaRM   |3       |        |seaRM     |
 |      2|    19|     5|seaRM   |6       |        |seaRM     |
 |      2|    19|     6|vanNH   |45      |D       |seaRM     |
@@ -476,9 +476,9 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      2|    19|     8|vanNH   |8       |SO      |vanNH     |
 |      2|    19|     9|vanNH   |21      |SI      |vanNH     |
 |      2|    19|    10|vanNH   |45      |        |vanNH     |
-|      2|    19|    11|seaRM   |0       |D       |vanNH     |
+|      2|    19|    11|seaRM   |00      |D       |vanNH     |
 |      2|    19|    12|seaRM   |3       |PU      |seaRM     |
-|      2|    19|    13|seaRM   |0       |        |seaRM     |
+|      2|    19|    13|seaRM   |00      |        |seaRM     |
 |      2|    19|    14|seaRM   |3       |        |seaRM     |
 |      2|    19|    15|seaRM   |9       |        |seaRM     |
 |      2|    19|    16|seaRM   |3       |        |seaRM     |
@@ -756,7 +756,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      4|    37|     4|vanNH   |5       |        |vanNH     |
 |      4|    37|     5|vanNH   |18      |TD      |vanNH     |
 |      4|    37|     6|seaRM   |10      |PU      |seaRM     |
-|      4|    37|     7|seaRM   |0       |        |seaRM     |
+|      4|    37|     7|seaRM   |00      |        |seaRM     |
 |      4|    37|     8|seaRM   |4       |A       |seaRM     |
 |      4|    37|     9|seaRM   |23      |G       |seaRM     |
 |      4|    38|     1|seaRM   |4       |P       |vanNH     |

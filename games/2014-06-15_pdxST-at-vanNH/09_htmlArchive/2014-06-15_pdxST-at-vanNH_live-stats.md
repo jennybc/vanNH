@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Sun Jun 15 22:41:29 2014
+#### last update Sun Jun 15 23:29:47 2014
 # pdxST 18
 # vanNH 20
 ## game is complete
@@ -49,7 +49,7 @@ Go to ...
 |    23|3      |7:54:00  |6:59:00 |00:55       |pdxST-21-McGinn to pdxST-5-Woodside       |10    |12    |
 |    22|3      |9:12:00  |7:54:00 |01:18       |pdxST-16-Burton to pdxST-6-Bjorklund      |9     |12    |
 |    21|3      |10:00:00 |9:12:00 |00:48       |vanNH-5-norris to vanNH-98-wong           |8     |12    |
-|    20|2      |0:10:04  |0:00:00 |00:10       |NA to vanNH-10-chatha                     |8     |11    |
+|    20|2      |0:10:04  |0:00:00 |00:10       |vanNH-4-doyle to vanNH-10-chatha          |8     |11    |
 |    19|2      |0:45:00  |0:10:04 |00:35       |vanNH-89-underhill to vanNH-22-berezan    |8     |10    |
 |    18|2      |1:10:00  |0:45:00 |00:25       |pdxST-24-Norden to pdxST-2-Allison-Hall   |8     |9     |
 |    17|2      |2:26:00  |1:10:00 |01:16       |vanNH-89-underhill to vanNH-5-norris      |7     |9     |
@@ -116,10 +116,10 @@ stats are cumulative for this game
 |5  |vanNH-21-loach     |      3|     1|       2|  1|
 |6  |vanNH-8-hibbert    |      3|     1|       2|  1|
 |7  |vanNH-10-chatha    |      2|     2|       0|  0|
-|8  |vanNH-72-leduc     |      2|     1|       1|  0|
-|9  |vanNH-11-greer     |      2|     0|       2|  1|
-|10 |vanNH-24-yu        |      1|     1|       0|  2|
-|11 |vanNH-4-doyle      |      1|     1|       0|  1|
+|8  |vanNH-4-doyle      |      2|     1|       1|  1|
+|9  |vanNH-72-leduc     |      2|     1|       1|  0|
+|10 |vanNH-11-greer     |      2|     0|       2|  1|
+|11 |vanNH-24-yu        |      1|     1|       0|  2|
 |12 |vanNH-31-saito     |      1|     1|       0|  0|
 |13 |vanNH-81-tejpar    |      1|     1|       0|  0|
 |14 |vanNH-45-cowan     |      1|     0|       1|  0|

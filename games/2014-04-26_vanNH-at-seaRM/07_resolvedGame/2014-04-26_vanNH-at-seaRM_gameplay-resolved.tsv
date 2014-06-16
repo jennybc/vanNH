@@ -104,9 +104,9 @@ period	point	event	pl_team	pl_pnum	pl_code	poss_team
 1	9	5	vanNH	72	LA	vanNH
 1	9	6	vanNH	98	G	vanNH
 1	10	1	vanNH	8	P	seaRM
-1	10	2	seaRM	0	PU	seaRM
+1	10	2	seaRM	00	PU	seaRM
 1	10	3	seaRM	3		seaRM
-1	10	4	seaRM	0		seaRM
+1	10	4	seaRM	00		seaRM
 1	10	5	seaRM	3		seaRM
 1	10	6	seaRM	17		seaRM
 1	10	7	vanNH	18	PU	vanNH
@@ -237,7 +237,7 @@ period	point	event	pl_team	pl_pnum	pl_code	poss_team
 2	18	26	vanNH	22	G	vanNH
 2	19	1	vanNH	8	OBP	seaRM
 2	19	2	seaRM	3	PU	seaRM
-2	19	3	seaRM	0		seaRM
+2	19	3	seaRM	00		seaRM
 2	19	4	seaRM	3		seaRM
 2	19	5	seaRM	6		seaRM
 2	19	6	vanNH	45	D	seaRM
@@ -245,9 +245,9 @@ period	point	event	pl_team	pl_pnum	pl_code	poss_team
 2	19	8	vanNH	8	SO	vanNH
 2	19	9	vanNH	21	SI	vanNH
 2	19	10	vanNH	45		vanNH
-2	19	11	seaRM	0	D	vanNH
+2	19	11	seaRM	00	D	vanNH
 2	19	12	seaRM	3	PU	seaRM
-2	19	13	seaRM	0		seaRM
+2	19	13	seaRM	00		seaRM
 2	19	14	seaRM	3		seaRM
 2	19	15	seaRM	9		seaRM
 2	19	16	seaRM	3		seaRM
@@ -525,7 +525,7 @@ period	point	event	pl_team	pl_pnum	pl_code	poss_team
 4	37	4	vanNH	5		vanNH
 4	37	5	vanNH	18	TD	vanNH
 4	37	6	seaRM	10	PU	seaRM
-4	37	7	seaRM	0		seaRM
+4	37	7	seaRM	00		seaRM
 4	37	8	seaRM	4	A	seaRM
 4	37	9	seaRM	23	G	seaRM
 4	38	1	seaRM	4	P	vanNH

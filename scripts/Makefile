@@ -16,14 +16,14 @@
 #GOOGAME ?= "Official Statistics - 2014 - Week 7 - 5/24 - Stags @ Nighthawks"
 #GAME ?= 2014-05-24_pdxST-at-vanNH
 
-#GOOGAME ?= "Official Statistics - 2014 - Week 8 - 5/31 - Nighthawks @ Rainmakers"
-#GAME ?= 2014-05-31_vanNH-at-seaRM
+GOOGAME ?= "Official Statistics - 2014 - Week 8 - 5/31 - Nighthawks @ Rainmakers"
+GAME ?= 2014-05-31_vanNH-at-seaRM
 
 #GOOGAME ?= "Official Statistics - 2014 - Week 9 - 6/7 - Rainmakers @ Nighthawks"
 #GAME ?= 2014-06-07_seaRM-at-vanNH
 
-GOOGAME ?= "Official Statistics - 2014 - Week 10 - 6/15 - Stags @ Nighthawks"
-GAME ?= 2014-06-15_pdxST-at-vanNH
+#GOOGAME ?= "Official Statistics - 2014 - Week 10 - 6/15 - Stags @ Nighthawks"
+#GAME ?= 2014-06-15_pdxST-at-vanNH
 
 clean_raw:
 	rm -rf ../games/$(GAME)/01_rawGoogleExtract/*

@@ -14,7 +14,9 @@ game_ids <-
     "Official Statistics - 2014 - Week 8 - 5/31 - Nighthawks @ Rainmakers",
     "2014-05-31_vanNH-at-seaRM",
     "Official Statistics - 2014 - Week 9 - 6/7 - Rainmakers @ Nighthawks",
-    "2014-06-07_seaRM-at-vanNH")
+    "2014-06-07_seaRM-at-vanNH",
+    "Official Statistics - 2014 - Week 10 - 6/15 - Stags @ Nighthawks",
+    "2014-06-15_pdxST-at-vanNH")
 game_ids <- matrix(game_ids, ncol = 2, byrow = TRUE)
 
 make_pre <- 'make r_bits'

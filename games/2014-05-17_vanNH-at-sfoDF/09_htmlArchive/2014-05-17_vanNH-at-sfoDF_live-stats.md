@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Sat Jun 14 22:40:12 2014
+#### last update Sun Jun 15 23:29:33 2014
 # vanNH 12
 # sfoDF 13
 ## game is complete
