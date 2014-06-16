@@ -1,6 +1,6 @@
 ---
-title: "Early analysis of gameplay"
-date: "14 June, 2014"
+title: "Analysis of gameplay *(BETA)*"
+date: "16 June, 2014"
 output:
   html_document:
     theme: readable
@@ -8,15 +8,32 @@ output:
 
 <a href="index.html">Back to index</a>
 
-x = the number of possessions that occur before a goal is finally scored  
-y = the proportion of points scored after x possessions (relative to all points scored by a team)  
-color indicates a hold vs. a break, i.e. holds and breaks must end after an odd and even number of possessions, respectively  
-data = all 2014 MLU games involving Vancouver Nighthawks; excluding points that end with no goal due to end of period  
+## How many possessions does it take to score?
+
+Dataset: points that ended in a goal from all games involving Vancouver Nighthawks in 2014 through week 09 (n = 362 points)
+
+x = the number of possessions before a goal is finally scored  
+y = the proportion of points scored after x exactly possessions  
+color indicates hold = receiving team scored vs. break = pulling team scored  
+
+![Alt text](figs/poss_n_dist_by_status.png)
+
+x = *same as above*  
+y = cumulative proportion, i.e. proportion of points scored within x or fewer possessions  
+color *same as above*  
+
+![Alt text](figs/poss_n_CDF_by_status.png)
+
+## By team: how many possessions does it take to score?
+
+x = the number of possessions before a goal is finally scored  
+y = the proportion of points scored after x exactly possessions (relative to all points scored by a team)  
+color indicates hold = receiving team scored vs. break = pulling team scored  
 
 Observations:
 
-  * pdsST and seaRM stand out as deriving more points by scoring on their first possession -- well over 55% vs. well below 45% for sfoDF and vanNH
-  * sfoDF D line is much less effective on offense than other D lines, with pdsST being best, then vanNH
+  * pdxST and seaRM stand out as deriving more of their points by scoring on their first possession -- well over 55% vs. well below 45% for sfoDF and vanNH
+  * sfoDF D line seems much less effective on offense than other D lines, with pdxST being best, then vanNH
   * makes me want to look at this: of points with x or more possessions, what proportion have exactly x possessions? The first "1 possession hold" bars will not change, but then we'll see conversion rate for the D line on it's first possession ("2 possession break"), conversion rate for O line if it gets disc back("3 possession hold), etc. I expect those bars to steadily decrease and to show higher conversion rate for O lines vs D. But who knows?
 
 ![Alt text](figs/poss_n_dist_by_scor_team_and_status.png)
