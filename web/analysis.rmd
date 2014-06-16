@@ -9,8 +9,9 @@ output:
 <a href="index.html">Back to index</a>
 
 x = the number of possessions that occur before a goal is finally scored  
-y = the proportion of points scored after x possessions (relative to a team)  
+y = the proportion of points scored after x possessions (relative to all points scored by a team)  
 color indicates a hold vs. a break, i.e. holds and breaks must end after an odd and even number of possessions, respectively  
+data = all 2014 MLU games involving Vancouver Nighthawks  
 
 Observations:
 
