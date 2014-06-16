@@ -221,7 +221,7 @@ print(foo, type='html', include.rownames = FALSE)
 
 points = goals + assists  
 tables sorted in decreasing order based on points (then goals, assists, Ds)  
-Ds = total of plain ol' D's (D), hand blocks (HB), and foot blocks (FB)  
+Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot blocks (FB)  
 stats are cumulative for this game
 
 ```{r results='asis', echo=FALSE}
@@ -236,7 +236,7 @@ if(!is.null(player_dat_by_team[[away_team]])) {
 
 points = goals + assists  
 tables sorted in decreasing order based on points (then goals, assists, Ds)  
-Ds = total of plain ol' D's (D), hand blocks (HB), and foot blocks (FB)  
+Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot blocks (FB)  
 stats are cumulative for this game
 
 ```{r results='asis', echo=FALSE}
