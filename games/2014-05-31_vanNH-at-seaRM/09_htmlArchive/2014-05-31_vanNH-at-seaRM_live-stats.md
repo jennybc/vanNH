@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Sun Jun 15 23:29:39 2014
+#### last update Mon Jun 16 07:44:26 2014
 # vanNH 29
 # seaRM 24
 ## game is complete
