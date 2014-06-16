@@ -36,6 +36,7 @@ Offense	Defense
 98	
 22	
 	3D
+	3
 	8
 	21
 	88

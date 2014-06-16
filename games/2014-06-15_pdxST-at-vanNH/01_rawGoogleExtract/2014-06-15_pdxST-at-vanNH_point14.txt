@@ -6,6 +6,7 @@ Offense	Defense
 	88P
 89PU	
 	21D
+	21
 89PU	
 13	
 22	5F

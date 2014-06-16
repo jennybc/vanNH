@@ -197,23 +197,27 @@ period	point	event	pl_team	pl_pnum	pl_code	poss_team
 2	13	7	vanNH	10		vanNH
 2	13	8	vanNH	5		vanNH
 2	13	9	pdxST	8	D	vanNH
-2	13	10	pdxST	4		pdxST
-2	13	11	pdxST	21		pdxST
-2	13	12	vanNH	21	D	pdxST
-2	13	13	pdxST	4	D	vanNH
-2	13	14	pdxST	8	A	pdxST
-2	13	15	pdxST	16	G	pdxST
+2	13	10	pdxST	8		pdxST
+2	13	11	pdxST	4		pdxST
+2	13	12	pdxST	21		pdxST
+2	13	13	vanNH	21	D	pdxST
+2	13	14	vanNH	21		vanNH
+2	13	15	pdxST	4	D	vanNH
+2	13	16	pdxST	4		pdxST
+2	13	17	pdxST	8	A	pdxST
+2	13	18	pdxST	16	G	pdxST
 2	14	1	pdxST	88	P	vanNH
 2	14	2	vanNH	89	PU	vanNH
 2	14	3	pdxST	21	D	vanNH
-2	14	4	vanNH	89	PU	vanNH
-2	14	5	vanNH	13		vanNH
-2	14	6	vanNH	22		vanNH
-2	14	7	pdxST	5	F	vanNH
-2	14	8	vanNH	10		vanNH
-2	14	9	vanNH	89		vanNH
-2	14	10	vanNH	5	A	vanNH
-2	14	11	vanNH	10	LG	vanNH
+2	14	4	pdxST	21		pdxST
+2	14	5	vanNH	89	PU	vanNH
+2	14	6	vanNH	13		vanNH
+2	14	7	vanNH	22		vanNH
+2	14	8	pdxST	5	F	vanNH
+2	14	9	vanNH	10		vanNH
+2	14	10	vanNH	89		vanNH
+2	14	11	vanNH	5	A	vanNH
+2	14	12	vanNH	10	LG	vanNH
 2	15	1	vanNH	8	P	pdxST
 2	15	2	pdxST	7	PU	pdxST
 2	15	3	pdxST	24		pdxST
@@ -266,10 +270,11 @@ period	point	event	pl_team	pl_pnum	pl_code	poss_team
 2	16	33	vanNH	98		vanNH
 2	16	34	vanNH	22		vanNH
 2	16	35	pdxST	3	D	vanNH
-2	16	36	pdxST	8		pdxST
-2	16	37	pdxST	21		pdxST
-2	16	38	pdxST	88	A	pdxST
-2	16	39	pdxST	3	LG	pdxST
+2	16	36	pdxST	3		pdxST
+2	16	37	pdxST	8		pdxST
+2	16	38	pdxST	21		pdxST
+2	16	39	pdxST	88	A	pdxST
+2	16	40	pdxST	3	LG	pdxST
 2	17	1	pdxST	8	P	vanNH
 2	17	2	vanNH	5	PU	vanNH
 2	17	3	vanNH	89		vanNH
@@ -310,21 +315,23 @@ period	point	event	pl_team	pl_pnum	pl_code	poss_team
 2	19	10	vanNH	22	G	vanNH
 2	20	1	vanNH	8	P	pdxST
 2	20	2	pdxST	73	PU	pdxST
-2	20	3	vanNH	4	DA	pdxST
-2	20	4	vanNH	10	G	vanNH
+2	20	3	vanNH	4	D	pdxST
+2	20	4	vanNH	4	A	vanNH
+2	20	5	vanNH	10	G	vanNH
 3	21	1	pdxST	88	P	vanNH
 3	21	2	vanNH	5	PU	vanNH
 3	21	3	vanNH	89		vanNH
 3	21	4	vanNH	21		vanNH
 3	21	5	pdxST	5	D	vanNH
-3	21	6	pdxST	21		pdxST
-3	21	7	pdxST	7		pdxST
-3	21	8	pdxST	8		pdxST
-3	21	9	pdxST	7		pdxST
-3	21	10	pdxST	88		pdxST
-3	21	11	pdxST	3	TD	pdxST
-3	21	12	vanNH	5	PUA	vanNH
-3	21	13	vanNH	98	LG	vanNH
+3	21	6	pdxST	5		pdxST
+3	21	7	pdxST	21		pdxST
+3	21	8	pdxST	7		pdxST
+3	21	9	pdxST	8		pdxST
+3	21	10	pdxST	7		pdxST
+3	21	11	pdxST	88		pdxST
+3	21	12	pdxST	3	TD	pdxST
+3	21	13	vanNH	5	PUA	vanNH
+3	21	14	vanNH	98	LG	vanNH
 3	22	1	vanNH	8	P	pdxST
 3	22	2	pdxST	73	PU	pdxST
 3	22	3	pdxST	9		pdxST

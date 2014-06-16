@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Sun Jun 15 23:29:47 2014
+#### last update Mon Jun 16 09:33:11 2014
 # pdxST 18
 # vanNH 20
 ## game is complete
@@ -158,29 +158,30 @@ stats are cumulative for this game
 |    12|      2|vanNH     |    34|pdxST   |24      |A       |pdxST     |Norden       |pdxST-24-Norden      |     4|     7|
 |    12|      2|vanNH     |    35|pdxST   |6       |G       |pdxST     |Bjorklund    |pdxST-6-Bjorklund    |     4|     7|
 |    13|      2|pdxST     |     9|pdxST   |8       |D       |vanNH     |Davis        |pdxST-8-Davis        |     5|     7|
-|    13|      2|pdxST     |    12|vanNH   |21      |D       |pdxST     |loach        |vanNH-21-loach       |     5|     7|
-|    13|      2|pdxST     |    13|pdxST   |4       |D       |vanNH     |Blackman     |pdxST-4-Blackman     |     5|     7|
-|    13|      2|pdxST     |    14|pdxST   |8       |A       |pdxST     |Davis        |pdxST-8-Davis        |     5|     7|
-|    13|      2|pdxST     |    15|pdxST   |16      |G       |pdxST     |Burton       |pdxST-16-Burton      |     5|     7|
+|    13|      2|pdxST     |    13|vanNH   |21      |D       |pdxST     |loach        |vanNH-21-loach       |     5|     7|
+|    13|      2|pdxST     |    15|pdxST   |4       |D       |vanNH     |Blackman     |pdxST-4-Blackman     |     5|     7|
+|    13|      2|pdxST     |    17|pdxST   |8       |A       |pdxST     |Davis        |pdxST-8-Davis        |     5|     7|
+|    13|      2|pdxST     |    18|pdxST   |16      |G       |pdxST     |Burton       |pdxST-16-Burton      |     5|     7|
 |    14|      2|pdxST     |     3|pdxST   |21      |D       |vanNH     |McGinn       |pdxST-21-McGinn      |     5|     8|
-|    14|      2|pdxST     |    10|vanNH   |5       |A       |vanNH     |norris       |vanNH-5-norris       |     5|     8|
-|    14|      2|pdxST     |    11|vanNH   |10      |LG      |vanNH     |chatha       |vanNH-10-chatha      |     5|     8|
+|    14|      2|pdxST     |    11|vanNH   |5       |A       |vanNH     |norris       |vanNH-5-norris       |     5|     8|
+|    14|      2|pdxST     |    12|vanNH   |10      |LG      |vanNH     |chatha       |vanNH-10-chatha      |     5|     8|
 |    15|      2|vanNH     |    16|pdxST   |42      |LA      |pdxST     |Lohre        |pdxST-42-Lohre       |     6|     8|
 |    15|      2|vanNH     |    17|pdxST   |9       |G       |pdxST     |Hancock      |pdxST-9-Hancock      |     6|     8|
 |    16|      2|pdxST     |    35|pdxST   |3       |D       |vanNH     |Ferrea       |pdxST-3-Ferrea       |     7|     8|
-|    16|      2|pdxST     |    38|pdxST   |88      |A       |pdxST     |Suppnick     |pdxST-88-Suppnick    |     7|     8|
-|    16|      2|pdxST     |    39|pdxST   |3       |LG      |pdxST     |Ferrea       |pdxST-3-Ferrea       |     7|     8|
+|    16|      2|pdxST     |    39|pdxST   |88      |A       |pdxST     |Suppnick     |pdxST-88-Suppnick    |     7|     8|
+|    16|      2|pdxST     |    40|pdxST   |3       |LG      |pdxST     |Ferrea       |pdxST-3-Ferrea       |     7|     8|
 |    17|      2|pdxST     |    18|vanNH   |89      |A       |vanNH     |underhill    |vanNH-89-underhill   |     7|     9|
 |    17|      2|pdxST     |    19|vanNH   |5       |G       |vanNH     |norris       |vanNH-5-norris       |     7|     9|
 |    18|      2|vanNH     |     8|pdxST   |24      |A       |pdxST     |Norden       |pdxST-24-Norden      |     8|     9|
 |    18|      2|vanNH     |     9|pdxST   |2       |LG      |pdxST     |Allison-Hall |pdxST-2-Allison-Hall |     8|     9|
 |    19|      2|pdxST     |     9|vanNH   |89      |A       |vanNH     |underhill    |vanNH-89-underhill   |     8|    10|
 |    19|      2|pdxST     |    10|vanNH   |22      |G       |vanNH     |berezan      |vanNH-22-berezan     |     8|    10|
-|    20|      2|vanNH     |     3|vanNH   |4       |DA      |pdxST     |doyle        |vanNH-4-doyle        |     8|    11|
-|    20|      2|vanNH     |     4|vanNH   |10      |G       |vanNH     |chatha       |vanNH-10-chatha      |     8|    11|
+|    20|      2|vanNH     |     3|vanNH   |4       |D       |pdxST     |doyle        |vanNH-4-doyle        |     8|    11|
+|    20|      2|vanNH     |     4|vanNH   |4       |A       |vanNH     |doyle        |vanNH-4-doyle        |     8|    11|
+|    20|      2|vanNH     |     5|vanNH   |10      |G       |vanNH     |chatha       |vanNH-10-chatha      |     8|    11|
 |    21|      3|pdxST     |     5|pdxST   |5       |D       |vanNH     |Woodside     |pdxST-5-Woodside     |     8|    12|
-|    21|      3|pdxST     |    12|vanNH   |5       |PUA     |vanNH     |norris       |vanNH-5-norris       |     8|    12|
-|    21|      3|pdxST     |    13|vanNH   |98      |LG      |vanNH     |wong         |vanNH-98-wong        |     8|    12|
+|    21|      3|pdxST     |    13|vanNH   |5       |PUA     |vanNH     |norris       |vanNH-5-norris       |     8|    12|
+|    21|      3|pdxST     |    14|vanNH   |98      |LG      |vanNH     |wong         |vanNH-98-wong        |     8|    12|
 |    22|      3|vanNH     |    21|pdxST   |16      |A       |pdxST     |Burton       |pdxST-16-Burton      |     9|    12|
 |    22|      3|vanNH     |    22|pdxST   |6       |G       |pdxST     |Bjorklund    |pdxST-6-Bjorklund    |     9|    12|
 |    23|      3|pdxST     |    14|pdxST   |21      |A       |pdxST     |McGinn       |pdxST-21-McGinn      |    10|    12|
@@ -429,23 +430,27 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      2|    13|     7|vanNH   |10      |        |vanNH     |
 |      2|    13|     8|vanNH   |5       |        |vanNH     |
 |      2|    13|     9|pdxST   |8       |D       |vanNH     |
-|      2|    13|    10|pdxST   |4       |        |pdxST     |
-|      2|    13|    11|pdxST   |21      |        |pdxST     |
-|      2|    13|    12|vanNH   |21      |D       |pdxST     |
-|      2|    13|    13|pdxST   |4       |D       |vanNH     |
-|      2|    13|    14|pdxST   |8       |A       |pdxST     |
-|      2|    13|    15|pdxST   |16      |G       |pdxST     |
+|      2|    13|    10|pdxST   |8       |        |pdxST     |
+|      2|    13|    11|pdxST   |4       |        |pdxST     |
+|      2|    13|    12|pdxST   |21      |        |pdxST     |
+|      2|    13|    13|vanNH   |21      |D       |pdxST     |
+|      2|    13|    14|vanNH   |21      |        |vanNH     |
+|      2|    13|    15|pdxST   |4       |D       |vanNH     |
+|      2|    13|    16|pdxST   |4       |        |pdxST     |
+|      2|    13|    17|pdxST   |8       |A       |pdxST     |
+|      2|    13|    18|pdxST   |16      |G       |pdxST     |
 |      2|    14|     1|pdxST   |88      |P       |vanNH     |
 |      2|    14|     2|vanNH   |89      |PU      |vanNH     |
 |      2|    14|     3|pdxST   |21      |D       |vanNH     |
-|      2|    14|     4|vanNH   |89      |PU      |vanNH     |
-|      2|    14|     5|vanNH   |13      |        |vanNH     |
-|      2|    14|     6|vanNH   |22      |        |vanNH     |
-|      2|    14|     7|pdxST   |5       |F       |vanNH     |
-|      2|    14|     8|vanNH   |10      |        |vanNH     |
-|      2|    14|     9|vanNH   |89      |        |vanNH     |
-|      2|    14|    10|vanNH   |5       |A       |vanNH     |
-|      2|    14|    11|vanNH   |10      |LG      |vanNH     |
+|      2|    14|     4|pdxST   |21      |        |pdxST     |
+|      2|    14|     5|vanNH   |89      |PU      |vanNH     |
+|      2|    14|     6|vanNH   |13      |        |vanNH     |
+|      2|    14|     7|vanNH   |22      |        |vanNH     |
+|      2|    14|     8|pdxST   |5       |F       |vanNH     |
+|      2|    14|     9|vanNH   |10      |        |vanNH     |
+|      2|    14|    10|vanNH   |89      |        |vanNH     |
+|      2|    14|    11|vanNH   |5       |A       |vanNH     |
+|      2|    14|    12|vanNH   |10      |LG      |vanNH     |
 |      2|    15|     1|vanNH   |8       |P       |pdxST     |
 |      2|    15|     2|pdxST   |7       |PU      |pdxST     |
 |      2|    15|     3|pdxST   |24      |        |pdxST     |
@@ -498,10 +503,11 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      2|    16|    33|vanNH   |98      |        |vanNH     |
 |      2|    16|    34|vanNH   |22      |        |vanNH     |
 |      2|    16|    35|pdxST   |3       |D       |vanNH     |
-|      2|    16|    36|pdxST   |8       |        |pdxST     |
-|      2|    16|    37|pdxST   |21      |        |pdxST     |
-|      2|    16|    38|pdxST   |88      |A       |pdxST     |
-|      2|    16|    39|pdxST   |3       |LG      |pdxST     |
+|      2|    16|    36|pdxST   |3       |        |pdxST     |
+|      2|    16|    37|pdxST   |8       |        |pdxST     |
+|      2|    16|    38|pdxST   |21      |        |pdxST     |
+|      2|    16|    39|pdxST   |88      |A       |pdxST     |
+|      2|    16|    40|pdxST   |3       |LG      |pdxST     |
 |      2|    17|     1|pdxST   |8       |P       |vanNH     |
 |      2|    17|     2|vanNH   |5       |PU      |vanNH     |
 |      2|    17|     3|vanNH   |89      |        |vanNH     |
@@ -542,21 +548,23 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      2|    19|    10|vanNH   |22      |G       |vanNH     |
 |      2|    20|     1|vanNH   |8       |P       |pdxST     |
 |      2|    20|     2|pdxST   |73      |PU      |pdxST     |
-|      2|    20|     3|vanNH   |4       |DA      |pdxST     |
-|      2|    20|     4|vanNH   |10      |G       |vanNH     |
+|      2|    20|     3|vanNH   |4       |D       |pdxST     |
+|      2|    20|     4|vanNH   |4       |A       |vanNH     |
+|      2|    20|     5|vanNH   |10      |G       |vanNH     |
 |      3|    21|     1|pdxST   |88      |P       |vanNH     |
 |      3|    21|     2|vanNH   |5       |PU      |vanNH     |
 |      3|    21|     3|vanNH   |89      |        |vanNH     |
 |      3|    21|     4|vanNH   |21      |        |vanNH     |
 |      3|    21|     5|pdxST   |5       |D       |vanNH     |
-|      3|    21|     6|pdxST   |21      |        |pdxST     |
-|      3|    21|     7|pdxST   |7       |        |pdxST     |
-|      3|    21|     8|pdxST   |8       |        |pdxST     |
-|      3|    21|     9|pdxST   |7       |        |pdxST     |
-|      3|    21|    10|pdxST   |88      |        |pdxST     |
-|      3|    21|    11|pdxST   |3       |TD      |pdxST     |
-|      3|    21|    12|vanNH   |5       |PUA     |vanNH     |
-|      3|    21|    13|vanNH   |98      |LG      |vanNH     |
+|      3|    21|     6|pdxST   |5       |        |pdxST     |
+|      3|    21|     7|pdxST   |21      |        |pdxST     |
+|      3|    21|     8|pdxST   |7       |        |pdxST     |
+|      3|    21|     9|pdxST   |8       |        |pdxST     |
+|      3|    21|    10|pdxST   |7       |        |pdxST     |
+|      3|    21|    11|pdxST   |88      |        |pdxST     |
+|      3|    21|    12|pdxST   |3       |TD      |pdxST     |
+|      3|    21|    13|vanNH   |5       |PUA     |vanNH     |
+|      3|    21|    14|vanNH   |98      |LG      |vanNH     |
 |      3|    22|     1|vanNH   |8       |P       |pdxST     |
 |      3|    22|     2|pdxST   |73      |PU      |pdxST     |
 |      3|    22|     3|pdxST   |9       |        |pdxST     |
