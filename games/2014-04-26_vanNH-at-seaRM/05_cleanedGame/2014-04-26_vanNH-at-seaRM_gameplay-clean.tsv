@@ -525,7 +525,7 @@ point	event	pullNum	pullCode	recvNum	recvCode
 37	4			5	
 37	5			18	TD
 37	6	10	PU		
-37	7	0			
+37	7	00			
 37	8	4			
 37	9	23	G		
 38	1	4	P		

@@ -9,6 +9,6 @@ Offense	Defense
 5	
 18TD	
 	10PU
-	0
+	00
 	4
 	23G
