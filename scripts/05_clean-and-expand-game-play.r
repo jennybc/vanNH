@@ -29,7 +29,7 @@ game_dir <- file.path("..", "games", game, "03_concatGoogleExtract")
 
 in_file <- file.path(game_dir, paste0(game, "_gameplay-raw.tsv"))
 game_play <- read.delim(in_file, stringsAsFactors = FALSE)
-str(game_play)
+#str(game_play)
 
 ## Offense and Defense are misleading variable names
 ## rename to suggest they record actions by the "receiving" and "pulling" teams,
