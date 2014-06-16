@@ -17,10 +17,11 @@ library(knitr)
 # for interactive use and development, set the game here
 if(!exists("game")) {
   #game <- "2014-04-12_vanNH-at-pdxST"
-  game <- "2014-04-20_sfoDF-at-vanNH"
+  #game <- "2014-04-20_sfoDF-at-vanNH"
   #game <- "2014-05-10_seaRM-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
   #game <- "2014-06-07_seaRM-at-vanNH"
+  game <- "2014-06-15_pdxST-at-vanNH"
   }
 
 ## parse the game identifier
@@ -85,13 +86,14 @@ sDat <- subset(sDat, pl_code %in% keeper_codes)
 sDat <- join(point_info[c('point', 'period', 'pull_team')], sDat)
 
 ## look up pl_pnum's last name
-sDat$pl_lname <-
-  I(with(sDat,
-         ifelse(pl_team == away_team,
-                away_roster$last[match(as.numeric(sDat$pl_pnum),
-                                       away_roster$number)],
-                home_roster$last[match(as.numeric(sDat$pl_pnum),
-                                       home_roster$number)])))
+## TO DO: make this not emit NA warnings ... it's the numeric/character thing re: player numbers
+suppressWarnings(sDat$pl_lname <-
+                   I(with(sDat,
+                          ifelse(pl_team == away_team,
+                                 away_roster$last[match(as.numeric(sDat$pl_pnum),
+                                                        away_roster$number)],
+                                 home_roster$last[match(as.numeric(sDat$pl_pnum),
+                                                        home_roster$number)]))))
 
 ## deal with cases where we have no last name
 ## happens when we use a number that's not on the roster or when we don't
