@@ -76,7 +76,7 @@ for sheet_num in points_to_process:
     else:
         empty_count += 1
         pulling_team = "NA"
-        print "pulling team unspecified!"
+        print "ALERT: pulling team unspecified!"
         # sys.exit("Error message")
     
     if point_level_info[1]:
@@ -84,21 +84,21 @@ for sheet_num in points_to_process:
     else:
         empty_count += 1
         period = "NA"
-        print "period unspecified!"
+        print "ALERT: period unspecified!"
         
     if point_level_info[2]:
         clock_before = point_level_info[2]
     else:
         empty_count += 1
         clock_before = "NA"
-        print "clock_before unspecified!"
+        print "ALERT: clock_before unspecified!"
                 
     if point_level_info[3]:
         clock_after = point_level_info[3]
     else:
         empty_count += 1
         clock_after = "NA"
-        print "clock_after unspecified!"
+        print "ALERT: clock_after unspecified!"
         
     if empty_count > 1:
         print ("not enough point-level data ... aborting")
