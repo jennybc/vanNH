@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Mon Jun 16 14:19:05 2014
+#### last update Mon Jun 16 21:39:42 2014
 # vanNH 15
 # seaRM 20
 ## game is complete
@@ -66,7 +66,6 @@ Go to ...
 |     3|1      |7:19:00  |6:52:00 |00:27       |seaRM-6-trytiak to seaRM-51-entz      |0     |3     |
 |     2|1      |9:26:00  |7:19:00 |02:07       |seaRM-21-phan to seaRM-35-koss        |0     |2     |
 |     1|1      |10:00:00 |9:26:00 |00:34       |seaRM-6-trytiak to seaRM-99-el-salaam |0     |1     |
-
 
 ## Player stats for vanNH <a id="away"></a>:
 

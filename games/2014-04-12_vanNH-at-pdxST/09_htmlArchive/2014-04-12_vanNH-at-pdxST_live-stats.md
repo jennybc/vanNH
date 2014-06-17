@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Mon Jun 16 14:18:58 2014
+#### last update Mon Jun 16 21:39:35 2014
 # vanNH 21
 # pdxST 23
 ## game is complete
@@ -75,7 +75,6 @@ Go to ...
 |     3|1      |9:01:00  |8:49:00 |00:12       |vanNH-22-berezan to vanNH-98-wong        |2     |1     |
 |     2|1      |9:23:00  |9:01:00 |00:22       |pdxST-16-Burton to pdxST-6-Bjorklund     |1     |1     |
 |     1|1      |10:00:00 |9:23:00 |00:37       |vanNH-8-hibbert to vanNH-81-tejpar       |1     |0     |
-
 
 ## Player stats for vanNH <a id="away"></a>:
 

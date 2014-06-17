@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Mon Jun 16 14:19:12 2014
+#### last update Mon Jun 16 21:39:49 2014
 # vanNH 12
 # sfoDF 13
 ## game is complete
@@ -58,7 +58,6 @@ Go to ...
 |     3|1      |6:55:00  |6:03:00 |00:52       |vanNH-89-underhill to vanNH-98-wong       |1     |2     |
 |     2|1      |7:56:00  |6:55:00 |01:01       |sfoDF-40-Taylor to sfoDF-6-Kim            |0     |2     |
 |     1|1      |10:00:00 |7:56:00 |02:04       |sfoDF-12-Bellinger to sfoDF-21-Stearns    |0     |1     |
-
 
 ## Player stats for vanNH <a id="away"></a>:
 

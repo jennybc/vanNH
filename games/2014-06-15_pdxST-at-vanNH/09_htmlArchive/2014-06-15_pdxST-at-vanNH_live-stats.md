@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Mon Jun 16 14:19:26 2014
+#### last update Mon Jun 16 21:40:03 2014
 # pdxST 18
 # vanNH 20
 ## game is complete
@@ -69,7 +69,6 @@ Go to ...
 |     3|1      |8:44:00  |6:58:00 |01:46       |pdxST-6-Bjorklund to pdxST-24-Norden      |1     |2     |
 |     2|1      |9:36:00  |8:44:00 |00:52       |vanNH-45-cowan to vanNH-81-tejpar         |0     |2     |
 |     1|1      |10:00:00 |9:36:00 |00:24       |vanNH-21-loach to vanNH-98-wong           |0     |1     |
-
 
 ## Player stats for pdxST <a id="away"></a>:
 

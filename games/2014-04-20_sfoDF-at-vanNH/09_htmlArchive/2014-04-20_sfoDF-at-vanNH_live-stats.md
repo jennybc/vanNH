@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Mon Jun 16 14:19:02 2014
+#### last update Mon Jun 16 21:39:38 2014
 # sfoDF 15
 # vanNH 26
 ## game is complete
@@ -73,7 +73,6 @@ Go to ...
 |     3|1      |8:09:00  |7:10:00 |00:59       |vanNH-22-berezan to vanNH-91-savage   |1     |2     |
 |     2|1      |8:22:00  |8:09:00 |00:13       |sfoDF-34-Boucher to sfoDF-3-Weiss     |1     |1     |
 |     1|1      |10:00:00 |8:22:00 |01:38       |vanNH-39-seraglia to vanNH-81-tejpar  |0     |1     |
-
 
 ## Player stats for sfoDF <a id="away"></a>:
 

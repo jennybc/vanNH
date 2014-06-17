@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Mon Jun 16 14:19:22 2014
+#### last update Mon Jun 16 21:40:00 2014
 # seaRM 12
 # vanNH 27
 ## game is complete
@@ -69,7 +69,6 @@ Go to ...
 |     3|1      |7:58:00  |7:01:00 |00:57       |vanNH-8-hibbert to vanNH-45-cowan      |1     |2     |
 |     2|1      |8:32:00  |7:58:00 |00:34       |vanNH-89-underhill to vanNH-98-wong    |1     |1     |
 |     1|1      |10:00:00 |8:32:00 |01:28       |seaRM-15-beehner to seaRM-18-uhrig-fox |1     |0     |
-
 
 ## Player stats for seaRM <a id="away"></a>:
 

@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Mon Jun 16 14:19:08 2014
+#### last update Mon Jun 16 21:39:45 2014
 # seaRM 23
 # vanNH 29
 ## game is complete
@@ -83,7 +83,6 @@ Go to ...
 |     3|1      |6:13:00  |5:56:00 |00:17       |seaRM-48-clark to seaRM-6-trytiak         |1     |2     |
 |     2|1      |8:46:00  |6:13:00 |02:33       |vanNH-18-menzies to vanNH-8-hibbert       |0     |2     |
 |     1|1      |10:00:00 |8:46:00 |01:14       |vanNH-89-underhill to vanNH-10-chatha     |0     |1     |
-
 
 ## Player stats for seaRM <a id="away"></a>:
 

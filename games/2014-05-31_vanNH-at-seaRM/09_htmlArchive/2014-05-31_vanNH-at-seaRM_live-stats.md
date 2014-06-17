@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Mon Jun 16 14:19:19 2014
+#### last update Mon Jun 16 21:39:56 2014
 # vanNH 29
 # seaRM 24
 ## game is complete
@@ -86,7 +86,6 @@ Go to ...
 |     3|1      |9:09:00  |8:22:00 |00:47       |seaRM-2-bubernak to seaRM-12-gallagher |1     |2     |
 |     2|1      |9:19:00  |9:09:00 |00:10       |seaRM-6-trytiak to seaRM-8-fong        |1     |1     |
 |     1|1      |10:00:00 |9:19:00 |00:41       |vanNH-91-savage to vanNH-10-chatha     |1     |0     |
-
 
 ## Player stats for vanNH <a id="away"></a>:
 
