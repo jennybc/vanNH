@@ -7,7 +7,6 @@ output:
 ---
 
 ```{r, echo = FALSE, message = FALSE}
-library(xtable)
 library(plyr)
 library(yaml)
 library(knitr)
@@ -21,7 +20,8 @@ if(!exists("game")) {
   #game <- "2014-05-10_seaRM-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
   #game <- "2014-06-07_seaRM-at-vanNH"
-  game <- "2014-06-15_pdxST-at-vanNH"
+  #game <- "2014-06-15_pdxST-at-vanNH"
+  game <- "2014-12-31_pdxST-at-vanNH"
   }
 
 ## parse the game identifier
@@ -124,7 +124,7 @@ whereInGame <-
          paste("period", sDat$period[nrow(sDat)]))
 
 ## tally events by player
-player_dat <- at <- ddply(sDat, ~ player + pl_team, function(z) {
+player_dat <- ddply(sDat, ~ player + pl_team, function(z) {
   goals <- sum(z$pl_code %in% goal_codes)
   assists <- sum(z$pl_code %in% assist_codes)
   Ds  <-  sum(z$pl_code %in% d_codes)
@@ -152,16 +152,23 @@ gDat <- ddply(sDat, ~ point,
                   unlist(point_info[point_info$point == point,
                                     grep("clk", names(point_info))])
                 names(time_before_after) <- NULL
-                point_duration <-
-                  -1 * diff(laply(strsplit(time_before_after, split = ":"),
-                                  function(x) {
-                                    x <- as.numeric(x)
-                                    x[1] * 60 + x[2]
-                                    }))
-                point_duration_text <-
-                  sprintf("%02d:%02d",
-                          point_duration %/% 60, point_duration %% 60)
-                
+                time_NA <- is.na(time_before_after)
+                if(any(time_NA)) {
+                  time_before_after[time_NA] <- point_duration_text <- "???"
+                  message("ALERT: point is missing time before and/or after:")
+                  z[time_NA, ]
+                  } else {
+                    point_duration <-
+                      -1 * diff(laply(strsplit(time_before_after, split = ":"),
+                                      function(x) {
+                                        x <- as.numeric(x)
+                                        x[1] * 60 + x[2]
+                                        }))
+                    point_duration_text <-
+                      sprintf("%02d:%02d",
+                              point_duration %/% 60, point_duration %% 60)
+                    }
+                              
                 is_a_goal <- z$pl_code %in% goal_codes
                 if(any(is_a_goal)) {
                   goal_row <- max(which(is_a_goal))
@@ -212,10 +219,6 @@ Go to ...
 ```{r echo = FALSE, results = 'asis'}
 kable(gDat, row.names = FALSE)
 ```
-```{r results='asis', echo=FALSE, eval = FALSE}
-foo <- xtable(gDat)
-print(foo, type='html', include.rownames = FALSE)
-```
 
 ## Player stats for `r away_team` <a id="away"></a>:
 
@@ -225,10 +228,8 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 ```{r results='asis', echo=FALSE}
-if(!is.null(player_dat_by_team[[away_team]])) {
+if(nrow(player_dat_by_team[[away_team]]) > 0) {
   kable(player_dat_by_team[[away_team]], row.names = TRUE)
-#   foo <- xtable(player_dat_by_team[[away_team]])
-#   print(foo, type='html', include.rownames = FALSE)
   }
 ```
 
@@ -240,18 +241,14 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 ```{r results='asis', echo=FALSE}
-if(!is.null(player_dat_by_team[[home_team]])) {
+if(nrow(player_dat_by_team[[home_team]]) > 0) {
   kable(player_dat_by_team[[home_team]], row.names = TRUE)
-#   foo <- xtable(player_dat_by_team[[home_team]])
-#   print(foo, type='html', include.rownames = FALSE)
   }
 ```
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 ```{r results='asis', echo=FALSE}
 kable(sDat, row.names = FALSE)
-# foo <- xtable(sDat)
-# print(foo, type='html', include.rownames = FALSE)
 ```
 
 ## Full raw data<a id="rawData"></a>:
@@ -260,8 +257,6 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 
 ```{r results='asis', echo=FALSE}
 kable(sDat_safe, row.names = FALSE)
-# foo <- xtable(sDat_safe)
-# print(foo, type='html', include.rownames = FALSE)
 ```
 
 
