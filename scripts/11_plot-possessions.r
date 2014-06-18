@@ -59,11 +59,16 @@ gpDat <- ddply(gpDat, ~ point + game, function(x)
              poss_rel = determine_possession(x[c('poss_team', 'point')])))
 str(gpDat) # 5664 obs. of  10 variables:
 
-## aggregate to possessions: to gpDat variables, adds the pulling team for the
-## associated point, logical indicating if possession ends in a point, scoring
-## team
+## get the pulling team, which is a point-level thing
+gpDat <- ddply(gpDat, ~ game + point, function(x) {
+  data.frame(x, pull_team = x$pl_team[1])
+})
+str(gpDat) # 5664 obs. of  11 variables:
+
+## aggregate to possessions: to gpDat variables, adds logical indicating if
+## possession ends in a point, scoring team
 poss_dat <- ddply(gpDat, ~ game + poss_abs, function(x) {
-  pull_team <- x$pl_team[1]
+  pull_team <- x$pull_team[1]
   n <- nrow(x)
   score <- which(grepl("L*G", x$pl_code))
   scor_team <- as.character(if(any(score)) x$pl_team[max(score)] else NA)
@@ -71,22 +76,23 @@ poss_dat <- ddply(gpDat, ~ game + poss_abs, function(x) {
   if(x$pl_code[n] == 'F') {
     x$pl_code[n] <- if(who == 'o_line') "off F" else "TA"
   }
-  data.frame(x[n, ], pull_team, score = any(score), scor_team, who)
+  data.frame(x[n, ], score = any(score), scor_team, who)
 })
 str(poss_dat) # 842 obs. of  14 variables:
 
 ## sanity checks of poss_dat
 ddply(poss_dat, ~ game + scor_team, summarize, score = sum(score))
 ## yes agrees with actual final scores
-table(poss_dat$who)
-# o_line d_line 
-#    397    445 
 addmargins(with(poss_dat, table(who, score)))
-#      score
+# score
 # who      FALSE TRUE Sum
-#   o_line   219  178 397
-#   d_line   261  184 445
+#   o_line   313  236 549
+#   d_line   167  126 293
 #   Sum      480  362 842
+
+table(ddply(poss_dat, ~ game + point,
+            summarize, n_pull_tms = length(unique(pull_team))))
+
 
 ## reorder and revalue pl_code in poss_dat
 poss_dat$pl_code <-
@@ -213,6 +219,14 @@ p + facet_wrap(~ poss_team) +
   labs(fill = "who's on offense?") + ylim(0, 0.6)
 ggsave("../web/figs/barchart_how_possessions_end_detailed_by_line_and_team.png")
 
+## when team x receives a pull, how often do they score vs turn it over?
+j_team <- "vanNH"
+str(x <- subset(poss_dat, pull_team != j_team)) # 393 obs
+with(x, table(poss_rel, score, scor_team))
+str(x <- subset(poss_dat, pull_team != j_team & scor_team == j_team)) # 119 obs.
+
+str(x <- subset(gpDat, game == "2014-06-15_pdxST-at-vanNH" & point == 6))
+str(y <- subset(poss_dat, game == "2014-06-15_pdxST-at-vanNH" & point == 6))
 
 ## aggregate to points: record how many possessions, who scored (if anyone),
 ## and whether it was a hold or break
