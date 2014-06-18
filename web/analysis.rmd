@@ -41,7 +41,51 @@ Observations:
 
 ## How do possessions end?
 
-Dataset: all possessions from all games involving Vancouver Nighthawks in 2014 through week 09 (n = 842 possessions)
+### How possessions end, high-level.
+
+Dataset: all possessions from all games involving Vancouver Nighthawks in 2014 through week 09 (n = 842 possessions by one of the 4 MLU Western Conference teams)
+
+x = how possessions end   
+
+  * G = goal
+  * off - = offense gives it up = throwaway + drop + travel + stall + offensive foul
+  * def + = defense directly forces turn = knock down D + interception + hand block + foot block
+
+y = proportion of possessions that end a certain way
+
+![Alt text](figs/barchart_how_possessions_end_coarse.png)
+
+### How possessions end, high-level and by line.
+
+I use `o_line` to denote a line that was sent out to receive the pull and play offense. I use `d_line` to denote a line that was sent out to pull and play defense. Of course, if there's at least one turnover, an `o_line` plays defense and a `d_line` plays offense. How do possessions end if we split out by which type of line is currently on offense?
+
+*Caveat: I am not (yet) adjusting for the full line changes we often see during timeouts. But that affects a small proportion of possessions.*
+
+Strange but (I think) true: More possessions have ended with a `d_line` on offense (445 `d_line` vs. 397 `o_line`). In fact, *more goals* have been scored by `d_lines` than `o_lines` (184 by `d_lines` vs. 178 by `o_lines`). OK those are actually very close, but *a priori* I would have expected `o_lines` to account for more goals. This could lead to a conjecture that ... if there's parity in the Conference re: efficiency of `o_lines`, then the ability of `d_lines` to play offense is what gives a team an edge. Or maybe if I address line changes this all goes away ...
+
+This plot does confirm the `o_lines` on offense are more likely to score, less likely to turn it over through error, and more likely to get D'd than `d_lines`. Conversely, `d_lines` are as likely to turn it over as they are to score -- but they don't have to worry so much about getting D'd by an `o_line` playing defense.
+
+x and y = *same as above*  
+
+![Alt text](figs/barchart_how_possessions_end_coarse_by_line.png)
+
+### How possessions end, high-level and by team.
+
+x and y = *same as above*  
+
+![Alt text](figs/barchart_how_possessions_end_coarse_by_team.png)
+
+### How possessions end, high-level, by line and team.
+
+To be clear here, within a team * line combination, the bar heights add up to 1. So we get the breakdown of how possessions end when, e.g. a Portland Stags' `o_line` had the disc: 56% end in a goal for them, 24% end in a turnover nominally due to offense error, and 19% end with an explicit stop by the defense.
+
+One thing that really jumps out is the much greater similarity between `o_line` and `d_line` for Vancouver Nighthawks than anyone else.
+
+x and y and meaning of `o_line` and `d_line` = *same as above*  
+
+![Alt text](figs/barchart_how_possessions_end_coarse_by_line_and_team.png)
+
+### How possessions end, detailed.
 
 x = how a possession ends  
 
@@ -51,19 +95,26 @@ x = how a possession ends
   * TD = drop
   * VTT = violation travel turnover
   * VST = violation stall
+  * off F = offensive foul
   
 y = proportion of possessions that end a certain way  
 
-![Alt text](figs/barchart_how_possessions_end.png)
+![Alt text](figs/barchart_how_possessions_end_detailed.png)
 
-## By team: how do possessions end?
+### How possessions end, detailed and by line.
 
-Dataset: all possessions from all games involving Vancouver Nighthawks in 2014 through week 09 (n = 842 possessions)
+x and y and meaning of `o_line` and `d_line` = *same as above*  
 
-x = *same as above*
-  
-y = proportion of possessions that end a certain way, among all possessions by a specific team  
+![Alt text](figs/barchart_how_possessions_end_detailed_by_line.png)
 
-*I know I need to make another version that distinguishes whether it's an O or D line executing the possession... *
+### How possessions end, detailed and by team.
 
-![Alt text](figs/barchart_how_possessions_end_by_team.png)
+x and y and meaning of `o_line` and `d_line` = *same as above*  
+
+![Alt text](figs/barchart_how_possessions_end_detailed_by_team.png)
+
+### How possessions end, detailed, by line and team.
+
+x and y and meaning of `o_line` and `d_line` = *same as above*  
+
+![Alt text](figs/barchart_how_possessions_end_detailed_by_line_and_team.png)
