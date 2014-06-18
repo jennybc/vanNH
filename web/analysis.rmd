@@ -4,6 +4,7 @@ date: "16 June, 2014"
 output:
   html_document:
     theme: readable
+    toc: true
 ---
 
 <a href="index.html">Back to index</a>
@@ -37,3 +38,20 @@ Observations:
   * makes me want to look at this: of points with x or more possessions, what proportion have exactly x possessions? The first "1 possession hold" bars will not change, but then we'll see conversion rate for the D line on it's first possession ("2 possession break"), conversion rate for O line if it gets disc back("3 possession hold), etc. I expect those bars to steadily decrease and to show higher conversion rate for O lines vs D. But who knows?
 
 ![Alt text](figs/poss_n_dist_by_scor_team_and_status.png)
+
+## How do possessions end?
+
+Dataset: all possessions from all games involving Vancouver Nighthawks in 2014 through week 09 (n = 842 possessions)
+
+x = how a possession ends  
+
+  * G = goal
+  * TA = throwaway, i.e. turnover that is neither a drop nor a clear D
+  * D = knock down D + interception + hand block + foot block
+  * TD = drop
+  * VTT = violation travel turnover
+  * VST = violation stall
+  
+y = proportion of possessions that end a certain way  
+
+![Alt text](figs/barchart_how_possessions_end.png)

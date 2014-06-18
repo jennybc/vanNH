@@ -22,20 +22,20 @@
 #GOOGAME ?= "Official Statistics - 2014 - Week 9 - 6/7 - Rainmakers @ Nighthawks"
 #GAME ?= 2014-06-07_seaRM-at-vanNH
 
-GOOGAME ?= "Official Statistics - 2014 - Week 10 - 6/15 - Stags @ Nighthawks"
-GAME ?= 2014-06-15_pdxST-at-vanNH
-
 #GOOGAME ?= "Official Statistics - 2014 - Week 10 - 6/15 - Stags @ Nighthawks"
-#GAME ?= 2014-12-31_pdxST-at-vanNH
+#GAME ?= 2014-06-15_pdxST-at-vanNH
+
+GOOGAME ?= "test"
+GAME ?= 2014-12-31_pdxST-at-vanNH
 
 sitrep:
-	echo $(GAME) $(GOOGAME)
+	echo $(GOOGAME) $(GAME) 
 
 init:
 	Rscript ./00_init-game.r $(GAME)
 	
 delete:
-	rm -rf ../game/$(GAME)
+	rm -rf ../games/$(GAME)/*
 	rm ../web/$(GAME)_live-stats.html
 
 clean_raw:

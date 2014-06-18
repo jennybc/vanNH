@@ -39,9 +39,11 @@ determine_possession <- function(x) {
 
 ## create variables that denote possessions
 
-## not sure I have need of absolute possession variable for the entire season?
+## Why would I ever need an absolute possession variable for the entire season?
+## I made this possible in case I ever analyze groups of points from different
+## games where two "point 9"'s could end up adjacent to each other
 # mutate(gpDat,
-#          poss_abs = determine_possession(gpDat[c('poss_team', 'point', 'game')]))
+#       poss_abs = determine_possession(gpDat[c('poss_team', 'point', 'game')]))
 
 ## absolute possession variable within game
 gpDat <- ddply(gpDat, ~ game, function(x)
@@ -53,6 +55,68 @@ gpDat <- ddply(gpDat, ~ point + game, function(x)
   data.frame(x,
              poss_rel = determine_possession(x[c('poss_team', 'point')])))
 str(gpDat) # 5664 obs. of  10 variables:
+
+## aggregate to possessions: ??
+poss_dat <- ddply(gpDat, ~ game + poss_abs, function(x) {
+  pull_team <- x$pl_team[1]
+  n <- nrow(x)
+  score <- which(grepl("L*G", x$pl_code))
+  scor_team <- as.character(if(any(score)) x$pl_team[max(score)] else NA)
+  data.frame(x[n, ], pull_team, score = any(score), scor_team)
+})
+str(poss_dat) # 842 obs. of  13 variables:
+
+## sanity checks of poss_dat
+ddply(poss_dat, ~ game + scor_team, summarize, score = sum(score)) # yes
+
+## create a new version of the code that is coarser
+# d_codes <- c('D', 'HB', 'FB')
+# goal_codes <- c('G', 'LG')
+# throwaway_codes <- c('*', 'PU', 'L')
+poss_dat$a_code <-
+  mapvalues(poss_dat$pl_code,
+            from = c('D', 'HB', 'FB', 'G', 'LG',   '', 'PU',  'L'),
+            to   = c('D',  'D',  'D', 'G',  'G', 'TA', 'TA', 'TA'))
+poss_dat$a_code <- with(poss_dat, reorder(a_code, a_code, length))
+as.data.frame(table(poss_dat$a_code, dnn = "a_code"))
+
+## reorder and revalue pl_code itself
+poss_dat$pl_code <- mapvalues(poss_dat$pl_code, from = '', to = '*')
+poss_dat$pl_code <- with(poss_dat, reorder(pl_code, pl_code, length))
+as.data.frame(table(poss_dat$pl_code, dnn = "a_code"))
+
+## how do possessions end? naive approach based only on last pl_code
+last_code_freq <- as.data.frame(table(poss_dat$a_code, dnn = "a_code"))
+last_code_freq <-
+  rbind(last_code_freq,
+        data.frame(a_code = "Sum", Freq = sum(last_code_freq$Freq)))
+last_code_freq <-
+  mutate(last_code_freq, prop = Freq / Freq[nrow(last_code_freq)],
+         #pretty_prop = ifelse(prop > 0.05, as.character(round(prop, 2)), ''))
+         pretty_prop = as.character(round(prop, 2)))
+
+## bar chart these frequencies
+p <- ggplot(subset(last_code_freq, a_code != "Sum"), aes(x = a_code, y = prop))
+p + geom_bar(stat = "identity") +
+  geom_text(aes(label = pretty_prop), vjust = -0.2, size = 4) + 
+  xlab("how a possession ends") + ylab("proportion of possessions")
+ggsave("../web/figs/barchart_how_possessions_end.png")
+
+
+d_ply(poss_dat, ~ pl_code, function(x) {
+  match_vars <- c('game', 'period', 'point', 'event')
+  gp_rows <-
+    join(x[match_vars],
+         data.frame(gpDat[match_vars], row = seq_len(nrow(gpDat))))$row
+  display_vars <- c('game', 'point', 'event', 'poss_team', 'pl_team',
+                    'pl_pnum', 'pl_code')
+  for(i in seq_along(gp_rows)) {
+    print(gpDat[gp_rows[i] + (-2:2), display_vars])
+    cat("\n")
+  }
+  
+})
+
 
 ## aggregate to points: record how many possessions, who scored (if anyone),
 ## and whether it was a hold or break
