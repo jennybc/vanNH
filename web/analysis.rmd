@@ -55,3 +55,15 @@ x = how a possession ends
 y = proportion of possessions that end a certain way  
 
 ![Alt text](figs/barchart_how_possessions_end.png)
+
+## By team: how do possessions end?
+
+Dataset: all possessions from all games involving Vancouver Nighthawks in 2014 through week 09 (n = 842 possessions)
+
+x = *same as above*
+  
+y = proportion of possessions that end a certain way, among all possessions by a specific team  
+
+*I know I need to make another version that distinguishes whether it's an O or D line executing the possession... *
+
+![Alt text](figs/barchart_how_possessions_end_by_team.png)

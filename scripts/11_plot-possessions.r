@@ -50,13 +50,15 @@ gpDat <- ddply(gpDat, ~ game, function(x)
   mutate(x, poss_abs = determine_possession(x[c('poss_team', 'point')])))
 str(gpDat) # 5664 obs. of  9 variables
 
-## possession variable within point
+## relative possession variable, i.e. within point
 gpDat <- ddply(gpDat, ~ point + game, function(x)
   data.frame(x,
              poss_rel = determine_possession(x[c('poss_team', 'point')])))
 str(gpDat) # 5664 obs. of  10 variables:
 
-## aggregate to possessions: ??
+## aggregate to possessions: to gpDat variables, adds the pulling team for the
+## associated point, logical indicating if possession ends in a point, scoring
+## team
 poss_dat <- ddply(gpDat, ~ game + poss_abs, function(x) {
   pull_team <- x$pl_team[1]
   n <- nrow(x)
@@ -67,14 +69,15 @@ poss_dat <- ddply(gpDat, ~ game + poss_abs, function(x) {
 str(poss_dat) # 842 obs. of  13 variables:
 
 ## sanity checks of poss_dat
-ddply(poss_dat, ~ game + scor_team, summarize, score = sum(score)) # yes
+ddply(poss_dat, ~ game + scor_team, summarize, score = sum(score))
+## yes agrees with actual final scores
 
-## create a new version of the code that is coarser
+## create a new version of the pl_code that is coarser
 # d_codes <- c('D', 'HB', 'FB')
 # goal_codes <- c('G', 'LG')
 # throwaway_codes <- c('*', 'PU', 'L')
 poss_dat$a_code <-
-  mapvalues(poss_dat$pl_code,
+  mapvalues(poss_dat$pl_code, # revalue() won't work due to factor level ''
             from = c('D', 'HB', 'FB', 'G', 'LG',   '', 'PU',  'L'),
             to   = c('D',  'D',  'D', 'G',  'G', 'TA', 'TA', 'TA'))
 poss_dat$a_code <- with(poss_dat, reorder(a_code, a_code, length))
@@ -85,14 +88,14 @@ poss_dat$pl_code <- mapvalues(poss_dat$pl_code, from = '', to = '*')
 poss_dat$pl_code <- with(poss_dat, reorder(pl_code, pl_code, length))
 as.data.frame(table(poss_dat$pl_code, dnn = "a_code"))
 
-## how do possessions end? naive approach based only on last pl_code
+## how do possessions end? naive approach based only on last pl_code, which
+## actually works quite well
 last_code_freq <- as.data.frame(table(poss_dat$a_code, dnn = "a_code"))
 last_code_freq <-
   rbind(last_code_freq,
         data.frame(a_code = "Sum", Freq = sum(last_code_freq$Freq)))
 last_code_freq <-
   mutate(last_code_freq, prop = Freq / Freq[nrow(last_code_freq)],
-         #pretty_prop = ifelse(prop > 0.05, as.character(round(prop, 2)), ''))
          pretty_prop = as.character(round(prop, 2)))
 
 ## bar chart these frequencies
@@ -101,6 +104,23 @@ p + geom_bar(stat = "identity") +
   geom_text(aes(label = pretty_prop), vjust = -0.2, size = 4) + 
   xlab("how a possession ends") + ylab("proportion of possessions")
 ggsave("../web/figs/barchart_how_possessions_end.png")
+
+## how do possessions end? split out by poss_team
+last_code_freq_by_team <- ddply(poss_dat, ~ poss_team, function(x) {
+  tmp <- as.data.frame(table(x$a_code, dnn = "a_code"))
+  tmp <- rbind(tmp, data.frame(a_code = "Sum", Freq = sum(tmp$Freq)))
+  tmp <- mutate(tmp, prop = Freq / Freq[nrow(tmp)],
+                pretty_prop = as.character(round(prop, 2)))
+  return(tmp)  
+})
+
+p <- ggplot(subset(last_code_freq_by_team, a_code != "Sum"),
+            aes(x = a_code, y = prop))
+p + geom_bar(stat = "identity") + facet_wrap(~ poss_team) +
+  geom_text(aes(label = pretty_prop), vjust = -0.2, size = 4) + 
+  xlab("how a possession ends") + ylab("proportion of possessions")
+ggsave("../web/figs/barchart_how_possessions_end_by_team.png")
+
 
 
 d_ply(poss_dat, ~ pl_code, function(x) {
