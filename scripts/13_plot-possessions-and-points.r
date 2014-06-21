@@ -7,8 +7,9 @@ neglength <- function(x) -1 * length(x)
 jWidth <- 5
 jHeight <- 4
 
-## function that counts how often a code occurs, computes a proportion, and also
-## a "pretty" proportion suitable for putting on a figure
+## function that counts how often each code occurs, computes as a proportion,
+## and also forms a "pretty" proportion suitable for putting on a figure; also
+## reorders the factor associated with the codes by the frequencies
 count_em_up <- function(code_var, x = poss_dat, cutoff = 0.08) {
   code_freq <- as.data.frame(addmargins(table(x[[code_var]], dnn = code_var)))
   code_freq[[code_var]] <- reorder(code_freq[[code_var]], -1 * code_freq$Freq)
@@ -22,10 +23,14 @@ input_dir <- file.path("..", "games", "2014_west-vs-vanNH")
 poss_file <- file.path(input_dir, "2014_west-vs-vanNH_possessions.rds")
 str(poss_dat <- readRDS(poss_file), give.attr = FALSE) # 842 obs. of  16 vars
 
-## use coarse b_code or more detailed a_code
-#j_code <- "b_code"
-j_code <- "a_code"
+## loop over the coarse b_code or more detailed a_code; both codes capture how
+## the possession ends
 
+for(j_code in c("b_code", "a_code")) {
+  
+  #j_code <- "b_code"
+  #j_code <- "a_code"
+  
 if(j_code == "b_code") {
   w1 <- 0.5 # width for marginal barchart re: code only
   at <- 1 # size of x-axis tick labels relative to theme base font size
@@ -121,7 +126,7 @@ out_file <- paste0("barchart_how_possessions_end_",
 out_file <- file.path("..", "web", "figs", out_file)
 ggsave(out_file, p, width = jWidth, height = jHeight)
 
-
+} # this ends the loop over b_code, a_code
 
 
 ## when team x receives a pull, how often do they score vs turn it over?
