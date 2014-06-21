@@ -1,6 +1,6 @@
 ---
 title: "Analysis of gameplay *(BETA)*"
-date: "16 June, 2014"
+date: "21 June, 2014"
 output:
   html_document:
     theme: readable
@@ -8,6 +8,93 @@ output:
 ---
 
 <a href="index.html">Back to index</a>
+
+## How do possessions end?
+
+### How possessions end, high-level.
+
+Dataset: all possessions from all games involving Vancouver Nighthawks in 2014 through week 09
+
+x = how possessions end   
+
+  * Sum = total number of possessions in the dataset
+  * G = goal
+  * off - = offense gives it up = throwaway + drop + travel + stall + offensive foul
+  * def + = defense directly forces turn = knock down D + interception + hand block + foot block
+  * eop = end of period
+
+y = proportion of possessions that end a certain way
+
+![Alt text](figs/barchart_how_possessions_end_coarse.png)
+
+### How possessions end, high-level and by line.
+
+I use `o_line` to denote a line that was sent out to receive the pull and play offense. I use `d_line` to denote a line that was sent out to pull and play defense. Of course, if there's at least one turnover, an `o_line` plays defense and a `d_line` plays offense. How do possessions end if we split out by which type of line is currently on offense?
+
+*Caveat: I am not (yet) adjusting for the full line changes we often see during timeouts. But that affects a small proportion of possessions.*
+
+In an absolute sense there are *more* possessions by `o_lines` but the distribution of how the possessions end isn't very different at all.
+
+x and y = *same as above*  
+
+![Alt text](figs/barchart_how_possessions_end_coarse_by_line.png)
+
+### How possessions end, high-level and by team.
+
+Here we just confirm the ranking in the Western Conference:
+
+  * pdxST (over 50% of possessions end in a goal) > vanNH (46%) > seaRM (43%) >> sfoDF (24%)
+  * The exact same ordering arises, in the reverse, when you look at how often the offense turns it over.
+
+x and y = *same as above*  
+
+![Alt text](figs/barchart_how_possessions_end_coarse_by_poss_team.png)
+
+### How possessions end, high-level, by line and team.
+
+To be clear here, within a team * line combination, the bar heights add up to 1. So we get the breakdown of how possessions end when, e.g. a Portland Stags' `o_line` had the disc: 55% end in a goal for them, 24% end in a turnover nominally due to offense error, and 17% end with an explicit stop by the defense.
+
+One thing that I see is that vanNH's `o_line` and `d_line` are more similar to each other than those of the other teams.
+
+x and y and meaning of `o_line` and `d_line` = *same as above*  
+
+![Alt text](figs/barchart_how_possessions_end_coarse_by_line_and_poss_team.png)
+
+### How possessions end, detailed.
+
+We revisit the same figures as above, but with a more detailed look at how possessions end. Here's what the codes mean:
+
+x = how a possession ends  
+
+  * G = goal
+  * TA = throwaway, i.e. turnover that is neither a drop nor a clear D
+  * D = knock down D + interception + hand block + foot block
+  * TD = drop
+  * VTT = violation travel turnover
+  * VST = violation stall
+  * off F = offensive foul
+  
+y = proportion of possessions that end a certain way  
+
+![Alt text](figs/barchart_how_possessions_end_detailed.png)
+
+### How possessions end, detailed and by line.
+
+x and y and meaning of `o_line` and `d_line` = *same as above*  
+
+![Alt text](figs/barchart_how_possessions_end_detailed_by_line.png)
+
+### How possessions end, detailed and by team.
+
+x and y = *same as above*  
+
+![Alt text](figs/barchart_how_possessions_end_detailed_by_poss_team.png)
+
+### How possessions end, detailed, by line and team.
+
+x and y and meaning of `o_line` and `d_line` = *same as above*  
+
+![Alt text](figs/barchart_how_possessions_end_detailed_by_line_and_poss_team.png)
 
 ## How many possessions does it take to score?
 
@@ -39,78 +126,3 @@ Observations:
 
 ![Alt text](figs/poss_n_dist_by_scor_team_and_status.png)
 
-## How do possessions end?
-
-### How possessions end, high-level.
-
-Dataset: all possessions from all games involving Vancouver Nighthawks in 2014 through week 09 (n = 842 possessions by one of the 4 MLU Western Conference teams)
-
-x = how possessions end   
-
-  * G = goal
-  * off - = offense gives it up = throwaway + drop + travel + stall + offensive foul
-  * def + = defense directly forces turn = knock down D + interception + hand block + foot block
-
-y = proportion of possessions that end a certain way
-
-![Alt text](figs/barchart_how_possessions_end_coarse.png)
-
-### How possessions end, high-level and by line.
-
-I use `o_line` to denote a line that was sent out to receive the pull and play offense. I use `d_line` to denote a line that was sent out to pull and play defense. Of course, if there's at least one turnover, an `o_line` plays defense and a `d_line` plays offense. How do possessions end if we split out by which type of line is currently on offense?
-
-*Caveat: I am not (yet) adjusting for the full line changes we often see during timeouts. But that affects a small proportion of possessions.*
-
-x and y = *same as above*  
-
-![Alt text](figs/barchart_how_possessions_end_coarse_by_line.png)
-
-### How possessions end, high-level and by team.
-
-x and y = *same as above*  
-
-![Alt text](figs/barchart_how_possessions_end_coarse_by_team.png)
-
-### How possessions end, high-level, by line and team.
-
-To be clear here, within a team * line combination, the bar heights add up to 1. So we get the breakdown of how possessions end when, e.g. a Portland Stags' `o_line` had the disc: 55% end in a goal for them, 28% end in a turnover nominally due to offense error, and 17% end with an explicit stop by the defense.
-
-One thing that really jumps out is the much greater similarity between `o_line` and `d_line` for Vancouver Nighthawks than anyone else.
-
-x and y and meaning of `o_line` and `d_line` = *same as above*  
-
-![Alt text](figs/barchart_how_possessions_end_coarse_by_line_and_team.png)
-
-### How possessions end, detailed.
-
-x = how a possession ends  
-
-  * G = goal
-  * TA = throwaway, i.e. turnover that is neither a drop nor a clear D
-  * D = knock down D + interception + hand block + foot block
-  * TD = drop
-  * VTT = violation travel turnover
-  * VST = violation stall
-  * off F = offensive foul
-  
-y = proportion of possessions that end a certain way  
-
-![Alt text](figs/barchart_how_possessions_end_detailed.png)
-
-### How possessions end, detailed and by line.
-
-x and y and meaning of `o_line` and `d_line` = *same as above*  
-
-![Alt text](figs/barchart_how_possessions_end_detailed_by_line.png)
-
-### How possessions end, detailed and by team.
-
-x and y and meaning of `o_line` and `d_line` = *same as above*  
-
-![Alt text](figs/barchart_how_possessions_end_detailed_by_team.png)
-
-### How possessions end, detailed, by line and team.
-
-x and y and meaning of `o_line` and `d_line` = *same as above*  
-
-![Alt text](figs/barchart_how_possessions_end_detailed_by_line_and_team.png)
