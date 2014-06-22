@@ -1,6 +1,6 @@
 ---
 title: "Analysis of gameplay *(BETA)*"
-date: "21 June, 2014"
+date: "22 June, 2014"
 output:
   html_document:
     theme: readable
@@ -95,6 +95,17 @@ x and y = *same as above*
 x and y and meaning of `o_line` and `d_line` = *same as above*  
 
 ![Alt text](figs/barchart_how_possessions_end_detailed_by_line_and_poss_team.png)
+
+## Who scores?
+
+Dataset: all points played from all games involving Vancouver Nighthawks in 2014 through week 09 (n = 394 points)
+
+`self` scores means a hold  
+`opp` scores means a break  
+`nobody` means time ran out  
+`recv_team` indicates who received the pull  
+
+![Alt text](figs/barchart_who_scores_by_recv_team.png)
 
 ## How many possessions does it take to score?
 
