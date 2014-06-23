@@ -100,7 +100,7 @@ for sheet_num in points_to_process:
         clock_after = "NA"
         print "ALERT: clock_after unspecified!"
         
-    if empty_count > 1:
+    if empty_count > 2:
         print ("not enough point-level data ... aborting")
         break
 
