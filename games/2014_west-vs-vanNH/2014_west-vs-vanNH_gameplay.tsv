@@ -5663,3 +5663,589 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-06-15_pdxST-at-vanNH	4	41	vanNH	75	1	2	pdxST	pdxST	73	PU
 2014-06-15_pdxST-at-vanNH	4	41	vanNH	75	1	3	pdxST	pdxST	24	
 2014-06-15_pdxST-at-vanNH	4	41	vanNH	75	1	4	pdxST	pdxST	73	
+2014-04-12_seaRM-at-sfoDF	1	1	sfoDF	1	1	1	seaRM	sfoDF	16	OBP
+2014-04-12_seaRM-at-sfoDF	1	1	sfoDF	1	1	2	seaRM	seaRM	20	PU
+2014-04-12_seaRM-at-sfoDF	1	1	sfoDF	1	1	3	seaRM	seaRM	9	
+2014-04-12_seaRM-at-sfoDF	1	1	sfoDF	1	1	4	seaRM	seaRM	20	A
+2014-04-12_seaRM-at-sfoDF	1	1	sfoDF	1	1	5	seaRM	seaRM	48	LG
+2014-04-12_seaRM-at-sfoDF	1	2	seaRM	2	1	1	sfoDF	seaRM	35	P
+2014-04-12_seaRM-at-sfoDF	1	2	seaRM	2	1	2	sfoDF	sfoDF	11	PU
+2014-04-12_seaRM-at-sfoDF	1	2	seaRM	2	1	3	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	1	2	seaRM	2	1	4	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	1	2	seaRM	2	1	5	sfoDF	sfoDF	11	
+2014-04-12_seaRM-at-sfoDF	1	2	seaRM	2	1	6	sfoDF	sfoDF	23	
+2014-04-12_seaRM-at-sfoDF	1	2	seaRM	2	1	7	sfoDF	sfoDF	11	
+2014-04-12_seaRM-at-sfoDF	1	2	seaRM	3	2	8	seaRM	seaRM	29	PUA
+2014-04-12_seaRM-at-sfoDF	1	2	seaRM	3	2	9	seaRM	seaRM	9	G
+2014-04-12_seaRM-at-sfoDF	1	3	seaRM	4	1	1	sfoDF	seaRM	35	P
+2014-04-12_seaRM-at-sfoDF	1	3	seaRM	4	1	2	sfoDF	sfoDF	11	PU
+2014-04-12_seaRM-at-sfoDF	1	3	seaRM	4	1	3	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	1	3	seaRM	4	1	4	sfoDF	sfoDF	34	A
+2014-04-12_seaRM-at-sfoDF	1	3	seaRM	4	1	5	sfoDF	sfoDF	40	G
+2014-04-12_seaRM-at-sfoDF	1	4	sfoDF	5	1	1	seaRM	sfoDF	16	P
+2014-04-12_seaRM-at-sfoDF	1	4	sfoDF	5	1	2	seaRM	seaRM	1	PU
+2014-04-12_seaRM-at-sfoDF	1	4	sfoDF	5	1	3	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	1	4	sfoDF	5	1	4	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	1	4	sfoDF	5	1	5	seaRM	seaRM	51	
+2014-04-12_seaRM-at-sfoDF	1	4	sfoDF	5	1	6	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	1	4	sfoDF	5	1	7	seaRM	seaRM	6	
+2014-04-12_seaRM-at-sfoDF	1	4	sfoDF	6	2	8	sfoDF	sfoDF	25	PU
+2014-04-12_seaRM-at-sfoDF	1	4	sfoDF	6	2	9	sfoDF	sfoDF	9	
+2014-04-12_seaRM-at-sfoDF	1	4	sfoDF	6	2	10	sfoDF	sfoDF	16	
+2014-04-12_seaRM-at-sfoDF	1	4	sfoDF	6	2	11	sfoDF	sfoDF	21	
+2014-04-12_seaRM-at-sfoDF	1	4	sfoDF	6	2	12	sfoDF	sfoDF	16	
+2014-04-12_seaRM-at-sfoDF	1	4	sfoDF	6	2	13	sfoDF	sfoDF	9	
+2014-04-12_seaRM-at-sfoDF	1	4	sfoDF	6	2	14	sfoDF	sfoDF	83	
+2014-04-12_seaRM-at-sfoDF	1	4	sfoDF	6	2	15	sfoDF	sfoDF	25	TD
+2014-04-12_seaRM-at-sfoDF	1	4	sfoDF	7	3	16	seaRM	seaRM	3	PU
+2014-04-12_seaRM-at-sfoDF	1	4	sfoDF	7	3	17	seaRM	seaRM	18	A
+2014-04-12_seaRM-at-sfoDF	1	4	sfoDF	7	3	18	seaRM	seaRM	6	G
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	8	1	1	sfoDF	seaRM	35	P
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	8	1	2	sfoDF	sfoDF	57	PU
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	8	1	3	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	8	1	4	sfoDF	sfoDF	13	
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	8	1	5	sfoDF	sfoDF	40	
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	8	1	6	sfoDF	sfoDF	13	
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	8	1	7	sfoDF	sfoDF	57	
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	8	1	8	sfoDF	seaRM	28	D
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	9	2	9	seaRM	seaRM	9	PU
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	9	2	10	seaRM	seaRM	35	
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	9	2	11	seaRM	seaRM	21	
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	9	2	12	seaRM	seaRM	35	
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	9	2	13	seaRM	seaRM	29	
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	9	2	14	seaRM	sfoDF	34	D
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	10	3	15	sfoDF	sfoDF	23	PU
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	10	3	16	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	10	3	17	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	10	3	18	sfoDF	sfoDF	13	
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	10	3	19	sfoDF	sfoDF	40	
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	10	3	20	sfoDF	sfoDF	23	
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	10	3	21	sfoDF	sfoDF	40	
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	10	3	22	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	10	3	23	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	10	3	24	sfoDF	sfoDF	23	
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	10	3	25	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	10	3	26	sfoDF	sfoDF	23	A
+2014-04-12_seaRM-at-sfoDF	1	5	seaRM	10	3	27	sfoDF	sfoDF	34	G
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	11	1	1	seaRM	sfoDF	12	P
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	11	1	2	seaRM	seaRM	1	PU
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	11	1	3	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	11	1	4	seaRM	seaRM	48	TD
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	12	2	5	sfoDF	sfoDF	12	PU
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	12	2	6	sfoDF	sfoDF	46	
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	12	2	7	sfoDF	sfoDF	12	
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	12	2	8	sfoDF	sfoDF	85	
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	12	2	9	sfoDF	sfoDF	18	
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	12	2	10	sfoDF	sfoDF	12	
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	12	2	11	sfoDF	sfoDF	18	
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	12	2	12	sfoDF	seaRM	3	D
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	13	3	13	seaRM	seaRM	9	PU
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	13	3	14	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	13	3	15	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	13	3	16	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	13	3	17	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	13	3	18	seaRM	seaRM	20	TD
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	14	4	19	sfoDF	sfoDF	17	PU
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	14	4	20	sfoDF	sfoDF	12	
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	14	4	21	sfoDF	sfoDF	37	
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	14	4	22	sfoDF	sfoDF	12	A
+2014-04-12_seaRM-at-sfoDF	1	6	sfoDF	14	4	23	sfoDF	sfoDF	18	G
+2014-04-12_seaRM-at-sfoDF	1	7	sfoDF	15	1	1	seaRM	sfoDF	16	P
+2014-04-12_seaRM-at-sfoDF	1	7	sfoDF	15	1	2	seaRM	seaRM	1	PU
+2014-04-12_seaRM-at-sfoDF	1	7	sfoDF	15	1	3	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	1	7	sfoDF	15	1	4	seaRM	seaRM	9	
+2014-04-12_seaRM-at-sfoDF	1	7	sfoDF	15	1	5	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	1	7	sfoDF	15	1	6	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	1	7	sfoDF	15	1	7	seaRM	seaRM	9	A
+2014-04-12_seaRM-at-sfoDF	1	7	sfoDF	15	1	8	seaRM	seaRM	1	G
+2014-04-12_seaRM-at-sfoDF	1	8	seaRM	16	1	1	sfoDF	seaRM	35	P
+2014-04-12_seaRM-at-sfoDF	1	8	seaRM	16	1	2	sfoDF	sfoDF	11	PU
+2014-04-12_seaRM-at-sfoDF	1	8	seaRM	16	1	3	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	1	8	seaRM	16	1	4	sfoDF	sfoDF	11	
+2014-04-12_seaRM-at-sfoDF	1	8	seaRM	16	1	5	sfoDF	sfoDF	40	
+2014-04-12_seaRM-at-sfoDF	1	8	seaRM	16	1	6	sfoDF	sfoDF	24	
+2014-04-12_seaRM-at-sfoDF	1	8	seaRM	16	1	7	sfoDF	sfoDF	23	
+2014-04-12_seaRM-at-sfoDF	1	8	seaRM	16	1	8	sfoDF	sfoDF	13	A
+2014-04-12_seaRM-at-sfoDF	1	8	seaRM	16	1	9	sfoDF	sfoDF	34	G
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	17	1	1	seaRM	sfoDF	12	P
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	17	1	2	seaRM	seaRM	3	PU
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	17	1	3	seaRM	seaRM	17	
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	17	1	4	seaRM	sfoDF	46	D
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	18	2	5	sfoDF	sfoDF	12	PU
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	18	2	6	sfoDF	sfoDF	37	
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	18	2	7	sfoDF	sfoDF	17	
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	18	2	8	sfoDF	sfoDF	18	
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	18	2	9	sfoDF	sfoDF	46	
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	18	2	10	sfoDF	sfoDF	17	
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	18	2	11	sfoDF	sfoDF	18	
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	18	2	12	sfoDF	seaRM	3	F
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	18	2	13	sfoDF	sfoDF	46	
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	18	2	14	sfoDF	sfoDF	17	TD
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	19	3	15	seaRM	seaRM	3	PU
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	19	3	16	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	19	3	17	seaRM	seaRM	1	
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	19	3	18	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	19	3	19	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	20	4	20	sfoDF	sfoDF	12	PU
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	21	5	21	seaRM	seaRM	3	PU
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	21	5	22	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	21	5	23	seaRM	seaRM	51	
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	21	5	24	seaRM	seaRM	18	
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	21	5	25	seaRM	seaRM	17	
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	21	5	26	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	21	5	27	seaRM	seaRM	17	
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	21	5	28	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	21	5	29	seaRM	seaRM	6	A
+2014-04-12_seaRM-at-sfoDF	1	9	sfoDF	21	5	30	seaRM	seaRM	48	G
+2014-04-12_seaRM-at-sfoDF	1	10	seaRM	22	1	1	sfoDF	seaRM	?	P
+2014-04-12_seaRM-at-sfoDF	1	10	seaRM	22	1	2	sfoDF	sfoDF	88	PU
+2014-04-12_seaRM-at-sfoDF	1	10	seaRM	22	1	3	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	1	10	seaRM	22	1	4	sfoDF	sfoDF	88	
+2014-04-12_seaRM-at-sfoDF	1	10	seaRM	22	1	5	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	1	10	seaRM	22	1	6	sfoDF	seaRM	21	HB
+2014-04-12_seaRM-at-sfoDF	1	10	seaRM	23	2	7	seaRM	seaRM	21	TO
+2014-04-12_seaRM-at-sfoDF	1	10	seaRM	23	2	8	seaRM	seaRM	3	PUA
+2014-04-12_seaRM-at-sfoDF	1	10	seaRM	23	2	9	seaRM	seaRM	9	G
+2014-04-12_seaRM-at-sfoDF	1	11	seaRM	24	1	1	sfoDF	seaRM	?	P
+2014-04-12_seaRM-at-sfoDF	1	11	seaRM	24	1	2	sfoDF	sfoDF	5	PU
+2014-04-12_seaRM-at-sfoDF	1	11	seaRM	24	1	3	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	1	11	seaRM	24	1	4	sfoDF	sfoDF	24	
+2014-04-12_seaRM-at-sfoDF	1	11	seaRM	24	1	5	sfoDF	sfoDF	11	
+2014-04-12_seaRM-at-sfoDF	1	11	seaRM	24	1	6	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	2	12	sfoDF	25	1	1	seaRM	sfoDF	46	P
+2014-04-12_seaRM-at-sfoDF	2	12	sfoDF	25	1	2	seaRM	seaRM	35	PU
+2014-04-12_seaRM-at-sfoDF	2	12	sfoDF	25	1	3	seaRM	seaRM	3	TD
+2014-04-12_seaRM-at-sfoDF	2	12	sfoDF	26	2	4	sfoDF	sfoDF	17	PU
+2014-04-12_seaRM-at-sfoDF	2	12	sfoDF	26	2	5	sfoDF	sfoDF	37	
+2014-04-12_seaRM-at-sfoDF	2	12	sfoDF	26	2	6	sfoDF	sfoDF	17	A
+2014-04-12_seaRM-at-sfoDF	2	12	sfoDF	26	2	7	sfoDF	sfoDF	12	G
+2014-04-12_seaRM-at-sfoDF	2	13	sfoDF	27	1	1	seaRM	sfoDF	16	P
+2014-04-12_seaRM-at-sfoDF	2	13	sfoDF	27	1	2	seaRM	seaRM	3	PU
+2014-04-12_seaRM-at-sfoDF	2	13	sfoDF	27	1	3	seaRM	seaRM	17	
+2014-04-12_seaRM-at-sfoDF	2	13	sfoDF	27	1	4	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	2	13	sfoDF	27	1	5	seaRM	seaRM	17	
+2014-04-12_seaRM-at-sfoDF	2	13	sfoDF	27	1	6	seaRM	seaRM	35	
+2014-04-12_seaRM-at-sfoDF	2	13	sfoDF	27	1	7	seaRM	seaRM	9	
+2014-04-12_seaRM-at-sfoDF	2	13	sfoDF	27	1	8	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	2	13	sfoDF	27	1	9	seaRM	seaRM	9	
+2014-04-12_seaRM-at-sfoDF	2	13	sfoDF	27	1	10	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	2	13	sfoDF	27	1	11	seaRM	seaRM	9	
+2014-04-12_seaRM-at-sfoDF	2	13	sfoDF	27	1	12	seaRM	seaRM	17	
+2014-04-12_seaRM-at-sfoDF	2	13	sfoDF	27	1	13	seaRM	seaRM	48	
+2014-04-12_seaRM-at-sfoDF	2	13	sfoDF	27	1	14	seaRM	seaRM	6	TD
+2014-04-12_seaRM-at-sfoDF	2	13	sfoDF	28	2	15	sfoDF	sfoDF	83	PU
+2014-04-12_seaRM-at-sfoDF	2	13	sfoDF	28	2	16	sfoDF	sfoDF	7	
+2014-04-12_seaRM-at-sfoDF	2	13	sfoDF	29	3	17	seaRM	seaRM	3	PU
+2014-04-12_seaRM-at-sfoDF	2	13	sfoDF	29	3	18	seaRM	seaRM	6	A
+2014-04-12_seaRM-at-sfoDF	2	13	sfoDF	29	3	19	seaRM	seaRM	48	G
+2014-04-12_seaRM-at-sfoDF	2	14	seaRM	30	1	1	sfoDF	seaRM	?	P
+2014-04-12_seaRM-at-sfoDF	2	14	seaRM	30	1	2	sfoDF	sfoDF	57	PU
+2014-04-12_seaRM-at-sfoDF	2	14	seaRM	30	1	3	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	2	14	seaRM	30	1	4	sfoDF	sfoDF	8	
+2014-04-12_seaRM-at-sfoDF	2	14	seaRM	30	1	5	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	2	14	seaRM	30	1	6	sfoDF	sfoDF	8	
+2014-04-12_seaRM-at-sfoDF	2	14	seaRM	30	1	7	sfoDF	sfoDF	40	A
+2014-04-12_seaRM-at-sfoDF	2	14	seaRM	30	1	8	sfoDF	sfoDF	8	G
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	31	1	1	seaRM	sfoDF	?	P
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	31	1	2	seaRM	seaRM	1	PU
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	31	1	3	seaRM	seaRM	17	
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	31	1	4	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	31	1	5	seaRM	seaRM	17	
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	31	1	6	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	31	1	7	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	31	1	8	seaRM	seaRM	51	TD
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	32	2	9	sfoDF	sfoDF	83	PU
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	32	2	10	sfoDF	sfoDF	21	TO
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	32	2	11	sfoDF	sfoDF	5	PU
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	32	2	12	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	32	2	13	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	32	2	14	sfoDF	sfoDF	11	
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	32	2	15	sfoDF	seaRM	48	D
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	33	3	16	seaRM	seaRM	35	PU
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	33	3	17	seaRM	seaRM	28	
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	33	3	18	seaRM	seaRM	35	
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	33	3	19	seaRM	seaRM	29	
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	33	3	20	seaRM	seaRM	13	
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	33	3	21	seaRM	seaRM	35	
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	33	3	22	seaRM	sfoDF	40	F
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	33	3	23	seaRM	seaRM	9	
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	34	4	24	sfoDF	sfoDF	23	PU
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	34	4	25	sfoDF	sfoDF	24	L
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	34	4	26	sfoDF	sfoDF	34	A
+2014-04-12_seaRM-at-sfoDF	2	15	sfoDF	34	4	27	sfoDF	sfoDF	88	G
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	35	1	1	seaRM	sfoDF	?	P
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	35	1	2	seaRM	seaRM	20	PU
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	35	1	3	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	35	1	4	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	35	1	5	seaRM	seaRM	17	
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	35	1	6	seaRM	seaRM	48	
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	35	1	7	seaRM	seaRM	17	VST
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	36	2	8	sfoDF	sfoDF	12	PU
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	36	2	9	sfoDF	sfoDF	46	
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	37	3	10	seaRM	seaRM	3	PU
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	37	3	11	seaRM	seaRM	17	
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	37	3	12	seaRM	seaRM	18	
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	37	3	13	seaRM	seaRM	1	
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	37	3	14	seaRM	seaRM	18	
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	37	3	15	seaRM	seaRM	1	
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	37	3	16	seaRM	seaRM	17	
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	37	3	17	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	37	3	18	seaRM	seaRM	1	
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	37	3	19	seaRM	seaRM	17	
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	38	4	20	sfoDF	sfoDF	12	PU
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	38	4	21	sfoDF	sfoDF	18	A
+2014-04-12_seaRM-at-sfoDF	2	16	sfoDF	38	4	22	sfoDF	sfoDF	85	G
+2014-04-12_seaRM-at-sfoDF	2	17	sfoDF	39	1	1	seaRM	sfoDF	16	P
+2014-04-12_seaRM-at-sfoDF	2	17	sfoDF	39	1	2	seaRM	seaRM	20	PU
+2014-04-12_seaRM-at-sfoDF	2	17	sfoDF	39	1	3	seaRM	seaRM	17	TD
+2014-04-12_seaRM-at-sfoDF	2	17	sfoDF	40	2	4	sfoDF	sfoDF	83	PU
+2014-04-12_seaRM-at-sfoDF	2	17	sfoDF	40	2	5	sfoDF	sfoDF	16	
+2014-04-12_seaRM-at-sfoDF	2	17	sfoDF	40	2	6	sfoDF	sfoDF	83	TD
+2014-04-12_seaRM-at-sfoDF	2	17	sfoDF	41	3	7	seaRM	seaRM	35	PU
+2014-04-12_seaRM-at-sfoDF	2	17	sfoDF	41	3	8	seaRM	seaRM	9	
+2014-04-12_seaRM-at-sfoDF	2	17	sfoDF	41	3	9	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	2	17	sfoDF	41	3	10	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	2	17	sfoDF	41	3	11	seaRM	seaRM	6	A
+2014-04-12_seaRM-at-sfoDF	2	17	sfoDF	41	3	12	seaRM	seaRM	9	LG
+2014-04-12_seaRM-at-sfoDF	2	18	seaRM	42	1	1	sfoDF	seaRM	35	P
+2014-04-12_seaRM-at-sfoDF	2	18	seaRM	42	1	2	sfoDF	sfoDF	11	PU
+2014-04-12_seaRM-at-sfoDF	2	18	seaRM	43	2	3	seaRM	seaRM	35	PU
+2014-04-12_seaRM-at-sfoDF	2	18	seaRM	44	3	4	sfoDF	sfoDF	23	PU
+2014-04-12_seaRM-at-sfoDF	2	18	seaRM	44	3	5	sfoDF	sfoDF	24	
+2014-04-12_seaRM-at-sfoDF	2	18	seaRM	44	3	6	sfoDF	sfoDF	23	
+2014-04-12_seaRM-at-sfoDF	2	18	seaRM	44	3	7	sfoDF	seaRM	35	D
+2014-04-12_seaRM-at-sfoDF	2	18	seaRM	45	4	8	seaRM	seaRM	35	
+2014-04-12_seaRM-at-sfoDF	2	18	seaRM	45	4	9	seaRM	seaRM	13	TD
+2014-04-12_seaRM-at-sfoDF	2	18	seaRM	46	5	10	sfoDF	sfoDF	34	PU
+2014-04-12_seaRM-at-sfoDF	2	18	seaRM	46	5	11	sfoDF	sfoDF	24	
+2014-04-12_seaRM-at-sfoDF	2	18	seaRM	46	5	12	sfoDF	sfoDF	40	A
+2014-04-12_seaRM-at-sfoDF	2	18	seaRM	46	5	13	sfoDF	sfoDF	24	G
+2014-04-12_seaRM-at-sfoDF	2	19	sfoDF	47	1	1	seaRM	sfoDF	12	P
+2014-04-12_seaRM-at-sfoDF	2	19	sfoDF	47	1	2	seaRM	seaRM	1	PU
+2014-04-12_seaRM-at-sfoDF	2	19	sfoDF	47	1	3	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	2	19	sfoDF	47	1	4	seaRM	seaRM	6	A
+2014-04-12_seaRM-at-sfoDF	2	19	sfoDF	47	1	5	seaRM	seaRM	17	G
+2014-04-12_seaRM-at-sfoDF	2	20	seaRM	48	1	1	sfoDF	seaRM	29	P
+2014-04-12_seaRM-at-sfoDF	2	20	seaRM	48	1	2	sfoDF	sfoDF	57	PU
+2014-04-12_seaRM-at-sfoDF	2	20	seaRM	48	1	3	sfoDF	sfoDF	8	
+2014-04-12_seaRM-at-sfoDF	2	20	seaRM	48	1	4	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	2	20	seaRM	49	2	5	seaRM	seaRM	9	PU
+2014-04-12_seaRM-at-sfoDF	2	20	seaRM	49	2	6	seaRM	seaRM	28	TD
+2014-04-12_seaRM-at-sfoDF	2	20	seaRM	50	3	7	sfoDF	sfoDF	34	PU
+2014-04-12_seaRM-at-sfoDF	2	20	seaRM	50	3	8	sfoDF	sfoDF	13	
+2014-04-12_seaRM-at-sfoDF	2	20	seaRM	50	3	9	sfoDF	sfoDF	40	
+2014-04-12_seaRM-at-sfoDF	2	20	seaRM	50	3	10	sfoDF	sfoDF	13	
+2014-04-12_seaRM-at-sfoDF	2	20	seaRM	50	3	11	sfoDF	sfoDF	34	A
+2014-04-12_seaRM-at-sfoDF	2	20	seaRM	50	3	12	sfoDF	sfoDF	8	G
+2014-04-12_seaRM-at-sfoDF	2	21	sfoDF	51	1	1	seaRM	sfoDF	16	P
+2014-04-12_seaRM-at-sfoDF	2	21	sfoDF	51	1	2	seaRM	seaRM	17	PU
+2014-04-12_seaRM-at-sfoDF	2	21	sfoDF	51	1	3	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	2	21	sfoDF	51	1	4	seaRM	seaRM	6	
+2014-04-12_seaRM-at-sfoDF	2	21	sfoDF	51	1	5	seaRM	seaRM	18	
+2014-04-12_seaRM-at-sfoDF	2	21	sfoDF	52	2	6	sfoDF	sfoDF	21	TO
+2014-04-12_seaRM-at-sfoDF	2	21	sfoDF	52	2	7	sfoDF	sfoDF	5	PU
+2014-04-12_seaRM-at-sfoDF	2	21	sfoDF	52	2	8	sfoDF	sfoDF	40	TD
+2014-04-12_seaRM-at-sfoDF	2	21	sfoDF	53	3	9	seaRM	seaRM	35	PUA
+2014-04-12_seaRM-at-sfoDF	2	21	sfoDF	53	3	10	seaRM	seaRM	9	G
+2014-04-12_seaRM-at-sfoDF	2	22	seaRM	54	1	1	sfoDF	seaRM	35	P
+2014-04-12_seaRM-at-sfoDF	2	22	seaRM	54	1	2	sfoDF	sfoDF	11	PU
+2014-04-12_seaRM-at-sfoDF	2	22	seaRM	54	1	3	sfoDF	sfoDF	88	
+2014-04-12_seaRM-at-sfoDF	2	22	seaRM	54	1	4	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	2	22	seaRM	54	1	5	sfoDF	sfoDF	11	
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	55	1	1	seaRM	sfoDF	46	P
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	55	1	2	seaRM	seaRM	3	PU
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	55	1	3	seaRM	sfoDF	12	F
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	55	1	4	seaRM	seaRM	17	
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	55	1	5	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	55	1	6	seaRM	sfoDF	12	F
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	55	1	7	seaRM	sfoDF	37	D
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	56	2	8	sfoDF	sfoDF	85	PU
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	56	2	9	sfoDF	sfoDF	17	
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	56	2	10	sfoDF	sfoDF	85	
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	56	2	11	sfoDF	sfoDF	10	
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	56	2	12	sfoDF	sfoDF	85	
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	57	3	13	seaRM	seaRM	35	PU
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	57	3	14	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	57	3	15	seaRM	seaRM	6	
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	57	3	16	seaRM	sfoDF	85	D
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	58	4	17	sfoDF	sfoDF	17	PU
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	58	4	18	sfoDF	sfoDF	85	
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	58	4	19	sfoDF	sfoDF	37	A
+2014-04-12_seaRM-at-sfoDF	3	23	sfoDF	58	4	20	sfoDF	sfoDF	10	G
+2014-04-12_seaRM-at-sfoDF	3	24	sfoDF	59	1	1	seaRM	sfoDF	16	P
+2014-04-12_seaRM-at-sfoDF	3	24	sfoDF	59	1	2	seaRM	seaRM	17	PU
+2014-04-12_seaRM-at-sfoDF	3	24	sfoDF	59	1	3	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	3	24	sfoDF	59	1	4	seaRM	seaRM	17	
+2014-04-12_seaRM-at-sfoDF	3	24	sfoDF	59	1	5	seaRM	seaRM	1	
+2014-04-12_seaRM-at-sfoDF	3	24	sfoDF	59	1	6	seaRM	seaRM	48	
+2014-04-12_seaRM-at-sfoDF	3	24	sfoDF	59	1	7	seaRM	seaRM	1	A
+2014-04-12_seaRM-at-sfoDF	3	24	sfoDF	59	1	8	seaRM	seaRM	48	G
+2014-04-12_seaRM-at-sfoDF	3	25	seaRM	60	1	1	sfoDF	seaRM	35	P
+2014-04-12_seaRM-at-sfoDF	3	25	seaRM	60	1	2	sfoDF	sfoDF	11	PU
+2014-04-12_seaRM-at-sfoDF	3	25	seaRM	60	1	3	sfoDF	sfoDF	13	
+2014-04-12_seaRM-at-sfoDF	3	25	seaRM	61	2	4	seaRM	seaRM	29	PU
+2014-04-12_seaRM-at-sfoDF	3	25	seaRM	61	2	5	seaRM	seaRM	35	
+2014-04-12_seaRM-at-sfoDF	3	25	seaRM	61	2	6	seaRM	seaRM	9	
+2014-04-12_seaRM-at-sfoDF	3	25	seaRM	61	2	7	seaRM	seaRM	35	
+2014-04-12_seaRM-at-sfoDF	3	25	seaRM	61	2	8	seaRM	seaRM	24	
+2014-04-12_seaRM-at-sfoDF	3	25	seaRM	61	2	9	seaRM	seaRM	21	A
+2014-04-12_seaRM-at-sfoDF	3	25	seaRM	61	2	10	seaRM	seaRM	29	G
+2014-04-12_seaRM-at-sfoDF	3	26	seaRM	62	1	1	sfoDF	seaRM	35	P
+2014-04-12_seaRM-at-sfoDF	3	26	seaRM	62	1	2	sfoDF	sfoDF	5	PU
+2014-04-12_seaRM-at-sfoDF	3	26	seaRM	62	1	3	sfoDF	sfoDF	8	
+2014-04-12_seaRM-at-sfoDF	3	26	seaRM	62	1	4	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	3	26	seaRM	62	1	5	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	3	26	seaRM	62	1	6	sfoDF	sfoDF	8	
+2014-04-12_seaRM-at-sfoDF	3	26	seaRM	62	1	7	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	3	26	seaRM	62	1	8	sfoDF	sfoDF	8	
+2014-04-12_seaRM-at-sfoDF	3	26	seaRM	62	1	9	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	3	26	seaRM	62	1	10	sfoDF	sfoDF	8	
+2014-04-12_seaRM-at-sfoDF	3	26	seaRM	62	1	11	sfoDF	sfoDF	40	
+2014-04-12_seaRM-at-sfoDF	3	26	seaRM	63	2	12	seaRM	seaRM	35	PUA
+2014-04-12_seaRM-at-sfoDF	3	26	seaRM	63	2	13	seaRM	seaRM	48	LG
+2014-04-12_seaRM-at-sfoDF	3	27	seaRM	64	1	1	sfoDF	seaRM	35	P
+2014-04-12_seaRM-at-sfoDF	3	27	seaRM	64	1	2	sfoDF	sfoDF	25	PU
+2014-04-12_seaRM-at-sfoDF	3	27	seaRM	64	1	3	sfoDF	sfoDF	83	
+2014-04-12_seaRM-at-sfoDF	3	27	seaRM	64	1	4	sfoDF	sfoDF	25	
+2014-04-12_seaRM-at-sfoDF	3	27	seaRM	64	1	5	sfoDF	sfoDF	7	TD
+2014-04-12_seaRM-at-sfoDF	3	27	seaRM	65	2	6	seaRM	seaRM	3	PU
+2014-04-12_seaRM-at-sfoDF	3	27	seaRM	65	2	7	seaRM	seaRM	9	
+2014-04-12_seaRM-at-sfoDF	3	27	seaRM	65	2	8	seaRM	seaRM	35	
+2014-04-12_seaRM-at-sfoDF	3	27	seaRM	65	2	9	seaRM	seaRM	29	A
+2014-04-12_seaRM-at-sfoDF	3	27	seaRM	65	2	10	seaRM	seaRM	35	G
+2014-04-12_seaRM-at-sfoDF	3	28	seaRM	66	1	1	sfoDF	seaRM	?	P
+2014-04-12_seaRM-at-sfoDF	3	28	seaRM	66	1	2	sfoDF	sfoDF	11	PU
+2014-04-12_seaRM-at-sfoDF	3	28	seaRM	66	1	3	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	3	28	seaRM	66	1	4	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	3	28	seaRM	66	1	5	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	3	28	seaRM	66	1	6	sfoDF	sfoDF	88	
+2014-04-12_seaRM-at-sfoDF	3	28	seaRM	66	1	7	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	3	28	seaRM	66	1	8	sfoDF	sfoDF	11	A
+2014-04-12_seaRM-at-sfoDF	3	28	seaRM	66	1	9	sfoDF	sfoDF	5	G
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	67	1	1	seaRM	sfoDF	46	P
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	67	1	2	seaRM	seaRM	3	PU
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	67	1	3	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	67	1	4	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	67	1	5	seaRM	seaRM	1	
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	67	1	6	seaRM	seaRM	17	
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	67	1	7	seaRM	seaRM	3	TD
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	68	2	8	sfoDF	sfoDF	17	PU
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	68	2	9	sfoDF	seaRM	15	D
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	69	3	10	seaRM	seaRM	20	PU
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	69	3	11	seaRM	seaRM	6	
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	69	3	12	seaRM	seaRM	1	
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	69	3	13	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	69	3	14	seaRM	seaRM	51	
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	69	3	15	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	69	3	16	seaRM	seaRM	1	
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	69	3	17	seaRM	seaRM	17	
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	69	3	18	seaRM	seaRM	15	TD
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	70	4	19	sfoDF	sfoDF	17	PU
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	71	5	20	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	71	5	21	seaRM	seaRM	51	TD
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	72	6	22	sfoDF	sfoDF	12	PU
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	72	6	23	sfoDF	sfoDF	37	
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	72	6	24	sfoDF	sfoDF	46	
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	72	6	25	sfoDF	sfoDF	17	
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	72	6	26	sfoDF	sfoDF	18	
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	72	6	27	sfoDF	sfoDF	46	
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	72	6	28	sfoDF	sfoDF	12	A
+2014-04-12_seaRM-at-sfoDF	3	29	sfoDF	72	6	29	sfoDF	sfoDF	37	G
+2014-04-12_seaRM-at-sfoDF	3	30	sfoDF	73	1	1	seaRM	sfoDF	16	P
+2014-04-12_seaRM-at-sfoDF	3	30	sfoDF	73	1	2	seaRM	seaRM	20	PU
+2014-04-12_seaRM-at-sfoDF	3	30	sfoDF	73	1	3	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	3	30	sfoDF	73	1	4	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	3	30	sfoDF	73	1	5	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	3	30	sfoDF	73	1	6	seaRM	seaRM	9	
+2014-04-12_seaRM-at-sfoDF	3	30	sfoDF	73	1	7	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	3	30	sfoDF	73	1	8	seaRM	seaRM	17	
+2014-04-12_seaRM-at-sfoDF	3	30	sfoDF	73	1	9	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	3	30	sfoDF	73	1	10	seaRM	seaRM	6	
+2014-04-12_seaRM-at-sfoDF	3	30	sfoDF	73	1	11	seaRM	seaRM	9	
+2014-04-12_seaRM-at-sfoDF	3	30	sfoDF	73	1	12	seaRM	seaRM	6	
+2014-04-12_seaRM-at-sfoDF	3	30	sfoDF	73	1	13	seaRM	seaRM	9	A
+2014-04-12_seaRM-at-sfoDF	3	30	sfoDF	73	1	14	seaRM	seaRM	48	G
+2014-04-12_seaRM-at-sfoDF	3	31	seaRM	74	1	1	sfoDF	seaRM	35	P
+2014-04-12_seaRM-at-sfoDF	3	31	seaRM	74	1	2	sfoDF	sfoDF	88	PU
+2014-04-12_seaRM-at-sfoDF	3	31	seaRM	74	1	3	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	3	31	seaRM	74	1	4	sfoDF	sfoDF	88	
+2014-04-12_seaRM-at-sfoDF	3	31	seaRM	74	1	5	sfoDF	seaRM	35	D
+2014-04-12_seaRM-at-sfoDF	3	31	seaRM	75	2	6	seaRM	seaRM	35	TO
+2014-04-12_seaRM-at-sfoDF	3	31	seaRM	75	2	7	seaRM	seaRM	3	PU
+2014-04-12_seaRM-at-sfoDF	3	31	seaRM	75	2	8	seaRM	seaRM	18	
+2014-04-12_seaRM-at-sfoDF	3	31	seaRM	75	2	9	seaRM	seaRM	20	TD
+2014-04-12_seaRM-at-sfoDF	3	31	seaRM	76	3	10	sfoDF	sfoDF	17	PU
+2014-04-12_seaRM-at-sfoDF	3	31	seaRM	76	3	11	sfoDF	sfoDF	12	
+2014-04-12_seaRM-at-sfoDF	3	31	seaRM	76	3	12	sfoDF	sfoDF	46	TO
+2014-04-12_seaRM-at-sfoDF	3	31	seaRM	76	3	13	sfoDF	sfoDF	23	PU
+2014-04-12_seaRM-at-sfoDF	3	31	seaRM	76	3	14	sfoDF	sfoDF	40	
+2014-04-12_seaRM-at-sfoDF	3	31	seaRM	76	3	15	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	3	31	seaRM	76	3	16	sfoDF	sfoDF	23	
+2014-04-12_seaRM-at-sfoDF	3	31	seaRM	76	3	17	sfoDF	sfoDF	40	
+2014-04-12_seaRM-at-sfoDF	3	31	seaRM	76	3	18	sfoDF	sfoDF	11	A
+2014-04-12_seaRM-at-sfoDF	3	31	seaRM	76	3	19	sfoDF	sfoDF	5	G
+2014-04-12_seaRM-at-sfoDF	3	32	sfoDF	77	1	1	seaRM	sfoDF	12	P
+2014-04-12_seaRM-at-sfoDF	3	32	sfoDF	77	1	2	seaRM	seaRM	3	PU
+2014-04-12_seaRM-at-sfoDF	3	32	sfoDF	77	1	3	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	3	32	sfoDF	77	1	4	seaRM	seaRM	51	
+2014-04-12_seaRM-at-sfoDF	3	32	sfoDF	77	1	5	seaRM	sfoDF	46	D
+2014-04-12_seaRM-at-sfoDF	3	32	sfoDF	78	2	6	sfoDF	sfoDF	12	PU
+2014-04-12_seaRM-at-sfoDF	3	32	sfoDF	78	2	7	sfoDF	sfoDF	18	
+2014-04-12_seaRM-at-sfoDF	3	32	sfoDF	78	2	8	sfoDF	sfoDF	17	
+2014-04-12_seaRM-at-sfoDF	3	32	sfoDF	78	2	9	sfoDF	sfoDF	18	
+2014-04-12_seaRM-at-sfoDF	3	32	sfoDF	78	2	10	sfoDF	sfoDF	12	A
+2014-04-12_seaRM-at-sfoDF	3	32	sfoDF	78	2	11	sfoDF	sfoDF	17	G
+2014-04-12_seaRM-at-sfoDF	3	33	sfoDF	79	1	1	seaRM	sfoDF	25	P
+2014-04-12_seaRM-at-sfoDF	3	33	sfoDF	79	1	2	seaRM	seaRM	20	PU
+2014-04-12_seaRM-at-sfoDF	3	33	sfoDF	79	1	3	seaRM	seaRM	1	
+2014-04-12_seaRM-at-sfoDF	3	33	sfoDF	79	1	4	seaRM	seaRM	6	
+2014-04-12_seaRM-at-sfoDF	3	33	sfoDF	79	1	5	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	3	33	sfoDF	79	1	6	seaRM	seaRM	17	
+2014-04-12_seaRM-at-sfoDF	3	33	sfoDF	79	1	7	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	3	33	sfoDF	79	1	8	seaRM	sfoDF	83	D
+2014-04-12_seaRM-at-sfoDF	3	33	sfoDF	80	2	9	sfoDF	sfoDF	83	
+2014-04-12_seaRM-at-sfoDF	3	33	sfoDF	80	2	10	sfoDF	sfoDF	25	
+2014-04-12_seaRM-at-sfoDF	3	33	sfoDF	80	2	11	sfoDF	sfoDF	16	A
+2014-04-12_seaRM-at-sfoDF	3	33	sfoDF	80	2	12	sfoDF	sfoDF	2	LG
+2014-04-12_seaRM-at-sfoDF	3	34	sfoDF	81	1	1	seaRM	sfoDF	18	P
+2014-04-12_seaRM-at-sfoDF	3	34	sfoDF	81	1	2	seaRM	seaRM	3	PU
+2014-04-12_seaRM-at-sfoDF	3	34	sfoDF	81	1	3	seaRM	seaRM	9	
+2014-04-12_seaRM-at-sfoDF	3	34	sfoDF	81	1	4	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	3	34	sfoDF	81	1	5	seaRM	seaRM	13	
+2014-04-12_seaRM-at-sfoDF	3	34	sfoDF	81	1	6	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	3	34	sfoDF	81	1	7	seaRM	seaRM	35	VTT
+2014-04-12_seaRM-at-sfoDF	3	34	sfoDF	82	2	8	sfoDF	sfoDF	23	PU
+2014-04-12_seaRM-at-sfoDF	3	34	sfoDF	82	2	9	sfoDF	sfoDF	13	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	83	1	1	seaRM	sfoDF	46	P
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	83	1	2	seaRM	seaRM	3	PU
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	83	1	3	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	83	1	4	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	83	1	5	seaRM	seaRM	9	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	83	1	6	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	83	1	7	seaRM	seaRM	6	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	83	1	8	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	83	1	9	seaRM	seaRM	48	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	83	1	10	seaRM	sfoDF	37	F
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	83	1	11	seaRM	seaRM	35	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	83	1	12	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	83	1	13	seaRM	sfoDF	10	D
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	84	2	14	sfoDF	sfoDF	12	PU
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	84	2	15	sfoDF	sfoDF	18	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	84	2	16	sfoDF	sfoDF	12	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	84	2	17	sfoDF	seaRM	20	D
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	85	3	18	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	85	3	19	seaRM	seaRM	48	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	85	3	20	seaRM	seaRM	35	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	86	4	21	sfoDF	sfoDF	17	PU
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	86	4	22	sfoDF	sfoDF	18	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	86	4	23	sfoDF	seaRM	6	D
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	87	5	24	seaRM	seaRM	3	PU
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	87	5	25	seaRM	seaRM	20	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	87	5	26	seaRM	seaRM	9	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	87	5	27	seaRM	seaRM	35	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	87	5	28	seaRM	seaRM	6	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	87	5	29	seaRM	seaRM	35	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	87	5	30	seaRM	seaRM	13	
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	87	5	31	seaRM	seaRM	9	TD
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	88	6	32	sfoDF	sfoDF	12	PU
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	89	7	33	seaRM	seaRM	20	PUA
+2014-04-12_seaRM-at-sfoDF	4	35	sfoDF	89	7	34	seaRM	seaRM	9	G
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	1	sfoDF	seaRM	?	P
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	2	sfoDF	sfoDF	57	PU
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	3	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	4	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	5	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	6	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	7	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	8	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	9	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	10	sfoDF	sfoDF	57	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	11	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	12	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	13	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	14	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	15	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	16	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	17	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	18	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	19	sfoDF	sfoDF	57	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	20	sfoDF	sfoDF	8	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	21	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	22	sfoDF	sfoDF	40	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	23	sfoDF	sfoDF	8	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	24	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	25	sfoDF	sfoDF	13	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	26	sfoDF	sfoDF	8	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	90	1	27	sfoDF	seaRM	3	D
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	91	2	28	seaRM	seaRM	35	PU
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	91	2	29	seaRM	sfoDF	5	HB
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	92	3	30	sfoDF	sfoDF	40	PU
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	92	3	31	sfoDF	seaRM	9	D
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	93	4	32	seaRM	seaRM	9	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	93	4	33	seaRM	seaRM	35	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	93	4	34	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	93	4	35	seaRM	seaRM	17	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	93	4	36	seaRM	seaRM	29	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	93	4	37	seaRM	seaRM	35	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	94	5	38	sfoDF	sfoDF	23	PU
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	94	5	39	sfoDF	sfoDF	40	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	94	5	40	sfoDF	seaRM	17	F
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	94	5	41	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	94	5	42	sfoDF	sfoDF	40	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	94	5	43	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	94	5	44	sfoDF	sfoDF	40	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	94	5	45	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	94	5	46	sfoDF	sfoDF	40	
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	94	5	47	sfoDF	sfoDF	5	TD
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	95	6	48	seaRM	seaRM	17	PU
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	95	6	49	seaRM	seaRM	29	TD
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	96	7	50	sfoDF	sfoDF	23	PUA
+2014-04-12_seaRM-at-sfoDF	4	36	seaRM	96	7	51	sfoDF	sfoDF	13	G
+2014-04-12_seaRM-at-sfoDF	4	37	sfoDF	97	1	1	seaRM	sfoDF	?	P
+2014-04-12_seaRM-at-sfoDF	4	37	sfoDF	97	1	2	seaRM	seaRM	3	PU
+2014-04-12_seaRM-at-sfoDF	4	37	sfoDF	98	2	3	sfoDF	sfoDF	12	PU
+2014-04-12_seaRM-at-sfoDF	4	37	sfoDF	98	2	4	sfoDF	sfoDF	10	TD
+2014-04-12_seaRM-at-sfoDF	4	37	sfoDF	99	3	5	seaRM	seaRM	20	PU
+2014-04-12_seaRM-at-sfoDF	4	37	sfoDF	99	3	6	seaRM	sfoDF	12	F
+2014-04-12_seaRM-at-sfoDF	4	37	sfoDF	99	3	7	seaRM	seaRM	1	
+2014-04-12_seaRM-at-sfoDF	4	37	sfoDF	99	3	8	seaRM	seaRM	6	
+2014-04-12_seaRM-at-sfoDF	4	37	sfoDF	99	3	9	seaRM	seaRM	1	
+2014-04-12_seaRM-at-sfoDF	4	37	sfoDF	99	3	10	seaRM	seaRM	3	
+2014-04-12_seaRM-at-sfoDF	4	37	sfoDF	99	3	11	seaRM	seaRM	6	
+2014-04-12_seaRM-at-sfoDF	4	37	sfoDF	99	3	12	seaRM	sfoDF	18	F
+2014-04-12_seaRM-at-sfoDF	4	37	sfoDF	99	3	13	seaRM	sfoDF	85	D
+2014-04-12_seaRM-at-sfoDF	4	37	sfoDF	100	4	14	sfoDF	sfoDF	46	PU
+2014-04-12_seaRM-at-sfoDF	4	37	sfoDF	100	4	15	sfoDF	sfoDF	17	
+2014-04-12_seaRM-at-sfoDF	4	37	sfoDF	100	4	16	sfoDF	sfoDF	37	A
+2014-04-12_seaRM-at-sfoDF	4	37	sfoDF	100	4	17	sfoDF	sfoDF	12	G
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	101	1	1	seaRM	sfoDF	23	P
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	101	1	2	seaRM	seaRM	20	PU
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	101	1	3	seaRM	seaRM	35	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	101	1	4	seaRM	seaRM	13	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	101	1	5	seaRM	seaRM	21	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	101	1	6	seaRM	sfoDF	2	D
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	7	sfoDF	sfoDF	23	PU
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	8	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	9	sfoDF	sfoDF	2	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	10	sfoDF	sfoDF	21	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	11	sfoDF	sfoDF	9	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	12	sfoDF	sfoDF	16	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	13	sfoDF	sfoDF	40	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	14	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	15	sfoDF	sfoDF	40	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	16	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	17	sfoDF	sfoDF	40	TO
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	18	sfoDF	sfoDF	40	PU
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	19	sfoDF	sfoDF	11	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	20	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	21	sfoDF	sfoDF	11	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	22	sfoDF	sfoDF	88	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	23	sfoDF	sfoDF	34	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	24	sfoDF	sfoDF	40	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	25	sfoDF	sfoDF	11	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	26	sfoDF	sfoDF	88	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	27	sfoDF	sfoDF	40	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	28	sfoDF	sfoDF	5	
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	102	2	29	sfoDF	sfoDF	34	TD
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	103	3	30	seaRM	seaRM	9	PU
+2014-04-12_seaRM-at-sfoDF	4	38	sfoDF	103	3	31	seaRM	seaRM	13	

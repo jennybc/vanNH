@@ -7,7 +7,8 @@ games <- c("2014-04-12_vanNH-at-pdxST", "2014-04-20_sfoDF-at-vanNH",
            "2014-04-26_vanNH-at-seaRM", "2014-05-10_seaRM-at-vanNH",
            "2014-05-17_vanNH-at-sfoDF", "2014-05-24_pdxST-at-vanNH",
            "2014-05-31_vanNH-at-seaRM", "2014-06-07_seaRM-at-vanNH",
-           "2014-06-15_pdxST-at-vanNH")
+           "2014-06-15_pdxST-at-vanNH",
+           "2014-04-12_seaRM-at-sfoDF")
 game_file <- file.path("..", "games", games, "07_resolvedGame",
                        paste0(games, "_gameplay-resolved.tsv"))
 names(game_file) <- games
