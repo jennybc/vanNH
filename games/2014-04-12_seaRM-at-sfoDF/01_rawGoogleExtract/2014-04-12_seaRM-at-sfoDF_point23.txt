@@ -7,7 +7,6 @@ Offense	Defense
 3PU	12f
 17	
 3	12f
-3	
 	37d
 	85pu
 	17
