@@ -122,7 +122,6 @@ point	Offense	Defense
 8	9PU	
 8	24	
 8	7	
-8	7F	
 8		8PU
 8		45
 8		8
@@ -441,7 +440,7 @@ point	Offense	Defense
 30		8L
 30		3
 30		8
-30		?VST
+30		8VST
 30		8F
 30	5PU	
 30	89	
@@ -543,11 +542,12 @@ point	Offense	Defense
 34	24	45F
 34		81SO
 34		27SI
-34	?F	
-34	7F	24PU
+34	24PU	
+34	73F	
+34		24PU
 34		31
-34		8TO
-34	?F	89PU
+34	2F	8TO
+34	81F	89PU
 34		98
 34		89
 34		98G

@@ -7,7 +7,6 @@ Offense	Defense
 9PU	
 24	
 7	
-7F	
 	8PU
 	45
 	8

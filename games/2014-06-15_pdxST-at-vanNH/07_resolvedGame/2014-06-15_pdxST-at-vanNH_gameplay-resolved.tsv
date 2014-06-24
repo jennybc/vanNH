@@ -123,11 +123,10 @@ period	point	event	pl_team	pl_pnum	pl_code	poss_team
 1	8	2	pdxST	9	PU	pdxST
 1	8	3	pdxST	24		pdxST
 1	8	4	pdxST	7		pdxST
-1	8	5	pdxST	7	F	pdxST
-1	8	6	vanNH	8	PU	vanNH
-1	8	7	vanNH	45		vanNH
-1	8	8	vanNH	8	A	vanNH
-1	8	9	vanNH	24	G	vanNH
+1	8	5	vanNH	8	PU	vanNH
+1	8	6	vanNH	45		vanNH
+1	8	7	vanNH	8	A	vanNH
+1	8	8	vanNH	24	G	vanNH
 1	9	1	vanNH	49	P	pdxST
 1	9	2	pdxST	7	PU	pdxST
 1	9	3	pdxST	73		pdxST
@@ -448,7 +447,7 @@ period	point	event	pl_team	pl_pnum	pl_code	poss_team
 3	30	6	pdxST	8	L	pdxST
 3	30	7	pdxST	3		pdxST
 3	30	8	pdxST	8		pdxST
-3	30	9	pdxST	?	VST	pdxST
+3	30	9	pdxST	8	VST	pdxST
 3	30	10	pdxST	8	F	pdxST
 3	30	11	vanNH	5	PU	vanNH
 3	30	12	vanNH	89		vanNH
@@ -553,16 +552,17 @@ period	point	event	pl_team	pl_pnum	pl_code	poss_team
 4	34	15	vanNH	45	F	pdxST
 4	34	16	vanNH	81	SO	pdxST
 4	34	17	vanNH	27	SI	pdxST
-4	34	18	pdxST	?	F	pdxST
-4	34	19	vanNH	24	PU	vanNH
-4	34	20	pdxST	7	F	vanNH
+4	34	18	pdxST	24	PU	pdxST
+4	34	19	pdxST	73	F	pdxST
+4	34	20	vanNH	24	PU	vanNH
 4	34	21	vanNH	31		vanNH
 4	34	22	vanNH	8	TO	vanNH
-4	34	23	vanNH	89	PU	vanNH
-4	34	24	pdxST	?	F	vanNH
-4	34	25	vanNH	98		vanNH
-4	34	26	vanNH	89	A	vanNH
-4	34	27	vanNH	98	G	vanNH
+4	34	23	pdxST	2	F	vanNH
+4	34	24	vanNH	89	PU	vanNH
+4	34	25	pdxST	81	F	vanNH
+4	34	26	vanNH	98		vanNH
+4	34	27	vanNH	89	A	vanNH
+4	34	28	vanNH	98	G	vanNH
 4	35	1	vanNH	8	OBP	pdxST
 4	35	2	pdxST	24	PU	pdxST
 4	35	3	pdxST	9		pdxST

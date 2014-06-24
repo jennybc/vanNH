@@ -19,11 +19,12 @@ Offense	Defense
 24	45F
 	81SO
 	27SI
-?F	
-7F	24PU
+24PU	
+73F	
+	24PU
 	31
-	8TO
-?F	89PU
+2F	8TO
+81F	89PU
 	98
 	89
 	98G

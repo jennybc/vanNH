@@ -123,11 +123,10 @@ point	event	pullNum	pullCode	recvNum	recvCode
 8	2			9	PU
 8	3			24	
 8	4			7	
-8	5			7	F
-8	6	8	PU		
-8	7	45			
-8	8	8			
-8	9	24	G		
+8	5	8	PU		
+8	6	45			
+8	7	8			
+8	8	24	G		
 9	1	49	P		
 9	2			7	PU
 9	3			73	
@@ -448,7 +447,7 @@ point	event	pullNum	pullCode	recvNum	recvCode
 30	6	8	L		
 30	7	3			
 30	8	8			
-30	9	?	VST		
+30	9	8	VST		
 30	10	8	F		
 30	11			5	PU
 30	12			89	
@@ -553,16 +552,17 @@ point	event	pullNum	pullCode	recvNum	recvCode
 34	15	45	F		
 34	16	81	SO		
 34	17	27	SI		
-34	18			?	F
-34	19	24	PU		
-34	20			7	F
+34	18			24	PU
+34	19			73	F
+34	20	24	PU		
 34	21	31			
 34	22	8	TO		
-34	23	89	PU		
-34	24			?	F
-34	25	98			
-34	26	89			
-34	27	98	G		
+34	23			2	F
+34	24	89	PU		
+34	25			81	F
+34	26	98			
+34	27	89			
+34	28	98	G		
 35	1	8	OBP		
 35	2			24	PU
 35	3			9	

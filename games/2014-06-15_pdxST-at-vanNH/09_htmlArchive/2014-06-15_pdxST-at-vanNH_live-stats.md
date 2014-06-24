@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Mon Jun 16 21:40:03 2014
+#### last update Mon Jun 23 22:14:21 2014
 # pdxST 18
 # vanNH 20
 ## game is complete
@@ -147,8 +147,8 @@ stats are cumulative for this game
 |     7|      1|vanNH     |    10|vanNH   |24      |HB      |pdxST     |yu           |vanNH-24-yu          |     2|     5|
 |     7|      1|vanNH     |    17|vanNH   |8       |A       |vanNH     |hibbert      |vanNH-8-hibbert      |     2|     5|
 |     7|      1|vanNH     |    18|vanNH   |31      |G       |vanNH     |saito        |vanNH-31-saito       |     2|     5|
-|     8|      1|vanNH     |     8|vanNH   |8       |A       |vanNH     |hibbert      |vanNH-8-hibbert      |     2|     6|
-|     8|      1|vanNH     |     9|vanNH   |24      |G       |vanNH     |yu           |vanNH-24-yu          |     2|     6|
+|     8|      1|vanNH     |     7|vanNH   |8       |A       |vanNH     |hibbert      |vanNH-8-hibbert      |     2|     6|
+|     8|      1|vanNH     |     8|vanNH   |24      |G       |vanNH     |yu           |vanNH-24-yu          |     2|     6|
 |     9|      1|vanNH     |     8|pdxST   |24      |A       |pdxST     |Norden       |pdxST-24-Norden      |     3|     6|
 |     9|      1|vanNH     |     9|pdxST   |7       |LG      |pdxST     |Friedman     |pdxST-7-Friedman     |     3|     6|
 |    10|      1|pdxST     |    10|vanNH   |5       |A       |vanNH     |norris       |vanNH-5-norris       |     3|     7|
@@ -207,8 +207,8 @@ stats are cumulative for this game
 |    32|      4|pdxST     |    16|pdxST   |21      |G       |pdxST     |McGinn       |pdxST-21-McGinn      |    15|    15|
 |    33|      4|pdxST     |     9|vanNH   |89      |A       |vanNH     |underhill    |vanNH-89-underhill   |    15|    16|
 |    33|      4|pdxST     |    10|vanNH   |5       |G       |vanNH     |norris       |vanNH-5-norris       |    15|    16|
-|    34|      4|vanNH     |    26|vanNH   |89      |A       |vanNH     |underhill    |vanNH-89-underhill   |    15|    17|
-|    34|      4|vanNH     |    27|vanNH   |98      |G       |vanNH     |wong         |vanNH-98-wong        |    15|    17|
+|    34|      4|vanNH     |    27|vanNH   |89      |A       |vanNH     |underhill    |vanNH-89-underhill   |    15|    17|
+|    34|      4|vanNH     |    28|vanNH   |98      |G       |vanNH     |wong         |vanNH-98-wong        |    15|    17|
 |    35|      4|vanNH     |     8|pdxST   |2       |A       |pdxST     |Allison-Hall |pdxST-2-Allison-Hall |    16|    17|
 |    35|      4|vanNH     |     9|pdxST   |42      |G       |pdxST     |Lohre        |pdxST-42-Lohre       |    16|    17|
 |    36|      4|pdxST     |    11|pdxST   |3       |LA      |pdxST     |Ferrea       |pdxST-3-Ferrea       |    17|    17|
@@ -355,11 +355,10 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      1|     8|     2|pdxST   |9       |PU      |pdxST     |
 |      1|     8|     3|pdxST   |24      |        |pdxST     |
 |      1|     8|     4|pdxST   |7       |        |pdxST     |
-|      1|     8|     5|pdxST   |7       |F       |pdxST     |
-|      1|     8|     6|vanNH   |8       |PU      |vanNH     |
-|      1|     8|     7|vanNH   |45      |        |vanNH     |
-|      1|     8|     8|vanNH   |8       |A       |vanNH     |
-|      1|     8|     9|vanNH   |24      |G       |vanNH     |
+|      1|     8|     5|vanNH   |8       |PU      |vanNH     |
+|      1|     8|     6|vanNH   |45      |        |vanNH     |
+|      1|     8|     7|vanNH   |8       |A       |vanNH     |
+|      1|     8|     8|vanNH   |24      |G       |vanNH     |
 |      1|     9|     1|vanNH   |49      |P       |pdxST     |
 |      1|     9|     2|pdxST   |7       |PU      |pdxST     |
 |      1|     9|     3|pdxST   |73      |        |pdxST     |
@@ -680,7 +679,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      3|    30|     6|pdxST   |8       |L       |pdxST     |
 |      3|    30|     7|pdxST   |3       |        |pdxST     |
 |      3|    30|     8|pdxST   |8       |        |pdxST     |
-|      3|    30|     9|pdxST   |?       |VST     |pdxST     |
+|      3|    30|     9|pdxST   |8       |VST     |pdxST     |
 |      3|    30|    10|pdxST   |8       |F       |pdxST     |
 |      3|    30|    11|vanNH   |5       |PU      |vanNH     |
 |      3|    30|    12|vanNH   |89      |        |vanNH     |
@@ -785,16 +784,17 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      4|    34|    15|vanNH   |45      |F       |pdxST     |
 |      4|    34|    16|vanNH   |81      |SO      |pdxST     |
 |      4|    34|    17|vanNH   |27      |SI      |pdxST     |
-|      4|    34|    18|pdxST   |?       |F       |pdxST     |
-|      4|    34|    19|vanNH   |24      |PU      |vanNH     |
-|      4|    34|    20|pdxST   |7       |F       |vanNH     |
+|      4|    34|    18|pdxST   |24      |PU      |pdxST     |
+|      4|    34|    19|pdxST   |73      |F       |pdxST     |
+|      4|    34|    20|vanNH   |24      |PU      |vanNH     |
 |      4|    34|    21|vanNH   |31      |        |vanNH     |
 |      4|    34|    22|vanNH   |8       |TO      |vanNH     |
-|      4|    34|    23|vanNH   |89      |PU      |vanNH     |
-|      4|    34|    24|pdxST   |?       |F       |vanNH     |
-|      4|    34|    25|vanNH   |98      |        |vanNH     |
-|      4|    34|    26|vanNH   |89      |A       |vanNH     |
-|      4|    34|    27|vanNH   |98      |G       |vanNH     |
+|      4|    34|    23|pdxST   |2       |F       |vanNH     |
+|      4|    34|    24|vanNH   |89      |PU      |vanNH     |
+|      4|    34|    25|pdxST   |81      |F       |vanNH     |
+|      4|    34|    26|vanNH   |98      |        |vanNH     |
+|      4|    34|    27|vanNH   |89      |A       |vanNH     |
+|      4|    34|    28|vanNH   |98      |G       |vanNH     |
 |      4|    35|     1|vanNH   |8       |OBP     |pdxST     |
 |      4|    35|     2|pdxST   |24      |PU      |pdxST     |
 |      4|    35|     3|pdxST   |9       |        |pdxST     |
