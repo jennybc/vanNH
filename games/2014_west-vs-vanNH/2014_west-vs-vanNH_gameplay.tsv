@@ -6256,10 +6256,10 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-19_sfoDF-at-seaRM	1	1	sfoDF	1	1	5	seaRM	seaRM	20	
 2014-04-19_sfoDF-at-seaRM	1	1	sfoDF	1	1	6	seaRM	seaRM	17	
 2014-04-19_sfoDF-at-seaRM	1	1	sfoDF	1	1	7	seaRM	seaRM	51	
-2014-04-19_sfoDF-at-seaRM	1	1	sfoDF	1	1	8	seaRM	seaRM	0	
+2014-04-19_sfoDF-at-seaRM	1	1	sfoDF	1	1	8	seaRM	seaRM	00	
 2014-04-19_sfoDF-at-seaRM	1	1	sfoDF	1	1	9	seaRM	seaRM	20	
 2014-04-19_sfoDF-at-seaRM	1	1	sfoDF	1	1	10	seaRM	seaRM	99	L
-2014-04-19_sfoDF-at-seaRM	1	1	sfoDF	1	1	11	seaRM	seaRM	0	
+2014-04-19_sfoDF-at-seaRM	1	1	sfoDF	1	1	11	seaRM	seaRM	00	
 2014-04-19_sfoDF-at-seaRM	1	1	sfoDF	1	1	12	seaRM	seaRM	17	
 2014-04-19_sfoDF-at-seaRM	1	1	sfoDF	1	1	13	seaRM	seaRM	25	A
 2014-04-19_sfoDF-at-seaRM	1	1	sfoDF	1	1	14	seaRM	seaRM	6	G
@@ -6273,7 +6273,7 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-19_sfoDF-at-seaRM	1	2	seaRM	2	1	8	sfoDF	sfoDF	57	LA
 2014-04-19_sfoDF-at-seaRM	1	2	seaRM	2	1	9	sfoDF	sfoDF	34	G
 2014-04-19_sfoDF-at-seaRM	1	3	sfoDF	3	1	1	seaRM	sfoDF	16	P
-2014-04-19_sfoDF-at-seaRM	1	3	sfoDF	3	1	2	seaRM	seaRM	0	PU
+2014-04-19_sfoDF-at-seaRM	1	3	sfoDF	3	1	2	seaRM	seaRM	00	PU
 2014-04-19_sfoDF-at-seaRM	1	3	sfoDF	3	1	3	seaRM	seaRM	20	
 2014-04-19_sfoDF-at-seaRM	1	3	sfoDF	3	1	4	seaRM	seaRM	6	
 2014-04-19_sfoDF-at-seaRM	1	3	sfoDF	3	1	5	seaRM	seaRM	20	
@@ -6332,13 +6332,14 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-19_sfoDF-at-seaRM	1	7	seaRM	14	1	1	sfoDF	seaRM	24	OBP
 2014-04-19_sfoDF-at-seaRM	1	7	seaRM	14	1	2	sfoDF	sfoDF	88	PU
 2014-04-19_sfoDF-at-seaRM	1	7	seaRM	14	1	3	sfoDF	seaRM	13	D
-2014-04-19_sfoDF-at-seaRM	1	7	seaRM	15	2	4	seaRM	seaRM	13	TD
-2014-04-19_sfoDF-at-seaRM	1	7	seaRM	16	3	5	sfoDF	sfoDF	88	PU
-2014-04-19_sfoDF-at-seaRM	1	7	seaRM	16	3	6	sfoDF	sfoDF	34	
-2014-04-19_sfoDF-at-seaRM	1	7	seaRM	16	3	7	sfoDF	sfoDF	88	
-2014-04-19_sfoDF-at-seaRM	1	7	seaRM	16	3	8	sfoDF	sfoDF	34	
-2014-04-19_sfoDF-at-seaRM	1	7	seaRM	16	3	9	sfoDF	sfoDF	19	A
-2014-04-19_sfoDF-at-seaRM	1	7	seaRM	16	3	10	sfoDF	sfoDF	24	G
+2014-04-19_sfoDF-at-seaRM	1	7	seaRM	15	2	4	seaRM	seaRM	?	
+2014-04-19_sfoDF-at-seaRM	1	7	seaRM	15	2	5	seaRM	seaRM	13	TD
+2014-04-19_sfoDF-at-seaRM	1	7	seaRM	16	3	6	sfoDF	sfoDF	88	PU
+2014-04-19_sfoDF-at-seaRM	1	7	seaRM	16	3	7	sfoDF	sfoDF	34	
+2014-04-19_sfoDF-at-seaRM	1	7	seaRM	16	3	8	sfoDF	sfoDF	88	
+2014-04-19_sfoDF-at-seaRM	1	7	seaRM	16	3	9	sfoDF	sfoDF	34	
+2014-04-19_sfoDF-at-seaRM	1	7	seaRM	16	3	10	sfoDF	sfoDF	19	A
+2014-04-19_sfoDF-at-seaRM	1	7	seaRM	16	3	11	sfoDF	sfoDF	24	G
 2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	17	1	1	seaRM	sfoDF	16	P
 2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	17	1	2	seaRM	seaRM	25	PU
 2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	17	1	3	seaRM	seaRM	20	
@@ -6348,23 +6349,23 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	18	2	7	sfoDF	sfoDF	21	
 2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	18	2	8	sfoDF	sfoDF	25	TD
 2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	19	3	9	seaRM	seaRM	20	PU
-2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	19	3	10	seaRM	seaRM	0	
+2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	19	3	10	seaRM	seaRM	00	
 2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	19	3	11	seaRM	seaRM	20	
-2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	19	3	12	seaRM	seaRM	0	VST
+2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	19	3	12	seaRM	seaRM	00	VST
 2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	20	4	13	sfoDF	sfoDF	16	PU
 2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	20	4	14	sfoDF	sfoDF	85	
 2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	20	4	15	sfoDF	sfoDF	25	
-2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	20	4	16	sfoDF	seaRM	0	D
+2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	20	4	16	sfoDF	seaRM	00	D
 2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	21	5	17	seaRM	seaRM	17	PU
 2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	22	6	18	sfoDF	sfoDF	18	PU
 2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	22	6	19	sfoDF	sfoDF	83	TO
 2014-04-19_sfoDF-at-seaRM	1	8	sfoDF	22	6	20	sfoDF	sfoDF	83	PU
 2014-04-19_sfoDF-at-seaRM	2	9	sfoDF	23	1	1	seaRM	sfoDF	46	P
-2014-04-19_sfoDF-at-seaRM	2	9	sfoDF	23	1	2	seaRM	seaRM	0	PU
+2014-04-19_sfoDF-at-seaRM	2	9	sfoDF	23	1	2	seaRM	seaRM	00	PU
 2014-04-19_sfoDF-at-seaRM	2	9	sfoDF	23	1	3	seaRM	seaRM	17	
 2014-04-19_sfoDF-at-seaRM	2	9	sfoDF	23	1	4	seaRM	seaRM	99	
 2014-04-19_sfoDF-at-seaRM	2	9	sfoDF	23	1	5	seaRM	seaRM	51	
-2014-04-19_sfoDF-at-seaRM	2	9	sfoDF	23	1	6	seaRM	seaRM	0	
+2014-04-19_sfoDF-at-seaRM	2	9	sfoDF	23	1	6	seaRM	seaRM	00	
 2014-04-19_sfoDF-at-seaRM	2	9	sfoDF	23	1	7	seaRM	seaRM	17	
 2014-04-19_sfoDF-at-seaRM	2	9	sfoDF	23	1	8	seaRM	seaRM	25	A
 2014-04-19_sfoDF-at-seaRM	2	9	sfoDF	23	1	9	seaRM	seaRM	20	G
@@ -6391,12 +6392,12 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-19_sfoDF-at-seaRM	2	11	sfoDF	29	1	4	seaRM	seaRM	17	
 2014-04-19_sfoDF-at-seaRM	2	11	sfoDF	29	1	5	seaRM	seaRM	6	
 2014-04-19_sfoDF-at-seaRM	2	11	sfoDF	29	1	6	seaRM	seaRM	17	
-2014-04-19_sfoDF-at-seaRM	2	11	sfoDF	29	1	7	seaRM	seaRM	0	
+2014-04-19_sfoDF-at-seaRM	2	11	sfoDF	29	1	7	seaRM	seaRM	00	
 2014-04-19_sfoDF-at-seaRM	2	11	sfoDF	29	1	8	seaRM	seaRM	20	
 2014-04-19_sfoDF-at-seaRM	2	11	sfoDF	29	1	9	seaRM	seaRM	6	
 2014-04-19_sfoDF-at-seaRM	2	11	sfoDF	29	1	10	seaRM	seaRM	5	
 2014-04-19_sfoDF-at-seaRM	2	11	sfoDF	29	1	11	seaRM	seaRM	17	
-2014-04-19_sfoDF-at-seaRM	2	11	sfoDF	29	1	12	seaRM	seaRM	0	
+2014-04-19_sfoDF-at-seaRM	2	11	sfoDF	29	1	12	seaRM	seaRM	00	
 2014-04-19_sfoDF-at-seaRM	2	11	sfoDF	29	1	13	seaRM	seaRM	17	
 2014-04-19_sfoDF-at-seaRM	2	11	sfoDF	29	1	14	seaRM	seaRM	6	
 2014-04-19_sfoDF-at-seaRM	2	11	sfoDF	29	1	15	seaRM	seaRM	5	A
@@ -6411,7 +6412,7 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-19_sfoDF-at-seaRM	2	12	seaRM	30	1	8	sfoDF	sfoDF	11	A
 2014-04-19_sfoDF-at-seaRM	2	12	seaRM	30	1	9	sfoDF	sfoDF	24	LG
 2014-04-19_sfoDF-at-seaRM	2	13	sfoDF	31	1	1	seaRM	sfoDF	16	P
-2014-04-19_sfoDF-at-seaRM	2	13	sfoDF	31	1	2	seaRM	seaRM	0	PU
+2014-04-19_sfoDF-at-seaRM	2	13	sfoDF	31	1	2	seaRM	seaRM	00	PU
 2014-04-19_sfoDF-at-seaRM	2	13	sfoDF	31	1	3	seaRM	seaRM	20	
 2014-04-19_sfoDF-at-seaRM	2	13	sfoDF	31	1	4	seaRM	seaRM	99	
 2014-04-19_sfoDF-at-seaRM	2	13	sfoDF	31	1	5	seaRM	seaRM	25	L
@@ -6468,7 +6469,7 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-19_sfoDF-at-seaRM	2	17	seaRM	38	1	11	sfoDF	sfoDF	57	A
 2014-04-19_sfoDF-at-seaRM	2	17	seaRM	38	1	12	sfoDF	sfoDF	19	G
 2014-04-19_sfoDF-at-seaRM	2	18	sfoDF	39	1	1	seaRM	sfoDF	12	P
-2014-04-19_sfoDF-at-seaRM	2	18	sfoDF	39	1	2	seaRM	seaRM	0	PU
+2014-04-19_sfoDF-at-seaRM	2	18	sfoDF	39	1	2	seaRM	seaRM	00	PU
 2014-04-19_sfoDF-at-seaRM	2	18	sfoDF	39	1	3	seaRM	seaRM	20	
 2014-04-19_sfoDF-at-seaRM	2	18	sfoDF	39	1	4	seaRM	seaRM	25	TD
 2014-04-19_sfoDF-at-seaRM	2	18	sfoDF	40	2	5	sfoDF	sfoDF	17	PUA
@@ -6517,7 +6518,7 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-19_sfoDF-at-seaRM	2	21	seaRM	46	1	8	sfoDF	sfoDF	11	G
 2014-04-19_sfoDF-at-seaRM	2	22	sfoDF	47	1	1	seaRM	sfoDF	8	P
 2014-04-19_sfoDF-at-seaRM	2	22	sfoDF	47	1	2	seaRM	seaRM	20	PU
-2014-04-19_sfoDF-at-seaRM	2	22	sfoDF	47	1	3	seaRM	seaRM	0	
+2014-04-19_sfoDF-at-seaRM	2	22	sfoDF	47	1	3	seaRM	seaRM	00	
 2014-04-19_sfoDF-at-seaRM	3	23	seaRM	48	1	1	sfoDF	seaRM	24	P
 2014-04-19_sfoDF-at-seaRM	3	23	seaRM	48	1	2	sfoDF	sfoDF	57	PU
 2014-04-19_sfoDF-at-seaRM	3	23	seaRM	48	1	3	sfoDF	sfoDF	83	
@@ -6577,7 +6578,7 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-19_sfoDF-at-seaRM	3	26	seaRM	54	3	20	sfoDF	sfoDF	34	A
 2014-04-19_sfoDF-at-seaRM	3	26	seaRM	54	3	21	sfoDF	sfoDF	83	G
 2014-04-19_sfoDF-at-seaRM	3	27	sfoDF	55	1	1	seaRM	sfoDF	46	P
-2014-04-19_sfoDF-at-seaRM	3	27	sfoDF	55	1	2	seaRM	seaRM	0	PU
+2014-04-19_sfoDF-at-seaRM	3	27	sfoDF	55	1	2	seaRM	seaRM	00	PU
 2014-04-19_sfoDF-at-seaRM	3	27	sfoDF	55	1	3	seaRM	seaRM	20	
 2014-04-19_sfoDF-at-seaRM	3	27	sfoDF	55	1	4	seaRM	seaRM	5	
 2014-04-19_sfoDF-at-seaRM	3	27	sfoDF	55	1	5	seaRM	seaRM	20	
@@ -6620,7 +6621,7 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-19_sfoDF-at-seaRM	3	29	seaRM	60	1	8	sfoDF	sfoDF	7	A
 2014-04-19_sfoDF-at-seaRM	3	29	seaRM	60	1	9	sfoDF	sfoDF	1	G
 2014-04-19_sfoDF-at-seaRM	3	30	sfoDF	61	1	1	seaRM	sfoDF	12	P
-2014-04-19_sfoDF-at-seaRM	3	30	sfoDF	61	1	2	seaRM	seaRM	0	PU
+2014-04-19_sfoDF-at-seaRM	3	30	sfoDF	61	1	2	seaRM	seaRM	00	PU
 2014-04-19_sfoDF-at-seaRM	3	30	sfoDF	61	1	3	seaRM	seaRM	20	
 2014-04-19_sfoDF-at-seaRM	3	30	sfoDF	61	1	4	seaRM	seaRM	51	L
 2014-04-19_sfoDF-at-seaRM	3	30	sfoDF	61	1	5	seaRM	seaRM	6	
@@ -6660,9 +6661,9 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-19_sfoDF-at-seaRM	3	31	seaRM	68	7	31	sfoDF	sfoDF	11	
 2014-04-19_sfoDF-at-seaRM	3	31	seaRM	68	7	32	sfoDF	sfoDF	12	
 2014-04-19_sfoDF-at-seaRM	3	31	seaRM	69	8	33	seaRM	seaRM	20	PU
-2014-04-19_sfoDF-at-seaRM	3	31	seaRM	69	8	34	seaRM	seaRM	0	
+2014-04-19_sfoDF-at-seaRM	3	31	seaRM	69	8	34	seaRM	seaRM	00	
 2014-04-19_sfoDF-at-seaRM	3	31	seaRM	69	8	35	seaRM	seaRM	20	
-2014-04-19_sfoDF-at-seaRM	3	31	seaRM	69	8	36	seaRM	seaRM	0	
+2014-04-19_sfoDF-at-seaRM	3	31	seaRM	69	8	36	seaRM	seaRM	00	
 2014-04-19_sfoDF-at-seaRM	3	31	seaRM	69	8	37	seaRM	seaRM	25	
 2014-04-19_sfoDF-at-seaRM	3	31	seaRM	69	8	38	seaRM	seaRM	51	
 2014-04-19_sfoDF-at-seaRM	3	31	seaRM	69	8	39	seaRM	seaRM	99	
@@ -6696,9 +6697,9 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-19_sfoDF-at-seaRM	4	33	sfoDF	73	2	11	sfoDF	sfoDF	46	
 2014-04-19_sfoDF-at-seaRM	4	33	sfoDF	73	2	12	sfoDF	sfoDF	34	
 2014-04-19_sfoDF-at-seaRM	4	33	sfoDF	73	2	13	sfoDF	seaRM	6	D
-2014-04-19_sfoDF-at-seaRM	4	33	sfoDF	74	3	14	seaRM	seaRM	0	PU
+2014-04-19_sfoDF-at-seaRM	4	33	sfoDF	74	3	14	seaRM	seaRM	00	PU
 2014-04-19_sfoDF-at-seaRM	4	33	sfoDF	74	3	15	seaRM	seaRM	20	
-2014-04-19_sfoDF-at-seaRM	4	33	sfoDF	74	3	16	seaRM	seaRM	0	
+2014-04-19_sfoDF-at-seaRM	4	33	sfoDF	74	3	16	seaRM	seaRM	00	
 2014-04-19_sfoDF-at-seaRM	4	33	sfoDF	74	3	17	seaRM	seaRM	20	
 2014-04-19_sfoDF-at-seaRM	4	33	sfoDF	74	3	18	seaRM	seaRM	5	
 2014-04-19_sfoDF-at-seaRM	4	33	sfoDF	74	3	19	seaRM	seaRM	99	A
@@ -6721,7 +6722,7 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-19_sfoDF-at-seaRM	4	35	sfoDF	77	2	7	sfoDF	sfoDF	18	A
 2014-04-19_sfoDF-at-seaRM	4	35	sfoDF	77	2	8	sfoDF	sfoDF	37	G
 2014-04-19_sfoDF-at-seaRM	4	36	sfoDF	78	1	1	seaRM	sfoDF	12	P
-2014-04-19_sfoDF-at-seaRM	4	36	sfoDF	78	1	2	seaRM	seaRM	0	PU
+2014-04-19_sfoDF-at-seaRM	4	36	sfoDF	78	1	2	seaRM	seaRM	00	PU
 2014-04-19_sfoDF-at-seaRM	4	36	sfoDF	78	1	3	seaRM	seaRM	20	
 2014-04-19_sfoDF-at-seaRM	4	36	sfoDF	79	2	4	sfoDF	sfoDF	2	PU
 2014-04-19_sfoDF-at-seaRM	4	36	sfoDF	79	2	5	sfoDF	sfoDF	17	
@@ -6740,19 +6741,19 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-19_sfoDF-at-seaRM	4	36	sfoDF	81	4	18	sfoDF	sfoDF	24	LA
 2014-04-19_sfoDF-at-seaRM	4	36	sfoDF	81	4	19	sfoDF	sfoDF	11	G
 2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	1	seaRM	sfoDF	12	P
-2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	2	seaRM	seaRM	0	PU
+2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	2	seaRM	seaRM	00	PU
 2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	3	seaRM	seaRM	20	
 2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	4	seaRM	seaRM	6	
 2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	5	seaRM	seaRM	17	
-2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	6	seaRM	seaRM	0	
+2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	6	seaRM	seaRM	00	
 2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	7	seaRM	seaRM	20	
-2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	8	seaRM	seaRM	0	
+2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	8	seaRM	seaRM	00	
 2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	9	seaRM	seaRM	20	
-2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	10	seaRM	seaRM	0	
+2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	10	seaRM	seaRM	00	
 2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	11	seaRM	seaRM	99	
 2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	12	seaRM	seaRM	25	
 2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	13	seaRM	seaRM	5	
-2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	14	seaRM	seaRM	0	
+2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	14	seaRM	seaRM	00	
 2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	15	seaRM	seaRM	20	A
 2014-04-19_sfoDF-at-seaRM	4	37	sfoDF	82	1	16	seaRM	seaRM	99	G
 2014-04-19_sfoDF-at-seaRM	4	38	seaRM	83	1	1	sfoDF	seaRM	24	P
@@ -6763,9 +6764,9 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-19_sfoDF-at-seaRM	4	38	seaRM	84	2	6	seaRM	seaRM	29	
 2014-04-19_sfoDF-at-seaRM	4	38	seaRM	84	2	7	seaRM	seaRM	18	
 2014-04-19_sfoDF-at-seaRM	4	38	seaRM	84	2	8	seaRM	seaRM	24	
-2014-04-19_sfoDF-at-seaRM	4	38	seaRM	85	3	9	sfoDF	sfoDF	NA	
+2014-04-19_sfoDF-at-seaRM	4	38	seaRM	85	3	9	sfoDF	sfoDF		
 2014-04-19_sfoDF-at-seaRM	4	38	seaRM	86	4	10	seaRM	seaRM	20	
-2014-04-19_sfoDF-at-seaRM	4	38	seaRM	86	4	11	seaRM	seaRM	0	
+2014-04-19_sfoDF-at-seaRM	4	38	seaRM	86	4	11	seaRM	seaRM	00	
 2014-04-19_sfoDF-at-seaRM	4	38	seaRM	86	4	12	seaRM	seaRM	17	A
 2014-04-19_sfoDF-at-seaRM	4	38	seaRM	86	4	13	seaRM	seaRM	6	G
 2014-04-19_sfoDF-at-seaRM	4	39	seaRM	87	1	1	sfoDF	seaRM	24	P
@@ -6778,7 +6779,7 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-19_sfoDF-at-seaRM	4	39	seaRM	87	1	8	sfoDF	sfoDF	57	A
 2014-04-19_sfoDF-at-seaRM	4	39	seaRM	87	1	9	sfoDF	sfoDF	83	G
 2014-04-19_sfoDF-at-seaRM	4	40	sfoDF	88	1	1	seaRM	sfoDF	34	P
-2014-04-19_sfoDF-at-seaRM	4	40	sfoDF	88	1	2	seaRM	seaRM	0	PU
+2014-04-19_sfoDF-at-seaRM	4	40	sfoDF	88	1	2	seaRM	seaRM	00	PU
 2014-04-19_sfoDF-at-seaRM	4	40	sfoDF	88	1	3	seaRM	seaRM	20	
 2014-04-19_sfoDF-at-seaRM	4	40	sfoDF	88	1	4	seaRM	seaRM	17	
 2014-04-19_sfoDF-at-seaRM	4	40	sfoDF	88	1	5	seaRM	seaRM	6	
@@ -6820,16 +6821,16 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	96	2	8	sfoDF	sfoDF	25	PU
 2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	96	2	9	sfoDF	sfoDF	18	TD
 2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	97	3	10	seaRM	seaRM	20	PU
-2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	97	3	11	seaRM	seaRM	0	
+2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	97	3	11	seaRM	seaRM	00	
 2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	97	3	12	seaRM	seaRM	20	
 2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	97	3	13	seaRM	seaRM	6	
 2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	97	3	14	seaRM	seaRM	99	
 2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	97	3	15	seaRM	seaRM	20	
 2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	97	3	16	seaRM	seaRM	17	
 2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	97	3	17	seaRM	seaRM	20	
-2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	97	3	18	seaRM	seaRM	0	
+2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	97	3	18	seaRM	seaRM	00	
 2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	97	3	19	seaRM	seaRM	20	
-2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	97	3	20	seaRM	seaRM	0	
+2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	97	3	20	seaRM	seaRM	00	
 2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	97	3	21	seaRM	seaRM	99	
 2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	97	3	22	seaRM	sfoDF	21	D
 2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	98	4	23	sfoDF	sfoDF	34	PU
@@ -6871,3 +6872,631 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-19_sfoDF-at-seaRM	OT	46	sfoDF	107	1	1	seaRM	sfoDF	12	P
 2014-04-19_sfoDF-at-seaRM	OT	46	sfoDF	107	1	2	seaRM	seaRM	20	PU
 2014-04-19_sfoDF-at-seaRM	OT	46	sfoDF	107	1	3	seaRM	seaRM	17	TD
+2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	1	1	1	pdxST	sfoDF	16	P
+2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	1	1	2	pdxST	pdxST	10	PU
+2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	1	1	3	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	1	1	4	pdxST	pdxST	42	
+2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	1	1	5	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	1	1	6	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	1	1	7	pdxST	pdxST	11	TD
+2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	2	2	8	sfoDF	sfoDF	16	PU
+2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	2	2	9	sfoDF	sfoDF	37	
+2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	2	2	10	sfoDF	sfoDF	21	TD
+2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	3	3	11	pdxST	pdxST	24	PU
+2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	3	3	12	pdxST	pdxST	2	
+2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	4	4	13	sfoDF	sfoDF	16	PU
+2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	4	4	14	sfoDF	sfoDF	21	
+2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	4	4	15	sfoDF	sfoDF	16	A
+2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	4	4	16	sfoDF	sfoDF	37	G
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	5	1	1	pdxST	sfoDF	1	P
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	5	1	2	pdxST	pdxST	24	PU
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	5	1	3	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	5	1	4	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	5	1	5	pdxST	pdxST	16	
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	5	1	6	pdxST	pdxST	42	
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	5	1	7	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	5	1	8	pdxST	pdxST	16	
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	5	1	9	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	5	1	10	pdxST	pdxST	16	
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	5	1	11	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	6	2	12	sfoDF	sfoDF	1	PU
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	7	3	13	pdxST	pdxST	7	PU
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	7	3	14	pdxST	pdxST	42	
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	7	3	15	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	7	3	16	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	8	4	17	sfoDF	sfoDF	25	PU
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	8	4	18	sfoDF	sfoDF	25	VTT
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	9	5	19	pdxST	pdxST	10	PUA
+2014-04-26_pdxST-at-sfoDF	1	2	sfoDF	9	5	20	pdxST	pdxST	16	G
+2014-04-26_pdxST-at-sfoDF	1	3	pdxST	10	1	1	sfoDF	pdxST	8	P
+2014-04-26_pdxST-at-sfoDF	1	3	pdxST	10	1	2	sfoDF	sfoDF	88	PU
+2014-04-26_pdxST-at-sfoDF	1	3	pdxST	10	1	3	sfoDF	sfoDF	5	
+2014-04-26_pdxST-at-sfoDF	1	3	pdxST	10	1	4	sfoDF	sfoDF	34	
+2014-04-26_pdxST-at-sfoDF	1	3	pdxST	10	1	5	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	1	3	pdxST	11	2	6	pdxST	pdxST	21	PU
+2014-04-26_pdxST-at-sfoDF	1	3	pdxST	11	2	7	pdxST	sfoDF	24	D
+2014-04-26_pdxST-at-sfoDF	1	3	pdxST	12	3	8	sfoDF	sfoDF	34	PU
+2014-04-26_pdxST-at-sfoDF	1	3	pdxST	12	3	9	sfoDF	sfoDF	40	LA
+2014-04-26_pdxST-at-sfoDF	1	3	pdxST	12	3	10	sfoDF	sfoDF	23	G
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	13	1	1	pdxST	sfoDF	46	P
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	13	1	2	pdxST	pdxST	11	PU
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	13	1	3	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	13	1	4	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	13	1	5	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	13	1	6	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	13	1	7	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	13	1	8	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	14	2	9	sfoDF	sfoDF	16	PU
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	14	2	10	sfoDF	sfoDF	46	
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	14	2	11	sfoDF	sfoDF	16	
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	14	2	12	sfoDF	sfoDF	85	
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	14	2	13	sfoDF	sfoDF	21	TD
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	15	3	14	pdxST	pdxST	24	PU
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	15	3	15	pdxST	sfoDF	37	D
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	16	4	16	sfoDF	sfoDF	16	PU
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	16	4	17	sfoDF	sfoDF	40	
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	16	4	18	sfoDF	sfoDF	21	
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	16	4	19	sfoDF	sfoDF	16	TO
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	16	4	20	sfoDF	sfoDF	13	PU
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	16	4	21	sfoDF	sfoDF	40	
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	16	4	22	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	16	4	23	sfoDF	sfoDF	34	
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	16	4	24	sfoDF	sfoDF	24	
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	16	4	25	sfoDF	sfoDF	40	A
+2014-04-26_pdxST-at-sfoDF	1	4	sfoDF	16	4	26	sfoDF	sfoDF	5	G
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	17	1	1	pdxST	sfoDF	1	P
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	17	1	2	pdxST	pdxST	7	PU
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	17	1	3	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	17	1	4	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	17	1	5	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	17	1	6	pdxST	pdxST	6	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	17	1	7	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	17	1	8	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	17	1	9	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	17	1	10	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	17	1	11	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	17	1	12	pdxST	pdxST	6	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	17	1	13	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	17	1	14	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	17	1	15	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	17	1	16	pdxST	pdxST	6	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	17	1	17	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	17	1	18	pdxST	pdxST	14	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	17	1	19	pdxST	pdxST	7	TD
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	18	2	20	sfoDF	sfoDF	25	PU
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	18	2	21	sfoDF	sfoDF	17	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	18	2	22	sfoDF	pdxST	7	FB
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	19	3	23	pdxST	pdxST	10	PU
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	19	3	24	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	19	3	25	pdxST	pdxST	42	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	19	3	26	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	19	3	27	pdxST	pdxST	42	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	19	3	28	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	19	3	29	pdxST	pdxST	42	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	19	3	30	pdxST	pdxST	6	
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	19	3	31	pdxST	pdxST	42	A
+2014-04-26_pdxST-at-sfoDF	1	5	sfoDF	19	3	32	pdxST	pdxST	11	G
+2014-04-26_pdxST-at-sfoDF	1	6	pdxST	20	1	1	sfoDF	pdxST	8	P
+2014-04-26_pdxST-at-sfoDF	1	6	pdxST	20	1	2	sfoDF	sfoDF	57	PU
+2014-04-26_pdxST-at-sfoDF	1	6	pdxST	20	1	3	sfoDF	sfoDF	13	
+2014-04-26_pdxST-at-sfoDF	1	6	pdxST	20	1	4	sfoDF	sfoDF	57	
+2014-04-26_pdxST-at-sfoDF	1	6	pdxST	20	1	5	sfoDF	sfoDF	13	
+2014-04-26_pdxST-at-sfoDF	1	6	pdxST	20	1	6	sfoDF	sfoDF	57	
+2014-04-26_pdxST-at-sfoDF	1	6	pdxST	20	1	7	sfoDF	sfoDF	13	
+2014-04-26_pdxST-at-sfoDF	1	6	pdxST	21	2	8	pdxST	pdxST	8	PU
+2014-04-26_pdxST-at-sfoDF	1	6	pdxST	21	2	9	pdxST	pdxST	21	
+2014-04-26_pdxST-at-sfoDF	1	6	pdxST	21	2	10	pdxST	pdxST	8	A
+2014-04-26_pdxST-at-sfoDF	1	6	pdxST	21	2	11	pdxST	pdxST	6	G
+2014-04-26_pdxST-at-sfoDF	1	7	pdxST	22	1	1	sfoDF	pdxST	8	P
+2014-04-26_pdxST-at-sfoDF	1	7	pdxST	22	1	2	sfoDF	sfoDF	23	PU
+2014-04-26_pdxST-at-sfoDF	1	7	pdxST	22	1	3	sfoDF	sfoDF	57	
+2014-04-26_pdxST-at-sfoDF	1	7	pdxST	22	1	4	sfoDF	sfoDF	40	
+2014-04-26_pdxST-at-sfoDF	1	7	pdxST	22	1	5	sfoDF	sfoDF	13	
+2014-04-26_pdxST-at-sfoDF	1	7	pdxST	22	1	6	sfoDF	sfoDF	34	A
+2014-04-26_pdxST-at-sfoDF	1	7	pdxST	22	1	7	sfoDF	sfoDF	23	LG
+2014-04-26_pdxST-at-sfoDF	1	8	sfoDF	23	1	1	pdxST	sfoDF	12	P
+2014-04-26_pdxST-at-sfoDF	1	8	sfoDF	23	1	2	pdxST	pdxST	24	PU
+2014-04-26_pdxST-at-sfoDF	1	8	sfoDF	23	1	3	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	1	8	sfoDF	23	1	4	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	1	8	sfoDF	23	1	5	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	1	8	sfoDF	23	1	6	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	1	8	sfoDF	23	1	7	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	1	8	sfoDF	23	1	8	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	1	8	sfoDF	23	1	9	pdxST	pdxST	42	
+2014-04-26_pdxST-at-sfoDF	1	8	sfoDF	23	1	10	pdxST	pdxST	2	
+2014-04-26_pdxST-at-sfoDF	1	8	sfoDF	23	1	11	pdxST	pdxST	42	
+2014-04-26_pdxST-at-sfoDF	1	8	sfoDF	23	1	12	pdxST	pdxST	16	A
+2014-04-26_pdxST-at-sfoDF	1	8	sfoDF	23	1	13	pdxST	pdxST	7	G
+2014-04-26_pdxST-at-sfoDF	1	9	pdxST	24	1	1	sfoDF	pdxST	8	P
+2014-04-26_pdxST-at-sfoDF	1	9	pdxST	24	1	2	sfoDF	sfoDF	88	PU
+2014-04-26_pdxST-at-sfoDF	1	9	pdxST	24	1	3	sfoDF	sfoDF	5	
+2014-04-26_pdxST-at-sfoDF	1	9	pdxST	24	1	4	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	1	9	pdxST	24	1	5	sfoDF	pdxST	17	D
+2014-04-26_pdxST-at-sfoDF	1	9	pdxST	25	2	6	pdxST	pdxST	6	PU
+2014-04-26_pdxST-at-sfoDF	1	9	pdxST	26	3	7	sfoDF	sfoDF	5	PU
+2014-04-26_pdxST-at-sfoDF	1	9	pdxST	26	3	8	sfoDF	sfoDF	34	
+2014-04-26_pdxST-at-sfoDF	1	9	pdxST	26	3	9	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	1	9	pdxST	27	4	10	pdxST	pdxST	6	PU
+2014-04-26_pdxST-at-sfoDF	1	9	pdxST	27	4	11	pdxST	pdxST	22	TD
+2014-04-26_pdxST-at-sfoDF	1	9	pdxST	28	5	12	sfoDF	sfoDF	88	TO
+2014-04-26_pdxST-at-sfoDF	1	9	pdxST	28	5	13	sfoDF	sfoDF	34	PUA
+2014-04-26_pdxST-at-sfoDF	1	9	pdxST	28	5	14	sfoDF	sfoDF	23	G
+2014-04-26_pdxST-at-sfoDF	2	10	pdxST	29	1	1	sfoDF	pdxST	24	P
+2014-04-26_pdxST-at-sfoDF	2	10	pdxST	29	1	2	sfoDF	sfoDF	88	PU
+2014-04-26_pdxST-at-sfoDF	2	10	pdxST	29	1	3	sfoDF	sfoDF	5	
+2014-04-26_pdxST-at-sfoDF	2	10	pdxST	29	1	4	sfoDF	sfoDF	23	L
+2014-04-26_pdxST-at-sfoDF	2	10	pdxST	29	1	5	sfoDF	sfoDF	24	
+2014-04-26_pdxST-at-sfoDF	2	10	pdxST	29	1	6	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	2	10	pdxST	29	1	7	sfoDF	sfoDF	34	
+2014-04-26_pdxST-at-sfoDF	2	10	pdxST	29	1	8	sfoDF	sfoDF	88	A
+2014-04-26_pdxST-at-sfoDF	2	10	pdxST	29	1	9	sfoDF	sfoDF	24	G
+2014-04-26_pdxST-at-sfoDF	2	11	sfoDF	30	1	1	pdxST	sfoDF	46	P
+2014-04-26_pdxST-at-sfoDF	2	11	sfoDF	30	1	2	pdxST	pdxST	7	PU
+2014-04-26_pdxST-at-sfoDF	2	11	sfoDF	30	1	3	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	2	11	sfoDF	30	1	4	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	2	11	sfoDF	30	1	5	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	2	11	sfoDF	30	1	6	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	2	11	sfoDF	30	1	7	pdxST	pdxST	42	
+2014-04-26_pdxST-at-sfoDF	2	11	sfoDF	30	1	8	pdxST	pdxST	2	
+2014-04-26_pdxST-at-sfoDF	2	11	sfoDF	30	1	9	pdxST	pdxST	6	
+2014-04-26_pdxST-at-sfoDF	2	11	sfoDF	31	2	10	sfoDF	sfoDF	16	PU
+2014-04-26_pdxST-at-sfoDF	2	11	sfoDF	31	2	11	sfoDF	sfoDF	21	VST
+2014-04-26_pdxST-at-sfoDF	2	11	sfoDF	32	3	12	pdxST	pdxST	10	PU
+2014-04-26_pdxST-at-sfoDF	2	11	sfoDF	32	3	13	pdxST	pdxST	7	A
+2014-04-26_pdxST-at-sfoDF	2	11	sfoDF	32	3	14	pdxST	pdxST	11	G
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	33	1	1	sfoDF	pdxST	8	P
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	33	1	2	sfoDF	sfoDF	57	PU
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	33	1	3	sfoDF	sfoDF	5	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	33	1	4	sfoDF	sfoDF	57	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	33	1	5	sfoDF	sfoDF	40	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	33	1	6	sfoDF	sfoDF	19	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	33	1	7	sfoDF	sfoDF	40	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	33	1	8	sfoDF	sfoDF	5	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	33	1	9	sfoDF	sfoDF	40	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	33	1	10	sfoDF	sfoDF	5	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	33	1	11	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	33	1	12	sfoDF	sfoDF	8	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	33	1	13	sfoDF	sfoDF	23	TD
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	34	2	14	pdxST	pdxST	21	PU
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	34	2	15	pdxST	pdxST	9	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	34	2	16	pdxST	pdxST	8	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	34	2	17	pdxST	pdxST	5	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	34	2	18	pdxST	pdxST	9	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	34	2	19	pdxST	pdxST	17	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	34	2	20	pdxST	pdxST	4	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	34	2	21	pdxST	pdxST	9	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	34	2	22	pdxST	pdxST	5	TO
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	34	2	23	pdxST	pdxST	24	PU
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	34	2	24	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	34	2	25	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	34	2	26	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	34	2	27	pdxST	sfoDF	85	D
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	35	3	28	sfoDF	sfoDF	16	PUA
+2014-04-26_pdxST-at-sfoDF	2	12	pdxST	35	3	29	sfoDF	sfoDF	21	LG
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	36	1	1	pdxST	sfoDF	46	P
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	36	1	2	pdxST	pdxST	24	PU
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	36	1	3	pdxST	pdxST	7	TD
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	37	2	4	sfoDF	sfoDF	17	PU
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	37	2	5	sfoDF	sfoDF	14	
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	37	2	6	sfoDF	sfoDF	17	
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	37	2	7	sfoDF	sfoDF	46	
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	37	2	8	sfoDF	sfoDF	25	
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	38	3	9	pdxST	pdxST	24	PU
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	38	3	10	pdxST	sfoDF	17	D
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	39	4	11	sfoDF	sfoDF	17	PU
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	39	4	12	sfoDF	pdxST	2	D
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	40	5	13	pdxST	pdxST	2	
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	40	5	14	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	40	5	15	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	40	5	16	pdxST	sfoDF	17	F
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	40	5	17	pdxST	pdxST	2	
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	40	5	18	pdxST	pdxST	11	L
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	40	5	19	pdxST	pdxST	7	A
+2014-04-26_pdxST-at-sfoDF	2	13	sfoDF	40	5	20	pdxST	pdxST	16	G
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	41	1	1	sfoDF	pdxST	8	P
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	41	1	2	sfoDF	sfoDF	88	PU
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	41	1	3	sfoDF	sfoDF	13	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	41	1	4	sfoDF	sfoDF	88	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	41	1	5	sfoDF	sfoDF	40	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	41	1	6	sfoDF	sfoDF	5	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	41	1	7	sfoDF	sfoDF	34	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	41	1	8	sfoDF	sfoDF	13	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	41	1	9	sfoDF	sfoDF	34	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	41	1	10	sfoDF	sfoDF	24	TD
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	42	2	11	pdxST	pdxST	6	PU
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	42	2	12	pdxST	pdxST	22	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	42	2	13	pdxST	pdxST	21	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	42	2	14	pdxST	pdxST	22	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	42	2	15	pdxST	pdxST	17	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	42	2	16	pdxST	pdxST	22	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	42	2	17	pdxST	pdxST	8	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	42	2	18	pdxST	pdxST	6	TD
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	43	3	19	sfoDF	sfoDF	5	PU
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	43	3	20	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	43	3	21	sfoDF	sfoDF	5	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	43	3	22	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	43	3	23	sfoDF	sfoDF	13	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	43	3	24	sfoDF	sfoDF	5	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	43	3	25	sfoDF	sfoDF	40	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	43	3	26	sfoDF	sfoDF	34	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	43	3	27	sfoDF	sfoDF	13	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	43	3	28	sfoDF	sfoDF	5	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	43	3	29	sfoDF	sfoDF	13	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	43	3	30	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	43	3	31	sfoDF	sfoDF	5	
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	43	3	32	sfoDF	sfoDF	40	A
+2014-04-26_pdxST-at-sfoDF	2	14	pdxST	43	3	33	sfoDF	sfoDF	24	LG
+2014-04-26_pdxST-at-sfoDF	1	15	sfoDF	44	1	1	pdxST	sfoDF	12	P
+2014-04-26_pdxST-at-sfoDF	1	15	sfoDF	44	1	2	pdxST	pdxST	10	PU
+2014-04-26_pdxST-at-sfoDF	1	15	sfoDF	44	1	3	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	1	15	sfoDF	44	1	4	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	1	15	sfoDF	44	1	5	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	1	15	sfoDF	44	1	6	pdxST	pdxST	42	L
+2014-04-26_pdxST-at-sfoDF	1	15	sfoDF	44	1	7	pdxST	pdxST	11	A
+2014-04-26_pdxST-at-sfoDF	1	15	sfoDF	44	1	8	pdxST	pdxST	2	LG
+2014-04-26_pdxST-at-sfoDF	2	16	pdxST	45	1	1	sfoDF	pdxST	8	P
+2014-04-26_pdxST-at-sfoDF	2	16	pdxST	45	1	2	sfoDF	sfoDF	5	PU
+2014-04-26_pdxST-at-sfoDF	2	16	pdxST	45	1	3	sfoDF	sfoDF	88	
+2014-04-26_pdxST-at-sfoDF	2	16	pdxST	45	1	4	sfoDF	sfoDF	40	
+2014-04-26_pdxST-at-sfoDF	2	16	pdxST	45	1	5	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	2	16	pdxST	45	1	6	sfoDF	sfoDF	34	
+2014-04-26_pdxST-at-sfoDF	2	16	pdxST	45	1	7	sfoDF	sfoDF	13	A
+2014-04-26_pdxST-at-sfoDF	2	16	pdxST	45	1	8	sfoDF	sfoDF	24	G
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	46	1	1	pdxST	sfoDF	16	P
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	46	1	2	pdxST	pdxST	10	PU
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	46	1	3	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	46	1	4	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	46	1	5	pdxST	sfoDF	25	D
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	47	2	6	sfoDF	sfoDF	25	PU
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	47	2	7	sfoDF	sfoDF	11	
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	47	2	8	sfoDF	sfoDF	25	
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	47	2	9	sfoDF	sfoDF	11	
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	48	3	10	pdxST	pdxST	24	PU
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	48	3	11	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	48	3	12	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	48	3	13	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	48	3	14	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	48	3	15	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	48	3	16	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	48	3	17	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	48	3	18	pdxST	pdxST	16	
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	48	3	19	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	48	3	20	pdxST	pdxST	24	A
+2014-04-26_pdxST-at-sfoDF	2	17	sfoDF	48	3	21	pdxST	pdxST	10	G
+2014-04-26_pdxST-at-sfoDF	2	18	pdxST	49	1	1	sfoDF	pdxST	6	P
+2014-04-26_pdxST-at-sfoDF	2	18	pdxST	49	1	2	sfoDF	sfoDF	57	PU
+2014-04-26_pdxST-at-sfoDF	2	18	pdxST	49	1	3	sfoDF	sfoDF	8	
+2014-04-26_pdxST-at-sfoDF	2	18	pdxST	49	1	4	sfoDF	sfoDF	40	
+2014-04-26_pdxST-at-sfoDF	2	18	pdxST	49	1	5	sfoDF	sfoDF	23	L
+2014-04-26_pdxST-at-sfoDF	3	19	sfoDF	50	1	1	pdxST	sfoDF	46	P
+2014-04-26_pdxST-at-sfoDF	3	19	sfoDF	50	1	2	pdxST	pdxST	24	PU
+2014-04-26_pdxST-at-sfoDF	3	19	sfoDF	51	2	3	sfoDF	sfoDF	16	PU
+2014-04-26_pdxST-at-sfoDF	3	19	sfoDF	51	2	4	sfoDF	sfoDF	85	TD
+2014-04-26_pdxST-at-sfoDF	3	19	sfoDF	52	3	5	pdxST	pdxST	10	PU
+2014-04-26_pdxST-at-sfoDF	3	19	sfoDF	52	3	6	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	3	19	sfoDF	52	3	7	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	3	19	sfoDF	52	3	8	pdxST	pdxST	2	L
+2014-04-26_pdxST-at-sfoDF	3	19	sfoDF	52	3	9	pdxST	pdxST	2	VTT
+2014-04-26_pdxST-at-sfoDF	3	19	sfoDF	53	4	10	sfoDF	sfoDF	16	PU
+2014-04-26_pdxST-at-sfoDF	3	19	sfoDF	53	4	11	sfoDF	sfoDF	21	LA
+2014-04-26_pdxST-at-sfoDF	3	19	sfoDF	53	4	12	sfoDF	sfoDF	46	G
+2014-04-26_pdxST-at-sfoDF	3	20	sfoDF	54	1	1	pdxST	sfoDF	11	P
+2014-04-26_pdxST-at-sfoDF	3	20	sfoDF	54	1	2	pdxST	pdxST	10	PU
+2014-04-26_pdxST-at-sfoDF	3	20	sfoDF	54	1	3	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	3	20	sfoDF	55	2	4	sfoDF	sfoDF	14	PU
+2014-04-26_pdxST-at-sfoDF	3	20	sfoDF	55	2	5	sfoDF	sfoDF	40	
+2014-04-26_pdxST-at-sfoDF	3	20	sfoDF	55	2	6	sfoDF	sfoDF	25	A
+2014-04-26_pdxST-at-sfoDF	3	20	sfoDF	55	2	7	sfoDF	sfoDF	2	LG
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	56	1	1	pdxST	sfoDF	46	P
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	56	1	2	pdxST	pdxST	24	PU
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	56	1	3	pdxST	pdxST	21	
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	56	1	4	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	57	2	5	sfoDF	sfoDF	16	PU
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	57	2	6	sfoDF	sfoDF	85	
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	57	2	7	sfoDF	sfoDF	10	
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	57	2	8	sfoDF	sfoDF	1	
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	58	3	9	pdxST	pdxST	7	PU
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	58	3	10	pdxST	sfoDF	1	D
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	59	4	11	sfoDF	sfoDF	16	PU
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	60	5	12	pdxST	pdxST	24	PU
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	60	5	13	pdxST	pdxST	21	
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	60	5	14	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	60	5	15	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	60	5	16	pdxST	pdxST	2	
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	60	5	17	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	60	5	18	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	60	5	19	pdxST	pdxST	42	
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	60	5	20	pdxST	pdxST	2	TD
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	61	6	21	sfoDF	sfoDF	16	PUA
+2014-04-26_pdxST-at-sfoDF	3	21	sfoDF	61	6	22	sfoDF	sfoDF	1	LG
+2014-04-26_pdxST-at-sfoDF	3	22	sfoDF	62	1	1	pdxST	sfoDF	23	P
+2014-04-26_pdxST-at-sfoDF	3	22	sfoDF	62	1	2	pdxST	pdxST	10	PU
+2014-04-26_pdxST-at-sfoDF	3	22	sfoDF	62	1	3	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	3	22	sfoDF	62	1	4	pdxST	pdxST	16	
+2014-04-26_pdxST-at-sfoDF	3	22	sfoDF	62	1	5	pdxST	pdxST	6	
+2014-04-26_pdxST-at-sfoDF	3	22	sfoDF	62	1	6	pdxST	sfoDF	24	D
+2014-04-26_pdxST-at-sfoDF	3	22	sfoDF	63	2	7	sfoDF	sfoDF	13	A
+2014-04-26_pdxST-at-sfoDF	3	22	sfoDF	63	2	8	sfoDF	sfoDF	40	LG
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	64	1	1	pdxST	sfoDF	11	P
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	64	1	2	pdxST	pdxST	9	PU
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	64	1	3	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	64	1	4	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	64	1	5	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	64	1	6	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	64	1	7	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	64	1	8	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	64	1	9	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	64	1	10	pdxST	pdxST	9	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	64	1	11	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	64	1	12	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	64	1	13	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	64	1	14	pdxST	sfoDF	9	D
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	65	2	15	sfoDF	sfoDF	17	PU
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	66	3	16	pdxST	pdxST	11	PU
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	66	3	17	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	66	3	18	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	66	3	19	pdxST	pdxST	9	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	66	3	20	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	66	3	21	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	66	3	22	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	66	3	23	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	66	3	24	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	66	3	25	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	66	3	26	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	66	3	27	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	66	3	28	pdxST	pdxST	9	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	66	3	29	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	66	3	30	pdxST	pdxST	2	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	66	3	31	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	66	3	32	pdxST	pdxST	10	A
+2014-04-26_pdxST-at-sfoDF	3	23	sfoDF	66	3	33	pdxST	pdxST	42	LG
+2014-04-26_pdxST-at-sfoDF	3	24	pdxST	67	1	1	sfoDF	pdxST	8	P
+2014-04-26_pdxST-at-sfoDF	3	24	pdxST	67	1	2	sfoDF	sfoDF	57	PU
+2014-04-26_pdxST-at-sfoDF	3	24	pdxST	67	1	3	sfoDF	sfoDF	8	
+2014-04-26_pdxST-at-sfoDF	3	24	pdxST	67	1	4	sfoDF	sfoDF	57	
+2014-04-26_pdxST-at-sfoDF	3	24	pdxST	67	1	5	sfoDF	sfoDF	34	
+2014-04-26_pdxST-at-sfoDF	3	24	pdxST	67	1	6	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	3	24	pdxST	67	1	7	sfoDF	sfoDF	88	
+2014-04-26_pdxST-at-sfoDF	3	24	pdxST	67	1	8	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	3	24	pdxST	67	1	9	sfoDF	sfoDF	8	
+2014-04-26_pdxST-at-sfoDF	3	24	pdxST	67	1	10	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	3	24	pdxST	67	1	11	sfoDF	sfoDF	40	
+2014-04-26_pdxST-at-sfoDF	3	24	pdxST	67	1	12	sfoDF	sfoDF	88	
+2014-04-26_pdxST-at-sfoDF	3	24	pdxST	67	1	13	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	3	24	pdxST	67	1	14	sfoDF	sfoDF	88	
+2014-04-26_pdxST-at-sfoDF	3	24	pdxST	67	1	15	sfoDF	sfoDF	34	
+2014-04-26_pdxST-at-sfoDF	3	24	pdxST	67	1	16	sfoDF	sfoDF	88	
+2014-04-26_pdxST-at-sfoDF	3	24	pdxST	68	2	17	pdxST	pdxST	21	PU
+2014-04-26_pdxST-at-sfoDF	3	24	pdxST	68	2	18	pdxST	pdxST	22	A
+2014-04-26_pdxST-at-sfoDF	3	24	pdxST	68	2	19	pdxST	pdxST	4	LG
+2014-04-26_pdxST-at-sfoDF	3	25	pdxST	69	1	1	sfoDF	pdxST	8	P
+2014-04-26_pdxST-at-sfoDF	3	25	pdxST	69	1	2	sfoDF	sfoDF	88	PU
+2014-04-26_pdxST-at-sfoDF	3	25	pdxST	69	1	3	sfoDF	sfoDF	5	
+2014-04-26_pdxST-at-sfoDF	3	25	pdxST	69	1	4	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	3	25	pdxST	69	1	5	sfoDF	sfoDF	40	A
+2014-04-26_pdxST-at-sfoDF	3	25	pdxST	69	1	6	sfoDF	sfoDF	24	LG
+2014-04-26_pdxST-at-sfoDF	3	26	sfoDF	70	1	1	pdxST	sfoDF	46	P
+2014-04-26_pdxST-at-sfoDF	3	26	sfoDF	70	1	2	pdxST	pdxST	7	PU
+2014-04-26_pdxST-at-sfoDF	3	26	sfoDF	70	1	3	pdxST	pdxST	42	
+2014-04-26_pdxST-at-sfoDF	3	26	sfoDF	70	1	4	pdxST	sfoDF	10	F
+2014-04-26_pdxST-at-sfoDF	3	26	sfoDF	70	1	5	pdxST	pdxST	16	
+2014-04-26_pdxST-at-sfoDF	3	26	sfoDF	70	1	6	pdxST	sfoDF	16	F
+2014-04-26_pdxST-at-sfoDF	3	26	sfoDF	70	1	7	pdxST	sfoDF	16	D
+2014-04-26_pdxST-at-sfoDF	3	26	sfoDF	71	2	8	sfoDF	sfoDF	21	PU
+2014-04-26_pdxST-at-sfoDF	3	26	sfoDF	71	2	9	sfoDF	pdxST	42	FB
+2014-04-26_pdxST-at-sfoDF	3	26	sfoDF	72	3	10	pdxST	pdxST	7	PU
+2014-04-26_pdxST-at-sfoDF	3	26	sfoDF	72	3	11	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	3	26	sfoDF	72	3	12	pdxST	pdxST	42	
+2014-04-26_pdxST-at-sfoDF	3	26	sfoDF	72	3	13	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	3	26	sfoDF	72	3	14	pdxST	pdxST	42	
+2014-04-26_pdxST-at-sfoDF	3	26	sfoDF	73	4	15	sfoDF	sfoDF	1	PU
+2014-04-26_pdxST-at-sfoDF	4	27	pdxST	74	1	1	sfoDF	pdxST	8	P
+2014-04-26_pdxST-at-sfoDF	4	27	pdxST	74	1	2	sfoDF	sfoDF	57	PU
+2014-04-26_pdxST-at-sfoDF	4	27	pdxST	74	1	3	sfoDF	sfoDF	8	
+2014-04-26_pdxST-at-sfoDF	4	27	pdxST	74	1	4	sfoDF	sfoDF	34	
+2014-04-26_pdxST-at-sfoDF	4	27	pdxST	75	2	5	pdxST	pdxST	21	PU
+2014-04-26_pdxST-at-sfoDF	4	27	pdxST	75	2	6	pdxST	pdxST	8	
+2014-04-26_pdxST-at-sfoDF	4	27	pdxST	75	2	7	pdxST	pdxST	7	L
+2014-04-26_pdxST-at-sfoDF	4	27	pdxST	75	2	8	pdxST	pdxST	6	A
+2014-04-26_pdxST-at-sfoDF	4	27	pdxST	75	2	9	pdxST	pdxST	5	G
+2014-04-26_pdxST-at-sfoDF	4	28	pdxST	76	1	1	sfoDF	pdxST	8	P
+2014-04-26_pdxST-at-sfoDF	4	28	pdxST	76	1	2	sfoDF	sfoDF	5	PU
+2014-04-26_pdxST-at-sfoDF	4	28	pdxST	76	1	3	sfoDF	sfoDF	40	
+2014-04-26_pdxST-at-sfoDF	4	28	pdxST	77	2	4	pdxST	pdxST	42	PU
+2014-04-26_pdxST-at-sfoDF	4	28	pdxST	77	2	5	pdxST	pdxST	8	
+2014-04-26_pdxST-at-sfoDF	4	28	pdxST	77	2	6	pdxST	pdxST	16	
+2014-04-26_pdxST-at-sfoDF	4	28	pdxST	77	2	7	pdxST	pdxST	42	
+2014-04-26_pdxST-at-sfoDF	4	28	pdxST	77	2	8	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	4	28	pdxST	77	2	9	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	4	28	pdxST	77	2	10	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	4	28	pdxST	77	2	11	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	4	28	pdxST	77	2	12	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	4	28	pdxST	77	2	13	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	4	28	pdxST	77	2	14	pdxST	pdxST	16	
+2014-04-26_pdxST-at-sfoDF	4	28	pdxST	77	2	15	pdxST	pdxST	24	A
+2014-04-26_pdxST-at-sfoDF	4	28	pdxST	77	2	16	pdxST	pdxST	7	LG
+2014-04-26_pdxST-at-sfoDF	4	29	pdxST	78	1	1	sfoDF	pdxST	8	P
+2014-04-26_pdxST-at-sfoDF	4	29	pdxST	78	1	2	sfoDF	sfoDF	5	PU
+2014-04-26_pdxST-at-sfoDF	4	29	pdxST	78	1	3	sfoDF	sfoDF	34	
+2014-04-26_pdxST-at-sfoDF	4	29	pdxST	78	1	4	sfoDF	sfoDF	88	
+2014-04-26_pdxST-at-sfoDF	4	29	pdxST	78	1	5	sfoDF	sfoDF	5	
+2014-04-26_pdxST-at-sfoDF	4	29	pdxST	78	1	6	sfoDF	sfoDF	88	
+2014-04-26_pdxST-at-sfoDF	4	29	pdxST	78	1	7	sfoDF	sfoDF	34	
+2014-04-26_pdxST-at-sfoDF	4	29	pdxST	78	1	8	sfoDF	sfoDF	23	TD
+2014-04-26_pdxST-at-sfoDF	4	29	pdxST	79	2	9	pdxST	pdxST	21	PU
+2014-04-26_pdxST-at-sfoDF	4	29	pdxST	79	2	10	pdxST	pdxST	8	A
+2014-04-26_pdxST-at-sfoDF	4	29	pdxST	79	2	11	pdxST	pdxST	22	G
+2014-04-26_pdxST-at-sfoDF	4	30	pdxST	80	1	1	sfoDF	pdxST	7	P
+2014-04-26_pdxST-at-sfoDF	4	30	pdxST	80	1	2	sfoDF	sfoDF	16	PU
+2014-04-26_pdxST-at-sfoDF	4	30	pdxST	80	1	3	sfoDF	sfoDF	21	LA
+2014-04-26_pdxST-at-sfoDF	4	30	pdxST	80	1	4	sfoDF	sfoDF	1	G
+2014-04-26_pdxST-at-sfoDF	4	31	sfoDF	81	1	1	pdxST	sfoDF	46	P
+2014-04-26_pdxST-at-sfoDF	4	31	sfoDF	81	1	2	pdxST	pdxST	7	PU
+2014-04-26_pdxST-at-sfoDF	4	31	sfoDF	81	1	3	pdxST	pdxST	21	
+2014-04-26_pdxST-at-sfoDF	4	31	sfoDF	82	2	4	sfoDF	sfoDF	12	PU
+2014-04-26_pdxST-at-sfoDF	4	31	sfoDF	82	2	5	sfoDF	sfoDF	12	VTT
+2014-04-26_pdxST-at-sfoDF	4	31	sfoDF	83	3	6	pdxST	pdxST	21	PUA
+2014-04-26_pdxST-at-sfoDF	4	31	sfoDF	83	3	7	pdxST	pdxST	8	G
+2014-04-26_pdxST-at-sfoDF	4	32	pdxST	84	1	1	sfoDF	pdxST	7	P
+2014-04-26_pdxST-at-sfoDF	4	32	pdxST	84	1	2	sfoDF	sfoDF	13	PU
+2014-04-26_pdxST-at-sfoDF	4	32	pdxST	85	2	3	pdxST	pdxST	7	PU
+2014-04-26_pdxST-at-sfoDF	4	32	pdxST	85	2	4	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	4	32	pdxST	85	2	5	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	4	32	pdxST	85	2	6	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	4	32	pdxST	85	2	7	pdxST	pdxST	17	TD
+2014-04-26_pdxST-at-sfoDF	4	32	pdxST	86	3	8	sfoDF	sfoDF	34	PU
+2014-04-26_pdxST-at-sfoDF	4	32	pdxST	86	3	9	sfoDF	sfoDF	40	A
+2014-04-26_pdxST-at-sfoDF	4	32	pdxST	86	3	10	sfoDF	sfoDF	13	LG
+2014-04-26_pdxST-at-sfoDF	4	33	sfoDF	87	1	1	pdxST	sfoDF	23	P
+2014-04-26_pdxST-at-sfoDF	4	33	sfoDF	87	1	2	pdxST	pdxST	9	PU
+2014-04-26_pdxST-at-sfoDF	4	33	sfoDF	87	1	3	pdxST	pdxST	21	
+2014-04-26_pdxST-at-sfoDF	4	33	sfoDF	87	1	4	pdxST	pdxST	42	
+2014-04-26_pdxST-at-sfoDF	4	33	sfoDF	87	1	5	pdxST	pdxST	2	
+2014-04-26_pdxST-at-sfoDF	4	33	sfoDF	87	1	6	pdxST	pdxST	9	
+2014-04-26_pdxST-at-sfoDF	4	33	sfoDF	87	1	7	pdxST	pdxST	21	
+2014-04-26_pdxST-at-sfoDF	4	33	sfoDF	87	1	8	pdxST	pdxST	6	
+2014-04-26_pdxST-at-sfoDF	4	33	sfoDF	87	1	9	pdxST	sfoDF	23	F
+2014-04-26_pdxST-at-sfoDF	4	33	sfoDF	87	1	10	pdxST	pdxST	21	A
+2014-04-26_pdxST-at-sfoDF	4	33	sfoDF	87	1	11	pdxST	pdxST	7	G
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	88	1	1	sfoDF	pdxST	8	P
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	88	1	2	sfoDF	sfoDF	5	PU
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	88	1	3	sfoDF	sfoDF	34	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	88	1	4	sfoDF	sfoDF	24	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	88	1	5	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	88	1	6	sfoDF	sfoDF	40	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	88	1	7	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	88	1	8	sfoDF	pdxST	6	D
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	89	2	9	pdxST	pdxST	6	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	89	2	10	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	89	2	11	pdxST	pdxST	8	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	89	2	12	pdxST	pdxST	42	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	89	2	13	pdxST	pdxST	6	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	89	2	14	pdxST	pdxST	8	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	89	2	15	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	89	2	16	pdxST	pdxST	42	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	89	2	17	pdxST	pdxST	17	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	89	2	18	pdxST	pdxST	42	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	89	2	19	pdxST	pdxST	7	TD
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	90	3	20	sfoDF	sfoDF	40	PU
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	90	3	21	sfoDF	sfoDF	34	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	90	3	22	sfoDF	sfoDF	13	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	90	3	23	sfoDF	sfoDF	40	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	90	3	24	sfoDF	sfoDF	88	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	90	3	25	sfoDF	sfoDF	5	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	90	3	26	sfoDF	sfoDF	40	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	90	3	27	sfoDF	sfoDF	13	VST
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	91	4	28	pdxST	pdxST	8	TO
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	91	4	29	pdxST	pdxST	24	PU
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	91	4	30	pdxST	pdxST	21	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	91	4	31	pdxST	sfoDF	1	F
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	91	4	32	pdxST	pdxST	8	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	91	4	33	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	91	4	34	pdxST	pdxST	8	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	91	4	35	pdxST	pdxST	21	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	91	4	36	pdxST	pdxST	8	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	91	4	37	pdxST	pdxST	21	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	91	4	38	pdxST	pdxST	8	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	91	4	39	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	91	4	40	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	91	4	41	pdxST	sfoDF	12	F
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	91	4	42	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	91	4	43	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	92	5	44	sfoDF	sfoDF	16	PU
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	92	5	45	sfoDF	pdxST	21	D
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	93	6	46	pdxST	pdxST	21	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	93	6	47	pdxST	pdxST	16	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	93	6	48	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	93	6	49	pdxST	pdxST	21	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	93	6	50	pdxST	sfoDF	21	D
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	94	7	51	sfoDF	sfoDF	16	TO
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	94	7	52	sfoDF	sfoDF	23	PU
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	94	7	53	sfoDF	pdxST	14	F
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	94	7	54	sfoDF	sfoDF	34	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	94	7	55	sfoDF	sfoDF	24	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	94	7	56	sfoDF	sfoDF	88	VST
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	95	8	57	pdxST	pdxST	11	PU
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	95	8	58	pdxST	pdxST	21	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	95	8	59	pdxST	pdxST	8	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	95	8	60	pdxST	pdxST	16	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	95	8	61	pdxST	pdxST	21	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	95	8	62	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	95	8	63	pdxST	pdxST	21	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	95	8	64	pdxST	pdxST	11	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	95	8	65	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	95	8	66	pdxST	pdxST	8	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	95	8	67	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	95	8	68	pdxST	pdxST	8	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	95	8	69	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	95	8	70	pdxST	pdxST	8	A
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	95	8	71	pdxST	sfoDF	40	F
+2014-04-26_pdxST-at-sfoDF	4	34	pdxST	95	8	72	pdxST	pdxST	7	G
+2014-04-26_pdxST-at-sfoDF	4	35	pdxST	96	1	1	sfoDF	pdxST	6	P
+2014-04-26_pdxST-at-sfoDF	4	35	pdxST	96	1	2	sfoDF	sfoDF	13	PU
+2014-04-26_pdxST-at-sfoDF	4	35	pdxST	96	1	3	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	97	1	1	pdxST	sfoDF	46	P
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	97	1	2	pdxST	pdxST	7	PU
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	97	1	3	pdxST	pdxST	24	
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	97	1	4	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	97	1	5	pdxST	pdxST	6	
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	97	1	6	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	97	1	7	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	97	1	8	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	97	1	9	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	97	1	10	pdxST	pdxST	2	
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	97	1	11	pdxST	pdxST	6	
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	97	1	12	pdxST	pdxST	8	TD
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	97	1	13	pdxST	sfoDF	10	D
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	98	2	14	sfoDF	sfoDF	12	PU
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	98	2	15	sfoDF	sfoDF	85	
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	99	3	16	pdxST	pdxST	24	PU
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	99	3	17	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	99	3	18	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	99	3	19	pdxST	pdxST	10	
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	99	3	20	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	99	3	21	pdxST	pdxST	10	A
+2014-04-26_pdxST-at-sfoDF	5	36	sfoDF	99	3	22	pdxST	pdxST	2	G
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	100	1	1	sfoDF	pdxST	21	P
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	100	1	2	sfoDF	sfoDF	88	PU
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	100	1	3	sfoDF	sfoDF	5	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	100	1	4	sfoDF	sfoDF	88	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	100	1	5	sfoDF	sfoDF	34	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	100	1	6	sfoDF	sfoDF	5	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	100	1	7	sfoDF	sfoDF	24	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	100	1	8	sfoDF	sfoDF	34	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	100	1	9	sfoDF	pdxST	6	D
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	101	2	10	pdxST	pdxST	22	PU
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	101	2	11	pdxST	pdxST	6	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	101	2	12	pdxST	sfoDF	24	D
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	102	3	13	sfoDF	sfoDF	5	PU
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	102	3	14	sfoDF	sfoDF	13	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	102	3	15	sfoDF	sfoDF	24	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	102	3	16	sfoDF	sfoDF	88	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	102	3	17	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	103	4	18	pdxST	pdxST	6	PU
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	103	4	19	pdxST	pdxST	21	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	103	4	20	pdxST	pdxST	5	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	103	4	21	pdxST	sfoDF	5	D
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	104	5	22	sfoDF	sfoDF	34	PU
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	104	5	23	sfoDF	sfoDF	8	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	104	5	24	sfoDF	sfoDF	24	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	104	5	25	sfoDF	sfoDF	13	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	104	5	26	sfoDF	sfoDF	5	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	104	5	27	sfoDF	sfoDF	34	TO
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	104	5	28	sfoDF	sfoDF	40	PU
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	104	5	29	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	104	5	30	sfoDF	sfoDF	13	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	104	5	31	sfoDF	sfoDF	46	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	104	5	32	sfoDF	sfoDF	23	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	105	6	33	pdxST	pdxST	21	PU
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	105	6	34	pdxST	pdxST	9	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	105	6	35	pdxST	pdxST	21	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	105	6	36	pdxST	pdxST	14	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	105	6	37	pdxST	pdxST	17	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	105	6	38	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	105	6	39	pdxST	pdxST	4	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	105	6	40	pdxST	pdxST	7	
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	105	6	41	pdxST	pdxST	22	A
+2014-04-26_pdxST-at-sfoDF	5	37	pdxST	105	6	42	pdxST	pdxST	9	LG
+2014-04-26_pdxST-at-sfoDF	5	38	pdxST	106	1	1	sfoDF	pdxST	11	P
+2014-04-26_pdxST-at-sfoDF	5	38	pdxST	106	1	2	sfoDF	sfoDF	16	PU
+2014-04-26_pdxST-at-sfoDF	5	38	pdxST	106	1	3	sfoDF	pdxST	14	D
