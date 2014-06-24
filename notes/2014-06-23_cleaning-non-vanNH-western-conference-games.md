@@ -36,4 +36,22 @@ Point 7: 2:57 left in period 1, score is 3-4. How can 13-seaRM get a D, then imm
 
 sfoDF-11-Lee: I have 1D, MLU has 2.
   
+MLU: "Official Statistics - 2014 - Week 3 - 4/26 - Stags @ Dogfish"
+JB: 2014-04-26_pdxST-at-sfoDF
 
+Fixed essentially everywhere:
+
+  * Portland --> Portland Stags  
+  * San Francisco --> San Francisco Dogfish  
+  * GL, gL, gl --> LG  
+  * Add `PU` for pick-up after the pull 
+
+Corrected times where fractions of second were recorded near end of periods 2 and 4.
+
+Period "ot" --> 5
+
+Point 13: 6:18 left in the 2nd, score 5-7. sfoDF pulls, on the 2nd time they get possession, 17Ds 17PU 17 cth huh? I STRAIGHTENED OUT THE GAME PLAY HERE, which results in a new D for pdxST #2.
+
+Point 36: Near 1:00 in video, first point of overtime, score 16-16. seaRM turnover due to 8-seaRM turnover drop or 10-sfoDF D? Shouldn't we choose between those? If 8 had caught it, we would not give 10 the D. So shouldn't this be a drop, since it was catchable despite the tip?
+
+D's for sfoDF-17-Boyd-Meredith. I can only find 1 (point 13) but MLU is reporting 2. pdxST-17 gets a D in point 9 ... is that somehow confusing things?

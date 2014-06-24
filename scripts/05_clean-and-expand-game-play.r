@@ -7,12 +7,13 @@ options <- commandArgs(trailingOnly = TRUE)
 if(length(options) < 1) {
   #game <- "2014-04-12_vanNH-at-pdxST"
   #game <- "2014-04-20_sfoDF-at-vanNH"
-  game <- "2014-04-26_vanNH-at-seaRM"
+  #game <- "2014-04-26_vanNH-at-seaRM"
   #game <- "2014-05-10_seaRM-at-vanNH"
   #game <- "2014-05-17_vanNH-at-sfoDF"
   #game <- "2014-05-24_pdxST-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
   #game <- "2014-06-07_seaRM-at-vanNH"
+  game <- "2014-04-26_pdxST-at-sfoDF"
 } else {
   game <- options[1]
 }
@@ -160,6 +161,10 @@ jFun <- function(x) {
     if(all(codes %in% offense_codes == !(codes %in% foul_codes))) {
       if(names(codes)[codes %in% offense_codes] == "recvCode") {
         jOrder <- c("recv", "pull")
+        ## this erroneous data once produced a warning message here:
+        ##     point event pullRaw pullNum pullCode recvRaw recvNum recvCode
+        ## 213    13    12      17      17              2pu       2       PU
+        ## I corrected the data and did not delve into the code.
       } else {
         jOrder <- c("pull", "recv")
       }

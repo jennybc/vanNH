@@ -7,6 +7,7 @@ In-house statistics for the Vancouver Nighthawks of Major League Ultimate
 
 To do
 
+  * Make sure I treat `LG` same as `GL`
   * If a point is missing the `PU` on the pick up after the pull, in game resolving script, this is over-reported. I.e. other points are implicated that, in fact, do have the `PU` code. Fix that.
   * 2014-06-15_pdxST-at-vanNH point 28: how to record offensive VP foul?
   * take comprehensive look at what's character vs factor
