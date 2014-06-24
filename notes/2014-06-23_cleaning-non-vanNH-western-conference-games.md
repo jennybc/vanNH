@@ -8,6 +8,10 @@ output: html_document
 MLU: "Official Statistics - 2014 - Week 1 - 4/12 - Rainmakers @ Dogfish"  
 JB: 2014-04-12_seaRM-at-sfoDF  
 
+Open question:
+
+  * I only find 1 D for seaRM-20-simon but MLU reports 2 for this game. (No other discrepancies in player-level assists, goals, Ds found.)
+
 Fixed essentially everywhere:
 
   * Seattle --> Seattle Rainmakers  
@@ -15,15 +19,21 @@ Fixed essentially everywhere:
   * GL --> LG  
   * Add `PU` for pick-up after the pull 
   * I note that no times noted for when points end/start! And video does not show, so this cannot be fixed.
+
+MLU: Official Statistics - 2014 - Week 2 - 4/19 - Dogfish @ Rainmakers
+JB: 2014-04-19_sfoDF-at-seaRM
+
+Fixed essentially everywhere:
+
+  * Seattle --> Seattle Rainmakers  
+  * San Francisco --> San Francisco Dogfish  
+ 
+Points 11, 13, 35, 39: added `PU` to pick up off the pull.
+
+Point 36: 59:49 in video, 5:55 left in period 4, score is 15-17. Why is 24-seaRM marked as picking up after he already has disc and gets fouled? I CORRECTED THIS and simply removed the cell with 24PU.
+
+Point 7: 2:57 left in period 1, score is 3-4. How can 13-seaRM get a D, then immediately get a turnover drop? I ADDED A PU code to 88-sfoDF when they get the disc back and eventually score. VIDEO DOES NOT INCLUDE THIS POINT.
+
   
-Points 10, 11, 14, 16, 28, 36, 37: added row/cell/event for the pull and populated with `?P`  
+  
 
-Points I watched on video:
-
-  * Point 18: 23:20 on video, score 8-8 at start, in 2nd period, 35 on seaRM ... interception or knock-down D? INTERCEPTION no change to sheet  
-  * Point 23: 28:22 on video, score 10-10 at start, first point of 3rd period, 3 on seaRM ... how does he throw to himself? HE DOES NOT There is first a foul on him as thrower, recorded in same row, then his throw gets D'd. I think the stat keeper thought a second cell holding 3 was necessary but I don't thin it is. REMOVED that row.
-  * Point 29: 35:21 on video. Make sure 15 on seaRM gets knock down D then 20 picks up. CONFIRMED.
-  * Point 33: 83 on sfoDF ... interception or knock-down D? CONFIRMED interception D around 42:40.
-  * Point 35: 44:35 on video, first point of period 4 score 15 16. 20 on seaRM ... interception or knock-down D? INTERCEPTION D confirmed.
-  * Point 36: 48:30 on video, period 4, score 16-16. 9 on seaRM ... interception or knock-down D? INTERCEPTION D confirmed. Although he sets the disc down on the ground at some point?!?
-  * Point 37: there's a foul and a D on same throw; check my script does something sensible  

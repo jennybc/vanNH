@@ -1,0 +1,47 @@
+point	Pulling.team	Period	Clock.before.point	Clock.after.point
+1	San Francisco Dogfish	1	10:00:00	9:06:00
+2	Seattle Rainmakers	1	9:06:00	8:37:00
+3	San Francisco Dogfish	1	8:37:00	7:42:00
+4	Seattle Rainmakers	1	7:42:00	5:15:00
+5	Seattle Rainmakers	1	5:15:00	3:15:00
+6	San Francisco Dogfish	1	3:15:00	2:57:00
+7	Seattle Rainmakers	1	2:57:00	2:14:00
+8	San Francisco Dogfish	1	2:14:00	0:00:00
+9	San Francisco Dogfish	2	10:00:00	9:37:00
+10	Seattle Rainmakers	2	9:37:00	8:23:00
+11	San Francisco Dogfish	2	8:23:00	7:31:00
+12	Seattle Rainmakers	2	7:31:00	7:00:00
+13	San Francisco Dogfish	2	7:00:00	6:37:00
+14	Seattle Rainmakers	2	6:37:00	6:03:00
+15	Seattle Rainmakers	2	6:03:00	4:25:00
+16	San Francisco Dogfish	2	4:25:00	3:59:00
+17	Seattle Rainmakers	2	3:59:00	3:27:00
+18	San Francisco Dogfish	2	3:27:00	3:01:00
+19	San Francisco Dogfish	2	3:01:00	2:40:00
+20	Seattle Rainmakers	2	2:40:00	0:41:00
+21	Seattle Rainmakers	2	0:41:00	0:17:00
+22	San Francisco Dogfish	2	0:17:00	0:00:00
+23	Seattle Rainmakers	3	10:00:00	9:01:00
+24	Seattle Rainmakers	3	9:01:00	8:38:00
+25	San Francisco Dogfish	3	8:38:00	8:20:00
+26	Seattle Rainmakers	3	8:20:00	7:09:00
+27	San Francisco Dogfish	3	7:09:00	6:36:00
+28	Seattle Rainmakers	3	6:36:00	4:47:00
+29	Seattle Rainmakers	3	4:47:00	4:09:00
+30	San Francisco Dogfish	3	4:09:00	3:46:00
+31	Seattle Rainmakers	3	3:46:00	0:00:00
+32	Seattle Rainmakers	4	10:00:00	9:05:00
+33	San Francisco Dogfish	4	9:05:00	7:14:00
+34	Seattle Rainmakers	4	7:14:00	6:22:00
+35	San Francisco Dogfish	4	6:22:00	5:55:00
+36	San Francisco Dogfish	4	5:55:00	4:24:00
+37	San Francisco Dogfish	4	4:24:00	3:37:00
+38	Seattle Rainmakers	4	3:37:00	3:00:00
+39	Seattle Rainmakers	4	3:00:00	2:28:00
+40	San Francisco Dogfish	4	2:28:00	0:49:00
+41	San Francisco Dogfish	4	0:49:00	0:06:00
+42	San Francisco Dogfish	4	0:06:00	0:00:00
+43	San Francisco Dogfish	OT	5:00:00	2:30:00
+44	Seattle Rainmakers	OT	2:30:00	2:13:00
+45	Seattle Rainmakers	OT	2:13:00	0:08:00
+46	San Francisco Dogfish	OT	0:08:00	0:00:00

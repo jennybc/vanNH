@@ -8,14 +8,14 @@ games <- c("2014-04-12_vanNH-at-pdxST", "2014-04-20_sfoDF-at-vanNH",
            "2014-05-17_vanNH-at-sfoDF", "2014-05-24_pdxST-at-vanNH",
            "2014-05-31_vanNH-at-seaRM", "2014-06-07_seaRM-at-vanNH",
            "2014-06-15_pdxST-at-vanNH",
-           "2014-04-12_seaRM-at-sfoDF")
+           "2014-04-12_seaRM-at-sfoDF", "2014-04-19_sfoDF-at-seaRM")
 game_file <- file.path("..", "games", games, "07_resolvedGame",
                        paste0(games, "_gameplay-resolved.tsv"))
 names(game_file) <- games
 game_play <-
   ldply(game_file, function(gg) read.delim(gg, stringsAsFactor = FALSE),
         .id = "game")
-str(game_play) # 5664 obs. of  8 variables
+str(game_play) # 6872 obs. of  8 variables
 
 ## function to create numbered possessions
 ## feed it raw poss_team (as a vector) or a matrix/data.fram with poss_team and
@@ -102,7 +102,7 @@ poss_dat <- ddply(game_play, ~ game + poss_abs, function(x) {
   }
   data.frame(x[n, ], score = any(score), scor_team, who)
 })
-str(poss_dat) # 842 obs. of  14 variables:
+str(poss_dat) # 1052 obs. of  14 variables:
 
 ## sanity checks of poss_dat
 (tmp <- ddply(poss_dat, ~ game,

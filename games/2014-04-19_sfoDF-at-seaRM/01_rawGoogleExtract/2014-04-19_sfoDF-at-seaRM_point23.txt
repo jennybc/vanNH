@@ -1,0 +1,28 @@
+Pulling team: Seattle Rainmakers
+Period: 3
+Clock before point: 10:00:00
+Clock after point: 9:01:00
+Offense	Defense
+	24P
+57PU	
+83	
+57	
+24	
+57	
+83	
+8	
+83	
+	13pu
+	18
+	23
+	24
+	29
+	21
+	24
+	21
+	29
+	21
+	23
+	21
+	23
+	12G
