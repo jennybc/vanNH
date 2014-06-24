@@ -34,6 +34,6 @@ Point 36: 59:49 in video, 5:55 left in period 4, score is 15-17. Why is 24-seaRM
 
 Point 7: 2:57 left in period 1, score is 3-4. How can 13-seaRM get a D, then immediately get a turnover drop? I ADDED A PU code to 88-sfoDF when they get the disc back and eventually score. VIDEO DOES NOT INCLUDE THIS POINT.
 
-  
+sfoDF-11-Lee: I have 1D, MLU has 2.
   
 

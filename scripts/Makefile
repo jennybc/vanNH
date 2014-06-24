@@ -22,15 +22,14 @@
 #GOOGAME ?= "Official Statistics - 2014 - Week 9 - 6/7 - Rainmakers @ Nighthawks"
 #GAME ?= 2014-06-07_seaRM-at-vanNH
 
-GOOGAME ?= "Official Statistics - 2014 - Week 10 - 6/15 - Stags @ Nighthawks"
-GAME ?= 2014-06-15_pdxST-at-vanNH
+#GOOGAME ?= "Official Statistics - 2014 - Week 10 - 6/15 - Stags @ Nighthawks"
+#GAME ?= 2014-06-15_pdxST-at-vanNH
 
 #GOOGAME ?= "Official Statistics - 2014 - Week 1 - 4/12 - Rainmakers @ Dogfish"
 #GAME ?= 2014-04-12_seaRM-at-sfoDF
 
-#GOOGAME ?= "Official Statistics - 2014 - Week 2 - 4/19 - Dogfish @ Rainmakers"
-#GAME ?= 2014-04-19_sfoDF-at-seaRM
-
+GOOGAME ?= "Official Statistics - 2014 - Week 2 - 4/19 - Dogfish @ Rainmakers"
+GAME ?= 2014-04-19_sfoDF-at-seaRM
 
 #GOOGAME ?= "test"
 #GAME ?= 2014-12-31_pdxST-at-vanNH

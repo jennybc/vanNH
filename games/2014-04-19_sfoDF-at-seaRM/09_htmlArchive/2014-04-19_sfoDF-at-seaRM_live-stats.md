@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Mon Jun 23 21:11:43 2014
+#### last update Tue Jun 24 06:03:20 2014
 # sfoDF 20
 # seaRM 21
 ## game is complete
@@ -151,8 +151,8 @@ stats are cumulative for this game
 |     6|1      |sfoDF     |     5|seaRM   |17      |A       |seaRM     |zemel         |seaRM-17-zemel         |     4|     2|
 |     6|1      |sfoDF     |     6|seaRM   |6       |G       |seaRM     |trytiak       |seaRM-6-trytiak        |     4|     2|
 |     7|1      |seaRM     |     3|seaRM   |13      |D       |sfoDF     |sewell        |seaRM-13-sewell        |     4|     3|
-|     7|1      |seaRM     |     9|sfoDF   |19      |A       |sfoDF     |Weiss         |sfoDF-19-Weiss         |     4|     3|
-|     7|1      |seaRM     |    10|sfoDF   |24      |G       |sfoDF     |Caulfield     |sfoDF-24-Caulfield     |     4|     3|
+|     7|1      |seaRM     |    10|sfoDF   |19      |A       |sfoDF     |Weiss         |sfoDF-19-Weiss         |     4|     3|
+|     7|1      |seaRM     |    11|sfoDF   |24      |G       |sfoDF     |Caulfield     |sfoDF-24-Caulfield     |     4|     3|
 |     8|1      |sfoDF     |     4|sfoDF   |85      |D       |seaRM     |Brydon        |sfoDF-85-Brydon        |     4|     3|
 |     8|1      |sfoDF     |    16|seaRM   |00      |D       |sfoDF     |rupp          |seaRM-00-rupp          |     4|     3|
 |     9|2      |sfoDF     |     8|seaRM   |25      |A       |seaRM     |rosatto       |seaRM-25-rosatto       |     5|     3|
@@ -338,13 +338,14 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |1      |     7|     1|seaRM   |24      |OBP     |sfoDF     |
 |1      |     7|     2|sfoDF   |88      |PU      |sfoDF     |
 |1      |     7|     3|seaRM   |13      |D       |sfoDF     |
-|1      |     7|     4|seaRM   |13      |TD      |seaRM     |
-|1      |     7|     5|sfoDF   |88      |PU      |sfoDF     |
-|1      |     7|     6|sfoDF   |34      |        |sfoDF     |
-|1      |     7|     7|sfoDF   |88      |        |sfoDF     |
-|1      |     7|     8|sfoDF   |34      |        |sfoDF     |
-|1      |     7|     9|sfoDF   |19      |A       |sfoDF     |
-|1      |     7|    10|sfoDF   |24      |G       |sfoDF     |
+|1      |     7|     4|seaRM   |?       |        |seaRM     |
+|1      |     7|     5|seaRM   |13      |TD      |seaRM     |
+|1      |     7|     6|sfoDF   |88      |PU      |sfoDF     |
+|1      |     7|     7|sfoDF   |34      |        |sfoDF     |
+|1      |     7|     8|sfoDF   |88      |        |sfoDF     |
+|1      |     7|     9|sfoDF   |34      |        |sfoDF     |
+|1      |     7|    10|sfoDF   |19      |A       |sfoDF     |
+|1      |     7|    11|sfoDF   |24      |G       |sfoDF     |
 |1      |     8|     1|sfoDF   |16      |P       |seaRM     |
 |1      |     8|     2|seaRM   |25      |PU      |seaRM     |
 |1      |     8|     3|seaRM   |20      |        |seaRM     |
