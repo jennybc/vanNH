@@ -5,11 +5,14 @@ date: "24 June, 2014"
 output:
   html_document:
     theme: readable
+    toc: true
 ---
 
 Look under the hood: <https://github.com/jennybc/vanNH>
 
 Now playing: <http://www.stat.ubc.ca/~jenny/notOcto/vanNH/vanNH_nowPlaying.html>
+
+*Very beta* [Analysis of game play](analysis.html)
 
 ```{r include = FALSE, message = FALSE}
 library(yaml)
@@ -34,7 +37,10 @@ tmp <- c("week game",
          "08   2014-05-31_vanNH-at-seaRM",
          "09   2014-06-07_seaRM-at-vanNH",
          "10   2014-06-15_pdxST-at-vanNH",
-         "11   2014-06-21_vanNH-at-sfoDF")
+         "11   2014-06-21_vanNH-at-sfoDF",
+         "01   2014-04-12_seaRM-at-sfoDF",
+         "02   2014-04-19_sfoDF-at-seaRM",
+         "03   2014-04-26_pdxST-at-sfoDF")
 tmp <- read.table(text = tmp, header = TRUE,
                   colClasses = list(week = "character", game = "character"))
 
@@ -47,7 +53,8 @@ game_data <- ldply(yaml_files, function(x) {
 game_data <- rename(game_data, c(".id" = "game"))
 game_data <-
   subset(game_data,
-         select = -c(point, period, clk_before, clk_before, pull_team, scor_team))
+         select = -c(point, period, clk_before, clk_after,
+                     pull_team, scor_team))
 
 ## learn the date, home team, away team from the game ID
 x <- unique(game_data$game)
@@ -57,33 +64,35 @@ colnames(parsed_game_id) <- c("game", "date","awayTeam","homeTeam")
 game_data <- join(game_data, parsed_game_id)
 game_data <- join(game_data, tmp)
 
+## sub-data.frame for games involving vanNH
 ## add many more derived variables
-game_data <-
-  mutate(game_data,
+vanNH_data <- subset(game_data, !is.na(vanNH))
+vanNH_data <-
+  mutate(vanNH_data,
          status = ifelse(homeTeam == "vanNH", "home", "away"))
-all_teams <- with(game_data, sort(unique(c(awayTeam, homeTeam))))
+all_teams <- with(vanNH_data, sort(unique(c(awayTeam, homeTeam))))
 opponents <- all_teams[all_teams != "vanNH"]
-game_data$opponent <- 
-  aaply(game_data[opponents], 1,
+vanNH_data$opponent <- 
+  aaply(vanNH_data[opponents], 1,
         function(x) opponents[!is.na(x)], .expand = FALSE)
-game_data$oppScore <- 
-  aaply(game_data[opponents], 1, function(x) x[!is.na(x)], .expand = FALSE)
-game_data<- transform(game_data,
-                      outcome = ifelse(vanNH > oppScore, "W", "L"),
-                      pt_diff = vanNH - oppScore,
-                      final = I(paste0("vanNH: ", vanNH, "  ",
-                                       opponent, ": ", oppScore)),
-                      us = I(paste0("vanNH: ", vanNH)),
-                      them = I(paste0(opponent, ": ", oppScore)),
-#                       link = I(paste0('<a href=http://www.stat.ubc.ca/~jenny/',
-#                                    'notOcto/vanNH/', game_data$game,
-#                                    '_live-stats.html>', date, '</a>')))
-                      link = I(paste0('<a href=', game_data$game,
-                                      '_live-stats.html>', date, '</a>')))
-  
+vanNH_data$oppScore <- 
+  aaply(vanNH_data[opponents], 1, function(x) x[!is.na(x)], .expand = FALSE)
+vanNH_data <- transform(vanNH_data,
+                        outcome = ifelse(vanNH > oppScore, "W", "L"),
+                        pt_diff = vanNH - oppScore,
+                        final = I(paste0("vanNH: ", vanNH, "  ",
+                                         opponent, ": ", oppScore)),
+                        us = I(paste0("vanNH: ", vanNH)),
+                        them = I(paste0(opponent, ": ", oppScore)),
+                        # link = I(paste0('<a href=http://www.stat.ubc.ca/~jenny/',
+                        # 'notOcto/vanNH/', game_data$game,
+                        # '_live-stats.html>', date, '</a>')))
+                        link = I(paste0('<a href=', game,
+                                        '_live-stats.html>', date, '</a>')))
+
 pretty_vars <- c("week", "link", "status", "us", "them", "outcome",
                  "pt_diff")
-pretty_stuff <- game_data[pretty_vars]
+pretty_stuff <- vanNH_data[pretty_vars]
 pretty_stuff <- rename(pretty_stuff, c("link" = "date"))
 
 ## convert to character, then add a last row with relevant summaries
@@ -91,12 +100,32 @@ pretty_stuff <- as.matrix(colwise(as.character)(pretty_stuff))
 n <- nrow(pretty_stuff)
 pretty_stuff <- pretty_stuff[c(seq_len(n), n), ]
 pretty_stuff[n + 1, ] <- ""
-pretty_stuff[n + 1, "us"] <- paste0("vanNH: ", sum(game_data$vanNH))
-pretty_stuff[n + 1, "them"] <- paste0("opp: ", sum(game_data$oppScore))
-pretty_stuff[n + 1, "pt_diff"] <- as.character(sum(game_data$pt_diff))
+pretty_stuff[n + 1, "us"] <- paste0("vanNH: ", sum(vanNH_data$vanNH))
+pretty_stuff[n + 1, "them"] <- paste0("opp: ", sum(vanNH_data$oppScore))
+pretty_stuff[n + 1, "pt_diff"] <- as.character(sum(vanNH_data$pt_diff))
 pretty_stuff[n + 1, "outcome"] <- 
-  with(game_data, paste0(sum(outcome == "W"), "W - ", sum(outcome == "L"), "L"))
+  with(vanNH_data, paste0(sum(outcome == "W"),
+                          "W - ", sum(outcome == "L"), "L"))
+
+## sub-data.frame for games NOT involving vanNH
+## add many more derived variables
+othwc_data <- subset(game_data, is.na(vanNH))
+othwc_data <- transform(othwc_data,
+                        link = I(paste0('<a href=', game,
+                                        '_live-stats.html>', date, '</a>')))
+
+othwc_pretty_vars <- c("week", "link", "pdxST", "seaRM", "sfoDF")
+othwc_pretty_stuff <- othwc_data[othwc_pretty_vars]
+othwc_pretty_stuff <- rename(othwc_pretty_stuff, c("link" = "date"))
+
+## convert to character, then add a last row with relevant summaries
+othwc_pretty_stuff <- as.matrix(colwise(as.character)(othwc_pretty_stuff))
+jFun <- function(x) {x[is.na(x)] <- ""; return(x)}
+othwc_pretty_stuff[ , c('pdxST', 'seaRM', 'sfoDF')] <- 
+  apply(othwc_pretty_stuff[ , c('pdxST', 'seaRM', 'sfoDF')], 2, jFun)
 ```
+
+## Games involving the Vancouver Nighthawks.
 
 Click on a date to see stats for a game.
 
@@ -104,9 +133,15 @@ Click on a date to see stats for a game.
 kable(pretty_stuff)
 ```
 
-Week 04 was a bye week for vanNH.  
+## Other games in the MLU Western Conference.
 
-*Very beta* [Analysis of game play](analysis.html)
+Click on a date to see stats for a game.
+
+```{r echo = FALSE, results = 'asis'}
+kable(othwc_pretty_stuff)
+```
+
+Week 04 was a bye week for vanNH.  
 
 ```{r results = 'asis', echo = FALSE, eval = FALSE}
 print(xtable(pretty_stuff, type = "html", sanitize.text.function = force),
