@@ -25,20 +25,23 @@
 #GOOGAME ?= "Official Statistics - 2014 - Week 10 - 6/15 - Stags @ Nighthawks"
 #GAME ?= 2014-06-15_pdxST-at-vanNH
 
+GOOGAME ?= "Official Statistics - 2014 - Week 11 - 6/21 - Nighthawks @ Dogfish"
+GAME ?= 2014-06-21_vanNH-at-sfoDF
+
 #GOOGAME ?= "Official Statistics - 2014 - Week 1 - 4/12 - Rainmakers @ Dogfish"
 #GAME ?= 2014-04-12_seaRM-at-sfoDF
 
 #GOOGAME ?= "Official Statistics - 2014 - Week 2 - 4/19 - Dogfish @ Rainmakers"
 #GAME ?= 2014-04-19_sfoDF-at-seaRM
 
-GOOGAME ?= "Official Statistics - 2014 - Week 3 - 4/26 - Stags @ Dogfish"
-GAME ?= 2014-04-26_pdxST-at-sfoDF
+#GOOGAME ?= "Official Statistics - 2014 - Week 3 - 4/26 - Stags @ Dogfish"
+#GAME ?= 2014-04-26_pdxST-at-sfoDF
 
 #GOOGAME ?= "test"
 #GAME ?= 2014-12-31_pdxST-at-vanNH
 
 sitrep:
-	echo $(GOOGAME) $(GAME) 
+	@echo $(GOOGAME) $(GAME) 
 
 init:
 	Rscript ./00_init-game.r $(GAME)

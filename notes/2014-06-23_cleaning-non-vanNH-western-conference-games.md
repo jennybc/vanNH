@@ -55,3 +55,14 @@ Point 13: 6:18 left in the 2nd, score 5-7. sfoDF pulls, on the 2nd time they get
 Point 36: Near 1:00 in video, first point of overtime, score 16-16. seaRM turnover due to 8-seaRM turnover drop or 10-sfoDF D? Shouldn't we choose between those? If 8 had caught it, we would not give 10 the D. So shouldn't this be a drop, since it was catchable despite the tip?
 
 D's for sfoDF-17-Boyd-Meredith. I can only find 1 (point 13) but MLU is reporting 2. pdxST-17 gets a D in point 9 ... is that somehow confusing things?
+
+
+
+
+Official Statistics - 2014 - Week 11 - 6/21 - Nighthawks @ Dogfish
+2014-06-21_vanNH-at-sfoDF
+
+Point 12: 9:02 left in period 2, score is 5-5. Many changes of possession ... 89-vanNH gets called for VTT and 23-sfoDF picks up, gets fouled by 98-vanNH then ?8-sfoDF? picks up? How does that work? GAME PLAY WAS GARBLED HERE. I corrected. A vanNH possession was essentially missed and, in particular, vanNH-98 did not foul sfoDF, rather he got an interception D, then threw it away. THIS GIVES WONG A NEW D.
+
+Points 12, 14, 15, 16, 27, 31: recoded a timeout as "?TO" instead of "to".
+
