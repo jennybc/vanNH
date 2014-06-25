@@ -19,16 +19,22 @@ poss_dat$c_code <-
   revalue(poss_dat$b_code,
           c("G" = "score", "off -" = "turnover", "def +" = "turnover"))
 
+foo <- ddply(subset(poss_dat, c_code != "eop"),
+             ~ poss_team, summarize, med_poss_length = median(n_events))
 p <- ggplot(subset(poss_dat, c_code != "eop"),
             aes(x = poss_team, y = n_events, fill = poss_team))
 p <- p + geom_boxplot(outlier.colour = NA, width = 0.6) +
-  geom_jitter(alpha = 1/5, size = 1) + ylim(0, 20) +
+  geom_jitter(alpha = 1/5, size = 1) + coord_cartesian(ylim = c(0, 23)) +
   scale_fill_manual(values = mlu_cols) + guides(fill = FALSE) +
   xlab("possessing team") + ylab("# events in possession")
+p <- p + geom_text(data = foo, aes(x = poss_team,
+                                   y = med_poss_length, label = med_poss_length),
+                   vjust = -0.4)
 p
 out_file <- "dot_and_boxplot_events_per_possession_by_poss_team.png"
 out_file <- file.path("..", "web", "figs", out_file)
 ggsave(out_file, p, width = jWidth, height = jHeight)
+
 
 q <- p + facet_wrap(~ c_code)
 q

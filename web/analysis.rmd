@@ -147,7 +147,7 @@ The Stags' possessions are notably the longest of all Western teams.
 
 ### How long possessions last, by outcome.
 
-Possessions leading to goals last longer than those leading turnovers. I guess that's to be expected. And still, regardless of the outcome, the Stags' possessions are the longest.
+Possessions leading to goals last longer than those leading turnovers. I guess that's to be expected. And still, regardless of the outcome, the Stags' possessions are the longest. The boxplots below give the median possession length.
 
 ![Alt text](figs/dot_and_boxplot_events_per_possession_by_poss_team_and_score.png)
 
