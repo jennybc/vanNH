@@ -66,10 +66,11 @@ game_play <- ddply(game_play, ~ game + point, function(x) {
 })
 str(game_play) # 8016 obs. of  11 variables:
 
-## reorder factor levels for pull_team
+## reorder factor levels for pull_team, convert poss_team to factor
 jTeams <- c("pdxST", "vanNH", "seaRM", "sfoDF")
 jFun <- function(x, xlevels = jTeams) factor(x, levels = xlevels)
-game_play <- transform(game_play , pull_team = jFun(pull_team))
+game_play <- transform(game_play, pull_team = jFun(pull_team),
+                       poss_team = factor(poss_team, levels = jTeams))
 str(game_play)
 
 vars_how_i_want <- c('game', 'period', 'point', 'pull_team',
