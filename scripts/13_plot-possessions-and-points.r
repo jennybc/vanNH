@@ -7,6 +7,10 @@ neglength <- function(x) -1 * length(x)
 jWidth <- 5
 jHeight <- 4
 
+mlu_cols <-
+  c(pdxST = "#4DB870", vanNH = "#CCCCCC", seaRM = "#88A5C3", sfoDF = "#FFAD5C")
+theme_set(theme_bw())
+
 ## function that counts how often each code occurs, computes as a proportion,
 ## and also forms a "pretty" proportion suitable for putting on a figure; also
 ## reorders the factor associated with the codes by the frequencies
@@ -210,6 +214,7 @@ p <- p + geom_bar(stat = "identity", width = 0.9, position = "dodge") +
   xlab("who scores?") +
   geom_text(aes(label = pretty_prop), position = position_dodge(0.9),
             vjust = -0.2, size = 2.5) +
+  scale_fill_manual(values = mlu_cols) +
   theme(legend.position = c(1, 1), legend.justification = c(0.88, 0.9),
         legend.background = element_rect(fill = 0))
 p  
