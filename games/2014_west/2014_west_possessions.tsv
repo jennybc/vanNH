@@ -841,6 +841,116 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-06-15_pdxST-at-vanNH	4	40	vanNH	73	1	14	pdxST	vanNH	14	D	FALSE	NA	o_line	D	def +
 2014-06-15_pdxST-at-vanNH	4	40	vanNH	74	2	22	vanNH	vanNH	98	G	TRUE	vanNH	d_line	G	G
 2014-06-15_pdxST-at-vanNH	4	41	vanNH	75	1	4	pdxST	pdxST	73	eop	FALSE	NA	o_line	eop	eop
+2014-06-21_vanNH-at-sfoDF	1	1	vanNH	1	1	11	sfoDF	vanNH	31	D	FALSE	NA	o_line	D	def +
+2014-06-21_vanNH-at-sfoDF	1	1	vanNH	2	2	17	vanNH	vanNH	24	G	TRUE	vanNH	d_line	G	G
+2014-06-21_vanNH-at-sfoDF	1	2	vanNH	3	1	4	sfoDF	vanNH	7	D	FALSE	NA	o_line	D	def +
+2014-06-21_vanNH-at-sfoDF	1	2	vanNH	4	2	10	vanNH	vanNH	13	TD	FALSE	NA	d_line	TD	off -
+2014-06-21_vanNH-at-sfoDF	1	2	vanNH	5	3	11	sfoDF	sfoDF	12	TA	FALSE	NA	o_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	1	2	vanNH	6	4	15	vanNH	vanNH	37	G	TRUE	vanNH	d_line	G	G
+2014-06-21_vanNH-at-sfoDF	1	3	vanNH	7	1	14	sfoDF	vanNH	31	D	FALSE	NA	o_line	D	def +
+2014-06-21_vanNH-at-sfoDF	1	3	vanNH	8	2	17	vanNH	vanNH	7	TA	FALSE	NA	d_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	1	3	vanNH	9	3	20	sfoDF	vanNH	4	HB	FALSE	NA	o_line	D	def +
+2014-06-21_vanNH-at-sfoDF	1	3	vanNH	10	4	24	vanNH	vanNH	27	G	TRUE	vanNH	d_line	G	G
+2014-06-21_vanNH-at-sfoDF	1	4	vanNH	11	1	6	sfoDF	sfoDF	85	TD	FALSE	NA	o_line	TD	off -
+2014-06-21_vanNH-at-sfoDF	1	4	vanNH	12	2	8	vanNH	sfoDF	17	D	FALSE	NA	d_line	D	def +
+2014-06-21_vanNH-at-sfoDF	1	4	vanNH	13	3	9	sfoDF	sfoDF	17	TA	FALSE	NA	o_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	1	4	vanNH	14	4	11	vanNH	sfoDF	10	D	FALSE	NA	d_line	D	def +
+2014-06-21_vanNH-at-sfoDF	1	4	vanNH	15	5	16	sfoDF	sfoDF	12	G	TRUE	sfoDF	o_line	G	G
+2014-06-21_vanNH-at-sfoDF	1	5	sfoDF	16	1	6	vanNH	vanNH	22	TD	FALSE	NA	o_line	TD	off -
+2014-06-21_vanNH-at-sfoDF	1	5	sfoDF	17	2	10	sfoDF	sfoDF	11	G	TRUE	sfoDF	d_line	G	G
+2014-06-21_vanNH-at-sfoDF	1	6	sfoDF	18	1	6	vanNH	vanNH	5	G	TRUE	vanNH	o_line	G	G
+2014-06-21_vanNH-at-sfoDF	1	7	vanNH	19	1	18	sfoDF	sfoDF	21	LG	TRUE	sfoDF	o_line	G	G
+2014-06-21_vanNH-at-sfoDF	1	8	sfoDF	20	1	6	vanNH	vanNH	5	TD	FALSE	NA	o_line	TD	off -
+2014-06-21_vanNH-at-sfoDF	1	8	sfoDF	21	2	10	sfoDF	sfoDF	25	G	TRUE	sfoDF	d_line	G	G
+2014-06-21_vanNH-at-sfoDF	1	9	sfoDF	22	1	3	vanNH	vanNH	22	TD	FALSE	NA	o_line	TD	off -
+2014-06-21_vanNH-at-sfoDF	1	9	sfoDF	23	2	5	sfoDF	sfoDF	83	VTT	FALSE	NA	d_line	VTT	off -
+2014-06-21_vanNH-at-sfoDF	1	9	sfoDF	24	3	6	vanNH	vanNH	89	TA	FALSE	NA	o_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	1	9	sfoDF	25	4	9	sfoDF	sfoDF	23	TA	FALSE	NA	d_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	1	9	sfoDF	26	5	11	vanNH	sfoDF	13	HB	FALSE	NA	o_line	D	def +
+2014-06-21_vanNH-at-sfoDF	1	9	sfoDF	27	6	14	sfoDF	vanNH	22	D	FALSE	NA	d_line	D	def +
+2014-06-21_vanNH-at-sfoDF	1	9	sfoDF	28	7	20	vanNH	vanNH	98	G	TRUE	vanNH	o_line	G	G
+2014-06-21_vanNH-at-sfoDF	1	10	vanNH	29	1	2	sfoDF	sfoDF	16	eop	FALSE	NA	o_line	eop	eop
+2014-06-21_vanNH-at-sfoDF	2	11	sfoDF	30	1	14	vanNH	vanNH	21	TD	FALSE	NA	o_line	TD	off -
+2014-06-21_vanNH-at-sfoDF	2	11	sfoDF	31	2	19	sfoDF	sfoDF	57	G	TRUE	sfoDF	d_line	G	G
+2014-06-21_vanNH-at-sfoDF	2	12	sfoDF	32	1	3	vanNH	sfoDF	21	D	FALSE	NA	o_line	D	def +
+2014-06-21_vanNH-at-sfoDF	2	12	sfoDF	33	2	5	sfoDF	sfoDF	8	TD	FALSE	NA	d_line	TD	off -
+2014-06-21_vanNH-at-sfoDF	2	12	sfoDF	34	3	13	vanNH	vanNH	72	TD	FALSE	NA	o_line	TD	off -
+2014-06-21_vanNH-at-sfoDF	2	12	sfoDF	35	4	14	sfoDF	sfoDF	23	TA	FALSE	NA	d_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	2	12	sfoDF	36	5	18	vanNH	vanNH	5	TA	FALSE	NA	o_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	2	12	sfoDF	37	6	23	sfoDF	vanNH	72	HB	FALSE	NA	d_line	D	def +
+2014-06-21_vanNH-at-sfoDF	2	12	sfoDF	38	7	25	vanNH	vanNH	89	VTT	FALSE	NA	o_line	VTT	off -
+2014-06-21_vanNH-at-sfoDF	2	12	sfoDF	39	8	27	sfoDF	vanNH	98	D	FALSE	NA	d_line	D	def +
+2014-06-21_vanNH-at-sfoDF	2	12	sfoDF	40	9	28	vanNH	vanNH	98	TA	FALSE	NA	o_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	2	12	sfoDF	41	10	32	sfoDF	sfoDF	23	TA	FALSE	NA	d_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	2	12	sfoDF	42	11	35	vanNH	vanNH	22	TD	FALSE	NA	o_line	TD	off -
+2014-06-21_vanNH-at-sfoDF	2	12	sfoDF	43	12	41	sfoDF	sfoDF	40	G	TRUE	sfoDF	d_line	G	G
+2014-06-21_vanNH-at-sfoDF	2	13	sfoDF	44	1	5	vanNH	vanNH	10	TD	FALSE	NA	o_line	TD	off -
+2014-06-21_vanNH-at-sfoDF	2	13	sfoDF	45	2	7	sfoDF	sfoDF	10	G	TRUE	sfoDF	d_line	G	G
+2014-06-21_vanNH-at-sfoDF	2	14	sfoDF	46	1	2	vanNH	vanNH	24	TA	FALSE	NA	o_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	2	14	sfoDF	47	2	3	sfoDF	sfoDF	57	TA	FALSE	NA	d_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	2	14	sfoDF	48	3	5	vanNH	vanNH	45	TD	FALSE	NA	o_line	TD	off -
+2014-06-21_vanNH-at-sfoDF	2	14	sfoDF	49	4	12	sfoDF	sfoDF	23	TA	FALSE	NA	d_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	2	14	sfoDF	50	5	16	vanNH	sfoDF	40	D	FALSE	NA	o_line	D	def +
+2014-06-21_vanNH-at-sfoDF	2	14	sfoDF	51	6	20	sfoDF	sfoDF	88	TA	FALSE	NA	d_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	2	14	sfoDF	52	7	22	vanNH	sfoDF	23	D	FALSE	NA	o_line	D	def +
+2014-06-21_vanNH-at-sfoDF	2	14	sfoDF	53	8	24	sfoDF	sfoDF	24	G	TRUE	sfoDF	d_line	G	G
+2014-06-21_vanNH-at-sfoDF	2	15	sfoDF	54	1	4	vanNH	sfoDF	7	D	FALSE	NA	o_line	D	def +
+2014-06-21_vanNH-at-sfoDF	2	15	sfoDF	55	2	10	sfoDF	sfoDF	18	TD	FALSE	NA	d_line	TD	off -
+2014-06-21_vanNH-at-sfoDF	2	15	sfoDF	56	3	11	vanNH	vanNH	11	TA	FALSE	NA	o_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	2	15	sfoDF	57	4	12	sfoDF	sfoDF	16	TA	FALSE	NA	d_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	2	15	sfoDF	58	5	20	vanNH	vanNH	98	G	TRUE	vanNH	o_line	G	G
+2014-06-21_vanNH-at-sfoDF	2	16	vanNH	59	1	4	sfoDF	sfoDF	8	TA	FALSE	NA	o_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	2	16	vanNH	60	2	8	vanNH	vanNH	98	G	TRUE	vanNH	d_line	G	G
+2014-06-21_vanNH-at-sfoDF	2	17	vanNH	61	1	3	sfoDF	vanNH	13	eop	FALSE	NA	o_line	eop	eop
+2014-06-21_vanNH-at-sfoDF	3	18	vanNH	62	1	11	sfoDF	vanNH	31	D	FALSE	NA	o_line	D	def +
+2014-06-21_vanNH-at-sfoDF	3	18	vanNH	63	2	16	vanNH	vanNH	31	G	TRUE	vanNH	d_line	G	G
+2014-06-21_vanNH-at-sfoDF	3	19	vanNH	64	1	7	sfoDF	sfoDF	25	G	TRUE	sfoDF	o_line	G	G
+2014-06-21_vanNH-at-sfoDF	3	20	sfoDF	65	1	3	vanNH	vanNH	10	TD	FALSE	NA	o_line	TD	off -
+2014-06-21_vanNH-at-sfoDF	3	20	sfoDF	66	2	4	sfoDF	sfoDF	23	TA	FALSE	NA	d_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	3	20	sfoDF	67	3	11	vanNH	vanNH	10	TA	FALSE	NA	o_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	3	20	sfoDF	68	4	17	sfoDF	vanNH	22	HB	FALSE	NA	d_line	D	def +
+2014-06-21_vanNH-at-sfoDF	3	20	sfoDF	69	5	19	vanNH	vanNH	22	TD	FALSE	NA	o_line	TD	off -
+2014-06-21_vanNH-at-sfoDF	3	20	sfoDF	70	6	28	sfoDF	sfoDF	13	G	TRUE	sfoDF	d_line	G	G
+2014-06-21_vanNH-at-sfoDF	3	21	sfoDF	71	1	5	vanNH	vanNH	89	TA	FALSE	NA	o_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	3	21	sfoDF	72	2	6	sfoDF	sfoDF	16	TA	FALSE	NA	d_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	3	21	sfoDF	73	3	10	vanNH	sfoDF	5	D	FALSE	NA	o_line	D	def +
+2014-06-21_vanNH-at-sfoDF	3	21	sfoDF	74	4	11	sfoDF	sfoDF	5	TA	FALSE	NA	d_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	3	21	sfoDF	75	5	19	vanNH	vanNH	19	G	TRUE	vanNH	o_line	G	G
+2014-06-21_vanNH-at-sfoDF	3	22	vanNH	76	1	2	sfoDF	sfoDF	40	TA	FALSE	NA	o_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	3	22	vanNH	77	2	5	vanNH	vanNH	31	G	TRUE	vanNH	d_line	G	G
+2014-06-21_vanNH-at-sfoDF	3	23	vanNH	78	1	9	sfoDF	sfoDF	21	LG	TRUE	sfoDF	o_line	G	G
+2014-06-21_vanNH-at-sfoDF	3	24	sfoDF	79	1	4	vanNH	vanNH	5	VTT	FALSE	NA	o_line	VTT	off -
+2014-06-21_vanNH-at-sfoDF	3	24	sfoDF	80	2	5	sfoDF	sfoDF	57	TA	FALSE	NA	d_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	3	24	sfoDF	81	3	12	vanNH	vanNH	98	TD	FALSE	NA	o_line	TD	off -
+2014-06-21_vanNH-at-sfoDF	3	24	sfoDF	82	4	15	sfoDF	sfoDF	83	TD	FALSE	NA	d_line	TD	off -
+2014-06-21_vanNH-at-sfoDF	3	24	sfoDF	83	5	17	vanNH	vanNH	5	TA	FALSE	NA	o_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	3	24	sfoDF	84	6	19	sfoDF	sfoDF	12	TD	FALSE	NA	d_line	TD	off -
+2014-06-21_vanNH-at-sfoDF	3	24	sfoDF	85	7	21	vanNH	vanNH	19	G	TRUE	vanNH	o_line	G	G
+2014-06-21_vanNH-at-sfoDF	3	25	vanNH	86	1	9	sfoDF	sfoDF	23	G	TRUE	sfoDF	o_line	G	G
+2014-06-21_vanNH-at-sfoDF	3	26	sfoDF	87	1	8	vanNH	vanNH	10	G	TRUE	vanNH	o_line	G	G
+2014-06-21_vanNH-at-sfoDF	3	27	vanNH	88	1	3	sfoDF	sfoDF	18	TD	FALSE	NA	o_line	TD	off -
+2014-06-21_vanNH-at-sfoDF	3	27	vanNH	89	2	10	vanNH	vanNH	72	eop	FALSE	NA	d_line	eop	eop
+2014-06-21_vanNH-at-sfoDF	4	28	sfoDF	90	1	7	vanNH	vanNH	21	TA	FALSE	NA	o_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	4	28	sfoDF	91	2	9	sfoDF	sfoDF	12	TA	FALSE	NA	d_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	4	28	sfoDF	92	3	19	vanNH	vanNH	98	G	TRUE	vanNH	o_line	G	G
+2014-06-21_vanNH-at-sfoDF	4	29	vanNH	93	1	13	sfoDF	sfoDF	24	LG	TRUE	sfoDF	o_line	G	G
+2014-06-21_vanNH-at-sfoDF	4	30	sfoDF	94	1	8	vanNH	vanNH	72	LG	TRUE	vanNH	o_line	G	G
+2014-06-21_vanNH-at-sfoDF	4	31	vanNH	95	1	9	sfoDF	sfoDF	57	TD	FALSE	NA	o_line	TD	off -
+2014-06-21_vanNH-at-sfoDF	4	31	vanNH	96	2	10	vanNH	vanNH	8	TA	FALSE	NA	d_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	4	31	vanNH	97	3	22	sfoDF	sfoDF	13	VST	FALSE	NA	o_line	VST	off -
+2014-06-21_vanNH-at-sfoDF	4	31	vanNH	98	4	23	vanNH	vanNH	45	TA	FALSE	NA	d_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	4	31	vanNH	99	5	25	sfoDF	vanNH	39	D	FALSE	NA	o_line	D	def +
+2014-06-21_vanNH-at-sfoDF	4	31	vanNH	100	6	27	vanNH	sfoDF	23	D	FALSE	NA	d_line	D	def +
+2014-06-21_vanNH-at-sfoDF	4	31	vanNH	101	7	31	sfoDF	vanNH	13	D	FALSE	NA	o_line	D	def +
+2014-06-21_vanNH-at-sfoDF	4	31	vanNH	102	8	35	vanNH	vanNH	8	G	TRUE	vanNH	d_line	G	G
+2014-06-21_vanNH-at-sfoDF	4	32	vanNH	103	1	2	sfoDF	sfoDF	13	TA	FALSE	NA	o_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	4	32	vanNH	104	2	4	vanNH	vanNH	22	G	TRUE	vanNH	d_line	G	G
+2014-06-21_vanNH-at-sfoDF	4	33	vanNH	105	1	8	sfoDF	sfoDF	88	LG	TRUE	sfoDF	o_line	G	G
+2014-06-21_vanNH-at-sfoDF	4	34	sfoDF	106	1	10	vanNH	vanNH	98	TA	FALSE	NA	o_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	4	34	sfoDF	107	2	15	sfoDF	sfoDF	18	LG	TRUE	sfoDF	d_line	G	G
+2014-06-21_vanNH-at-sfoDF	4	35	sfoDF	108	1	11	vanNH	vanNH	98	G	TRUE	vanNH	o_line	G	G
+2014-06-21_vanNH-at-sfoDF	4	36	vanNH	109	1	7	sfoDF	sfoDF	8	TA	FALSE	NA	o_line	TA	off -
+2014-06-21_vanNH-at-sfoDF	4	36	vanNH	110	2	10	vanNH	vanNH	8	eop	FALSE	NA	d_line	eop	eop
 2014-04-12_seaRM-at-sfoDF	1	1	sfoDF	1	1	5	seaRM	seaRM	48	LG	TRUE	seaRM	o_line	G	G
 2014-04-12_seaRM-at-sfoDF	1	2	seaRM	2	1	7	sfoDF	sfoDF	11	TA	FALSE	NA	o_line	TA	off -
 2014-04-12_seaRM-at-sfoDF	1	2	seaRM	3	2	9	seaRM	seaRM	9	G	TRUE	seaRM	d_line	G	G
@@ -1038,19 +1148,19 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-19_sfoDF-at-seaRM	4	41	sfoDF	92	1	4	seaRM	seaRM	5	TD	FALSE	NA	o_line	TD	off -
 2014-04-19_sfoDF-at-seaRM	4	41	sfoDF	93	2	13	sfoDF	sfoDF	34	G	TRUE	sfoDF	d_line	G	G
 2014-04-19_sfoDF-at-seaRM	4	42	sfoDF	94	1	4	seaRM	seaRM	17	eop	FALSE	NA	o_line	eop	eop
-2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	95	1	6	seaRM	seaRM	51	TA	FALSE	NA	o_line	TA	off -
-2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	96	2	9	sfoDF	sfoDF	18	TD	FALSE	NA	d_line	TD	off -
-2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	97	3	22	seaRM	sfoDF	21	D	FALSE	NA	o_line	D	def +
-2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	98	4	24	sfoDF	seaRM	25	D	FALSE	NA	d_line	D	def +
-2014-04-19_sfoDF-at-seaRM	OT	43	sfoDF	99	5	28	seaRM	seaRM	6	G	TRUE	seaRM	o_line	G	G
-2014-04-19_sfoDF-at-seaRM	OT	44	seaRM	100	1	2	sfoDF	sfoDF	11	TA	FALSE	NA	o_line	TA	off -
-2014-04-19_sfoDF-at-seaRM	OT	44	seaRM	101	2	4	seaRM	seaRM	24	G	TRUE	seaRM	d_line	G	G
-2014-04-19_sfoDF-at-seaRM	OT	45	seaRM	102	1	16	sfoDF	seaRM	51	D	FALSE	NA	o_line	D	def +
-2014-04-19_sfoDF-at-seaRM	OT	45	seaRM	103	2	19	seaRM	sfoDF	24	D	FALSE	NA	d_line	D	def +
-2014-04-19_sfoDF-at-seaRM	OT	45	seaRM	104	3	21	sfoDF	sfoDF	14	TD	FALSE	NA	o_line	TD	off -
-2014-04-19_sfoDF-at-seaRM	OT	45	seaRM	105	4	22	seaRM	seaRM	21	TA	FALSE	NA	d_line	TA	off -
-2014-04-19_sfoDF-at-seaRM	OT	45	seaRM	106	5	26	sfoDF	sfoDF	24	LG	TRUE	sfoDF	o_line	G	G
-2014-04-19_sfoDF-at-seaRM	OT	46	sfoDF	107	1	3	seaRM	seaRM	17	eop	FALSE	NA	o_line	eop	eop
+2014-04-19_sfoDF-at-seaRM	5	43	sfoDF	95	1	6	seaRM	seaRM	51	TA	FALSE	NA	o_line	TA	off -
+2014-04-19_sfoDF-at-seaRM	5	43	sfoDF	96	2	9	sfoDF	sfoDF	18	TD	FALSE	NA	d_line	TD	off -
+2014-04-19_sfoDF-at-seaRM	5	43	sfoDF	97	3	22	seaRM	sfoDF	21	D	FALSE	NA	o_line	D	def +
+2014-04-19_sfoDF-at-seaRM	5	43	sfoDF	98	4	24	sfoDF	seaRM	25	D	FALSE	NA	d_line	D	def +
+2014-04-19_sfoDF-at-seaRM	5	43	sfoDF	99	5	28	seaRM	seaRM	6	G	TRUE	seaRM	o_line	G	G
+2014-04-19_sfoDF-at-seaRM	5	44	seaRM	100	1	2	sfoDF	sfoDF	11	TA	FALSE	NA	o_line	TA	off -
+2014-04-19_sfoDF-at-seaRM	5	44	seaRM	101	2	4	seaRM	seaRM	24	G	TRUE	seaRM	d_line	G	G
+2014-04-19_sfoDF-at-seaRM	5	45	seaRM	102	1	16	sfoDF	seaRM	51	D	FALSE	NA	o_line	D	def +
+2014-04-19_sfoDF-at-seaRM	5	45	seaRM	103	2	19	seaRM	sfoDF	24	D	FALSE	NA	d_line	D	def +
+2014-04-19_sfoDF-at-seaRM	5	45	seaRM	104	3	21	sfoDF	sfoDF	14	TD	FALSE	NA	o_line	TD	off -
+2014-04-19_sfoDF-at-seaRM	5	45	seaRM	105	4	22	seaRM	seaRM	21	TA	FALSE	NA	d_line	TA	off -
+2014-04-19_sfoDF-at-seaRM	5	45	seaRM	106	5	26	sfoDF	sfoDF	24	LG	TRUE	sfoDF	o_line	G	G
+2014-04-19_sfoDF-at-seaRM	5	46	sfoDF	107	1	3	seaRM	seaRM	17	eop	FALSE	NA	o_line	eop	eop
 2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	1	1	7	pdxST	pdxST	11	TD	FALSE	NA	o_line	TD	off -
 2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	2	2	10	sfoDF	sfoDF	21	TD	FALSE	NA	d_line	TD	off -
 2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	3	3	12	pdxST	pdxST	2	TA	FALSE	NA	o_line	TA	off -

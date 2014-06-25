@@ -7,7 +7,7 @@ games <- c("2014-04-12_vanNH-at-pdxST", "2014-04-20_sfoDF-at-vanNH",
            "2014-04-26_vanNH-at-seaRM", "2014-05-10_seaRM-at-vanNH",
            "2014-05-17_vanNH-at-sfoDF", "2014-05-24_pdxST-at-vanNH",
            "2014-05-31_vanNH-at-seaRM", "2014-06-07_seaRM-at-vanNH",
-           "2014-06-15_pdxST-at-vanNH",
+           "2014-06-15_pdxST-at-vanNH", "2014-06-21_vanNH-at-sfoDF",
            "2014-04-12_seaRM-at-sfoDF", "2014-04-19_sfoDF-at-seaRM",
            "2014-04-26_pdxST-at-sfoDF")
 game_file <- file.path("..", "games", games, "07_resolvedGame",
@@ -16,7 +16,7 @@ names(game_file) <- games
 game_play <-
   ldply(game_file, function(gg) read.delim(gg, stringsAsFactor = FALSE),
         .id = "game")
-str(game_play) # 6873 obs. of  8 variables
+str(game_play) # 8016 obs. of  8 variables
 
 ## function to create numbered possessions
 ## feed it raw poss_team (as a vector) or a matrix/data.fram with poss_team and
@@ -52,37 +52,37 @@ determine_possession <- function(x) {
 ## absolute possession variable within game
 game_play <- ddply(game_play, ~ game, function(x)
   mutate(x, poss_abs = determine_possession(x[c('poss_team', 'point')])))
-str(game_play) # 6873 obs. of  9 variables
+str(game_play) # 8016 obs. of  9 variables
 
 ## relative possession variable, i.e. within point
 game_play <- ddply(game_play, ~ point + game, function(x)
   data.frame(x,
              poss_rel = determine_possession(x[c('poss_team', 'point')])))
-str(game_play) # 6873 obs. of  10 variables:
+str(game_play) # 8016 obs. of  10 variables:
 
 ## get the pulling team, which is a point-level thing
 game_play <- ddply(game_play, ~ game + point, function(x) {
   data.frame(x, pull_team = x$pl_team[1])
 })
-str(game_play) # 6873 obs. of  11 variables:
+str(game_play) # 8016 obs. of  11 variables:
 
 vars_how_i_want <- c('game', 'period', 'point', 'pull_team',
                      'poss_abs', 'poss_rel', 'event',
                      'poss_team', 'pl_team', 'pl_pnum', 'pl_code')
 game_play <- game_play[vars_how_i_want]
 
-out_dir <- file.path("..", "games", "2014_west-vs-vanNH")
+out_dir <- file.path("..", "games", "2014_west")
 if(!file.exists(out_dir)) dir.create(out_dir)
 
-out_file <- file.path(out_dir, "2014_west-vs-vanNH_gameplay.rds")
+out_file <- file.path(out_dir, "2014_west_gameplay.rds")
 saveRDS(game_play, out_file)
 message("wrote ", out_file)
 
-out_file <- file.path(out_dir, "2014_west-vs-vanNH_gameplay.tsv")
+out_file <- file.path(out_dir, "2014_west_gameplay.tsv")
 write.table(game_play, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
 message("wrote ", out_file)
 
-out_file <- file.path(out_dir, "2014_west-vs-vanNH_gameplay.dput")
+out_file <- file.path(out_dir, "2014_west_gameplay.dput")
 dput(game_play, out_file)
 message("wrote ", out_file)
 
@@ -103,13 +103,13 @@ poss_dat <- ddply(game_play, ~ game + poss_abs, function(x) {
   }
   data.frame(x[n, ], score = any(score), scor_team, who)
 })
-str(poss_dat) # 1052 obs. of  14 variables:
+str(poss_dat) # 1268 obs. of  14 variables:
 
 ## sanity checks of poss_dat
 (tmp <- ddply(poss_dat, ~ game,
               function(x) with(subset(x, score), table(scor_team))))
-colSums(subset(tmp, select = -game))
 ## yes agrees with actual final scores
+colSums(subset(tmp, select = -game))
 addmargins(with(poss_dat, table(who, score)))
 
 ## if possession ends due to end of period, set pl_code to 'eop'
@@ -144,14 +144,14 @@ poss_dat$b_code <-
 poss_dat$b_code <- with(poss_dat, reorder(b_code, b_code, neglength))
 as.data.frame(table(poss_dat$b_code, dnn = "b_code"))
 
-out_file <- file.path(out_dir, "2014_west-vs-vanNH_possessions.rds")
+out_file <- file.path(out_dir, "2014_west_possessions.rds")
 saveRDS(poss_dat, out_file)
 message("wrote ", out_file)
 
-out_file <- file.path(out_dir, "2014_west-vs-vanNH_possessions.tsv")
+out_file <- file.path(out_dir, "2014_west_possessions.tsv")
 write.table(poss_dat, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
 message("wrote ", out_file)
 
-out_file <- file.path(out_dir, "2014_west-vs-vanNH_possessions.dput")
+out_file <- file.path(out_dir, "2014_west_possessions.dput")
 dput(poss_dat, out_file)
 message("wrote ", out_file)
