@@ -66,6 +66,12 @@ game_play <- ddply(game_play, ~ game + point, function(x) {
 })
 str(game_play) # 8016 obs. of  11 variables:
 
+## reorder factor levels for pull_team
+jTeams <- c("pdxST", "vanNH", "seaRM", "sfoDF")
+jFun <- function(x, xlevels = jTeams) factor(x, levels = xlevels)
+game_play <- transform(game_play , pull_team = jFun(pull_team))
+str(game_play)
+
 vars_how_i_want <- c('game', 'period', 'point', 'pull_team',
                      'poss_abs', 'poss_rel', 'event',
                      'poss_team', 'pl_team', 'pl_pnum', 'pl_code')
@@ -89,6 +95,7 @@ message("wrote ", out_file)
 ## now aggregate at the level of a possession  
 
 ## how poss_dat differs from game_play, other than aggregation:
+## n_events = number of events
 ## score = logical indicating if possession ends with a goal
 ## scor_team = who scored ... NA if nobody did
 ## who = o_line vs. d_line
@@ -101,7 +108,7 @@ poss_dat <- ddply(game_play, ~ game + poss_abs, function(x) {
   if(x$pl_code[n] == 'F') {
     x$pl_code[n] <- if(who == 'o_line') "off F" else "TA"
   }
-  data.frame(x[n, ], score = any(score), scor_team, who)
+  data.frame(x[n, ], n_events = n, score = any(score), scor_team, who)
 })
 str(poss_dat) # 1268 obs. of  14 variables:
 
@@ -111,6 +118,12 @@ str(poss_dat) # 1268 obs. of  14 variables:
 ## yes agrees with actual final scores
 colSums(subset(tmp, select = -game))
 addmargins(with(poss_dat, table(who, score)))
+
+## reorder factor levels for scor_team
+jTeams <- c("pdxST", "vanNH", "seaRM", "sfoDF")
+jFun <- function(x, xlevels = jTeams) factor(x, levels = xlevels)
+poss_dat <- transform(poss_dat , scor_team = jFun(scor_team))
+str(poss_dat)
 
 ## if possession ends due to end of period, set pl_code to 'eop'
 poss_dat <- ddply(poss_dat, ~ game + point, function(x) {
