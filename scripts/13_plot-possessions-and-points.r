@@ -19,9 +19,9 @@ count_em_up <- function(code_var, x = poss_dat, cutoff = 0.08) {
   return(code_freq)
 }
 
-input_dir <- file.path("..", "games", "2014_west-vs-vanNH")
-poss_file <- file.path(input_dir, "2014_west-vs-vanNH_possessions.rds")
-str(poss_dat <- readRDS(poss_file), give.attr = FALSE) # 1052 obs. of 16 vars
+input_dir <- file.path("..", "games", "2014_west")
+poss_file <- file.path(input_dir, "2014_west_possessions.rds")
+str(poss_dat <- readRDS(poss_file), give.attr = FALSE) # 1268 obs. of 16 vars
 
 ## loop over the coarse b_code or more detailed a_code; both codes capture how
 ## the possession ends
@@ -213,65 +213,16 @@ p <- p + geom_bar(stat = "identity", width = 0.9, position = "dodge") +
   theme(legend.position = c(1, 1), legend.justification = c(0.88, 0.9),
         legend.background = element_rect(fill = 0))
 p  
-sum(with(foo, Freq[scor_team == "All pts"])) # 394 points
+sum(with(foo, Freq[scor_team == "All pts"])) # 552 points
 out_file <- "barchart_who_scores_by_recv_team.png"
 out_file <- file.path("..", "web", "figs", out_file)
 ggsave(out_file, p, width = jWidth, height = jHeight)
-
-
-j_team <- "vanNH"
-j_team <- "pdxST"
-j_team <- "seaRM"
-j_team <- "sfoDF"
-str(x <- subset(poss_dat, pull_team != j_team &
-                  game %in% grep(j_team, levels(poss_dat$game), value = TRUE)))
-# 393 obs for vanNH, 100 for pdxST, 223 for seaRM, 126 for sfoDF
-# this holds the possessions for all points where vanNH received the pull
-(y <- ddply(x, ~ game, summarize, pts = length(unique(point))))
-sum(y$pts) # 184 points pulled to vanNH, 62 to pdxST, 106 to seaRM, 42 to sfoDF
-# who ultimately scored?
-#ddply(x, ~ poss_rel, function(x) table(x$scor_team))
-z <- ddply(x, ~ game + point,
-           summarize, scor_team = scor_team[length(scor_team)])
-(z_freq <-
-   as.data.frame(addmargins(table(z$scor_team, useNA = "always",
-                                  dnn = "scor_team"))))
-levels(z_freq$scor_team) <- c(levels(z_freq$scor_team), "nobody")
-z_freq$scor_team[is.na(z_freq$scor_team)] <- "nobody"
-(z_freq <- mutate(z_freq,
-                  prop = Freq/Freq[scor_team == "Sum"],
-                  pretty_prop = as.character(round(prop, 2)),
-                  scor_team = revalue(reorder(scor_team, Freq),
-                                      c("Sum" = "All pts"))))     
-
-p <- ggplot(z_freq, aes(x = scor_team, y = Freq))
-p + geom_bar(stat = "identity") +
-  annotate("text", x = 0.1, y = Inf, hjust = -0.1, vjust = 1.5,
-           label = paste("all points pulled to", j_team)) +
-  geom_text(aes(label = Freq), vjust = -0.7) + 
-  geom_text(aes(label = pretty_prop), vjust = 1.35, color = "white")
-
-foo <- ddply(x, ~ poss_rel,
-             function(x) as.data.frame(table(x$scor_team, dnn = "who_scores")))
-levels(foo$who_scores) <- paste(levels(foo$who_scores), "goal")
-foo <- rbind(data.frame(poss_rel = 0, who_scores = "All goals",
-                        Freq = sum(y$pts)), foo,
-             data.frame(poss_rel = max(foo$poss_rel) + 1, who_scores = "nobody",
-                        Freq = sum(y$pts) - sum(foo$Freq)))
-yo <- ddply(subset(foo, poss_rel > 0 & poss_rel < max(poss_rel)),
-            ~ poss_rel, function(x) data.frame(x[nrow(x), ], sum(x$Freq)))
-p <- ggplot(foo, aes(x = poss_rel, y = Freq, fill = who_scores))
-p + geom_bar(stat = "identity") +
-  scale_x_continuous(breaks = seq_len(max(foo$poss_rel))) +
-  xlab("possessions 'til someone scores") + ylab("") +
-  geom_text(data = yo, mapping = aes(x = poss_rel, y = Freq, label = Freq), 
-            vjust = -0.2, size = 4)
 
 ## aggregate to points: record how many possessions, who scored (if anyone),
 ## and whether it was a hold or break
 jFun <- function(x) {
   n <- nrow(x)
-  pull_team <- x$pl_team[1]
+  pull_team <- as.character(x$pull_team[1])
   ## careful to accomodate a foul on the goal catch and to persist even if there
   ## are somehow two codes containing G (alert will be raised elsewhere; this is
   ## neither the time nor the place to clean a game)
@@ -287,29 +238,26 @@ jFun <- function(x) {
                                scor_team, status, n_poss = max(poss_rel)))
   return(y)
 }
-poss_dat <- ddply(gpDat, ~ point + game, jFun)
-str(poss_dat) # 394 obs. of  7 variables:
+point_dat <- ddply(poss_dat, ~ game + point, jFun)
+str(point_dat) # 552 obs. of  7 variables:
 
 ## get rid of points that end with no goal
-poss_dat <- subset(poss_dat, !is.na(status))
-str(poss_dat) # 362 obs. of  7 variables:
+point_dat <- subset(point_dat, !is.na(status))
+str(point_dat) # 502 obs. of  7 variables:
 
-## distribution of possession length
-poss_freq <- ddply(poss_dat, ~ n_poss, summarize,
-                   n = length(point), prop = length(point) / nrow(poss_dat))
-poss_freq <-
-  mutate(poss_freq,
-         status = factor(ifelse((poss_freq$n_poss %% 2) == 1,
-                                "hold", "break"),
-                         levels = c('hold', 'break')),
+## distribution of number of possessions
+n_poss_freq <- ddply(point_dat, ~ n_poss + status, summarize,
+                     n = length(point), prop = length(point) / nrow(point_dat))
+n_poss_freq <-
+  mutate(n_poss_freq,
          pretty_prop = ifelse(prop > 0.01, as.character(round(prop, 2)), ''),
          cum_prop = cumsum(prop),
          pretty_cum_prop = ifelse(cum_prop < 0.98,
                                   as.character(round(cum_prop, 2)), ''))
-poss_freq
-str(poss_freq)
+n_poss_freq     
+str(n_poss_freq)
 
-p <- ggplot(poss_freq, aes(x = n_poss, y = prop, fill = status))
+p <- ggplot(n_poss_freq, aes(x = n_poss, y = prop, fill = status))
 p + geom_bar(stat = "identity") +
   geom_text(aes(label = pretty_prop), vjust = -0.2, size = 4) +
   scale_x_discrete(breaks = 1:17) +
@@ -319,7 +267,7 @@ p + geom_bar(stat = "identity") +
         legend.background = element_rect(fill = 0)) + labs(fill = "")
 ggsave("../web/figs/poss_n_dist_by_status.png")
 
-p <- ggplot(poss_freq, aes(x = n_poss, y = cum_prop))
+p <- ggplot(n_poss_freq, aes(x = n_poss, y = cum_prop))
 p + geom_bar(stat = "identity") + 
   geom_text(aes(label = pretty_cum_prop), vjust = -0.2, size = 4) +
   scale_x_discrete(breaks = 1:17) + 
@@ -327,42 +275,18 @@ p + geom_bar(stat = "identity") +
   xlab("x = number of possessions before point ends in a goal")
 ggsave("../web/figs/poss_n_CDF_by_status.png")
 
-
-## now retain info separately for break and hold points
-poss_freq <- ddply(poss_dat, ~ status + n_poss, summarize,
-                   n = length(point), abs_prop = n / nrow(poss_dat))
-poss_freq
-str(poss_freq)
-poss_freq <- ddply(poss_freq, ~ status, mutate, wi_prop = n / sum(n))
-p <- ggplot(poss_freq, aes(x = n_poss, y = n))
-p + geom_bar(stat = "identity") + facet_grid(. ~ status) + 
-  scale_x_discrete(breaks = 1:17) +
-  ylab("number of points scored after exactly x possessions") +
-  xlab("x = number of possessions before point ends in a goal")
-
-p <- ggplot(poss_freq, aes(x = n_poss, y = wi_prop))
-p + geom_bar(stat = "identity") + facet_grid(. ~ status) + 
-  scale_x_discrete(breaks = 1:17) +
-  ylab("number of points scored after exactly x possessions") +
-  xlab("x = number of possessions before point ends in a goal")
-
-p <- ggplot(poss_freq, aes(x = n_poss, y = abs_prop, fill = status))
-p + geom_bar(stat = "identity") + 
-  scale_x_discrete(breaks = 1:17) +
-  ylab("proportion of points scored after exactly x possessions") +
-  xlab("x = number of possessions before point ends in a goal")
-
 ## now retain status AND scor_team
-poss_freq <- ddply(poss_dat, ~ scor_team + status + n_poss, summarize,
-                   n = length(point))
-poss_freq
-str(poss_freq)
-poss_freq <- ddply(poss_freq, ~ scor_team, mutate, team_prop = n / sum(n))
-poss_freq
-str(poss_freq)
-aggregate(team_prop ~ scor_team, poss_freq, sum)
+n_poss_freq <-
+  ddply(point_dat, ~ scor_team + status + n_poss, summarize,
+        n = length(point))
+n_poss_freq
+str(n_poss_freq)
+n_poss_freq <- ddply(n_poss_freq, ~ scor_team, mutate, team_prop = n / sum(n))
+n_poss_freq
+str(n_poss_freq)
+aggregate(team_prop ~ scor_team, n_poss_freq, sum)
 
-p <- ggplot(poss_freq, aes(x = n_poss, y = team_prop, fill = status))
+p <- ggplot(n_poss_freq, aes(x = n_poss, y = team_prop, fill = status))
 p + geom_bar(stat = "identity") + 
   scale_y_continuous(breaks = (1:5)/10) + 
   scale_x_continuous(breaks = 1:17, limits = c(0, 13)) + 
