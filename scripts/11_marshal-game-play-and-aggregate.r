@@ -102,15 +102,17 @@ message("wrote ", out_file)
 poss_dat <- ddply(game_play, ~ game + poss_abs, function(x) {
   pull_team <- x$pull_team[1]
   n <- nrow(x)
+  huck <- grepl("L", x$pl_code)
   score <- which(grepl("L*G", x$pl_code))
   scor_team <- as.character(if(any(score)) x$pl_team[max(score)] else NA)
   who <- ifelse(x$poss_team[n] == pull_team, "d_line", "o_line")
   if(x$pl_code[n] == 'F') {
     x$pl_code[n] <- if(who == 'o_line') "off F" else "TA"
   }
-  data.frame(x[n, ], n_events = n, score = any(score), scor_team, who)
+  data.frame(x[n, ], n_events = n, huck = any(huck),
+             score = any(score), scor_team, who)
 })
-str(poss_dat) # 1268 obs. of  14 variables:
+str(poss_dat) # 1268 obs. of  16 variables:
 
 ## sanity checks of poss_dat
 (tmp <- ddply(poss_dat, ~ game,
