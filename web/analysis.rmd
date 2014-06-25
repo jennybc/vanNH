@@ -1,6 +1,6 @@
 ---
 title: "Analysis of gameplay *(BETA)*"
-date: "22 June, 2014"
+date: "24 June, 2014"
 output:
   html_document:
     theme: readable
@@ -9,11 +9,13 @@ output:
 
 <a href="index.html">Back to index</a>
 
+## Data
+
+The figures below are based on data from all games the Vancouver Nighthawks played in 2014 (10 games) plus an increasing number of the "other" Western Conference games (eventually 10 more games). If you see a game listed [here](index.html), the data is included in these figures. Right now 3 of the 10 "other" games are included.
+
 ## How do possessions end?
 
 ### How possessions end, high-level.
-
-Dataset: all possessions from all games involving Vancouver Nighthawks in 2014 through week 09
 
 x = how possessions end   
 
@@ -43,7 +45,7 @@ x and y = *same as above*
 
 Here we just confirm the ranking in the Western Conference:
 
-  * pdxST (over 50% of possessions end in a goal) > vanNH (46%) > seaRM (43%) >> sfoDF (24%)
+  * pdxST (46% of possessions end in a goal) > vanNH (44%) > seaRM (40%) >> sfoDF (29%)
   * The exact same ordering arises, in the reverse, when you look at how often the offense turns it over.
 
 x and y = *same as above*  
@@ -52,7 +54,7 @@ x and y = *same as above*
 
 ### How possessions end, high-level, by line and team.
 
-To be clear here, within a team * line combination, the bar heights add up to 1. So we get the breakdown of how possessions end when, e.g. a Portland Stags' `o_line` had the disc: 55% end in a goal for them, 24% end in a turnover nominally due to offense error, and 17% end with an explicit stop by the defense.
+To be clear here, within a team * line combination, the bar heights add up to 1. So we get the breakdown of how possessions end when, e.g. a Portland Stags' `o_line` had the disc: 48% end in a goal for them, 30% end in a turnover nominally due to offense error, and 19% end with an explicit stop by the defense.
 
 One thing that I see is that vanNH's `o_line` and `d_line` are more similar to each other than those of the other teams.
 
@@ -98,8 +100,6 @@ x and y and meaning of `o_line` and `d_line` = *same as above*
 
 ## Who scores?
 
-Dataset: all points played from all games involving Vancouver Nighthawks in 2014 through week 09 (n = 394 points)
-
 `self` scores means a hold  
 `opp` scores means a break  
 `nobody` means time ran out  
@@ -108,8 +108,6 @@ Dataset: all points played from all games involving Vancouver Nighthawks in 2014
 ![Alt text](figs/barchart_who_scores_by_recv_team.png)
 
 ## How many possessions does it take to score?
-
-Dataset: points that ended in a goal from all games involving Vancouver Nighthawks in 2014 through week 09 (n = 362 points)
 
 x = the number of possessions before a goal is finally scored  
 y = the proportion of points scored after x exactly possessions  
@@ -131,8 +129,8 @@ color indicates hold = receiving team scored vs. break = pulling team scored
 
 Observations:
 
-  * pdxST and seaRM stand out as deriving more of their points by scoring on their first possession -- well over 55% vs. well below 45% for sfoDF and vanNH
-  * sfoDF D line seems much less effective on offense than other D lines, with pdxST being best, then vanNH
+  * pdxST and seaRM stand out as deriving more of their points by scoring on their first possession
+  * sfoDF D line seems much less effective on offense than other D lines
   * makes me want to look at this: of points with x or more possessions, what proportion have exactly x possessions? The first "1 possession hold" bars will not change, but then we'll see conversion rate for the D line on it's first possession ("2 possession break"), conversion rate for O line if it gets disc back("3 possession hold), etc. I expect those bars to steadily decrease and to show higher conversion rate for O lines vs D. But who knows?
 
 ![Alt text](figs/poss_n_dist_by_scor_team_and_status.png)
