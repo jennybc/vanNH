@@ -1,5 +1,5 @@
 point: 46
-period: OT
+period: 5
 clk_before: '0:08:00'
 clk_after: '0:00:00'
 pull_team: sfoDF

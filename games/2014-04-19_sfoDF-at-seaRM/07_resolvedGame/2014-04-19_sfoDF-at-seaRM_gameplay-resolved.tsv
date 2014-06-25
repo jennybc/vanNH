@@ -561,64 +561,64 @@ period	point	event	pl_team	pl_pnum	pl_code	poss_team
 4	42	2	seaRM	17	PU	seaRM
 4	42	3	seaRM	20		seaRM
 4	42	4	seaRM	17		seaRM
-OT	43	1	sfoDF	12	P	seaRM
-OT	43	2	seaRM	17	PU	seaRM
-OT	43	3	seaRM	20		seaRM
-OT	43	4	seaRM	17		seaRM
-OT	43	5	seaRM	99		seaRM
-OT	43	6	seaRM	51		seaRM
-OT	43	7	sfoDF	16	TO	sfoDF
-OT	43	8	sfoDF	25	PU	sfoDF
-OT	43	9	sfoDF	18	TD	sfoDF
-OT	43	10	seaRM	20	PU	seaRM
-OT	43	11	seaRM	00		seaRM
-OT	43	12	seaRM	20		seaRM
-OT	43	13	seaRM	6		seaRM
-OT	43	14	seaRM	99		seaRM
-OT	43	15	seaRM	20		seaRM
-OT	43	16	seaRM	17		seaRM
-OT	43	17	seaRM	20		seaRM
-OT	43	18	seaRM	00		seaRM
-OT	43	19	seaRM	20		seaRM
-OT	43	20	seaRM	00		seaRM
-OT	43	21	seaRM	99		seaRM
-OT	43	22	sfoDF	21	D	seaRM
-OT	43	23	sfoDF	34	PU	sfoDF
-OT	43	24	seaRM	25	D	sfoDF
-OT	43	25	seaRM	20	PU	seaRM
-OT	43	26	seaRM	99		seaRM
-OT	43	27	seaRM	25	A	seaRM
-OT	43	28	seaRM	6	G	seaRM
-OT	44	1	seaRM	24	P	sfoDF
-OT	44	2	sfoDF	11	PU	sfoDF
-OT	44	3	seaRM	29	PUA	seaRM
-OT	44	4	seaRM	24	G	seaRM
-OT	45	1	seaRM	29	P	sfoDF
-OT	45	2	sfoDF	11	PU	sfoDF
-OT	45	3	sfoDF	34		sfoDF
-OT	45	4	sfoDF	14		sfoDF
-OT	45	5	sfoDF	11		sfoDF
-OT	45	6	sfoDF	14		sfoDF
-OT	45	7	sfoDF	18		sfoDF
-OT	45	8	sfoDF	34		sfoDF
-OT	45	9	sfoDF	19		sfoDF
-OT	45	10	sfoDF	8		sfoDF
-OT	45	11	sfoDF	24		sfoDF
-OT	45	12	sfoDF	8		sfoDF
-OT	45	13	sfoDF	34		sfoDF
-OT	45	14	sfoDF	11		sfoDF
-OT	45	15	sfoDF	34		sfoDF
-OT	45	16	seaRM	51	D	sfoDF
-OT	45	17	seaRM	25	PU	seaRM
-OT	45	18	seaRM	16		seaRM
-OT	45	19	sfoDF	24	D	seaRM
-OT	45	20	sfoDF	34	PU	sfoDF
-OT	45	21	sfoDF	14	TD	sfoDF
-OT	45	22	seaRM	21	PU	seaRM
-OT	45	23	sfoDF	11	TO	sfoDF
-OT	45	24	sfoDF	11	PU	sfoDF
-OT	45	25	sfoDF	34	A	sfoDF
-OT	45	26	sfoDF	24	LG	sfoDF
-OT	46	1	sfoDF	12	P	seaRM
-OT	46	2	seaRM	20	PU	seaRM
-OT	46	3	seaRM	17	TD	seaRM
+5	43	1	sfoDF	12	P	seaRM
+5	43	2	seaRM	17	PU	seaRM
+5	43	3	seaRM	20		seaRM
+5	43	4	seaRM	17		seaRM
+5	43	5	seaRM	99		seaRM
+5	43	6	seaRM	51		seaRM
+5	43	7	sfoDF	16	TO	sfoDF
+5	43	8	sfoDF	25	PU	sfoDF
+5	43	9	sfoDF	18	TD	sfoDF
+5	43	10	seaRM	20	PU	seaRM
+5	43	11	seaRM	00		seaRM
+5	43	12	seaRM	20		seaRM
+5	43	13	seaRM	6		seaRM
+5	43	14	seaRM	99		seaRM
+5	43	15	seaRM	20		seaRM
+5	43	16	seaRM	17		seaRM
+5	43	17	seaRM	20		seaRM
+5	43	18	seaRM	00		seaRM
+5	43	19	seaRM	20		seaRM
+5	43	20	seaRM	00		seaRM
+5	43	21	seaRM	99		seaRM
+5	43	22	sfoDF	21	D	seaRM
+5	43	23	sfoDF	34	PU	sfoDF
+5	43	24	seaRM	25	D	sfoDF
+5	43	25	seaRM	20	PU	seaRM
+5	43	26	seaRM	99		seaRM
+5	43	27	seaRM	25	A	seaRM
+5	43	28	seaRM	6	G	seaRM
+5	44	1	seaRM	24	P	sfoDF
+5	44	2	sfoDF	11	PU	sfoDF
+5	44	3	seaRM	29	PUA	seaRM
+5	44	4	seaRM	24	G	seaRM
+5	45	1	seaRM	29	P	sfoDF
+5	45	2	sfoDF	11	PU	sfoDF
+5	45	3	sfoDF	34		sfoDF
+5	45	4	sfoDF	14		sfoDF
+5	45	5	sfoDF	11		sfoDF
+5	45	6	sfoDF	14		sfoDF
+5	45	7	sfoDF	18		sfoDF
+5	45	8	sfoDF	34		sfoDF
+5	45	9	sfoDF	19		sfoDF
+5	45	10	sfoDF	8		sfoDF
+5	45	11	sfoDF	24		sfoDF
+5	45	12	sfoDF	8		sfoDF
+5	45	13	sfoDF	34		sfoDF
+5	45	14	sfoDF	11		sfoDF
+5	45	15	sfoDF	34		sfoDF
+5	45	16	seaRM	51	D	sfoDF
+5	45	17	seaRM	25	PU	seaRM
+5	45	18	seaRM	16		seaRM
+5	45	19	sfoDF	24	D	seaRM
+5	45	20	sfoDF	34	PU	sfoDF
+5	45	21	sfoDF	14	TD	sfoDF
+5	45	22	seaRM	21	PU	seaRM
+5	45	23	sfoDF	11	TO	sfoDF
+5	45	24	sfoDF	11	PU	sfoDF
+5	45	25	sfoDF	34	A	sfoDF
+5	45	26	sfoDF	24	LG	sfoDF
+5	46	1	sfoDF	12	P	seaRM
+5	46	2	seaRM	20	PU	seaRM
+5	46	3	seaRM	17	TD	seaRM

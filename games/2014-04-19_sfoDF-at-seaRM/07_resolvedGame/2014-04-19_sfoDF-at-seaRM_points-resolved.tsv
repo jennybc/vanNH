@@ -41,7 +41,7 @@ point	period	clk_before	clk_after	pull_team	scor_team	seaRM	sfoDF
 40	4	2:28:00	0:49:00	sfoDF	sfoDF	19	18
 41	4	0:49:00	0:06:00	sfoDF	sfoDF	19	19
 42	4	0:06:00	0:00:00	sfoDF	NA	19	19
-43	OT	5:00:00	2:30:00	sfoDF	seaRM	20	19
-44	OT	2:30:00	2:13:00	seaRM	seaRM	21	19
-45	OT	2:13:00	0:08:00	seaRM	sfoDF	21	20
-46	OT	0:08:00	0:00:00	sfoDF	NA	21	20
+43	5	5:00:00	2:30:00	sfoDF	seaRM	20	19
+44	5	2:30:00	2:13:00	seaRM	seaRM	21	19
+45	5	2:13:00	0:08:00	seaRM	sfoDF	21	20
+46	5	0:08:00	0:00:00	sfoDF	NA	21	20

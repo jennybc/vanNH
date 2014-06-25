@@ -1,5 +1,5 @@
 Pulling team: San Francisco Dogfish
-Period: OT
+Period: 5
 Clock before point: 5:00:00
 Clock after point: 2:30:00
 Offense	Defense
