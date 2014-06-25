@@ -135,6 +135,8 @@ Click on a date to see stats for a game.
 kable(pretty_stuff)
 ```
 
+Week 04 was a bye week for vanNH.  
+
 ## Other games in the MLU Western Conference.
 
 Click on a date to see stats for a game.
@@ -142,8 +144,6 @@ Click on a date to see stats for a game.
 ```{r echo = FALSE, results = 'asis'}
 kable(othwc_pretty_stuff)
 ```
-
-Week 04 was a bye week for vanNH.  
 
 ```{r results = 'asis', echo = FALSE, eval = FALSE}
 print(xtable(pretty_stuff, type = "html", sanitize.text.function = force),
