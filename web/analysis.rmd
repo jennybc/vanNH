@@ -1,6 +1,6 @@
 ---
 title: "Analysis of gameplay *(BETA)*"
-date: "24 June, 2014"
+date: "25 June, 2014"
 output:
   html_document:
     theme: readable
@@ -135,3 +135,22 @@ Observations:
 
 ![Alt text](figs/poss_n_dist_by_scor_team_and_status.png)
 
+## How many events in a possession?
+
+Although I can resolve individual throws from the data I have, I have not done so yet. For now, I measure the "length" of a possession in terms of the number of *events*, which is highly and positively correlated to the number of throws. There are more events in a possession than throws, since there are events for defensive fouls, time outs, pulls, etc. However, this affects all teams uniformly, so this "cheat" shouldn't distort the story below re: possession length.
+
+### How long possessions last, high-level.
+
+The Stags' possessions are notably the longest of all Western teams.
+
+![Alt text](figs/dot_and_boxplot_events_per_possession_by_poss_team.png)
+
+### How long possessions last, by outcome.
+
+Possessions leading to goals last longer than those leading turnovers. I guess that's to be expected. And still, regardless of the outcome, the Stags' possessions are the longest.
+
+![Alt text](figs/dot_and_boxplot_events_per_possession_by_poss_team_and_score.png)
+
+Possessions leading to goals last longer than those ending with an unequivocal D. And both last longer than possessions that end because the offense gives it up. And still, regardless of the outcome, the Stags' possessions are the longest.
+
+![Alt text](figs/dot_and_boxplot_events_per_possession_by_poss_team_and_b_code.png)
