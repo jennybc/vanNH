@@ -67,5 +67,10 @@ x = proportion of possessions that end a certain way
 
 x and y and meaning of `o_line` and `d_line` = *same as above*  
 
+Things that stand out to me
+
+  * our o_line has substantially more drops
+  * our d_line is much less likely than theirs to get D'd
+
 ![Alt text](figs/pp_barchart_how_possessions_end_detailed_by_line_and_poss_team.png)
 
