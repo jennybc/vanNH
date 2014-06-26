@@ -101,13 +101,19 @@ message("wrote ", out_file)
 ## scor_team = who scored ... NA if nobody did
 ## who = o_line vs. d_line
 poss_dat <- ddply(game_play, ~ game + poss_abs, function(x) {
+  score <- which(grepl("L*G", x$pl_code))
+  ## get rid of any rows after a goal. why? becasue of cases like point 35 of
+  ## 2014-04-12_vanNH-at-pdxST, in which a defensive foul is recorded after a
+  ## successful goal; the goal was not being picked up here as the final event
+  ## of the possession and was, instead, being recorded as an offensive foul
+  if(length(score) > 0)
+    x <- x[seq_len(score), ]
   pull_team <- x$pull_team[1]
   n <- nrow(x)
   huck <- grepl("L", x$pl_code)
-  score <- which(grepl("L*G", x$pl_code))
   scor_team <- as.character(if(any(score)) x$pl_team[max(score)] else NA)
   who <- ifelse(x$poss_team[n] == pull_team, "d_line", "o_line")
-  if(x$pl_code[n] == 'F') {
+  if(x$pl_code[n] == 'F' & x$pl_team[n] == x$poss_team[n]) {
     x$pl_code[n] <- if(who == 'o_line') "off F" else "TA"
   }
   data.frame(x[n, ], n_events = n, huck = any(huck),
