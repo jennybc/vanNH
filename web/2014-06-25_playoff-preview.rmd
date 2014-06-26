@@ -85,7 +85,9 @@ The figures below are based on data from the 3 regular season games between the 
 
 ### How possessions end, high-level and by line and by head-to-head game.
 
-*haven't made yet*
+OMG the crazy number for our d_line scares me. So much that I am now checking a bunch of things. This seems nutty.
+
+![Alt text](figs/pp_barchart_how_possessions_end_coarse_by_line_and_poss_team_and_game.png)
 
 ### How possessions end, detailed and by head-to-head game.
 
@@ -93,4 +95,6 @@ The figures below are based on data from the 3 regular season games between the 
 
 ### How possessions end, detailed and by line and by head-to-head game.
 
-*haven't made yet*
+OMG the crazy number for our d_line scares me. So much that I am now checking a bunch of things. This seems nutty.
+
+![Alt text](figs/pp_barchart_how_possessions_end_detailed_by_line_and_poss_team_and_game.png)

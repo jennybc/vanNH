@@ -160,6 +160,36 @@ out_file <- paste0("pp_barchart_how_possessions_end_",
                    "_by_poss_team_and_game.png")
 out_file <- file.path("..", "web", "figs", out_file)
 ggsave(out_file, p, width = jWidth, height = jHeight)
+
+## how do possessions end? O line vs D line AND by poss_team AND game
+last_code_freq_by_line_and_team_and_game <-
+  ddply(hth_dat, ~ poss_team + who + game, function(x) count_em_up(j_code, x))
+last_code_freq_by_line_and_team_and_game[[j_code]] <-
+  factor(last_code_freq_by_line_and_team_and_game[[j_code]],
+         levels = levels(last_code_freq_by_team[[j_code]]))
+p <- ggplot(subset(last_code_freq_by_line_and_team_and_game,
+                   last_code_freq_by_line_and_team_and_game[[j_code]] != "Sum"),
+            aes_string(x = j_code, y = "prop", fill = "poss_team")) +
+  geom_bar(stat = "identity", width = bw1, position = "dodge") +
+  facet_grid(who ~ game, scales="free") +
+  xlab("how possessions end") + ylab("proportion of possessions") +
+  geom_text(aes(label = pretty_prop), hjust = h2, size = s2,
+            position = position_dodge(bw1), angle = angle) +
+  scale_fill_manual(values = mlu_cols, guide = guide_legend(reverse = TRUE)) +
+  labs(fill = "who's got possession?") +
+  theme(legend.position = c(1, 0), legend.justification = c(0.952, 0.15),
+        legend.background = element_rect(fill = 0),
+        strip.text.x = element_text(size = rel(0.7)),
+        axis.ticks = element_blank(),
+        axis.text.y = element_text(size = rel(at)),
+        axis.text.x = element_text(size = rel(0.7), angle = 60)) +
+  coord_flip() + guides(fill = FALSE)
+p
+out_file <- paste0("pp_barchart_how_possessions_end_",
+                   if(j_code == "b_code") "coarse" else "detailed",
+                   "_by_line_and_poss_team_and_game.png")
+out_file <- file.path("..", "web", "figs", out_file)
+ggsave(out_file, p, width = jWidth, height = jHeight)
 } # this ends the loop over b_code, a_code
 
 
