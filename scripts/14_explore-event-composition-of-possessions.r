@@ -27,14 +27,13 @@ p <- p + geom_boxplot(outlier.colour = NA, width = 0.6) +
   geom_jitter(alpha = 1/5, size = 1) + coord_cartesian(ylim = c(0, 23)) +
   scale_fill_manual(values = mlu_cols) + guides(fill = FALSE) +
   xlab("possessing team") + ylab("# events in possession")
-p <- p + geom_text(data = foo, aes(x = poss_team,
+p2 <- p + geom_text(data = foo, aes(x = poss_team,
                                    y = med_poss_length, label = med_poss_length),
                    vjust = -0.4)
-p
+p2
 out_file <- "dot_and_boxplot_events_per_possession_by_poss_team.png"
 out_file <- file.path("..", "web", "figs", out_file)
-ggsave(out_file, p, width = jWidth, height = jHeight)
-
+ggsave(out_file, p2, width = jWidth, height = jHeight)
 
 q <- p + facet_wrap(~ c_code)
 q
