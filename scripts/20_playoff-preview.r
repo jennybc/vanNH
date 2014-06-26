@@ -120,7 +120,7 @@ p <- ggplot(subset(last_code_freq_by_line_and_team,
             position = position_dodge(bw1), angle = angle) +
   scale_fill_manual(values = mlu_cols, guide = guide_legend(reverse = TRUE)) +
   labs(fill = "who's got possession?") +
-  theme(legend.position = c(1, 0), legend.justification = c(0.9, 0.1),
+  theme(legend.position = c(1, 0), legend.justification = c(0.952, 0.15),
         legend.background = element_rect(fill = 0),
         axis.text.x = element_text(size = rel(at))) +
   coord_flip()
