@@ -39,6 +39,16 @@ poss_dat <-
 str(poss_dat) # 1058 obs. of  18 variables:
 str(poss_dat$game)
 
+## get rid of possessions that end with eop
+poss_dat <- droplevels(subset(poss_dat, b_code != "eop"))
+str(poss_dat) # 1018 obs. of  18 variables:
+str(poss_dat$game)
+
+hth_dat <-
+  droplevels(subset(poss_dat, grepl("vanNH", game) & grepl("pdxST", game)))
+str(hth_dat) # 225 obs. of  18 variables:
+str(hth_dat$game) # Factor w/ 3 levels
+
 ## loop over the coarse b_code or more detailed a_code; both codes capture how
 ## the possession ends
 
@@ -121,4 +131,39 @@ out_file <- paste0("pp_barchart_how_possessions_end_",
 out_file <- file.path("..", "web", "figs", out_file)
 ggsave(out_file, p, width = jWidth, height = jHeight)
 
+# how do possessions end? split out by poss_team AND game, looking only at
+## head-to-head matchups
+last_code_freq_by_team_and_game <-
+  ddply(hth_dat, ~ game + poss_team, function(x) count_em_up(j_code, x))
+last_code_freq_by_team_and_game[[j_code]] <-
+  factor(last_code_freq_by_team_and_game[[j_code]],
+         levels = levels(last_code_freq_by_team[[j_code]]))
+p <- ggplot(subset(last_code_freq_by_team_and_game,
+                   last_code_freq_by_team_and_game[[j_code]] != "Sum"),
+            aes_string(x = j_code, y = "prop", fill = "poss_team")) +
+  geom_bar(stat = "identity", width = bw1, position = "dodge") +
+  xlab("how possessions end") + ylab("proportion of possessions") +
+  geom_text(aes(label = pretty_prop), hjust = 1.5, size = s1,
+            position = position_dodge(bw1)) +
+  scale_fill_manual(values = mlu_cols, guide = guide_legend(reverse = TRUE)) +
+  labs(fill = "who's got possession?") +
+  theme(legend.position = c(1, 0), legend.justification = c(0.9, 0.1),
+        legend.background = element_rect(fill = 0),
+        strip.text.x = element_text(size = rel(0.7)),
+        axis.ticks = element_blank(),
+        axis.text.y = element_text(size = rel(at)),
+        axis.text.x = element_text(size = rel(0.7), angle = 60)) +
+  coord_flip() + facet_wrap(~ game) + guides(fill = FALSE)
+p
+out_file <- paste0("pp_barchart_how_possessions_end_",
+                   if(j_code == "b_code") "coarse" else "detailed",
+                   "_by_poss_team_and_game.png")
+out_file <- file.path("..", "web", "figs", out_file)
+ggsave(out_file, p, width = jWidth, height = jHeight)
 } # this ends the loop over b_code, a_code
+
+
+## experimenting with game specific looks
+
+
+#
