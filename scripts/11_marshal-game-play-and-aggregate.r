@@ -67,6 +67,7 @@ game_play <- ddply(game_play, ~ game + point, function(x) {
 str(game_play) # 8016 obs. of  11 variables:
 
 ## reorder factor levels for pull_team, convert poss_team to factor
+## 2014-06: this is based on western conference rankings
 jTeams <- c("pdxST", "vanNH", "seaRM", "sfoDF")
 jFun <- function(x, xlevels = jTeams) factor(x, levels = xlevels)
 game_play <- transform(game_play, pull_team = jFun(pull_team),
@@ -96,7 +97,7 @@ message("wrote ", out_file)
 ## now aggregate at the level of a possession  
 
 ## how poss_dat differs from game_play, other than aggregation:
-## n_events = number of events
+## n_events = number of events from beg of pt to end of this poss
 ## score = logical indicating if possession ends with a goal
 ## scor_team = who scored ... NA if nobody did
 ## who = o_line vs. d_line
@@ -105,9 +106,20 @@ poss_dat <- ddply(game_play, ~ game + poss_abs, function(x) {
   ## get rid of any rows after a goal. why? becasue of cases like point 35 of
   ## 2014-04-12_vanNH-at-pdxST, in which a defensive foul is recorded after a
   ## successful goal; the goal was not being picked up here as the final event
-  ## of the possession and was, instead, being recorded as an offensive foul
+  ## of the possession and was, instead, being recorded as an *offensive* foul
   if(length(score) > 0)
     x <- x[seq_len(score), ]
+  ## if possession ends with a *defensive* foul, remove the final row; examples:
+  ## 2014-04-26_vanNH-at-seaRM poss_abs 23, 2014-05-17_vanNH-at-sfoDF poss_abs 
+  ## 92, 2014-05-31_vanNH-at-seaRM poss_abs 57; all have possessions in which a 
+  ## thrower has the disc, there's a foul by the defense and ... the throw is 
+  ## not caught ... we need to see the offensive throwaway as the last event of
+  ## the possession, not the defensive foul
+  n <- nrow(x)
+  if(x$pl_team[n] != x$poss_team[n] & x$pl_code[n] == 'F') {
+    x <- x[seq_len(n - 1), ]
+    n <- nrow(x)
+  }
   pull_team <- x$pull_team[1]
   n <- nrow(x)
   huck <- grepl("L", x$pl_code)
@@ -140,6 +152,14 @@ poss_dat <- ddply(poss_dat, ~ game + point, function(x) {
   if(!x$score[n]) x$pl_code[n] <- 'eop'
   return(x)
 })
+
+poss_dat <- ddply(poss_dat, ~ game + point, function(x) {
+  n <- nrow(x)
+  if(!x$score[n]) x$pl_code[n] <- 'eop'
+  return(x)
+})
+
+## clean-up
 
 ## revalue pl_code in poss_dat, then reorder by frequency 
 ## i.e. if possession ends in a throwaway, make code reflect that better
