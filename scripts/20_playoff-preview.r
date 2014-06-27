@@ -32,7 +32,14 @@ input_dir <- file.path("..", "games", "2014_west")
 poss_file <- file.path(input_dir, "2014_west_possessions.rds")
 str(poss_dat <- readRDS(poss_file), give.attr = FALSE) # 1268 obs. of 18 vars
 str(poss_dat$game) # Factor w/ 11 levels
+table(poss_dat$a_code)
 
+## kludge!
+jFun <- function(x, y) revalue(factor(x), c("F" = y))
+poss_dat <-
+  droplevels(mutate(poss_dat, a_code = jFun(a_code, 'TA'),
+                    b_code = jFun(b_code, 'off -')))
+  
 poss_dat <-
   droplevels(subset(poss_dat,
                     game %in% grep("vanNH|pdxST", levels(poss_dat$game), value = TRUE)))
@@ -193,7 +200,26 @@ ggsave(out_file, p, width = jWidth, height = jHeight)
 } # this ends the loop over b_code, a_code
 
 
-## experimenting with game specific looks
-
-
-#
+## how do possessions end? O line vs D line AND by poss_team AND game
+j_code <- "b_code"
+last_code_freq_by_line_and_team_and_game <-
+  ddply(hth_dat, ~ poss_team + who + game, function(x) count_em_up(j_code, x))
+last_code_freq_by_line_and_team_and_game[[j_code]] <-
+  factor(last_code_freq_by_line_and_team_and_game[[j_code]],
+         levels = rev(levels(last_code_freq_by_line_and_team_and_game[[j_code]])))
+write.table(subset(last_code_freq_by_line_and_team_and_game, select = -prop),
+            "foo.tsv", row.names = FALSE, quote = FALSE, sep = "\t")
+## this stacked barchart ... numbers not printing correctly ... give up for now
+# p <- ggplot(subset(last_code_freq_by_line_and_team_and_game,
+#                    last_code_freq_by_line_and_team_and_game[[j_code]] != "Sum"),
+#             aes_string(x = "who", y = "Freq", fill = j_code))
+# p + geom_bar(stat = "identity", width = bw1) +
+#   #scale_fill_manual(values = mlu_cols, guide = guide_legend(reverse = TRUE)) +
+#   facet_grid(poss_team ~ game, scales="free") + 
+#   xlab("how possessions end") + ylab("number of possessions") +
+#   geom_text(aes(label = Freq))
+# out_file <- paste0("pp_barchart_how_possessions_end_",
+#                    if(j_code == "b_code") "coarse" else "detailed",
+#                    "_by_line_and_poss_team_and_game.png")
+# out_file <- file.path("..", "web", "figs", out_file)
+# ggsave(out_file, p, width = jWidth, height = jHeight)

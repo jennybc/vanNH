@@ -1,0 +1,49 @@
+poss_team	who	game	b_code	Freq	pretty_prop
+pdxST	o_line	2014-04-12_vanNH-at-pdxST	G	16	0.64
+pdxST	o_line	2014-04-12_vanNH-at-pdxST	off -	5	0.2
+pdxST	o_line	2014-04-12_vanNH-at-pdxST	def +	4	0.16
+pdxST	o_line	2014-04-12_vanNH-at-pdxST	Sum	25	1
+pdxST	o_line	2014-05-24_pdxST-at-vanNH	G	11	0.5
+pdxST	o_line	2014-05-24_pdxST-at-vanNH	off -	8	0.36
+pdxST	o_line	2014-05-24_pdxST-at-vanNH	def +	3	0.14
+pdxST	o_line	2014-05-24_pdxST-at-vanNH	Sum	22	1
+pdxST	o_line	2014-06-15_pdxST-at-vanNH	G	12	0.57
+pdxST	o_line	2014-06-15_pdxST-at-vanNH	off -	4	0.19
+pdxST	o_line	2014-06-15_pdxST-at-vanNH	def +	5	0.24
+pdxST	o_line	2014-06-15_pdxST-at-vanNH	Sum	21	1
+pdxST	d_line	2014-04-12_vanNH-at-pdxST	G	7	0.47
+pdxST	d_line	2014-04-12_vanNH-at-pdxST	off -	3	0.2
+pdxST	d_line	2014-04-12_vanNH-at-pdxST	def +	5	0.33
+pdxST	d_line	2014-04-12_vanNH-at-pdxST	Sum	15	1
+pdxST	d_line	2014-05-24_pdxST-at-vanNH	G	8	0.53
+pdxST	d_line	2014-05-24_pdxST-at-vanNH	off -	5	0.33
+pdxST	d_line	2014-05-24_pdxST-at-vanNH	def +	2	0.13
+pdxST	d_line	2014-05-24_pdxST-at-vanNH	Sum	15	1
+pdxST	d_line	2014-06-15_pdxST-at-vanNH	G	6	0.43
+pdxST	d_line	2014-06-15_pdxST-at-vanNH	off -	6	0.43
+pdxST	d_line	2014-06-15_pdxST-at-vanNH	def +	2	0.14
+pdxST	d_line	2014-06-15_pdxST-at-vanNH	Sum	14	1
+vanNH	o_line	2014-04-12_vanNH-at-pdxST	G	15	0.5
+vanNH	o_line	2014-04-12_vanNH-at-pdxST	off -	11	0.37
+vanNH	o_line	2014-04-12_vanNH-at-pdxST	def +	4	0.13
+vanNH	o_line	2014-04-12_vanNH-at-pdxST	Sum	30	1
+vanNH	o_line	2014-05-24_pdxST-at-vanNH	G	9	0.35
+vanNH	o_line	2014-05-24_pdxST-at-vanNH	off -	8	0.31
+vanNH	o_line	2014-05-24_pdxST-at-vanNH	def +	9	0.35
+vanNH	o_line	2014-05-24_pdxST-at-vanNH	Sum	26	1
+vanNH	o_line	2014-06-15_pdxST-at-vanNH	G	13	0.46
+vanNH	o_line	2014-06-15_pdxST-at-vanNH	off -	7	0.25
+vanNH	o_line	2014-06-15_pdxST-at-vanNH	def +	8	0.29
+vanNH	o_line	2014-06-15_pdxST-at-vanNH	Sum	28	1
+vanNH	d_line	2014-04-12_vanNH-at-pdxST	G	6	0.67
+vanNH	d_line	2014-04-12_vanNH-at-pdxST	off -	3	0.33
+vanNH	d_line	2014-04-12_vanNH-at-pdxST	def +	0	
+vanNH	d_line	2014-04-12_vanNH-at-pdxST	Sum	9	1
+vanNH	d_line	2014-05-24_pdxST-at-vanNH	G	7	0.64
+vanNH	d_line	2014-05-24_pdxST-at-vanNH	off -	1	0.09
+vanNH	d_line	2014-05-24_pdxST-at-vanNH	def +	3	0.27
+vanNH	d_line	2014-05-24_pdxST-at-vanNH	Sum	11	1
+vanNH	d_line	2014-06-15_pdxST-at-vanNH	G	7	0.78
+vanNH	d_line	2014-06-15_pdxST-at-vanNH	off -	1	0.11
+vanNH	d_line	2014-06-15_pdxST-at-vanNH	def +	1	0.11
+vanNH	d_line	2014-06-15_pdxST-at-vanNH	Sum	9	1
