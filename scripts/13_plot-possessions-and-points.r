@@ -25,7 +25,7 @@ count_em_up <- function(code_var, x = poss_dat, cutoff = 0.08) {
 
 input_dir <- file.path("..", "games", "2014_west")
 poss_file <- file.path(input_dir, "2014_west_possessions.rds")
-str(poss_dat <- readRDS(poss_file), give.attr = FALSE) # 1268 obs. of 16 vars
+str(poss_dat <- readRDS(poss_file), give.attr = FALSE) # 1268 obs. of 18 vars
 
 ## loop over the coarse b_code or more detailed a_code; both codes capture how
 ## the possession ends
