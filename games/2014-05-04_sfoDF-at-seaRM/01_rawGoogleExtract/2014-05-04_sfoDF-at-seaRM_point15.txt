@@ -1,0 +1,21 @@
+Pulling team: Seattle
+Period: 2
+Clock before point: 5:12:00
+Clock after point: 4:15:00
+Offense	Defense
+	13P
+57PU	
+	10D
+	29pu
+	12
+	29
+	10
+	29
+	7
+	29
+	10
+	29
+	15
+	29
+	12
+	13G

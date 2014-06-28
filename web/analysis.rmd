@@ -138,13 +138,15 @@ Observations:
 
 ## Cumulative distribution of number of possessions
 
-95% of all goals are scored in 5 or fewer possessions.
+95% of all goals are scored in 5 or fewer possessions. Note: for this, I have removed points that end with time running out vs. someone scoring.
 
 ![Alt text](figs/lineplot_cum_dist_poss_per_point.png)
 
 ## Goal conversion rate
 
 When an o_line receives the pull, what proportion of the time do they score without turning it over? Think of that as a special case of a more general goal conversion rate: Of points with *x* or more possessions, what proportion have exactly *x* possessions?
+
+Note: for this, I have removed points that end with time running out vs. someone scoring.
 
 Yes, I actually put 95% confidence intervals down there, to make it clear there's no evidence that the conversion rate differs by which possession it is. In particular, it doesn't seem to oscillate due to possessions being handled by an o_line vs. a d_line.
 

@@ -9,14 +9,14 @@ games <- c("2014-04-12_vanNH-at-pdxST", "2014-04-20_sfoDF-at-vanNH",
            "2014-05-31_vanNH-at-seaRM", "2014-06-07_seaRM-at-vanNH",
            "2014-06-15_pdxST-at-vanNH", "2014-06-21_vanNH-at-sfoDF",
            "2014-04-12_seaRM-at-sfoDF", "2014-04-19_sfoDF-at-seaRM",
-           "2014-04-26_pdxST-at-sfoDF")
+           "2014-04-26_pdxST-at-sfoDF", "2014-05-04_sfoDF-at-seaRM")
 game_file <- file.path("..", "games", games, "07_resolvedGame",
                        paste0(games, "_gameplay-resolved.tsv"))
 names(game_file) <- games
 game_play <-
   ldply(game_file, function(gg) read.delim(gg, stringsAsFactor = FALSE),
         .id = "game")
-str(game_play) # 8016 obs. of  8 variables
+str(game_play) # 8630 obs. of  8 variables
 
 ## function to create numbered possessions
 ## feed it raw poss_team (as a vector) or a matrix/data.fram with poss_team and
@@ -52,19 +52,19 @@ determine_possession <- function(x) {
 ## absolute possession variable within game
 game_play <- ddply(game_play, ~ game, function(x)
   mutate(x, poss_abs = determine_possession(x[c('poss_team', 'point')])))
-str(game_play) # 8016 obs. of  9 variables
+str(game_play) # 8630 obs. of  9 variables
 
 ## relative possession variable, i.e. within point
 game_play <- ddply(game_play, ~ point + game, function(x)
   data.frame(x,
              poss_rel = determine_possession(x[c('poss_team', 'point')])))
-str(game_play) # 8016 obs. of  10 variables:
+str(game_play) # 8630 obs. of  10 variables:
 
 ## get the pulling team, which is a point-level thing
 game_play <- ddply(game_play, ~ game + point, function(x) {
   data.frame(x, pull_team = x$pl_team[1])
 })
-str(game_play) # 8016 obs. of  11 variables:
+str(game_play) # 8630 obs. of  11 variables:
 
 ## reorder factor levels for pull_team, convert poss_team to factor
 ## 2014-06: this is based on western conference rankings
@@ -131,7 +131,7 @@ poss_dat <- ddply(game_play, ~ game + poss_abs, function(x) {
   data.frame(x[n, ], n_events = n, huck = any(huck),
              score = any(score), scor_team, who)
 })
-str(poss_dat) # 1268 obs. of  16 variables:
+str(poss_dat) # 1355 obs. of  16 variables:
 
 ## sanity checks of poss_dat
 (tmp <- ddply(poss_dat, ~ game,
@@ -202,18 +202,18 @@ point_dat <- ddply(poss_dat, ~ game + point, function(x) {
   x <- rename(x, c("event" = "n_events", "poss_rel" = "n_poss"))
   x[n, ]
 })
-str(point_dat)         # 552 obs. of 17 variables
-table(point_dat$score, useNA = "always")   # 503 TRUE       49 FALSE
-table(point_dat$pl_code, useNA = "always") # 396 G  107 LG  49 eop
-table(point_dat$a_code, useNA = "always")  # 503 G          49 eop
-table(point_dat$b_code, useNA = "always")  # 503 G          49 eop
-table(point_dat$huck, useNA = "always")    # 352 FALSE 200 TRUE
+str(point_dat)         # 589 obs. of 17 variables
+table(point_dat$score, useNA = "always")   # 537 TRUE        52 FALSE
+table(point_dat$pl_code, useNA = "always") # 423 G  114 LG  52 eop
+table(point_dat$a_code, useNA = "always")  # 537 G          52 eop
+table(point_dat$b_code, useNA = "always")  # 537 G          52 eop
+table(point_dat$huck, useNA = "always")    # 380 FALSE 209 TRUE
 addmargins(with(point_dat, table(score, huck)))
 #         huck
 # score   FALSE TRUE Sum
-#   FALSE    45    4  49
-#   TRUE    307  196 503
-#   Sum     352  200 552
+#   FALSE    48    4  52
+#   TRUE    332  205 537
+#   Sum     380  209 589
 
 out_file <- file.path(out_dir, "2014_west_points.rds")
 saveRDS(point_dat, out_file)

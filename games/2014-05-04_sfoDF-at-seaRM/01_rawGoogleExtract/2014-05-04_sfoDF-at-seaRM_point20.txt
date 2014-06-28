@@ -1,0 +1,11 @@
+Pulling team: San Francisco
+Period: 3
+Clock before point: 10:00:00
+Clock after point: 9:24:00
+Offense	Defense
+	12P
+1PU	
+	16pu
+	85
+	16
+	2G

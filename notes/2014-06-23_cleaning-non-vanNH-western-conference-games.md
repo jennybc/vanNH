@@ -58,6 +58,16 @@ D's for sfoDF-17-Boyd-Meredith. I can only find 1 (point 13) but MLU is reportin
 
 
 
+MLU: "Official Statistics - 2014 - Week 4 - 5/4 - Dogfish @ Rainmakers"  
+JB: 2014-05-04_sfoDF-at-seaRM  
+
+Added `PU` to pick up off the pull everywhere.
+
+(Generalized my own script to accomodate, e.g. "Seattle" instead of "Seattle Rainmakers", since this is another game that pre-dated the drop-down menu for pulling team.)
+
+Changed "Rainmakers" to "Seattle" on points 8 and 29 for internal consistency.
+
+
 
 Official Statistics - 2014 - Week 11 - 6/21 - Nighthawks @ Dogfish
 2014-06-21_vanNH-at-sfoDF

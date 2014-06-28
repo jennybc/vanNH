@@ -13,7 +13,7 @@ jHeight <- 4
 
 input_dir <- file.path("..", "games", "2014_west")
 poss_file <- file.path(input_dir, "2014_west_possessions.rds")
-str(poss_dat <- readRDS(poss_file), give.attr = FALSE) # 1268 obs. of 18 vars
+str(poss_dat <- readRDS(poss_file), give.attr = FALSE) # 1355 obs. of 18 vars
 
 poss_dat$c_code <-
   revalue(poss_dat$b_code,

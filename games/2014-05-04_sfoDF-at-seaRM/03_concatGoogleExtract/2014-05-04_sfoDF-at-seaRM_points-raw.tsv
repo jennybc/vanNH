@@ -1,0 +1,38 @@
+point	Pulling.team	Period	Clock.before.point	Clock.after.point
+1	San Francisco	1	10:00:00	7:45:00
+2	Seattle	1	7:45:00	7:27:00
+3	Seattle	1	7:27:00	6:43:00
+4	Seattle	1	6:43:00	4:21:00
+5	San Francisco	1	4:21:00	2:45:00
+6	Seattle	1	2:45:00	1:28:00
+7	Seattle	1	1:28:00	0:45:00
+8	Seattle	1	0:45:00	0:34:00
+9	San Francisco	1	0:34:00	0:07:00
+10	Seattle	1	0:07:00	0:00:00
+11	Seattle	2	10:00:00	8:14:00
+12	Seattle	2	8:14:00	7:57:00
+13	Seattle	2	7:57:00	6:19:00
+14	San Francisco	2	6:19:00	5:12:00
+15	Seattle	2	5:12:00	4:15:00
+16	Seattle	2	4:15:00	3:52:00
+17	Seattle	2	3:52:00	3:11:00
+18	San Francisco	2	3:11:00	0:21:00
+19	San Francisco	2	0:21:00	0:00:00
+20	San Francisco	3	10:00:00	9:24:00
+21	San Francisco	3	9:24:00	9:13:00
+22	Seattle	3	9:13:00	8:25:00
+23	San Francisco	3	8:25:00	7:14:00
+24	San Francisco	3	7:14:00	5:41:00
+25	San Francisco	3	5:41:00	4:40:00
+26	San Francisco	3	4:40:00	3:14:00
+27	Seattle	3	3:14:00	2:55:00
+28	San Francisco	3	2:55:00	0:00:00
+29	Seattle	4	10:00:00	8:45:00
+30	Seattle	4	8:45:00	7:39:00
+31	San Francisco	4	7:39:00	7:20:00
+32	Seattle	4	7:20:00	5:46:00
+33	San Francisco	4	5:46:00	4:33:00
+34	San Francisco	4	4:33:00	4:02:00
+35	Seattle	4	4:02:00	3:28:00
+36	San Francisco	4	3:28:00	2:13:00
+37	San Francisco	4	2:13:00	0:00:00

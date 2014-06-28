@@ -1267,3 +1267,90 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-04-26_pdxST-at-sfoDF	5	37	pdxST	104	5	32	sfoDF	sfoDF	23	TA	11	FALSE	FALSE	NA	o_line	TA	off -
 2014-04-26_pdxST-at-sfoDF	5	37	pdxST	105	6	42	pdxST	pdxST	9	LG	10	TRUE	TRUE	pdxST	d_line	G	G
 2014-04-26_pdxST-at-sfoDF	5	38	pdxST	106	1	3	sfoDF	pdxST	14	eop	3	FALSE	FALSE	NA	o_line	eop	eop
+2014-05-04_sfoDF-at-seaRM	1	1	sfoDF	1	1	15	seaRM	seaRM	25	TA	15	FALSE	FALSE	NA	o_line	TA	off -
+2014-05-04_sfoDF-at-seaRM	1	1	sfoDF	2	2	17	sfoDF	seaRM	48	D	2	FALSE	FALSE	NA	d_line	D	def +
+2014-05-04_sfoDF-at-seaRM	1	1	sfoDF	3	3	26	seaRM	seaRM	5	G	9	FALSE	TRUE	seaRM	o_line	G	G
+2014-05-04_sfoDF-at-seaRM	1	2	seaRM	4	1	5	sfoDF	sfoDF	88	TA	5	FALSE	FALSE	NA	o_line	TA	off -
+2014-05-04_sfoDF-at-seaRM	1	2	seaRM	5	2	7	seaRM	seaRM	18	G	2	FALSE	TRUE	seaRM	d_line	G	G
+2014-05-04_sfoDF-at-seaRM	1	3	seaRM	6	1	6	sfoDF	sfoDF	12	TA	6	FALSE	FALSE	NA	o_line	TA	off -
+2014-05-04_sfoDF-at-seaRM	1	3	seaRM	7	2	12	seaRM	seaRM	12	G	6	FALSE	TRUE	seaRM	d_line	G	G
+2014-05-04_sfoDF-at-seaRM	1	4	seaRM	8	1	5	sfoDF	sfoDF	57	TA	5	FALSE	FALSE	NA	o_line	TA	off -
+2014-05-04_sfoDF-at-seaRM	1	4	seaRM	9	2	11	seaRM	seaRM	35	TA	6	FALSE	FALSE	NA	d_line	TA	off -
+2014-05-04_sfoDF-at-seaRM	1	4	seaRM	10	3	17	sfoDF	sfoDF	6	TA	6	FALSE	FALSE	NA	o_line	TA	off -
+2014-05-04_sfoDF-at-seaRM	1	4	seaRM	11	4	21	seaRM	seaRM	10	TA	4	FALSE	FALSE	NA	d_line	TA	off -
+2014-05-04_sfoDF-at-seaRM	1	4	seaRM	12	5	28	sfoDF	sfoDF	88	G	7	TRUE	TRUE	sfoDF	o_line	G	G
+2014-05-04_sfoDF-at-seaRM	1	5	sfoDF	13	1	6	seaRM	sfoDF	85	D	6	FALSE	FALSE	NA	o_line	D	def +
+2014-05-04_sfoDF-at-seaRM	1	5	sfoDF	14	2	20	sfoDF	sfoDF	6	TA	14	TRUE	FALSE	NA	d_line	TA	off -
+2014-05-04_sfoDF-at-seaRM	1	5	sfoDF	15	3	24	seaRM	seaRM	13	G	4	TRUE	TRUE	seaRM	o_line	G	G
+2014-05-04_sfoDF-at-seaRM	1	6	seaRM	16	1	15	sfoDF	seaRM	35	D	15	FALSE	FALSE	NA	o_line	D	def +
+2014-05-04_sfoDF-at-seaRM	1	6	seaRM	17	2	21	seaRM	seaRM	2	LG	6	TRUE	TRUE	seaRM	d_line	G	G
+2014-05-04_sfoDF-at-seaRM	1	7	seaRM	18	1	9	sfoDF	seaRM	12	D	9	FALSE	FALSE	NA	o_line	D	def +
+2014-05-04_sfoDF-at-seaRM	1	7	seaRM	19	2	14	seaRM	seaRM	77	G	5	FALSE	TRUE	seaRM	d_line	G	G
+2014-05-04_sfoDF-at-seaRM	1	8	seaRM	20	1	9	sfoDF	sfoDF	2	LG	9	TRUE	TRUE	sfoDF	o_line	G	G
+2014-05-04_sfoDF-at-seaRM	1	9	sfoDF	21	1	8	seaRM	seaRM	0	LG	8	TRUE	TRUE	seaRM	o_line	G	G
+2014-05-04_sfoDF-at-seaRM	1	10	seaRM	22	1	2	sfoDF	sfoDF	8	eop	2	FALSE	FALSE	NA	o_line	eop	eop
+2014-05-04_sfoDF-at-seaRM	2	11	seaRM	23	1	5	sfoDF	sfoDF	1	TA	5	FALSE	FALSE	NA	o_line	TA	off -
+2014-05-04_sfoDF-at-seaRM	2	11	seaRM	24	2	7	seaRM	sfoDF	11	D	2	FALSE	FALSE	NA	d_line	D	def +
+2014-05-04_sfoDF-at-seaRM	2	11	seaRM	25	3	14	sfoDF	seaRM	6	HB	7	FALSE	FALSE	NA	o_line	D	def +
+2014-05-04_sfoDF-at-seaRM	2	11	seaRM	26	4	23	seaRM	seaRM	18	LG	9	TRUE	TRUE	seaRM	d_line	G	G
+2014-05-04_sfoDF-at-seaRM	2	12	seaRM	27	1	2	sfoDF	sfoDF	17	TA	2	FALSE	FALSE	NA	o_line	TA	off -
+2014-05-04_sfoDF-at-seaRM	2	12	seaRM	28	2	5	seaRM	seaRM	15	G	3	FALSE	TRUE	seaRM	d_line	G	G
+2014-05-04_sfoDF-at-seaRM	2	13	seaRM	29	1	6	sfoDF	seaRM	35	D	6	FALSE	FALSE	NA	o_line	D	def +
+2014-05-04_sfoDF-at-seaRM	2	13	seaRM	30	2	15	seaRM	seaRM	1	TA	9	FALSE	FALSE	NA	d_line	TA	off -
+2014-05-04_sfoDF-at-seaRM	2	13	seaRM	31	3	20	sfoDF	sfoDF	2	G	5	FALSE	TRUE	sfoDF	o_line	G	G
+2014-05-04_sfoDF-at-seaRM	2	14	sfoDF	32	1	11	seaRM	sfoDF	5	D	11	FALSE	FALSE	NA	o_line	D	def +
+2014-05-04_sfoDF-at-seaRM	2	14	sfoDF	33	2	14	sfoDF	seaRM	48	D	3	FALSE	FALSE	NA	d_line	D	def +
+2014-05-04_sfoDF-at-seaRM	2	14	sfoDF	34	3	17	seaRM	seaRM	6	G	3	FALSE	TRUE	seaRM	o_line	G	G
+2014-05-04_sfoDF-at-seaRM	2	15	seaRM	35	1	3	sfoDF	seaRM	10	D	3	FALSE	FALSE	NA	o_line	D	def +
+2014-05-04_sfoDF-at-seaRM	2	15	seaRM	36	2	16	seaRM	seaRM	13	G	13	FALSE	TRUE	seaRM	d_line	G	G
+2014-05-04_sfoDF-at-seaRM	2	16	seaRM	37	1	4	sfoDF	seaRM	29	D	4	FALSE	FALSE	NA	o_line	D	def +
+2014-05-04_sfoDF-at-seaRM	2	16	seaRM	38	2	7	seaRM	seaRM	35	G	3	FALSE	TRUE	seaRM	d_line	G	G
+2014-05-04_sfoDF-at-seaRM	2	17	seaRM	39	1	9	sfoDF	sfoDF	11	G	9	FALSE	TRUE	sfoDF	o_line	G	G
+2014-05-04_sfoDF-at-seaRM	2	18	sfoDF	40	1	13	seaRM	sfoDF	46	D	13	FALSE	FALSE	NA	o_line	D	def +
+2014-05-04_sfoDF-at-seaRM	2	18	sfoDF	41	2	19	sfoDF	sfoDF	12	TD	6	TRUE	FALSE	NA	d_line	TD	off -
+2014-05-04_sfoDF-at-seaRM	2	18	sfoDF	42	3	22	seaRM	sfoDF	12	D	3	FALSE	FALSE	NA	o_line	D	def +
+2014-05-04_sfoDF-at-seaRM	2	18	sfoDF	43	4	28	sfoDF	sfoDF	88	G	6	FALSE	TRUE	sfoDF	d_line	G	G
+2014-05-04_sfoDF-at-seaRM	2	19	sfoDF	44	1	10	seaRM	seaRM	25	eop	10	FALSE	FALSE	NA	o_line	eop	eop
+2014-05-04_sfoDF-at-seaRM	3	20	sfoDF	45	1	2	seaRM	seaRM	1	TA	2	FALSE	FALSE	NA	o_line	TA	off -
+2014-05-04_sfoDF-at-seaRM	3	20	sfoDF	46	2	6	sfoDF	sfoDF	2	G	4	FALSE	TRUE	sfoDF	d_line	G	G
+2014-05-04_sfoDF-at-seaRM	3	21	sfoDF	47	1	6	seaRM	seaRM	48	G	6	FALSE	TRUE	seaRM	o_line	G	G
+2014-05-04_sfoDF-at-seaRM	3	22	seaRM	48	1	17	sfoDF	sfoDF	18	G	17	FALSE	TRUE	sfoDF	o_line	G	G
+2014-05-04_sfoDF-at-seaRM	3	23	sfoDF	49	1	14	seaRM	sfoDF	2	HB	14	FALSE	FALSE	NA	o_line	D	def +
+2014-05-04_sfoDF-at-seaRM	3	23	sfoDF	50	2	22	sfoDF	sfoDF	12	G	8	FALSE	TRUE	sfoDF	d_line	G	G
+2014-05-04_sfoDF-at-seaRM	3	24	sfoDF	51	1	12	seaRM	seaRM	18	TD	12	FALSE	FALSE	NA	o_line	TD	off -
+2014-05-04_sfoDF-at-seaRM	3	24	sfoDF	52	2	19	sfoDF	seaRM	18	D	7	FALSE	FALSE	NA	d_line	D	def +
+2014-05-04_sfoDF-at-seaRM	3	24	sfoDF	53	3	22	seaRM	seaRM	6	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+2014-05-04_sfoDF-at-seaRM	3	24	sfoDF	54	4	25	sfoDF	sfoDF	85	G	3	FALSE	TRUE	sfoDF	d_line	G	G
+2014-05-04_sfoDF-at-seaRM	3	25	sfoDF	55	1	14	seaRM	seaRM	25	TD	14	FALSE	FALSE	NA	o_line	TD	off -
+2014-05-04_sfoDF-at-seaRM	3	25	sfoDF	56	2	20	sfoDF	sfoDF	5	G	6	FALSE	TRUE	sfoDF	d_line	G	G
+2014-05-04_sfoDF-at-seaRM	3	26	sfoDF	57	1	11	seaRM	seaRM	48	TD	11	FALSE	FALSE	NA	o_line	TD	off -
+2014-05-04_sfoDF-at-seaRM	3	26	sfoDF	58	2	14	sfoDF	seaRM	48	D	3	FALSE	FALSE	NA	d_line	D	def +
+2014-05-04_sfoDF-at-seaRM	3	26	sfoDF	59	3	17	seaRM	seaRM	48	G	3	FALSE	TRUE	seaRM	o_line	G	G
+2014-05-04_sfoDF-at-seaRM	3	27	seaRM	60	1	7	sfoDF	sfoDF	11	LG	7	TRUE	TRUE	sfoDF	o_line	G	G
+2014-05-04_sfoDF-at-seaRM	3	28	sfoDF	61	1	6	seaRM	sfoDF	16	D	6	FALSE	FALSE	NA	o_line	D	def +
+2014-05-04_sfoDF-at-seaRM	3	28	sfoDF	62	2	8	sfoDF	seaRM	17	D	2	FALSE	FALSE	NA	d_line	D	def +
+2014-05-04_sfoDF-at-seaRM	3	28	sfoDF	63	3	16	seaRM	sfoDF	14	D	8	FALSE	FALSE	NA	o_line	D	def +
+2014-05-04_sfoDF-at-seaRM	3	28	sfoDF	64	4	32	sfoDF	seaRM	12	D	16	FALSE	FALSE	NA	d_line	D	def +
+2014-05-04_sfoDF-at-seaRM	3	28	sfoDF	65	5	42	seaRM	seaRM	21	TA	10	FALSE	FALSE	NA	o_line	TA	off -
+2014-05-04_sfoDF-at-seaRM	3	28	sfoDF	66	6	44	sfoDF	sfoDF	57	TA	2	FALSE	FALSE	NA	d_line	TA	off -
+2014-05-04_sfoDF-at-seaRM	3	28	sfoDF	67	7	47	seaRM	seaRM	13	G	3	FALSE	TRUE	seaRM	o_line	G	G
+2014-05-04_sfoDF-at-seaRM	4	29	seaRM	68	1	6	sfoDF	seaRM	12	D	6	FALSE	FALSE	NA	o_line	D	def +
+2014-05-04_sfoDF-at-seaRM	4	29	seaRM	69	2	18	seaRM	seaRM	48	G	12	FALSE	TRUE	seaRM	d_line	G	G
+2014-05-04_sfoDF-at-seaRM	4	30	seaRM	70	1	2	sfoDF	sfoDF	17	TA	2	FALSE	FALSE	NA	o_line	TA	off -
+2014-05-04_sfoDF-at-seaRM	4	30	seaRM	71	2	7	seaRM	seaRM	24	TD	5	FALSE	FALSE	NA	d_line	TD	off -
+2014-05-04_sfoDF-at-seaRM	4	30	seaRM	72	3	16	sfoDF	sfoDF	2	G	9	FALSE	TRUE	sfoDF	o_line	G	G
+2014-05-04_sfoDF-at-seaRM	4	31	sfoDF	73	1	7	seaRM	seaRM	51	LG	7	TRUE	TRUE	seaRM	o_line	G	G
+2014-05-04_sfoDF-at-seaRM	4	32	seaRM	74	1	5	sfoDF	sfoDF	6	TA	5	FALSE	FALSE	NA	o_line	TA	off -
+2014-05-04_sfoDF-at-seaRM	4	32	seaRM	75	2	12	seaRM	sfoDF	21	D	7	FALSE	FALSE	NA	d_line	D	def +
+2014-05-04_sfoDF-at-seaRM	4	32	seaRM	76	3	17	sfoDF	sfoDF	18	LG	5	TRUE	TRUE	sfoDF	o_line	G	G
+2014-05-04_sfoDF-at-seaRM	4	33	sfoDF	77	1	9	seaRM	seaRM	17	TA	9	FALSE	FALSE	NA	o_line	TA	off -
+2014-05-04_sfoDF-at-seaRM	4	33	sfoDF	78	2	20	sfoDF	sfoDF	9	G	11	FALSE	TRUE	sfoDF	d_line	G	G
+2014-05-04_sfoDF-at-seaRM	4	34	sfoDF	79	1	13	seaRM	seaRM	12	G	13	FALSE	TRUE	seaRM	o_line	G	G
+2014-05-04_sfoDF-at-seaRM	4	35	seaRM	80	1	9	sfoDF	sfoDF	88	G	9	FALSE	TRUE	sfoDF	o_line	G	G
+2014-05-04_sfoDF-at-seaRM	4	36	sfoDF	81	1	15	seaRM	seaRM	1	TA	15	FALSE	FALSE	NA	o_line	TA	off -
+2014-05-04_sfoDF-at-seaRM	4	36	sfoDF	82	2	22	sfoDF	sfoDF	9	G	7	FALSE	TRUE	sfoDF	d_line	G	G
+2014-05-04_sfoDF-at-seaRM	4	37	sfoDF	83	1	19	seaRM	seaRM	21	TD	19	FALSE	FALSE	NA	o_line	TD	off -
+2014-05-04_sfoDF-at-seaRM	4	37	sfoDF	84	2	21	sfoDF	sfoDF	85	TD	2	FALSE	FALSE	NA	d_line	TD	off -
+2014-05-04_sfoDF-at-seaRM	4	37	sfoDF	85	3	26	seaRM	sfoDF	21	D	5	FALSE	FALSE	NA	o_line	D	def +
+2014-05-04_sfoDF-at-seaRM	4	37	sfoDF	86	4	30	sfoDF	sfoDF	6	TD	4	FALSE	FALSE	NA	d_line	TD	off -
+2014-05-04_sfoDF-at-seaRM	4	37	sfoDF	87	5	39	seaRM	seaRM	35	eop	9	FALSE	FALSE	NA	o_line	eop	eop

@@ -13,10 +13,10 @@ theme_set(theme_bw())
 
 input_dir <- file.path("..", "games", "2014_west")
 point_file <- file.path(input_dir, "2014_west_points.rds")
-str(point_dat <- readRDS(point_file), give.attr = FALSE) # 552 obs. of  17 vars
+str(point_dat <- readRDS(point_file), give.attr = FALSE) # 589 obs. of  17 vars
 
-table(point_dat$score) # 503 TRUE 49 FALSE
-str(point_dat <- subset(point_dat, score)) # 503 obs. of  17 var
+table(point_dat$score) # 537 TRUE 52 FALSE
+str(point_dat <- subset(point_dat, score)) # 537 obs. of  17 var
 
 n_poss_freq <- ddply(point_dat, ~ n_poss, function(x) {
   data.frame(n_points = nrow(x))
@@ -39,7 +39,7 @@ p + ylim(0, 1) + geom_segment(aes(xend = n_poss, yend = 0), size = I(3))
 (n_poss_max <- max(which(n_poss_freq$cum_prop <= 0.95))) # 5 possessions
 (catchall_convert_prop <- # weighted avg of convert_prop for the lump
    with(subset(n_poss_freq, n_poss > n_poss_max),
-        weighted.mean(convert_prop, n_points))) # 0.4055556
+        weighted.mean(convert_prop, n_points))) # 0.4079216
 
 ## remake this table, lumping the high poss together
 n_poss_freq <- n_poss_freq[c('n_poss', 'n_points')]
