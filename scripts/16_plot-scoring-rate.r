@@ -14,7 +14,7 @@ theme_set(theme_bw())
 
 input_dir <- file.path("..", "games", "2014_west")
 point_file <- file.path(input_dir, "2014_west_points.rds")
-str(point_dat <- readRDS(point_file), give.attr = FALSE) # 552 obs. of  17 vars
+str(point_dat <- readRDS(point_file), give.attr = FALSE) # 589 obs. of  17 vars
 
 ## learn the date, home team, away team from the game ID
 game_dat <- with(point_dat,
@@ -24,7 +24,7 @@ game_dat <- with(game_dat,
                  data.frame(game, date,
                             colsplit(matchup, "-at-", c("away", "home"))))
 point_dat <- join(point_dat, game_dat[c('game', 'away', 'home')])
-str(point_dat) # 552 obs. of  19 vars
+str(point_dat) # 589 obs. of  19 vars
 
 ## determine the receiving team
 point_dat <- ddply(point_dat, ~ game, function(x) {
