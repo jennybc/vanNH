@@ -97,7 +97,7 @@ message("wrote ", out_file)
 ## now aggregate at the level of a possession  
 
 ## how poss_dat differs from game_play, other than aggregation:
-## n_events = number of events from beg of pt to end of this poss
+## n_events = number of events
 ## score = logical indicating if possession ends with a goal
 ## scor_team = who scored ... NA if nobody did
 ## who = o_line vs. d_line
@@ -153,12 +153,6 @@ poss_dat <- ddply(poss_dat, ~ game + point, function(x) {
   return(x)
 })
 
-poss_dat <- ddply(poss_dat, ~ game + point, function(x) {
-  n <- nrow(x)
-  if(!x$score[n]) x$pl_code[n] <- 'eop'
-  return(x)
-})
-
 ## clean-up
 
 ## revalue pl_code in poss_dat, then reorder by frequency 
@@ -196,4 +190,39 @@ message("wrote ", out_file)
 
 out_file <- file.path(out_dir, "2014_west_possessions.dput")
 dput(poss_dat, out_file)
+message("wrote ", out_file)
+
+## now aggregate at the level of a point  
+
+## how point_dat differs from poss_dat, other than aggregation:
+## n_events = number of events in the point (comes from poss_dat$event!)
+point_dat <- ddply(poss_dat, ~ game + point, function(x) {
+  n <- nrow(x)
+  x$n_events <- NULL
+  x <- rename(x, c("event" = "n_events", "poss_rel" = "n_poss"))
+  x[n, ]
+})
+str(point_dat)         # 552 obs. of 17 variables
+table(point_dat$score, useNA = "always")   # 503 TRUE       49 FALSE
+table(point_dat$pl_code, useNA = "always") # 396 G  107 LG  49 eop
+table(point_dat$a_code, useNA = "always")  # 503 G          49 eop
+table(point_dat$b_code, useNA = "always")  # 503 G          49 eop
+table(point_dat$huck, useNA = "always")    # 352 FALSE 200 TRUE
+addmargins(with(point_dat, table(score, huck)))
+#         huck
+# score   FALSE TRUE Sum
+#   FALSE    45    4  49
+#   TRUE    307  196 503
+#   Sum     352  200 552
+
+out_file <- file.path(out_dir, "2014_west_points.rds")
+saveRDS(point_dat, out_file)
+message("wrote ", out_file)
+
+out_file <- file.path(out_dir, "2014_west_points.tsv")
+write.table(point_dat, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
+message("wrote ", out_file)
+
+out_file <- file.path(out_dir, "2014_west_points.dput")
+dput(point_dat, out_file)
 message("wrote ", out_file)
