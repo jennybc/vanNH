@@ -8,12 +8,13 @@ if(length(options) < 1) {
   #game <- "2014-04-12_vanNH-at-pdxST"
   #game <- "2014-04-20_sfoDF-at-vanNH"
   #game <- "2014-04-26_vanNH-at-seaRM"
-  game <- "2014-05-10_seaRM-at-vanNH"
+  #game <- "2014-05-10_seaRM-at-vanNH"
   #game <- "2014-05-17_vanNH-at-sfoDF"
   #game <- "2014-05-24_pdxST-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
   #game <- "2014-06-07_seaRM-at-vanNH"
   #game <- "2014-06-15_pdxST-at-vanNH"
+  game <- "2014-05-04_sfoDF-at-seaRM"
 } else {
   game <- options[1]
 }
@@ -41,8 +42,10 @@ point_info <- read.delim(in_file, stringsAsFactors = FALSE)
 
 ## replace long team names with my official short versions
 mlu_teams <- read.delim(file.path("..", "data", "mlu-teams.tsv"))
+## I use *p*match() to accomodate, eg, "Portland" instead of "Portland Stags"
 point_info$pull_team <-
-  factor(mlu_teams$team[match(point_info$Pulling.team, mlu_teams$longName)],
+  factor(mlu_teams$team[pmatch(point_info$Pulling.team, mlu_teams$longName,
+                               duplicates.ok = TRUE)],
          levels = jTeams)
 point_info$Pulling.team <- NULL
 ## rename vars
