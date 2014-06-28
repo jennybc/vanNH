@@ -132,52 +132,6 @@ ggsave(out_file, p, width = jWidth, height = jHeight)
 
 } # this ends the loop over b_code, a_code
 
-## now look at how possessions relate to points
-
-## FYI: the following chunk produces a figure I don't use; not sure it's
-## interesting or sensible
-
-## when team x receives a pull, who scores?
-foo <- ldply(levels(poss_dat$pull_team), function(j_team) {
-  ## get all possessions for points where j_team received the pull
-  x <- subset(poss_dat, pull_team != j_team &
-                game %in% grep(j_team, levels(poss_dat$game), value = TRUE))
-  # who ultimately scored?
-  z <- ddply(x, ~ game + point,
-             summarize, scor_team = scor_team[length(scor_team)])
-  z_freq <-
-    as.data.frame(addmargins(table(z$scor_team, useNA = "always",
-                                   dnn = "scor_team")))
-  levels(z_freq$scor_team) <- c(levels(z_freq$scor_team), "nobody")
-  z_freq$scor_team[is.na(z_freq$scor_team)] <- "nobody"
-  z_freq <- mutate(z_freq,
-                    prop = Freq/Freq[scor_team == "Sum"],
-                    pretty_prop = as.character(round(prop, 2)),
-                    scor_team = revalue(reorder(scor_team, -1 * Freq),
-                                        c("Sum" = "All pts")))
-  return(data.frame(z_freq, recv_team = j_team))
-})
-str(foo)
-
-vanNH <- subset(foo, recv_team =="vanNH")
-vanNH$scor_team <- with(vanNH, reorder(scor_team, Freq))
-pdxST <- subset(foo, recv_team =="pdxST")
-pdxST$scor_team <- with(pdxST, reorder(scor_team, Freq))
-seaRM <- subset(foo, recv_team =="seaRM")
-seaRM$scor_team <- with(seaRM, reorder(scor_team, Freq))
-sfoDF <- subset(foo, recv_team =="sfoDF")
-sfoDF$scor_team <- with(sfoDF, reorder(scor_team, Freq))
-
-p <- ggplot(mapping = aes(x = scor_team, y = Freq)) +
-  theme(panel.grid.major.y = element_blank()) +
-  facet_wrap(~ recv_team, scales="free") 
-p + geom_bar(stat = "identity", data = vanNH) +
-  geom_bar(stat = "identity", data = pdxST) + 
-  geom_bar(stat = "identity", data = seaRM) + 
-  geom_bar(stat = "identity", data = sfoDF) + 
-  geom_text(data = foo, aes(label = Freq), vjust = -0.7) + 
-  geom_text(data = foo, aes(label = pretty_prop), vjust = 1.35, color = "white")
-
 ## try something similar but simpler:
 ## when team x receives a pull, how often do they score vs the opponent?
 foo <- ldply(levels(poss_dat$pull_team), function(j_team) {
@@ -272,14 +226,6 @@ p + geom_bar(stat = "identity") +
         legend.background = element_rect(fill = 0)) + labs(fill = "")
 ggsave("../web/figs/poss_n_dist_by_status.png")
 
-p <- ggplot(n_poss_freq, aes(x = n_poss, y = cum_prop))
-p + geom_bar(stat = "identity") + 
-  geom_text(aes(label = pretty_cum_prop), vjust = -0.2, size = 4) +
-  scale_x_discrete(breaks = 1:17) + 
-  ylab("proportion of points scored in x possessions or less") +
-  xlab("x = number of possessions before point ends in a goal")
-ggsave("../web/figs/poss_n_CDF_by_status.png")
-
 ## now retain status AND scor_team
 n_poss_freq <-
   ddply(point_dat, ~ scor_team + status + n_poss, summarize,
@@ -301,22 +247,3 @@ p + geom_bar(stat = "identity") +
   theme(legend.position = c(1, 1), legend.justification = c(1, 1),
         legend.background = element_rect(fill = 0)) + labs(fill = "")
 ggsave("../web/figs/poss_n_dist_by_scor_team_and_status.png")
-
-
-## NOT IN USE
-## for viewing rows in gpDat where something happens, e.g. a possession ends
-## with a specific code
-# d_ply(poss_dat, ~ pl_code, function(x) {
-#   match_vars <- c('game', 'period', 'point', 'event')
-#   gp_rows <-
-#     join(x[match_vars],
-#          data.frame(gpDat[match_vars], row = seq_len(nrow(gpDat))))$row
-#   display_vars <- c('game', 'point', 'event', 'poss_team', 'pl_team',
-#                     'pl_pnum', 'pl_code')
-#   for(i in seq_along(gp_rows)) {
-#     print(gpDat[gp_rows[i] + (-2:2), display_vars])
-#     cat("\n")
-#   }
-#   
-# })
-
