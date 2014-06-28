@@ -146,6 +146,8 @@ Observations:
 
 When an o_line receives the pull, what proportion of the time do they score without turning it over? Think of that as a special case of a more general goal conversion rate: Of points with *x* or more possessions, what proportion have exactly *x* possessions?
 
+Yes, I actually put 95% confidence intervals down there, to make it clear there's no evidence that the conversion rate differs by which possession it is. In particular, it doesn't seem to oscillate due to possessions being handled by an o_line vs. a d_line.
+
 x = number of possessions  
 y = goal conversion rate  
 
