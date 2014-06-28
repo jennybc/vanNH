@@ -1,6 +1,6 @@
 ---
 title: "Analysis of gameplay *(BETA)*"
-date: "25 June, 2014"
+date: "27 June, 2014"
 output:
   html_document:
     theme: readable
@@ -72,6 +72,7 @@ x = how a possession ends
   * TA = throwaway, i.e. turnover that is neither a drop nor a clear D
   * D = knock down D + interception + hand block + foot block
   * TD = drop
+  * eop = end of period
   * VTT = violation travel turnover
   * VST = violation stall
   * off F = offensive foul
@@ -109,6 +110,8 @@ x and y and meaning of `o_line` and `d_line` = *same as above*
 
 ## How many possessions does it take to score?
 
+Of all the goals scored, what proportion were scored immediately off the pull, i.e. in exactly one possession? What proportion were scored by a d_line in exactly two possessions? Etc.
+
 x = the number of possessions before a goal is finally scored  
 y = the proportion of points scored after x exactly possessions  
 color indicates hold = receiving team scored vs. break = pulling team scored  
@@ -118,8 +121,6 @@ color indicates hold = receiving team scored vs. break = pulling team scored
 x = *same as above*  
 y = cumulative proportion, i.e. proportion of points scored within x or fewer possessions  
 color *same as above*  
-
-![Alt text](figs/poss_n_CDF_by_status.png)
 
 ## By team: how many possessions does it take to score?
 
@@ -134,6 +135,21 @@ Observations:
   * makes me want to look at this: of points with x or more possessions, what proportion have exactly x possessions? The first "1 possession hold" bars will not change, but then we'll see conversion rate for the D line on it's first possession ("2 possession break"), conversion rate for O line if it gets disc back("3 possession hold), etc. I expect those bars to steadily decrease and to show higher conversion rate for O lines vs D. But who knows?
 
 ![Alt text](figs/poss_n_dist_by_scor_team_and_status.png)
+
+## Cumulative distribution of number of possessions
+
+95% of all goals are scored in 5 or fewer possessions.
+
+![Alt text](figs/lineplot_cum_dist_poss_per_point.png)
+
+## Goal conversion rate
+
+When an o_line receives the pull, what proportion of the time do they score without turning it over? Think of that as a special case of a more general goal conversion rate: Of points with *x* or more possessions, what proportion have exactly *x* possessions?
+
+x = number of possessions  
+y = goal conversion rate  
+
+![Alt text](figs/dots_with_errbars_goal_conversion_rate_by_poss.png)
 
 ## How many events in a possession?
 
