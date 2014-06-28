@@ -25,7 +25,7 @@ count_em_up <- function(code_var, x = poss_dat, cutoff = 0.08) {
 
 input_dir <- file.path("..", "games", "2014_west")
 poss_file <- file.path(input_dir, "2014_west_possessions.rds")
-str(poss_dat <- readRDS(poss_file), give.attr = FALSE) # 1268 obs. of 18 vars
+str(poss_dat <- readRDS(poss_file), give.attr = FALSE) # 1355 obs. of 18 vars
 
 ## loop over the coarse b_code or more detailed a_code; both codes capture how
 ## the possession ends
@@ -154,11 +154,11 @@ jFun <- function(x) {
   return(y)
 }
 point_dat <- ddply(poss_dat, ~ game + point, jFun)
-str(point_dat) # 552 obs. of  7 variables:
+str(point_dat) # 589 obs. of  7 variables:
 
 ## get rid of points that end with no goal
 point_dat <- subset(point_dat, !is.na(status))
-str(point_dat) # 502 obs. of  7 variables:
+str(point_dat) # 537 obs. of  7 variables:
 
 ## distribution of number of possessions
 n_poss_freq <- ddply(point_dat, ~ n_poss + status, summarize,
