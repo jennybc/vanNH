@@ -1,0 +1,610 @@
+period	point	event	pl_team	pl_pnum	pl_code	poss_team
+1	1	1	vanNH	8	P	pdxST
+1	1	2	pdxST	11	PU	pdxST
+1	1	3	pdxST	24		pdxST
+1	1	4	pdxST	10		pdxST
+1	1	5	pdxST	2		pdxST
+1	1	6	pdxST	11		pdxST
+1	1	7	pdxST	7		pdxST
+1	1	8	pdxST	13		pdxST
+1	1	9	pdxST	11		pdxST
+1	1	10	pdxST	10	TD	pdxST
+1	1	11	vanNH	24	PU	vanNH
+1	1	12	vanNH	45	A	vanNH
+1	1	13	vanNH	31	G	vanNH
+1	2	1	vanNH	8	P	pdxST
+1	2	2	pdxST	10	PU	pdxST
+1	2	3	pdxST	24		pdxST
+1	2	4	pdxST	10		pdxST
+1	2	5	pdxST	2		pdxST
+1	2	6	pdxST	13		pdxST
+1	2	7	pdxST	24		pdxST
+1	2	8	pdxST	7		pdxST
+1	2	9	pdxST	24		pdxST
+1	2	10	pdxST	10		pdxST
+1	2	11	pdxST	24		pdxST
+1	2	12	pdxST	11		pdxST
+1	2	13	pdxST	2		pdxST
+1	2	14	pdxST	7		pdxST
+1	2	15	pdxST	24		pdxST
+1	2	16	pdxST	7		pdxST
+1	2	17	pdxST	24		pdxST
+1	2	18	pdxST	7		pdxST
+1	2	19	pdxST	13		pdxST
+1	2	20	pdxST	6		pdxST
+1	2	21	pdxST	7		pdxST
+1	2	22	pdxST	24		pdxST
+1	2	23	pdxST	6		pdxST
+1	2	24	vanNH	17	PU	vanNH
+1	2	25	vanNH	11		vanNH
+1	2	26	vanNH	18		vanNH
+1	2	27	vanNH	8		vanNH
+1	2	28	vanNH	11		vanNH
+1	2	29	vanNH	7	A	vanNH
+1	2	30	vanNH	4	G	vanNH
+1	3	1	vanNH	33	P	pdxST
+1	3	2	pdxST	11	PU	pdxST
+1	3	3	pdxST	7		pdxST
+1	3	4	pdxST	73		pdxST
+1	3	5	pdxST	7		pdxST
+1	3	6	pdxST	6		pdxST
+1	3	7	pdxST	7		pdxST
+1	3	8	pdxST	16		pdxST
+1	3	9	pdxST	7		pdxST
+1	3	10	pdxST	8		pdxST
+1	3	11	pdxST	11		pdxST
+1	3	12	pdxST	8		pdxST
+1	3	13	pdxST	7		pdxST
+1	3	14	pdxST	8		pdxST
+1	3	15	pdxST	16		pdxST
+1	3	16	pdxST	8		pdxST
+1	3	17	pdxST	11		pdxST
+1	3	18	pdxST	88		pdxST
+1	3	19	vanNH	13	D	pdxST
+1	3	20	vanNH	45	PU	vanNH
+1	3	21	vanNH	13		vanNH
+1	3	22	vanNH	37		vanNH
+1	3	23	pdxST	7	PU	pdxST
+1	3	24	pdxST	11		pdxST
+1	3	25	pdxST	6		pdxST
+1	3	26	pdxST	11		pdxST
+1	3	27	pdxST	7		pdxST
+1	3	28	vanNH	33	PU	vanNH
+1	3	29	vanNH	31		vanNH
+1	3	30	vanNH	45		vanNH
+1	3	31	pdxST			pdxST
+1	3	32	vanNH	89	PU	vanNH
+1	3	33	vanNH	22		vanNH
+1	3	34	vanNH	21		vanNH
+1	3	35	vanNH	98		vanNH
+1	3	36	vanNH	89		vanNH
+1	3	37	vanNH	19		vanNH
+1	3	38	vanNH	89		vanNH
+1	3	39	vanNH	5		vanNH
+1	3	40	pdxST	17	D	vanNH
+1	3	41	pdxST	21	PU	pdxST
+1	3	42	pdxST	16		pdxST
+1	3	43	vanNH	19	PU	vanNH
+1	3	44	vanNH	98		vanNH
+1	3	45	vanNH	89		vanNH
+1	3	46	vanNH	12		vanNH
+1	3	47	vanNH	5		vanNH
+1	3	48	pdxST	88	D	vanNH
+1	3	49	pdxST	88		pdxST
+1	3	50	pdxST	8		pdxST
+1	3	51	pdxST	88		pdxST
+1	3	52	pdxST	5	L	pdxST
+1	3	53	vanNH	89	D	pdxST
+1	3	54	vanNH	89		vanNH
+1	3	55	vanNH	98		vanNH
+1	3	56	vanNH	19		vanNH
+1	3	57	vanNH	21	F	vanNH
+1	3	58	pdxST	88	PU	pdxST
+1	3	59	pdxST	21		pdxST
+1	3	60	pdxST	88		pdxST
+1	3	61	pdxST	8		pdxST
+1	3	62	pdxST	22		pdxST
+1	3	63	pdxST	8		pdxST
+1	3	64	vanNH	19	D	pdxST
+1	3	65	vanNH	19	PU	vanNH
+1	3	66	vanNH	89		vanNH
+1	3	67	vanNH	22		vanNH
+1	3	68	vanNH	72		vanNH
+1	3	69	vanNH	22		vanNH
+1	3	70	vanNH	98		vanNH
+1	3	71	vanNH	22		vanNH
+1	3	72	vanNH	5		vanNH
+1	3	73	vanNH	72	A	vanNH
+1	3	74	vanNH	22	G	vanNH
+1	4	1	vanNH	8	P	pdxST
+1	4	2	pdxST	24	PU	pdxST
+1	4	3	pdxST	2		pdxST
+1	4	4	pdxST	11		pdxST
+1	4	5	pdxST	24		pdxST
+1	4	6	vanNH	24	PU	vanNH
+1	4	7	vanNH	11		vanNH
+1	4	8	vanNH	8		vanNH
+1	4	9	vanNH	81	L	vanNH
+1	4	10	vanNH	6		vanNH
+1	4	11	pdxST	10	D	vanNH
+1	4	12	pdxST	7	PU	pdxST
+1	4	13	pdxST	24		pdxST
+1	4	14	vanNH	11	D	pdxST
+1	4	15	vanNH	45	PU	vanNH
+1	4	16	vanNH	11		vanNH
+1	4	17	vanNH	8		vanNH
+1	4	18	pdxST	11	D	vanNH
+1	4	19	pdxST	11	PU	pdxST
+1	4	20	vanNH	45	D	pdxST
+1	4	21	vanNH	45		vanNH
+1	4	22	pdxST	13	D	vanNH
+1	4	23	pdxST	13		pdxST
+1	4	24	vanNH	24	D	pdxST
+1	4	25	vanNH	24		vanNH
+2	5	1	pdxST	88	P	vanNH
+2	5	2	vanNH	5	PU	vanNH
+2	5	3	vanNH	22		vanNH
+2	5	4	vanNH	89		vanNH
+2	5	5	pdxST	22	F	vanNH
+2	5	6	vanNH	8		vanNH
+2	5	7	vanNH	98	A	vanNH
+2	5	8	vanNH	10	G	vanNH
+2	6	1	vanNH	8	P	pdxST
+2	6	2	pdxST	10	PU	pdxST
+2	6	3	pdxST	24		pdxST
+2	6	4	pdxST	7		pdxST
+2	6	5	pdxST	11		pdxST
+2	6	6	pdxST	6		pdxST
+2	6	7	pdxST	10		pdxST
+2	6	8	pdxST	7		pdxST
+2	6	9	pdxST	2		pdxST
+2	6	10	pdxST	24		pdxST
+2	6	11	pdxST	10		pdxST
+2	6	12	pdxST	11		pdxST
+2	6	13	pdxST	10		pdxST
+2	6	14	pdxST	24		pdxST
+2	6	15	pdxST	10		pdxST
+2	6	16	pdxST	24		pdxST
+2	6	17	pdxST	6		pdxST
+2	6	18	pdxST	24		pdxST
+2	6	19	pdxST	10		pdxST
+2	6	20	pdxST	7		pdxST
+2	6	21	pdxST	10	A	pdxST
+2	6	22	pdxST	2	LG	pdxST
+2	7	1	pdxST	88	P	vanNH
+2	7	2	vanNH	89	PU	vanNH
+2	7	3	vanNH	5		vanNH
+2	7	4	vanNH	89		vanNH
+2	7	5	vanNH	10		vanNH
+2	7	6	pdxST	88		pdxST
+2	7	7	pdxST	16		pdxST
+2	7	8	pdxST	21	A	pdxST
+2	7	9	pdxST	8	LG	pdxST
+2	8	1	pdxST	88	P	vanNH
+2	8	2	vanNH	19	PU	vanNH
+2	8	3	vanNH	89		vanNH
+2	8	4	vanNH	19		vanNH
+2	8	5	vanNH	98		vanNH
+2	8	6	vanNH	89		vanNH
+2	8	7	vanNH	98		vanNH
+2	8	8	vanNH	89		vanNH
+2	8	9	pdxST	8		pdxST
+2	8	10	pdxST	4		pdxST
+2	8	11	pdxST	88		pdxST
+2	8	12	pdxST	25	LA	pdxST
+2	8	13	pdxST	4	G	pdxST
+2	9	1	pdxST	88	P	vanNH
+2	9	2	vanNH	19	PU	vanNH
+2	9	3	vanNH	5		vanNH
+2	9	4	vanNH	8		vanNH
+2	9	5	pdxST	21	PUA	pdxST
+2	9	6	pdxST	5	G	pdxST
+2	10	1	pdxST	88	P	vanNH
+2	10	2	vanNH	89	PU	vanNH
+2	10	3	vanNH	5		vanNH
+2	10	4	vanNH	89		vanNH
+2	10	5	vanNH	22		vanNH
+2	10	6	vanNH	21		vanNH
+2	10	7	pdxST	7	PU	pdxST
+2	10	8	pdxST	88		pdxST
+2	10	9	pdxST	8		pdxST
+2	10	10	pdxST	?	TO	pdxST
+2	10	11	pdxST	24	PU	pdxST
+2	10	12	pdxST	2	TD	pdxST
+2	10	13	vanNH	24	PU	vanNH
+2	10	14	vanNH	11		vanNH
+2	10	15	vanNH	8		vanNH
+2	10	16	vanNH	7		vanNH
+2	10	17	vanNH	24		vanNH
+2	10	18	vanNH	7		vanNH
+2	10	19	vanNH	24		vanNH
+2	10	20	vanNH	8		vanNH
+2	10	21	vanNH	81	A	vanNH
+2	10	22	vanNH	4	G	vanNH
+2	11	1	vanNH	8	P	pdxST
+2	11	2	pdxST	24	PU	pdxST
+2	11	3	pdxST	10		pdxST
+2	11	4	pdxST	11		pdxST
+2	11	5	pdxST	10		pdxST
+2	11	6	pdxST	11		pdxST
+2	11	7	pdxST	6		pdxST
+2	11	8	pdxST	11		pdxST
+2	11	9	pdxST	6		pdxST
+2	11	10	pdxST	7		pdxST
+2	11	11	vanNH	45	PUA	vanNH
+2	11	12	vanNH	8	G	vanNH
+2	12	1	vanNH	8	OBP	pdxST
+2	12	2	pdxST	88	PU	pdxST
+2	12	3	pdxST	73		pdxST
+2	12	4	pdxST	6		pdxST
+2	12	5	pdxST	73		pdxST
+2	12	6	pdxST	88		pdxST
+2	12	7	pdxST	9		pdxST
+2	12	8	pdxST	16		pdxST
+2	12	9	vanNH	8	F	pdxST
+2	12	10	pdxST	9		pdxST
+2	12	11	pdxST	88		pdxST
+2	12	12	pdxST	73		pdxST
+2	12	13	pdxST	9		pdxST
+2	12	14	pdxST	73		pdxST
+2	12	15	vanNH	45	PU	vanNH
+2	12	16	vanNH	81		vanNH
+2	12	17	vanNH	45		vanNH
+2	12	18	vanNH	37		vanNH
+2	12	19	vanNH	33		vanNH
+2	12	20	vanNH	8		vanNH
+2	12	21	vanNH	27		vanNH
+2	12	22	pdxST	9	F	vanNH
+2	12	23	vanNH	45		vanNH
+2	12	24	vanNH	37		vanNH
+2	12	25	vanNH	81		vanNH
+2	12	26	vanNH	27		vanNH
+2	12	27	vanNH	8		vanNH
+2	12	28	vanNH	13		vanNH
+2	12	29	pdxST	8		pdxST
+2	12	30	pdxST	6		pdxST
+2	12	31	pdxST	88		pdxST
+2	12	32	pdxST	16		pdxST
+2	12	33	pdxST	8		pdxST
+2	12	34	pdxST	22		pdxST
+2	12	35	pdxST	16	A	pdxST
+2	12	36	pdxST	6	G	pdxST
+2	13	1	pdxST	7	P	vanNH
+2	13	2	vanNH	5	PU	vanNH
+2	13	3	vanNH	89		vanNH
+2	13	4	vanNH	22		vanNH
+2	13	5	vanNH	?	VP	vanNH
+2	13	6	vanNH	22	PU	vanNH
+2	13	7	vanNH	10		vanNH
+2	13	8	vanNH	89		vanNH
+2	13	9	vanNH	5		vanNH
+2	13	10	vanNH	10	LA	vanNH
+2	13	11	vanNH	98	G	vanNH
+2	14	1	vanNH	8	P	pdxST
+2	14	2	pdxST	24	PU	pdxST
+2	14	3	pdxST	10		pdxST
+2	14	4	pdxST	88		pdxST
+2	14	5	pdxST	10		pdxST
+2	14	6	pdxST	24		pdxST
+2	14	7	pdxST	7		pdxST
+2	14	8	pdxST	24		pdxST
+2	14	9	pdxST	7		pdxST
+2	14	10	pdxST	24		pdxST
+2	14	11	pdxST	2		pdxST
+2	14	12	pdxST	88		pdxST
+2	14	13	pdxST	24		pdxST
+2	14	14	pdxST	11		pdxST
+2	14	15	pdxST	24		pdxST
+2	14	16	pdxST	11		pdxST
+2	14	17	pdxST	2		pdxST
+2	14	18	pdxST	24		pdxST
+2	14	19	pdxST	11		pdxST
+2	14	20	pdxST	2		pdxST
+2	14	21	pdxST	7		pdxST
+2	14	22	pdxST	11		pdxST
+2	14	23	pdxST	7		pdxST
+2	14	24	pdxST	24		pdxST
+2	14	25	pdxST	6		pdxST
+2	14	26	vanNH	8	F	pdxST
+2	14	27	pdxST	24		pdxST
+2	14	28	pdxST	11		pdxST
+2	14	29	pdxST	88	A	pdxST
+2	14	30	vanNH	45	F	pdxST
+2	14	31	pdxST	10	G	pdxST
+2	15	1	pdxST	88	P	vanNH
+2	15	2	vanNH	19	PU	vanNH
+2	15	3	vanNH	5		vanNH
+2	15	4	pdxST	5	PU	pdxST
+3	16	1	vanNH	8	P	pdxST
+3	16	2	pdxST	11	PU	pdxST
+3	16	3	pdxST	10		pdxST
+3	16	4	pdxST	11		pdxST
+3	16	5	pdxST	16	A	pdxST
+3	16	6	pdxST	13	LG	pdxST
+3	17	1	pdxST	88	P	vanNH
+3	17	2	vanNH	19	PU	vanNH
+3	17	3	vanNH	5		vanNH
+3	17	4	vanNH	19		vanNH
+3	17	5	vanNH	10		vanNH
+3	17	6	pdxST	8	PU	pdxST
+3	17	7	pdxST	88		pdxST
+3	17	8	pdxST	4		pdxST
+3	17	9	pdxST	88	A	pdxST
+3	17	10	pdxST	5	LG	pdxST
+3	18	1	pdxST	88	P	vanNH
+3	18	2	vanNH	19	PU	vanNH
+3	18	3	vanNH	89		vanNH
+3	18	4	vanNH	5		vanNH
+3	18	5	vanNH	98		vanNH
+3	18	6	vanNH	5		vanNH
+3	18	7	vanNH	10		vanNH
+3	18	8	vanNH	89		vanNH
+3	18	9	vanNH	6		vanNH
+3	18	10	vanNH	10	A	vanNH
+3	18	11	vanNH	98	G	vanNH
+3	19	1	vanNH	8	P	pdxST
+3	19	2	pdxST	11	PU	pdxST
+3	19	3	pdxST	10		pdxST
+3	19	4	pdxST	24		pdxST
+3	19	5	pdxST	10		pdxST
+3	19	6	pdxST	24		pdxST
+3	19	7	pdxST	7		pdxST
+3	19	8	pdxST	2		pdxST
+3	19	9	pdxST	24		pdxST
+3	19	10	pdxST	11		pdxST
+3	19	11	pdxST	24		pdxST
+3	19	12	vanNH	8	D	pdxST
+3	19	13	vanNH	81	PU	vanNH
+3	19	14	vanNH	24		vanNH
+3	19	15	vanNH	8		vanNH
+3	19	16	vanNH	11		vanNH
+3	19	17	vanNH	24		vanNH
+3	19	18	vanNH	11	TD	vanNH
+3	19	19	pdxST	24	PU	pdxST
+3	19	20	pdxST	10	A	pdxST
+3	19	21	pdxST	6	G	pdxST
+3	20	1	pdxST	88	P	vanNH
+3	20	2	vanNH	5	PU	vanNH
+3	20	3	vanNH	89		vanNH
+3	20	4	vanNH	5		vanNH
+3	20	5	vanNH	10		vanNH
+3	20	6	vanNH	6		vanNH
+3	20	7	vanNH	89		vanNH
+3	20	8	vanNH	22		vanNH
+3	20	9	vanNH	19		vanNH
+3	20	10	vanNH	98		vanNH
+3	20	11	pdxST	88	PU	pdxST
+3	20	12	pdxST	8		pdxST
+3	20	13	pdxST	5	L	pdxST
+3	20	14	pdxST	21		pdxST
+3	20	15	pdxST	22	TD	pdxST
+3	20	16	vanNH	5	PU	vanNH
+3	20	17	pdxST	88	PU	pdxST
+3	20	18	pdxST	25		pdxST
+3	20	19	pdxST	8		pdxST
+3	20	20	pdxST	16		pdxST
+3	20	21	pdxST	22		pdxST
+3	20	22	pdxST	25		pdxST
+3	20	23	pdxST	8		pdxST
+3	20	24	pdxST	88		pdxST
+3	20	25	pdxST	21		pdxST
+3	20	26	pdxST	88		pdxST
+3	20	27	vanNH	89	PU	vanNH
+3	20	28	vanNH	98		vanNH
+3	20	29	vanNH	10		vanNH
+3	20	30	vanNH	89		vanNH
+3	20	31	vanNH	6		vanNH
+3	20	32	vanNH	89		vanNH
+3	20	33	vanNH	19		vanNH
+3	20	34	vanNH	5		vanNH
+3	20	35	vanNH	89		vanNH
+3	20	36	vanNH	19	A	vanNH
+3	20	37	vanNH	10	G	vanNH
+3	21	1	vanNH	8	P	pdxST
+3	21	2	pdxST	24	PU	pdxST
+3	21	3	pdxST	10		pdxST
+3	21	4	pdxST	11		pdxST
+3	21	5	pdxST	24	TD	pdxST
+3	21	6	vanNH	24	PU	vanNH
+3	21	7	vanNH	8		vanNH
+3	21	8	pdxST	11	PU	pdxST
+3	21	9	pdxST	10		pdxST
+3	21	10	pdxST	6		pdxST
+3	21	11	vanNH	24	D	pdxST
+3	21	12	vanNH	24	A	vanNH
+3	21	13	vanNH	4	G	vanNH
+3	22	1	vanNH	8	P	pdxST
+3	22	2	pdxST	11	PU	pdxST
+3	22	3	pdxST	10		pdxST
+3	22	4	pdxST	11		pdxST
+3	22	5	pdxST	7		pdxST
+3	22	6	pdxST	11		pdxST
+3	22	7	pdxST	10		pdxST
+3	22	8	pdxST	9		pdxST
+3	22	9	vanNH	11	PU	vanNH
+3	22	10	vanNH	27		vanNH
+3	22	11	vanNH	7		vanNH
+3	22	12	vanNH	8		vanNH
+3	22	13	vanNH	81		vanNH
+3	22	14	pdxST	13	F	vanNH
+3	22	15	vanNH	11		vanNH
+3	22	16	pdxST	13	F	vanNH
+3	22	17	vanNH	8	PU	vanNH
+3	22	18	vanNH	11		vanNH
+3	22	19	vanNH	8	A	vanNH
+3	22	20	vanNH	11	G	vanNH
+3	23	1	vanNH	8	P	pdxST
+3	23	2	pdxST	7	PU	pdxST
+3	23	3	pdxST	11		pdxST
+3	23	4	pdxST	88		pdxST
+3	23	5	pdxST	16		pdxST
+3	23	6	pdxST	25		pdxST
+3	23	7	pdxST	11		pdxST
+3	23	8	pdxST	16		pdxST
+3	23	9	pdxST	25		pdxST
+3	23	10	pdxST	16	A	pdxST
+3	23	11	pdxST	88	G	pdxST
+3	24	1	pdxST	88	P	vanNH
+3	24	2	vanNH	19	PU	vanNH
+3	24	3	vanNH	89		vanNH
+3	24	4	vanNH	10		vanNH
+3	24	5	vanNH	98	TD	vanNH
+3	24	6	pdxST	8	PU	pdxST
+3	24	7	pdxST	88		pdxST
+3	24	8	pdxST	8		pdxST
+3	24	9	pdxST	5		pdxST
+3	24	10	pdxST	?	TO	pdxST
+3	24	11	pdxST	88	PU	pdxST
+3	24	12	pdxST	8		pdxST
+3	24	13	pdxST	21		pdxST
+3	24	14	pdxST	8		pdxST
+3	24	15	pdxST	88		pdxST
+3	24	16	vanNH	13	D	pdxST
+4	25	1	pdxST	88	P	vanNH
+4	25	2	vanNH	19	PU	vanNH
+4	25	3	vanNH	89		vanNH
+4	25	4	vanNH	10		vanNH
+4	25	5	vanNH	89		vanNH
+4	25	6	vanNH	19		vanNH
+4	25	7	vanNH	72	TD	vanNH
+4	25	8	pdxST	7	PU	pdxST
+4	25	9	pdxST	88		pdxST
+4	25	10	pdxST	7		pdxST
+4	25	11	pdxST	4		pdxST
+4	25	12	pdxST	7		pdxST
+4	25	13	pdxST	25		pdxST
+4	25	14	pdxST	7		pdxST
+4	25	15	pdxST	8		pdxST
+4	25	16	pdxST	7		pdxST
+4	25	17	pdxST	22		pdxST
+4	25	18	pdxST	25	TD	pdxST
+4	25	19	vanNH	89	PU	vanNH
+4	25	20	vanNH	10		vanNH
+4	25	21	pdxST	25	F	vanNH
+4	25	22	vanNH	19		vanNH
+4	25	23	vanNH	5		vanNH
+4	25	24	vanNH	89		vanNH
+4	25	25	vanNH	19		vanNH
+4	25	26	vanNH	22		vanNH
+4	25	27	vanNH	98		vanNH
+4	25	28	pdxST	22	D	vanNH
+4	25	29	pdxST	88	PU	pdxST
+4	25	30	pdxST	21		pdxST
+4	25	31	pdxST	7	LA	pdxST
+4	25	32	pdxST	4	G	pdxST
+4	26	1	pdxST	8	P	vanNH
+4	26	2	vanNH	19	PU	vanNH
+4	26	3	vanNH	89		vanNH
+4	26	4	vanNH	10		vanNH
+4	26	5	vanNH	11		vanNH
+4	26	6	vanNH	8		vanNH
+4	26	7	pdxST	21	PU	pdxST
+4	26	8	pdxST	9		pdxST
+4	26	9	pdxST	16		pdxST
+4	26	10	vanNH	19	PU	vanNH
+4	26	11	vanNH	89		vanNH
+4	26	12	vanNH	8		vanNH
+4	26	13	vanNH	89		vanNH
+4	26	14	vanNH	27	A	vanNH
+4	26	15	vanNH	11	G	vanNH
+4	27	1	vanNH	8	P	pdxST
+4	27	2	pdxST	11	PU	pdxST
+4	27	3	pdxST	10		pdxST
+4	27	4	pdxST	88		pdxST
+4	27	5	pdxST	11		pdxST
+4	27	6	pdxST	7	TD	pdxST
+4	27	7	vanNH	45	PU	vanNH
+4	27	8	vanNH	18		vanNH
+4	27	9	vanNH	4		vanNH
+4	27	10	vanNH	45		vanNH
+4	27	11	vanNH	18		vanNH
+4	27	12	vanNH	24		vanNH
+4	27	13	vanNH	18		vanNH
+4	27	14	vanNH	8		vanNH
+4	27	15	vanNH	81		vanNH
+4	27	16	pdxST			pdxST
+4	27	17	vanNH	89	PU	vanNH
+4	27	18	vanNH	98		vanNH
+4	27	19	vanNH	19		vanNH
+4	27	20	vanNH	89		vanNH
+4	27	21	vanNH	10		vanNH
+4	27	22	vanNH	19		vanNH
+4	27	23	vanNH	89	VTT	vanNH
+4	27	24	pdxST	8	PU	pdxST
+4	27	25	pdxST	88		pdxST
+4	27	26	pdxST	5	L	pdxST
+4	27	27	pdxST	6		pdxST
+4	27	28	pdxST	22		pdxST
+4	27	29	pdxST	8	A	pdxST
+4	27	30	pdxST	21	G	pdxST
+4	28	1	pdxST	8	P	vanNH
+4	28	2	vanNH	19	PU	vanNH
+4	28	3	vanNH	89		vanNH
+4	28	4	vanNH	10		vanNH
+4	28	5	vanNH	89		vanNH
+4	28	6	vanNH	8		vanNH
+4	28	7	vanNH	19		vanNH
+4	28	8	vanNH	10		vanNH
+4	28	9	vanNH	19		vanNH
+4	28	10	vanNH	89		vanNH
+4	28	11	vanNH	19		vanNH
+4	28	12	pdxST	7	PU	pdxST
+4	28	13	pdxST	10		pdxST
+4	28	14	pdxST	7		pdxST
+4	28	15	pdxST	8		pdxST
+4	28	16	pdxST	21		pdxST
+4	28	17	pdxST	13		pdxST
+4	28	18	pdxST	21		pdxST
+4	28	19	pdxST	8		pdxST
+4	28	20	pdxST	16		pdxST
+4	28	21	pdxST	7		pdxST
+4	28	22	pdxST	10		pdxST
+4	28	23	vanNH	19	F	pdxST
+4	28	24	pdxST	7		pdxST
+4	28	25	pdxST	10		pdxST
+4	28	26	vanNH	19	F	pdxST
+4	28	27	pdxST	7		pdxST
+4	28	28	pdxST	21		pdxST
+4	28	29	pdxST	7		pdxST
+4	28	30	pdxST	10		pdxST
+4	28	31	pdxST	8		pdxST
+4	28	32	pdxST	22		pdxST
+4	28	33	pdxST	10		pdxST
+4	28	34	pdxST	8	A	pdxST
+4	28	35	pdxST	13	G	pdxST
+4	29	1	pdxST	88	P	vanNH
+4	29	2	vanNH	19	PU	vanNH
+4	29	3	vanNH	5		vanNH
+4	29	4	vanNH	98		vanNH
+4	29	5	vanNH	6		vanNH
+4	29	6	vanNH	5	A	vanNH
+4	29	7	vanNH	22	LG	vanNH
+4	30	1	vanNH	8	P	pdxST
+4	30	2	pdxST	24	PU	pdxST
+4	30	3	pdxST	10		pdxST
+4	30	4	pdxST	11		pdxST
+4	30	5	pdxST	7		pdxST
+4	30	6	pdxST	6		pdxST
+4	30	7	pdxST	7		pdxST
+4	30	8	pdxST	6		pdxST
+4	30	9	pdxST	2		pdxST
+4	30	10	pdxST	7		pdxST
+4	30	11	pdxST	11		pdxST
+4	30	12	pdxST	24		pdxST
+4	30	13	pdxST	11		pdxST
+4	30	14	vanNH	11	D	pdxST
+4	30	15	vanNH	5	PUA	vanNH
+4	30	16	vanNH	89	G	vanNH
+4	31	1	vanNH	8	P	pdxST
+4	31	2	pdxST	24	PU	pdxST
+4	31	3	pdxST	10		pdxST
+4	31	4	pdxST	11		pdxST
+4	31	5	pdxST	10		pdxST
+4	31	6	pdxST	24		pdxST
+4	31	7	pdxST	10		pdxST
+4	31	8	pdxST	6		pdxST
+4	31	9	pdxST	10		pdxST
+4	31	10	vanNH	81	PU	vanNH
+4	31	11	vanNH	24		vanNH
+4	31	12	vanNH	11		vanNH
+4	31	13	vanNH	24		vanNH
