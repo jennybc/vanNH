@@ -1,13 +1,17 @@
+#+ setup, include = FALSE
 library(plyr)
-
 ## useful inside reorder(), to invert the resulting factor levels
 neglength <- function(x) -1 * length(x)
 
+#' ### Bring in game play data.
+
+#' Whitelist of games for which game play will be read. Read 'em.
 games <- c("2014-04-12_vanNH-at-pdxST", "2014-04-20_sfoDF-at-vanNH",
            "2014-04-26_vanNH-at-seaRM", "2014-05-10_seaRM-at-vanNH",
            "2014-05-17_vanNH-at-sfoDF", "2014-05-24_pdxST-at-vanNH",
            "2014-05-31_vanNH-at-seaRM", "2014-06-07_seaRM-at-vanNH",
            "2014-06-15_pdxST-at-vanNH", "2014-06-21_vanNH-at-sfoDF",
+           "2014-06-28_vanNH-at-pdxST",
            "2014-04-12_seaRM-at-sfoDF", "2014-04-19_sfoDF-at-seaRM",
            "2014-04-26_pdxST-at-sfoDF", "2014-05-04_sfoDF-at-seaRM")
 game_file <- file.path("..", "games", games, "07_resolvedGame",
@@ -16,11 +20,15 @@ names(game_file) <- games
 game_play <-
   ldply(game_file, function(gg) read.delim(gg, stringsAsFactor = FALSE),
         .id = "game")
-str(game_play) # 8630 obs. of  8 variables
+str(game_play)
 
-## function to create numbered possessions
-## feed it raw poss_team (as a vector) or a matrix/data.fram with poss_team and
-## point and optionally game (latter seems a very rare special case)
+#' ### Concatenate all game play data and add possession identifiers.  
+
+#' Define a function to create numbered possessions. *Code hidden*.
+
+#+ include = FALSE
+## x: raw poss_team (as a vector) or a matrix/data.fram with poss_team and point
+## and, optionally, game (latter seems a very rare special case)
 determine_possession <- function(x) {
   if(is.vector(x)) {
     n <- length(x)
@@ -41,39 +49,37 @@ determine_possession <- function(x) {
   }
 }
 
-## create variables that denote possessions
+#' Create variables that denote possessions. `poss_abs` holds an absolute possession number *within a specific game*. `poss_rel` holds a relative possession number *within a specific point.*
+game_play <- ddply(game_play, ~ game, function(x)
+  mutate(x, poss_abs = determine_possession(x[c('poss_team', 'point')])))
+game_play <- ddply(game_play, ~ point + game, function(x)
+  data.frame(x,
+             poss_rel = determine_possession(x[c('poss_team', 'point')])))
+str(game_play)
 
+#+ include = FALSE
 ## Why would I ever need an absolute possession variable for the entire season?
 ## I made this possible in case I ever analyze groups of points from different
 ## games where two "point 9"'s could end up adjacent to each other
 # mutate(game_play,
 #       poss_abs = determine_possession(game_play[c('poss_team', 'point', 'game')]))
 
-## absolute possession variable within game
-game_play <- ddply(game_play, ~ game, function(x)
-  mutate(x, poss_abs = determine_possession(x[c('poss_team', 'point')])))
-str(game_play) # 8630 obs. of  9 variables
+#' Create new variable `pull_team`, which carries the pulling team. Obviously is
+#' constant within a point.
+game_play <- ddply(game_play, ~ game + point,
+                   function(x) data.frame(x, pull_team = x$pl_team[1]))
+str(game_play)
 
-## relative possession variable, i.e. within point
-game_play <- ddply(game_play, ~ point + game, function(x)
-  data.frame(x,
-             poss_rel = determine_possession(x[c('poss_team', 'point')])))
-str(game_play) # 8630 obs. of  10 variables:
-
-## get the pulling team, which is a point-level thing
-game_play <- ddply(game_play, ~ game + point, function(x) {
-  data.frame(x, pull_team = x$pl_team[1])
-})
-str(game_play) # 8630 obs. of  11 variables:
-
-## reorder factor levels for pull_team, convert poss_team to factor
-## 2014-06: this is based on western conference rankings
-jTeams <- c("pdxST", "vanNH", "seaRM", "sfoDF")
+#' Work on team variables that should be factors. Reorder levels for `pull_team`
+#' and convert `poss_team` to factor. Level order set to final 2014 Western
+#' Conference ranking.
+jTeams <- c("vanNH", "pdxST", "seaRM", "sfoDF")
 jFun <- function(x, xlevels = jTeams) factor(x, levels = xlevels)
 game_play <- transform(game_play, pull_team = jFun(pull_team),
                        poss_team = factor(poss_team, levels = jTeams))
 str(game_play)
 
+#' Tidy up and write game play to file.
 vars_how_i_want <- c('game', 'period', 'point', 'pull_team',
                      'poss_abs', 'poss_rel', 'event',
                      'poss_team', 'pl_team', 'pl_pnum', 'pl_code')
@@ -94,22 +100,23 @@ out_file <- file.path(out_dir, "2014_west_gameplay.dput")
 dput(game_play, out_file)
 message("wrote ", out_file)
 
-## now aggregate at the level of a possession  
+#' ### Aggregate to the level of a possession.  
 
-## how poss_dat differs from game_play, other than aggregation:
-## n_events = number of events
-## score = logical indicating if possession ends with a goal
-## scor_team = who scored ... NA if nobody did
-## who = o_line vs. d_line
+#' How does `poss_dat` differ from `game_play`, other than aggregation?
+#' 
+#' *  `n_events` = number of events
+#' * `score` = logical indicating if possession ends with a goal
+#' * `scor_team` = who scored ... `NA` if nobody did
+#' * `who` = o_line vs. d_line
 poss_dat <- ddply(game_play, ~ game + poss_abs, function(x) {
   score <- which(grepl("L*G", x$pl_code))
-  ## get rid of any rows after a goal. why? becasue of cases like point 35 of
+  ## Get rid of any rows after a goal. why? because of cases like point 35 of
   ## 2014-04-12_vanNH-at-pdxST, in which a defensive foul is recorded after a
   ## successful goal; the goal was not being picked up here as the final event
-  ## of the possession and was, instead, being recorded as an *offensive* foul
+  ## of the possession and was, instead, being recorded as an *offensive* foul.
   if(length(score) > 0)
     x <- x[seq_len(score), ]
-  ## if possession ends with a *defensive* foul, remove the final row; examples:
+  ## If possession ends with a *defensive* foul, remove the final row; examples:
   ## 2014-04-26_vanNH-at-seaRM poss_abs 23, 2014-05-17_vanNH-at-sfoDF poss_abs 
   ## 92, 2014-05-31_vanNH-at-seaRM poss_abs 57; all have possessions in which a 
   ## thrower has the disc, there's a foul by the defense and ... the throw is 
@@ -131,32 +138,30 @@ poss_dat <- ddply(game_play, ~ game + poss_abs, function(x) {
   data.frame(x[n, ], n_events = n, huck = any(huck),
              score = any(score), scor_team, who)
 })
-str(poss_dat) # 1355 obs. of  16 variables:
+str(poss_dat)
 
-## sanity checks of poss_dat
+#' Sanity check and explore `poss_dat`. *TO DO*: rigorously check against known
+#' final scores.
 (tmp <- ddply(poss_dat, ~ game,
               function(x) with(subset(x, score), table(scor_team))))
-## yes agrees with actual final scores
 colSums(subset(tmp, select = -game))
 addmargins(with(poss_dat, table(who, score)))
 
-## reorder factor levels for scor_team
-jTeams <- c("pdxST", "vanNH", "seaRM", "sfoDF")
-jFun <- function(x, xlevels = jTeams) factor(x, levels = xlevels)
-poss_dat <- transform(poss_dat , scor_team = jFun(scor_team))
+#' Harmonize factor levels for `scor_team` with those of other team factor
+#' variables.
+poss_dat <- transform(poss_dat , scor_team = factor(scor_team, levels = jTeams))
 str(poss_dat)
 
-## if possession ends due to end of period, set pl_code to 'eop'
+#' If possession ends due to end of period, set `pl_code` to `eop`.
 poss_dat <- ddply(poss_dat, ~ game + point, function(x) {
   n <- nrow(x)
   if(!x$score[n]) x$pl_code[n] <- 'eop'
   return(x)
 })
 
-## clean-up
-
-## revalue pl_code in poss_dat, then reorder by frequency 
-## i.e. if possession ends in a throwaway, make code reflect that better
+#' Groom `pl_code` and create derivatives, so they give explicit information on
+#' how possessions end, at different levels of detail. Also reorder levels by 
+#' frequency, with most frequent code appearing first.
 poss_dat$pl_code <-
   mapvalues(poss_dat$pl_code, # revalue() won't work due to factor level ''
             from = c(  '', 'PU',  'L'),
@@ -164,22 +169,21 @@ poss_dat$pl_code <-
 poss_dat$pl_code <- with(poss_dat, reorder(pl_code, pl_code, neglength))
 as.data.frame(table(poss_dat$pl_code, dnn = "a_code"))
 
-## create a new version of the pl_code that is coarser: a_code
-poss_dat$a_code <-
+poss_dat$a_code <- # a_code is coarser than pl_code but still detailed
   mapvalues(poss_dat$pl_code,
             from = c('D', 'HB', 'FB', 'G', 'LG'),
             to   = c('D',  'D',  'D', 'G',  'G'))
 poss_dat$a_code <- with(poss_dat, reorder(a_code, a_code, neglength))
 as.data.frame(table(poss_dat$a_code, dnn = "a_code"))
 
-## create a new version of the a_code that is YET coarser: b_code
-poss_dat$b_code <-
+poss_dat$b_code <- #b_code is the coarsest
   mapvalues(poss_dat$a_code,
             from = c(    'D',   'TA',    'TD',   'VTT',   'VST', 'off F'),
             to   = c('def +','off -', 'off -', 'off -', 'off -', 'off -'))
 poss_dat$b_code <- with(poss_dat, reorder(b_code, b_code, neglength))
 as.data.frame(table(poss_dat$b_code, dnn = "b_code"))
 
+#' Write `poss_dat` to file.
 out_file <- file.path(out_dir, "2014_west_possessions.rds")
 saveRDS(poss_dat, out_file)
 message("wrote ", out_file)
@@ -192,28 +196,26 @@ out_file <- file.path(out_dir, "2014_west_possessions.dput")
 dput(poss_dat, out_file)
 message("wrote ", out_file)
 
-## now aggregate at the level of a point  
+#' ### Aggregate to the level of a point 
 
-## how point_dat differs from poss_dat, other than aggregation:
-## n_events = number of events in the point (comes from poss_dat$event!)
+#' How does `point_dat` differ from `poss_dat`, other than aggregation?
+#' 
+#' *  Just know that `n_events` is not the number of the events of the last
+#' possession, but rather is computed from `poss_dat$event` and gives the number
+#' of events in the whole point.
 point_dat <- ddply(poss_dat, ~ game + point, function(x) {
   n <- nrow(x)
   x$n_events <- NULL
   x <- rename(x, c("event" = "n_events", "poss_rel" = "n_poss"))
   x[n, ]
 })
-str(point_dat)         # 589 obs. of 17 variables
-table(point_dat$score, useNA = "always")   # 537 TRUE        52 FALSE
-table(point_dat$pl_code, useNA = "always") # 423 G  114 LG  52 eop
-table(point_dat$a_code, useNA = "always")  # 537 G          52 eop
-table(point_dat$b_code, useNA = "always")  # 537 G          52 eop
-table(point_dat$huck, useNA = "always")    # 380 FALSE 209 TRUE
+str(point_dat)
+table(point_dat$score, useNA = "always")
+table(point_dat$pl_code, useNA = "always")
+table(point_dat$a_code, useNA = "always")
+table(point_dat$b_code, useNA = "always")
+table(point_dat$huck, useNA = "always")
 addmargins(with(point_dat, table(score, huck)))
-#         huck
-# score   FALSE TRUE Sum
-#   FALSE    48    4  52
-#   TRUE    332  205 537
-#   Sum     380  209 589
 
 out_file <- file.path(out_dir, "2014_west_points.rds")
 saveRDS(point_dat, out_file)

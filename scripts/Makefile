@@ -49,6 +49,16 @@ GAME ?= 2014-06-28_vanNH-at-pdxST
 ## just in case GAME has some trailing whitespace ...
 GAME := $(strip $(GAME))
 
+## create a macro to render (i.e. spin) an R script and tidy up after
+define tidy-spin
+      @echo Spinning $< ...
+      Rscript -e 'rmarkdown::render("$<", clean = FALSE)'
+      rm $(basename $<).spin.Rmd
+      rm $(basename $<).spin.R
+      rm $(basename $<).knit.md
+      mv $(basename $<).utf8.md $(basename $<).md
+endef
+
 sitrep:
 	@echo $(GOOGAME) $(GAME) 
 
@@ -107,6 +117,9 @@ set_web:
 # this works if not using Preview version of RStudio, new rmarkdown package, very recent version of Pandoc
 #index.html: ../web/index.md 
 #	cd ../web; Rscript -e "library(markdown); markdownToHTML('index.md', output = 'index.html', stylesheet = file.path(path.expand('~/'), 'resources/css/jasonm23-markdown-css-themes', 'markdown7.css'))"
+
+marshal: 11_marshal-game-play-and-aggregate.r ../games/2014*/07_resolvedGame/*_gameplay-resolved.tsv
+	$(tidy-spin)
 
 index.html: ../web/index.rmd ../games/2014*/*at-last-point.yaml
 	cd ../web; Rscript -e "rmarkdown::render('index.rmd', quiet = TRUE)"
