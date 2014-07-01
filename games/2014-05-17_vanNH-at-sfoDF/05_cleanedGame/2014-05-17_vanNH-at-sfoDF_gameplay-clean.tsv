@@ -205,10 +205,10 @@ point	event	pullNum	pullCode	recvNum	recvCode
 14	7			22	
 14	8			89	
 14	9	23	D		
-14	10	34			
+14	10	34	PU		
 14	11	23			
 14	12	34			
-14	13	23	D		
+14	13	23	TD		
 14	14			5	PU
 14	15			21	
 14	16			5	

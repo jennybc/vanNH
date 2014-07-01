@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Mon Jun 16 21:39:49 2014
+#### last update Tue Jul  1 14:37:19 2014
 # vanNH 12
 # sfoDF 13
 ## game is complete
@@ -110,7 +110,7 @@ stats are cumulative for this game
 |11 |sfoDF-16-Yeager        |      1|     0|       1|  1|
 |12 |sfoDF-2-Adamson        |      1|     0|       1|  1|
 |13 |sfoDF-40-Taylor        |      1|     0|       1|  0|
-|14 |sfoDF-23-Jeffery       |      0|     0|       0|  3|
+|14 |sfoDF-23-Jeffery       |      0|     0|       0|  2|
 |15 |sfoDF-8-Pollard        |      0|     0|       0|  2|
 |16 |sfoDF-5-Cascino        |      0|     0|       0|  1|
 
@@ -159,7 +159,6 @@ stats are cumulative for this game
 |    13|      2|vanNH     |    28|sfoDF   |34      |PUA     |sfoDF     |Boucher       |sfoDF-34-Boucher       |     7|     5|
 |    13|      2|vanNH     |    29|sfoDF   |6       |G       |sfoDF     |Kim           |sfoDF-6-Kim            |     7|     5|
 |    14|      2|sfoDF     |     9|sfoDF   |23      |D       |vanNH     |Jeffery       |sfoDF-23-Jeffery       |     7|     6|
-|    14|      2|sfoDF     |    13|sfoDF   |23      |D       |vanNH     |Jeffery       |sfoDF-23-Jeffery       |     7|     6|
 |    14|      2|sfoDF     |    25|vanNH   |22      |D       |sfoDF     |berezan       |vanNH-22-berezan       |     7|     6|
 |    14|      2|sfoDF     |    27|sfoDF   |34      |D       |vanNH     |Boucher       |sfoDF-34-Boucher       |     7|     6|
 |    14|      2|sfoDF     |    34|vanNH   |5       |A       |vanNH     |norris        |vanNH-5-norris         |     7|     6|
@@ -427,10 +426,10 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      2|    14|     7|vanNH   |22      |        |vanNH     |
 |      2|    14|     8|vanNH   |89      |        |vanNH     |
 |      2|    14|     9|sfoDF   |23      |D       |vanNH     |
-|      2|    14|    10|sfoDF   |34      |        |sfoDF     |
+|      2|    14|    10|sfoDF   |34      |PU      |sfoDF     |
 |      2|    14|    11|sfoDF   |23      |        |sfoDF     |
 |      2|    14|    12|sfoDF   |34      |        |sfoDF     |
-|      2|    14|    13|sfoDF   |23      |D       |vanNH     |
+|      2|    14|    13|sfoDF   |23      |TD      |sfoDF     |
 |      2|    14|    14|vanNH   |5       |PU      |vanNH     |
 |      2|    14|    15|vanNH   |21      |        |vanNH     |
 |      2|    14|    16|vanNH   |5       |        |vanNH     |

@@ -330,9 +330,9 @@ as.data.frame(table(poss_dat$pl_code, dnn = "a_code"))
 ```
 ##    a_code Freq
 ## 1       G  445
-## 2      TA  326
+## 2      TA  325
 ## 3       D  271
-## 4      TD  157
+## 4      TD  158
 ## 5      LG  119
 ## 6     eop   56
 ## 7     VTT   22
@@ -354,9 +354,9 @@ as.data.frame(table(poss_dat$a_code, dnn = "a_code"))
 ```
 ##   a_code Freq
 ## 1      G  564
-## 2     TA  326
+## 2     TA  325
 ## 3      D  291
-## 4     TD  157
+## 4     TD  158
 ## 5    eop   56
 ## 6    VTT   22
 ## 7    VST   17
@@ -548,5 +548,5 @@ message("wrote ", out_file)
 ---
 title: "11_marshal-game-play-and-aggregate.r"
 author: "jenny"
-date: "Tue Jul  1 14:28:24 2014"
+date: "Tue Jul  1 14:38:26 2014"
 ---

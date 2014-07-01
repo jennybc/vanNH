@@ -157,11 +157,12 @@ foo <- subset(foo, !(pre_code %in% c('TO', 'SI')))
 table(foo$pre_code)
 write.table(game_play[rep(sort(foo$gprow), each = 4) + -2:1, ],
             "blah.tsv", row.names = FALSE, sep = "\t", quote = FALSE)
-#' Here's where I'll follow up in the Google spreadsheets and, if necessary, on video:
+#' Here's where I followed up in the Google spreadsheets and, if necessary, on video:
 #' 
 #'   * week 02 2014-04-20_sfoDF-at-vanNH, period 2, point 13, score is 3-8
-#'     - data in Google spreadsheet seems to have changed; re-pulled and this went away
+#'     - data in Google spreadsheet seems to have changed; re-pulled and this puzzle went away
 #'   * week 06 2014-05-17_vanNH-at-sfoDF, period 2, point 14, score is 5-7
+#'     - data in Google spreadsheet seems to have changed; re-pulled and this puzzle went away
 #' 
 #' ## Frequency of adjacent event code pairs
 #' 
