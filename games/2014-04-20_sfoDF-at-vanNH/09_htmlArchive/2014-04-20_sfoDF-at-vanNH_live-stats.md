@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Mon Jun 16 21:39:38 2014
+#### last update Tue Jul  1 14:28:17 2014
 # sfoDF 15
 # vanNH 26
 ## game is complete
@@ -463,7 +463,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      2|    13|    14|sfoDF   |88      |        |sfoDF     |
 |      2|    13|    15|sfoDF   |83      |        |sfoDF     |
 |      2|    13|    16|vanNH   |4       |F       |sfoDF     |
-|      2|    13|    17|sfoDF   |34      |PU      |sfoDF     |
+|      2|    13|    17|sfoDF   |34      |        |sfoDF     |
 |      2|    13|    18|sfoDF   |34      |VST     |sfoDF     |
 |      2|    13|    19|vanNH   |45      |PU      |vanNH     |
 |      2|    13|    20|vanNH   |31      |        |vanNH     |
