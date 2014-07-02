@@ -17,7 +17,7 @@ Offense	Defense
 	8
 13F	81
 	11
-13F	8PU
+13F	8
 	11
 	8
 	11G
