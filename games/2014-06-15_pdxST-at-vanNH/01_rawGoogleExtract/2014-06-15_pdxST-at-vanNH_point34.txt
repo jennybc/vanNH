@@ -23,7 +23,8 @@ Offense	Defense
 73F	
 	24PU
 	31
-2F	8TO
+	8
+2F	?TO
 81F	89PU
 	98
 	89

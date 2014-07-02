@@ -831,7 +831,7 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-06-15_pdxST-at-vanNH	4	32	pdxST	63	2	16	pdxST	pdxST	21	G	7	TRUE	TRUE	pdxST	d_line	G	G
 2014-06-15_pdxST-at-vanNH	4	33	pdxST	64	1	10	vanNH	vanNH	5	G	10	FALSE	TRUE	vanNH	o_line	G	G
 2014-06-15_pdxST-at-vanNH	4	34	vanNH	65	1	19	pdxST	pdxST	73	off F	19	FALSE	FALSE	NA	o_line	off F	off -
-2014-06-15_pdxST-at-vanNH	4	34	vanNH	66	2	28	vanNH	vanNH	98	G	9	FALSE	TRUE	vanNH	d_line	G	G
+2014-06-15_pdxST-at-vanNH	4	34	vanNH	66	2	29	vanNH	vanNH	98	G	10	FALSE	TRUE	vanNH	d_line	G	G
 2014-06-15_pdxST-at-vanNH	4	35	vanNH	67	1	9	pdxST	pdxST	42	G	9	FALSE	TRUE	pdxST	o_line	G	G
 2014-06-15_pdxST-at-vanNH	4	36	pdxST	68	1	7	vanNH	vanNH	5	TA	7	FALSE	FALSE	NA	o_line	TA	off -
 2014-06-15_pdxST-at-vanNH	4	36	pdxST	69	2	12	pdxST	pdxST	17	G	5	TRUE	TRUE	pdxST	d_line	G	G

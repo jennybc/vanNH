@@ -556,13 +556,14 @@ period	point	event	pl_team	pl_pnum	pl_code	poss_team
 4	34	19	pdxST	73	F	pdxST
 4	34	20	vanNH	24	PU	vanNH
 4	34	21	vanNH	31		vanNH
-4	34	22	vanNH	8	TO	vanNH
-4	34	23	pdxST	2	F	vanNH
-4	34	24	vanNH	89	PU	vanNH
-4	34	25	pdxST	81	F	vanNH
-4	34	26	vanNH	98		vanNH
-4	34	27	vanNH	89	A	vanNH
-4	34	28	vanNH	98	G	vanNH
+4	34	22	vanNH	8		vanNH
+4	34	23	vanNH	?	TO	vanNH
+4	34	24	pdxST	2	F	vanNH
+4	34	25	vanNH	89	PU	vanNH
+4	34	26	pdxST	81	F	vanNH
+4	34	27	vanNH	98		vanNH
+4	34	28	vanNH	89	A	vanNH
+4	34	29	vanNH	98	G	vanNH
 4	35	1	vanNH	8	OBP	pdxST
 4	35	2	pdxST	24	PU	pdxST
 4	35	3	pdxST	9		pdxST
