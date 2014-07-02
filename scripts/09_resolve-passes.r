@@ -1,3 +1,10 @@
+#' ---
+#' title: "Prepare to resolve passes"
+#' author: "Jenny Bryan"
+#' date: "July 2014"
+#' output: html_document
+#' ---
+
 #+ setup, echo = FALSE, results = 'hide'
 library(plyr)
 library(ggplot2)
@@ -11,25 +18,31 @@ str(game_play)
 #' Each game breaks down into points, which further break down into possessions 
 #' and ultimately into *events*. Currently the raw game play data has
 {{nrow(game_play)}}
-#' rows or events. An event is recorded like so: `89PU`. A player's number, followed by an event code. For the most common event, in which a player catches then throws the disc, we record just the player's number: e.g., `45`.
+#' rows or events. A typical event is recorded like so: `89PU`, i.e. as a 
+#' player's number, followed by an event code. The most common event is a 
+#' "catch-throw", in which a player catches then throws the disc. In this case, 
+#' we record just the player's number: e.g., `45`. Below, we give this an *ad 
+#' hoc* code of `*`, which is easier to work with than the empty code.
 #' 
-#' A completed pass begins with a throw and ends with a catch, with both players
-#' belonging to the team on offense. In an ideal world, each possession would
-#' just be a sequence of completed passes and it would be simple to resolve each
-#' pass by looking at all possible pairs of adjacent rows or events to determine
-#' who threw and who caught. Indeed, the most common event is a "catch-throw",
-#' denoted `*` below, but there are legitimate events and codes for plays other
-#' than pick-up (code `PU`), throw, and catch:
+#' The goal of this analysis is to prepare for resolving individual passes from 
+#' event level data. A completed pass begins with a throw and ends with a catch,
+#' with both players belonging to the team on offense. In an ideal world, each 
+#' possession would just be a sequence of completed passes and it would be 
+#' simple to resolve each pass by looking at all possible pairs of adjacent rows
+#' or events to determine who threw and who caught. But it's not so simple,
+#' since there are plenty of other legitimate events sprinkled throughout the
+#' game play:
 #' 
-#'   * Fouls and other violations; codes `F`, `VP`, `VTT`, `VST`.
-#'   * Timeouts; code `TO`.
-#'   * Subs out and in, e.g. due to injury; codes `SO`, `SI`.
-#'   * D's; codes `D`, `HB`, `FB`.
-#'   * Drops; code `TD`.
-#'   * Scoring; codes `A` for assist and `G` for goal.
-#'   
-#' First, let's get the frequency of individual event codes, separated by
-#' whether the code applies to a player currently on offense (`O`) or defense
+#' * Pickup; code `PU`.
+#' * Fouls and other violations; codes `F`, `VP`, `VTT`, `VST`.
+#' * Timeouts; code `TO`.
+#' * Subs out and in, e.g. due to injury; codes `SO`, `SI`.
+#' * D's; codes `D`, `HB`, `FB`.
+#' * Drops; code `TD`.
+#' * Scoring; codes `A` for assist and `G` for goal.
+#' 
+#' First, let's get the frequency of individual event codes, separated by 
+#' whether the code applies to a player currently on offense (`O`) or defense 
 #' (`D`).
 
 #+ echo = FALSE
@@ -131,14 +144,19 @@ kable(code_who_freq)
 table(with(game_play, pl_code[which(pl_code == 'P') + 1]))
 
 #' ### Are pickups always the first event in a possession?
-#' First, we isolate pickups and disregard pickups immediately after the pull.
+#' Isolate pickups.
 length(pickups <- which(game_play$pl_code == "PU"))
+#' Now disregard pickups immediately after the pull.
 length(pickups <- pickups[game_play$pl_code[pickups - 1] != 'P'])
-#' Now, grab the immediately previous event, note its code and note which
-#' possession it belongs to, obtained from `poss_rel`, which identifies
-#' possessions within a point. This is just a positive integer, so I can subtract
-#' the possession number of this preceding event from that of the pickup. If the
-#' pickup is the first event of a possession, this difference will be 1.
+#' Now, I grab the immediately previous event, note its code and note which 
+#' possession it belongs to, obtained from `poss_rel`, which identifies 
+#' possessions within a point. This is just a positive integer, so I can
+#' subtract the possession number of this preceding event from that of the
+#' pickup. If the pickup is the first event of a possession, this difference
+#' will be 1. If the pickup belongs to the same possession as the previous
+#' event, this difference will be 0 and we need to take a closer look.
+
+#- echo = FALSE
 foo <- with(game_play,
             data.frame(gprow = pickups,
                        pre_code = pl_code[pickups - 1],
@@ -147,33 +165,76 @@ foo <- with(game_play,
                        pu_poss = poss_rel[pickups]))
 foo$diff <- with(foo, pu_poss - pre_poss)
 foo <- arrange(foo, diff, pre_code)
+
 table(foo$diff)
-#' I want to take a closer look at the pickups that share the possession number with the previous event, i.e. where the difference is 0.
-foo <- subset(foo, diff == 0)
+#' Now scrutinize the pickups that share the possession number with the previous
+#' event, i.e. where the difference is 0.
+
+#+ echo = FALSE
+foo <- droplevels(subset(foo, diff == 0))
+
 table(foo$pre_code)
-#' The timeout (`TO`) and sub in (`SI`) codes are understandable. Let's
-#' eliminate them so we can scrutinize what's left.
-foo <- subset(foo, !(pre_code %in% c('TO', 'SI')))
+
+#' The timeout (`TO`) and sub in (`SI`) codes are understandable. Let's 
+#' eliminate them so we can focus on what's left.
+
+#+ echo = FALSE
+foo <- droplevels(subset(foo, !(pre_code %in% c('TO', 'SI'))))
+
 table(foo$pre_code)
-write.table(game_play[rep(sort(foo$gprow), each = 4) + -2:1, ],
-            "blah.tsv", row.names = FALSE, sep = "\t", quote = FALSE)
-#' Here's where I followed up in the Google spreadsheets and, if necessary, on video:
+
+#' When I first did this, I followed up on these points in the Google 
+#' spreadsheets and/or on video. I found that the data had since been corrected 
+#' in the Google spreadsheets, which I then re-extracted and re-processed. These
+#' points no longer have a `PU` that requires special attention.
 #' 
-#'   * week 02 2014-04-20_sfoDF-at-vanNH, period 2, point 13, score is 3-8
-#'     - data in Google spreadsheet seems to have changed; re-pulled and this puzzle went away
-#'   * week 06 2014-05-17_vanNH-at-sfoDF, period 2, point 14, score is 5-7
-#'     - data in Google spreadsheet seems to have changed; re-pulled and this puzzle went away
-#'   * week 09 2014-06-07_seaRM-at-vanNH, period 3, point 25, score is 8-15
-#'     - Here's the puzzling sequence of events. vanNH have possession. 37 catches the disc. There is a pick called on the defense then vanNH calls a timeout. This was originally recorded with `37TO` in the offensive cell and `?VP` in the defensive cell. It's a bit tricky to recover the actual sequence of events from this: 37 catches, then the defense picks, then vanNH call timeout. My clean and expand script puts defensive acts in the row *after* offensive acts, in general, and gets fooled here by the fact that `37TO` refers to two separate acts, with the pick happening in between. Rather than handle this special case in my own script I've edited the spreadsheet to have vanNH 37 catch, have the defensive pick in the adjacent cell and then, in the next row, record a timeout call by `?`. I've re-pulled the data from this point.
+#'  - week 02 2014-04-20_sfoDF-at-vanNH, period 2, point 13, score is 3-8
+#'  - week 06 2014-05-17_vanNH-at-sfoDF, period 2, point 14, score is 5-7
+#'  - week 12 (playoffs) 2014-06-28_vanNH-at-pdxST, period 3, point 22, score
+#'  is 10-9
+#'  - week 02 2014-04-19_sfoDF-at-seaRM, period 4, point 34, score is 13-17
+#'     
+#' Re: point 25, period 3, week 09 2014-06-07_seaRM-at-vanNH (score is 8-15).... vanNH have possession. 37 catches the disc. Pick called on the defense then vanNH calls a timeout. Originally recorded with `37TO` in the offensive cell and `?VP` in the defensive cell. It's a bit tricky to recover the actual sequence of events from this: 37 catches, then the defense picks, then vanNH call timeout. My clean and expand script puts defensive acts in the row *after* offensive acts, in general, and gets fooled here by the fact that `37TO` refers to two separate acts, with the pick happening in between. Rather than handle this special case in my own script I edited the spreadsheet to have vanNH 37 catch, have the defensive pick in the adjacent cell and then, in the next row, record a timeout call by `?`. I've re-pulled the data from this point.
+#' 
+#' Re: point 22, period 3, Western Conference Final 2014-06-28_vanNH-at-pdxST (score is 10-9, around 1:32 in the video). vanNH-8 is the intended receiver of a throw from 11 but is fouled by pdxST-13 and the disc hits the ground. vanNH-8 picks it up and play resumes. This was recorded as `8PU` but I removed the `PU`, since the end result is we treat it as if he caught it. I removed this `PU` code and re-pulled the data from this point.
+
+#+ echo = FALSE
+to_examine <- game_play[rep(sort(foo$gprow), each = 4) + -2:1, ]
+
+#' There are
+{{nrow(foo)}}
+#' `PU`s that require a close look. Here's the game play data for these pickups, including the two rows before and one row after.
+
+#+ echo = FALSE, results = 'asis'
+kable(to_examine)
+
+#+ include = FALSE
+## I looked at this data in Excel when troubleshooting.
+#write.table(foo, "blah.tsv", row.names = FALSE, sep = "\t", quote = FALSE)
+
+#' Here are notes about the remaining pickups:
+#' 
 #'  * week 10 2014-06-15_pdxST-at-vanNH, period 4, point 34, score is 15-16
-#'     - This is related to the previous case, in that involves a defensive foul and a timeout. Again, the recording of multiple events in one row makes it very tricky to determine the order of actions. Here it's complicated by the fact that the foul called on the defense was called on the bench *during the timeout* itself. I added a row, put a clean `8` for a catch by vanNH 8, then in the following row retained the `2F` code for the unsportsmanlike conduct call on the defense's bench during the timeout and entered a `?TO` for the offense to record the timeout call. I suspect all timeouts should just be entered on their own line, quite possibly with no associated number, i.e. just as `TO`. I've re-pulled the data from this point, but it will continue to get picked up here as non-standard. I think the foul during a timeout will remain a very rare phenomenon.
-#'  * week12 (playoffs) 2014-06-28_vanNH-at-pdxST, period 2, point 13, score is 6-5
-#'    - This is an *offensive foul* (pick) that causes the "catch" part of a catch throw to occupy a different cell and row and the corresponding "throw", with the offensive `VP` recorded in between. I guess this is a legit use of `PU`.
-#'  * week12 (playoffs) 2014-06-28_vanNH-at-pdxST, period 3, point 22, score is 10-9
-#'    - Some garbled game play had already been fixed on the Google spreadsheet, so I re-pulled that and this puzzle has gone away.
-#'  * week 02 2014-04-19_sfoDF-at-seaRM, period 4, point 34, score is 13-17
-#'    - Some garbled game play had already been fixed on the Google spreadsheet, so I re-pulled that
-#' 
+#'     - This is tricky due to a combination of factors. First, the recording of
+#'     an offensive catch and timeout in the same cell. Second the recording of
+#'     a defensive foul in the same row. It's even worse in this case, because
+#'     the unsportsmanlike conduct call was made during the timeout. I added a
+#'     row, put a clean `8` for a catch by vanNH 8, then in the following row
+#'     retained the `2F` code for the unsportsmanlike conduct call on the
+#'     defense's bench during the timeout and entered a `?TO` for the offense to
+#'     record the timeout call. I suspect all timeouts should just be entered on
+#'     their own line, quite possibly with no associated number, i.e. just as
+#'     `TO`. I've re-pulled the data from this point, but it will continue to
+#'     get picked up here as non-standard. I think the foul during a timeout
+#'     will remain a very rare phenomenon.
+
+#'  * week12 (playoffs) 2014-06-28_vanNH-at-pdxST, period 2, point 13, score is
+#'  6-5.
+#'     - This is an *offensive foul* (pick) that causes the "catch" part of a
+#'     catch throw to occupy a different cell and row from the corresponding
+#'     "throw", with the offensive `VP` recorded in between. I guess this is a
+#'     legit use of `PU` in the middle of a possession.
+#'    
 #' ## Frequency of adjacent event code pairs
 #' 
 #' In order to develop the pass-resolving logic, I want to study the frequency of these code pairs for adjacent events. I will only look at adjacent events *within a possession*, so the number of these pairs will be smaller than the total number of events minus 1. The number of pairs is, in fact, `nrow(hap_dat)`.
