@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jun 24 22:29:48 2014
+#### last update Tue Jul  1 17:57:15 2014
 # sfoDF 20
 # seaRM 21
 ## game is complete
@@ -215,7 +215,7 @@ stats are cumulative for this game
 |    33|      4|sfoDF     |    13|seaRM   |6       |D       |sfoDF     |trytiak       |seaRM-6-trytiak        |    17|    13|
 |    33|      4|sfoDF     |    19|seaRM   |99      |A       |seaRM     |el-salaam     |seaRM-99-el-salaam     |    17|    13|
 |    33|      4|sfoDF     |    20|seaRM   |6       |G       |seaRM     |trytiak       |seaRM-6-trytiak        |    17|    13|
-|    34|      4|seaRM     |     8|sfoDF   |21      |PUA     |sfoDF     |Stearns       |sfoDF-21-Stearns       |    17|    14|
+|    34|      4|seaRM     |     8|sfoDF   |21      |A       |sfoDF     |Stearns       |sfoDF-21-Stearns       |    17|    14|
 |    34|      4|seaRM     |     9|sfoDF   |24      |G       |sfoDF     |Caulfield     |sfoDF-24-Caulfield     |    17|    14|
 |    35|      4|sfoDF     |     7|sfoDF   |18      |A       |sfoDF     |Weaver        |sfoDF-18-Weaver        |    17|    15|
 |    35|      4|sfoDF     |     8|sfoDF   |37      |G       |sfoDF     |Hart          |sfoDF-37-Hart          |    17|    15|
@@ -717,7 +717,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      4|    34|     5|sfoDF   |19      |        |sfoDF     |
 |      4|    34|     6|sfoDF   |24      |        |sfoDF     |
 |      4|    34|     7|seaRM   |12      |F       |sfoDF     |
-|      4|    34|     8|sfoDF   |21      |PUA     |sfoDF     |
+|      4|    34|     8|sfoDF   |21      |A       |sfoDF     |
 |      4|    34|     9|sfoDF   |24      |G       |sfoDF     |
 |      4|    35|     1|sfoDF   |12      |P       |seaRM     |
 |      4|    35|     2|seaRM   |17      |PU      |seaRM     |

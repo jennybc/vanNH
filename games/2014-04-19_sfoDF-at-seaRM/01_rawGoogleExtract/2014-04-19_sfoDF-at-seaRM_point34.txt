@@ -9,5 +9,5 @@ Offense	Defense
 21	
 19	
 24	12F
-21PU	
+21	
 24G	

@@ -171,6 +171,8 @@ write.table(game_play[rep(sort(foo$gprow), each = 4) + -2:1, ],
 #'    - This is an *offensive foul* (pick) that causes the "catch" part of a catch throw to occupy a different cell and row and the corresponding "throw", with the offensive `VP` recorded in between. I guess this is a legit use of `PU`.
 #'  * week12 (playoffs) 2014-06-28_vanNH-at-pdxST, period 3, point 22, score is 10-9
 #'    - Some garbled game play had already been fixed on the Google spreadsheet, so I re-pulled that and this puzzle has gone away.
+#'  * week 02 2014-04-19_sfoDF-at-seaRM, period 4, point 34, score is 13-17
+#'    - Some garbled game play had already been fixed on the Google spreadsheet, so I re-pulled that
 #' 
 #' ## Frequency of adjacent event code pairs
 #' 
