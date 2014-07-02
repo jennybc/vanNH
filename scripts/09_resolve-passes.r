@@ -163,6 +163,8 @@ write.table(game_play[rep(sort(foo$gprow), each = 4) + -2:1, ],
 #'     - data in Google spreadsheet seems to have changed; re-pulled and this puzzle went away
 #'   * week 06 2014-05-17_vanNH-at-sfoDF, period 2, point 14, score is 5-7
 #'     - data in Google spreadsheet seems to have changed; re-pulled and this puzzle went away
+#'   * week 09 2014-06-07_seaRM-at-vanNH, period 3, point 25, score is 8-15
+#'     - Here's the puzzling sequence of events. vanNH have possession. 37 catches the disc. There is a pick called on the defense then vanNH calls a timeout. This was originally recorded with `37TO` in the offensive cell and `?VP` in the defensive cell. It's a bit tricky to recover the actual sequence of events from this: 37 catches, then the defense picks, then vanNH call timeout. My clean and expand script puts defensive acts in the row *after* offensive acts, in general, and gets fooled here by the fact that `37TO` refers to two separate acts, with the pick happening in between. Rather than handle this special case in my own script I've edited the spreadsheet to have vanNH 37 catch, have the defensive pick in the adjacent cell and then, in the next row, record a timeout call by `?`. I've re-pulled the data from this point.
 #' 
 #' ## Frequency of adjacent event code pairs
 #' 

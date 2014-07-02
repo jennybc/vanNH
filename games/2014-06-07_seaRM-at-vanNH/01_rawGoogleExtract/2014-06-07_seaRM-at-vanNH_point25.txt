@@ -13,12 +13,13 @@ Offense	Defense
 29	
 23	
 18	
-29	?F
+29	7f
 18	
 ?F	
 	13PU
 	18
-?VP	37TO
+?VP	37
+	?TO
 	89PU
 	91
 	89

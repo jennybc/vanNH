@@ -335,7 +335,7 @@ game	period	point	pull_team	poss_abs	n_poss	n_events	poss_team	pl_team	pl_pnum	p
 2014-06-07_seaRM-at-vanNH	2	22	vanNH	39	1	10	seaRM	seaRM	51	LG	TRUE	TRUE	seaRM	o_line	G	G
 2014-06-07_seaRM-at-vanNH	3	23	seaRM	40	1	11	vanNH	vanNH	98	G	FALSE	TRUE	vanNH	o_line	G	G
 2014-06-07_seaRM-at-vanNH	3	24	vanNH	44	4	23	vanNH	vanNH	27	G	FALSE	TRUE	vanNH	d_line	G	G
-2014-06-07_seaRM-at-vanNH	3	25	vanNH	48	4	40	vanNH	vanNH	22	G	FALSE	TRUE	vanNH	d_line	G	G
+2014-06-07_seaRM-at-vanNH	3	25	vanNH	48	4	41	vanNH	vanNH	22	G	FALSE	TRUE	vanNH	d_line	G	G
 2014-06-07_seaRM-at-vanNH	3	26	vanNH	50	2	13	vanNH	vanNH	37	LG	TRUE	TRUE	vanNH	d_line	G	G
 2014-06-07_seaRM-at-vanNH	3	27	vanNH	52	2	14	vanNH	vanNH	4	G	FALSE	TRUE	vanNH	d_line	G	G
 2014-06-07_seaRM-at-vanNH	3	28	vanNH	54	2	7	vanNH	vanNH	7	G	FALSE	TRUE	vanNH	d_line	G	G
