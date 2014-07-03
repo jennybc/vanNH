@@ -9,4 +9,5 @@ Offense	Defense
 5	
 10	
 	8D
+	8
 12d	

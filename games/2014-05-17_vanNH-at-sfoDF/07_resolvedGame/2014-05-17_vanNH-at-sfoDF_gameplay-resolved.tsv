@@ -135,7 +135,8 @@ period	point	event	pl_team	pl_pnum	pl_code	poss_team
 1	9	4	sfoDF	5		sfoDF
 1	9	5	sfoDF	10		sfoDF
 1	9	6	vanNH	8	D	sfoDF
-1	9	7	sfoDF	12	D	vanNH
+1	9	7	vanNH	8		vanNH
+1	9	8	sfoDF	12	D	vanNH
 2	10	1	vanNH	8	P	sfoDF
 2	10	2	sfoDF	34	PU	sfoDF
 2	10	3	sfoDF	23	L	sfoDF

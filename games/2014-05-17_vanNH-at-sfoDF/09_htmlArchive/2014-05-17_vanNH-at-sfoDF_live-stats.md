@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul  1 14:37:19 2014
+#### last update Wed Jul  2 18:32:11 2014
 # vanNH 12
 # sfoDF 13
 ## game is complete
@@ -142,7 +142,7 @@ stats are cumulative for this game
 |     8|      1|sfoDF     |    12|vanNH   |5       |PUA     |vanNH     |norris        |vanNH-5-norris         |     4|     4|
 |     8|      1|sfoDF     |    13|vanNH   |10      |G       |vanNH     |chatha        |vanNH-10-chatha        |     4|     4|
 |     9|      1|vanNH     |     6|vanNH   |8       |D       |sfoDF     |hibbert       |vanNH-8-hibbert        |     4|     4|
-|     9|      1|vanNH     |     7|sfoDF   |12      |D       |vanNH     |Bellinger     |sfoDF-12-Bellinger     |     4|     4|
+|     9|      1|vanNH     |     8|sfoDF   |12      |D       |vanNH     |Bellinger     |sfoDF-12-Bellinger     |     4|     4|
 |    10|      2|vanNH     |     6|sfoDF   |6       |A       |sfoDF     |Kim           |sfoDF-6-Kim            |     5|     4|
 |    10|      2|vanNH     |     7|sfoDF   |11      |G       |sfoDF     |Lee           |sfoDF-11-Lee           |     5|     4|
 |    11|      2|sfoDF     |     4|sfoDF   |46      |D       |vanNH     |McCarty       |sfoDF-46-McCarty       |     6|     4|
@@ -356,7 +356,8 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      1|     9|     4|sfoDF   |5       |        |sfoDF     |
 |      1|     9|     5|sfoDF   |10      |        |sfoDF     |
 |      1|     9|     6|vanNH   |8       |D       |sfoDF     |
-|      1|     9|     7|sfoDF   |12      |D       |vanNH     |
+|      1|     9|     7|vanNH   |8       |        |vanNH     |
+|      1|     9|     8|sfoDF   |12      |D       |vanNH     |
 |      2|    10|     1|vanNH   |8       |P       |sfoDF     |
 |      2|    10|     2|sfoDF   |34      |PU      |sfoDF     |
 |      2|    10|     3|sfoDF   |23      |L       |sfoDF     |
