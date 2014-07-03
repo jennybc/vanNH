@@ -443,9 +443,8 @@ a_ply(cth_rows, 1, function(i) {
 })
 ## timeout recorded with no associated number created phantom single event
 ## possession for the other team
-# 2014-05-31_vanNH-at-seaRM point 3 event 7 ... missing PU? or did 18 intercept?
-# 2014-05-31_vanNH-at-seaRM point 23 event 9 ... weird seaRM possession
-# 2014-05-31_vanNH-at-seaRM point 52 event 21 ... weird vanNH possession
+# 2014-05-31_vanNH-at-seaRM point 23 event 9 ... naked TO
+# 2014-05-31_vanNH-at-seaRM point 52 event 21 ... naked TO
 # 2014-06-07_seaRM-at-vanNH point 36 event 8 ... missing PU? or did 8 intercept?
 # 2014-06-28_vanNH-at-pdxST point 3 event 31 ... weird pdxST possession
 # 2014-06-28_vanNH-at-pdxST point 7 event 6 ... missing PU? or did 88 intercept?

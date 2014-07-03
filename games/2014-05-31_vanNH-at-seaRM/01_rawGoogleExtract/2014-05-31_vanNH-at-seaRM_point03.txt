@@ -9,7 +9,7 @@ Offense	Defense
 19	
 22	
 	18D
-	29
+	29PU
 	21
 	29
 	21

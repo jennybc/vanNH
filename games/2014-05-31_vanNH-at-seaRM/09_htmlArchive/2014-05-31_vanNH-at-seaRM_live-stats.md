@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Mon Jun 16 21:39:56 2014
+#### last update Thu Jul  3 15:40:00 2014
 # vanNH 29
 # seaRM 24
 ## game is complete
@@ -311,7 +311,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      1|     3|     4|vanNH   |19      |        |vanNH     |
 |      1|     3|     5|vanNH   |22      |        |vanNH     |
 |      1|     3|     6|seaRM   |18      |D       |vanNH     |
-|      1|     3|     7|seaRM   |29      |        |seaRM     |
+|      1|     3|     7|seaRM   |29      |PU      |seaRM     |
 |      1|     3|     8|seaRM   |21      |        |seaRM     |
 |      1|     3|     9|seaRM   |29      |        |seaRM     |
 |      1|     3|    10|seaRM   |21      |        |seaRM     |
