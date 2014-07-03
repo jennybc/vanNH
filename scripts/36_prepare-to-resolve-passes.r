@@ -441,23 +441,21 @@ a_ply(cth_rows, 1, function(i) {
   print(game_play[i + (-2:2), ])
   cat("\n")
 })
-## summary of what I've seen, where "|" signals the change of possession
-## D | CTH <-- notably these are by the same person
-2014-05-17_vanNH-at-sfoDF point 14 event 26 ... missing PU? or did 22 intercept?
-2014-05-17_vanNH-at-sfoDF point 29 event 22 ... weird vanNH possession
-2014-05-31_vanNH-at-seaRM point 3 event 7 ... missing PU? or did 18 intercept?
-2014-05-31_vanNH-at-seaRM point 23 event 9 ... weird seaRM possession
-2014-05-31_vanNH-at-seaRM point 52 event 21 ... weird vanNH possession
-2014-06-07_seaRM-at-vanNH point 36 event 8 ... missing PU? or did 8 intercept?
-2014-06-28_vanNH-at-pdxST point 3 event 31 ... weird pdxST possession
-2014-06-28_vanNH-at-pdxST point 7 event 6 ... missing PU? or did 88 intercept?
-2014-06-28_vanNH-at-pdxST point 8 event 9 ... missing PU? or did 8 intercept?
-2014-06-28_vanNH-at-pdxST point 12 event 29 ... missing PU? or did 8 intercept?
-2014-06-28_vanNH-at-pdxST point 27 event 16 ... weird pdxST possession
-2014-04-12_seaRM-at-sfoDF point 29 event 20 ... missing PU? or did 20 intercept?
-2014-04-19_sfoDF-at-seaRM point 7 event 4 ... missing PU?
-2014-04-19_sfoDF-at-seaRM point 38 events 9,10 ... weird sfoDF possession
-2014-04-26_pdxST-at-sfoDF point 22 event 7 ... missing PU? or did 24 intercept?
+## timeout recorded with no associated number created phantom single event
+## possession for the other team
+# 2014-05-31_vanNH-at-seaRM point 3 event 7 ... missing PU? or did 18 intercept?
+# 2014-05-31_vanNH-at-seaRM point 23 event 9 ... weird seaRM possession
+# 2014-05-31_vanNH-at-seaRM point 52 event 21 ... weird vanNH possession
+# 2014-06-07_seaRM-at-vanNH point 36 event 8 ... missing PU? or did 8 intercept?
+# 2014-06-28_vanNH-at-pdxST point 3 event 31 ... weird pdxST possession
+# 2014-06-28_vanNH-at-pdxST point 7 event 6 ... missing PU? or did 88 intercept?
+# 2014-06-28_vanNH-at-pdxST point 8 event 9 ... missing PU? or did 8 intercept?
+# 2014-06-28_vanNH-at-pdxST point 12 event 29 ... missing PU? or did 8 intercept?
+# 2014-06-28_vanNH-at-pdxST point 27 event 16 ... weird pdxST possession
+# 2014-04-12_seaRM-at-sfoDF point 29 event 20 ... missing PU? or did 20 intercept?
+# 2014-04-19_sfoDF-at-seaRM point 7 event 4 ... missing PU?
+# 2014-04-19_sfoDF-at-seaRM point 38 events 9,10 ... weird sfoDF possession
+# 2014-04-26_pdxST-at-sfoDF point 22 event 7 ... missing PU? or did 24 intercept?
 
 foo <- subset(poss_ao, where == "alpha" & pl_code == "TO",
               select = -c(who, where))

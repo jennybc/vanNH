@@ -12,6 +12,7 @@ Offense	Defense
 22	
 89	
 	23d
+	23
 	34PU
 	23
 	34
@@ -28,6 +29,7 @@ Offense	Defense
 	11
 	25
 22d	
+22	
 5	
 	34d
 	34pu

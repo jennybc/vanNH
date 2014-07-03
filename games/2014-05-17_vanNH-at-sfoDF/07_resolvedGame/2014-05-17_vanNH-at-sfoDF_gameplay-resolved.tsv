@@ -206,32 +206,34 @@ period	point	event	pl_team	pl_pnum	pl_code	poss_team
 2	14	7	vanNH	22		vanNH
 2	14	8	vanNH	89		vanNH
 2	14	9	sfoDF	23	D	vanNH
-2	14	10	sfoDF	34	PU	sfoDF
-2	14	11	sfoDF	23		sfoDF
-2	14	12	sfoDF	34		sfoDF
-2	14	13	sfoDF	23	TD	sfoDF
-2	14	14	vanNH	5	PU	vanNH
-2	14	15	vanNH	21		vanNH
-2	14	16	vanNH	5		vanNH
-2	14	17	sfoDF	34	PU	sfoDF
-2	14	18	sfoDF	9	TD	sfoDF
-2	14	19	vanNH	5	PU	vanNH
-2	14	20	sfoDF	34	PU	sfoDF
-2	14	21	sfoDF	6		sfoDF
-2	14	22	sfoDF	25		sfoDF
-2	14	23	sfoDF	11		sfoDF
-2	14	24	sfoDF	25		sfoDF
-2	14	25	vanNH	22	D	sfoDF
-2	14	26	vanNH	5		vanNH
-2	14	27	sfoDF	34	D	vanNH
-2	14	28	sfoDF	34	PU	sfoDF
-2	14	29	sfoDF	23	TD	sfoDF
-2	14	30	vanNH	89	PU	vanNH
-2	14	31	vanNH	21		vanNH
-2	14	32	vanNH	98		vanNH
-2	14	33	vanNH	89		vanNH
-2	14	34	vanNH	5	A	vanNH
-2	14	35	vanNH	98	G	vanNH
+2	14	10	sfoDF	23		sfoDF
+2	14	11	sfoDF	34	PU	sfoDF
+2	14	12	sfoDF	23		sfoDF
+2	14	13	sfoDF	34		sfoDF
+2	14	14	sfoDF	23	TD	sfoDF
+2	14	15	vanNH	5	PU	vanNH
+2	14	16	vanNH	21		vanNH
+2	14	17	vanNH	5		vanNH
+2	14	18	sfoDF	34	PU	sfoDF
+2	14	19	sfoDF	9	TD	sfoDF
+2	14	20	vanNH	5	PU	vanNH
+2	14	21	sfoDF	34	PU	sfoDF
+2	14	22	sfoDF	6		sfoDF
+2	14	23	sfoDF	25		sfoDF
+2	14	24	sfoDF	11		sfoDF
+2	14	25	sfoDF	25		sfoDF
+2	14	26	vanNH	22	D	sfoDF
+2	14	27	vanNH	22		vanNH
+2	14	28	vanNH	5		vanNH
+2	14	29	sfoDF	34	D	vanNH
+2	14	30	sfoDF	34	PU	sfoDF
+2	14	31	sfoDF	23	TD	sfoDF
+2	14	32	vanNH	89	PU	vanNH
+2	14	33	vanNH	21		vanNH
+2	14	34	vanNH	98		vanNH
+2	14	35	vanNH	89		vanNH
+2	14	36	vanNH	5	A	vanNH
+2	14	37	vanNH	98	G	vanNH
 2	15	1	vanNH	33	P	sfoDF
 2	15	2	sfoDF	12	PU	sfoDF
 2	15	3	vanNH	31	D	sfoDF
@@ -519,7 +521,7 @@ period	point	event	pl_team	pl_pnum	pl_code	poss_team
 5	29	19	sfoDF	12		sfoDF
 5	29	20	sfoDF	18		sfoDF
 5	29	21	sfoDF	1		sfoDF
-5	29	22	vanNH			vanNH
+5	29	22	sfoDF	?	TO	sfoDF
 5	29	23	sfoDF	34	PU	sfoDF
 5	29	24	sfoDF	40		sfoDF
 5	29	25	sfoDF	34		sfoDF
