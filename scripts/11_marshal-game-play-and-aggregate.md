@@ -24,7 +24,7 @@ str(game_play)
 ```
 
 ```
-## 'data.frame':	9248 obs. of  8 variables:
+## 'data.frame':	9249 obs. of  8 variables:
 ##  $ game     : Factor w/ 15 levels "2014-04-12_vanNH-at-pdxST",..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ period   : int  1 1 1 1 1 1 1 1 1 1 ...
 ##  $ point    : int  1 1 1 1 1 1 1 1 1 1 ...
@@ -53,7 +53,7 @@ str(game_play)
 ```
 
 ```
-## 'data.frame':	9248 obs. of  10 variables:
+## 'data.frame':	9249 obs. of  10 variables:
 ##  $ game     : Factor w/ 15 levels "2014-04-12_vanNH-at-pdxST",..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ period   : int  1 1 1 1 1 1 1 1 1 1 ...
 ##  $ point    : int  1 1 1 1 1 1 1 1 1 1 ...
@@ -78,7 +78,7 @@ str(game_play)
 ```
 
 ```
-## 'data.frame':	9248 obs. of  11 variables:
+## 'data.frame':	9249 obs. of  11 variables:
 ##  $ game     : Factor w/ 15 levels "2014-04-12_vanNH-at-pdxST",..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ period   : int  1 1 1 1 1 1 1 1 1 1 ...
 ##  $ point    : int  1 1 1 1 1 1 1 1 1 1 ...
@@ -106,7 +106,7 @@ str(game_play)
 ```
 
 ```
-## 'data.frame':	9248 obs. of  11 variables:
+## 'data.frame':	9249 obs. of  11 variables:
 ##  $ game     : Factor w/ 15 levels "2014-04-12_vanNH-at-pdxST",..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ period   : int  1 1 1 1 1 1 1 1 1 1 ...
 ##  $ point    : int  1 1 1 1 1 1 1 1 1 1 ...
@@ -548,5 +548,5 @@ message("wrote ", out_file)
 ---
 title: "11_marshal-game-play-and-aggregate.r"
 author: "jenny"
-date: "Thu Jul  3 15:41:39 2014"
+date: "Thu Jul  3 15:45:03 2014"
 ---

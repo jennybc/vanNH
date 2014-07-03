@@ -9,7 +9,8 @@ Offense	Defense
 14	
 17	
 1	
-	8D
+	8d
+	8
 	4
 	8
 	24
