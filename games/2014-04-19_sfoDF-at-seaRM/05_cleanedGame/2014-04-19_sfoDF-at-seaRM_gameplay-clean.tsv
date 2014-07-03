@@ -82,7 +82,7 @@ point	event	pullNum	pullCode	recvNum	recvCode
 7	1	24	OBP		
 7	2			88	PU
 7	3	13	D		
-7	4	?			
+7	4	?	PU		
 7	5	13	TD		
 7	6			88	PU
 7	7			34	

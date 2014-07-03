@@ -82,7 +82,7 @@ period	point	event	pl_team	pl_pnum	pl_code	poss_team
 1	7	1	seaRM	24	OBP	sfoDF
 1	7	2	sfoDF	88	PU	sfoDF
 1	7	3	seaRM	13	D	sfoDF
-1	7	4	seaRM	?		seaRM
+1	7	4	seaRM	?	PU	seaRM
 1	7	5	seaRM	13	TD	seaRM
 1	7	6	sfoDF	88	PU	sfoDF
 1	7	7	sfoDF	34		sfoDF

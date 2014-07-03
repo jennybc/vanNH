@@ -6,7 +6,7 @@ Offense	Defense
 	24OBP
 88PU	
 	13D
-	?
+	?PU
 	13TD
 88PU	
 34	
