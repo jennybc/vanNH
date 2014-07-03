@@ -9,5 +9,5 @@ Offense	Defense
 16	
 6	
 	24d
-	13
+	13PU
 	40LG

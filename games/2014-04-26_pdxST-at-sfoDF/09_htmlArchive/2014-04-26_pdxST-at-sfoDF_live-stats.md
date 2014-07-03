@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jun 24 10:13:11 2014
+#### last update Thu Jul  3 16:00:02 2014
 # pdxST 18
 # sfoDF 16
 ## game is complete
@@ -178,7 +178,7 @@ stats are cumulative for this game
 |    21|      3|sfoDF     |    21|sfoDF   |16      |PUA     |sfoDF     |Yeager        |sfoDF-16-Yeager        |     8|    12|
 |    21|      3|sfoDF     |    22|sfoDF   |1       |LG      |sfoDF     |Ranahan       |sfoDF-1-Ranahan        |     8|    12|
 |    22|      3|sfoDF     |     6|sfoDF   |24      |D       |pdxST     |Caulfield     |sfoDF-24-Caulfield     |     8|    13|
-|    22|      3|sfoDF     |     7|sfoDF   |13      |A       |sfoDF     |Grant         |sfoDF-13-Grant         |     8|    13|
+|    22|      3|sfoDF     |     7|sfoDF   |13      |PUA     |sfoDF     |Grant         |sfoDF-13-Grant         |     8|    13|
 |    22|      3|sfoDF     |     8|sfoDF   |40      |LG      |sfoDF     |Taylor        |sfoDF-40-Taylor        |     8|    13|
 |    23|      3|sfoDF     |    14|sfoDF   |9       |D       |pdxST     |Farren        |sfoDF-9-Farren         |     9|    13|
 |    23|      3|sfoDF     |    32|pdxST   |10      |A       |pdxST     |Strout        |pdxST-10-Strout        |     9|    13|
@@ -569,7 +569,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      3|    22|     4|pdxST   |16      |        |pdxST     |
 |      3|    22|     5|pdxST   |6       |        |pdxST     |
 |      3|    22|     6|sfoDF   |24      |D       |pdxST     |
-|      3|    22|     7|sfoDF   |13      |A       |sfoDF     |
+|      3|    22|     7|sfoDF   |13      |PUA     |sfoDF     |
 |      3|    22|     8|sfoDF   |40      |LG      |sfoDF     |
 |      3|    23|     1|sfoDF   |11      |P       |pdxST     |
 |      3|    23|     2|pdxST   |9       |PU      |pdxST     |

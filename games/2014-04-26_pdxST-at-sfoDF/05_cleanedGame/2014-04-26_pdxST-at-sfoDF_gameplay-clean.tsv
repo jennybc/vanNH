@@ -342,7 +342,7 @@ point	event	pullNum	pullCode	recvNum	recvCode
 22	4			16	
 22	5			6	
 22	6	24	D		
-22	7	13			
+22	7	13	PU		
 22	8	40	LG		
 23	1	11	P		
 23	2			9	PU
