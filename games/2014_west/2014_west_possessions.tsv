@@ -487,11 +487,11 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-05-17_vanNH-at-sfoDF	5	29	sfoDF	126	1	5	vanNH	sfoDF	85	D	5	FALSE	FALSE	NA	o_line	D	def +
 2014-05-17_vanNH-at-sfoDF	5	29	sfoDF	127	2	7	sfoDF	vanNH	21	D	2	FALSE	FALSE	NA	d_line	D	def +
 2014-05-17_vanNH-at-sfoDF	5	29	sfoDF	128	3	13	vanNH	sfoDF	5	D	6	TRUE	FALSE	NA	o_line	D	def +
-2014-05-17_vanNH-at-sfoDF	5	29	sfoDF	129	4	14	sfoDF	sfoDF	18	TD	1	FALSE	FALSE	NA	d_line	TD	off -
-2014-05-17_vanNH-at-sfoDF	5	29	sfoDF	130	5	15	vanNH	vanNH	5	TA	1	FALSE	FALSE	NA	o_line	TA	off -
-2014-05-17_vanNH-at-sfoDF	5	29	sfoDF	131	6	20	sfoDF	sfoDF	1	TA	5	FALSE	FALSE	NA	d_line	TA	off -
-2014-05-17_vanNH-at-sfoDF	5	29	sfoDF	132	7	21	vanNH	vanNH		TA	1	FALSE	FALSE	NA	o_line	TA	off -
-2014-05-17_vanNH-at-sfoDF	5	29	sfoDF	133	8	26	sfoDF	sfoDF	34	G	5	FALSE	TRUE	sfoDF	d_line	G	G
+2014-05-17_vanNH-at-sfoDF	5	29	sfoDF	129	4	15	sfoDF	sfoDF	18	TD	2	FALSE	FALSE	NA	d_line	TD	off -
+2014-05-17_vanNH-at-sfoDF	5	29	sfoDF	130	5	16	vanNH	vanNH	5	TA	1	FALSE	FALSE	NA	o_line	TA	off -
+2014-05-17_vanNH-at-sfoDF	5	29	sfoDF	131	6	21	sfoDF	sfoDF	1	TA	5	FALSE	FALSE	NA	d_line	TA	off -
+2014-05-17_vanNH-at-sfoDF	5	29	sfoDF	132	7	22	vanNH	vanNH		TA	1	FALSE	FALSE	NA	o_line	TA	off -
+2014-05-17_vanNH-at-sfoDF	5	29	sfoDF	133	8	27	sfoDF	sfoDF	34	G	5	FALSE	TRUE	sfoDF	d_line	G	G
 2014-05-17_vanNH-at-sfoDF	5	30	sfoDF	134	1	10	vanNH	vanNH	5	TA	10	TRUE	FALSE	NA	o_line	TA	off -
 2014-05-17_vanNH-at-sfoDF	5	30	sfoDF	135	2	14	sfoDF	vanNH	72	D	4	FALSE	FALSE	NA	d_line	D	def +
 2014-05-17_vanNH-at-sfoDF	5	30	sfoDF	136	3	22	vanNH	vanNH	21	VST	8	FALSE	FALSE	NA	o_line	VST	off -

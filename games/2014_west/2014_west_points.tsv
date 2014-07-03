@@ -212,7 +212,7 @@ game	period	point	pull_team	poss_abs	n_poss	n_events	poss_team	pl_team	pl_pnum	p
 2014-05-17_vanNH-at-sfoDF	4	26	vanNH	116	17	73	sfoDF	sfoDF	18	G	TRUE	TRUE	sfoDF	o_line	G	G
 2014-05-17_vanNH-at-sfoDF	4	27	sfoDF	120	4	16	sfoDF	sfoDF	18	G	FALSE	TRUE	sfoDF	d_line	G	G
 2014-05-17_vanNH-at-sfoDF	4	28	sfoDF	125	5	13	vanNH	sfoDF	34	eop	FALSE	FALSE	NA	o_line	eop	eop
-2014-05-17_vanNH-at-sfoDF	5	29	sfoDF	133	8	26	sfoDF	sfoDF	34	G	FALSE	TRUE	sfoDF	d_line	G	G
+2014-05-17_vanNH-at-sfoDF	5	29	sfoDF	133	8	27	sfoDF	sfoDF	34	G	FALSE	TRUE	sfoDF	d_line	G	G
 2014-05-17_vanNH-at-sfoDF	5	30	sfoDF	138	5	41	vanNH	vanNH	21	eop	FALSE	FALSE	NA	o_line	eop	eop
 2014-05-24_pdxST-at-vanNH	1	1	vanNH	1	1	10	pdxST	pdxST	6	LG	TRUE	TRUE	pdxST	o_line	G	G
 2014-05-24_pdxST-at-vanNH	1	2	pdxST	4	3	15	vanNH	vanNH	98	LG	TRUE	TRUE	vanNH	o_line	G	G

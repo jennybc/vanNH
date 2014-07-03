@@ -16,6 +16,7 @@ Offense	Defense
 21	
 10	
 	5d
+	5
 	18td
 5pu	
 	12pu

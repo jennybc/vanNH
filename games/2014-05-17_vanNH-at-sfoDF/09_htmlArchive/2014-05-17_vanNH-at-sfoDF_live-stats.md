@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Wed Jul  2 22:21:22 2014
+#### last update Wed Jul  2 22:37:42 2014
 # vanNH 12
 # sfoDF 13
 ## game is complete
@@ -209,8 +209,8 @@ stats are cumulative for this game
 |    29|      5|sfoDF     |     5|sfoDF   |85      |D       |vanNH     |Brydon        |sfoDF-85-Brydon        |    13|    12|
 |    29|      5|sfoDF     |     7|vanNH   |21      |D       |sfoDF     |loach         |vanNH-21-loach         |    13|    12|
 |    29|      5|sfoDF     |    13|sfoDF   |5       |D       |vanNH     |Cascino       |sfoDF-5-Cascino        |    13|    12|
-|    29|      5|sfoDF     |    25|sfoDF   |6       |A       |sfoDF     |Kim           |sfoDF-6-Kim            |    13|    12|
-|    29|      5|sfoDF     |    26|sfoDF   |34      |G       |sfoDF     |Boucher       |sfoDF-34-Boucher       |    13|    12|
+|    29|      5|sfoDF     |    26|sfoDF   |6       |A       |sfoDF     |Kim           |sfoDF-6-Kim            |    13|    12|
+|    29|      5|sfoDF     |    27|sfoDF   |34      |G       |sfoDF     |Boucher       |sfoDF-34-Boucher       |    13|    12|
 |    30|      5|sfoDF     |    14|vanNH   |72      |D       |sfoDF     |leduc         |vanNH-72-leduc         |    13|    12|
 
 ## Full raw data<a id="rawData"></a>:
@@ -732,19 +732,20 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      5|    29|    11|vanNH   |21      |        |vanNH     |
 |      5|    29|    12|vanNH   |10      |        |vanNH     |
 |      5|    29|    13|sfoDF   |5       |D       |vanNH     |
-|      5|    29|    14|sfoDF   |18      |TD      |sfoDF     |
-|      5|    29|    15|vanNH   |5       |PU      |vanNH     |
-|      5|    29|    16|sfoDF   |12      |PU      |sfoDF     |
-|      5|    29|    17|sfoDF   |5       |        |sfoDF     |
-|      5|    29|    18|sfoDF   |12      |        |sfoDF     |
-|      5|    29|    19|sfoDF   |18      |        |sfoDF     |
-|      5|    29|    20|sfoDF   |1       |        |sfoDF     |
-|      5|    29|    21|vanNH   |        |        |vanNH     |
-|      5|    29|    22|sfoDF   |34      |PU      |sfoDF     |
-|      5|    29|    23|sfoDF   |40      |        |sfoDF     |
-|      5|    29|    24|sfoDF   |34      |        |sfoDF     |
-|      5|    29|    25|sfoDF   |6       |A       |sfoDF     |
-|      5|    29|    26|sfoDF   |34      |G       |sfoDF     |
+|      5|    29|    14|sfoDF   |5       |        |sfoDF     |
+|      5|    29|    15|sfoDF   |18      |TD      |sfoDF     |
+|      5|    29|    16|vanNH   |5       |PU      |vanNH     |
+|      5|    29|    17|sfoDF   |12      |PU      |sfoDF     |
+|      5|    29|    18|sfoDF   |5       |        |sfoDF     |
+|      5|    29|    19|sfoDF   |12      |        |sfoDF     |
+|      5|    29|    20|sfoDF   |18      |        |sfoDF     |
+|      5|    29|    21|sfoDF   |1       |        |sfoDF     |
+|      5|    29|    22|vanNH   |        |        |vanNH     |
+|      5|    29|    23|sfoDF   |34      |PU      |sfoDF     |
+|      5|    29|    24|sfoDF   |40      |        |sfoDF     |
+|      5|    29|    25|sfoDF   |34      |        |sfoDF     |
+|      5|    29|    26|sfoDF   |6       |A       |sfoDF     |
+|      5|    29|    27|sfoDF   |34      |G       |sfoDF     |
 |      5|    30|     1|sfoDF   |34      |P       |vanNH     |
 |      5|    30|     2|vanNH   |89      |PU      |vanNH     |
 |      5|    30|     3|vanNH   |5       |        |vanNH     |
