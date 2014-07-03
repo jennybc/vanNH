@@ -22,7 +22,7 @@ Offense	Defense
 17	
 15TD	
 	17pu
-20	
+20PU	
 51TD	
 	12pu
 	37

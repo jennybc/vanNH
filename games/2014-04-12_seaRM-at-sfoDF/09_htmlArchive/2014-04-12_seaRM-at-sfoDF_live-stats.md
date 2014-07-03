@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Mon Jun 23 14:07:18 2014
+#### last update Thu Jul  3 15:54:59 2014
 # seaRM 16
 # sfoDF 18
 ## game is complete
@@ -603,7 +603,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      3|    29|    17|seaRM   |17      |        |seaRM     |
 |      3|    29|    18|seaRM   |15      |TD      |seaRM     |
 |      3|    29|    19|sfoDF   |17      |PU      |sfoDF     |
-|      3|    29|    20|seaRM   |20      |        |seaRM     |
+|      3|    29|    20|seaRM   |20      |PU      |seaRM     |
 |      3|    29|    21|seaRM   |51      |TD      |seaRM     |
 |      3|    29|    22|sfoDF   |12      |PU      |sfoDF     |
 |      3|    29|    23|sfoDF   |37      |        |sfoDF     |
