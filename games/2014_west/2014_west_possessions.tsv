@@ -975,10 +975,10 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-06-28_vanNH-at-pdxST	1	4	vanNH	24	8	25	vanNH	vanNH	24	eop	1	FALSE	FALSE	NA	d_line	eop	eop
 2014-06-28_vanNH-at-pdxST	2	5	pdxST	25	1	8	vanNH	vanNH	10	G	8	FALSE	TRUE	vanNH	o_line	G	G
 2014-06-28_vanNH-at-pdxST	2	6	vanNH	26	1	22	pdxST	pdxST	2	LG	22	TRUE	TRUE	pdxST	o_line	G	G
-2014-06-28_vanNH-at-pdxST	2	7	pdxST	27	1	5	vanNH	vanNH	10	TA	5	FALSE	FALSE	NA	o_line	TA	off -
-2014-06-28_vanNH-at-pdxST	2	7	pdxST	28	2	9	pdxST	pdxST	8	LG	4	TRUE	TRUE	pdxST	d_line	G	G
-2014-06-28_vanNH-at-pdxST	2	8	pdxST	29	1	8	vanNH	vanNH	89	TA	8	FALSE	FALSE	NA	o_line	TA	off -
-2014-06-28_vanNH-at-pdxST	2	8	pdxST	30	2	13	pdxST	pdxST	4	G	5	TRUE	TRUE	pdxST	d_line	G	G
+2014-06-28_vanNH-at-pdxST	2	7	pdxST	27	1	6	vanNH	pdxST	88	D	6	FALSE	FALSE	NA	o_line	D	def +
+2014-06-28_vanNH-at-pdxST	2	7	pdxST	28	2	10	pdxST	pdxST	8	LG	4	TRUE	TRUE	pdxST	d_line	G	G
+2014-06-28_vanNH-at-pdxST	2	8	pdxST	29	1	9	vanNH	pdxST	8	D	9	FALSE	FALSE	NA	o_line	D	def +
+2014-06-28_vanNH-at-pdxST	2	8	pdxST	30	2	14	pdxST	pdxST	4	G	5	TRUE	TRUE	pdxST	d_line	G	G
 2014-06-28_vanNH-at-pdxST	2	9	pdxST	31	1	4	vanNH	vanNH	8	TA	4	FALSE	FALSE	NA	o_line	TA	off -
 2014-06-28_vanNH-at-pdxST	2	9	pdxST	32	2	6	pdxST	pdxST	5	G	2	FALSE	TRUE	pdxST	d_line	G	G
 2014-06-28_vanNH-at-pdxST	2	10	pdxST	33	1	6	vanNH	vanNH	21	TA	6	FALSE	FALSE	NA	o_line	TA	off -
@@ -987,7 +987,7 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-06-28_vanNH-at-pdxST	2	11	vanNH	36	1	10	pdxST	pdxST	7	TA	10	FALSE	FALSE	NA	o_line	TA	off -
 2014-06-28_vanNH-at-pdxST	2	11	vanNH	37	2	12	vanNH	vanNH	8	G	2	FALSE	TRUE	vanNH	d_line	G	G
 2014-06-28_vanNH-at-pdxST	2	12	vanNH	38	1	14	pdxST	pdxST	73	TA	14	FALSE	FALSE	NA	o_line	TA	off -
-2014-06-28_vanNH-at-pdxST	2	12	vanNH	39	2	28	vanNH	vanNH	13	TA	14	FALSE	FALSE	NA	d_line	TA	off -
+2014-06-28_vanNH-at-pdxST	2	12	vanNH	39	2	28	vanNH	pdxST	8	D	14	FALSE	FALSE	NA	d_line	D	def +
 2014-06-28_vanNH-at-pdxST	2	12	vanNH	40	3	36	pdxST	pdxST	6	G	8	FALSE	TRUE	pdxST	o_line	G	G
 2014-06-28_vanNH-at-pdxST	2	13	pdxST	41	1	11	vanNH	vanNH	98	G	11	TRUE	TRUE	vanNH	o_line	G	G
 2014-06-28_vanNH-at-pdxST	2	14	vanNH	42	1	31	pdxST	pdxST	10	G	31	FALSE	TRUE	pdxST	o_line	G	G
@@ -1022,17 +1022,15 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-06-28_vanNH-at-pdxST	4	26	pdxST	71	2	9	pdxST	pdxST	16	TA	3	FALSE	FALSE	NA	d_line	TA	off -
 2014-06-28_vanNH-at-pdxST	4	26	pdxST	72	3	15	vanNH	vanNH	11	G	6	FALSE	TRUE	vanNH	o_line	G	G
 2014-06-28_vanNH-at-pdxST	4	27	vanNH	73	1	6	pdxST	pdxST	7	TD	6	FALSE	FALSE	NA	o_line	TD	off -
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	74	2	15	vanNH	vanNH	81	TA	9	FALSE	FALSE	NA	d_line	TA	off -
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	75	3	16	pdxST	pdxST		TA	1	FALSE	FALSE	NA	o_line	TA	off -
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	76	4	23	vanNH	vanNH	89	VTT	7	FALSE	FALSE	NA	d_line	VTT	off -
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	77	5	30	pdxST	pdxST	21	G	7	TRUE	TRUE	pdxST	o_line	G	G
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	78	1	11	vanNH	vanNH	19	TA	11	FALSE	FALSE	NA	o_line	TA	off -
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	35	pdxST	pdxST	13	G	24	FALSE	TRUE	pdxST	d_line	G	G
-2014-06-28_vanNH-at-pdxST	4	29	pdxST	80	1	7	vanNH	vanNH	22	LG	7	TRUE	TRUE	vanNH	o_line	G	G
-2014-06-28_vanNH-at-pdxST	4	30	vanNH	81	1	14	pdxST	vanNH	11	D	14	FALSE	FALSE	NA	o_line	D	def +
-2014-06-28_vanNH-at-pdxST	4	30	vanNH	82	2	16	vanNH	vanNH	89	G	2	FALSE	TRUE	vanNH	d_line	G	G
-2014-06-28_vanNH-at-pdxST	4	31	vanNH	83	1	9	pdxST	pdxST	10	TA	9	FALSE	FALSE	NA	o_line	TA	off -
-2014-06-28_vanNH-at-pdxST	4	31	vanNH	84	2	13	vanNH	vanNH	24	eop	4	FALSE	FALSE	NA	d_line	eop	eop
+2014-06-28_vanNH-at-pdxST	4	27	vanNH	74	2	23	vanNH	vanNH	89	VTT	17	FALSE	FALSE	NA	d_line	VTT	off -
+2014-06-28_vanNH-at-pdxST	4	27	vanNH	75	3	30	pdxST	pdxST	21	G	7	TRUE	TRUE	pdxST	o_line	G	G
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	76	1	11	vanNH	vanNH	19	TA	11	FALSE	FALSE	NA	o_line	TA	off -
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	35	pdxST	pdxST	13	G	24	FALSE	TRUE	pdxST	d_line	G	G
+2014-06-28_vanNH-at-pdxST	4	29	pdxST	78	1	7	vanNH	vanNH	22	LG	7	TRUE	TRUE	vanNH	o_line	G	G
+2014-06-28_vanNH-at-pdxST	4	30	vanNH	79	1	14	pdxST	vanNH	11	D	14	FALSE	FALSE	NA	o_line	D	def +
+2014-06-28_vanNH-at-pdxST	4	30	vanNH	80	2	16	vanNH	vanNH	89	G	2	FALSE	TRUE	vanNH	d_line	G	G
+2014-06-28_vanNH-at-pdxST	4	31	vanNH	81	1	9	pdxST	pdxST	10	TA	9	FALSE	FALSE	NA	o_line	TA	off -
+2014-06-28_vanNH-at-pdxST	4	31	vanNH	82	2	13	vanNH	vanNH	24	eop	4	FALSE	FALSE	NA	d_line	eop	eop
 2014-04-12_seaRM-at-sfoDF	1	1	sfoDF	1	1	5	seaRM	seaRM	48	LG	5	TRUE	TRUE	seaRM	o_line	G	G
 2014-04-12_seaRM-at-sfoDF	1	2	seaRM	2	1	7	sfoDF	sfoDF	11	TA	7	FALSE	FALSE	NA	o_line	TA	off -
 2014-04-12_seaRM-at-sfoDF	1	2	seaRM	3	2	9	seaRM	seaRM	9	G	2	FALSE	TRUE	seaRM	d_line	G	G

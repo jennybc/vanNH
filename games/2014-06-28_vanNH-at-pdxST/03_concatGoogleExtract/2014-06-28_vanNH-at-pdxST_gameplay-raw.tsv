@@ -175,6 +175,7 @@ point	Offense	Defense
 7	5	
 7	89	
 7	10	
+7		88d
 7		88
 7		16
 7		21
@@ -187,6 +188,7 @@ point	Offense	Defense
 8	89	
 8	98	
 8	89	
+8		8d
 8		8
 8		4
 8		88
@@ -257,7 +259,7 @@ point	Offense	Defense
 12		81
 12		27
 12		8
-12		13
+12	8d	
 12	8	
 12	6	
 12	88	
@@ -514,7 +516,7 @@ point	Offense	Defense
 27		18
 27		8
 27		81
-27		TO
+27		?TO
 27		89PU
 27		98
 27		19

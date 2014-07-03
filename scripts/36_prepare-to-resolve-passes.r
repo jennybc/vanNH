@@ -451,6 +451,7 @@ a_ply(cth_rows, 1, function(i) {
 # 2014-06-28_vanNH-at-pdxST point 8 event 9 ... missing PU? or did 8 intercept?
 # 2014-06-28_vanNH-at-pdxST point 12 event 29 ... missing PU? or did 8 intercept?
 # 2014-06-28_vanNH-at-pdxST point 27 event 16 ... weird pdxST possession
+
 # 2014-04-12_seaRM-at-sfoDF point 29 event 20 ... missing PU? or did 20 intercept?
 # 2014-04-19_sfoDF-at-seaRM point 7 event 4 ... missing PU?
 # 2014-04-19_sfoDF-at-seaRM point 38 events 9,10 ... weird sfoDF possession

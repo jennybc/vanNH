@@ -6365,10 +6365,11 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-06-28_vanNH-at-pdxST	2	7	pdxST	27	1	3	vanNH	vanNH	5	
 2014-06-28_vanNH-at-pdxST	2	7	pdxST	27	1	4	vanNH	vanNH	89	
 2014-06-28_vanNH-at-pdxST	2	7	pdxST	27	1	5	vanNH	vanNH	10	
-2014-06-28_vanNH-at-pdxST	2	7	pdxST	28	2	6	pdxST	pdxST	88	
-2014-06-28_vanNH-at-pdxST	2	7	pdxST	28	2	7	pdxST	pdxST	16	
-2014-06-28_vanNH-at-pdxST	2	7	pdxST	28	2	8	pdxST	pdxST	21	A
-2014-06-28_vanNH-at-pdxST	2	7	pdxST	28	2	9	pdxST	pdxST	8	LG
+2014-06-28_vanNH-at-pdxST	2	7	pdxST	27	1	6	vanNH	pdxST	88	D
+2014-06-28_vanNH-at-pdxST	2	7	pdxST	28	2	7	pdxST	pdxST	88	
+2014-06-28_vanNH-at-pdxST	2	7	pdxST	28	2	8	pdxST	pdxST	16	
+2014-06-28_vanNH-at-pdxST	2	7	pdxST	28	2	9	pdxST	pdxST	21	A
+2014-06-28_vanNH-at-pdxST	2	7	pdxST	28	2	10	pdxST	pdxST	8	LG
 2014-06-28_vanNH-at-pdxST	2	8	pdxST	29	1	1	vanNH	pdxST	88	P
 2014-06-28_vanNH-at-pdxST	2	8	pdxST	29	1	2	vanNH	vanNH	19	PU
 2014-06-28_vanNH-at-pdxST	2	8	pdxST	29	1	3	vanNH	vanNH	89	
@@ -6377,11 +6378,12 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-06-28_vanNH-at-pdxST	2	8	pdxST	29	1	6	vanNH	vanNH	89	
 2014-06-28_vanNH-at-pdxST	2	8	pdxST	29	1	7	vanNH	vanNH	98	
 2014-06-28_vanNH-at-pdxST	2	8	pdxST	29	1	8	vanNH	vanNH	89	
-2014-06-28_vanNH-at-pdxST	2	8	pdxST	30	2	9	pdxST	pdxST	8	
-2014-06-28_vanNH-at-pdxST	2	8	pdxST	30	2	10	pdxST	pdxST	4	
-2014-06-28_vanNH-at-pdxST	2	8	pdxST	30	2	11	pdxST	pdxST	88	
-2014-06-28_vanNH-at-pdxST	2	8	pdxST	30	2	12	pdxST	pdxST	25	LA
-2014-06-28_vanNH-at-pdxST	2	8	pdxST	30	2	13	pdxST	pdxST	4	G
+2014-06-28_vanNH-at-pdxST	2	8	pdxST	29	1	9	vanNH	pdxST	8	D
+2014-06-28_vanNH-at-pdxST	2	8	pdxST	30	2	10	pdxST	pdxST	8	
+2014-06-28_vanNH-at-pdxST	2	8	pdxST	30	2	11	pdxST	pdxST	4	
+2014-06-28_vanNH-at-pdxST	2	8	pdxST	30	2	12	pdxST	pdxST	88	
+2014-06-28_vanNH-at-pdxST	2	8	pdxST	30	2	13	pdxST	pdxST	25	LA
+2014-06-28_vanNH-at-pdxST	2	8	pdxST	30	2	14	pdxST	pdxST	4	G
 2014-06-28_vanNH-at-pdxST	2	9	pdxST	31	1	1	vanNH	pdxST	88	P
 2014-06-28_vanNH-at-pdxST	2	9	pdxST	31	1	2	vanNH	vanNH	19	PU
 2014-06-28_vanNH-at-pdxST	2	9	pdxST	31	1	3	vanNH	vanNH	5	
@@ -6449,7 +6451,7 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-06-28_vanNH-at-pdxST	2	12	vanNH	39	2	25	vanNH	vanNH	81	
 2014-06-28_vanNH-at-pdxST	2	12	vanNH	39	2	26	vanNH	vanNH	27	
 2014-06-28_vanNH-at-pdxST	2	12	vanNH	39	2	27	vanNH	vanNH	8	
-2014-06-28_vanNH-at-pdxST	2	12	vanNH	39	2	28	vanNH	vanNH	13	
+2014-06-28_vanNH-at-pdxST	2	12	vanNH	39	2	28	vanNH	pdxST	8	D
 2014-06-28_vanNH-at-pdxST	2	12	vanNH	40	3	29	pdxST	pdxST	8	
 2014-06-28_vanNH-at-pdxST	2	12	vanNH	40	3	30	pdxST	pdxST	6	
 2014-06-28_vanNH-at-pdxST	2	12	vanNH	40	3	31	pdxST	pdxST	88	
@@ -6711,92 +6713,92 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-06-28_vanNH-at-pdxST	4	27	vanNH	74	2	13	vanNH	vanNH	18	
 2014-06-28_vanNH-at-pdxST	4	27	vanNH	74	2	14	vanNH	vanNH	8	
 2014-06-28_vanNH-at-pdxST	4	27	vanNH	74	2	15	vanNH	vanNH	81	
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	75	3	16	pdxST	pdxST		
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	76	4	17	vanNH	vanNH	89	PU
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	76	4	18	vanNH	vanNH	98	
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	76	4	19	vanNH	vanNH	19	
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	76	4	20	vanNH	vanNH	89	
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	76	4	21	vanNH	vanNH	10	
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	76	4	22	vanNH	vanNH	19	
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	76	4	23	vanNH	vanNH	89	VTT
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	77	5	24	pdxST	pdxST	8	PU
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	77	5	25	pdxST	pdxST	88	
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	77	5	26	pdxST	pdxST	5	L
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	77	5	27	pdxST	pdxST	6	
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	77	5	28	pdxST	pdxST	22	
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	77	5	29	pdxST	pdxST	8	A
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	77	5	30	pdxST	pdxST	21	G
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	78	1	1	vanNH	pdxST	8	P
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	78	1	2	vanNH	vanNH	19	PU
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	78	1	3	vanNH	vanNH	89	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	78	1	4	vanNH	vanNH	10	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	78	1	5	vanNH	vanNH	89	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	78	1	6	vanNH	vanNH	8	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	78	1	7	vanNH	vanNH	19	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	78	1	8	vanNH	vanNH	10	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	78	1	9	vanNH	vanNH	19	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	78	1	10	vanNH	vanNH	89	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	78	1	11	vanNH	vanNH	19	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	12	pdxST	pdxST	7	PU
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	13	pdxST	pdxST	10	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	14	pdxST	pdxST	7	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	15	pdxST	pdxST	8	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	16	pdxST	pdxST	21	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	17	pdxST	pdxST	13	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	18	pdxST	pdxST	21	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	19	pdxST	pdxST	8	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	20	pdxST	pdxST	16	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	21	pdxST	pdxST	7	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	22	pdxST	pdxST	10	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	23	pdxST	vanNH	19	F
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	24	pdxST	pdxST	7	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	25	pdxST	pdxST	10	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	26	pdxST	vanNH	19	F
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	27	pdxST	pdxST	7	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	28	pdxST	pdxST	21	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	29	pdxST	pdxST	7	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	30	pdxST	pdxST	10	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	31	pdxST	pdxST	8	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	32	pdxST	pdxST	22	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	33	pdxST	pdxST	10	
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	34	pdxST	pdxST	8	A
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	35	pdxST	pdxST	13	G
-2014-06-28_vanNH-at-pdxST	4	29	pdxST	80	1	1	vanNH	pdxST	88	P
-2014-06-28_vanNH-at-pdxST	4	29	pdxST	80	1	2	vanNH	vanNH	19	PU
-2014-06-28_vanNH-at-pdxST	4	29	pdxST	80	1	3	vanNH	vanNH	5	
-2014-06-28_vanNH-at-pdxST	4	29	pdxST	80	1	4	vanNH	vanNH	98	
-2014-06-28_vanNH-at-pdxST	4	29	pdxST	80	1	5	vanNH	vanNH	6	
-2014-06-28_vanNH-at-pdxST	4	29	pdxST	80	1	6	vanNH	vanNH	5	A
-2014-06-28_vanNH-at-pdxST	4	29	pdxST	80	1	7	vanNH	vanNH	22	LG
-2014-06-28_vanNH-at-pdxST	4	30	vanNH	81	1	1	pdxST	vanNH	8	P
-2014-06-28_vanNH-at-pdxST	4	30	vanNH	81	1	2	pdxST	pdxST	24	PU
-2014-06-28_vanNH-at-pdxST	4	30	vanNH	81	1	3	pdxST	pdxST	10	
-2014-06-28_vanNH-at-pdxST	4	30	vanNH	81	1	4	pdxST	pdxST	11	
-2014-06-28_vanNH-at-pdxST	4	30	vanNH	81	1	5	pdxST	pdxST	7	
-2014-06-28_vanNH-at-pdxST	4	30	vanNH	81	1	6	pdxST	pdxST	6	
-2014-06-28_vanNH-at-pdxST	4	30	vanNH	81	1	7	pdxST	pdxST	7	
-2014-06-28_vanNH-at-pdxST	4	30	vanNH	81	1	8	pdxST	pdxST	6	
-2014-06-28_vanNH-at-pdxST	4	30	vanNH	81	1	9	pdxST	pdxST	2	
-2014-06-28_vanNH-at-pdxST	4	30	vanNH	81	1	10	pdxST	pdxST	7	
-2014-06-28_vanNH-at-pdxST	4	30	vanNH	81	1	11	pdxST	pdxST	11	
-2014-06-28_vanNH-at-pdxST	4	30	vanNH	81	1	12	pdxST	pdxST	24	
-2014-06-28_vanNH-at-pdxST	4	30	vanNH	81	1	13	pdxST	pdxST	11	
-2014-06-28_vanNH-at-pdxST	4	30	vanNH	81	1	14	pdxST	vanNH	11	D
-2014-06-28_vanNH-at-pdxST	4	30	vanNH	82	2	15	vanNH	vanNH	5	PUA
-2014-06-28_vanNH-at-pdxST	4	30	vanNH	82	2	16	vanNH	vanNH	89	G
-2014-06-28_vanNH-at-pdxST	4	31	vanNH	83	1	1	pdxST	vanNH	8	P
-2014-06-28_vanNH-at-pdxST	4	31	vanNH	83	1	2	pdxST	pdxST	24	PU
-2014-06-28_vanNH-at-pdxST	4	31	vanNH	83	1	3	pdxST	pdxST	10	
-2014-06-28_vanNH-at-pdxST	4	31	vanNH	83	1	4	pdxST	pdxST	11	
-2014-06-28_vanNH-at-pdxST	4	31	vanNH	83	1	5	pdxST	pdxST	10	
-2014-06-28_vanNH-at-pdxST	4	31	vanNH	83	1	6	pdxST	pdxST	24	
-2014-06-28_vanNH-at-pdxST	4	31	vanNH	83	1	7	pdxST	pdxST	10	
-2014-06-28_vanNH-at-pdxST	4	31	vanNH	83	1	8	pdxST	pdxST	6	
-2014-06-28_vanNH-at-pdxST	4	31	vanNH	83	1	9	pdxST	pdxST	10	
-2014-06-28_vanNH-at-pdxST	4	31	vanNH	84	2	10	vanNH	vanNH	81	PU
-2014-06-28_vanNH-at-pdxST	4	31	vanNH	84	2	11	vanNH	vanNH	24	
-2014-06-28_vanNH-at-pdxST	4	31	vanNH	84	2	12	vanNH	vanNH	11	
-2014-06-28_vanNH-at-pdxST	4	31	vanNH	84	2	13	vanNH	vanNH	24	
+2014-06-28_vanNH-at-pdxST	4	27	vanNH	74	2	16	vanNH	vanNH	?	TO
+2014-06-28_vanNH-at-pdxST	4	27	vanNH	74	2	17	vanNH	vanNH	89	PU
+2014-06-28_vanNH-at-pdxST	4	27	vanNH	74	2	18	vanNH	vanNH	98	
+2014-06-28_vanNH-at-pdxST	4	27	vanNH	74	2	19	vanNH	vanNH	19	
+2014-06-28_vanNH-at-pdxST	4	27	vanNH	74	2	20	vanNH	vanNH	89	
+2014-06-28_vanNH-at-pdxST	4	27	vanNH	74	2	21	vanNH	vanNH	10	
+2014-06-28_vanNH-at-pdxST	4	27	vanNH	74	2	22	vanNH	vanNH	19	
+2014-06-28_vanNH-at-pdxST	4	27	vanNH	74	2	23	vanNH	vanNH	89	VTT
+2014-06-28_vanNH-at-pdxST	4	27	vanNH	75	3	24	pdxST	pdxST	8	PU
+2014-06-28_vanNH-at-pdxST	4	27	vanNH	75	3	25	pdxST	pdxST	88	
+2014-06-28_vanNH-at-pdxST	4	27	vanNH	75	3	26	pdxST	pdxST	5	L
+2014-06-28_vanNH-at-pdxST	4	27	vanNH	75	3	27	pdxST	pdxST	6	
+2014-06-28_vanNH-at-pdxST	4	27	vanNH	75	3	28	pdxST	pdxST	22	
+2014-06-28_vanNH-at-pdxST	4	27	vanNH	75	3	29	pdxST	pdxST	8	A
+2014-06-28_vanNH-at-pdxST	4	27	vanNH	75	3	30	pdxST	pdxST	21	G
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	76	1	1	vanNH	pdxST	8	P
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	76	1	2	vanNH	vanNH	19	PU
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	76	1	3	vanNH	vanNH	89	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	76	1	4	vanNH	vanNH	10	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	76	1	5	vanNH	vanNH	89	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	76	1	6	vanNH	vanNH	8	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	76	1	7	vanNH	vanNH	19	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	76	1	8	vanNH	vanNH	10	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	76	1	9	vanNH	vanNH	19	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	76	1	10	vanNH	vanNH	89	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	76	1	11	vanNH	vanNH	19	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	12	pdxST	pdxST	7	PU
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	13	pdxST	pdxST	10	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	14	pdxST	pdxST	7	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	15	pdxST	pdxST	8	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	16	pdxST	pdxST	21	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	17	pdxST	pdxST	13	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	18	pdxST	pdxST	21	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	19	pdxST	pdxST	8	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	20	pdxST	pdxST	16	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	21	pdxST	pdxST	7	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	22	pdxST	pdxST	10	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	23	pdxST	vanNH	19	F
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	24	pdxST	pdxST	7	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	25	pdxST	pdxST	10	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	26	pdxST	vanNH	19	F
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	27	pdxST	pdxST	7	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	28	pdxST	pdxST	21	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	29	pdxST	pdxST	7	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	30	pdxST	pdxST	10	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	31	pdxST	pdxST	8	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	32	pdxST	pdxST	22	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	33	pdxST	pdxST	10	
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	34	pdxST	pdxST	8	A
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	35	pdxST	pdxST	13	G
+2014-06-28_vanNH-at-pdxST	4	29	pdxST	78	1	1	vanNH	pdxST	88	P
+2014-06-28_vanNH-at-pdxST	4	29	pdxST	78	1	2	vanNH	vanNH	19	PU
+2014-06-28_vanNH-at-pdxST	4	29	pdxST	78	1	3	vanNH	vanNH	5	
+2014-06-28_vanNH-at-pdxST	4	29	pdxST	78	1	4	vanNH	vanNH	98	
+2014-06-28_vanNH-at-pdxST	4	29	pdxST	78	1	5	vanNH	vanNH	6	
+2014-06-28_vanNH-at-pdxST	4	29	pdxST	78	1	6	vanNH	vanNH	5	A
+2014-06-28_vanNH-at-pdxST	4	29	pdxST	78	1	7	vanNH	vanNH	22	LG
+2014-06-28_vanNH-at-pdxST	4	30	vanNH	79	1	1	pdxST	vanNH	8	P
+2014-06-28_vanNH-at-pdxST	4	30	vanNH	79	1	2	pdxST	pdxST	24	PU
+2014-06-28_vanNH-at-pdxST	4	30	vanNH	79	1	3	pdxST	pdxST	10	
+2014-06-28_vanNH-at-pdxST	4	30	vanNH	79	1	4	pdxST	pdxST	11	
+2014-06-28_vanNH-at-pdxST	4	30	vanNH	79	1	5	pdxST	pdxST	7	
+2014-06-28_vanNH-at-pdxST	4	30	vanNH	79	1	6	pdxST	pdxST	6	
+2014-06-28_vanNH-at-pdxST	4	30	vanNH	79	1	7	pdxST	pdxST	7	
+2014-06-28_vanNH-at-pdxST	4	30	vanNH	79	1	8	pdxST	pdxST	6	
+2014-06-28_vanNH-at-pdxST	4	30	vanNH	79	1	9	pdxST	pdxST	2	
+2014-06-28_vanNH-at-pdxST	4	30	vanNH	79	1	10	pdxST	pdxST	7	
+2014-06-28_vanNH-at-pdxST	4	30	vanNH	79	1	11	pdxST	pdxST	11	
+2014-06-28_vanNH-at-pdxST	4	30	vanNH	79	1	12	pdxST	pdxST	24	
+2014-06-28_vanNH-at-pdxST	4	30	vanNH	79	1	13	pdxST	pdxST	11	
+2014-06-28_vanNH-at-pdxST	4	30	vanNH	79	1	14	pdxST	vanNH	11	D
+2014-06-28_vanNH-at-pdxST	4	30	vanNH	80	2	15	vanNH	vanNH	5	PUA
+2014-06-28_vanNH-at-pdxST	4	30	vanNH	80	2	16	vanNH	vanNH	89	G
+2014-06-28_vanNH-at-pdxST	4	31	vanNH	81	1	1	pdxST	vanNH	8	P
+2014-06-28_vanNH-at-pdxST	4	31	vanNH	81	1	2	pdxST	pdxST	24	PU
+2014-06-28_vanNH-at-pdxST	4	31	vanNH	81	1	3	pdxST	pdxST	10	
+2014-06-28_vanNH-at-pdxST	4	31	vanNH	81	1	4	pdxST	pdxST	11	
+2014-06-28_vanNH-at-pdxST	4	31	vanNH	81	1	5	pdxST	pdxST	10	
+2014-06-28_vanNH-at-pdxST	4	31	vanNH	81	1	6	pdxST	pdxST	24	
+2014-06-28_vanNH-at-pdxST	4	31	vanNH	81	1	7	pdxST	pdxST	10	
+2014-06-28_vanNH-at-pdxST	4	31	vanNH	81	1	8	pdxST	pdxST	6	
+2014-06-28_vanNH-at-pdxST	4	31	vanNH	81	1	9	pdxST	pdxST	10	
+2014-06-28_vanNH-at-pdxST	4	31	vanNH	82	2	10	vanNH	vanNH	81	PU
+2014-06-28_vanNH-at-pdxST	4	31	vanNH	82	2	11	vanNH	vanNH	24	
+2014-06-28_vanNH-at-pdxST	4	31	vanNH	82	2	12	vanNH	vanNH	11	
+2014-06-28_vanNH-at-pdxST	4	31	vanNH	82	2	13	vanNH	vanNH	24	
 2014-04-12_seaRM-at-sfoDF	1	1	sfoDF	1	1	1	seaRM	sfoDF	16	OBP
 2014-04-12_seaRM-at-sfoDF	1	1	sfoDF	1	1	2	seaRM	seaRM	20	PU
 2014-04-12_seaRM-at-sfoDF	1	1	sfoDF	1	1	3	seaRM	seaRM	9	

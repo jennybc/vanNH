@@ -24,7 +24,7 @@ str(game_play)
 ```
 
 ```
-## 'data.frame':	9249 obs. of  8 variables:
+## 'data.frame':	9251 obs. of  8 variables:
 ##  $ game     : Factor w/ 15 levels "2014-04-12_vanNH-at-pdxST",..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ period   : int  1 1 1 1 1 1 1 1 1 1 ...
 ##  $ point    : int  1 1 1 1 1 1 1 1 1 1 ...
@@ -53,7 +53,7 @@ str(game_play)
 ```
 
 ```
-## 'data.frame':	9249 obs. of  10 variables:
+## 'data.frame':	9251 obs. of  10 variables:
 ##  $ game     : Factor w/ 15 levels "2014-04-12_vanNH-at-pdxST",..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ period   : int  1 1 1 1 1 1 1 1 1 1 ...
 ##  $ point    : int  1 1 1 1 1 1 1 1 1 1 ...
@@ -78,7 +78,7 @@ str(game_play)
 ```
 
 ```
-## 'data.frame':	9249 obs. of  11 variables:
+## 'data.frame':	9251 obs. of  11 variables:
 ##  $ game     : Factor w/ 15 levels "2014-04-12_vanNH-at-pdxST",..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ period   : int  1 1 1 1 1 1 1 1 1 1 ...
 ##  $ point    : int  1 1 1 1 1 1 1 1 1 1 ...
@@ -106,7 +106,7 @@ str(game_play)
 ```
 
 ```
-## 'data.frame':	9249 obs. of  11 variables:
+## 'data.frame':	9251 obs. of  11 variables:
 ##  $ game     : Factor w/ 15 levels "2014-04-12_vanNH-at-pdxST",..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ period   : int  1 1 1 1 1 1 1 1 1 1 ...
 ##  $ point    : int  1 1 1 1 1 1 1 1 1 1 ...
@@ -205,7 +205,7 @@ str(poss_dat)
 ```
 
 ```
-## 'data.frame':	1437 obs. of  16 variables:
+## 'data.frame':	1435 obs. of  16 variables:
 ##  $ game     : Factor w/ 15 levels "2014-04-12_vanNH-at-pdxST",..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ period   : int  1 1 1 1 1 1 1 1 1 1 ...
 ##  $ point    : int  1 1 2 3 4 4 5 6 6 7 ...
@@ -268,9 +268,9 @@ addmargins(with(poss_dat, table(who, score)))
 ```
 ##         score
 ## who      FALSE TRUE  Sum
-##   o_line   559  354  913
-##   d_line   314  210  524
-##   Sum      873  564 1437
+##   o_line   558  354  912
+##   d_line   313  210  523
+##   Sum      871  564 1435
 ```
 
 Harmonize factor levels for `scor_team` with those of other team factor
@@ -283,7 +283,7 @@ str(poss_dat)
 ```
 
 ```
-## 'data.frame':	1437 obs. of  16 variables:
+## 'data.frame':	1435 obs. of  16 variables:
 ##  $ game     : Factor w/ 15 levels "2014-04-12_vanNH-at-pdxST",..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ period   : int  1 1 1 1 1 1 1 1 1 1 ...
 ##  $ point    : int  1 1 2 3 4 4 5 6 6 7 ...
@@ -330,8 +330,8 @@ as.data.frame(table(poss_dat$pl_code, dnn = "a_code"))
 ```
 ##    a_code Freq
 ## 1       G  445
-## 2      TA  323
-## 3       D  271
+## 2      TA  318
+## 3       D  274
 ## 4      TD  158
 ## 5      LG  119
 ## 6     eop   56
@@ -354,8 +354,8 @@ as.data.frame(table(poss_dat$a_code, dnn = "a_code"))
 ```
 ##   a_code Freq
 ## 1      G  564
-## 2     TA  323
-## 3      D  291
+## 2     TA  318
+## 3      D  294
 ## 4     TD  158
 ## 5    eop   56
 ## 6    VTT   22
@@ -375,8 +375,8 @@ as.data.frame(table(poss_dat$b_code, dnn = "b_code"))
 ```
 ##   b_code Freq
 ## 1      G  564
-## 2  off -  526
-## 3  def +  291
+## 2  off -  521
+## 3  def +  294
 ## 4    eop   56
 ```
 
@@ -548,5 +548,5 @@ message("wrote ", out_file)
 ---
 title: "11_marshal-game-play-and-aggregate.r"
 author: "jenny"
-date: "Thu Jul  3 15:45:03 2014"
+date: "Thu Jul  3 15:52:29 2014"
 ---

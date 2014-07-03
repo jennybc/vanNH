@@ -435,8 +435,8 @@ game	period	point	pull_team	poss_abs	n_poss	n_events	poss_team	pl_team	pl_pnum	p
 2014-06-28_vanNH-at-pdxST	1	4	vanNH	24	8	25	vanNH	vanNH	24	eop	FALSE	FALSE	NA	d_line	eop	eop
 2014-06-28_vanNH-at-pdxST	2	5	pdxST	25	1	8	vanNH	vanNH	10	G	FALSE	TRUE	vanNH	o_line	G	G
 2014-06-28_vanNH-at-pdxST	2	6	vanNH	26	1	22	pdxST	pdxST	2	LG	TRUE	TRUE	pdxST	o_line	G	G
-2014-06-28_vanNH-at-pdxST	2	7	pdxST	28	2	9	pdxST	pdxST	8	LG	TRUE	TRUE	pdxST	d_line	G	G
-2014-06-28_vanNH-at-pdxST	2	8	pdxST	30	2	13	pdxST	pdxST	4	G	TRUE	TRUE	pdxST	d_line	G	G
+2014-06-28_vanNH-at-pdxST	2	7	pdxST	28	2	10	pdxST	pdxST	8	LG	TRUE	TRUE	pdxST	d_line	G	G
+2014-06-28_vanNH-at-pdxST	2	8	pdxST	30	2	14	pdxST	pdxST	4	G	TRUE	TRUE	pdxST	d_line	G	G
 2014-06-28_vanNH-at-pdxST	2	9	pdxST	32	2	6	pdxST	pdxST	5	G	FALSE	TRUE	pdxST	d_line	G	G
 2014-06-28_vanNH-at-pdxST	2	10	pdxST	35	3	22	vanNH	vanNH	4	G	FALSE	TRUE	vanNH	o_line	G	G
 2014-06-28_vanNH-at-pdxST	2	11	vanNH	37	2	12	vanNH	vanNH	8	G	FALSE	TRUE	vanNH	d_line	G	G
@@ -455,11 +455,11 @@ game	period	point	pull_team	poss_abs	n_poss	n_events	poss_team	pl_team	pl_pnum	p
 2014-06-28_vanNH-at-pdxST	3	24	pdxST	65	2	16	pdxST	vanNH	13	eop	FALSE	FALSE	NA	d_line	eop	eop
 2014-06-28_vanNH-at-pdxST	4	25	pdxST	69	4	32	pdxST	pdxST	4	G	TRUE	TRUE	pdxST	d_line	G	G
 2014-06-28_vanNH-at-pdxST	4	26	pdxST	72	3	15	vanNH	vanNH	11	G	FALSE	TRUE	vanNH	o_line	G	G
-2014-06-28_vanNH-at-pdxST	4	27	vanNH	77	5	30	pdxST	pdxST	21	G	TRUE	TRUE	pdxST	o_line	G	G
-2014-06-28_vanNH-at-pdxST	4	28	pdxST	79	2	35	pdxST	pdxST	13	G	FALSE	TRUE	pdxST	d_line	G	G
-2014-06-28_vanNH-at-pdxST	4	29	pdxST	80	1	7	vanNH	vanNH	22	LG	TRUE	TRUE	vanNH	o_line	G	G
-2014-06-28_vanNH-at-pdxST	4	30	vanNH	82	2	16	vanNH	vanNH	89	G	FALSE	TRUE	vanNH	d_line	G	G
-2014-06-28_vanNH-at-pdxST	4	31	vanNH	84	2	13	vanNH	vanNH	24	eop	FALSE	FALSE	NA	d_line	eop	eop
+2014-06-28_vanNH-at-pdxST	4	27	vanNH	75	3	30	pdxST	pdxST	21	G	TRUE	TRUE	pdxST	o_line	G	G
+2014-06-28_vanNH-at-pdxST	4	28	pdxST	77	2	35	pdxST	pdxST	13	G	FALSE	TRUE	pdxST	d_line	G	G
+2014-06-28_vanNH-at-pdxST	4	29	pdxST	78	1	7	vanNH	vanNH	22	LG	TRUE	TRUE	vanNH	o_line	G	G
+2014-06-28_vanNH-at-pdxST	4	30	vanNH	80	2	16	vanNH	vanNH	89	G	FALSE	TRUE	vanNH	d_line	G	G
+2014-06-28_vanNH-at-pdxST	4	31	vanNH	82	2	13	vanNH	vanNH	24	eop	FALSE	FALSE	NA	d_line	eop	eop
 2014-04-12_seaRM-at-sfoDF	1	1	sfoDF	1	1	5	seaRM	seaRM	48	LG	TRUE	TRUE	seaRM	o_line	G	G
 2014-04-12_seaRM-at-sfoDF	1	2	seaRM	3	2	9	seaRM	seaRM	9	G	FALSE	TRUE	seaRM	d_line	G	G
 2014-04-12_seaRM-at-sfoDF	1	3	seaRM	4	1	5	sfoDF	sfoDF	40	G	FALSE	TRUE	sfoDF	o_line	G	G
