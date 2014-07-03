@@ -62,8 +62,8 @@ point	event	pullNum	pullCode	recvNum	recvCode
 3	18			88	
 3	19	13	D		
 3	20	45	PU		
-3	21	13			
-3	22	37			
+3	21	31			
+3	22	13			
 3	23			7	PU
 3	24			11	
 3	25			6	
@@ -87,7 +87,7 @@ point	event	pullNum	pullCode	recvNum	recvCode
 3	43	19	PU		
 3	44	98			
 3	45	89			
-3	46	12			
+3	46	22			
 3	47	5			
 3	48			88	D
 3	49			88	

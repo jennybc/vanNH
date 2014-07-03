@@ -445,8 +445,8 @@ a_ply(cth_rows, 1, function(i) {
 ## possession for the other team
 # 2014-05-31_vanNH-at-seaRM point 23 event 9 ... naked TO
 # 2014-05-31_vanNH-at-seaRM point 52 event 21 ... naked TO
-# 2014-06-07_seaRM-at-vanNH point 36 event 8 ... missing PU? or did 8 intercept?
-# 2014-06-28_vanNH-at-pdxST point 3 event 31 ... weird pdxST possession
+# 2014-06-28_vanNH-at-pdxST point 3 event 31 ... naked TO
+
 # 2014-06-28_vanNH-at-pdxST point 7 event 6 ... missing PU? or did 88 intercept?
 # 2014-06-28_vanNH-at-pdxST point 8 event 9 ... missing PU? or did 8 intercept?
 # 2014-06-28_vanNH-at-pdxST point 12 event 29 ... missing PU? or did 8 intercept?
