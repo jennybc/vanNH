@@ -1,7 +1,7 @@
 ---
 title: "In-house statistics for the Vancouver Nighthawks of Major League Ultimate"
 author: "Jenny Bryan"
-date: "28 June, 2014"
+date: "3 July, 2014"
 output:
   html_document:
     theme: readable
@@ -21,34 +21,51 @@ library(yaml)
 library(plyr)
 library(magrittr)
 library(knitr)
-library(xtable)
+library(reshape2)
 
-## I think I prefer an explicit whitelist approach here
-# game_dir <- file.path("..", "games")
-# list.files(game_dir)
+## I could marshal the game directories like so
+## game_dir <- file.path("..", "games")
+## list.files(game_dir)
+## ... but I think I prefer an explicit whitelist approach here
 
-## games for which I have data
-tmp <- c("week game",
-         "01   2014-04-12_vanNH-at-pdxST",
-         "02   2014-04-20_sfoDF-at-vanNH",
-         "03   2014-04-26_vanNH-at-seaRM",
-         # 04 was a bye week for vanNH
-         "05   2014-05-10_seaRM-at-vanNH",
-         "06   2014-05-17_vanNH-at-sfoDF",
-         "07   2014-05-24_pdxST-at-vanNH",
-         "08   2014-05-31_vanNH-at-seaRM",
-         "09   2014-06-07_seaRM-at-vanNH",
-         "10   2014-06-15_pdxST-at-vanNH",
-         "11   2014-06-21_vanNH-at-sfoDF",
-         "12   2014-06-28_vanNH-at-pdxST",
-         "01   2014-04-12_seaRM-at-sfoDF",
-         "02   2014-04-19_sfoDF-at-seaRM",
-         "03   2014-04-26_pdxST-at-sfoDF",
-         "04   2014-05-04_sfoDF-at-seaRM")
-tmp <- read.table(text = tmp, header = TRUE,
-                  colClasses = list(week = "character", game = "character"))
+white_list <- c("week game",
+                "01   2014-04-12_vanNH-at-pdxST",
+                "02   2014-04-20_sfoDF-at-vanNH",
+                "03   2014-04-26_vanNH-at-seaRM",
+                # 04 was a bye week for vanNH
+                "05   2014-05-10_seaRM-at-vanNH",
+                "06   2014-05-17_vanNH-at-sfoDF",
+                "07   2014-05-24_pdxST-at-vanNH",
+                "08   2014-05-31_vanNH-at-seaRM",
+                "09   2014-06-07_seaRM-at-vanNH",
+                "10   2014-06-15_pdxST-at-vanNH",
+                "11   2014-06-21_vanNH-at-sfoDF",
+                "12   2014-06-28_vanNH-at-pdxST",
+                "01   2014-04-12_seaRM-at-sfoDF",
+                "02   2014-04-19_sfoDF-at-seaRM",
+                "03   2014-04-26_pdxST-at-sfoDF",
+                "04   2014-05-04_sfoDF-at-seaRM")
+white_list <-
+  read.table(text = white_list, header = TRUE,
+             colClasses = list(week = "character", game = "character"))
 
-game_dirs <- file.path("..", "games", tmp$game)
+## one-off: I wrote white_list to tsv to seed a table for associating each game
+## with its Google spreadsheet
+# write.table(white_list, file.path("..", "data", "2014_mlu-game-info.tsv"),
+#             quote = FALSE, sep = "\t", row.names = FALSE)
+
+## get Google spreadsheet names and URLs for Google spreadsheets and YouTube
+## videos
+info_file <- file.path("..", "data", "2014_mlu-game-info.tsv")
+game_info <- read.delim(info_file, stringsAsFactors = FALSE)
+## learn the date, home team, away team from the game ID
+game_info <- data.frame(game_info,
+                        colsplit(game_info$game, "_", c("date", "matchup")))
+game_info <- data.frame(game_info,
+                        colsplit(game_info$matchup, "-at-", c("away", "home")))
+
+## get final scores
+game_dirs <- file.path("..", "games", white_list$game)
 yaml_files <-
   list.files(game_dirs, pattern = "at-last-point.yaml$", full.names = TRUE)
 names(yaml_files) <- basename(dirname(yaml_files))
@@ -60,44 +77,50 @@ game_data <-
          select = -c(point, period, clk_before, clk_after,
                      pull_team, scor_team))
 
-## learn the date, home team, away team from the game ID
-x <- unique(game_data$game)
-m <- regexec("([-0-9]+)_([a-zA-Z]+)-at-([a-zA-Z]+)", x)
-parsed_game_id <- ldply(regmatches(x, m), `[`, c(1L, 2L, 3L, 4L))
-colnames(parsed_game_id) <- c("game", "date","awayTeam","homeTeam")
-game_data <- join(game_data, parsed_game_id)
-game_data <- join(game_data, tmp)
+## merge all the game information
+game_data <- join(game_data, game_info)
+game_data <- join(game_data, white_list)
+
+## make the URLs into HTML links
+htmlify <- function(href, link_text = "LINK_TEXT", newtab = FALSE) {
+  target <- if(newtab) 'target="_blank" ' else ''
+  ifelse(href != '',
+         paste0('<a ', target, 'href=', href, '>', link_text, '</a>'),
+         link_text)
+  }
+game_data <-
+  mutate(game_data,
+         stats_link = htmlify(paste0(game, '_live-stats.html'), date),
+         gspread_link = htmlify(gspread_url, "G", newtab = TRUE),
+         youtube_link = htmlify(youtube_url, "YT", newtab = TRUE),
+         links = paste(gspread_link, youtube_link, sep = " | "))
 
 ## sub-data.frame for games involving vanNH
 ## add many more derived variables
 vanNH_data <- subset(game_data, !is.na(vanNH))
 vanNH_data <-
-  mutate(vanNH_data,
-         status = ifelse(homeTeam == "vanNH", "home", "away"))
-all_teams <- with(vanNH_data, sort(unique(c(awayTeam, homeTeam))))
+  mutate(vanNH_data, status = ifelse(home == "vanNH", "home", "away"))
+all_teams <- with(vanNH_data, sort(unique(c(away, home))))
 opponents <- all_teams[all_teams != "vanNH"]
 vanNH_data$opponent <- 
   aaply(vanNH_data[opponents], 1,
         function(x) opponents[!is.na(x)], .expand = FALSE)
 vanNH_data$oppScore <- 
   aaply(vanNH_data[opponents], 1, function(x) x[!is.na(x)], .expand = FALSE)
-vanNH_data <- transform(vanNH_data,
-                        outcome = ifelse(vanNH > oppScore, "W", "L"),
-                        pt_diff = vanNH - oppScore,
-                        final = I(paste0("vanNH: ", vanNH, "  ",
-                                         opponent, ": ", oppScore)),
-                        us = I(paste0("vanNH: ", vanNH)),
-                        them = I(paste0(opponent, ": ", oppScore)),
-                        # link = I(paste0('<a href=http://www.stat.ubc.ca/~jenny/',
-                        # 'notOcto/vanNH/', game_data$game,
-                        # '_live-stats.html>', date, '</a>')))
-                        link = I(paste0('<a href=', game,
-                                        '_live-stats.html>', date, '</a>')))
+vanNH_data <-
+  transform(vanNH_data,
+            outcome = ifelse(vanNH > oppScore, "W", "L"),
+            pt_diff = vanNH - oppScore,
+            final = I(paste0("vanNH: ", vanNH, "  ",
+                             opponent, ": ", oppScore)),
+            us = I(paste0("vanNH: ", vanNH)),
+            them = I(paste0(opponent, ": ", oppScore)))
 
-pretty_vars <- c("week", "link", "status", "us", "them", "outcome",
+pretty_vars <- c("week", "stats_link", "links",
+                 "status", "us", "them", "outcome",
                  "pt_diff")
 pretty_stuff <- vanNH_data[pretty_vars]
-pretty_stuff <- rename(pretty_stuff, c("link" = "date"))
+pretty_stuff <- rename(pretty_stuff, c("stats_link" = "date"))
 
 ## convert to character, then add a last row with relevant summaries
 pretty_stuff <- as.matrix(colwise(as.character)(pretty_stuff))
@@ -114,13 +137,9 @@ pretty_stuff[n + 1, "outcome"] <-
 ## sub-data.frame for games NOT involving vanNH
 ## add many more derived variables
 othwc_data <- subset(game_data, is.na(vanNH))
-othwc_data <- transform(othwc_data,
-                        link = I(paste0('<a href=', game,
-                                        '_live-stats.html>', date, '</a>')))
-
-othwc_pretty_vars <- c("week", "link", "pdxST", "seaRM", "sfoDF")
+othwc_pretty_vars <- c("week", "stats_link", "links", "pdxST", "seaRM", "sfoDF")
 othwc_pretty_stuff <- othwc_data[othwc_pretty_vars]
-othwc_pretty_stuff <- rename(othwc_pretty_stuff, c("link" = "date"))
+othwc_pretty_stuff <- rename(othwc_pretty_stuff, c("stats_link" = "date"))
 
 ## convert to character, then add a last row with relevant summaries
 othwc_pretty_stuff <- as.matrix(colwise(as.character)(othwc_pretty_stuff))
@@ -131,7 +150,7 @@ othwc_pretty_stuff[ , c('pdxST', 'seaRM', 'sfoDF')] <-
 
 ## Games involving the Vancouver Nighthawks.
 
-Click on a date to see stats for a game.
+Click on a date to see stats for a game. Click on __G__ to go to the official Google spreadsheet (will not work unless you have permission) or on __YT__ to go to watch the game on YouTube.
 
 ```{r echo = FALSE, results = 'asis'}
 kable(pretty_stuff)
@@ -141,7 +160,7 @@ Week 04 was a bye week for vanNH.
 
 ## Other games in the MLU Western Conference.
 
-Click on a date to see stats for a game.
+Click on a date to see stats for a game. Click on __G__ to go to the official Google spreadsheet (will not work unless you have permission) or on __YT__ to go to watch the game on YouTube.
 
 ```{r echo = FALSE, results = 'asis'}
 kable(othwc_pretty_stuff)
