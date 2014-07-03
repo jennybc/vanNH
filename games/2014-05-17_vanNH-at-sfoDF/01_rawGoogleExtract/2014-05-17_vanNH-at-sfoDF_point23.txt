@@ -11,18 +11,20 @@ Offense	Defense
 12d	
 16pu	8f
 	33d
+	33
 18d	
 16pu	
 	45pu
 21d	
+21	
 85	
 	81pu
 	33
 16pu	?f
 	45pu
 	24
-	8
 	31
+	8
 12pu	
 17	
 	45pu

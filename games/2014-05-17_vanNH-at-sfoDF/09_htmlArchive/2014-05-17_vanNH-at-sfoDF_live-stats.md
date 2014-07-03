@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Wed Jul  2 18:32:11 2014
+#### last update Wed Jul  2 22:21:22 2014
 # vanNH 12
 # sfoDF 13
 ## game is complete
@@ -187,10 +187,10 @@ stats are cumulative for this game
 |    22|      3|sfoDF     |    39|vanNH   |10      |G       |vanNH     |chatha        |vanNH-10-chatha        |    10|    10|
 |    23|      3|vanNH     |     8|sfoDF   |12      |D       |vanNH     |Bellinger     |sfoDF-12-Bellinger     |    10|    11|
 |    23|      3|vanNH     |    11|vanNH   |33      |D       |sfoDF     |collins       |vanNH-33-collins       |    10|    11|
-|    23|      3|vanNH     |    12|sfoDF   |18      |D       |vanNH     |Weaver        |sfoDF-18-Weaver        |    10|    11|
-|    23|      3|vanNH     |    15|sfoDF   |21      |D       |vanNH     |Stearns       |sfoDF-21-Stearns       |    10|    11|
-|    23|      3|vanNH     |    28|vanNH   |39      |A       |vanNH     |seraglia      |vanNH-39-seraglia      |    10|    11|
-|    23|      3|vanNH     |    29|vanNH   |8       |G       |vanNH     |hibbert       |vanNH-8-hibbert        |    10|    11|
+|    23|      3|vanNH     |    13|sfoDF   |18      |D       |vanNH     |Weaver        |sfoDF-18-Weaver        |    10|    11|
+|    23|      3|vanNH     |    16|sfoDF   |21      |D       |vanNH     |Stearns       |sfoDF-21-Stearns       |    10|    11|
+|    23|      3|vanNH     |    30|vanNH   |39      |A       |vanNH     |seraglia      |vanNH-39-seraglia      |    10|    11|
+|    23|      3|vanNH     |    31|vanNH   |8       |G       |vanNH     |hibbert       |vanNH-8-hibbert        |    10|    11|
 |    24|      3|vanNH     |     4|vanNH   |81      |PUA     |vanNH     |tejpar        |vanNH-81-tejpar        |    10|    12|
 |    24|      3|vanNH     |     5|vanNH   |33      |G       |vanNH     |collins       |vanNH-33-collins       |    10|    12|
 |    25|      3|vanNH     |     3|vanNH   |8       |D       |sfoDF     |hibbert       |vanNH-8-hibbert        |    10|    12|
@@ -587,24 +587,26 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      3|    23|     9|sfoDF   |16      |PU      |sfoDF     |
 |      3|    23|    10|vanNH   |8       |F       |sfoDF     |
 |      3|    23|    11|vanNH   |33      |D       |sfoDF     |
-|      3|    23|    12|sfoDF   |18      |D       |vanNH     |
-|      3|    23|    13|sfoDF   |16      |PU      |sfoDF     |
-|      3|    23|    14|vanNH   |45      |PU      |vanNH     |
-|      3|    23|    15|sfoDF   |21      |D       |vanNH     |
-|      3|    23|    16|sfoDF   |85      |        |sfoDF     |
-|      3|    23|    17|vanNH   |81      |PU      |vanNH     |
-|      3|    23|    18|vanNH   |33      |        |vanNH     |
-|      3|    23|    19|sfoDF   |16      |PU      |sfoDF     |
-|      3|    23|    20|vanNH   |?       |F       |sfoDF     |
-|      3|    23|    21|vanNH   |45      |PU      |vanNH     |
-|      3|    23|    22|vanNH   |24      |        |vanNH     |
-|      3|    23|    23|vanNH   |8       |        |vanNH     |
-|      3|    23|    24|vanNH   |31      |        |vanNH     |
-|      3|    23|    25|sfoDF   |12      |PU      |sfoDF     |
-|      3|    23|    26|sfoDF   |17      |        |sfoDF     |
-|      3|    23|    27|vanNH   |45      |PU      |vanNH     |
-|      3|    23|    28|vanNH   |39      |A       |vanNH     |
-|      3|    23|    29|vanNH   |8       |G       |vanNH     |
+|      3|    23|    12|vanNH   |33      |        |vanNH     |
+|      3|    23|    13|sfoDF   |18      |D       |vanNH     |
+|      3|    23|    14|sfoDF   |16      |PU      |sfoDF     |
+|      3|    23|    15|vanNH   |45      |PU      |vanNH     |
+|      3|    23|    16|sfoDF   |21      |D       |vanNH     |
+|      3|    23|    17|sfoDF   |21      |        |sfoDF     |
+|      3|    23|    18|sfoDF   |85      |        |sfoDF     |
+|      3|    23|    19|vanNH   |81      |PU      |vanNH     |
+|      3|    23|    20|vanNH   |33      |        |vanNH     |
+|      3|    23|    21|sfoDF   |16      |PU      |sfoDF     |
+|      3|    23|    22|vanNH   |?       |F       |sfoDF     |
+|      3|    23|    23|vanNH   |45      |PU      |vanNH     |
+|      3|    23|    24|vanNH   |24      |        |vanNH     |
+|      3|    23|    25|vanNH   |31      |        |vanNH     |
+|      3|    23|    26|vanNH   |8       |        |vanNH     |
+|      3|    23|    27|sfoDF   |12      |PU      |sfoDF     |
+|      3|    23|    28|sfoDF   |17      |        |sfoDF     |
+|      3|    23|    29|vanNH   |45      |PU      |vanNH     |
+|      3|    23|    30|vanNH   |39      |A       |vanNH     |
+|      3|    23|    31|vanNH   |8       |G       |vanNH     |
 |      3|    24|     1|vanNH   |33      |P       |sfoDF     |
 |      3|    24|     2|sfoDF   |25      |PU      |sfoDF     |
 |      3|    24|     3|sfoDF   |34      |        |sfoDF     |

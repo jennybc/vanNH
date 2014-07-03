@@ -2814,24 +2814,26 @@ game	period	point	pull_team	poss_abs	poss_rel	event	poss_team	pl_team	pl_pnum	pl
 2014-05-17_vanNH-at-sfoDF	3	23	vanNH	86	3	9	sfoDF	sfoDF	16	PU
 2014-05-17_vanNH-at-sfoDF	3	23	vanNH	86	3	10	sfoDF	vanNH	8	F
 2014-05-17_vanNH-at-sfoDF	3	23	vanNH	86	3	11	sfoDF	vanNH	33	D
-2014-05-17_vanNH-at-sfoDF	3	23	vanNH	87	4	12	vanNH	sfoDF	18	D
-2014-05-17_vanNH-at-sfoDF	3	23	vanNH	88	5	13	sfoDF	sfoDF	16	PU
-2014-05-17_vanNH-at-sfoDF	3	23	vanNH	89	6	14	vanNH	vanNH	45	PU
-2014-05-17_vanNH-at-sfoDF	3	23	vanNH	89	6	15	vanNH	sfoDF	21	D
-2014-05-17_vanNH-at-sfoDF	3	23	vanNH	90	7	16	sfoDF	sfoDF	85	
-2014-05-17_vanNH-at-sfoDF	3	23	vanNH	91	8	17	vanNH	vanNH	81	PU
-2014-05-17_vanNH-at-sfoDF	3	23	vanNH	91	8	18	vanNH	vanNH	33	
-2014-05-17_vanNH-at-sfoDF	3	23	vanNH	92	9	19	sfoDF	sfoDF	16	PU
-2014-05-17_vanNH-at-sfoDF	3	23	vanNH	92	9	20	sfoDF	vanNH	?	F
-2014-05-17_vanNH-at-sfoDF	3	23	vanNH	93	10	21	vanNH	vanNH	45	PU
-2014-05-17_vanNH-at-sfoDF	3	23	vanNH	93	10	22	vanNH	vanNH	24	
-2014-05-17_vanNH-at-sfoDF	3	23	vanNH	93	10	23	vanNH	vanNH	8	
-2014-05-17_vanNH-at-sfoDF	3	23	vanNH	93	10	24	vanNH	vanNH	31	
-2014-05-17_vanNH-at-sfoDF	3	23	vanNH	94	11	25	sfoDF	sfoDF	12	PU
-2014-05-17_vanNH-at-sfoDF	3	23	vanNH	94	11	26	sfoDF	sfoDF	17	
-2014-05-17_vanNH-at-sfoDF	3	23	vanNH	95	12	27	vanNH	vanNH	45	PU
-2014-05-17_vanNH-at-sfoDF	3	23	vanNH	95	12	28	vanNH	vanNH	39	A
-2014-05-17_vanNH-at-sfoDF	3	23	vanNH	95	12	29	vanNH	vanNH	8	G
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	87	4	12	vanNH	vanNH	33	
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	87	4	13	vanNH	sfoDF	18	D
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	88	5	14	sfoDF	sfoDF	16	PU
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	89	6	15	vanNH	vanNH	45	PU
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	89	6	16	vanNH	sfoDF	21	D
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	90	7	17	sfoDF	sfoDF	21	
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	90	7	18	sfoDF	sfoDF	85	
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	91	8	19	vanNH	vanNH	81	PU
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	91	8	20	vanNH	vanNH	33	
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	92	9	21	sfoDF	sfoDF	16	PU
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	92	9	22	sfoDF	vanNH	?	F
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	93	10	23	vanNH	vanNH	45	PU
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	93	10	24	vanNH	vanNH	24	
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	93	10	25	vanNH	vanNH	31	
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	93	10	26	vanNH	vanNH	8	
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	94	11	27	sfoDF	sfoDF	12	PU
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	94	11	28	sfoDF	sfoDF	17	
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	95	12	29	vanNH	vanNH	45	PU
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	95	12	30	vanNH	vanNH	39	A
+2014-05-17_vanNH-at-sfoDF	3	23	vanNH	95	12	31	vanNH	vanNH	8	G
 2014-05-17_vanNH-at-sfoDF	3	24	vanNH	96	1	1	sfoDF	vanNH	33	P
 2014-05-17_vanNH-at-sfoDF	3	24	vanNH	96	1	2	sfoDF	sfoDF	25	PU
 2014-05-17_vanNH-at-sfoDF	3	24	vanNH	96	1	3	sfoDF	sfoDF	34	
