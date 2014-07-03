@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Mon Jun 16 21:39:35 2014
+#### last update Wed Jul  2 22:32:27 2014
 # vanNH 21
 # pdxST 23
 ## game is complete
@@ -163,8 +163,8 @@ stats are cumulative for this game
 |    13|      1|pdxST     |    24|vanNH   |91      |D       |pdxST     |savage       |vanNH-91-savage      |     6|     7|
 |    13|      1|pdxST     |    25|vanNH   |91      |A       |vanNH     |savage       |vanNH-91-savage      |     6|     7|
 |    13|      1|pdxST     |    26|vanNH   |33      |G       |vanNH     |collins      |vanNH-33-collins     |     6|     7|
-|    14|      1|vanNH     |     6|pdxST   |11      |PUA     |pdxST     |Kenton       |pdxST-11-Kenton      |     7|     7|
-|    14|      1|vanNH     |     7|pdxST   |13      |LG      |pdxST     |Perston      |pdxST-13-Perston     |     7|     7|
+|    14|      1|vanNH     |     7|pdxST   |11      |PUA     |pdxST     |Kenton       |pdxST-11-Kenton      |     7|     7|
+|    14|      1|vanNH     |     8|pdxST   |13      |LG      |pdxST     |Perston      |pdxST-13-Perston     |     7|     7|
 |    15|      1|pdxST     |     6|pdxST   |8       |LA      |pdxST     |Davis        |pdxST-8-Davis        |     8|     7|
 |    15|      1|pdxST     |     7|pdxST   |6       |G       |pdxST     |Bjorklund    |pdxST-6-Bjorklund    |     8|     7|
 |    16|      1|pdxST     |    13|pdxST   |88      |A       |pdxST     |Suppnick     |pdxST-88-Suppnick    |     9|     7|
@@ -401,9 +401,10 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      1|    14|     2|pdxST   |7       |PU      |pdxST     |
 |      1|    14|     3|pdxST   |13      |        |pdxST     |
 |      1|    14|     4|pdxST   |24      |TD      |pdxST     |
-|      1|    14|     5|vanNH   |18      |VTT     |vanNH     |
-|      1|    14|     6|pdxST   |11      |PUA     |pdxST     |
-|      1|    14|     7|pdxST   |13      |LG      |pdxST     |
+|      1|    14|     5|vanNH   |18      |PU      |vanNH     |
+|      1|    14|     6|vanNH   |18      |VTT     |vanNH     |
+|      1|    14|     7|pdxST   |11      |PUA     |pdxST     |
+|      1|    14|     8|pdxST   |13      |LG      |pdxST     |
 |      1|    15|     1|pdxST   |6       |P       |vanNH     |
 |      1|    15|     2|vanNH   |89      |PU      |vanNH     |
 |      1|    15|     3|vanNH   |5       |        |vanNH     |

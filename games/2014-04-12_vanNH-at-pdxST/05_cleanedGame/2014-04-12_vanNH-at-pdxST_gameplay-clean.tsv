@@ -154,9 +154,10 @@ point	event	pullNum	pullCode	recvNum	recvCode
 14	2			7	PU
 14	3			13	
 14	4			24	TD
-14	5	18	VTT		
-14	6			11	PU
-14	7			13	LG
+14	5	18	PU		
+14	6	18	VTT		
+14	7			11	PU
+14	8			13	LG
 15	1	6	P		
 15	2			89	PU
 15	3			5	
