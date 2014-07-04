@@ -448,31 +448,30 @@ period	point	event	pl_team	pl_pnum	pl_code	poss_team
 3	30	7	pdxST	3		pdxST
 3	30	8	pdxST	8		pdxST
 3	30	9	pdxST	8	VST	pdxST
-3	30	10	pdxST	8	F	pdxST
-3	30	11	vanNH	5	PU	vanNH
-3	30	12	vanNH	89		vanNH
-3	30	13	vanNH	5		vanNH
-3	30	14	vanNH	10		vanNH
-3	30	15	vanNH	72		vanNH
-3	30	16	vanNH	5		vanNH
-3	30	17	pdxST	88	PU	pdxST
-3	30	18	pdxST	7	TO	pdxST
-3	30	19	pdxST	24	PU	pdxST
-3	30	20	pdxST	9		pdxST
-3	30	21	pdxST	24		pdxST
-3	30	22	pdxST	6		pdxST
-3	30	23	pdxST	42		pdxST
-3	30	24	pdxST	6		pdxST
-3	30	25	pdxST	73		pdxST
-3	30	26	pdxST	7		pdxST
-3	30	27	pdxST	42		pdxST
-3	30	28	pdxST	7		pdxST
-3	30	29	pdxST	73		pdxST
-3	30	30	pdxST	24		pdxST
-3	30	31	pdxST	2		pdxST
-3	30	32	pdxST	6		pdxST
-3	30	33	pdxST	42		pdxST
-3	30	34	vanNH	8	D	pdxST
+3	30	10	vanNH	5	PU	vanNH
+3	30	11	vanNH	89		vanNH
+3	30	12	vanNH	5		vanNH
+3	30	13	vanNH	10		vanNH
+3	30	14	vanNH	72		vanNH
+3	30	15	vanNH	5		vanNH
+3	30	16	pdxST	88	PU	pdxST
+3	30	17	pdxST	7	TO	pdxST
+3	30	18	pdxST	24	PU	pdxST
+3	30	19	pdxST	9		pdxST
+3	30	20	pdxST	24		pdxST
+3	30	21	pdxST	6		pdxST
+3	30	22	pdxST	42		pdxST
+3	30	23	pdxST	6		pdxST
+3	30	24	pdxST	73		pdxST
+3	30	25	pdxST	7		pdxST
+3	30	26	pdxST	42		pdxST
+3	30	27	pdxST	7		pdxST
+3	30	28	pdxST	73		pdxST
+3	30	29	pdxST	24		pdxST
+3	30	30	pdxST	2		pdxST
+3	30	31	pdxST	6		pdxST
+3	30	32	pdxST	42		pdxST
+3	30	33	vanNH	8	D	pdxST
 4	31	1	vanNH	8	P	pdxST
 4	31	2	pdxST	73	PU	pdxST
 4	31	3	pdxST	9		pdxST

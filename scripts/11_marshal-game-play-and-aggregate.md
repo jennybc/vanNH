@@ -24,7 +24,7 @@ str(game_play)
 ```
 
 ```
-## 'data.frame':	9251 obs. of  8 variables:
+## 'data.frame':	9250 obs. of  8 variables:
 ##  $ game     : Factor w/ 15 levels "2014-04-12_vanNH-at-pdxST",..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ period   : int  1 1 1 1 1 1 1 1 1 1 ...
 ##  $ point    : int  1 1 1 1 1 1 1 1 1 1 ...
@@ -53,7 +53,7 @@ str(game_play)
 ```
 
 ```
-## 'data.frame':	9251 obs. of  10 variables:
+## 'data.frame':	9250 obs. of  10 variables:
 ##  $ game     : Factor w/ 15 levels "2014-04-12_vanNH-at-pdxST",..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ period   : int  1 1 1 1 1 1 1 1 1 1 ...
 ##  $ point    : int  1 1 1 1 1 1 1 1 1 1 ...
@@ -78,7 +78,7 @@ str(game_play)
 ```
 
 ```
-## 'data.frame':	9251 obs. of  11 variables:
+## 'data.frame':	9250 obs. of  11 variables:
 ##  $ game     : Factor w/ 15 levels "2014-04-12_vanNH-at-pdxST",..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ period   : int  1 1 1 1 1 1 1 1 1 1 ...
 ##  $ point    : int  1 1 1 1 1 1 1 1 1 1 ...
@@ -106,7 +106,7 @@ str(game_play)
 ```
 
 ```
-## 'data.frame':	9251 obs. of  11 variables:
+## 'data.frame':	9250 obs. of  11 variables:
 ##  $ game     : Factor w/ 15 levels "2014-04-12_vanNH-at-pdxST",..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ period   : int  1 1 1 1 1 1 1 1 1 1 ...
 ##  $ point    : int  1 1 1 1 1 1 1 1 1 1 ...
@@ -330,13 +330,13 @@ as.data.frame(table(poss_dat$pl_code, dnn = "a_code"))
 ```
 ##    a_code Freq
 ## 1       G  445
-## 2      TA  305
+## 2      TA  304
 ## 3       D  277
 ## 4      TD  159
 ## 5      LG  119
 ## 6     eop   56
 ## 7     VTT   23
-## 8     VST   17
+## 8     VST   18
 ## 9      HB   16
 ## 10  off F    6
 ## 11     FB    4
@@ -354,12 +354,12 @@ as.data.frame(table(poss_dat$a_code, dnn = "a_code"))
 ```
 ##   a_code Freq
 ## 1      G  564
-## 2     TA  305
+## 2     TA  304
 ## 3      D  297
 ## 4     TD  159
 ## 5    eop   56
 ## 6    VTT   23
-## 7    VST   17
+## 7    VST   18
 ## 8  off F    6
 ```
 
@@ -548,5 +548,5 @@ message("wrote ", out_file)
 ---
 title: "11_marshal-game-play-and-aggregate.r"
 author: "jenny"
-date: "Thu Jul  3 20:36:22 2014"
+date: "Fri Jul  4 16:23:33 2014"
 ---
