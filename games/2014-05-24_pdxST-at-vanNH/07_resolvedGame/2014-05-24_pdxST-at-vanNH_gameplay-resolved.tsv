@@ -59,7 +59,7 @@ period	point	event	pl_team	pl_pnum	pl_code	poss_team
 1	3	33	pdxST	9		pdxST
 1	3	34	pdxST	2		pdxST
 1	3	35	pdxST	11		pdxST
-1	3	36	pdxST			pdxST
+1	3	36	vanNH		TO	vanNH
 1	3	37	vanNH	91	PU	vanNH
 1	3	38	vanNH	98		vanNH
 1	3	39	vanNH	10		vanNH
@@ -518,7 +518,7 @@ period	point	event	pl_team	pl_pnum	pl_code	poss_team
 4	33	19	pdxST	6		pdxST
 4	33	20	pdxST	7		pdxST
 4	33	21	pdxST	73	VTT	pdxST
-4	33	22	pdxST			pdxST
+4	33	22	vanNH		TO	vanNH
 4	33	23	vanNH	91	PUA	vanNH
 4	33	24	vanNH	22	G	vanNH
 4	34	1	vanNH	81	P	pdxST

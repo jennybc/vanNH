@@ -16,7 +16,19 @@ game_ids <-
     "Official Statistics - 2014 - Week 9 - 6/7 - Rainmakers @ Nighthawks",
     "2014-06-07_seaRM-at-vanNH",
     "Official Statistics - 2014 - Week 10 - 6/15 - Stags @ Nighthawks",
-    "2014-06-15_pdxST-at-vanNH")
+    "2014-06-15_pdxST-at-vanNH",
+    "Official Statistics - 2014 - Week 11 - 6/21 - Nighthawks @ Dogfish",
+    "2014-06-21_vanNH-at-sfoDF",
+    "Official Statistics - 2014 - Playoffs - 6/28 - Nighthawks @ Stags",
+    "2014-06-28_vanNH-at-pdxST",
+    "Official Statistics - 2014 - Week 1 - 4/12 - Rainmakers @ Dogfish",
+    "2014-04-12_seaRM-at-sfoDF",
+    "Official Statistics - 2014 - Week 2 - 4/19 - Dogfish @ Rainmakers",
+    "2014-04-19_sfoDF-at-seaRM",
+    "Official Statistics - 2014 - Week 3 - 4/26 - Stags @ Dogfish",
+    "2014-04-26_pdxST-at-sfoDF",
+    "Official Statistics - 2014 - Week 4 - 5/4 - Dogfish @ Rainmakers",  
+    "2014-05-04_sfoDF-at-seaRM")
 game_ids <- matrix(game_ids, ncol = 2, byrow = TRUE)
 
 make_pre <- 'make r_bits'

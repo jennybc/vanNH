@@ -11,10 +11,10 @@ if(length(options) < 1) {
   #game <- "2014-05-10_seaRM-at-vanNH"
   #game <- "2014-05-17_vanNH-at-sfoDF"
   #game <- "2014-05-24_pdxST-at-vanNH"
-  #game <- "2014-05-31_vanNH-at-seaRM"
+  game <- "2014-05-31_vanNH-at-seaRM"
   #game <- "2014-06-07_seaRM-at-vanNH"
   #game <- "2014-06-15_pdxST-at-vanNH"
-  game <- "2014-05-04_sfoDF-at-seaRM"
+  #game <- "2014-05-04_sfoDF-at-seaRM"
 } else {
   game <- options[1]
 }
@@ -60,14 +60,14 @@ game_play <-
 
 ## collapse recvCode/recvNum/pullCode/pullNum into pl_team, pl_pnum, pl_code
 jFun <- function(x) {
-  point <- x$point[1]  
+  point <- x$point[1]
   double_code <- with(x, pullCode != '' & recvCode != '')
   if(any(double_code)) {
     stop("point ", point, ": rows with game play from both teams ... exiting")
     x[double_code, ]
   }
   
-  x$play_by_recv_team <- x$pullNum == ''
+  x$play_by_recv_team <- x$pullNum == '' & x$pullCode == ''
   x$pl_team <- with(x, ifelse(play_by_recv_team, "recv_team", "pull_team"))
   x$pl_pnum <- with(x, ifelse(play_by_recv_team, recvNum, pullNum))
   x$pl_code <- with(x, ifelse(play_by_recv_team, recvCode, pullCode))

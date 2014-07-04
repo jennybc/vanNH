@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Thu Jul  3 15:40:00 2014
+#### last update Thu Jul  3 20:27:44 2014
 # vanNH 29
 # seaRM 24
 ## game is complete
@@ -571,7 +571,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      2|    23|     6|seaRM   |17      |        |seaRM     |
 |      2|    23|     7|vanNH   |4       |D       |seaRM     |
 |      2|    23|     8|vanNH   |8       |PU      |vanNH     |
-|      2|    23|     9|seaRM   |        |        |seaRM     |
+|      2|    23|     9|vanNH   |        |TO      |vanNH     |
 |      2|    23|    10|vanNH   |89      |PU      |vanNH     |
 |      2|    23|    11|vanNH   |22      |        |vanNH     |
 |      2|    23|    12|vanNH   |21      |        |vanNH     |
@@ -816,7 +816,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      4|    41|    15|seaRM   |20      |        |seaRM     |
 |      4|    41|    16|seaRM   |48      |        |seaRM     |
 |      4|    41|    17|vanNH   |8       |D       |seaRM     |
-|      4|    41|    18|seaRM   |        |        |seaRM     |
+|      4|    41|    18|vanNH   |        |TO      |vanNH     |
 |      4|    41|    19|vanNH   |89      |PU      |vanNH     |
 |      4|    41|    20|vanNH   |22      |        |vanNH     |
 |      4|    41|    21|vanNH   |89      |        |vanNH     |
@@ -979,7 +979,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      5|    52|    18|seaRM   |29      |        |seaRM     |
 |      5|    52|    19|seaRM   |21      |        |seaRM     |
 |      5|    52|    20|seaRM   |29      |        |seaRM     |
-|      5|    52|    21|vanNH   |        |        |vanNH     |
+|      5|    52|    21|seaRM   |        |TO      |seaRM     |
 |      5|    52|    22|seaRM   |20      |PU      |seaRM     |
 |      5|    52|    23|seaRM   |9       |        |seaRM     |
 |      5|    52|    24|seaRM   |17      |        |seaRM     |
@@ -1026,7 +1026,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      6|    55|     6|seaRM   |00      |        |seaRM     |
 |      6|    55|     7|seaRM   |20      |        |seaRM     |
 |      6|    55|     8|vanNH   |24      |D       |seaRM     |
-|      6|    55|     9|seaRM   |        |        |seaRM     |
+|      6|    55|     9|vanNH   |        |TO      |vanNH     |
 |      6|    55|    10|vanNH   |19      |PU      |vanNH     |
 |      6|    55|    11|vanNH   |21      |        |vanNH     |
 |      6|    55|    12|vanNH   |89      |        |vanNH     |
