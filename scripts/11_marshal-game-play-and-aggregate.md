@@ -205,7 +205,7 @@ str(poss_dat)
 ```
 
 ```
-## 'data.frame':	1435 obs. of  16 variables:
+## 'data.frame':	1427 obs. of  16 variables:
 ##  $ game     : Factor w/ 15 levels "2014-04-12_vanNH-at-pdxST",..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ period   : int  1 1 1 1 1 1 1 1 1 1 ...
 ##  $ point    : int  1 1 2 3 4 4 5 6 6 7 ...
@@ -268,9 +268,9 @@ addmargins(with(poss_dat, table(who, score)))
 ```
 ##         score
 ## who      FALSE TRUE  Sum
-##   o_line   558  354  912
-##   d_line   313  210  523
-##   Sum      871  564 1435
+##   o_line   554  354  908
+##   d_line   309  210  519
+##   Sum      863  564 1427
 ```
 
 Harmonize factor levels for `scor_team` with those of other team factor
@@ -283,7 +283,7 @@ str(poss_dat)
 ```
 
 ```
-## 'data.frame':	1435 obs. of  16 variables:
+## 'data.frame':	1427 obs. of  16 variables:
 ##  $ game     : Factor w/ 15 levels "2014-04-12_vanNH-at-pdxST",..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ period   : int  1 1 1 1 1 1 1 1 1 1 ...
 ##  $ point    : int  1 1 2 3 4 4 5 6 6 7 ...
@@ -330,12 +330,12 @@ as.data.frame(table(poss_dat$pl_code, dnn = "a_code"))
 ```
 ##    a_code Freq
 ## 1       G  445
-## 2      TA  318
-## 3       D  274
-## 4      TD  158
+## 2      TA  305
+## 3       D  277
+## 4      TD  159
 ## 5      LG  119
 ## 6     eop   56
-## 7     VTT   22
+## 7     VTT   23
 ## 8     VST   17
 ## 9      HB   16
 ## 10  off F    6
@@ -354,11 +354,11 @@ as.data.frame(table(poss_dat$a_code, dnn = "a_code"))
 ```
 ##   a_code Freq
 ## 1      G  564
-## 2     TA  318
-## 3      D  294
-## 4     TD  158
+## 2     TA  305
+## 3      D  297
+## 4     TD  159
 ## 5    eop   56
-## 6    VTT   22
+## 6    VTT   23
 ## 7    VST   17
 ## 8  off F    6
 ```
@@ -375,8 +375,8 @@ as.data.frame(table(poss_dat$b_code, dnn = "b_code"))
 ```
 ##   b_code Freq
 ## 1      G  564
-## 2  off -  521
-## 3  def +  294
+## 2  off -  510
+## 3  def +  297
 ## 4    eop   56
 ```
 
@@ -548,5 +548,5 @@ message("wrote ", out_file)
 ---
 title: "11_marshal-game-play-and-aggregate.r"
 author: "jenny"
-date: "Thu Jul  3 15:52:29 2014"
+date: "Thu Jul  3 20:36:22 2014"
 ---

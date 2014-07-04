@@ -441,12 +441,6 @@ a_ply(cth_rows, 1, function(i) {
   print(game_play[i + (-2:2), ])
   cat("\n")
 })
-## timeout recorded with no associated number created phantom single event
-## possession for the other team
-# 2014-05-31_vanNH-at-seaRM point 23 event 9 ... naked TO
-# 2014-05-31_vanNH-at-seaRM point 52 event 21 ... naked TO
-# 2014-06-28_vanNH-at-pdxST point 3 event 31 ... naked TO
-# 2014-04-19_sfoDF-at-seaRM point 38 events 9,10 ... naked TO
 
 foo <- subset(poss_ao, where == "alpha" & pl_code == "TO",
               select = -c(who, where))

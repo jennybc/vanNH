@@ -55,7 +55,7 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <div id="header">
 <h1 class="title">11_marshal-game-play-and-aggregate.r</h1>
 <h4 class="author"><em>jenny</em></h4>
-<h4 class="date"><em>Thu Jul 3 15:52:29 2014</em></h4>
+<h4 class="date"><em>Thu Jul 3 20:36:22 2014</em></h4>
 </div>
 
 
@@ -204,7 +204,7 @@ message(&quot;wrote &quot;, out_file)</code></pre>
              score = any(score), scor_team, who)
 })
 str(poss_dat)</code></pre>
-<pre><code>## 'data.frame':    1435 obs. of  16 variables:
+<pre><code>## 'data.frame':    1427 obs. of  16 variables:
 ##  $ game     : Factor w/ 15 levels &quot;2014-04-12_vanNH-at-pdxST&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ period   : int  1 1 1 1 1 1 1 1 1 1 ...
 ##  $ point    : int  1 1 2 3 4 4 5 6 6 7 ...
@@ -246,13 +246,13 @@ str(poss_dat)</code></pre>
 <pre class="r"><code>addmargins(with(poss_dat, table(who, score)))</code></pre>
 <pre><code>##         score
 ## who      FALSE TRUE  Sum
-##   o_line   558  354  912
-##   d_line   313  210  523
-##   Sum      871  564 1435</code></pre>
+##   o_line   554  354  908
+##   d_line   309  210  519
+##   Sum      863  564 1427</code></pre>
 <p>Harmonize factor levels for <code>scor_team</code> with those of other team factor variables.</p>
 <pre class="r"><code>poss_dat &lt;- transform(poss_dat , scor_team = factor(scor_team, levels = jTeams))
 str(poss_dat)</code></pre>
-<pre><code>## 'data.frame':    1435 obs. of  16 variables:
+<pre><code>## 'data.frame':    1427 obs. of  16 variables:
 ##  $ game     : Factor w/ 15 levels &quot;2014-04-12_vanNH-at-pdxST&quot;,..: 1 1 1 1 1 1 1 1 1 1 ...
 ##  $ period   : int  1 1 1 1 1 1 1 1 1 1 ...
 ##  $ point    : int  1 1 2 3 4 4 5 6 6 7 ...
@@ -284,12 +284,12 @@ poss_dat$pl_code &lt;- with(poss_dat, reorder(pl_code, pl_code, neglength))
 as.data.frame(table(poss_dat$pl_code, dnn = &quot;a_code&quot;))</code></pre>
 <pre><code>##    a_code Freq
 ## 1       G  445
-## 2      TA  318
-## 3       D  274
-## 4      TD  158
+## 2      TA  305
+## 3       D  277
+## 4      TD  159
 ## 5      LG  119
 ## 6     eop   56
-## 7     VTT   22
+## 7     VTT   23
 ## 8     VST   17
 ## 9      HB   16
 ## 10  off F    6
@@ -302,11 +302,11 @@ poss_dat$a_code &lt;- with(poss_dat, reorder(a_code, a_code, neglength))
 as.data.frame(table(poss_dat$a_code, dnn = &quot;a_code&quot;))</code></pre>
 <pre><code>##   a_code Freq
 ## 1      G  564
-## 2     TA  318
-## 3      D  294
-## 4     TD  158
+## 2     TA  305
+## 3      D  297
+## 4     TD  159
 ## 5    eop   56
-## 6    VTT   22
+## 6    VTT   23
 ## 7    VST   17
 ## 8  off F    6</code></pre>
 <pre class="r"><code>poss_dat$b_code &lt;- #b_code is the coarsest
@@ -317,8 +317,8 @@ poss_dat$b_code &lt;- with(poss_dat, reorder(b_code, b_code, neglength))
 as.data.frame(table(poss_dat$b_code, dnn = &quot;b_code&quot;))</code></pre>
 <pre><code>##   b_code Freq
 ## 1      G  564
-## 2  off -  521
-## 3  def +  294
+## 2  off -  510
+## 3  def +  297
 ## 4    eop   56</code></pre>
 <p>Write <code>poss_dat</code> to file.</p>
 <pre class="r"><code>out_file &lt;- file.path(out_dir, &quot;2014_west_possessions.rds&quot;)
