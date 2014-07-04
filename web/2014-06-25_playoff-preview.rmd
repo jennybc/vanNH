@@ -55,7 +55,6 @@ y = how a possession ends
   * D = knock down D + interception + hand block + foot block
   * TA = throwaway, i.e. turnover that is neither a drop nor a clear D
   * TD = drop
-  * eop = end of period
   * VTT = violation travel turnover
   * VST = violation stall
   * off F = offensive foul
@@ -85,7 +84,7 @@ The figures below are based on data from the 3 regular season games between the 
 
 ### How possessions end, high-level and by line and by head-to-head game.
 
-OMG the crazy number for our d_line scares me. So much that I am now checking a bunch of things. This seems nutty.
+Check this out: in the 3rd game, which vanNH won, the d_line scored on 78% of its possessions! The extremity of this number made me worried there was an error but so far it holds up and I believe it. FYI, this 78% comes from scoring 7 of 9 possessions, a relatively low number of possessions.
 
 ![Alt text](figs/pp_barchart_how_possessions_end_coarse_by_line_and_poss_team_and_game.png)
 
@@ -94,8 +93,6 @@ OMG the crazy number for our d_line scares me. So much that I am now checking a 
 ![Alt text](figs/pp_barchart_how_possessions_end_detailed_by_poss_team_and_game.png)
 
 ### How possessions end, detailed and by line and by head-to-head game.
-
-OMG the crazy number for our d_line scares me. So much that I am now checking a bunch of things. This seems nutty.
 
 ![Alt text](figs/pp_barchart_how_possessions_end_detailed_by_line_and_poss_team_and_game.png)
 

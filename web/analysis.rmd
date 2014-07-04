@@ -11,7 +11,7 @@ output:
 
 ## Data
 
-The figures below are based on data from all games the Vancouver Nighthawks played in 2014 (10 games) plus an increasing number of the "other" Western Conference games (eventually 10 more games). If you see a game listed [here](index.html), the data is included in these figures. Right now 3 of the 10 "other" games are included.
+The figures below are based on data from all games the Vancouver Nighthawks played in 2014 (10 games) plus an increasing number of the "other" Western Conference games (eventually 10 more games). If you see a game listed [here](index.html), the data is included in these figures. Right now 4 of the 10 "other" games are included.
 
 ## How do possessions end?
 
