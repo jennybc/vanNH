@@ -299,24 +299,21 @@ foo$diff <- with(foo, after_poss - d_poss)
 foo <- arrange(foo, diff, after_code)
 table(foo$diff)
 
-#' Filter out the D's I understand, i.e. those that cause a change of possession and scrutinize what's left.
+#' Filter out the D's I understand, i.e. those that cause a change of possession and scrutinize what's left (if anything).
 
-#+ echo = FALSE
+#+ echo = FALSE, results = 'hide'
 foo <- subset(foo, diff != 1)
-#table(foo$diff)
+table(foo$diff)
 to_examine <- game_play[rep(sort(foo$gprow), each = 5) + -2:2, ]
 
 #+ echo = FALSE
 foo
 
 #+ echo = FALSE, results = 'asis'
-kable(subset(to_examine, select = c(game, point, poss_abs, event, poss_team,
-                                    pl_team, pl_pnum, pl_code, who)))
+if(nrow(to_examine) > 0)
+  kable(subset(to_examine, select = c(game, point, poss_abs, event, poss_team,
+                                      pl_team, pl_pnum, pl_code, who)))
 
-#' I don't feel like watching video right now but I assume all of these are 
-#' examples of the type of D I didn't even know was possible until recently -- a
-#' D that gets credited but does not cause a change of possession.
-#' 
 #' ## Understanding where event codes fall within possessions
 #' 
 #' ### Tabulating the first and last event codes for all possessions
@@ -324,11 +321,11 @@ kable(subset(to_examine, select = c(game, point, poss_abs, event, poss_team,
 #' I ignore pulls, which are an artificial first event for the first possession 
 #' of every point. Having looked at the data, I've also learned to ignore clumps
 #' of subs off and in at the beginning of a possession. The scenario is that 
-#' someone lays out for a successful D but gets injured in the process. The
-#' possession changes, but the first 2 or 4 events are `SO` + `SI`.
-#' Otherwise, I just grab the first ("alpha") and last ("omega") row of game
-#' play for each possession and then cross tabulate `who` (offense vs defense)
-#' and `pl_code`.
+#' someone lays out for a successful D but gets injured in the process. The 
+#' possession changes, but the first 2 or 4 events are `SO` + `SI`. After
+#' ignoring such events at the beginning of a possession, I now grab the first
+#' ("alpha") and last ("omega") row of game play for each possession and cross
+#' tabulate `who` (offense vs defense) and `pl_code`.
 
 #+ echo = FALSE, results = 'hide'
 poss_ao <- ddply(game_play, ~ game + poss_abs, function(x) {
@@ -341,17 +338,52 @@ str(poss_ao)
 #' Here are the results for the first event in a possession:
 #+ echo = FALSE
 with(subset(poss_ao, where == "alpha"), table(pl_code, who))
-#' The only no-brainer code here is a pickup `PU` by the offense. Everything
-#' else needs further examination.
+#' The code I most expect to see here is a pickup `PU` by the offense. The 
+#' timeouts `TO` are also expected. Many timeouts occur immediately after a 
+#' turnover, so the offense can bring on an o_line. For better or worse, the
+#' initial pickup `PU` sometimes doesn't even get recorded (or maybe it doesn't
+#' even occur, if the timeout is called from the sideline?) and the first code 
+#' recorded for the new possession is `TO`. Let's inspect the codes recorded 
+#' just before and just after these `TO`s.
+
+#' #+ echo = FALSE, results = 'hide'
+to <- match_df(game_play,
+               subset(poss_ao, where == "alpha" & pl_code == "TO"))
+length(to_rows <- as.numeric(rownames(to)))
+# a_ply(to_rows, 1, function(i) {
+#   cat("\n")
+#   print(game_play[i + (-2:2), ])
+#   cat("\n")
+# })
+
+with(game_play[to_rows - 1, ], table(who, pl_code))
+with(game_play[to_rows + 1, ], table(who, pl_code))
+
+#' Events that are plausible before a possession-initiating timeout `TO`: a `D` 
+#' or, by the offense, `CTH`, `OV`, `PU`, `TD`. Events that are plausible after 
+#' a possession-initiating timeout `TO`: a pickup `PU` by the offense.
+#' 
+#' Now let's look at possessions that start with `CTH`. Ideally these all
+#' represent interception D's. Here are the codes recorded just before these
+#' possession-initiating `CTH`s.
+
+#' #+ echo = FALSE, results = 'hide'
+cth <- match_df(game_play,
+                subset(poss_ao, where == "alpha" & pl_code == "CTH"))
+length(cth_rows <- as.numeric(rownames(cth)))
+
+with(game_play[cth_rows - 1, ], table(who, pl_code))
+#' All is well if I see only `D`s here. __DONE__ vetting alpha events.
 
 #' Here are the results for the last event in a possession:
 #+ echo = FALSE
 with(subset(poss_ao, where == "omega"), table(pl_code, who))
 #' The most expected outcomes here are a goal `G` by the offense and a `D` by 
 #' the defense. It also makes alot of sense to see a possession end because of a
-#' drop `TD` or travel or stall `OV` by the offense.
+#' drop `TD` or travel or stall `OV` by the offense. I plan to set these aside
+#' and take a closer look at what's left.
 #' 
-#' Before I eliminate these expected results, I also want to look explicitly for
+#' Before I eliminate these expected results, I first want to look explicitly for
 #' possessions where the same event is alpha and omega, i.e. possessions that 
 #' consist of exactly one event. How many possessions are affected and what are 
 #' the event codes for these possessions?
@@ -374,94 +406,70 @@ addmargins(table(poss_ao[alpha_is_omega$ind &
                            poss_ao$where == "omega", "pl_code"]))
 
 #' The code I expected to see here is `PU`, which indicates someone picked up 
-#' and proceeded to throw it away. These will not receive further scrutiny. The
-#' other codes are a bit surprising and will be kept for examination.
+#' and proceeded to throw it away. A `CTH` also makes sense; these are just a special case of the possession-initiating `CTH`s investigated above. As long as these are the only one-event-possession codes, we can move on.
 #' 
 #' Let's eliminate the observations that comply with expectations and then
 #' retabulate.
 
 #+ echo = FALSE
-poss_ao <- subset(poss_ao, !(alpha_is_omega$ind & pl_code == 'PU'))
-poss_ao <- subset(poss_ao, !(where == "alpha" & who == "O" & pl_code == "PU"))
+poss_ao <- subset(poss_ao, !alpha_is_omega$ind)
+poss_ao <- subset(poss_ao, !(where == "alpha"))
 poss_ao <- subset(poss_ao, !(where == "omega" & who == "D" & pl_code == "D"))
 poss_ao <- subset(poss_ao, !(where == "omega" & who == "O" &
                                pl_code %in% c('G', 'OV', 'TD', 'CTH')))
 
-#' Here are the results for the unusual first events in a possession:
-with(subset(poss_ao, where == "alpha"), table(pl_code, who))
-
-#' Here are the results for the unusual last events in a possession:
+#' Here are the updated results for unusual last events in a possession:
 with(subset(poss_ao, where == "omega"), table(pl_code, who))
+
+#' Here's how a possession can end with a pickup: the team on offense calls a
+#' timeout, then they pickup the disc and throw it away. So let's check that all
+#' of our possession-ending `PU`s do indeed follow a timeout `TO`.
+
+#+ echo = FALSE, results = 'hide'
+pu <- match_df(game_play,
+               subset(poss_ao, where == "omega" & pl_code == "PU"))
+length(pu_rows <- as.numeric(rownames(pu)))
+with(game_play[pu_rows - 1, ], table(who, pl_code))
+#' All is well if I see only `TO`s by the offense here.
+ 
+#' Now let's look at possessions that end with a foul on the offense.
+
+off_f <-
+  match_df(game_play,
+           subset(poss_ao, where == "omega" & pl_code == "F" & who == 'O'))
+length(off_f_rows <- as.numeric(rownames(off_f)))
+a_ply(off_f_rows, 1, function(i) {
+  cat("\n")
+  print(game_play[i + (-2:2), ])
+  cat("\n")
+})
+#' Yes, this game play makes sense to me.
+
+#' Now let's look at possessions that end with a foul on the defense.
+def_f <-
+  match_df(game_play,
+           subset(poss_ao, where == "omega" & pl_code == "F" & who == 'D'))
+length(def_f_rows <- as.numeric(rownames(def_f)))
+a_ply(def_f_rows, 1, function(i) {
+  cat("\n")
+  print(game_play[i + (-2:2), ])
+  cat("\n")
+})
+#' I see the defensive foul called on a successful goal from
+#' 2014-04-12_vanNH-at-pdxST point 35. Then I see two instances of offense
+#' having the disc (both `PU`s, although that appears to be a coincidence),
+#' getting fouled by the defense, and then proceeding to throw it away. Yes,
+#' this game play makes sense to me.
+#' 
+#' __DONE__ vetting alpha and omega events.
 
 #+ echo = FALSE, results = 'hide'
 ## these are ad hoc looks that helped me resolve all sorts of things; I expect
-## they'll be useful again as I ingest more data
+## they might be useful again as I ingest more data
 subset(poss_ao, where == "alpha" & who == "D")
 subset(poss_ao, where == "alpha" & pl_code == "OV")
 subset(poss_ao, where == "alpha" & pl_code == "TD")
 subset(poss_ao, where == "alpha" & pl_code == "SO")
-
-#+ echo = FALSE, results = 'hide'
-## this shows me possessions that start with a TO
-## they are all legit
-## technically, here's how it should probably be recorded: instead of `8TO`, it
-## would be better to have `8PU` then `8TO` or just `TO`
-## for now, I'll just tolerate this. should we change how we enter data? should
-## I change clean and expand to do this?
-to <- match_df(game_play,
-               subset(poss_ao, where == "alpha" & pl_code == "TO"))
-to_rows <- as.numeric(rownames(to))
-a_ply(to_rows, 1, function(i) {
-  cat("\n")
-  print(game_play[i + (-2:2), ])
-  cat("\n")
-  })
-## summary of what I've seen, where "|" signals the change of possession
-## TD | TO, PU, CTH | TO, PU, OV | TO, PU, D | TO, PU, PU | TO, PU
-
-#+ echo = FALSE, results = 'hide'
-## this shows me possessions that start with a CTH
-cth <- match_df(game_play,
-                subset(poss_ao, where == "alpha" & pl_code == "CTH"))
-length(cth_rows <- as.numeric(rownames(cth)))
-## determine which of these possession-initiating CTH's are perfectly recorded
-## interception D's
-cth_is_int_d <- aaply(cth_rows, 1, function(i) {
-  with(game_play, pl_team[i - 1] == pl_team[i] &
-         pl_pnum[i - 1] == pl_pnum[i] &
-         pl_code[i - 1] == 'D' &
-         pl_code[i] == 'CTH')
-})
-table(cth_is_int_d)
-nrow(cth <- cth[!cth_is_int_d, ])
-length(cth_rows <- cth_rows[!cth_is_int_d])
-## we need to look at these
-a_ply(cth_rows, 1, function(i) {
-  cat("\n")
-  print(game_play[i + (-2:2), ])
-  cat("\n")
-})
-
-foo <- subset(poss_ao, where == "alpha" & pl_code == "TO",
-              select = -c(who, where))
-rownames(merge(game_play, foo))
-
-subset(game_play, game == "2014-04-20_sfoDF-at-vanNH" & point == 33)
-
-#' At the beginning or a possession, ignore pulls, subs off, subs in.
-
-#' #### Possessions that end with a pickup by the offense
-inspect_me <-
-  with(poss_ao, which(where == "omega" & who == "O" & pl_code == "PU"))
-poss_ao[head(inspect_me), c('game', 'poss_abs')]
-#                          game poss_abs
-# 34  2014-04-12_vanNH-at-pdxST       17
-# 220 2014-04-20_sfoDF-at-vanNH       28
-# 410 2014-04-26_vanNH-at-seaRM       24
-# 428 2014-04-26_vanNH-at-seaRM       33
-# 534 2014-04-26_vanNH-at-seaRM       86
-# 670 2014-05-10_seaRM-at-vanNH       68
-subset(game_play, game == "2014-04-12_vanNH-at-pdxST" & point == 13)
 
 #' ## Summary of what I've learned
 #' 
