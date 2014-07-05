@@ -13,7 +13,7 @@ Offense	Defense
 89	
 	23d
 	23
-	34PU
+	34
 	23
 	34
 	23TD
