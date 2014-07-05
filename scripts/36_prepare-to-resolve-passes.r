@@ -142,6 +142,15 @@ code_who_freq <- arrange(code_who_freq, pl_code)
 #+ code-who-freq-table-again, results = 'asis', echo = FALSE
 kable(code_who_freq)
 
+#' ### Review codes usage for offense vs. defense
+#' 
+#' There are certain codes that are only used for the offense:
+o_codes
+#' There are certain codes that are only used for the defense:
+d_codes
+#' There are codes used for both the offense and the defense:
+setdiff(unique(game_play$pl_code),union(o_codes, d_codes))
+
 #' ## Data quality and self-consistency: adjacent event codes
 #' 
 #' ### Are pulls always followed by pick-ups?
@@ -476,55 +485,40 @@ subset(poss_ao, where == "alpha" & pl_code == "OV")
 subset(poss_ao, where == "alpha" & pl_code == "TD")
 subset(poss_ao, where == "alpha" & pl_code == "SO")
 
-#' ## Summary of what I've learned
-#' 
-#' There are certain codes that are only used for the offense:
-o_codes
-#' There are certain codes that are only used for the defense:
-d_codes
-#' There are codes used for both the offense and the defense:
-setdiff(unique(game_play$pl_code),union(o_codes, d_codes))
-
-#' 
-#' Do possessions always start with a pickup? No.
-#' 
-#' Do pickups always start a new possession? No.
-#' 
-#'    always the first event in a possession?
-
-
 #' ## Frequency of adjacent event code pairs
-#' 
-#' In order to develop the pass-resolving logic, I want to study the frequency of these code pairs for adjacent events. I will only look at adjacent events *within a possession*, so the number of these pairs will be smaller than the total number of events minus 1. The number of pairs is, in fact, `nrow(hap_dat)`.
-
-#+ form-hap-freq, echo = FALSE, results = 'hide'
-#hap_freq <- as.data.frame(table(hap_dat$hap, dnn = "hap"))
-#str(hap_freq)
-#n_pl_code <- length(unique(game_play$pl_code))
-
-#'   
-#'     although most apply o and the code could be providing information about the offense or the defense (), so, in theory, there are `n_pl_code^2` possibilities for the codes.
 
 #+ form-hap, echo = FALSE, results = 'hide'
-# x <- subset(game_play, game == "2014-06-28_vanNH-at-pdxST" & point == 2 &
-#               poss_rel == 1)
-# hap_dat <- ddply(game_play, ~ game + poss_abs, function(x) {
-#   n <- nrow(x)
-#   x$hap <- with(x, paste(ifelse(poss_team == pl_team, 'O', 'D'),
-#                          ifelse(pl_code == '', '*', pl_code), sep = "-"))
-#   data.frame(with(x, data.frame(hap = paste(hap[-n], hap[-1]))))
-# })
-#str(hap_dat)
+hap_dat <- ddply(game_play, ~ game + poss_abs, function(x) {
+  alpha_row <- min(which(!(x$pl_code %in% c('P', 'SO', 'SI', 'TO'))))
+  omega_row <- max(which(!(x$pl_code %in% c('F'))))
+  y <- x[alpha_row:omega_row, ]
+  n <- nrow(y)
+  y <- mutate(y, hap = paste(ifelse(poss_team == pl_team, 'O', 'D'),
+                             pl_code, sep = "-"))
+  data.frame(with(y, data.frame(hap = paste(hap[-n], hap[-1]))))
+})
+str(hap_dat)
+  
+#+ form-hap-freq, echo = FALSE, results = 'hide'
+hap_freq <- as.data.frame(table(hap_dat$hap, dnn = "hap"))
+str(hap_freq)
+(n_pl_code <- length(unique(game_play$pl_code)))
+
+#' In order to develop the pass-resolving logic, I want to compute the frequency of code pairs for adjacent events. I will only look at adjacent events *within a possession*, so the number of these pairs will be smaller than the total number of events minus 1. The number of pairs is, in fact, `nrow(hap_dat)`.
 
 
-# hap_freq <- mutate(hap_freq, hap = reorder(hap, -1 * Freq))
-# hap_freq <- arrange(hap_freq, hap)
-# str(hap_freq)
-# head(hap_freq)
-# 
-# p <- ggplot(hap_freq, aes(x = hap, y = Freq))
-# p + geom_bar(stat = "identity")
-# 
+#'     although most apply o and the code could be providing information about the offense or the defense (), so, in theory, there are `n_pl_code^2` possibilities for the codes.
+
+
+
+hap_freq <- mutate(hap_freq, hap = reorder(hap, Freq))
+hap_freq <- arrange(hap_freq, hap)
+str(hap_freq)
+head(hap_freq)
+
+p <- ggplot(subset(hap_freq, Freq > 10), aes(x = hap, y = Freq))
+p + geom_bar(stat = "identity") + coord_flip()
+
 
 ## could an event be the beginning or end of a pass?
 # pass_beg <- with(x, pl_code %in% c('PU', '', 'A', 'PUA', 'L'))
