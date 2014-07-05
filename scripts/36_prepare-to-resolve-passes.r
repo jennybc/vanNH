@@ -346,7 +346,7 @@ with(subset(poss_ao, where == "alpha"), table(pl_code, who))
 #' recorded for the new possession is `TO`. Let's inspect the codes recorded 
 #' just before and just after these `TO`s.
 
-#' #+ echo = FALSE, results = 'hide'
+#+ echo = FALSE, results = 'hide', message = FALSE
 to <- match_df(game_play,
                subset(poss_ao, where == "alpha" & pl_code == "TO"))
 length(to_rows <- as.numeric(rownames(to)))
@@ -356,6 +356,7 @@ length(to_rows <- as.numeric(rownames(to)))
 #   cat("\n")
 # })
 
+#+ echo = TRUE
 with(game_play[to_rows - 1, ], table(who, pl_code))
 with(game_play[to_rows + 1, ], table(who, pl_code))
 
@@ -367,7 +368,7 @@ with(game_play[to_rows + 1, ], table(who, pl_code))
 #' represent interception D's. Here are the codes recorded just before these
 #' possession-initiating `CTH`s.
 
-#' #+ echo = FALSE, results = 'hide'
+#+ echo = FALSE, message = FALSE
 cth <- match_df(game_play,
                 subset(poss_ao, where == "alpha" & pl_code == "CTH"))
 length(cth_rows <- as.numeric(rownames(cth)))
@@ -402,6 +403,7 @@ str(alpha_is_omega)
 table(alpha_is_omega$ind)
 poss_ao[head(which(alpha_is_omega$ind)), ]
 
+#+ echo = FALSE
 addmargins(table(poss_ao[alpha_is_omega$ind &
                            poss_ao$where == "omega", "pl_code"]))
 
@@ -425,15 +427,17 @@ with(subset(poss_ao, where == "omega"), table(pl_code, who))
 #' timeout, then they pickup the disc and throw it away. So let's check that all
 #' of our possession-ending `PU`s do indeed follow a timeout `TO`.
 
-#+ echo = FALSE, results = 'hide'
+#+ echo = FALSE, results = 'hide', message = FALSE
 pu <- match_df(game_play,
                subset(poss_ao, where == "omega" & pl_code == "PU"))
 length(pu_rows <- as.numeric(rownames(pu)))
+
+#+ echo = FALSE, message = FALSE
 with(game_play[pu_rows - 1, ], table(who, pl_code))
 #' All is well if I see only `TO`s by the offense here.
  
 #' Now let's look at possessions that end with a foul on the offense.
-
+#+ echo = FALSE, message = FALSE
 off_f <-
   match_df(game_play,
            subset(poss_ao, where == "omega" & pl_code == "F" & who == 'O'))
@@ -446,6 +450,7 @@ a_ply(off_f_rows, 1, function(i) {
 #' Yes, this game play makes sense to me.
 
 #' Now let's look at possessions that end with a foul on the defense.
+#+ echo = FALSE, message = FALSE
 def_f <-
   match_df(game_play,
            subset(poss_ao, where == "omega" & pl_code == "F" & who == 'D'))
@@ -456,8 +461,8 @@ a_ply(def_f_rows, 1, function(i) {
   cat("\n")
 })
 #' I see the defensive foul called on a successful goal from
-#' 2014-04-12_vanNH-at-pdxST point 35. Then I see two instances of offense
-#' having the disc (both `PU`s, although that appears to be a coincidence),
+#' 2014-04-12_vanNH-at-pdxST point 35. Then I see three instances of offense
+#' having the disc (two are `PU`s, although that appears to be a coincidence),
 #' getting fouled by the defense, and then proceeding to throw it away. Yes,
 #' this game play makes sense to me.
 #' 
