@@ -31,7 +31,8 @@ game_ids <-
     "2014-05-04_sfoDF-at-seaRM")
 game_ids <- matrix(game_ids, ncol = 2, byrow = TRUE)
 
-make_pre <- 'make r_bits'
+#make_pre <- 'make r_bits'
+make_pre <- 'make clean_game'
 #make_pre <- 'make clean_resolve'
 #make_pre <- 'make resolve_game'
 make_args <- paste0("GOOGAME='\"", game_ids[,1], "\"' GAME=", game_ids[,2])

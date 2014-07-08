@@ -18,7 +18,7 @@ google_files <- list.files(google_dir, full.names = TRUE)
 nPoints <- length(google_files)
 message(nPoints, " point files found\n")
 
-## function imports data for a point -- gameplay and point-level info
+## function imports data for a point -- both gameplay and point-level info
 jFun <- function(point) {
   point_string <- sprintf("%02d", point)
   point_file <- grep(paste0("point", point_string), google_files, value = TRUE)
@@ -36,7 +36,7 @@ game_play <- rename(game_play, c("X1" = "point"))
 game_play$point <- as.integer(game_play$point)
 # str(game_play) # 'data.frame':  ? obs. of  3 variables: point, Offense, Defense
 
-## concatenate point data across all points
+## concatenate point-level info across all points
 point_info <-
   ldply(rawData, function(x) data.frame(x$point_info, stringsAsFactors = FALSE))
 point_info <- rename(point_info, c("X1" = "point"))

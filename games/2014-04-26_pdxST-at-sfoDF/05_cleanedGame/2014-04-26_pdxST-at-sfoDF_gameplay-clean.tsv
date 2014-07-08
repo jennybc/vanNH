@@ -1,4 +1,4 @@
-point	event	pullNum	pullCode	recvNum	recvCode
+point	event	pull_pnum	pull_code	recv_pnum	recv_code
 1	1	16	P		
 1	2			10	PU
 1	3			24	
