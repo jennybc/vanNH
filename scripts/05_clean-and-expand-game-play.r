@@ -125,10 +125,9 @@ message("  found ", length(fix_me),
 ## split double game play rows into two separate rows
 ## the only tricky thing is deciding the order
 ## big picture: try to keep the O play first, D play second
+offense_codes <- c('', 'PU', 'L', 'G', 'LG', 'TO', 'LTO')
+foul_codes <- c('F', 'VP')
 jFun <- function(x) {
-  offense_codes <- c('', 'PU', 'L', 'G', 'LG', 'TO', 'LTO')
-  foul_codes <- c('F', 'VP')
-  sub_codes <- c('SO', 'SI')
   fix_me <- find_double_game_plays(x)
   needs_fix <- length(fix_me) > 0
   while(needs_fix) {
@@ -136,8 +135,7 @@ jFun <- function(x) {
     codes <- c(recv_code = x[fix_this, "recv_code"],
                pull_code = x[fix_this, "pull_code"])
     
-    ## most common situation: one code is from offense_codes, other from
-    ## foul_codes
+    ## typical: one offense_code + one foul_code
     if(all(codes %in% offense_codes == !(codes %in% foul_codes))) {
       if(names(codes)[codes %in% offense_codes] == "recv_code") {
         jOrder <- c("recv", "pull")
@@ -150,11 +148,11 @@ jFun <- function(x) {
       }
     } else { # just pick an order
       jOrder <- c("pull", "recv")
-      if(!all(grepl("S[OI]+", codes))) {
-        message(paste("Row", fix_this, "of point", x$point[1],
-                      "indicates events for both teams\n, but it's a novel code",
-                      "combination. LOOK AT THIS DATA!"))
-        print(x[fix_this + (-1:1), ])
+      if(!all(grepl("S[OI]+", codes))) { # raise an alert if NOT all subs in/out
+        message("Row ", fix_this, " of point", x$point[1],
+                " indicates events for both teams\n, but it's a novel code",
+                " combination. LOOK AT THIS DATA!")
+         print(x[fix_this + (-1:1), ])
       }      
     }
     
