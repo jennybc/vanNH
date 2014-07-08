@@ -506,11 +506,6 @@ str(hap_freq)
 
 #' In order to develop the pass-resolving logic, I want to compute the frequency of code pairs for adjacent events. I will only look at adjacent events *within a possession*, so the number of these pairs will be smaller than the total number of events minus 1. The number of pairs is, in fact, `nrow(hap_dat)`.
 
-
-#'     although most apply o and the code could be providing information about the offense or the defense (), so, in theory, there are `n_pl_code^2` possibilities for the codes.
-
-
-
 hap_freq <- mutate(hap_freq, hap = reorder(hap, Freq))
 hap_freq <- arrange(hap_freq, hap)
 str(hap_freq)
@@ -519,8 +514,35 @@ head(hap_freq)
 p <- ggplot(subset(hap_freq, Freq > 10), aes(x = hap, y = Freq))
 p + geom_bar(stat = "identity") + coord_flip()
 
+## one-off: I wrote these adjacent code pairs to tsv to seed a table for
+## perusal
+write.table(hap_freq, file.path("..", "data", "2014_mlu-code-pairs.tsv"),
+            quote = FALSE, sep = "\t", row.names = FALSE)
 
-## could an event be the beginning or end of a pass?
-# pass_beg <- with(x, pl_code %in% c('PU', '', 'A', 'PUA', 'L'))
-# pass_end <- with(x, pl_code %in% c('', 'L', 'A', 'AL', 'LA', 'G', 'LG', 'TD'))
-# data.frame(x, pass_beg, pass_end)
+#' ### Back to game play
+#' 
+#' I want to add info to game play
+#+ echo = FALSE, results = 'hide'
+game_play <-
+  within(game_play, {
+    is_alpha <- pl_code %in% c("CTH", "PU")
+    is_omega <- pl_code %in% c("CTH", "D", "G", "TD", "OV")
+    e_code <- paste(who, pl_code, sep = "-")
+  })
+str(game_play)
+
+source("50_pass-resolve-script.r")
+x <- subset(game_play, game == "2014-04-20_sfoDF-at-vanNH" & poss_abs == 23)
+x
+foo <- resolve_passes(x)
+foo
+
+foo <- ddply(subset(game_play, game == "2014-04-20_sfoDF-at-vanNH"),
+             ~ game + poss_abs, resolve_passes)
+subset(foo, select = -c(game))
+str(foo)
+
+foo <- ddply(game_play, ~ game + poss_abs, resolve_passes)
+str(foo)
+
+with(foo, table(n_inn, desc))
