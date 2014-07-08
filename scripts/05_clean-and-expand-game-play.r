@@ -188,7 +188,8 @@ the_vars <-
   c('point', 'event', 'pull_pnum', 'pull_code', 'recv_pnum', 'recv_code')
 game_play <- game_play[the_vars]
 
-message("  ", nrow(game_play), " rows of clean game play will be written\n")
+message("  ", nrow(game_play), " rows of clean game play will be written")
+message("  ", Sys.time(), "\n")
 
 out_dir <- file.path("..", "games", game, "05_cleanedGame")
 if(!file.exists(out_dir)) dir.create(out_dir)

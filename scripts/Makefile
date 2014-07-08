@@ -88,7 +88,7 @@ clean_clean:
 	rm -rf ../games/$(GAME)/05_cleanedGame/*
 
 clean_game: 05_clean-and-expand-game-play.r
-	@Rscript ./05_clean-and-expand-game-play.r $(GAME)
+	@Rscript ./05_clean-and-expand-game-play.r $(GAME) 2>&1 | tee ../games/$(GAME)/05_cleanedGame/$(GAME)_gameplay-clean-log.txt
 
 clean_resolve:
 	rm -rf ../games/$(GAME)/07_resolvedGame/*
