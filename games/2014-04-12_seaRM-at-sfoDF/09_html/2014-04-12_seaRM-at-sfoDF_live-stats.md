@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Wed Jul  9 12:21:17 2014
+#### last update Wed Jul  9 13:09:53 2014
 # seaRM 16
 # sfoDF 18
 ## game is complete
@@ -124,694 +124,694 @@ stats are cumulative for this game
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 
 
-| point| period|pull_team | event|pl_team |pl_pnum |pl_code |poss_team |pl_lname      |player                 | seaRM| sfoDF|
-|-----:|------:|:---------|-----:|:-------|:-------|:-------|:---------|:-------------|:----------------------|-----:|-----:|
-|     1|      1|sfoDF     |     4|seaRM   |20      |A       |seaRM     |simon         |seaRM-20-simon         |     1|     0|
-|     1|      1|sfoDF     |     5|seaRM   |48      |LG      |seaRM     |clark         |seaRM-48-clark         |     1|     0|
-|     2|      1|seaRM     |     8|seaRM   |29      |PUA     |seaRM     |feeley        |seaRM-29-feeley        |     2|     0|
-|     2|      1|seaRM     |     9|seaRM   |9       |G       |seaRM     |harkness      |seaRM-9-harkness       |     2|     0|
-|     3|      1|seaRM     |     4|sfoDF   |34      |A       |sfoDF     |Boucher       |sfoDF-34-Boucher       |     2|     1|
-|     3|      1|seaRM     |     5|sfoDF   |40      |G       |sfoDF     |Taylor        |sfoDF-40-Taylor        |     2|     1|
-|     4|      1|sfoDF     |    17|seaRM   |18      |A       |seaRM     |uhrig-fox     |seaRM-18-uhrig-fox     |     3|     1|
-|     4|      1|sfoDF     |    18|seaRM   |6       |G       |seaRM     |trytiak       |seaRM-6-trytiak        |     3|     1|
-|     5|      1|seaRM     |     8|seaRM   |28      |D       |sfoDF     |linn          |seaRM-28-linn          |     3|     2|
-|     5|      1|seaRM     |    14|sfoDF   |34      |D       |seaRM     |Boucher       |sfoDF-34-Boucher       |     3|     2|
-|     5|      1|seaRM     |    26|sfoDF   |23      |A       |sfoDF     |Jeffery       |sfoDF-23-Jeffery       |     3|     2|
-|     5|      1|seaRM     |    27|sfoDF   |34      |G       |sfoDF     |Boucher       |sfoDF-34-Boucher       |     3|     2|
-|     6|      1|sfoDF     |    12|seaRM   |3       |D       |sfoDF     |o'brien       |seaRM-3-o'brien        |     3|     3|
-|     6|      1|sfoDF     |    22|sfoDF   |12      |A       |sfoDF     |Bellinger     |sfoDF-12-Bellinger     |     3|     3|
-|     6|      1|sfoDF     |    23|sfoDF   |18      |G       |sfoDF     |Weaver        |sfoDF-18-Weaver        |     3|     3|
-|     7|      1|sfoDF     |     7|seaRM   |9       |A       |seaRM     |harkness      |seaRM-9-harkness       |     4|     3|
-|     7|      1|sfoDF     |     8|seaRM   |1       |G       |seaRM     |mckibben      |seaRM-1-mckibben       |     4|     3|
-|     8|      1|seaRM     |     8|sfoDF   |13      |A       |sfoDF     |Grant         |sfoDF-13-Grant         |     4|     4|
-|     8|      1|seaRM     |     9|sfoDF   |34      |G       |sfoDF     |Boucher       |sfoDF-34-Boucher       |     4|     4|
-|     9|      1|sfoDF     |     4|sfoDF   |46      |D       |seaRM     |McCarty       |sfoDF-46-McCarty       |     5|     4|
-|     9|      1|sfoDF     |    29|seaRM   |6       |A       |seaRM     |trytiak       |seaRM-6-trytiak        |     5|     4|
-|     9|      1|sfoDF     |    30|seaRM   |48      |G       |seaRM     |clark         |seaRM-48-clark         |     5|     4|
-|    10|      1|seaRM     |     6|seaRM   |21      |HB      |sfoDF     |phan          |seaRM-21-phan          |     6|     4|
-|    10|      1|seaRM     |     8|seaRM   |3       |PUA     |seaRM     |o'brien       |seaRM-3-o'brien        |     6|     4|
-|    10|      1|seaRM     |     9|seaRM   |9       |G       |seaRM     |harkness      |seaRM-9-harkness       |     6|     4|
-|    11|      1|seaRM     |    NA|NA      |NA      |NA      |NA        |NA            |NA-NA-NA               |     6|     4|
-|    12|      2|sfoDF     |     6|sfoDF   |17      |A       |sfoDF     |Boyd-Meredith |sfoDF-17-Boyd-Meredith |     6|     5|
-|    12|      2|sfoDF     |     7|sfoDF   |12      |G       |sfoDF     |Bellinger     |sfoDF-12-Bellinger     |     6|     5|
-|    13|      2|sfoDF     |    18|seaRM   |6       |A       |seaRM     |trytiak       |seaRM-6-trytiak        |     7|     5|
-|    13|      2|sfoDF     |    19|seaRM   |48      |G       |seaRM     |clark         |seaRM-48-clark         |     7|     5|
-|    14|      2|seaRM     |     7|sfoDF   |40      |A       |sfoDF     |Taylor        |sfoDF-40-Taylor        |     7|     6|
-|    14|      2|seaRM     |     8|sfoDF   |8       |G       |sfoDF     |Pollard       |sfoDF-8-Pollard        |     7|     6|
-|    15|      2|sfoDF     |    15|seaRM   |48      |D       |sfoDF     |clark         |seaRM-48-clark         |     7|     7|
-|    15|      2|sfoDF     |    26|sfoDF   |34      |A       |sfoDF     |Boucher       |sfoDF-34-Boucher       |     7|     7|
-|    15|      2|sfoDF     |    27|sfoDF   |88      |G       |sfoDF     |Kissmann      |sfoDF-88-Kissmann      |     7|     7|
-|    16|      2|sfoDF     |    21|sfoDF   |18      |A       |sfoDF     |Weaver        |sfoDF-18-Weaver        |     7|     8|
-|    16|      2|sfoDF     |    22|sfoDF   |85      |G       |sfoDF     |Brydon        |sfoDF-85-Brydon        |     7|     8|
-|    17|      2|sfoDF     |    11|seaRM   |6       |A       |seaRM     |trytiak       |seaRM-6-trytiak        |     8|     8|
-|    17|      2|sfoDF     |    12|seaRM   |9       |LG      |seaRM     |harkness      |seaRM-9-harkness       |     8|     8|
-|    18|      2|seaRM     |     7|seaRM   |35      |D       |sfoDF     |koss          |seaRM-35-koss          |     8|     9|
-|    18|      2|seaRM     |    12|sfoDF   |40      |A       |sfoDF     |Taylor        |sfoDF-40-Taylor        |     8|     9|
-|    18|      2|seaRM     |    13|sfoDF   |24      |G       |sfoDF     |Caulfield     |sfoDF-24-Caulfield     |     8|     9|
-|    19|      2|sfoDF     |     4|seaRM   |6       |A       |seaRM     |trytiak       |seaRM-6-trytiak        |     9|     9|
-|    19|      2|sfoDF     |     5|seaRM   |17      |G       |seaRM     |zemel         |seaRM-17-zemel         |     9|     9|
-|    20|      2|seaRM     |    11|sfoDF   |34      |A       |sfoDF     |Boucher       |sfoDF-34-Boucher       |     9|    10|
-|    20|      2|seaRM     |    12|sfoDF   |8       |G       |sfoDF     |Pollard       |sfoDF-8-Pollard        |     9|    10|
-|    21|      2|sfoDF     |     9|seaRM   |35      |PUA     |seaRM     |koss          |seaRM-35-koss          |    10|    10|
-|    21|      2|sfoDF     |    10|seaRM   |9       |G       |seaRM     |harkness      |seaRM-9-harkness       |    10|    10|
-|    22|      2|seaRM     |    NA|NA      |NA      |NA      |NA        |NA            |NA-NA-NA               |    10|    10|
-|    23|      3|sfoDF     |     7|sfoDF   |37      |D       |seaRM     |Hart          |sfoDF-37-Hart          |    10|    11|
-|    23|      3|sfoDF     |    16|sfoDF   |85      |D       |seaRM     |Brydon        |sfoDF-85-Brydon        |    10|    11|
-|    23|      3|sfoDF     |    19|sfoDF   |37      |A       |sfoDF     |Hart          |sfoDF-37-Hart          |    10|    11|
-|    23|      3|sfoDF     |    20|sfoDF   |10      |G       |sfoDF     |Sugioka       |sfoDF-10-Sugioka       |    10|    11|
-|    24|      3|sfoDF     |     7|seaRM   |1       |A       |seaRM     |mckibben      |seaRM-1-mckibben       |    11|    11|
-|    24|      3|sfoDF     |     8|seaRM   |48      |G       |seaRM     |clark         |seaRM-48-clark         |    11|    11|
-|    25|      3|seaRM     |     9|seaRM   |21      |A       |seaRM     |phan          |seaRM-21-phan          |    12|    11|
-|    25|      3|seaRM     |    10|seaRM   |29      |G       |seaRM     |feeley        |seaRM-29-feeley        |    12|    11|
-|    26|      3|seaRM     |    12|seaRM   |35      |PUA     |seaRM     |koss          |seaRM-35-koss          |    13|    11|
-|    26|      3|seaRM     |    13|seaRM   |48      |LG      |seaRM     |clark         |seaRM-48-clark         |    13|    11|
-|    27|      3|seaRM     |     9|seaRM   |29      |A       |seaRM     |feeley        |seaRM-29-feeley        |    14|    11|
-|    27|      3|seaRM     |    10|seaRM   |35      |G       |seaRM     |koss          |seaRM-35-koss          |    14|    11|
-|    28|      3|seaRM     |     8|sfoDF   |11      |A       |sfoDF     |Lee           |sfoDF-11-Lee           |    14|    12|
-|    28|      3|seaRM     |     9|sfoDF   |5       |G       |sfoDF     |Cascino       |sfoDF-5-Cascino        |    14|    12|
-|    29|      3|sfoDF     |     9|seaRM   |15      |D       |sfoDF     |beehner       |seaRM-15-beehner       |    14|    13|
-|    29|      3|sfoDF     |    28|sfoDF   |12      |A       |sfoDF     |Bellinger     |sfoDF-12-Bellinger     |    14|    13|
-|    29|      3|sfoDF     |    29|sfoDF   |37      |G       |sfoDF     |Hart          |sfoDF-37-Hart          |    14|    13|
-|    30|      3|sfoDF     |    13|seaRM   |9       |A       |seaRM     |harkness      |seaRM-9-harkness       |    15|    13|
-|    30|      3|sfoDF     |    14|seaRM   |48      |G       |seaRM     |clark         |seaRM-48-clark         |    15|    13|
-|    31|      3|seaRM     |     5|seaRM   |35      |D       |sfoDF     |koss          |seaRM-35-koss          |    15|    14|
-|    31|      3|seaRM     |    18|sfoDF   |11      |A       |sfoDF     |Lee           |sfoDF-11-Lee           |    15|    14|
-|    31|      3|seaRM     |    19|sfoDF   |5       |G       |sfoDF     |Cascino       |sfoDF-5-Cascino        |    15|    14|
-|    32|      3|sfoDF     |     5|sfoDF   |46      |D       |seaRM     |McCarty       |sfoDF-46-McCarty       |    15|    15|
-|    32|      3|sfoDF     |    10|sfoDF   |12      |A       |sfoDF     |Bellinger     |sfoDF-12-Bellinger     |    15|    15|
-|    32|      3|sfoDF     |    11|sfoDF   |17      |G       |sfoDF     |Boyd-Meredith |sfoDF-17-Boyd-Meredith |    15|    15|
-|    33|      3|sfoDF     |     8|sfoDF   |83      |D       |seaRM     |Husak         |sfoDF-83-Husak         |    15|    16|
-|    33|      3|sfoDF     |    11|sfoDF   |16      |A       |sfoDF     |Yeager        |sfoDF-16-Yeager        |    15|    16|
-|    33|      3|sfoDF     |    12|sfoDF   |2       |LG      |sfoDF     |Adamson       |sfoDF-2-Adamson        |    15|    16|
-|    34|      3|sfoDF     |    NA|NA      |NA      |NA      |NA        |NA            |NA-NA-NA               |    15|    16|
-|    35|      4|sfoDF     |    13|sfoDF   |10      |D       |seaRM     |Sugioka       |sfoDF-10-Sugioka       |    16|    16|
-|    35|      4|sfoDF     |    17|seaRM   |20      |D       |sfoDF     |simon         |seaRM-20-simon         |    16|    16|
-|    35|      4|sfoDF     |    23|seaRM   |6       |D       |sfoDF     |trytiak       |seaRM-6-trytiak        |    16|    16|
-|    35|      4|sfoDF     |    33|seaRM   |20      |PUA     |seaRM     |simon         |seaRM-20-simon         |    16|    16|
-|    35|      4|sfoDF     |    34|seaRM   |9       |G       |seaRM     |harkness      |seaRM-9-harkness       |    16|    16|
-|    36|      4|seaRM     |    27|seaRM   |3       |D       |sfoDF     |o'brien       |seaRM-3-o'brien        |    16|    17|
-|    36|      4|seaRM     |    29|sfoDF   |5       |HB      |seaRM     |Cascino       |sfoDF-5-Cascino        |    16|    17|
-|    36|      4|seaRM     |    31|seaRM   |9       |D       |sfoDF     |harkness      |seaRM-9-harkness       |    16|    17|
-|    36|      4|seaRM     |    50|sfoDF   |23      |PUA     |sfoDF     |Jeffery       |sfoDF-23-Jeffery       |    16|    17|
-|    36|      4|seaRM     |    51|sfoDF   |13      |G       |sfoDF     |Grant         |sfoDF-13-Grant         |    16|    17|
-|    37|      4|sfoDF     |    13|sfoDF   |85      |D       |seaRM     |Brydon        |sfoDF-85-Brydon        |    16|    18|
-|    37|      4|sfoDF     |    16|sfoDF   |37      |A       |sfoDF     |Hart          |sfoDF-37-Hart          |    16|    18|
-|    37|      4|sfoDF     |    17|sfoDF   |12      |G       |sfoDF     |Bellinger     |sfoDF-12-Bellinger     |    16|    18|
-|    38|      4|sfoDF     |     6|sfoDF   |2       |D       |seaRM     |Adamson       |sfoDF-2-Adamson        |    16|    18|
+| point| period|pull_team | event| poss_abs| poss_rel|poss_team |pl_team |pl_pnum |pl_code |pl_lname      |player                 | seaRM| sfoDF|
+|-----:|------:|:---------|-----:|--------:|--------:|:---------|:-------|:-------|:-------|:-------------|:----------------------|-----:|-----:|
+|     1|      1|sfoDF     |     4|        1|        1|seaRM     |seaRM   |20      |A       |simon         |seaRM-20-simon         |     1|     0|
+|     1|      1|sfoDF     |     5|        1|        1|seaRM     |seaRM   |48      |LG      |clark         |seaRM-48-clark         |     1|     0|
+|     2|      1|seaRM     |     8|        3|        2|seaRM     |seaRM   |29      |PUA     |feeley        |seaRM-29-feeley        |     2|     0|
+|     2|      1|seaRM     |     9|        3|        2|seaRM     |seaRM   |9       |G       |harkness      |seaRM-9-harkness       |     2|     0|
+|     3|      1|seaRM     |     4|        4|        1|sfoDF     |sfoDF   |34      |A       |Boucher       |sfoDF-34-Boucher       |     2|     1|
+|     3|      1|seaRM     |     5|        4|        1|sfoDF     |sfoDF   |40      |G       |Taylor        |sfoDF-40-Taylor        |     2|     1|
+|     4|      1|sfoDF     |    17|        7|        3|seaRM     |seaRM   |18      |A       |uhrig-fox     |seaRM-18-uhrig-fox     |     3|     1|
+|     4|      1|sfoDF     |    18|        7|        3|seaRM     |seaRM   |6       |G       |trytiak       |seaRM-6-trytiak        |     3|     1|
+|     5|      1|seaRM     |     8|        8|        1|sfoDF     |seaRM   |28      |D       |linn          |seaRM-28-linn          |     3|     2|
+|     5|      1|seaRM     |    14|        9|        2|seaRM     |sfoDF   |34      |D       |Boucher       |sfoDF-34-Boucher       |     3|     2|
+|     5|      1|seaRM     |    26|       10|        3|sfoDF     |sfoDF   |23      |A       |Jeffery       |sfoDF-23-Jeffery       |     3|     2|
+|     5|      1|seaRM     |    27|       10|        3|sfoDF     |sfoDF   |34      |G       |Boucher       |sfoDF-34-Boucher       |     3|     2|
+|     6|      1|sfoDF     |    12|       12|        2|sfoDF     |seaRM   |3       |D       |o'brien       |seaRM-3-o'brien        |     3|     3|
+|     6|      1|sfoDF     |    22|       14|        4|sfoDF     |sfoDF   |12      |A       |Bellinger     |sfoDF-12-Bellinger     |     3|     3|
+|     6|      1|sfoDF     |    23|       14|        4|sfoDF     |sfoDF   |18      |G       |Weaver        |sfoDF-18-Weaver        |     3|     3|
+|     7|      1|sfoDF     |     7|       15|        1|seaRM     |seaRM   |9       |A       |harkness      |seaRM-9-harkness       |     4|     3|
+|     7|      1|sfoDF     |     8|       15|        1|seaRM     |seaRM   |1       |G       |mckibben      |seaRM-1-mckibben       |     4|     3|
+|     8|      1|seaRM     |     8|       16|        1|sfoDF     |sfoDF   |13      |A       |Grant         |sfoDF-13-Grant         |     4|     4|
+|     8|      1|seaRM     |     9|       16|        1|sfoDF     |sfoDF   |34      |G       |Boucher       |sfoDF-34-Boucher       |     4|     4|
+|     9|      1|sfoDF     |     4|       17|        1|seaRM     |sfoDF   |46      |D       |McCarty       |sfoDF-46-McCarty       |     5|     4|
+|     9|      1|sfoDF     |    29|       21|        5|seaRM     |seaRM   |6       |A       |trytiak       |seaRM-6-trytiak        |     5|     4|
+|     9|      1|sfoDF     |    30|       21|        5|seaRM     |seaRM   |48      |G       |clark         |seaRM-48-clark         |     5|     4|
+|    10|      1|seaRM     |     6|       22|        1|sfoDF     |seaRM   |21      |HB      |phan          |seaRM-21-phan          |     6|     4|
+|    10|      1|seaRM     |     8|       23|        2|seaRM     |seaRM   |3       |PUA     |o'brien       |seaRM-3-o'brien        |     6|     4|
+|    10|      1|seaRM     |     9|       23|        2|seaRM     |seaRM   |9       |G       |harkness      |seaRM-9-harkness       |     6|     4|
+|    11|      1|seaRM     |    NA|       NA|       NA|NA        |NA      |NA      |NA      |NA            |NA-NA-NA               |     6|     4|
+|    12|      2|sfoDF     |     6|       26|        2|sfoDF     |sfoDF   |17      |A       |Boyd-Meredith |sfoDF-17-Boyd-Meredith |     6|     5|
+|    12|      2|sfoDF     |     7|       26|        2|sfoDF     |sfoDF   |12      |G       |Bellinger     |sfoDF-12-Bellinger     |     6|     5|
+|    13|      2|sfoDF     |    18|       29|        3|seaRM     |seaRM   |6       |A       |trytiak       |seaRM-6-trytiak        |     7|     5|
+|    13|      2|sfoDF     |    19|       29|        3|seaRM     |seaRM   |48      |G       |clark         |seaRM-48-clark         |     7|     5|
+|    14|      2|seaRM     |     7|       30|        1|sfoDF     |sfoDF   |40      |A       |Taylor        |sfoDF-40-Taylor        |     7|     6|
+|    14|      2|seaRM     |     8|       30|        1|sfoDF     |sfoDF   |8       |G       |Pollard       |sfoDF-8-Pollard        |     7|     6|
+|    15|      2|sfoDF     |    15|       32|        2|sfoDF     |seaRM   |48      |D       |clark         |seaRM-48-clark         |     7|     7|
+|    15|      2|sfoDF     |    26|       34|        4|sfoDF     |sfoDF   |34      |A       |Boucher       |sfoDF-34-Boucher       |     7|     7|
+|    15|      2|sfoDF     |    27|       34|        4|sfoDF     |sfoDF   |88      |G       |Kissmann      |sfoDF-88-Kissmann      |     7|     7|
+|    16|      2|sfoDF     |    21|       38|        4|sfoDF     |sfoDF   |18      |A       |Weaver        |sfoDF-18-Weaver        |     7|     8|
+|    16|      2|sfoDF     |    22|       38|        4|sfoDF     |sfoDF   |85      |G       |Brydon        |sfoDF-85-Brydon        |     7|     8|
+|    17|      2|sfoDF     |    11|       41|        3|seaRM     |seaRM   |6       |A       |trytiak       |seaRM-6-trytiak        |     8|     8|
+|    17|      2|sfoDF     |    12|       41|        3|seaRM     |seaRM   |9       |LG      |harkness      |seaRM-9-harkness       |     8|     8|
+|    18|      2|seaRM     |     7|       44|        3|sfoDF     |seaRM   |35      |D       |koss          |seaRM-35-koss          |     8|     9|
+|    18|      2|seaRM     |    12|       46|        5|sfoDF     |sfoDF   |40      |A       |Taylor        |sfoDF-40-Taylor        |     8|     9|
+|    18|      2|seaRM     |    13|       46|        5|sfoDF     |sfoDF   |24      |G       |Caulfield     |sfoDF-24-Caulfield     |     8|     9|
+|    19|      2|sfoDF     |     4|       47|        1|seaRM     |seaRM   |6       |A       |trytiak       |seaRM-6-trytiak        |     9|     9|
+|    19|      2|sfoDF     |     5|       47|        1|seaRM     |seaRM   |17      |G       |zemel         |seaRM-17-zemel         |     9|     9|
+|    20|      2|seaRM     |    11|       50|        3|sfoDF     |sfoDF   |34      |A       |Boucher       |sfoDF-34-Boucher       |     9|    10|
+|    20|      2|seaRM     |    12|       50|        3|sfoDF     |sfoDF   |8       |G       |Pollard       |sfoDF-8-Pollard        |     9|    10|
+|    21|      2|sfoDF     |     9|       53|        3|seaRM     |seaRM   |35      |PUA     |koss          |seaRM-35-koss          |    10|    10|
+|    21|      2|sfoDF     |    10|       53|        3|seaRM     |seaRM   |9       |G       |harkness      |seaRM-9-harkness       |    10|    10|
+|    22|      2|seaRM     |    NA|       NA|       NA|NA        |NA      |NA      |NA      |NA            |NA-NA-NA               |    10|    10|
+|    23|      3|sfoDF     |     7|       55|        1|seaRM     |sfoDF   |37      |D       |Hart          |sfoDF-37-Hart          |    10|    11|
+|    23|      3|sfoDF     |    16|       57|        3|seaRM     |sfoDF   |85      |D       |Brydon        |sfoDF-85-Brydon        |    10|    11|
+|    23|      3|sfoDF     |    19|       58|        4|sfoDF     |sfoDF   |37      |A       |Hart          |sfoDF-37-Hart          |    10|    11|
+|    23|      3|sfoDF     |    20|       58|        4|sfoDF     |sfoDF   |10      |G       |Sugioka       |sfoDF-10-Sugioka       |    10|    11|
+|    24|      3|sfoDF     |     7|       59|        1|seaRM     |seaRM   |1       |A       |mckibben      |seaRM-1-mckibben       |    11|    11|
+|    24|      3|sfoDF     |     8|       59|        1|seaRM     |seaRM   |48      |G       |clark         |seaRM-48-clark         |    11|    11|
+|    25|      3|seaRM     |     9|       61|        2|seaRM     |seaRM   |21      |A       |phan          |seaRM-21-phan          |    12|    11|
+|    25|      3|seaRM     |    10|       61|        2|seaRM     |seaRM   |29      |G       |feeley        |seaRM-29-feeley        |    12|    11|
+|    26|      3|seaRM     |    12|       63|        2|seaRM     |seaRM   |35      |PUA     |koss          |seaRM-35-koss          |    13|    11|
+|    26|      3|seaRM     |    13|       63|        2|seaRM     |seaRM   |48      |LG      |clark         |seaRM-48-clark         |    13|    11|
+|    27|      3|seaRM     |     9|       65|        2|seaRM     |seaRM   |29      |A       |feeley        |seaRM-29-feeley        |    14|    11|
+|    27|      3|seaRM     |    10|       65|        2|seaRM     |seaRM   |35      |G       |koss          |seaRM-35-koss          |    14|    11|
+|    28|      3|seaRM     |     8|       66|        1|sfoDF     |sfoDF   |11      |A       |Lee           |sfoDF-11-Lee           |    14|    12|
+|    28|      3|seaRM     |     9|       66|        1|sfoDF     |sfoDF   |5       |G       |Cascino       |sfoDF-5-Cascino        |    14|    12|
+|    29|      3|sfoDF     |     9|       68|        2|sfoDF     |seaRM   |15      |D       |beehner       |seaRM-15-beehner       |    14|    13|
+|    29|      3|sfoDF     |    28|       72|        6|sfoDF     |sfoDF   |12      |A       |Bellinger     |sfoDF-12-Bellinger     |    14|    13|
+|    29|      3|sfoDF     |    29|       72|        6|sfoDF     |sfoDF   |37      |G       |Hart          |sfoDF-37-Hart          |    14|    13|
+|    30|      3|sfoDF     |    13|       73|        1|seaRM     |seaRM   |9       |A       |harkness      |seaRM-9-harkness       |    15|    13|
+|    30|      3|sfoDF     |    14|       73|        1|seaRM     |seaRM   |48      |G       |clark         |seaRM-48-clark         |    15|    13|
+|    31|      3|seaRM     |     5|       74|        1|sfoDF     |seaRM   |35      |D       |koss          |seaRM-35-koss          |    15|    14|
+|    31|      3|seaRM     |    18|       76|        3|sfoDF     |sfoDF   |11      |A       |Lee           |sfoDF-11-Lee           |    15|    14|
+|    31|      3|seaRM     |    19|       76|        3|sfoDF     |sfoDF   |5       |G       |Cascino       |sfoDF-5-Cascino        |    15|    14|
+|    32|      3|sfoDF     |     5|       77|        1|seaRM     |sfoDF   |46      |D       |McCarty       |sfoDF-46-McCarty       |    15|    15|
+|    32|      3|sfoDF     |    10|       78|        2|sfoDF     |sfoDF   |12      |A       |Bellinger     |sfoDF-12-Bellinger     |    15|    15|
+|    32|      3|sfoDF     |    11|       78|        2|sfoDF     |sfoDF   |17      |G       |Boyd-Meredith |sfoDF-17-Boyd-Meredith |    15|    15|
+|    33|      3|sfoDF     |     8|       79|        1|seaRM     |sfoDF   |83      |D       |Husak         |sfoDF-83-Husak         |    15|    16|
+|    33|      3|sfoDF     |    11|       80|        2|sfoDF     |sfoDF   |16      |A       |Yeager        |sfoDF-16-Yeager        |    15|    16|
+|    33|      3|sfoDF     |    12|       80|        2|sfoDF     |sfoDF   |2       |LG      |Adamson       |sfoDF-2-Adamson        |    15|    16|
+|    34|      3|sfoDF     |    NA|       NA|       NA|NA        |NA      |NA      |NA      |NA            |NA-NA-NA               |    15|    16|
+|    35|      4|sfoDF     |    13|       83|        1|seaRM     |sfoDF   |10      |D       |Sugioka       |sfoDF-10-Sugioka       |    16|    16|
+|    35|      4|sfoDF     |    17|       84|        2|sfoDF     |seaRM   |20      |D       |simon         |seaRM-20-simon         |    16|    16|
+|    35|      4|sfoDF     |    23|       86|        4|sfoDF     |seaRM   |6       |D       |trytiak       |seaRM-6-trytiak        |    16|    16|
+|    35|      4|sfoDF     |    33|       89|        7|seaRM     |seaRM   |20      |PUA     |simon         |seaRM-20-simon         |    16|    16|
+|    35|      4|sfoDF     |    34|       89|        7|seaRM     |seaRM   |9       |G       |harkness      |seaRM-9-harkness       |    16|    16|
+|    36|      4|seaRM     |    27|       90|        1|sfoDF     |seaRM   |3       |D       |o'brien       |seaRM-3-o'brien        |    16|    17|
+|    36|      4|seaRM     |    29|       91|        2|seaRM     |sfoDF   |5       |HB      |Cascino       |sfoDF-5-Cascino        |    16|    17|
+|    36|      4|seaRM     |    31|       92|        3|sfoDF     |seaRM   |9       |D       |harkness      |seaRM-9-harkness       |    16|    17|
+|    36|      4|seaRM     |    50|       96|        7|sfoDF     |sfoDF   |23      |PUA     |Jeffery       |sfoDF-23-Jeffery       |    16|    17|
+|    36|      4|seaRM     |    51|       96|        7|sfoDF     |sfoDF   |13      |G       |Grant         |sfoDF-13-Grant         |    16|    17|
+|    37|      4|sfoDF     |    13|       99|        3|seaRM     |sfoDF   |85      |D       |Brydon        |sfoDF-85-Brydon        |    16|    18|
+|    37|      4|sfoDF     |    16|      100|        4|sfoDF     |sfoDF   |37      |A       |Hart          |sfoDF-37-Hart          |    16|    18|
+|    37|      4|sfoDF     |    17|      100|        4|sfoDF     |sfoDF   |12      |G       |Bellinger     |sfoDF-12-Bellinger     |    16|    18|
+|    38|      4|sfoDF     |     6|      101|        1|seaRM     |sfoDF   |2       |D       |Adamson       |sfoDF-2-Adamson        |    16|    18|
 
 ## Full raw data<a id="rawData"></a>:
 
 __Note: just for display purposes.__ Raw data in more useful forms can be found in the [GitHub repository](https://github.com/jennybc/vanNH). Find the game you're interested in in the `games` subdirectory.
 
 
-| period| point| event|pl_team |pl_pnum |pl_code |poss_team |
-|------:|-----:|-----:|:-------|:-------|:-------|:---------|
-|      1|     1|     1|sfoDF   |16      |OBP     |seaRM     |
-|      1|     1|     2|seaRM   |20      |PU      |seaRM     |
-|      1|     1|     3|seaRM   |9       |        |seaRM     |
-|      1|     1|     4|seaRM   |20      |A       |seaRM     |
-|      1|     1|     5|seaRM   |48      |LG      |seaRM     |
-|      1|     2|     1|seaRM   |35      |P       |sfoDF     |
-|      1|     2|     2|sfoDF   |11      |PU      |sfoDF     |
-|      1|     2|     3|sfoDF   |5       |        |sfoDF     |
-|      1|     2|     4|sfoDF   |34      |        |sfoDF     |
-|      1|     2|     5|sfoDF   |11      |        |sfoDF     |
-|      1|     2|     6|sfoDF   |23      |        |sfoDF     |
-|      1|     2|     7|sfoDF   |11      |        |sfoDF     |
-|      1|     2|     8|seaRM   |29      |PUA     |seaRM     |
-|      1|     2|     9|seaRM   |9       |G       |seaRM     |
-|      1|     3|     1|seaRM   |35      |P       |sfoDF     |
-|      1|     3|     2|sfoDF   |11      |PU      |sfoDF     |
-|      1|     3|     3|sfoDF   |5       |        |sfoDF     |
-|      1|     3|     4|sfoDF   |34      |A       |sfoDF     |
-|      1|     3|     5|sfoDF   |40      |G       |sfoDF     |
-|      1|     4|     1|sfoDF   |16      |P       |seaRM     |
-|      1|     4|     2|seaRM   |1       |PU      |seaRM     |
-|      1|     4|     3|seaRM   |3       |        |seaRM     |
-|      1|     4|     4|seaRM   |20      |        |seaRM     |
-|      1|     4|     5|seaRM   |51      |        |seaRM     |
-|      1|     4|     6|seaRM   |3       |        |seaRM     |
-|      1|     4|     7|seaRM   |6       |        |seaRM     |
-|      1|     4|     8|sfoDF   |25      |PU      |sfoDF     |
-|      1|     4|     9|sfoDF   |9       |        |sfoDF     |
-|      1|     4|    10|sfoDF   |16      |        |sfoDF     |
-|      1|     4|    11|sfoDF   |21      |        |sfoDF     |
-|      1|     4|    12|sfoDF   |16      |        |sfoDF     |
-|      1|     4|    13|sfoDF   |9       |        |sfoDF     |
-|      1|     4|    14|sfoDF   |83      |        |sfoDF     |
-|      1|     4|    15|sfoDF   |25      |TD      |sfoDF     |
-|      1|     4|    16|seaRM   |3       |PU      |seaRM     |
-|      1|     4|    17|seaRM   |18      |A       |seaRM     |
-|      1|     4|    18|seaRM   |6       |G       |seaRM     |
-|      1|     5|     1|seaRM   |35      |P       |sfoDF     |
-|      1|     5|     2|sfoDF   |57      |PU      |sfoDF     |
-|      1|     5|     3|sfoDF   |34      |        |sfoDF     |
-|      1|     5|     4|sfoDF   |13      |        |sfoDF     |
-|      1|     5|     5|sfoDF   |40      |        |sfoDF     |
-|      1|     5|     6|sfoDF   |13      |        |sfoDF     |
-|      1|     5|     7|sfoDF   |57      |        |sfoDF     |
-|      1|     5|     8|seaRM   |28      |D       |sfoDF     |
-|      1|     5|     9|seaRM   |9       |PU      |seaRM     |
-|      1|     5|    10|seaRM   |35      |        |seaRM     |
-|      1|     5|    11|seaRM   |21      |        |seaRM     |
-|      1|     5|    12|seaRM   |35      |        |seaRM     |
-|      1|     5|    13|seaRM   |29      |        |seaRM     |
-|      1|     5|    14|sfoDF   |34      |D       |seaRM     |
-|      1|     5|    15|sfoDF   |23      |PU      |sfoDF     |
-|      1|     5|    16|sfoDF   |34      |        |sfoDF     |
-|      1|     5|    17|sfoDF   |5       |        |sfoDF     |
-|      1|     5|    18|sfoDF   |13      |        |sfoDF     |
-|      1|     5|    19|sfoDF   |40      |        |sfoDF     |
-|      1|     5|    20|sfoDF   |23      |        |sfoDF     |
-|      1|     5|    21|sfoDF   |40      |        |sfoDF     |
-|      1|     5|    22|sfoDF   |5       |        |sfoDF     |
-|      1|     5|    23|sfoDF   |34      |        |sfoDF     |
-|      1|     5|    24|sfoDF   |23      |        |sfoDF     |
-|      1|     5|    25|sfoDF   |34      |        |sfoDF     |
-|      1|     5|    26|sfoDF   |23      |A       |sfoDF     |
-|      1|     5|    27|sfoDF   |34      |G       |sfoDF     |
-|      1|     6|     1|sfoDF   |12      |P       |seaRM     |
-|      1|     6|     2|seaRM   |1       |PU      |seaRM     |
-|      1|     6|     3|seaRM   |3       |        |seaRM     |
-|      1|     6|     4|seaRM   |48      |TD      |seaRM     |
-|      1|     6|     5|sfoDF   |12      |PU      |sfoDF     |
-|      1|     6|     6|sfoDF   |46      |        |sfoDF     |
-|      1|     6|     7|sfoDF   |12      |        |sfoDF     |
-|      1|     6|     8|sfoDF   |85      |        |sfoDF     |
-|      1|     6|     9|sfoDF   |18      |        |sfoDF     |
-|      1|     6|    10|sfoDF   |12      |        |sfoDF     |
-|      1|     6|    11|sfoDF   |18      |        |sfoDF     |
-|      1|     6|    12|seaRM   |3       |D       |sfoDF     |
-|      1|     6|    13|seaRM   |9       |PU      |seaRM     |
-|      1|     6|    14|seaRM   |20      |        |seaRM     |
-|      1|     6|    15|seaRM   |3       |        |seaRM     |
-|      1|     6|    16|seaRM   |20      |        |seaRM     |
-|      1|     6|    17|seaRM   |3       |        |seaRM     |
-|      1|     6|    18|seaRM   |20      |TD      |seaRM     |
-|      1|     6|    19|sfoDF   |17      |PU      |sfoDF     |
-|      1|     6|    20|sfoDF   |12      |        |sfoDF     |
-|      1|     6|    21|sfoDF   |37      |        |sfoDF     |
-|      1|     6|    22|sfoDF   |12      |A       |sfoDF     |
-|      1|     6|    23|sfoDF   |18      |G       |sfoDF     |
-|      1|     7|     1|sfoDF   |16      |P       |seaRM     |
-|      1|     7|     2|seaRM   |1       |PU      |seaRM     |
-|      1|     7|     3|seaRM   |20      |        |seaRM     |
-|      1|     7|     4|seaRM   |9       |        |seaRM     |
-|      1|     7|     5|seaRM   |20      |        |seaRM     |
-|      1|     7|     6|seaRM   |3       |        |seaRM     |
-|      1|     7|     7|seaRM   |9       |A       |seaRM     |
-|      1|     7|     8|seaRM   |1       |G       |seaRM     |
-|      1|     8|     1|seaRM   |35      |P       |sfoDF     |
-|      1|     8|     2|sfoDF   |11      |PU      |sfoDF     |
-|      1|     8|     3|sfoDF   |34      |        |sfoDF     |
-|      1|     8|     4|sfoDF   |11      |        |sfoDF     |
-|      1|     8|     5|sfoDF   |40      |        |sfoDF     |
-|      1|     8|     6|sfoDF   |24      |        |sfoDF     |
-|      1|     8|     7|sfoDF   |23      |        |sfoDF     |
-|      1|     8|     8|sfoDF   |13      |A       |sfoDF     |
-|      1|     8|     9|sfoDF   |34      |G       |sfoDF     |
-|      1|     9|     1|sfoDF   |12      |P       |seaRM     |
-|      1|     9|     2|seaRM   |3       |PU      |seaRM     |
-|      1|     9|     3|seaRM   |17      |        |seaRM     |
-|      1|     9|     4|sfoDF   |46      |D       |seaRM     |
-|      1|     9|     5|sfoDF   |12      |PU      |sfoDF     |
-|      1|     9|     6|sfoDF   |37      |        |sfoDF     |
-|      1|     9|     7|sfoDF   |17      |        |sfoDF     |
-|      1|     9|     8|sfoDF   |18      |        |sfoDF     |
-|      1|     9|     9|sfoDF   |46      |        |sfoDF     |
-|      1|     9|    10|sfoDF   |17      |        |sfoDF     |
-|      1|     9|    11|sfoDF   |18      |        |sfoDF     |
-|      1|     9|    12|seaRM   |3       |F       |sfoDF     |
-|      1|     9|    13|sfoDF   |46      |        |sfoDF     |
-|      1|     9|    14|sfoDF   |17      |TD      |sfoDF     |
-|      1|     9|    15|seaRM   |3       |PU      |seaRM     |
-|      1|     9|    16|seaRM   |20      |        |seaRM     |
-|      1|     9|    17|seaRM   |1       |        |seaRM     |
-|      1|     9|    18|seaRM   |20      |        |seaRM     |
-|      1|     9|    19|seaRM   |3       |        |seaRM     |
-|      1|     9|    20|sfoDF   |12      |PU      |sfoDF     |
-|      1|     9|    21|seaRM   |3       |PU      |seaRM     |
-|      1|     9|    22|seaRM   |20      |        |seaRM     |
-|      1|     9|    23|seaRM   |51      |        |seaRM     |
-|      1|     9|    24|seaRM   |18      |        |seaRM     |
-|      1|     9|    25|seaRM   |17      |        |seaRM     |
-|      1|     9|    26|seaRM   |3       |        |seaRM     |
-|      1|     9|    27|seaRM   |17      |        |seaRM     |
-|      1|     9|    28|seaRM   |3       |        |seaRM     |
-|      1|     9|    29|seaRM   |6       |A       |seaRM     |
-|      1|     9|    30|seaRM   |48      |G       |seaRM     |
-|      1|    10|     1|seaRM   |?       |P       |sfoDF     |
-|      1|    10|     2|sfoDF   |88      |PU      |sfoDF     |
-|      1|    10|     3|sfoDF   |5       |        |sfoDF     |
-|      1|    10|     4|sfoDF   |88      |        |sfoDF     |
-|      1|    10|     5|sfoDF   |5       |        |sfoDF     |
-|      1|    10|     6|seaRM   |21      |HB      |sfoDF     |
-|      1|    10|     7|seaRM   |21      |TO      |seaRM     |
-|      1|    10|     8|seaRM   |3       |PUA     |seaRM     |
-|      1|    10|     9|seaRM   |9       |G       |seaRM     |
-|      1|    11|     1|seaRM   |?       |P       |sfoDF     |
-|      1|    11|     2|sfoDF   |5       |PU      |sfoDF     |
-|      1|    11|     3|sfoDF   |34      |        |sfoDF     |
-|      1|    11|     4|sfoDF   |24      |        |sfoDF     |
-|      1|    11|     5|sfoDF   |11      |        |sfoDF     |
-|      1|    11|     6|sfoDF   |5       |        |sfoDF     |
-|      2|    12|     1|sfoDF   |46      |P       |seaRM     |
-|      2|    12|     2|seaRM   |35      |PU      |seaRM     |
-|      2|    12|     3|seaRM   |3       |TD      |seaRM     |
-|      2|    12|     4|sfoDF   |17      |PU      |sfoDF     |
-|      2|    12|     5|sfoDF   |37      |        |sfoDF     |
-|      2|    12|     6|sfoDF   |17      |A       |sfoDF     |
-|      2|    12|     7|sfoDF   |12      |G       |sfoDF     |
-|      2|    13|     1|sfoDF   |16      |P       |seaRM     |
-|      2|    13|     2|seaRM   |3       |PU      |seaRM     |
-|      2|    13|     3|seaRM   |17      |        |seaRM     |
-|      2|    13|     4|seaRM   |3       |        |seaRM     |
-|      2|    13|     5|seaRM   |17      |        |seaRM     |
-|      2|    13|     6|seaRM   |35      |        |seaRM     |
-|      2|    13|     7|seaRM   |9       |        |seaRM     |
-|      2|    13|     8|seaRM   |3       |        |seaRM     |
-|      2|    13|     9|seaRM   |9       |        |seaRM     |
-|      2|    13|    10|seaRM   |3       |        |seaRM     |
-|      2|    13|    11|seaRM   |9       |        |seaRM     |
-|      2|    13|    12|seaRM   |17      |        |seaRM     |
-|      2|    13|    13|seaRM   |48      |        |seaRM     |
-|      2|    13|    14|seaRM   |6       |TD      |seaRM     |
-|      2|    13|    15|sfoDF   |83      |PU      |sfoDF     |
-|      2|    13|    16|sfoDF   |7       |        |sfoDF     |
-|      2|    13|    17|seaRM   |3       |PU      |seaRM     |
-|      2|    13|    18|seaRM   |6       |A       |seaRM     |
-|      2|    13|    19|seaRM   |48      |G       |seaRM     |
-|      2|    14|     1|seaRM   |?       |P       |sfoDF     |
-|      2|    14|     2|sfoDF   |57      |PU      |sfoDF     |
-|      2|    14|     3|sfoDF   |5       |        |sfoDF     |
-|      2|    14|     4|sfoDF   |8       |        |sfoDF     |
-|      2|    14|     5|sfoDF   |34      |        |sfoDF     |
-|      2|    14|     6|sfoDF   |8       |        |sfoDF     |
-|      2|    14|     7|sfoDF   |40      |A       |sfoDF     |
-|      2|    14|     8|sfoDF   |8       |G       |sfoDF     |
-|      2|    15|     1|sfoDF   |?       |P       |seaRM     |
-|      2|    15|     2|seaRM   |1       |PU      |seaRM     |
-|      2|    15|     3|seaRM   |17      |        |seaRM     |
-|      2|    15|     4|seaRM   |3       |        |seaRM     |
-|      2|    15|     5|seaRM   |17      |        |seaRM     |
-|      2|    15|     6|seaRM   |20      |        |seaRM     |
-|      2|    15|     7|seaRM   |3       |        |seaRM     |
-|      2|    15|     8|seaRM   |51      |TD      |seaRM     |
-|      2|    15|     9|sfoDF   |83      |PU      |sfoDF     |
-|      2|    15|    10|sfoDF   |21      |TO      |sfoDF     |
-|      2|    15|    11|sfoDF   |5       |PU      |sfoDF     |
-|      2|    15|    12|sfoDF   |34      |        |sfoDF     |
-|      2|    15|    13|sfoDF   |5       |        |sfoDF     |
-|      2|    15|    14|sfoDF   |11      |        |sfoDF     |
-|      2|    15|    15|seaRM   |48      |D       |sfoDF     |
-|      2|    15|    16|seaRM   |35      |PU      |seaRM     |
-|      2|    15|    17|seaRM   |28      |        |seaRM     |
-|      2|    15|    18|seaRM   |35      |        |seaRM     |
-|      2|    15|    19|seaRM   |29      |        |seaRM     |
-|      2|    15|    20|seaRM   |13      |        |seaRM     |
-|      2|    15|    21|seaRM   |35      |        |seaRM     |
-|      2|    15|    22|sfoDF   |40      |F       |seaRM     |
-|      2|    15|    23|seaRM   |9       |        |seaRM     |
-|      2|    15|    24|sfoDF   |23      |PU      |sfoDF     |
-|      2|    15|    25|sfoDF   |24      |L       |sfoDF     |
-|      2|    15|    26|sfoDF   |34      |A       |sfoDF     |
-|      2|    15|    27|sfoDF   |88      |G       |sfoDF     |
-|      2|    16|     1|sfoDF   |?       |P       |seaRM     |
-|      2|    16|     2|seaRM   |20      |PU      |seaRM     |
-|      2|    16|     3|seaRM   |3       |        |seaRM     |
-|      2|    16|     4|seaRM   |20      |        |seaRM     |
-|      2|    16|     5|seaRM   |17      |        |seaRM     |
-|      2|    16|     6|seaRM   |48      |        |seaRM     |
-|      2|    16|     7|seaRM   |17      |VST     |seaRM     |
-|      2|    16|     8|sfoDF   |12      |PU      |sfoDF     |
-|      2|    16|     9|sfoDF   |46      |        |sfoDF     |
-|      2|    16|    10|seaRM   |3       |PU      |seaRM     |
-|      2|    16|    11|seaRM   |17      |        |seaRM     |
-|      2|    16|    12|seaRM   |18      |        |seaRM     |
-|      2|    16|    13|seaRM   |1       |        |seaRM     |
-|      2|    16|    14|seaRM   |18      |        |seaRM     |
-|      2|    16|    15|seaRM   |1       |        |seaRM     |
-|      2|    16|    16|seaRM   |17      |        |seaRM     |
-|      2|    16|    17|seaRM   |20      |        |seaRM     |
-|      2|    16|    18|seaRM   |1       |        |seaRM     |
-|      2|    16|    19|seaRM   |17      |        |seaRM     |
-|      2|    16|    20|sfoDF   |12      |PU      |sfoDF     |
-|      2|    16|    21|sfoDF   |18      |A       |sfoDF     |
-|      2|    16|    22|sfoDF   |85      |G       |sfoDF     |
-|      2|    17|     1|sfoDF   |16      |P       |seaRM     |
-|      2|    17|     2|seaRM   |20      |PU      |seaRM     |
-|      2|    17|     3|seaRM   |17      |TD      |seaRM     |
-|      2|    17|     4|sfoDF   |83      |PU      |sfoDF     |
-|      2|    17|     5|sfoDF   |16      |        |sfoDF     |
-|      2|    17|     6|sfoDF   |83      |TD      |sfoDF     |
-|      2|    17|     7|seaRM   |35      |PU      |seaRM     |
-|      2|    17|     8|seaRM   |9       |        |seaRM     |
-|      2|    17|     9|seaRM   |20      |        |seaRM     |
-|      2|    17|    10|seaRM   |3       |        |seaRM     |
-|      2|    17|    11|seaRM   |6       |A       |seaRM     |
-|      2|    17|    12|seaRM   |9       |LG      |seaRM     |
-|      2|    18|     1|seaRM   |35      |P       |sfoDF     |
-|      2|    18|     2|sfoDF   |11      |PU      |sfoDF     |
-|      2|    18|     3|seaRM   |35      |PU      |seaRM     |
-|      2|    18|     4|sfoDF   |23      |PU      |sfoDF     |
-|      2|    18|     5|sfoDF   |24      |        |sfoDF     |
-|      2|    18|     6|sfoDF   |23      |        |sfoDF     |
-|      2|    18|     7|seaRM   |35      |D       |sfoDF     |
-|      2|    18|     8|seaRM   |35      |        |seaRM     |
-|      2|    18|     9|seaRM   |13      |TD      |seaRM     |
-|      2|    18|    10|sfoDF   |34      |PU      |sfoDF     |
-|      2|    18|    11|sfoDF   |24      |        |sfoDF     |
-|      2|    18|    12|sfoDF   |40      |A       |sfoDF     |
-|      2|    18|    13|sfoDF   |24      |G       |sfoDF     |
-|      2|    19|     1|sfoDF   |12      |P       |seaRM     |
-|      2|    19|     2|seaRM   |1       |PU      |seaRM     |
-|      2|    19|     3|seaRM   |3       |        |seaRM     |
-|      2|    19|     4|seaRM   |6       |A       |seaRM     |
-|      2|    19|     5|seaRM   |17      |G       |seaRM     |
-|      2|    20|     1|seaRM   |29      |P       |sfoDF     |
-|      2|    20|     2|sfoDF   |57      |PU      |sfoDF     |
-|      2|    20|     3|sfoDF   |8       |        |sfoDF     |
-|      2|    20|     4|sfoDF   |5       |        |sfoDF     |
-|      2|    20|     5|seaRM   |9       |PU      |seaRM     |
-|      2|    20|     6|seaRM   |28      |TD      |seaRM     |
-|      2|    20|     7|sfoDF   |34      |PU      |sfoDF     |
-|      2|    20|     8|sfoDF   |13      |        |sfoDF     |
-|      2|    20|     9|sfoDF   |40      |        |sfoDF     |
-|      2|    20|    10|sfoDF   |13      |        |sfoDF     |
-|      2|    20|    11|sfoDF   |34      |A       |sfoDF     |
-|      2|    20|    12|sfoDF   |8       |G       |sfoDF     |
-|      2|    21|     1|sfoDF   |16      |P       |seaRM     |
-|      2|    21|     2|seaRM   |17      |PU      |seaRM     |
-|      2|    21|     3|seaRM   |20      |        |seaRM     |
-|      2|    21|     4|seaRM   |6       |        |seaRM     |
-|      2|    21|     5|seaRM   |18      |        |seaRM     |
-|      2|    21|     6|sfoDF   |21      |TO      |sfoDF     |
-|      2|    21|     7|sfoDF   |5       |PU      |sfoDF     |
-|      2|    21|     8|sfoDF   |40      |TD      |sfoDF     |
-|      2|    21|     9|seaRM   |35      |PUA     |seaRM     |
-|      2|    21|    10|seaRM   |9       |G       |seaRM     |
-|      2|    22|     1|seaRM   |35      |P       |sfoDF     |
-|      2|    22|     2|sfoDF   |11      |PU      |sfoDF     |
-|      2|    22|     3|sfoDF   |88      |        |sfoDF     |
-|      2|    22|     4|sfoDF   |34      |        |sfoDF     |
-|      2|    22|     5|sfoDF   |11      |        |sfoDF     |
-|      3|    23|     1|sfoDF   |46      |P       |seaRM     |
-|      3|    23|     2|seaRM   |3       |PU      |seaRM     |
-|      3|    23|     3|sfoDF   |12      |F       |seaRM     |
-|      3|    23|     4|seaRM   |17      |        |seaRM     |
-|      3|    23|     5|seaRM   |3       |        |seaRM     |
-|      3|    23|     6|sfoDF   |12      |F       |seaRM     |
-|      3|    23|     7|sfoDF   |37      |D       |seaRM     |
-|      3|    23|     8|sfoDF   |85      |PU      |sfoDF     |
-|      3|    23|     9|sfoDF   |17      |        |sfoDF     |
-|      3|    23|    10|sfoDF   |85      |        |sfoDF     |
-|      3|    23|    11|sfoDF   |10      |        |sfoDF     |
-|      3|    23|    12|sfoDF   |85      |        |sfoDF     |
-|      3|    23|    13|seaRM   |35      |PU      |seaRM     |
-|      3|    23|    14|seaRM   |3       |        |seaRM     |
-|      3|    23|    15|seaRM   |6       |        |seaRM     |
-|      3|    23|    16|sfoDF   |85      |D       |seaRM     |
-|      3|    23|    17|sfoDF   |17      |PU      |sfoDF     |
-|      3|    23|    18|sfoDF   |85      |        |sfoDF     |
-|      3|    23|    19|sfoDF   |37      |A       |sfoDF     |
-|      3|    23|    20|sfoDF   |10      |G       |sfoDF     |
-|      3|    24|     1|sfoDF   |16      |P       |seaRM     |
-|      3|    24|     2|seaRM   |17      |PU      |seaRM     |
-|      3|    24|     3|seaRM   |20      |        |seaRM     |
-|      3|    24|     4|seaRM   |17      |        |seaRM     |
-|      3|    24|     5|seaRM   |1       |        |seaRM     |
-|      3|    24|     6|seaRM   |48      |        |seaRM     |
-|      3|    24|     7|seaRM   |1       |A       |seaRM     |
-|      3|    24|     8|seaRM   |48      |G       |seaRM     |
-|      3|    25|     1|seaRM   |35      |P       |sfoDF     |
-|      3|    25|     2|sfoDF   |11      |PU      |sfoDF     |
-|      3|    25|     3|sfoDF   |13      |        |sfoDF     |
-|      3|    25|     4|seaRM   |29      |PU      |seaRM     |
-|      3|    25|     5|seaRM   |35      |        |seaRM     |
-|      3|    25|     6|seaRM   |9       |        |seaRM     |
-|      3|    25|     7|seaRM   |35      |        |seaRM     |
-|      3|    25|     8|seaRM   |24      |        |seaRM     |
-|      3|    25|     9|seaRM   |21      |A       |seaRM     |
-|      3|    25|    10|seaRM   |29      |G       |seaRM     |
-|      3|    26|     1|seaRM   |35      |P       |sfoDF     |
-|      3|    26|     2|sfoDF   |5       |PU      |sfoDF     |
-|      3|    26|     3|sfoDF   |8       |        |sfoDF     |
-|      3|    26|     4|sfoDF   |34      |        |sfoDF     |
-|      3|    26|     5|sfoDF   |5       |        |sfoDF     |
-|      3|    26|     6|sfoDF   |8       |        |sfoDF     |
-|      3|    26|     7|sfoDF   |5       |        |sfoDF     |
-|      3|    26|     8|sfoDF   |8       |        |sfoDF     |
-|      3|    26|     9|sfoDF   |5       |        |sfoDF     |
-|      3|    26|    10|sfoDF   |8       |        |sfoDF     |
-|      3|    26|    11|sfoDF   |40      |        |sfoDF     |
-|      3|    26|    12|seaRM   |35      |PUA     |seaRM     |
-|      3|    26|    13|seaRM   |48      |LG      |seaRM     |
-|      3|    27|     1|seaRM   |35      |P       |sfoDF     |
-|      3|    27|     2|sfoDF   |25      |PU      |sfoDF     |
-|      3|    27|     3|sfoDF   |83      |        |sfoDF     |
-|      3|    27|     4|sfoDF   |25      |        |sfoDF     |
-|      3|    27|     5|sfoDF   |7       |TD      |sfoDF     |
-|      3|    27|     6|seaRM   |3       |PU      |seaRM     |
-|      3|    27|     7|seaRM   |9       |        |seaRM     |
-|      3|    27|     8|seaRM   |35      |        |seaRM     |
-|      3|    27|     9|seaRM   |29      |A       |seaRM     |
-|      3|    27|    10|seaRM   |35      |G       |seaRM     |
-|      3|    28|     1|seaRM   |?       |P       |sfoDF     |
-|      3|    28|     2|sfoDF   |11      |PU      |sfoDF     |
-|      3|    28|     3|sfoDF   |34      |        |sfoDF     |
-|      3|    28|     4|sfoDF   |5       |        |sfoDF     |
-|      3|    28|     5|sfoDF   |34      |        |sfoDF     |
-|      3|    28|     6|sfoDF   |88      |        |sfoDF     |
-|      3|    28|     7|sfoDF   |34      |        |sfoDF     |
-|      3|    28|     8|sfoDF   |11      |A       |sfoDF     |
-|      3|    28|     9|sfoDF   |5       |G       |sfoDF     |
-|      3|    29|     1|sfoDF   |46      |P       |seaRM     |
-|      3|    29|     2|seaRM   |3       |PU      |seaRM     |
-|      3|    29|     3|seaRM   |20      |        |seaRM     |
-|      3|    29|     4|seaRM   |3       |        |seaRM     |
-|      3|    29|     5|seaRM   |1       |        |seaRM     |
-|      3|    29|     6|seaRM   |17      |        |seaRM     |
-|      3|    29|     7|seaRM   |3       |TD      |seaRM     |
-|      3|    29|     8|sfoDF   |17      |PU      |sfoDF     |
-|      3|    29|     9|seaRM   |15      |D       |sfoDF     |
-|      3|    29|    10|seaRM   |20      |PU      |seaRM     |
-|      3|    29|    11|seaRM   |6       |        |seaRM     |
-|      3|    29|    12|seaRM   |1       |        |seaRM     |
-|      3|    29|    13|seaRM   |3       |        |seaRM     |
-|      3|    29|    14|seaRM   |51      |        |seaRM     |
-|      3|    29|    15|seaRM   |3       |        |seaRM     |
-|      3|    29|    16|seaRM   |1       |        |seaRM     |
-|      3|    29|    17|seaRM   |17      |        |seaRM     |
-|      3|    29|    18|seaRM   |15      |TD      |seaRM     |
-|      3|    29|    19|sfoDF   |17      |PU      |sfoDF     |
-|      3|    29|    20|seaRM   |20      |PU      |seaRM     |
-|      3|    29|    21|seaRM   |51      |TD      |seaRM     |
-|      3|    29|    22|sfoDF   |12      |PU      |sfoDF     |
-|      3|    29|    23|sfoDF   |37      |        |sfoDF     |
-|      3|    29|    24|sfoDF   |46      |        |sfoDF     |
-|      3|    29|    25|sfoDF   |17      |        |sfoDF     |
-|      3|    29|    26|sfoDF   |18      |        |sfoDF     |
-|      3|    29|    27|sfoDF   |46      |        |sfoDF     |
-|      3|    29|    28|sfoDF   |12      |A       |sfoDF     |
-|      3|    29|    29|sfoDF   |37      |G       |sfoDF     |
-|      3|    30|     1|sfoDF   |16      |P       |seaRM     |
-|      3|    30|     2|seaRM   |20      |PU      |seaRM     |
-|      3|    30|     3|seaRM   |3       |        |seaRM     |
-|      3|    30|     4|seaRM   |20      |        |seaRM     |
-|      3|    30|     5|seaRM   |3       |        |seaRM     |
-|      3|    30|     6|seaRM   |9       |        |seaRM     |
-|      3|    30|     7|seaRM   |3       |        |seaRM     |
-|      3|    30|     8|seaRM   |17      |        |seaRM     |
-|      3|    30|     9|seaRM   |20      |        |seaRM     |
-|      3|    30|    10|seaRM   |6       |        |seaRM     |
-|      3|    30|    11|seaRM   |9       |        |seaRM     |
-|      3|    30|    12|seaRM   |6       |        |seaRM     |
-|      3|    30|    13|seaRM   |9       |A       |seaRM     |
-|      3|    30|    14|seaRM   |48      |G       |seaRM     |
-|      3|    31|     1|seaRM   |35      |P       |sfoDF     |
-|      3|    31|     2|sfoDF   |88      |PU      |sfoDF     |
-|      3|    31|     3|sfoDF   |5       |        |sfoDF     |
-|      3|    31|     4|sfoDF   |88      |        |sfoDF     |
-|      3|    31|     5|seaRM   |35      |D       |sfoDF     |
-|      3|    31|     6|seaRM   |35      |TO      |seaRM     |
-|      3|    31|     7|seaRM   |3       |PU      |seaRM     |
-|      3|    31|     8|seaRM   |18      |        |seaRM     |
-|      3|    31|     9|seaRM   |20      |TD      |seaRM     |
-|      3|    31|    10|sfoDF   |17      |PU      |sfoDF     |
-|      3|    31|    11|sfoDF   |12      |        |sfoDF     |
-|      3|    31|    12|sfoDF   |46      |TO      |sfoDF     |
-|      3|    31|    13|sfoDF   |23      |PU      |sfoDF     |
-|      3|    31|    14|sfoDF   |40      |        |sfoDF     |
-|      3|    31|    15|sfoDF   |34      |        |sfoDF     |
-|      3|    31|    16|sfoDF   |23      |        |sfoDF     |
-|      3|    31|    17|sfoDF   |40      |        |sfoDF     |
-|      3|    31|    18|sfoDF   |11      |A       |sfoDF     |
-|      3|    31|    19|sfoDF   |5       |G       |sfoDF     |
-|      3|    32|     1|sfoDF   |12      |P       |seaRM     |
-|      3|    32|     2|seaRM   |3       |PU      |seaRM     |
-|      3|    32|     3|seaRM   |20      |        |seaRM     |
-|      3|    32|     4|seaRM   |51      |        |seaRM     |
-|      3|    32|     5|sfoDF   |46      |D       |seaRM     |
-|      3|    32|     6|sfoDF   |12      |PU      |sfoDF     |
-|      3|    32|     7|sfoDF   |18      |        |sfoDF     |
-|      3|    32|     8|sfoDF   |17      |        |sfoDF     |
-|      3|    32|     9|sfoDF   |18      |        |sfoDF     |
-|      3|    32|    10|sfoDF   |12      |A       |sfoDF     |
-|      3|    32|    11|sfoDF   |17      |G       |sfoDF     |
-|      3|    33|     1|sfoDF   |25      |P       |seaRM     |
-|      3|    33|     2|seaRM   |20      |PU      |seaRM     |
-|      3|    33|     3|seaRM   |1       |        |seaRM     |
-|      3|    33|     4|seaRM   |6       |        |seaRM     |
-|      3|    33|     5|seaRM   |20      |        |seaRM     |
-|      3|    33|     6|seaRM   |17      |        |seaRM     |
-|      3|    33|     7|seaRM   |3       |        |seaRM     |
-|      3|    33|     8|sfoDF   |83      |D       |seaRM     |
-|      3|    33|     9|sfoDF   |83      |        |sfoDF     |
-|      3|    33|    10|sfoDF   |25      |        |sfoDF     |
-|      3|    33|    11|sfoDF   |16      |A       |sfoDF     |
-|      3|    33|    12|sfoDF   |2       |LG      |sfoDF     |
-|      3|    34|     1|sfoDF   |18      |P       |seaRM     |
-|      3|    34|     2|seaRM   |3       |PU      |seaRM     |
-|      3|    34|     3|seaRM   |9       |        |seaRM     |
-|      3|    34|     4|seaRM   |20      |        |seaRM     |
-|      3|    34|     5|seaRM   |13      |        |seaRM     |
-|      3|    34|     6|seaRM   |3       |        |seaRM     |
-|      3|    34|     7|seaRM   |35      |VTT     |seaRM     |
-|      3|    34|     8|sfoDF   |23      |PU      |sfoDF     |
-|      3|    34|     9|sfoDF   |13      |        |sfoDF     |
-|      4|    35|     1|sfoDF   |46      |P       |seaRM     |
-|      4|    35|     2|seaRM   |3       |PU      |seaRM     |
-|      4|    35|     3|seaRM   |20      |        |seaRM     |
-|      4|    35|     4|seaRM   |3       |        |seaRM     |
-|      4|    35|     5|seaRM   |9       |        |seaRM     |
-|      4|    35|     6|seaRM   |20      |        |seaRM     |
-|      4|    35|     7|seaRM   |6       |        |seaRM     |
-|      4|    35|     8|seaRM   |3       |        |seaRM     |
-|      4|    35|     9|seaRM   |48      |        |seaRM     |
-|      4|    35|    10|sfoDF   |37      |F       |seaRM     |
-|      4|    35|    11|seaRM   |35      |        |seaRM     |
-|      4|    35|    12|seaRM   |3       |        |seaRM     |
-|      4|    35|    13|sfoDF   |10      |D       |seaRM     |
-|      4|    35|    14|sfoDF   |12      |PU      |sfoDF     |
-|      4|    35|    15|sfoDF   |18      |        |sfoDF     |
-|      4|    35|    16|sfoDF   |12      |        |sfoDF     |
-|      4|    35|    17|seaRM   |20      |D       |sfoDF     |
-|      4|    35|    18|seaRM   |20      |        |seaRM     |
-|      4|    35|    19|seaRM   |48      |        |seaRM     |
-|      4|    35|    20|seaRM   |35      |        |seaRM     |
-|      4|    35|    21|sfoDF   |17      |PU      |sfoDF     |
-|      4|    35|    22|sfoDF   |18      |        |sfoDF     |
-|      4|    35|    23|seaRM   |6       |D       |sfoDF     |
-|      4|    35|    24|seaRM   |3       |PU      |seaRM     |
-|      4|    35|    25|seaRM   |20      |        |seaRM     |
-|      4|    35|    26|seaRM   |9       |        |seaRM     |
-|      4|    35|    27|seaRM   |35      |        |seaRM     |
-|      4|    35|    28|seaRM   |6       |        |seaRM     |
-|      4|    35|    29|seaRM   |35      |        |seaRM     |
-|      4|    35|    30|seaRM   |13      |        |seaRM     |
-|      4|    35|    31|seaRM   |9       |TD      |seaRM     |
-|      4|    35|    32|sfoDF   |12      |PU      |sfoDF     |
-|      4|    35|    33|seaRM   |20      |PUA     |seaRM     |
-|      4|    35|    34|seaRM   |9       |G       |seaRM     |
-|      4|    36|     1|seaRM   |?       |P       |sfoDF     |
-|      4|    36|     2|sfoDF   |57      |PU      |sfoDF     |
-|      4|    36|     3|sfoDF   |5       |        |sfoDF     |
-|      4|    36|     4|sfoDF   |34      |        |sfoDF     |
-|      4|    36|     5|sfoDF   |5       |        |sfoDF     |
-|      4|    36|     6|sfoDF   |34      |        |sfoDF     |
-|      4|    36|     7|sfoDF   |5       |        |sfoDF     |
-|      4|    36|     8|sfoDF   |34      |        |sfoDF     |
-|      4|    36|     9|sfoDF   |5       |        |sfoDF     |
-|      4|    36|    10|sfoDF   |57      |        |sfoDF     |
-|      4|    36|    11|sfoDF   |5       |        |sfoDF     |
-|      4|    36|    12|sfoDF   |34      |        |sfoDF     |
-|      4|    36|    13|sfoDF   |5       |        |sfoDF     |
-|      4|    36|    14|sfoDF   |34      |        |sfoDF     |
-|      4|    36|    15|sfoDF   |5       |        |sfoDF     |
-|      4|    36|    16|sfoDF   |34      |        |sfoDF     |
-|      4|    36|    17|sfoDF   |5       |        |sfoDF     |
-|      4|    36|    18|sfoDF   |34      |        |sfoDF     |
-|      4|    36|    19|sfoDF   |57      |        |sfoDF     |
-|      4|    36|    20|sfoDF   |8       |        |sfoDF     |
-|      4|    36|    21|sfoDF   |5       |        |sfoDF     |
-|      4|    36|    22|sfoDF   |40      |        |sfoDF     |
-|      4|    36|    23|sfoDF   |8       |        |sfoDF     |
-|      4|    36|    24|sfoDF   |34      |        |sfoDF     |
-|      4|    36|    25|sfoDF   |13      |        |sfoDF     |
-|      4|    36|    26|sfoDF   |8       |        |sfoDF     |
-|      4|    36|    27|seaRM   |3       |D       |sfoDF     |
-|      4|    36|    28|seaRM   |35      |PU      |seaRM     |
-|      4|    36|    29|sfoDF   |5       |HB      |seaRM     |
-|      4|    36|    30|sfoDF   |40      |PU      |sfoDF     |
-|      4|    36|    31|seaRM   |9       |D       |sfoDF     |
-|      4|    36|    32|seaRM   |9       |        |seaRM     |
-|      4|    36|    33|seaRM   |35      |        |seaRM     |
-|      4|    36|    34|seaRM   |3       |        |seaRM     |
-|      4|    36|    35|seaRM   |17      |        |seaRM     |
-|      4|    36|    36|seaRM   |29      |        |seaRM     |
-|      4|    36|    37|seaRM   |35      |        |seaRM     |
-|      4|    36|    38|sfoDF   |23      |PU      |sfoDF     |
-|      4|    36|    39|sfoDF   |40      |        |sfoDF     |
-|      4|    36|    40|seaRM   |17      |F       |sfoDF     |
-|      4|    36|    41|sfoDF   |34      |        |sfoDF     |
-|      4|    36|    42|sfoDF   |40      |        |sfoDF     |
-|      4|    36|    43|sfoDF   |34      |        |sfoDF     |
-|      4|    36|    44|sfoDF   |40      |        |sfoDF     |
-|      4|    36|    45|sfoDF   |34      |        |sfoDF     |
-|      4|    36|    46|sfoDF   |40      |        |sfoDF     |
-|      4|    36|    47|sfoDF   |5       |TD      |sfoDF     |
-|      4|    36|    48|seaRM   |17      |PU      |seaRM     |
-|      4|    36|    49|seaRM   |29      |TD      |seaRM     |
-|      4|    36|    50|sfoDF   |23      |PUA     |sfoDF     |
-|      4|    36|    51|sfoDF   |13      |G       |sfoDF     |
-|      4|    37|     1|sfoDF   |?       |P       |seaRM     |
-|      4|    37|     2|seaRM   |3       |PU      |seaRM     |
-|      4|    37|     3|sfoDF   |12      |PU      |sfoDF     |
-|      4|    37|     4|sfoDF   |10      |TD      |sfoDF     |
-|      4|    37|     5|seaRM   |20      |PU      |seaRM     |
-|      4|    37|     6|sfoDF   |12      |F       |seaRM     |
-|      4|    37|     7|seaRM   |1       |        |seaRM     |
-|      4|    37|     8|seaRM   |6       |        |seaRM     |
-|      4|    37|     9|seaRM   |1       |        |seaRM     |
-|      4|    37|    10|seaRM   |3       |        |seaRM     |
-|      4|    37|    11|seaRM   |6       |        |seaRM     |
-|      4|    37|    12|sfoDF   |18      |F       |seaRM     |
-|      4|    37|    13|sfoDF   |85      |D       |seaRM     |
-|      4|    37|    14|sfoDF   |46      |PU      |sfoDF     |
-|      4|    37|    15|sfoDF   |17      |        |sfoDF     |
-|      4|    37|    16|sfoDF   |37      |A       |sfoDF     |
-|      4|    37|    17|sfoDF   |12      |G       |sfoDF     |
-|      4|    38|     1|sfoDF   |23      |P       |seaRM     |
-|      4|    38|     2|seaRM   |20      |PU      |seaRM     |
-|      4|    38|     3|seaRM   |35      |        |seaRM     |
-|      4|    38|     4|seaRM   |13      |        |seaRM     |
-|      4|    38|     5|seaRM   |21      |        |seaRM     |
-|      4|    38|     6|sfoDF   |2       |D       |seaRM     |
-|      4|    38|     7|sfoDF   |23      |PU      |sfoDF     |
-|      4|    38|     8|sfoDF   |34      |        |sfoDF     |
-|      4|    38|     9|sfoDF   |2       |        |sfoDF     |
-|      4|    38|    10|sfoDF   |21      |        |sfoDF     |
-|      4|    38|    11|sfoDF   |9       |        |sfoDF     |
-|      4|    38|    12|sfoDF   |16      |        |sfoDF     |
-|      4|    38|    13|sfoDF   |40      |        |sfoDF     |
-|      4|    38|    14|sfoDF   |34      |        |sfoDF     |
-|      4|    38|    15|sfoDF   |40      |        |sfoDF     |
-|      4|    38|    16|sfoDF   |34      |        |sfoDF     |
-|      4|    38|    17|sfoDF   |40      |TO      |sfoDF     |
-|      4|    38|    18|sfoDF   |40      |PU      |sfoDF     |
-|      4|    38|    19|sfoDF   |11      |        |sfoDF     |
-|      4|    38|    20|sfoDF   |34      |        |sfoDF     |
-|      4|    38|    21|sfoDF   |11      |        |sfoDF     |
-|      4|    38|    22|sfoDF   |88      |        |sfoDF     |
-|      4|    38|    23|sfoDF   |34      |        |sfoDF     |
-|      4|    38|    24|sfoDF   |40      |        |sfoDF     |
-|      4|    38|    25|sfoDF   |11      |        |sfoDF     |
-|      4|    38|    26|sfoDF   |88      |        |sfoDF     |
-|      4|    38|    27|sfoDF   |40      |        |sfoDF     |
-|      4|    38|    28|sfoDF   |5       |        |sfoDF     |
-|      4|    38|    29|sfoDF   |34      |TD      |sfoDF     |
-|      4|    38|    30|seaRM   |9       |PU      |seaRM     |
-|      4|    38|    31|seaRM   |13      |        |seaRM     |
+| period| point|pull_team | event| poss_abs| poss_rel|poss_team |pl_team |pl_pnum |pl_code |
+|------:|-----:|:---------|-----:|--------:|--------:|:---------|:-------|:-------|:-------|
+|      1|     1|sfoDF     |     1|        1|        1|seaRM     |sfoDF   |16      |OBP     |
+|      1|     1|sfoDF     |     2|        1|        1|seaRM     |seaRM   |20      |PU      |
+|      1|     1|sfoDF     |     3|        1|        1|seaRM     |seaRM   |9       |        |
+|      1|     1|sfoDF     |     4|        1|        1|seaRM     |seaRM   |20      |A       |
+|      1|     1|sfoDF     |     5|        1|        1|seaRM     |seaRM   |48      |LG      |
+|      1|     2|seaRM     |     1|        2|        1|sfoDF     |seaRM   |35      |P       |
+|      1|     2|seaRM     |     2|        2|        1|sfoDF     |sfoDF   |11      |PU      |
+|      1|     2|seaRM     |     3|        2|        1|sfoDF     |sfoDF   |5       |        |
+|      1|     2|seaRM     |     4|        2|        1|sfoDF     |sfoDF   |34      |        |
+|      1|     2|seaRM     |     5|        2|        1|sfoDF     |sfoDF   |11      |        |
+|      1|     2|seaRM     |     6|        2|        1|sfoDF     |sfoDF   |23      |        |
+|      1|     2|seaRM     |     7|        2|        1|sfoDF     |sfoDF   |11      |        |
+|      1|     2|seaRM     |     8|        3|        2|seaRM     |seaRM   |29      |PUA     |
+|      1|     2|seaRM     |     9|        3|        2|seaRM     |seaRM   |9       |G       |
+|      1|     3|seaRM     |     1|        4|        1|sfoDF     |seaRM   |35      |P       |
+|      1|     3|seaRM     |     2|        4|        1|sfoDF     |sfoDF   |11      |PU      |
+|      1|     3|seaRM     |     3|        4|        1|sfoDF     |sfoDF   |5       |        |
+|      1|     3|seaRM     |     4|        4|        1|sfoDF     |sfoDF   |34      |A       |
+|      1|     3|seaRM     |     5|        4|        1|sfoDF     |sfoDF   |40      |G       |
+|      1|     4|sfoDF     |     1|        5|        1|seaRM     |sfoDF   |16      |P       |
+|      1|     4|sfoDF     |     2|        5|        1|seaRM     |seaRM   |1       |PU      |
+|      1|     4|sfoDF     |     3|        5|        1|seaRM     |seaRM   |3       |        |
+|      1|     4|sfoDF     |     4|        5|        1|seaRM     |seaRM   |20      |        |
+|      1|     4|sfoDF     |     5|        5|        1|seaRM     |seaRM   |51      |        |
+|      1|     4|sfoDF     |     6|        5|        1|seaRM     |seaRM   |3       |        |
+|      1|     4|sfoDF     |     7|        5|        1|seaRM     |seaRM   |6       |        |
+|      1|     4|sfoDF     |     8|        6|        2|sfoDF     |sfoDF   |25      |PU      |
+|      1|     4|sfoDF     |     9|        6|        2|sfoDF     |sfoDF   |9       |        |
+|      1|     4|sfoDF     |    10|        6|        2|sfoDF     |sfoDF   |16      |        |
+|      1|     4|sfoDF     |    11|        6|        2|sfoDF     |sfoDF   |21      |        |
+|      1|     4|sfoDF     |    12|        6|        2|sfoDF     |sfoDF   |16      |        |
+|      1|     4|sfoDF     |    13|        6|        2|sfoDF     |sfoDF   |9       |        |
+|      1|     4|sfoDF     |    14|        6|        2|sfoDF     |sfoDF   |83      |        |
+|      1|     4|sfoDF     |    15|        6|        2|sfoDF     |sfoDF   |25      |TD      |
+|      1|     4|sfoDF     |    16|        7|        3|seaRM     |seaRM   |3       |PU      |
+|      1|     4|sfoDF     |    17|        7|        3|seaRM     |seaRM   |18      |A       |
+|      1|     4|sfoDF     |    18|        7|        3|seaRM     |seaRM   |6       |G       |
+|      1|     5|seaRM     |     1|        8|        1|sfoDF     |seaRM   |35      |P       |
+|      1|     5|seaRM     |     2|        8|        1|sfoDF     |sfoDF   |57      |PU      |
+|      1|     5|seaRM     |     3|        8|        1|sfoDF     |sfoDF   |34      |        |
+|      1|     5|seaRM     |     4|        8|        1|sfoDF     |sfoDF   |13      |        |
+|      1|     5|seaRM     |     5|        8|        1|sfoDF     |sfoDF   |40      |        |
+|      1|     5|seaRM     |     6|        8|        1|sfoDF     |sfoDF   |13      |        |
+|      1|     5|seaRM     |     7|        8|        1|sfoDF     |sfoDF   |57      |        |
+|      1|     5|seaRM     |     8|        8|        1|sfoDF     |seaRM   |28      |D       |
+|      1|     5|seaRM     |     9|        9|        2|seaRM     |seaRM   |9       |PU      |
+|      1|     5|seaRM     |    10|        9|        2|seaRM     |seaRM   |35      |        |
+|      1|     5|seaRM     |    11|        9|        2|seaRM     |seaRM   |21      |        |
+|      1|     5|seaRM     |    12|        9|        2|seaRM     |seaRM   |35      |        |
+|      1|     5|seaRM     |    13|        9|        2|seaRM     |seaRM   |29      |        |
+|      1|     5|seaRM     |    14|        9|        2|seaRM     |sfoDF   |34      |D       |
+|      1|     5|seaRM     |    15|       10|        3|sfoDF     |sfoDF   |23      |PU      |
+|      1|     5|seaRM     |    16|       10|        3|sfoDF     |sfoDF   |34      |        |
+|      1|     5|seaRM     |    17|       10|        3|sfoDF     |sfoDF   |5       |        |
+|      1|     5|seaRM     |    18|       10|        3|sfoDF     |sfoDF   |13      |        |
+|      1|     5|seaRM     |    19|       10|        3|sfoDF     |sfoDF   |40      |        |
+|      1|     5|seaRM     |    20|       10|        3|sfoDF     |sfoDF   |23      |        |
+|      1|     5|seaRM     |    21|       10|        3|sfoDF     |sfoDF   |40      |        |
+|      1|     5|seaRM     |    22|       10|        3|sfoDF     |sfoDF   |5       |        |
+|      1|     5|seaRM     |    23|       10|        3|sfoDF     |sfoDF   |34      |        |
+|      1|     5|seaRM     |    24|       10|        3|sfoDF     |sfoDF   |23      |        |
+|      1|     5|seaRM     |    25|       10|        3|sfoDF     |sfoDF   |34      |        |
+|      1|     5|seaRM     |    26|       10|        3|sfoDF     |sfoDF   |23      |A       |
+|      1|     5|seaRM     |    27|       10|        3|sfoDF     |sfoDF   |34      |G       |
+|      1|     6|sfoDF     |     1|       11|        1|seaRM     |sfoDF   |12      |P       |
+|      1|     6|sfoDF     |     2|       11|        1|seaRM     |seaRM   |1       |PU      |
+|      1|     6|sfoDF     |     3|       11|        1|seaRM     |seaRM   |3       |        |
+|      1|     6|sfoDF     |     4|       11|        1|seaRM     |seaRM   |48      |TD      |
+|      1|     6|sfoDF     |     5|       12|        2|sfoDF     |sfoDF   |12      |PU      |
+|      1|     6|sfoDF     |     6|       12|        2|sfoDF     |sfoDF   |46      |        |
+|      1|     6|sfoDF     |     7|       12|        2|sfoDF     |sfoDF   |12      |        |
+|      1|     6|sfoDF     |     8|       12|        2|sfoDF     |sfoDF   |85      |        |
+|      1|     6|sfoDF     |     9|       12|        2|sfoDF     |sfoDF   |18      |        |
+|      1|     6|sfoDF     |    10|       12|        2|sfoDF     |sfoDF   |12      |        |
+|      1|     6|sfoDF     |    11|       12|        2|sfoDF     |sfoDF   |18      |        |
+|      1|     6|sfoDF     |    12|       12|        2|sfoDF     |seaRM   |3       |D       |
+|      1|     6|sfoDF     |    13|       13|        3|seaRM     |seaRM   |9       |PU      |
+|      1|     6|sfoDF     |    14|       13|        3|seaRM     |seaRM   |20      |        |
+|      1|     6|sfoDF     |    15|       13|        3|seaRM     |seaRM   |3       |        |
+|      1|     6|sfoDF     |    16|       13|        3|seaRM     |seaRM   |20      |        |
+|      1|     6|sfoDF     |    17|       13|        3|seaRM     |seaRM   |3       |        |
+|      1|     6|sfoDF     |    18|       13|        3|seaRM     |seaRM   |20      |TD      |
+|      1|     6|sfoDF     |    19|       14|        4|sfoDF     |sfoDF   |17      |PU      |
+|      1|     6|sfoDF     |    20|       14|        4|sfoDF     |sfoDF   |12      |        |
+|      1|     6|sfoDF     |    21|       14|        4|sfoDF     |sfoDF   |37      |        |
+|      1|     6|sfoDF     |    22|       14|        4|sfoDF     |sfoDF   |12      |A       |
+|      1|     6|sfoDF     |    23|       14|        4|sfoDF     |sfoDF   |18      |G       |
+|      1|     7|sfoDF     |     1|       15|        1|seaRM     |sfoDF   |16      |P       |
+|      1|     7|sfoDF     |     2|       15|        1|seaRM     |seaRM   |1       |PU      |
+|      1|     7|sfoDF     |     3|       15|        1|seaRM     |seaRM   |20      |        |
+|      1|     7|sfoDF     |     4|       15|        1|seaRM     |seaRM   |9       |        |
+|      1|     7|sfoDF     |     5|       15|        1|seaRM     |seaRM   |20      |        |
+|      1|     7|sfoDF     |     6|       15|        1|seaRM     |seaRM   |3       |        |
+|      1|     7|sfoDF     |     7|       15|        1|seaRM     |seaRM   |9       |A       |
+|      1|     7|sfoDF     |     8|       15|        1|seaRM     |seaRM   |1       |G       |
+|      1|     8|seaRM     |     1|       16|        1|sfoDF     |seaRM   |35      |P       |
+|      1|     8|seaRM     |     2|       16|        1|sfoDF     |sfoDF   |11      |PU      |
+|      1|     8|seaRM     |     3|       16|        1|sfoDF     |sfoDF   |34      |        |
+|      1|     8|seaRM     |     4|       16|        1|sfoDF     |sfoDF   |11      |        |
+|      1|     8|seaRM     |     5|       16|        1|sfoDF     |sfoDF   |40      |        |
+|      1|     8|seaRM     |     6|       16|        1|sfoDF     |sfoDF   |24      |        |
+|      1|     8|seaRM     |     7|       16|        1|sfoDF     |sfoDF   |23      |        |
+|      1|     8|seaRM     |     8|       16|        1|sfoDF     |sfoDF   |13      |A       |
+|      1|     8|seaRM     |     9|       16|        1|sfoDF     |sfoDF   |34      |G       |
+|      1|     9|sfoDF     |     1|       17|        1|seaRM     |sfoDF   |12      |P       |
+|      1|     9|sfoDF     |     2|       17|        1|seaRM     |seaRM   |3       |PU      |
+|      1|     9|sfoDF     |     3|       17|        1|seaRM     |seaRM   |17      |        |
+|      1|     9|sfoDF     |     4|       17|        1|seaRM     |sfoDF   |46      |D       |
+|      1|     9|sfoDF     |     5|       18|        2|sfoDF     |sfoDF   |12      |PU      |
+|      1|     9|sfoDF     |     6|       18|        2|sfoDF     |sfoDF   |37      |        |
+|      1|     9|sfoDF     |     7|       18|        2|sfoDF     |sfoDF   |17      |        |
+|      1|     9|sfoDF     |     8|       18|        2|sfoDF     |sfoDF   |18      |        |
+|      1|     9|sfoDF     |     9|       18|        2|sfoDF     |sfoDF   |46      |        |
+|      1|     9|sfoDF     |    10|       18|        2|sfoDF     |sfoDF   |17      |        |
+|      1|     9|sfoDF     |    11|       18|        2|sfoDF     |sfoDF   |18      |        |
+|      1|     9|sfoDF     |    12|       18|        2|sfoDF     |seaRM   |3       |F       |
+|      1|     9|sfoDF     |    13|       18|        2|sfoDF     |sfoDF   |46      |        |
+|      1|     9|sfoDF     |    14|       18|        2|sfoDF     |sfoDF   |17      |TD      |
+|      1|     9|sfoDF     |    15|       19|        3|seaRM     |seaRM   |3       |PU      |
+|      1|     9|sfoDF     |    16|       19|        3|seaRM     |seaRM   |20      |        |
+|      1|     9|sfoDF     |    17|       19|        3|seaRM     |seaRM   |1       |        |
+|      1|     9|sfoDF     |    18|       19|        3|seaRM     |seaRM   |20      |        |
+|      1|     9|sfoDF     |    19|       19|        3|seaRM     |seaRM   |3       |        |
+|      1|     9|sfoDF     |    20|       20|        4|sfoDF     |sfoDF   |12      |PU      |
+|      1|     9|sfoDF     |    21|       21|        5|seaRM     |seaRM   |3       |PU      |
+|      1|     9|sfoDF     |    22|       21|        5|seaRM     |seaRM   |20      |        |
+|      1|     9|sfoDF     |    23|       21|        5|seaRM     |seaRM   |51      |        |
+|      1|     9|sfoDF     |    24|       21|        5|seaRM     |seaRM   |18      |        |
+|      1|     9|sfoDF     |    25|       21|        5|seaRM     |seaRM   |17      |        |
+|      1|     9|sfoDF     |    26|       21|        5|seaRM     |seaRM   |3       |        |
+|      1|     9|sfoDF     |    27|       21|        5|seaRM     |seaRM   |17      |        |
+|      1|     9|sfoDF     |    28|       21|        5|seaRM     |seaRM   |3       |        |
+|      1|     9|sfoDF     |    29|       21|        5|seaRM     |seaRM   |6       |A       |
+|      1|     9|sfoDF     |    30|       21|        5|seaRM     |seaRM   |48      |G       |
+|      1|    10|seaRM     |     1|       22|        1|sfoDF     |seaRM   |?       |P       |
+|      1|    10|seaRM     |     2|       22|        1|sfoDF     |sfoDF   |88      |PU      |
+|      1|    10|seaRM     |     3|       22|        1|sfoDF     |sfoDF   |5       |        |
+|      1|    10|seaRM     |     4|       22|        1|sfoDF     |sfoDF   |88      |        |
+|      1|    10|seaRM     |     5|       22|        1|sfoDF     |sfoDF   |5       |        |
+|      1|    10|seaRM     |     6|       22|        1|sfoDF     |seaRM   |21      |HB      |
+|      1|    10|seaRM     |     7|       23|        2|seaRM     |seaRM   |21      |TO      |
+|      1|    10|seaRM     |     8|       23|        2|seaRM     |seaRM   |3       |PUA     |
+|      1|    10|seaRM     |     9|       23|        2|seaRM     |seaRM   |9       |G       |
+|      1|    11|seaRM     |     1|       24|        1|sfoDF     |seaRM   |?       |P       |
+|      1|    11|seaRM     |     2|       24|        1|sfoDF     |sfoDF   |5       |PU      |
+|      1|    11|seaRM     |     3|       24|        1|sfoDF     |sfoDF   |34      |        |
+|      1|    11|seaRM     |     4|       24|        1|sfoDF     |sfoDF   |24      |        |
+|      1|    11|seaRM     |     5|       24|        1|sfoDF     |sfoDF   |11      |        |
+|      1|    11|seaRM     |     6|       24|        1|sfoDF     |sfoDF   |5       |        |
+|      2|    12|sfoDF     |     1|       25|        1|seaRM     |sfoDF   |46      |P       |
+|      2|    12|sfoDF     |     2|       25|        1|seaRM     |seaRM   |35      |PU      |
+|      2|    12|sfoDF     |     3|       25|        1|seaRM     |seaRM   |3       |TD      |
+|      2|    12|sfoDF     |     4|       26|        2|sfoDF     |sfoDF   |17      |PU      |
+|      2|    12|sfoDF     |     5|       26|        2|sfoDF     |sfoDF   |37      |        |
+|      2|    12|sfoDF     |     6|       26|        2|sfoDF     |sfoDF   |17      |A       |
+|      2|    12|sfoDF     |     7|       26|        2|sfoDF     |sfoDF   |12      |G       |
+|      2|    13|sfoDF     |     1|       27|        1|seaRM     |sfoDF   |16      |P       |
+|      2|    13|sfoDF     |     2|       27|        1|seaRM     |seaRM   |3       |PU      |
+|      2|    13|sfoDF     |     3|       27|        1|seaRM     |seaRM   |17      |        |
+|      2|    13|sfoDF     |     4|       27|        1|seaRM     |seaRM   |3       |        |
+|      2|    13|sfoDF     |     5|       27|        1|seaRM     |seaRM   |17      |        |
+|      2|    13|sfoDF     |     6|       27|        1|seaRM     |seaRM   |35      |        |
+|      2|    13|sfoDF     |     7|       27|        1|seaRM     |seaRM   |9       |        |
+|      2|    13|sfoDF     |     8|       27|        1|seaRM     |seaRM   |3       |        |
+|      2|    13|sfoDF     |     9|       27|        1|seaRM     |seaRM   |9       |        |
+|      2|    13|sfoDF     |    10|       27|        1|seaRM     |seaRM   |3       |        |
+|      2|    13|sfoDF     |    11|       27|        1|seaRM     |seaRM   |9       |        |
+|      2|    13|sfoDF     |    12|       27|        1|seaRM     |seaRM   |17      |        |
+|      2|    13|sfoDF     |    13|       27|        1|seaRM     |seaRM   |48      |        |
+|      2|    13|sfoDF     |    14|       27|        1|seaRM     |seaRM   |6       |TD      |
+|      2|    13|sfoDF     |    15|       28|        2|sfoDF     |sfoDF   |83      |PU      |
+|      2|    13|sfoDF     |    16|       28|        2|sfoDF     |sfoDF   |7       |        |
+|      2|    13|sfoDF     |    17|       29|        3|seaRM     |seaRM   |3       |PU      |
+|      2|    13|sfoDF     |    18|       29|        3|seaRM     |seaRM   |6       |A       |
+|      2|    13|sfoDF     |    19|       29|        3|seaRM     |seaRM   |48      |G       |
+|      2|    14|seaRM     |     1|       30|        1|sfoDF     |seaRM   |?       |P       |
+|      2|    14|seaRM     |     2|       30|        1|sfoDF     |sfoDF   |57      |PU      |
+|      2|    14|seaRM     |     3|       30|        1|sfoDF     |sfoDF   |5       |        |
+|      2|    14|seaRM     |     4|       30|        1|sfoDF     |sfoDF   |8       |        |
+|      2|    14|seaRM     |     5|       30|        1|sfoDF     |sfoDF   |34      |        |
+|      2|    14|seaRM     |     6|       30|        1|sfoDF     |sfoDF   |8       |        |
+|      2|    14|seaRM     |     7|       30|        1|sfoDF     |sfoDF   |40      |A       |
+|      2|    14|seaRM     |     8|       30|        1|sfoDF     |sfoDF   |8       |G       |
+|      2|    15|sfoDF     |     1|       31|        1|seaRM     |sfoDF   |?       |P       |
+|      2|    15|sfoDF     |     2|       31|        1|seaRM     |seaRM   |1       |PU      |
+|      2|    15|sfoDF     |     3|       31|        1|seaRM     |seaRM   |17      |        |
+|      2|    15|sfoDF     |     4|       31|        1|seaRM     |seaRM   |3       |        |
+|      2|    15|sfoDF     |     5|       31|        1|seaRM     |seaRM   |17      |        |
+|      2|    15|sfoDF     |     6|       31|        1|seaRM     |seaRM   |20      |        |
+|      2|    15|sfoDF     |     7|       31|        1|seaRM     |seaRM   |3       |        |
+|      2|    15|sfoDF     |     8|       31|        1|seaRM     |seaRM   |51      |TD      |
+|      2|    15|sfoDF     |     9|       32|        2|sfoDF     |sfoDF   |83      |PU      |
+|      2|    15|sfoDF     |    10|       32|        2|sfoDF     |sfoDF   |21      |TO      |
+|      2|    15|sfoDF     |    11|       32|        2|sfoDF     |sfoDF   |5       |PU      |
+|      2|    15|sfoDF     |    12|       32|        2|sfoDF     |sfoDF   |34      |        |
+|      2|    15|sfoDF     |    13|       32|        2|sfoDF     |sfoDF   |5       |        |
+|      2|    15|sfoDF     |    14|       32|        2|sfoDF     |sfoDF   |11      |        |
+|      2|    15|sfoDF     |    15|       32|        2|sfoDF     |seaRM   |48      |D       |
+|      2|    15|sfoDF     |    16|       33|        3|seaRM     |seaRM   |35      |PU      |
+|      2|    15|sfoDF     |    17|       33|        3|seaRM     |seaRM   |28      |        |
+|      2|    15|sfoDF     |    18|       33|        3|seaRM     |seaRM   |35      |        |
+|      2|    15|sfoDF     |    19|       33|        3|seaRM     |seaRM   |29      |        |
+|      2|    15|sfoDF     |    20|       33|        3|seaRM     |seaRM   |13      |        |
+|      2|    15|sfoDF     |    21|       33|        3|seaRM     |seaRM   |35      |        |
+|      2|    15|sfoDF     |    22|       33|        3|seaRM     |sfoDF   |40      |F       |
+|      2|    15|sfoDF     |    23|       33|        3|seaRM     |seaRM   |9       |        |
+|      2|    15|sfoDF     |    24|       34|        4|sfoDF     |sfoDF   |23      |PU      |
+|      2|    15|sfoDF     |    25|       34|        4|sfoDF     |sfoDF   |24      |L       |
+|      2|    15|sfoDF     |    26|       34|        4|sfoDF     |sfoDF   |34      |A       |
+|      2|    15|sfoDF     |    27|       34|        4|sfoDF     |sfoDF   |88      |G       |
+|      2|    16|sfoDF     |     1|       35|        1|seaRM     |sfoDF   |?       |P       |
+|      2|    16|sfoDF     |     2|       35|        1|seaRM     |seaRM   |20      |PU      |
+|      2|    16|sfoDF     |     3|       35|        1|seaRM     |seaRM   |3       |        |
+|      2|    16|sfoDF     |     4|       35|        1|seaRM     |seaRM   |20      |        |
+|      2|    16|sfoDF     |     5|       35|        1|seaRM     |seaRM   |17      |        |
+|      2|    16|sfoDF     |     6|       35|        1|seaRM     |seaRM   |48      |        |
+|      2|    16|sfoDF     |     7|       35|        1|seaRM     |seaRM   |17      |VST     |
+|      2|    16|sfoDF     |     8|       36|        2|sfoDF     |sfoDF   |12      |PU      |
+|      2|    16|sfoDF     |     9|       36|        2|sfoDF     |sfoDF   |46      |        |
+|      2|    16|sfoDF     |    10|       37|        3|seaRM     |seaRM   |3       |PU      |
+|      2|    16|sfoDF     |    11|       37|        3|seaRM     |seaRM   |17      |        |
+|      2|    16|sfoDF     |    12|       37|        3|seaRM     |seaRM   |18      |        |
+|      2|    16|sfoDF     |    13|       37|        3|seaRM     |seaRM   |1       |        |
+|      2|    16|sfoDF     |    14|       37|        3|seaRM     |seaRM   |18      |        |
+|      2|    16|sfoDF     |    15|       37|        3|seaRM     |seaRM   |1       |        |
+|      2|    16|sfoDF     |    16|       37|        3|seaRM     |seaRM   |17      |        |
+|      2|    16|sfoDF     |    17|       37|        3|seaRM     |seaRM   |20      |        |
+|      2|    16|sfoDF     |    18|       37|        3|seaRM     |seaRM   |1       |        |
+|      2|    16|sfoDF     |    19|       37|        3|seaRM     |seaRM   |17      |        |
+|      2|    16|sfoDF     |    20|       38|        4|sfoDF     |sfoDF   |12      |PU      |
+|      2|    16|sfoDF     |    21|       38|        4|sfoDF     |sfoDF   |18      |A       |
+|      2|    16|sfoDF     |    22|       38|        4|sfoDF     |sfoDF   |85      |G       |
+|      2|    17|sfoDF     |     1|       39|        1|seaRM     |sfoDF   |16      |P       |
+|      2|    17|sfoDF     |     2|       39|        1|seaRM     |seaRM   |20      |PU      |
+|      2|    17|sfoDF     |     3|       39|        1|seaRM     |seaRM   |17      |TD      |
+|      2|    17|sfoDF     |     4|       40|        2|sfoDF     |sfoDF   |83      |PU      |
+|      2|    17|sfoDF     |     5|       40|        2|sfoDF     |sfoDF   |16      |        |
+|      2|    17|sfoDF     |     6|       40|        2|sfoDF     |sfoDF   |83      |TD      |
+|      2|    17|sfoDF     |     7|       41|        3|seaRM     |seaRM   |35      |PU      |
+|      2|    17|sfoDF     |     8|       41|        3|seaRM     |seaRM   |9       |        |
+|      2|    17|sfoDF     |     9|       41|        3|seaRM     |seaRM   |20      |        |
+|      2|    17|sfoDF     |    10|       41|        3|seaRM     |seaRM   |3       |        |
+|      2|    17|sfoDF     |    11|       41|        3|seaRM     |seaRM   |6       |A       |
+|      2|    17|sfoDF     |    12|       41|        3|seaRM     |seaRM   |9       |LG      |
+|      2|    18|seaRM     |     1|       42|        1|sfoDF     |seaRM   |35      |P       |
+|      2|    18|seaRM     |     2|       42|        1|sfoDF     |sfoDF   |11      |PU      |
+|      2|    18|seaRM     |     3|       43|        2|seaRM     |seaRM   |35      |PU      |
+|      2|    18|seaRM     |     4|       44|        3|sfoDF     |sfoDF   |23      |PU      |
+|      2|    18|seaRM     |     5|       44|        3|sfoDF     |sfoDF   |24      |        |
+|      2|    18|seaRM     |     6|       44|        3|sfoDF     |sfoDF   |23      |        |
+|      2|    18|seaRM     |     7|       44|        3|sfoDF     |seaRM   |35      |D       |
+|      2|    18|seaRM     |     8|       45|        4|seaRM     |seaRM   |35      |        |
+|      2|    18|seaRM     |     9|       45|        4|seaRM     |seaRM   |13      |TD      |
+|      2|    18|seaRM     |    10|       46|        5|sfoDF     |sfoDF   |34      |PU      |
+|      2|    18|seaRM     |    11|       46|        5|sfoDF     |sfoDF   |24      |        |
+|      2|    18|seaRM     |    12|       46|        5|sfoDF     |sfoDF   |40      |A       |
+|      2|    18|seaRM     |    13|       46|        5|sfoDF     |sfoDF   |24      |G       |
+|      2|    19|sfoDF     |     1|       47|        1|seaRM     |sfoDF   |12      |P       |
+|      2|    19|sfoDF     |     2|       47|        1|seaRM     |seaRM   |1       |PU      |
+|      2|    19|sfoDF     |     3|       47|        1|seaRM     |seaRM   |3       |        |
+|      2|    19|sfoDF     |     4|       47|        1|seaRM     |seaRM   |6       |A       |
+|      2|    19|sfoDF     |     5|       47|        1|seaRM     |seaRM   |17      |G       |
+|      2|    20|seaRM     |     1|       48|        1|sfoDF     |seaRM   |29      |P       |
+|      2|    20|seaRM     |     2|       48|        1|sfoDF     |sfoDF   |57      |PU      |
+|      2|    20|seaRM     |     3|       48|        1|sfoDF     |sfoDF   |8       |        |
+|      2|    20|seaRM     |     4|       48|        1|sfoDF     |sfoDF   |5       |        |
+|      2|    20|seaRM     |     5|       49|        2|seaRM     |seaRM   |9       |PU      |
+|      2|    20|seaRM     |     6|       49|        2|seaRM     |seaRM   |28      |TD      |
+|      2|    20|seaRM     |     7|       50|        3|sfoDF     |sfoDF   |34      |PU      |
+|      2|    20|seaRM     |     8|       50|        3|sfoDF     |sfoDF   |13      |        |
+|      2|    20|seaRM     |     9|       50|        3|sfoDF     |sfoDF   |40      |        |
+|      2|    20|seaRM     |    10|       50|        3|sfoDF     |sfoDF   |13      |        |
+|      2|    20|seaRM     |    11|       50|        3|sfoDF     |sfoDF   |34      |A       |
+|      2|    20|seaRM     |    12|       50|        3|sfoDF     |sfoDF   |8       |G       |
+|      2|    21|sfoDF     |     1|       51|        1|seaRM     |sfoDF   |16      |P       |
+|      2|    21|sfoDF     |     2|       51|        1|seaRM     |seaRM   |17      |PU      |
+|      2|    21|sfoDF     |     3|       51|        1|seaRM     |seaRM   |20      |        |
+|      2|    21|sfoDF     |     4|       51|        1|seaRM     |seaRM   |6       |        |
+|      2|    21|sfoDF     |     5|       51|        1|seaRM     |seaRM   |18      |        |
+|      2|    21|sfoDF     |     6|       52|        2|sfoDF     |sfoDF   |21      |TO      |
+|      2|    21|sfoDF     |     7|       52|        2|sfoDF     |sfoDF   |5       |PU      |
+|      2|    21|sfoDF     |     8|       52|        2|sfoDF     |sfoDF   |40      |TD      |
+|      2|    21|sfoDF     |     9|       53|        3|seaRM     |seaRM   |35      |PUA     |
+|      2|    21|sfoDF     |    10|       53|        3|seaRM     |seaRM   |9       |G       |
+|      2|    22|seaRM     |     1|       54|        1|sfoDF     |seaRM   |35      |P       |
+|      2|    22|seaRM     |     2|       54|        1|sfoDF     |sfoDF   |11      |PU      |
+|      2|    22|seaRM     |     3|       54|        1|sfoDF     |sfoDF   |88      |        |
+|      2|    22|seaRM     |     4|       54|        1|sfoDF     |sfoDF   |34      |        |
+|      2|    22|seaRM     |     5|       54|        1|sfoDF     |sfoDF   |11      |        |
+|      3|    23|sfoDF     |     1|       55|        1|seaRM     |sfoDF   |46      |P       |
+|      3|    23|sfoDF     |     2|       55|        1|seaRM     |seaRM   |3       |PU      |
+|      3|    23|sfoDF     |     3|       55|        1|seaRM     |sfoDF   |12      |F       |
+|      3|    23|sfoDF     |     4|       55|        1|seaRM     |seaRM   |17      |        |
+|      3|    23|sfoDF     |     5|       55|        1|seaRM     |seaRM   |3       |        |
+|      3|    23|sfoDF     |     6|       55|        1|seaRM     |sfoDF   |12      |F       |
+|      3|    23|sfoDF     |     7|       55|        1|seaRM     |sfoDF   |37      |D       |
+|      3|    23|sfoDF     |     8|       56|        2|sfoDF     |sfoDF   |85      |PU      |
+|      3|    23|sfoDF     |     9|       56|        2|sfoDF     |sfoDF   |17      |        |
+|      3|    23|sfoDF     |    10|       56|        2|sfoDF     |sfoDF   |85      |        |
+|      3|    23|sfoDF     |    11|       56|        2|sfoDF     |sfoDF   |10      |        |
+|      3|    23|sfoDF     |    12|       56|        2|sfoDF     |sfoDF   |85      |        |
+|      3|    23|sfoDF     |    13|       57|        3|seaRM     |seaRM   |35      |PU      |
+|      3|    23|sfoDF     |    14|       57|        3|seaRM     |seaRM   |3       |        |
+|      3|    23|sfoDF     |    15|       57|        3|seaRM     |seaRM   |6       |        |
+|      3|    23|sfoDF     |    16|       57|        3|seaRM     |sfoDF   |85      |D       |
+|      3|    23|sfoDF     |    17|       58|        4|sfoDF     |sfoDF   |17      |PU      |
+|      3|    23|sfoDF     |    18|       58|        4|sfoDF     |sfoDF   |85      |        |
+|      3|    23|sfoDF     |    19|       58|        4|sfoDF     |sfoDF   |37      |A       |
+|      3|    23|sfoDF     |    20|       58|        4|sfoDF     |sfoDF   |10      |G       |
+|      3|    24|sfoDF     |     1|       59|        1|seaRM     |sfoDF   |16      |P       |
+|      3|    24|sfoDF     |     2|       59|        1|seaRM     |seaRM   |17      |PU      |
+|      3|    24|sfoDF     |     3|       59|        1|seaRM     |seaRM   |20      |        |
+|      3|    24|sfoDF     |     4|       59|        1|seaRM     |seaRM   |17      |        |
+|      3|    24|sfoDF     |     5|       59|        1|seaRM     |seaRM   |1       |        |
+|      3|    24|sfoDF     |     6|       59|        1|seaRM     |seaRM   |48      |        |
+|      3|    24|sfoDF     |     7|       59|        1|seaRM     |seaRM   |1       |A       |
+|      3|    24|sfoDF     |     8|       59|        1|seaRM     |seaRM   |48      |G       |
+|      3|    25|seaRM     |     1|       60|        1|sfoDF     |seaRM   |35      |P       |
+|      3|    25|seaRM     |     2|       60|        1|sfoDF     |sfoDF   |11      |PU      |
+|      3|    25|seaRM     |     3|       60|        1|sfoDF     |sfoDF   |13      |        |
+|      3|    25|seaRM     |     4|       61|        2|seaRM     |seaRM   |29      |PU      |
+|      3|    25|seaRM     |     5|       61|        2|seaRM     |seaRM   |35      |        |
+|      3|    25|seaRM     |     6|       61|        2|seaRM     |seaRM   |9       |        |
+|      3|    25|seaRM     |     7|       61|        2|seaRM     |seaRM   |35      |        |
+|      3|    25|seaRM     |     8|       61|        2|seaRM     |seaRM   |24      |        |
+|      3|    25|seaRM     |     9|       61|        2|seaRM     |seaRM   |21      |A       |
+|      3|    25|seaRM     |    10|       61|        2|seaRM     |seaRM   |29      |G       |
+|      3|    26|seaRM     |     1|       62|        1|sfoDF     |seaRM   |35      |P       |
+|      3|    26|seaRM     |     2|       62|        1|sfoDF     |sfoDF   |5       |PU      |
+|      3|    26|seaRM     |     3|       62|        1|sfoDF     |sfoDF   |8       |        |
+|      3|    26|seaRM     |     4|       62|        1|sfoDF     |sfoDF   |34      |        |
+|      3|    26|seaRM     |     5|       62|        1|sfoDF     |sfoDF   |5       |        |
+|      3|    26|seaRM     |     6|       62|        1|sfoDF     |sfoDF   |8       |        |
+|      3|    26|seaRM     |     7|       62|        1|sfoDF     |sfoDF   |5       |        |
+|      3|    26|seaRM     |     8|       62|        1|sfoDF     |sfoDF   |8       |        |
+|      3|    26|seaRM     |     9|       62|        1|sfoDF     |sfoDF   |5       |        |
+|      3|    26|seaRM     |    10|       62|        1|sfoDF     |sfoDF   |8       |        |
+|      3|    26|seaRM     |    11|       62|        1|sfoDF     |sfoDF   |40      |        |
+|      3|    26|seaRM     |    12|       63|        2|seaRM     |seaRM   |35      |PUA     |
+|      3|    26|seaRM     |    13|       63|        2|seaRM     |seaRM   |48      |LG      |
+|      3|    27|seaRM     |     1|       64|        1|sfoDF     |seaRM   |35      |P       |
+|      3|    27|seaRM     |     2|       64|        1|sfoDF     |sfoDF   |25      |PU      |
+|      3|    27|seaRM     |     3|       64|        1|sfoDF     |sfoDF   |83      |        |
+|      3|    27|seaRM     |     4|       64|        1|sfoDF     |sfoDF   |25      |        |
+|      3|    27|seaRM     |     5|       64|        1|sfoDF     |sfoDF   |7       |TD      |
+|      3|    27|seaRM     |     6|       65|        2|seaRM     |seaRM   |3       |PU      |
+|      3|    27|seaRM     |     7|       65|        2|seaRM     |seaRM   |9       |        |
+|      3|    27|seaRM     |     8|       65|        2|seaRM     |seaRM   |35      |        |
+|      3|    27|seaRM     |     9|       65|        2|seaRM     |seaRM   |29      |A       |
+|      3|    27|seaRM     |    10|       65|        2|seaRM     |seaRM   |35      |G       |
+|      3|    28|seaRM     |     1|       66|        1|sfoDF     |seaRM   |?       |P       |
+|      3|    28|seaRM     |     2|       66|        1|sfoDF     |sfoDF   |11      |PU      |
+|      3|    28|seaRM     |     3|       66|        1|sfoDF     |sfoDF   |34      |        |
+|      3|    28|seaRM     |     4|       66|        1|sfoDF     |sfoDF   |5       |        |
+|      3|    28|seaRM     |     5|       66|        1|sfoDF     |sfoDF   |34      |        |
+|      3|    28|seaRM     |     6|       66|        1|sfoDF     |sfoDF   |88      |        |
+|      3|    28|seaRM     |     7|       66|        1|sfoDF     |sfoDF   |34      |        |
+|      3|    28|seaRM     |     8|       66|        1|sfoDF     |sfoDF   |11      |A       |
+|      3|    28|seaRM     |     9|       66|        1|sfoDF     |sfoDF   |5       |G       |
+|      3|    29|sfoDF     |     1|       67|        1|seaRM     |sfoDF   |46      |P       |
+|      3|    29|sfoDF     |     2|       67|        1|seaRM     |seaRM   |3       |PU      |
+|      3|    29|sfoDF     |     3|       67|        1|seaRM     |seaRM   |20      |        |
+|      3|    29|sfoDF     |     4|       67|        1|seaRM     |seaRM   |3       |        |
+|      3|    29|sfoDF     |     5|       67|        1|seaRM     |seaRM   |1       |        |
+|      3|    29|sfoDF     |     6|       67|        1|seaRM     |seaRM   |17      |        |
+|      3|    29|sfoDF     |     7|       67|        1|seaRM     |seaRM   |3       |TD      |
+|      3|    29|sfoDF     |     8|       68|        2|sfoDF     |sfoDF   |17      |PU      |
+|      3|    29|sfoDF     |     9|       68|        2|sfoDF     |seaRM   |15      |D       |
+|      3|    29|sfoDF     |    10|       69|        3|seaRM     |seaRM   |20      |PU      |
+|      3|    29|sfoDF     |    11|       69|        3|seaRM     |seaRM   |6       |        |
+|      3|    29|sfoDF     |    12|       69|        3|seaRM     |seaRM   |1       |        |
+|      3|    29|sfoDF     |    13|       69|        3|seaRM     |seaRM   |3       |        |
+|      3|    29|sfoDF     |    14|       69|        3|seaRM     |seaRM   |51      |        |
+|      3|    29|sfoDF     |    15|       69|        3|seaRM     |seaRM   |3       |        |
+|      3|    29|sfoDF     |    16|       69|        3|seaRM     |seaRM   |1       |        |
+|      3|    29|sfoDF     |    17|       69|        3|seaRM     |seaRM   |17      |        |
+|      3|    29|sfoDF     |    18|       69|        3|seaRM     |seaRM   |15      |TD      |
+|      3|    29|sfoDF     |    19|       70|        4|sfoDF     |sfoDF   |17      |PU      |
+|      3|    29|sfoDF     |    20|       71|        5|seaRM     |seaRM   |20      |PU      |
+|      3|    29|sfoDF     |    21|       71|        5|seaRM     |seaRM   |51      |TD      |
+|      3|    29|sfoDF     |    22|       72|        6|sfoDF     |sfoDF   |12      |PU      |
+|      3|    29|sfoDF     |    23|       72|        6|sfoDF     |sfoDF   |37      |        |
+|      3|    29|sfoDF     |    24|       72|        6|sfoDF     |sfoDF   |46      |        |
+|      3|    29|sfoDF     |    25|       72|        6|sfoDF     |sfoDF   |17      |        |
+|      3|    29|sfoDF     |    26|       72|        6|sfoDF     |sfoDF   |18      |        |
+|      3|    29|sfoDF     |    27|       72|        6|sfoDF     |sfoDF   |46      |        |
+|      3|    29|sfoDF     |    28|       72|        6|sfoDF     |sfoDF   |12      |A       |
+|      3|    29|sfoDF     |    29|       72|        6|sfoDF     |sfoDF   |37      |G       |
+|      3|    30|sfoDF     |     1|       73|        1|seaRM     |sfoDF   |16      |P       |
+|      3|    30|sfoDF     |     2|       73|        1|seaRM     |seaRM   |20      |PU      |
+|      3|    30|sfoDF     |     3|       73|        1|seaRM     |seaRM   |3       |        |
+|      3|    30|sfoDF     |     4|       73|        1|seaRM     |seaRM   |20      |        |
+|      3|    30|sfoDF     |     5|       73|        1|seaRM     |seaRM   |3       |        |
+|      3|    30|sfoDF     |     6|       73|        1|seaRM     |seaRM   |9       |        |
+|      3|    30|sfoDF     |     7|       73|        1|seaRM     |seaRM   |3       |        |
+|      3|    30|sfoDF     |     8|       73|        1|seaRM     |seaRM   |17      |        |
+|      3|    30|sfoDF     |     9|       73|        1|seaRM     |seaRM   |20      |        |
+|      3|    30|sfoDF     |    10|       73|        1|seaRM     |seaRM   |6       |        |
+|      3|    30|sfoDF     |    11|       73|        1|seaRM     |seaRM   |9       |        |
+|      3|    30|sfoDF     |    12|       73|        1|seaRM     |seaRM   |6       |        |
+|      3|    30|sfoDF     |    13|       73|        1|seaRM     |seaRM   |9       |A       |
+|      3|    30|sfoDF     |    14|       73|        1|seaRM     |seaRM   |48      |G       |
+|      3|    31|seaRM     |     1|       74|        1|sfoDF     |seaRM   |35      |P       |
+|      3|    31|seaRM     |     2|       74|        1|sfoDF     |sfoDF   |88      |PU      |
+|      3|    31|seaRM     |     3|       74|        1|sfoDF     |sfoDF   |5       |        |
+|      3|    31|seaRM     |     4|       74|        1|sfoDF     |sfoDF   |88      |        |
+|      3|    31|seaRM     |     5|       74|        1|sfoDF     |seaRM   |35      |D       |
+|      3|    31|seaRM     |     6|       75|        2|seaRM     |seaRM   |35      |TO      |
+|      3|    31|seaRM     |     7|       75|        2|seaRM     |seaRM   |3       |PU      |
+|      3|    31|seaRM     |     8|       75|        2|seaRM     |seaRM   |18      |        |
+|      3|    31|seaRM     |     9|       75|        2|seaRM     |seaRM   |20      |TD      |
+|      3|    31|seaRM     |    10|       76|        3|sfoDF     |sfoDF   |17      |PU      |
+|      3|    31|seaRM     |    11|       76|        3|sfoDF     |sfoDF   |12      |        |
+|      3|    31|seaRM     |    12|       76|        3|sfoDF     |sfoDF   |46      |TO      |
+|      3|    31|seaRM     |    13|       76|        3|sfoDF     |sfoDF   |23      |PU      |
+|      3|    31|seaRM     |    14|       76|        3|sfoDF     |sfoDF   |40      |        |
+|      3|    31|seaRM     |    15|       76|        3|sfoDF     |sfoDF   |34      |        |
+|      3|    31|seaRM     |    16|       76|        3|sfoDF     |sfoDF   |23      |        |
+|      3|    31|seaRM     |    17|       76|        3|sfoDF     |sfoDF   |40      |        |
+|      3|    31|seaRM     |    18|       76|        3|sfoDF     |sfoDF   |11      |A       |
+|      3|    31|seaRM     |    19|       76|        3|sfoDF     |sfoDF   |5       |G       |
+|      3|    32|sfoDF     |     1|       77|        1|seaRM     |sfoDF   |12      |P       |
+|      3|    32|sfoDF     |     2|       77|        1|seaRM     |seaRM   |3       |PU      |
+|      3|    32|sfoDF     |     3|       77|        1|seaRM     |seaRM   |20      |        |
+|      3|    32|sfoDF     |     4|       77|        1|seaRM     |seaRM   |51      |        |
+|      3|    32|sfoDF     |     5|       77|        1|seaRM     |sfoDF   |46      |D       |
+|      3|    32|sfoDF     |     6|       78|        2|sfoDF     |sfoDF   |12      |PU      |
+|      3|    32|sfoDF     |     7|       78|        2|sfoDF     |sfoDF   |18      |        |
+|      3|    32|sfoDF     |     8|       78|        2|sfoDF     |sfoDF   |17      |        |
+|      3|    32|sfoDF     |     9|       78|        2|sfoDF     |sfoDF   |18      |        |
+|      3|    32|sfoDF     |    10|       78|        2|sfoDF     |sfoDF   |12      |A       |
+|      3|    32|sfoDF     |    11|       78|        2|sfoDF     |sfoDF   |17      |G       |
+|      3|    33|sfoDF     |     1|       79|        1|seaRM     |sfoDF   |25      |P       |
+|      3|    33|sfoDF     |     2|       79|        1|seaRM     |seaRM   |20      |PU      |
+|      3|    33|sfoDF     |     3|       79|        1|seaRM     |seaRM   |1       |        |
+|      3|    33|sfoDF     |     4|       79|        1|seaRM     |seaRM   |6       |        |
+|      3|    33|sfoDF     |     5|       79|        1|seaRM     |seaRM   |20      |        |
+|      3|    33|sfoDF     |     6|       79|        1|seaRM     |seaRM   |17      |        |
+|      3|    33|sfoDF     |     7|       79|        1|seaRM     |seaRM   |3       |        |
+|      3|    33|sfoDF     |     8|       79|        1|seaRM     |sfoDF   |83      |D       |
+|      3|    33|sfoDF     |     9|       80|        2|sfoDF     |sfoDF   |83      |        |
+|      3|    33|sfoDF     |    10|       80|        2|sfoDF     |sfoDF   |25      |        |
+|      3|    33|sfoDF     |    11|       80|        2|sfoDF     |sfoDF   |16      |A       |
+|      3|    33|sfoDF     |    12|       80|        2|sfoDF     |sfoDF   |2       |LG      |
+|      3|    34|sfoDF     |     1|       81|        1|seaRM     |sfoDF   |18      |P       |
+|      3|    34|sfoDF     |     2|       81|        1|seaRM     |seaRM   |3       |PU      |
+|      3|    34|sfoDF     |     3|       81|        1|seaRM     |seaRM   |9       |        |
+|      3|    34|sfoDF     |     4|       81|        1|seaRM     |seaRM   |20      |        |
+|      3|    34|sfoDF     |     5|       81|        1|seaRM     |seaRM   |13      |        |
+|      3|    34|sfoDF     |     6|       81|        1|seaRM     |seaRM   |3       |        |
+|      3|    34|sfoDF     |     7|       81|        1|seaRM     |seaRM   |35      |VTT     |
+|      3|    34|sfoDF     |     8|       82|        2|sfoDF     |sfoDF   |23      |PU      |
+|      3|    34|sfoDF     |     9|       82|        2|sfoDF     |sfoDF   |13      |        |
+|      4|    35|sfoDF     |     1|       83|        1|seaRM     |sfoDF   |46      |P       |
+|      4|    35|sfoDF     |     2|       83|        1|seaRM     |seaRM   |3       |PU      |
+|      4|    35|sfoDF     |     3|       83|        1|seaRM     |seaRM   |20      |        |
+|      4|    35|sfoDF     |     4|       83|        1|seaRM     |seaRM   |3       |        |
+|      4|    35|sfoDF     |     5|       83|        1|seaRM     |seaRM   |9       |        |
+|      4|    35|sfoDF     |     6|       83|        1|seaRM     |seaRM   |20      |        |
+|      4|    35|sfoDF     |     7|       83|        1|seaRM     |seaRM   |6       |        |
+|      4|    35|sfoDF     |     8|       83|        1|seaRM     |seaRM   |3       |        |
+|      4|    35|sfoDF     |     9|       83|        1|seaRM     |seaRM   |48      |        |
+|      4|    35|sfoDF     |    10|       83|        1|seaRM     |sfoDF   |37      |F       |
+|      4|    35|sfoDF     |    11|       83|        1|seaRM     |seaRM   |35      |        |
+|      4|    35|sfoDF     |    12|       83|        1|seaRM     |seaRM   |3       |        |
+|      4|    35|sfoDF     |    13|       83|        1|seaRM     |sfoDF   |10      |D       |
+|      4|    35|sfoDF     |    14|       84|        2|sfoDF     |sfoDF   |12      |PU      |
+|      4|    35|sfoDF     |    15|       84|        2|sfoDF     |sfoDF   |18      |        |
+|      4|    35|sfoDF     |    16|       84|        2|sfoDF     |sfoDF   |12      |        |
+|      4|    35|sfoDF     |    17|       84|        2|sfoDF     |seaRM   |20      |D       |
+|      4|    35|sfoDF     |    18|       85|        3|seaRM     |seaRM   |20      |        |
+|      4|    35|sfoDF     |    19|       85|        3|seaRM     |seaRM   |48      |        |
+|      4|    35|sfoDF     |    20|       85|        3|seaRM     |seaRM   |35      |        |
+|      4|    35|sfoDF     |    21|       86|        4|sfoDF     |sfoDF   |17      |PU      |
+|      4|    35|sfoDF     |    22|       86|        4|sfoDF     |sfoDF   |18      |        |
+|      4|    35|sfoDF     |    23|       86|        4|sfoDF     |seaRM   |6       |D       |
+|      4|    35|sfoDF     |    24|       87|        5|seaRM     |seaRM   |3       |PU      |
+|      4|    35|sfoDF     |    25|       87|        5|seaRM     |seaRM   |20      |        |
+|      4|    35|sfoDF     |    26|       87|        5|seaRM     |seaRM   |9       |        |
+|      4|    35|sfoDF     |    27|       87|        5|seaRM     |seaRM   |35      |        |
+|      4|    35|sfoDF     |    28|       87|        5|seaRM     |seaRM   |6       |        |
+|      4|    35|sfoDF     |    29|       87|        5|seaRM     |seaRM   |35      |        |
+|      4|    35|sfoDF     |    30|       87|        5|seaRM     |seaRM   |13      |        |
+|      4|    35|sfoDF     |    31|       87|        5|seaRM     |seaRM   |9       |TD      |
+|      4|    35|sfoDF     |    32|       88|        6|sfoDF     |sfoDF   |12      |PU      |
+|      4|    35|sfoDF     |    33|       89|        7|seaRM     |seaRM   |20      |PUA     |
+|      4|    35|sfoDF     |    34|       89|        7|seaRM     |seaRM   |9       |G       |
+|      4|    36|seaRM     |     1|       90|        1|sfoDF     |seaRM   |?       |P       |
+|      4|    36|seaRM     |     2|       90|        1|sfoDF     |sfoDF   |57      |PU      |
+|      4|    36|seaRM     |     3|       90|        1|sfoDF     |sfoDF   |5       |        |
+|      4|    36|seaRM     |     4|       90|        1|sfoDF     |sfoDF   |34      |        |
+|      4|    36|seaRM     |     5|       90|        1|sfoDF     |sfoDF   |5       |        |
+|      4|    36|seaRM     |     6|       90|        1|sfoDF     |sfoDF   |34      |        |
+|      4|    36|seaRM     |     7|       90|        1|sfoDF     |sfoDF   |5       |        |
+|      4|    36|seaRM     |     8|       90|        1|sfoDF     |sfoDF   |34      |        |
+|      4|    36|seaRM     |     9|       90|        1|sfoDF     |sfoDF   |5       |        |
+|      4|    36|seaRM     |    10|       90|        1|sfoDF     |sfoDF   |57      |        |
+|      4|    36|seaRM     |    11|       90|        1|sfoDF     |sfoDF   |5       |        |
+|      4|    36|seaRM     |    12|       90|        1|sfoDF     |sfoDF   |34      |        |
+|      4|    36|seaRM     |    13|       90|        1|sfoDF     |sfoDF   |5       |        |
+|      4|    36|seaRM     |    14|       90|        1|sfoDF     |sfoDF   |34      |        |
+|      4|    36|seaRM     |    15|       90|        1|sfoDF     |sfoDF   |5       |        |
+|      4|    36|seaRM     |    16|       90|        1|sfoDF     |sfoDF   |34      |        |
+|      4|    36|seaRM     |    17|       90|        1|sfoDF     |sfoDF   |5       |        |
+|      4|    36|seaRM     |    18|       90|        1|sfoDF     |sfoDF   |34      |        |
+|      4|    36|seaRM     |    19|       90|        1|sfoDF     |sfoDF   |57      |        |
+|      4|    36|seaRM     |    20|       90|        1|sfoDF     |sfoDF   |8       |        |
+|      4|    36|seaRM     |    21|       90|        1|sfoDF     |sfoDF   |5       |        |
+|      4|    36|seaRM     |    22|       90|        1|sfoDF     |sfoDF   |40      |        |
+|      4|    36|seaRM     |    23|       90|        1|sfoDF     |sfoDF   |8       |        |
+|      4|    36|seaRM     |    24|       90|        1|sfoDF     |sfoDF   |34      |        |
+|      4|    36|seaRM     |    25|       90|        1|sfoDF     |sfoDF   |13      |        |
+|      4|    36|seaRM     |    26|       90|        1|sfoDF     |sfoDF   |8       |        |
+|      4|    36|seaRM     |    27|       90|        1|sfoDF     |seaRM   |3       |D       |
+|      4|    36|seaRM     |    28|       91|        2|seaRM     |seaRM   |35      |PU      |
+|      4|    36|seaRM     |    29|       91|        2|seaRM     |sfoDF   |5       |HB      |
+|      4|    36|seaRM     |    30|       92|        3|sfoDF     |sfoDF   |40      |PU      |
+|      4|    36|seaRM     |    31|       92|        3|sfoDF     |seaRM   |9       |D       |
+|      4|    36|seaRM     |    32|       93|        4|seaRM     |seaRM   |9       |        |
+|      4|    36|seaRM     |    33|       93|        4|seaRM     |seaRM   |35      |        |
+|      4|    36|seaRM     |    34|       93|        4|seaRM     |seaRM   |3       |        |
+|      4|    36|seaRM     |    35|       93|        4|seaRM     |seaRM   |17      |        |
+|      4|    36|seaRM     |    36|       93|        4|seaRM     |seaRM   |29      |        |
+|      4|    36|seaRM     |    37|       93|        4|seaRM     |seaRM   |35      |        |
+|      4|    36|seaRM     |    38|       94|        5|sfoDF     |sfoDF   |23      |PU      |
+|      4|    36|seaRM     |    39|       94|        5|sfoDF     |sfoDF   |40      |        |
+|      4|    36|seaRM     |    40|       94|        5|sfoDF     |seaRM   |17      |F       |
+|      4|    36|seaRM     |    41|       94|        5|sfoDF     |sfoDF   |34      |        |
+|      4|    36|seaRM     |    42|       94|        5|sfoDF     |sfoDF   |40      |        |
+|      4|    36|seaRM     |    43|       94|        5|sfoDF     |sfoDF   |34      |        |
+|      4|    36|seaRM     |    44|       94|        5|sfoDF     |sfoDF   |40      |        |
+|      4|    36|seaRM     |    45|       94|        5|sfoDF     |sfoDF   |34      |        |
+|      4|    36|seaRM     |    46|       94|        5|sfoDF     |sfoDF   |40      |        |
+|      4|    36|seaRM     |    47|       94|        5|sfoDF     |sfoDF   |5       |TD      |
+|      4|    36|seaRM     |    48|       95|        6|seaRM     |seaRM   |17      |PU      |
+|      4|    36|seaRM     |    49|       95|        6|seaRM     |seaRM   |29      |TD      |
+|      4|    36|seaRM     |    50|       96|        7|sfoDF     |sfoDF   |23      |PUA     |
+|      4|    36|seaRM     |    51|       96|        7|sfoDF     |sfoDF   |13      |G       |
+|      4|    37|sfoDF     |     1|       97|        1|seaRM     |sfoDF   |?       |P       |
+|      4|    37|sfoDF     |     2|       97|        1|seaRM     |seaRM   |3       |PU      |
+|      4|    37|sfoDF     |     3|       98|        2|sfoDF     |sfoDF   |12      |PU      |
+|      4|    37|sfoDF     |     4|       98|        2|sfoDF     |sfoDF   |10      |TD      |
+|      4|    37|sfoDF     |     5|       99|        3|seaRM     |seaRM   |20      |PU      |
+|      4|    37|sfoDF     |     6|       99|        3|seaRM     |sfoDF   |12      |F       |
+|      4|    37|sfoDF     |     7|       99|        3|seaRM     |seaRM   |1       |        |
+|      4|    37|sfoDF     |     8|       99|        3|seaRM     |seaRM   |6       |        |
+|      4|    37|sfoDF     |     9|       99|        3|seaRM     |seaRM   |1       |        |
+|      4|    37|sfoDF     |    10|       99|        3|seaRM     |seaRM   |3       |        |
+|      4|    37|sfoDF     |    11|       99|        3|seaRM     |seaRM   |6       |        |
+|      4|    37|sfoDF     |    12|       99|        3|seaRM     |sfoDF   |18      |F       |
+|      4|    37|sfoDF     |    13|       99|        3|seaRM     |sfoDF   |85      |D       |
+|      4|    37|sfoDF     |    14|      100|        4|sfoDF     |sfoDF   |46      |PU      |
+|      4|    37|sfoDF     |    15|      100|        4|sfoDF     |sfoDF   |17      |        |
+|      4|    37|sfoDF     |    16|      100|        4|sfoDF     |sfoDF   |37      |A       |
+|      4|    37|sfoDF     |    17|      100|        4|sfoDF     |sfoDF   |12      |G       |
+|      4|    38|sfoDF     |     1|      101|        1|seaRM     |sfoDF   |23      |P       |
+|      4|    38|sfoDF     |     2|      101|        1|seaRM     |seaRM   |20      |PU      |
+|      4|    38|sfoDF     |     3|      101|        1|seaRM     |seaRM   |35      |        |
+|      4|    38|sfoDF     |     4|      101|        1|seaRM     |seaRM   |13      |        |
+|      4|    38|sfoDF     |     5|      101|        1|seaRM     |seaRM   |21      |        |
+|      4|    38|sfoDF     |     6|      101|        1|seaRM     |sfoDF   |2       |D       |
+|      4|    38|sfoDF     |     7|      102|        2|sfoDF     |sfoDF   |23      |PU      |
+|      4|    38|sfoDF     |     8|      102|        2|sfoDF     |sfoDF   |34      |        |
+|      4|    38|sfoDF     |     9|      102|        2|sfoDF     |sfoDF   |2       |        |
+|      4|    38|sfoDF     |    10|      102|        2|sfoDF     |sfoDF   |21      |        |
+|      4|    38|sfoDF     |    11|      102|        2|sfoDF     |sfoDF   |9       |        |
+|      4|    38|sfoDF     |    12|      102|        2|sfoDF     |sfoDF   |16      |        |
+|      4|    38|sfoDF     |    13|      102|        2|sfoDF     |sfoDF   |40      |        |
+|      4|    38|sfoDF     |    14|      102|        2|sfoDF     |sfoDF   |34      |        |
+|      4|    38|sfoDF     |    15|      102|        2|sfoDF     |sfoDF   |40      |        |
+|      4|    38|sfoDF     |    16|      102|        2|sfoDF     |sfoDF   |34      |        |
+|      4|    38|sfoDF     |    17|      102|        2|sfoDF     |sfoDF   |40      |TO      |
+|      4|    38|sfoDF     |    18|      102|        2|sfoDF     |sfoDF   |40      |PU      |
+|      4|    38|sfoDF     |    19|      102|        2|sfoDF     |sfoDF   |11      |        |
+|      4|    38|sfoDF     |    20|      102|        2|sfoDF     |sfoDF   |34      |        |
+|      4|    38|sfoDF     |    21|      102|        2|sfoDF     |sfoDF   |11      |        |
+|      4|    38|sfoDF     |    22|      102|        2|sfoDF     |sfoDF   |88      |        |
+|      4|    38|sfoDF     |    23|      102|        2|sfoDF     |sfoDF   |34      |        |
+|      4|    38|sfoDF     |    24|      102|        2|sfoDF     |sfoDF   |40      |        |
+|      4|    38|sfoDF     |    25|      102|        2|sfoDF     |sfoDF   |11      |        |
+|      4|    38|sfoDF     |    26|      102|        2|sfoDF     |sfoDF   |88      |        |
+|      4|    38|sfoDF     |    27|      102|        2|sfoDF     |sfoDF   |40      |        |
+|      4|    38|sfoDF     |    28|      102|        2|sfoDF     |sfoDF   |5       |        |
+|      4|    38|sfoDF     |    29|      102|        2|sfoDF     |sfoDF   |34      |TD      |
+|      4|    38|sfoDF     |    30|      103|        3|seaRM     |seaRM   |9       |PU      |
+|      4|    38|sfoDF     |    31|      103|        3|seaRM     |seaRM   |13      |        |
 
 
 

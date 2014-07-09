@@ -16,7 +16,7 @@ game_dir <- file.path("..", "games", game)
 google_dir <- file.path(game_dir, "01_raw-google")
 google_files <- list.files(google_dir, full.names = TRUE)
 nPoints <- length(google_files)
-message(nPoints, " point files found\n")
+message(game, ":\n  ", nPoints, " point files found")
 
 ## function imports data for a point -- both gameplay and point-level info
 jFun <- function(point) {
@@ -46,10 +46,14 @@ point_info$point <- as.integer(point_info$point)
 out_dir <- file.path("..", "games", game, "03_concat-google")
 if(!file.exists(out_dir)) dir.create(out_dir)
 
+message("  ", "writing ", nrow(game_play), " rows of concatenated game play")
+
 out_file <- file.path(out_dir, paste0(game, "_gameplay-raw.tsv"))
 write.table(game_play, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
-message("wrote ", out_file)
+#message("wrote ", out_file)
+
+message("  ", "writing ", nrow(point_info), " rows of point info")
 
 out_file <- file.path(out_dir, paste0(game, "_points-raw.tsv"))
 write.table(point_info, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
-message("wrote ", out_file)
+#message("wrote ", out_file)
