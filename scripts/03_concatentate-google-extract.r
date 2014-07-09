@@ -13,7 +13,7 @@ if(length(options) < 1) {
 }
 
 game_dir <- file.path("..", "games", game)
-google_dir <- file.path(game_dir, "01_rawGoogleExtract")
+google_dir <- file.path(game_dir, "01_raw-google")
 google_files <- list.files(google_dir, full.names = TRUE)
 nPoints <- length(google_files)
 message(nPoints, " point files found\n")
@@ -43,7 +43,7 @@ point_info <- rename(point_info, c("X1" = "point"))
 point_info$point <- as.integer(point_info$point)
 #str(point_info)
 
-out_dir <- file.path("..", "games", game, "03_concatGoogleExtract")
+out_dir <- file.path("..", "games", game, "03_concat-google")
 if(!file.exists(out_dir)) dir.create(out_dir)
 
 out_file <- file.path(out_dir, paste0(game, "_gameplay-raw.tsv"))

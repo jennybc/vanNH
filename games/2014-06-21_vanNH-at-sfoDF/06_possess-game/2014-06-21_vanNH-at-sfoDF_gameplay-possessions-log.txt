@@ -1,0 +1,10 @@
+2014-06-21_vanNH-at-sfoDF:
+  515 rows of clean game play found
+  36 rows of point info play found
+  possession established directly for 514/515 = 99.81% of game play events
+  after first infer, possession established for 515/515 = 100% of game play events
+  515 rows of resolved game play will be written
+  36 resolved points to be written
+  sfoDF: 15 vanNH: 17
+  2014-07-08 22:58:21
+

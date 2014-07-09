@@ -1,7 +1,0 @@
-2014-05-04_sfoDF-at-seaRM:
-  607 rows of raw game play found
-  found 7 rows with game play recorded for both teams
-  no double game play rows remain
-  614 rows of clean game play will be written
-  2014-07-08 22:18:55
-

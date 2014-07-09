@@ -1,0 +1,10 @@
+2014-04-12_seaRM-at-sfoDF:
+  586 rows of clean game play found
+  38 rows of point info play found
+  possession established directly for 578/586 = 98.63% of game play events
+  after first infer, possession established for 586/586 = 100% of game play events
+  586 rows of resolved game play will be written
+  38 resolved points to be written
+  seaRM: 16 sfoDF: 18
+  2014-07-08 22:58:12
+

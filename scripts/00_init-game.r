@@ -19,8 +19,8 @@ if(file.exists(game_dir)) {
 }
 
 dirs_to_create <-
-  file.path(game_dir, c("01_rawGoogleExtract", "03_concatGoogleExtract",
-                        "05_cleanedGame", "07_resolvedGame",
+  file.path(game_dir, c("01_raw-google", "03_concat-google",
+                        "04_clean-game", "06_possess-game",
                         "09_htmlArchive"))
 lapply(dirs_to_create, dir.create)
 

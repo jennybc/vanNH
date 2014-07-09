@@ -1,7 +1,0 @@
-2014-05-24_pdxST-at-vanNH:
-  612 rows of raw game play found
-  found 10 rows with game play recorded for both teams
-  no double game play rows remain
-  622 rows of clean game play will be written
-  2014-07-08 22:18:56
-

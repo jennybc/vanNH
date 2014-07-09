@@ -1,0 +1,18 @@
+2014-05-24_pdxST-at-vanNH:
+  622 rows of clean game play found
+  39 rows of point info play found
+  possession established directly for 601/622 = 96.62% of game play events
+  after first infer, possession established for 617/622 = 99.2% of game play events
+  check the possession resolution for these SO/SI clumps:
+    period point event pl_team pl_pnum pl_code poss_team
+187      2    12    17   pdxST      42      SO     pdxST
+188      2    12    18   pdxST      73      SI     pdxST
+549      4    34    27   vanNH      24      SO     pdxST
+550      4    34    28   vanNH      75      SI     pdxST
+  after addressing SO/SIs, possession established for 621/622 = 99.84% of game play events
+  after second and LAST infer, possession established for 622/622 = 100% of game play events
+  622 rows of resolved game play will be written
+  39 resolved points to be written
+  pdxST: 19 vanNH: 16
+  2014-07-08 22:58:18
+

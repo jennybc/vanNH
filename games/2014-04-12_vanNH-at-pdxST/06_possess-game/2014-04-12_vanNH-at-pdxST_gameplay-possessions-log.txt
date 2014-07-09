@@ -1,0 +1,10 @@
+2014-04-12_vanNH-at-pdxST:
+  673 rows of clean game play found
+  47 rows of point info play found
+  possession established directly for 665/673 = 98.81% of game play events
+  after first infer, possession established for 673/673 = 100% of game play events
+  673 rows of resolved game play will be written
+  47 resolved points to be written
+  pdxST: 23 vanNH: 21
+  2014-07-08 22:58:13
+

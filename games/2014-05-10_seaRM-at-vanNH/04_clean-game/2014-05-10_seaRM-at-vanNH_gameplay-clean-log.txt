@@ -1,0 +1,7 @@
+2014-05-10_seaRM-at-vanNH:
+  648 rows of raw game play found
+  found 15 rows with game play recorded for both teams
+  no double game play rows remain
+  663 rows of clean game play will be written
+  2014-07-08 22:55:52
+

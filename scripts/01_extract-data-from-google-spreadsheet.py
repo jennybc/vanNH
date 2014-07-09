@@ -118,7 +118,7 @@ for sheet_num in points_to_process:
         for i in range(abs(lendiff)):
             offensive.extend([""])
 
-    out_file = file("../games/" + args.game + "/01_rawGoogleExtract/" + args.game + "_point" + file_num + ".txt",'w')
+    out_file = file("../games/" + args.game + "/01_raw-google/" + args.game + "_point" + file_num + ".txt",'w')
     out_file.write("Pulling team: " + pulling_team + "\n")
     out_file.write("Period: " + period + "\n")
     out_file.write("Clock before point: " + clock_before + "\n")

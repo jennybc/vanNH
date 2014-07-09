@@ -1,0 +1,6 @@
+2014-05-17_vanNH-at-sfoDF:
+  569 rows of clean game play found
+
+  sanity checks of clean game play DONE
+  2014-07-08 22:52:37
+
