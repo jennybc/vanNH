@@ -90,6 +90,9 @@ clean_clean:
 clean_game: 05_clean-and-expand-game-play.r
 	@Rscript ./05_clean-and-expand-game-play.r $(GAME) 2>&1 | tee ../games/$(GAME)/05_cleanedGame/$(GAME)_gameplay-clean-log.txt
 
+check_clean: 06_sanity-check-game-play.r
+	@Rscript ./06_sanity-check-game-play.r $(GAME) 2>&1 | tee ../games/$(GAME)/05_cleanedGame/$(GAME)_gameplay-clean-checks.txt
+
 clean_resolve:
 	rm -rf ../games/$(GAME)/07_resolvedGame/*
 
