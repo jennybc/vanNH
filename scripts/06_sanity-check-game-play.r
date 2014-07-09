@@ -51,6 +51,17 @@ if(any(no_explicit_pu)) {
   game_play[no_explicit_pu, ]
 }
 
+## TO DO
+## make sure any GL --> LG
+
+## TO DO
+## check for more than one goal
+## here's code lifted from later ... makes more sense to do this here
+# its_a_goal <- grepl("L*G", x$pl_code)
+# if(sum(its_a_goal) > 1) {
+#   message("point: ", point, " ... more than one goal code detected!")
+# }
+
 ## TO DO?
 ## detect points with no explicit goal and make sure it's at end of a period
 
