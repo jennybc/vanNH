@@ -11,8 +11,12 @@ output:
 # pdxST at vanNH 2014-06-15
 
 
+```
+##    point period pull_team event pl_team pl_pnum pl_code poss_team pl_lname
+## 13     6      1     pdxST    22   pdxST       ?       D     vanNH   ?name?
+```
 
-#### last update Tue Jul  8 23:13:53 2014
+#### last update Wed Jul  9 11:20:08 2014
 # pdxST 18
 # vanNH 20
 ## game is complete
@@ -125,6 +129,7 @@ stats are cumulative for this game
 |15 |vanNH-14-eyrich    |      0|     0|       0|  1|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
+
 
 | point| period|pull_team | event|pl_team |pl_pnum |pl_code |poss_team |pl_lname     |player               | pdxST| vanNH|
 |-----:|------:|:---------|-----:|:-------|:-------|:-------|:---------|:------------|:--------------------|-----:|-----:|

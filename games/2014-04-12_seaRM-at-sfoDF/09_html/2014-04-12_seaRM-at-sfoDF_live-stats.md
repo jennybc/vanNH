@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul  8 23:13:31 2014
+#### last update Wed Jul  9 11:19:47 2014
 # seaRM 16
 # sfoDF 18
 ## game is complete
@@ -122,6 +122,7 @@ stats are cumulative for this game
 |19 |sfoDF-83-Husak         |      0|     0|       0|  1|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
+
 
 | point| period|pull_team | event|pl_team |pl_pnum |pl_code |poss_team |pl_lname      |player                 | seaRM| sfoDF|
 |-----:|------:|:---------|-----:|:-------|:-------|:-------|:---------|:-------------|:----------------------|-----:|-----:|

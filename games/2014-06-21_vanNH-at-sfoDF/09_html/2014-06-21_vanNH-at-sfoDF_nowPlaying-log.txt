@@ -1,0 +1,10 @@
+2014-06-21_vanNH-at-sfoDF:
+  roster read for vanNH and sfoDF
+  game YAML read; game status: complete
+  515 rows of game play found
+  36 rows of point info play found
+  player stat tables include 17 for vanNH and 19 for sfoDF
+  scoring progression table has 36 rows
+[1] TRUE
+[1] TRUE
+[1] TRUE

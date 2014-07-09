@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul  8 23:13:47 2014
+#### last update Wed Jul  9 11:20:03 2014
 # pdxST 19
 # vanNH 16
 ## game is complete
@@ -125,6 +125,7 @@ stats are cumulative for this game
 |17 |vanNH-37-sinclair   |      0|     0|       0|  1|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
+
 
 | point| period|pull_team | event|pl_team |pl_pnum |pl_code |poss_team |pl_lname     |player                | pdxST| vanNH|
 |-----:|------:|:---------|-----:|:-------|:-------|:-------|:---------|:------------|:---------------------|-----:|-----:|

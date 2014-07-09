@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul  8 23:13:44 2014
+#### last update Wed Jul  9 11:19:59 2014
 # seaRM 23
 # vanNH 29
 ## game is complete
@@ -143,6 +143,7 @@ stats are cumulative for this game
 |22 |vanNH-7-dandurand   |      0|     0|       0|  1|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
+
 
 | point| period|pull_team | event|pl_team |pl_pnum |pl_code |poss_team |pl_lname   |player              | seaRM| vanNH|
 |-----:|------:|:---------|-----:|:-------|:-------|:-------|:---------|:----------|:-------------------|-----:|-----:|

@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul  8 23:13:56 2014
+#### last update Wed Jul  9 11:20:12 2014
 # vanNH 14
 # pdxST 13
 ## game is complete
@@ -115,6 +115,7 @@ stats are cumulative for this game
 |15 |pdxST-22-Cole         |      0|     0|       0|  1|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
+
 
 | point| period|pull_team | event|pl_team |pl_pnum |pl_code |poss_team |pl_lname     |player                | pdxST| vanNH|
 |-----:|------:|:---------|-----:|:-------|:-------|:-------|:---------|:------------|:---------------------|-----:|-----:|

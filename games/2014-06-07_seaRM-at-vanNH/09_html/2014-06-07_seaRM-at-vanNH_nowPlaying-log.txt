@@ -1,0 +1,10 @@
+2014-06-07_seaRM-at-vanNH:
+  roster read for seaRM and vanNH
+  game YAML read; game status: complete
+  606 rows of game play found
+  41 rows of point info play found
+  player stat tables include 14 for seaRM and 22 for vanNH
+  scoring progression table has 41 rows
+[1] TRUE
+[1] TRUE
+[1] TRUE

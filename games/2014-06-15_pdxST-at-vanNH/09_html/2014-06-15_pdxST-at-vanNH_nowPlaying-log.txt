@@ -1,0 +1,11 @@
+2014-06-15_pdxST-at-vanNH:
+  roster read for pdxST and vanNH
+  game YAML read; game status: complete
+  636 rows of game play found
+  41 rows of point info play found
+last name unknown for player(s) involved in these plays:
+  player stat tables include 17 for pdxST and 15 for vanNH
+  scoring progression table has 41 rows
+[1] TRUE
+[1] TRUE
+[1] TRUE

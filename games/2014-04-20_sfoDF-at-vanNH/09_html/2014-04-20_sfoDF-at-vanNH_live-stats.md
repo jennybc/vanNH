@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul  8 23:13:37 2014
+#### last update Wed Jul  9 11:19:53 2014
 # sfoDF 15
 # vanNH 26
 ## game is complete
@@ -133,6 +133,7 @@ stats are cumulative for this game
 |23 |vanNH-13-tessarolo  |      0|     0|       0|  2|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
+
 
 | point| period|pull_team | event|pl_team |pl_pnum |pl_code |poss_team |pl_lname   |player              | sfoDF| vanNH|
 |-----:|------:|:---------|-----:|:-------|:-------|:-------|:---------|:----------|:-------------------|-----:|-----:|

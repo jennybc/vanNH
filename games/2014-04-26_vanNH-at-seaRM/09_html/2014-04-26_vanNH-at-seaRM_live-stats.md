@@ -11,8 +11,12 @@ output:
 # vanNH at seaRM 2014-04-26
 
 
+```
+##    point period pull_team event pl_team pl_pnum pl_code poss_team pl_lname
+## 84    35      4     vanNH    16   seaRM      27       D     vanNH   ?name?
+```
 
-#### last update Tue Jul  8 23:13:40 2014
+#### last update Wed Jul  9 11:19:56 2014
 # vanNH 15
 # seaRM 20
 ## game is complete
@@ -125,6 +129,7 @@ stats are cumulative for this game
 |19 |seaRM-27-?name?    |      0|     0|       0|  1|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
+
 
 | point| period|pull_team | event|pl_team |pl_pnum |pl_code |poss_team |pl_lname  |player             | seaRM| vanNH|
 |-----:|------:|:---------|-----:|:-------|:-------|:-------|:---------|:---------|:------------------|-----:|-----:|

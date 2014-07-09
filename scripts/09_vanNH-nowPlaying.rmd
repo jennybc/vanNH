@@ -21,8 +21,10 @@ if(!exists("game")) {
   #game <- "2014-05-31_vanNH-at-seaRM"
   #game <- "2014-06-07_seaRM-at-vanNH"
   #game <- "2014-06-15_pdxST-at-vanNH"
-  game <- "2014-12-31_pdxST-at-vanNH"
+  game <- "2014-04-12_seaRM-at-sfoDF"
   }
+
+message(game, ":")
 
 ## parse the game identifier
 tmp <- strsplit(game, split = "_")[[1]]
@@ -41,7 +43,7 @@ keeper_codes <- c(goal_codes, assist_codes, d_codes)
 
 # `r away_team` at `r home_team` `r game_date`
 
-```{r, echo = FALSE, results = "hide", message = FALSE}
+```{r, echo = FALSE, message = FALSE}
 build_roster_path <- function(team) {
   file.path("..", "rosters", paste0("2014_", team, "-roster.tsv"))}
 away_roster_file <- build_roster_path(away_team)
@@ -54,9 +56,11 @@ read_roster <- function(roster_file) {
 }
 away_roster <- read_roster(away_roster_file)
 home_roster <- read_roster(home_roster_file)
+message("  roster read for ", away_team, " and ", home_team)
 
 yaml_file <- file.path("..", "games", game, paste0(game, "_game-info.yaml"))
 game_yaml <- yaml.load_file(yaml_file)
+message("  game YAML read; game status: ", game_yaml$game_status)
 
 game_file <- file.path("..", "games", game, "06_possess-game",
                        paste0(game, "_gameplay-resolved.tsv"))
@@ -64,10 +68,14 @@ sDat <- read.delim(game_file,
                    colClasses = list(pl_team = "character",
                                      pl_pnum = "character",
                                      pl_code = "character"))
+message("  ", nrow(sDat), " rows of game play found")
 
 point_file <- file.path("..", "games", game, "06_possess-game",
                        paste0(game, "_points-resolved.tsv"))
-point_info <- read.delim(point_file, stringsAsFactors = FALSE)
+point_info <- read.delim(point_file, stringsAsFactors = FALSE,
+                         colClasses = list(clk_before = "character",
+                                           clk_after = "character"))
+message("  ", nrow(point_info), " rows of point info play found")
 
 ## set factor levels uniformly for all relevant 'team' variables
 jFun <- function(x, jLevels = jTeams) factor(x, levels = jLevels)
@@ -85,7 +93,8 @@ sDat <- subset(sDat, pl_code %in% keeper_codes)
 
 ## get back at least a dummy row for every point; necessary if a point has no
 ## game play with a keeper code
-sDat <- join(point_info[c('point', 'period', 'pull_team')], sDat)
+sDat <-
+  suppressMessages(join(point_info[c('point', 'period', 'pull_team')], sDat))
 
 ## look up pl_pnum's last name
 ## TO DO: make this not emit NA warnings ... it's the numeric/character thing re: player numbers
@@ -112,7 +121,7 @@ if(any(name_unknown)) {
 sDat$player <- with(sDat, factor(paste(pl_team, pl_pnum, pl_lname, sep = "-")))
 
 ## bring the score into sDat
-sDat <- join(sDat, point_info[c('point', jTeams)])
+sDat <- suppressMessages(join(sDat, point_info[c('point', jTeams)]))
 
 ## DONE WITH EVENT LEVEL DATA!
 
@@ -137,70 +146,75 @@ player_dat_by_team <- llply(player_dat_by_team, function(z) {
   rownames(z) <- NULL
   subset(z, select = -pl_team)
 })
+message("  player stat tables include ", nrow(player_dat_by_team[[away_team]]),
+        " for ", away_team, " and ", nrow(player_dat_by_team[[home_team]]),
+        " for ", home_team)
 
 ## prepare game scoring progression table
-gDat <- ddply(sDat, ~ point,
-              function(z) {
-                n <- nrow(z)
-                point <- z$point[1]
-                period <- z$period[1]
-                away_score <- z[[away_team]][n]
-                home_score <- z[[home_team]][n]
-                #comment <- z$comment[nrow(z)]
-                
-                time_before_after <-
-                  unlist(point_info[point_info$point == point,
-                                    grep("clk", names(point_info))])
-                names(time_before_after) <- NULL
-                time_NA <- is.na(time_before_after)
-                if(any(time_NA)) {
-                  time_before_after[time_NA] <- point_duration_text <- "???"
-                  message("ALERT: point is missing time before and/or after:")
-                  z[time_NA, ]
-                  } else {
-                    point_duration <-
-                      -1 * diff(laply(strsplit(time_before_after, split = ":"),
-                                      function(x) {
-                                        x <- as.numeric(x)
-                                        x[1] * 60 + x[2]
-                                        }))
-                    point_duration_text <-
-                      sprintf("%02d:%02d",
-                              point_duration %/% 60, point_duration %% 60)
-                    }
-                              
-                is_a_goal <- z$pl_code %in% goal_codes
-                if(any(is_a_goal)) {
-                  goal_row <- max(which(is_a_goal))
-                  scorer <- z$player[goal_row]
-                  is_an_assist <- z$pl_code %in% assist_codes
-                  if(sum(is_an_assist) < 1) { 
-                    assister <- NA ## must be a callahan, right?
-                    } else if(sum(is_an_assist) == 1) {
-                      assist_row <- max(which(is_an_assist))
-                      assister <- z$player[is_an_assist]
-                      } else {
-                        assister <- "???"
-                        message(paste("point", point,
-                                      ": more than 1 assist found?!?\n"))
-                        }                  
-                  desc <- paste(assister, "to", scorer)
-                  } else { ## time ran out with no goal
-                    desc <- "- no goal -"
-                    }
-                ret_val <- c(period = period, 
-                             begin = time_before_after[1],
-                             end = time_before_after[2],
-                             pt_duration = point_duration_text,
-                             desc = desc,
-                             away_score = away_score,
-                             home_score = home_score)
-                ret_val <-
-                  rename(ret_val, c("away_score" = away_team,
-                                    "home_score" = home_team))
-                return(ret_val)
-                })
+jFun <- function(z) {
+  n <- nrow(z)
+  pt <- z$point[1]
+  period <- z$period[1]
+  away_score <- z[[away_team]][n]
+  home_score <- z[[home_team]][n]
+  #comment <- z$comment[nrow(z)]
+  
+  time_before_after <-
+    unlist(point_info[point_info$point == pt,
+                      grep("clk", names(point_info))])
+  names(time_before_after) <- NULL
+  time_NA <- is.na(time_before_after)
+  if(any(time_NA)) {
+    time_before_after[time_NA] <- point_duration_text <- "???"
+    message("  ALERT point is missing time before and/or after:")
+    message("        point: ", pt, " clk_before: ",
+            time_before_after["clk_before"], " clk_after: ",
+            time_before_after["clk_after"])
+    } else {
+      point_duration <-
+        -1 * diff(laply(strsplit(time_before_after, split = ":"),
+                        function(x) {
+                          x <- as.numeric(x)
+                          x[1] * 60 + x[2]
+                          }))
+      point_duration_text <-
+        sprintf("%02d:%02d",
+                point_duration %/% 60, point_duration %% 60)
+      }
+  
+  is_a_goal <- z$pl_code %in% goal_codes
+  if(any(is_a_goal)) {
+    goal_row <- max(which(is_a_goal))
+    scorer <- z$player[goal_row]
+    is_an_assist <- z$pl_code %in% assist_codes
+    if(sum(is_an_assist) < 1) { 
+      assister <- NA ## must be a callahan, right?
+      } else if(sum(is_an_assist) == 1) {
+        assist_row <- max(which(is_an_assist))
+        assister <- z$player[is_an_assist]
+        } else {
+          assister <- "???"
+          message("point", point, ": more than 1 assist found?!?\n")
+}                  
+    desc <- paste(assister, "to", scorer)
+    } else { ## time ran out with no goal
+      desc <- "- no goal -"
+      }
+  ret_val <- c(period = period, 
+               begin = time_before_after[1],
+               end = time_before_after[2],
+               pt_duration = point_duration_text,
+               desc = desc,
+               away_score = away_score,
+               home_score = home_score)
+  ret_val <-
+    rename(ret_val, c("away_score" = away_team,
+                      "home_score" = home_team))
+  return(ret_val)
+  }
+gDat <- ddply(sDat, ~ point, jFun)
 gDat <- gDat[rev(seq_len(nrow(gDat))), ]
+message("  scoring progression table has ", nrow(gDat), " rows")
 ```
 
 #### last update `r date()`
@@ -247,7 +261,8 @@ if(nrow(player_dat_by_team[[home_team]]) > 0) {
 ```
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
-```{r results='asis', echo=FALSE}
+
+```{r results = 'asis', echo = FALSE}
 kable(sDat, row.names = FALSE)
 ```
 
