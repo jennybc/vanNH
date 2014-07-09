@@ -97,7 +97,7 @@ clean_resolve:
 	rm -rf ../games/$(GAME)/07_resolvedGame/*
 
 resolve_game: 07_resolve-game-play.r
-	Rscript ./07_resolve-game-play.r $(GAME)
+	@Rscript ./07_resolve-game-play.r $(GAME) 2>&1 | tee ../games/$(GAME)/07_resolvedGame/$(GAME)_gameplay-resolved-log.txt
 
 clean_web:
 	rm -rf ../games/$(GAME)/09_htmlArchive/*

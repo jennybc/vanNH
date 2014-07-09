@@ -55,6 +55,9 @@ if(any(no_explicit_pu)) {
 ## make sure any GL --> LG
 
 ## TO DO
+## check for any explicit assists
+
+## TO DO
 ## check for more than one goal
 ## here's code lifted from later ... makes more sense to do this here
 # its_a_goal <- grepl("L*G", x$pl_code)

@@ -1,0 +1,17 @@
+2014-04-26_vanNH-at-seaRM:
+  534 rows of clean game play found
+  38 rows of point info play found
+  possession established directly for 522/534 = 97.75% of game play events
+  after first infer, possession established for 530/534 = 99.25% of game play events
+  check the possession resolution for these SO/SI clumps:
+    period point event pl_team pl_pnum pl_code poss_team
+73       1     7     7   vanNH      14      SO     vanNH
+74       1     7     8   vanNH      91      SI     vanNH
+244      2    19     8   vanNH       8      SO     vanNH
+245      2    19     9   vanNH      21      SI     vanNH
+  after addressing SO/SIs, possession established for 534/534 = 100% of game play events
+  534 rows of resolved game play will be written
+  38 resolved points to be written
+  seaRM: 20 vanNH: 15
+  2014-07-08 21:53:47
+

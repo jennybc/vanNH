@@ -1,0 +1,15 @@
+2014-04-20_sfoDF-at-vanNH:
+  579 rows of clean game play found
+  45 rows of point info play found
+  possession established directly for 563/579 = 97.24% of game play events
+  after first infer, possession established for 577/579 = 99.65% of game play events
+  check the possession resolution for these SO/SI clumps:
+    period point event pl_team pl_pnum pl_code poss_team
+436      4    33     6   vanNH      39      SO     vanNH
+437      4    33     7   vanNH      22      SI     vanNH
+  after addressing SO/SIs, possession established for 579/579 = 100% of game play events
+  579 rows of resolved game play will be written
+  45 resolved points to be written
+  sfoDF: 15 vanNH: 26
+  2014-07-08 21:53:46
+
