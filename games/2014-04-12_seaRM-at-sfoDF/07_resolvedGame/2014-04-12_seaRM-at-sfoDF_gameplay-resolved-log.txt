@@ -6,5 +6,5 @@
   586 rows of resolved game play will be written
   38 resolved points to be written
   seaRM: 16 sfoDF: 18
-  2014-07-08 21:53:44
+  2014-07-08 22:19:59
 

@@ -82,7 +82,7 @@ clean_cat:
 	rm -rf ../games/$(GAME)/03_concatGoogleExtract/*
 
 cat_goog: 03_concatentate-google-extract.r
-	Rscript ./03_concatentate-google-extract.r $(GAME)
+	@Rscript ./03_concatentate-google-extract.r $(GAME)
 
 clean_clean:
 	rm -rf ../games/$(GAME)/05_cleanedGame/*
@@ -91,7 +91,7 @@ clean_game: 05_clean-and-expand-game-play.r
 	@Rscript ./05_clean-and-expand-game-play.r $(GAME) 2>&1 | tee ../games/$(GAME)/05_cleanedGame/$(GAME)_gameplay-clean-log.txt
 
 check_clean: 06_sanity-check-game-play.r
-	@Rscript ./06_sanity-check-game-play.r $(GAME) 2>&1 | tee ../games/$(GAME)/05_cleanedGame/$(GAME)_gameplay-clean-checks.txt
+	@Rscript ./06_sanity-check-game-play.r $(GAME) 2>&1 | tee ../games/$(GAME)/05_cleanedGame/$(GAME)_gameplay-checks-log.txt
 
 clean_resolve:
 	rm -rf ../games/$(GAME)/07_resolvedGame/*

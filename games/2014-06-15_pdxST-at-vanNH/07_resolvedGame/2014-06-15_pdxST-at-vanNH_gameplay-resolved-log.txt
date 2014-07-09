@@ -11,5 +11,5 @@
   636 rows of resolved game play will be written
   41 resolved points to be written
   pdxST: 18 vanNH: 20
-  2014-07-08 21:53:52
+  2014-07-08 22:20:07
 

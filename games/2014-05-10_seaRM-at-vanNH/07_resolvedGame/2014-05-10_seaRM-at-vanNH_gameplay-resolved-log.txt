@@ -17,5 +17,5 @@
   663 rows of resolved game play will be written
   55 resolved points to be written
   seaRM: 23 vanNH: 29
-  2014-07-08 21:53:48
+  2014-07-08 22:20:04
 

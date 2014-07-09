@@ -6,5 +6,5 @@
   569 rows of resolved game play will be written
   30 resolved points to be written
   sfoDF: 13 vanNH: 12
-  2014-07-08 21:53:49
+  2014-07-08 22:20:04
 

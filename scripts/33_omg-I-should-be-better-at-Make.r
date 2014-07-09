@@ -7,6 +7,7 @@ game_info <- game_info[match(keeper_games, game_info$game), ]
 
 #make_pre <- 'make r_bits'
 #make_pre <- 'make clean_game'
+#make_pre <- 'make clean_clean'
 #make_pre <- 'make check_clean'
 #make_pre <- 'make clean_resolve'
 make_pre <- 'make resolve_game'
