@@ -31,7 +31,7 @@ local_utf8_file <- '09_vanNH-nowPlaying.utf8.md'
 render('09_vanNH-nowPlaying.rmd', output_file = local_html_file,
        clean = FALSE, quiet = TRUE)
 
-game_html_dir <- file.path("..", "games", game, "09_htmlArchive")
+game_html_dir <- file.path("..", "games", game, "09_html")
 if(!file.exists(game_html_dir)) dir.create(game_html_dir)
 game_md_file <- file.path(game_html_dir, paste0(game, "_live-stats.md"))
 game_html_file <- file.path(game_html_dir, paste0(game, "_live-stats.html"))

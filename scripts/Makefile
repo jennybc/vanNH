@@ -100,13 +100,13 @@ possess_game: 06_resolve-possessions.r
 	@Rscript ./06_resolve-possessions.r $(GAME) 2>&1 | tee ../games/$(GAME)/06_possess-game/$(GAME)_gameplay-possessions-log.txt
 
 clean_web:
-	rm -rf ../games/$(GAME)/09_htmlArchive/*
+	rm -rf ../games/$(GAME)/09_html/*
 
 web: 
 	./08_compile-HTML.r $(GAME)
 
 web_copy:
-	cp ../games/$(GAME)/09_htmlArchive/$(GAME)_live-stats.html ../web/
+	cp ../games/$(GAME)/09_html/$(GAME)_live-stats.html ../web/
 
 ## the resulting symlink does not work on the server; gets this error:
 ## Forbidden

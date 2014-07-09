@@ -58,14 +58,14 @@ home_roster <- read_roster(home_roster_file)
 yaml_file <- file.path("..", "games", game, paste0(game, "_game-info.yaml"))
 game_yaml <- yaml.load_file(yaml_file)
 
-game_file <- file.path("..", "games", game, "07_resolvedGame",
+game_file <- file.path("..", "games", game, "06_possess-game",
                        paste0(game, "_gameplay-resolved.tsv"))
 sDat <- read.delim(game_file,
                    colClasses = list(pl_team = "character",
                                      pl_pnum = "character",
                                      pl_code = "character"))
 
-point_file <- file.path("..", "games", game, "07_resolvedGame",
+point_file <- file.path("..", "games", game, "06_possess-game",
                        paste0(game, "_points-resolved.tsv"))
 point_info <- read.delim(point_file, stringsAsFactors = FALSE)
 
