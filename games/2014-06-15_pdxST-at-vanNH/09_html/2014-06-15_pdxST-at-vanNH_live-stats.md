@@ -16,7 +16,7 @@ output:
 ## 13     6      1     pdxST    22   pdxST       ?       D     vanNH   ?name?
 ```
 
-#### last update Wed Jul  9 11:20:08 2014
+#### last update Wed Jul  9 12:21:59 2014
 # pdxST 18
 # vanNH 20
 ## game is complete

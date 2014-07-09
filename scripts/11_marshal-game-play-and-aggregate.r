@@ -22,68 +22,7 @@ game_play <-
         .id = "game")
 str(game_play)
 
-#' ### Concatenate all game play data and add possession identifiers.  
-
-#' Define a function to create numbered possessions. *Code hidden*.
-
-#+ include = FALSE
-## x: raw poss_team (as a vector) or a matrix/data.fram with poss_team and point
-## and, optionally, game (latter seems a very rare special case)
-determine_possession <- function(x) {
-  if(is.vector(x)) {
-    n <- length(x)
-    is_start <- c(TRUE, !(x[2:n] == x[seq_len(n - 1)]))
-  } else {
-    n <- nrow(x)
-    if(is.null(x$game)) {
-      is_start <-
-        c(TRUE, !(x[2:n, 'poss_team'] == x[seq_len(n - 1), 'poss_team'] &
-                    x[2:n, 'point'] == x[seq_len(n - 1), 'point']))
-    } else {
-      is_start <-
-        c(TRUE, !(x[2:n, 'poss_team'] == x[seq_len(n - 1), 'poss_team'] &
-                    x[2:n, 'point'] == x[seq_len(n - 1), 'point'] &
-                    x[2:n, 'game'] == x[seq_len(n - 1), 'game']))
-    }    
-    return(cumsum(is_start))
-  }
-}
-
-#' Create variables that denote possessions. `poss_abs` holds an absolute possession number *within a specific game*. `poss_rel` holds a relative possession number *within a specific point.*
-game_play <- ddply(game_play, ~ game, function(x)
-  mutate(x, poss_abs = determine_possession(x[c('poss_team', 'point')])))
-game_play <- ddply(game_play, ~ point + game, function(x)
-  data.frame(x,
-             poss_rel = determine_possession(x[c('poss_team', 'point')])))
-str(game_play)
-
-#+ include = FALSE
-## Why would I ever need an absolute possession variable for the entire season?
-## I made this possible in case I ever analyze groups of points from different
-## games where two "point 9"'s could end up adjacent to each other
-# mutate(game_play,
-#       poss_abs = determine_possession(game_play[c('poss_team', 'point', 'game')]))
-
-#' Create new variable `pull_team`, which carries the pulling team. Obviously is
-#' constant within a point.
-game_play <- ddply(game_play, ~ game + point,
-                   function(x) data.frame(x, pull_team = x$pl_team[1]))
-str(game_play)
-
-#' Work on team variables that should be factors. Reorder levels for `pull_team`
-#' and convert `poss_team` to factor. Level order set to final 2014 Western
-#' Conference ranking.
-jTeams <- c("vanNH", "pdxST", "seaRM", "sfoDF")
-jFun <- function(x, xlevels = jTeams) factor(x, levels = xlevels)
-game_play <- transform(game_play, pull_team = jFun(pull_team),
-                       poss_team = factor(poss_team, levels = jTeams))
-str(game_play)
-
-#' Tidy up and write game play to file.
-vars_how_i_want <- c('game', 'period', 'point', 'pull_team',
-                     'poss_abs', 'poss_rel', 'event',
-                     'poss_team', 'pl_team', 'pl_pnum', 'pl_code')
-game_play <- game_play[vars_how_i_want]
+#' ### Concatenate all game play data 
 
 out_dir <- file.path("..", "games", "2014_west")
 if(!file.exists(out_dir)) dir.create(out_dir)
@@ -99,6 +38,9 @@ message("wrote ", out_file)
 out_file <- file.path(out_dir, "2014_west_gameplay.dput")
 dput(game_play, out_file)
 message("wrote ", out_file)
+
+
+
 
 #' ### Aggregate to the level of a possession.  
 

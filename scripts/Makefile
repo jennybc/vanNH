@@ -127,11 +127,11 @@ marshal: 11_marshal-game-play-and-aggregate.r ../games/2014*/07_resolvedGame/*_g
 index.html: ../web/index.rmd ../games/2014*/*at-last-point.yaml
 	cd ../web; Rscript -e "rmarkdown::render('index.rmd', quiet = TRUE)"
 
-r_bits: clean_cat clean_clean clean_resolve cat_goog clean_game resolve_game web web_copy
+r_bits: clean_cat clean_clean clean_possess cat_goog clean_game possess_game web web_copy
 
-pt_fix: eg_pt clean_cat clean_clean clean_resolve cat_goog clean_game resolve_game web web_copy
+pt_fix: eg_pt clean_cat clean_clean clean_possess cat_goog clean_game possess_game web web_copy
 
-yo: eg_pt clean_cat clean_clean clean_resolve cat_goog clean_game resolve_game web web_copy set_web sync
+yo: eg_pt clean_cat clean_clean clean_possess cat_goog clean_game possess_game web web_copy set_web sync
 
 sync:
 	cd ../web; rsync -av --exclude-from=/Users/jenny/.rsync/exclude ./ jenny@stat.ubc.ca:public_html/notOcto/vanNH/

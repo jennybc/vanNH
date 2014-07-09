@@ -16,7 +16,7 @@ output:
 ## 84    35      4     vanNH    16   seaRM      27       D     vanNH   ?name?
 ```
 
-#### last update Wed Jul  9 11:19:56 2014
+#### last update Wed Jul  9 12:21:35 2014
 # vanNH 15
 # seaRM 20
 ## game is complete

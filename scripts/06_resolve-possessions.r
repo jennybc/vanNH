@@ -240,6 +240,65 @@ if(poss_ok < n) {
           "% of game play events")
 }
 
+## continuing on with possession analysis ... raise a warning if less than 100%
+## of game play was resolved
+if(poss_ok < n) {
+  message("  ALERT proceeding with possession analysis although resolution was not 100%!")
+}
+
+## Define a function to create numbered possessions.
+## x: raw poss_team (as a vector) or a matrix/data.frame with poss_team and
+## point and, optionally, game (latter seems a very rare special case)
+determine_possession <- function(x) {
+  if(is.vector(x)) {
+    n <- length(x)
+    is_start <- c(TRUE, !(x[2:n] == x[seq_len(n - 1)]))
+  } else {
+    n <- nrow(x)
+    if(is.null(x$game)) {
+      is_start <-
+        c(TRUE, !(x[2:n, 'poss_team'] == x[seq_len(n - 1), 'poss_team'] &
+                    x[2:n, 'point'] == x[seq_len(n - 1), 'point']))
+    } else {
+      is_start <-
+        c(TRUE, !(x[2:n, 'poss_team'] == x[seq_len(n - 1), 'poss_team'] &
+                    x[2:n, 'point'] == x[seq_len(n - 1), 'point'] &
+                    x[2:n, 'game'] == x[seq_len(n - 1), 'game']))
+    }    
+    return(cumsum(is_start))
+  }
+}
+
+## Create variables that denote possessions.
+## poss_abs = absolute possession number within game
+## poss_rel = relative possession number within a specific point
+game_play$poss_abs <- determine_possession(game_play[c('poss_team', 'point')])
+game_play <-
+  ddply(game_play, ~ point, function(x) {
+    data.frame(x,
+               poss_rel = determine_possession(x[c('poss_team', 'point')]))})
+#str(game_play)
+
+## Why would I ever need an absolute possession variable for the entire season? 
+## I made this possible in case I ever analyze groups of points from different 
+## games where two "point 9"'s could end up adjacent to each other. Assumes
+## game_play holds game play for 2 or more games, obviously.
+# mutate(game_play,
+#        poss_abs = determine_possession(game_play[c('poss_team',
+#                                                    'point', 'game')]))
+
+#' Create new variable `pull_team`, which carries the pulling team. Obviously is
+#' constant within a point.
+game_play <-
+  ddply(game_play, ~ point, function(x) data.frame(x, pull_team = x$pl_team[1]))
+#str(game_play)
+
+#' Tidy up and write game play to file.
+vars_how_i_want <- c('period', 'point', 'pull_team', 'event',
+                     'poss_abs', 'poss_rel', 'poss_team',
+                     'pl_team', 'pl_pnum', 'pl_code')
+game_play <- game_play[vars_how_i_want]
+
 out_dir <- file.path("..", "games", game, "06_possess-game")
 if(!file.exists(out_dir)) dir.create(out_dir)
 
