@@ -1,0 +1,137 @@
+period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code	n_events	huck	score	scor_team	who	a_code	b_code
+1	1	sfoDF	3	1	1	vanNH	vanNH	5	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+1	1	sfoDF	4	2	2	sfoDF	sfoDF	18	TA	1	FALSE	FALSE	NA	d_line	TA	off -
+1	1	sfoDF	8	3	3	vanNH	vanNH	72	TA	4	FALSE	FALSE	NA	o_line	TA	off -
+1	1	sfoDF	9	4	4	sfoDF	sfoDF	18	TA	1	FALSE	FALSE	NA	d_line	TA	off -
+1	1	sfoDF	12	5	5	vanNH	sfoDF	16	D	3	FALSE	FALSE	NA	o_line	D	def +
+1	1	sfoDF	14	6	6	sfoDF	vanNH	89	D	2	FALSE	FALSE	NA	d_line	D	def +
+1	1	sfoDF	23	7	7	vanNH	sfoDF	21	D	9	FALSE	FALSE	NA	o_line	D	def +
+1	1	sfoDF	25	8	8	sfoDF	sfoDF	16	TA	2	FALSE	FALSE	NA	d_line	TA	off -
+1	1	sfoDF	28	9	9	vanNH	sfoDF	85	D	3	FALSE	FALSE	NA	o_line	D	def +
+1	1	sfoDF	30	10	10	sfoDF	sfoDF	21	LG	2	TRUE	TRUE	sfoDF	d_line	G	G
+1	2	sfoDF	5	11	1	vanNH	vanNH	39	VTT	5	FALSE	FALSE	NA	o_line	VTT	off -
+1	2	sfoDF	12	12	2	sfoDF	sfoDF	6	G	7	TRUE	TRUE	sfoDF	d_line	G	G
+1	3	sfoDF	19	13	1	vanNH	vanNH	98	G	19	FALSE	TRUE	vanNH	o_line	G	G
+1	4	vanNH	8	14	1	sfoDF	sfoDF	23	TA	8	FALSE	FALSE	NA	o_line	TA	off -
+1	4	vanNH	10	15	2	vanNH	vanNH	31	G	2	FALSE	TRUE	vanNH	d_line	G	G
+1	5	vanNH	3	16	1	sfoDF	sfoDF	16	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+1	5	vanNH	5	17	2	vanNH	vanNH	14	TA	2	FALSE	FALSE	NA	d_line	TA	off -
+1	5	vanNH	7	18	3	sfoDF	vanNH	14	D	2	FALSE	FALSE	NA	o_line	D	def +
+1	5	vanNH	10	19	4	vanNH	sfoDF	12	D	3	FALSE	FALSE	NA	d_line	D	def +
+1	5	vanNH	16	20	5	sfoDF	sfoDF	21	G	6	FALSE	TRUE	sfoDF	o_line	G	G
+1	6	sfoDF	7	21	1	vanNH	vanNH	72	TD	7	FALSE	FALSE	NA	o_line	TD	off -
+1	6	sfoDF	12	22	2	sfoDF	sfoDF	13	TD	5	FALSE	FALSE	NA	d_line	TD	off -
+1	6	sfoDF	21	23	3	vanNH	vanNH	89	G	9	TRUE	TRUE	vanNH	o_line	G	G
+1	7	vanNH	9	24	1	sfoDF	sfoDF	17	G	9	FALSE	TRUE	sfoDF	o_line	G	G
+1	8	sfoDF	3	25	1	vanNH	vanNH	21	TD	3	FALSE	FALSE	NA	o_line	TD	off -
+1	8	sfoDF	5	26	2	sfoDF	sfoDF	8	TA	2	FALSE	FALSE	NA	d_line	TA	off -
+1	8	sfoDF	10	27	3	vanNH	sfoDF	34	D	5	FALSE	FALSE	NA	o_line	D	def +
+1	8	sfoDF	11	28	4	sfoDF	sfoDF	23	TA	1	FALSE	FALSE	NA	d_line	TA	off -
+1	8	sfoDF	13	29	5	vanNH	vanNH	10	G	2	FALSE	TRUE	vanNH	o_line	G	G
+1	9	vanNH	6	30	1	sfoDF	vanNH	8	D	6	FALSE	FALSE	NA	o_line	D	def +
+1	9	vanNH	8	31	2	vanNH	sfoDF	12	eop	2	FALSE	FALSE	NA	d_line	eop	eop
+2	10	vanNH	7	32	1	sfoDF	sfoDF	11	G	7	TRUE	TRUE	sfoDF	o_line	G	G
+2	11	sfoDF	4	33	1	vanNH	sfoDF	46	D	4	FALSE	FALSE	NA	o_line	D	def +
+2	11	sfoDF	9	34	2	sfoDF	sfoDF	18	LG	5	TRUE	TRUE	sfoDF	d_line	G	G
+2	12	sfoDF	6	35	1	vanNH	sfoDF	23	D	6	FALSE	FALSE	NA	o_line	D	def +
+2	12	sfoDF	9	36	2	sfoDF	vanNH	49	D	3	FALSE	FALSE	NA	d_line	D	def +
+2	12	sfoDF	12	37	3	vanNH	sfoDF	34	D	3	FALSE	FALSE	NA	o_line	D	def +
+2	12	sfoDF	13	38	4	sfoDF	sfoDF	40	TA	1	FALSE	FALSE	NA	d_line	TA	off -
+2	12	sfoDF	15	39	5	vanNH	vanNH	13	G	2	FALSE	TRUE	vanNH	o_line	G	G
+2	13	vanNH	4	40	1	sfoDF	sfoDF	5	TD	4	FALSE	FALSE	NA	o_line	TD	off -
+2	13	vanNH	6	41	2	vanNH	sfoDF	85	D	2	FALSE	FALSE	NA	d_line	D	def +
+2	13	vanNH	14	42	3	sfoDF	vanNH	39	D	8	FALSE	FALSE	NA	o_line	D	def +
+2	13	vanNH	18	43	4	vanNH	vanNH	22	TD	4	FALSE	FALSE	NA	d_line	TD	off -
+2	13	vanNH	21	44	5	sfoDF	sfoDF	16	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+2	13	vanNH	24	45	6	vanNH	sfoDF	46	D	3	FALSE	FALSE	NA	d_line	D	def +
+2	13	vanNH	29	46	7	sfoDF	sfoDF	6	G	5	FALSE	TRUE	sfoDF	o_line	G	G
+2	14	sfoDF	9	47	1	vanNH	sfoDF	23	D	9	FALSE	FALSE	NA	o_line	D	def +
+2	14	sfoDF	14	48	2	sfoDF	sfoDF	23	TD	5	FALSE	FALSE	NA	d_line	TD	off -
+2	14	sfoDF	17	49	3	vanNH	vanNH	5	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+2	14	sfoDF	19	50	4	sfoDF	sfoDF	9	TD	2	FALSE	FALSE	NA	d_line	TD	off -
+2	14	sfoDF	20	51	5	vanNH	vanNH	5	TA	1	FALSE	FALSE	NA	o_line	TA	off -
+2	14	sfoDF	26	52	6	sfoDF	vanNH	22	D	6	FALSE	FALSE	NA	d_line	D	def +
+2	14	sfoDF	29	53	7	vanNH	sfoDF	34	D	3	FALSE	FALSE	NA	o_line	D	def +
+2	14	sfoDF	31	54	8	sfoDF	sfoDF	23	TD	2	FALSE	FALSE	NA	d_line	TD	off -
+2	14	sfoDF	37	55	9	vanNH	vanNH	98	G	6	FALSE	TRUE	vanNH	o_line	G	G
+2	15	vanNH	3	56	1	sfoDF	vanNH	31	D	3	FALSE	FALSE	NA	o_line	D	def +
+2	15	vanNH	11	57	2	vanNH	sfoDF	85	D	8	FALSE	FALSE	NA	d_line	D	def +
+2	15	vanNH	20	58	3	sfoDF	sfoDF	12	G	9	FALSE	TRUE	sfoDF	o_line	G	G
+2	16	sfoDF	5	59	1	vanNH	vanNH	72	G	5	FALSE	TRUE	vanNH	o_line	G	G
+2	17	vanNH	6	60	1	sfoDF	sfoDF	2	TD	6	FALSE	FALSE	NA	o_line	TD	off -
+2	17	vanNH	10	61	2	vanNH	vanNH	19	TD	4	FALSE	FALSE	NA	d_line	TD	off -
+2	17	vanNH	13	62	3	sfoDF	sfoDF	34	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+2	17	vanNH	19	63	4	vanNH	vanNH	8	TD	6	FALSE	FALSE	NA	d_line	TD	off -
+2	17	vanNH	20	64	5	sfoDF	sfoDF	34	TA	1	FALSE	FALSE	NA	o_line	TA	off -
+2	17	vanNH	26	65	6	vanNH	vanNH	5	G	6	FALSE	TRUE	vanNH	d_line	G	G
+2	18	vanNH	5	66	1	sfoDF	sfoDF	13	eop	5	FALSE	FALSE	NA	o_line	eop	eop
+3	19	sfoDF	4	67	1	vanNH	sfoDF	12	D	4	FALSE	FALSE	NA	o_line	D	def +
+3	19	sfoDF	10	68	2	sfoDF	sfoDF	18	G	6	FALSE	TRUE	sfoDF	d_line	G	G
+3	20	sfoDF	6	69	1	vanNH	vanNH	75	TD	6	FALSE	FALSE	NA	o_line	TD	off -
+3	20	sfoDF	8	70	2	sfoDF	vanNH	22	D	2	FALSE	FALSE	NA	d_line	D	def +
+3	20	sfoDF	13	71	3	vanNH	vanNH	21	G	5	FALSE	TRUE	vanNH	o_line	G	G
+3	21	vanNH	5	72	1	sfoDF	sfoDF	46	G	5	TRUE	TRUE	sfoDF	o_line	G	G
+3	22	sfoDF	3	73	1	vanNH	vanNH	98	TD	3	FALSE	FALSE	NA	o_line	TD	off -
+3	22	sfoDF	10	74	2	sfoDF	vanNH	22	FB	7	FALSE	FALSE	NA	d_line	D	def +
+3	22	sfoDF	14	75	3	vanNH	vanNH	5	TA	4	FALSE	FALSE	NA	o_line	TA	off -
+3	22	sfoDF	16	76	4	sfoDF	vanNH	19	HB	2	FALSE	FALSE	NA	d_line	D	def +
+3	22	sfoDF	17	77	5	vanNH	vanNH	89	TA	1	FALSE	FALSE	NA	o_line	TA	off -
+3	22	sfoDF	19	78	6	sfoDF	sfoDF	13	TD	2	FALSE	FALSE	NA	d_line	TD	off -
+3	22	sfoDF	21	79	7	vanNH	vanNH	5	TD	2	FALSE	FALSE	NA	o_line	TD	off -
+3	22	sfoDF	24	80	8	sfoDF	sfoDF	88	TA	3	FALSE	FALSE	NA	d_line	TA	off -
+3	22	sfoDF	26	81	9	vanNH	vanNH	89	TA	2	FALSE	FALSE	NA	o_line	TA	off -
+3	22	sfoDF	34	82	10	sfoDF	vanNH	98	D	8	FALSE	FALSE	NA	d_line	D	def +
+3	22	sfoDF	39	83	11	vanNH	vanNH	10	G	5	TRUE	TRUE	vanNH	o_line	G	G
+3	23	vanNH	2	84	1	sfoDF	sfoDF	12	TA	2	FALSE	FALSE	NA	o_line	TA	off -
+3	23	vanNH	8	85	2	vanNH	sfoDF	12	D	6	FALSE	FALSE	NA	d_line	D	def +
+3	23	vanNH	11	86	3	sfoDF	vanNH	33	D	3	FALSE	FALSE	NA	o_line	D	def +
+3	23	vanNH	13	87	4	vanNH	sfoDF	18	D	2	FALSE	FALSE	NA	d_line	D	def +
+3	23	vanNH	14	88	5	sfoDF	sfoDF	16	TA	1	FALSE	FALSE	NA	o_line	TA	off -
+3	23	vanNH	16	89	6	vanNH	sfoDF	21	D	2	FALSE	FALSE	NA	d_line	D	def +
+3	23	vanNH	18	90	7	sfoDF	sfoDF	85	TA	2	FALSE	FALSE	NA	o_line	TA	off -
+3	23	vanNH	20	91	8	vanNH	vanNH	33	TA	2	FALSE	FALSE	NA	d_line	TA	off -
+3	23	vanNH	21	92	9	sfoDF	sfoDF	16	TA	1	FALSE	FALSE	NA	o_line	TA	off -
+3	23	vanNH	26	93	10	vanNH	vanNH	8	TA	4	FALSE	FALSE	NA	d_line	TA	off -
+3	23	vanNH	28	94	11	sfoDF	sfoDF	17	TA	2	FALSE	FALSE	NA	o_line	TA	off -
+3	23	vanNH	31	95	12	vanNH	vanNH	8	G	3	FALSE	TRUE	vanNH	d_line	G	G
+3	24	vanNH	3	96	1	sfoDF	sfoDF	34	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+3	24	vanNH	5	97	2	vanNH	vanNH	33	G	2	FALSE	TRUE	vanNH	d_line	G	G
+3	25	vanNH	3	98	1	sfoDF	vanNH	8	D	3	FALSE	FALSE	NA	o_line	D	def +
+3	25	vanNH	5	99	2	vanNH	sfoDF	2	eop	2	FALSE	FALSE	NA	d_line	eop	eop
+4	26	vanNH	3	100	1	sfoDF	sfoDF	11	TA	3	TRUE	FALSE	NA	o_line	TA	off -
+4	26	vanNH	5	101	2	vanNH	vanNH	8	TA	2	FALSE	FALSE	NA	d_line	TA	off -
+4	26	vanNH	9	102	3	sfoDF	sfoDF	25	TA	4	FALSE	FALSE	NA	o_line	TA	off -
+4	26	vanNH	15	103	4	vanNH	vanNH	45	TD	6	FALSE	FALSE	NA	d_line	TD	off -
+4	26	vanNH	22	104	5	sfoDF	vanNH	75	D	7	TRUE	FALSE	NA	o_line	D	def +
+4	26	vanNH	24	105	6	vanNH	vanNH	24	TA	2	FALSE	FALSE	NA	d_line	TA	off -
+4	26	vanNH	26	106	7	sfoDF	sfoDF	40	TA	2	FALSE	FALSE	NA	o_line	TA	off -
+4	26	vanNH	31	107	8	vanNH	sfoDF	8	D	5	FALSE	FALSE	NA	d_line	D	def +
+4	26	vanNH	34	108	9	sfoDF	sfoDF	13	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+4	26	vanNH	37	109	10	vanNH	sfoDF	8	D	3	FALSE	FALSE	NA	d_line	D	def +
+4	26	vanNH	42	110	11	sfoDF	sfoDF	13	TA	5	FALSE	FALSE	NA	o_line	TA	off -
+4	26	vanNH	43	111	12	vanNH	vanNH	45	TA	1	FALSE	FALSE	NA	d_line	TA	off -
+4	26	vanNH	56	112	13	sfoDF	vanNH	75	D	13	FALSE	FALSE	NA	o_line	D	def +
+4	26	vanNH	60	113	14	vanNH	vanNH	75	TD	4	FALSE	FALSE	NA	d_line	TD	off -
+4	26	vanNH	62	114	15	sfoDF	sfoDF	13	TD	2	FALSE	FALSE	NA	o_line	TD	off -
+4	26	vanNH	65	115	16	vanNH	vanNH	13	VST	3	FALSE	FALSE	NA	d_line	VST	off -
+4	26	vanNH	73	116	17	sfoDF	sfoDF	18	G	8	TRUE	TRUE	sfoDF	o_line	G	G
+4	27	sfoDF	5	117	1	vanNH	vanNH	21	TD	5	FALSE	FALSE	NA	o_line	TD	off -
+4	27	sfoDF	7	118	2	sfoDF	sfoDF	12	TD	2	FALSE	FALSE	NA	d_line	TD	off -
+4	27	sfoDF	8	119	3	vanNH	vanNH	5	TA	1	FALSE	FALSE	NA	o_line	TA	off -
+4	27	sfoDF	16	120	4	sfoDF	sfoDF	18	G	8	FALSE	TRUE	sfoDF	d_line	G	G
+4	28	sfoDF	4	121	1	vanNH	sfoDF	34	HB	4	FALSE	FALSE	NA	o_line	D	def +
+4	28	sfoDF	5	122	2	sfoDF	sfoDF	34	TA	1	FALSE	FALSE	NA	d_line	TA	off -
+4	28	sfoDF	8	123	3	vanNH	vanNH	5	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+4	28	sfoDF	11	124	4	sfoDF	vanNH	5	D	3	FALSE	FALSE	NA	d_line	D	def +
+4	28	sfoDF	13	125	5	vanNH	sfoDF	34	eop	2	FALSE	FALSE	NA	o_line	eop	eop
+5	29	sfoDF	5	126	1	vanNH	sfoDF	85	D	5	FALSE	FALSE	NA	o_line	D	def +
+5	29	sfoDF	7	127	2	sfoDF	vanNH	21	D	2	FALSE	FALSE	NA	d_line	D	def +
+5	29	sfoDF	13	128	3	vanNH	sfoDF	5	D	6	TRUE	FALSE	NA	o_line	D	def +
+5	29	sfoDF	15	129	4	sfoDF	sfoDF	18	TD	2	FALSE	FALSE	NA	d_line	TD	off -
+5	29	sfoDF	16	130	5	vanNH	vanNH	5	TA	1	FALSE	FALSE	NA	o_line	TA	off -
+5	29	sfoDF	27	131	6	sfoDF	sfoDF	34	G	11	FALSE	TRUE	sfoDF	d_line	G	G
+5	30	sfoDF	10	132	1	vanNH	vanNH	5	TA	10	TRUE	FALSE	NA	o_line	TA	off -
+5	30	sfoDF	14	133	2	sfoDF	vanNH	72	D	4	FALSE	FALSE	NA	d_line	D	def +
+5	30	sfoDF	22	134	3	vanNH	vanNH	21	VST	8	FALSE	FALSE	NA	o_line	VST	off -
+5	30	sfoDF	33	135	4	sfoDF	sfoDF	9	TA	11	FALSE	FALSE	NA	d_line	TA	off -
+5	30	sfoDF	41	136	5	vanNH	vanNH	21	eop	8	FALSE	FALSE	NA	o_line	eop	eop

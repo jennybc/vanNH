@@ -3,7 +3,9 @@ period: 4
 clk_before: '0:19:00'
 clk_after: '0:00:00'
 pull_team: vanNH
+n_poss: 1
 scor_team: pdxST
+h_or_b: hold
 pdxST: 23
 vanNH: 21
 

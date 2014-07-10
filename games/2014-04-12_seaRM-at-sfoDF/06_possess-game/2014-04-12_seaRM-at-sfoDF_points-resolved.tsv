@@ -1,39 +1,39 @@
-point	period	clk_before	clk_after	pull_team	scor_team	seaRM	sfoDF
-1	1	10:00:00	NA	sfoDF	seaRM	1	0
-2	1	NA	NA	seaRM	seaRM	2	0
-3	1	NA	NA	seaRM	sfoDF	2	1
-4	1	NA	NA	sfoDF	seaRM	3	1
-5	1	NA	NA	seaRM	sfoDF	3	2
-6	1	NA	NA	sfoDF	sfoDF	3	3
-7	1	NA	NA	sfoDF	seaRM	4	3
-8	1	NA	NA	seaRM	sfoDF	4	4
-9	1	NA	NA	sfoDF	seaRM	5	4
-10	1	NA	NA	seaRM	seaRM	6	4
-11	1	NA	NA	seaRM	NA	6	4
-12	2	10:00:00	NA	sfoDF	sfoDF	6	5
-13	2	NA	NA	sfoDF	seaRM	7	5
-14	2	NA	NA	seaRM	sfoDF	7	6
-15	2	NA	NA	sfoDF	sfoDF	7	7
-16	2	NA	NA	sfoDF	sfoDF	7	8
-17	2	NA	NA	sfoDF	seaRM	8	8
-18	2	NA	NA	seaRM	sfoDF	8	9
-19	2	NA	NA	sfoDF	seaRM	9	9
-20	2	NA	NA	seaRM	sfoDF	9	10
-21	2	NA	NA	sfoDF	seaRM	10	10
-22	2	NA	NA	seaRM	NA	10	10
-23	3	10:00:00	NA	sfoDF	sfoDF	10	11
-24	3	NA	NA	sfoDF	seaRM	11	11
-25	3	NA	NA	seaRM	seaRM	12	11
-26	3	NA	NA	seaRM	seaRM	13	11
-27	3	NA	NA	seaRM	seaRM	14	11
-28	3	NA	NA	seaRM	sfoDF	14	12
-29	3	NA	NA	sfoDF	sfoDF	14	13
-30	3	NA	NA	sfoDF	seaRM	15	13
-31	3	NA	NA	seaRM	sfoDF	15	14
-32	3	NA	NA	sfoDF	sfoDF	15	15
-33	3	NA	NA	sfoDF	sfoDF	15	16
-34	3	NA	NA	sfoDF	NA	15	16
-35	4	NA	NA	sfoDF	seaRM	16	16
-36	4	NA	NA	seaRM	sfoDF	16	17
-37	4	NA	NA	sfoDF	sfoDF	16	18
-38	4	NA	NA	sfoDF	NA	16	18
+point	period	clk_before	clk_after	pull_team	n_poss	scor_team	h_or_b	seaRM	sfoDF
+1	1	10:00:00	NA	sfoDF	1	seaRM	hold	1	0
+2	1	NA	NA	seaRM	2	seaRM	break	2	0
+3	1	NA	NA	seaRM	1	sfoDF	hold	2	1
+4	1	NA	NA	sfoDF	3	seaRM	hold	3	1
+5	1	NA	NA	seaRM	3	sfoDF	hold	3	2
+6	1	NA	NA	sfoDF	4	sfoDF	break	3	3
+7	1	NA	NA	sfoDF	1	seaRM	hold	4	3
+8	1	NA	NA	seaRM	1	sfoDF	hold	4	4
+9	1	NA	NA	sfoDF	5	seaRM	hold	5	4
+10	1	NA	NA	seaRM	2	seaRM	break	6	4
+11	1	NA	NA	seaRM	NA	NA	NA	6	4
+12	2	10:00:00	NA	sfoDF	2	sfoDF	break	6	5
+13	2	NA	NA	sfoDF	3	seaRM	hold	7	5
+14	2	NA	NA	seaRM	1	sfoDF	hold	7	6
+15	2	NA	NA	sfoDF	4	sfoDF	break	7	7
+16	2	NA	NA	sfoDF	4	sfoDF	break	7	8
+17	2	NA	NA	sfoDF	3	seaRM	hold	8	8
+18	2	NA	NA	seaRM	5	sfoDF	hold	8	9
+19	2	NA	NA	sfoDF	1	seaRM	hold	9	9
+20	2	NA	NA	seaRM	3	sfoDF	hold	9	10
+21	2	NA	NA	sfoDF	3	seaRM	hold	10	10
+22	2	NA	NA	seaRM	NA	NA	NA	10	10
+23	3	10:00:00	NA	sfoDF	4	sfoDF	break	10	11
+24	3	NA	NA	sfoDF	1	seaRM	hold	11	11
+25	3	NA	NA	seaRM	2	seaRM	break	12	11
+26	3	NA	NA	seaRM	2	seaRM	break	13	11
+27	3	NA	NA	seaRM	2	seaRM	break	14	11
+28	3	NA	NA	seaRM	1	sfoDF	hold	14	12
+29	3	NA	NA	sfoDF	6	sfoDF	break	14	13
+30	3	NA	NA	sfoDF	1	seaRM	hold	15	13
+31	3	NA	NA	seaRM	3	sfoDF	hold	15	14
+32	3	NA	NA	sfoDF	2	sfoDF	break	15	15
+33	3	NA	NA	sfoDF	2	sfoDF	break	15	16
+34	3	NA	NA	sfoDF	NA	NA	NA	15	16
+35	4	NA	NA	sfoDF	7	seaRM	hold	16	16
+36	4	NA	NA	seaRM	7	sfoDF	hold	16	17
+37	4	NA	NA	sfoDF	4	sfoDF	break	16	18
+38	4	NA	NA	sfoDF	NA	NA	NA	16	18

@@ -1,48 +1,48 @@
-point	period	clk_before	clk_after	pull_team	scor_team	pdxST	vanNH
-1	1	10:00:00	9:23:00	vanNH	vanNH	0	1
-2	1	9:23:00	9:01:00	vanNH	pdxST	1	1
-3	1	9:01:00	8:49:00	pdxST	vanNH	1	2
-4	1	8:49:00	8:11:00	vanNH	vanNH	1	3
-5	1	8:11:00	7:46:00	vanNH	pdxST	2	3
-6	1	7:46:00	6:40:00	pdxST	pdxST	3	3
-7	1	6:40:00	6:16:00	pdxST	vanNH	3	4
-8	1	6:16:00	5:38:00	vanNH	pdxST	4	4
-9	1	5:38:00	5:08:00	pdxST	vanNH	4	5
-10	1	5:08:00	4:49:00	vanNH	pdxST	5	5
-11	1	4:49:00	4:12:00	pdxST	vanNH	5	6
-12	1	4:12:00	3:50:00	vanNH	pdxST	6	6
-13	1	3:50:00	1:33:00	pdxST	vanNH	6	7
-14	1	1:33:00	1:09:00	vanNH	pdxST	7	7
-15	1	1:09:00	0:53:00	pdxST	pdxST	8	7
-16	1	0:53:00	0:01:00	pdxST	pdxST	9	7
-17	1	0:01:00	0:00:00	pdxST	NA	9	7
-18	2	10:00:00	9:44:00	pdxST	vanNH	9	8
-19	2	9:44:00	8:41:00	vanNH	vanNH	9	9
-20	2	8:41:00	7:34:00	vanNH	vanNH	9	10
-21	2	7:34:00	6:49:00	vanNH	pdxST	10	10
-22	2	6:49:00	4:13:00	pdxST	vanNH	10	11
-23	2	4:13:00	2:02:00	vanNH	vanNH	10	12
-24	2	2:02:00	1:14:00	vanNH	pdxST	11	12
-25	2	1:14:00	0:45:00	pdxST	vanNH	11	13
-26	2	0:45:00	0:16:00	vanNH	pdxST	12	13
-27	2	0:16:00	0:00:00	pdxST	NA	12	13
-28	3	10:00:00	9:38:00	vanNH	pdxST	13	13
-29	3	9:38:00	8:09:00	pdxST	pdxST	14	13
-30	3	8:09:00	6:22:00	pdxST	pdxST	15	13
-31	3	6:22:00	4:19:00	pdxST	pdxST	16	13
-32	3	4:19:00	2:45:00	pdxST	vanNH	16	14
-33	3	2:45:00	2:22:00	vanNH	pdxST	17	14
-34	3	2:22:00	1:17:00	pdxST	pdxST	18	14
-35	3	1:17:00	0:26:00	pdxST	vanNH	18	15
-36	3	0:26:00	0:00:00	vanNH	NA	18	15
-37	4	10:00:00	9:21:00	pdxST	vanNH	18	16
-38	4	9:21:00	7:52:00	vanNH	vanNH	18	17
-39	4	7:52:00	7:31:00	vanNH	pdxST	19	17
-40	4	7:31:00	7:11:00	pdxST	vanNH	19	18
-41	4	7:11:00	5:05:00	vanNH	pdxST	20	18
-42	4	5:05:00	4:53:00	pdxST	vanNH	20	19
-43	4	4:53:00	2:28:00	vanNH	pdxST	21	19
-44	4	2:28:00	2:03:00	pdxST	vanNH	21	20
-45	4	2:03:00	0:37:00	vanNH	pdxST	22	20
-46	4	0:37:00	0:19:00	pdxST	vanNH	22	21
-47	4	0:19:00	0:00:00	vanNH	pdxST	23	21
+point	period	clk_before	clk_after	pull_team	n_poss	scor_team	h_or_b	pdxST	vanNH
+1	1	10:00:00	9:23:00	vanNH	2	vanNH	break	0	1
+2	1	9:23:00	9:01:00	vanNH	1	pdxST	hold	1	1
+3	1	9:01:00	8:49:00	pdxST	1	vanNH	hold	1	2
+4	1	8:49:00	8:11:00	vanNH	2	vanNH	break	1	3
+5	1	8:11:00	7:46:00	vanNH	1	pdxST	hold	2	3
+6	1	7:46:00	6:40:00	pdxST	2	pdxST	break	3	3
+7	1	6:40:00	6:16:00	pdxST	1	vanNH	hold	3	4
+8	1	6:16:00	5:38:00	vanNH	1	pdxST	hold	4	4
+9	1	5:38:00	5:08:00	pdxST	1	vanNH	hold	4	5
+10	1	5:08:00	4:49:00	vanNH	1	pdxST	hold	5	5
+11	1	4:49:00	4:12:00	pdxST	1	vanNH	hold	5	6
+12	1	4:12:00	3:50:00	vanNH	1	pdxST	hold	6	6
+13	1	3:50:00	1:33:00	pdxST	5	vanNH	hold	6	7
+14	1	1:33:00	1:09:00	vanNH	3	pdxST	hold	7	7
+15	1	1:09:00	0:53:00	pdxST	2	pdxST	break	8	7
+16	1	0:53:00	0:01:00	pdxST	2	pdxST	break	9	7
+17	1	0:01:00	0:00:00	pdxST	NA	NA	NA	9	7
+18	2	10:00:00	9:44:00	pdxST	1	vanNH	hold	9	8
+19	2	9:44:00	8:41:00	vanNH	2	vanNH	break	9	9
+20	2	8:41:00	7:34:00	vanNH	2	vanNH	break	9	10
+21	2	7:34:00	6:49:00	vanNH	1	pdxST	hold	10	10
+22	2	6:49:00	4:13:00	pdxST	5	vanNH	hold	10	11
+23	2	4:13:00	2:02:00	vanNH	2	vanNH	break	10	12
+24	2	2:02:00	1:14:00	vanNH	1	pdxST	hold	11	12
+25	2	1:14:00	0:45:00	pdxST	1	vanNH	hold	11	13
+26	2	0:45:00	0:16:00	vanNH	1	pdxST	hold	12	13
+27	2	0:16:00	0:00:00	pdxST	NA	NA	NA	12	13
+28	3	10:00:00	9:38:00	vanNH	1	pdxST	hold	13	13
+29	3	9:38:00	8:09:00	pdxST	4	pdxST	break	14	13
+30	3	8:09:00	6:22:00	pdxST	4	pdxST	break	15	13
+31	3	6:22:00	4:19:00	pdxST	2	pdxST	break	16	13
+32	3	4:19:00	2:45:00	pdxST	3	vanNH	hold	16	14
+33	3	2:45:00	2:22:00	vanNH	1	pdxST	hold	17	14
+34	3	2:22:00	1:17:00	pdxST	2	pdxST	break	18	14
+35	3	1:17:00	0:26:00	pdxST	3	vanNH	hold	18	15
+36	3	0:26:00	0:00:00	vanNH	NA	NA	NA	18	15
+37	4	10:00:00	9:21:00	pdxST	1	vanNH	hold	18	16
+38	4	9:21:00	7:52:00	vanNH	2	vanNH	break	18	17
+39	4	7:52:00	7:31:00	vanNH	1	pdxST	hold	19	17
+40	4	7:31:00	7:11:00	pdxST	1	vanNH	hold	19	18
+41	4	7:11:00	5:05:00	vanNH	1	pdxST	hold	20	18
+42	4	5:05:00	4:53:00	pdxST	1	vanNH	hold	20	19
+43	4	4:53:00	2:28:00	vanNH	5	pdxST	hold	21	19
+44	4	2:28:00	2:03:00	pdxST	1	vanNH	hold	21	20
+45	4	2:03:00	0:37:00	vanNH	1	pdxST	hold	22	20
+46	4	0:37:00	0:19:00	pdxST	1	vanNH	hold	22	21
+47	4	0:19:00	0:00:00	vanNH	1	pdxST	hold	23	21

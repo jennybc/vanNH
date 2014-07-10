@@ -11,7 +11,8 @@
 557      4    37    18   vanNH       5      SI     seaRM
   after addressing SO/SIs, possession established for 606/606 = 100% of game play events
   606 rows of resolved game play will be written
+  79 rows of possessions will be written
   41 resolved points to be written
   seaRM: 12 vanNH: 27
-  2014-07-09 13:10:32
+  2014-07-09 17:40:28
 

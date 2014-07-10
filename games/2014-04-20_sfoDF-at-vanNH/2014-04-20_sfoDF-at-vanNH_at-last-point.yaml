@@ -3,7 +3,9 @@ period: 4
 clk_before: '1:06:00'
 clk_after: '0:00:00'
 pull_team: sfoDF
+n_poss: .na.integer
 scor_team: .na.character
+h_or_b: .na.character
 sfoDF: 15
 vanNH: 26
 

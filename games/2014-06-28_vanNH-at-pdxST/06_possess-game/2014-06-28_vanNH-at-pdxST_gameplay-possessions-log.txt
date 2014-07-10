@@ -4,7 +4,8 @@
   possession established directly for 599/611 = 98.04% of game play events
   after first infer, possession established for 611/611 = 100% of game play events
   611 rows of resolved game play will be written
+  80 rows of possessions will be written
   31 resolved points to be written
   pdxST: 13 vanNH: 14
-  2014-07-09 13:10:43
+  2014-07-09 17:40:31
 

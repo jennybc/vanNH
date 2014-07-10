@@ -1,9 +1,10 @@
 library(plyr)
 library(yaml)
 
-## I predict this function will be moved to a file of helper functions and,
+## I predict these functions will be moved to a file of helper functions and,
 ## ultimately, into a helper package
 replace_NA_with_empty_string <- function(x) {x[is.na(x)] <- ""; return(x)}
+neglength <- function(x) -1 * length(x) ## useful inside reorder()
 
 ## when run in batch mode, provide game identifier on command line
 options <- commandArgs(trailingOnly = TRUE)
@@ -15,9 +16,9 @@ if(length(options) < 1) {
   #game <- "2014-05-10_seaRM-at-vanNH"
   #game <- "2014-05-17_vanNH-at-sfoDF"
   #game <- "2014-05-24_pdxST-at-vanNH"
-  game <- "2014-05-31_vanNH-at-seaRM"
+  #game <- "2014-05-31_vanNH-at-seaRM"
   #game <- "2014-06-07_seaRM-at-vanNH"
-  #game <- "2014-06-15_pdxST-at-vanNH"
+  game <- "2014-06-15_pdxST-at-vanNH"
   #game <- "2014-05-04_sfoDF-at-seaRM"
 } else {
   game <- options[1]
@@ -308,10 +309,97 @@ out_file <- file.path(out_dir, paste0(game, "_gameplay-resolved.tsv"))
 write.table(game_play, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
 #message("wrote ", out_file)
 
-## new variable scor_team records who scored
+## Aggregate to the level of a possession.  
+
+#' How does `poss_dat` differ from `game_play`, other than aggregation?
+#' 
+#' * `n_events` = number of events
+#' * `score` = logical indicating if possession ends with a goal
+#' * `scor_team` = who scored ... `NA` if nobody did
+#' * `who` = o_line vs. d_line
+poss_dat <- ddply(game_play, ~ poss_abs, function(x) {
+  score <- which(grepl("L*G", x$pl_code))
+  ## Get rid of any rows after a goal. Why? because of cases like point 35 of
+  ## 2014-04-12_vanNH-at-pdxST, in which a defensive foul is recorded after a
+  ## successful goal; the goal was not being picked up here as the final event
+  ## of the possession and was, instead, being recorded as an *offensive* foul.
+  if(length(score) > 0)
+    x <- x[seq_len(score), ]
+  ## If possession ends with a *defensive* foul, remove the final row; examples:
+  ## 2014-04-26_vanNH-at-seaRM poss_abs 23, 2014-05-17_vanNH-at-sfoDF poss_abs 
+  ## 92, 2014-05-31_vanNH-at-seaRM poss_abs 57; all have possessions in which a 
+  ## thrower has the disc, there's a foul by the defense and ... the throw is 
+  ## not caught ... we need to see the offensive throwaway as the last event of
+  ## the possession, not the defensive foul
+  n <- nrow(x)
+  if(x$pl_team[n] != x$poss_team[n] & x$pl_code[n] == 'F') {
+    x <- x[seq_len(n - 1), ]
+    n <- nrow(x)
+  }
+  pull_team <- x$pull_team[1]
+  n <- nrow(x)
+  huck <- grepl("L", x$pl_code)
+  scor_team <- as.character(if(any(score)) x$pl_team[max(score)] else NA)
+  who <- ifelse(x$poss_team[n] == pull_team, "d_line", "o_line")
+  if(x$pl_code[n] == 'F' & x$pl_team[n] == x$poss_team[n]) {
+    x$pl_code[n] <- if(who == 'o_line') "off F" else "TA"
+  }
+  data.frame(x[n, ], n_events = n, huck = any(huck),
+             score = any(score),
+             scor_team = factor(scor_team, levels = jTeams), who)
+})
+#str(poss_dat)
+
+## *TO DO*: rigorously check against known final score
+#with(subset(poss_dat, score), table(scor_team))
+
+#' If possession ends due to end of period, set `pl_code` to `eop`.
+poss_dat <- ddply(poss_dat, ~ point, function(x) {
+  n <- nrow(x)
+  if(!x$score[n]) x$pl_code[n] <- 'eop'
+  return(x)
+})
+
+#' Groom `pl_code` and create derivatives, so they give explicit information on
+#' how possessions end, at different levels of detail. Also reorder levels by 
+#' frequency, with most frequent code appearing first.
+poss_dat$pl_code <-
+  mapvalues(poss_dat$pl_code, # revalue() won't work due to factor level ''
+            from = c(  '', 'PU',  'L'),
+            to   = c('TA', 'TA', 'TA'), warn_missing = FALSE)
+poss_dat$pl_code <- with(poss_dat, reorder(pl_code, pl_code, neglength))
+#as.data.frame(table(poss_dat$pl_code, dnn = "a_code"))
+
+poss_dat$a_code <- # a_code is coarser than pl_code but still detailed
+  mapvalues(poss_dat$pl_code,
+            from = c('D', 'HB', 'FB', 'G', 'LG'),
+            to   = c('D',  'D',  'D', 'G',  'G'), warn_missing = FALSE)
+poss_dat$a_code <- with(poss_dat, reorder(a_code, a_code, neglength))
+#as.data.frame(table(poss_dat$a_code, dnn = "a_code"))
+
+poss_dat$b_code <- #b_code is the coarsest
+  mapvalues(poss_dat$a_code,
+            from = c(    'D',   'TA',    'TD',   'VTT',   'VST', 'off F'),
+            to   = c('def +','off -', 'off -', 'off -', 'off -', 'off -'),
+            warn_missing = FALSE)
+poss_dat$b_code <- with(poss_dat, reorder(b_code, b_code, neglength))
+#as.data.frame(table(poss_dat$b_code, dnn = "b_code"))
+
+## Write `poss_dat` to file.
+
+message("  ", nrow(poss_dat), " rows of possessions will be written")
+
+out_file <- file.path(out_dir, paste0(game, "_possessions.tsv"))
+write.table(poss_dat, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
+
+## improve point_info before we write it to file
 just_goals <-
-  subset(game_play, grepl("L*G", pl_code), select = c(point, pl_team))
-just_goals <- rename(just_goals, c("pl_team" = "scor_team"))
+  subset(poss_dat, score, select = c(point, pull_team, poss_rel, scor_team))
+just_goals$h_or_b <-
+  with(just_goals, factor(ifelse(pull_team == scor_team, 'break', 'hold'),
+                          levels = c('hold', 'break')))
+just_goals$pull_team <- NULL
+just_goals <- rename(just_goals, c("poss_rel" = "n_poss"))
 point_info <- suppressMessages(join(point_info, just_goals))
 
 ## new variables for individual team scores

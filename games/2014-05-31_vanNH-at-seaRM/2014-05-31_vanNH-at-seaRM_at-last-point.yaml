@@ -3,7 +3,9 @@ period: 6
 clk_before: '0:10:08'
 clk_after: '0:00:00'
 pull_team: vanNH
+n_poss: 2
 scor_team: vanNH
+h_or_b: break
 seaRM: 24
 vanNH: 29
 

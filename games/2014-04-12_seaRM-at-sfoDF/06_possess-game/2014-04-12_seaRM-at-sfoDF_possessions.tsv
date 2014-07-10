@@ -1,0 +1,104 @@
+period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code	n_events	huck	score	scor_team	who	a_code	b_code
+1	1	sfoDF	5	1	1	seaRM	seaRM	48	LG	5	TRUE	TRUE	seaRM	o_line	G	G
+1	2	seaRM	7	2	1	sfoDF	sfoDF	11	TA	7	FALSE	FALSE	NA	o_line	TA	off -
+1	2	seaRM	9	3	2	seaRM	seaRM	9	G	2	FALSE	TRUE	seaRM	d_line	G	G
+1	3	seaRM	5	4	1	sfoDF	sfoDF	40	G	5	FALSE	TRUE	sfoDF	o_line	G	G
+1	4	sfoDF	7	5	1	seaRM	seaRM	6	TA	7	FALSE	FALSE	NA	o_line	TA	off -
+1	4	sfoDF	15	6	2	sfoDF	sfoDF	25	TD	8	FALSE	FALSE	NA	d_line	TD	off -
+1	4	sfoDF	18	7	3	seaRM	seaRM	6	G	3	FALSE	TRUE	seaRM	o_line	G	G
+1	5	seaRM	8	8	1	sfoDF	seaRM	28	D	8	FALSE	FALSE	NA	o_line	D	def +
+1	5	seaRM	14	9	2	seaRM	sfoDF	34	D	6	FALSE	FALSE	NA	d_line	D	def +
+1	5	seaRM	27	10	3	sfoDF	sfoDF	34	G	13	FALSE	TRUE	sfoDF	o_line	G	G
+1	6	sfoDF	4	11	1	seaRM	seaRM	48	TD	4	FALSE	FALSE	NA	o_line	TD	off -
+1	6	sfoDF	12	12	2	sfoDF	seaRM	3	D	8	FALSE	FALSE	NA	d_line	D	def +
+1	6	sfoDF	18	13	3	seaRM	seaRM	20	TD	6	FALSE	FALSE	NA	o_line	TD	off -
+1	6	sfoDF	23	14	4	sfoDF	sfoDF	18	G	5	FALSE	TRUE	sfoDF	d_line	G	G
+1	7	sfoDF	8	15	1	seaRM	seaRM	1	G	8	FALSE	TRUE	seaRM	o_line	G	G
+1	8	seaRM	9	16	1	sfoDF	sfoDF	34	G	9	FALSE	TRUE	sfoDF	o_line	G	G
+1	9	sfoDF	4	17	1	seaRM	sfoDF	46	D	4	FALSE	FALSE	NA	o_line	D	def +
+1	9	sfoDF	14	18	2	sfoDF	sfoDF	17	TD	10	FALSE	FALSE	NA	d_line	TD	off -
+1	9	sfoDF	19	19	3	seaRM	seaRM	3	TA	5	FALSE	FALSE	NA	o_line	TA	off -
+1	9	sfoDF	20	20	4	sfoDF	sfoDF	12	TA	1	FALSE	FALSE	NA	d_line	TA	off -
+1	9	sfoDF	30	21	5	seaRM	seaRM	48	G	10	FALSE	TRUE	seaRM	o_line	G	G
+1	10	seaRM	6	22	1	sfoDF	seaRM	21	HB	6	FALSE	FALSE	NA	o_line	D	def +
+1	10	seaRM	9	23	2	seaRM	seaRM	9	G	3	FALSE	TRUE	seaRM	d_line	G	G
+1	11	seaRM	6	24	1	sfoDF	sfoDF	5	eop	6	FALSE	FALSE	NA	o_line	eop	eop
+2	12	sfoDF	3	25	1	seaRM	seaRM	3	TD	3	FALSE	FALSE	NA	o_line	TD	off -
+2	12	sfoDF	7	26	2	sfoDF	sfoDF	12	G	4	FALSE	TRUE	sfoDF	d_line	G	G
+2	13	sfoDF	14	27	1	seaRM	seaRM	6	TD	14	FALSE	FALSE	NA	o_line	TD	off -
+2	13	sfoDF	16	28	2	sfoDF	sfoDF	7	TA	2	FALSE	FALSE	NA	d_line	TA	off -
+2	13	sfoDF	19	29	3	seaRM	seaRM	48	G	3	FALSE	TRUE	seaRM	o_line	G	G
+2	14	seaRM	8	30	1	sfoDF	sfoDF	8	G	8	FALSE	TRUE	sfoDF	o_line	G	G
+2	15	sfoDF	8	31	1	seaRM	seaRM	51	TD	8	FALSE	FALSE	NA	o_line	TD	off -
+2	15	sfoDF	15	32	2	sfoDF	seaRM	48	D	7	FALSE	FALSE	NA	d_line	D	def +
+2	15	sfoDF	23	33	3	seaRM	seaRM	9	TA	8	FALSE	FALSE	NA	o_line	TA	off -
+2	15	sfoDF	27	34	4	sfoDF	sfoDF	88	G	4	TRUE	TRUE	sfoDF	d_line	G	G
+2	16	sfoDF	7	35	1	seaRM	seaRM	17	VST	7	FALSE	FALSE	NA	o_line	VST	off -
+2	16	sfoDF	9	36	2	sfoDF	sfoDF	46	TA	2	FALSE	FALSE	NA	d_line	TA	off -
+2	16	sfoDF	19	37	3	seaRM	seaRM	17	TA	10	FALSE	FALSE	NA	o_line	TA	off -
+2	16	sfoDF	22	38	4	sfoDF	sfoDF	85	G	3	FALSE	TRUE	sfoDF	d_line	G	G
+2	17	sfoDF	3	39	1	seaRM	seaRM	17	TD	3	FALSE	FALSE	NA	o_line	TD	off -
+2	17	sfoDF	6	40	2	sfoDF	sfoDF	83	TD	3	FALSE	FALSE	NA	d_line	TD	off -
+2	17	sfoDF	12	41	3	seaRM	seaRM	9	LG	6	TRUE	TRUE	seaRM	o_line	G	G
+2	18	seaRM	2	42	1	sfoDF	sfoDF	11	TA	2	FALSE	FALSE	NA	o_line	TA	off -
+2	18	seaRM	3	43	2	seaRM	seaRM	35	TA	1	FALSE	FALSE	NA	d_line	TA	off -
+2	18	seaRM	7	44	3	sfoDF	seaRM	35	D	4	FALSE	FALSE	NA	o_line	D	def +
+2	18	seaRM	9	45	4	seaRM	seaRM	13	TD	2	FALSE	FALSE	NA	d_line	TD	off -
+2	18	seaRM	13	46	5	sfoDF	sfoDF	24	G	4	FALSE	TRUE	sfoDF	o_line	G	G
+2	19	sfoDF	5	47	1	seaRM	seaRM	17	G	5	FALSE	TRUE	seaRM	o_line	G	G
+2	20	seaRM	4	48	1	sfoDF	sfoDF	5	TA	4	FALSE	FALSE	NA	o_line	TA	off -
+2	20	seaRM	6	49	2	seaRM	seaRM	28	TD	2	FALSE	FALSE	NA	d_line	TD	off -
+2	20	seaRM	12	50	3	sfoDF	sfoDF	8	G	6	FALSE	TRUE	sfoDF	o_line	G	G
+2	21	sfoDF	5	51	1	seaRM	seaRM	18	TA	5	FALSE	FALSE	NA	o_line	TA	off -
+2	21	sfoDF	8	52	2	sfoDF	sfoDF	40	TD	3	FALSE	FALSE	NA	d_line	TD	off -
+2	21	sfoDF	10	53	3	seaRM	seaRM	9	G	2	FALSE	TRUE	seaRM	o_line	G	G
+2	22	seaRM	5	54	1	sfoDF	sfoDF	11	eop	5	FALSE	FALSE	NA	o_line	eop	eop
+3	23	sfoDF	7	55	1	seaRM	sfoDF	37	D	7	FALSE	FALSE	NA	o_line	D	def +
+3	23	sfoDF	12	56	2	sfoDF	sfoDF	85	TA	5	FALSE	FALSE	NA	d_line	TA	off -
+3	23	sfoDF	16	57	3	seaRM	sfoDF	85	D	4	FALSE	FALSE	NA	o_line	D	def +
+3	23	sfoDF	20	58	4	sfoDF	sfoDF	10	G	4	FALSE	TRUE	sfoDF	d_line	G	G
+3	24	sfoDF	8	59	1	seaRM	seaRM	48	G	8	FALSE	TRUE	seaRM	o_line	G	G
+3	25	seaRM	3	60	1	sfoDF	sfoDF	13	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+3	25	seaRM	10	61	2	seaRM	seaRM	29	G	7	FALSE	TRUE	seaRM	d_line	G	G
+3	26	seaRM	11	62	1	sfoDF	sfoDF	40	TA	11	FALSE	FALSE	NA	o_line	TA	off -
+3	26	seaRM	13	63	2	seaRM	seaRM	48	LG	2	TRUE	TRUE	seaRM	d_line	G	G
+3	27	seaRM	5	64	1	sfoDF	sfoDF	7	TD	5	FALSE	FALSE	NA	o_line	TD	off -
+3	27	seaRM	10	65	2	seaRM	seaRM	35	G	5	FALSE	TRUE	seaRM	d_line	G	G
+3	28	seaRM	9	66	1	sfoDF	sfoDF	5	G	9	FALSE	TRUE	sfoDF	o_line	G	G
+3	29	sfoDF	7	67	1	seaRM	seaRM	3	TD	7	FALSE	FALSE	NA	o_line	TD	off -
+3	29	sfoDF	9	68	2	sfoDF	seaRM	15	D	2	FALSE	FALSE	NA	d_line	D	def +
+3	29	sfoDF	18	69	3	seaRM	seaRM	15	TD	9	FALSE	FALSE	NA	o_line	TD	off -
+3	29	sfoDF	19	70	4	sfoDF	sfoDF	17	TA	1	FALSE	FALSE	NA	d_line	TA	off -
+3	29	sfoDF	21	71	5	seaRM	seaRM	51	TD	2	FALSE	FALSE	NA	o_line	TD	off -
+3	29	sfoDF	29	72	6	sfoDF	sfoDF	37	G	8	FALSE	TRUE	sfoDF	d_line	G	G
+3	30	sfoDF	14	73	1	seaRM	seaRM	48	G	14	FALSE	TRUE	seaRM	o_line	G	G
+3	31	seaRM	5	74	1	sfoDF	seaRM	35	D	5	FALSE	FALSE	NA	o_line	D	def +
+3	31	seaRM	9	75	2	seaRM	seaRM	20	TD	4	FALSE	FALSE	NA	d_line	TD	off -
+3	31	seaRM	19	76	3	sfoDF	sfoDF	5	G	10	FALSE	TRUE	sfoDF	o_line	G	G
+3	32	sfoDF	5	77	1	seaRM	sfoDF	46	D	5	FALSE	FALSE	NA	o_line	D	def +
+3	32	sfoDF	11	78	2	sfoDF	sfoDF	17	G	6	FALSE	TRUE	sfoDF	d_line	G	G
+3	33	sfoDF	8	79	1	seaRM	sfoDF	83	D	8	FALSE	FALSE	NA	o_line	D	def +
+3	33	sfoDF	12	80	2	sfoDF	sfoDF	2	LG	4	TRUE	TRUE	sfoDF	d_line	G	G
+3	34	sfoDF	7	81	1	seaRM	seaRM	35	VTT	7	FALSE	FALSE	NA	o_line	VTT	off -
+3	34	sfoDF	9	82	2	sfoDF	sfoDF	13	eop	2	FALSE	FALSE	NA	d_line	eop	eop
+4	35	sfoDF	13	83	1	seaRM	sfoDF	10	D	13	FALSE	FALSE	NA	o_line	D	def +
+4	35	sfoDF	17	84	2	sfoDF	seaRM	20	D	4	FALSE	FALSE	NA	d_line	D	def +
+4	35	sfoDF	20	85	3	seaRM	seaRM	35	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+4	35	sfoDF	23	86	4	sfoDF	seaRM	6	D	3	FALSE	FALSE	NA	d_line	D	def +
+4	35	sfoDF	31	87	5	seaRM	seaRM	9	TD	8	FALSE	FALSE	NA	o_line	TD	off -
+4	35	sfoDF	32	88	6	sfoDF	sfoDF	12	TA	1	FALSE	FALSE	NA	d_line	TA	off -
+4	35	sfoDF	34	89	7	seaRM	seaRM	9	G	2	FALSE	TRUE	seaRM	o_line	G	G
+4	36	seaRM	27	90	1	sfoDF	seaRM	3	D	27	FALSE	FALSE	NA	o_line	D	def +
+4	36	seaRM	29	91	2	seaRM	sfoDF	5	HB	2	FALSE	FALSE	NA	d_line	D	def +
+4	36	seaRM	31	92	3	sfoDF	seaRM	9	D	2	FALSE	FALSE	NA	o_line	D	def +
+4	36	seaRM	37	93	4	seaRM	seaRM	35	TA	6	FALSE	FALSE	NA	d_line	TA	off -
+4	36	seaRM	47	94	5	sfoDF	sfoDF	5	TD	10	FALSE	FALSE	NA	o_line	TD	off -
+4	36	seaRM	49	95	6	seaRM	seaRM	29	TD	2	FALSE	FALSE	NA	d_line	TD	off -
+4	36	seaRM	51	96	7	sfoDF	sfoDF	13	G	2	FALSE	TRUE	sfoDF	o_line	G	G
+4	37	sfoDF	2	97	1	seaRM	seaRM	3	TA	2	FALSE	FALSE	NA	o_line	TA	off -
+4	37	sfoDF	4	98	2	sfoDF	sfoDF	10	TD	2	FALSE	FALSE	NA	d_line	TD	off -
+4	37	sfoDF	13	99	3	seaRM	sfoDF	85	D	9	FALSE	FALSE	NA	o_line	D	def +
+4	37	sfoDF	17	100	4	sfoDF	sfoDF	12	G	4	FALSE	TRUE	sfoDF	d_line	G	G
+4	38	sfoDF	6	101	1	seaRM	sfoDF	2	D	6	FALSE	FALSE	NA	o_line	D	def +
+4	38	sfoDF	29	102	2	sfoDF	sfoDF	34	TD	23	FALSE	FALSE	NA	d_line	TD	off -
+4	38	sfoDF	31	103	3	seaRM	seaRM	13	eop	2	FALSE	FALSE	NA	o_line	eop	eop
