@@ -1,0 +1,4 @@
+2014-06-28_vanNH-at-pdxST:
+  611 rows of resolved game play found
+  508 rows of resolved pass data will be written
+

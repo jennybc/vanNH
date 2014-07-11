@@ -1,0 +1,60 @@
+2014-04-12_seaRM-at-sfoDF:
+  586 rows of resolved game play found
+  455 rows of resolved pass data will be written
+
+2014-04-12_vanNH-at-pdxST:
+  673 rows of resolved game play found
+  540 rows of resolved pass data will be written
+
+2014-04-19_sfoDF-at-seaRM:
+  623 rows of resolved game play found
+  475 rows of resolved pass data will be written
+
+2014-04-20_sfoDF-at-vanNH:
+  579 rows of resolved game play found
+  433 rows of resolved pass data will be written
+
+2014-04-26_pdxST-at-sfoDF:
+  628 rows of resolved game play found
+  500 rows of resolved pass data will be written
+
+2014-04-26_vanNH-at-seaRM:
+  534 rows of resolved game play found
+  419 rows of resolved pass data will be written
+
+2014-05-04_sfoDF-at-seaRM:
+  614 rows of resolved game play found
+  497 rows of resolved pass data will be written
+
+2014-05-10_seaRM-at-vanNH:
+  663 rows of resolved game play found
+  508 rows of resolved pass data will be written
+
+2014-05-17_vanNH-at-sfoDF:
+  569 rows of resolved game play found
+  429 rows of resolved pass data will be written
+
+2014-05-24_pdxST-at-vanNH:
+  622 rows of resolved game play found
+  494 rows of resolved pass data will be written
+
+2014-05-31_vanNH-at-seaRM:
+  791 rows of resolved game play found
+  631 rows of resolved pass data will be written
+
+2014-06-07_seaRM-at-vanNH:
+  606 rows of resolved game play found
+  491 rows of resolved pass data will be written
+
+2014-06-15_pdxST-at-vanNH:
+  636 rows of resolved game play found
+  512 rows of resolved pass data will be written
+
+2014-06-21_vanNH-at-sfoDF:
+  515 rows of resolved game play found
+  396 rows of resolved pass data will be written
+
+2014-06-28_vanNH-at-pdxST:
+  611 rows of resolved game play found
+  508 rows of resolved pass data will be written
+

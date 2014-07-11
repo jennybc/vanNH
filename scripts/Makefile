@@ -99,6 +99,13 @@ clean_possess:
 possess_game: 06_resolve-possessions.r
 	@Rscript ./06_resolve-possessions.r $(GAME) 2>&1 | tee ../games/$(GAME)/06_possess-game/$(GAME)_gameplay-possessions-log.txt
 
+clean_pass:
+	rm -rf ../games/$(GAME)/07_pass-game/*
+
+pass_game: 07_resolve-passes.r
+	@Rscript ./07_resolve-passes.r $(GAME) 2>&1 | tee ../games/$(GAME)/07_pass-game/$(GAME)_passes-log.txt
+
+
 clean_web:
 	rm -rf ../games/$(GAME)/09_html/*
 

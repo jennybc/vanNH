@@ -1,0 +1,4 @@
+2014-06-07_seaRM-at-vanNH:
+  606 rows of resolved game play found
+  491 rows of resolved pass data will be written
+

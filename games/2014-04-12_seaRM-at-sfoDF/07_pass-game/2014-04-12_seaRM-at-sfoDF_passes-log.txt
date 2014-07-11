@@ -1,0 +1,4 @@
+2014-04-12_seaRM-at-sfoDF:
+  586 rows of resolved game play found
+  455 rows of resolved pass data will be written
+
