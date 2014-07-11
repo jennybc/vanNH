@@ -28,7 +28,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 4	1	4	4	5	ao	0	O-CTH	sfoDF-57		O-CTH	sfoDF-11
 4	1	4	5	7	ao	1	O-CTH	sfoDF-11	D-F	O-CTH	sfoDF-34
 4	1	4	7	8	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-83
-4	1	4	8	9	ao	0	O-CTH	sfoDF-83		D-D	sfoDF-23
+4	1	4	8	9	ao	0	O-CTH	sfoDF-83		D-D	seaRM-23
 5	2	4	10	11	ao	0	O-PU	seaRM-29		O-CTH	seaRM-21
 5	2	4	11	12	ao	0	O-CTH	seaRM-21		O-CTH	seaRM-29
 5	2	4	12	13	ao	0	O-CTH	seaRM-29		O-CTH	seaRM-12
@@ -49,9 +49,9 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 9	2	5	14	15	ao	0	O-CTH	seaRM-15		O-CTH	seaRM-27
 9	2	5	15	16	ao	0	O-CTH	seaRM-27		O-CTH	seaRM-29
 9	2	5	16	17	ao	0	O-CTH	seaRM-29		O-CTH	seaRM-12
-9	2	5	17	18	ao	0	O-CTH	seaRM-12		D-D	seaRM-1
+9	2	5	17	18	ao	0	O-CTH	seaRM-12		D-D	sfoDF-1
 10	3	5	19	20	ao	0	O-PU	sfoDF-1		O-TD	sfoDF-85
-11	4	5	21	22	ao	0	O-PU	seaRM-29		D-D	seaRM-85
+11	4	5	21	22	ao	0	O-PU	seaRM-29		D-D	sfoDF-85
 12	5	5	23	24	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-11
 12	5	5	24	25	ao	0	O-CTH	sfoDF-11		O-CTH	sfoDF-17
 12	5	5	25	26	ao	0	O-CTH	sfoDF-17		O-G	sfoDF-46
@@ -59,7 +59,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 13	1	6	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-99
 13	1	6	4	5	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-17
 13	1	6	5	6	ao	0	O-CTH	seaRM-17		O-G	seaRM-6
-14	1	7	2	3	ao	0	O-PU	sfoDF-88		D-D	sfoDF-13
+14	1	7	2	3	ao	0	O-PU	sfoDF-88		D-D	seaRM-13
 15	2	7	4	5	ao	0	O-PU	seaRM-?		O-TD	seaRM-13
 16	3	7	6	7	ao	0	O-PU	sfoDF-88		O-CTH	sfoDF-34
 16	3	7	7	8	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-88
@@ -67,7 +67,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 16	3	7	9	10	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-19
 16	3	7	10	11	ao	0	O-CTH	sfoDF-19		O-G	sfoDF-24
 17	1	8	2	3	ao	0	O-PU	seaRM-25		O-CTH	seaRM-20
-17	1	8	3	4	ao	0	O-CTH	seaRM-20		D-D	seaRM-85
+17	1	8	3	4	ao	0	O-CTH	seaRM-20		D-D	sfoDF-85
 18	2	8	5	6	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-18
 18	2	8	6	7	ao	0	O-CTH	sfoDF-18		O-CTH	sfoDF-21
 18	2	8	7	8	ao	0	O-CTH	sfoDF-21		O-TD	sfoDF-25
@@ -76,7 +76,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 19	3	8	11	12	ao	0	O-CTH	seaRM-20		O-OV	seaRM-00
 20	4	8	13	14	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-85
 20	4	8	14	15	ao	0	O-CTH	sfoDF-85		O-CTH	sfoDF-25
-20	4	8	15	16	ao	0	O-CTH	sfoDF-25		D-D	sfoDF-00
+20	4	8	15	16	ao	0	O-CTH	sfoDF-25		D-D	seaRM-00
 21	5	8	17	17	an	-1	O-PU	seaRM-17		NA	seaRM-17
 22	6	8	18	20	aa	1	O-PU	sfoDF-18	O-TO	O-PU	sfoDF-83
 22	6	8	20	20	an	-1	O-PU	sfoDF-83		NA	sfoDF-83
@@ -91,8 +91,8 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 24	1	10	3	4	ao	0	O-CTH	sfoDF-86		O-CTH	sfoDF-11
 24	1	10	4	4	an	-1	O-CTH	sfoDF-11		NA	sfoDF-11
 25	2	10	5	6	ao	0	O-PU	seaRM-23		O-CTH	seaRM-21
-25	2	10	6	7	ao	0	O-CTH	seaRM-21		D-D	seaRM-8
-26	3	10	8	9	ao	0	O-PU	sfoDF-8		D-D	sfoDF-21
+25	2	10	6	7	ao	0	O-CTH	seaRM-21		D-D	sfoDF-8
+26	3	10	8	9	ao	0	O-PU	sfoDF-8		D-D	seaRM-21
 27	4	10	10	11	ao	0	O-PU	seaRM-29		O-CTH	seaRM-13
 27	4	10	11	12	ao	0	O-CTH	seaRM-13		O-CTH	seaRM-29
 27	4	10	12	12	an	-1	O-CTH	seaRM-29		NA	seaRM-29
@@ -128,7 +128,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 31	1	13	6	7	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-25
 31	1	13	7	8	ao	0	O-CTH	seaRM-25		O-G	seaRM-17
 32	1	14	2	3	ao	0	O-PU	sfoDF-11		O-CTH	sfoDF-88
-32	1	14	3	4	ao	0	O-CTH	sfoDF-88		D-D	sfoDF-29
+32	1	14	3	4	ao	0	O-CTH	sfoDF-88		D-D	seaRM-29
 33	2	14	5	6	ao	0	O-PU	seaRM-13		O-CTH	seaRM-2
 33	2	14	6	8	aa	1	O-CTH	seaRM-2	O-TO	O-PU	seaRM-25
 33	2	14	8	9	ao	0	O-PU	seaRM-25		O-CTH	seaRM-17
@@ -138,10 +138,10 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 34	1	15	4	5	ao	0	O-CTH	sfoDF-24		O-CTH	sfoDF-14
 34	1	15	5	6	ao	0	O-CTH	sfoDF-14		O-CTH	sfoDF-88
 34	1	15	6	7	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-11
-34	1	15	7	8	ao	0	O-CTH	sfoDF-11		D-D	sfoDF-24
+34	1	15	7	8	ao	0	O-CTH	sfoDF-11		D-D	seaRM-24
 35	2	15	9	11	aa	1	O-PU	seaRM-21	O-TO	O-PU	seaRM-20
 35	2	15	11	12	ao	0	O-PU	seaRM-20		O-CTH	seaRM-25
-35	2	15	12	13	ao	0	O-CTH	seaRM-25		D-D	seaRM-85
+35	2	15	12	13	ao	0	O-CTH	seaRM-25		D-D	sfoDF-85
 36	3	15	15	16	ao	0	O-PU	sfoDF-83		O-CTH	sfoDF-8
 36	3	15	16	17	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-88
 36	3	15	17	18	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-34
@@ -185,7 +185,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 44	3	20	14	15	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-8
 44	3	20	15	16	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-83
 44	3	20	16	17	ao	0	O-CTH	sfoDF-83		O-CTH	sfoDF-57
-44	3	20	17	18	ao	0	O-CTH	sfoDF-57		D-D	sfoDF-21
+44	3	20	17	18	ao	0	O-CTH	sfoDF-57		D-D	seaRM-21
 45	4	20	19	20	ao	0	O-PU	seaRM-21		O-CTH	seaRM-29
 45	4	20	20	21	ao	0	O-CTH	seaRM-29		O-CTH	seaRM-21
 45	4	20	21	22	ao	0	O-CTH	seaRM-21		O-CTH	seaRM-23
@@ -263,7 +263,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 56	1	28	7	8	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-14
 56	1	28	8	9	ao	0	O-CTH	sfoDF-14		O-CTH	sfoDF-88
 56	1	28	9	10	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-14
-56	1	28	10	11	ao	0	O-CTH	sfoDF-14		D-D	sfoDF-12
+56	1	28	10	11	ao	0	O-CTH	sfoDF-14		D-D	seaRM-12
 57	2	28	12	13	ao	0	O-PU	seaRM-21		O-CTH	seaRM-18
 57	2	28	13	14	ao	0	O-CTH	seaRM-18		O-CTH	seaRM-24
 57	2	28	14	15	ao	0	O-CTH	seaRM-24		O-CTH	seaRM-21
@@ -273,7 +273,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 57	2	28	18	19	ao	0	O-CTH	seaRM-24		O-CTH	seaRM-29
 57	2	28	19	20	ao	0	O-CTH	seaRM-29		O-CTH	seaRM-18
 57	2	28	20	21	ao	0	O-CTH	seaRM-18		O-TD	seaRM-21
-58	3	28	22	23	ao	0	O-PU	sfoDF-14		D-D	sfoDF-29
+58	3	28	22	23	ao	0	O-PU	sfoDF-14		D-D	seaRM-29
 59	4	28	24	25	ao	0	O-PU	seaRM-29		O-G	seaRM-23
 60	1	29	2	3	ao	0	O-PU	sfoDF-8		O-CTH	sfoDF-1
 60	1	29	3	4	ao	0	O-CTH	sfoDF-1		O-CTH	sfoDF-8
@@ -299,7 +299,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 63	2	31	10	11	ao	0	O-PU	seaRM-6		O-CTH	seaRM-12
 63	2	31	11	12	ao	0	O-CTH	seaRM-12		O-CTH	seaRM-23
 63	2	31	12	12	an	-1	O-CTH	seaRM-23		NA	seaRM-23
-64	3	31	13	14	ao	0	O-PU	sfoDF-8		D-D	sfoDF-12
+64	3	31	13	14	ao	0	O-PU	sfoDF-8		D-D	seaRM-12
 65	4	31	16	17	ao	0	O-PU	seaRM-20		O-CTH	seaRM-51
 65	4	31	17	18	ao	0	O-CTH	seaRM-51		O-CTH	seaRM-20
 65	4	31	18	18	an	-1	O-CTH	seaRM-20		NA	seaRM-20
@@ -310,7 +310,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 66	5	31	23	24	ao	0	O-CTH	sfoDF-85		O-CTH	sfoDF-21
 66	5	31	24	25	ao	0	O-CTH	sfoDF-21		O-CTH	sfoDF-18
 66	5	31	25	26	ao	0	O-CTH	sfoDF-18		O-TD	sfoDF-85
-67	6	31	27	28	ao	0	O-PU	seaRM-20		D-D	seaRM-12
+67	6	31	27	28	ao	0	O-PU	seaRM-20		D-D	sfoDF-12
 68	7	31	29	30	ao	0	O-PU	sfoDF-12		O-CTH	sfoDF-21
 68	7	31	30	31	ao	0	O-CTH	sfoDF-21		O-CTH	sfoDF-11
 68	7	31	31	32	ao	0	O-CTH	sfoDF-11		O-CTH	sfoDF-12
@@ -321,7 +321,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 69	8	31	36	37	ao	0	O-CTH	seaRM-00		O-CTH	seaRM-25
 69	8	31	37	38	ao	0	O-CTH	seaRM-25		O-CTH	seaRM-51
 69	8	31	38	39	ao	0	O-CTH	seaRM-51		O-CTH	seaRM-99
-69	8	31	39	40	ao	0	O-CTH	seaRM-99		D-D	seaRM-11
+69	8	31	39	40	ao	0	O-CTH	seaRM-99		D-D	sfoDF-11
 70	9	31	41	42	ao	0	O-PU	sfoDF-11		O-CTH	sfoDF-21
 70	9	31	42	42	an	-1	O-CTH	sfoDF-21		NA	sfoDF-21
 71	1	32	2	3	ao	0	O-PU	sfoDF-88		O-CTH	sfoDF-14
@@ -339,13 +339,13 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 72	1	33	2	3	ao	0	O-PU	seaRM-20		O-CTH	seaRM-17
 72	1	33	3	4	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-5
 72	1	33	4	5	ao	0	O-CTH	seaRM-5		O-CTH	seaRM-6
-72	1	33	5	6	ao	0	O-CTH	seaRM-6		D-D	seaRM-46
+72	1	33	5	6	ao	0	O-CTH	seaRM-6		D-D	sfoDF-46
 73	2	33	7	8	ao	0	O-PU	sfoDF-34		O-CTH	sfoDF-18
 73	2	33	8	9	ao	0	O-CTH	sfoDF-18		O-CTH	sfoDF-34
 73	2	33	9	10	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-85
 73	2	33	10	11	ao	0	O-CTH	sfoDF-85		O-CTH	sfoDF-46
 73	2	33	11	12	ao	0	O-CTH	sfoDF-46		O-CTH	sfoDF-34
-73	2	33	12	13	ao	0	O-CTH	sfoDF-34		D-D	sfoDF-6
+73	2	33	12	13	ao	0	O-CTH	sfoDF-34		D-D	seaRM-6
 74	3	33	14	15	ao	0	O-PU	seaRM-00		O-CTH	seaRM-20
 74	3	33	15	16	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-00
 74	3	33	16	17	ao	0	O-CTH	seaRM-00		O-CTH	seaRM-20
@@ -369,11 +369,11 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 79	2	36	5	6	ao	0	O-CTH	sfoDF-17		O-CTH	sfoDF-12
 79	2	36	6	7	ao	0	O-CTH	sfoDF-12		O-CTH	sfoDF-18
 79	2	36	7	9	aa	1	O-CTH	sfoDF-18	O-TO	O-PU	sfoDF-8
-79	2	36	9	10	ao	0	O-PU	sfoDF-8		D-D	sfoDF-21
+79	2	36	9	10	ao	0	O-PU	sfoDF-8		D-D	seaRM-21
 80	3	36	11	12	ao	0	O-PU	seaRM-29		O-CTH	seaRM-23
 80	3	36	12	13	ao	0	O-CTH	seaRM-23		O-CTH	seaRM-29
 80	3	36	13	14	ao	0	O-CTH	seaRM-29		O-CTH	seaRM-24
-80	3	36	14	16	ao	1	O-CTH	seaRM-24	D-F	D-D	seaRM-34
+80	3	36	14	16	ao	1	O-CTH	seaRM-24	D-F	D-D	sfoDF-34
 81	4	36	17	18	ao	0	O-PU	sfoDF-34		O-CTH	sfoDF-24
 81	4	36	18	19	ao	0	O-CTH	sfoDF-24		O-G	sfoDF-11
 82	1	37	2	3	ao	0	O-PU	seaRM-00		O-CTH	seaRM-20
@@ -410,12 +410,12 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 86	1	40	2	3	ao	0	O-PU	seaRM-00		O-CTH	seaRM-20
 86	1	40	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-17
 86	1	40	4	5	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-6
-86	1	40	5	6	ao	0	O-CTH	seaRM-6		D-D	seaRM-25
+86	1	40	5	6	ao	0	O-CTH	seaRM-6		D-D	sfoDF-25
 87	2	40	7	9	ao	1	O-PU	sfoDF-34	D-F	O-CTH	sfoDF-21
 87	2	40	9	10	ao	0	O-CTH	sfoDF-21		O-CTH	sfoDF-34
 87	2	40	10	11	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-18
 87	2	40	11	12	ao	0	O-CTH	sfoDF-18		O-TD	sfoDF-37
-88	3	40	13	14	ao	0	O-PU	seaRM-20		D-D	seaRM-34
+88	3	40	13	14	ao	0	O-PU	seaRM-20		D-D	sfoDF-34
 89	4	40	15	16	ao	0	O-PU	sfoDF-34		O-G	sfoDF-18
 90	1	41	2	3	ao	0	O-PU	seaRM-17		O-CTH	seaRM-20
 90	1	41	3	4	ao	0	O-CTH	seaRM-20		O-TD	seaRM-5
@@ -446,8 +446,8 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 95	3	43	18	19	ao	0	O-CTH	seaRM-00		O-CTH	seaRM-20
 95	3	43	19	20	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-00
 95	3	43	20	21	ao	0	O-CTH	seaRM-00		O-CTH	seaRM-99
-95	3	43	21	22	ao	0	O-CTH	seaRM-99		D-D	seaRM-21
-96	4	43	23	24	ao	0	O-PU	sfoDF-34		D-D	sfoDF-25
+95	3	43	21	22	ao	0	O-CTH	seaRM-99		D-D	sfoDF-21
+96	4	43	23	24	ao	0	O-PU	sfoDF-34		D-D	seaRM-25
 97	5	43	25	26	ao	0	O-PU	seaRM-20		O-CTH	seaRM-99
 97	5	43	26	27	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-25
 97	5	43	27	28	ao	0	O-CTH	seaRM-25		O-G	seaRM-6
@@ -466,9 +466,9 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 100	1	45	12	13	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-34
 100	1	45	13	14	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-11
 100	1	45	14	15	ao	0	O-CTH	sfoDF-11		O-CTH	sfoDF-34
-100	1	45	15	16	ao	0	O-CTH	sfoDF-34		D-D	sfoDF-51
+100	1	45	15	16	ao	0	O-CTH	sfoDF-34		D-D	seaRM-51
 101	2	45	17	18	ao	0	O-PU	seaRM-25		O-CTH	seaRM-16
-101	2	45	18	19	ao	0	O-CTH	seaRM-16		D-D	seaRM-24
+101	2	45	18	19	ao	0	O-CTH	seaRM-16		D-D	sfoDF-24
 102	3	45	20	21	ao	0	O-PU	sfoDF-34		O-TD	sfoDF-14
 103	4	45	22	22	an	-1	O-PU	seaRM-21		NA	seaRM-21
 104	5	45	24	25	ao	0	O-PU	sfoDF-11		O-CTH	sfoDF-34

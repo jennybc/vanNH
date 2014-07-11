@@ -7,14 +7,14 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 1	1	1	7	8	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-8
 1	1	1	8	9	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-40
 1	1	1	9	10	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-8
-1	1	1	10	11	ao	0	O-CTH	sfoDF-8		D-D	sfoDF-31
+1	1	1	10	11	ao	0	O-CTH	sfoDF-8		D-D	vanNH-31
 2	2	1	12	13	ao	0	O-PU	vanNH-27		O-CTH	vanNH-8
 2	2	1	13	14	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-27
 2	2	1	14	15	ao	0	O-CTH	vanNH-27		O-CTH	vanNH-11
 2	2	1	15	16	ao	0	O-CTH	vanNH-11		O-CTH	vanNH-45
 2	2	1	16	17	ao	0	O-CTH	vanNH-45		O-G	vanNH-24
 3	1	2	2	3	ao	0	O-PU	sfoDF-25		O-CTH	sfoDF-16
-3	1	2	3	4	ao	0	O-CTH	sfoDF-16		D-D	sfoDF-7
+3	1	2	3	4	ao	0	O-CTH	sfoDF-16		D-D	vanNH-7
 4	2	2	5	6	ao	0	O-PU	vanNH-24		O-CTH	vanNH-14
 4	2	2	6	7	ao	0	O-CTH	vanNH-14		O-CTH	vanNH-8
 4	2	2	7	8	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-39
@@ -35,12 +35,12 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 7	1	3	10	11	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-21
 7	1	3	11	12	ao	0	O-CTH	sfoDF-21		O-CTH	sfoDF-8
 7	1	3	12	13	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-88
-7	1	3	13	14	ao	0	O-CTH	sfoDF-88		D-D	sfoDF-31
+7	1	3	13	14	ao	0	O-CTH	sfoDF-88		D-D	vanNH-31
 8	2	3	15	16	ao	0	O-PU	vanNH-11		O-CTH	vanNH-27
 8	2	3	16	17	ao	0	O-CTH	vanNH-27		O-CTH	vanNH-7
 8	2	3	17	17	an	-1	O-CTH	vanNH-7		NA	vanNH-7
 9	3	3	18	19	ao	0	O-PU	sfoDF-13		O-CTH	sfoDF-21
-9	3	3	19	20	ao	0	O-CTH	sfoDF-21		D-D	sfoDF-4
+9	3	3	19	20	ao	0	O-CTH	sfoDF-21		D-D	vanNH-4
 10	4	3	21	22	ao	0	O-PU	vanNH-45		O-CTH	vanNH-4
 10	4	3	22	23	ao	0	O-CTH	vanNH-4		O-CTH	vanNH-13
 10	4	3	23	24	ao	0	O-CTH	vanNH-13		O-G	vanNH-27
@@ -48,9 +48,9 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 11	1	4	3	4	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-17
 11	1	4	4	5	ao	0	O-CTH	sfoDF-17		O-CTH	sfoDF-5
 11	1	4	5	6	ao	0	O-CTH	sfoDF-5		O-TD	sfoDF-85
-12	2	4	7	8	ao	0	O-PU	vanNH-89		D-D	vanNH-17
+12	2	4	7	8	ao	0	O-PU	vanNH-89		D-D	sfoDF-17
 13	3	4	9	9	an	-1	O-PU	sfoDF-17		NA	sfoDF-17
-14	4	4	10	11	ao	0	O-PU	vanNH-5		D-D	vanNH-10
+14	4	4	10	11	ao	0	O-PU	vanNH-5		D-D	sfoDF-10
 15	5	4	12	13	ao	0	O-PU	sfoDF-5		O-CTH	sfoDF-17
 15	5	4	13	14	ao	0	O-CTH	sfoDF-17		O-CTH	sfoDF-18
 15	5	4	14	15	ao	0	O-CTH	sfoDF-18		O-CTH	sfoDF-17
@@ -95,9 +95,9 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 25	4	9	7	8	ao	0	O-PU	sfoDF-23		O-CTH	sfoDF-83
 25	4	9	8	9	ao	0	O-CTH	sfoDF-83		O-CTH	sfoDF-23
 25	4	9	9	9	an	-1	O-CTH	sfoDF-23		NA	sfoDF-23
-26	5	9	10	11	ao	0	O-PU	vanNH-5		D-D	vanNH-13
+26	5	9	10	11	ao	0	O-PU	vanNH-5		D-D	sfoDF-13
 27	6	9	12	13	ao	0	O-PU	sfoDF-23		O-CTH	sfoDF-83
-27	6	9	13	14	ao	0	O-CTH	sfoDF-83		D-D	sfoDF-22
+27	6	9	13	14	ao	0	O-CTH	sfoDF-83		D-D	vanNH-22
 28	7	9	15	16	ao	0	O-PU	vanNH-89		O-CTH	vanNH-10
 28	7	9	16	17	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-19
 28	7	9	17	18	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-98
@@ -120,7 +120,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 31	2	11	16	17	ao	0	O-CTH	sfoDF-18		O-CTH	sfoDF-5
 31	2	11	17	18	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-85
 31	2	11	18	19	ao	0	O-CTH	sfoDF-85		O-G	sfoDF-57
-32	1	12	2	3	ao	0	O-PU	vanNH-5		D-D	vanNH-21
+32	1	12	2	3	ao	0	O-PU	vanNH-5		D-D	sfoDF-21
 33	2	12	4	5	ao	0	O-PU	sfoDF-13		O-TD	sfoDF-8
 34	3	12	6	7	ao	0	O-PU	vanNH-19		O-CTH	vanNH-98
 34	3	12	7	8	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-22
@@ -136,9 +136,9 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 37	6	12	19	20	ao	0	O-PU	sfoDF-13		O-CTH	sfoDF-8
 37	6	12	20	21	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-13
 37	6	12	21	22	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-40
-37	6	12	22	23	ao	0	O-CTH	sfoDF-40		D-D	sfoDF-72
+37	6	12	22	23	ao	0	O-CTH	sfoDF-40		D-D	vanNH-72
 38	7	12	24	25	ao	0	O-PU	vanNH-10		O-OV	vanNH-89
-39	8	12	26	27	ao	0	O-PU	sfoDF-23		D-D	sfoDF-98
+39	8	12	26	27	ao	0	O-PU	sfoDF-23		D-D	vanNH-98
 40	9	12	28	28	an	-1	O-CTH	vanNH-98		NA	vanNH-98
 41	10	12	29	30	ao	0	O-PU	sfoDF-8		O-CTH	sfoDF-13
 41	10	12	30	31	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-40
@@ -165,15 +165,15 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 49	4	14	12	12	an	-1	O-PU	sfoDF-23		NA	sfoDF-23
 50	5	14	13	14	ao	0	O-PU	vanNH-24		O-CTH	vanNH-39
 50	5	14	14	15	ao	0	O-CTH	vanNH-39		O-CTH	vanNH-24
-50	5	14	15	16	ao	0	O-CTH	vanNH-24		D-D	vanNH-40
+50	5	14	15	16	ao	0	O-CTH	vanNH-24		D-D	sfoDF-40
 51	6	14	17	18	ao	0	O-PU	sfoDF-40		O-CTH	sfoDF-8
 51	6	14	18	19	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-23
 51	6	14	19	20	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-88
 51	6	14	20	20	an	-1	O-CTH	sfoDF-88		NA	sfoDF-88
-52	7	14	21	22	ao	0	O-PU	vanNH-45		D-D	vanNH-23
+52	7	14	21	22	ao	0	O-PU	vanNH-45		D-D	sfoDF-23
 53	8	14	23	24	ao	0	O-PU	sfoDF-8		O-G	sfoDF-24
 54	1	15	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-22
-54	1	15	3	4	ao	0	O-CTH	vanNH-22		D-D	vanNH-7
+54	1	15	3	4	ao	0	O-CTH	vanNH-22		D-D	sfoDF-7
 55	2	15	5	6	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-85
 55	2	15	6	7	ao	0	O-CTH	sfoDF-85		O-CTH	sfoDF-83
 55	2	15	7	8	ao	0	O-CTH	sfoDF-83		O-CTH	sfoDF-18
@@ -192,7 +192,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 59	1	16	4	4	an	-1	O-CTH	sfoDF-8		NA	sfoDF-8
 60	2	16	5	7	aa	1	O-PU	vanNH-24	O-TO	O-PU	vanNH-5
 60	2	16	7	8	ao	0	O-PU	vanNH-5		O-G	vanNH-98
-61	1	17	2	3	ao	0	O-PU	sfoDF-88		D-D	sfoDF-13
+61	1	17	2	3	ao	0	O-PU	sfoDF-88		D-D	vanNH-13
 62	1	18	2	3	ao	0	O-PU	sfoDF-8		O-CTH	sfoDF-13
 62	1	18	3	4	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-23
 62	1	18	4	5	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-40
@@ -201,7 +201,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 62	1	18	7	8	ao	0	O-CTH	sfoDF-24		O-CTH	sfoDF-23
 62	1	18	8	9	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-40
 62	1	18	9	10	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-23
-62	1	18	10	11	ao	0	O-CTH	sfoDF-23		D-D	sfoDF-31
+62	1	18	10	11	ao	0	O-CTH	sfoDF-23		D-D	vanNH-31
 63	2	18	12	13	ao	0	O-PU	vanNH-24		O-CTH	vanNH-45
 63	2	18	13	14	ao	0	O-CTH	vanNH-45		O-CTH	vanNH-8
 63	2	18	14	15	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-24
@@ -224,7 +224,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 68	4	20	13	14	ao	0	O-CTH	sfoDF-22		O-CTH	sfoDF-23
 68	4	20	14	15	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-13
 68	4	20	15	16	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-19
-68	4	20	16	17	ao	0	O-CTH	sfoDF-19		D-D	sfoDF-22
+68	4	20	16	17	ao	0	O-CTH	sfoDF-19		D-D	vanNH-22
 69	5	20	18	19	ao	0	O-PU	vanNH-89		O-TD	vanNH-22
 70	6	20	20	21	ao	0	O-PU	sfoDF-23		O-CTH	sfoDF-57
 70	6	20	21	22	ao	0	O-CTH	sfoDF-57		O-CTH	sfoDF-23
@@ -241,7 +241,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 72	2	21	6	6	an	-1	O-PU	sfoDF-16		NA	sfoDF-16
 73	3	21	7	8	ao	0	O-PU	vanNH-89		O-CTH	vanNH-6
 73	3	21	8	9	ao	0	O-CTH	vanNH-6		O-CTH	vanNH-10
-73	3	21	9	10	ao	0	O-CTH	vanNH-10		D-D	vanNH-5
+73	3	21	9	10	ao	0	O-CTH	vanNH-10		D-D	sfoDF-5
 74	4	21	11	11	an	-1	O-PU	sfoDF-5		NA	sfoDF-5
 75	5	21	12	13	ao	0	O-PU	vanNH-5		O-CTH	vanNH-19
 75	5	21	13	14	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-10
@@ -349,11 +349,11 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 97	3	31	20	21	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-11
 97	3	31	21	22	ao	0	O-CTH	sfoDF-11		O-OV	sfoDF-13
 98	4	31	23	23	an	-1	O-PU	vanNH-45		NA	vanNH-45
-99	5	31	24	25	ao	0	O-PU	sfoDF-57		D-D	sfoDF-39
-100	6	31	26	27	ao	0	O-PU	vanNH-89		D-D	vanNH-23
+99	5	31	24	25	ao	0	O-PU	sfoDF-57		D-D	vanNH-39
+100	6	31	26	27	ao	0	O-PU	vanNH-89		D-D	sfoDF-23
 101	7	31	28	29	ao	0	O-PU	sfoDF-23		O-CTH	sfoDF-13
 101	7	31	29	30	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-57
-101	7	31	30	31	ao	0	O-CTH	sfoDF-57		D-D	sfoDF-13
+101	7	31	30	31	ao	0	O-CTH	sfoDF-57		D-D	vanNH-13
 102	8	31	32	34	ao	1	O-PU	vanNH-89	O-TO	O-CTH	vanNH-98
 102	8	31	34	35	ao	0	O-CTH	vanNH-98		O-G	vanNH-8
 103	1	32	2	2	an	-1	O-PU	sfoDF-13		NA	sfoDF-13

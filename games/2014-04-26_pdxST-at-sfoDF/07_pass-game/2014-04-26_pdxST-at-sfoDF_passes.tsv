@@ -32,7 +32,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 10	1	3	3	4	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-34
 10	1	3	4	5	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-23
 10	1	3	5	5	an	-1	O-CTH	sfoDF-23		NA	sfoDF-23
-11	2	3	6	7	ao	0	O-PU	pdxST-21		D-D	pdxST-24
+11	2	3	6	7	ao	0	O-PU	pdxST-21		D-D	sfoDF-24
 12	3	3	8	9	ao	0	O-PU	sfoDF-34		O-CTH	sfoDF-40
 12	3	3	9	10	ao	0	O-CTH	sfoDF-40		O-G	sfoDF-23
 13	1	4	2	3	ao	0	O-PU	pdxST-11		O-CTH	pdxST-24
@@ -46,7 +46,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 14	2	4	10	11	ao	0	O-CTH	sfoDF-46		O-CTH	sfoDF-16
 14	2	4	11	12	ao	0	O-CTH	sfoDF-16		O-CTH	sfoDF-85
 14	2	4	12	13	ao	0	O-CTH	sfoDF-85		O-TD	sfoDF-21
-15	3	4	14	15	ao	0	O-PU	pdxST-24		D-D	pdxST-37
+15	3	4	14	15	ao	0	O-PU	pdxST-24		D-D	sfoDF-37
 16	4	4	16	17	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-40
 16	4	4	17	18	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-21
 16	4	4	18	20	aa	1	O-CTH	sfoDF-21	O-TO	O-PU	sfoDF-13
@@ -74,7 +74,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 17	1	5	17	18	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-14
 17	1	5	18	19	ao	0	O-CTH	pdxST-14		O-TD	pdxST-7
 18	2	5	20	21	ao	0	O-PU	sfoDF-25		O-CTH	sfoDF-17
-18	2	5	21	22	ao	0	O-CTH	sfoDF-17		D-D	sfoDF-7
+18	2	5	21	22	ao	0	O-CTH	sfoDF-17		D-D	pdxST-7
 19	3	5	23	24	ao	0	O-PU	pdxST-10		O-CTH	pdxST-11
 19	3	5	24	25	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-42
 19	3	5	25	26	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-11
@@ -111,7 +111,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 23	1	8	12	13	ao	0	O-CTH	pdxST-16		O-G	pdxST-7
 24	1	9	2	3	ao	0	O-PU	sfoDF-88		O-CTH	sfoDF-5
 24	1	9	3	4	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-23
-24	1	9	4	5	ao	0	O-CTH	sfoDF-23		D-D	sfoDF-17
+24	1	9	4	5	ao	0	O-CTH	sfoDF-23		D-D	pdxST-17
 25	2	9	6	6	an	-1	O-PU	pdxST-6		NA	pdxST-6
 26	3	9	7	8	ao	0	O-PU	sfoDF-5		O-CTH	sfoDF-34
 26	3	9	8	9	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-23
@@ -158,7 +158,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 34	2	12	23	24	ao	0	O-PU	pdxST-24		O-CTH	pdxST-11
 34	2	12	24	25	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7
 34	2	12	25	26	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-34	2	12	26	27	ao	0	O-CTH	pdxST-24		D-D	pdxST-85
+34	2	12	26	27	ao	0	O-CTH	pdxST-24		D-D	sfoDF-85
 35	3	12	28	29	ao	0	O-PU	sfoDF-16		O-G	sfoDF-21
 36	1	13	2	3	ao	0	O-PU	pdxST-24		O-TD	pdxST-7
 37	2	13	4	5	ao	0	O-PU	sfoDF-17		O-CTH	sfoDF-14
@@ -166,8 +166,8 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 37	2	13	6	7	ao	0	O-CTH	sfoDF-17		O-CTH	sfoDF-46
 37	2	13	7	8	ao	0	O-CTH	sfoDF-46		O-CTH	sfoDF-25
 37	2	13	8	8	an	-1	O-CTH	sfoDF-25		NA	sfoDF-25
-38	3	13	9	10	ao	0	O-PU	pdxST-24		D-D	pdxST-17
-39	4	13	11	12	ao	0	O-PU	sfoDF-17		D-D	sfoDF-2
+38	3	13	9	10	ao	0	O-PU	pdxST-24		D-D	sfoDF-17
+39	4	13	11	12	ao	0	O-PU	sfoDF-17		D-D	pdxST-2
 40	5	13	13	14	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-24
 40	5	13	14	15	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7
 40	5	13	15	17	ao	1	O-CTH	pdxST-7	D-F	O-CTH	pdxST-2
@@ -217,7 +217,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 45	1	16	7	8	ao	0	O-CTH	sfoDF-13		O-G	sfoDF-24
 46	1	17	2	3	ao	0	O-PU	pdxST-10		O-CTH	pdxST-24
 46	1	17	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7
-46	1	17	4	5	ao	0	O-CTH	pdxST-7		D-D	pdxST-25
+46	1	17	4	5	ao	0	O-CTH	pdxST-7		D-D	sfoDF-25
 47	2	17	6	7	ao	0	O-PU	sfoDF-25		O-CTH	sfoDF-11
 47	2	17	7	8	ao	0	O-CTH	sfoDF-11		O-CTH	sfoDF-25
 47	2	17	8	9	ao	0	O-CTH	sfoDF-25		O-CTH	sfoDF-11
@@ -257,7 +257,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 57	2	21	6	7	ao	0	O-CTH	sfoDF-85		O-CTH	sfoDF-10
 57	2	21	7	8	ao	0	O-CTH	sfoDF-10		O-CTH	sfoDF-1
 57	2	21	8	8	an	-1	O-CTH	sfoDF-1		NA	sfoDF-1
-58	3	21	9	10	ao	0	O-PU	pdxST-7		D-D	pdxST-1
+58	3	21	9	10	ao	0	O-PU	pdxST-7		D-D	sfoDF-1
 59	4	21	11	11	an	-1	O-PU	sfoDF-16		NA	sfoDF-16
 60	5	21	12	13	ao	0	O-PU	pdxST-24		O-CTH	pdxST-21
 60	5	21	13	14	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-10
@@ -271,7 +271,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 62	1	22	2	3	ao	0	O-PU	pdxST-10		O-CTH	pdxST-24
 62	1	22	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16
 62	1	22	4	5	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-6
-62	1	22	5	6	ao	0	O-CTH	pdxST-6		D-D	pdxST-24
+62	1	22	5	6	ao	0	O-CTH	pdxST-6		D-D	sfoDF-24
 63	2	22	7	8	ao	0	O-PU	sfoDF-13		O-G	sfoDF-40
 64	1	23	2	3	ao	0	O-PU	pdxST-9		O-CTH	pdxST-10
 64	1	23	3	4	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-11
@@ -284,7 +284,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 64	1	23	10	11	ao	0	O-CTH	pdxST-9		O-CTH	pdxST-10
 64	1	23	11	12	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
 64	1	23	12	13	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11
-64	1	23	13	14	ao	0	O-CTH	pdxST-11		D-D	pdxST-9
+64	1	23	13	14	ao	0	O-CTH	pdxST-11		D-D	sfoDF-9
 65	2	23	15	15	an	-1	O-PU	sfoDF-17		NA	sfoDF-17
 66	3	23	16	17	ao	0	O-PU	pdxST-11		O-CTH	pdxST-7
 66	3	23	17	18	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10
@@ -326,8 +326,8 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 69	1	25	5	6	ao	0	O-CTH	sfoDF-40		O-G	sfoDF-24
 70	1	26	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-42
 70	1	26	3	5	ao	1	O-CTH	pdxST-42	D-F	O-CTH	pdxST-16
-70	1	26	5	7	ao	1	O-CTH	pdxST-16	D-F	D-D	pdxST-16
-71	2	26	8	9	ao	0	O-PU	sfoDF-21		D-D	sfoDF-42
+70	1	26	5	7	ao	1	O-CTH	pdxST-16	D-F	D-D	sfoDF-16
+71	2	26	8	9	ao	0	O-PU	sfoDF-21		D-D	pdxST-42
 72	3	26	10	11	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24
 72	3	26	11	12	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42
 72	3	26	12	13	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-7
@@ -389,7 +389,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 88	1	34	4	5	ao	0	O-CTH	sfoDF-24		O-CTH	sfoDF-23
 88	1	34	5	6	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-40
 88	1	34	6	7	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-23
-88	1	34	7	8	ao	0	O-CTH	sfoDF-23		D-D	sfoDF-6
+88	1	34	7	8	ao	0	O-CTH	sfoDF-23		D-D	pdxST-6
 89	2	34	9	10	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-7
 89	2	34	10	11	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-8
 89	2	34	11	12	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-42
@@ -420,11 +420,11 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 91	4	34	40	42	ao	1	O-CTH	pdxST-7	D-F	O-CTH	pdxST-11
 91	4	34	42	43	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7
 91	4	34	43	43	an	-1	O-CTH	pdxST-7		NA	pdxST-7
-92	5	34	44	45	ao	0	O-PU	sfoDF-16		D-D	sfoDF-21
+92	5	34	44	45	ao	0	O-PU	sfoDF-16		D-D	pdxST-21
 93	6	34	46	47	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-16
 93	6	34	47	48	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-7
 93	6	34	48	49	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-21
-93	6	34	49	50	ao	0	O-CTH	pdxST-21		D-D	pdxST-21
+93	6	34	49	50	ao	0	O-CTH	pdxST-21		D-D	sfoDF-21
 94	7	34	52	54	ao	1	O-PU	sfoDF-23	D-F	O-CTH	sfoDF-34
 94	7	34	54	55	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-24
 94	7	34	55	56	ao	0	O-CTH	sfoDF-24		O-OV	sfoDF-88
@@ -468,9 +468,9 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 100	1	37	5	6	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-5
 100	1	37	6	7	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-24
 100	1	37	7	8	ao	0	O-CTH	sfoDF-24		O-CTH	sfoDF-34
-100	1	37	8	9	ao	0	O-CTH	sfoDF-34		D-D	sfoDF-6
+100	1	37	8	9	ao	0	O-CTH	sfoDF-34		D-D	pdxST-6
 101	2	37	10	11	ao	0	O-PU	pdxST-22		O-CTH	pdxST-6
-101	2	37	11	12	ao	0	O-CTH	pdxST-6		D-D	pdxST-24
+101	2	37	11	12	ao	0	O-CTH	pdxST-6		D-D	sfoDF-24
 102	3	37	13	14	ao	0	O-PU	sfoDF-5		O-CTH	sfoDF-13
 102	3	37	14	15	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-24
 102	3	37	15	16	ao	0	O-CTH	sfoDF-24		O-CTH	sfoDF-88
@@ -478,7 +478,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 102	3	37	17	17	an	-1	O-CTH	sfoDF-23		NA	sfoDF-23
 103	4	37	18	19	ao	0	O-PU	pdxST-6		O-CTH	pdxST-21
 103	4	37	19	20	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-5
-103	4	37	20	21	ao	0	O-CTH	pdxST-5		D-D	pdxST-5
+103	4	37	20	21	ao	0	O-CTH	pdxST-5		D-D	sfoDF-5
 104	5	37	22	23	ao	0	O-PU	sfoDF-34		O-CTH	sfoDF-8
 104	5	37	23	24	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-24
 104	5	37	24	25	ao	0	O-CTH	sfoDF-24		O-CTH	sfoDF-13
@@ -498,4 +498,4 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 105	6	37	39	40	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-7
 105	6	37	40	41	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-22
 105	6	37	41	42	ao	0	O-CTH	pdxST-22		O-G	pdxST-9
-106	1	38	2	3	ao	0	O-PU	sfoDF-16		D-D	sfoDF-14
+106	1	38	2	3	ao	0	O-PU	sfoDF-16		D-D	pdxST-14

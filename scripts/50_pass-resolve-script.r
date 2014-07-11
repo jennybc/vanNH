@@ -44,10 +44,6 @@ resolve_passes <- function(x) {
   i <- 1
   while(i <= n) {
     if(y$is_alpha[i]) {
-      ##I AM STEPPING THROUGH THIS
-      ## FIND OUT WHAT HAPPENS WHEN POSSESSION ENDS
-      ## IT SHOULD NEVER HAPPEN BUT IF I FEED STUPID DATA IT WILL
-      ## STUDY BEHAVIOR, THEN BUILD IN A STOP FOR THIS
       suppressWarnings(next_omega <- min(which(seq_len(n) > i & y$is_omega)))
       suppressWarnings(next_alpha <- min(which(seq_len(n) > i & y$is_alpha)))
       desc <- switch(which.min(c(next_omega, next_alpha, n)), "ao", "aa", "an")
@@ -60,11 +56,11 @@ resolve_passes <- function(x) {
              data.frame(beg_event = event[i], end_event = event[end_row],
                         desc = desc, n_inn = end_row - i - 1, 
                         beg_code = e_code[i], #beg_pnum = I(pl_pnum[i]),
-                        beg_plyr = I(paste(poss_team[i], pl_pnum[i], sep = "-")),
+                        beg_plyr = I(paste(pl_team[i], pl_pnum[i], sep = "-")),
                         innards = I(innards),
                         end_code =if(desc == "an")NA_character_ else e_code[end_row],
                         #end_pnum = I(pl_pnum[end_row]),
-                        end_plyr = I(paste(poss_team[end_row], pl_pnum[end_row], sep = "-"))))
+                        end_plyr = I(paste(pl_team[end_row], pl_pnum[end_row], sep = "-"))))
       if(i == end_row) {
         break
       } else {
