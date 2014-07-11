@@ -111,6 +111,10 @@ game_play <- transform(game_play,
                        recv_code = toupper(recv_code),
                        pull_code = toupper(pull_code))
 
+## TO DO
+## detect L’s and bring them to the front, eg LG instead of GL; maybe announce
+## such transformations, in case it ever becomes trickier
+
 ## function to find double game play rows
 find_double_game_plays <-
   function(z) with(z, which( (pull_pnum != '' | pull_code != '') & 

@@ -392,7 +392,11 @@ message("  ", nrow(poss_dat), " rows of possessions will be written")
 out_file <- file.path(out_dir, paste0(game, "_possessions.tsv"))
 write.table(poss_dat, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
 
-## improve point_info before we write it to file
+## add to point_info before we write it to file:
+## h_or_b = hold or break
+## n_poss = number of possessions
+## <away> = away score
+## <home> = home score
 just_goals <-
   subset(poss_dat, score, select = c(point, pull_team, poss_rel, scor_team))
 just_goals$h_or_b <-
