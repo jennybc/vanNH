@@ -58,7 +58,7 @@ pass_dat <- ddply(game_play, ~ poss_abs + poss_rel + point, resolve_passes)
 out_dir <- file.path("..", "games", game, "07_pass-game")
 if(!file.exists(out_dir)) dir.create(out_dir)
 
-message("  ", nrow(pass_dat), " rows of resolved pass data will be written\n")
+message("  ", nrow(pass_dat), " rows of resolved pass data will be written")
 
 out_file <- file.path(out_dir, paste0(game, "_passes.tsv"))
 write.table(pass_dat, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
@@ -68,6 +68,8 @@ write.table(pass_dat, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
 out_file <- file.path(out_dir, paste0(game, "_passes-tally.tsv"))
 write.table(as.data.frame(with(pass_dat, table(desc, n_inn))), out_file,
             quote = FALSE, sep = "\t", row.names = FALSE)
+
+message("  ", Sys.time(), "\n")
 
 # head(foo)
 # 
