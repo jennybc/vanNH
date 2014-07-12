@@ -43,8 +43,12 @@
 #GOOGAME ?= "Official Statistics - 2014 - Week 4 - 5/4 - Dogfish @ Rainmakers"  
 #GAME ?= 2014-05-04_sfoDF-at-seaRM
 
-GOOGAME ?= "Official Statistics - 2014 - Week 4 - 5/3 - Dogfish @ Stags"  
-GAME ?= 2014-05-03_sfoDF-at-pdxST
+#GOOGAME ?= "Official Statistics - 2014 - Week 4 - 5/3 - Dogfish @ Stags"  
+#GAME ?= 2014-05-03_sfoDF-at-pdxST
+
+GOOGAME ?= "Official Statistics - 2014 - Week 6 - 5/17 - Rainmakers @ Stags"  
+GAME ?= 2014-05-17_seaRM-at-pdxST
+
 
 #GOOGAME ?= "test"
 #GAME ?= 2014-12-31_pdxST-at-vanNH
@@ -136,7 +140,7 @@ marshal: 11_marshal-game-play-and-aggregate.r ../games/2014*/07_resolvedGame/*_g
 index.html: ../web/index.rmd ../games/2014*/*at-last-point.yaml
 	cd ../web; Rscript -e "rmarkdown::render('index.rmd', quiet = TRUE)"
 
-r_bits: clean_cat clean_clean clean_possess cat_goog clean_game possess_game pass_game web web_copy
+r_bits: clean_cat clean_clean clean_possess clean_pass cat_goog clean_game possess_game pass_game web web_copy
 
 pt_fix: eg_pt clean_cat clean_clean clean_possess clean_pass cat_goog clean_game possess_game pass_game web web_copy
 

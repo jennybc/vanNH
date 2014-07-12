@@ -83,7 +83,7 @@ jFun <- function(x) {
 code_seems_valid <- colwise(jFun)(game_play[c('pull_raw', 'recv_raw')])
 weird_code <- !apply(code_seems_valid, 1, all)
 if(any(weird_code)) {
-  message("  these rows have game play that's not empty, not a TO, yet doesn't start with a digit")
+  message("  ALERT these rows have game play that's not empty, not a TO, yet doesn't start with a digit")
   game_play[weird_code, ]
 }
   
