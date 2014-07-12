@@ -36,5 +36,17 @@ Offense	Defense
 	13d
 	89pu
 	?to
+	21pu
+	89
+	21
+	89
+	10
+	21
+10d	
+25pu	
+12	
+85td	
+	89pu
+	5
 	98
 	8g

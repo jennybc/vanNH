@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Wed Jul  9 13:10:40 2014
+#### last update Fri Jul 11 20:13:58 2014
 # vanNH 17
 # sfoDF 15
 ## game is complete
@@ -107,7 +107,7 @@ stats are cumulative for this game
 |2  |sfoDF-23-Jeffery       |      3|     1|       2|  2|
 |3  |sfoDF-24-Caulfield     |      2|     2|       0|  0|
 |4  |sfoDF-25-Dixon         |      2|     2|       0|  0|
-|5  |sfoDF-10-Sugioka       |      2|     1|       1|  1|
+|5  |sfoDF-10-Sugioka       |      2|     1|       1|  2|
 |6  |sfoDF-40-Taylor        |      2|     1|       1|  1|
 |7  |sfoDF-11-Lee           |      2|     1|       1|  0|
 |8  |sfoDF-88-Kissmann      |      2|     1|       1|  0|
@@ -205,16 +205,17 @@ stats are cumulative for this game
 |    31|      4|vanNH     |    25|       99|        5|sfoDF     |vanNH   |39      |D       |seraglia      |vanNH-39-seraglia      |    13|    15|
 |    31|      4|vanNH     |    27|      100|        6|vanNH     |sfoDF   |23      |D       |Jeffery       |sfoDF-23-Jeffery       |    13|    15|
 |    31|      4|vanNH     |    31|      101|        7|sfoDF     |vanNH   |13      |D       |tessarolo     |vanNH-13-tessarolo     |    13|    15|
-|    31|      4|vanNH     |    34|      102|        8|vanNH     |vanNH   |98      |A       |wong          |vanNH-98-wong          |    13|    15|
-|    31|      4|vanNH     |    35|      102|        8|vanNH     |vanNH   |8       |G       |hibbert       |vanNH-8-hibbert        |    13|    15|
-|    32|      4|vanNH     |     3|      104|        2|vanNH     |vanNH   |13      |PUA     |tessarolo     |vanNH-13-tessarolo     |    13|    16|
-|    32|      4|vanNH     |     4|      104|        2|vanNH     |vanNH   |22      |G       |berezan       |vanNH-22-berezan       |    13|    16|
-|    33|      4|vanNH     |     7|      105|        1|sfoDF     |sfoDF   |11      |A       |Lee           |sfoDF-11-Lee           |    14|    16|
-|    33|      4|vanNH     |     8|      105|        1|sfoDF     |sfoDF   |88      |LG      |Kissmann      |sfoDF-88-Kissmann      |    14|    16|
-|    34|      4|sfoDF     |    14|      107|        2|sfoDF     |sfoDF   |16      |A       |Yeager        |sfoDF-16-Yeager        |    15|    16|
-|    34|      4|sfoDF     |    15|      107|        2|sfoDF     |sfoDF   |18      |LG      |Weaver        |sfoDF-18-Weaver        |    15|    16|
-|    35|      4|sfoDF     |    10|      108|        1|vanNH     |vanNH   |5       |A       |norris        |vanNH-5-norris         |    15|    17|
-|    35|      4|sfoDF     |    11|      108|        1|vanNH     |vanNH   |98      |G       |wong          |vanNH-98-wong          |    15|    17|
+|    31|      4|vanNH     |    40|      102|        8|vanNH     |sfoDF   |10      |D       |Sugioka       |sfoDF-10-Sugioka       |    13|    15|
+|    31|      4|vanNH     |    46|      104|       10|vanNH     |vanNH   |98      |A       |wong          |vanNH-98-wong          |    13|    15|
+|    31|      4|vanNH     |    47|      104|       10|vanNH     |vanNH   |8       |G       |hibbert       |vanNH-8-hibbert        |    13|    15|
+|    32|      4|vanNH     |     3|      106|        2|vanNH     |vanNH   |13      |PUA     |tessarolo     |vanNH-13-tessarolo     |    13|    16|
+|    32|      4|vanNH     |     4|      106|        2|vanNH     |vanNH   |22      |G       |berezan       |vanNH-22-berezan       |    13|    16|
+|    33|      4|vanNH     |     7|      107|        1|sfoDF     |sfoDF   |11      |A       |Lee           |sfoDF-11-Lee           |    14|    16|
+|    33|      4|vanNH     |     8|      107|        1|sfoDF     |sfoDF   |88      |LG      |Kissmann      |sfoDF-88-Kissmann      |    14|    16|
+|    34|      4|sfoDF     |    14|      109|        2|sfoDF     |sfoDF   |16      |A       |Yeager        |sfoDF-16-Yeager        |    15|    16|
+|    34|      4|sfoDF     |    15|      109|        2|sfoDF     |sfoDF   |18      |LG      |Weaver        |sfoDF-18-Weaver        |    15|    16|
+|    35|      4|sfoDF     |    10|      110|        1|vanNH     |vanNH   |5       |A       |norris        |vanNH-5-norris         |    15|    17|
+|    35|      4|sfoDF     |    11|      110|        1|vanNH     |vanNH   |98      |G       |wong          |vanNH-98-wong          |    15|    17|
 |    36|      4|vanNH     |    NA|       NA|       NA|NA        |NA      |NA      |NA      |NA            |NA-NA-NA               |    15|    17|
 
 ## Full raw data<a id="rawData"></a>:
@@ -689,56 +690,68 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      4|    31|vanNH     |    31|      101|        7|sfoDF     |vanNH   |13      |D       |
 |      4|    31|vanNH     |    32|      102|        8|vanNH     |vanNH   |89      |PU      |
 |      4|    31|vanNH     |    33|      102|        8|vanNH     |vanNH   |?       |TO      |
-|      4|    31|vanNH     |    34|      102|        8|vanNH     |vanNH   |98      |A       |
-|      4|    31|vanNH     |    35|      102|        8|vanNH     |vanNH   |8       |G       |
-|      4|    32|vanNH     |     1|      103|        1|sfoDF     |vanNH   |8       |P       |
-|      4|    32|vanNH     |     2|      103|        1|sfoDF     |sfoDF   |13      |PU      |
-|      4|    32|vanNH     |     3|      104|        2|vanNH     |vanNH   |13      |PUA     |
-|      4|    32|vanNH     |     4|      104|        2|vanNH     |vanNH   |22      |G       |
-|      4|    33|vanNH     |     1|      105|        1|sfoDF     |vanNH   |8       |P       |
-|      4|    33|vanNH     |     2|      105|        1|sfoDF     |sfoDF   |57      |PU      |
-|      4|    33|vanNH     |     3|      105|        1|sfoDF     |sfoDF   |13      |        |
-|      4|    33|vanNH     |     4|      105|        1|sfoDF     |sfoDF   |57      |        |
-|      4|    33|vanNH     |     5|      105|        1|sfoDF     |sfoDF   |13      |        |
-|      4|    33|vanNH     |     6|      105|        1|sfoDF     |sfoDF   |23      |        |
-|      4|    33|vanNH     |     7|      105|        1|sfoDF     |sfoDF   |11      |A       |
-|      4|    33|vanNH     |     8|      105|        1|sfoDF     |sfoDF   |88      |LG      |
-|      4|    34|sfoDF     |     1|      106|        1|vanNH     |sfoDF   |12      |P       |
-|      4|    34|sfoDF     |     2|      106|        1|vanNH     |vanNH   |5       |PU      |
-|      4|    34|sfoDF     |     3|      106|        1|vanNH     |vanNH   |89      |        |
-|      4|    34|sfoDF     |     4|      106|        1|vanNH     |vanNH   |5       |        |
-|      4|    34|sfoDF     |     5|      106|        1|vanNH     |vanNH   |19      |        |
-|      4|    34|sfoDF     |     6|      106|        1|vanNH     |vanNH   |21      |        |
-|      4|    34|sfoDF     |     7|      106|        1|vanNH     |vanNH   |22      |        |
-|      4|    34|sfoDF     |     8|      106|        1|vanNH     |vanNH   |98      |        |
-|      4|    34|sfoDF     |     9|      106|        1|vanNH     |vanNH   |5       |        |
-|      4|    34|sfoDF     |    10|      106|        1|vanNH     |vanNH   |98      |        |
-|      4|    34|sfoDF     |    11|      107|        2|sfoDF     |sfoDF   |25      |PU      |
-|      4|    34|sfoDF     |    12|      107|        2|sfoDF     |sfoDF   |16      |        |
-|      4|    34|sfoDF     |    13|      107|        2|sfoDF     |sfoDF   |12      |        |
-|      4|    34|sfoDF     |    14|      107|        2|sfoDF     |sfoDF   |16      |A       |
-|      4|    34|sfoDF     |    15|      107|        2|sfoDF     |sfoDF   |18      |LG      |
-|      4|    35|sfoDF     |     1|      108|        1|vanNH     |sfoDF   |12      |P       |
-|      4|    35|sfoDF     |     2|      108|        1|vanNH     |vanNH   |19      |PU      |
-|      4|    35|sfoDF     |     3|      108|        1|vanNH     |vanNH   |5       |        |
-|      4|    35|sfoDF     |     4|      108|        1|vanNH     |vanNH   |10      |        |
-|      4|    35|sfoDF     |     5|      108|        1|vanNH     |vanNH   |98      |        |
-|      4|    35|sfoDF     |     6|      108|        1|vanNH     |vanNH   |5       |        |
-|      4|    35|sfoDF     |     7|      108|        1|vanNH     |vanNH   |10      |        |
-|      4|    35|sfoDF     |     8|      108|        1|vanNH     |vanNH   |21      |        |
-|      4|    35|sfoDF     |     9|      108|        1|vanNH     |vanNH   |19      |        |
-|      4|    35|sfoDF     |    10|      108|        1|vanNH     |vanNH   |5       |A       |
-|      4|    35|sfoDF     |    11|      108|        1|vanNH     |vanNH   |98      |G       |
-|      4|    36|vanNH     |     1|      109|        1|sfoDF     |vanNH   |8       |P       |
-|      4|    36|vanNH     |     2|      109|        1|sfoDF     |sfoDF   |40      |PU      |
-|      4|    36|vanNH     |     3|      109|        1|sfoDF     |sfoDF   |88      |        |
-|      4|    36|vanNH     |     4|      109|        1|sfoDF     |sfoDF   |13      |        |
-|      4|    36|vanNH     |     5|      109|        1|sfoDF     |sfoDF   |21      |        |
-|      4|    36|vanNH     |     6|      109|        1|sfoDF     |sfoDF   |13      |        |
-|      4|    36|vanNH     |     7|      109|        1|sfoDF     |sfoDF   |8       |        |
-|      4|    36|vanNH     |     8|      110|        2|vanNH     |vanNH   |45      |PU      |
-|      4|    36|vanNH     |     9|      110|        2|vanNH     |vanNH   |4       |        |
-|      4|    36|vanNH     |    10|      110|        2|vanNH     |vanNH   |8       |        |
+|      4|    31|vanNH     |    34|      102|        8|vanNH     |vanNH   |21      |PU      |
+|      4|    31|vanNH     |    35|      102|        8|vanNH     |vanNH   |89      |        |
+|      4|    31|vanNH     |    36|      102|        8|vanNH     |vanNH   |21      |        |
+|      4|    31|vanNH     |    37|      102|        8|vanNH     |vanNH   |89      |        |
+|      4|    31|vanNH     |    38|      102|        8|vanNH     |vanNH   |10      |        |
+|      4|    31|vanNH     |    39|      102|        8|vanNH     |vanNH   |21      |        |
+|      4|    31|vanNH     |    40|      102|        8|vanNH     |sfoDF   |10      |D       |
+|      4|    31|vanNH     |    41|      103|        9|sfoDF     |sfoDF   |25      |PU      |
+|      4|    31|vanNH     |    42|      103|        9|sfoDF     |sfoDF   |12      |        |
+|      4|    31|vanNH     |    43|      103|        9|sfoDF     |sfoDF   |85      |TD      |
+|      4|    31|vanNH     |    44|      104|       10|vanNH     |vanNH   |89      |PU      |
+|      4|    31|vanNH     |    45|      104|       10|vanNH     |vanNH   |5       |        |
+|      4|    31|vanNH     |    46|      104|       10|vanNH     |vanNH   |98      |A       |
+|      4|    31|vanNH     |    47|      104|       10|vanNH     |vanNH   |8       |G       |
+|      4|    32|vanNH     |     1|      105|        1|sfoDF     |vanNH   |8       |P       |
+|      4|    32|vanNH     |     2|      105|        1|sfoDF     |sfoDF   |13      |PU      |
+|      4|    32|vanNH     |     3|      106|        2|vanNH     |vanNH   |13      |PUA     |
+|      4|    32|vanNH     |     4|      106|        2|vanNH     |vanNH   |22      |G       |
+|      4|    33|vanNH     |     1|      107|        1|sfoDF     |vanNH   |8       |P       |
+|      4|    33|vanNH     |     2|      107|        1|sfoDF     |sfoDF   |57      |PU      |
+|      4|    33|vanNH     |     3|      107|        1|sfoDF     |sfoDF   |13      |        |
+|      4|    33|vanNH     |     4|      107|        1|sfoDF     |sfoDF   |57      |        |
+|      4|    33|vanNH     |     5|      107|        1|sfoDF     |sfoDF   |13      |        |
+|      4|    33|vanNH     |     6|      107|        1|sfoDF     |sfoDF   |23      |        |
+|      4|    33|vanNH     |     7|      107|        1|sfoDF     |sfoDF   |11      |A       |
+|      4|    33|vanNH     |     8|      107|        1|sfoDF     |sfoDF   |88      |LG      |
+|      4|    34|sfoDF     |     1|      108|        1|vanNH     |sfoDF   |12      |P       |
+|      4|    34|sfoDF     |     2|      108|        1|vanNH     |vanNH   |5       |PU      |
+|      4|    34|sfoDF     |     3|      108|        1|vanNH     |vanNH   |89      |        |
+|      4|    34|sfoDF     |     4|      108|        1|vanNH     |vanNH   |5       |        |
+|      4|    34|sfoDF     |     5|      108|        1|vanNH     |vanNH   |19      |        |
+|      4|    34|sfoDF     |     6|      108|        1|vanNH     |vanNH   |21      |        |
+|      4|    34|sfoDF     |     7|      108|        1|vanNH     |vanNH   |22      |        |
+|      4|    34|sfoDF     |     8|      108|        1|vanNH     |vanNH   |98      |        |
+|      4|    34|sfoDF     |     9|      108|        1|vanNH     |vanNH   |5       |        |
+|      4|    34|sfoDF     |    10|      108|        1|vanNH     |vanNH   |98      |        |
+|      4|    34|sfoDF     |    11|      109|        2|sfoDF     |sfoDF   |25      |PU      |
+|      4|    34|sfoDF     |    12|      109|        2|sfoDF     |sfoDF   |16      |        |
+|      4|    34|sfoDF     |    13|      109|        2|sfoDF     |sfoDF   |12      |        |
+|      4|    34|sfoDF     |    14|      109|        2|sfoDF     |sfoDF   |16      |A       |
+|      4|    34|sfoDF     |    15|      109|        2|sfoDF     |sfoDF   |18      |LG      |
+|      4|    35|sfoDF     |     1|      110|        1|vanNH     |sfoDF   |12      |P       |
+|      4|    35|sfoDF     |     2|      110|        1|vanNH     |vanNH   |19      |PU      |
+|      4|    35|sfoDF     |     3|      110|        1|vanNH     |vanNH   |5       |        |
+|      4|    35|sfoDF     |     4|      110|        1|vanNH     |vanNH   |10      |        |
+|      4|    35|sfoDF     |     5|      110|        1|vanNH     |vanNH   |98      |        |
+|      4|    35|sfoDF     |     6|      110|        1|vanNH     |vanNH   |5       |        |
+|      4|    35|sfoDF     |     7|      110|        1|vanNH     |vanNH   |10      |        |
+|      4|    35|sfoDF     |     8|      110|        1|vanNH     |vanNH   |21      |        |
+|      4|    35|sfoDF     |     9|      110|        1|vanNH     |vanNH   |19      |        |
+|      4|    35|sfoDF     |    10|      110|        1|vanNH     |vanNH   |5       |A       |
+|      4|    35|sfoDF     |    11|      110|        1|vanNH     |vanNH   |98      |G       |
+|      4|    36|vanNH     |     1|      111|        1|sfoDF     |vanNH   |8       |P       |
+|      4|    36|vanNH     |     2|      111|        1|sfoDF     |sfoDF   |40      |PU      |
+|      4|    36|vanNH     |     3|      111|        1|sfoDF     |sfoDF   |88      |        |
+|      4|    36|vanNH     |     4|      111|        1|sfoDF     |sfoDF   |13      |        |
+|      4|    36|vanNH     |     5|      111|        1|sfoDF     |sfoDF   |21      |        |
+|      4|    36|vanNH     |     6|      111|        1|sfoDF     |sfoDF   |13      |        |
+|      4|    36|vanNH     |     7|      111|        1|sfoDF     |sfoDF   |8       |        |
+|      4|    36|vanNH     |     8|      112|        2|vanNH     |vanNH   |45      |PU      |
+|      4|    36|vanNH     |     9|      112|        2|vanNH     |vanNH   |4       |        |
+|      4|    36|vanNH     |    10|      112|        2|vanNH     |vanNH   |8       |        |
 
 
 

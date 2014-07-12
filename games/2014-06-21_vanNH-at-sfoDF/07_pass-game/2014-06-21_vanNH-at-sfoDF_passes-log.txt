@@ -1,4 +1,4 @@
 2014-06-21_vanNH-at-sfoDF:
-  515 rows of resolved game play found
-  396 rows of resolved pass data will be written
+  527 rows of resolved game play found
+  406 rows of resolved pass data will be written
 

@@ -100,12 +100,14 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 4	31	vanNH	25	99	5	sfoDF	vanNH	39	D	2	FALSE	FALSE	NA	o_line	D	def +
 4	31	vanNH	27	100	6	vanNH	sfoDF	23	D	2	FALSE	FALSE	NA	d_line	D	def +
 4	31	vanNH	31	101	7	sfoDF	vanNH	13	D	4	FALSE	FALSE	NA	o_line	D	def +
-4	31	vanNH	35	102	8	vanNH	vanNH	8	G	4	FALSE	TRUE	vanNH	d_line	G	G
-4	32	vanNH	2	103	1	sfoDF	sfoDF	13	TA	2	FALSE	FALSE	NA	o_line	TA	off -
-4	32	vanNH	4	104	2	vanNH	vanNH	22	G	2	FALSE	TRUE	vanNH	d_line	G	G
-4	33	vanNH	8	105	1	sfoDF	sfoDF	88	LG	8	TRUE	TRUE	sfoDF	o_line	G	G
-4	34	sfoDF	10	106	1	vanNH	vanNH	98	TA	10	FALSE	FALSE	NA	o_line	TA	off -
-4	34	sfoDF	15	107	2	sfoDF	sfoDF	18	LG	5	TRUE	TRUE	sfoDF	d_line	G	G
-4	35	sfoDF	11	108	1	vanNH	vanNH	98	G	11	FALSE	TRUE	vanNH	o_line	G	G
-4	36	vanNH	7	109	1	sfoDF	sfoDF	8	TA	7	FALSE	FALSE	NA	o_line	TA	off -
-4	36	vanNH	10	110	2	vanNH	vanNH	8	eop	3	FALSE	FALSE	NA	d_line	eop	eop
+4	31	vanNH	40	102	8	vanNH	sfoDF	10	D	9	FALSE	FALSE	NA	d_line	D	def +
+4	31	vanNH	43	103	9	sfoDF	sfoDF	85	TD	3	FALSE	FALSE	NA	o_line	TD	off -
+4	31	vanNH	47	104	10	vanNH	vanNH	8	G	4	FALSE	TRUE	vanNH	d_line	G	G
+4	32	vanNH	2	105	1	sfoDF	sfoDF	13	TA	2	FALSE	FALSE	NA	o_line	TA	off -
+4	32	vanNH	4	106	2	vanNH	vanNH	22	G	2	FALSE	TRUE	vanNH	d_line	G	G
+4	33	vanNH	8	107	1	sfoDF	sfoDF	88	LG	8	TRUE	TRUE	sfoDF	o_line	G	G
+4	34	sfoDF	10	108	1	vanNH	vanNH	98	TA	10	FALSE	FALSE	NA	o_line	TA	off -
+4	34	sfoDF	15	109	2	sfoDF	sfoDF	18	LG	5	TRUE	TRUE	sfoDF	d_line	G	G
+4	35	sfoDF	11	110	1	vanNH	vanNH	98	G	11	FALSE	TRUE	vanNH	o_line	G	G
+4	36	vanNH	7	111	1	sfoDF	sfoDF	8	TA	7	FALSE	FALSE	NA	o_line	TA	off -
+4	36	vanNH	10	112	2	vanNH	vanNH	8	eop	3	FALSE	FALSE	NA	d_line	eop	eop
