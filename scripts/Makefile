@@ -22,8 +22,8 @@
 #GOOGAME ?= "Official Statistics - 2014 - Week 9 - 6/7 - Rainmakers @ Nighthawks"
 #GAME ?= 2014-06-07_seaRM-at-vanNH
 
-GOOGAME ?= "Official Statistics - 2014 - Week 10 - 6/15 - Stags @ Nighthawks"
-GAME ?= 2014-06-15_pdxST-at-vanNH
+#GOOGAME ?= "Official Statistics - 2014 - Week 10 - 6/15 - Stags @ Nighthawks"
+#GAME ?= 2014-06-15_pdxST-at-vanNH
 
 #GOOGAME ?= "Official Statistics - 2014 - Week 11 - 6/21 - Nighthawks @ Dogfish"
 #GAME ?= 2014-06-21_vanNH-at-sfoDF
@@ -42,6 +42,9 @@ GAME ?= 2014-06-15_pdxST-at-vanNH
 
 #GOOGAME ?= "Official Statistics - 2014 - Week 4 - 5/4 - Dogfish @ Rainmakers"  
 #GAME ?= 2014-05-04_sfoDF-at-seaRM
+
+GOOGAME ?= "Official Statistics - 2014 - Week 4 - 5/3 - Dogfish @ Stags"  
+GAME ?= 2014-05-03_sfoDF-at-pdxST
 
 #GOOGAME ?= "test"
 #GAME ?= 2014-12-31_pdxST-at-vanNH
@@ -105,7 +108,6 @@ clean_pass:
 pass_game: 07_resolve-passes.r
 	@Rscript ./07_resolve-passes.r $(GAME) 2>&1 | tee ../games/$(GAME)/07_pass-game/$(GAME)_passes-log.txt
 
-
 clean_web:
 	rm -rf ../games/$(GAME)/09_html/*
 
@@ -134,7 +136,7 @@ marshal: 11_marshal-game-play-and-aggregate.r ../games/2014*/07_resolvedGame/*_g
 index.html: ../web/index.rmd ../games/2014*/*at-last-point.yaml
 	cd ../web; Rscript -e "rmarkdown::render('index.rmd', quiet = TRUE)"
 
-r_bits: clean_cat clean_clean clean_possess cat_goog clean_game possess_game web web_copy
+r_bits: clean_cat clean_clean clean_possess cat_goog clean_game possess_game pass_game web web_copy
 
 pt_fix: eg_pt clean_cat clean_clean clean_possess clean_pass cat_goog clean_game possess_game pass_game web web_copy
 

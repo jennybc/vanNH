@@ -18,8 +18,9 @@ if(length(options) < 1) {
   #game <- "2014-05-24_pdxST-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
   #game <- "2014-06-07_seaRM-at-vanNH"
-  game <- "2014-06-15_pdxST-at-vanNH"
+  #game <- "2014-06-15_pdxST-at-vanNH"
   #game <- "2014-05-04_sfoDF-at-seaRM"
+  game <- "2014-05-03_sfoDF-at-pdxST"
 } else {
   game <- options[1]
 }

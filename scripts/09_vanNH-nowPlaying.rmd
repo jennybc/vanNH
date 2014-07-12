@@ -21,7 +21,8 @@ if(!exists("game")) {
   #game <- "2014-05-31_vanNH-at-seaRM"
   #game <- "2014-06-07_seaRM-at-vanNH"
   #game <- "2014-06-15_pdxST-at-vanNH"
-  game <- "2014-04-12_seaRM-at-sfoDF"
+  #game <- "2014-04-12_seaRM-at-sfoDF"
+  game <- "2014-05-03_sfoDF-at-pdxST"
   }
 
 message(game, ":")

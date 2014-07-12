@@ -44,6 +44,7 @@ white_list <- c("week game",
                 "01   2014-04-12_seaRM-at-sfoDF",
                 "02   2014-04-19_sfoDF-at-seaRM",
                 "03   2014-04-26_pdxST-at-sfoDF",
+                "04   2014-05-03_sfoDF-at-pdxST",
                 "04   2014-05-04_sfoDF-at-seaRM")
 white_list <-
   read.table(text = white_list, header = TRUE,

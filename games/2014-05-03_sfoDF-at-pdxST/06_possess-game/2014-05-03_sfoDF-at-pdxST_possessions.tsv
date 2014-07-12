@@ -1,0 +1,74 @@
+period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code	n_events	huck	score	scor_team	who	a_code	b_code
+1	1	pdxST	27	1	1	sfoDF	sfoDF	57	TA	27	FALSE	FALSE	NA	o_line	TA	off -
+1	1	pdxST	30	2	2	pdxST	sfoDF	8	HB	3	FALSE	FALSE	NA	d_line	D	def +
+1	1	pdxST	36	3	3	sfoDF	pdxST	6	D	6	FALSE	FALSE	NA	o_line	D	def +
+1	1	pdxST	50	4	4	pdxST	pdxST	15	TA	14	FALSE	FALSE	NA	d_line	TA	off -
+1	1	pdxST	56	5	5	sfoDF	pdxST	12	D	6	FALSE	FALSE	NA	o_line	D	def +
+1	1	pdxST	71	6	6	pdxST	pdxST	12	G	15	FALSE	TRUE	pdxST	d_line	G	G
+1	2	pdxST	8	7	1	sfoDF	sfoDF	5	TA	8	FALSE	FALSE	NA	o_line	TA	off -
+1	2	pdxST	31	8	2	pdxST	pdxST	2	G	23	FALSE	TRUE	pdxST	d_line	G	G
+1	3	pdxST	10	9	1	sfoDF	sfoDF	85	G	10	FALSE	TRUE	sfoDF	o_line	G	G
+1	4	sfoDF	5	10	1	pdxST	pdxST	42	VST	5	FALSE	FALSE	NA	o_line	VST	off -
+1	4	sfoDF	9	11	2	sfoDF	sfoDF	2	G	4	FALSE	TRUE	sfoDF	d_line	G	G
+1	5	sfoDF	9	12	1	pdxST	sfoDF	46	D	9	FALSE	FALSE	NA	o_line	D	def +
+1	5	sfoDF	15	13	2	sfoDF	sfoDF	2	TA	6	TRUE	FALSE	NA	d_line	TA	off -
+1	5	sfoDF	20	14	3	pdxST	sfoDF	9	eop	5	FALSE	FALSE	NA	o_line	eop	eop
+2	6	sfoDF	16	15	1	pdxST	sfoDF	2	D	16	FALSE	FALSE	NA	o_line	D	def +
+2	6	sfoDF	20	16	2	sfoDF	sfoDF	2	G	4	FALSE	TRUE	sfoDF	d_line	G	G
+2	7	sfoDF	12	17	1	pdxST	pdxST	42	G	12	FALSE	TRUE	pdxST	o_line	G	G
+2	8	pdxST	11	18	1	sfoDF	sfoDF	57	G	11	FALSE	TRUE	sfoDF	o_line	G	G
+2	9	sfoDF	14	19	1	pdxST	pdxST	14	G	14	FALSE	TRUE	pdxST	o_line	G	G
+2	10	pdxST	6	20	1	sfoDF	sfoDF	5	TA	6	FALSE	FALSE	NA	o_line	TA	off -
+2	10	pdxST	11	21	2	pdxST	pdxST	22	G	5	TRUE	TRUE	pdxST	d_line	G	G
+2	11	pdxST	16	22	1	sfoDF	pdxST	3	D	16	FALSE	FALSE	NA	o_line	D	def +
+2	11	pdxST	21	23	2	pdxST	pdxST	22	G	5	TRUE	TRUE	pdxST	d_line	G	G
+2	12	pdxST	10	24	1	sfoDF	pdxST	8	D	10	FALSE	FALSE	NA	o_line	D	def +
+2	12	pdxST	17	25	2	pdxST	pdxST	6	G	7	FALSE	TRUE	pdxST	d_line	G	G
+2	13	pdxST	5	26	1	sfoDF	sfoDF	88	TA	5	FALSE	FALSE	NA	o_line	TA	off -
+2	13	pdxST	7	27	2	pdxST	sfoDF	1	D	2	FALSE	FALSE	NA	d_line	D	def +
+2	13	pdxST	24	28	3	sfoDF	sfoDF	46	G	17	FALSE	TRUE	sfoDF	o_line	G	G
+2	14	sfoDF	15	29	1	pdxST	sfoDF	2	D	15	FALSE	FALSE	NA	o_line	D	def +
+2	14	sfoDF	17	30	2	sfoDF	sfoDF	2	LG	2	TRUE	TRUE	sfoDF	d_line	G	G
+2	15	sfoDF	7	31	1	pdxST	pdxST	7	G	7	TRUE	TRUE	pdxST	o_line	G	G
+2	16	pdxST	7	32	1	sfoDF	sfoDF	88	TA	7	FALSE	FALSE	NA	o_line	TA	off -
+2	16	pdxST	14	33	2	pdxST	pdxST	11	LG	7	TRUE	TRUE	pdxST	d_line	G	G
+2	17	pdxST	4	34	1	sfoDF	sfoDF	5	eop	4	FALSE	FALSE	NA	o_line	eop	eop
+3	18	pdxST	6	35	1	sfoDF	sfoDF	3	LG	6	TRUE	TRUE	sfoDF	o_line	G	G
+3	19	sfoDF	24	36	1	pdxST	sfoDF	18	D	24	FALSE	FALSE	NA	o_line	D	def +
+3	19	sfoDF	30	37	2	sfoDF	sfoDF	13	TA	6	FALSE	FALSE	NA	d_line	TA	off -
+3	19	sfoDF	32	38	3	pdxST	sfoDF	18	D	2	FALSE	FALSE	NA	o_line	D	def +
+3	19	sfoDF	35	39	4	sfoDF	sfoDF	2	G	3	FALSE	TRUE	sfoDF	d_line	G	G
+3	20	pdxST	2	40	1	pdxST	pdxST	10	TA	2	FALSE	FALSE	NA	d_line	TA	off -
+3	20	pdxST	6	41	2	sfoDF	sfoDF	13	G	4	FALSE	TRUE	sfoDF	o_line	G	G
+3	21	sfoDF	17	42	1	pdxST	pdxST	5	G	17	FALSE	TRUE	pdxST	o_line	G	G
+3	22	pdxST	5	43	1	sfoDF	pdxST	22	D	5	FALSE	FALSE	NA	o_line	D	def +
+3	22	pdxST	10	44	2	pdxST	pdxST	6	G	5	FALSE	TRUE	pdxST	d_line	G	G
+3	23	pdxST	7	45	1	sfoDF	sfoDF	8	LG	7	TRUE	TRUE	sfoDF	o_line	G	G
+3	24	sfoDF	11	46	1	pdxST	pdxST	73	G	11	TRUE	TRUE	pdxST	o_line	G	G
+3	25	pdxST	9	47	1	sfoDF	sfoDF	11	G	9	FALSE	TRUE	sfoDF	o_line	G	G
+3	26	sfoDF	5	48	1	pdxST	pdxST	6	LG	5	TRUE	TRUE	pdxST	o_line	G	G
+3	27	pdxST	12	49	1	sfoDF	sfoDF	5	VST	12	FALSE	FALSE	NA	o_line	VST	off -
+3	27	pdxST	25	50	2	pdxST	pdxST	7	TD	13	FALSE	FALSE	NA	d_line	TD	off -
+3	27	pdxST	34	51	3	sfoDF	sfoDF	6	G	9	FALSE	TRUE	sfoDF	o_line	G	G
+3	28	sfoDF	22	52	1	pdxST	pdxST	16	G	22	FALSE	TRUE	pdxST	o_line	G	G
+3	29	pdxST	7	53	1	sfoDF	sfoDF	88	G	7	FALSE	TRUE	sfoDF	o_line	G	G
+3	30	sfoDF	3	54	1	pdxST	pdxST	73	eop	3	FALSE	FALSE	NA	o_line	eop	eop
+4	31	sfoDF	9	55	1	pdxST	pdxST	7	LG	9	TRUE	TRUE	pdxST	o_line	G	G
+4	32	pdxST	8	56	1	sfoDF	sfoDF	3	LG	8	TRUE	TRUE	sfoDF	o_line	G	G
+4	33	sfoDF	21	57	1	pdxST	sfoDF	2	D	21	FALSE	FALSE	NA	o_line	D	def +
+4	33	sfoDF	30	58	2	sfoDF	sfoDF	5	G	9	FALSE	TRUE	sfoDF	d_line	G	G
+4	34	sfoDF	9	59	1	pdxST	pdxST	42	LG	9	TRUE	TRUE	pdxST	o_line	G	G
+4	35	pdxST	7	60	1	sfoDF	pdxST	6	D	7	FALSE	FALSE	NA	o_line	D	def +
+4	35	pdxST	21	61	2	pdxST	pdxST	17	G	14	TRUE	TRUE	pdxST	d_line	G	G
+4	36	pdxST	12	62	1	sfoDF	sfoDF	2	G	12	FALSE	TRUE	sfoDF	o_line	G	G
+4	37	sfoDF	19	63	1	pdxST	pdxST	16	G	19	FALSE	TRUE	pdxST	o_line	G	G
+4	38	pdxST	8	64	1	sfoDF	pdxST	8	D	8	FALSE	FALSE	NA	o_line	D	def +
+4	38	pdxST	13	65	2	pdxST	pdxST	15	G	5	TRUE	TRUE	pdxST	d_line	G	G
+4	39	pdxST	5	66	1	sfoDF	pdxST	20	D	5	FALSE	FALSE	NA	o_line	D	def +
+4	39	pdxST	11	67	2	pdxST	pdxST	22	TA	6	FALSE	FALSE	NA	d_line	TA	off -
+4	39	pdxST	18	68	3	sfoDF	pdxST	7	D	7	FALSE	FALSE	NA	o_line	D	def +
+4	39	pdxST	25	69	4	pdxST	pdxST	21	G	7	FALSE	TRUE	pdxST	d_line	G	G
+4	40	pdxST	11	70	1	sfoDF	sfoDF	2	LG	11	TRUE	TRUE	sfoDF	o_line	G	G
+4	41	sfoDF	3	71	1	pdxST	pdxST	42	G	3	FALSE	TRUE	pdxST	o_line	G	G
+4	42	pdxST	7	72	1	sfoDF	pdxST	14	D	7	FALSE	FALSE	NA	o_line	D	def +
+4	42	pdxST	11	73	2	pdxST	pdxST	22	eop	4	FALSE	FALSE	NA	d_line	eop	eop
