@@ -49,7 +49,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 15	3	4	14	15	ao	0	O-PU	pdxST-24		D-D	sfoDF-37
 16	4	4	16	17	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-40
 16	4	4	17	18	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-21
-16	4	4	18	20	aa	1	O-CTH	sfoDF-21	O-TO	O-PU	sfoDF-13
+16	4	4	18	19	ao	0	O-CTH	sfoDF-21		O-TO	sfoDF-16
 16	4	4	20	21	ao	0	O-PU	sfoDF-13		O-CTH	sfoDF-40
 16	4	4	21	22	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-23
 16	4	4	22	23	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-34
@@ -154,7 +154,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 34	2	12	18	19	ao	0	O-CTH	pdxST-9		O-CTH	pdxST-17
 34	2	12	19	20	ao	0	O-CTH	pdxST-17		O-CTH	pdxST-4
 34	2	12	20	21	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-9
-34	2	12	21	23	aa	1	O-CTH	pdxST-9	O-TO	O-PU	pdxST-24
+34	2	12	21	22	ao	0	O-CTH	pdxST-9		O-TO	pdxST-5
 34	2	12	23	24	ao	0	O-PU	pdxST-24		O-CTH	pdxST-11
 34	2	12	24	25	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7
 34	2	12	25	26	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
@@ -483,7 +483,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 104	5	37	23	24	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-24
 104	5	37	24	25	ao	0	O-CTH	sfoDF-24		O-CTH	sfoDF-13
 104	5	37	25	26	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-5
-104	5	37	26	28	aa	1	O-CTH	sfoDF-5	O-TO	O-PU	sfoDF-40
+104	5	37	26	27	ao	0	O-CTH	sfoDF-5		O-TO	sfoDF-34
 104	5	37	28	29	ao	0	O-PU	sfoDF-40		O-CTH	sfoDF-23
 104	5	37	29	30	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-13
 104	5	37	30	31	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-46

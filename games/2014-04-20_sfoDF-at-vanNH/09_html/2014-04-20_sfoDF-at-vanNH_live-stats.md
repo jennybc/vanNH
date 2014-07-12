@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Wed Jul  9 13:10:04 2014
+#### last update Sat Jul 12 13:36:53 2014
 # sfoDF 15
 # vanNH 26
 ## game is complete
@@ -168,8 +168,8 @@ stats are cumulative for this game
 |    12|      2|vanNH     |     3|       34|        1|sfoDF     |vanNH   |4       |D       |doyle      |vanNH-4-doyle       |     3|     8|
 |    12|      2|vanNH     |    38|       37|        4|vanNH     |vanNH   |10      |A       |chatha     |vanNH-10-chatha     |     3|     8|
 |    12|      2|vanNH     |    39|       37|        4|vanNH     |vanNH   |98      |G       |wong       |vanNH-98-wong       |     3|     8|
-|    13|      2|vanNH     |    22|       39|        2|vanNH     |vanNH   |4       |A       |doyle      |vanNH-4-doyle       |     3|     9|
-|    13|      2|vanNH     |    23|       39|        2|vanNH     |vanNH   |27      |G       |davis      |vanNH-27-davis      |     3|     9|
+|    13|      2|vanNH     |    21|       39|        2|vanNH     |vanNH   |4       |A       |doyle      |vanNH-4-doyle       |     3|     9|
+|    13|      2|vanNH     |    22|       39|        2|vanNH     |vanNH   |27      |G       |davis      |vanNH-27-davis      |     3|     9|
 |    14|      2|vanNH     |     8|       40|        1|sfoDF     |vanNH   |18      |D       |menzies    |vanNH-18-menzies    |     3|    10|
 |    14|      2|vanNH     |    17|       43|        4|vanNH     |vanNH   |11      |A       |greer      |vanNH-11-greer      |     3|    10|
 |    14|      2|vanNH     |    18|       43|        4|vanNH     |vanNH   |39      |G       |seraglia   |vanNH-39-seraglia   |     3|    10|
@@ -464,13 +464,12 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      2|    13|vanNH     |    14|       38|        1|sfoDF     |sfoDF   |88      |        |
 |      2|    13|vanNH     |    15|       38|        1|sfoDF     |sfoDF   |83      |        |
 |      2|    13|vanNH     |    16|       38|        1|sfoDF     |vanNH   |4       |F       |
-|      2|    13|vanNH     |    17|       38|        1|sfoDF     |sfoDF   |34      |        |
-|      2|    13|vanNH     |    18|       38|        1|sfoDF     |sfoDF   |34      |VST     |
-|      2|    13|vanNH     |    19|       39|        2|vanNH     |vanNH   |45      |PU      |
-|      2|    13|vanNH     |    20|       39|        2|vanNH     |vanNH   |31      |        |
-|      2|    13|vanNH     |    21|       39|        2|vanNH     |vanNH   |8       |L       |
-|      2|    13|vanNH     |    22|       39|        2|vanNH     |vanNH   |4       |A       |
-|      2|    13|vanNH     |    23|       39|        2|vanNH     |vanNH   |27      |G       |
+|      2|    13|vanNH     |    17|       38|        1|sfoDF     |sfoDF   |34      |VST     |
+|      2|    13|vanNH     |    18|       39|        2|vanNH     |vanNH   |45      |PU      |
+|      2|    13|vanNH     |    19|       39|        2|vanNH     |vanNH   |31      |        |
+|      2|    13|vanNH     |    20|       39|        2|vanNH     |vanNH   |8       |L       |
+|      2|    13|vanNH     |    21|       39|        2|vanNH     |vanNH   |4       |A       |
+|      2|    13|vanNH     |    22|       39|        2|vanNH     |vanNH   |27      |G       |
 |      2|    14|vanNH     |     1|       40|        1|sfoDF     |vanNH   |33      |P       |
 |      2|    14|vanNH     |     2|       40|        1|sfoDF     |sfoDF   |11      |PU      |
 |      2|    14|vanNH     |     3|       40|        1|sfoDF     |sfoDF   |17      |        |

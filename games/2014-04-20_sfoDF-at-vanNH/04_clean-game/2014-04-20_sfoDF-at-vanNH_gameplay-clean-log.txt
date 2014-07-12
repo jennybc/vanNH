@@ -1,7 +1,7 @@
 2014-04-20_sfoDF-at-vanNH:
-  566 rows of raw game play found
+  565 rows of raw game play found
   found 13 rows with game play recorded for both teams
   no double game play rows remain
-  579 rows of clean game play will be written
-  2014-07-09 13:10:02
+  578 rows of clean game play will be written
+  2014-07-12 13:36:51
 

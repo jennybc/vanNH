@@ -25,8 +25,9 @@ resolve_passes <- function(x) {
   require(plyr)
   x <- mutate(x,
               is_alpha = pl_code %in% c("CTH", "PU"),
-              is_omega = pl_code %in% c("CTH", "D", "G", "TD", "OV"),
+              is_omega = pl_code %in% c("CTH", "D", "G", "TD", "OV", "TO"),
               e_code = paste(who, pl_code, sep = "-"))
+  ## offensive foul *can* be omega ... but not always ... handled below
   n <- nrow(x)
   ## trim off the top: pulls, subs out or in, timeouts
   alpha_row <- min(which(!(x$pl_code %in% c('P', 'SO', 'SI', 'TO'))))
@@ -36,6 +37,7 @@ resolve_passes <- function(x) {
   omega_row <- if(any(is_a_goal)) max(which(is_a_goal)) else n
   y <- x[alpha_row:omega_row, ]
   n <- nrow(y)
+  if(y$e_code[n] == 'O-F') y$is_omega[n] <- TRUE
   
   if(n < 1)
     stop("no game play available for pass detection")
@@ -68,10 +70,8 @@ resolve_passes <- function(x) {
           next
         }
     } else {
-      #tmp[[i]] <- "huh?"
-      if(i == end_row) {
-        break
-      }
+      i <- i + 1
+      next
     }
   }
   return(do.call("rbind", tmp))

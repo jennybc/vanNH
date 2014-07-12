@@ -74,8 +74,8 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 4	33	sfoDF	13	73	2	sfoDF	seaRM	6	D	7	FALSE	FALSE	NA	d_line	D	def +
 4	33	sfoDF	20	74	3	seaRM	seaRM	6	G	7	FALSE	TRUE	seaRM	o_line	G	G
 4	34	seaRM	9	75	1	sfoDF	sfoDF	24	G	9	FALSE	TRUE	sfoDF	o_line	G	G
-4	35	sfoDF	5	76	1	seaRM	seaRM	5	VTT	5	FALSE	FALSE	NA	o_line	VTT	off -
-4	35	sfoDF	8	77	2	sfoDF	sfoDF	37	G	3	FALSE	TRUE	sfoDF	d_line	G	G
+4	35	sfoDF	4	76	1	seaRM	seaRM	5	VTT	4	FALSE	FALSE	NA	o_line	VTT	off -
+4	35	sfoDF	7	77	2	sfoDF	sfoDF	37	G	3	FALSE	TRUE	sfoDF	d_line	G	G
 4	36	sfoDF	3	78	1	seaRM	seaRM	20	TA	3	FALSE	FALSE	NA	o_line	TA	off -
 4	36	sfoDF	10	79	2	sfoDF	seaRM	21	D	7	FALSE	FALSE	NA	d_line	D	def +
 4	36	sfoDF	16	80	3	seaRM	sfoDF	34	HB	6	FALSE	FALSE	NA	o_line	D	def +

@@ -18,7 +18,7 @@ output:
 ## 13       ?       D   ?name?
 ```
 
-#### last update Wed Jul  9 13:10:37 2014
+#### last update Sat Jul 12 13:37:29 2014
 # pdxST 18
 # vanNH 20
 ## game is complete
@@ -204,7 +204,7 @@ stats are cumulative for this game
 |    28|      3|vanNH     |    24|       53|        2|vanNH     |vanNH   |4       |G       |doyle        |vanNH-4-doyle        |    12|    15|
 |    29|      3|vanNH     |     6|       54|        1|pdxST     |pdxST   |6       |A       |Bjorklund    |pdxST-6-Bjorklund    |    13|    15|
 |    29|      3|vanNH     |     7|       54|        1|pdxST     |pdxST   |2       |LG      |Allison-Hall |pdxST-2-Allison-Hall |    13|    15|
-|    30|      3|pdxST     |    33|       58|        4|pdxST     |vanNH   |8       |D       |hibbert      |vanNH-8-hibbert      |    13|    15|
+|    30|      3|pdxST     |    32|       58|        4|pdxST     |vanNH   |8       |D       |hibbert      |vanNH-8-hibbert      |    13|    15|
 |    31|      4|vanNH     |    12|       59|        1|pdxST     |vanNH   |24      |HB      |yu           |vanNH-24-yu          |    14|    15|
 |    31|      4|vanNH     |    15|       60|        2|vanNH     |pdxST   |24      |D       |Norden       |pdxST-24-Norden      |    14|    15|
 |    31|      4|vanNH     |    34|       61|        3|pdxST     |pdxST   |24      |A       |Norden       |pdxST-24-Norden      |    14|    15|
@@ -685,32 +685,31 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      3|    30|pdxST     |     5|       56|        2|pdxST     |pdxST   |7       |PU      |
 |      3|    30|pdxST     |     6|       56|        2|pdxST     |pdxST   |8       |L       |
 |      3|    30|pdxST     |     7|       56|        2|pdxST     |pdxST   |3       |        |
-|      3|    30|pdxST     |     8|       56|        2|pdxST     |pdxST   |8       |        |
-|      3|    30|pdxST     |     9|       56|        2|pdxST     |pdxST   |8       |VST     |
-|      3|    30|pdxST     |    10|       57|        3|vanNH     |vanNH   |5       |PU      |
-|      3|    30|pdxST     |    11|       57|        3|vanNH     |vanNH   |89      |        |
-|      3|    30|pdxST     |    12|       57|        3|vanNH     |vanNH   |5       |        |
-|      3|    30|pdxST     |    13|       57|        3|vanNH     |vanNH   |10      |        |
-|      3|    30|pdxST     |    14|       57|        3|vanNH     |vanNH   |72      |        |
-|      3|    30|pdxST     |    15|       57|        3|vanNH     |vanNH   |5       |        |
-|      3|    30|pdxST     |    16|       58|        4|pdxST     |pdxST   |88      |PU      |
-|      3|    30|pdxST     |    17|       58|        4|pdxST     |pdxST   |7       |TO      |
-|      3|    30|pdxST     |    18|       58|        4|pdxST     |pdxST   |24      |PU      |
-|      3|    30|pdxST     |    19|       58|        4|pdxST     |pdxST   |9       |        |
-|      3|    30|pdxST     |    20|       58|        4|pdxST     |pdxST   |24      |        |
-|      3|    30|pdxST     |    21|       58|        4|pdxST     |pdxST   |6       |        |
-|      3|    30|pdxST     |    22|       58|        4|pdxST     |pdxST   |42      |        |
-|      3|    30|pdxST     |    23|       58|        4|pdxST     |pdxST   |6       |        |
-|      3|    30|pdxST     |    24|       58|        4|pdxST     |pdxST   |73      |        |
-|      3|    30|pdxST     |    25|       58|        4|pdxST     |pdxST   |7       |        |
-|      3|    30|pdxST     |    26|       58|        4|pdxST     |pdxST   |42      |        |
-|      3|    30|pdxST     |    27|       58|        4|pdxST     |pdxST   |7       |        |
-|      3|    30|pdxST     |    28|       58|        4|pdxST     |pdxST   |73      |        |
-|      3|    30|pdxST     |    29|       58|        4|pdxST     |pdxST   |24      |        |
-|      3|    30|pdxST     |    30|       58|        4|pdxST     |pdxST   |2       |        |
-|      3|    30|pdxST     |    31|       58|        4|pdxST     |pdxST   |6       |        |
-|      3|    30|pdxST     |    32|       58|        4|pdxST     |pdxST   |42      |        |
-|      3|    30|pdxST     |    33|       58|        4|pdxST     |vanNH   |8       |D       |
+|      3|    30|pdxST     |     8|       56|        2|pdxST     |pdxST   |8       |VST     |
+|      3|    30|pdxST     |     9|       57|        3|vanNH     |vanNH   |5       |PU      |
+|      3|    30|pdxST     |    10|       57|        3|vanNH     |vanNH   |89      |        |
+|      3|    30|pdxST     |    11|       57|        3|vanNH     |vanNH   |5       |        |
+|      3|    30|pdxST     |    12|       57|        3|vanNH     |vanNH   |10      |        |
+|      3|    30|pdxST     |    13|       57|        3|vanNH     |vanNH   |72      |        |
+|      3|    30|pdxST     |    14|       57|        3|vanNH     |vanNH   |5       |        |
+|      3|    30|pdxST     |    15|       58|        4|pdxST     |pdxST   |88      |PU      |
+|      3|    30|pdxST     |    16|       58|        4|pdxST     |pdxST   |7       |TO      |
+|      3|    30|pdxST     |    17|       58|        4|pdxST     |pdxST   |24      |PU      |
+|      3|    30|pdxST     |    18|       58|        4|pdxST     |pdxST   |9       |        |
+|      3|    30|pdxST     |    19|       58|        4|pdxST     |pdxST   |24      |        |
+|      3|    30|pdxST     |    20|       58|        4|pdxST     |pdxST   |6       |        |
+|      3|    30|pdxST     |    21|       58|        4|pdxST     |pdxST   |42      |        |
+|      3|    30|pdxST     |    22|       58|        4|pdxST     |pdxST   |6       |        |
+|      3|    30|pdxST     |    23|       58|        4|pdxST     |pdxST   |73      |        |
+|      3|    30|pdxST     |    24|       58|        4|pdxST     |pdxST   |7       |        |
+|      3|    30|pdxST     |    25|       58|        4|pdxST     |pdxST   |42      |        |
+|      3|    30|pdxST     |    26|       58|        4|pdxST     |pdxST   |7       |        |
+|      3|    30|pdxST     |    27|       58|        4|pdxST     |pdxST   |73      |        |
+|      3|    30|pdxST     |    28|       58|        4|pdxST     |pdxST   |24      |        |
+|      3|    30|pdxST     |    29|       58|        4|pdxST     |pdxST   |2       |        |
+|      3|    30|pdxST     |    30|       58|        4|pdxST     |pdxST   |6       |        |
+|      3|    30|pdxST     |    31|       58|        4|pdxST     |pdxST   |42      |        |
+|      3|    30|pdxST     |    32|       58|        4|pdxST     |vanNH   |8       |D       |
 |      4|    31|vanNH     |     1|       59|        1|pdxST     |vanNH   |8       |P       |
 |      4|    31|vanNH     |     2|       59|        1|pdxST     |pdxST   |73      |PU      |
 |      4|    31|vanNH     |     3|       59|        1|pdxST     |pdxST   |9       |        |

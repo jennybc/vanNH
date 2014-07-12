@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Fri Jul 11 19:55:39 2014
+#### last update Sat Jul 12 13:36:49 2014
 # sfoDF 20
 # seaRM 21
 ## game is complete
@@ -218,8 +218,8 @@ stats are cumulative for this game
 |    33|      4|sfoDF     |    20|       74|        3|seaRM     |seaRM   |6       |G       |trytiak       |seaRM-6-trytiak        |    17|    13|
 |    34|      4|seaRM     |     8|       75|        1|sfoDF     |sfoDF   |21      |A       |Stearns       |sfoDF-21-Stearns       |    17|    14|
 |    34|      4|seaRM     |     9|       75|        1|sfoDF     |sfoDF   |24      |G       |Caulfield     |sfoDF-24-Caulfield     |    17|    14|
-|    35|      4|sfoDF     |     7|       77|        2|sfoDF     |sfoDF   |18      |A       |Weaver        |sfoDF-18-Weaver        |    17|    15|
-|    35|      4|sfoDF     |     8|       77|        2|sfoDF     |sfoDF   |37      |G       |Hart          |sfoDF-37-Hart          |    17|    15|
+|    35|      4|sfoDF     |     6|       77|        2|sfoDF     |sfoDF   |18      |A       |Weaver        |sfoDF-18-Weaver        |    17|    15|
+|    35|      4|sfoDF     |     7|       77|        2|sfoDF     |sfoDF   |37      |G       |Hart          |sfoDF-37-Hart          |    17|    15|
 |    36|      4|sfoDF     |    10|       79|        2|sfoDF     |seaRM   |21      |D       |phan          |seaRM-21-phan          |    17|    16|
 |    36|      4|sfoDF     |    16|       80|        3|seaRM     |sfoDF   |34      |HB      |Boucher       |sfoDF-34-Boucher       |    17|    16|
 |    36|      4|sfoDF     |    18|       81|        4|sfoDF     |sfoDF   |24      |LA      |Caulfield     |sfoDF-24-Caulfield     |    17|    16|
@@ -723,11 +723,10 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      4|    35|sfoDF     |     1|       76|        1|seaRM     |sfoDF   |12      |P       |
 |      4|    35|sfoDF     |     2|       76|        1|seaRM     |seaRM   |17      |PU      |
 |      4|    35|sfoDF     |     3|       76|        1|seaRM     |seaRM   |20      |        |
-|      4|    35|sfoDF     |     4|       76|        1|seaRM     |seaRM   |5       |        |
-|      4|    35|sfoDF     |     5|       76|        1|seaRM     |seaRM   |5       |VTT     |
-|      4|    35|sfoDF     |     6|       77|        2|sfoDF     |sfoDF   |17      |PU      |
-|      4|    35|sfoDF     |     7|       77|        2|sfoDF     |sfoDF   |18      |A       |
-|      4|    35|sfoDF     |     8|       77|        2|sfoDF     |sfoDF   |37      |G       |
+|      4|    35|sfoDF     |     4|       76|        1|seaRM     |seaRM   |5       |VTT     |
+|      4|    35|sfoDF     |     5|       77|        2|sfoDF     |sfoDF   |17      |PU      |
+|      4|    35|sfoDF     |     6|       77|        2|sfoDF     |sfoDF   |18      |A       |
+|      4|    35|sfoDF     |     7|       77|        2|sfoDF     |sfoDF   |37      |G       |
 |      4|    36|sfoDF     |     1|       78|        1|seaRM     |sfoDF   |12      |P       |
 |      4|    36|sfoDF     |     2|       78|        1|seaRM     |seaRM   |00      |PU      |
 |      4|    36|sfoDF     |     3|       78|        1|seaRM     |seaRM   |20      |        |

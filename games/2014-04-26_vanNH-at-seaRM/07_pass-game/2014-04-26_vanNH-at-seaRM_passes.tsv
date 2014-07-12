@@ -125,7 +125,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 31	2	14	4	5	ao	0	O-PU	seaRM-9		O-CTH	seaRM-8
 31	2	14	5	6	ao	0	O-CTH	seaRM-8		O-CTH	seaRM-29
 31	2	14	6	7	ao	0	O-CTH	seaRM-29		O-CTH	seaRM-28
-31	2	14	7	9	aa	1	O-CTH	seaRM-28	O-TO	O-PU	seaRM-3
+31	2	14	7	8	ao	0	O-CTH	seaRM-28		O-TO	seaRM-28
 31	2	14	9	10	ao	0	O-PU	seaRM-3		O-CTH	seaRM-17
 31	2	14	10	11	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-6
 31	2	14	11	12	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-3
@@ -178,7 +178,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 40	3	18	19	19	an	-1	O-CTH	vanNH-31		NA	vanNH-31
 41	4	18	20	21	ao	0	O-PU	seaRM-3		O-CTH	seaRM-20
 41	4	18	21	21	an	-1	O-CTH	seaRM-20		NA	seaRM-20
-42	5	18	22	24	aa	1	O-PU	vanNH-81	O-TO	O-PU	vanNH-91
+42	5	18	22	23	ao	0	O-PU	vanNH-81		O-TO	vanNH-18
 42	5	18	24	25	ao	0	O-PU	vanNH-91		O-CTH	vanNH-98
 42	5	18	25	26	ao	0	O-CTH	vanNH-98		O-G	vanNH-22
 43	1	19	2	3	ao	0	O-PU	seaRM-3		O-CTH	seaRM-00

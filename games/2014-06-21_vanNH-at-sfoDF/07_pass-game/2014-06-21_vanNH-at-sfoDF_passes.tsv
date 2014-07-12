@@ -146,7 +146,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 41	10	12	32	32	an	-1	O-CTH	sfoDF-23		NA	sfoDF-23
 42	11	12	33	34	ao	0	O-PU	vanNH-5		O-CTH	vanNH-89
 42	11	12	34	35	ao	0	O-CTH	vanNH-89		O-TD	vanNH-22
-43	12	12	36	38	aa	1	O-PU	sfoDF-8	O-TO	O-PU	sfoDF-8
+43	12	12	36	37	ao	0	O-PU	sfoDF-8		O-TO	sfoDF-?
 43	12	12	38	39	ao	0	O-PU	sfoDF-8		O-CTH	sfoDF-13
 43	12	12	39	40	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-88
 43	12	12	40	41	ao	0	O-CTH	sfoDF-88		O-G	sfoDF-40
@@ -161,7 +161,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 49	4	14	7	8	ao	0	O-CTH	sfoDF-21		O-CTH	sfoDF-19
 49	4	14	8	9	ao	0	O-CTH	sfoDF-19		O-CTH	sfoDF-8
 49	4	14	9	10	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-21
-49	4	14	10	12	aa	1	O-CTH	sfoDF-21	O-TO	O-PU	sfoDF-23
+49	4	14	10	11	ao	0	O-CTH	sfoDF-21		O-TO	sfoDF-?
 49	4	14	12	12	an	-1	O-PU	sfoDF-23		NA	sfoDF-23
 50	5	14	13	14	ao	0	O-PU	vanNH-24		O-CTH	vanNH-39
 50	5	14	14	15	ao	0	O-CTH	vanNH-39		O-CTH	vanNH-24
@@ -185,12 +185,12 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 58	5	15	14	15	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-98
 58	5	15	15	16	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-22
 58	5	15	16	17	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-11
-58	5	15	17	19	aa	1	O-CTH	vanNH-11	O-TO	O-PU	vanNH-5
+58	5	15	17	18	ao	0	O-CTH	vanNH-11		O-TO	vanNH-?
 58	5	15	19	20	ao	0	O-PU	vanNH-5		O-G	vanNH-98
 59	1	16	2	3	ao	0	O-PU	sfoDF-8		O-CTH	sfoDF-13
 59	1	16	3	4	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-8
 59	1	16	4	4	an	-1	O-CTH	sfoDF-8		NA	sfoDF-8
-60	2	16	5	7	aa	1	O-PU	vanNH-24	O-TO	O-PU	vanNH-5
+60	2	16	5	6	ao	0	O-PU	vanNH-24		O-TO	vanNH-?
 60	2	16	7	8	ao	0	O-PU	vanNH-5		O-G	vanNH-98
 61	1	17	2	3	ao	0	O-PU	sfoDF-88		D-D	vanNH-13
 62	1	18	2	3	ao	0	O-PU	sfoDF-8		O-CTH	sfoDF-13
@@ -354,7 +354,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 101	7	31	28	29	ao	0	O-PU	sfoDF-23		O-CTH	sfoDF-13
 101	7	31	29	30	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-57
 101	7	31	30	31	ao	0	O-CTH	sfoDF-57		D-D	vanNH-13
-102	8	31	32	34	aa	1	O-PU	vanNH-89	O-TO	O-PU	vanNH-21
+102	8	31	32	33	ao	0	O-PU	vanNH-89		O-TO	vanNH-?
 102	8	31	34	35	ao	0	O-PU	vanNH-21		O-CTH	vanNH-89
 102	8	31	35	36	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-21
 102	8	31	36	37	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-89

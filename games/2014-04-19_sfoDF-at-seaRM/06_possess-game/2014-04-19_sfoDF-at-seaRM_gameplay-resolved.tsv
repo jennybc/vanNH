@@ -466,11 +466,10 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 4	35	sfoDF	1	76	1	seaRM	sfoDF	12	P
 4	35	sfoDF	2	76	1	seaRM	seaRM	17	PU
 4	35	sfoDF	3	76	1	seaRM	seaRM	20	
-4	35	sfoDF	4	76	1	seaRM	seaRM	5	
-4	35	sfoDF	5	76	1	seaRM	seaRM	5	VTT
-4	35	sfoDF	6	77	2	sfoDF	sfoDF	17	PU
-4	35	sfoDF	7	77	2	sfoDF	sfoDF	18	A
-4	35	sfoDF	8	77	2	sfoDF	sfoDF	37	G
+4	35	sfoDF	4	76	1	seaRM	seaRM	5	VTT
+4	35	sfoDF	5	77	2	sfoDF	sfoDF	17	PU
+4	35	sfoDF	6	77	2	sfoDF	sfoDF	18	A
+4	35	sfoDF	7	77	2	sfoDF	sfoDF	37	G
 4	36	sfoDF	1	78	1	seaRM	sfoDF	12	P
 4	36	sfoDF	2	78	1	seaRM	seaRM	00	PU
 4	36	sfoDF	3	78	1	seaRM	seaRM	20	

@@ -10,7 +10,6 @@ Offense	Defense
 	7PU
 	8L
 	3
-	8
 	8VST
 5PU	
 89	

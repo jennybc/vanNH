@@ -217,13 +217,12 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 2	13	vanNH	14	38	1	sfoDF	sfoDF	88	
 2	13	vanNH	15	38	1	sfoDF	sfoDF	83	
 2	13	vanNH	16	38	1	sfoDF	vanNH	4	F
-2	13	vanNH	17	38	1	sfoDF	sfoDF	34	
-2	13	vanNH	18	38	1	sfoDF	sfoDF	34	VST
-2	13	vanNH	19	39	2	vanNH	vanNH	45	PU
-2	13	vanNH	20	39	2	vanNH	vanNH	31	
-2	13	vanNH	21	39	2	vanNH	vanNH	8	L
-2	13	vanNH	22	39	2	vanNH	vanNH	4	A
-2	13	vanNH	23	39	2	vanNH	vanNH	27	G
+2	13	vanNH	17	38	1	sfoDF	sfoDF	34	VST
+2	13	vanNH	18	39	2	vanNH	vanNH	45	PU
+2	13	vanNH	19	39	2	vanNH	vanNH	31	
+2	13	vanNH	20	39	2	vanNH	vanNH	8	L
+2	13	vanNH	21	39	2	vanNH	vanNH	4	A
+2	13	vanNH	22	39	2	vanNH	vanNH	27	G
 2	14	vanNH	1	40	1	sfoDF	vanNH	33	P
 2	14	vanNH	2	40	1	sfoDF	sfoDF	11	PU
 2	14	vanNH	3	40	1	sfoDF	sfoDF	17	

@@ -98,7 +98,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 15	2	8	10	11	ao	0	O-CTH	pdxST-22		O-CTH	pdxST-88
 15	2	8	11	12	ao	0	O-CTH	pdxST-88		O-CTH	pdxST-25
 15	2	8	12	13	ao	0	O-CTH	pdxST-25		O-CTH	pdxST-88
-15	2	8	13	15	aa	1	O-CTH	pdxST-88	O-TO	O-PU	pdxST-11
+15	2	8	13	14	ao	0	O-CTH	pdxST-88		O-TO	pdxST-14
 15	2	8	15	16	ao	0	O-PU	pdxST-11		O-CTH	pdxST-9
 15	2	8	16	17	ao	0	O-CTH	pdxST-9		O-CTH	pdxST-7
 15	2	8	17	19	ao	1	O-CTH	pdxST-7	O-VP	O-CTH	pdxST-9
@@ -160,7 +160,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 26	5	12	29	30	ao	0	O-PU	pdxST-11		O-G	pdxST-9
 27	1	13	2	3	ao	0	O-PU	vanNH-19		O-CTH	vanNH-89
 27	1	13	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-22
-27	1	13	4	5	an	0	O-CTH	vanNH-22		NA	vanNH-?
+27	1	13	4	5	ao	0	O-CTH	vanNH-22		O-F	vanNH-?
 28	2	13	6	7	ao	0	O-PU	pdxST-5		O-CTH	pdxST-88
 28	2	13	7	8	ao	0	O-CTH	pdxST-88		O-CTH	pdxST-14
 28	2	13	8	9	ao	0	O-CTH	pdxST-14		O-CTH	pdxST-22
@@ -209,7 +209,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 37	1	15	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-19
 37	1	15	3	4	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-91
 37	1	15	4	5	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-98
-37	1	15	5	7	an	1	O-CTH	vanNH-98	D-F	NA	vanNH-10
+37	1	15	5	7	ao	1	O-CTH	vanNH-98	D-F	O-F	vanNH-10
 38	2	15	8	9	ao	0	O-PU	pdxST-25		O-CTH	pdxST-22
 38	2	15	9	10	ao	0	O-CTH	pdxST-22		O-CTH	pdxST-88
 38	2	15	10	11	ao	0	O-CTH	pdxST-88		O-CTH	pdxST-5
@@ -364,7 +364,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 55	1	28	9	10	ao	0	O-CTH	pdxST-73		O-CTH	pdxST-6
 55	1	28	10	11	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-73
 55	1	28	11	12	ao	0	O-CTH	pdxST-73		O-CTH	pdxST-42
-55	1	28	12	14	aa	1	O-CTH	pdxST-42	O-TO	O-PU	pdxST-7
+55	1	28	12	13	ao	0	O-CTH	pdxST-42		O-TO	pdxST-16
 55	1	28	14	15	ao	0	O-PU	pdxST-7		O-G	pdxST-42
 56	1	29	2	3	ao	0	O-PU	vanNH-89		O-OV	vanNH-19
 57	2	29	4	5	ao	0	O-PU	pdxST-8		O-CTH	pdxST-88
@@ -477,7 +477,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 76	1	38	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-91
 76	1	38	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-21
 76	1	38	4	5	ao	0	O-CTH	vanNH-21		D-D	pdxST-5
-77	2	38	6	8	aa	1	O-PU	pdxST-17	O-TO	O-PU	pdxST-9
+77	2	38	6	7	ao	0	O-PU	pdxST-17		O-TO	pdxST-17
 77	2	38	8	9	ao	0	O-PU	pdxST-9		O-CTH	pdxST-2
 77	2	38	9	10	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-11
 77	2	38	10	11	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-6

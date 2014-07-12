@@ -120,7 +120,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 22	2	14	5	6	ao	0	O-PU	vanNH-18		O-OV	vanNH-18
 23	3	14	7	8	ao	0	O-PU	pdxST-11		O-G	pdxST-13
 24	1	15	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-5
-24	1	15	3	4	an	0	O-CTH	vanNH-5		NA	vanNH-22
+24	1	15	3	4	ao	0	O-CTH	vanNH-5		O-F	vanNH-22
 25	2	15	5	6	ao	0	O-PU	pdxST-88		O-CTH	pdxST-8
 25	2	15	6	7	ao	0	O-CTH	pdxST-8		O-G	pdxST-6
 26	1	16	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-91
@@ -230,7 +230,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 41	2	23	20	21	ao	0	O-CTH	vanNH-4		O-CTH	vanNH-27
 41	2	23	21	22	ao	0	O-CTH	vanNH-27		O-CTH	vanNH-24
 41	2	23	22	23	ao	0	O-CTH	vanNH-24		O-CTH	vanNH-8
-41	2	23	23	25	aa	1	O-CTH	vanNH-8	O-TO	O-PU	vanNH-91
+41	2	23	23	24	ao	0	O-CTH	vanNH-8		O-TO	vanNH-81
 41	2	23	25	26	ao	0	O-PU	vanNH-91		O-CTH	vanNH-10
 41	2	23	26	27	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-98
 41	2	23	27	28	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-91
@@ -375,7 +375,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 62	2	34	8	9	ao	0	O-CTH	pdxST-88		O-CTH	pdxST-17
 62	2	34	9	10	ao	0	O-CTH	pdxST-17		O-CTH	pdxST-21
 62	2	34	10	11	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-5
-62	2	34	11	13	aa	1	O-CTH	pdxST-5	O-TO	O-PU	pdxST-24
+62	2	34	11	12	ao	0	O-CTH	pdxST-5		O-TO	pdxST-5
 62	2	34	13	14	ao	0	O-PU	pdxST-24		O-CTH	pdxST-11
 62	2	34	14	15	ao	0	O-CTH	pdxST-11		O-G	pdxST-42
 63	1	35	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-91

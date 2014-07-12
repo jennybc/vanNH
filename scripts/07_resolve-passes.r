@@ -9,12 +9,12 @@ if(length(options) < 1) {
   #game <- "2014-04-26_vanNH-at-seaRM"
   #game <- "2014-05-10_seaRM-at-vanNH"
   #game <- "2014-05-17_vanNH-at-sfoDF"
-  #game <- "2014-05-24_pdxST-at-vanNH"
+  game <- "2014-05-24_pdxST-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
   #game <- "2014-06-07_seaRM-at-vanNH"
   #game <- "2014-06-15_pdxST-at-vanNH"
   #game <- "2014-05-04_sfoDF-at-seaRM"
-  game <- "2014-04-26_pdxST-at-sfoDF"
+  #game <- "2014-04-26_pdxST-at-sfoDF"
 } else {
   game <- options[1]
 }
@@ -50,7 +50,7 @@ game_play <-
          pl_code = revalue(pl_code, j_revalues, warn_missing = FALSE))
 
 source("50_pass-resolve-script.r")
-# x <- subset(game_play, poss_abs == 70)
+# x <- subset(game_play, poss_abs == 37)
 # resolve_passes(x)
 pass_dat <- ddply(game_play, ~ poss_abs + poss_rel + point, resolve_passes)
 #str(pass_dat, max.level = 1)
