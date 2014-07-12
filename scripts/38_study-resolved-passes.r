@@ -12,7 +12,7 @@ pass_dat <-
                                                 innards = "character",
                                                 end_plyr = "character")),
         .id = "game")
-str(pass_dat) # 7298 obs. of  13 variables
+str(pass_dat) # 7295 obs. of  13 variables
 
 ## create a data.frame `white_list` to match (beg_code, end_code, innards)
 ## against; will white-list anything I have seen and approved before; does not
@@ -39,7 +39,7 @@ if(!all(pass_dat$wl)) {
 
 table(pass_dat$end_code, useNA = "always")
 #   D-D O-CTH   O-G  O-OV  O-TD  O-TO   O-F  O-PU  <NA> 
-#   313  5811   564    41   163    53     7     5   341 
+#   313  5808   564    41   163    53     7     5   341 
 
 ## look up PU as end code
 subset(pass_dat, end_code == 'O-PU',
@@ -77,14 +77,12 @@ subset(pass_dat, is.na(end_code) & n_inn >= 0)
 ## scripts, that the offensive foul is last, so it is correctly detected as the
 ## possession ending event
 
-## I found 3 completely unnecessary cases of using a new cell
 subset(pass_dat, desc == 'ao' & n_inn == 0 & beg_code == 'O-CTH' &
          beg_plyr == end_plyr & end_code == 'O-OV',
        select = c(game, point, beg_code, beg_plyr, end_code, end_plyr))
-#                           game point beg_code beg_plyr end_code end_plyr
-# 1357 2014-04-19_sfoDF-at-seaRM    35    O-CTH  seaRM-5     O-OV  seaRM-5
-# 1637 2014-04-20_sfoDF-at-vanNH    13    O-CTH sfoDF-34     O-OV sfoDF-34
-# 6235 2014-06-15_pdxST-at-vanNH    30    O-CTH  pdxST-8     O-OV  pdxST-8
+##                           game point beg_code beg_plyr end_code end_plyr
+## 2145 2014-04-26_pdxST-at-sfoDF    19    O-CTH  pdxST-2     O-OV  pdxST-2
+## necessary because the catch annotated with 'L'
 ## lesson: {O-CTH, O-PU} O-OV is only a pass if player numbers not same
 
 ## desc = an n_inn = -1
@@ -103,17 +101,3 @@ subset(pass_dat, innards == 'O-F',
 ## pdxST-8 then throws to pdxST-73; O-PU, O-F, O-CTH
 ## 2014-05-31_vanNH-at-seaRM point 10 this is looks legit: vanNH-19 has the disc,
 ## there's some foul on the offense, vanNH-19 eventually throws to vanNH-89
-
-
-
-
-# foo <- list.files(file.path("..", "games"), recursive = TRUE, full.names = TRUE,
-#            pattern = "passes-log.txt")
-# 
-# system(paste("cat", paste(foo, collapse = " "), "> passes-logs-ALL.txt"))
-
-# ptt <- ddply(pass_tally, ~ desc + n_inn, summarize, total = sum(Freq))
-# ptt <- arrange(ptt, desc(total), desc, n_inn)
-# ptt <- rbind(ptt, data.frame(desc = NA, n_inn = NA, total = sum(ptt$total)))
-# ptt$prop <- round(ptt$total / max(ptt$total), 2)
-# ptt
