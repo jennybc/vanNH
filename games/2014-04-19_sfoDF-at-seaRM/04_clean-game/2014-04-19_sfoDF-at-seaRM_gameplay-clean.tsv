@@ -515,7 +515,7 @@ point	event	pull_pnum	pull_code	recv_pnum	recv_code
 38	7	18			
 38	8	24			
 38	9		TO		
-38	10	20			
+38	10	20	PU		
 38	11	00			
 38	12	17			
 38	13	6	G		

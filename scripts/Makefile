@@ -10,8 +10,8 @@
 #GOOGAME ?= "Official Statistics - 2014 - Week 5 - 5/10 - Rainmakers @ Nighthawks"
 #GAME ?= 2014-05-10_seaRM-at-vanNH
 
-GOOGAME ?= "Official Statistics - 2014 - Week 6 - 5/17 - Nighthawks @ Dogfish"
-GAME ?= 2014-05-17_vanNH-at-sfoDF
+#GOOGAME ?= "Official Statistics - 2014 - Week 6 - 5/17 - Nighthawks @ Dogfish"
+#GAME ?= 2014-05-17_vanNH-at-sfoDF
 
 #GOOGAME ?= "Official Statistics - 2014 - Week 7 - 5/24 - Stags @ Nighthawks"
 #GAME ?= 2014-05-24_pdxST-at-vanNH
@@ -34,8 +34,8 @@ GAME ?= 2014-05-17_vanNH-at-sfoDF
 #GOOGAME ?= "Official Statistics - 2014 - Week 1 - 4/12 - Rainmakers @ Dogfish"
 #GAME ?= 2014-04-12_seaRM-at-sfoDF
 
-#GOOGAME ?= "Official Statistics - 2014 - Week 2 - 4/19 - Dogfish @ Rainmakers"
-#GAME ?= 2014-04-19_sfoDF-at-seaRM
+GOOGAME ?= "Official Statistics - 2014 - Week 2 - 4/19 - Dogfish @ Rainmakers"
+GAME ?= 2014-04-19_sfoDF-at-seaRM
 
 #GOOGAME ?= "Official Statistics - 2014 - Week 3 - 4/26 - Stags @ Dogfish"
 #GAME ?= 2014-04-26_pdxST-at-sfoDF
@@ -136,7 +136,7 @@ index.html: ../web/index.rmd ../games/2014*/*at-last-point.yaml
 
 r_bits: clean_cat clean_clean clean_possess cat_goog clean_game possess_game web web_copy
 
-pt_fix: eg_pt clean_cat clean_clean clean_possess cat_goog clean_game possess_game web web_copy
+pt_fix: eg_pt clean_cat clean_clean clean_possess clean_pass cat_goog clean_game possess_game pass_game web web_copy
 
 yo: eg_pt clean_cat clean_clean clean_possess cat_goog clean_game possess_game web web_copy set_web sync
 

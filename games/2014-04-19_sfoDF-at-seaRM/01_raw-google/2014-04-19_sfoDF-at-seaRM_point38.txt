@@ -12,7 +12,7 @@ Offense	Defense
 	18
 	24
 	to
-	20
+	20PU
 	00
 	17
 	6G

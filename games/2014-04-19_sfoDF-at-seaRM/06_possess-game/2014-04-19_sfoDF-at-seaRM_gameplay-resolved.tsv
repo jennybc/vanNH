@@ -515,7 +515,7 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 4	38	seaRM	7	84	2	seaRM	seaRM	18	
 4	38	seaRM	8	84	2	seaRM	seaRM	24	
 4	38	seaRM	9	84	2	seaRM	seaRM		TO
-4	38	seaRM	10	84	2	seaRM	seaRM	20	
+4	38	seaRM	10	84	2	seaRM	seaRM	20	PU
 4	38	seaRM	11	84	2	seaRM	seaRM	00	
 4	38	seaRM	12	84	2	seaRM	seaRM	17	A
 4	38	seaRM	13	84	2	seaRM	seaRM	6	G
