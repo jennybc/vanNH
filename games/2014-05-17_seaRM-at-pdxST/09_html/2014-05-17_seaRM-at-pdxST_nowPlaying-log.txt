@@ -1,0 +1,11 @@
+2014-05-17_seaRM-at-pdxST:
+  roster read for seaRM and pdxST
+  game YAML read; game status: complete
+  675 rows of game play found
+  51 rows of point info play found
+last name unknown for player(s) involved in these plays:
+  player stat tables include 19 for seaRM and 16 for pdxST
+  scoring progression table has 51 rows
+[1] TRUE
+[1] TRUE
+[1] TRUE

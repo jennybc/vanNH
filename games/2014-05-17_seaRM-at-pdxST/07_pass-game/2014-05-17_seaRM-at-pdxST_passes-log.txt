@@ -1,0 +1,27 @@
+2014-05-17_seaRM-at-pdxST:
+  675 rows of resolved game play found
+  536/538 rows of pass data are whitelisted (99.6%)
+  ALERT 2 rows of pass data are novel
+    poss_abs poss_rel point beg_event end_event desc n_inn beg_code beg_plyr
+206       31        1    19        18        20   aa     1    O-CTH  pdxST-6
+432       66        1    41         3         5   aa     1    O-CTH seaRM-20
+    innards end_code end_plyr    wl
+206     D-F     O-PU pdxST-16 FALSE
+432     D-F     O-PU seaRM-48 FALSE
+  ALERT 3 rows of pass data end with pickup (PU)
+    poss_abs poss_rel point beg_event end_event desc n_inn beg_code beg_plyr
+126       21        2    12        12        14   aa     1    O-CTH seaRM-35
+206       31        1    19        18        20   aa     1    O-CTH  pdxST-6
+432       66        1    41         3         5   aa     1    O-CTH seaRM-20
+    innards end_code end_plyr    wl pclass
+126    O-VP     O-PU seaRM-35  TRUE nopass
+206     D-F     O-PU pdxST-16 FALSE nopass
+432     D-F     O-PU seaRM-48 FALSE nopass
+  breakdown of passes:
+
+ compl  ofoul  taway   defd   drop nopass   <NA> 
+   502      0     19     14      0      3      0 
+  502/535 passes were completed (93.8%)
+  538 rows of pass data will be written
+  2014-07-12 16:31:25
+

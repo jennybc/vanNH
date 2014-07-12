@@ -1,0 +1,84 @@
+period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code	n_events	huck	score	scor_team	who	a_code	b_code
+1	1	pdxST	4	1	1	seaRM	seaRM	48	LG	4	TRUE	TRUE	seaRM	o_line	G	G
+1	2	seaRM	14	2	1	pdxST	pdxST	7	LG	14	TRUE	TRUE	pdxST	o_line	G	G
+1	3	pdxST	9	3	1	seaRM	seaRM	22	LG	9	TRUE	TRUE	seaRM	o_line	G	G
+1	4	seaRM	10	4	1	pdxST	pdxST	24	TA	10	FALSE	FALSE	NA	o_line	TA	off -
+1	4	seaRM	15	5	2	seaRM	seaRM	18	TA	5	FALSE	FALSE	NA	d_line	TA	off -
+1	4	seaRM	18	6	3	pdxST	pdxST	7	G	3	TRUE	TRUE	pdxST	o_line	G	G
+1	5	pdxST	13	7	1	seaRM	seaRM	17	G	13	FALSE	TRUE	seaRM	o_line	G	G
+1	6	seaRM	5	8	1	pdxST	pdxST	7	TA	5	FALSE	FALSE	NA	o_line	TA	off -
+1	6	seaRM	11	9	2	seaRM	seaRM	23	G	6	FALSE	TRUE	seaRM	d_line	G	G
+1	7	seaRM	7	10	1	pdxST	pdxST	25	TA	7	FALSE	FALSE	NA	o_line	TA	off -
+1	7	seaRM	14	11	2	seaRM	seaRM	18	G	7	FALSE	TRUE	seaRM	d_line	G	G
+1	8	seaRM	6	12	1	pdxST	seaRM	28	D	6	FALSE	FALSE	NA	o_line	D	def +
+1	8	seaRM	10	13	2	seaRM	seaRM	12	G	4	FALSE	TRUE	seaRM	d_line	G	G
+1	9	seaRM	11	14	1	pdxST	pdxST	2	G	11	FALSE	TRUE	pdxST	o_line	G	G
+1	10	pdxST	5	15	1	seaRM	pdxST	3	D	5	FALSE	FALSE	NA	o_line	D	def +
+1	10	pdxST	13	16	2	pdxST	seaRM	99	D	8	TRUE	FALSE	NA	d_line	D	def +
+1	10	pdxST	19	17	3	seaRM	seaRM	20	G	6	TRUE	TRUE	seaRM	o_line	G	G
+1	11	seaRM	6	18	1	pdxST	pdxST	6	TA	6	TRUE	FALSE	NA	o_line	TA	off -
+1	11	seaRM	18	19	2	seaRM	seaRM	23	G	12	FALSE	TRUE	seaRM	d_line	G	G
+1	12	seaRM	6	20	1	pdxST	seaRM	15	D	6	FALSE	FALSE	NA	o_line	D	def +
+1	12	seaRM	17	21	2	seaRM	seaRM	35	TA	11	FALSE	FALSE	NA	d_line	TA	off -
+1	12	seaRM	20	22	3	pdxST	pdxST	25	eop	3	FALSE	FALSE	NA	o_line	eop	eop
+2	13	seaRM	16	23	1	pdxST	pdxST	6	G	16	FALSE	TRUE	pdxST	o_line	G	G
+2	14	pdxST	5	24	1	seaRM	seaRM	25	TA	5	FALSE	FALSE	NA	o_line	TA	off -
+2	14	pdxST	17	25	2	pdxST	pdxST	21	TA	12	FALSE	FALSE	NA	d_line	TA	off -
+2	14	pdxST	23	26	3	seaRM	seaRM	6	LG	6	TRUE	TRUE	seaRM	o_line	G	G
+2	15	seaRM	9	27	1	pdxST	pdxST	10	G	9	TRUE	TRUE	pdxST	o_line	G	G
+2	16	pdxST	9	28	1	seaRM	seaRM	8	LG	9	TRUE	TRUE	seaRM	o_line	G	G
+2	17	seaRM	9	29	1	pdxST	pdxST	7	LG	9	TRUE	TRUE	pdxST	o_line	G	G
+2	18	pdxST	5	30	1	seaRM	seaRM	48	LG	5	TRUE	TRUE	seaRM	o_line	G	G
+2	19	seaRM	21	31	1	pdxST	pdxST	6	G	21	FALSE	TRUE	pdxST	o_line	G	G
+2	20	pdxST	21	32	1	seaRM	seaRM	25	G	21	FALSE	TRUE	seaRM	o_line	G	G
+2	21	seaRM	9	33	1	pdxST	pdxST	6	G	9	TRUE	TRUE	pdxST	o_line	G	G
+2	22	pdxST	16	34	1	seaRM	seaRM	48	G	16	FALSE	TRUE	seaRM	o_line	G	G
+2	23	seaRM	13	35	1	pdxST	seaRM	28	D	13	FALSE	FALSE	NA	o_line	D	def +
+2	23	seaRM	16	36	2	seaRM	pdxST	10	D	3	FALSE	FALSE	NA	d_line	D	def +
+2	23	seaRM	23	37	3	pdxST	pdxST	8	eop	7	TRUE	FALSE	NA	o_line	eop	eop
+3	24	pdxST	13	38	1	seaRM	seaRM	1	LG	13	TRUE	TRUE	seaRM	o_line	G	G
+3	25	seaRM	15	39	1	pdxST	pdxST	2	LG	15	TRUE	TRUE	pdxST	o_line	G	G
+3	26	pdxST	4	40	1	seaRM	seaRM	51	TA	4	FALSE	FALSE	NA	o_line	TA	off -
+3	26	pdxST	6	41	2	pdxST	pdxST	5	LG	2	TRUE	TRUE	pdxST	d_line	G	G
+3	27	pdxST	10	42	1	seaRM	seaRM	5	LG	10	TRUE	TRUE	seaRM	o_line	G	G
+3	28	seaRM	5	43	1	pdxST	pdxST	10	TA	5	FALSE	FALSE	NA	o_line	TA	off -
+3	28	seaRM	14	44	2	seaRM	pdxST	4	HB	9	FALSE	FALSE	NA	d_line	D	def +
+3	28	seaRM	29	45	3	pdxST	pdxST	8	G	15	FALSE	TRUE	pdxST	o_line	G	G
+3	29	pdxST	4	46	1	seaRM	seaRM	48	LG	4	TRUE	TRUE	seaRM	o_line	G	G
+3	30	seaRM	6	47	1	pdxST	pdxST	2	LG	6	TRUE	TRUE	pdxST	o_line	G	G
+3	31	pdxST	11	48	1	seaRM	pdxST	7	D	11	FALSE	FALSE	NA	o_line	D	def +
+3	31	pdxST	19	49	2	pdxST	pdxST	9	G	8	TRUE	TRUE	pdxST	d_line	G	G
+3	32	pdxST	12	50	1	seaRM	seaRM	18	G	12	FALSE	TRUE	seaRM	o_line	G	G
+3	33	seaRM	9	51	1	pdxST	pdxST	24	TA	9	FALSE	FALSE	NA	o_line	TA	off -
+3	33	seaRM	18	52	2	seaRM	seaRM	12	G	9	FALSE	TRUE	seaRM	d_line	G	G
+3	34	seaRM	10	53	1	pdxST	seaRM	23	HB	10	FALSE	FALSE	NA	o_line	D	def +
+3	34	seaRM	13	54	2	seaRM	seaRM	18	G	3	FALSE	TRUE	seaRM	d_line	G	G
+3	35	seaRM	5	55	1	pdxST	pdxST	17	LG	5	TRUE	TRUE	pdxST	o_line	G	G
+3	36	pdxST	7	56	1	seaRM	seaRM	20	LG	7	TRUE	TRUE	seaRM	o_line	G	G
+3	37	seaRM	13	57	1	pdxST	pdxST	7	G	13	TRUE	TRUE	pdxST	o_line	G	G
+3	38	pdxST	5	58	1	seaRM	pdxST	5	D	5	FALSE	FALSE	NA	o_line	D	def +
+3	38	pdxST	10	59	2	pdxST	seaRM	48	D	5	FALSE	FALSE	NA	d_line	D	def +
+3	38	pdxST	13	60	3	seaRM	pdxST	8	eop	3	FALSE	FALSE	NA	o_line	eop	eop
+4	39	seaRM	9	61	1	pdxST	pdxST	24	TA	9	FALSE	FALSE	NA	o_line	TA	off -
+4	39	seaRM	17	62	2	seaRM	pdxST	6	D	8	FALSE	FALSE	NA	d_line	D	def +
+4	39	seaRM	21	63	3	pdxST	pdxST	2	G	4	FALSE	TRUE	pdxST	o_line	G	G
+4	40	pdxST	6	64	1	seaRM	pdxST	88	D	6	FALSE	FALSE	NA	o_line	D	def +
+4	40	pdxST	8	65	2	pdxST	pdxST	17	LG	2	TRUE	TRUE	pdxST	d_line	G	G
+4	41	pdxST	7	66	1	seaRM	seaRM	8	G	7	FALSE	TRUE	seaRM	o_line	G	G
+4	42	seaRM	26	67	1	pdxST	pdxST	10	G	26	FALSE	TRUE	pdxST	o_line	G	G
+4	43	pdxST	4	68	1	seaRM	seaRM	99	LG	4	TRUE	TRUE	seaRM	o_line	G	G
+4	44	seaRM	4	69	1	pdxST	pdxST	11	TA	4	FALSE	FALSE	NA	o_line	TA	off -
+4	44	seaRM	6	70	2	seaRM	seaRM	29	VST	2	FALSE	FALSE	NA	d_line	VST	off -
+4	44	seaRM	8	71	3	pdxST	pdxST	6	G	2	FALSE	TRUE	pdxST	o_line	G	G
+4	45	pdxST	5	72	1	seaRM	seaRM	6	VST	5	FALSE	FALSE	NA	o_line	VST	off -
+4	45	pdxST	7	73	2	pdxST	pdxST	16	LG	2	TRUE	TRUE	pdxST	d_line	G	G
+4	46	pdxST	19	74	1	seaRM	seaRM	6	TA	19	FALSE	FALSE	NA	o_line	TA	off -
+4	46	pdxST	34	75	2	pdxST	pdxST	6	TA	15	FALSE	FALSE	NA	d_line	TA	off -
+4	46	pdxST	41	76	3	seaRM	seaRM	18	G	7	TRUE	TRUE	seaRM	o_line	G	G
+4	47	seaRM	5	77	1	pdxST	pdxST	21	G	5	FALSE	TRUE	pdxST	o_line	G	G
+4	48	pdxST	16	78	1	seaRM	seaRM	9	G	16	FALSE	TRUE	seaRM	o_line	G	G
+4	49	seaRM	6	79	1	pdxST	pdxST	14	TA	6	FALSE	FALSE	NA	o_line	TA	off -
+4	49	seaRM	15	80	2	seaRM	seaRM	48	LG	9	TRUE	TRUE	seaRM	d_line	G	G
+4	50	seaRM	6	81	1	pdxST	pdxST	73	G	6	FALSE	TRUE	pdxST	o_line	G	G
+4	51	pdxST	3	82	1	seaRM	seaRM	6	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+4	51	pdxST	6	83	2	pdxST	pdxST	16	G	3	FALSE	TRUE	pdxST	d_line	G	G
