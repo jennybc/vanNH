@@ -1,501 +1,501 @@
-poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards	end_code	end_plyr
-1	1	1	2	3	ao	0	O-PU	pdxST-10		O-CTH	pdxST-24
-1	1	1	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42
-1	1	1	4	5	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-7
-1	1	1	5	6	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-1	1	1	6	7	ao	0	O-CTH	pdxST-24		O-TD	pdxST-11
-2	2	1	8	9	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-37
-2	2	1	9	10	ao	0	O-CTH	sfoDF-37		O-TD	sfoDF-21
-3	3	1	11	12	ao	0	O-PU	pdxST-24		O-CTH	pdxST-2
-3	3	1	12	12	an	-1	O-CTH	pdxST-2		NA	pdxST-2
-4	4	1	13	14	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-21
-4	4	1	14	15	ao	0	O-CTH	sfoDF-21		O-CTH	sfoDF-16
-4	4	1	15	16	ao	0	O-CTH	sfoDF-16		O-G	sfoDF-37
-5	1	2	2	3	ao	0	O-PU	pdxST-24		O-CTH	pdxST-7
-5	1	2	3	4	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-5	1	2	4	5	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16
-5	1	2	5	6	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-42
-5	1	2	6	7	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-7
-5	1	2	7	8	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-16
-5	1	2	8	9	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-24
-5	1	2	9	10	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16
-5	1	2	10	11	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-24
-5	1	2	11	11	an	-1	O-CTH	pdxST-24		NA	pdxST-24
-6	2	2	12	12	an	-1	O-PU	sfoDF-1		NA	sfoDF-1
-7	3	2	13	14	ao	0	O-PU	pdxST-7		O-CTH	pdxST-42
-7	3	2	14	15	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-11
-7	3	2	15	16	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7
-7	3	2	16	16	an	-1	O-CTH	pdxST-7		NA	pdxST-7
-8	4	2	17	18	ao	0	O-PU	sfoDF-25		O-OV	sfoDF-25
-9	5	2	19	20	ao	0	O-PU	pdxST-10		O-G	pdxST-16
-10	1	3	2	3	ao	0	O-PU	sfoDF-88		O-CTH	sfoDF-5
-10	1	3	3	4	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-34
-10	1	3	4	5	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-23
-10	1	3	5	5	an	-1	O-CTH	sfoDF-23		NA	sfoDF-23
-11	2	3	6	7	ao	0	O-PU	pdxST-21		D-D	sfoDF-24
-12	3	3	8	9	ao	0	O-PU	sfoDF-34		O-CTH	sfoDF-40
-12	3	3	9	10	ao	0	O-CTH	sfoDF-40		O-G	sfoDF-23
-13	1	4	2	3	ao	0	O-PU	pdxST-11		O-CTH	pdxST-24
-13	1	4	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7
-13	1	4	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11
-13	1	4	5	6	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-24
-13	1	4	6	7	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10
-13	1	4	7	8	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24
-13	1	4	8	8	an	-1	O-CTH	pdxST-24		NA	pdxST-24
-14	2	4	9	10	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-46
-14	2	4	10	11	ao	0	O-CTH	sfoDF-46		O-CTH	sfoDF-16
-14	2	4	11	12	ao	0	O-CTH	sfoDF-16		O-CTH	sfoDF-85
-14	2	4	12	13	ao	0	O-CTH	sfoDF-85		O-TD	sfoDF-21
-15	3	4	14	15	ao	0	O-PU	pdxST-24		D-D	sfoDF-37
-16	4	4	16	17	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-40
-16	4	4	17	18	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-21
-16	4	4	18	19	ao	0	O-CTH	sfoDF-21		O-TO	sfoDF-16
-16	4	4	20	21	ao	0	O-PU	sfoDF-13		O-CTH	sfoDF-40
-16	4	4	21	22	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-23
-16	4	4	22	23	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-34
-16	4	4	23	24	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-24
-16	4	4	24	25	ao	0	O-CTH	sfoDF-24		O-CTH	sfoDF-40
-16	4	4	25	26	ao	0	O-CTH	sfoDF-40		O-G	sfoDF-5
-17	1	5	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-11
-17	1	5	3	4	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7
-17	1	5	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11
-17	1	5	5	6	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-6
-17	1	5	6	7	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-11
-17	1	5	7	8	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-10
-17	1	5	8	9	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
-17	1	5	9	10	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11
-17	1	5	10	11	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7
-17	1	5	11	12	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-6
-17	1	5	12	13	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-7
-17	1	5	13	14	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11
-17	1	5	14	15	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7
-17	1	5	15	16	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-6
-17	1	5	16	17	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-7
-17	1	5	17	18	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-14
-17	1	5	18	19	ao	0	O-CTH	pdxST-14		O-TD	pdxST-7
-18	2	5	20	21	ao	0	O-PU	sfoDF-25		O-CTH	sfoDF-17
-18	2	5	21	22	ao	0	O-CTH	sfoDF-17		D-D	pdxST-7
-19	3	5	23	24	ao	0	O-PU	pdxST-10		O-CTH	pdxST-11
-19	3	5	24	25	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-42
-19	3	5	25	26	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-11
-19	3	5	26	27	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-42
-19	3	5	27	28	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-7
-19	3	5	28	29	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42
-19	3	5	29	30	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-6
-19	3	5	30	31	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-42
-19	3	5	31	32	ao	0	O-CTH	pdxST-42		O-G	pdxST-11
-20	1	6	2	3	ao	0	O-PU	sfoDF-57		O-CTH	sfoDF-13
-20	1	6	3	4	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-57
-20	1	6	4	5	ao	0	O-CTH	sfoDF-57		O-CTH	sfoDF-13
-20	1	6	5	6	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-57
-20	1	6	6	7	ao	0	O-CTH	sfoDF-57		O-CTH	sfoDF-13
-20	1	6	7	7	an	-1	O-CTH	sfoDF-13		NA	sfoDF-13
-21	2	6	8	9	ao	0	O-PU	pdxST-8		O-CTH	pdxST-21
-21	2	6	9	10	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-8
-21	2	6	10	11	ao	0	O-CTH	pdxST-8		O-G	pdxST-6
-22	1	7	2	3	ao	0	O-PU	sfoDF-23		O-CTH	sfoDF-57
-22	1	7	3	4	ao	0	O-CTH	sfoDF-57		O-CTH	sfoDF-40
-22	1	7	4	5	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-13
-22	1	7	5	6	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-34
-22	1	7	6	7	ao	0	O-CTH	sfoDF-34		O-G	sfoDF-23
-23	1	8	2	3	ao	0	O-PU	pdxST-24		O-CTH	pdxST-11
-23	1	8	3	4	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-24
-23	1	8	4	5	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10
-23	1	8	5	6	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24
-23	1	8	6	7	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-11
-23	1	8	7	8	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7
-23	1	8	8	9	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42
-23	1	8	9	10	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-2
-23	1	8	10	11	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-42
-23	1	8	11	12	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-16
-23	1	8	12	13	ao	0	O-CTH	pdxST-16		O-G	pdxST-7
-24	1	9	2	3	ao	0	O-PU	sfoDF-88		O-CTH	sfoDF-5
-24	1	9	3	4	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-23
-24	1	9	4	5	ao	0	O-CTH	sfoDF-23		D-D	pdxST-17
-25	2	9	6	6	an	-1	O-PU	pdxST-6		NA	pdxST-6
-26	3	9	7	8	ao	0	O-PU	sfoDF-5		O-CTH	sfoDF-34
-26	3	9	8	9	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-23
-26	3	9	9	9	an	-1	O-CTH	sfoDF-23		NA	sfoDF-23
-27	4	9	10	11	ao	0	O-PU	pdxST-6		O-TD	pdxST-22
-28	5	9	13	14	ao	0	O-PU	sfoDF-34		O-G	sfoDF-23
-29	1	10	2	3	ao	0	O-PU	sfoDF-88		O-CTH	sfoDF-5
-29	1	10	3	4	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-23
-29	1	10	4	5	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-24
-29	1	10	5	6	ao	0	O-CTH	sfoDF-24		O-CTH	sfoDF-23
-29	1	10	6	7	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-34
-29	1	10	7	8	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-88
-29	1	10	8	9	ao	0	O-CTH	sfoDF-88		O-G	sfoDF-24
-30	1	11	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-11
-30	1	11	3	4	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7
-30	1	11	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11
-30	1	11	5	6	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7
-30	1	11	6	7	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42
-30	1	11	7	8	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-2
-30	1	11	8	9	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-6
-30	1	11	9	9	an	-1	O-CTH	pdxST-6		NA	pdxST-6
-31	2	11	10	11	ao	0	O-PU	sfoDF-16		O-OV	sfoDF-21
-32	3	11	12	13	ao	0	O-PU	pdxST-10		O-CTH	pdxST-7
-32	3	11	13	14	ao	0	O-CTH	pdxST-7		O-G	pdxST-11
-33	1	12	2	3	ao	0	O-PU	sfoDF-57		O-CTH	sfoDF-5
-33	1	12	3	4	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-57
-33	1	12	4	5	ao	0	O-CTH	sfoDF-57		O-CTH	sfoDF-40
-33	1	12	5	6	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-19
-33	1	12	6	7	ao	0	O-CTH	sfoDF-19		O-CTH	sfoDF-40
-33	1	12	7	8	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-5
-33	1	12	8	9	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-40
-33	1	12	9	10	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-5
-33	1	12	10	11	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-23
-33	1	12	11	12	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-8
-33	1	12	12	13	ao	0	O-CTH	sfoDF-8		O-TD	sfoDF-23
-34	2	12	14	15	ao	0	O-PU	pdxST-21		O-CTH	pdxST-9
-34	2	12	15	16	ao	0	O-CTH	pdxST-9		O-CTH	pdxST-8
-34	2	12	16	17	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-5
-34	2	12	17	18	ao	0	O-CTH	pdxST-5		O-CTH	pdxST-9
-34	2	12	18	19	ao	0	O-CTH	pdxST-9		O-CTH	pdxST-17
-34	2	12	19	20	ao	0	O-CTH	pdxST-17		O-CTH	pdxST-4
-34	2	12	20	21	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-9
-34	2	12	21	22	ao	0	O-CTH	pdxST-9		O-TO	pdxST-5
-34	2	12	23	24	ao	0	O-PU	pdxST-24		O-CTH	pdxST-11
-34	2	12	24	25	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7
-34	2	12	25	26	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-34	2	12	26	27	ao	0	O-CTH	pdxST-24		D-D	sfoDF-85
-35	3	12	28	29	ao	0	O-PU	sfoDF-16		O-G	sfoDF-21
-36	1	13	2	3	ao	0	O-PU	pdxST-24		O-TD	pdxST-7
-37	2	13	4	5	ao	0	O-PU	sfoDF-17		O-CTH	sfoDF-14
-37	2	13	5	6	ao	0	O-CTH	sfoDF-14		O-CTH	sfoDF-17
-37	2	13	6	7	ao	0	O-CTH	sfoDF-17		O-CTH	sfoDF-46
-37	2	13	7	8	ao	0	O-CTH	sfoDF-46		O-CTH	sfoDF-25
-37	2	13	8	8	an	-1	O-CTH	sfoDF-25		NA	sfoDF-25
-38	3	13	9	10	ao	0	O-PU	pdxST-24		D-D	sfoDF-17
-39	4	13	11	12	ao	0	O-PU	sfoDF-17		D-D	pdxST-2
-40	5	13	13	14	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-24
-40	5	13	14	15	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7
-40	5	13	15	17	ao	1	O-CTH	pdxST-7	D-F	O-CTH	pdxST-2
-40	5	13	17	18	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-11
-40	5	13	18	19	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7
-40	5	13	19	20	ao	0	O-CTH	pdxST-7		O-G	pdxST-16
-41	1	14	2	3	ao	0	O-PU	sfoDF-88		O-CTH	sfoDF-13
-41	1	14	3	4	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-88
-41	1	14	4	5	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-40
-41	1	14	5	6	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-5
-41	1	14	6	7	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-34
-41	1	14	7	8	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-13
-41	1	14	8	9	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-34
-41	1	14	9	10	ao	0	O-CTH	sfoDF-34		O-TD	sfoDF-24
-42	2	14	11	12	ao	0	O-PU	pdxST-6		O-CTH	pdxST-22
-42	2	14	12	13	ao	0	O-CTH	pdxST-22		O-CTH	pdxST-21
-42	2	14	13	14	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-22
-42	2	14	14	15	ao	0	O-CTH	pdxST-22		O-CTH	pdxST-17
-42	2	14	15	16	ao	0	O-CTH	pdxST-17		O-CTH	pdxST-22
-42	2	14	16	17	ao	0	O-CTH	pdxST-22		O-CTH	pdxST-8
-42	2	14	17	18	ao	0	O-CTH	pdxST-8		O-TD	pdxST-6
-43	3	14	19	20	ao	0	O-PU	sfoDF-5		O-CTH	sfoDF-23
-43	3	14	20	21	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-5
-43	3	14	21	22	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-23
-43	3	14	22	23	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-13
-43	3	14	23	24	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-5
-43	3	14	24	25	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-40
-43	3	14	25	26	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-34
-43	3	14	26	27	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-13
-43	3	14	27	28	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-5
-43	3	14	28	29	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-13
-43	3	14	29	30	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-23
-43	3	14	30	31	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-5
-43	3	14	31	32	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-40
-43	3	14	32	33	ao	0	O-CTH	sfoDF-40		O-G	sfoDF-24
-44	1	15	2	3	ao	0	O-PU	pdxST-10		O-CTH	pdxST-24
-44	1	15	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7
-44	1	15	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-44	1	15	5	6	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42
-44	1	15	6	7	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-11
-44	1	15	7	8	ao	0	O-CTH	pdxST-11		O-G	pdxST-2
-45	1	16	2	3	ao	0	O-PU	sfoDF-5		O-CTH	sfoDF-88
-45	1	16	3	4	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-40
-45	1	16	4	5	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-23
-45	1	16	5	6	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-34
-45	1	16	6	7	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-13
-45	1	16	7	8	ao	0	O-CTH	sfoDF-13		O-G	sfoDF-24
-46	1	17	2	3	ao	0	O-PU	pdxST-10		O-CTH	pdxST-24
-46	1	17	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7
-46	1	17	4	5	ao	0	O-CTH	pdxST-7		D-D	sfoDF-25
-47	2	17	6	7	ao	0	O-PU	sfoDF-25		O-CTH	sfoDF-11
-47	2	17	7	8	ao	0	O-CTH	sfoDF-11		O-CTH	sfoDF-25
-47	2	17	8	9	ao	0	O-CTH	sfoDF-25		O-CTH	sfoDF-11
-47	2	17	9	9	an	-1	O-CTH	sfoDF-11		NA	sfoDF-11
-48	3	17	10	11	ao	0	O-PU	pdxST-24		O-CTH	pdxST-10
-48	3	17	11	12	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
-48	3	17	12	13	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-48	3	17	13	14	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10
-48	3	17	14	15	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24
-48	3	17	15	16	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10
-48	3	17	16	17	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
-48	3	17	17	18	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-16
-48	3	17	18	19	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-7
-48	3	17	19	20	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-48	3	17	20	21	ao	0	O-CTH	pdxST-24		O-G	pdxST-10
-49	1	18	2	3	ao	0	O-PU	sfoDF-57		O-CTH	sfoDF-8
-49	1	18	3	4	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-40
-49	1	18	4	5	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-23
-49	1	18	5	5	an	-1	O-CTH	sfoDF-23		NA	sfoDF-23
-50	1	19	2	2	an	-1	O-PU	pdxST-24		NA	pdxST-24
-51	2	19	3	4	ao	0	O-PU	sfoDF-16		O-TD	sfoDF-85
-52	3	19	5	6	ao	0	O-PU	pdxST-10		O-CTH	pdxST-7
-52	3	19	6	7	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-52	3	19	7	8	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-2
-52	3	19	8	9	ao	0	O-CTH	pdxST-2		O-OV	pdxST-2
-53	4	19	10	11	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-21
-53	4	19	11	12	ao	0	O-CTH	sfoDF-21		O-G	sfoDF-46
-54	1	20	2	3	ao	0	O-PU	pdxST-10		O-CTH	pdxST-11
-54	1	20	3	3	an	-1	O-CTH	pdxST-11		NA	pdxST-11
-55	2	20	4	5	ao	0	O-PU	sfoDF-14		O-CTH	sfoDF-40
-55	2	20	5	6	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-25
-55	2	20	6	7	ao	0	O-CTH	sfoDF-25		O-G	sfoDF-2
-56	1	21	2	3	ao	0	O-PU	pdxST-24		O-CTH	pdxST-21
-56	1	21	3	4	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-7
-56	1	21	4	4	an	-1	O-CTH	pdxST-7		NA	pdxST-7
-57	2	21	5	6	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-85
-57	2	21	6	7	ao	0	O-CTH	sfoDF-85		O-CTH	sfoDF-10
-57	2	21	7	8	ao	0	O-CTH	sfoDF-10		O-CTH	sfoDF-1
-57	2	21	8	8	an	-1	O-CTH	sfoDF-1		NA	sfoDF-1
-58	3	21	9	10	ao	0	O-PU	pdxST-7		D-D	sfoDF-1
-59	4	21	11	11	an	-1	O-PU	sfoDF-16		NA	sfoDF-16
-60	5	21	12	13	ao	0	O-PU	pdxST-24		O-CTH	pdxST-21
-60	5	21	13	14	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-10
-60	5	21	14	15	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
-60	5	21	15	16	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-2
-60	5	21	16	17	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-7
-60	5	21	17	18	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-60	5	21	18	19	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42
-60	5	21	19	20	ao	0	O-CTH	pdxST-42		O-TD	pdxST-2
-61	6	21	21	22	ao	0	O-PU	sfoDF-16		O-G	sfoDF-1
-62	1	22	2	3	ao	0	O-PU	pdxST-10		O-CTH	pdxST-24
-62	1	22	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16
-62	1	22	4	5	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-6
-62	1	22	5	6	ao	0	O-CTH	pdxST-6		D-D	sfoDF-24
-63	2	22	7	8	ao	0	O-PU	sfoDF-13		O-G	sfoDF-40
-64	1	23	2	3	ao	0	O-PU	pdxST-9		O-CTH	pdxST-10
-64	1	23	3	4	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-11
-64	1	23	4	5	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7
-64	1	23	5	6	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11
-64	1	23	6	7	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-10
-64	1	23	7	8	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-11
-64	1	23	8	9	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-10
-64	1	23	9	10	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-9
-64	1	23	10	11	ao	0	O-CTH	pdxST-9		O-CTH	pdxST-10
-64	1	23	11	12	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
-64	1	23	12	13	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11
-64	1	23	13	14	ao	0	O-CTH	pdxST-11		D-D	sfoDF-9
-65	2	23	15	15	an	-1	O-PU	sfoDF-17		NA	sfoDF-17
-66	3	23	16	17	ao	0	O-PU	pdxST-11		O-CTH	pdxST-7
-66	3	23	17	18	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10
-66	3	23	18	19	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-9
-66	3	23	19	20	ao	0	O-CTH	pdxST-9		O-CTH	pdxST-10
-66	3	23	20	21	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-11
-66	3	23	21	22	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-10
-66	3	23	22	23	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
-66	3	23	23	24	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11
-66	3	23	24	25	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7
-66	3	23	25	26	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10
-66	3	23	26	27	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-11
-66	3	23	27	28	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-9
-66	3	23	28	29	ao	0	O-CTH	pdxST-9		O-CTH	pdxST-7
-66	3	23	29	30	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-2
-66	3	23	30	31	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-11
-66	3	23	31	32	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-10
-66	3	23	32	33	ao	0	O-CTH	pdxST-10		O-G	pdxST-42
-67	1	24	2	3	ao	0	O-PU	sfoDF-57		O-CTH	sfoDF-8
-67	1	24	3	4	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-57
-67	1	24	4	5	ao	0	O-CTH	sfoDF-57		O-CTH	sfoDF-34
-67	1	24	5	6	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-23
-67	1	24	6	7	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-88
-67	1	24	7	8	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-23
-67	1	24	8	9	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-8
-67	1	24	9	10	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-23
-67	1	24	10	11	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-40
-67	1	24	11	12	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-88
-67	1	24	12	13	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-23
-67	1	24	13	14	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-88
-67	1	24	14	15	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-34
-67	1	24	15	16	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-88
-67	1	24	16	16	an	-1	O-CTH	sfoDF-88		NA	sfoDF-88
-68	2	24	17	18	ao	0	O-PU	pdxST-21		O-CTH	pdxST-22
-68	2	24	18	19	ao	0	O-CTH	pdxST-22		O-G	pdxST-4
-69	1	25	2	3	ao	0	O-PU	sfoDF-88		O-CTH	sfoDF-5
-69	1	25	3	4	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-23
-69	1	25	4	5	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-40
-69	1	25	5	6	ao	0	O-CTH	sfoDF-40		O-G	sfoDF-24
-70	1	26	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-42
-70	1	26	3	5	ao	1	O-CTH	pdxST-42	D-F	O-CTH	pdxST-16
-70	1	26	5	7	ao	1	O-CTH	pdxST-16	D-F	D-D	sfoDF-16
-71	2	26	8	9	ao	0	O-PU	sfoDF-21		D-D	pdxST-42
-72	3	26	10	11	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24
-72	3	26	11	12	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42
-72	3	26	12	13	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-7
-72	3	26	13	14	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42
-72	3	26	14	14	an	-1	O-CTH	pdxST-42		NA	pdxST-42
-73	4	26	15	15	an	-1	O-PU	sfoDF-1		NA	sfoDF-1
-74	1	27	2	3	ao	0	O-PU	sfoDF-57		O-CTH	sfoDF-8
-74	1	27	3	4	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-34
-74	1	27	4	4	an	-1	O-CTH	sfoDF-34		NA	sfoDF-34
-75	2	27	5	6	ao	0	O-PU	pdxST-21		O-CTH	pdxST-8
-75	2	27	6	7	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-7
-75	2	27	7	8	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-6
-75	2	27	8	9	ao	0	O-CTH	pdxST-6		O-G	pdxST-5
-76	1	28	2	3	ao	0	O-PU	sfoDF-5		O-CTH	sfoDF-40
-76	1	28	3	3	an	-1	O-CTH	sfoDF-40		NA	sfoDF-40
-77	2	28	4	5	ao	0	O-PU	pdxST-42		O-CTH	pdxST-8
-77	2	28	5	6	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-16
-77	2	28	6	7	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-42
-77	2	28	7	8	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-7
-77	2	28	8	9	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-77	2	28	9	10	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7
-77	2	28	10	11	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10
-77	2	28	11	12	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
-77	2	28	12	13	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-77	2	28	13	14	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16
-77	2	28	14	15	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-24
-77	2	28	15	16	ao	0	O-CTH	pdxST-24		O-G	pdxST-7
-78	1	29	2	3	ao	0	O-PU	sfoDF-5		O-CTH	sfoDF-34
-78	1	29	3	4	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-88
-78	1	29	4	5	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-5
-78	1	29	5	6	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-88
-78	1	29	6	7	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-34
-78	1	29	7	8	ao	0	O-CTH	sfoDF-34		O-TD	sfoDF-23
-79	2	29	9	10	ao	0	O-PU	pdxST-21		O-CTH	pdxST-8
-79	2	29	10	11	ao	0	O-CTH	pdxST-8		O-G	pdxST-22
-80	1	30	2	3	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-21
-80	1	30	3	4	ao	0	O-CTH	sfoDF-21		O-G	sfoDF-1
-81	1	31	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-21
-81	1	31	3	3	an	-1	O-CTH	pdxST-21		NA	pdxST-21
-82	2	31	4	5	ao	0	O-PU	sfoDF-12		O-OV	sfoDF-12
-83	3	31	6	7	ao	0	O-PU	pdxST-21		O-G	pdxST-8
-84	1	32	2	2	an	-1	O-PU	sfoDF-13		NA	sfoDF-13
-85	2	32	3	4	ao	0	O-PU	pdxST-7		O-CTH	pdxST-10
-85	2	32	4	5	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
-85	2	32	5	6	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-85	2	32	6	7	ao	0	O-CTH	pdxST-24		O-TD	pdxST-17
-86	3	32	8	9	ao	0	O-PU	sfoDF-34		O-CTH	sfoDF-40
-86	3	32	9	10	ao	0	O-CTH	sfoDF-40		O-G	sfoDF-13
-87	1	33	2	3	ao	0	O-PU	pdxST-9		O-CTH	pdxST-21
-87	1	33	3	4	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-42
-87	1	33	4	5	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-2
-87	1	33	5	6	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-9
-87	1	33	6	7	ao	0	O-CTH	pdxST-9		O-CTH	pdxST-21
-87	1	33	7	8	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-6
-87	1	33	8	10	ao	1	O-CTH	pdxST-6	D-F	O-CTH	pdxST-21
-87	1	33	10	11	ao	0	O-CTH	pdxST-21		O-G	pdxST-7
-88	1	34	2	3	ao	0	O-PU	sfoDF-5		O-CTH	sfoDF-34
-88	1	34	3	4	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-24
-88	1	34	4	5	ao	0	O-CTH	sfoDF-24		O-CTH	sfoDF-23
-88	1	34	5	6	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-40
-88	1	34	6	7	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-23
-88	1	34	7	8	ao	0	O-CTH	sfoDF-23		D-D	pdxST-6
-89	2	34	9	10	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-7
-89	2	34	10	11	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-8
-89	2	34	11	12	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-42
-89	2	34	12	13	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-6
-89	2	34	13	14	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-8
-89	2	34	14	15	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-7
-89	2	34	15	16	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42
-89	2	34	16	17	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-17
-89	2	34	17	18	ao	0	O-CTH	pdxST-17		O-CTH	pdxST-42
-89	2	34	18	19	ao	0	O-CTH	pdxST-42		O-TD	pdxST-7
-90	3	34	20	21	ao	0	O-PU	sfoDF-40		O-CTH	sfoDF-34
-90	3	34	21	22	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-13
-90	3	34	22	23	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-40
-90	3	34	23	24	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-88
-90	3	34	24	25	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-5
-90	3	34	25	26	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-40
-90	3	34	26	27	ao	0	O-CTH	sfoDF-40		O-OV	sfoDF-13
-91	4	34	29	30	ao	0	O-PU	pdxST-24		O-CTH	pdxST-21
-91	4	34	30	32	ao	1	O-CTH	pdxST-21	D-F	O-CTH	pdxST-8
-91	4	34	32	33	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-11
-91	4	34	33	34	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-8
-91	4	34	34	35	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-21
-91	4	34	35	36	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-8
-91	4	34	36	37	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-21
-91	4	34	37	38	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-8
-91	4	34	38	39	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-11
-91	4	34	39	40	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7
-91	4	34	40	42	ao	1	O-CTH	pdxST-7	D-F	O-CTH	pdxST-11
-91	4	34	42	43	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7
-91	4	34	43	43	an	-1	O-CTH	pdxST-7		NA	pdxST-7
-92	5	34	44	45	ao	0	O-PU	sfoDF-16		D-D	pdxST-21
-93	6	34	46	47	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-16
-93	6	34	47	48	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-7
-93	6	34	48	49	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-21
-93	6	34	49	50	ao	0	O-CTH	pdxST-21		D-D	sfoDF-21
-94	7	34	52	54	ao	1	O-PU	sfoDF-23	D-F	O-CTH	sfoDF-34
-94	7	34	54	55	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-24
-94	7	34	55	56	ao	0	O-CTH	sfoDF-24		O-OV	sfoDF-88
-95	8	34	57	58	ao	0	O-PU	pdxST-11		O-CTH	pdxST-21
-95	8	34	58	59	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-8
-95	8	34	59	60	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-16
-95	8	34	60	61	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-21
-95	8	34	61	62	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-11
-95	8	34	62	63	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-21
-95	8	34	63	64	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-11
-95	8	34	64	65	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7
-95	8	34	65	66	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-8
-95	8	34	66	67	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-7
-95	8	34	67	68	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-8
-95	8	34	68	69	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-7
-95	8	34	69	70	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-8
-95	8	34	70	72	ao	1	O-CTH	pdxST-8	D-F	O-G	pdxST-7
-96	1	35	2	3	ao	0	O-PU	sfoDF-13		O-CTH	sfoDF-23
-96	1	35	3	3	an	-1	O-CTH	sfoDF-23		NA	sfoDF-23
-97	1	36	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24
-97	1	36	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7
-97	1	36	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-6
-97	1	36	5	6	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-7
-97	1	36	6	7	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10
-97	1	36	7	8	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
-97	1	36	8	9	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10
-97	1	36	9	10	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-2
-97	1	36	10	11	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-6
-97	1	36	11	12	ao	0	O-CTH	pdxST-6		O-TD	pdxST-8
-98	2	36	14	15	ao	0	O-PU	sfoDF-12		O-CTH	sfoDF-85
-98	2	36	15	15	an	-1	O-CTH	sfoDF-85		NA	sfoDF-85
-99	3	36	16	17	ao	0	O-PU	pdxST-24		O-CTH	pdxST-10
-99	3	36	17	18	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
-99	3	36	18	19	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10
-99	3	36	19	20	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
-99	3	36	20	21	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10
-99	3	36	21	22	ao	0	O-CTH	pdxST-10		O-G	pdxST-2
-100	1	37	2	3	ao	0	O-PU	sfoDF-88		O-CTH	sfoDF-5
-100	1	37	3	4	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-88
-100	1	37	4	5	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-34
-100	1	37	5	6	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-5
-100	1	37	6	7	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-24
-100	1	37	7	8	ao	0	O-CTH	sfoDF-24		O-CTH	sfoDF-34
-100	1	37	8	9	ao	0	O-CTH	sfoDF-34		D-D	pdxST-6
-101	2	37	10	11	ao	0	O-PU	pdxST-22		O-CTH	pdxST-6
-101	2	37	11	12	ao	0	O-CTH	pdxST-6		D-D	sfoDF-24
-102	3	37	13	14	ao	0	O-PU	sfoDF-5		O-CTH	sfoDF-13
-102	3	37	14	15	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-24
-102	3	37	15	16	ao	0	O-CTH	sfoDF-24		O-CTH	sfoDF-88
-102	3	37	16	17	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-23
-102	3	37	17	17	an	-1	O-CTH	sfoDF-23		NA	sfoDF-23
-103	4	37	18	19	ao	0	O-PU	pdxST-6		O-CTH	pdxST-21
-103	4	37	19	20	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-5
-103	4	37	20	21	ao	0	O-CTH	pdxST-5		D-D	sfoDF-5
-104	5	37	22	23	ao	0	O-PU	sfoDF-34		O-CTH	sfoDF-8
-104	5	37	23	24	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-24
-104	5	37	24	25	ao	0	O-CTH	sfoDF-24		O-CTH	sfoDF-13
-104	5	37	25	26	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-5
-104	5	37	26	27	ao	0	O-CTH	sfoDF-5		O-TO	sfoDF-34
-104	5	37	28	29	ao	0	O-PU	sfoDF-40		O-CTH	sfoDF-23
-104	5	37	29	30	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-13
-104	5	37	30	31	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-46
-104	5	37	31	32	ao	0	O-CTH	sfoDF-46		O-CTH	sfoDF-23
-104	5	37	32	32	an	-1	O-CTH	sfoDF-23		NA	sfoDF-23
-105	6	37	33	34	ao	0	O-PU	pdxST-21		O-CTH	pdxST-9
-105	6	37	34	35	ao	0	O-CTH	pdxST-9		O-CTH	pdxST-21
-105	6	37	35	36	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-14
-105	6	37	36	37	ao	0	O-CTH	pdxST-14		O-CTH	pdxST-17
-105	6	37	37	38	ao	0	O-CTH	pdxST-17		O-CTH	pdxST-7
-105	6	37	38	39	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-4
-105	6	37	39	40	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-7
-105	6	37	40	41	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-22
-105	6	37	41	42	ao	0	O-CTH	pdxST-22		O-G	pdxST-9
-106	1	38	2	3	ao	0	O-PU	sfoDF-16		D-D	pdxST-14
+poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards	end_code	end_plyr	wl	pclass
+1	1	1	2	3	ao	0	O-PU	pdxST-10		O-CTH	pdxST-24	TRUE	compl
+1	1	1	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42	TRUE	compl
+1	1	1	4	5	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-7	TRUE	compl
+1	1	1	5	6	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+1	1	1	6	7	ao	0	O-CTH	pdxST-24		O-TD	pdxST-11	TRUE	drop
+2	2	1	8	9	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-37	TRUE	compl
+2	2	1	9	10	ao	0	O-CTH	sfoDF-37		O-TD	sfoDF-21	TRUE	drop
+3	3	1	11	12	ao	0	O-PU	pdxST-24		O-CTH	pdxST-2	TRUE	compl
+3	3	1	12	12	an	-1	O-CTH	pdxST-2		NA	pdxST-2	TRUE	taway
+4	4	1	13	14	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-21	TRUE	compl
+4	4	1	14	15	ao	0	O-CTH	sfoDF-21		O-CTH	sfoDF-16	TRUE	compl
+4	4	1	15	16	ao	0	O-CTH	sfoDF-16		O-G	sfoDF-37	TRUE	compl
+5	1	2	2	3	ao	0	O-PU	pdxST-24		O-CTH	pdxST-7	TRUE	compl
+5	1	2	3	4	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+5	1	2	4	5	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16	TRUE	compl
+5	1	2	5	6	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-42	TRUE	compl
+5	1	2	6	7	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-7	TRUE	compl
+5	1	2	7	8	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-16	TRUE	compl
+5	1	2	8	9	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-24	TRUE	compl
+5	1	2	9	10	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16	TRUE	compl
+5	1	2	10	11	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-24	TRUE	compl
+5	1	2	11	11	an	-1	O-CTH	pdxST-24		NA	pdxST-24	TRUE	taway
+6	2	2	12	12	an	-1	O-PU	sfoDF-1		NA	sfoDF-1	TRUE	taway
+7	3	2	13	14	ao	0	O-PU	pdxST-7		O-CTH	pdxST-42	TRUE	compl
+7	3	2	14	15	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-11	TRUE	compl
+7	3	2	15	16	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7	TRUE	compl
+7	3	2	16	16	an	-1	O-CTH	pdxST-7		NA	pdxST-7	TRUE	taway
+8	4	2	17	18	ao	0	O-PU	sfoDF-25		O-OV	sfoDF-25	TRUE	nopass
+9	5	2	19	20	ao	0	O-PU	pdxST-10		O-G	pdxST-16	TRUE	compl
+10	1	3	2	3	ao	0	O-PU	sfoDF-88		O-CTH	sfoDF-5	TRUE	compl
+10	1	3	3	4	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-34	TRUE	compl
+10	1	3	4	5	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-23	TRUE	compl
+10	1	3	5	5	an	-1	O-CTH	sfoDF-23		NA	sfoDF-23	TRUE	taway
+11	2	3	6	7	ao	0	O-PU	pdxST-21		D-D	sfoDF-24	TRUE	defd
+12	3	3	8	9	ao	0	O-PU	sfoDF-34		O-CTH	sfoDF-40	TRUE	compl
+12	3	3	9	10	ao	0	O-CTH	sfoDF-40		O-G	sfoDF-23	TRUE	compl
+13	1	4	2	3	ao	0	O-PU	pdxST-11		O-CTH	pdxST-24	TRUE	compl
+13	1	4	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7	TRUE	compl
+13	1	4	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11	TRUE	compl
+13	1	4	5	6	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-24	TRUE	compl
+13	1	4	6	7	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10	TRUE	compl
+13	1	4	7	8	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24	TRUE	compl
+13	1	4	8	8	an	-1	O-CTH	pdxST-24		NA	pdxST-24	TRUE	taway
+14	2	4	9	10	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-46	TRUE	compl
+14	2	4	10	11	ao	0	O-CTH	sfoDF-46		O-CTH	sfoDF-16	TRUE	compl
+14	2	4	11	12	ao	0	O-CTH	sfoDF-16		O-CTH	sfoDF-85	TRUE	compl
+14	2	4	12	13	ao	0	O-CTH	sfoDF-85		O-TD	sfoDF-21	TRUE	drop
+15	3	4	14	15	ao	0	O-PU	pdxST-24		D-D	sfoDF-37	TRUE	defd
+16	4	4	16	17	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-40	TRUE	compl
+16	4	4	17	18	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-21	TRUE	compl
+16	4	4	18	19	ao	0	O-CTH	sfoDF-21		O-TO	sfoDF-16	TRUE	compl
+16	4	4	20	21	ao	0	O-PU	sfoDF-13		O-CTH	sfoDF-40	TRUE	compl
+16	4	4	21	22	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-23	TRUE	compl
+16	4	4	22	23	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-34	TRUE	compl
+16	4	4	23	24	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-24	TRUE	compl
+16	4	4	24	25	ao	0	O-CTH	sfoDF-24		O-CTH	sfoDF-40	TRUE	compl
+16	4	4	25	26	ao	0	O-CTH	sfoDF-40		O-G	sfoDF-5	TRUE	compl
+17	1	5	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-11	TRUE	compl
+17	1	5	3	4	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7	TRUE	compl
+17	1	5	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11	TRUE	compl
+17	1	5	5	6	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-6	TRUE	compl
+17	1	5	6	7	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-11	TRUE	compl
+17	1	5	7	8	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-10	TRUE	compl
+17	1	5	8	9	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+17	1	5	9	10	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11	TRUE	compl
+17	1	5	10	11	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7	TRUE	compl
+17	1	5	11	12	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-6	TRUE	compl
+17	1	5	12	13	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-7	TRUE	compl
+17	1	5	13	14	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11	TRUE	compl
+17	1	5	14	15	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7	TRUE	compl
+17	1	5	15	16	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-6	TRUE	compl
+17	1	5	16	17	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-7	TRUE	compl
+17	1	5	17	18	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-14	TRUE	compl
+17	1	5	18	19	ao	0	O-CTH	pdxST-14		O-TD	pdxST-7	TRUE	drop
+18	2	5	20	21	ao	0	O-PU	sfoDF-25		O-CTH	sfoDF-17	TRUE	compl
+18	2	5	21	22	ao	0	O-CTH	sfoDF-17		D-D	pdxST-7	TRUE	defd
+19	3	5	23	24	ao	0	O-PU	pdxST-10		O-CTH	pdxST-11	TRUE	compl
+19	3	5	24	25	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-42	TRUE	compl
+19	3	5	25	26	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-11	TRUE	compl
+19	3	5	26	27	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-42	TRUE	compl
+19	3	5	27	28	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-7	TRUE	compl
+19	3	5	28	29	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42	TRUE	compl
+19	3	5	29	30	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-6	TRUE	compl
+19	3	5	30	31	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-42	TRUE	compl
+19	3	5	31	32	ao	0	O-CTH	pdxST-42		O-G	pdxST-11	TRUE	compl
+20	1	6	2	3	ao	0	O-PU	sfoDF-57		O-CTH	sfoDF-13	TRUE	compl
+20	1	6	3	4	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-57	TRUE	compl
+20	1	6	4	5	ao	0	O-CTH	sfoDF-57		O-CTH	sfoDF-13	TRUE	compl
+20	1	6	5	6	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-57	TRUE	compl
+20	1	6	6	7	ao	0	O-CTH	sfoDF-57		O-CTH	sfoDF-13	TRUE	compl
+20	1	6	7	7	an	-1	O-CTH	sfoDF-13		NA	sfoDF-13	TRUE	taway
+21	2	6	8	9	ao	0	O-PU	pdxST-8		O-CTH	pdxST-21	TRUE	compl
+21	2	6	9	10	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-8	TRUE	compl
+21	2	6	10	11	ao	0	O-CTH	pdxST-8		O-G	pdxST-6	TRUE	compl
+22	1	7	2	3	ao	0	O-PU	sfoDF-23		O-CTH	sfoDF-57	TRUE	compl
+22	1	7	3	4	ao	0	O-CTH	sfoDF-57		O-CTH	sfoDF-40	TRUE	compl
+22	1	7	4	5	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-13	TRUE	compl
+22	1	7	5	6	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-34	TRUE	compl
+22	1	7	6	7	ao	0	O-CTH	sfoDF-34		O-G	sfoDF-23	TRUE	compl
+23	1	8	2	3	ao	0	O-PU	pdxST-24		O-CTH	pdxST-11	TRUE	compl
+23	1	8	3	4	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-24	TRUE	compl
+23	1	8	4	5	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10	TRUE	compl
+23	1	8	5	6	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24	TRUE	compl
+23	1	8	6	7	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-11	TRUE	compl
+23	1	8	7	8	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7	TRUE	compl
+23	1	8	8	9	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42	TRUE	compl
+23	1	8	9	10	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-2	TRUE	compl
+23	1	8	10	11	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-42	TRUE	compl
+23	1	8	11	12	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-16	TRUE	compl
+23	1	8	12	13	ao	0	O-CTH	pdxST-16		O-G	pdxST-7	TRUE	compl
+24	1	9	2	3	ao	0	O-PU	sfoDF-88		O-CTH	sfoDF-5	TRUE	compl
+24	1	9	3	4	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-23	TRUE	compl
+24	1	9	4	5	ao	0	O-CTH	sfoDF-23		D-D	pdxST-17	TRUE	defd
+25	2	9	6	6	an	-1	O-PU	pdxST-6		NA	pdxST-6	TRUE	taway
+26	3	9	7	8	ao	0	O-PU	sfoDF-5		O-CTH	sfoDF-34	TRUE	compl
+26	3	9	8	9	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-23	TRUE	compl
+26	3	9	9	9	an	-1	O-CTH	sfoDF-23		NA	sfoDF-23	TRUE	taway
+27	4	9	10	11	ao	0	O-PU	pdxST-6		O-TD	pdxST-22	TRUE	drop
+28	5	9	13	14	ao	0	O-PU	sfoDF-34		O-G	sfoDF-23	TRUE	compl
+29	1	10	2	3	ao	0	O-PU	sfoDF-88		O-CTH	sfoDF-5	TRUE	compl
+29	1	10	3	4	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-23	TRUE	compl
+29	1	10	4	5	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-24	TRUE	compl
+29	1	10	5	6	ao	0	O-CTH	sfoDF-24		O-CTH	sfoDF-23	TRUE	compl
+29	1	10	6	7	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-34	TRUE	compl
+29	1	10	7	8	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-88	TRUE	compl
+29	1	10	8	9	ao	0	O-CTH	sfoDF-88		O-G	sfoDF-24	TRUE	compl
+30	1	11	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-11	TRUE	compl
+30	1	11	3	4	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7	TRUE	compl
+30	1	11	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11	TRUE	compl
+30	1	11	5	6	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7	TRUE	compl
+30	1	11	6	7	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42	TRUE	compl
+30	1	11	7	8	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-2	TRUE	compl
+30	1	11	8	9	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-6	TRUE	compl
+30	1	11	9	9	an	-1	O-CTH	pdxST-6		NA	pdxST-6	TRUE	taway
+31	2	11	10	11	ao	0	O-PU	sfoDF-16		O-OV	sfoDF-21	TRUE	compl
+32	3	11	12	13	ao	0	O-PU	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+32	3	11	13	14	ao	0	O-CTH	pdxST-7		O-G	pdxST-11	TRUE	compl
+33	1	12	2	3	ao	0	O-PU	sfoDF-57		O-CTH	sfoDF-5	TRUE	compl
+33	1	12	3	4	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-57	TRUE	compl
+33	1	12	4	5	ao	0	O-CTH	sfoDF-57		O-CTH	sfoDF-40	TRUE	compl
+33	1	12	5	6	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-19	TRUE	compl
+33	1	12	6	7	ao	0	O-CTH	sfoDF-19		O-CTH	sfoDF-40	TRUE	compl
+33	1	12	7	8	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-5	TRUE	compl
+33	1	12	8	9	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-40	TRUE	compl
+33	1	12	9	10	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-5	TRUE	compl
+33	1	12	10	11	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-23	TRUE	compl
+33	1	12	11	12	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-8	TRUE	compl
+33	1	12	12	13	ao	0	O-CTH	sfoDF-8		O-TD	sfoDF-23	TRUE	drop
+34	2	12	14	15	ao	0	O-PU	pdxST-21		O-CTH	pdxST-9	TRUE	compl
+34	2	12	15	16	ao	0	O-CTH	pdxST-9		O-CTH	pdxST-8	TRUE	compl
+34	2	12	16	17	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-5	TRUE	compl
+34	2	12	17	18	ao	0	O-CTH	pdxST-5		O-CTH	pdxST-9	TRUE	compl
+34	2	12	18	19	ao	0	O-CTH	pdxST-9		O-CTH	pdxST-17	TRUE	compl
+34	2	12	19	20	ao	0	O-CTH	pdxST-17		O-CTH	pdxST-4	TRUE	compl
+34	2	12	20	21	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-9	TRUE	compl
+34	2	12	21	22	ao	0	O-CTH	pdxST-9		O-TO	pdxST-5	TRUE	compl
+34	2	12	23	24	ao	0	O-PU	pdxST-24		O-CTH	pdxST-11	TRUE	compl
+34	2	12	24	25	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7	TRUE	compl
+34	2	12	25	26	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+34	2	12	26	27	ao	0	O-CTH	pdxST-24		D-D	sfoDF-85	TRUE	defd
+35	3	12	28	29	ao	0	O-PU	sfoDF-16		O-G	sfoDF-21	TRUE	compl
+36	1	13	2	3	ao	0	O-PU	pdxST-24		O-TD	pdxST-7	TRUE	drop
+37	2	13	4	5	ao	0	O-PU	sfoDF-17		O-CTH	sfoDF-14	TRUE	compl
+37	2	13	5	6	ao	0	O-CTH	sfoDF-14		O-CTH	sfoDF-17	TRUE	compl
+37	2	13	6	7	ao	0	O-CTH	sfoDF-17		O-CTH	sfoDF-46	TRUE	compl
+37	2	13	7	8	ao	0	O-CTH	sfoDF-46		O-CTH	sfoDF-25	TRUE	compl
+37	2	13	8	8	an	-1	O-CTH	sfoDF-25		NA	sfoDF-25	TRUE	taway
+38	3	13	9	10	ao	0	O-PU	pdxST-24		D-D	sfoDF-17	TRUE	defd
+39	4	13	11	12	ao	0	O-PU	sfoDF-17		D-D	pdxST-2	TRUE	defd
+40	5	13	13	14	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-24	TRUE	compl
+40	5	13	14	15	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7	TRUE	compl
+40	5	13	15	17	ao	1	O-CTH	pdxST-7	D-F	O-CTH	pdxST-2	TRUE	compl
+40	5	13	17	18	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-11	TRUE	compl
+40	5	13	18	19	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7	TRUE	compl
+40	5	13	19	20	ao	0	O-CTH	pdxST-7		O-G	pdxST-16	TRUE	compl
+41	1	14	2	3	ao	0	O-PU	sfoDF-88		O-CTH	sfoDF-13	TRUE	compl
+41	1	14	3	4	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-88	TRUE	compl
+41	1	14	4	5	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-40	TRUE	compl
+41	1	14	5	6	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-5	TRUE	compl
+41	1	14	6	7	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-34	TRUE	compl
+41	1	14	7	8	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-13	TRUE	compl
+41	1	14	8	9	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-34	TRUE	compl
+41	1	14	9	10	ao	0	O-CTH	sfoDF-34		O-TD	sfoDF-24	TRUE	drop
+42	2	14	11	12	ao	0	O-PU	pdxST-6		O-CTH	pdxST-22	TRUE	compl
+42	2	14	12	13	ao	0	O-CTH	pdxST-22		O-CTH	pdxST-21	TRUE	compl
+42	2	14	13	14	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-22	TRUE	compl
+42	2	14	14	15	ao	0	O-CTH	pdxST-22		O-CTH	pdxST-17	TRUE	compl
+42	2	14	15	16	ao	0	O-CTH	pdxST-17		O-CTH	pdxST-22	TRUE	compl
+42	2	14	16	17	ao	0	O-CTH	pdxST-22		O-CTH	pdxST-8	TRUE	compl
+42	2	14	17	18	ao	0	O-CTH	pdxST-8		O-TD	pdxST-6	TRUE	drop
+43	3	14	19	20	ao	0	O-PU	sfoDF-5		O-CTH	sfoDF-23	TRUE	compl
+43	3	14	20	21	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-5	TRUE	compl
+43	3	14	21	22	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-23	TRUE	compl
+43	3	14	22	23	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-13	TRUE	compl
+43	3	14	23	24	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-5	TRUE	compl
+43	3	14	24	25	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-40	TRUE	compl
+43	3	14	25	26	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-34	TRUE	compl
+43	3	14	26	27	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-13	TRUE	compl
+43	3	14	27	28	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-5	TRUE	compl
+43	3	14	28	29	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-13	TRUE	compl
+43	3	14	29	30	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-23	TRUE	compl
+43	3	14	30	31	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-5	TRUE	compl
+43	3	14	31	32	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-40	TRUE	compl
+43	3	14	32	33	ao	0	O-CTH	sfoDF-40		O-G	sfoDF-24	TRUE	compl
+44	1	15	2	3	ao	0	O-PU	pdxST-10		O-CTH	pdxST-24	TRUE	compl
+44	1	15	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7	TRUE	compl
+44	1	15	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+44	1	15	5	6	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42	TRUE	compl
+44	1	15	6	7	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-11	TRUE	compl
+44	1	15	7	8	ao	0	O-CTH	pdxST-11		O-G	pdxST-2	TRUE	compl
+45	1	16	2	3	ao	0	O-PU	sfoDF-5		O-CTH	sfoDF-88	TRUE	compl
+45	1	16	3	4	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-40	TRUE	compl
+45	1	16	4	5	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-23	TRUE	compl
+45	1	16	5	6	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-34	TRUE	compl
+45	1	16	6	7	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-13	TRUE	compl
+45	1	16	7	8	ao	0	O-CTH	sfoDF-13		O-G	sfoDF-24	TRUE	compl
+46	1	17	2	3	ao	0	O-PU	pdxST-10		O-CTH	pdxST-24	TRUE	compl
+46	1	17	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7	TRUE	compl
+46	1	17	4	5	ao	0	O-CTH	pdxST-7		D-D	sfoDF-25	TRUE	defd
+47	2	17	6	7	ao	0	O-PU	sfoDF-25		O-CTH	sfoDF-11	TRUE	compl
+47	2	17	7	8	ao	0	O-CTH	sfoDF-11		O-CTH	sfoDF-25	TRUE	compl
+47	2	17	8	9	ao	0	O-CTH	sfoDF-25		O-CTH	sfoDF-11	TRUE	compl
+47	2	17	9	9	an	-1	O-CTH	sfoDF-11		NA	sfoDF-11	TRUE	taway
+48	3	17	10	11	ao	0	O-PU	pdxST-24		O-CTH	pdxST-10	TRUE	compl
+48	3	17	11	12	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+48	3	17	12	13	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+48	3	17	13	14	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10	TRUE	compl
+48	3	17	14	15	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24	TRUE	compl
+48	3	17	15	16	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10	TRUE	compl
+48	3	17	16	17	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+48	3	17	17	18	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-16	TRUE	compl
+48	3	17	18	19	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-7	TRUE	compl
+48	3	17	19	20	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+48	3	17	20	21	ao	0	O-CTH	pdxST-24		O-G	pdxST-10	TRUE	compl
+49	1	18	2	3	ao	0	O-PU	sfoDF-57		O-CTH	sfoDF-8	TRUE	compl
+49	1	18	3	4	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-40	TRUE	compl
+49	1	18	4	5	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-23	TRUE	compl
+49	1	18	5	5	an	-1	O-CTH	sfoDF-23		NA	sfoDF-23	TRUE	taway
+50	1	19	2	2	an	-1	O-PU	pdxST-24		NA	pdxST-24	TRUE	taway
+51	2	19	3	4	ao	0	O-PU	sfoDF-16		O-TD	sfoDF-85	TRUE	drop
+52	3	19	5	6	ao	0	O-PU	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+52	3	19	6	7	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+52	3	19	7	8	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-2	TRUE	compl
+52	3	19	8	9	ao	0	O-CTH	pdxST-2		O-OV	pdxST-2	TRUE	nopass
+53	4	19	10	11	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-21	TRUE	compl
+53	4	19	11	12	ao	0	O-CTH	sfoDF-21		O-G	sfoDF-46	TRUE	compl
+54	1	20	2	3	ao	0	O-PU	pdxST-10		O-CTH	pdxST-11	TRUE	compl
+54	1	20	3	3	an	-1	O-CTH	pdxST-11		NA	pdxST-11	TRUE	taway
+55	2	20	4	5	ao	0	O-PU	sfoDF-14		O-CTH	sfoDF-40	TRUE	compl
+55	2	20	5	6	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-25	TRUE	compl
+55	2	20	6	7	ao	0	O-CTH	sfoDF-25		O-G	sfoDF-2	TRUE	compl
+56	1	21	2	3	ao	0	O-PU	pdxST-24		O-CTH	pdxST-21	TRUE	compl
+56	1	21	3	4	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-7	TRUE	compl
+56	1	21	4	4	an	-1	O-CTH	pdxST-7		NA	pdxST-7	TRUE	taway
+57	2	21	5	6	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-85	TRUE	compl
+57	2	21	6	7	ao	0	O-CTH	sfoDF-85		O-CTH	sfoDF-10	TRUE	compl
+57	2	21	7	8	ao	0	O-CTH	sfoDF-10		O-CTH	sfoDF-1	TRUE	compl
+57	2	21	8	8	an	-1	O-CTH	sfoDF-1		NA	sfoDF-1	TRUE	taway
+58	3	21	9	10	ao	0	O-PU	pdxST-7		D-D	sfoDF-1	TRUE	defd
+59	4	21	11	11	an	-1	O-PU	sfoDF-16		NA	sfoDF-16	TRUE	taway
+60	5	21	12	13	ao	0	O-PU	pdxST-24		O-CTH	pdxST-21	TRUE	compl
+60	5	21	13	14	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-10	TRUE	compl
+60	5	21	14	15	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+60	5	21	15	16	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-2	TRUE	compl
+60	5	21	16	17	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-7	TRUE	compl
+60	5	21	17	18	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+60	5	21	18	19	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42	TRUE	compl
+60	5	21	19	20	ao	0	O-CTH	pdxST-42		O-TD	pdxST-2	TRUE	drop
+61	6	21	21	22	ao	0	O-PU	sfoDF-16		O-G	sfoDF-1	TRUE	compl
+62	1	22	2	3	ao	0	O-PU	pdxST-10		O-CTH	pdxST-24	TRUE	compl
+62	1	22	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16	TRUE	compl
+62	1	22	4	5	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-6	TRUE	compl
+62	1	22	5	6	ao	0	O-CTH	pdxST-6		D-D	sfoDF-24	TRUE	defd
+63	2	22	7	8	ao	0	O-PU	sfoDF-13		O-G	sfoDF-40	TRUE	compl
+64	1	23	2	3	ao	0	O-PU	pdxST-9		O-CTH	pdxST-10	TRUE	compl
+64	1	23	3	4	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-11	TRUE	compl
+64	1	23	4	5	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7	TRUE	compl
+64	1	23	5	6	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11	TRUE	compl
+64	1	23	6	7	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-10	TRUE	compl
+64	1	23	7	8	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-11	TRUE	compl
+64	1	23	8	9	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-10	TRUE	compl
+64	1	23	9	10	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-9	TRUE	compl
+64	1	23	10	11	ao	0	O-CTH	pdxST-9		O-CTH	pdxST-10	TRUE	compl
+64	1	23	11	12	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+64	1	23	12	13	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11	TRUE	compl
+64	1	23	13	14	ao	0	O-CTH	pdxST-11		D-D	sfoDF-9	TRUE	defd
+65	2	23	15	15	an	-1	O-PU	sfoDF-17		NA	sfoDF-17	TRUE	taway
+66	3	23	16	17	ao	0	O-PU	pdxST-11		O-CTH	pdxST-7	TRUE	compl
+66	3	23	17	18	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10	TRUE	compl
+66	3	23	18	19	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-9	TRUE	compl
+66	3	23	19	20	ao	0	O-CTH	pdxST-9		O-CTH	pdxST-10	TRUE	compl
+66	3	23	20	21	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-11	TRUE	compl
+66	3	23	21	22	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-10	TRUE	compl
+66	3	23	22	23	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+66	3	23	23	24	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11	TRUE	compl
+66	3	23	24	25	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7	TRUE	compl
+66	3	23	25	26	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10	TRUE	compl
+66	3	23	26	27	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-11	TRUE	compl
+66	3	23	27	28	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-9	TRUE	compl
+66	3	23	28	29	ao	0	O-CTH	pdxST-9		O-CTH	pdxST-7	TRUE	compl
+66	3	23	29	30	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-2	TRUE	compl
+66	3	23	30	31	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-11	TRUE	compl
+66	3	23	31	32	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-10	TRUE	compl
+66	3	23	32	33	ao	0	O-CTH	pdxST-10		O-G	pdxST-42	TRUE	compl
+67	1	24	2	3	ao	0	O-PU	sfoDF-57		O-CTH	sfoDF-8	TRUE	compl
+67	1	24	3	4	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-57	TRUE	compl
+67	1	24	4	5	ao	0	O-CTH	sfoDF-57		O-CTH	sfoDF-34	TRUE	compl
+67	1	24	5	6	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-23	TRUE	compl
+67	1	24	6	7	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-88	TRUE	compl
+67	1	24	7	8	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-23	TRUE	compl
+67	1	24	8	9	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-8	TRUE	compl
+67	1	24	9	10	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-23	TRUE	compl
+67	1	24	10	11	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-40	TRUE	compl
+67	1	24	11	12	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-88	TRUE	compl
+67	1	24	12	13	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-23	TRUE	compl
+67	1	24	13	14	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-88	TRUE	compl
+67	1	24	14	15	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-34	TRUE	compl
+67	1	24	15	16	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-88	TRUE	compl
+67	1	24	16	16	an	-1	O-CTH	sfoDF-88		NA	sfoDF-88	TRUE	taway
+68	2	24	17	18	ao	0	O-PU	pdxST-21		O-CTH	pdxST-22	TRUE	compl
+68	2	24	18	19	ao	0	O-CTH	pdxST-22		O-G	pdxST-4	TRUE	compl
+69	1	25	2	3	ao	0	O-PU	sfoDF-88		O-CTH	sfoDF-5	TRUE	compl
+69	1	25	3	4	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-23	TRUE	compl
+69	1	25	4	5	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-40	TRUE	compl
+69	1	25	5	6	ao	0	O-CTH	sfoDF-40		O-G	sfoDF-24	TRUE	compl
+70	1	26	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-42	TRUE	compl
+70	1	26	3	5	ao	1	O-CTH	pdxST-42	D-F	O-CTH	pdxST-16	TRUE	compl
+70	1	26	5	7	ao	1	O-CTH	pdxST-16	D-F	D-D	sfoDF-16	TRUE	defd
+71	2	26	8	9	ao	0	O-PU	sfoDF-21		D-D	pdxST-42	TRUE	defd
+72	3	26	10	11	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+72	3	26	11	12	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42	TRUE	compl
+72	3	26	12	13	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-7	TRUE	compl
+72	3	26	13	14	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42	TRUE	compl
+72	3	26	14	14	an	-1	O-CTH	pdxST-42		NA	pdxST-42	TRUE	taway
+73	4	26	15	15	an	-1	O-PU	sfoDF-1		NA	sfoDF-1	TRUE	taway
+74	1	27	2	3	ao	0	O-PU	sfoDF-57		O-CTH	sfoDF-8	TRUE	compl
+74	1	27	3	4	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-34	TRUE	compl
+74	1	27	4	4	an	-1	O-CTH	sfoDF-34		NA	sfoDF-34	TRUE	taway
+75	2	27	5	6	ao	0	O-PU	pdxST-21		O-CTH	pdxST-8	TRUE	compl
+75	2	27	6	7	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-7	TRUE	compl
+75	2	27	7	8	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-6	TRUE	compl
+75	2	27	8	9	ao	0	O-CTH	pdxST-6		O-G	pdxST-5	TRUE	compl
+76	1	28	2	3	ao	0	O-PU	sfoDF-5		O-CTH	sfoDF-40	TRUE	compl
+76	1	28	3	3	an	-1	O-CTH	sfoDF-40		NA	sfoDF-40	TRUE	taway
+77	2	28	4	5	ao	0	O-PU	pdxST-42		O-CTH	pdxST-8	TRUE	compl
+77	2	28	5	6	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-16	TRUE	compl
+77	2	28	6	7	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-42	TRUE	compl
+77	2	28	7	8	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-7	TRUE	compl
+77	2	28	8	9	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+77	2	28	9	10	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7	TRUE	compl
+77	2	28	10	11	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10	TRUE	compl
+77	2	28	11	12	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+77	2	28	12	13	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+77	2	28	13	14	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16	TRUE	compl
+77	2	28	14	15	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-24	TRUE	compl
+77	2	28	15	16	ao	0	O-CTH	pdxST-24		O-G	pdxST-7	TRUE	compl
+78	1	29	2	3	ao	0	O-PU	sfoDF-5		O-CTH	sfoDF-34	TRUE	compl
+78	1	29	3	4	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-88	TRUE	compl
+78	1	29	4	5	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-5	TRUE	compl
+78	1	29	5	6	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-88	TRUE	compl
+78	1	29	6	7	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-34	TRUE	compl
+78	1	29	7	8	ao	0	O-CTH	sfoDF-34		O-TD	sfoDF-23	TRUE	drop
+79	2	29	9	10	ao	0	O-PU	pdxST-21		O-CTH	pdxST-8	TRUE	compl
+79	2	29	10	11	ao	0	O-CTH	pdxST-8		O-G	pdxST-22	TRUE	compl
+80	1	30	2	3	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-21	TRUE	compl
+80	1	30	3	4	ao	0	O-CTH	sfoDF-21		O-G	sfoDF-1	TRUE	compl
+81	1	31	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-21	TRUE	compl
+81	1	31	3	3	an	-1	O-CTH	pdxST-21		NA	pdxST-21	TRUE	taway
+82	2	31	4	5	ao	0	O-PU	sfoDF-12		O-OV	sfoDF-12	TRUE	nopass
+83	3	31	6	7	ao	0	O-PU	pdxST-21		O-G	pdxST-8	TRUE	compl
+84	1	32	2	2	an	-1	O-PU	sfoDF-13		NA	sfoDF-13	TRUE	taway
+85	2	32	3	4	ao	0	O-PU	pdxST-7		O-CTH	pdxST-10	TRUE	compl
+85	2	32	4	5	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+85	2	32	5	6	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+85	2	32	6	7	ao	0	O-CTH	pdxST-24		O-TD	pdxST-17	TRUE	drop
+86	3	32	8	9	ao	0	O-PU	sfoDF-34		O-CTH	sfoDF-40	TRUE	compl
+86	3	32	9	10	ao	0	O-CTH	sfoDF-40		O-G	sfoDF-13	TRUE	compl
+87	1	33	2	3	ao	0	O-PU	pdxST-9		O-CTH	pdxST-21	TRUE	compl
+87	1	33	3	4	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-42	TRUE	compl
+87	1	33	4	5	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-2	TRUE	compl
+87	1	33	5	6	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-9	TRUE	compl
+87	1	33	6	7	ao	0	O-CTH	pdxST-9		O-CTH	pdxST-21	TRUE	compl
+87	1	33	7	8	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-6	TRUE	compl
+87	1	33	8	10	ao	1	O-CTH	pdxST-6	D-F	O-CTH	pdxST-21	TRUE	compl
+87	1	33	10	11	ao	0	O-CTH	pdxST-21		O-G	pdxST-7	TRUE	compl
+88	1	34	2	3	ao	0	O-PU	sfoDF-5		O-CTH	sfoDF-34	TRUE	compl
+88	1	34	3	4	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-24	TRUE	compl
+88	1	34	4	5	ao	0	O-CTH	sfoDF-24		O-CTH	sfoDF-23	TRUE	compl
+88	1	34	5	6	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-40	TRUE	compl
+88	1	34	6	7	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-23	TRUE	compl
+88	1	34	7	8	ao	0	O-CTH	sfoDF-23		D-D	pdxST-6	TRUE	defd
+89	2	34	9	10	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-7	TRUE	compl
+89	2	34	10	11	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-8	TRUE	compl
+89	2	34	11	12	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-42	TRUE	compl
+89	2	34	12	13	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-6	TRUE	compl
+89	2	34	13	14	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-8	TRUE	compl
+89	2	34	14	15	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-7	TRUE	compl
+89	2	34	15	16	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42	TRUE	compl
+89	2	34	16	17	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-17	TRUE	compl
+89	2	34	17	18	ao	0	O-CTH	pdxST-17		O-CTH	pdxST-42	TRUE	compl
+89	2	34	18	19	ao	0	O-CTH	pdxST-42		O-TD	pdxST-7	TRUE	drop
+90	3	34	20	21	ao	0	O-PU	sfoDF-40		O-CTH	sfoDF-34	TRUE	compl
+90	3	34	21	22	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-13	TRUE	compl
+90	3	34	22	23	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-40	TRUE	compl
+90	3	34	23	24	ao	0	O-CTH	sfoDF-40		O-CTH	sfoDF-88	TRUE	compl
+90	3	34	24	25	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-5	TRUE	compl
+90	3	34	25	26	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-40	TRUE	compl
+90	3	34	26	27	ao	0	O-CTH	sfoDF-40		O-OV	sfoDF-13	TRUE	compl
+91	4	34	29	30	ao	0	O-PU	pdxST-24		O-CTH	pdxST-21	TRUE	compl
+91	4	34	30	32	ao	1	O-CTH	pdxST-21	D-F	O-CTH	pdxST-8	TRUE	compl
+91	4	34	32	33	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-11	TRUE	compl
+91	4	34	33	34	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-8	TRUE	compl
+91	4	34	34	35	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-21	TRUE	compl
+91	4	34	35	36	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-8	TRUE	compl
+91	4	34	36	37	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-21	TRUE	compl
+91	4	34	37	38	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-8	TRUE	compl
+91	4	34	38	39	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-11	TRUE	compl
+91	4	34	39	40	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7	TRUE	compl
+91	4	34	40	42	ao	1	O-CTH	pdxST-7	D-F	O-CTH	pdxST-11	TRUE	compl
+91	4	34	42	43	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7	TRUE	compl
+91	4	34	43	43	an	-1	O-CTH	pdxST-7		NA	pdxST-7	TRUE	taway
+92	5	34	44	45	ao	0	O-PU	sfoDF-16		D-D	pdxST-21	TRUE	defd
+93	6	34	46	47	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-16	TRUE	compl
+93	6	34	47	48	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-7	TRUE	compl
+93	6	34	48	49	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-21	TRUE	compl
+93	6	34	49	50	ao	0	O-CTH	pdxST-21		D-D	sfoDF-21	TRUE	defd
+94	7	34	52	54	ao	1	O-PU	sfoDF-23	D-F	O-CTH	sfoDF-34	TRUE	compl
+94	7	34	54	55	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-24	TRUE	compl
+94	7	34	55	56	ao	0	O-CTH	sfoDF-24		O-OV	sfoDF-88	TRUE	compl
+95	8	34	57	58	ao	0	O-PU	pdxST-11		O-CTH	pdxST-21	TRUE	compl
+95	8	34	58	59	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-8	TRUE	compl
+95	8	34	59	60	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-16	TRUE	compl
+95	8	34	60	61	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-21	TRUE	compl
+95	8	34	61	62	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-11	TRUE	compl
+95	8	34	62	63	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-21	TRUE	compl
+95	8	34	63	64	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-11	TRUE	compl
+95	8	34	64	65	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7	TRUE	compl
+95	8	34	65	66	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-8	TRUE	compl
+95	8	34	66	67	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-7	TRUE	compl
+95	8	34	67	68	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-8	TRUE	compl
+95	8	34	68	69	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-7	TRUE	compl
+95	8	34	69	70	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-8	TRUE	compl
+95	8	34	70	72	ao	1	O-CTH	pdxST-8	D-F	O-G	pdxST-7	TRUE	compl
+96	1	35	2	3	ao	0	O-PU	sfoDF-13		O-CTH	sfoDF-23	TRUE	compl
+96	1	35	3	3	an	-1	O-CTH	sfoDF-23		NA	sfoDF-23	TRUE	taway
+97	1	36	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+97	1	36	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7	TRUE	compl
+97	1	36	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-6	TRUE	compl
+97	1	36	5	6	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-7	TRUE	compl
+97	1	36	6	7	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10	TRUE	compl
+97	1	36	7	8	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+97	1	36	8	9	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10	TRUE	compl
+97	1	36	9	10	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-2	TRUE	compl
+97	1	36	10	11	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-6	TRUE	compl
+97	1	36	11	12	ao	0	O-CTH	pdxST-6		O-TD	pdxST-8	TRUE	drop
+98	2	36	14	15	ao	0	O-PU	sfoDF-12		O-CTH	sfoDF-85	TRUE	compl
+98	2	36	15	15	an	-1	O-CTH	sfoDF-85		NA	sfoDF-85	TRUE	taway
+99	3	36	16	17	ao	0	O-PU	pdxST-24		O-CTH	pdxST-10	TRUE	compl
+99	3	36	17	18	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+99	3	36	18	19	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10	TRUE	compl
+99	3	36	19	20	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+99	3	36	20	21	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10	TRUE	compl
+99	3	36	21	22	ao	0	O-CTH	pdxST-10		O-G	pdxST-2	TRUE	compl
+100	1	37	2	3	ao	0	O-PU	sfoDF-88		O-CTH	sfoDF-5	TRUE	compl
+100	1	37	3	4	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-88	TRUE	compl
+100	1	37	4	5	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-34	TRUE	compl
+100	1	37	5	6	ao	0	O-CTH	sfoDF-34		O-CTH	sfoDF-5	TRUE	compl
+100	1	37	6	7	ao	0	O-CTH	sfoDF-5		O-CTH	sfoDF-24	TRUE	compl
+100	1	37	7	8	ao	0	O-CTH	sfoDF-24		O-CTH	sfoDF-34	TRUE	compl
+100	1	37	8	9	ao	0	O-CTH	sfoDF-34		D-D	pdxST-6	TRUE	defd
+101	2	37	10	11	ao	0	O-PU	pdxST-22		O-CTH	pdxST-6	TRUE	compl
+101	2	37	11	12	ao	0	O-CTH	pdxST-6		D-D	sfoDF-24	TRUE	defd
+102	3	37	13	14	ao	0	O-PU	sfoDF-5		O-CTH	sfoDF-13	TRUE	compl
+102	3	37	14	15	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-24	TRUE	compl
+102	3	37	15	16	ao	0	O-CTH	sfoDF-24		O-CTH	sfoDF-88	TRUE	compl
+102	3	37	16	17	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-23	TRUE	compl
+102	3	37	17	17	an	-1	O-CTH	sfoDF-23		NA	sfoDF-23	TRUE	taway
+103	4	37	18	19	ao	0	O-PU	pdxST-6		O-CTH	pdxST-21	TRUE	compl
+103	4	37	19	20	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-5	TRUE	compl
+103	4	37	20	21	ao	0	O-CTH	pdxST-5		D-D	sfoDF-5	TRUE	defd
+104	5	37	22	23	ao	0	O-PU	sfoDF-34		O-CTH	sfoDF-8	TRUE	compl
+104	5	37	23	24	ao	0	O-CTH	sfoDF-8		O-CTH	sfoDF-24	TRUE	compl
+104	5	37	24	25	ao	0	O-CTH	sfoDF-24		O-CTH	sfoDF-13	TRUE	compl
+104	5	37	25	26	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-5	TRUE	compl
+104	5	37	26	27	ao	0	O-CTH	sfoDF-5		O-TO	sfoDF-34	TRUE	compl
+104	5	37	28	29	ao	0	O-PU	sfoDF-40		O-CTH	sfoDF-23	TRUE	compl
+104	5	37	29	30	ao	0	O-CTH	sfoDF-23		O-CTH	sfoDF-13	TRUE	compl
+104	5	37	30	31	ao	0	O-CTH	sfoDF-13		O-CTH	sfoDF-46	TRUE	compl
+104	5	37	31	32	ao	0	O-CTH	sfoDF-46		O-CTH	sfoDF-23	TRUE	compl
+104	5	37	32	32	an	-1	O-CTH	sfoDF-23		NA	sfoDF-23	TRUE	taway
+105	6	37	33	34	ao	0	O-PU	pdxST-21		O-CTH	pdxST-9	TRUE	compl
+105	6	37	34	35	ao	0	O-CTH	pdxST-9		O-CTH	pdxST-21	TRUE	compl
+105	6	37	35	36	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-14	TRUE	compl
+105	6	37	36	37	ao	0	O-CTH	pdxST-14		O-CTH	pdxST-17	TRUE	compl
+105	6	37	37	38	ao	0	O-CTH	pdxST-17		O-CTH	pdxST-7	TRUE	compl
+105	6	37	38	39	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-4	TRUE	compl
+105	6	37	39	40	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-7	TRUE	compl
+105	6	37	40	41	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-22	TRUE	compl
+105	6	37	41	42	ao	0	O-CTH	pdxST-22		O-G	pdxST-9	TRUE	compl
+106	1	38	2	3	ao	0	O-PU	sfoDF-16		D-D	pdxST-14	TRUE	defd

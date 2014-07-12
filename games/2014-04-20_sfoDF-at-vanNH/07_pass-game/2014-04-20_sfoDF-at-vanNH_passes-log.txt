@@ -1,5 +1,11 @@
 2014-04-20_sfoDF-at-vanNH:
   578 rows of resolved game play found
-  432 rows of resolved pass data will be written
-  2014-07-12 13:44:45
+  432/432 rows of pass data are whitelisted (100.0%)
+  breakdown of passes:
+
+ compl  ofoul  taway   defd   drop nopass   <NA> 
+   377      1     17     17     15      5      0 
+  377/427 passes were completed (88.3%)
+  432 rows of pass data will be written
+  2014-07-12 15:34:09
 

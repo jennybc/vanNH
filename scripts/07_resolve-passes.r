@@ -55,10 +55,64 @@ source("50_pass-resolve-script.r")
 pass_dat <- ddply(game_play, ~ poss_abs + poss_rel + point, resolve_passes)
 #str(pass_dat, max.level = 1)
 
+## compare pass data to whitelist, to alert us to novel, nonstandard play
+source("07_white-list-pass-candidates.r")
+pass_dat <- name_rows(pass_dat)
+is_white_listed <-
+  suppressMessages(as.integer(rownames(match_df(pass_dat, white_list))))
+pass_dat <- name_rows(pass_dat)
+tmp <- rep_len(FALSE, nrow(pass_dat))
+tmp[is_white_listed] <- TRUE
+pass_dat$wl <- tmp
+message(sprintf("  %d/%d rows of pass data are whitelisted (%.1f%%)",
+                sum(pass_dat$wl), nrow(pass_dat), 100 * mean(pass_dat$wl), ""))
+if(!all(pass_dat$wl)) {
+  message(sprintf("  ALERT %d rows of pass data are novel", sum(!pass_dat$wl)))
+  pass_dat[!pass_dat$wl, ]
+}
+
+## map the pass data onto pass classes, e.g. compl, taway, ...
+source("07_pass-map.r")
+pass_dat <- suppressMessages(join(pass_dat, pass_map))
+## add a level that does not come up in the previous pass map
+pass_dat <-
+  mutate(pass_dat, pclass = factor(pclass,
+                                   levels = c(levels(pclass), "nopass")))
+
+## special handling for {O-CTH, O-PU} {O-TO, O-OV}
+fill_me <-
+  with(pass_dat, beg_code %in% c('O-CTH', 'O-PU') &
+         end_code %in% c('O-TO', 'O-OV'))
+fill_me[is.na(fill_me)] <- FALSE
+player_same <- with(pass_dat, beg_plyr == end_plyr)
+pass_dat$pclass[fill_me & !player_same] <- "compl"
+pass_dat$pclass[fill_me & player_same] <- "nopass"
+
+## special handling for {O-CTH, O-PU} O-PU
+## so far these seem to usually involve lots of subs off and in
+## IRL, raise an alert so we look at these
+fill_me <-
+  with(pass_dat, beg_code %in% c('O-CTH', 'O-PU') & end_code == 'O-PU')
+fill_me[is.na(fill_me)] <- FALSE
+pass_dat$pclass[fill_me] <- "nopass"
+if(any(fill_me)) {
+  message(sprintf("  ALERT %d rows of pass data end with pickup (PU)",
+                  sum(fill_me)))
+  pass_dat[fill_me, ]
+}
+
+message("  breakdown of passes:")
+table(pass_dat$pclass, useNA = "always")
+
+n_compl <- sum(pass_dat$pclass == 'compl')
+n_pass <- sum(pass_dat$pclass %in% c('compl', 'ofoul', 'taway', 'defd', 'drop'))
+message(sprintf("  %d/%d passes were completed (%.1f%%)", n_compl, n_pass,
+                100 * n_compl / n_pass))
+
 out_dir <- file.path("..", "games", game, "07_pass-game")
 if(!file.exists(out_dir)) dir.create(out_dir)
 
-message("  ", nrow(pass_dat), " rows of resolved pass data will be written")
+message("  ", nrow(pass_dat), " rows of pass data will be written")
 
 out_file <- file.path(out_dir, paste0(game, "_passes.tsv"))
 write.table(pass_dat, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
@@ -70,12 +124,3 @@ write.table(as.data.frame(with(pass_dat, table(desc, n_inn))), out_file,
             quote = FALSE, sep = "\t", row.names = FALSE)
 
 message("  ", Sys.time(), "\n")
-
-# head(foo)
-# 
-# with(subset(foo, desc == "ao" & n_inn == 1),
-#      table(innards))
-# 
-# subset(foo, desc == "an")
-#      table(innards))
-

@@ -1,509 +1,509 @@
-poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards	end_code	end_plyr
-1	1	1	2	3	ao	0	O-PU	vanNH-19		O-CTH	vanNH-89
-1	1	1	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-19
-1	1	1	4	5	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-89
-1	1	1	5	6	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-21
-1	1	1	6	7	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-19
-1	1	1	7	8	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5
-1	1	1	8	9	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-19
-1	1	1	9	10	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-98
-1	1	1	10	11	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-21
-1	1	1	11	12	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-19
-1	1	1	12	13	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5
-1	1	1	13	14	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-19
-1	1	1	14	16	ao	1	O-CTH	vanNH-19	D-F	O-CTH	vanNH-5
-1	1	1	16	17	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-89
-1	1	1	17	18	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-5
-1	1	1	18	19	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-72
-1	1	1	19	20	ao	0	O-CTH	vanNH-72		O-CTH	vanNH-89
-1	1	1	20	21	ao	0	O-CTH	vanNH-89		O-G	vanNH-10
-2	1	2	2	3	ao	0	O-PU	seaRM-20		O-CTH	seaRM-6
-2	1	2	3	4	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-51
-2	1	2	4	4	an	-1	O-CTH	seaRM-51		NA	seaRM-51
-3	2	2	5	6	ao	0	O-PU	vanNH-18		O-CTH	vanNH-8
-3	2	2	6	7	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-24
-3	2	2	7	8	ao	0	O-CTH	vanNH-24		O-CTH	vanNH-18
-3	2	2	8	8	an	-1	O-CTH	vanNH-18		NA	vanNH-18
-4	3	2	9	10	ao	0	O-PU	seaRM-1		O-CTH	seaRM-20
-4	3	2	10	11	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-6
-4	3	2	11	12	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-20
-4	3	2	12	13	ao	0	O-CTH	seaRM-20		D-D	vanNH-24
-5	4	2	14	15	ao	0	O-PU	vanNH-18		O-CTH	vanNH-13
-5	4	2	15	16	ao	0	O-CTH	vanNH-13		O-CTH	vanNH-45
-5	4	2	16	17	ao	0	O-CTH	vanNH-45		O-CTH	vanNH-24
-5	4	2	17	18	ao	0	O-CTH	vanNH-24		O-CTH	vanNH-45
-5	4	2	18	18	an	-1	O-CTH	vanNH-45		NA	vanNH-45
-6	5	2	19	20	ao	0	O-PU	seaRM-20		O-CTH	seaRM-6
-6	5	2	20	20	an	-1	O-CTH	seaRM-6		NA	seaRM-6
-7	6	2	21	22	ao	0	O-PU	vanNH-18		O-CTH	vanNH-8
-7	6	2	22	23	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-31
-7	6	2	23	24	ao	0	O-CTH	vanNH-31		O-CTH	vanNH-18
-7	6	2	24	25	ao	0	O-CTH	vanNH-18		O-G	vanNH-8
-8	1	3	2	3	ao	0	O-PU	seaRM-17		O-CTH	seaRM-20
-8	1	3	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-48
-8	1	3	4	5	ao	0	O-CTH	seaRM-48		O-G	seaRM-6
-9	1	4	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-89
-9	1	4	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91
-9	1	4	4	5	ao	0	O-CTH	vanNH-91		O-TD	vanNH-89
-10	2	4	6	7	ao	0	O-PU	seaRM-21		O-CTH	seaRM-9
-10	2	4	7	8	ao	0	O-CTH	seaRM-9		O-CTH	seaRM-23
-10	2	4	8	9	ao	0	O-CTH	seaRM-23		O-CTH	seaRM-9
-10	2	4	9	10	ao	0	O-CTH	seaRM-9		O-G	seaRM-29
-11	1	5	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-91
-11	1	5	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5
-11	1	5	4	5	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-98
-11	1	5	5	6	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-21
-11	1	5	6	7	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-22
-11	1	5	7	8	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-21
-11	1	5	8	9	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-91
-11	1	5	9	10	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-22
-11	1	5	10	11	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-98
-11	1	5	11	12	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-91
-11	1	5	12	13	ao	0	O-CTH	vanNH-91		O-TD	vanNH-13
-12	2	5	14	15	ao	0	O-PU	seaRM-29		O-CTH	seaRM-21
-12	2	5	15	16	ao	0	O-CTH	seaRM-21		O-CTH	seaRM-29
-12	2	5	16	17	ao	0	O-CTH	seaRM-29		O-CTH	seaRM-21
-12	2	5	17	18	ao	0	O-CTH	seaRM-21		O-CTH	seaRM-21
-12	2	5	18	18	an	-1	O-CTH	seaRM-21		NA	seaRM-21
-13	3	5	19	20	ao	0	O-PU	vanNH-91		O-CTH	vanNH-98
-13	3	5	20	21	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-22
-13	3	5	21	22	ao	0	O-CTH	vanNH-22		O-G	vanNH-13
-14	1	6	2	3	ao	0	O-PU	seaRM-20		O-CTH	seaRM-1
-14	1	6	3	4	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-?
-14	1	6	4	5	ao	0	O-CTH	seaRM-?		O-CTH	seaRM-99
-14	1	6	5	6	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-48
-14	1	6	6	7	ao	0	O-CTH	seaRM-48		O-CTH	seaRM-20
-14	1	6	7	7	an	-1	O-CTH	seaRM-20		NA	seaRM-20
-15	2	6	8	9	ao	0	O-PU	vanNH-45		O-CTH	vanNH-31
-15	2	6	9	10	ao	0	O-CTH	vanNH-31		O-CTH	vanNH-8
-15	2	6	10	11	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-45
-15	2	6	11	12	ao	0	O-CTH	vanNH-45		O-CTH	vanNH-31
-15	2	6	12	12	an	-1	O-CTH	vanNH-31		NA	vanNH-31
-16	3	6	13	14	ao	0	O-PU	seaRM-20		O-CTH	seaRM-17
-16	3	6	14	15	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-6
-16	3	6	15	16	ao	0	O-CTH	seaRM-6		O-G	seaRM-48
-17	1	7	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-19
-17	1	7	3	4	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5
-17	1	7	4	5	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-91
-17	1	7	5	6	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-21
-17	1	7	6	7	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-91
-17	1	7	7	8	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5
-17	1	7	8	9	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-91
-17	1	7	9	10	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-98
-17	1	7	10	11	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-10
-17	1	7	11	12	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-5
-17	1	7	12	13	ao	0	O-CTH	vanNH-5		O-G	vanNH-22
-18	1	8	2	3	ao	0	O-PU	seaRM-?		O-CTH	seaRM-20
-18	1	8	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-1
-18	1	8	4	5	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-25
-18	1	8	5	6	ao	0	O-CTH	seaRM-25		O-CTH	seaRM-99
-18	1	8	6	7	ao	0	O-CTH	seaRM-99		O-G	seaRM-48
-19	1	9	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-5
-19	1	9	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-98
-19	1	9	4	5	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-21
-19	1	9	5	6	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-22
-19	1	9	6	7	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-72
-19	1	9	7	8	ao	0	O-CTH	vanNH-72		O-CTH	vanNH-22
-19	1	9	8	9	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-91
-19	1	9	9	10	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5
-19	1	9	10	11	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21
-19	1	9	11	12	ao	0	O-CTH	vanNH-21		O-G	vanNH-98
-20	1	10	2	3	ao	0	O-PU	seaRM-?		O-CTH	seaRM-6
-20	1	10	3	4	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-17
-20	1	10	4	5	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-6
-20	1	10	5	6	ao	0	O-CTH	seaRM-6		O-G	seaRM-48
-21	1	11	2	3	ao	0	O-PU	vanNH-19		O-CTH	vanNH-21
-21	1	11	3	4	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-98
-21	1	11	4	5	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-19
-21	1	11	5	6	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-89
-21	1	11	6	7	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-10
-21	1	11	7	8	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-89
-21	1	11	8	9	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-5
-21	1	11	9	10	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-89
-21	1	11	10	11	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-21
-21	1	11	11	12	ao	0	O-CTH	vanNH-21		O-G	vanNH-98
-22	1	12	2	3	ao	0	O-PU	seaRM-17		O-CTH	seaRM-1
-22	1	12	3	4	ao	0	O-CTH	seaRM-1		D-D	vanNH-8
-23	1	13	2	3	ao	0	O-PU	seaRM-20		O-CTH	seaRM-6
-23	1	13	3	4	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-20
-23	1	13	4	5	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-1
-23	1	13	5	6	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-17
-23	1	13	6	7	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-1
-23	1	13	7	8	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-99
-23	1	13	8	9	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-17
-23	1	13	9	10	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-26
-23	1	13	10	11	ao	0	O-CTH	seaRM-26		O-CTH	seaRM-6
-23	1	13	11	12	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-26
-23	1	13	12	13	ao	0	O-CTH	seaRM-26		O-CTH	seaRM-48
-23	1	13	13	14	ao	0	O-CTH	seaRM-48		O-CTH	seaRM-6
-23	1	13	14	15	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-20
-23	1	13	15	16	ao	0	O-CTH	seaRM-20		O-G	seaRM-48
-24	1	14	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-91
-24	1	14	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-21
-24	1	14	4	5	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-19
-24	1	14	5	6	ao	0	O-CTH	vanNH-19		O-G	vanNH-22
-25	1	15	2	3	ao	0	O-PU	seaRM-18		D-D	vanNH-7
-26	2	15	4	5	ao	0	O-PU	vanNH-18		O-CTH	vanNH-8
-26	2	15	5	6	ao	0	O-CTH	vanNH-8		O-G	vanNH-14
-27	1	16	2	3	ao	0	O-PU	seaRM-17		O-CTH	seaRM-20
-27	1	16	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-99
-27	1	16	4	5	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-17
-27	1	16	5	6	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-1
-27	1	16	6	7	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-17
-27	1	16	7	8	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-6
-27	1	16	8	9	ao	0	O-CTH	seaRM-6		D-D	vanNH-13
-28	2	16	14	15	ao	0	O-PU	vanNH-45		O-CTH	vanNH-21
-28	2	16	15	16	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-27
-28	2	16	16	17	ao	0	O-CTH	vanNH-27		O-CTH	vanNH-8
-28	2	16	17	18	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-45
-28	2	16	18	19	ao	0	O-CTH	vanNH-45		O-G	vanNH-37
-29	1	17	2	3	ao	0	O-PU	seaRM-20		O-CTH	seaRM-1
-29	1	17	3	4	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-17
-29	1	17	4	5	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-1
-29	1	17	5	6	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-20
-29	1	17	6	8	ao	1	O-CTH	seaRM-20	D-F	O-CTH	seaRM-1
-29	1	17	8	9	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-17
-29	1	17	9	10	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-20
-29	1	17	10	11	ao	0	O-CTH	seaRM-20		O-G	seaRM-48
-30	1	18	2	3	ao	0	O-PU	vanNH-19		O-CTH	vanNH-89
-30	1	18	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-98
-30	1	18	4	5	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-22
-30	1	18	5	6	ao	0	O-CTH	vanNH-22		O-G	vanNH-91
-31	1	19	2	3	ao	0	O-PU	seaRM-1		O-CTH	seaRM-20
-31	1	19	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-99
-31	1	19	4	5	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-6
-31	1	19	5	6	ao	0	O-CTH	seaRM-6		D-D	vanNH-24
-32	2	19	7	8	ao	0	O-PU	vanNH-45		O-CTH	vanNH-27
-32	2	19	8	9	ao	0	O-CTH	vanNH-27		D-D	seaRM-48
-33	3	19	10	11	ao	0	O-PU	seaRM-20		O-CTH	seaRM-17
-33	3	19	11	12	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-20
-33	3	19	12	13	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-1
-33	3	19	13	14	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-6
-33	3	19	14	15	ao	0	O-CTH	seaRM-6		O-G	seaRM-99
-34	1	20	2	3	ao	0	O-PU	vanNH-19		O-CTH	vanNH-5
-34	1	20	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21
-34	1	20	4	5	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-5
-34	1	20	5	6	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-19
-34	1	20	6	7	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-89
-34	1	20	7	8	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-22
-34	1	20	8	9	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-21
-34	1	20	9	10	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-72
-34	1	20	10	11	ao	0	O-CTH	vanNH-72		O-CTH	vanNH-21
-34	1	20	11	12	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-19
-34	1	20	12	13	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-89
-34	1	20	13	14	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-21
-34	1	20	14	15	ao	0	O-CTH	vanNH-21		D-D	seaRM-23
-35	2	20	16	17	ao	0	O-CTH	seaRM-23		O-CTH	seaRM-29
-35	2	20	17	17	an	-1	O-CTH	seaRM-29		NA	seaRM-29
-36	3	20	18	19	ao	0	O-PU	vanNH-5		O-G	vanNH-72
-37	1	21	2	3	ao	0	O-PU	seaRM-20		O-CTH	seaRM-17
-37	1	21	3	4	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-25
-37	1	21	4	5	ao	0	O-CTH	seaRM-25		O-CTH	seaRM-20
-37	1	21	5	6	ao	0	O-CTH	seaRM-20		O-G	seaRM-8
-38	1	22	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-21
-38	1	22	3	4	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-5
-38	1	22	4	5	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-89
-38	1	22	5	6	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91
-38	1	22	6	7	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-10
-38	1	22	7	8	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-91
-38	1	22	8	9	ao	0	O-CTH	vanNH-91		O-G	vanNH-21
-39	1	23	2	3	ao	0	O-PU	seaRM-20		O-CTH	seaRM-1
-39	1	23	3	4	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-20
-39	1	23	4	5	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-17
-39	1	23	5	6	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-8
-39	1	23	6	7	ao	0	O-CTH	seaRM-8		O-CTH	seaRM-20
-39	1	23	7	8	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-48
-39	1	23	8	10	ao	1	O-CTH	seaRM-48	D-F	O-CTH	seaRM-1
-39	1	23	10	11	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-99
-39	1	23	11	12	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-1
-39	1	23	12	13	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-17
-39	1	23	13	14	ao	0	O-CTH	seaRM-17		O-G	seaRM-48
-40	1	24	2	3	ao	0	O-PU	vanNH-19		O-CTH	vanNH-91
-40	1	24	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-21
-40	1	24	4	5	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-10
-40	1	24	5	6	ao	0	O-CTH	vanNH-10		D-D	seaRM-23
-41	2	24	8	9	ao	0	O-PU	seaRM-20		O-CTH	seaRM-1
-41	2	24	9	10	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-17
-41	2	24	10	11	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-25
-41	2	24	11	12	ao	0	O-CTH	seaRM-25		O-CTH	seaRM-48
-41	2	24	12	13	ao	0	O-CTH	seaRM-48		O-CTH	seaRM-99
-41	2	24	13	14	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-6
-41	2	24	14	15	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-17
-41	2	24	15	16	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-25
-41	2	24	16	16	an	-1	O-CTH	seaRM-25		NA	seaRM-25
-42	3	24	18	19	ao	0	O-PU	vanNH-5		O-CTH	vanNH-19
-42	3	24	19	20	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-98
-42	3	24	20	21	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-10
-42	3	24	21	22	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-21
-42	3	24	22	23	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-5
-42	3	24	23	24	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-89
-42	3	24	24	25	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-5
-42	3	24	25	26	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21
-42	3	24	26	27	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-19
-42	3	24	27	28	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5
-42	3	24	28	29	ao	0	O-CTH	vanNH-5		O-G	vanNH-72
-43	1	25	2	3	ao	0	O-PU	seaRM-6		O-CTH	seaRM-20
-43	1	25	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-99
-43	1	25	4	5	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-17
-43	1	25	5	7	ao	1	O-CTH	seaRM-17	D-F	O-CTH	seaRM-1
-43	1	25	7	8	ao	0	O-CTH	seaRM-1		D-D	vanNH-24
-44	2	25	9	10	ao	0	O-PU	vanNH-27		O-CTH	vanNH-45
-44	2	25	10	10	an	-1	O-CTH	vanNH-45		NA	vanNH-45
-45	1	26	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-19
-45	1	26	3	4	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5
-45	1	26	4	5	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-98
-45	1	26	5	6	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-21
-45	1	26	6	7	ao	0	O-CTH	vanNH-21		D-D	seaRM-18
-46	2	26	8	9	ao	0	O-PU	seaRM-29		O-CTH	seaRM-9
-46	2	26	9	10	ao	0	O-CTH	seaRM-9		O-CTH	seaRM-29
-46	2	26	10	11	ao	0	O-CTH	seaRM-29		O-CTH	seaRM-9
-46	2	26	11	12	ao	0	O-CTH	seaRM-9		O-CTH	seaRM-29
-46	2	26	12	13	ao	0	O-CTH	seaRM-29		O-CTH	seaRM-9
-46	2	26	13	14	ao	0	O-CTH	seaRM-9		O-CTH	seaRM-21
-46	2	26	14	15	ao	0	O-CTH	seaRM-21		O-CTH	seaRM-15
-46	2	26	15	16	ao	0	O-CTH	seaRM-15		O-CTH	seaRM-18
-46	2	26	16	17	ao	0	O-CTH	seaRM-18		O-CTH	seaRM-29
-46	2	26	17	18	ao	0	O-CTH	seaRM-29		O-G	seaRM-15
-47	1	27	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-89
-47	1	27	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-22
-47	1	27	4	5	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-89
-47	1	27	5	6	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-75
-47	1	27	6	7	ao	0	O-CTH	vanNH-75		O-G	vanNH-13
-48	1	28	2	3	ao	0	O-PU	seaRM-1		O-CTH	seaRM-20
-48	1	28	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-1
-48	1	28	4	5	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-20
-48	1	28	5	6	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-17
-48	1	28	6	7	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-25
-48	1	28	7	8	ao	0	O-CTH	seaRM-25		O-CTH	seaRM-1
-48	1	28	8	9	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-17
-48	1	28	9	10	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-20
-48	1	28	10	11	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-8
-48	1	28	11	12	ao	0	O-CTH	seaRM-8		O-CTH	seaRM-20
-48	1	28	12	13	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-17
-48	1	28	13	14	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-20
-48	1	28	14	15	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-17
-48	1	28	15	16	ao	0	O-CTH	seaRM-17		O-G	seaRM-48
-49	1	29	2	3	ao	0	O-PU	vanNH-19		O-CTH	vanNH-91
-49	1	29	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-22
-49	1	29	4	5	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-72
-49	1	29	5	6	ao	0	O-CTH	vanNH-72		O-G	vanNH-98
-50	1	30	2	3	ao	0	O-PU	seaRM-17		O-CTH	seaRM-20
-50	1	30	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-25
-50	1	30	4	5	ao	0	O-CTH	seaRM-25		O-CTH	seaRM-1
-50	1	30	5	6	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-25
-50	1	30	6	7	ao	0	O-CTH	seaRM-25		O-CTH	seaRM-1
-50	1	30	7	8	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-48
-50	1	30	8	9	ao	0	O-CTH	seaRM-48		O-G	seaRM-6
-51	1	31	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-5
-51	1	31	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21
-51	1	31	4	5	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-22
-51	1	31	5	6	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-10
-51	1	31	6	7	ao	0	O-CTH	vanNH-10		D-D	seaRM-15
-52	2	31	8	9	ao	0	O-CTH	seaRM-15		O-CTH	seaRM-21
-52	2	31	9	10	ao	0	O-CTH	seaRM-21		O-CTH	seaRM-15
-52	2	31	10	11	ao	0	O-CTH	seaRM-15		O-CTH	seaRM-29
-52	2	31	11	12	ao	0	O-CTH	seaRM-29		O-TO	seaRM-18
-52	2	31	13	14	ao	0	O-PU	seaRM-20		O-CTH	seaRM-1
-52	2	31	14	15	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-17
-52	2	31	15	16	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-99
-52	2	31	16	18	ao	1	O-CTH	seaRM-99	D-F	O-OV	seaRM-17
-53	3	31	19	20	ao	0	O-PU	vanNH-45		O-CTH	vanNH-81
-53	3	31	20	21	ao	0	O-CTH	vanNH-81		O-CTH	vanNH-8
-53	3	31	21	22	ao	0	O-CTH	vanNH-8		O-G	vanNH-4
-54	1	32	2	3	ao	0	O-PU	seaRM-17		O-CTH	seaRM-20
-54	1	32	3	4	ao	0	O-CTH	seaRM-20		O-G	seaRM-48
-55	1	33	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-19
-55	1	33	3	4	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5
-55	1	33	4	5	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-22
-55	1	33	5	6	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-19
-55	1	33	6	7	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5
-55	1	33	7	8	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-98
-55	1	33	8	9	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-5
-55	1	33	9	10	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-19
-55	1	33	10	11	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5
-55	1	33	11	12	ao	0	O-CTH	vanNH-5		O-G	vanNH-22
-56	1	34	2	3	ao	0	O-PU	seaRM-17		O-CTH	seaRM-25
-56	1	34	3	4	ao	0	O-CTH	seaRM-25		O-CTH	seaRM-17
-56	1	34	4	5	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-1
-56	1	34	5	6	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-48
-56	1	34	6	7	ao	0	O-CTH	seaRM-48		O-CTH	seaRM-1
-56	1	34	7	8	ao	0	O-CTH	seaRM-1		O-G	seaRM-99
-57	1	35	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-5
-57	1	35	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21
-57	1	35	4	5	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-72
-57	1	35	5	6	ao	0	O-CTH	vanNH-72		O-G	vanNH-98
-58	1	36	2	3	ao	0	O-PU	seaRM-1		O-CTH	seaRM-20
-58	1	36	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-17
-58	1	36	4	5	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-25
-58	1	36	5	6	ao	0	O-CTH	seaRM-25		O-CTH	seaRM-8
-58	1	36	6	7	ao	0	O-CTH	seaRM-8		O-TD	seaRM-1
-59	2	36	8	9	ao	0	O-PU	vanNH-45		O-CTH	vanNH-31
-59	2	36	9	10	ao	0	O-CTH	vanNH-31		O-G	vanNH-4
-60	1	37	2	3	ao	0	O-PU	seaRM-25		O-CTH	seaRM-1
-60	1	37	3	4	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-17
-60	1	37	4	5	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-48
-60	1	37	5	6	ao	0	O-CTH	seaRM-48		D-D	vanNH-14
-61	2	37	7	8	ao	0	O-PU	vanNH-33		O-CTH	vanNH-18
-61	2	37	8	10	ao	1	O-CTH	vanNH-18	D-F	O-TO	vanNH-75
-61	2	37	11	12	ao	0	O-PU	vanNH-19		O-CTH	vanNH-89
-61	2	37	12	13	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-21
-61	2	37	13	14	ao	0	O-CTH	vanNH-21		O-G	vanNH-10
-62	1	38	2	3	ao	0	O-PU	seaRM-1		O-CTH	seaRM-17
-62	1	38	3	4	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-20
-62	1	38	4	5	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-17
-62	1	38	5	6	ao	0	O-CTH	seaRM-17		D-D	vanNH-24
-63	2	38	7	8	ao	0	O-PU	vanNH-8		O-CTH	vanNH-45
-63	2	38	8	9	ao	0	O-CTH	vanNH-45		O-CTH	vanNH-8
-63	2	38	9	10	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-45
-63	2	38	10	11	ao	0	O-CTH	vanNH-45		O-CTH	vanNH-8
-63	2	38	11	12	ao	0	O-CTH	vanNH-8		O-G	vanNH-27
-64	1	39	2	3	ao	0	O-PU	seaRM-1		O-CTH	seaRM-29
-64	1	39	3	4	ao	0	O-CTH	seaRM-29		O-CTH	seaRM-18
-64	1	39	4	5	ao	0	O-CTH	seaRM-18		O-CTH	seaRM-29
-64	1	39	5	7	ao	1	O-CTH	seaRM-29	D-F	O-OV	seaRM-20
-65	2	39	8	9	ao	0	O-PU	vanNH-33		O-CTH	vanNH-14
-65	2	39	9	10	ao	0	O-CTH	vanNH-14		O-CTH	vanNH-18
-65	2	39	10	11	ao	0	O-CTH	vanNH-18		O-CTH	vanNH-33
-65	2	39	11	12	ao	0	O-CTH	vanNH-33		O-TD	vanNH-13
-66	3	39	13	14	ao	0	O-PU	seaRM-20		O-CTH	seaRM-1
-66	3	39	14	15	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-99
-66	3	39	15	16	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-1
-66	3	39	16	17	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-20
-66	3	39	17	18	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-29
-66	3	39	18	19	ao	0	O-CTH	seaRM-29		O-CTH	seaRM-1
-66	3	39	19	20	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-18
-66	3	39	20	21	ao	0	O-CTH	seaRM-18		O-TD	seaRM-29
-67	4	39	22	23	ao	0	O-PU	vanNH-18		D-D	seaRM-20
-68	5	39	25	25	an	-1	O-PU	seaRM-20		NA	seaRM-20
-69	6	39	26	27	ao	0	O-PU	vanNH-98		O-G	vanNH-72
-70	1	40	2	3	ao	0	O-PU	seaRM-1		O-CTH	seaRM-20
-70	1	40	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-1
-70	1	40	4	5	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-20
-70	1	40	5	6	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-17
-70	1	40	6	7	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-6
-70	1	40	7	8	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-51
-70	1	40	8	10	ao	1	O-CTH	seaRM-51	D-F	O-CTH	seaRM-20
-70	1	40	10	11	ao	0	O-CTH	seaRM-20		O-G	seaRM-51
-71	1	41	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-91
-71	1	41	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5
-71	1	41	4	5	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-22
-71	1	41	5	6	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-10
-71	1	41	6	7	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-19
-71	1	41	7	8	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-22
-71	1	41	8	9	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-21
-71	1	41	9	10	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-91
-71	1	41	10	10	an	-1	O-CTH	vanNH-91		NA	vanNH-91
-72	2	41	11	17	aa	5	O-PU	seaRM-29	D-F,O-SO,D-SO,O-SI,D-SI	O-PU	seaRM-4
-72	2	41	17	18	ao	0	O-PU	seaRM-4		O-CTH	seaRM-29
-72	2	41	18	19	ao	0	O-CTH	seaRM-29		O-CTH	seaRM-23
-72	2	41	19	20	ao	0	O-CTH	seaRM-23		O-CTH	seaRM-20
-72	2	41	20	21	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-4
-72	2	41	21	22	ao	0	O-CTH	seaRM-4		O-CTH	seaRM-20
-72	2	41	22	23	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-4
-72	2	41	23	24	ao	0	O-CTH	seaRM-4		O-CTH	seaRM-20
-72	2	41	24	25	ao	0	O-CTH	seaRM-20		O-G	seaRM-99
-73	1	42	2	3	ao	0	O-PU	vanNH-75		O-CTH	vanNH-89
-73	1	42	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-75
-73	1	42	4	5	ao	0	O-CTH	vanNH-75		O-CTH	vanNH-8
-73	1	42	5	6	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-19
-73	1	42	6	7	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-89
-73	1	42	7	8	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-22
-73	1	42	8	9	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-8
-73	1	42	9	10	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-22
-73	1	42	10	11	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-75
-73	1	42	11	12	ao	0	O-CTH	vanNH-75		O-CTH	vanNH-89
-73	1	42	12	13	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-75
-73	1	42	13	14	ao	0	O-CTH	vanNH-75		O-CTH	vanNH-22
-73	1	42	14	15	ao	0	O-CTH	vanNH-22		O-G	vanNH-8
-74	1	43	2	3	ao	0	O-PU	seaRM-14		O-CTH	seaRM-20
-74	1	43	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-14
-74	1	43	4	5	ao	0	O-CTH	seaRM-14		O-CTH	seaRM-20
-74	1	43	5	6	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-48
-74	1	43	6	7	ao	0	O-CTH	seaRM-48		O-CTH	seaRM-17
-74	1	43	7	7	an	-1	O-CTH	seaRM-17		NA	seaRM-17
-75	2	43	8	9	ao	0	O-PU	vanNH-81		O-CTH	vanNH-7
-75	2	43	9	10	ao	0	O-CTH	vanNH-7		O-CTH	vanNH-27
-75	2	43	10	11	ao	0	O-CTH	vanNH-27		O-CTH	vanNH-14
-75	2	43	11	11	an	-1	O-CTH	vanNH-14		NA	vanNH-14
-76	3	43	12	13	ao	0	O-PU	seaRM-20		O-CTH	seaRM-25
-76	3	43	13	14	ao	0	O-CTH	seaRM-25		O-G	seaRM-48
-77	1	44	2	3	ao	0	O-PU	vanNH-19		O-CTH	vanNH-5
-77	1	44	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-19
-77	1	44	4	5	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5
-77	1	44	5	7	ao	1	O-CTH	vanNH-5	D-F	O-CTH	vanNH-72
-77	1	44	7	8	ao	0	O-CTH	vanNH-72		O-G	vanNH-98
-78	1	45	2	3	ao	0	O-PU	seaRM-14		O-CTH	seaRM-20
-78	1	45	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-6
-78	1	45	4	5	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-8
-78	1	45	5	6	ao	0	O-CTH	seaRM-8		O-CTH	seaRM-25
-78	1	45	6	7	ao	0	O-CTH	seaRM-25		O-G	seaRM-48
-79	1	46	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-21
-79	1	46	3	4	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-5
-79	1	46	4	5	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-89
-79	1	46	5	6	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-72
-79	1	46	6	7	ao	0	O-CTH	vanNH-72		O-CTH	vanNH-98
-79	1	46	7	8	ao	0	O-CTH	vanNH-98		O-G	vanNH-19
-80	1	47	2	3	ao	0	O-PU	seaRM-1		O-CTH	seaRM-20
-80	1	47	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-6
-80	1	47	4	5	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-20
-80	1	47	5	6	ao	0	O-CTH	seaRM-20		D-D	vanNH-4
-81	2	47	7	8	ao	0	O-PU	vanNH-45		O-CTH	vanNH-24
-81	2	47	8	9	ao	0	O-CTH	vanNH-24		O-CTH	vanNH-45
-81	2	47	9	10	ao	0	O-CTH	vanNH-45		O-CTH	vanNH-81
-81	2	47	10	11	ao	0	O-CTH	vanNH-81		O-G	vanNH-27
-82	1	48	2	3	ao	0	O-PU	seaRM-20		O-CTH	seaRM-6
-82	1	48	3	4	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-20
-82	1	48	4	5	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-14
-82	1	48	5	6	ao	0	O-CTH	seaRM-14		O-CTH	seaRM-99
-82	1	48	6	7	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-14
-82	1	48	7	8	ao	0	O-CTH	seaRM-14		O-CTH	seaRM-17
-82	1	48	8	9	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-20
-82	1	48	9	10	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-14
-82	1	48	10	11	ao	0	O-CTH	seaRM-14		O-CTH	seaRM-6
-82	1	48	11	12	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-99
-82	1	48	12	13	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-14
-82	1	48	13	14	ao	0	O-CTH	seaRM-14		O-CTH	seaRM-20
-82	1	48	14	15	ao	0	O-CTH	seaRM-20		O-G	seaRM-48
-83	1	49	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-10
-83	1	49	3	4	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-21
-83	1	49	4	5	ao	0	O-CTH	vanNH-21		O-G	vanNH-72
-84	1	50	2	3	ao	0	O-PU	seaRM-14		O-CTH	seaRM-1
-84	1	50	3	4	ao	0	O-CTH	seaRM-1		O-G	seaRM-6
-85	1	51	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-5
-85	1	51	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-91
-85	1	51	4	6	ao	1	O-CTH	vanNH-91	D-F	O-CTH	vanNH-10
-85	1	51	6	7	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-22
-85	1	51	7	8	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-5
-85	1	51	8	9	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-91
-85	1	51	9	10	ao	0	O-CTH	vanNH-91		O-G	vanNH-22
-86	1	52	2	3	ao	0	O-PU	seaRM-17		O-CTH	seaRM-1
-86	1	52	3	4	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-99
-86	1	52	4	5	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-6
-86	1	52	5	5	an	-1	O-CTH	seaRM-6		NA	seaRM-6
-87	2	52	6	7	ao	0	O-PU	vanNH-18		O-OV	vanNH-18
-88	3	52	8	9	ao	0	O-PU	seaRM-1		O-CTH	seaRM-17
-88	3	52	9	10	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-14
-88	3	52	10	11	ao	0	O-CTH	seaRM-14		O-CTH	seaRM-6
-88	3	52	11	12	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-14
-88	3	52	12	12	an	-1	O-CTH	seaRM-14		NA	seaRM-14
-89	4	52	13	14	ao	0	O-PU	vanNH-81		O-TD	vanNH-7
-90	5	52	15	16	ao	0	O-PU	seaRM-6		O-CTH	seaRM-1
-90	5	52	16	17	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-14
-90	5	52	17	18	ao	0	O-CTH	seaRM-14		O-CTH	seaRM-99
-90	5	52	18	19	ao	0	O-CTH	seaRM-99		O-G	seaRM-25
-91	1	53	2	3	ao	0	O-PU	vanNH-19		O-CTH	vanNH-89
-91	1	53	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-10
-91	1	53	4	5	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-21
-91	1	53	5	6	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-19
-91	1	53	6	7	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5
-91	1	53	7	8	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-10
-91	1	53	8	9	ao	0	O-CTH	vanNH-10		O-G	vanNH-72
-92	1	54	2	3	ao	0	O-PU	seaRM-14		O-CTH	seaRM-1
-92	1	54	3	4	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-99
-92	1	54	4	5	ao	0	O-CTH	seaRM-99		O-G	seaRM-48
-93	1	55	2	3	ao	0	O-PU	vanNH-19		O-CTH	vanNH-91
-93	1	55	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-21
-93	1	55	4	5	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-89
-93	1	55	5	6	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91
-93	1	55	6	7	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-89
-93	1	55	7	7	an	-1	O-CTH	vanNH-89		NA	vanNH-89
+poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards	end_code	end_plyr	wl	pclass
+1	1	1	2	3	ao	0	O-PU	vanNH-19		O-CTH	vanNH-89	TRUE	compl
+1	1	1	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-19	TRUE	compl
+1	1	1	4	5	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-89	TRUE	compl
+1	1	1	5	6	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-21	TRUE	compl
+1	1	1	6	7	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-19	TRUE	compl
+1	1	1	7	8	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5	TRUE	compl
+1	1	1	8	9	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-19	TRUE	compl
+1	1	1	9	10	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-98	TRUE	compl
+1	1	1	10	11	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-21	TRUE	compl
+1	1	1	11	12	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-19	TRUE	compl
+1	1	1	12	13	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5	TRUE	compl
+1	1	1	13	14	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-19	TRUE	compl
+1	1	1	14	16	ao	1	O-CTH	vanNH-19	D-F	O-CTH	vanNH-5	TRUE	compl
+1	1	1	16	17	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-89	TRUE	compl
+1	1	1	17	18	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-5	TRUE	compl
+1	1	1	18	19	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-72	TRUE	compl
+1	1	1	19	20	ao	0	O-CTH	vanNH-72		O-CTH	vanNH-89	TRUE	compl
+1	1	1	20	21	ao	0	O-CTH	vanNH-89		O-G	vanNH-10	TRUE	compl
+2	1	2	2	3	ao	0	O-PU	seaRM-20		O-CTH	seaRM-6	TRUE	compl
+2	1	2	3	4	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-51	TRUE	compl
+2	1	2	4	4	an	-1	O-CTH	seaRM-51		NA	seaRM-51	TRUE	taway
+3	2	2	5	6	ao	0	O-PU	vanNH-18		O-CTH	vanNH-8	TRUE	compl
+3	2	2	6	7	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-24	TRUE	compl
+3	2	2	7	8	ao	0	O-CTH	vanNH-24		O-CTH	vanNH-18	TRUE	compl
+3	2	2	8	8	an	-1	O-CTH	vanNH-18		NA	vanNH-18	TRUE	taway
+4	3	2	9	10	ao	0	O-PU	seaRM-1		O-CTH	seaRM-20	TRUE	compl
+4	3	2	10	11	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-6	TRUE	compl
+4	3	2	11	12	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-20	TRUE	compl
+4	3	2	12	13	ao	0	O-CTH	seaRM-20		D-D	vanNH-24	TRUE	defd
+5	4	2	14	15	ao	0	O-PU	vanNH-18		O-CTH	vanNH-13	TRUE	compl
+5	4	2	15	16	ao	0	O-CTH	vanNH-13		O-CTH	vanNH-45	TRUE	compl
+5	4	2	16	17	ao	0	O-CTH	vanNH-45		O-CTH	vanNH-24	TRUE	compl
+5	4	2	17	18	ao	0	O-CTH	vanNH-24		O-CTH	vanNH-45	TRUE	compl
+5	4	2	18	18	an	-1	O-CTH	vanNH-45		NA	vanNH-45	TRUE	taway
+6	5	2	19	20	ao	0	O-PU	seaRM-20		O-CTH	seaRM-6	TRUE	compl
+6	5	2	20	20	an	-1	O-CTH	seaRM-6		NA	seaRM-6	TRUE	taway
+7	6	2	21	22	ao	0	O-PU	vanNH-18		O-CTH	vanNH-8	TRUE	compl
+7	6	2	22	23	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-31	TRUE	compl
+7	6	2	23	24	ao	0	O-CTH	vanNH-31		O-CTH	vanNH-18	TRUE	compl
+7	6	2	24	25	ao	0	O-CTH	vanNH-18		O-G	vanNH-8	TRUE	compl
+8	1	3	2	3	ao	0	O-PU	seaRM-17		O-CTH	seaRM-20	TRUE	compl
+8	1	3	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-48	TRUE	compl
+8	1	3	4	5	ao	0	O-CTH	seaRM-48		O-G	seaRM-6	TRUE	compl
+9	1	4	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-89	TRUE	compl
+9	1	4	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91	TRUE	compl
+9	1	4	4	5	ao	0	O-CTH	vanNH-91		O-TD	vanNH-89	TRUE	drop
+10	2	4	6	7	ao	0	O-PU	seaRM-21		O-CTH	seaRM-9	TRUE	compl
+10	2	4	7	8	ao	0	O-CTH	seaRM-9		O-CTH	seaRM-23	TRUE	compl
+10	2	4	8	9	ao	0	O-CTH	seaRM-23		O-CTH	seaRM-9	TRUE	compl
+10	2	4	9	10	ao	0	O-CTH	seaRM-9		O-G	seaRM-29	TRUE	compl
+11	1	5	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-91	TRUE	compl
+11	1	5	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5	TRUE	compl
+11	1	5	4	5	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-98	TRUE	compl
+11	1	5	5	6	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-21	TRUE	compl
+11	1	5	6	7	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-22	TRUE	compl
+11	1	5	7	8	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-21	TRUE	compl
+11	1	5	8	9	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-91	TRUE	compl
+11	1	5	9	10	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-22	TRUE	compl
+11	1	5	10	11	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-98	TRUE	compl
+11	1	5	11	12	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-91	TRUE	compl
+11	1	5	12	13	ao	0	O-CTH	vanNH-91		O-TD	vanNH-13	TRUE	drop
+12	2	5	14	15	ao	0	O-PU	seaRM-29		O-CTH	seaRM-21	TRUE	compl
+12	2	5	15	16	ao	0	O-CTH	seaRM-21		O-CTH	seaRM-29	TRUE	compl
+12	2	5	16	17	ao	0	O-CTH	seaRM-29		O-CTH	seaRM-21	TRUE	compl
+12	2	5	17	18	ao	0	O-CTH	seaRM-21		O-CTH	seaRM-21	TRUE	compl
+12	2	5	18	18	an	-1	O-CTH	seaRM-21		NA	seaRM-21	TRUE	taway
+13	3	5	19	20	ao	0	O-PU	vanNH-91		O-CTH	vanNH-98	TRUE	compl
+13	3	5	20	21	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-22	TRUE	compl
+13	3	5	21	22	ao	0	O-CTH	vanNH-22		O-G	vanNH-13	TRUE	compl
+14	1	6	2	3	ao	0	O-PU	seaRM-20		O-CTH	seaRM-1	TRUE	compl
+14	1	6	3	4	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-?	TRUE	compl
+14	1	6	4	5	ao	0	O-CTH	seaRM-?		O-CTH	seaRM-99	TRUE	compl
+14	1	6	5	6	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-48	TRUE	compl
+14	1	6	6	7	ao	0	O-CTH	seaRM-48		O-CTH	seaRM-20	TRUE	compl
+14	1	6	7	7	an	-1	O-CTH	seaRM-20		NA	seaRM-20	TRUE	taway
+15	2	6	8	9	ao	0	O-PU	vanNH-45		O-CTH	vanNH-31	TRUE	compl
+15	2	6	9	10	ao	0	O-CTH	vanNH-31		O-CTH	vanNH-8	TRUE	compl
+15	2	6	10	11	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-45	TRUE	compl
+15	2	6	11	12	ao	0	O-CTH	vanNH-45		O-CTH	vanNH-31	TRUE	compl
+15	2	6	12	12	an	-1	O-CTH	vanNH-31		NA	vanNH-31	TRUE	taway
+16	3	6	13	14	ao	0	O-PU	seaRM-20		O-CTH	seaRM-17	TRUE	compl
+16	3	6	14	15	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-6	TRUE	compl
+16	3	6	15	16	ao	0	O-CTH	seaRM-6		O-G	seaRM-48	TRUE	compl
+17	1	7	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-19	TRUE	compl
+17	1	7	3	4	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5	TRUE	compl
+17	1	7	4	5	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-91	TRUE	compl
+17	1	7	5	6	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-21	TRUE	compl
+17	1	7	6	7	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-91	TRUE	compl
+17	1	7	7	8	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5	TRUE	compl
+17	1	7	8	9	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-91	TRUE	compl
+17	1	7	9	10	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-98	TRUE	compl
+17	1	7	10	11	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-10	TRUE	compl
+17	1	7	11	12	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-5	TRUE	compl
+17	1	7	12	13	ao	0	O-CTH	vanNH-5		O-G	vanNH-22	TRUE	compl
+18	1	8	2	3	ao	0	O-PU	seaRM-?		O-CTH	seaRM-20	TRUE	compl
+18	1	8	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-1	TRUE	compl
+18	1	8	4	5	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-25	TRUE	compl
+18	1	8	5	6	ao	0	O-CTH	seaRM-25		O-CTH	seaRM-99	TRUE	compl
+18	1	8	6	7	ao	0	O-CTH	seaRM-99		O-G	seaRM-48	TRUE	compl
+19	1	9	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-5	TRUE	compl
+19	1	9	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-98	TRUE	compl
+19	1	9	4	5	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-21	TRUE	compl
+19	1	9	5	6	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-22	TRUE	compl
+19	1	9	6	7	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-72	TRUE	compl
+19	1	9	7	8	ao	0	O-CTH	vanNH-72		O-CTH	vanNH-22	TRUE	compl
+19	1	9	8	9	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-91	TRUE	compl
+19	1	9	9	10	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5	TRUE	compl
+19	1	9	10	11	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21	TRUE	compl
+19	1	9	11	12	ao	0	O-CTH	vanNH-21		O-G	vanNH-98	TRUE	compl
+20	1	10	2	3	ao	0	O-PU	seaRM-?		O-CTH	seaRM-6	TRUE	compl
+20	1	10	3	4	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-17	TRUE	compl
+20	1	10	4	5	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-6	TRUE	compl
+20	1	10	5	6	ao	0	O-CTH	seaRM-6		O-G	seaRM-48	TRUE	compl
+21	1	11	2	3	ao	0	O-PU	vanNH-19		O-CTH	vanNH-21	TRUE	compl
+21	1	11	3	4	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-98	TRUE	compl
+21	1	11	4	5	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-19	TRUE	compl
+21	1	11	5	6	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-89	TRUE	compl
+21	1	11	6	7	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-10	TRUE	compl
+21	1	11	7	8	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-89	TRUE	compl
+21	1	11	8	9	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-5	TRUE	compl
+21	1	11	9	10	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-89	TRUE	compl
+21	1	11	10	11	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-21	TRUE	compl
+21	1	11	11	12	ao	0	O-CTH	vanNH-21		O-G	vanNH-98	TRUE	compl
+22	1	12	2	3	ao	0	O-PU	seaRM-17		O-CTH	seaRM-1	TRUE	compl
+22	1	12	3	4	ao	0	O-CTH	seaRM-1		D-D	vanNH-8	TRUE	defd
+23	1	13	2	3	ao	0	O-PU	seaRM-20		O-CTH	seaRM-6	TRUE	compl
+23	1	13	3	4	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-20	TRUE	compl
+23	1	13	4	5	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-1	TRUE	compl
+23	1	13	5	6	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-17	TRUE	compl
+23	1	13	6	7	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-1	TRUE	compl
+23	1	13	7	8	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-99	TRUE	compl
+23	1	13	8	9	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-17	TRUE	compl
+23	1	13	9	10	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-26	TRUE	compl
+23	1	13	10	11	ao	0	O-CTH	seaRM-26		O-CTH	seaRM-6	TRUE	compl
+23	1	13	11	12	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-26	TRUE	compl
+23	1	13	12	13	ao	0	O-CTH	seaRM-26		O-CTH	seaRM-48	TRUE	compl
+23	1	13	13	14	ao	0	O-CTH	seaRM-48		O-CTH	seaRM-6	TRUE	compl
+23	1	13	14	15	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-20	TRUE	compl
+23	1	13	15	16	ao	0	O-CTH	seaRM-20		O-G	seaRM-48	TRUE	compl
+24	1	14	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-91	TRUE	compl
+24	1	14	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-21	TRUE	compl
+24	1	14	4	5	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-19	TRUE	compl
+24	1	14	5	6	ao	0	O-CTH	vanNH-19		O-G	vanNH-22	TRUE	compl
+25	1	15	2	3	ao	0	O-PU	seaRM-18		D-D	vanNH-7	TRUE	defd
+26	2	15	4	5	ao	0	O-PU	vanNH-18		O-CTH	vanNH-8	TRUE	compl
+26	2	15	5	6	ao	0	O-CTH	vanNH-8		O-G	vanNH-14	TRUE	compl
+27	1	16	2	3	ao	0	O-PU	seaRM-17		O-CTH	seaRM-20	TRUE	compl
+27	1	16	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-99	TRUE	compl
+27	1	16	4	5	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-17	TRUE	compl
+27	1	16	5	6	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-1	TRUE	compl
+27	1	16	6	7	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-17	TRUE	compl
+27	1	16	7	8	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-6	TRUE	compl
+27	1	16	8	9	ao	0	O-CTH	seaRM-6		D-D	vanNH-13	TRUE	defd
+28	2	16	14	15	ao	0	O-PU	vanNH-45		O-CTH	vanNH-21	TRUE	compl
+28	2	16	15	16	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-27	TRUE	compl
+28	2	16	16	17	ao	0	O-CTH	vanNH-27		O-CTH	vanNH-8	TRUE	compl
+28	2	16	17	18	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-45	TRUE	compl
+28	2	16	18	19	ao	0	O-CTH	vanNH-45		O-G	vanNH-37	TRUE	compl
+29	1	17	2	3	ao	0	O-PU	seaRM-20		O-CTH	seaRM-1	TRUE	compl
+29	1	17	3	4	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-17	TRUE	compl
+29	1	17	4	5	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-1	TRUE	compl
+29	1	17	5	6	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-20	TRUE	compl
+29	1	17	6	8	ao	1	O-CTH	seaRM-20	D-F	O-CTH	seaRM-1	TRUE	compl
+29	1	17	8	9	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-17	TRUE	compl
+29	1	17	9	10	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-20	TRUE	compl
+29	1	17	10	11	ao	0	O-CTH	seaRM-20		O-G	seaRM-48	TRUE	compl
+30	1	18	2	3	ao	0	O-PU	vanNH-19		O-CTH	vanNH-89	TRUE	compl
+30	1	18	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-98	TRUE	compl
+30	1	18	4	5	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-22	TRUE	compl
+30	1	18	5	6	ao	0	O-CTH	vanNH-22		O-G	vanNH-91	TRUE	compl
+31	1	19	2	3	ao	0	O-PU	seaRM-1		O-CTH	seaRM-20	TRUE	compl
+31	1	19	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-99	TRUE	compl
+31	1	19	4	5	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-6	TRUE	compl
+31	1	19	5	6	ao	0	O-CTH	seaRM-6		D-D	vanNH-24	TRUE	defd
+32	2	19	7	8	ao	0	O-PU	vanNH-45		O-CTH	vanNH-27	TRUE	compl
+32	2	19	8	9	ao	0	O-CTH	vanNH-27		D-D	seaRM-48	TRUE	defd
+33	3	19	10	11	ao	0	O-PU	seaRM-20		O-CTH	seaRM-17	TRUE	compl
+33	3	19	11	12	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-20	TRUE	compl
+33	3	19	12	13	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-1	TRUE	compl
+33	3	19	13	14	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-6	TRUE	compl
+33	3	19	14	15	ao	0	O-CTH	seaRM-6		O-G	seaRM-99	TRUE	compl
+34	1	20	2	3	ao	0	O-PU	vanNH-19		O-CTH	vanNH-5	TRUE	compl
+34	1	20	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21	TRUE	compl
+34	1	20	4	5	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-5	TRUE	compl
+34	1	20	5	6	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-19	TRUE	compl
+34	1	20	6	7	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-89	TRUE	compl
+34	1	20	7	8	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-22	TRUE	compl
+34	1	20	8	9	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-21	TRUE	compl
+34	1	20	9	10	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-72	TRUE	compl
+34	1	20	10	11	ao	0	O-CTH	vanNH-72		O-CTH	vanNH-21	TRUE	compl
+34	1	20	11	12	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-19	TRUE	compl
+34	1	20	12	13	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-89	TRUE	compl
+34	1	20	13	14	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-21	TRUE	compl
+34	1	20	14	15	ao	0	O-CTH	vanNH-21		D-D	seaRM-23	TRUE	defd
+35	2	20	16	17	ao	0	O-CTH	seaRM-23		O-CTH	seaRM-29	TRUE	compl
+35	2	20	17	17	an	-1	O-CTH	seaRM-29		NA	seaRM-29	TRUE	taway
+36	3	20	18	19	ao	0	O-PU	vanNH-5		O-G	vanNH-72	TRUE	compl
+37	1	21	2	3	ao	0	O-PU	seaRM-20		O-CTH	seaRM-17	TRUE	compl
+37	1	21	3	4	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-25	TRUE	compl
+37	1	21	4	5	ao	0	O-CTH	seaRM-25		O-CTH	seaRM-20	TRUE	compl
+37	1	21	5	6	ao	0	O-CTH	seaRM-20		O-G	seaRM-8	TRUE	compl
+38	1	22	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-21	TRUE	compl
+38	1	22	3	4	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-5	TRUE	compl
+38	1	22	4	5	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-89	TRUE	compl
+38	1	22	5	6	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91	TRUE	compl
+38	1	22	6	7	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-10	TRUE	compl
+38	1	22	7	8	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-91	TRUE	compl
+38	1	22	8	9	ao	0	O-CTH	vanNH-91		O-G	vanNH-21	TRUE	compl
+39	1	23	2	3	ao	0	O-PU	seaRM-20		O-CTH	seaRM-1	TRUE	compl
+39	1	23	3	4	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-20	TRUE	compl
+39	1	23	4	5	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-17	TRUE	compl
+39	1	23	5	6	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-8	TRUE	compl
+39	1	23	6	7	ao	0	O-CTH	seaRM-8		O-CTH	seaRM-20	TRUE	compl
+39	1	23	7	8	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-48	TRUE	compl
+39	1	23	8	10	ao	1	O-CTH	seaRM-48	D-F	O-CTH	seaRM-1	TRUE	compl
+39	1	23	10	11	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-99	TRUE	compl
+39	1	23	11	12	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-1	TRUE	compl
+39	1	23	12	13	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-17	TRUE	compl
+39	1	23	13	14	ao	0	O-CTH	seaRM-17		O-G	seaRM-48	TRUE	compl
+40	1	24	2	3	ao	0	O-PU	vanNH-19		O-CTH	vanNH-91	TRUE	compl
+40	1	24	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-21	TRUE	compl
+40	1	24	4	5	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-10	TRUE	compl
+40	1	24	5	6	ao	0	O-CTH	vanNH-10		D-D	seaRM-23	TRUE	defd
+41	2	24	8	9	ao	0	O-PU	seaRM-20		O-CTH	seaRM-1	TRUE	compl
+41	2	24	9	10	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-17	TRUE	compl
+41	2	24	10	11	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-25	TRUE	compl
+41	2	24	11	12	ao	0	O-CTH	seaRM-25		O-CTH	seaRM-48	TRUE	compl
+41	2	24	12	13	ao	0	O-CTH	seaRM-48		O-CTH	seaRM-99	TRUE	compl
+41	2	24	13	14	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-6	TRUE	compl
+41	2	24	14	15	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-17	TRUE	compl
+41	2	24	15	16	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-25	TRUE	compl
+41	2	24	16	16	an	-1	O-CTH	seaRM-25		NA	seaRM-25	TRUE	taway
+42	3	24	18	19	ao	0	O-PU	vanNH-5		O-CTH	vanNH-19	TRUE	compl
+42	3	24	19	20	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-98	TRUE	compl
+42	3	24	20	21	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-10	TRUE	compl
+42	3	24	21	22	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-21	TRUE	compl
+42	3	24	22	23	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-5	TRUE	compl
+42	3	24	23	24	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-89	TRUE	compl
+42	3	24	24	25	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-5	TRUE	compl
+42	3	24	25	26	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21	TRUE	compl
+42	3	24	26	27	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-19	TRUE	compl
+42	3	24	27	28	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5	TRUE	compl
+42	3	24	28	29	ao	0	O-CTH	vanNH-5		O-G	vanNH-72	TRUE	compl
+43	1	25	2	3	ao	0	O-PU	seaRM-6		O-CTH	seaRM-20	TRUE	compl
+43	1	25	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-99	TRUE	compl
+43	1	25	4	5	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-17	TRUE	compl
+43	1	25	5	7	ao	1	O-CTH	seaRM-17	D-F	O-CTH	seaRM-1	TRUE	compl
+43	1	25	7	8	ao	0	O-CTH	seaRM-1		D-D	vanNH-24	TRUE	defd
+44	2	25	9	10	ao	0	O-PU	vanNH-27		O-CTH	vanNH-45	TRUE	compl
+44	2	25	10	10	an	-1	O-CTH	vanNH-45		NA	vanNH-45	TRUE	taway
+45	1	26	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-19	TRUE	compl
+45	1	26	3	4	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5	TRUE	compl
+45	1	26	4	5	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-98	TRUE	compl
+45	1	26	5	6	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-21	TRUE	compl
+45	1	26	6	7	ao	0	O-CTH	vanNH-21		D-D	seaRM-18	TRUE	defd
+46	2	26	8	9	ao	0	O-PU	seaRM-29		O-CTH	seaRM-9	TRUE	compl
+46	2	26	9	10	ao	0	O-CTH	seaRM-9		O-CTH	seaRM-29	TRUE	compl
+46	2	26	10	11	ao	0	O-CTH	seaRM-29		O-CTH	seaRM-9	TRUE	compl
+46	2	26	11	12	ao	0	O-CTH	seaRM-9		O-CTH	seaRM-29	TRUE	compl
+46	2	26	12	13	ao	0	O-CTH	seaRM-29		O-CTH	seaRM-9	TRUE	compl
+46	2	26	13	14	ao	0	O-CTH	seaRM-9		O-CTH	seaRM-21	TRUE	compl
+46	2	26	14	15	ao	0	O-CTH	seaRM-21		O-CTH	seaRM-15	TRUE	compl
+46	2	26	15	16	ao	0	O-CTH	seaRM-15		O-CTH	seaRM-18	TRUE	compl
+46	2	26	16	17	ao	0	O-CTH	seaRM-18		O-CTH	seaRM-29	TRUE	compl
+46	2	26	17	18	ao	0	O-CTH	seaRM-29		O-G	seaRM-15	TRUE	compl
+47	1	27	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-89	TRUE	compl
+47	1	27	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-22	TRUE	compl
+47	1	27	4	5	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-89	TRUE	compl
+47	1	27	5	6	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-75	TRUE	compl
+47	1	27	6	7	ao	0	O-CTH	vanNH-75		O-G	vanNH-13	TRUE	compl
+48	1	28	2	3	ao	0	O-PU	seaRM-1		O-CTH	seaRM-20	TRUE	compl
+48	1	28	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-1	TRUE	compl
+48	1	28	4	5	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-20	TRUE	compl
+48	1	28	5	6	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-17	TRUE	compl
+48	1	28	6	7	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-25	TRUE	compl
+48	1	28	7	8	ao	0	O-CTH	seaRM-25		O-CTH	seaRM-1	TRUE	compl
+48	1	28	8	9	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-17	TRUE	compl
+48	1	28	9	10	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-20	TRUE	compl
+48	1	28	10	11	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-8	TRUE	compl
+48	1	28	11	12	ao	0	O-CTH	seaRM-8		O-CTH	seaRM-20	TRUE	compl
+48	1	28	12	13	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-17	TRUE	compl
+48	1	28	13	14	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-20	TRUE	compl
+48	1	28	14	15	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-17	TRUE	compl
+48	1	28	15	16	ao	0	O-CTH	seaRM-17		O-G	seaRM-48	TRUE	compl
+49	1	29	2	3	ao	0	O-PU	vanNH-19		O-CTH	vanNH-91	TRUE	compl
+49	1	29	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-22	TRUE	compl
+49	1	29	4	5	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-72	TRUE	compl
+49	1	29	5	6	ao	0	O-CTH	vanNH-72		O-G	vanNH-98	TRUE	compl
+50	1	30	2	3	ao	0	O-PU	seaRM-17		O-CTH	seaRM-20	TRUE	compl
+50	1	30	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-25	TRUE	compl
+50	1	30	4	5	ao	0	O-CTH	seaRM-25		O-CTH	seaRM-1	TRUE	compl
+50	1	30	5	6	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-25	TRUE	compl
+50	1	30	6	7	ao	0	O-CTH	seaRM-25		O-CTH	seaRM-1	TRUE	compl
+50	1	30	7	8	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-48	TRUE	compl
+50	1	30	8	9	ao	0	O-CTH	seaRM-48		O-G	seaRM-6	TRUE	compl
+51	1	31	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-5	TRUE	compl
+51	1	31	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21	TRUE	compl
+51	1	31	4	5	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-22	TRUE	compl
+51	1	31	5	6	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-10	TRUE	compl
+51	1	31	6	7	ao	0	O-CTH	vanNH-10		D-D	seaRM-15	TRUE	defd
+52	2	31	8	9	ao	0	O-CTH	seaRM-15		O-CTH	seaRM-21	TRUE	compl
+52	2	31	9	10	ao	0	O-CTH	seaRM-21		O-CTH	seaRM-15	TRUE	compl
+52	2	31	10	11	ao	0	O-CTH	seaRM-15		O-CTH	seaRM-29	TRUE	compl
+52	2	31	11	12	ao	0	O-CTH	seaRM-29		O-TO	seaRM-18	TRUE	compl
+52	2	31	13	14	ao	0	O-PU	seaRM-20		O-CTH	seaRM-1	TRUE	compl
+52	2	31	14	15	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-17	TRUE	compl
+52	2	31	15	16	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-99	TRUE	compl
+52	2	31	16	18	ao	1	O-CTH	seaRM-99	D-F	O-OV	seaRM-17	TRUE	compl
+53	3	31	19	20	ao	0	O-PU	vanNH-45		O-CTH	vanNH-81	TRUE	compl
+53	3	31	20	21	ao	0	O-CTH	vanNH-81		O-CTH	vanNH-8	TRUE	compl
+53	3	31	21	22	ao	0	O-CTH	vanNH-8		O-G	vanNH-4	TRUE	compl
+54	1	32	2	3	ao	0	O-PU	seaRM-17		O-CTH	seaRM-20	TRUE	compl
+54	1	32	3	4	ao	0	O-CTH	seaRM-20		O-G	seaRM-48	TRUE	compl
+55	1	33	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-19	TRUE	compl
+55	1	33	3	4	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5	TRUE	compl
+55	1	33	4	5	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-22	TRUE	compl
+55	1	33	5	6	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-19	TRUE	compl
+55	1	33	6	7	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5	TRUE	compl
+55	1	33	7	8	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-98	TRUE	compl
+55	1	33	8	9	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-5	TRUE	compl
+55	1	33	9	10	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-19	TRUE	compl
+55	1	33	10	11	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5	TRUE	compl
+55	1	33	11	12	ao	0	O-CTH	vanNH-5		O-G	vanNH-22	TRUE	compl
+56	1	34	2	3	ao	0	O-PU	seaRM-17		O-CTH	seaRM-25	TRUE	compl
+56	1	34	3	4	ao	0	O-CTH	seaRM-25		O-CTH	seaRM-17	TRUE	compl
+56	1	34	4	5	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-1	TRUE	compl
+56	1	34	5	6	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-48	TRUE	compl
+56	1	34	6	7	ao	0	O-CTH	seaRM-48		O-CTH	seaRM-1	TRUE	compl
+56	1	34	7	8	ao	0	O-CTH	seaRM-1		O-G	seaRM-99	TRUE	compl
+57	1	35	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-5	TRUE	compl
+57	1	35	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21	TRUE	compl
+57	1	35	4	5	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-72	TRUE	compl
+57	1	35	5	6	ao	0	O-CTH	vanNH-72		O-G	vanNH-98	TRUE	compl
+58	1	36	2	3	ao	0	O-PU	seaRM-1		O-CTH	seaRM-20	TRUE	compl
+58	1	36	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-17	TRUE	compl
+58	1	36	4	5	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-25	TRUE	compl
+58	1	36	5	6	ao	0	O-CTH	seaRM-25		O-CTH	seaRM-8	TRUE	compl
+58	1	36	6	7	ao	0	O-CTH	seaRM-8		O-TD	seaRM-1	TRUE	drop
+59	2	36	8	9	ao	0	O-PU	vanNH-45		O-CTH	vanNH-31	TRUE	compl
+59	2	36	9	10	ao	0	O-CTH	vanNH-31		O-G	vanNH-4	TRUE	compl
+60	1	37	2	3	ao	0	O-PU	seaRM-25		O-CTH	seaRM-1	TRUE	compl
+60	1	37	3	4	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-17	TRUE	compl
+60	1	37	4	5	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-48	TRUE	compl
+60	1	37	5	6	ao	0	O-CTH	seaRM-48		D-D	vanNH-14	TRUE	defd
+61	2	37	7	8	ao	0	O-PU	vanNH-33		O-CTH	vanNH-18	TRUE	compl
+61	2	37	8	10	ao	1	O-CTH	vanNH-18	D-F	O-TO	vanNH-75	TRUE	compl
+61	2	37	11	12	ao	0	O-PU	vanNH-19		O-CTH	vanNH-89	TRUE	compl
+61	2	37	12	13	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-21	TRUE	compl
+61	2	37	13	14	ao	0	O-CTH	vanNH-21		O-G	vanNH-10	TRUE	compl
+62	1	38	2	3	ao	0	O-PU	seaRM-1		O-CTH	seaRM-17	TRUE	compl
+62	1	38	3	4	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-20	TRUE	compl
+62	1	38	4	5	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-17	TRUE	compl
+62	1	38	5	6	ao	0	O-CTH	seaRM-17		D-D	vanNH-24	TRUE	defd
+63	2	38	7	8	ao	0	O-PU	vanNH-8		O-CTH	vanNH-45	TRUE	compl
+63	2	38	8	9	ao	0	O-CTH	vanNH-45		O-CTH	vanNH-8	TRUE	compl
+63	2	38	9	10	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-45	TRUE	compl
+63	2	38	10	11	ao	0	O-CTH	vanNH-45		O-CTH	vanNH-8	TRUE	compl
+63	2	38	11	12	ao	0	O-CTH	vanNH-8		O-G	vanNH-27	TRUE	compl
+64	1	39	2	3	ao	0	O-PU	seaRM-1		O-CTH	seaRM-29	TRUE	compl
+64	1	39	3	4	ao	0	O-CTH	seaRM-29		O-CTH	seaRM-18	TRUE	compl
+64	1	39	4	5	ao	0	O-CTH	seaRM-18		O-CTH	seaRM-29	TRUE	compl
+64	1	39	5	7	ao	1	O-CTH	seaRM-29	D-F	O-OV	seaRM-20	TRUE	compl
+65	2	39	8	9	ao	0	O-PU	vanNH-33		O-CTH	vanNH-14	TRUE	compl
+65	2	39	9	10	ao	0	O-CTH	vanNH-14		O-CTH	vanNH-18	TRUE	compl
+65	2	39	10	11	ao	0	O-CTH	vanNH-18		O-CTH	vanNH-33	TRUE	compl
+65	2	39	11	12	ao	0	O-CTH	vanNH-33		O-TD	vanNH-13	TRUE	drop
+66	3	39	13	14	ao	0	O-PU	seaRM-20		O-CTH	seaRM-1	TRUE	compl
+66	3	39	14	15	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-99	TRUE	compl
+66	3	39	15	16	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-1	TRUE	compl
+66	3	39	16	17	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-20	TRUE	compl
+66	3	39	17	18	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-29	TRUE	compl
+66	3	39	18	19	ao	0	O-CTH	seaRM-29		O-CTH	seaRM-1	TRUE	compl
+66	3	39	19	20	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-18	TRUE	compl
+66	3	39	20	21	ao	0	O-CTH	seaRM-18		O-TD	seaRM-29	TRUE	drop
+67	4	39	22	23	ao	0	O-PU	vanNH-18		D-D	seaRM-20	TRUE	defd
+68	5	39	25	25	an	-1	O-PU	seaRM-20		NA	seaRM-20	TRUE	taway
+69	6	39	26	27	ao	0	O-PU	vanNH-98		O-G	vanNH-72	TRUE	compl
+70	1	40	2	3	ao	0	O-PU	seaRM-1		O-CTH	seaRM-20	TRUE	compl
+70	1	40	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-1	TRUE	compl
+70	1	40	4	5	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-20	TRUE	compl
+70	1	40	5	6	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-17	TRUE	compl
+70	1	40	6	7	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-6	TRUE	compl
+70	1	40	7	8	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-51	TRUE	compl
+70	1	40	8	10	ao	1	O-CTH	seaRM-51	D-F	O-CTH	seaRM-20	TRUE	compl
+70	1	40	10	11	ao	0	O-CTH	seaRM-20		O-G	seaRM-51	TRUE	compl
+71	1	41	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-91	TRUE	compl
+71	1	41	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5	TRUE	compl
+71	1	41	4	5	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-22	TRUE	compl
+71	1	41	5	6	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-10	TRUE	compl
+71	1	41	6	7	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-19	TRUE	compl
+71	1	41	7	8	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-22	TRUE	compl
+71	1	41	8	9	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-21	TRUE	compl
+71	1	41	9	10	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-91	TRUE	compl
+71	1	41	10	10	an	-1	O-CTH	vanNH-91		NA	vanNH-91	TRUE	taway
+72	2	41	11	17	aa	5	O-PU	seaRM-29	D-F,O-SO,D-SO,O-SI,D-SI	O-PU	seaRM-4	TRUE	nopass
+72	2	41	17	18	ao	0	O-PU	seaRM-4		O-CTH	seaRM-29	TRUE	compl
+72	2	41	18	19	ao	0	O-CTH	seaRM-29		O-CTH	seaRM-23	TRUE	compl
+72	2	41	19	20	ao	0	O-CTH	seaRM-23		O-CTH	seaRM-20	TRUE	compl
+72	2	41	20	21	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-4	TRUE	compl
+72	2	41	21	22	ao	0	O-CTH	seaRM-4		O-CTH	seaRM-20	TRUE	compl
+72	2	41	22	23	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-4	TRUE	compl
+72	2	41	23	24	ao	0	O-CTH	seaRM-4		O-CTH	seaRM-20	TRUE	compl
+72	2	41	24	25	ao	0	O-CTH	seaRM-20		O-G	seaRM-99	TRUE	compl
+73	1	42	2	3	ao	0	O-PU	vanNH-75		O-CTH	vanNH-89	TRUE	compl
+73	1	42	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-75	TRUE	compl
+73	1	42	4	5	ao	0	O-CTH	vanNH-75		O-CTH	vanNH-8	TRUE	compl
+73	1	42	5	6	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-19	TRUE	compl
+73	1	42	6	7	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-89	TRUE	compl
+73	1	42	7	8	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-22	TRUE	compl
+73	1	42	8	9	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-8	TRUE	compl
+73	1	42	9	10	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-22	TRUE	compl
+73	1	42	10	11	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-75	TRUE	compl
+73	1	42	11	12	ao	0	O-CTH	vanNH-75		O-CTH	vanNH-89	TRUE	compl
+73	1	42	12	13	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-75	TRUE	compl
+73	1	42	13	14	ao	0	O-CTH	vanNH-75		O-CTH	vanNH-22	TRUE	compl
+73	1	42	14	15	ao	0	O-CTH	vanNH-22		O-G	vanNH-8	TRUE	compl
+74	1	43	2	3	ao	0	O-PU	seaRM-14		O-CTH	seaRM-20	TRUE	compl
+74	1	43	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-14	TRUE	compl
+74	1	43	4	5	ao	0	O-CTH	seaRM-14		O-CTH	seaRM-20	TRUE	compl
+74	1	43	5	6	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-48	TRUE	compl
+74	1	43	6	7	ao	0	O-CTH	seaRM-48		O-CTH	seaRM-17	TRUE	compl
+74	1	43	7	7	an	-1	O-CTH	seaRM-17		NA	seaRM-17	TRUE	taway
+75	2	43	8	9	ao	0	O-PU	vanNH-81		O-CTH	vanNH-7	TRUE	compl
+75	2	43	9	10	ao	0	O-CTH	vanNH-7		O-CTH	vanNH-27	TRUE	compl
+75	2	43	10	11	ao	0	O-CTH	vanNH-27		O-CTH	vanNH-14	TRUE	compl
+75	2	43	11	11	an	-1	O-CTH	vanNH-14		NA	vanNH-14	TRUE	taway
+76	3	43	12	13	ao	0	O-PU	seaRM-20		O-CTH	seaRM-25	TRUE	compl
+76	3	43	13	14	ao	0	O-CTH	seaRM-25		O-G	seaRM-48	TRUE	compl
+77	1	44	2	3	ao	0	O-PU	vanNH-19		O-CTH	vanNH-5	TRUE	compl
+77	1	44	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-19	TRUE	compl
+77	1	44	4	5	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5	TRUE	compl
+77	1	44	5	7	ao	1	O-CTH	vanNH-5	D-F	O-CTH	vanNH-72	TRUE	compl
+77	1	44	7	8	ao	0	O-CTH	vanNH-72		O-G	vanNH-98	TRUE	compl
+78	1	45	2	3	ao	0	O-PU	seaRM-14		O-CTH	seaRM-20	TRUE	compl
+78	1	45	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-6	TRUE	compl
+78	1	45	4	5	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-8	TRUE	compl
+78	1	45	5	6	ao	0	O-CTH	seaRM-8		O-CTH	seaRM-25	TRUE	compl
+78	1	45	6	7	ao	0	O-CTH	seaRM-25		O-G	seaRM-48	TRUE	compl
+79	1	46	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-21	TRUE	compl
+79	1	46	3	4	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-5	TRUE	compl
+79	1	46	4	5	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-89	TRUE	compl
+79	1	46	5	6	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-72	TRUE	compl
+79	1	46	6	7	ao	0	O-CTH	vanNH-72		O-CTH	vanNH-98	TRUE	compl
+79	1	46	7	8	ao	0	O-CTH	vanNH-98		O-G	vanNH-19	TRUE	compl
+80	1	47	2	3	ao	0	O-PU	seaRM-1		O-CTH	seaRM-20	TRUE	compl
+80	1	47	3	4	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-6	TRUE	compl
+80	1	47	4	5	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-20	TRUE	compl
+80	1	47	5	6	ao	0	O-CTH	seaRM-20		D-D	vanNH-4	TRUE	defd
+81	2	47	7	8	ao	0	O-PU	vanNH-45		O-CTH	vanNH-24	TRUE	compl
+81	2	47	8	9	ao	0	O-CTH	vanNH-24		O-CTH	vanNH-45	TRUE	compl
+81	2	47	9	10	ao	0	O-CTH	vanNH-45		O-CTH	vanNH-81	TRUE	compl
+81	2	47	10	11	ao	0	O-CTH	vanNH-81		O-G	vanNH-27	TRUE	compl
+82	1	48	2	3	ao	0	O-PU	seaRM-20		O-CTH	seaRM-6	TRUE	compl
+82	1	48	3	4	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-20	TRUE	compl
+82	1	48	4	5	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-14	TRUE	compl
+82	1	48	5	6	ao	0	O-CTH	seaRM-14		O-CTH	seaRM-99	TRUE	compl
+82	1	48	6	7	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-14	TRUE	compl
+82	1	48	7	8	ao	0	O-CTH	seaRM-14		O-CTH	seaRM-17	TRUE	compl
+82	1	48	8	9	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-20	TRUE	compl
+82	1	48	9	10	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-14	TRUE	compl
+82	1	48	10	11	ao	0	O-CTH	seaRM-14		O-CTH	seaRM-6	TRUE	compl
+82	1	48	11	12	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-99	TRUE	compl
+82	1	48	12	13	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-14	TRUE	compl
+82	1	48	13	14	ao	0	O-CTH	seaRM-14		O-CTH	seaRM-20	TRUE	compl
+82	1	48	14	15	ao	0	O-CTH	seaRM-20		O-G	seaRM-48	TRUE	compl
+83	1	49	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-10	TRUE	compl
+83	1	49	3	4	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-21	TRUE	compl
+83	1	49	4	5	ao	0	O-CTH	vanNH-21		O-G	vanNH-72	TRUE	compl
+84	1	50	2	3	ao	0	O-PU	seaRM-14		O-CTH	seaRM-1	TRUE	compl
+84	1	50	3	4	ao	0	O-CTH	seaRM-1		O-G	seaRM-6	TRUE	compl
+85	1	51	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-5	TRUE	compl
+85	1	51	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-91	TRUE	compl
+85	1	51	4	6	ao	1	O-CTH	vanNH-91	D-F	O-CTH	vanNH-10	TRUE	compl
+85	1	51	6	7	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-22	TRUE	compl
+85	1	51	7	8	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-5	TRUE	compl
+85	1	51	8	9	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-91	TRUE	compl
+85	1	51	9	10	ao	0	O-CTH	vanNH-91		O-G	vanNH-22	TRUE	compl
+86	1	52	2	3	ao	0	O-PU	seaRM-17		O-CTH	seaRM-1	TRUE	compl
+86	1	52	3	4	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-99	TRUE	compl
+86	1	52	4	5	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-6	TRUE	compl
+86	1	52	5	5	an	-1	O-CTH	seaRM-6		NA	seaRM-6	TRUE	taway
+87	2	52	6	7	ao	0	O-PU	vanNH-18		O-OV	vanNH-18	TRUE	nopass
+88	3	52	8	9	ao	0	O-PU	seaRM-1		O-CTH	seaRM-17	TRUE	compl
+88	3	52	9	10	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-14	TRUE	compl
+88	3	52	10	11	ao	0	O-CTH	seaRM-14		O-CTH	seaRM-6	TRUE	compl
+88	3	52	11	12	ao	0	O-CTH	seaRM-6		O-CTH	seaRM-14	TRUE	compl
+88	3	52	12	12	an	-1	O-CTH	seaRM-14		NA	seaRM-14	TRUE	taway
+89	4	52	13	14	ao	0	O-PU	vanNH-81		O-TD	vanNH-7	TRUE	drop
+90	5	52	15	16	ao	0	O-PU	seaRM-6		O-CTH	seaRM-1	TRUE	compl
+90	5	52	16	17	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-14	TRUE	compl
+90	5	52	17	18	ao	0	O-CTH	seaRM-14		O-CTH	seaRM-99	TRUE	compl
+90	5	52	18	19	ao	0	O-CTH	seaRM-99		O-G	seaRM-25	TRUE	compl
+91	1	53	2	3	ao	0	O-PU	vanNH-19		O-CTH	vanNH-89	TRUE	compl
+91	1	53	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-10	TRUE	compl
+91	1	53	4	5	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-21	TRUE	compl
+91	1	53	5	6	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-19	TRUE	compl
+91	1	53	6	7	ao	0	O-CTH	vanNH-19		O-CTH	vanNH-5	TRUE	compl
+91	1	53	7	8	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-10	TRUE	compl
+91	1	53	8	9	ao	0	O-CTH	vanNH-10		O-G	vanNH-72	TRUE	compl
+92	1	54	2	3	ao	0	O-PU	seaRM-14		O-CTH	seaRM-1	TRUE	compl
+92	1	54	3	4	ao	0	O-CTH	seaRM-1		O-CTH	seaRM-99	TRUE	compl
+92	1	54	4	5	ao	0	O-CTH	seaRM-99		O-G	seaRM-48	TRUE	compl
+93	1	55	2	3	ao	0	O-PU	vanNH-19		O-CTH	vanNH-91	TRUE	compl
+93	1	55	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-21	TRUE	compl
+93	1	55	4	5	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-89	TRUE	compl
+93	1	55	5	6	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91	TRUE	compl
+93	1	55	6	7	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-89	TRUE	compl
+93	1	55	7	7	an	-1	O-CTH	vanNH-89		NA	vanNH-89	TRUE	taway

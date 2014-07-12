@@ -1,5 +1,11 @@
 2014-05-04_sfoDF-at-seaRM:
   614 rows of resolved game play found
-  497 rows of resolved pass data will be written
-  2014-07-12 13:44:48
+  497/497 rows of pass data are whitelisted (100.0%)
+  breakdown of passes:
+
+ compl  ofoul  taway   defd   drop nopass   <NA> 
+   444      0     22     23      8      0      0 
+  444/497 passes were completed (89.3%)
+  497 rows of pass data will be written
+  2014-07-12 15:34:12
 

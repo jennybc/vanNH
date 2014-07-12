@@ -1,541 +1,541 @@
-poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards	end_code	end_plyr
-1	1	1	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24
-1	1	1	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-13
-1	1	1	4	5	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-7
-1	1	1	5	6	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-1	1	1	6	7	ao	0	O-CTH	pdxST-24		D-D	vanNH-81
-2	2	1	8	9	ao	0	O-CTH	vanNH-81		O-CTH	vanNH-18
-2	2	1	9	10	ao	0	O-CTH	vanNH-18		O-CTH	vanNH-45
-2	2	1	10	11	ao	0	O-CTH	vanNH-45		O-CTH	vanNH-31
-2	2	1	11	12	ao	0	O-CTH	vanNH-31		O-CTH	vanNH-8
-2	2	1	12	13	ao	0	O-CTH	vanNH-8		O-G	vanNH-81
-3	1	2	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-11
-3	1	2	3	4	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-6
-3	1	2	4	5	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-16
-3	1	2	5	6	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-11
-3	1	2	6	7	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-16
-3	1	2	7	8	ao	0	O-CTH	pdxST-16		O-G	pdxST-6
-4	1	3	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-72
-4	1	3	3	4	ao	0	O-CTH	vanNH-72		O-CTH	vanNH-22
-4	1	3	4	5	ao	0	O-CTH	vanNH-22		O-G	vanNH-98
-5	1	4	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-13
-5	1	4	3	4	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-7
-5	1	4	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11
-5	1	4	5	6	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7
-5	1	4	6	7	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11
-5	1	4	7	8	ao	0	O-CTH	pdxST-11		O-TD	pdxST-16
-6	2	4	9	10	ao	0	O-PU	vanNH-4		O-CTH	vanNH-18
-6	2	4	10	11	ao	0	O-CTH	vanNH-18		O-CTH	vanNH-27
-6	2	4	11	12	ao	0	O-CTH	vanNH-27		O-CTH	vanNH-31
-6	2	4	12	13	ao	0	O-CTH	vanNH-31		O-CTH	vanNH-81
-6	2	4	13	14	ao	0	O-CTH	vanNH-81		O-G	vanNH-13
-7	1	5	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24
-7	1	5	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-21
-7	1	5	4	5	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-7
-7	1	5	5	6	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-7	1	5	6	7	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-13
-7	1	5	7	8	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-7
-7	1	5	8	9	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-21
-7	1	5	9	10	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-42
-7	1	5	10	11	ao	0	O-CTH	pdxST-42		O-G	pdxST-7
-8	1	6	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-89
-8	1	6	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91
-8	1	6	4	5	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-22
-8	1	6	5	6	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-98
-8	1	6	6	7	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-91
-8	1	6	7	8	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-89
-8	1	6	8	9	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91
-8	1	6	9	11	ao	1	O-CTH	vanNH-91	D-F	O-CTH	vanNH-22
-8	1	6	11	12	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-91
-8	1	6	12	13	ao	0	O-CTH	vanNH-91		O-OV	vanNH-89
-9	2	6	14	15	ao	0	O-PU	pdxST-88		O-CTH	pdxST-17
-9	2	6	15	16	ao	0	O-CTH	pdxST-17		O-CTH	pdxST-21
-9	2	6	16	17	ao	0	O-CTH	pdxST-21		O-G	pdxST-3
-10	1	7	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-89
-10	1	7	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91
-10	1	7	4	5	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-8
-10	1	7	5	6	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-21
-10	1	7	6	7	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-89
-10	1	7	7	8	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-8
-10	1	7	8	9	ao	0	O-CTH	vanNH-8		O-G	vanNH-98
-11	1	8	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24
-11	1	8	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42
-11	1	8	4	5	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-7
-11	1	8	5	6	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-11	1	8	6	7	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-13
-11	1	8	7	8	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-24
-11	1	8	8	9	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16
-11	1	8	9	10	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-7
-11	1	8	10	11	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42
-11	1	8	11	12	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-16
-11	1	8	12	13	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-7
-11	1	8	13	14	ao	0	O-CTH	pdxST-7		O-G	pdxST-42
-12	1	9	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-91
-12	1	9	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-89
-12	1	9	4	5	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-22
-12	1	9	5	7	ao	1	O-CTH	vanNH-22	D-F	O-G	vanNH-21
-13	1	10	2	3	ao	0	O-PU	pdxST-24		O-CTH	pdxST-11
-13	1	10	3	4	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-24
-13	1	10	4	5	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42
-13	1	10	5	6	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-13
-13	1	10	6	7	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-16
-13	1	10	7	8	ao	0	O-CTH	pdxST-16		O-G	pdxST-13
-14	1	11	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-89
-14	1	11	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-5
-14	1	11	4	5	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-98
-14	1	11	5	6	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-5
-14	1	11	6	7	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-89
-14	1	11	7	8	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91
-14	1	11	8	9	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-98
-14	1	11	9	10	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-91
-14	1	11	10	11	ao	0	O-CTH	vanNH-91		O-G	vanNH-22
-15	1	12	2	3	ao	0	O-PU	pdxST-24		O-CTH	pdxST-73
-15	1	12	3	4	ao	0	O-CTH	pdxST-73		O-CTH	pdxST-24
-15	1	12	4	5	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16
-15	1	12	5	6	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-2
-15	1	12	6	7	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-7
-15	1	12	7	8	ao	0	O-CTH	pdxST-7		O-G	pdxST-42
-16	1	13	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-5
-16	1	13	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-91
-16	1	13	4	5	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-10
-16	1	13	5	6	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-22
-16	1	13	6	7	ao	0	O-CTH	vanNH-22		D-D	pdxST-21
-17	2	13	8	8	an	-1	O-PU	pdxST-88		NA	pdxST-88
-18	3	13	9	10	ao	0	O-PU	vanNH-91		O-CTH	vanNH-21
-18	3	13	10	11	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-91
-18	3	13	11	12	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5
-18	3	13	12	13	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-22
-18	3	13	13	14	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-89
-18	3	13	14	15	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-5
-18	3	13	15	16	ao	0	O-CTH	vanNH-5		O-TD	vanNH-10
-19	4	13	18	19	ao	0	O-PU	pdxST-24		O-CTH	pdxST-42
-19	4	13	19	20	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-7
-19	4	13	20	21	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42
-19	4	13	21	22	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-11
-19	4	13	22	23	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7
-19	4	13	23	24	ao	0	O-CTH	pdxST-7		D-D	vanNH-91
-20	5	13	25	26	ao	0	O-CTH	vanNH-91		O-G	vanNH-33
-21	1	14	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-13
-21	1	14	3	4	ao	0	O-CTH	pdxST-13		O-TD	pdxST-24
-22	2	14	5	6	ao	0	O-PU	vanNH-18		O-OV	vanNH-18
-23	3	14	7	8	ao	0	O-PU	pdxST-11		O-G	pdxST-13
-24	1	15	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-5
-24	1	15	3	4	ao	0	O-CTH	vanNH-5		O-F	vanNH-22
-25	2	15	5	6	ao	0	O-PU	pdxST-88		O-CTH	pdxST-8
-25	2	15	6	7	ao	0	O-CTH	pdxST-8		O-G	pdxST-6
-26	1	16	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-91
-26	1	16	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-89
-26	1	16	4	5	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91
-26	1	16	5	6	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-89
-26	1	16	6	7	ao	0	O-CTH	vanNH-89		O-TD	vanNH-72
-27	2	16	8	9	ao	0	O-PU	pdxST-88		O-CTH	pdxST-21
-27	2	16	9	10	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-88
-27	2	16	10	11	ao	0	O-CTH	pdxST-88		O-CTH	pdxST-8
-27	2	16	11	12	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-21
-27	2	16	12	13	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-88
-27	2	16	13	14	ao	0	O-CTH	pdxST-88		O-G	pdxST-4
-28	1	17	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-8
-28	1	17	3	3	an	-1	O-CTH	vanNH-8		NA	vanNH-8
-29	1	18	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-89
-29	1	18	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91
-29	1	18	4	5	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-22
-29	1	18	5	6	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-21
-29	1	18	6	7	ao	0	O-CTH	vanNH-21		O-G	vanNH-98
-30	1	19	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24
-30	1	19	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7
-30	1	19	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-30	1	19	5	6	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7
-30	1	19	6	7	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-13
-30	1	19	7	8	ao	0	O-CTH	pdxST-13		O-TD	pdxST-2
-31	2	19	9	10	ao	0	O-PU	vanNH-18		O-CTH	vanNH-45
-31	2	19	10	11	ao	0	O-CTH	vanNH-45		O-CTH	vanNH-81
-31	2	19	11	12	ao	0	O-CTH	vanNH-81		O-CTH	vanNH-8
-31	2	19	12	13	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-18
-31	2	19	13	14	ao	0	O-CTH	vanNH-18		O-CTH	vanNH-27
-31	2	19	14	15	ao	0	O-CTH	vanNH-27		O-CTH	vanNH-81
-31	2	19	15	16	ao	0	O-CTH	vanNH-81		O-CTH	vanNH-8
-31	2	19	16	17	ao	0	O-CTH	vanNH-8		O-G	vanNH-18
-32	1	20	2	3	ao	0	O-PU	pdxST-42		O-CTH	pdxST-24
-32	1	20	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42
-32	1	20	4	5	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-2
-32	1	20	5	6	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-24
-32	1	20	6	7	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42
-32	1	20	7	8	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-2
-32	1	20	8	9	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-7
-32	1	20	9	10	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-6
-32	1	20	10	11	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-42
-32	1	20	11	12	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-13
-32	1	20	12	13	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-2
-32	1	20	13	13	an	-1	O-CTH	pdxST-2		NA	pdxST-2
-33	2	20	15	16	ao	0	O-PU	vanNH-91		O-CTH	vanNH-22
-33	2	20	16	18	ao	1	O-CTH	vanNH-22	D-F	O-G	vanNH-21
-34	1	21	2	3	ao	0	O-PU	pdxST-42		O-CTH	pdxST-24
-34	1	21	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10
-34	1	21	4	5	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
-34	1	21	5	6	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10
-34	1	21	6	7	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24
-34	1	21	7	8	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-13
-34	1	21	8	9	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-16
-34	1	21	9	10	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-24
-34	1	21	10	11	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10
-34	1	21	11	12	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
-34	1	21	12	13	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42
-34	1	21	13	14	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-7
-34	1	21	14	15	ao	0	O-CTH	pdxST-7		O-G	pdxST-16
-35	1	22	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-5
-35	1	22	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-89
-35	1	22	4	5	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-5
-35	1	22	5	6	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21
-35	1	22	6	8	ao	1	O-CTH	vanNH-21	D-F	O-CTH	vanNH-89
-35	1	22	8	9	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-98
-35	1	22	9	10	ao	0	O-CTH	vanNH-98		D-D	pdxST-21
-36	2	22	11	12	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-6
-36	2	22	12	13	ao	0	O-CTH	pdxST-6		D-D	vanNH-89
-37	3	22	14	15	ao	0	O-PU	vanNH-91		O-CTH	vanNH-89
-37	3	22	15	16	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91
-37	3	22	16	17	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5
-37	3	22	17	18	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-89
-37	3	22	18	19	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-21
-37	3	22	19	20	ao	0	O-CTH	vanNH-21		D-D	pdxST-8
-38	4	22	22	23	ao	0	O-PU	pdxST-24		O-CTH	pdxST-11
-38	4	22	23	24	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-2
-38	4	22	24	25	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-16
-38	4	22	25	26	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-7
-38	4	22	26	27	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42
-38	4	22	27	28	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-13
-38	4	22	28	29	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-2
-38	4	22	29	30	ao	0	O-CTH	pdxST-2		D-D	vanNH-31
-39	5	22	31	32	ao	0	O-CTH	vanNH-31		O-CTH	vanNH-8
-39	5	22	32	33	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-31
-39	5	22	33	34	ao	0	O-CTH	vanNH-31		O-CTH	vanNH-33
-39	5	22	34	35	ao	0	O-CTH	vanNH-33		O-CTH	vanNH-13
-39	5	22	35	36	ao	0	O-CTH	vanNH-13		O-G	vanNH-31
-40	1	23	2	3	ao	0	O-PU	pdxST-42		O-CTH	pdxST-24
-40	1	23	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7
-40	1	23	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-13
-40	1	23	5	6	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-24
-40	1	23	6	7	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42
-40	1	23	7	8	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-16
-40	1	23	8	9	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-24
-40	1	23	9	10	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-13
-40	1	23	10	11	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-24
-40	1	23	11	12	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-4
-40	1	23	12	13	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-24
-40	1	23	13	14	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16
-40	1	23	14	15	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-7
-40	1	23	15	16	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-16
-40	1	23	16	17	ao	0	O-CTH	pdxST-16		D-D	vanNH-81
-41	2	23	18	19	ao	0	O-PU	vanNH-75		O-CTH	vanNH-24
-41	2	23	19	20	ao	0	O-CTH	vanNH-24		O-CTH	vanNH-4
-41	2	23	20	21	ao	0	O-CTH	vanNH-4		O-CTH	vanNH-27
-41	2	23	21	22	ao	0	O-CTH	vanNH-27		O-CTH	vanNH-24
-41	2	23	22	23	ao	0	O-CTH	vanNH-24		O-CTH	vanNH-8
-41	2	23	23	24	ao	0	O-CTH	vanNH-8		O-TO	vanNH-81
-41	2	23	25	26	ao	0	O-PU	vanNH-91		O-CTH	vanNH-10
-41	2	23	26	27	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-98
-41	2	23	27	28	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-91
-41	2	23	28	29	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5
-41	2	23	29	30	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-89
-41	2	23	30	31	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-5
-41	2	23	31	32	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21
-41	2	23	32	33	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-89
-41	2	23	33	34	ao	0	O-CTH	vanNH-89		O-G	vanNH-98
-42	1	24	2	3	ao	0	O-PU	pdxST-24		O-CTH	pdxST-42
-42	1	24	3	4	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-2
-42	1	24	4	5	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-10
-42	1	24	5	6	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-11
-42	1	24	6	7	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-2
-42	1	24	7	8	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-42
-42	1	24	8	9	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-13
-42	1	24	9	10	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-24
-42	1	24	10	12	ao	1	O-CTH	pdxST-24	D-F	O-CTH	pdxST-10
-42	1	24	12	13	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24
-42	1	24	13	14	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10
-42	1	24	14	16	ao	1	O-CTH	pdxST-10	D-F	O-CTH	pdxST-24
-42	1	24	16	17	ao	0	O-CTH	pdxST-24		O-G	pdxST-13
-43	1	25	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-5
-43	1	25	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21
-43	1	25	4	5	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-89
-43	1	25	5	6	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-5
-43	1	25	6	7	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-10
-43	1	25	7	8	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-98
-43	1	25	8	9	ao	0	O-CTH	vanNH-98		O-G	vanNH-10
-44	1	26	2	3	ao	0	O-PU	pdxST-24		O-CTH	pdxST-13
-44	1	26	3	4	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-7
-44	1	26	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11
-44	1	26	5	6	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-2
-44	1	26	6	7	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-11
-44	1	26	7	8	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-2
-44	1	26	8	9	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-16
-44	1	26	9	10	ao	0	O-CTH	pdxST-16		O-G	pdxST-13
-45	1	27	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-91
-45	1	27	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-22
-45	1	27	4	5	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-21
-45	1	27	5	6	ao	0	O-CTH	vanNH-21		D-D	pdxST-22
-46	1	28	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24
-46	1	28	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16
-46	1	28	4	5	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-24
-46	1	28	5	6	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-13
-46	1	28	6	7	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-24
-46	1	28	7	8	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16
-46	1	28	8	9	ao	0	O-CTH	pdxST-16		O-G	pdxST-13
-47	1	29	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-5
-47	1	29	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-98
-47	1	29	4	5	ao	0	O-CTH	vanNH-98		O-TD	vanNH-22
-48	2	29	6	7	ao	0	O-PU	pdxST-88		D-D	vanNH-22
-49	3	29	8	9	ao	0	O-PU	vanNH-5		O-TD	vanNH-21
-50	4	29	10	11	ao	0	O-PU	pdxST-88		O-CTH	pdxST-3
-50	4	29	11	12	ao	0	O-CTH	pdxST-3		O-CTH	pdxST-8
-50	4	29	12	13	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-21
-50	4	29	13	14	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-14
-50	4	29	14	15	ao	0	O-CTH	pdxST-14		O-CTH	pdxST-8
-50	4	29	15	16	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-6
-50	4	29	16	17	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-21
-50	4	29	17	18	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-88
-50	4	29	18	19	ao	0	O-CTH	pdxST-88		O-G	pdxST-3
-51	1	30	2	3	ao	0	O-PU	vanNH-18		O-CTH	vanNH-91
-51	1	30	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5
-51	1	30	4	4	an	-1	O-CTH	vanNH-5		NA	vanNH-5
-52	2	30	5	6	ao	0	O-PU	pdxST-88		O-CTH	pdxST-22
-52	2	30	6	7	ao	0	O-CTH	pdxST-22		O-CTH	pdxST-88
-52	2	30	7	8	ao	0	O-CTH	pdxST-88		D-D	vanNH-8
-53	3	30	9	10	ao	0	O-PU	vanNH-91		O-CTH	vanNH-10
-53	3	30	10	11	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-8
-53	3	30	11	12	ao	0	O-CTH	vanNH-8		O-TD	vanNH-22
-54	4	30	13	14	ao	0	O-PU	pdxST-8		O-CTH	pdxST-22
-54	4	30	14	15	ao	0	O-CTH	pdxST-22		O-CTH	pdxST-21
-54	4	30	15	16	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-4
-54	4	30	16	17	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-6
-54	4	30	17	18	ao	0	O-CTH	pdxST-6		O-G	pdxST-13
-55	1	31	2	3	ao	0	O-PU	vanNH-45		O-CTH	vanNH-75
-55	1	31	3	4	ao	0	O-CTH	vanNH-75		O-CTH	vanNH-33
-55	1	31	4	5	ao	0	O-CTH	vanNH-33		O-CTH	vanNH-89
-55	1	31	5	5	an	-1	O-CTH	vanNH-89		NA	vanNH-89
-56	2	31	6	7	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24
-56	2	31	7	8	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7
-56	2	31	8	9	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-56	2	31	9	10	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7
-56	2	31	10	11	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-56	2	31	11	12	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-4
-56	2	31	12	13	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-24
-56	2	31	13	14	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-88
-56	2	31	14	15	ao	0	O-CTH	pdxST-88		O-CTH	pdxST-4
-56	2	31	15	16	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-24
-56	2	31	16	17	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-14
-56	2	31	17	18	ao	0	O-CTH	pdxST-14		O-CTH	pdxST-88
-56	2	31	18	19	ao	0	O-CTH	pdxST-88		O-CTH	pdxST-2
-56	2	31	19	20	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-88
-56	2	31	20	21	ao	0	O-CTH	pdxST-88		O-CTH	pdxST-14
-56	2	31	21	22	ao	0	O-CTH	pdxST-14		O-CTH	pdxST-4
-56	2	31	22	23	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-2
-56	2	31	23	24	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-7
-56	2	31	24	25	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-56	2	31	25	26	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-4
-56	2	31	26	27	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-24
-56	2	31	27	28	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-17
-56	2	31	28	29	ao	0	O-CTH	pdxST-17		O-CTH	pdxST-14
-56	2	31	29	30	ao	0	O-CTH	pdxST-14		O-CTH	pdxST-7
-56	2	31	30	31	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-56	2	31	31	32	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-88
-56	2	31	32	33	ao	0	O-CTH	pdxST-88		O-CTH	pdxST-24
-56	2	31	33	34	ao	0	O-CTH	pdxST-24		O-G	pdxST-7
-57	1	32	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-5
-57	1	32	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-91
-57	1	32	4	5	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-22
-57	1	32	5	6	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-21
-57	1	32	6	7	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-31
-57	1	32	7	8	ao	0	O-CTH	vanNH-31		D-D	pdxST-3
-58	2	32	9	10	ao	0	O-CTH	pdxST-3		O-CTH	pdxST-16
-58	2	32	10	10	an	-1	O-CTH	pdxST-16		NA	pdxST-16
-59	3	32	11	12	ao	0	O-PU	vanNH-5		O-CTH	vanNH-91
-59	3	32	12	13	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5
-59	3	32	13	14	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-72
-59	3	32	14	15	ao	0	O-CTH	vanNH-72		O-CTH	vanNH-18
-59	3	32	15	16	ao	0	O-CTH	vanNH-18		O-CTH	vanNH-31
-59	3	32	16	17	ao	0	O-CTH	vanNH-31		O-CTH	vanNH-22
-59	3	32	17	18	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-5
-59	3	32	18	19	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-91
-59	3	32	19	20	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5
-59	3	32	20	21	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21
-59	3	32	21	22	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-18
-59	3	32	22	23	ao	0	O-CTH	vanNH-18		O-CTH	vanNH-5
-59	3	32	23	24	ao	0	O-CTH	vanNH-5		O-G	vanNH-22
-60	1	33	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24
-60	1	33	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-11
-60	1	33	4	5	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-13
-60	1	33	5	6	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-24
-60	1	33	6	7	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42
-60	1	33	7	8	ao	0	O-CTH	pdxST-42		O-G	pdxST-13
-61	1	34	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-91
-61	1	34	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-89
-61	1	34	4	5	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91
-61	1	34	5	6	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-89
-61	1	34	6	6	an	-1	O-CTH	vanNH-89		NA	vanNH-89
-62	2	34	7	8	ao	0	O-PU	pdxST-21		O-CTH	pdxST-88
-62	2	34	8	9	ao	0	O-CTH	pdxST-88		O-CTH	pdxST-17
-62	2	34	9	10	ao	0	O-CTH	pdxST-17		O-CTH	pdxST-21
-62	2	34	10	11	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-5
-62	2	34	11	12	ao	0	O-CTH	pdxST-5		O-TO	pdxST-5
-62	2	34	13	14	ao	0	O-PU	pdxST-24		O-CTH	pdxST-11
-62	2	34	14	15	ao	0	O-CTH	pdxST-11		O-G	pdxST-42
-63	1	35	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-91
-63	1	35	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-21
-63	1	35	4	5	ao	0	O-CTH	vanNH-21		O-TD	vanNH-98
-64	2	35	6	7	ao	0	O-PU	pdxST-8		O-CTH	pdxST-22
-64	2	35	7	8	ao	0	O-CTH	pdxST-22		O-CTH	pdxST-88
-64	2	35	8	9	ao	0	O-CTH	pdxST-88		O-CTH	pdxST-22
-64	2	35	9	10	ao	0	O-CTH	pdxST-22		O-OV	pdxST-88
-65	3	35	11	12	ao	0	O-PU	vanNH-91		O-G	vanNH-75
-66	1	36	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24
-66	1	36	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7
-66	1	36	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-66	1	36	5	6	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42
-66	1	36	6	7	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-16
-66	1	36	7	8	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-11
-66	1	36	8	9	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-2
-66	1	36	9	10	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-42
-66	1	36	10	10	an	-1	O-CTH	pdxST-42		NA	pdxST-42
-67	1	37	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-91
-67	1	37	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-89
-67	1	37	4	5	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-22
-67	1	37	5	6	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-21
-67	1	37	6	7	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-22
-67	1	37	7	8	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-89
-67	1	37	8	9	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-22
-67	1	37	9	10	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-5
-67	1	37	10	11	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-91
-67	1	37	11	12	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-98
-67	1	37	12	13	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-22
-67	1	37	13	14	ao	0	O-CTH	vanNH-22		O-G	vanNH-72
-68	1	38	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-11
-68	1	38	3	4	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-13
-68	1	38	4	5	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-7
-68	1	38	5	6	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-13
-68	1	38	6	7	ao	0	O-CTH	pdxST-13		D-D	vanNH-8
-69	2	38	8	9	ao	0	O-PU	vanNH-33		O-CTH	vanNH-75
-69	2	38	9	10	ao	0	O-CTH	vanNH-75		O-CTH	vanNH-81
-69	2	38	10	11	ao	0	O-CTH	vanNH-81		O-CTH	vanNH-18
-69	2	38	11	12	ao	0	O-CTH	vanNH-18		O-CTH	vanNH-72
-69	2	38	12	13	ao	0	O-CTH	vanNH-72		O-CTH	vanNH-33
-69	2	38	13	14	ao	0	O-CTH	vanNH-33		O-CTH	vanNH-81
-69	2	38	14	15	ao	0	O-CTH	vanNH-81		O-CTH	vanNH-8
-69	2	38	15	16	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-37
-69	2	38	16	17	ao	0	O-CTH	vanNH-37		O-CTH	vanNH-81
-69	2	38	17	18	ao	0	O-CTH	vanNH-81		O-CTH	vanNH-75
-69	2	38	18	19	ao	0	O-CTH	vanNH-75		O-CTH	vanNH-8
-69	2	38	19	20	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-18
-69	2	38	20	21	ao	0	O-CTH	vanNH-18		O-CTH	vanNH-75
-69	2	38	21	22	ao	0	O-CTH	vanNH-75		O-G	vanNH-45
-70	1	39	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-10
-70	1	39	3	4	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-6
-70	1	39	4	5	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-10
-70	1	39	5	6	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
-70	1	39	6	7	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10
-70	1	39	7	8	ao	0	O-CTH	pdxST-10		O-G	pdxST-13
-71	1	40	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-5
-71	1	40	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-98
-71	1	40	4	5	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-21
-71	1	40	5	6	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-10
-71	1	40	6	7	ao	0	O-CTH	vanNH-10		O-G	vanNH-72
-72	1	41	2	3	ao	0	O-PU	pdxST-10		O-CTH	pdxST-24
-72	1	41	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-13
-72	1	41	4	5	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-24
-72	1	41	5	6	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10
-72	1	41	6	7	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24
-72	1	41	7	8	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42
-72	1	41	8	9	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-13
-72	1	41	9	10	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-4
-72	1	41	10	11	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-24
-72	1	41	11	12	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10
-72	1	41	12	13	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24
-72	1	41	13	14	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16
-72	1	41	14	15	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-24
-72	1	41	15	16	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10
-72	1	41	16	17	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24
-72	1	41	17	18	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10
-72	1	41	18	19	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24
-72	1	41	19	20	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7
-72	1	41	20	21	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24
-72	1	41	21	22	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10
-72	1	41	22	23	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24
-72	1	41	23	24	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7
-72	1	41	24	25	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-16
-72	1	41	25	26	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-13
-72	1	41	26	27	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-16
-72	1	41	27	28	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-24
-72	1	41	28	29	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-2
-72	1	41	29	30	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-42
-72	1	41	30	31	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-10
-72	1	41	31	32	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-2
-72	1	41	32	33	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-7
-72	1	41	33	34	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10
-72	1	41	34	35	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
-72	1	41	35	36	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42
-72	1	41	36	37	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-13
-72	1	41	37	38	ao	0	O-CTH	pdxST-13		O-G	pdxST-10
-73	1	42	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-5
-73	1	42	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21
-73	1	42	4	5	ao	0	O-CTH	vanNH-21		O-G	vanNH-10
-74	1	43	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-10
-74	1	43	3	4	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-11
-74	1	43	4	5	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-10
-74	1	43	5	6	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
-74	1	43	6	7	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-13
-74	1	43	7	8	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-10
-74	1	43	8	9	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-16
-74	1	43	9	10	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-42
-74	1	43	10	11	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-2
-74	1	43	11	12	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-7
-74	1	43	12	13	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42
-74	1	43	13	14	ao	0	O-CTH	pdxST-42		D-D	vanNH-33
-75	2	43	15	16	ao	0	O-CTH	vanNH-33		O-CTH	vanNH-45
-75	2	43	16	17	ao	0	O-CTH	vanNH-45		O-CTH	vanNH-4
-75	2	43	17	18	ao	0	O-CTH	vanNH-4		O-CTH	vanNH-37
-75	2	43	18	19	ao	0	O-CTH	vanNH-37		O-CTH	vanNH-8
-75	2	43	19	19	an	-1	O-CTH	vanNH-8		NA	vanNH-8
-76	3	43	20	21	ao	0	O-PU	pdxST-7		O-CTH	pdxST-10
-76	3	43	21	22	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
-76	3	43	22	23	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10
-76	3	43	23	24	ao	0	O-CTH	pdxST-10		O-TD	pdxST-13
-77	4	43	26	27	ao	0	O-PU	vanNH-91		O-CTH	vanNH-21
-77	4	43	27	28	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-89
-77	4	43	28	29	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-22
-77	4	43	29	30	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-98
-77	4	43	30	31	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-91
-77	4	43	31	32	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5
-77	4	43	32	33	ao	0	O-CTH	vanNH-5		O-TD	vanNH-98
-78	5	43	34	35	ao	0	O-PU	pdxST-6		O-G	pdxST-17
-79	1	44	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-22
-79	1	44	3	4	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-72
-79	1	44	4	5	ao	0	O-CTH	vanNH-72		O-CTH	vanNH-10
-79	1	44	5	6	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-98
-79	1	44	6	7	ao	0	O-CTH	vanNH-98		O-G	vanNH-22
-80	1	45	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24
-80	1	45	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-2
-80	1	45	4	5	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-42
-80	1	45	5	6	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-10
-80	1	45	6	7	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24
-80	1	45	7	8	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10
-80	1	45	8	9	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24
-80	1	45	9	10	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10
-80	1	45	10	11	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-2
-80	1	45	11	12	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-13
-80	1	45	12	13	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-10
-80	1	45	13	14	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
-80	1	45	14	15	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10
-80	1	45	15	16	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24
-80	1	45	16	17	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-2
-80	1	45	17	18	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-10
-80	1	45	18	19	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-42
-80	1	45	19	20	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-10
-80	1	45	20	21	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7
-80	1	45	21	22	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10
-80	1	45	22	23	ao	0	O-CTH	pdxST-10		O-G	pdxST-13
-81	1	46	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-5
-81	1	46	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-10
-81	1	46	4	5	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-22
-81	1	46	5	6	ao	0	O-CTH	vanNH-22		O-G	vanNH-98
-82	1	47	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-10
-82	1	47	3	4	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24
-82	1	47	4	5	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7
-82	1	47	5	6	ao	0	O-CTH	pdxST-7		O-G	pdxST-2
+poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards	end_code	end_plyr	wl	pclass
+1	1	1	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+1	1	1	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-13	TRUE	compl
+1	1	1	4	5	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-7	TRUE	compl
+1	1	1	5	6	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+1	1	1	6	7	ao	0	O-CTH	pdxST-24		D-D	vanNH-81	TRUE	defd
+2	2	1	8	9	ao	0	O-CTH	vanNH-81		O-CTH	vanNH-18	TRUE	compl
+2	2	1	9	10	ao	0	O-CTH	vanNH-18		O-CTH	vanNH-45	TRUE	compl
+2	2	1	10	11	ao	0	O-CTH	vanNH-45		O-CTH	vanNH-31	TRUE	compl
+2	2	1	11	12	ao	0	O-CTH	vanNH-31		O-CTH	vanNH-8	TRUE	compl
+2	2	1	12	13	ao	0	O-CTH	vanNH-8		O-G	vanNH-81	TRUE	compl
+3	1	2	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-11	TRUE	compl
+3	1	2	3	4	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-6	TRUE	compl
+3	1	2	4	5	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-16	TRUE	compl
+3	1	2	5	6	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-11	TRUE	compl
+3	1	2	6	7	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-16	TRUE	compl
+3	1	2	7	8	ao	0	O-CTH	pdxST-16		O-G	pdxST-6	TRUE	compl
+4	1	3	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-72	TRUE	compl
+4	1	3	3	4	ao	0	O-CTH	vanNH-72		O-CTH	vanNH-22	TRUE	compl
+4	1	3	4	5	ao	0	O-CTH	vanNH-22		O-G	vanNH-98	TRUE	compl
+5	1	4	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-13	TRUE	compl
+5	1	4	3	4	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-7	TRUE	compl
+5	1	4	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11	TRUE	compl
+5	1	4	5	6	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7	TRUE	compl
+5	1	4	6	7	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11	TRUE	compl
+5	1	4	7	8	ao	0	O-CTH	pdxST-11		O-TD	pdxST-16	TRUE	drop
+6	2	4	9	10	ao	0	O-PU	vanNH-4		O-CTH	vanNH-18	TRUE	compl
+6	2	4	10	11	ao	0	O-CTH	vanNH-18		O-CTH	vanNH-27	TRUE	compl
+6	2	4	11	12	ao	0	O-CTH	vanNH-27		O-CTH	vanNH-31	TRUE	compl
+6	2	4	12	13	ao	0	O-CTH	vanNH-31		O-CTH	vanNH-81	TRUE	compl
+6	2	4	13	14	ao	0	O-CTH	vanNH-81		O-G	vanNH-13	TRUE	compl
+7	1	5	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+7	1	5	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-21	TRUE	compl
+7	1	5	4	5	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-7	TRUE	compl
+7	1	5	5	6	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+7	1	5	6	7	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-13	TRUE	compl
+7	1	5	7	8	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-7	TRUE	compl
+7	1	5	8	9	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-21	TRUE	compl
+7	1	5	9	10	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-42	TRUE	compl
+7	1	5	10	11	ao	0	O-CTH	pdxST-42		O-G	pdxST-7	TRUE	compl
+8	1	6	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-89	TRUE	compl
+8	1	6	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91	TRUE	compl
+8	1	6	4	5	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-22	TRUE	compl
+8	1	6	5	6	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-98	TRUE	compl
+8	1	6	6	7	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-91	TRUE	compl
+8	1	6	7	8	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-89	TRUE	compl
+8	1	6	8	9	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91	TRUE	compl
+8	1	6	9	11	ao	1	O-CTH	vanNH-91	D-F	O-CTH	vanNH-22	TRUE	compl
+8	1	6	11	12	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-91	TRUE	compl
+8	1	6	12	13	ao	0	O-CTH	vanNH-91		O-OV	vanNH-89	TRUE	compl
+9	2	6	14	15	ao	0	O-PU	pdxST-88		O-CTH	pdxST-17	TRUE	compl
+9	2	6	15	16	ao	0	O-CTH	pdxST-17		O-CTH	pdxST-21	TRUE	compl
+9	2	6	16	17	ao	0	O-CTH	pdxST-21		O-G	pdxST-3	TRUE	compl
+10	1	7	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-89	TRUE	compl
+10	1	7	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91	TRUE	compl
+10	1	7	4	5	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-8	TRUE	compl
+10	1	7	5	6	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-21	TRUE	compl
+10	1	7	6	7	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-89	TRUE	compl
+10	1	7	7	8	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-8	TRUE	compl
+10	1	7	8	9	ao	0	O-CTH	vanNH-8		O-G	vanNH-98	TRUE	compl
+11	1	8	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+11	1	8	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42	TRUE	compl
+11	1	8	4	5	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-7	TRUE	compl
+11	1	8	5	6	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+11	1	8	6	7	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-13	TRUE	compl
+11	1	8	7	8	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-24	TRUE	compl
+11	1	8	8	9	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16	TRUE	compl
+11	1	8	9	10	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-7	TRUE	compl
+11	1	8	10	11	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42	TRUE	compl
+11	1	8	11	12	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-16	TRUE	compl
+11	1	8	12	13	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-7	TRUE	compl
+11	1	8	13	14	ao	0	O-CTH	pdxST-7		O-G	pdxST-42	TRUE	compl
+12	1	9	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-91	TRUE	compl
+12	1	9	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-89	TRUE	compl
+12	1	9	4	5	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-22	TRUE	compl
+12	1	9	5	7	ao	1	O-CTH	vanNH-22	D-F	O-G	vanNH-21	TRUE	compl
+13	1	10	2	3	ao	0	O-PU	pdxST-24		O-CTH	pdxST-11	TRUE	compl
+13	1	10	3	4	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-24	TRUE	compl
+13	1	10	4	5	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42	TRUE	compl
+13	1	10	5	6	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-13	TRUE	compl
+13	1	10	6	7	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-16	TRUE	compl
+13	1	10	7	8	ao	0	O-CTH	pdxST-16		O-G	pdxST-13	TRUE	compl
+14	1	11	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-89	TRUE	compl
+14	1	11	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-5	TRUE	compl
+14	1	11	4	5	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-98	TRUE	compl
+14	1	11	5	6	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-5	TRUE	compl
+14	1	11	6	7	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-89	TRUE	compl
+14	1	11	7	8	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91	TRUE	compl
+14	1	11	8	9	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-98	TRUE	compl
+14	1	11	9	10	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-91	TRUE	compl
+14	1	11	10	11	ao	0	O-CTH	vanNH-91		O-G	vanNH-22	TRUE	compl
+15	1	12	2	3	ao	0	O-PU	pdxST-24		O-CTH	pdxST-73	TRUE	compl
+15	1	12	3	4	ao	0	O-CTH	pdxST-73		O-CTH	pdxST-24	TRUE	compl
+15	1	12	4	5	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16	TRUE	compl
+15	1	12	5	6	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-2	TRUE	compl
+15	1	12	6	7	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-7	TRUE	compl
+15	1	12	7	8	ao	0	O-CTH	pdxST-7		O-G	pdxST-42	TRUE	compl
+16	1	13	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-5	TRUE	compl
+16	1	13	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-91	TRUE	compl
+16	1	13	4	5	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-10	TRUE	compl
+16	1	13	5	6	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-22	TRUE	compl
+16	1	13	6	7	ao	0	O-CTH	vanNH-22		D-D	pdxST-21	TRUE	defd
+17	2	13	8	8	an	-1	O-PU	pdxST-88		NA	pdxST-88	TRUE	taway
+18	3	13	9	10	ao	0	O-PU	vanNH-91		O-CTH	vanNH-21	TRUE	compl
+18	3	13	10	11	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-91	TRUE	compl
+18	3	13	11	12	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5	TRUE	compl
+18	3	13	12	13	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-22	TRUE	compl
+18	3	13	13	14	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-89	TRUE	compl
+18	3	13	14	15	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-5	TRUE	compl
+18	3	13	15	16	ao	0	O-CTH	vanNH-5		O-TD	vanNH-10	TRUE	drop
+19	4	13	18	19	ao	0	O-PU	pdxST-24		O-CTH	pdxST-42	TRUE	compl
+19	4	13	19	20	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-7	TRUE	compl
+19	4	13	20	21	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42	TRUE	compl
+19	4	13	21	22	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-11	TRUE	compl
+19	4	13	22	23	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-7	TRUE	compl
+19	4	13	23	24	ao	0	O-CTH	pdxST-7		D-D	vanNH-91	TRUE	defd
+20	5	13	25	26	ao	0	O-CTH	vanNH-91		O-G	vanNH-33	TRUE	compl
+21	1	14	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-13	TRUE	compl
+21	1	14	3	4	ao	0	O-CTH	pdxST-13		O-TD	pdxST-24	TRUE	drop
+22	2	14	5	6	ao	0	O-PU	vanNH-18		O-OV	vanNH-18	TRUE	nopass
+23	3	14	7	8	ao	0	O-PU	pdxST-11		O-G	pdxST-13	TRUE	compl
+24	1	15	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-5	TRUE	compl
+24	1	15	3	4	ao	0	O-CTH	vanNH-5		O-F	vanNH-22	TRUE	ofoul
+25	2	15	5	6	ao	0	O-PU	pdxST-88		O-CTH	pdxST-8	TRUE	compl
+25	2	15	6	7	ao	0	O-CTH	pdxST-8		O-G	pdxST-6	TRUE	compl
+26	1	16	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-91	TRUE	compl
+26	1	16	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-89	TRUE	compl
+26	1	16	4	5	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91	TRUE	compl
+26	1	16	5	6	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-89	TRUE	compl
+26	1	16	6	7	ao	0	O-CTH	vanNH-89		O-TD	vanNH-72	TRUE	drop
+27	2	16	8	9	ao	0	O-PU	pdxST-88		O-CTH	pdxST-21	TRUE	compl
+27	2	16	9	10	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-88	TRUE	compl
+27	2	16	10	11	ao	0	O-CTH	pdxST-88		O-CTH	pdxST-8	TRUE	compl
+27	2	16	11	12	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-21	TRUE	compl
+27	2	16	12	13	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-88	TRUE	compl
+27	2	16	13	14	ao	0	O-CTH	pdxST-88		O-G	pdxST-4	TRUE	compl
+28	1	17	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-8	TRUE	compl
+28	1	17	3	3	an	-1	O-CTH	vanNH-8		NA	vanNH-8	TRUE	taway
+29	1	18	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-89	TRUE	compl
+29	1	18	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91	TRUE	compl
+29	1	18	4	5	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-22	TRUE	compl
+29	1	18	5	6	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-21	TRUE	compl
+29	1	18	6	7	ao	0	O-CTH	vanNH-21		O-G	vanNH-98	TRUE	compl
+30	1	19	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+30	1	19	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7	TRUE	compl
+30	1	19	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+30	1	19	5	6	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7	TRUE	compl
+30	1	19	6	7	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-13	TRUE	compl
+30	1	19	7	8	ao	0	O-CTH	pdxST-13		O-TD	pdxST-2	TRUE	drop
+31	2	19	9	10	ao	0	O-PU	vanNH-18		O-CTH	vanNH-45	TRUE	compl
+31	2	19	10	11	ao	0	O-CTH	vanNH-45		O-CTH	vanNH-81	TRUE	compl
+31	2	19	11	12	ao	0	O-CTH	vanNH-81		O-CTH	vanNH-8	TRUE	compl
+31	2	19	12	13	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-18	TRUE	compl
+31	2	19	13	14	ao	0	O-CTH	vanNH-18		O-CTH	vanNH-27	TRUE	compl
+31	2	19	14	15	ao	0	O-CTH	vanNH-27		O-CTH	vanNH-81	TRUE	compl
+31	2	19	15	16	ao	0	O-CTH	vanNH-81		O-CTH	vanNH-8	TRUE	compl
+31	2	19	16	17	ao	0	O-CTH	vanNH-8		O-G	vanNH-18	TRUE	compl
+32	1	20	2	3	ao	0	O-PU	pdxST-42		O-CTH	pdxST-24	TRUE	compl
+32	1	20	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42	TRUE	compl
+32	1	20	4	5	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-2	TRUE	compl
+32	1	20	5	6	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-24	TRUE	compl
+32	1	20	6	7	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42	TRUE	compl
+32	1	20	7	8	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-2	TRUE	compl
+32	1	20	8	9	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-7	TRUE	compl
+32	1	20	9	10	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-6	TRUE	compl
+32	1	20	10	11	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-42	TRUE	compl
+32	1	20	11	12	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-13	TRUE	compl
+32	1	20	12	13	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-2	TRUE	compl
+32	1	20	13	13	an	-1	O-CTH	pdxST-2		NA	pdxST-2	TRUE	taway
+33	2	20	15	16	ao	0	O-PU	vanNH-91		O-CTH	vanNH-22	TRUE	compl
+33	2	20	16	18	ao	1	O-CTH	vanNH-22	D-F	O-G	vanNH-21	TRUE	compl
+34	1	21	2	3	ao	0	O-PU	pdxST-42		O-CTH	pdxST-24	TRUE	compl
+34	1	21	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10	TRUE	compl
+34	1	21	4	5	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+34	1	21	5	6	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10	TRUE	compl
+34	1	21	6	7	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24	TRUE	compl
+34	1	21	7	8	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-13	TRUE	compl
+34	1	21	8	9	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-16	TRUE	compl
+34	1	21	9	10	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-24	TRUE	compl
+34	1	21	10	11	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10	TRUE	compl
+34	1	21	11	12	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+34	1	21	12	13	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42	TRUE	compl
+34	1	21	13	14	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-7	TRUE	compl
+34	1	21	14	15	ao	0	O-CTH	pdxST-7		O-G	pdxST-16	TRUE	compl
+35	1	22	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-5	TRUE	compl
+35	1	22	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-89	TRUE	compl
+35	1	22	4	5	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-5	TRUE	compl
+35	1	22	5	6	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21	TRUE	compl
+35	1	22	6	8	ao	1	O-CTH	vanNH-21	D-F	O-CTH	vanNH-89	TRUE	compl
+35	1	22	8	9	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-98	TRUE	compl
+35	1	22	9	10	ao	0	O-CTH	vanNH-98		D-D	pdxST-21	TRUE	defd
+36	2	22	11	12	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-6	TRUE	compl
+36	2	22	12	13	ao	0	O-CTH	pdxST-6		D-D	vanNH-89	TRUE	defd
+37	3	22	14	15	ao	0	O-PU	vanNH-91		O-CTH	vanNH-89	TRUE	compl
+37	3	22	15	16	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91	TRUE	compl
+37	3	22	16	17	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5	TRUE	compl
+37	3	22	17	18	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-89	TRUE	compl
+37	3	22	18	19	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-21	TRUE	compl
+37	3	22	19	20	ao	0	O-CTH	vanNH-21		D-D	pdxST-8	TRUE	defd
+38	4	22	22	23	ao	0	O-PU	pdxST-24		O-CTH	pdxST-11	TRUE	compl
+38	4	22	23	24	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-2	TRUE	compl
+38	4	22	24	25	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-16	TRUE	compl
+38	4	22	25	26	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-7	TRUE	compl
+38	4	22	26	27	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42	TRUE	compl
+38	4	22	27	28	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-13	TRUE	compl
+38	4	22	28	29	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-2	TRUE	compl
+38	4	22	29	30	ao	0	O-CTH	pdxST-2		D-D	vanNH-31	TRUE	defd
+39	5	22	31	32	ao	0	O-CTH	vanNH-31		O-CTH	vanNH-8	TRUE	compl
+39	5	22	32	33	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-31	TRUE	compl
+39	5	22	33	34	ao	0	O-CTH	vanNH-31		O-CTH	vanNH-33	TRUE	compl
+39	5	22	34	35	ao	0	O-CTH	vanNH-33		O-CTH	vanNH-13	TRUE	compl
+39	5	22	35	36	ao	0	O-CTH	vanNH-13		O-G	vanNH-31	TRUE	compl
+40	1	23	2	3	ao	0	O-PU	pdxST-42		O-CTH	pdxST-24	TRUE	compl
+40	1	23	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7	TRUE	compl
+40	1	23	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-13	TRUE	compl
+40	1	23	5	6	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-24	TRUE	compl
+40	1	23	6	7	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42	TRUE	compl
+40	1	23	7	8	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-16	TRUE	compl
+40	1	23	8	9	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-24	TRUE	compl
+40	1	23	9	10	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-13	TRUE	compl
+40	1	23	10	11	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-24	TRUE	compl
+40	1	23	11	12	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-4	TRUE	compl
+40	1	23	12	13	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-24	TRUE	compl
+40	1	23	13	14	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16	TRUE	compl
+40	1	23	14	15	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-7	TRUE	compl
+40	1	23	15	16	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-16	TRUE	compl
+40	1	23	16	17	ao	0	O-CTH	pdxST-16		D-D	vanNH-81	TRUE	defd
+41	2	23	18	19	ao	0	O-PU	vanNH-75		O-CTH	vanNH-24	TRUE	compl
+41	2	23	19	20	ao	0	O-CTH	vanNH-24		O-CTH	vanNH-4	TRUE	compl
+41	2	23	20	21	ao	0	O-CTH	vanNH-4		O-CTH	vanNH-27	TRUE	compl
+41	2	23	21	22	ao	0	O-CTH	vanNH-27		O-CTH	vanNH-24	TRUE	compl
+41	2	23	22	23	ao	0	O-CTH	vanNH-24		O-CTH	vanNH-8	TRUE	compl
+41	2	23	23	24	ao	0	O-CTH	vanNH-8		O-TO	vanNH-81	TRUE	compl
+41	2	23	25	26	ao	0	O-PU	vanNH-91		O-CTH	vanNH-10	TRUE	compl
+41	2	23	26	27	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-98	TRUE	compl
+41	2	23	27	28	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-91	TRUE	compl
+41	2	23	28	29	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5	TRUE	compl
+41	2	23	29	30	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-89	TRUE	compl
+41	2	23	30	31	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-5	TRUE	compl
+41	2	23	31	32	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21	TRUE	compl
+41	2	23	32	33	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-89	TRUE	compl
+41	2	23	33	34	ao	0	O-CTH	vanNH-89		O-G	vanNH-98	TRUE	compl
+42	1	24	2	3	ao	0	O-PU	pdxST-24		O-CTH	pdxST-42	TRUE	compl
+42	1	24	3	4	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-2	TRUE	compl
+42	1	24	4	5	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-10	TRUE	compl
+42	1	24	5	6	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-11	TRUE	compl
+42	1	24	6	7	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-2	TRUE	compl
+42	1	24	7	8	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-42	TRUE	compl
+42	1	24	8	9	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-13	TRUE	compl
+42	1	24	9	10	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-24	TRUE	compl
+42	1	24	10	12	ao	1	O-CTH	pdxST-24	D-F	O-CTH	pdxST-10	TRUE	compl
+42	1	24	12	13	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24	TRUE	compl
+42	1	24	13	14	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10	TRUE	compl
+42	1	24	14	16	ao	1	O-CTH	pdxST-10	D-F	O-CTH	pdxST-24	TRUE	compl
+42	1	24	16	17	ao	0	O-CTH	pdxST-24		O-G	pdxST-13	TRUE	compl
+43	1	25	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-5	TRUE	compl
+43	1	25	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21	TRUE	compl
+43	1	25	4	5	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-89	TRUE	compl
+43	1	25	5	6	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-5	TRUE	compl
+43	1	25	6	7	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-10	TRUE	compl
+43	1	25	7	8	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-98	TRUE	compl
+43	1	25	8	9	ao	0	O-CTH	vanNH-98		O-G	vanNH-10	TRUE	compl
+44	1	26	2	3	ao	0	O-PU	pdxST-24		O-CTH	pdxST-13	TRUE	compl
+44	1	26	3	4	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-7	TRUE	compl
+44	1	26	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-11	TRUE	compl
+44	1	26	5	6	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-2	TRUE	compl
+44	1	26	6	7	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-11	TRUE	compl
+44	1	26	7	8	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-2	TRUE	compl
+44	1	26	8	9	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-16	TRUE	compl
+44	1	26	9	10	ao	0	O-CTH	pdxST-16		O-G	pdxST-13	TRUE	compl
+45	1	27	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-91	TRUE	compl
+45	1	27	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-22	TRUE	compl
+45	1	27	4	5	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-21	TRUE	compl
+45	1	27	5	6	ao	0	O-CTH	vanNH-21		D-D	pdxST-22	TRUE	defd
+46	1	28	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+46	1	28	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16	TRUE	compl
+46	1	28	4	5	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-24	TRUE	compl
+46	1	28	5	6	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-13	TRUE	compl
+46	1	28	6	7	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-24	TRUE	compl
+46	1	28	7	8	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16	TRUE	compl
+46	1	28	8	9	ao	0	O-CTH	pdxST-16		O-G	pdxST-13	TRUE	compl
+47	1	29	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-5	TRUE	compl
+47	1	29	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-98	TRUE	compl
+47	1	29	4	5	ao	0	O-CTH	vanNH-98		O-TD	vanNH-22	TRUE	drop
+48	2	29	6	7	ao	0	O-PU	pdxST-88		D-D	vanNH-22	TRUE	defd
+49	3	29	8	9	ao	0	O-PU	vanNH-5		O-TD	vanNH-21	TRUE	drop
+50	4	29	10	11	ao	0	O-PU	pdxST-88		O-CTH	pdxST-3	TRUE	compl
+50	4	29	11	12	ao	0	O-CTH	pdxST-3		O-CTH	pdxST-8	TRUE	compl
+50	4	29	12	13	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-21	TRUE	compl
+50	4	29	13	14	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-14	TRUE	compl
+50	4	29	14	15	ao	0	O-CTH	pdxST-14		O-CTH	pdxST-8	TRUE	compl
+50	4	29	15	16	ao	0	O-CTH	pdxST-8		O-CTH	pdxST-6	TRUE	compl
+50	4	29	16	17	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-21	TRUE	compl
+50	4	29	17	18	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-88	TRUE	compl
+50	4	29	18	19	ao	0	O-CTH	pdxST-88		O-G	pdxST-3	TRUE	compl
+51	1	30	2	3	ao	0	O-PU	vanNH-18		O-CTH	vanNH-91	TRUE	compl
+51	1	30	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5	TRUE	compl
+51	1	30	4	4	an	-1	O-CTH	vanNH-5		NA	vanNH-5	TRUE	taway
+52	2	30	5	6	ao	0	O-PU	pdxST-88		O-CTH	pdxST-22	TRUE	compl
+52	2	30	6	7	ao	0	O-CTH	pdxST-22		O-CTH	pdxST-88	TRUE	compl
+52	2	30	7	8	ao	0	O-CTH	pdxST-88		D-D	vanNH-8	TRUE	defd
+53	3	30	9	10	ao	0	O-PU	vanNH-91		O-CTH	vanNH-10	TRUE	compl
+53	3	30	10	11	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-8	TRUE	compl
+53	3	30	11	12	ao	0	O-CTH	vanNH-8		O-TD	vanNH-22	TRUE	drop
+54	4	30	13	14	ao	0	O-PU	pdxST-8		O-CTH	pdxST-22	TRUE	compl
+54	4	30	14	15	ao	0	O-CTH	pdxST-22		O-CTH	pdxST-21	TRUE	compl
+54	4	30	15	16	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-4	TRUE	compl
+54	4	30	16	17	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-6	TRUE	compl
+54	4	30	17	18	ao	0	O-CTH	pdxST-6		O-G	pdxST-13	TRUE	compl
+55	1	31	2	3	ao	0	O-PU	vanNH-45		O-CTH	vanNH-75	TRUE	compl
+55	1	31	3	4	ao	0	O-CTH	vanNH-75		O-CTH	vanNH-33	TRUE	compl
+55	1	31	4	5	ao	0	O-CTH	vanNH-33		O-CTH	vanNH-89	TRUE	compl
+55	1	31	5	5	an	-1	O-CTH	vanNH-89		NA	vanNH-89	TRUE	taway
+56	2	31	6	7	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+56	2	31	7	8	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7	TRUE	compl
+56	2	31	8	9	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+56	2	31	9	10	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7	TRUE	compl
+56	2	31	10	11	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+56	2	31	11	12	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-4	TRUE	compl
+56	2	31	12	13	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-24	TRUE	compl
+56	2	31	13	14	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-88	TRUE	compl
+56	2	31	14	15	ao	0	O-CTH	pdxST-88		O-CTH	pdxST-4	TRUE	compl
+56	2	31	15	16	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-24	TRUE	compl
+56	2	31	16	17	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-14	TRUE	compl
+56	2	31	17	18	ao	0	O-CTH	pdxST-14		O-CTH	pdxST-88	TRUE	compl
+56	2	31	18	19	ao	0	O-CTH	pdxST-88		O-CTH	pdxST-2	TRUE	compl
+56	2	31	19	20	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-88	TRUE	compl
+56	2	31	20	21	ao	0	O-CTH	pdxST-88		O-CTH	pdxST-14	TRUE	compl
+56	2	31	21	22	ao	0	O-CTH	pdxST-14		O-CTH	pdxST-4	TRUE	compl
+56	2	31	22	23	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-2	TRUE	compl
+56	2	31	23	24	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-7	TRUE	compl
+56	2	31	24	25	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+56	2	31	25	26	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-4	TRUE	compl
+56	2	31	26	27	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-24	TRUE	compl
+56	2	31	27	28	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-17	TRUE	compl
+56	2	31	28	29	ao	0	O-CTH	pdxST-17		O-CTH	pdxST-14	TRUE	compl
+56	2	31	29	30	ao	0	O-CTH	pdxST-14		O-CTH	pdxST-7	TRUE	compl
+56	2	31	30	31	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+56	2	31	31	32	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-88	TRUE	compl
+56	2	31	32	33	ao	0	O-CTH	pdxST-88		O-CTH	pdxST-24	TRUE	compl
+56	2	31	33	34	ao	0	O-CTH	pdxST-24		O-G	pdxST-7	TRUE	compl
+57	1	32	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-5	TRUE	compl
+57	1	32	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-91	TRUE	compl
+57	1	32	4	5	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-22	TRUE	compl
+57	1	32	5	6	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-21	TRUE	compl
+57	1	32	6	7	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-31	TRUE	compl
+57	1	32	7	8	ao	0	O-CTH	vanNH-31		D-D	pdxST-3	TRUE	defd
+58	2	32	9	10	ao	0	O-CTH	pdxST-3		O-CTH	pdxST-16	TRUE	compl
+58	2	32	10	10	an	-1	O-CTH	pdxST-16		NA	pdxST-16	TRUE	taway
+59	3	32	11	12	ao	0	O-PU	vanNH-5		O-CTH	vanNH-91	TRUE	compl
+59	3	32	12	13	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5	TRUE	compl
+59	3	32	13	14	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-72	TRUE	compl
+59	3	32	14	15	ao	0	O-CTH	vanNH-72		O-CTH	vanNH-18	TRUE	compl
+59	3	32	15	16	ao	0	O-CTH	vanNH-18		O-CTH	vanNH-31	TRUE	compl
+59	3	32	16	17	ao	0	O-CTH	vanNH-31		O-CTH	vanNH-22	TRUE	compl
+59	3	32	17	18	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-5	TRUE	compl
+59	3	32	18	19	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-91	TRUE	compl
+59	3	32	19	20	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5	TRUE	compl
+59	3	32	20	21	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21	TRUE	compl
+59	3	32	21	22	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-18	TRUE	compl
+59	3	32	22	23	ao	0	O-CTH	vanNH-18		O-CTH	vanNH-5	TRUE	compl
+59	3	32	23	24	ao	0	O-CTH	vanNH-5		O-G	vanNH-22	TRUE	compl
+60	1	33	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+60	1	33	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-11	TRUE	compl
+60	1	33	4	5	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-13	TRUE	compl
+60	1	33	5	6	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-24	TRUE	compl
+60	1	33	6	7	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42	TRUE	compl
+60	1	33	7	8	ao	0	O-CTH	pdxST-42		O-G	pdxST-13	TRUE	compl
+61	1	34	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-91	TRUE	compl
+61	1	34	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-89	TRUE	compl
+61	1	34	4	5	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-91	TRUE	compl
+61	1	34	5	6	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-89	TRUE	compl
+61	1	34	6	6	an	-1	O-CTH	vanNH-89		NA	vanNH-89	TRUE	taway
+62	2	34	7	8	ao	0	O-PU	pdxST-21		O-CTH	pdxST-88	TRUE	compl
+62	2	34	8	9	ao	0	O-CTH	pdxST-88		O-CTH	pdxST-17	TRUE	compl
+62	2	34	9	10	ao	0	O-CTH	pdxST-17		O-CTH	pdxST-21	TRUE	compl
+62	2	34	10	11	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-5	TRUE	compl
+62	2	34	11	12	ao	0	O-CTH	pdxST-5		O-TO	pdxST-5	TRUE	nopass
+62	2	34	13	14	ao	0	O-PU	pdxST-24		O-CTH	pdxST-11	TRUE	compl
+62	2	34	14	15	ao	0	O-CTH	pdxST-11		O-G	pdxST-42	TRUE	compl
+63	1	35	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-91	TRUE	compl
+63	1	35	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-21	TRUE	compl
+63	1	35	4	5	ao	0	O-CTH	vanNH-21		O-TD	vanNH-98	TRUE	drop
+64	2	35	6	7	ao	0	O-PU	pdxST-8		O-CTH	pdxST-22	TRUE	compl
+64	2	35	7	8	ao	0	O-CTH	pdxST-22		O-CTH	pdxST-88	TRUE	compl
+64	2	35	8	9	ao	0	O-CTH	pdxST-88		O-CTH	pdxST-22	TRUE	compl
+64	2	35	9	10	ao	0	O-CTH	pdxST-22		O-OV	pdxST-88	TRUE	compl
+65	3	35	11	12	ao	0	O-PU	vanNH-91		O-G	vanNH-75	TRUE	compl
+66	1	36	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+66	1	36	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7	TRUE	compl
+66	1	36	4	5	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+66	1	36	5	6	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42	TRUE	compl
+66	1	36	6	7	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-16	TRUE	compl
+66	1	36	7	8	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-11	TRUE	compl
+66	1	36	8	9	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-2	TRUE	compl
+66	1	36	9	10	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-42	TRUE	compl
+66	1	36	10	10	an	-1	O-CTH	pdxST-42		NA	pdxST-42	TRUE	taway
+67	1	37	2	3	ao	0	O-PU	vanNH-89		O-CTH	vanNH-91	TRUE	compl
+67	1	37	3	4	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-89	TRUE	compl
+67	1	37	4	5	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-22	TRUE	compl
+67	1	37	5	6	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-21	TRUE	compl
+67	1	37	6	7	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-22	TRUE	compl
+67	1	37	7	8	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-89	TRUE	compl
+67	1	37	8	9	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-22	TRUE	compl
+67	1	37	9	10	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-5	TRUE	compl
+67	1	37	10	11	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-91	TRUE	compl
+67	1	37	11	12	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-98	TRUE	compl
+67	1	37	12	13	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-22	TRUE	compl
+67	1	37	13	14	ao	0	O-CTH	vanNH-22		O-G	vanNH-72	TRUE	compl
+68	1	38	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-11	TRUE	compl
+68	1	38	3	4	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-13	TRUE	compl
+68	1	38	4	5	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-7	TRUE	compl
+68	1	38	5	6	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-13	TRUE	compl
+68	1	38	6	7	ao	0	O-CTH	pdxST-13		D-D	vanNH-8	TRUE	defd
+69	2	38	8	9	ao	0	O-PU	vanNH-33		O-CTH	vanNH-75	TRUE	compl
+69	2	38	9	10	ao	0	O-CTH	vanNH-75		O-CTH	vanNH-81	TRUE	compl
+69	2	38	10	11	ao	0	O-CTH	vanNH-81		O-CTH	vanNH-18	TRUE	compl
+69	2	38	11	12	ao	0	O-CTH	vanNH-18		O-CTH	vanNH-72	TRUE	compl
+69	2	38	12	13	ao	0	O-CTH	vanNH-72		O-CTH	vanNH-33	TRUE	compl
+69	2	38	13	14	ao	0	O-CTH	vanNH-33		O-CTH	vanNH-81	TRUE	compl
+69	2	38	14	15	ao	0	O-CTH	vanNH-81		O-CTH	vanNH-8	TRUE	compl
+69	2	38	15	16	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-37	TRUE	compl
+69	2	38	16	17	ao	0	O-CTH	vanNH-37		O-CTH	vanNH-81	TRUE	compl
+69	2	38	17	18	ao	0	O-CTH	vanNH-81		O-CTH	vanNH-75	TRUE	compl
+69	2	38	18	19	ao	0	O-CTH	vanNH-75		O-CTH	vanNH-8	TRUE	compl
+69	2	38	19	20	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-18	TRUE	compl
+69	2	38	20	21	ao	0	O-CTH	vanNH-18		O-CTH	vanNH-75	TRUE	compl
+69	2	38	21	22	ao	0	O-CTH	vanNH-75		O-G	vanNH-45	TRUE	compl
+70	1	39	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-10	TRUE	compl
+70	1	39	3	4	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-6	TRUE	compl
+70	1	39	4	5	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-10	TRUE	compl
+70	1	39	5	6	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+70	1	39	6	7	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10	TRUE	compl
+70	1	39	7	8	ao	0	O-CTH	pdxST-10		O-G	pdxST-13	TRUE	compl
+71	1	40	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-5	TRUE	compl
+71	1	40	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-98	TRUE	compl
+71	1	40	4	5	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-21	TRUE	compl
+71	1	40	5	6	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-10	TRUE	compl
+71	1	40	6	7	ao	0	O-CTH	vanNH-10		O-G	vanNH-72	TRUE	compl
+72	1	41	2	3	ao	0	O-PU	pdxST-10		O-CTH	pdxST-24	TRUE	compl
+72	1	41	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-13	TRUE	compl
+72	1	41	4	5	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-24	TRUE	compl
+72	1	41	5	6	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10	TRUE	compl
+72	1	41	6	7	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24	TRUE	compl
+72	1	41	7	8	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-42	TRUE	compl
+72	1	41	8	9	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-13	TRUE	compl
+72	1	41	9	10	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-4	TRUE	compl
+72	1	41	10	11	ao	0	O-CTH	pdxST-4		O-CTH	pdxST-24	TRUE	compl
+72	1	41	11	12	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10	TRUE	compl
+72	1	41	12	13	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24	TRUE	compl
+72	1	41	13	14	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-16	TRUE	compl
+72	1	41	14	15	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-24	TRUE	compl
+72	1	41	15	16	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10	TRUE	compl
+72	1	41	16	17	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24	TRUE	compl
+72	1	41	17	18	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10	TRUE	compl
+72	1	41	18	19	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24	TRUE	compl
+72	1	41	19	20	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7	TRUE	compl
+72	1	41	20	21	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+72	1	41	21	22	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10	TRUE	compl
+72	1	41	22	23	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24	TRUE	compl
+72	1	41	23	24	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7	TRUE	compl
+72	1	41	24	25	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-16	TRUE	compl
+72	1	41	25	26	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-13	TRUE	compl
+72	1	41	26	27	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-16	TRUE	compl
+72	1	41	27	28	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-24	TRUE	compl
+72	1	41	28	29	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-2	TRUE	compl
+72	1	41	29	30	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-42	TRUE	compl
+72	1	41	30	31	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-10	TRUE	compl
+72	1	41	31	32	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-2	TRUE	compl
+72	1	41	32	33	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-7	TRUE	compl
+72	1	41	33	34	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10	TRUE	compl
+72	1	41	34	35	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+72	1	41	35	36	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42	TRUE	compl
+72	1	41	36	37	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-13	TRUE	compl
+72	1	41	37	38	ao	0	O-CTH	pdxST-13		O-G	pdxST-10	TRUE	compl
+73	1	42	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-5	TRUE	compl
+73	1	42	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-21	TRUE	compl
+73	1	42	4	5	ao	0	O-CTH	vanNH-21		O-G	vanNH-10	TRUE	compl
+74	1	43	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-10	TRUE	compl
+74	1	43	3	4	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-11	TRUE	compl
+74	1	43	4	5	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-10	TRUE	compl
+74	1	43	5	6	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+74	1	43	6	7	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-13	TRUE	compl
+74	1	43	7	8	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-10	TRUE	compl
+74	1	43	8	9	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-16	TRUE	compl
+74	1	43	9	10	ao	0	O-CTH	pdxST-16		O-CTH	pdxST-42	TRUE	compl
+74	1	43	10	11	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-2	TRUE	compl
+74	1	43	11	12	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-7	TRUE	compl
+74	1	43	12	13	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-42	TRUE	compl
+74	1	43	13	14	ao	0	O-CTH	pdxST-42		D-D	vanNH-33	TRUE	defd
+75	2	43	15	16	ao	0	O-CTH	vanNH-33		O-CTH	vanNH-45	TRUE	compl
+75	2	43	16	17	ao	0	O-CTH	vanNH-45		O-CTH	vanNH-4	TRUE	compl
+75	2	43	17	18	ao	0	O-CTH	vanNH-4		O-CTH	vanNH-37	TRUE	compl
+75	2	43	18	19	ao	0	O-CTH	vanNH-37		O-CTH	vanNH-8	TRUE	compl
+75	2	43	19	19	an	-1	O-CTH	vanNH-8		NA	vanNH-8	TRUE	taway
+76	3	43	20	21	ao	0	O-PU	pdxST-7		O-CTH	pdxST-10	TRUE	compl
+76	3	43	21	22	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+76	3	43	22	23	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10	TRUE	compl
+76	3	43	23	24	ao	0	O-CTH	pdxST-10		O-TD	pdxST-13	TRUE	drop
+77	4	43	26	27	ao	0	O-PU	vanNH-91		O-CTH	vanNH-21	TRUE	compl
+77	4	43	27	28	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-89	TRUE	compl
+77	4	43	28	29	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-22	TRUE	compl
+77	4	43	29	30	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-98	TRUE	compl
+77	4	43	30	31	ao	0	O-CTH	vanNH-98		O-CTH	vanNH-91	TRUE	compl
+77	4	43	31	32	ao	0	O-CTH	vanNH-91		O-CTH	vanNH-5	TRUE	compl
+77	4	43	32	33	ao	0	O-CTH	vanNH-5		O-TD	vanNH-98	TRUE	drop
+78	5	43	34	35	ao	0	O-PU	pdxST-6		O-G	pdxST-17	TRUE	compl
+79	1	44	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-22	TRUE	compl
+79	1	44	3	4	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-72	TRUE	compl
+79	1	44	4	5	ao	0	O-CTH	vanNH-72		O-CTH	vanNH-10	TRUE	compl
+79	1	44	5	6	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-98	TRUE	compl
+79	1	44	6	7	ao	0	O-CTH	vanNH-98		O-G	vanNH-22	TRUE	compl
+80	1	45	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-24	TRUE	compl
+80	1	45	3	4	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-2	TRUE	compl
+80	1	45	4	5	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-42	TRUE	compl
+80	1	45	5	6	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-10	TRUE	compl
+80	1	45	6	7	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24	TRUE	compl
+80	1	45	7	8	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10	TRUE	compl
+80	1	45	8	9	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24	TRUE	compl
+80	1	45	9	10	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-10	TRUE	compl
+80	1	45	10	11	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-2	TRUE	compl
+80	1	45	11	12	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-13	TRUE	compl
+80	1	45	12	13	ao	0	O-CTH	pdxST-13		O-CTH	pdxST-10	TRUE	compl
+80	1	45	13	14	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+80	1	45	14	15	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10	TRUE	compl
+80	1	45	15	16	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24	TRUE	compl
+80	1	45	16	17	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-2	TRUE	compl
+80	1	45	17	18	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-10	TRUE	compl
+80	1	45	18	19	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-42	TRUE	compl
+80	1	45	19	20	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-10	TRUE	compl
+80	1	45	20	21	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-7	TRUE	compl
+80	1	45	21	22	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10	TRUE	compl
+80	1	45	22	23	ao	0	O-CTH	pdxST-10		O-G	pdxST-13	TRUE	compl
+81	1	46	2	3	ao	0	O-PU	vanNH-91		O-CTH	vanNH-5	TRUE	compl
+81	1	46	3	4	ao	0	O-CTH	vanNH-5		O-CTH	vanNH-10	TRUE	compl
+81	1	46	4	5	ao	0	O-CTH	vanNH-10		O-CTH	vanNH-22	TRUE	compl
+81	1	46	5	6	ao	0	O-CTH	vanNH-22		O-G	vanNH-98	TRUE	compl
+82	1	47	2	3	ao	0	O-PU	pdxST-7		O-CTH	pdxST-10	TRUE	compl
+82	1	47	3	4	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-24	TRUE	compl
+82	1	47	4	5	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-7	TRUE	compl
+82	1	47	5	6	ao	0	O-CTH	pdxST-7		O-G	pdxST-2	TRUE	compl

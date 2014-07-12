@@ -1,5 +1,16 @@
 2014-06-15_pdxST-at-vanNH:
   635 rows of resolved game play found
-  511 rows of resolved pass data will be written
-  2014-07-12 13:44:56
+  511/511 rows of pass data are whitelisted (100.0%)
+  ALERT 1 rows of pass data end with pickup (PU)
+    poss_abs poss_rel point beg_event end_event desc n_inn beg_code beg_plyr
+448       65        1    34        14        18   aa     3    O-CTH pdxST-24
+          innards end_code end_plyr   wl pclass
+448 D-F,D-SO,D-SI     O-PU pdxST-24 TRUE nopass
+  breakdown of passes:
+
+ compl  ofoul  taway   defd   drop nopass   <NA> 
+   474      1     13     17      4      2      0 
+  474/509 passes were completed (93.1%)
+  511 rows of pass data will be written
+  2014-07-12 15:34:19
 

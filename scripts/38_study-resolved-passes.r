@@ -101,3 +101,53 @@ subset(pass_dat, innards == 'O-F',
 ## pdxST-8 then throws to pdxST-73; O-PU, O-F, O-CTH
 ## 2014-05-31_vanNH-at-seaRM point 10 this is looks legit: vanNH-19 has the disc,
 ## there's some foul on the offense, vanNH-19 eventually throws to vanNH-89
+
+pass_tally <- as.data.frame(with(subset(pass_dat, desc == 'an'),
+                                 table(paste(beg_code, end_code))))
+pass_tally$Var1 <- with(pass_tally, reorder(Var1, Freq))
+pass_tally <- arrange(pass_tally, desc(Freq))
+pass_tally
+
+source("07_pass-map.r")
+
+str(pass_dat)
+tmp <- join(pass_dat, pass_map)
+str(tmp)
+table(tmp$pclass, useNA = "always")
+#  compl ofoul taway  defd  drop  <NA> 
+#   6372     7   341   313   163    99 
+
+tmp$pclass <- factor(tmp$pclass, levels = c(levels(tmp$pclass), "nopass"))
+
+with(subset(tmp, is.na(pclass)), table(paste(beg_code, end_code)))
+# O-CTH O-OV O-CTH O-PU O-CTH O-TO  O-PU O-OV  O-PU O-PU  O-PU O-TO 
+#         27          4         37         14          1         16 
+
+## special handling for {O-CTH, O-PU} {O-TO, O-OV}
+fill_me <-
+  with(tmp, beg_code %in% c('O-CTH', 'O-PU') & end_code %in% c('O-TO', 'O-OV'))
+fill_me[is.na(fill_me)] <- FALSE
+table(fill_me) # 7237 FALSE 58 TRUE
+player_same <- with(tmp, beg_plyr == end_plyr)
+table(player_same, useNA = "always") # 6931 FALSE 364 TRUE
+tmp$pclass[fill_me & !player_same] <- "compl"
+tmp$pclass[fill_me & player_same] <- "nopass"
+
+with(subset(tmp, is.na(pclass)), table(paste(beg_code, end_code)))
+# O-CTH O-PU  O-PU O-PU 
+#          4          1 
+
+## special handling for {O-CTH, O-PU} O-PU
+## so far these seem to usually involve lots of subs off and in
+## IRL, raise an alert so we look at these
+fill_me <-
+  with(tmp, beg_code %in% c('O-CTH', 'O-PU') & end_code == 'O-PU')
+fill_me[is.na(fill_me)] <- FALSE
+table(fill_me) # 7290 FALSE 5 TRUE
+tmp$pclass[fill_me] <- "nopass"
+
+table(tmp$pclass, useNA = "always")
+#  compl  ofoul  taway   defd   drop nopass   <NA> 
+#   6450      7    341    313    163     21      0 
+sum(tmp$pclass == 'compl') / 
+  sum(tmp$pclass %in% c('compl', 'ofoul', 'taway', 'defd', 'drop'))
