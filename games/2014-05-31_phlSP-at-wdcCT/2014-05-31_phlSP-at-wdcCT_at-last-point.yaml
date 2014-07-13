@@ -1,0 +1,11 @@
+point: 42
+period: 4
+clk_before: '0:23:00'
+clk_after: '0:00:00'
+pull_team: phlSP
+n_poss: .na.integer
+scor_team: .na.character
+h_or_b: .na.character
+phlSP: 16
+wdcCT: 22
+

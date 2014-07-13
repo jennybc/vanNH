@@ -1,0 +1,26 @@
+Pulling team: Washington DC Current
+Period: 3
+Clock before point: 2:06:00
+Clock after point: 0:58:00
+Offense	Defense
+	61p
+33pu	
+20	
+64td	
+	19pu
+	12
+	5
+20d	
+23pu	
+20	
+33	
+64	
+	42d
+	42
+	7
+	19
+	12
+	42
+	7
+	61
+	5g
