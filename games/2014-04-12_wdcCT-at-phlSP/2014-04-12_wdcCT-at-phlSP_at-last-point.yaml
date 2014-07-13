@@ -1,0 +1,11 @@
+point: 42
+period: 4
+clk_before: '0:13:00'
+clk_after: '0:00:00'
+pull_team: wdcCT
+n_poss: 2
+scor_team: wdcCT
+h_or_b: break
+phlSP: 18
+wdcCT: 21
+

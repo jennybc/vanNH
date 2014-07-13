@@ -1,0 +1,10 @@
+2014-04-12_wdcCT-at-phlSP:
+  roster read for wdcCT and phlSP
+  game YAML read; game status: complete
+  644 rows of game play found
+  42 rows of point info play found
+  player stat tables include 21 for wdcCT and 16 for phlSP
+  scoring progression table has 42 rows
+[1] TRUE
+[1] TRUE
+[1] TRUE
