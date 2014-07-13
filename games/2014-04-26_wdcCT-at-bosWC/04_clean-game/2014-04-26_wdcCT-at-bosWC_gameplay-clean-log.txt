@@ -1,0 +1,16 @@
+2014-04-26_wdcCT-at-bosWC > 04_clean-and-expand-game-play.r:
+  525 rows of raw game play found
+  ALERT 4 instances of *L --> L*
+    point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+54      3     13Gl                 13        GL                    
+147     9      1Gl                  1        GL                    
+436    25     45Gl                 45        GL                    
+485    29     45Gl                 45        GL                    
+  ALERT 1 instances of *L --> L*
+    point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+226    14              27Gl                            27        GL
+  found 7 rows with game play recorded for both teams
+  no double game play rows remain
+  532 rows of clean game play will be written
+  2014-07-13 13:27:17
+

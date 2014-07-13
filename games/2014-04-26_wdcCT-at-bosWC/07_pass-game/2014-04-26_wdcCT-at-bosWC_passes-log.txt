@@ -1,0 +1,11 @@
+2014-04-26_wdcCT-at-bosWC > 07_resolve-passes.r:
+  532 rows of resolved game play found
+  435/435 rows of pass data are whitelisted (100.0%)
+  breakdown of passes:
+
+ compl  ofoul  taway   defd   drop nopass   <NA> 
+   393      0     22     16      4      0      0 
+  393/435 passes were completed (90.3%)
+  435 rows of pass data will be written
+  2014-07-13 13:27:19
+

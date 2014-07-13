@@ -1,0 +1,11 @@
+point: 32
+period: 4
+clk_before: '1:33:00'
+clk_after: '0:00:00'
+pull_team: bosWC
+n_poss: .na.integer
+scor_team: .na.character
+h_or_b: .na.character
+bosWC: 17
+wdcCT: 12
+

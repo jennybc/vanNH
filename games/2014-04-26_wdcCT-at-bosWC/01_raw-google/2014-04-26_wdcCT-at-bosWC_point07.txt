@@ -1,0 +1,17 @@
+Pulling team: Boston
+Period: 1
+Clock before point: 0:23:00
+Clock after point: 0:00:00
+Offense	Defense
+	11P
+27PU	
+99	
+27	
+90	
+32	
+45	
+32	
+99	
+32	
+90	
+45G	

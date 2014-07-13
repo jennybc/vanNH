@@ -1,0 +1,33 @@
+point	Pulling.team	Period	Clock.before.point	Clock.after.point
+1	Boston	1	10:00:00	9:26:00
+2	Washington DC	1	9:26:00	7:03:00
+3	Washington DC	1	7:03:00	5:10:00
+4	Boston	1	5:10:00	2:15:00
+5	Boston	1	2:15:00	1:46:00
+6	Boston	1	1:46:00	0:23:00
+7	Boston	1	0:23:00	0:00:00
+8	Washington DC	2	10:00:00	9:16:00
+9	Washington DC	2	9:16:00	8:55:00
+10	Boston	2	8:55:00	8:11:00
+11	Washington DC	2	8:11:00	7:20:00
+12	Boston	2	7:20:00	4:12:00
+13	Washington DC	2	4:12:00	3:02:00
+14	Boston	2	3:02:00	2:44:00
+15	Boston	2	2:44:00	0:35:00
+16	Washington DC	2	0:35:00	0:14:00
+17	Boston	2	0:14:00	0:00:00
+18	Boston	3	10:00:00	7:27:00
+19	Boston	3	7:27:00	6:35:00
+20	Washington DC	3	6:35:00	6:09:00
+21	Boston	3	6:09:00	5:18:00
+22	Boston	3	5:18:00	2:35:00
+23	Boston	3	2:35:00	0:00:00
+24	Washington DC	4	10:00:00	8:09:00
+25	Boston	4	8:09:00	7:02:00
+26	Washington DC	4	7:02:00	5:05:00
+27	Boston	4	5:05:00	4:28:00
+28	Washington DC	4	4:28:00	3:56:00
+29	Boston	4	3:56:00	2:56:00
+30	Washington DC	4	2:56:00	1:52:00
+31	Washington DC	4	1:52:00	1:33:00
+32	Boston	4	1:33:00	0:00:00
