@@ -23,6 +23,8 @@ library(magrittr)
 library(knitr)
 library(reshape2)
 
+knitr::opts_chunk$set(error = TRUE)
+
 ## I could marshal the game directories like so
 ## game_dir <- file.path("..", "games")
 ## list.files(game_dir)
@@ -49,7 +51,9 @@ white_list <- c("week game",
                 "06   2014-05-17_seaRM-at-pdxST",
                 "08   2014-05-31_sfoDF-at-pdxST",
                 "09   2014-06-07_pdxST-at-sfoDF",
-                "10   2014-06-14_pdxST-at-seaRM")
+                "10   2014-06-14_pdxST-at-seaRM",
+                "01   2014-04-12_wdcCT-at-phlSP",
+                "01   2014-04-12_nykRM-at-bosWC")
 white_list <-
   read.table(text = white_list, header = TRUE,
              colClasses = list(week = "character", game = "character"))
@@ -82,9 +86,13 @@ game_data <-
          select = -c(point, period, clk_before, clk_after,
                      pull_team, scor_team))
 
+subset(game_info, select = -c(gspread_name, youtube_url, gspread_url))
+
 ## merge all the game information
-game_data <- join(game_data, game_info)
+game_data <- join(game_data, game_info, type = "full")
+subset(game_data, select = -c(gspread_name, youtube_url, gspread_url))
 game_data <- join(game_data, white_list)
+subset(game_data, select = -c(gspread_name, youtube_url, gspread_url))
 
 ## make the URLs into HTML links
 htmlify <- function(href, link_text = "LINK_TEXT", newtab = FALSE) {
@@ -124,24 +132,25 @@ vanNH_data <-
 pretty_vars <- c("week", "stats_link", "links",
                  "status", "us", "them", "outcome",
                  "pt_diff")
-pretty_stuff <- vanNH_data[pretty_vars]
-pretty_stuff <- rename(pretty_stuff, c("stats_link" = "date"))
+vanNH_pretty <- vanNH_data[pretty_vars]
+vanNH_pretty <- rename(vanNH_pretty, c("stats_link" = "date"))
 
 ## convert to character, then add a last row with relevant summaries
-pretty_stuff <- as.matrix(colwise(as.character)(pretty_stuff))
-n <- nrow(pretty_stuff)
-pretty_stuff <- pretty_stuff[c(seq_len(n), n), ]
-pretty_stuff[n + 1, ] <- ""
-pretty_stuff[n + 1, "us"] <- paste0("vanNH: ", sum(vanNH_data$vanNH))
-pretty_stuff[n + 1, "them"] <- paste0("opp: ", sum(vanNH_data$oppScore))
-pretty_stuff[n + 1, "pt_diff"] <- as.character(sum(vanNH_data$pt_diff))
-pretty_stuff[n + 1, "outcome"] <- 
+vanNH_pretty <- as.matrix(colwise(as.character)(vanNH_pretty))
+n <- nrow(vanNH_pretty)
+vanNH_pretty <- vanNH_pretty[c(seq_len(n), n), ]
+vanNH_pretty[n + 1, ] <- ""
+vanNH_pretty[n + 1, "us"] <- paste0("vanNH: ", sum(vanNH_data$vanNH))
+vanNH_pretty[n + 1, "them"] <- paste0("opp: ", sum(vanNH_data$oppScore))
+vanNH_pretty[n + 1, "pt_diff"] <- as.character(sum(vanNH_data$pt_diff))
+vanNH_pretty[n + 1, "outcome"] <- 
   with(vanNH_data, paste0(sum(outcome == "W"),
                           "W - ", sum(outcome == "L"), "L"))
 
-## sub-data.frame for games NOT involving vanNH
+## sub-data.frame for Western Conference games NOT involving vanNH
 ## add many more derived variables
-othwc_data <- subset(game_data, is.na(vanNH))
+othwc <- c('pdxST', 'seaRM', 'sfoDF')
+othwc_data <- subset(game_data, home %in% othwc & away %in% othwc)
 othwc_pretty_vars <- c("week", "stats_link", "links", "pdxST", "seaRM", "sfoDF")
 othwc_pretty_stuff <- othwc_data[othwc_pretty_vars]
 othwc_pretty_stuff <- rename(othwc_pretty_stuff, c("stats_link" = "date"))
@@ -151,6 +160,16 @@ othwc_pretty_stuff <- as.matrix(colwise(as.character)(othwc_pretty_stuff))
 jFun <- function(x) {x[is.na(x)] <- ""; return(x)}
 othwc_pretty_stuff[ , c('pdxST', 'seaRM', 'sfoDF')] <- 
   apply(othwc_pretty_stuff[ , c('pdxST', 'seaRM', 'sfoDF')], 2, jFun)
+
+## sub-data.frame for Eastern Conference games
+ec <- c('wdcCT', 'bosWC', 'phlSP', 'nykRM')
+ec_data <- subset(game_data, home %in% ec & away %in% ec)
+ec_pretty_vars <- c("week", "matchup", "stats_link", "links")
+ec_pretty_stuff <- ec_data[ec_pretty_vars]
+ec_pretty_stuff <- rename(ec_pretty_stuff, c("stats_link" = "date"))
+
+## convert to character, then add a last row with relevant summaries
+ec_pretty_stuff <- as.matrix(colwise(as.character)(ec_pretty_stuff))
 ```
 
 ## Games involving the Vancouver Nighthawks.
@@ -158,7 +177,7 @@ othwc_pretty_stuff[ , c('pdxST', 'seaRM', 'sfoDF')] <-
 Click on a date to see stats for a game. Click on __G__ to go to the official Google spreadsheet (will not work unless you have permission) or on __YT__ to go to watch the game on YouTube.
 
 ```{r echo = FALSE, results = 'asis'}
-kable(pretty_stuff)
+kable(vanNH_pretty)
 ```
 
 Week 04 was a bye week for vanNH.  
@@ -171,8 +190,15 @@ Click on a date to see stats for a game. Click on __G__ to go to the official Go
 kable(othwc_pretty_stuff)
 ```
 
+## Games in the MLU Eastern Conference.
+
+Click on a date to see stats for a game *(may not exist yet; intake in progress)*. Click on __G__ to go to the official Google spreadsheet (will not work unless you have permission) or on __YT__ to go to watch the game on YouTube.
+
+```{r echo = FALSE, results = 'asis'}
+kable(ec_pretty_stuff)
+```
+
 ```{r results = 'asis', echo = FALSE, eval = FALSE}
 print(xtable(pretty_stuff, type = "html", sanitize.text.function = force),
       type = "html", comment = FALSE)
 ```
-
