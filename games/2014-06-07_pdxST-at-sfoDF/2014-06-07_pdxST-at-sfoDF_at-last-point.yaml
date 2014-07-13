@@ -1,0 +1,11 @@
+point: 33
+period: 4
+clk_before: '1:57:00'
+clk_after: '0:00:00'
+pull_team: pdxST
+n_poss: .na.integer
+scor_team: .na.character
+h_or_b: .na.character
+pdxST: 17
+sfoDF: 12
+

@@ -1,0 +1,11 @@
+2014-06-07_pdxST-at-sfoDF:
+  634 rows of clean game play found
+  33 rows of point info play found
+  possession established directly for 623/634 = 98.26% of game play events
+  after first infer, possession established for 634/634 = 100% of game play events
+  634 rows of resolved game play will be written
+  82 rows of possessions will be written
+  33 resolved points to be written
+  pdxST: 17 sfoDF: 12
+  2014-07-13 00:05:13
+
