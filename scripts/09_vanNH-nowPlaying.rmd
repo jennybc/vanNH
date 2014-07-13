@@ -23,10 +23,11 @@ if(!exists("game")) {
   #game <- "2014-06-15_pdxST-at-vanNH"
   #game <- "2014-04-12_seaRM-at-sfoDF"
   #game <- "2014-05-03_sfoDF-at-pdxST"
-  game <- "2014-06-14_pdxST-at-seaRM"
+  #game <- "2014-06-14_pdxST-at-seaRM"
+  game <- "2014-04-19_bosWC-at-wdcCT"
   }
 
-message(game, ":")
+message(game, " > 09_vanNH-nowPlaying.rmd:")
 
 ## parse the game identifier
 tmp <- strsplit(game, split = "_")[[1]]
