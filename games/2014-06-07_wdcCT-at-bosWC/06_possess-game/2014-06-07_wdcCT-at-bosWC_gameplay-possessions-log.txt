@@ -1,0 +1,19 @@
+2014-06-07_wdcCT-at-bosWC > 06_resolve-possessions.r:
+  596 rows of clean game play found
+  41 rows of point info play found
+  possession established directly for 575/596 = 96.48% of game play events
+  after first infer, possession established for 591/596 = 99.16% of game play events
+  check the possession resolution for these SO/SI clumps:
+    period point event pl_team pl_pnum pl_code poss_team
+36       1     3    15   wdcCT      31      SO     wdcCT
+37       1     3    16   wdcCT      99      SI     wdcCT
+406      3    29    12   wdcCT       2      SO     wdcCT
+407      3    29    13   wdcCT      27      SI     wdcCT
+  after addressing SO/SIs, possession established for 595/596 = 99.83% of game play events
+  after second and LAST infer, possession established for 596/596 = 100% of game play events
+  596 rows of resolved game play will be written
+  69 rows of possessions will be written
+  41 resolved points to be written
+  bosWC: 16 wdcCT: 21
+  2014-07-13 14:43:56
+

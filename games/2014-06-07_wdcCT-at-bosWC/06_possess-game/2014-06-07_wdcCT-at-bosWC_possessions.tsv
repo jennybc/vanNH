@@ -1,0 +1,70 @@
+period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code	n_events	huck	score	scor_team	who	a_code	b_code
+1	1	bosWC	7	1	1	wdcCT	wdcCT	88	LG	7	TRUE	TRUE	wdcCT	o_line	G	G
+1	2	wdcCT	7	2	1	bosWC	wdcCT	42	D	7	FALSE	FALSE	NA	o_line	D	def +
+1	2	wdcCT	14	3	2	wdcCT	wdcCT	7	G	7	FALSE	TRUE	wdcCT	d_line	G	G
+1	3	wdcCT	3	4	1	bosWC	bosWC	13	TA	3	TRUE	FALSE	NA	o_line	TA	off -
+1	3	wdcCT	7	5	2	wdcCT	wdcCT	1	TA	4	TRUE	FALSE	NA	d_line	TA	off -
+1	3	wdcCT	14	6	3	bosWC	wdcCT	31	D	7	FALSE	FALSE	NA	o_line	D	def +
+1	3	wdcCT	26	7	4	wdcCT	wdcCT	17	G	12	FALSE	TRUE	wdcCT	d_line	G	G
+1	4	wdcCT	9	8	1	bosWC	bosWC	1	TA	9	FALSE	FALSE	NA	o_line	TA	off -
+1	4	wdcCT	11	9	2	wdcCT	wdcCT	32	VST	2	FALSE	FALSE	NA	d_line	VST	off -
+1	4	wdcCT	17	10	3	bosWC	bosWC	77	G	6	FALSE	TRUE	bosWC	o_line	G	G
+1	5	bosWC	18	11	1	wdcCT	wdcCT	2	G	18	FALSE	TRUE	wdcCT	o_line	G	G
+1	6	wdcCT	10	12	1	bosWC	bosWC	1	TD	10	FALSE	FALSE	NA	o_line	TD	off -
+1	6	wdcCT	18	13	2	wdcCT	wdcCT	4	G	8	FALSE	TRUE	wdcCT	d_line	G	G
+1	7	wdcCT	13	14	1	bosWC	bosWC	17	G	13	TRUE	TRUE	bosWC	o_line	G	G
+1	8	bosWC	8	15	1	wdcCT	wdcCT	8	TA	8	FALSE	FALSE	NA	o_line	TA	off -
+1	8	bosWC	14	16	2	bosWC	bosWC	11	TA	6	FALSE	FALSE	NA	d_line	TA	off -
+1	8	bosWC	20	17	3	wdcCT	wdcCT	90	TA	6	FALSE	FALSE	NA	o_line	TA	off -
+1	8	bosWC	28	18	4	bosWC	bosWC	10	eop	8	FALSE	FALSE	NA	d_line	eop	eop
+2	9	wdcCT	10	19	1	bosWC	bosWC	17	G	10	FALSE	TRUE	bosWC	o_line	G	G
+2	10	bosWC	16	20	1	wdcCT	wdcCT	90	G	16	FALSE	TRUE	wdcCT	o_line	G	G
+2	11	wdcCT	4	21	1	bosWC	wdcCT	42	D	4	FALSE	FALSE	NA	o_line	D	def +
+2	11	wdcCT	12	22	2	wdcCT	wdcCT	7	G	8	FALSE	TRUE	wdcCT	d_line	G	G
+2	12	wdcCT	5	23	1	bosWC	bosWC	7	VST	5	FALSE	FALSE	NA	o_line	VST	off -
+2	12	wdcCT	8	24	2	wdcCT	wdcCT	1	G	3	FALSE	TRUE	wdcCT	d_line	G	G
+2	13	wdcCT	14	25	1	bosWC	bosWC	27	G	14	FALSE	TRUE	bosWC	o_line	G	G
+2	14	bosWC	12	26	1	wdcCT	bosWC	18	D	12	FALSE	FALSE	NA	o_line	D	def +
+2	14	bosWC	19	27	2	bosWC	wdcCT	31	D	7	FALSE	FALSE	NA	d_line	D	def +
+2	14	bosWC	21	28	3	wdcCT	wdcCT	99	TA	2	FALSE	FALSE	NA	o_line	TA	off -
+2	14	bosWC	29	29	4	bosWC	wdcCT	88	D	8	FALSE	FALSE	NA	d_line	D	def +
+2	14	bosWC	35	30	5	wdcCT	bosWC	43	D	6	FALSE	FALSE	NA	o_line	D	def +
+2	14	bosWC	43	31	6	bosWC	wdcCT	90	D	8	FALSE	FALSE	NA	d_line	D	def +
+2	14	bosWC	51	32	7	wdcCT	wdcCT	14	G	8	TRUE	TRUE	wdcCT	o_line	G	G
+2	15	wdcCT	9	33	1	bosWC	bosWC	21	G	9	TRUE	TRUE	bosWC	o_line	G	G
+2	16	bosWC	9	34	1	wdcCT	wdcCT	45	G	9	FALSE	TRUE	wdcCT	o_line	G	G
+2	17	wdcCT	6	35	1	bosWC	bosWC	77	G	6	TRUE	TRUE	bosWC	o_line	G	G
+2	18	bosWC	12	36	1	wdcCT	wdcCT	8	G	12	FALSE	TRUE	wdcCT	o_line	G	G
+2	19	wdcCT	3	37	1	bosWC	bosWC	13	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+2	19	wdcCT	6	38	2	wdcCT	wdcCT	42	G	3	FALSE	TRUE	wdcCT	d_line	G	G
+2	20	wdcCT	3	39	1	bosWC	bosWC	18	eop	3	FALSE	FALSE	NA	o_line	eop	eop
+3	21	bosWC	6	40	1	wdcCT	wdcCT	2	TA	6	FALSE	FALSE	NA	o_line	TA	off -
+3	21	bosWC	23	41	2	bosWC	bosWC	29	G	17	TRUE	TRUE	bosWC	d_line	G	G
+3	22	bosWC	13	42	1	wdcCT	wdcCT	2	G	13	FALSE	TRUE	wdcCT	o_line	G	G
+3	23	wdcCT	7	43	1	bosWC	bosWC	3	G	7	FALSE	TRUE	bosWC	o_line	G	G
+3	24	bosWC	7	44	1	wdcCT	wdcCT	8	G	7	FALSE	TRUE	wdcCT	o_line	G	G
+3	25	wdcCT	7	45	1	bosWC	bosWC	21	G	7	TRUE	TRUE	bosWC	o_line	G	G
+3	26	bosWC	5	46	1	wdcCT	wdcCT	45	G	5	TRUE	TRUE	wdcCT	o_line	G	G
+3	27	wdcCT	5	47	1	bosWC	bosWC	00	TA	5	FALSE	FALSE	NA	o_line	TA	off -
+3	27	wdcCT	14	48	2	wdcCT	wdcCT	20	G	9	FALSE	TRUE	wdcCT	d_line	G	G
+3	28	wdcCT	20	49	1	bosWC	bosWC	21	G	20	FALSE	TRUE	bosWC	o_line	G	G
+3	29	bosWC	18	50	1	wdcCT	wdcCT	90	G	18	FALSE	TRUE	wdcCT	o_line	G	G
+3	30	wdcCT	14	51	1	bosWC	bosWC	21	G	14	FALSE	TRUE	bosWC	o_line	G	G
+3	31	bosWC	13	52	1	wdcCT	wdcCT	8	G	13	FALSE	TRUE	wdcCT	o_line	G	G
+3	32	wdcCT	8	53	1	bosWC	wdcCT	12	eop	8	FALSE	FALSE	NA	o_line	eop	eop
+4	33	wdcCT	14	54	1	bosWC	bosWC	00	G	14	FALSE	TRUE	bosWC	o_line	G	G
+4	34	bosWC	7	55	1	wdcCT	wdcCT	8	VST	7	FALSE	FALSE	NA	o_line	VST	off -
+4	34	bosWC	16	56	2	bosWC	bosWC	8	TA	9	FALSE	FALSE	NA	d_line	TA	off -
+4	34	bosWC	32	57	3	wdcCT	wdcCT	2	G	16	TRUE	TRUE	wdcCT	o_line	G	G
+4	35	wdcCT	15	58	1	bosWC	bosWC	77	TD	15	FALSE	FALSE	NA	o_line	TD	off -
+4	35	wdcCT	23	59	2	wdcCT	bosWC	4	D	8	FALSE	FALSE	NA	d_line	D	def +
+4	35	wdcCT	35	60	3	bosWC	bosWC	4	G	12	FALSE	TRUE	bosWC	o_line	G	G
+4	36	bosWC	11	61	1	wdcCT	bosWC	11	D	11	FALSE	FALSE	NA	o_line	D	def +
+4	36	bosWC	19	62	2	bosWC	bosWC	8	G	8	FALSE	TRUE	bosWC	d_line	G	G
+4	37	bosWC	4	63	1	wdcCT	wdcCT	45	G	4	FALSE	TRUE	wdcCT	o_line	G	G
+4	38	wdcCT	9	64	1	bosWC	bosWC	17	G	9	FALSE	TRUE	bosWC	o_line	G	G
+4	39	bosWC	8	65	1	wdcCT	wdcCT	80	G	8	FALSE	TRUE	wdcCT	o_line	G	G
+4	40	wdcCT	8	66	1	bosWC	bosWC	4	TA	8	FALSE	FALSE	NA	o_line	TA	off -
+4	40	wdcCT	19	67	2	wdcCT	wdcCT	19	TA	11	FALSE	FALSE	NA	d_line	TA	off -
+4	40	wdcCT	25	68	3	bosWC	bosWC	64	G	6	FALSE	TRUE	bosWC	o_line	G	G
+4	41	bosWC	3	69	1	wdcCT	wdcCT	14	eop	3	FALSE	FALSE	NA	o_line	eop	eop

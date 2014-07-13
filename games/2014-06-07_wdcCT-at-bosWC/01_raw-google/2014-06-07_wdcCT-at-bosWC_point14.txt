@@ -1,0 +1,56 @@
+Pulling team: Boston Whitecaps
+Period: 2
+Clock before point: 6:08:00
+Clock after point: 2:16:00
+Offense	Defense
+	18p
+2pu	
+99	
+2	
+90	
+2	
+9	
+8	
+88	
+9	
+99	
+	18D
+	to
+	13pu
+	'00
+	21
+	13
+	17
+31d	
+to	
+99pu	
+	12pu
+	88
+	10
+	12
+	6
+	11
+	12
+88d	
+88pu	
+8	
+45	
+8	
+90	
+	43d
+	43pu
+	88
+	10
+	88
+	10
+	6
+	12
+90D	
+to	
+2pu	
+8	
+2	
+45	
+9	
+88L	
+14G	

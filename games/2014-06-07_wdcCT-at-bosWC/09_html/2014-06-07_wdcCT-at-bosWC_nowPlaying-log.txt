@@ -1,0 +1,16 @@
+2014-06-07_wdcCT-at-bosWC > 09_vanNH-nowPlaying.rmd:
+  roster read for wdcCT and bosWC
+  game YAML read; game status: complete
+  596 rows of game play found
+  41 rows of point info play found
+  player stat tables include 19 for wdcCT and 18 for bosWC
+  ALERT point is missing time before and/or after:
+        point: 1 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 2 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 3 clk_before: NA clk_after: NA
+  scoring progression table has 41 rows
+[1] TRUE
+[1] TRUE
+[1] TRUE

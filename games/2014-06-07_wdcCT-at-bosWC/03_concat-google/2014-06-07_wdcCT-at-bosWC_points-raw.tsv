@@ -1,0 +1,42 @@
+point	Pulling.team	Period	Clock.before.point	Clock.after.point
+1	Boston Whitecaps	1	10:00:00	NA
+2	Washington DC Current	1	NA	NA
+3	Washington DC Current	1	NA	6:40:00
+4	Washington DC Current	1	6:40:00	5:08:00
+5	Boston Whitecaps	1	5:08:00	4:05:00
+6	Washington DC Current	1	4:05:00	2:50:00
+7	Washington DC Current	1	2:50:00	1:53:00
+8	Boston Whitecaps	1	1:53:00	0:00:00
+9	Washington DC Current	2	10:00:00	9:30:00
+10	Boston Whitecaps	2	9:30:00	8:35:00
+11	Washington DC Current	2	8:35:00	7:34:00
+12	Washington DC Current	2	7:34:00	6:56:00
+13	Washington DC Current	2	6:56:00	6:08:00
+14	Boston Whitecaps	2	6:08:00	2:16:00
+15	Washington DC Current	2	2:16:00	1:42:00
+16	Boston Whitecaps	2	1:42:00	1:17:00
+17	Washington DC Current	2	1:17:00	0:56:00
+18	Boston Whitecaps	2	0:56:00	0:26:00
+19	Washington DC Current	2	0:26:00	0:05:00
+20	Washington DC Current	2	0:05:00	0:00:00
+21	Boston Whitecaps	3	10:00:00	7:42:00
+22	Boston Whitecaps	3	7:42:00	7:01:00
+23	Washington DC Current	3	7:01:00	6:26:00
+24	Boston Whitecaps	3	6:26:00	6:09:00
+25	Washington DC Current	3	6:09:00	5:42:00
+26	Boston Whitecaps	3	5:42:00	5:30:00
+27	Washington DC Current	3	5:30:00	3:50:00
+28	Washington DC Current	3	3:50:00	2:46:00
+29	Boston Whitecaps	3	2:46:00	1:55:00
+30	Washington DC Current	3	1:55:00	0:59:00
+31	Boston Whitecaps	3	0:59:00	0:23:00
+32	Washington DC Current	3	0:23:00	0:00:00
+33	Washington DC Current	4	10:00:00	9:15:00
+34	Boston Whitecaps	4	9:15:00	5:51:00
+35	Washington DC Current	4	5:51:00	3:37:00
+36	Boston Whitecaps	4	3:37:00	2:29:00
+37	Boston Whitecaps	4	2:29:00	2:18:00
+38	Washington DC Current	4	2:18:00	1:56:00
+39	Boston Whitecaps	4	1:56:00	1:38:00
+40	Washington DC Current	4	1:38:00	0:09:00
+41	Boston Whitecaps	4	0:09:00	0:00:00

@@ -2,6 +2,7 @@ resolve_passes <- function(x) {
   ## detect data with more than one possession indicated by poss_abs | poss_rel
   if(!is.null(x$poss_abs)) {
     poss <- "poss_abs"
+    #message("poss_abs = ", x$poss_abs[1])
   } else if (!is.null(x$poss_rel)) {
     poss <- "poss_rel"
   } else {

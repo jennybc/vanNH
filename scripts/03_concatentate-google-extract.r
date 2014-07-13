@@ -53,7 +53,7 @@ out_file <- file.path(out_dir, paste0(game, "_gameplay-raw.tsv"))
 write.table(game_play, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
 #message("wrote ", out_file)
 
-message("  ", "writing ", nrow(point_info), " rows of point info")
+message("  ", "writing ", nrow(point_info), " rows of point info\n")
 
 out_file <- file.path(out_dir, paste0(game, "_points-raw.tsv"))
 write.table(point_info, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
