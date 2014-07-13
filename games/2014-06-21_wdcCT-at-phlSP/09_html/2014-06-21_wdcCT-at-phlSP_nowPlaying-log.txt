@@ -1,0 +1,10 @@
+2014-06-21_wdcCT-at-phlSP > 09_vanNH-nowPlaying.rmd:
+  roster read for wdcCT and phlSP
+  game YAML read; game status: complete
+  643 rows of game play found
+  43 rows of point info play found
+  player stat tables include 21 for wdcCT and 16 for phlSP
+  scoring progression table has 43 rows
+[1] TRUE
+[1] TRUE
+[1] TRUE

@@ -1,0 +1,13 @@
+2014-06-21_wdcCT-at-phlSP > 04_clean-and-expand-game-play.r:
+  641 rows of raw game play found
+  ALERT 1 instances of *L --> L*
+   point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+57     4      3gl                  3        GL                    
+  ALERT 1 instances of *L --> L*
+    point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+217    13              16gl                            16        GL
+  found 2 rows with game play recorded for both teams
+  no double game play rows remain
+  643 rows of clean game play will be written
+  2014-07-13 15:06:14
+

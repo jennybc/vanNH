@@ -1,0 +1,87 @@
+period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code	n_events	huck	score	scor_team	who	a_code	b_code
+1	1	phlSP	8	1	1	wdcCT	wdcCT	6	TD	8	FALSE	FALSE	NA	o_line	TD	off -
+1	1	phlSP	16	2	2	phlSP	phlSP	16	G	8	FALSE	TRUE	phlSP	d_line	G	G
+1	2	phlSP	7	3	1	wdcCT	wdcCT	90	TA	7	FALSE	FALSE	NA	o_line	TA	off -
+1	2	phlSP	11	4	2	phlSP	wdcCT	88	D	4	FALSE	FALSE	NA	d_line	D	def +
+1	2	phlSP	17	5	3	wdcCT	wdcCT	1	LG	6	TRUE	TRUE	wdcCT	o_line	G	G
+1	3	wdcCT	2	6	1	phlSP	phlSP	7	TA	2	FALSE	FALSE	NA	o_line	TA	off -
+1	3	wdcCT	15	7	2	wdcCT	wdcCT	99	G	13	FALSE	TRUE	wdcCT	d_line	G	G
+1	4	wdcCT	10	8	1	phlSP	phlSP	3	LG	10	TRUE	TRUE	phlSP	o_line	G	G
+1	5	phlSP	3	9	1	wdcCT	wdcCT	90	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+1	5	phlSP	9	10	2	phlSP	wdcCT	90	D	6	FALSE	FALSE	NA	d_line	D	def +
+1	5	phlSP	18	11	3	wdcCT	wdcCT	45	TA	9	FALSE	FALSE	NA	o_line	TA	off -
+1	5	phlSP	21	12	4	phlSP	phlSP	10	G	3	TRUE	TRUE	phlSP	d_line	G	G
+1	6	phlSP	7	13	1	wdcCT	wdcCT	31	G	7	FALSE	TRUE	wdcCT	o_line	G	G
+1	7	wdcCT	4	14	1	phlSP	wdcCT	4	D	4	FALSE	FALSE	NA	o_line	D	def +
+1	7	wdcCT	6	15	2	wdcCT	wdcCT	9	G	2	FALSE	TRUE	wdcCT	d_line	G	G
+1	8	wdcCT	26	16	1	phlSP	phlSP	11	G	26	FALSE	TRUE	phlSP	o_line	G	G
+1	9	phlSP	7	17	1	wdcCT	phlSP	1	D	7	FALSE	FALSE	NA	o_line	D	def +
+1	9	phlSP	20	18	2	phlSP	phlSP	31	G	13	FALSE	TRUE	phlSP	d_line	G	G
+1	10	phlSP	13	19	1	wdcCT	wdcCT	2	G	13	FALSE	TRUE	wdcCT	o_line	G	G
+1	11	wdcCT	14	20	1	phlSP	phlSP	7	TA	14	FALSE	FALSE	NA	o_line	TA	off -
+1	11	wdcCT	19	21	2	wdcCT	wdcCT	5	eop	5	FALSE	FALSE	NA	d_line	eop	eop
+2	12	wdcCT	8	22	1	phlSP	wdcCT	19	D	8	FALSE	FALSE	NA	o_line	D	def +
+2	12	wdcCT	15	23	2	wdcCT	phlSP	11	D	7	FALSE	FALSE	NA	d_line	D	def +
+2	12	wdcCT	28	24	3	phlSP	phlSP	11	G	13	FALSE	TRUE	phlSP	o_line	G	G
+2	13	phlSP	9	25	1	wdcCT	phlSP	2	D	9	FALSE	FALSE	NA	o_line	D	def +
+2	13	phlSP	11	26	2	phlSP	phlSP	22	TD	2	FALSE	FALSE	NA	d_line	TD	off -
+2	13	phlSP	18	27	3	wdcCT	wdcCT	6	TA	7	FALSE	FALSE	NA	o_line	TA	off -
+2	13	phlSP	20	28	4	phlSP	phlSP	16	LG	2	TRUE	TRUE	phlSP	d_line	G	G
+2	14	phlSP	4	29	1	wdcCT	wdcCT	90	TA	4	FALSE	FALSE	NA	o_line	TA	off -
+2	14	phlSP	6	30	2	phlSP	wdcCT	88	D	2	FALSE	FALSE	NA	d_line	D	def +
+2	14	phlSP	11	31	3	wdcCT	wdcCT	90	TA	5	FALSE	FALSE	NA	o_line	TA	off -
+2	14	phlSP	13	32	4	phlSP	wdcCT	90	D	2	FALSE	FALSE	NA	d_line	D	def +
+2	14	phlSP	22	33	5	wdcCT	wdcCT	5	G	9	FALSE	TRUE	wdcCT	o_line	G	G
+2	15	wdcCT	13	34	1	phlSP	phlSP	14	TA	13	FALSE	FALSE	NA	o_line	TA	off -
+2	15	wdcCT	20	35	2	wdcCT	wdcCT	99	G	7	FALSE	TRUE	wdcCT	d_line	G	G
+2	16	wdcCT	15	36	1	phlSP	phlSP	64	TD	15	FALSE	FALSE	NA	o_line	TD	off -
+2	16	wdcCT	18	37	2	wdcCT	phlSP	42	D	3	FALSE	FALSE	NA	d_line	D	def +
+2	16	wdcCT	29	38	3	phlSP	phlSP	3	G	11	FALSE	TRUE	phlSP	o_line	G	G
+2	17	phlSP	9	39	1	wdcCT	wdcCT	7	G	9	FALSE	TRUE	wdcCT	o_line	G	G
+2	18	wdcCT	7	40	1	phlSP	phlSP	3	G	7	FALSE	TRUE	phlSP	o_line	G	G
+2	19	phlSP	3	41	1	wdcCT	wdcCT	12	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+2	19	phlSP	11	42	2	phlSP	phlSP	13	eop	8	FALSE	FALSE	NA	d_line	eop	eop
+3	20	phlSP	4	43	1	wdcCT	wdcCT	45	TD	4	FALSE	FALSE	NA	o_line	TD	off -
+3	20	phlSP	10	44	2	phlSP	phlSP	6	TA	6	FALSE	FALSE	NA	d_line	TA	off -
+3	20	phlSP	16	45	3	wdcCT	wdcCT	5	TA	6	FALSE	FALSE	NA	o_line	TA	off -
+3	20	phlSP	21	46	4	phlSP	wdcCT	45	D	5	FALSE	FALSE	NA	d_line	D	def +
+3	20	phlSP	30	47	5	wdcCT	wdcCT	5	G	9	FALSE	TRUE	wdcCT	o_line	G	G
+3	21	wdcCT	5	48	1	phlSP	wdcCT	42	D	5	FALSE	FALSE	NA	o_line	D	def +
+3	21	wdcCT	8	49	2	wdcCT	wdcCT	3	TA	3	FALSE	FALSE	NA	d_line	TA	off -
+3	21	wdcCT	29	50	3	phlSP	phlSP	42	G	21	FALSE	TRUE	phlSP	o_line	G	G
+3	22	phlSP	7	51	1	wdcCT	phlSP	6	D	7	FALSE	FALSE	NA	o_line	D	def +
+3	22	phlSP	11	52	2	phlSP	phlSP	22	LG	4	TRUE	TRUE	phlSP	d_line	G	G
+3	23	phlSP	6	53	1	wdcCT	wdcCT	45	LG	6	TRUE	TRUE	wdcCT	o_line	G	G
+3	24	wdcCT	15	54	1	phlSP	phlSP	14	TD	15	FALSE	FALSE	NA	o_line	TD	off -
+3	24	wdcCT	18	55	2	wdcCT	wdcCT	80	TA	3	FALSE	FALSE	NA	d_line	TA	off -
+3	24	wdcCT	20	56	3	phlSP	wdcCT	14	D	2	FALSE	FALSE	NA	o_line	D	def +
+3	24	wdcCT	22	57	4	wdcCT	wdcCT	99	G	2	FALSE	TRUE	wdcCT	d_line	G	G
+3	25	wdcCT	15	58	1	phlSP	phlSP	11	LG	15	TRUE	TRUE	phlSP	o_line	G	G
+3	26	phlSP	9	59	1	wdcCT	wdcCT	90	LG	9	TRUE	TRUE	wdcCT	o_line	G	G
+3	27	wdcCT	5	60	1	phlSP	wdcCT	99	D	5	FALSE	FALSE	NA	o_line	D	def +
+3	27	wdcCT	8	61	2	wdcCT	wdcCT	14	TA	3	FALSE	FALSE	NA	d_line	TA	off -
+3	27	wdcCT	15	62	3	phlSP	phlSP	25	TD	7	TRUE	FALSE	NA	o_line	TD	off -
+3	27	wdcCT	22	63	4	wdcCT	wdcCT	20	G	7	FALSE	TRUE	wdcCT	d_line	G	G
+3	28	wdcCT	7	64	1	phlSP	wdcCT	23	D	7	FALSE	FALSE	NA	o_line	D	def +
+3	28	wdcCT	10	65	2	wdcCT	phlSP	16	D	3	FALSE	FALSE	NA	d_line	D	def +
+3	28	wdcCT	13	66	3	phlSP	phlSP	38	eop	3	FALSE	FALSE	NA	o_line	eop	eop
+4	29	wdcCT	4	67	1	phlSP	phlSP	42	LG	4	TRUE	TRUE	phlSP	o_line	G	G
+4	30	phlSP	17	68	1	wdcCT	wdcCT	19	G	17	FALSE	TRUE	wdcCT	o_line	G	G
+4	31	wdcCT	6	69	1	phlSP	phlSP	25	G	6	TRUE	TRUE	phlSP	o_line	G	G
+4	32	phlSP	7	70	1	wdcCT	wdcCT	7	TD	7	FALSE	FALSE	NA	o_line	TD	off -
+4	32	phlSP	19	71	2	phlSP	wdcCT	88	D	12	FALSE	FALSE	NA	d_line	D	def +
+4	32	phlSP	26	72	3	wdcCT	phlSP	6	D	7	FALSE	FALSE	NA	o_line	D	def +
+4	32	phlSP	29	73	4	phlSP	phlSP	2	G	3	FALSE	TRUE	phlSP	d_line	G	G
+4	33	phlSP	7	74	1	wdcCT	wdcCT	42	G	7	FALSE	TRUE	wdcCT	o_line	G	G
+4	34	wdcCT	3	75	1	phlSP	phlSP	3	LG	3	TRUE	TRUE	phlSP	o_line	G	G
+4	35	phlSP	8	76	1	wdcCT	wdcCT	61	G	8	FALSE	TRUE	wdcCT	o_line	G	G
+4	36	wdcCT	16	77	1	phlSP	phlSP	3	TA	16	FALSE	FALSE	NA	o_line	TA	off -
+4	36	wdcCT	27	78	2	wdcCT	wdcCT	17	G	11	FALSE	TRUE	wdcCT	d_line	G	G
+4	37	wdcCT	13	79	1	phlSP	phlSP	11	G	13	FALSE	TRUE	phlSP	o_line	G	G
+4	38	phlSP	4	80	1	wdcCT	wdcCT	80	LG	4	TRUE	TRUE	wdcCT	o_line	G	G
+4	39	wdcCT	17	81	1	phlSP	wdcCT	99	D	17	FALSE	FALSE	NA	o_line	D	def +
+4	39	wdcCT	20	82	2	wdcCT	wdcCT	42	G	3	TRUE	TRUE	wdcCT	d_line	G	G
+4	40	wdcCT	8	83	1	phlSP	phlSP	23	G	8	FALSE	TRUE	phlSP	o_line	G	G
+4	41	phlSP	12	84	1	wdcCT	wdcCT	4	G	12	FALSE	TRUE	wdcCT	o_line	G	G
+4	42	wdcCT	9	85	1	phlSP	phlSP	7	G	9	FALSE	TRUE	phlSP	o_line	G	G
+4	43	phlSP	3	86	1	wdcCT	wdcCT	1	G	3	FALSE	TRUE	wdcCT	o_line	G	G

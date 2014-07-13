@@ -1,0 +1,35 @@
+Pulling team: Philadelphia Spinners
+Period: 3
+Clock before point: 10:00:00
+Clock after point: 7:40:00
+Offense	Defense
+	1p
+61pu	
+88	
+45td	
+	2pu
+	1
+	2
+	64
+	2
+	6
+88pu	
+5	
+88	
+61	
+90	
+5	
+	2pu
+	16
+	76
+	1
+45d	
+61pu	
+17	
+90	
+1	
+90	
+45	
+17	
+61	
+5g	
