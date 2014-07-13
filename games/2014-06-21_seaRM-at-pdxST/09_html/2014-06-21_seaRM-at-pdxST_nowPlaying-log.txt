@@ -1,0 +1,10 @@
+2014-06-21_seaRM-at-pdxST:
+  roster read for seaRM and pdxST
+  game YAML read; game status: upcoming
+  563 rows of game play found
+  28 rows of point info play found
+  player stat tables include 14 for seaRM and 12 for pdxST
+  scoring progression table has 28 rows
+[1] TRUE
+[1] TRUE
+[1] TRUE

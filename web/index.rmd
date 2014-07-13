@@ -52,6 +52,7 @@ white_list <- c("week game",
                 "08   2014-05-31_sfoDF-at-pdxST",
                 "09   2014-06-07_pdxST-at-sfoDF",
                 "10   2014-06-14_pdxST-at-seaRM",
+                "11   2014-06-21_seaRM-at-pdxST",
                 "01   2014-04-12_wdcCT-at-phlSP",
                 "01   2014-04-12_nykRM-at-bosWC")
 white_list <-
