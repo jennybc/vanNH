@@ -1,0 +1,11 @@
+2014-05-31_sfoDF-at-pdxST:
+  690 rows of resolved game play found
+  573/573 rows of pass data are whitelisted (100.0%)
+  breakdown of passes:
+
+ compl  ofoul  taway   defd   drop nopass   <NA> 
+   530      0     19     13     10      1      0 
+  530/572 passes were completed (92.7%)
+  573 rows of pass data will be written
+  2014-07-13 00:00:48
+

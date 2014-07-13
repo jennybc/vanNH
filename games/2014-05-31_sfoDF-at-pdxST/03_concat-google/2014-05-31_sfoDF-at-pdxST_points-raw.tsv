@@ -1,0 +1,40 @@
+point	Pulling.team	Period	Clock.before.point	Clock.after.point
+1	Portland Stags	1	10:00:00	8:28:00
+2	San Francisco Dogfish	1	8:28:00	7:49:00
+3	Portland Stags	1	7:49:00	6:58:00
+4	San Francisco Dogfish	1	6:58:00	6:18:00
+5	Portland Stags	1	6:18:00	4:30:00
+6	San Francisco Dogfish	1	4:30:00	1:42:00
+7	San Francisco Dogfish	1	1:42:00	1:14:00
+8	Portland Stags	1	1:14:00	0:00:00
+9	San Francisco Dogfish	2	10:00:00	9:47:00
+10	Portland Stags	2	9:47:00	9:32:00
+11	San Francisco Dogfish	2	9:32:00	7:25:00
+12	Portland Stags	2	7:25:00	6:58:00
+13	San Francisco Dogfish	2	6:58:00	6:53:00
+14	Portland Stags	2	6:53:00	5:41:00
+15	Portland Stags	2	5:41:00	3:58:00
+16	San Francisco Dogfish	2	3:58:00	3:15:00
+17	Portland Stags	2	3:15:00	2:17:00
+18	Portland Stags	2	2:17:00	0:00:00
+19	Portland Stags	3	10:00:00	9:16:00
+20	San Francisco Dogfish	3	9:16:00	8:47:00
+21	Portland Stags	3	8:47:00	7:45:00
+22	Portland Stags	3	7:45:00	6:08:00
+23	San Francisco Dogfish	3	6:08:00	5:12:00
+24	Portland Stags	3	5:12:00	4:08:00
+25	Portland Stags	3	4:08:00	3:27:00
+26	San Francisco Dogfish	3	3:27:00	2:18:00
+27	Portland Stags	3	2:18:00	1:35:00
+28	San Francisco Dogfish	3	1:35:00	0:08:00
+29	Portland Stags	3	0:08:00	0:00:00
+30	San Francisco Dogfish	4	10:00:00	7:52:00
+31	San Francisco Dogfish	4	7:52:00	7:31:00
+32	Portland Stags	4	7:31:00	NA
+33	Portland Stags	4	NA	6:38:00
+34	San Francisco Dogfish	4	6:38:00	4:17:00
+35	Portland Stags	4	4:17:00	3:41:00
+36	San Francisco Dogfish	4	3:41:00	3:15:00
+37	San Francisco Dogfish	4	3:15:00	3:01:00
+38	Portland Stags	4	3:01:00	1:32:00
+39	Portland Stags	4	1:32:00	0:00:00

@@ -1,0 +1,691 @@
+period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
+1	1	pdxST	1	1	1	sfoDF	pdxST	88	P
+1	1	pdxST	2	1	1	sfoDF	sfoDF	8	PU
+1	1	pdxST	3	1	1	sfoDF	sfoDF	16	
+1	1	pdxST	4	2	2	pdxST	pdxST	88	PU
+1	1	pdxST	5	2	2	pdxST	pdxST	22	
+1	1	pdxST	6	2	2	pdxST	pdxST	21	
+1	1	pdxST	7	2	2	pdxST	pdxST	8	
+1	1	pdxST	8	2	2	pdxST	pdxST	17	
+1	1	pdxST	9	2	2	pdxST	pdxST	3	
+1	1	pdxST	10	2	2	pdxST	pdxST	21	
+1	1	pdxST	11	2	2	pdxST	pdxST	22	
+1	1	pdxST	12	2	2	pdxST	sfoDF	13	D
+1	1	pdxST	13	3	3	sfoDF	sfoDF	8	PU
+1	1	pdxST	14	3	3	sfoDF	sfoDF	16	
+1	1	pdxST	15	3	3	sfoDF	sfoDF	8	
+1	1	pdxST	16	3	3	sfoDF	sfoDF	21	
+1	1	pdxST	17	3	3	sfoDF	sfoDF	6	
+1	1	pdxST	18	3	3	sfoDF	sfoDF	16	
+1	1	pdxST	19	3	3	sfoDF	sfoDF	8	
+1	1	pdxST	20	3	3	sfoDF	sfoDF	13	
+1	1	pdxST	21	3	3	sfoDF	sfoDF	16	A
+1	1	pdxST	22	3	3	sfoDF	sfoDF	88	G
+1	2	sfoDF	1	4	1	pdxST	sfoDF	12	P
+1	2	sfoDF	2	4	1	pdxST	pdxST	7	PU
+1	2	sfoDF	3	4	1	pdxST	pdxST	24	
+1	2	sfoDF	4	4	1	pdxST	pdxST	7	
+1	2	sfoDF	5	4	1	pdxST	pdxST	6	
+1	2	sfoDF	6	4	1	pdxST	pdxST	7	
+1	2	sfoDF	7	4	1	pdxST	pdxST	2	
+1	2	sfoDF	8	4	1	pdxST	pdxST	7	
+1	2	sfoDF	9	4	1	pdxST	pdxST	42	
+1	2	sfoDF	10	4	1	pdxST	pdxST	7	
+1	2	sfoDF	11	4	1	pdxST	pdxST	11	
+1	2	sfoDF	12	4	1	pdxST	pdxST	16	
+1	2	sfoDF	13	4	1	pdxST	pdxST	42	LA
+1	2	sfoDF	14	4	1	pdxST	pdxST	2	G
+1	3	pdxST	1	5	1	sfoDF	pdxST	88	P
+1	3	pdxST	2	5	1	sfoDF	sfoDF	8	PU
+1	3	pdxST	3	5	1	sfoDF	sfoDF	16	
+1	3	pdxST	4	5	1	sfoDF	sfoDF	13	
+1	3	pdxST	5	5	1	sfoDF	sfoDF	19	TD
+1	3	pdxST	6	6	2	pdxST	pdxST	1	PU
+1	3	pdxST	7	6	2	pdxST	pdxST	21	
+1	3	pdxST	8	6	2	pdxST	pdxST	88	
+1	3	pdxST	9	7	3	sfoDF	sfoDF	16	PU
+1	3	pdxST	10	7	3	sfoDF	sfoDF	88	
+1	3	pdxST	11	7	3	sfoDF	sfoDF	16	
+1	3	pdxST	12	7	3	sfoDF	sfoDF	6	A
+1	3	pdxST	13	7	3	sfoDF	sfoDF	13	G
+1	4	sfoDF	1	8	1	pdxST	sfoDF	12	P
+1	4	sfoDF	2	8	1	pdxST	pdxST	7	PU
+1	4	sfoDF	3	8	1	pdxST	pdxST	24	
+1	4	sfoDF	4	8	1	pdxST	pdxST	16	
+1	4	sfoDF	5	8	1	pdxST	pdxST	7	
+1	4	sfoDF	6	8	1	pdxST	pdxST	24	
+1	4	sfoDF	7	8	1	pdxST	pdxST	7	
+1	4	sfoDF	8	8	1	pdxST	pdxST	24	
+1	4	sfoDF	9	8	1	pdxST	pdxST	7	
+1	4	sfoDF	10	8	1	pdxST	pdxST	24	
+1	4	sfoDF	11	8	1	pdxST	pdxST	16	LA
+1	4	sfoDF	12	8	1	pdxST	pdxST	6	G
+1	5	pdxST	1	9	1	sfoDF	pdxST	8	P
+1	5	pdxST	2	9	1	sfoDF	sfoDF	1	PU
+1	5	pdxST	3	9	1	sfoDF	sfoDF	8	
+1	5	pdxST	4	9	1	sfoDF	sfoDF	46	
+1	5	pdxST	5	9	1	sfoDF	sfoDF	6	
+1	5	pdxST	6	9	1	sfoDF	sfoDF	22	
+1	5	pdxST	7	9	1	sfoDF	sfoDF	8	
+1	5	pdxST	8	9	1	sfoDF	sfoDF	6	
+1	5	pdxST	9	9	1	sfoDF	sfoDF	1	
+1	5	pdxST	10	9	1	sfoDF	sfoDF	22	
+1	5	pdxST	11	9	1	sfoDF	sfoDF	6	
+1	5	pdxST	12	9	1	sfoDF	sfoDF	8	
+1	5	pdxST	13	9	1	sfoDF	sfoDF	88	TD
+1	5	pdxST	14	10	2	pdxST	pdxST	15	PU
+1	5	pdxST	15	10	2	pdxST	pdxST	8	
+1	5	pdxST	16	10	2	pdxST	sfoDF	6	D
+1	5	pdxST	17	11	3	sfoDF	sfoDF	8	PU
+1	5	pdxST	18	11	3	sfoDF	sfoDF	88	
+1	5	pdxST	19	11	3	sfoDF	sfoDF	46	
+1	5	pdxST	20	11	3	sfoDF	sfoDF	88	
+1	5	pdxST	21	11	3	sfoDF	sfoDF	8	L
+1	5	pdxST	22	11	3	sfoDF	sfoDF	6	A
+1	5	pdxST	23	11	3	sfoDF	sfoDF	46	G
+1	6	sfoDF	1	12	1	pdxST	sfoDF	12	P
+1	6	sfoDF	2	12	1	pdxST	pdxST	88	PU
+1	6	sfoDF	3	12	1	pdxST	pdxST	24	
+1	6	sfoDF	4	12	1	pdxST	pdxST	22	
+1	6	sfoDF	5	12	1	pdxST	pdxST	7	
+1	6	sfoDF	6	12	1	pdxST	pdxST	42	
+1	6	sfoDF	7	12	1	pdxST	pdxST	6	
+1	6	sfoDF	8	12	1	pdxST	pdxST	42	
+1	6	sfoDF	9	12	1	pdxST	pdxST	88	
+1	6	sfoDF	10	12	1	pdxST	pdxST	11	
+1	6	sfoDF	11	13	2	sfoDF	sfoDF	12	PU
+1	6	sfoDF	12	13	2	sfoDF	pdxST	88	D
+1	6	sfoDF	13	14	3	pdxST	pdxST	24	PU
+1	6	sfoDF	14	14	3	pdxST	pdxST	42	
+1	6	sfoDF	15	14	3	pdxST	pdxST	24	
+1	6	sfoDF	16	14	3	pdxST	pdxST	42	
+1	6	sfoDF	17	14	3	pdxST	pdxST	24	
+1	6	sfoDF	18	14	3	pdxST	pdxST	11	
+1	6	sfoDF	19	14	3	pdxST	pdxST	42	
+1	6	sfoDF	20	14	3	pdxST	pdxST	16	
+1	6	sfoDF	21	14	3	pdxST	pdxST	7	
+1	6	sfoDF	22	14	3	pdxST	pdxST	11	
+1	6	sfoDF	23	14	3	pdxST	pdxST	7	
+1	6	sfoDF	24	14	3	pdxST	pdxST	24	
+1	6	sfoDF	25	15	4	sfoDF	sfoDF	17	PU
+1	6	sfoDF	26	15	4	sfoDF	sfoDF	85	TO
+1	6	sfoDF	27	15	4	sfoDF	sfoDF	16	PU
+1	6	sfoDF	28	15	4	sfoDF	sfoDF	6	
+1	6	sfoDF	29	15	4	sfoDF	pdxST	8	F
+1	6	sfoDF	30	15	4	sfoDF	sfoDF	19	
+1	6	sfoDF	31	15	4	sfoDF	pdxST	3	F
+1	6	sfoDF	32	15	4	sfoDF	sfoDF	19	
+1	6	sfoDF	33	15	4	sfoDF	sfoDF	8	
+1	6	sfoDF	34	15	4	sfoDF	sfoDF	16	
+1	6	sfoDF	35	15	4	sfoDF	sfoDF	6	TD
+1	6	sfoDF	36	16	5	pdxST	pdxST	8	PU
+1	6	sfoDF	37	16	5	pdxST	pdxST	8	TO
+1	6	sfoDF	38	16	5	pdxST	pdxST	10	PU
+1	6	sfoDF	39	16	5	pdxST	pdxST	7	
+1	6	sfoDF	40	16	5	pdxST	pdxST	10	
+1	6	sfoDF	41	16	5	pdxST	sfoDF	11	HB
+1	6	sfoDF	42	17	6	sfoDF	sfoDF	10	PUA
+1	6	sfoDF	43	17	6	sfoDF	sfoDF	5	G
+1	7	sfoDF	1	18	1	pdxST	sfoDF	46	P
+1	7	sfoDF	2	18	1	pdxST	pdxST	73	PU
+1	7	sfoDF	3	18	1	pdxST	pdxST	10	
+1	7	sfoDF	4	18	1	pdxST	pdxST	7	
+1	7	sfoDF	5	18	1	pdxST	pdxST	16	
+1	7	sfoDF	6	18	1	pdxST	pdxST	42	
+1	7	sfoDF	7	18	1	pdxST	pdxST	16	
+1	7	sfoDF	8	18	1	pdxST	pdxST	6	
+1	7	sfoDF	9	18	1	pdxST	pdxST	7	
+1	7	sfoDF	10	18	1	pdxST	pdxST	10	
+1	7	sfoDF	11	18	1	pdxST	pdxST	42	
+1	7	sfoDF	12	18	1	pdxST	pdxST	7	A
+1	7	sfoDF	13	18	1	pdxST	pdxST	73	G
+1	8	pdxST	1	19	1	sfoDF	pdxST	88	P
+1	8	pdxST	2	19	1	sfoDF	sfoDF	8	PU
+1	8	pdxST	3	19	1	sfoDF	sfoDF	16	
+1	8	pdxST	4	19	1	sfoDF	sfoDF	19	
+1	8	pdxST	5	19	1	sfoDF	sfoDF	16	
+1	8	pdxST	6	19	1	sfoDF	sfoDF	8	
+1	8	pdxST	7	19	1	sfoDF	sfoDF	88	
+1	8	pdxST	8	19	1	sfoDF	sfoDF	6	
+1	8	pdxST	9	19	1	sfoDF	sfoDF	88	
+1	8	pdxST	10	19	1	sfoDF	sfoDF	8	
+1	8	pdxST	11	20	2	pdxST	pdxST	3	PU
+1	8	pdxST	12	20	2	pdxST	pdxST	21	
+1	8	pdxST	13	20	2	pdxST	pdxST	12	
+1	8	pdxST	14	20	2	pdxST	pdxST	22	
+1	8	pdxST	15	20	2	pdxST	pdxST	88	TO
+1	8	pdxST	16	20	2	pdxST	pdxST	24	PU
+1	8	pdxST	17	20	2	pdxST	pdxST	7	
+1	8	pdxST	18	20	2	pdxST	pdxST	24	
+1	8	pdxST	19	20	2	pdxST	pdxST	7	
+1	8	pdxST	20	20	2	pdxST	pdxST	2	
+1	8	pdxST	21	20	2	pdxST	pdxST	6	
+1	8	pdxST	22	20	2	pdxST	pdxST	24	
+2	9	sfoDF	1	21	1	pdxST	sfoDF	12	P
+2	9	sfoDF	2	21	1	pdxST	pdxST	11	PU
+2	9	sfoDF	3	21	1	pdxST	pdxST	24	
+2	9	sfoDF	4	21	1	pdxST	pdxST	42	
+2	9	sfoDF	5	21	1	pdxST	pdxST	11	A
+2	9	sfoDF	6	21	1	pdxST	pdxST	6	LG
+2	10	pdxST	1	22	1	sfoDF	pdxST	8	P
+2	10	pdxST	2	22	1	sfoDF	sfoDF	8	PU
+2	10	pdxST	3	22	1	sfoDF	sfoDF	16	
+2	10	pdxST	4	22	1	sfoDF	sfoDF	13	
+2	10	pdxST	5	22	1	sfoDF	sfoDF	88	A
+2	10	pdxST	6	22	1	sfoDF	sfoDF	19	LG
+2	11	sfoDF	1	23	1	pdxST	sfoDF	12	P
+2	11	sfoDF	2	23	1	pdxST	pdxST	7	PU
+2	11	sfoDF	3	23	1	pdxST	pdxST	10	
+2	11	sfoDF	4	23	1	pdxST	pdxST	73	
+2	11	sfoDF	5	23	1	pdxST	pdxST	6	
+2	11	sfoDF	6	23	1	pdxST	pdxST	16	
+2	11	sfoDF	7	23	1	pdxST	pdxST	2	
+2	11	sfoDF	8	23	1	pdxST	pdxST	7	TD
+2	11	sfoDF	9	24	2	sfoDF	sfoDF	5	PU
+2	11	sfoDF	10	24	2	sfoDF	sfoDF	12	
+2	11	sfoDF	11	24	2	sfoDF	sfoDF	5	
+2	11	sfoDF	12	24	2	sfoDF	sfoDF	1	
+2	11	sfoDF	13	24	2	sfoDF	sfoDF	17	
+2	11	sfoDF	14	24	2	sfoDF	sfoDF	1	
+2	11	sfoDF	15	24	2	sfoDF	sfoDF	17	
+2	11	sfoDF	16	24	2	sfoDF	sfoDF	5	TD
+2	11	sfoDF	17	25	3	pdxST	pdxST	7	PU
+2	11	sfoDF	18	25	3	pdxST	pdxST	42	
+2	11	sfoDF	19	25	3	pdxST	pdxST	73	
+2	11	sfoDF	20	25	3	pdxST	pdxST	10	
+2	11	sfoDF	21	25	3	pdxST	pdxST	73	
+2	11	sfoDF	22	25	3	pdxST	pdxST	16	
+2	11	sfoDF	23	25	3	pdxST	pdxST	7	
+2	11	sfoDF	24	25	3	pdxST	pdxST	42	
+2	11	sfoDF	25	25	3	pdxST	pdxST	7	
+2	11	sfoDF	26	25	3	pdxST	pdxST	73	
+2	11	sfoDF	27	25	3	pdxST	pdxST	10	
+2	11	sfoDF	28	25	3	pdxST	pdxST	16	
+2	11	sfoDF	29	25	3	pdxST	pdxST	42	
+2	11	sfoDF	30	25	3	pdxST	pdxST	16	
+2	11	sfoDF	31	25	3	pdxST	pdxST	10	
+2	11	sfoDF	32	25	3	pdxST	pdxST	73	
+2	11	sfoDF	33	25	3	pdxST	pdxST	10	
+2	11	sfoDF	34	25	3	pdxST	pdxST	16	
+2	11	sfoDF	35	25	3	pdxST	pdxST	10	
+2	11	sfoDF	36	25	3	pdxST	pdxST	7	LA
+2	11	sfoDF	37	25	3	pdxST	sfoDF	12	F
+2	11	sfoDF	38	25	3	pdxST	pdxST	16	G
+2	12	pdxST	1	26	1	sfoDF	pdxST	88	P
+2	12	pdxST	2	26	1	sfoDF	sfoDF	57	PU
+2	12	pdxST	3	26	1	sfoDF	sfoDF	8	
+2	12	pdxST	4	26	1	sfoDF	sfoDF	13	
+2	12	pdxST	5	26	1	sfoDF	sfoDF	88	
+2	12	pdxST	6	26	1	sfoDF	sfoDF	46	
+2	12	pdxST	7	26	1	sfoDF	sfoDF	22	A
+2	12	pdxST	8	26	1	sfoDF	sfoDF	13	LG
+2	13	sfoDF	1	27	1	pdxST	sfoDF	5	P
+2	13	sfoDF	2	27	1	pdxST	pdxST	7	PU
+2	13	sfoDF	3	27	1	pdxST	pdxST	24	
+2	13	sfoDF	4	27	1	pdxST	pdxST	11	
+2	13	sfoDF	5	27	1	pdxST	pdxST	24	
+2	13	sfoDF	6	27	1	pdxST	pdxST	7	
+2	13	sfoDF	7	27	1	pdxST	pdxST	24	
+2	13	sfoDF	8	27	1	pdxST	pdxST	11	
+2	13	sfoDF	9	27	1	pdxST	pdxST	2	
+2	13	sfoDF	10	27	1	pdxST	pdxST	42	
+2	13	sfoDF	11	27	1	pdxST	pdxST	16	
+2	13	sfoDF	12	27	1	pdxST	pdxST	24	A
+2	13	sfoDF	13	27	1	pdxST	pdxST	11	G
+2	14	pdxST	1	28	1	sfoDF	pdxST	88	P
+2	14	pdxST	2	28	1	sfoDF	sfoDF	8	PU
+2	14	pdxST	3	28	1	sfoDF	sfoDF	16	
+2	14	pdxST	4	28	1	sfoDF	sfoDF	88	
+2	14	pdxST	5	28	1	sfoDF	sfoDF	6	
+2	14	pdxST	6	28	1	sfoDF	sfoDF	13	
+2	14	pdxST	7	28	1	sfoDF	sfoDF	19	
+2	14	pdxST	8	28	1	sfoDF	sfoDF	8	
+2	14	pdxST	9	28	1	sfoDF	pdxST	15	F
+2	14	pdxST	10	28	1	sfoDF	pdxST	14	D
+2	14	pdxST	11	29	2	pdxST	pdxST	21	PU
+2	14	pdxST	12	29	2	pdxST	pdxST	88	
+2	14	pdxST	13	29	2	pdxST	pdxST	21	
+2	14	pdxST	14	29	2	pdxST	pdxST	88	
+2	14	pdxST	15	29	2	pdxST	pdxST	8	
+2	14	pdxST	16	29	2	pdxST	pdxST	14	
+2	14	pdxST	17	29	2	pdxST	pdxST	88	
+2	14	pdxST	18	29	2	pdxST	pdxST	15	A
+2	14	pdxST	19	29	2	pdxST	pdxST	17	G
+2	15	pdxST	1	30	1	sfoDF	pdxST	7	P
+2	15	pdxST	2	30	1	sfoDF	sfoDF	17	PU
+2	15	pdxST	3	31	2	pdxST	pdxST	7	PU
+2	15	pdxST	4	31	2	pdxST	pdxST	15	
+2	15	pdxST	5	31	2	pdxST	pdxST	8	
+2	15	pdxST	6	32	3	sfoDF	sfoDF	5	PU
+2	15	pdxST	7	32	3	sfoDF	sfoDF	17	
+2	15	pdxST	8	32	3	sfoDF	sfoDF	12	
+2	15	pdxST	9	32	3	sfoDF	sfoDF	1	
+2	15	pdxST	10	32	3	sfoDF	sfoDF	18	
+2	15	pdxST	11	32	3	sfoDF	sfoDF	10	
+2	15	pdxST	12	32	3	sfoDF	sfoDF	1	
+2	15	pdxST	13	32	3	sfoDF	sfoDF	85	
+2	15	pdxST	14	32	3	sfoDF	sfoDF	17	
+2	15	pdxST	15	32	3	sfoDF	sfoDF	85	
+2	15	pdxST	16	32	3	sfoDF	sfoDF	17	TO
+2	15	pdxST	17	32	3	sfoDF	sfoDF	16	PU
+2	15	pdxST	18	32	3	sfoDF	sfoDF	8	
+2	15	pdxST	19	32	3	sfoDF	sfoDF	88	
+2	15	pdxST	20	32	3	sfoDF	sfoDF	8	
+2	15	pdxST	21	32	3	sfoDF	sfoDF	88	
+2	15	pdxST	22	32	3	sfoDF	sfoDF	6	
+2	15	pdxST	23	32	3	sfoDF	pdxST	42	F
+2	15	pdxST	24	32	3	sfoDF	sfoDF	16	A
+2	15	pdxST	25	32	3	sfoDF	sfoDF	6	G
+2	16	sfoDF	1	33	1	pdxST	sfoDF	12	P
+2	16	sfoDF	2	33	1	pdxST	pdxST	11	PU
+2	16	sfoDF	3	33	1	pdxST	pdxST	24	
+2	16	sfoDF	4	33	1	pdxST	pdxST	7	
+2	16	sfoDF	5	33	1	pdxST	pdxST	24	
+2	16	sfoDF	6	33	1	pdxST	pdxST	7	
+2	16	sfoDF	7	33	1	pdxST	pdxST	24	
+2	16	sfoDF	8	33	1	pdxST	pdxST	11	
+2	16	sfoDF	9	33	1	pdxST	pdxST	6	
+2	16	sfoDF	10	33	1	pdxST	pdxST	11	
+2	16	sfoDF	11	33	1	pdxST	pdxST	24	
+2	16	sfoDF	12	33	1	pdxST	pdxST	7	
+2	16	sfoDF	13	33	1	pdxST	pdxST	16	
+2	16	sfoDF	14	33	1	pdxST	pdxST	6	A
+2	16	sfoDF	15	33	1	pdxST	pdxST	42	LG
+2	17	pdxST	1	34	1	sfoDF	pdxST	8	P
+2	17	pdxST	2	34	1	sfoDF	sfoDF	8	PU
+2	17	pdxST	3	34	1	sfoDF	sfoDF	16	
+2	17	pdxST	4	34	1	sfoDF	sfoDF	88	
+2	17	pdxST	5	34	1	sfoDF	sfoDF	16	
+2	17	pdxST	6	34	1	sfoDF	sfoDF	6	
+2	17	pdxST	7	34	1	sfoDF	sfoDF	8	TD
+2	17	pdxST	8	35	2	pdxST	pdxST	88	PU
+2	17	pdxST	9	35	2	pdxST	pdxST	22	
+2	17	pdxST	10	35	2	pdxST	pdxST	5	L
+2	17	pdxST	11	35	2	pdxST	pdxST	21	A
+2	17	pdxST	12	35	2	pdxST	pdxST	17	G
+2	18	pdxST	1	36	1	sfoDF	pdxST	8	P
+2	18	pdxST	2	36	1	sfoDF	sfoDF	8	PU
+2	18	pdxST	3	36	1	sfoDF	sfoDF	16	
+2	18	pdxST	4	36	1	sfoDF	sfoDF	13	
+2	18	pdxST	5	36	1	sfoDF	sfoDF	16	
+2	18	pdxST	6	36	1	sfoDF	sfoDF	19	
+2	18	pdxST	7	36	1	sfoDF	sfoDF	8	
+2	18	pdxST	8	36	1	sfoDF	sfoDF	21	TD
+2	18	pdxST	9	37	2	pdxST	pdxST	88	PU
+2	18	pdxST	10	37	2	pdxST	pdxST	8	
+2	18	pdxST	11	37	2	pdxST	pdxST	21	
+2	18	pdxST	12	37	2	pdxST	sfoDF	6	F
+2	18	pdxST	13	37	2	pdxST	pdxST	8	
+2	18	pdxST	14	38	3	sfoDF	sfoDF	16	PU
+2	18	pdxST	15	38	3	sfoDF	sfoDF	13	
+2	18	pdxST	16	38	3	sfoDF	sfoDF	16	
+2	18	pdxST	17	38	3	sfoDF	sfoDF	21	
+2	18	pdxST	18	38	3	sfoDF	sfoDF	16	
+2	18	pdxST	19	38	3	sfoDF	sfoDF	88	
+2	18	pdxST	20	38	3	sfoDF	sfoDF	8	
+2	18	pdxST	21	38	3	sfoDF	sfoDF	19	
+2	18	pdxST	22	38	3	sfoDF	sfoDF	13	
+2	18	pdxST	23	38	3	sfoDF	sfoDF	8	
+2	18	pdxST	24	38	3	sfoDF	sfoDF	16	
+2	18	pdxST	25	38	3	sfoDF	sfoDF	88	
+2	18	pdxST	26	38	3	sfoDF	sfoDF	6	
+2	18	pdxST	27	38	3	sfoDF	sfoDF	88	
+2	18	pdxST	28	38	3	sfoDF	sfoDF	6	
+2	18	pdxST	29	38	3	sfoDF	sfoDF	16	
+2	18	pdxST	30	38	3	sfoDF	pdxST	8	D
+3	19	pdxST	1	39	1	sfoDF	pdxST	88	P
+3	19	pdxST	2	39	1	sfoDF	sfoDF	16	PU
+3	19	pdxST	3	39	1	sfoDF	sfoDF	88	
+3	19	pdxST	4	39	1	sfoDF	sfoDF	16	
+3	19	pdxST	5	39	1	sfoDF	sfoDF	88	
+3	19	pdxST	6	39	1	sfoDF	sfoDF	16	
+3	19	pdxST	7	39	1	sfoDF	sfoDF	6	
+3	19	pdxST	8	39	1	sfoDF	sfoDF	13	
+3	19	pdxST	9	39	1	sfoDF	sfoDF	16	
+3	19	pdxST	10	39	1	sfoDF	sfoDF	13	
+3	19	pdxST	11	39	1	sfoDF	sfoDF	16	
+3	19	pdxST	12	39	1	sfoDF	sfoDF	19	
+3	19	pdxST	13	39	1	sfoDF	sfoDF	16	A
+3	19	pdxST	14	39	1	sfoDF	sfoDF	21	G
+3	20	sfoDF	1	40	1	pdxST	sfoDF	12	P
+3	20	sfoDF	2	40	1	pdxST	pdxST	11	PU
+3	20	sfoDF	3	40	1	pdxST	pdxST	24	
+3	20	sfoDF	4	40	1	pdxST	pdxST	7	
+3	20	sfoDF	5	40	1	pdxST	pdxST	6	
+3	20	sfoDF	6	40	1	pdxST	pdxST	16	L
+3	20	sfoDF	7	40	1	pdxST	pdxST	2	
+3	20	sfoDF	8	40	1	pdxST	pdxST	24	
+3	20	sfoDF	9	40	1	pdxST	pdxST	11	A
+3	20	sfoDF	10	40	1	pdxST	pdxST	6	G
+3	21	pdxST	1	41	1	sfoDF	pdxST	88	P
+3	21	pdxST	2	41	1	sfoDF	sfoDF	8	PU
+3	21	pdxST	3	41	1	sfoDF	sfoDF	5	
+3	21	pdxST	4	41	1	sfoDF	sfoDF	57	
+3	21	pdxST	5	41	1	sfoDF	sfoDF	5	
+3	21	pdxST	6	41	1	sfoDF	sfoDF	57	
+3	21	pdxST	7	41	1	sfoDF	sfoDF	5	
+3	21	pdxST	8	41	1	sfoDF	sfoDF	57	
+3	21	pdxST	9	41	1	sfoDF	sfoDF	8	
+3	21	pdxST	10	41	1	sfoDF	sfoDF	6	TD
+3	21	pdxST	11	42	2	pdxST	pdxST	88	PU
+3	21	pdxST	12	42	2	pdxST	pdxST	5	L
+3	21	pdxST	13	42	2	pdxST	sfoDF	1	F
+3	21	pdxST	14	42	2	pdxST	pdxST	21	A
+3	21	pdxST	15	42	2	pdxST	pdxST	3	G
+3	22	pdxST	1	43	1	sfoDF	pdxST	8	P
+3	22	pdxST	2	43	1	sfoDF	sfoDF	12	PU
+3	22	pdxST	3	43	1	sfoDF	sfoDF	25	
+3	22	pdxST	4	43	1	sfoDF	sfoDF	46	
+3	22	pdxST	5	43	1	sfoDF	sfoDF	18	
+3	22	pdxST	6	43	1	sfoDF	sfoDF	25	
+3	22	pdxST	7	43	1	sfoDF	sfoDF	11	
+3	22	pdxST	8	43	1	sfoDF	sfoDF	5	
+3	22	pdxST	9	43	1	sfoDF	sfoDF	25	
+3	22	pdxST	10	44	2	pdxST	pdxST	15	PU
+3	22	pdxST	11	44	2	pdxST	sfoDF	85	D
+3	22	pdxST	12	45	3	sfoDF	sfoDF	12	PU
+3	22	pdxST	13	45	3	sfoDF	sfoDF	25	
+3	22	pdxST	14	45	3	sfoDF	sfoDF	12	
+3	22	pdxST	15	45	3	sfoDF	sfoDF	25	
+3	22	pdxST	16	45	3	sfoDF	sfoDF	12	
+3	22	pdxST	17	45	3	sfoDF	sfoDF	25	
+3	22	pdxST	18	45	3	sfoDF	sfoDF	12	
+3	22	pdxST	19	45	3	sfoDF	sfoDF	5	
+3	22	pdxST	20	45	3	sfoDF	sfoDF	18	
+3	22	pdxST	21	45	3	sfoDF	sfoDF	85	
+3	22	pdxST	22	45	3	sfoDF	sfoDF	12	
+3	22	pdxST	23	45	3	sfoDF	sfoDF	18	
+3	22	pdxST	24	45	3	sfoDF	sfoDF	46	
+3	22	pdxST	25	45	3	sfoDF	sfoDF	25	
+3	22	pdxST	26	45	3	sfoDF	sfoDF	12	A
+3	22	pdxST	27	45	3	sfoDF	sfoDF	85	G
+3	23	sfoDF	1	46	1	pdxST	sfoDF	12	P
+3	23	sfoDF	2	46	1	pdxST	pdxST	7	PU
+3	23	sfoDF	3	46	1	pdxST	pdxST	10	
+3	23	sfoDF	4	46	1	pdxST	pdxST	73	
+3	23	sfoDF	5	46	1	pdxST	pdxST	6	
+3	23	sfoDF	6	46	1	pdxST	pdxST	73	
+3	23	sfoDF	7	46	1	pdxST	pdxST	6	
+3	23	sfoDF	8	46	1	pdxST	pdxST	20	
+3	23	sfoDF	9	46	1	pdxST	pdxST	10	
+3	23	sfoDF	10	46	1	pdxST	pdxST	73	
+3	23	sfoDF	11	46	1	pdxST	pdxST	10	
+3	23	sfoDF	12	46	1	pdxST	pdxST	7	
+3	23	sfoDF	13	46	1	pdxST	pdxST	6	
+3	23	sfoDF	14	46	1	pdxST	pdxST	7	
+3	23	sfoDF	15	46	1	pdxST	pdxST	6	
+3	23	sfoDF	16	46	1	pdxST	pdxST	42	
+3	23	sfoDF	17	46	1	pdxST	pdxST	73	
+3	23	sfoDF	18	46	1	pdxST	pdxST	20	L
+3	23	sfoDF	19	46	1	pdxST	pdxST	10	A
+3	23	sfoDF	20	46	1	pdxST	pdxST	16	G
+3	24	pdxST	1	47	1	sfoDF	pdxST	88	P
+3	24	pdxST	2	47	1	sfoDF	sfoDF	8	PU
+3	24	pdxST	3	47	1	sfoDF	sfoDF	16	
+3	24	pdxST	4	47	1	sfoDF	sfoDF	13	
+3	24	pdxST	5	48	2	pdxST	pdxST	17	PU
+3	24	pdxST	6	48	2	pdxST	pdxST	4	
+3	24	pdxST	7	48	2	pdxST	pdxST	17	
+3	24	pdxST	8	48	2	pdxST	sfoDF	19	F
+3	24	pdxST	9	48	2	pdxST	pdxST	15	
+3	24	pdxST	10	48	2	pdxST	pdxST	4	
+3	24	pdxST	11	48	2	pdxST	pdxST	8	
+3	24	pdxST	12	48	2	pdxST	pdxST	12	
+3	24	pdxST	13	48	2	pdxST	pdxST	8	
+3	24	pdxST	14	48	2	pdxST	pdxST	15	
+3	24	pdxST	15	48	2	pdxST	pdxST	14	
+3	24	pdxST	16	48	2	pdxST	pdxST	17	
+3	24	pdxST	17	48	2	pdxST	pdxST	4	
+3	24	pdxST	18	48	2	pdxST	pdxST	14	
+3	24	pdxST	19	48	2	pdxST	pdxST	12	
+3	24	pdxST	20	48	2	pdxST	pdxST	88	A
+3	24	pdxST	21	48	2	pdxST	pdxST	14	G
+3	25	pdxST	1	49	1	sfoDF	pdxST	88	P
+3	25	pdxST	2	49	1	sfoDF	sfoDF	8	PU
+3	25	pdxST	3	49	1	sfoDF	sfoDF	16	
+3	25	pdxST	4	49	1	sfoDF	sfoDF	88	
+3	25	pdxST	5	49	1	sfoDF	sfoDF	13	
+3	25	pdxST	6	49	1	sfoDF	sfoDF	16	
+3	25	pdxST	7	49	1	sfoDF	sfoDF	46	
+3	25	pdxST	8	49	1	sfoDF	sfoDF	16	
+3	25	pdxST	9	49	1	sfoDF	sfoDF	6	
+3	25	pdxST	10	49	1	sfoDF	sfoDF	13	
+3	25	pdxST	11	49	1	sfoDF	sfoDF	16	
+3	25	pdxST	12	49	1	sfoDF	sfoDF	46	
+3	25	pdxST	13	49	1	sfoDF	sfoDF	16	
+3	25	pdxST	14	49	1	sfoDF	sfoDF	8	A
+3	25	pdxST	15	49	1	sfoDF	sfoDF	6	G
+3	26	sfoDF	1	50	1	pdxST	sfoDF	5	P
+3	26	sfoDF	2	50	1	pdxST	pdxST	11	PU
+3	26	sfoDF	3	50	1	pdxST	pdxST	24	
+3	26	sfoDF	4	50	1	pdxST	pdxST	7	
+3	26	sfoDF	5	50	1	pdxST	pdxST	24	
+3	26	sfoDF	6	50	1	pdxST	pdxST	6	
+3	26	sfoDF	7	50	1	pdxST	pdxST	7	
+3	26	sfoDF	8	50	1	pdxST	pdxST	24	
+3	26	sfoDF	9	50	1	pdxST	pdxST	11	
+3	26	sfoDF	10	50	1	pdxST	pdxST	7	
+3	26	sfoDF	11	50	1	pdxST	pdxST	16	
+3	26	sfoDF	12	50	1	pdxST	sfoDF	5	HB
+3	26	sfoDF	13	51	2	sfoDF	sfoDF	8	PU
+3	26	sfoDF	14	51	2	sfoDF	sfoDF	25	
+3	26	sfoDF	15	51	2	sfoDF	sfoDF	85	
+3	26	sfoDF	16	52	3	pdxST	pdxST	24	PUA
+3	26	sfoDF	17	52	3	pdxST	pdxST	16	G
+3	27	pdxST	1	53	1	sfoDF	pdxST	8	P
+3	27	pdxST	2	53	1	sfoDF	sfoDF	16	PU
+3	27	pdxST	3	53	1	sfoDF	sfoDF	8	
+3	27	pdxST	4	53	1	sfoDF	sfoDF	16	
+3	27	pdxST	5	53	1	sfoDF	sfoDF	8	
+3	27	pdxST	6	53	1	sfoDF	sfoDF	21	
+3	27	pdxST	7	53	1	sfoDF	sfoDF	16	
+3	27	pdxST	8	53	1	sfoDF	sfoDF	13	
+3	27	pdxST	9	53	1	sfoDF	sfoDF	88	
+3	27	pdxST	10	53	1	sfoDF	sfoDF	21	
+3	27	pdxST	11	53	1	sfoDF	sfoDF	8	
+3	27	pdxST	12	53	1	sfoDF	sfoDF	6	
+3	27	pdxST	13	53	1	sfoDF	sfoDF	8	
+3	27	pdxST	14	53	1	sfoDF	sfoDF	6	A
+3	27	pdxST	15	53	1	sfoDF	sfoDF	8	G
+3	28	sfoDF	1	54	1	pdxST	sfoDF	12	P
+3	28	sfoDF	2	54	1	pdxST	pdxST	4	PU
+3	28	sfoDF	3	54	1	pdxST	pdxST	10	
+3	28	sfoDF	4	54	1	pdxST	pdxST	73	
+3	28	sfoDF	5	54	1	pdxST	pdxST	10	
+3	28	sfoDF	6	54	1	pdxST	pdxST	73	
+3	28	sfoDF	7	54	1	pdxST	pdxST	42	
+3	28	sfoDF	8	54	1	pdxST	pdxST	16	
+3	28	sfoDF	9	54	1	pdxST	pdxST	6	
+3	28	sfoDF	10	54	1	pdxST	pdxST	2	
+3	28	sfoDF	11	54	1	pdxST	pdxST	7	
+3	28	sfoDF	12	54	1	pdxST	pdxST	10	
+3	28	sfoDF	13	54	1	pdxST	pdxST	42	
+3	28	sfoDF	14	54	1	pdxST	pdxST	73	
+3	28	sfoDF	15	54	1	pdxST	pdxST	6	
+3	28	sfoDF	16	54	1	pdxST	pdxST	73	
+3	28	sfoDF	17	54	1	pdxST	pdxST	7	
+3	28	sfoDF	18	54	1	pdxST	pdxST	73	
+3	28	sfoDF	19	54	1	pdxST	pdxST	42	
+3	28	sfoDF	20	54	1	pdxST	pdxST	2	
+3	28	sfoDF	21	54	1	pdxST	pdxST	73	
+3	28	sfoDF	22	54	1	pdxST	pdxST	7	LA
+3	28	sfoDF	23	54	1	pdxST	pdxST	6	G
+3	29	pdxST	1	55	1	sfoDF	pdxST	88	P
+3	29	pdxST	2	55	1	sfoDF	sfoDF	57	PU
+3	29	pdxST	3	55	1	sfoDF	sfoDF	88	
+3	29	pdxST	4	56	2	pdxST	pdxST	20	PU
+3	29	pdxST	5	56	2	pdxST	sfoDF	6	F
+3	29	pdxST	6	56	2	pdxST	pdxST	88	
+3	29	pdxST	7	56	2	pdxST	sfoDF	22	D
+4	30	sfoDF	1	57	1	pdxST	sfoDF	12	P
+4	30	sfoDF	2	57	1	pdxST	pdxST	7	PU
+4	30	sfoDF	3	57	1	pdxST	pdxST	24	
+4	30	sfoDF	4	57	1	pdxST	pdxST	11	
+4	30	sfoDF	5	57	1	pdxST	pdxST	6	
+4	30	sfoDF	6	57	1	pdxST	pdxST	2	
+4	30	sfoDF	7	57	1	pdxST	pdxST	7	
+4	30	sfoDF	8	57	1	pdxST	pdxST	24	
+4	30	sfoDF	9	57	1	pdxST	pdxST	11	
+4	30	sfoDF	10	57	1	pdxST	pdxST	2	
+4	30	sfoDF	11	57	1	pdxST	pdxST	6	
+4	30	sfoDF	12	57	1	pdxST	pdxST	11	
+4	30	sfoDF	13	57	1	pdxST	pdxST	7	
+4	30	sfoDF	14	57	1	pdxST	pdxST	16	
+4	30	sfoDF	15	57	1	pdxST	pdxST	24	
+4	30	sfoDF	16	57	1	pdxST	pdxST	11	
+4	30	sfoDF	17	57	1	pdxST	pdxST	6	
+4	30	sfoDF	18	57	1	pdxST	sfoDF	11	D
+4	30	sfoDF	19	58	2	sfoDF	sfoDF	12	PU
+4	30	sfoDF	20	58	2	sfoDF	pdxST	2	D
+4	30	sfoDF	21	59	3	pdxST	pdxST	24	PU
+4	30	sfoDF	22	59	3	pdxST	pdxST	2	
+4	30	sfoDF	23	59	3	pdxST	pdxST	7	
+4	30	sfoDF	24	59	3	pdxST	pdxST	24	
+4	30	sfoDF	25	59	3	pdxST	pdxST	16	
+4	30	sfoDF	26	60	4	sfoDF	sfoDF	12	PU
+4	30	sfoDF	27	60	4	sfoDF	sfoDF	25	
+4	30	sfoDF	28	60	4	sfoDF	sfoDF	12	
+4	30	sfoDF	29	60	4	sfoDF	sfoDF	25	
+4	30	sfoDF	30	60	4	sfoDF	sfoDF	12	
+4	30	sfoDF	31	60	4	sfoDF	sfoDF	16	
+4	30	sfoDF	32	60	4	sfoDF	sfoDF	85	A
+4	30	sfoDF	33	60	4	sfoDF	sfoDF	18	LG
+4	31	sfoDF	1	61	1	pdxST	sfoDF	5	P
+4	31	sfoDF	2	61	1	pdxST	pdxST	73	PU
+4	31	sfoDF	3	61	1	pdxST	pdxST	10	
+4	31	sfoDF	4	61	1	pdxST	pdxST	7	
+4	31	sfoDF	5	61	1	pdxST	pdxST	73	
+4	31	sfoDF	6	61	1	pdxST	pdxST	42	LA
+4	31	sfoDF	7	61	1	pdxST	pdxST	6	G
+4	32	pdxST	1	62	1	sfoDF	pdxST	88	P
+4	32	pdxST	2	62	1	sfoDF	sfoDF	8	PU
+4	32	pdxST	3	63	2	pdxST	pdxST	22	PU
+4	32	pdxST	4	63	2	pdxST	pdxST	3	A
+4	32	pdxST	5	63	2	pdxST	sfoDF	21	F
+4	32	pdxST	6	63	2	pdxST	pdxST	12	G
+4	33	pdxST	1	64	1	sfoDF	pdxST	88	P
+4	33	pdxST	2	64	1	sfoDF	sfoDF	16	PU
+4	33	pdxST	3	64	1	sfoDF	sfoDF	8	
+4	33	pdxST	4	64	1	sfoDF	sfoDF	16	
+4	33	pdxST	5	64	1	sfoDF	sfoDF	13	
+4	33	pdxST	6	64	1	sfoDF	sfoDF	16	
+4	33	pdxST	7	64	1	sfoDF	sfoDF	13	
+4	33	pdxST	8	64	1	sfoDF	sfoDF	88	
+4	33	pdxST	9	64	1	sfoDF	sfoDF	19	
+4	33	pdxST	10	64	1	sfoDF	sfoDF	6	
+4	33	pdxST	11	64	1	sfoDF	sfoDF	21	
+4	33	pdxST	12	64	1	sfoDF	sfoDF	19	
+4	33	pdxST	13	64	1	sfoDF	sfoDF	6	A
+4	33	pdxST	14	64	1	sfoDF	sfoDF	16	G
+4	34	sfoDF	1	65	1	pdxST	sfoDF	12	P
+4	34	sfoDF	2	65	1	pdxST	pdxST	7	PU
+4	34	sfoDF	3	65	1	pdxST	pdxST	24	
+4	34	sfoDF	4	65	1	pdxST	pdxST	11	
+4	34	sfoDF	5	65	1	pdxST	pdxST	42	
+4	34	sfoDF	6	65	1	pdxST	pdxST	11	
+4	34	sfoDF	7	65	1	pdxST	pdxST	16	
+4	34	sfoDF	8	65	1	pdxST	pdxST	42	
+4	34	sfoDF	9	65	1	pdxST	pdxST	7	
+4	34	sfoDF	10	65	1	pdxST	pdxST	24	
+4	34	sfoDF	11	65	1	pdxST	pdxST	11	
+4	34	sfoDF	12	65	1	pdxST	pdxST	16	
+4	34	sfoDF	13	65	1	pdxST	pdxST	7	
+4	34	sfoDF	14	65	1	pdxST	pdxST	24	
+4	34	sfoDF	15	65	1	pdxST	pdxST	7	
+4	34	sfoDF	16	66	2	sfoDF	sfoDF	85	PU
+4	34	sfoDF	17	66	2	sfoDF	sfoDF	18	
+4	34	sfoDF	18	66	2	sfoDF	sfoDF	11	TO
+4	34	sfoDF	19	66	2	sfoDF	sfoDF	16	PU
+4	34	sfoDF	20	66	2	sfoDF	sfoDF	21	
+4	34	sfoDF	21	66	2	sfoDF	sfoDF	6	
+4	34	sfoDF	22	66	2	sfoDF	sfoDF	88	
+4	34	sfoDF	23	66	2	sfoDF	sfoDF	8	
+4	34	sfoDF	24	66	2	sfoDF	sfoDF	88	
+4	34	sfoDF	25	66	2	sfoDF	sfoDF	16	
+4	34	sfoDF	26	66	2	sfoDF	sfoDF	8	
+4	34	sfoDF	27	66	2	sfoDF	sfoDF	21	
+4	34	sfoDF	28	66	2	sfoDF	sfoDF	8	TD
+4	34	sfoDF	29	67	3	pdxST	pdxST	21	PU
+4	34	sfoDF	30	67	3	pdxST	pdxST	14	
+4	34	sfoDF	31	67	3	pdxST	pdxST	88	
+4	34	sfoDF	32	67	3	pdxST	pdxST	12	L
+4	34	sfoDF	33	67	3	pdxST	pdxST	15	
+4	34	sfoDF	34	67	3	pdxST	pdxST	88	
+4	34	sfoDF	35	67	3	pdxST	pdxST	17	
+4	34	sfoDF	36	67	3	pdxST	pdxST	15	
+4	34	sfoDF	37	67	3	pdxST	pdxST	17	A
+4	34	sfoDF	38	67	3	pdxST	pdxST	4	G
+4	35	pdxST	1	68	1	sfoDF	pdxST	73	P
+4	35	pdxST	2	68	1	sfoDF	sfoDF	1	PU
+4	35	pdxST	3	68	1	sfoDF	sfoDF	57	
+4	35	pdxST	4	68	1	sfoDF	sfoDF	88	
+4	35	pdxST	5	68	1	sfoDF	sfoDF	57	
+4	35	pdxST	6	68	1	sfoDF	sfoDF	6	
+4	35	pdxST	7	68	1	sfoDF	sfoDF	13	
+4	35	pdxST	8	68	1	sfoDF	sfoDF	22	
+4	35	pdxST	9	68	1	sfoDF	sfoDF	13	
+4	35	pdxST	10	68	1	sfoDF	sfoDF	6	
+4	35	pdxST	11	68	1	sfoDF	sfoDF	46	
+4	35	pdxST	12	68	1	sfoDF	pdxST	2	F
+4	35	pdxST	13	68	1	sfoDF	sfoDF	88	A
+4	35	pdxST	14	68	1	sfoDF	sfoDF	46	G
+4	36	sfoDF	1	69	1	pdxST	sfoDF	5	P
+4	36	sfoDF	2	69	1	pdxST	pdxST	24	PU
+4	36	sfoDF	3	69	1	pdxST	sfoDF	5	D
+4	36	sfoDF	4	70	2	sfoDF	sfoDF	11	PU
+4	36	sfoDF	5	70	2	sfoDF	sfoDF	25	
+4	36	sfoDF	6	70	2	sfoDF	sfoDF	17	
+4	36	sfoDF	7	70	2	sfoDF	sfoDF	10	
+4	36	sfoDF	8	70	2	sfoDF	sfoDF	17	
+4	36	sfoDF	9	70	2	sfoDF	sfoDF	11	A
+4	36	sfoDF	10	70	2	sfoDF	sfoDF	21	G
+4	37	sfoDF	1	71	1	pdxST	sfoDF	5	OBP
+4	37	sfoDF	2	71	1	pdxST	pdxST	7	PU
+4	37	sfoDF	3	71	1	pdxST	pdxST	11	
+4	37	sfoDF	4	71	1	pdxST	pdxST	2	
+4	37	sfoDF	5	71	1	pdxST	pdxST	11	
+4	37	sfoDF	6	71	1	pdxST	pdxST	7	A
+4	37	sfoDF	7	71	1	pdxST	pdxST	8	G
+4	38	pdxST	1	72	1	sfoDF	pdxST	88	P
+4	38	pdxST	2	72	1	sfoDF	sfoDF	88	PU
+4	38	pdxST	3	72	1	sfoDF	sfoDF	16	
+4	38	pdxST	4	72	1	sfoDF	sfoDF	13	
+4	38	pdxST	5	72	1	sfoDF	sfoDF	16	
+4	38	pdxST	6	72	1	sfoDF	pdxST	5	D
+4	38	pdxST	7	73	2	pdxST	pdxST	88	PU
+4	38	pdxST	8	73	2	pdxST	pdxST	5	
+4	38	pdxST	9	73	2	pdxST	sfoDF	21	F
+4	38	pdxST	10	73	2	pdxST	pdxST	88	
+4	38	pdxST	11	73	2	pdxST	pdxST	21	
+4	38	pdxST	12	73	2	pdxST	pdxST	2	
+4	38	pdxST	13	73	2	pdxST	pdxST	17	
+4	38	pdxST	14	73	2	pdxST	pdxST	88	
+4	38	pdxST	15	73	2	pdxST	pdxST	2	
+4	38	pdxST	16	73	2	pdxST	pdxST	22	
+4	38	pdxST	17	73	2	pdxST	pdxST	88	A
+4	38	pdxST	18	73	2	pdxST	pdxST	2	LG
+4	39	pdxST	1	74	1	sfoDF	pdxST	42	P
+4	39	pdxST	2	74	1	sfoDF	sfoDF	25	PU
+4	39	pdxST	3	74	1	sfoDF	sfoDF	12	
+4	39	pdxST	4	74	1	sfoDF	sfoDF	5	
+4	39	pdxST	5	74	1	sfoDF	sfoDF	12	
+4	39	pdxST	6	74	1	sfoDF	sfoDF	18	TD
+4	39	pdxST	7	75	2	pdxST	pdxST	1	PU
+4	39	pdxST	8	75	2	pdxST	pdxST	88	
+4	39	pdxST	9	75	2	pdxST	sfoDF	1	F
+4	39	pdxST	10	75	2	pdxST	pdxST	22	
+4	39	pdxST	11	75	2	pdxST	pdxST	21	
+4	39	pdxST	12	75	2	pdxST	pdxST	88	
+4	39	pdxST	13	75	2	pdxST	pdxST	21	
+4	39	pdxST	14	75	2	pdxST	pdxST	22	
+4	39	pdxST	15	75	2	pdxST	pdxST	20	
+4	39	pdxST	16	75	2	pdxST	sfoDF	18	F
+4	39	pdxST	17	75	2	pdxST	pdxST	20	
+4	39	pdxST	18	76	3	sfoDF	sfoDF	25	PU
+4	39	pdxST	19	76	3	sfoDF	pdxST	42	F
+4	39	pdxST	20	76	3	sfoDF	sfoDF	5	
+4	39	pdxST	21	76	3	sfoDF	sfoDF	18	
+4	39	pdxST	22	76	3	sfoDF	sfoDF	46	
+4	39	pdxST	23	76	3	sfoDF	sfoDF	25	
+4	39	pdxST	24	76	3	sfoDF	sfoDF	12	
+4	39	pdxST	25	77	4	pdxST	pdxST	14	PU

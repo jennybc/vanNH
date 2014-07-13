@@ -46,8 +46,11 @@
 #GOOGAME ?= "Official Statistics - 2014 - Week 4 - 5/3 - Dogfish @ Stags"  
 #GAME ?= 2014-05-03_sfoDF-at-pdxST
 
-GOOGAME ?= "Official Statistics - 2014 - Week 6 - 5/17 - Rainmakers @ Stags"  
-GAME ?= 2014-05-17_seaRM-at-pdxST
+#GOOGAME ?= "Official Statistics - 2014 - Week 6 - 5/17 - Rainmakers @ Stags"  
+#GAME ?= 2014-05-17_seaRM-at-pdxST
+
+GOOGAME ?= "Official Statistics - 2014 - Week 8 - 5/31 - Dogfish @ Stags"  
+GAME ?= 2014-05-31_sfoDF-at-pdxST
 
 
 #GOOGAME ?= "test"
