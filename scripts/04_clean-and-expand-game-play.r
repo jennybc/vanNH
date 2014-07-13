@@ -18,7 +18,8 @@ if(length(options) < 1) {
   #game <- "2014-05-31_vanNH-at-seaRM"
   #game <- "2014-06-07_seaRM-at-vanNH"
   #game <- "2014-04-26_pdxST-at-sfoDF"
-  game <- "2014-06-28_vanNH-at-pdxST"
+  #game <- "2014-06-28_vanNH-at-pdxST"
+  game <- "2014-04-19_bosWC-at-wdcCT"
 } else {
   game <- options[1]
 }
@@ -112,8 +113,23 @@ game_play <- transform(game_play,
                        recv_code = toupper(recv_code),
                        pull_code = toupper(pull_code))
 
-## TO DO
-## detect L’s and bring them to the front, eg LG instead of GL; maybe announce
+## bring Ls for "long" to the front
+## in particular, GL --> LG
+jFun <- function(x) {
+  tmp <- str_locate(x, ".+L$")
+  affected <- which(apply(tmp, 1, any))
+  if(length(affected) > 0) {
+    x[affected] <- gsub("(.*)(L$)", "\\2\\1", x[affected])
+    message("  ALERT ", length(affected), " instances of *L --> L*")
+    print(game_play[affected, ])
+    return(x)
+  }  
+}
+game_play <- transform(game_play,
+                       recv_code = jFun(recv_code),
+                       pull_code = jFun(pull_code))
+
+## maybe announce
 ## such transformations, in case it ever becomes trickier
 
 ## function to find double game play rows
