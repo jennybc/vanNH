@@ -1,0 +1,106 @@
+2014-05-17_wdcCT-at-nykRM > 09_vanNH-nowPlaying.rmd:
+  roster read for wdcCT and nykRM
+  game YAML read; game status: complete
+  659 rows of game play found
+  49 rows of point info play found
+  player stat tables include 22 for wdcCT and 15 for nykRM
+  ALERT point is missing time before and/or after:
+        point: 1 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 2 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 3 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 4 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 5 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 6 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 7 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 8 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 9 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 10 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 11 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 12 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 13 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 14 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 15 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 16 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 17 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 18 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 19 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 20 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 21 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 22 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 24 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 25 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 26 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 27 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 28 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 29 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 30 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 31 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 32 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 33 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 34 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 35 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 36 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 37 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 38 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 39 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 40 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 41 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 42 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 43 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 44 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 45 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 46 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 47 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 48 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 49 clk_before: NA clk_after: NA
+  scoring progression table has 49 rows
+[1] TRUE
+[1] TRUE
+[1] TRUE

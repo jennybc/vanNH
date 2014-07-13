@@ -1,0 +1,94 @@
+period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code	n_events	huck	score	scor_team	who	a_code	b_code
+1	1	wdcCT	15	1	1	nykRM	nykRM	47	TA	15	FALSE	FALSE	NA	o_line	TA	off -
+1	1	wdcCT	16	2	2	wdcCT	wdcCT	25	TA	1	FALSE	FALSE	NA	d_line	TA	off -
+1	1	wdcCT	20	3	3	nykRM	nykRM	18	TD	4	FALSE	FALSE	NA	o_line	TD	off -
+1	1	wdcCT	30	4	4	wdcCT	wdcCT	5	TD	10	FALSE	FALSE	NA	d_line	TD	off -
+1	1	wdcCT	41	5	5	nykRM	nykRM	41	TA	11	FALSE	FALSE	NA	o_line	TA	off -
+1	1	wdcCT	48	6	6	wdcCT	wdcCT	25	VTT	7	FALSE	FALSE	NA	d_line	VTT	off -
+1	1	wdcCT	54	7	7	nykRM	nykRM	41	VTT	6	FALSE	FALSE	NA	o_line	VTT	off -
+1	1	wdcCT	58	8	8	wdcCT	wdcCT	12	LG	4	TRUE	TRUE	wdcCT	d_line	G	G
+1	2	wdcCT	15	9	1	nykRM	wdcCT	22	D	15	FALSE	FALSE	NA	o_line	D	def +
+1	2	wdcCT	24	10	2	wdcCT	wdcCT	24	G	9	FALSE	TRUE	wdcCT	d_line	G	G
+1	3	wdcCT	10	11	1	nykRM	nykRM	13	G	10	FALSE	TRUE	nykRM	o_line	G	G
+1	4	nykRM	12	12	1	wdcCT	wdcCT	8	G	12	FALSE	TRUE	wdcCT	o_line	G	G
+1	5	wdcCT	12	13	1	nykRM	nykRM	41	LG	12	TRUE	TRUE	nykRM	o_line	G	G
+1	6	nykRM	7	14	1	wdcCT	nykRM	82	D	7	FALSE	FALSE	NA	o_line	D	def +
+1	6	nykRM	12	15	2	nykRM	nykRM	82	G	5	FALSE	TRUE	nykRM	d_line	G	G
+1	7	nykRM	8	16	1	wdcCT	wdcCT	14	LG	8	TRUE	TRUE	wdcCT	o_line	G	G
+1	8	wdcCT	10	17	1	nykRM	nykRM	41	TD	10	FALSE	FALSE	NA	o_line	TD	off -
+1	8	wdcCT	23	18	2	wdcCT	wdcCT	31	eop	13	FALSE	FALSE	NA	d_line	eop	eop
+2	9	nykRM	7	19	1	wdcCT	wdcCT	99	G	7	TRUE	TRUE	wdcCT	o_line	G	G
+2	10	wdcCT	4	20	1	nykRM	wdcCT	17	D	4	FALSE	FALSE	NA	o_line	D	def +
+2	10	wdcCT	9	21	2	wdcCT	wdcCT	24	G	5	FALSE	TRUE	wdcCT	d_line	G	G
+2	11	wdcCT	4	22	1	nykRM	wdcCT	42	D	4	FALSE	FALSE	NA	o_line	D	def +
+2	11	wdcCT	8	23	2	wdcCT	wdcCT	12	G	4	FALSE	TRUE	wdcCT	d_line	G	G
+2	12	wdcCT	7	24	1	nykRM	wdcCT	22	D	7	FALSE	FALSE	NA	o_line	D	def +
+2	12	wdcCT	8	25	2	wdcCT	wdcCT	6	TA	1	FALSE	FALSE	NA	d_line	TA	off -
+2	12	wdcCT	9	26	3	nykRM	nykRM	82	TA	1	FALSE	FALSE	NA	o_line	TA	off -
+2	12	wdcCT	12	27	4	wdcCT	wdcCT	6	G	2	FALSE	TRUE	wdcCT	d_line	G	G
+2	13	wdcCT	4	28	1	nykRM	wdcCT	4	D	4	FALSE	FALSE	NA	o_line	D	def +
+2	13	wdcCT	8	29	2	wdcCT	wdcCT	4	G	4	FALSE	TRUE	wdcCT	d_line	G	G
+2	14	wdcCT	8	30	1	nykRM	nykRM	1	TD	8	FALSE	FALSE	NA	o_line	TD	off -
+2	14	wdcCT	10	31	2	wdcCT	nykRM	4	D	2	FALSE	FALSE	NA	d_line	D	def +
+2	14	wdcCT	13	32	3	nykRM	wdcCT	22	D	3	FALSE	FALSE	NA	o_line	D	def +
+2	14	wdcCT	17	33	4	wdcCT	nykRM	13	D	4	FALSE	FALSE	NA	d_line	D	def +
+2	14	wdcCT	18	34	5	nykRM	nykRM	21	TA	1	FALSE	FALSE	NA	o_line	TA	off -
+2	14	wdcCT	22	35	6	wdcCT	wdcCT	9	LG	4	TRUE	TRUE	wdcCT	d_line	G	G
+2	15	wdcCT	4	36	1	nykRM	nykRM	14	LG	4	TRUE	TRUE	nykRM	o_line	G	G
+2	16	nykRM	8	37	1	wdcCT	wdcCT	90	G	8	FALSE	TRUE	wdcCT	o_line	G	G
+2	17	wdcCT	4	38	1	nykRM	nykRM	26	TA	4	FALSE	FALSE	NA	o_line	TA	off -
+2	17	wdcCT	6	39	2	wdcCT	wdcCT	1	TD	2	FALSE	FALSE	NA	d_line	TD	off -
+2	17	wdcCT	15	40	3	nykRM	nykRM	4	G	9	FALSE	TRUE	nykRM	o_line	G	G
+2	18	nykRM	6	41	1	wdcCT	nykRM	10	D	6	FALSE	FALSE	NA	o_line	D	def +
+2	18	nykRM	9	42	2	nykRM	nykRM	10	TA	3	FALSE	FALSE	NA	d_line	TA	off -
+2	18	nykRM	16	43	3	wdcCT	wdcCT	88	TD	7	FALSE	FALSE	NA	o_line	TD	off -
+2	18	nykRM	19	44	4	nykRM	wdcCT	14	D	3	FALSE	FALSE	NA	d_line	D	def +
+2	18	nykRM	27	45	5	wdcCT	wdcCT	9	G	8	FALSE	TRUE	wdcCT	o_line	G	G
+2	19	wdcCT	6	46	1	nykRM	nykRM	4	LG	6	TRUE	TRUE	nykRM	o_line	G	G
+2	20	nykRM	5	47	1	wdcCT	wdcCT	90	TA	5	FALSE	FALSE	NA	o_line	TA	off -
+2	20	nykRM	12	48	2	nykRM	nykRM	4	TD	7	FALSE	FALSE	NA	d_line	TD	off -
+2	20	nykRM	16	49	3	wdcCT	wdcCT	45	LG	4	TRUE	TRUE	wdcCT	o_line	G	G
+2	21	wdcCT	4	50	1	nykRM	nykRM	41	LG	4	TRUE	TRUE	nykRM	o_line	G	G
+2	22	nykRM	4	51	1	wdcCT	wdcCT	99	TA	4	FALSE	FALSE	NA	o_line	TA	off -
+2	22	nykRM	11	52	2	nykRM	nykRM	14	TA	7	FALSE	FALSE	NA	d_line	TA	off -
+2	22	nykRM	18	53	3	wdcCT	wdcCT	25	G	7	FALSE	TRUE	wdcCT	o_line	G	G
+2	23	wdcCT	3	54	1	nykRM	wdcCT	21	eop	3	FALSE	FALSE	NA	o_line	eop	eop
+3	24	wdcCT	9	55	1	nykRM	nykRM	13	LG	9	TRUE	TRUE	nykRM	o_line	G	G
+3	25	nykRM	10	56	1	wdcCT	wdcCT	9	LG	10	TRUE	TRUE	wdcCT	o_line	G	G
+3	26	wdcCT	8	57	1	nykRM	nykRM	13	G	8	FALSE	TRUE	nykRM	o_line	G	G
+3	27	nykRM	11	58	1	wdcCT	wdcCT	9	G	11	FALSE	TRUE	wdcCT	o_line	G	G
+3	28	wdcCT	4	59	1	nykRM	wdcCT	24	D	4	FALSE	FALSE	NA	o_line	D	def +
+3	28	wdcCT	15	60	2	wdcCT	wdcCT	22	G	11	FALSE	TRUE	wdcCT	d_line	G	G
+3	29	wdcCT	6	61	1	nykRM	nykRM	8	TD	6	FALSE	FALSE	NA	o_line	TD	off -
+3	29	wdcCT	10	62	2	wdcCT	wdcCT	5	TD	4	FALSE	FALSE	NA	d_line	TD	off -
+3	29	wdcCT	12	63	3	nykRM	nykRM	14	G	2	FALSE	TRUE	nykRM	o_line	G	G
+3	30	nykRM	9	64	1	wdcCT	wdcCT	45	G	9	FALSE	TRUE	wdcCT	o_line	G	G
+3	31	wdcCT	15	65	1	nykRM	nykRM	13	G	15	FALSE	TRUE	nykRM	o_line	G	G
+3	32	nykRM	5	66	1	wdcCT	wdcCT	45	LG	5	TRUE	TRUE	wdcCT	o_line	G	G
+3	33	wdcCT	9	67	1	nykRM	nykRM	14	LG	9	TRUE	TRUE	nykRM	o_line	G	G
+3	34	nykRM	6	68	1	wdcCT	nykRM	24	D	6	FALSE	FALSE	NA	o_line	D	def +
+3	34	nykRM	13	69	2	nykRM	wdcCT	2	D	7	FALSE	FALSE	NA	d_line	D	def +
+3	34	nykRM	16	70	3	wdcCT	wdcCT	32	G	3	FALSE	TRUE	wdcCT	o_line	G	G
+3	35	wdcCT	13	71	1	nykRM	nykRM	33	G	13	FALSE	TRUE	nykRM	o_line	G	G
+3	36	nykRM	6	72	1	wdcCT	wdcCT	2	LG	6	TRUE	TRUE	wdcCT	o_line	G	G
+3	37	wdcCT	11	73	1	nykRM	nykRM	18	G	11	FALSE	TRUE	nykRM	o_line	G	G
+3	38	nykRM	14	74	1	wdcCT	wdcCT	32	G	14	FALSE	TRUE	wdcCT	o_line	G	G
+3	39	wdcCT	4	75	1	nykRM	nykRM	14	TA	4	FALSE	FALSE	NA	o_line	TA	off -
+3	39	wdcCT	10	76	2	wdcCT	wdcCT	22	eop	6	FALSE	FALSE	NA	d_line	eop	eop
+4	40	nykRM	12	77	1	wdcCT	wdcCT	32	TA	12	FALSE	FALSE	NA	o_line	TA	off -
+4	40	nykRM	20	78	2	nykRM	nykRM	10	G	8	TRUE	TRUE	nykRM	d_line	G	G
+4	41	nykRM	5	79	1	wdcCT	wdcCT	2	TD	5	FALSE	FALSE	NA	o_line	TD	off -
+4	41	nykRM	12	80	2	nykRM	wdcCT	88	D	7	FALSE	FALSE	NA	d_line	D	def +
+4	41	nykRM	16	81	3	wdcCT	wdcCT	8	G	4	TRUE	TRUE	wdcCT	o_line	G	G
+4	42	wdcCT	5	82	1	nykRM	wdcCT	21	D	5	FALSE	FALSE	NA	o_line	D	def +
+4	42	wdcCT	18	83	2	wdcCT	wdcCT	12	G	13	FALSE	TRUE	wdcCT	d_line	G	G
+4	43	wdcCT	24	84	1	nykRM	nykRM	15	G	24	FALSE	TRUE	nykRM	o_line	G	G
+4	44	nykRM	10	85	1	wdcCT	wdcCT	8	LG	10	TRUE	TRUE	wdcCT	o_line	G	G
+4	45	wdcCT	12	86	1	nykRM	nykRM	1	G	12	FALSE	TRUE	nykRM	o_line	G	G
+4	46	nykRM	8	87	1	wdcCT	wdcCT	90	G	8	FALSE	TRUE	wdcCT	o_line	G	G
+4	47	wdcCT	12	88	1	nykRM	nykRM	41	G	12	FALSE	TRUE	nykRM	o_line	G	G
+4	48	nykRM	8	89	1	wdcCT	wdcCT	8	G	8	TRUE	TRUE	wdcCT	o_line	G	G
+4	49	wdcCT	4	90	1	nykRM	nykRM	14	TA	4	FALSE	FALSE	NA	o_line	TA	off -
+4	49	wdcCT	9	91	2	wdcCT	wdcCT	25	TD	4	FALSE	FALSE	NA	d_line	TD	off -
+4	49	wdcCT	27	92	3	nykRM	wdcCT	25	D	18	FALSE	FALSE	NA	o_line	D	def +
+4	49	wdcCT	32	93	4	wdcCT	wdcCT	31	eop	5	FALSE	FALSE	NA	d_line	eop	eop
