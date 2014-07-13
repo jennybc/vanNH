@@ -1,0 +1,7 @@
+2014-06-14_nykRM-at-wdcCT > 04_clean-and-expand-game-play.r:
+  607 rows of raw game play found
+  found 13 rows with game play recorded for both teams
+  no double game play rows remain
+  620 rows of clean game play will be written
+  2014-07-13 15:00:48
+
