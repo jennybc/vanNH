@@ -19,7 +19,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 3	1	3	5	6	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-25	TRUE	compl
 3	1	3	6	7	ao	0	O-CTH	seaRM-25		O-CTH	seaRM-17	TRUE	compl
 3	1	3	7	8	ao	0	O-CTH	seaRM-17		O-CTH	seaRM-6	TRUE	compl
-3	1	3	8	9	ao	0	O-CTH	seaRM-6		O-G	seaRM-22	TRUE	compl
+3	1	3	8	9	ao	0	O-CTH	seaRM-6		O-G	seaRM-25	TRUE	compl
 4	1	4	2	3	ao	0	O-PU	pdxST-73		O-CTH	pdxST-11	TRUE	compl
 4	1	4	3	4	ao	0	O-CTH	pdxST-11		O-CTH	pdxST-24	TRUE	compl
 4	1	4	4	5	ao	0	O-CTH	pdxST-24		O-CTH	pdxST-25	TRUE	compl

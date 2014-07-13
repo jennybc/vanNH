@@ -11,14 +11,8 @@ output:
 # seaRM at pdxST 2014-05-17
 
 
-```
-##   point period pull_team event poss_abs poss_rel poss_team pl_team pl_pnum
-## 6     3      1     pdxST     9        3        1     seaRM   seaRM      22
-##   pl_code pl_lname
-## 6      LG   ?name?
-```
 
-#### last update Sat Jul 12 16:31:26 2014
+#### last update Sat Jul 12 23:37:12 2014
 # seaRM 25
 # pdxST 23
 ## game is complete
@@ -82,7 +76,7 @@ Go to ...
 |     6|1      |6:21:00  |5:41:00 |00:40       |seaRM-21-phan to seaRM-23-sliva           |4     |2     |
 |     5|1      |6:57:00  |6:21:00 |00:36       |seaRM-48-clark to seaRM-17-zemel          |3     |2     |
 |     4|1      |8:27:00  |6:57:00 |01:30       |pdxST-16-Burton to pdxST-7-Friedman       |2     |2     |
-|     3|1      |9:11:00  |8:27:00 |00:44       |seaRM-6-trytiak to seaRM-22-?name?        |2     |1     |
+|     3|1      |9:11:00  |8:27:00 |00:44       |seaRM-6-trytiak to seaRM-25-rosatto       |2     |1     |
 |     2|1      |9:52:00  |9:11:00 |00:41       |pdxST-16-Burton to pdxST-7-Friedman       |1     |1     |
 |     1|1      |10:00:00 |9:52:00 |00:08       |seaRM-8-fong to seaRM-48-clark            |1     |0     |
 
@@ -107,14 +101,13 @@ stats are cumulative for this game
 |9  |seaRM-35-koss      |      3|     0|       3|  0|
 |10 |seaRM-23-sliva     |      2|     2|       0|  1|
 |11 |seaRM-12-gallagher |      2|     2|       0|  0|
-|12 |seaRM-1-mckibben   |      2|     1|       1|  0|
-|13 |seaRM-5-chu        |      2|     1|       1|  0|
-|14 |seaRM-29-feeley    |      2|     0|       2|  0|
-|15 |seaRM-22-?name?    |      1|     1|       0|  0|
-|16 |seaRM-25-rosatto   |      1|     1|       0|  0|
-|17 |seaRM-9-harkness   |      1|     1|       0|  0|
-|18 |seaRM-28-linn      |      0|     0|       0|  2|
-|19 |seaRM-15-beehner   |      0|     0|       0|  1|
+|12 |seaRM-25-rosatto   |      2|     2|       0|  0|
+|13 |seaRM-1-mckibben   |      2|     1|       1|  0|
+|14 |seaRM-5-chu        |      2|     1|       1|  0|
+|15 |seaRM-29-feeley    |      2|     0|       2|  0|
+|16 |seaRM-9-harkness   |      1|     1|       0|  0|
+|17 |seaRM-28-linn      |      0|     0|       0|  2|
+|18 |seaRM-15-beehner   |      0|     0|       0|  1|
 
 ## Player stats for pdxST <a id="home"></a>:
 
@@ -153,7 +146,7 @@ stats are cumulative for this game
 |     2|      1|seaRM     |    13|        2|        1|pdxST     |pdxST   |16      |A       |Burton       |pdxST-16-Burton      |     1|     1|
 |     2|      1|seaRM     |    14|        2|        1|pdxST     |pdxST   |7       |LG      |Friedman     |pdxST-7-Friedman     |     1|     1|
 |     3|      1|pdxST     |     8|        3|        1|seaRM     |seaRM   |6       |A       |trytiak      |seaRM-6-trytiak      |     1|     2|
-|     3|      1|pdxST     |     9|        3|        1|seaRM     |seaRM   |22      |LG      |?name?       |seaRM-22-?name?      |     1|     2|
+|     3|      1|pdxST     |     9|        3|        1|seaRM     |seaRM   |25      |LG      |rosatto      |seaRM-25-rosatto     |     1|     2|
 |     4|      1|seaRM     |    17|        6|        3|pdxST     |pdxST   |16      |LA      |Burton       |pdxST-16-Burton      |     2|     2|
 |     4|      1|seaRM     |    18|        6|        3|pdxST     |pdxST   |7       |G       |Friedman     |pdxST-7-Friedman     |     2|     2|
 |     5|      1|pdxST     |    12|        7|        1|seaRM     |seaRM   |48      |A       |clark        |seaRM-48-clark       |     2|     3|
@@ -292,7 +285,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      1|     3|pdxST     |     6|        3|        1|seaRM     |seaRM   |25      |        |
 |      1|     3|pdxST     |     7|        3|        1|seaRM     |seaRM   |17      |        |
 |      1|     3|pdxST     |     8|        3|        1|seaRM     |seaRM   |6       |A       |
-|      1|     3|pdxST     |     9|        3|        1|seaRM     |seaRM   |22      |LG      |
+|      1|     3|pdxST     |     9|        3|        1|seaRM     |seaRM   |25      |LG      |
 |      1|     4|seaRM     |     1|        4|        1|pdxST     |seaRM   |35      |P       |
 |      1|     4|seaRM     |     2|        4|        1|pdxST     |pdxST   |73      |PU      |
 |      1|     4|seaRM     |     3|        4|        1|pdxST     |pdxST   |11      |        |
