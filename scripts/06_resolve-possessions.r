@@ -20,7 +20,8 @@ if(length(options) < 1) {
   #game <- "2014-06-07_seaRM-at-vanNH"
   #game <- "2014-06-15_pdxST-at-vanNH"
   #game <- "2014-05-04_sfoDF-at-seaRM"
-  game <- "2014-05-03_sfoDF-at-pdxST"
+  #game <- "2014-05-03_sfoDF-at-pdxST"
+  game <- "2014-04-12_wdcCT-at-phlSP"
 } else {
   game <- options[1]
 }
@@ -40,7 +41,8 @@ game_play <- read.delim(in_file, stringsAsFactors = FALSE,
                         colClasses = list(pull_pnum = "character",
                                           recv_pnum = "character"))
 #str(game_play)
-message(game, ":\n  ", nrow(game_play), " rows of clean game play found")
+message(game, " > 06_resolve-possessions.r:\n  ", nrow(game_play),
+        " rows of clean game play found")
 
 game_dir <- file.path("..", "games", game, "03_concat-google")
 in_file <- file.path(game_dir, paste0(game, "_points-raw.tsv"))

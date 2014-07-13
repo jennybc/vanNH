@@ -35,7 +35,8 @@ game_play <- read.delim(in_file, stringsAsFactors = FALSE,
                         colClasses = list(pl_pnum = "character"))
 
 #str(game_play)
-message(game, ":\n  ", nrow(game_play), " rows of resolved game play found")
+message(game, " > 07_resolve-passes.r:\n  ", nrow(game_play),
+        " rows of resolved game play found")
 
 game_play <-
   mutate(game_play,

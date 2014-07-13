@@ -16,7 +16,8 @@ game_dir <- file.path("..", "games", game)
 google_dir <- file.path(game_dir, "01_raw-google")
 google_files <- list.files(google_dir, full.names = TRUE)
 nPoints <- length(google_files)
-message(game, ":\n  ", nPoints, " point files found")
+message(game, " > 03_concatenate-google-extract.r:\n  ",
+        nPoints, " point files found")
 
 ## function imports data for a point -- both gameplay and point-level info
 jFun <- function(point) {
