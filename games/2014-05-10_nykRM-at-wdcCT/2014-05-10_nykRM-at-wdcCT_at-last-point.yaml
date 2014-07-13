@@ -1,0 +1,11 @@
+point: 47
+period: 4
+clk_before: '1:48:00'
+clk_after: '0:00:00'
+pull_team: nykRM
+n_poss: .na.integer
+scor_team: .na.character
+h_or_b: .na.character
+nykRM: 15
+wdcCT: 28
+

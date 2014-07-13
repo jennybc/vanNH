@@ -1,0 +1,27 @@
+Pulling team: Washington DC
+Period: 2
+Clock before point: 10:00:00
+Clock after point: 8:04:00
+Offense	Defense
+	22p
+19pu	
+	19pu
+	22
+	17
+	22
+	24
+14d	
+19pu	
+22	
+41	
+4	
+22	
+19	
+	19pu
+	21
+	22
+	24
+14f	19
+	6
+33f	22
+	19g
