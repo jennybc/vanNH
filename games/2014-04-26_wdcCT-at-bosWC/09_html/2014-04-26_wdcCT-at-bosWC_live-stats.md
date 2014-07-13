@@ -12,10 +12,10 @@ output:
 
 
 
-#### last update Sun Jul 13 13:27:19 2014
+#### last update Sun Jul 13 13:29:38 2014
 # wdcCT 12
 # bosWC 17
-## game is upcoming -- any data here is fake and for set up purposes
+## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
