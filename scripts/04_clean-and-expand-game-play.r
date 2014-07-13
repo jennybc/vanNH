@@ -19,7 +19,8 @@ if(length(options) < 1) {
   #game <- "2014-06-07_seaRM-at-vanNH"
   #game <- "2014-04-26_pdxST-at-sfoDF"
   #game <- "2014-06-28_vanNH-at-pdxST"
-  game <- "2014-04-19_bosWC-at-wdcCT"
+  #game <- "2014-04-19_bosWC-at-wdcCT"
+  game <- "2014-05-04_phlSP-at-wdcCT"
 } else {
   game <- options[1]
 }
@@ -122,8 +123,8 @@ jFun <- function(x) {
     x[affected] <- gsub("(.*)(L$)", "\\2\\1", x[affected])
     message("  ALERT ", length(affected), " instances of *L --> L*")
     print(game_play[affected, ])
-    return(x)
-  }  
+  }
+  return(x)
 }
 game_play <- transform(game_play,
                        recv_code = jFun(recv_code),
