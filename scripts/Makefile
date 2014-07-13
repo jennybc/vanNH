@@ -88,8 +88,11 @@
 #GOOGAME ?= "Official Statistics - 2014 - Week 10 - 6/14 - Rumble @ Current"  
 #GAME ?= 2014-06-14_nykRM-at-wdcCT
 
-GOOGAME ?= "Official Statistics - 2014 - Week 11 - 6/21 - Current @ Spinners"  
-GAME ?= 2014-06-21_wdcCT-at-phlSP
+#GOOGAME ?= "Official Statistics - 2014 - Week 11 - 6/21 - Current @ Spinners"  
+#GAME ?= 2014-06-21_wdcCT-at-phlSP
+
+GOOGAME ?= "Official Statistics - 2014 - Playoffs - 6/28 - Whitecaps @ Current"  
+GAME ?= 2014-06-28_bosWC-at-wdcCT
 
 ## just in case GAME has some trailing whitespace ...
 GAME := $(strip $(GAME))
