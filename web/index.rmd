@@ -25,45 +25,6 @@ library(reshape2)
 
 knitr::opts_chunk$set(error = TRUE)
 
-## I could marshal the game directories like so
-## game_dir <- file.path("..", "games")
-## list.files(game_dir)
-## ... but I think I prefer an explicit whitelist approach here
-
-white_list <- c("week game",
-                "01   2014-04-12_vanNH-at-pdxST",
-                "02   2014-04-20_sfoDF-at-vanNH",
-                "03   2014-04-26_vanNH-at-seaRM",
-                # 04 was a bye week for vanNH
-                "05   2014-05-10_seaRM-at-vanNH",
-                "06   2014-05-17_vanNH-at-sfoDF",
-                "07   2014-05-24_pdxST-at-vanNH",
-                "08   2014-05-31_vanNH-at-seaRM",
-                "09   2014-06-07_seaRM-at-vanNH",
-                "10   2014-06-15_pdxST-at-vanNH",
-                "11   2014-06-21_vanNH-at-sfoDF",
-                "12   2014-06-28_vanNH-at-pdxST",
-                "01   2014-04-12_seaRM-at-sfoDF",
-                "02   2014-04-19_sfoDF-at-seaRM",
-                "03   2014-04-26_pdxST-at-sfoDF",
-                "04   2014-05-03_sfoDF-at-pdxST",
-                "04   2014-05-04_sfoDF-at-seaRM",
-                "06   2014-05-17_seaRM-at-pdxST",
-                "08   2014-05-31_sfoDF-at-pdxST",
-                "09   2014-06-07_pdxST-at-sfoDF",
-                "10   2014-06-14_pdxST-at-seaRM",
-                "11   2014-06-21_seaRM-at-pdxST",
-                "01   2014-04-12_wdcCT-at-phlSP",
-                "01   2014-04-12_nykRM-at-bosWC")
-white_list <-
-  read.table(text = white_list, header = TRUE,
-             colClasses = list(week = "character", game = "character"))
-
-## one-off: I wrote white_list to tsv to seed a table for associating each game
-## with its Google spreadsheet
-# write.table(white_list, file.path("..", "data", "2014_mlu-game-info.tsv"),
-#             quote = FALSE, sep = "\t", row.names = FALSE)
-
 ## get Google spreadsheet names and URLs for Google spreadsheets and YouTube
 ## videos
 info_file <- file.path("..", "data", "2014_mlu-game-info.tsv")
@@ -74,8 +35,15 @@ game_info <- data.frame(game_info,
 game_info <- data.frame(game_info,
                         colsplit(game_info$matchup, "-at-", c("away", "home")))
 
+## marshal the game directories
+games <- list.files(file.path("..", "games"))
+
+## black list some directories that aren't appropriate to include
+black_list <- c("2014_west")
+games <- games[!(games %in% black_list)]
+
 ## get final scores
-game_dirs <- file.path("..", "games", white_list$game)
+game_dirs <- file.path("..", "games", games)
 yaml_files <-
   list.files(game_dirs, pattern = "at-last-point.yaml$", full.names = TRUE)
 names(yaml_files) <- basename(dirname(yaml_files))
@@ -91,8 +59,6 @@ subset(game_info, select = -c(gspread_name, youtube_url, gspread_url))
 
 ## merge all the game information
 game_data <- join(game_data, game_info, type = "full")
-subset(game_data, select = -c(gspread_name, youtube_url, gspread_url))
-game_data <- join(game_data, white_list)
 subset(game_data, select = -c(gspread_name, youtube_url, gspread_url))
 
 ## make the URLs into HTML links
