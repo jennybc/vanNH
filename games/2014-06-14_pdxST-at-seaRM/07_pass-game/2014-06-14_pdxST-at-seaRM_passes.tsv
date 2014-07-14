@@ -155,7 +155,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 23	2	10	25	26	ao	0	O-CTH	pdxST-22		O-CTH	pdxST-3	TRUE	compl
 23	2	10	26	28	ao	1	O-CTH	pdxST-3	D-F	O-CTH	pdxST-21	TRUE	compl
 23	2	10	28	29	ao	0	O-CTH	pdxST-21		D-D	seaRM-6	TRUE	defd
-24	3	10	30	31	ao	0	O-PU	seaRM-35		O-TO	seaRM-	TRUE	compl
+24	3	10	30	31	ao	0	O-PU	seaRM-35		O-TO	seaRM-	TRUE	nopass
 24	3	10	32	33	ao	0	O-PU	seaRM-1		O-CTH	seaRM-99	TRUE	compl
 24	3	10	33	34	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-35	TRUE	compl
 24	3	10	34	35	ao	0	O-CTH	seaRM-35		O-CTH	seaRM-77	TRUE	compl
@@ -179,7 +179,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 27	3	11	18	19	ao	0	O-CTH	pdxST-42		O-CTH	pdxST-10	TRUE	compl
 27	3	11	19	19	an	-1	O-CTH	pdxST-10		NA	pdxST-10	TRUE	taway
 28	4	11	20	21	ao	0	O-PU	seaRM-29		O-CTH	seaRM-2	TRUE	compl
-28	4	11	21	22	ao	0	O-CTH	seaRM-2		O-TO	seaRM-	TRUE	compl
+28	4	11	21	22	ao	0	O-CTH	seaRM-2		O-TO	seaRM-	TRUE	nopass
 28	4	11	23	24	ao	0	O-PU	seaRM-1		O-CTH	seaRM-99	TRUE	compl
 28	4	11	24	25	ao	0	O-CTH	seaRM-99		O-CTH	seaRM-00	TRUE	compl
 28	4	11	25	26	ao	0	O-CTH	seaRM-00		O-TD	seaRM-25	TRUE	drop
@@ -530,7 +530,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 72	3	35	19	20	ao	0	O-CTH	seaRM-35		O-CTH	seaRM-9	TRUE	compl
 72	3	35	20	21	ao	0	O-CTH	seaRM-9		O-CTH	seaRM-12	TRUE	compl
 72	3	35	21	22	ao	0	O-CTH	seaRM-12		O-CTH	seaRM-9	TRUE	compl
-72	3	35	22	23	ao	0	O-CTH	seaRM-9		O-TO	seaRM-	TRUE	compl
+72	3	35	22	23	ao	0	O-CTH	seaRM-9		O-TO	seaRM-	TRUE	nopass
 72	3	35	24	25	ao	0	O-PU	seaRM-35		O-CTH	seaRM-9	TRUE	compl
 72	3	35	25	26	ao	0	O-CTH	seaRM-9		O-CTH	seaRM-35	TRUE	compl
 72	3	35	26	27	ao	0	O-CTH	seaRM-35		O-CTH	seaRM-9	TRUE	compl

@@ -19,5 +19,7 @@
    473      0     15     25     14      1      0 
   473/527 passes were completed (89.8%)
   528 rows of pass data will be written
-  2014-07-13 14:21:03
+  roster read for phlSP and wdcCT
+  writing player stats to file: 24 for phlSP, 25 for wdcCT
+  2014-07-14 11:38:40
 

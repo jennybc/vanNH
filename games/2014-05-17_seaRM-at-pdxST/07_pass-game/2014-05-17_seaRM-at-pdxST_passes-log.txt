@@ -1,4 +1,4 @@
-2014-05-17_seaRM-at-pdxST:
+2014-05-17_seaRM-at-pdxST > 07_resolve-passes.r:
   675 rows of resolved game play found
   536/538 rows of pass data are whitelisted (99.6%)
   ALERT 2 rows of pass data are novel
@@ -20,8 +20,10 @@
   breakdown of passes:
 
  compl  ofoul  taway   defd   drop nopass   <NA> 
-   502      0     19     14      0      3      0 
-  502/535 passes were completed (93.8%)
+   496      0     19     14      0      9      0 
+  496/529 passes were completed (93.8%)
   538 rows of pass data will be written
-  2014-07-12 23:37:11
+  roster read for seaRM and pdxST
+  writing player stats to file: 26 for seaRM, 19 for pdxST
+  2014-07-14 11:38:34
 

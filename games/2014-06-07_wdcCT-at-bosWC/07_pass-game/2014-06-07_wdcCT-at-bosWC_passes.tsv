@@ -380,7 +380,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 56	2	34	14	15	ao	0	O-CTH	bosWC-25		O-CTH	bosWC-14	TRUE	compl
 56	2	34	15	16	ao	0	O-CTH	bosWC-14		O-CTH	bosWC-8	TRUE	compl
 56	2	34	16	16	an	-1	O-CTH	bosWC-8		NA	bosWC-8	TRUE	taway
-57	3	34	17	18	ao	0	O-PU	wdcCT-99		O-TO	wdcCT-	TRUE	compl
+57	3	34	17	18	ao	0	O-PU	wdcCT-99		O-TO	wdcCT-	TRUE	nopass
 57	3	34	19	20	ao	0	O-PU	wdcCT-2		O-CTH	wdcCT-99	TRUE	compl
 57	3	34	20	21	ao	0	O-CTH	wdcCT-99		O-CTH	wdcCT-8	TRUE	compl
 57	3	34	21	22	ao	0	O-CTH	wdcCT-8		O-CTH	wdcCT-99	TRUE	compl

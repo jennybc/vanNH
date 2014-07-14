@@ -1,4 +1,4 @@
-2014-05-10_seaRM-at-vanNH:
+2014-05-10_seaRM-at-vanNH > 07_resolve-passes.r:
   663 rows of resolved game play found
   508/508 rows of pass data are whitelisted (100.0%)
   ALERT 1 rows of pass data end with pickup (PU)
@@ -12,5 +12,7 @@
    468      0     17     15      6      2      0 
   468/506 passes were completed (92.5%)
   508 rows of pass data will be written
-  2014-07-12 15:34:13
+  roster read for seaRM and vanNH
+  writing player stats to file: 17 for seaRM, 23 for vanNH
+  2014-07-14 11:38:33
 

@@ -4,8 +4,10 @@
   breakdown of passes:
 
  compl  ofoul  taway   defd   drop nopass   <NA> 
-   480      0     19     20      7      0      0 
-  480/526 passes were completed (91.3%)
+   477      0     19     20      7      3      0 
+  477/523 passes were completed (91.2%)
   526 rows of pass data will be written
-  2014-07-13 15:06:16
+  roster read for wdcCT and phlSP
+  writing player stats to file: 25 for wdcCT, 20 for phlSP
+  2014-07-14 11:38:55
 

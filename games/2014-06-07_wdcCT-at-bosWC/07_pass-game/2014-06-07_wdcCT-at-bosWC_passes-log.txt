@@ -1,74 +1,5 @@
 2014-06-07_wdcCT-at-bosWC > 07_resolve-passes.r:
   596 rows of resolved game play found
-poss_abs = 1
-poss_abs = 2
-poss_abs = 3
-poss_abs = 4
-poss_abs = 5
-poss_abs = 6
-poss_abs = 7
-poss_abs = 8
-poss_abs = 9
-poss_abs = 10
-poss_abs = 11
-poss_abs = 12
-poss_abs = 13
-poss_abs = 14
-poss_abs = 15
-poss_abs = 16
-poss_abs = 17
-poss_abs = 18
-poss_abs = 19
-poss_abs = 20
-poss_abs = 21
-poss_abs = 22
-poss_abs = 23
-poss_abs = 24
-poss_abs = 25
-poss_abs = 26
-poss_abs = 27
-poss_abs = 28
-poss_abs = 29
-poss_abs = 30
-poss_abs = 31
-poss_abs = 32
-poss_abs = 33
-poss_abs = 34
-poss_abs = 35
-poss_abs = 36
-poss_abs = 37
-poss_abs = 38
-poss_abs = 39
-poss_abs = 40
-poss_abs = 41
-poss_abs = 42
-poss_abs = 43
-poss_abs = 44
-poss_abs = 45
-poss_abs = 46
-poss_abs = 47
-poss_abs = 48
-poss_abs = 49
-poss_abs = 50
-poss_abs = 51
-poss_abs = 52
-poss_abs = 53
-poss_abs = 54
-poss_abs = 55
-poss_abs = 56
-poss_abs = 57
-poss_abs = 58
-poss_abs = 59
-poss_abs = 60
-poss_abs = 61
-poss_abs = 62
-poss_abs = 63
-poss_abs = 64
-poss_abs = 65
-poss_abs = 66
-poss_abs = 67
-poss_abs = 68
-poss_abs = 69
   476/477 rows of pass data are whitelisted (99.8%)
   ALERT 1 rows of pass data are novel
     poss_abs poss_rel point beg_event end_event desc n_inn beg_code beg_plyr
@@ -83,8 +14,10 @@ poss_abs = 69
   breakdown of passes:
 
  compl  ofoul  taway   defd   drop nopass   <NA> 
-   446      1     15     11      2      2      0 
-  446/475 passes were completed (93.9%)
+   445      1     15     11      2      3      0 
+  445/474 passes were completed (93.9%)
   477 rows of pass data will be written
-  2014-07-13 14:43:57
+  roster read for wdcCT and bosWC
+  writing player stats to file: 24 for wdcCT, 23 for bosWC
+  2014-07-14 11:38:47
 

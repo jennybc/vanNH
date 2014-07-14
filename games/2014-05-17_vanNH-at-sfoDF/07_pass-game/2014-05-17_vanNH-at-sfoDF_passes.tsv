@@ -146,7 +146,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 45	6	13	22	23	ao	0	O-PU	vanNH-89		O-CTH	vanNH-98	TRUE	compl
 45	6	13	23	24	ao	0	O-CTH	vanNH-98		D-D	sfoDF-46	TRUE	defd
 46	7	13	25	26	ao	0	O-PU	sfoDF-12		O-CTH	sfoDF-85	TRUE	compl
-46	7	13	26	27	ao	0	O-CTH	sfoDF-85		O-TO	sfoDF-	TRUE	compl
+46	7	13	26	27	ao	0	O-CTH	sfoDF-85		O-TO	sfoDF-	TRUE	nopass
 46	7	13	28	29	ao	0	O-PU	sfoDF-34		O-G	sfoDF-6	TRUE	compl
 47	1	14	2	3	ao	0	O-PU	vanNH-5		O-CTH	vanNH-89	TRUE	compl
 47	1	14	3	4	ao	0	O-CTH	vanNH-89		O-CTH	vanNH-21	TRUE	compl
@@ -202,7 +202,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 60	1	17	5	6	ao	0	O-CTH	sfoDF-16		O-TD	sfoDF-2	TRUE	drop
 61	2	17	8	9	ao	0	O-PU	vanNH-19		O-CTH	vanNH-89	TRUE	compl
 61	2	17	9	10	ao	0	O-CTH	vanNH-89		O-TD	vanNH-19	TRUE	drop
-62	3	17	11	12	ao	0	O-PU	sfoDF-16		O-TO	sfoDF-	TRUE	compl
+62	3	17	11	12	ao	0	O-PU	sfoDF-16		O-TO	sfoDF-	TRUE	nopass
 62	3	17	13	13	an	-1	O-PU	sfoDF-34		NA	sfoDF-34	TRUE	taway
 63	4	17	14	15	ao	0	O-PU	vanNH-5		O-CTH	vanNH-45	TRUE	compl
 63	4	17	15	16	ao	0	O-CTH	vanNH-45		O-CTH	vanNH-24	TRUE	compl
@@ -245,7 +245,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 74	2	22	7	8	ao	0	O-CTH	sfoDF-88		O-CTH	sfoDF-40	TRUE	compl
 74	2	22	8	10	ao	1	O-CTH	sfoDF-40	D-F	D-D	vanNH-22	TRUE	defd
 75	3	22	11	12	ao	0	O-PU	vanNH-5		O-CTH	vanNH-22	TRUE	compl
-75	3	22	12	13	ao	0	O-CTH	vanNH-22		O-TO	vanNH-	TRUE	compl
+75	3	22	12	13	ao	0	O-CTH	vanNH-22		O-TO	vanNH-	TRUE	nopass
 75	3	22	14	14	an	-1	O-PU	vanNH-5		NA	vanNH-5	TRUE	taway
 76	4	22	15	16	ao	0	O-PU	sfoDF-34		D-D	vanNH-19	TRUE	defd
 77	5	22	17	17	an	-1	O-PU	vanNH-89		NA	vanNH-89	TRUE	taway

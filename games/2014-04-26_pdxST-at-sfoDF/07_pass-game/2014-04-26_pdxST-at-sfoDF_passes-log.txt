@@ -1,4 +1,4 @@
-2014-04-26_pdxST-at-sfoDF:
+2014-04-26_pdxST-at-sfoDF > 07_resolve-passes.r:
   628 rows of resolved game play found
   500/500 rows of pass data are whitelisted (100.0%)
   breakdown of passes:
@@ -7,5 +7,7 @@
    431      0     31     20     15      3      0 
   431/497 passes were completed (86.7%)
   500 rows of pass data will be written
-  2014-07-12 15:34:10
+  roster read for pdxST and sfoDF
+  writing player stats to file: 16 for pdxST, 24 for sfoDF
+  2014-07-14 11:38:23
 

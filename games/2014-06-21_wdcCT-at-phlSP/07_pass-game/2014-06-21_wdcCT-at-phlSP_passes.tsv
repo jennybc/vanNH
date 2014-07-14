@@ -256,7 +256,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 41	1	19	2	3	ao	0	O-PU	wdcCT-3		O-CTH	wdcCT-12	TRUE	compl
 41	1	19	3	3	an	-1	O-CTH	wdcCT-12		NA	wdcCT-12	TRUE	taway
 42	2	19	4	5	ao	0	O-PU	phlSP-64		O-CTH	phlSP-1	TRUE	compl
-42	2	19	5	6	ao	0	O-CTH	phlSP-1		O-TO	phlSP-	TRUE	compl
+42	2	19	5	6	ao	0	O-CTH	phlSP-1		O-TO	phlSP-	TRUE	nopass
 42	2	19	7	8	ao	0	O-PU	phlSP-13		O-CTH	phlSP-25	TRUE	compl
 42	2	19	8	9	ao	0	O-CTH	phlSP-25		O-CTH	phlSP-13	TRUE	compl
 42	2	19	9	10	ao	0	O-CTH	phlSP-13		O-CTH	phlSP-42	TRUE	compl
@@ -372,7 +372,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 62	3	27	9	10	ao	0	O-PU	phlSP-3		O-CTH	phlSP-23	TRUE	compl
 62	3	27	10	11	ao	0	O-CTH	phlSP-23		O-CTH	phlSP-42	TRUE	compl
 62	3	27	11	12	ao	0	O-CTH	phlSP-42		O-CTH	phlSP-14	TRUE	compl
-62	3	27	12	13	ao	0	O-CTH	phlSP-14		O-TO	phlSP-	TRUE	compl
+62	3	27	12	13	ao	0	O-CTH	phlSP-14		O-TO	phlSP-	TRUE	nopass
 62	3	27	14	15	ao	0	O-PU	phlSP-3		O-TD	phlSP-25	TRUE	drop
 63	4	27	16	17	ao	0	O-PU	wdcCT-99		O-CTH	wdcCT-19	TRUE	compl
 63	4	27	17	18	ao	0	O-CTH	wdcCT-19		O-CTH	wdcCT-14	TRUE	compl
@@ -465,7 +465,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 78	2	36	17	18	ao	0	O-PU	wdcCT-99		O-CTH	wdcCT-80	TRUE	compl
 78	2	36	18	19	ao	0	O-CTH	wdcCT-80		O-CTH	wdcCT-99	TRUE	compl
 78	2	36	19	20	ao	0	O-CTH	wdcCT-99		O-CTH	wdcCT-14	TRUE	compl
-78	2	36	20	21	ao	0	O-CTH	wdcCT-14		O-TO	wdcCT-	TRUE	compl
+78	2	36	20	21	ao	0	O-CTH	wdcCT-14		O-TO	wdcCT-	TRUE	nopass
 78	2	36	22	23	ao	0	O-PU	wdcCT-88		O-CTH	wdcCT-5	TRUE	compl
 78	2	36	23	24	ao	0	O-CTH	wdcCT-5		O-CTH	wdcCT-17	TRUE	compl
 78	2	36	24	25	ao	0	O-CTH	wdcCT-17		O-CTH	wdcCT-61	TRUE	compl

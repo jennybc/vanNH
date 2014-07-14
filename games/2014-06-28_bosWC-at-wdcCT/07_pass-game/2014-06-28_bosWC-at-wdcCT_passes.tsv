@@ -94,7 +94,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 20	2	8	12	13	ao	0	O-CTH	bosWC-25		O-CTH	bosWC-11	TRUE	compl
 20	2	8	13	14	ao	0	O-CTH	bosWC-11		O-CTH	bosWC-8	TRUE	compl
 20	2	8	14	15	ao	0	O-CTH	bosWC-8		O-CTH	bosWC-11	TRUE	compl
-20	2	8	15	16	ao	0	O-CTH	bosWC-11		O-TO	bosWC-	TRUE	compl
+20	2	8	15	16	ao	0	O-CTH	bosWC-11		O-TO	bosWC-	TRUE	nopass
 20	2	8	17	18	ao	0	O-PU	bosWC-13		O-CTH	bosWC-7	TRUE	compl
 20	2	8	18	19	ao	0	O-CTH	bosWC-7		O-CTH	bosWC-21	TRUE	compl
 20	2	8	19	20	ao	0	O-CTH	bosWC-21		O-CTH	bosWC-13	TRUE	compl
@@ -230,7 +230,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 34	1	17	11	12	ao	0	O-CTH	bosWC-13		O-TD	bosWC-77	TRUE	drop
 35	2	17	13	14	ao	0	O-PU	wdcCT-12		O-CTH	wdcCT-42	TRUE	compl
 35	2	17	14	15	ao	0	O-CTH	wdcCT-42		O-CTH	wdcCT-22	TRUE	compl
-35	2	17	15	16	ao	0	O-CTH	wdcCT-22		O-TO	wdcCT-	TRUE	compl
+35	2	17	15	16	ao	0	O-CTH	wdcCT-22		O-TO	wdcCT-	TRUE	nopass
 35	2	17	17	18	ao	0	O-PU	wdcCT-2		O-CTH	wdcCT-99	TRUE	compl
 35	2	17	18	19	ao	0	O-CTH	wdcCT-99		O-CTH	wdcCT-5	TRUE	compl
 35	2	17	19	20	ao	0	O-CTH	wdcCT-5		O-CTH	wdcCT-45	TRUE	compl
@@ -248,7 +248,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 37	1	18	3	4	ao	0	O-CTH	wdcCT-99		O-CTH	wdcCT-2	TRUE	compl
 37	1	18	4	5	ao	0	O-CTH	wdcCT-2		D-D	bosWC-6	TRUE	defd
 38	2	18	6	7	ao	0	O-CTH	bosWC-6		O-CTH	bosWC-5	TRUE	compl
-38	2	18	7	8	ao	0	O-CTH	bosWC-5		O-TO	bosWC-	TRUE	compl
+38	2	18	7	8	ao	0	O-CTH	bosWC-5		O-TO	bosWC-	TRUE	nopass
 38	2	18	9	10	ao	0	O-PU	bosWC-1		O-CTH	bosWC-17	TRUE	compl
 38	2	18	10	11	ao	0	O-CTH	bosWC-17		O-CTH	bosWC-13	TRUE	compl
 38	2	18	11	12	ao	0	O-CTH	bosWC-13		O-CTH	bosWC-77	TRUE	compl
@@ -295,7 +295,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 43	1	23	7	9	ao	1	O-CTH	bosWC-00	D-F	O-CTH	bosWC-77	TRUE	compl
 43	1	23	9	10	ao	0	O-CTH	bosWC-77		D-D	wdcCT-4	TRUE	defd
 44	2	23	11	12	ao	0	O-PU	wdcCT-27		O-CTH	wdcCT-31	TRUE	compl
-44	2	23	12	13	ao	0	O-CTH	wdcCT-31		O-TO	wdcCT-	TRUE	compl
+44	2	23	12	13	ao	0	O-CTH	wdcCT-31		O-TO	wdcCT-	TRUE	nopass
 44	2	23	14	15	ao	0	O-PU	wdcCT-99		O-G	wdcCT-90	TRUE	compl
 45	1	24	2	3	ao	0	O-PU	bosWC-13		O-CTH	bosWC-1	TRUE	compl
 45	1	24	3	4	ao	0	O-CTH	bosWC-1		O-CTH	bosWC-21	TRUE	compl
@@ -496,5 +496,5 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 78	1	39	5	6	ao	0	O-CTH	bosWC-1		O-CTH	bosWC-13	TRUE	compl
 78	1	39	6	7	ao	0	O-CTH	bosWC-13		O-CTH	bosWC-7	TRUE	compl
 78	1	39	7	8	ao	0	O-CTH	bosWC-7		O-CTH	bosWC-17	TRUE	compl
-78	1	39	8	9	ao	0	O-CTH	bosWC-17		O-TO	bosWC-	TRUE	compl
+78	1	39	8	9	ao	0	O-CTH	bosWC-17		O-TO	bosWC-	TRUE	nopass
 78	1	39	10	10	an	-1	O-PU	bosWC-13		NA	bosWC-13	TRUE	taway

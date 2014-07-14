@@ -7,5 +7,7 @@
    393      0     22     16      4      0      0 
   393/435 passes were completed (90.3%)
   435 rows of pass data will be written
-  2014-07-13 13:29:37
+  roster read for wdcCT and bosWC
+  writing player stats to file: 22 for wdcCT, 22 for bosWC
+  2014-07-14 11:38:25
 

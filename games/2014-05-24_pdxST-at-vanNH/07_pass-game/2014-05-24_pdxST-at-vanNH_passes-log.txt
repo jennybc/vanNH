@@ -1,4 +1,4 @@
-2014-05-24_pdxST-at-vanNH:
+2014-05-24_pdxST-at-vanNH > 07_resolve-passes.r:
   622 rows of resolved game play found
   494/494 rows of pass data are whitelisted (100.0%)
   ALERT 2 rows of pass data end with pickup (PU)
@@ -14,5 +14,7 @@
    453      2     14     19      3      3      0 
   453/491 passes were completed (92.3%)
   494 rows of pass data will be written
-  2014-07-12 15:34:16
+  roster read for pdxST and vanNH
+  writing player stats to file: 18 for pdxST, 22 for vanNH
+  2014-07-14 11:38:38
 

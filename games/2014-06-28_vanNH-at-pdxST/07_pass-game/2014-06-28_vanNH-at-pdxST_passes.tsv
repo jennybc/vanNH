@@ -64,7 +64,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 7	3	3	27	27	an	-1	O-CTH	pdxST-7		NA	pdxST-7	TRUE	taway
 8	4	3	28	29	ao	0	O-PU	vanNH-33		O-CTH	vanNH-31	TRUE	compl
 8	4	3	29	30	ao	0	O-CTH	vanNH-31		O-CTH	vanNH-45	TRUE	compl
-8	4	3	30	31	ao	0	O-CTH	vanNH-45		O-TO	vanNH-	TRUE	compl
+8	4	3	30	31	ao	0	O-CTH	vanNH-45		O-TO	vanNH-	TRUE	nopass
 8	4	3	32	33	ao	0	O-PU	vanNH-89		O-CTH	vanNH-22	TRUE	compl
 8	4	3	33	34	ao	0	O-CTH	vanNH-22		O-CTH	vanNH-21	TRUE	compl
 8	4	3	34	35	ao	0	O-CTH	vanNH-21		O-CTH	vanNH-98	TRUE	compl

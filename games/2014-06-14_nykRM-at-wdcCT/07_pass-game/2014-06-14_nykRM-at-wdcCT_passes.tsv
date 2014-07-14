@@ -187,7 +187,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 36	1	19	2	3	ao	0	O-PU	wdcCT-14		O-CTH	wdcCT-99	TRUE	compl
 36	1	19	3	4	ao	0	O-CTH	wdcCT-99		O-CTH	wdcCT-8	TRUE	compl
 36	1	19	4	5	ao	0	O-CTH	wdcCT-8		O-CTH	wdcCT-9	TRUE	compl
-36	1	19	5	6	ao	0	O-CTH	wdcCT-9		O-TO	wdcCT-	TRUE	compl
+36	1	19	5	6	ao	0	O-CTH	wdcCT-9		O-TO	wdcCT-	TRUE	nopass
 36	1	19	7	8	ao	0	O-PU	wdcCT-99		O-CTH	wdcCT-45	TRUE	compl
 36	1	19	8	9	ao	0	O-CTH	wdcCT-45		O-G	wdcCT-9	TRUE	compl
 37	1	20	2	3	ao	0	O-PU	nykRM-26		D-D	wdcCT-3	TRUE	defd
@@ -217,7 +217,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 42	1	23	4	5	ao	0	O-CTH	wdcCT-80		O-OV	wdcCT-90	TRUE	compl
 43	2	23	6	7	ao	0	O-PU	nykRM-6		O-CTH	nykRM-5	TRUE	compl
 43	2	23	7	8	ao	0	O-CTH	nykRM-5		O-CTH	nykRM-9	TRUE	compl
-43	2	23	8	9	ao	0	O-CTH	nykRM-9		O-TO	nykRM-	TRUE	compl
+43	2	23	8	9	ao	0	O-CTH	nykRM-9		O-TO	nykRM-	TRUE	nopass
 43	2	23	10	11	ao	0	O-PU	nykRM-6		O-CTH	nykRM-4	TRUE	compl
 43	2	23	11	12	ao	0	O-CTH	nykRM-4		O-CTH	nykRM-45	TRUE	compl
 43	2	23	12	13	ao	0	O-CTH	nykRM-45		O-CTH	nykRM-4	TRUE	compl
@@ -227,7 +227,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 45	4	23	18	19	ao	0	O-CTH	nykRM-4		O-CTH	nykRM-14	TRUE	compl
 45	4	23	19	20	ao	0	O-CTH	nykRM-14		O-CTH	nykRM-1	TRUE	compl
 45	4	23	20	20	an	-1	O-CTH	nykRM-1		NA	nykRM-1	TRUE	taway
-46	5	23	21	22	ao	0	O-PU	wdcCT-61		O-TO	wdcCT-	TRUE	compl
+46	5	23	21	22	ao	0	O-PU	wdcCT-61		O-TO	wdcCT-	TRUE	nopass
 46	5	23	23	24	ao	0	O-PU	wdcCT-99		D-D	nykRM-82	TRUE	defd
 47	6	23	25	26	ao	0	O-PU	nykRM-82		O-G	nykRM-47	TRUE	compl
 48	1	24	2	3	ao	0	O-PU	wdcCT-2		O-CTH	wdcCT-99	TRUE	compl
@@ -238,7 +238,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 48	1	24	7	8	ao	0	O-CTH	wdcCT-99		O-CTH	wdcCT-88	TRUE	compl
 48	1	24	8	10	ao	1	O-CTH	wdcCT-88	D-F	D-D	nykRM-27	TRUE	defd
 49	2	24	11	12	ao	0	O-PU	nykRM-27		O-CTH	nykRM-24	TRUE	compl
-49	2	24	12	13	ao	0	O-CTH	nykRM-24		O-TO	nykRM-	TRUE	compl
+49	2	24	12	13	ao	0	O-CTH	nykRM-24		O-TO	nykRM-	TRUE	nopass
 49	2	24	14	15	ao	0	O-PU	nykRM-19		O-CTH	nykRM-44	TRUE	compl
 49	2	24	15	16	ao	0	O-CTH	nykRM-44		O-CTH	nykRM-14	TRUE	compl
 49	2	24	16	17	ao	0	O-CTH	nykRM-14		O-CTH	nykRM-19	TRUE	compl
@@ -343,7 +343,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 66	6	30	29	30	ao	0	O-CTH	wdcCT-19		O-CTH	wdcCT-61	TRUE	compl
 66	6	30	30	31	ao	0	O-CTH	wdcCT-61		O-CTH	wdcCT-5	TRUE	compl
 66	6	30	31	32	ao	0	O-CTH	wdcCT-5		O-OV	wdcCT-7	TRUE	compl
-67	7	30	33	34	ao	0	O-PU	nykRM-6		O-TO	nykRM-	TRUE	compl
+67	7	30	33	34	ao	0	O-PU	nykRM-6		O-TO	nykRM-	TRUE	nopass
 67	7	30	35	36	ao	0	O-PU	nykRM-19		O-CTH	nykRM-6	TRUE	compl
 67	7	30	36	37	ao	0	O-CTH	nykRM-6		O-CTH	nykRM-14	TRUE	compl
 67	7	30	37	38	ao	0	O-CTH	nykRM-14		O-CTH	nykRM-6	TRUE	compl
@@ -468,7 +468,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 86	3	39	15	16	ao	0	O-CTH	nykRM-6		O-CTH	nykRM-47	TRUE	compl
 86	3	39	16	17	ao	0	O-CTH	nykRM-47		O-CTH	nykRM-21	TRUE	compl
 86	3	39	17	17	an	-1	O-CTH	nykRM-21		NA	nykRM-21	TRUE	taway
-87	4	39	18	19	ao	0	O-PU	wdcCT-27		O-TO	wdcCT-	TRUE	compl
+87	4	39	18	19	ao	0	O-PU	wdcCT-27		O-TO	wdcCT-	TRUE	nopass
 87	4	39	20	21	ao	0	O-PU	wdcCT-27		O-CTH	wdcCT-5	TRUE	compl
 87	4	39	21	23	ao	1	O-CTH	wdcCT-5	D-F	O-CTH	wdcCT-61	TRUE	compl
 87	4	39	23	24	ao	0	O-CTH	wdcCT-61		O-CTH	wdcCT-21	TRUE	compl

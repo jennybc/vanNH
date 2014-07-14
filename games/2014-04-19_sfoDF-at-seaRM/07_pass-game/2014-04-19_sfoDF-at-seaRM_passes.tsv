@@ -395,7 +395,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 84	2	38	5	6	ao	0	O-PU	seaRM-21		O-CTH	seaRM-29	TRUE	compl
 84	2	38	6	7	ao	0	O-CTH	seaRM-29		O-CTH	seaRM-18	TRUE	compl
 84	2	38	7	8	ao	0	O-CTH	seaRM-18		O-CTH	seaRM-24	TRUE	compl
-84	2	38	8	9	ao	0	O-CTH	seaRM-24		O-TO	seaRM-	TRUE	compl
+84	2	38	8	9	ao	0	O-CTH	seaRM-24		O-TO	seaRM-	TRUE	nopass
 84	2	38	10	11	ao	0	O-PU	seaRM-20		O-CTH	seaRM-00	TRUE	compl
 84	2	38	11	12	ao	0	O-CTH	seaRM-00		O-CTH	seaRM-17	TRUE	compl
 84	2	38	12	13	ao	0	O-CTH	seaRM-17		O-G	seaRM-6	TRUE	compl
