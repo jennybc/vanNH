@@ -1,4 +1,5 @@
 library(plyr)
+library(reshape2)
 
 ## when run in batch mode, provide game identifier on command line
 options <- commandArgs(trailingOnly = TRUE)
@@ -87,9 +88,11 @@ fill_me <-
   with(pass_dat, beg_code %in% c('O-CTH', 'O-PU') &
          end_code %in% c('O-TO', 'O-OV'))
 fill_me[is.na(fill_me)] <- FALSE
-player_same <- with(pass_dat, beg_plyr == end_plyr)
-pass_dat$pclass[fill_me & !player_same] <- "compl"
-pass_dat$pclass[fill_me & player_same] <- "nopass"
+player_different <- with(pass_dat, beg_plyr != end_plyr)
+end_player_defined <- !grepl("-$", pass_dat$end_plyr)
+player_different <- player_different & end_player_defined
+pass_dat$pclass[fill_me & !player_different] <- "nopass"
+pass_dat$pclass[fill_me & player_different] <- "compl"
 
 ## special handling for {O-CTH, O-PU} O-PU
 ## so far these seem to usually involve lots of subs off and in
@@ -125,5 +128,92 @@ write.table(pass_dat, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
 out_file <- file.path(out_dir, paste0(game, "_passes-tally.tsv"))
 write.table(as.data.frame(with(pass_dat, table(desc, n_inn))), out_file,
             quote = FALSE, sep = "\t", row.names = FALSE)
+
+## moving on to player summaries
+build_roster_path <- function(team) {
+  file.path("..", "rosters", paste0("2014_", team, "-roster.tsv"))}
+away_roster_file <- build_roster_path(away_team)
+home_roster_file <- build_roster_path(home_team)
+read_roster <- function(roster_file) {
+  x <- read.delim(roster_file, stringsAsFactors = FALSE,
+                  ## do this because of seaRM-rupp-00
+                  colClasses = list(number = "character"))
+  x[c('number', 'last')]
+}
+away_roster <- read_roster(away_roster_file)
+home_roster <- read_roster(home_roster_file)
+message("  roster read for ", away_team, " and ", home_team)
+away_roster <- data.frame(team = away_team, away_roster)
+home_roster <- data.frame(team = home_team, home_roster)
+dual_roster <- rbind(away_roster, home_roster)
+dual_roster <- mutate(dual_roster, player = paste(team, number, sep = "-"))
+
+pl_dat <-
+  data.frame(player = I(with(pass_dat, sort(unique(c(beg_plyr, end_plyr))))))
+tmp <- do.call("rbind", strsplit(pl_dat$player, "-"))
+pl_dat <- data.frame(pl_dat, team = tmp[ , 1], number = tmp[ , 2],
+                     stringsAsFactors = FALSE)
+pl_dat <- suppressMessages(join(pl_dat, rbind(away_roster, home_roster)))
+pl_dat <- subset(pl_dat, !grepl("-$", pl_dat$player))
+
+jFun <- function(the_plyr) {
+  x <- subset(pass_dat, beg_plyr == the_plyr | end_plyr == the_plyr)
+  z <-
+    with(x,
+         data.frame(player = the_plyr,
+                    #team = strsplit(the_plyr, "-")[[1]][1],
+                    goals = sum(end_code == 'O-G' & end_plyr == the_plyr,
+                                na.rm = TRUE),
+                    assists = sum(end_code == 'O-G' & beg_plyr == the_plyr,
+                                  na.rm = TRUE),
+                    throws = sum(beg_plyr == the_plyr & pclass != 'nopass'),
+                    completions = sum(beg_plyr == the_plyr & pclass == 'compl'),
+                    catches = sum(end_plyr == the_plyr & pclass == 'compl',
+                                  na.rm = TRUE),
+                    def = sum(end_plyr == the_plyr & pclass == 'defd',
+                              na.rm = TRUE),
+                    drop = sum(beg_plyr == the_plyr & pclass == 'drop')))
+  z <- mutate(z, points = goals + assists,
+              comp_pct = round(completions / throws, 2))
+  vars_how_i_want <-
+    c('player', 'points', 'comp_pct', 'goals', 'assists',
+      'throws', 'completions', 'catches', 'def', 'drop')
+  z <- z[vars_how_i_want]
+  return(z)
+  ## non-essential stats I could add later:
+  ## BE = bookend; player gets a D then scores goal later in same possession
+  ## double happiness is special case of BE, when it's very next throw
+  ## Callahans, Greatests (how would I even know about Greatests?)
+  ## all the stuff that relies on systematic processing of who's on the line:
+  ## points played (overal, on O, on D), plus/minus
+}
+pl_stats <- ldply(pl_dat$player, jFun)
+#pl_stats
+pl_stats <- suppressMessages(join(pl_stats, dual_roster))
+pl_stats_by_team <- split(pl_stats, pl_stats$team)
+pl_stats_by_team <- llply(pl_stats_by_team, function(z) {
+  vars_how_i_want <-
+    c('player', 'last', 'points', 'comp_pct', 'goals', 'assists',
+      'throws', 'completions', 'catches', 'def', 'drop', 'team', 'number')
+  z <- z[vars_how_i_want]
+  z <- arrange(z, desc(points), desc(goals), desc(assists), desc(def))
+  rownames(z) <- NULL
+  return(z)
+})
+#str(pl_stats_by_team)
+#pl_stats_by_team
+
+pl_stats_combined <- do.call("rbind", pl_stats_by_team)
+pl_stats_combined <- data.frame(game = game, pl_stats_combined)
+#str(pl_stats_combined)
+
+message("  writing player stats to file: ",
+        nrow(pl_stats_by_team[[away_team]]), " for ", away_team, ", ",
+        nrow(pl_stats_by_team[[home_team]]), " for ", home_team)
+
+out_file <- file.path(out_dir, paste0(game, "_player-stats.tsv"))
+write.table(pl_stats_combined, out_file,
+            quote = FALSE, sep = "\t", row.names = FALSE)
+#message("wrote ", out_file)
 
 message("  ", Sys.time(), "\n")
