@@ -1,7 +1,7 @@
-2014-04-26_vanNH-at-seaRM:
+2014-04-26_vanNH-at-seaRM > 04_clean-and-expand-game-play.r:
   526 rows of raw game play found
   found 8 rows with game play recorded for both teams
   no double game play rows remain
   534 rows of clean game play will be written
-  2014-07-12 13:36:59
+  2014-07-15 13:15:48
 

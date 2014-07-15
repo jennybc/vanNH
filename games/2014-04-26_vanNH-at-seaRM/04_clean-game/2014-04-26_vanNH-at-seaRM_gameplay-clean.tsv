@@ -468,7 +468,7 @@ point	event	pull_pnum	pull_code	recv_pnum	recv_code
 35	13	75			
 35	14	8			
 35	15	18			
-35	16			27	D
+35	16	27	TD		
 35	17			3	PU
 35	18			20	
 35	19			25	

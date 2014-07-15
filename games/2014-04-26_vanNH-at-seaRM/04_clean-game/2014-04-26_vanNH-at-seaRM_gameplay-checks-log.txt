@@ -1,6 +1,5 @@
 2014-04-26_vanNH-at-seaRM > 05_sanity-check-game-play.r:
   534 rows of clean game play found
-
   sanity checks of clean game play DONE
-  2014-07-14 22:40:59
+  2014-07-15 13:15:48
 

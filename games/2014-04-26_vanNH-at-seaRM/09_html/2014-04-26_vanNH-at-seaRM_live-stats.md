@@ -11,14 +11,8 @@ output:
 # vanNH at seaRM 2014-04-26
 
 
-```
-##    point period pull_team event poss_abs poss_rel poss_team pl_team
-## 84    35      4     vanNH    16       75        2     vanNH   seaRM
-##    pl_pnum pl_code pl_lname
-## 84      27       D   ?name?
-```
 
-#### last update Tue Jul 15 06:06:57 2014
+#### last update Tue Jul 15 13:15:51 2014
 # vanNH 15
 # seaRM 20
 ## game is complete
@@ -115,7 +109,7 @@ stats are cumulative for this game
 |10 |vanNH-72 |leduc      |      2|     1.00|     1|       1|      3|           3|       4|   0|    0|
 |11 |vanNH-10 |chatha     |      1|     1.00|     1|       0|      3|           3|       4|   0|    0|
 |12 |vanNH-81 |tejpar     |      1|     0.80|     1|       0|      5|           4|       4|   0|    0|
-|13 |vanNH-18 |menzies    |      1|     0.78|     0|       1|      9|           7|       4|   1|    0|
+|13 |vanNH-18 |menzies    |      1|     0.78|     0|       1|      9|           7|       4|   1|    1|
 |14 |vanNH-14 |eyrich     |      0|     1.00|     0|       0|      2|           2|       2|   1|    0|
 |15 |vanNH-27 |davis      |      0|     1.00|     0|       0|      2|           2|       2|   1|    0|
 |16 |vanNH-33 |collins    |      0|     0.43|     0|       0|      7|           3|       2|   1|    0|
@@ -153,7 +147,6 @@ stats are cumulative for this game
 |16 |seaRM-4-schneider  |      1|     0|       1|  0|
 |17 |seaRM-00-rupp      |      0|     0|       0|  1|
 |18 |seaRM-13-sewell    |      0|     0|       0|  1|
-|19 |seaRM-27-?name?    |      0|     0|       0|  1|
 
 
 |   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -270,7 +263,6 @@ stats are cumulative for this game
 |    33|      4|vanNH     |     4|       72|        1|seaRM     |seaRM   |48      |G       |clark     |seaRM-48-clark     |    17|    14|
 |    34|      4|seaRM     |     5|       73|        1|vanNH     |vanNH   |13      |A       |tessarolo |vanNH-13-tessarolo |    17|    15|
 |    34|      4|seaRM     |     6|       73|        1|vanNH     |vanNH   |5       |G       |norris    |vanNH-5-norris     |    17|    15|
-|    35|      4|vanNH     |    16|       75|        2|vanNH     |seaRM   |27      |D       |?name?    |seaRM-27-?name?    |    18|    15|
 |    35|      4|vanNH     |    26|       77|        4|vanNH     |seaRM   |3       |D       |o'brien   |seaRM-3-o'brien    |    18|    15|
 |    35|      4|vanNH     |    40|       79|        6|vanNH     |seaRM   |99      |D       |el-salaam |seaRM-99-el-salaam |    18|    15|
 |    35|      4|vanNH     |    41|       80|        7|seaRM     |seaRM   |3       |PUA     |o'brien   |seaRM-3-o'brien    |    18|    15|
@@ -757,7 +749,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      4|    35|vanNH     |    13|       75|        2|vanNH     |vanNH   |75      |        |
 |      4|    35|vanNH     |    14|       75|        2|vanNH     |vanNH   |8       |        |
 |      4|    35|vanNH     |    15|       75|        2|vanNH     |vanNH   |18      |        |
-|      4|    35|vanNH     |    16|       75|        2|vanNH     |seaRM   |27      |D       |
+|      4|    35|vanNH     |    16|       75|        2|vanNH     |vanNH   |27      |TD      |
 |      4|    35|vanNH     |    17|       76|        3|seaRM     |seaRM   |3       |PU      |
 |      4|    35|vanNH     |    18|       76|        3|seaRM     |seaRM   |20      |        |
 |      4|    35|vanNH     |    19|       76|        3|seaRM     |seaRM   |25      |        |

@@ -365,7 +365,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 75	2	35	12	13	ao	0	O-CTH	vanNH-45		O-CTH	vanNH-75	TRUE	compl
 75	2	35	13	14	ao	0	O-CTH	vanNH-75		O-CTH	vanNH-8	TRUE	compl
 75	2	35	14	15	ao	0	O-CTH	vanNH-8		O-CTH	vanNH-18	TRUE	compl
-75	2	35	15	16	ao	0	O-CTH	vanNH-18		D-D	seaRM-27	TRUE	defd
+75	2	35	15	16	ao	0	O-CTH	vanNH-18		O-TD	vanNH-27	TRUE	drop
 76	3	35	17	18	ao	0	O-PU	seaRM-3		O-CTH	seaRM-20	TRUE	compl
 76	3	35	18	19	ao	0	O-CTH	seaRM-20		O-CTH	seaRM-25	TRUE	compl
 76	3	35	19	20	ao	0	O-CTH	seaRM-25		O-CTH	seaRM-5	TRUE	compl
