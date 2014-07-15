@@ -453,7 +453,8 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 97	1	36	8	9	ao	0	O-CTH	pdxST-7		O-CTH	pdxST-10	TRUE	compl
 97	1	36	9	10	ao	0	O-CTH	pdxST-10		O-CTH	pdxST-2	TRUE	compl
 97	1	36	10	11	ao	0	O-CTH	pdxST-2		O-CTH	pdxST-6	TRUE	compl
-97	1	36	11	12	ao	0	O-CTH	pdxST-6		O-TD	pdxST-8	TRUE	drop
+97	1	36	11	12	ao	0	O-CTH	pdxST-6		O-CTH	pdxST-8	TRUE	compl
+97	1	36	12	13	ao	0	O-CTH	pdxST-8		D-D	sfoDF-10	TRUE	defd
 98	2	36	14	15	ao	0	O-PU	sfoDF-12		O-CTH	sfoDF-85	TRUE	compl
 98	2	36	15	15	an	-1	O-CTH	sfoDF-85		NA	sfoDF-85	TRUE	taway
 99	3	36	16	17	ao	0	O-PU	pdxST-24		O-CTH	pdxST-10	TRUE	compl

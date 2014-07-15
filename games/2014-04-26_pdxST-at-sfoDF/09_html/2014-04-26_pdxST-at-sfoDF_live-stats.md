@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 06:06:55 2014
+#### last update Tue Jul 15 08:55:20 2014
 # pdxST 18
 # sfoDF 16
 ## game is complete
@@ -99,12 +99,12 @@ stats are cumulative for this game
 |:--|:--------|:------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
 |1  |pdxST-7  |Friedman     |      6|     0.92|     4|       2|     64|          59|      59|   1|    0|
 |2  |pdxST-10 |Strout       |      4|     1.00|     1|       3|     32|          32|      24|   0|    0|
-|3  |pdxST-8  |Davis        |      4|     0.94|     1|       3|     17|          16|      17|   0|    1|
+|3  |pdxST-8  |Davis        |      4|     0.89|     1|       3|     18|          16|      18|   0|    1|
 |4  |pdxST-11 |Kenton       |      3|     0.94|     2|       1|     33|          31|      32|   0|    0|
 |5  |pdxST-16 |Burton       |      3|     0.91|     2|       1|     11|          10|      13|   0|    0|
 |6  |pdxST-22 |Cole         |      3|     1.00|     1|       2|      6|           6|       6|   0|    0|
 |7  |pdxST-2  |Allison-Hall |      2|     0.89|     2|       0|      9|           8|      11|   1|    0|
-|8  |pdxST-6  |Bjorklund    |      2|     0.65|     1|       1|     17|          11|      13|   2|    2|
+|8  |pdxST-6  |Bjorklund    |      2|     0.71|     1|       1|     17|          12|      13|   2|    1|
 |9  |pdxST-42 |Lohre        |      2|     0.86|     1|       1|     21|          18|      21|   1|    2|
 |10 |pdxST-21 |McGinn       |      2|     0.88|     0|       2|     25|          22|      17|   1|    0|
 |11 |pdxST-24 |Norden       |      2|     0.78|     0|       2|     40|          31|      27|   0|    3|
@@ -160,10 +160,10 @@ stats are cumulative for this game
 |28 |sfoDF-46 |McCarty       |      1|     1.00|     1|       0|      3|           3|       4|   0|    0|
 |29 |sfoDF-25 |Dixon         |      1|     0.80|     0|       1|      5|           4|       3|   1|    0|
 |30 |sfoDF-88 |Kissmann      |      1|     0.94|     0|       1|     18|          17|      13|   0|    0|
-|31 |sfoDF-17 |Boyd-Meredith |      0|     0.40|     0|       0|      5|           2|       2|   1|    0|
-|32 |sfoDF-85 |Brydon        |      0|     0.33|     0|       0|      3|           1|       3|   1|    1|
-|33 |sfoDF-9  |Farren        |      0|       NA|     0|       0|      0|           0|       0|   1|    0|
-|34 |sfoDF-10 |Sugioka       |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|31 |sfoDF-10 |Sugioka       |      0|     1.00|     0|       0|      1|           1|       1|   1|    0|
+|32 |sfoDF-17 |Boyd-Meredith |      0|     0.40|     0|       0|      5|           2|       2|   1|    0|
+|33 |sfoDF-85 |Brydon        |      0|     0.33|     0|       0|      3|           1|       3|   1|    1|
+|34 |sfoDF-9  |Farren        |      0|       NA|     0|       0|      0|           0|       0|   1|    0|
 |35 |sfoDF-11 |Lee           |      0|     0.50|     0|       0|      2|           1|       2|   0|    0|
 |36 |sfoDF-12 |Bellinger     |      0|     1.00|     0|       0|      1|           1|       0|   0|    0|
 |37 |sfoDF-14 |Hurst         |      0|     1.00|     0|       0|      2|           2|       1|   0|    0|
@@ -847,7 +847,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      5|    36|sfoDF     |     9|       97|        1|pdxST     |pdxST   |10      |        |
 |      5|    36|sfoDF     |    10|       97|        1|pdxST     |pdxST   |2       |        |
 |      5|    36|sfoDF     |    11|       97|        1|pdxST     |pdxST   |6       |        |
-|      5|    36|sfoDF     |    12|       97|        1|pdxST     |pdxST   |8       |TD      |
+|      5|    36|sfoDF     |    12|       97|        1|pdxST     |pdxST   |8       |        |
 |      5|    36|sfoDF     |    13|       97|        1|pdxST     |sfoDF   |10      |D       |
 |      5|    36|sfoDF     |    14|       98|        2|sfoDF     |sfoDF   |12      |PU      |
 |      5|    36|sfoDF     |    15|       98|        2|sfoDF     |sfoDF   |85      |        |

@@ -1,12 +1,12 @@
 game	player	last	points	comp_pct	goals	assists	throws	completions	catches	def	drop	team	number
 2014-04-26_pdxST-at-sfoDF	pdxST-7	Friedman	6	0.92	4	2	64	59	59	1	0	pdxST	7
 2014-04-26_pdxST-at-sfoDF	pdxST-10	Strout	4	1	1	3	32	32	24	0	0	pdxST	10
-2014-04-26_pdxST-at-sfoDF	pdxST-8	Davis	4	0.94	1	3	17	16	17	0	1	pdxST	8
+2014-04-26_pdxST-at-sfoDF	pdxST-8	Davis	4	0.89	1	3	18	16	18	0	1	pdxST	8
 2014-04-26_pdxST-at-sfoDF	pdxST-11	Kenton	3	0.94	2	1	33	31	32	0	0	pdxST	11
 2014-04-26_pdxST-at-sfoDF	pdxST-16	Burton	3	0.91	2	1	11	10	13	0	0	pdxST	16
 2014-04-26_pdxST-at-sfoDF	pdxST-22	Cole	3	1	1	2	6	6	6	0	0	pdxST	22
 2014-04-26_pdxST-at-sfoDF	pdxST-2	Allison-Hall	2	0.89	2	0	9	8	11	1	0	pdxST	2
-2014-04-26_pdxST-at-sfoDF	pdxST-6	Bjorklund	2	0.65	1	1	17	11	13	2	2	pdxST	6
+2014-04-26_pdxST-at-sfoDF	pdxST-6	Bjorklund	2	0.71	1	1	17	12	13	2	1	pdxST	6
 2014-04-26_pdxST-at-sfoDF	pdxST-42	Lohre	2	0.86	1	1	21	18	21	1	2	pdxST	42
 2014-04-26_pdxST-at-sfoDF	pdxST-21	McGinn	2	0.88	0	2	25	22	17	1	0	pdxST	21
 2014-04-26_pdxST-at-sfoDF	pdxST-24	Norden	2	0.78	0	2	40	31	27	0	3	pdxST	24
@@ -29,10 +29,10 @@ game	player	last	points	comp_pct	goals	assists	throws	completions	catches	def	dr
 2014-04-26_pdxST-at-sfoDF	sfoDF-46	McCarty	1	1	1	0	3	3	4	0	0	sfoDF	46
 2014-04-26_pdxST-at-sfoDF	sfoDF-25	Dixon	1	0.8	0	1	5	4	3	1	0	sfoDF	25
 2014-04-26_pdxST-at-sfoDF	sfoDF-88	Kissmann	1	0.94	0	1	18	17	13	0	0	sfoDF	88
+2014-04-26_pdxST-at-sfoDF	sfoDF-10	Sugioka	0	1	0	0	1	1	1	1	0	sfoDF	10
 2014-04-26_pdxST-at-sfoDF	sfoDF-17	Boyd-Meredith	0	0.4	0	0	5	2	2	1	0	sfoDF	17
 2014-04-26_pdxST-at-sfoDF	sfoDF-85	Brydon	0	0.33	0	0	3	1	3	1	1	sfoDF	85
 2014-04-26_pdxST-at-sfoDF	sfoDF-9	Farren	0	NA	0	0	0	0	0	1	0	sfoDF	9
-2014-04-26_pdxST-at-sfoDF	sfoDF-10	Sugioka	0	1	0	0	1	1	1	0	0	sfoDF	10
 2014-04-26_pdxST-at-sfoDF	sfoDF-11	Lee	0	0.5	0	0	2	1	2	0	0	sfoDF	11
 2014-04-26_pdxST-at-sfoDF	sfoDF-12	Bellinger	0	1	0	0	1	1	0	0	0	sfoDF	12
 2014-04-26_pdxST-at-sfoDF	sfoDF-14	Hurst	0	1	0	0	2	2	1	0	0	sfoDF	14

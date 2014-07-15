@@ -1,4 +1,4 @@
-2014-04-26_pdxST-at-sfoDF:
+2014-04-26_pdxST-at-sfoDF > 06_resolve-possessions.r:
   628 rows of clean game play found
   38 rows of point info play found
   possession established directly for 620/628 = 98.73% of game play events
@@ -7,5 +7,5 @@
   106 rows of possessions will be written
   38 resolved points to be written
   pdxST: 18 sfoDF: 16
-  2014-07-12 13:36:56
+  2014-07-15 08:55:17
 

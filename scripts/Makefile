@@ -37,8 +37,8 @@
 #GOOGAME ?= "Official Statistics - 2014 - Week 2 - 4/19 - Dogfish @ Rainmakers"
 #GAME ?= 2014-04-19_sfoDF-at-seaRM
 
-#GOOGAME ?= "Official Statistics - 2014 - Week 3 - 4/26 - Stags @ Dogfish"
-#GAME ?= 2014-04-26_pdxST-at-sfoDF
+GOOGAME ?= "Official Statistics - 2014 - Week 3 - 4/26 - Stags @ Dogfish"
+GAME ?= 2014-04-26_pdxST-at-sfoDF
 
 #GOOGAME ?= "Official Statistics - 2014 - Week 4 - 5/4 - Dogfish @ Rainmakers"  
 #GAME ?= 2014-05-04_sfoDF-at-seaRM
@@ -58,8 +58,8 @@
 #GOOGAME ?= "Official Statistics - 2014 - Week 10 - 6/14 - Stags @ Rainmakers"  
 #GAME ?= 2014-06-14_pdxST-at-seaRM
 
-GOOGAME ?= "Official Statistics - 2014 - Week 11 - 6/21 - Rainmakers @ Stags"  
-GAME ?= 2014-06-21_seaRM-at-pdxST
+#GOOGAME ?= "Official Statistics - 2014 - Week 11 - 6/21 - Rainmakers @ Stags"  
+#GAME ?= 2014-06-21_seaRM-at-pdxST
 
 #GOOGAME ?= "Official Statistics - 2014 - Week 1 - 4/12 - Current @ Spinners"  
 #GAME ?= 2014-04-12_wdcCT-at-phlSP

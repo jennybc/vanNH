@@ -571,7 +571,7 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 5	36	sfoDF	9	97	1	pdxST	pdxST	10	
 5	36	sfoDF	10	97	1	pdxST	pdxST	2	
 5	36	sfoDF	11	97	1	pdxST	pdxST	6	
-5	36	sfoDF	12	97	1	pdxST	pdxST	8	TD
+5	36	sfoDF	12	97	1	pdxST	pdxST	8	
 5	36	sfoDF	13	97	1	pdxST	sfoDF	10	D
 5	36	sfoDF	14	98	2	sfoDF	sfoDF	12	PU
 5	36	sfoDF	15	98	2	sfoDF	sfoDF	85	
