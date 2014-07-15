@@ -1,4 +1,4 @@
-2014-06-15_pdxST-at-vanNH:
+2014-06-15_pdxST-at-vanNH > 06_resolve-possessions.r:
   635 rows of clean game play found
   41 rows of point info play found
   possession established directly for 618/635 = 97.32% of game play events
@@ -12,5 +12,5 @@
   75 rows of possessions will be written
   41 resolved points to be written
   pdxST: 18 vanNH: 20
-  2014-07-12 13:37:28
+  2014-07-15 16:29:04
 

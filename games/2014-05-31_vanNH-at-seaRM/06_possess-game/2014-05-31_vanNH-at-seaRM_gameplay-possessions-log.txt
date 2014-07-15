@@ -1,4 +1,4 @@
-2014-05-31_vanNH-at-seaRM:
+2014-05-31_vanNH-at-seaRM > 06_resolve-possessions.r:
   791 rows of clean game play found
   58 rows of point info play found
   possession established directly for 780/791 = 98.61% of game play events
@@ -16,5 +16,5 @@
   108 rows of possessions will be written
   58 resolved points to be written
   seaRM: 24 vanNH: 29
-  2014-07-12 13:37:20
+  2014-07-15 16:28:58
 

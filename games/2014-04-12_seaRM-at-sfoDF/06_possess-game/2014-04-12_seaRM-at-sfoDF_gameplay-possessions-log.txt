@@ -1,4 +1,4 @@
-2014-04-12_seaRM-at-sfoDF:
+2014-04-12_seaRM-at-sfoDF > 06_resolve-possessions.r:
   586 rows of clean game play found
   38 rows of point info play found
   possession established directly for 578/586 = 98.63% of game play events
@@ -7,5 +7,5 @@
   103 rows of possessions will be written
   38 resolved points to be written
   seaRM: 16 sfoDF: 18
-  2014-07-12 13:36:40
+  2014-07-15 16:28:39
 
