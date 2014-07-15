@@ -11,14 +11,8 @@ output:
 # pdxST at vanNH 2014-06-15
 
 
-```
-##    point period pull_team event poss_abs poss_rel poss_team pl_team
-## 13     6      1     pdxST    22        9        3     vanNH   pdxST
-##    pl_pnum pl_code pl_lname
-## 13       ?       D   ?name?
-```
 
-#### last update Tue Jul 15 06:07:37 2014
+#### last update Tue Jul 15 13:37:53 2014
 # pdxST 18
 # vanNH 20
 ## game is complete

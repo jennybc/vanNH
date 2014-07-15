@@ -9,5 +9,5 @@
   474 rows of pass data will be written
   roster read for sfoDF and seaRM
   writing player stats to file: 21 for sfoDF, 18 for seaRM
-  2014-07-14 11:38:20
+  2014-07-15 13:49:27
 

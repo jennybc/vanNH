@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 06:07:39 2014
+#### last update Tue Jul 15 13:37:55 2014
 # seaRM 12
 # pdxST 13
 ## game is complete

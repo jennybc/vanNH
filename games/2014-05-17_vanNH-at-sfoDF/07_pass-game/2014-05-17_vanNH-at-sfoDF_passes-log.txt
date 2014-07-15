@@ -9,5 +9,5 @@
   429 rows of pass data will be written
   roster read for vanNH and sfoDF
   writing player stats to file: 20 for vanNH, 22 for sfoDF
-  2014-07-14 11:38:36
+  2014-07-15 13:49:42
 

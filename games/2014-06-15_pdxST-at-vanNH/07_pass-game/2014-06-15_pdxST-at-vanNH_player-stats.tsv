@@ -13,6 +13,7 @@ game	player	last	points	comp_pct	goals	assists	throws	completions	catches	def	dr
 2014-06-15_pdxST-at-vanNH	pdxST-7	Friedman	1	0.96	1	0	28	27	24	1	0	pdxST	7
 2014-06-15_pdxST-at-vanNH	pdxST-73	King	1	0.93	0	1	46	43	39	0	0	pdxST	73
 2014-06-15_pdxST-at-vanNH	pdxST-88	Suppnick	1	0.83	0	1	12	10	9	0	1	pdxST	88
+2014-06-15_pdxST-at-vanNH	pdxST-?	?name?	0	0.8	0	0	5	4	3	1	1	pdxST	?
 2014-06-15_pdxST-at-vanNH	pdxST-12	Bui	0	NA	0	0	0	0	0	1	0	pdxST	12
 2014-06-15_pdxST-at-vanNH	pdxST-4	Blackman	0	1	0	0	2	2	1	1	0	pdxST	4
 2014-06-15_pdxST-at-vanNH	pdxST-1	Cable	0	1	0	0	1	1	1	0	0	pdxST	1
@@ -32,6 +33,7 @@ game	player	last	points	comp_pct	goals	assists	throws	completions	catches	def	dr
 2014-06-15_pdxST-at-vanNH	vanNH-81	tejpar	1	NA	1	0	0	0	1	0	0	vanNH	81
 2014-06-15_pdxST-at-vanNH	vanNH-45	cowan	1	1	0	1	5	5	2	0	0	vanNH	45
 2014-06-15_pdxST-at-vanNH	vanNH-14	eyrich	0	NA	0	0	0	0	0	1	0	vanNH	14
+2014-06-15_pdxST-at-vanNH	vanNH-?	?name?	0	NA	0	0	0	0	2	0	0	vanNH	?
 2014-06-15_pdxST-at-vanNH	vanNH-13	tessarolo	0	1	0	0	2	2	2	0	0	vanNH	13
 2014-06-15_pdxST-at-vanNH	vanNH-27	davis	0	1	0	0	1	1	1	0	0	vanNH	27
 2014-06-15_pdxST-at-vanNH	vanNH-7	dandurand	0	1	0	0	1	1	0	0	0	vanNH	7

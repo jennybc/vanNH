@@ -14,5 +14,5 @@
   508 rows of pass data will be written
   roster read for seaRM and vanNH
   writing player stats to file: 17 for seaRM, 23 for vanNH
-  2014-07-14 11:38:33
+  2014-07-15 13:49:39
 

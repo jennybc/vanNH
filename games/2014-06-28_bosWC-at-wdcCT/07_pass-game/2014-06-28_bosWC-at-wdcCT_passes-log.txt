@@ -19,5 +19,5 @@
   499 rows of pass data will be written
   roster read for bosWC and wdcCT
   writing player stats to file: 22 for bosWC, 24 for wdcCT
-  2014-07-14 11:38:56
+  2014-07-15 13:50:03
 
