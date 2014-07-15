@@ -22,9 +22,9 @@ if(!exists("game")) {
   #game <- "2014-06-07_seaRM-at-vanNH"
   #game <- "2014-06-15_pdxST-at-vanNH"
   #game <- "2014-04-12_seaRM-at-sfoDF"
-  #game <- "2014-05-03_sfoDF-at-pdxST"
+  game <- "2014-05-03_sfoDF-at-pdxST"
   #game <- "2014-06-14_pdxST-at-seaRM"
-  game <- "2014-04-19_bosWC-at-wdcCT"
+  #game <- "2014-04-19_bosWC-at-wdcCT"
   }
 
 message(game, " > 09_vanNH-nowPlaying.rmd:")
@@ -42,6 +42,18 @@ goal_codes <- c('G', 'LG')
 assist_codes <- c('A', 'LA', 'PUA', 'DA')
 d_codes <- c('D', 'HB', 'FB', 'DA')
 keeper_codes <- c(goal_codes, assist_codes, d_codes)
+
+## read in pre-computed player stats
+pl_stats_file <- file.path("..", "games", game, "07_pass-game",
+                           paste0(game, "_player-stats.tsv"))
+pl_stats <- read.delim(pl_stats_file,
+                       colClasses = list(player = "character", 
+                                         last = "character",
+                                         number = "character"))
+#str(pl_stats)
+pl_stats_by_team <- split(pl_stats, pl_stats$team)
+vars_to_drop <- c('game', 'team', 'number')
+vars_to_show <- setdiff(names(pl_stats), vars_to_drop)
 ```
 
 # `r away_team` at `r home_team` `r game_date`
@@ -85,6 +97,13 @@ jFun <- function(x, jLevels = jTeams) factor(x, levels = jLevels)
 sDat <- transform(sDat, pl_team = jFun(pl_team))
 point_info <- transform(point_info, pull_team = jFun(pull_team),
                         scor_team = jFun(scor_team))
+
+## DELETE THIS ONCE I'M DONE CHECKING OLD VS NEW PLAYER STATS
+## check pull_team in game_play against point_info
+# point_info$pull_team
+# with(sDat, pull_team[event == 1])
+# data.frame(pi = point_info$pull_team, sd = with(sDat, pull_team[event == 1]),
+#            point_info$pull_team == with(sDat, pull_team[event == 1]))
 
 ## save a version of sDat to display as raw data
 sDat_safe <- sDat
@@ -152,6 +171,18 @@ player_dat_by_team <- llply(player_dat_by_team, function(z) {
 message("  player stat tables include ", nrow(player_dat_by_team[[away_team]]),
         " for ", away_team, " and ", nrow(player_dat_by_team[[home_team]]),
         " for ", home_team)
+
+player_dat_by_team_combined <- do.call("rbind", player_dat_by_team)
+player_dat_by_team_combined <-
+  data.frame(game = game, player_dat_by_team_combined )
+
+message("  writing player stats to file")
+
+out_dir <- file.path("..", "games", game, "09_html")
+out_file <- file.path(out_dir, paste0(game, "_player-stats.tsv"))
+write.table(player_dat_by_team_combined, out_file,
+            quote = FALSE, sep = "\t", row.names = FALSE)
+
 
 ## prepare game scoring progression table
 jFun <- function(z) {
@@ -250,6 +281,12 @@ if(nrow(player_dat_by_team[[away_team]]) > 0) {
   }
 ```
 
+```{r results='asis', echo=FALSE}
+if(nrow(pl_stats_by_team[[away_team]]) > 0) {
+  kable(pl_stats_by_team[[away_team]][vars_to_show],row.names = TRUE)
+  }
+```
+
 ## Player stats for `r home_team` <a id="home"></a>:
 
 points = goals + assists  
@@ -260,6 +297,12 @@ stats are cumulative for this game
 ```{r results='asis', echo=FALSE}
 if(nrow(player_dat_by_team[[home_team]]) > 0) {
   kable(player_dat_by_team[[home_team]], row.names = TRUE)
+  }
+```
+
+```{r results='asis', echo=FALSE}
+if(nrow(pl_stats_by_team[[home_team]]) > 0) {
+  kable(pl_stats_by_team[[home_team]][vars_to_show], row.names = TRUE)
   }
 ```
 
