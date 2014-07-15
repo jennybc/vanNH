@@ -23,7 +23,8 @@ if(!exists("game")) {
   #game <- "2014-06-15_pdxST-at-vanNH"
   #game <- "2014-04-12_seaRM-at-sfoDF"
   #game <- "2014-05-03_sfoDF-at-pdxST"
-  game <- "2014-04-26_vanNH-at-seaRM"
+  #game <- "2014-04-26_vanNH-at-seaRM"
+  game <- "2014-06-15_pdxST-at-vanNH"
   #game <- "2014-06-14_pdxST-at-seaRM"
   #game <- "2014-04-19_bosWC-at-wdcCT"
   }
@@ -120,7 +121,6 @@ sDat <-
   suppressMessages(join(point_info[c('point', 'period', 'pull_team')], sDat))
 
 ## look up pl_pnum's last name
-## TO DO: make this not emit NA warnings ... it's the numeric/character thing re: player numbers
 sDat$pl_lname <-
   I(with(sDat,
          ifelse(pl_team == away_team,
@@ -130,8 +130,10 @@ sDat$pl_lname <-
                                        home_roster$number)])))
 
 ## deal with cases where we have no last name
-## happens when we use a number that's not on the roster or when we don't
-## capture the number and enter ? instead
+## how does this happen?
+## * we use a number that's not on the roster
+## * we don't capture the player's number and enter ? instead
+## * the dummy row created for an EOP point
 ## this seems to be triggered by a plain ? ... check into this
 name_unknown <- is.na(sDat$pl_lname) & !is.na(sDat$pl_team)
 if(any(name_unknown)) {

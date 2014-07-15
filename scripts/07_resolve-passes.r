@@ -13,11 +13,11 @@ if(length(options) < 1) {
   #game <- "2014-05-24_pdxST-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
   #game <- "2014-06-07_seaRM-at-vanNH"
-  #game <- "2014-06-15_pdxST-at-vanNH"
+  game <- "2014-06-15_pdxST-at-vanNH"
   #game <- "2014-05-04_sfoDF-at-seaRM"
   #game <- "2014-04-26_pdxST-at-sfoDF"
   #game <- "2014-05-03_sfoDF-at-pdxST"
-  game <- "2014-06-07_wdcCT-at-bosWC"
+  #game <- "2014-06-07_wdcCT-at-bosWC"
 } else {
   game <- options[1]
 }
@@ -153,14 +153,16 @@ pl_dat <-
 tmp <- do.call("rbind", strsplit(pl_dat$player, "-"))
 pl_dat <- data.frame(pl_dat, team = tmp[ , 1], number = tmp[ , 2],
                      stringsAsFactors = FALSE)
-pl_dat <- suppressMessages(join(pl_dat, rbind(away_roster, home_roster)))
-pl_dat <- subset(pl_dat, !grepl("-$", pl_dat$player))
+pl_dat <-
+  suppressMessages(join(pl_dat, rbind(away_roster, home_roster), type = "left"))
+pl_unknown <- is.na(pl_dat$last)
+pl_dat$last[pl_unknown] <- '?name?'
 
 jFun <- function(the_plyr) {
   x <- subset(pass_dat, beg_plyr == the_plyr | end_plyr == the_plyr)
   z <-
     with(x,
-         data.frame(player = the_plyr,
+         data.frame(player = I(the_plyr),
                     #team = strsplit(the_plyr, "-")[[1]][1],
                     goals = sum(end_code == 'O-G' & end_plyr == the_plyr,
                                 na.rm = TRUE),
@@ -189,7 +191,8 @@ jFun <- function(the_plyr) {
 }
 pl_stats <- ldply(pl_dat$player, jFun)
 #pl_stats
-pl_stats <- suppressMessages(join(pl_stats, dual_roster))
+pl_stats <- suppressMessages(join(pl_stats, pl_dat))
+pl_stats <- suppressMessages(join(pl_stats, dual_roster, type = "left"))
 pl_stats_by_team <- split(pl_stats, pl_stats$team)
 pl_stats_by_team <- llply(pl_stats_by_team, function(z) {
   vars_how_i_want <-
