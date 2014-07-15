@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Sat Jul 12 13:37:13 2014
+#### last update Tue Jul 15 06:07:14 2014
 # vanNH 12
 # sfoDF 13
 ## game is complete
@@ -87,6 +87,30 @@ stats are cumulative for this game
 |16 |vanNH-19-knapp      |      0|     0|       0|  1|
 |17 |vanNH-49-hayduk     |      0|     0|       0|  1|
 
+
+|   |player   |last       | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:----------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|1  |vanNH-89 |underhill  |      4|     0.79|     1|       3|     43|          34|      27|   1|    4|
+|2  |vanNH-98 |wong       |      3|     0.89|     2|       1|      9|           8|      11|   1|    0|
+|3  |vanNH-10 |chatha     |      3|     0.71|     2|       1|      7|           5|       8|   0|    1|
+|4  |vanNH-5  |norris     |      3|     0.62|     1|       2|     40|          25|      22|   1|    2|
+|5  |vanNH-8  |hibbert    |      2|     0.62|     1|       1|     16|          10|      14|   2|    1|
+|6  |vanNH-33 |collins    |      2|     0.60|     1|       1|      5|           3|       4|   1|    0|
+|7  |vanNH-72 |leduc      |      2|     0.75|     1|       1|      4|           3|       5|   1|    0|
+|8  |vanNH-21 |loach      |      1|     0.88|     1|       0|     16|          14|      17|   1|    1|
+|9  |vanNH-31 |saito      |      1|     1.00|     1|       0|      2|           2|       2|   1|    0|
+|10 |vanNH-13 |tessarolo  |      1|     1.00|     1|       0|      1|           1|       2|   0|    0|
+|11 |vanNH-39 |seraglia   |      1|     0.60|     0|       1|      5|           3|       6|   1|    1|
+|12 |vanNH-81 |tejpar     |      1|     0.71|     0|       1|      7|           5|       5|   0|    0|
+|13 |vanNH-22 |berezan    |      0|     1.00|     0|       0|      9|           9|       9|   3|    0|
+|14 |vanNH-75 |bellavance |      0|     0.77|     0|       0|     13|          10|       6|   2|    0|
+|15 |vanNH-14 |eyrich     |      0|     0.00|     0|       0|      1|           0|       1|   1|    0|
+|16 |vanNH-19 |knapp      |      0|     0.88|     0|       0|     16|          14|      11|   1|    1|
+|17 |vanNH-49 |hayduk     |      0|       NA|     0|       0|      0|           0|       0|   1|    0|
+|18 |vanNH-24 |yu         |      0|     0.57|     0|       0|      7|           4|       6|   0|    1|
+|19 |vanNH-27 |davis      |      0|     0.00|     0|       0|      1|           0|       1|   0|    0|
+|20 |vanNH-45 |cowan      |      0|     0.82|     0|       0|     11|           9|       2|   0|    0|
+
 ## Player stats for sfoDF <a id="home"></a>:
 
 points = goals + assists  
@@ -113,6 +137,32 @@ stats are cumulative for this game
 |14 |sfoDF-23-Jeffery       |      0|     0|       0|  2|
 |15 |sfoDF-8-Pollard        |      0|     0|       0|  2|
 |16 |sfoDF-5-Cascino        |      0|     0|       0|  1|
+
+
+|   |player   |last          | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:-------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|21 |sfoDF-18 |Weaver        |      4|     0.60|     4|       0|      5|           3|       6|   1|    0|
+|22 |sfoDF-6  |Kim           |      4|     0.88|     2|       2|      8|           7|      10|   0|    0|
+|23 |sfoDF-12 |Bellinger     |      4|     0.72|     1|       3|     18|          13|       6|   4|    1|
+|24 |sfoDF-34 |Boucher       |      3|     0.57|     1|       2|     30|          17|      16|   5|    4|
+|25 |sfoDF-21 |Stearns       |      2|     1.00|     2|       0|      3|           3|       4|   2|    0|
+|26 |sfoDF-10 |Sugioka       |      2|     0.67|     0|       2|      6|           4|       6|   0|    0|
+|27 |sfoDF-46 |McCarty       |      1|     1.00|     1|       0|      3|           3|       4|   2|    0|
+|28 |sfoDF-11 |Lee           |      1|     0.86|     1|       0|      7|           6|       7|   0|    0|
+|29 |sfoDF-17 |Boyd-Meredith |      1|     0.89|     1|       0|      9|           8|       7|   0|    0|
+|30 |sfoDF-85 |Brydon        |      1|     0.88|     0|       1|      8|           7|       9|   4|    0|
+|31 |sfoDF-16 |Yeager        |      1|     0.50|     0|       1|     18|           9|      10|   1|    2|
+|32 |sfoDF-2  |Adamson       |      1|     1.00|     0|       1|      5|           5|       5|   1|    0|
+|33 |sfoDF-40 |Taylor        |      1|     0.71|     0|       1|     14|          10|      10|   0|    0|
+|34 |sfoDF-23 |Jeffery       |      0|     0.80|     0|       0|     15|          12|      10|   2|    1|
+|35 |sfoDF-8  |Pollard       |      0|     0.77|     0|       0|     13|          10|       9|   2|    1|
+|36 |sfoDF-5  |Cascino       |      0|     0.71|     0|       0|      7|           5|       4|   1|    1|
+|37 |sfoDF-1  |Ranahan       |      0|     1.00|     0|       0|      8|           8|       6|   0|    0|
+|38 |sfoDF-13 |Grant         |      0|     0.40|     0|       0|      5|           2|       5|   0|    0|
+|39 |sfoDF-19 |Weiss         |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
+|40 |sfoDF-25 |Dixon         |      0|     0.85|     0|       0|     13|          11|       9|   0|    0|
+|41 |sfoDF-88 |Kissmann      |      0|     0.92|     0|       0|     13|          12|      10|   0|    0|
+|42 |sfoDF-9  |Farren        |      0|     0.67|     0|       0|      3|           2|       3|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 

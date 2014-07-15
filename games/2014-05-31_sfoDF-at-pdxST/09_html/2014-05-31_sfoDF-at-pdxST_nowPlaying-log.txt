@@ -1,9 +1,10 @@
-2014-05-31_sfoDF-at-pdxST:
+2014-05-31_sfoDF-at-pdxST > 09_vanNH-nowPlaying.rmd:
   roster read for sfoDF and pdxST
   game YAML read; game status: upcoming
   690 rows of game play found
   39 rows of point info play found
   player stat tables include 15 for sfoDF and 19 for pdxST
+  writing player stats to file
   ALERT point is missing time before and/or after:
         point: 32 clk_before: NA clk_after: NA
   ALERT point is missing time before and/or after:

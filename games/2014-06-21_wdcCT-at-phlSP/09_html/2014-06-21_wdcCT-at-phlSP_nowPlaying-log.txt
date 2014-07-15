@@ -4,6 +4,7 @@
   643 rows of game play found
   43 rows of point info play found
   player stat tables include 21 for wdcCT and 16 for phlSP
+  writing player stats to file
   scoring progression table has 43 rows
 [1] TRUE
 [1] TRUE

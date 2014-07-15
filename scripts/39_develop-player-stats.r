@@ -1,46 +1,39 @@
 #library(stringr)
 library(plyr)
 
-games <- list.files(file.path("..", "games"), pattern = "-at-")
-pass_files <- list.files(file.path("..", "games", games), recursive = TRUE,
-  full.names = TRUE, pattern = "passes.tsv")
-identical(seq_along(games), laply(games, function(gg) grep(gg, pass_files)))
-names(pass_files) <- games
-pass_dat <-
-  ldply(pass_files, function(gg) read.delim(gg,
-                           colClasses = list(beg_plyr = "character",
-                                             innards = "character",
-                                             end_plyr = "character")),
-                           .id = "game")
-str(pass_dat) # 16032 obs. of  15 variables
+# games <- list.files(file.path("..", "games"), pattern = "-at-")
+# pass_files <- list.files(file.path("..", "games", games), recursive = TRUE,
+#   full.names = TRUE, pattern = "passes.tsv")
+# identical(seq_along(games), laply(games, function(gg) grep(gg, pass_files)))
+# names(pass_files) <- games
+# pass_dat <-
+#   ldply(pass_files, function(gg) read.delim(gg,
+#                            colClasses = list(beg_plyr = "character",
+#                                              innards = "character",
+#                                              end_plyr = "character")),
+#                            .id = "game")
+#str(pass_dat) # 16032 obs. of  15 variables
 
-levels(pass_dat$game)
+game <- "2014-05-03_sfoDF-at-pdxST"
+new_stats <- file.path("..", "games", game, "07_pass-game",
+                       paste0(game, "_player-stats.tsv"))
+new_stats <- read.delim(new_stats)
+new_stats <- mutate(new_stats, player = paste(player, last, sep = "-"))
+str(new_stats)
+old_stats <- file.path("..", "games", game, "09_html",
+                       paste0(game, "_player-stats.tsv"))
+old_stats <- read.delim(old_stats)
+str(old_stats)
+names(old_stats) <- paste0(names(old_stats), rep(c('', '_old'), c(2, 4)))
+intersect(names(new_stats), names(old_stats))
+tmp <- join(old_stats, new_stats, by = c('game', 'player'))
+str(tmp) # 35 obs. of  18 variables:
+subset(tmp, points_old != points)
+subset(tmp, Ds_old != def)
+## sfoDF-13-Grant goals_old 0 goals 1 MLU says 1
 
-x <- subset(pass_dat, game == "2014-05-17_wdcCT-at-nykRM")
-str(x)
-the_plyr <- "wdcCT-99"
-y <- subset(x, beg_plyr == the_plyr | end_plyr == the_plyr)
-z <-
-  with(y,
-       data.frame(goals = sum(end_code == 'O-G' & end_plyr == the_plyr,
-                              na.rm = TRUE),
-                  assists = sum(end_code == 'O-G' & beg_plyr == the_plyr,
-                                na.rm = TRUE),
-                  throws = sum(beg_plyr == the_plyr & pclass != 'nopass'),
-                  completions = sum(beg_plyr == the_plyr & pclass == 'compl'),
-                  catches = sum(end_plyr == the_plyr & pclass == 'compl',
-                                na.rm = TRUE),
-                  def = sum(end_plyr == the_plyr & pclass == 'defd',
-                            na.rm = TRUE),
-                  drop = sum(beg_plyr == the_plyr & pclass == 'drop')))
-z <- mutate(z, points = goals + assists, comp_pct = completions / throws)
-vars_how_i_want <- c('points', 'comp_pct', 'goals', 'assists',
-                     'throws', 'completions', 'catches', 'def', 'drop')
-z <- z[vars_how_i_want]
-z
-## non-essential stats I could add later:
-## BE = bookend; player gets a D then scores goal later in same possession
-## double happiness is special case of BE, when it's very next throw
-## Callahans, Greatests (how would I even know about Greatests?)
-## all the stuff that relies on systematic processing of who's on the line:
-## points played (overal, on O, on D), plus/minus
+game_play <- read.delim(file.path("..", "games", game, "06_possess-game",
+                                  paste0(game, "_gameplay-resolved.tsv")))
+str(game_play)
+subset(game_play, pl_code %in% c("LG", "G") & pl_pnum == 13)
+with(game_play, pl_pnum[pl_code %in% c("LG", "G")])

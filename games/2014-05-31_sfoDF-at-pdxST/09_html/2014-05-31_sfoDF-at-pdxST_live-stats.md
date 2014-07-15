@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Sun Jul 13 00:00:49 2014
+#### last update Tue Jul 15 06:07:22 2014
 # sfoDF 15
 # pdxST 20
 ## game is upcoming -- any data here is fake and for set up purposes
@@ -94,6 +94,29 @@ stats are cumulative for this game
 |14 |sfoDF-10-Sugioka   |      1|     0|       1|  0|
 |15 |sfoDF-12-Bellinger |      1|     0|       1|  0|
 
+
+|   |player   |last          | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:-------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|1  |sfoDF-6  |Kim           |      6|     0.95|     2|       4|     22|          21|      24|   1|    1|
+|2  |sfoDF-16 |Yeager        |      4|     0.91|     1|       3|     47|          43|      40|   0|    1|
+|3  |sfoDF-88 |Kissmann      |      3|     0.96|     1|       2|     25|          24|      25|   0|    0|
+|4  |sfoDF-13 |Grant         |      2|     0.89|     2|       0|     19|          17|      21|   1|    1|
+|5  |sfoDF-21 |Stearns       |      2|     0.86|     2|       0|      7|           6|       9|   0|    1|
+|6  |sfoDF-46 |McCarty       |      2|     1.00|     2|       0|      9|           9|      11|   0|    0|
+|7  |sfoDF-85 |Brydon        |      2|     0.83|     1|       1|      6|           5|       7|   1|    0|
+|8  |sfoDF-8  |Pollard       |      2|     0.85|     1|       1|     39|          33|      26|   0|    3|
+|9  |sfoDF-5  |Cascino       |      1|     1.00|     1|       0|     10|          10|       9|   2|    0|
+|10 |sfoDF-18 |Weaver        |      1|     1.00|     1|       0|      6|           6|       7|   0|    0|
+|11 |sfoDF-19 |Weiss         |      1|     1.00|     1|       0|      9|           9|      10|   0|    0|
+|12 |sfoDF-11 |Lee           |      1|     1.00|     0|       1|      3|           3|       3|   2|    0|
+|13 |sfoDF-22 |Rivera        |      1|     1.00|     0|       1|      4|           4|       4|   1|    0|
+|14 |sfoDF-10 |Sugioka       |      1|     1.00|     0|       1|      3|           3|       2|   0|    0|
+|15 |sfoDF-12 |Bellinger     |      1|     0.76|     0|       1|     17|          13|      12|   0|    1|
+|16 |sfoDF-1  |Ranahan       |      0|     1.00|     0|       0|      7|           7|       5|   0|    0|
+|17 |sfoDF-17 |Boyd-Meredith |      0|     0.75|     0|       0|      8|           6|       7|   0|    1|
+|18 |sfoDF-25 |Dixon         |      0|     0.93|     0|       0|     14|          13|      12|   0|    0|
+|19 |sfoDF-57 |Meyer         |      0|     1.00|     0|       0|      7|           7|       5|   0|    0|
+
 ## Player stats for pdxST <a id="home"></a>:
 
 points = goals + assists  
@@ -123,6 +146,32 @@ stats are cumulative for this game
 |17 |pdxST-10-Strout      |      1|     0|       1|  0|
 |18 |pdxST-15-Thornton    |      1|     0|       1|  0|
 |19 |pdxST-5-Woodside     |      0|     0|       0|  1|
+
+
+|   |player   |last         | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|20 |pdxST-6  |Bjorklund    |      6|     0.94|     5|       1|     18|          17|      23|   0|    0|
+|21 |pdxST-16 |Burton       |      4|     0.90|     3|       1|     20|          18|      23|   0|    0|
+|22 |pdxST-7  |Friedman     |      4|     0.98|     0|       4|     50|          49|      40|   0|    0|
+|23 |pdxST-17 |Hayes        |      3|     1.00|     2|       1|      7|           7|       8|   0|    0|
+|24 |pdxST-11 |Kenton       |      3|     0.96|     1|       2|     24|          23|      21|   0|    0|
+|25 |pdxST-42 |Lohre        |      3|     1.00|     1|       2|     21|          21|      22|   0|    0|
+|26 |pdxST-2  |Allison-Hall |      2|     0.92|     2|       0|     13|          12|      15|   1|    1|
+|27 |pdxST-3  |Ferrea       |      2|     1.00|     1|       1|      3|           3|       3|   0|    0|
+|28 |pdxST-88 |Suppnick     |      2|     0.90|     0|       2|     20|          18|      15|   1|    0|
+|29 |pdxST-21 |McGinn       |      2|     1.00|     0|       2|     13|          13|      11|   0|    0|
+|30 |pdxST-24 |Norden       |      2|     0.92|     0|       2|     37|          34|      32|   0|    0|
+|31 |pdxST-14 |Adamson      |      1|     0.80|     1|       0|      5|           4|       5|   1|    0|
+|32 |pdxST-8  |Davis        |      1|     0.62|     1|       0|      8|           5|       9|   1|    0|
+|33 |pdxST-12 |Bui          |      1|     1.00|     1|       0|      4|           4|       5|   0|    0|
+|34 |pdxST-4  |Blackman     |      1|     1.00|     1|       0|      4|           4|       4|   0|    0|
+|35 |pdxST-73 |King         |      1|     1.00|     1|       0|     18|          18|      17|   0|    0|
+|36 |pdxST-10 |Strout       |      1|     0.94|     0|       1|     18|          17|      17|   0|    0|
+|37 |pdxST-15 |Thornton     |      1|     0.88|     0|       1|      8|           7|       6|   0|    0|
+|38 |pdxST-5  |Woodside     |      0|     1.00|     0|       0|      3|           3|       3|   1|    0|
+|39 |pdxST-1  |Cable        |      0|     1.00|     0|       0|      2|           2|       0|   0|    0|
+|40 |pdxST-20 |Beach-Rehner |      0|     0.80|     0|       0|      5|           4|       4|   0|    0|
+|41 |pdxST-22 |Cole         |      0|     0.89|     0|       0|      9|           8|       8|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 

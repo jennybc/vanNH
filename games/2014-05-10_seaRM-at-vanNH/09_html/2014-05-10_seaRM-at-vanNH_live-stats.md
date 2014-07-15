@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Sat Jul 12 13:37:09 2014
+#### last update Tue Jul 15 06:07:10 2014
 # seaRM 23
 # vanNH 29
 ## game is complete
@@ -109,6 +109,27 @@ stats are cumulative for this game
 |13 |seaRM-23-sliva     |      0|     0|       0|  2|
 |14 |seaRM-18-uhrig-fox |      0|     0|       0|  1|
 
+
+|   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:---------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|1  |seaRM-48 |clark     |     14|     0.89|    12|       2|      9|           8|      21|   1|    0|
+|2  |seaRM-20 |simon     |      7|     0.93|     0|       7|     55|          51|      41|   1|    0|
+|3  |seaRM-6  |trytiak   |      6|     0.82|     3|       3|     22|          18|      23|   0|    0|
+|4  |seaRM-99 |el-salaam |      6|     1.00|     3|       3|     15|          15|      18|   0|    0|
+|5  |seaRM-25 |rosatto   |      3|     0.92|     1|       2|     12|          11|      12|   0|    0|
+|6  |seaRM-29 |feeley    |      2|     0.92|     1|       1|     12|          11|      11|   0|    0|
+|7  |seaRM-1  |mckibben  |      2|     0.95|     0|       2|     40|          38|      31|   0|    0|
+|8  |seaRM-17 |zemel     |      2|     0.94|     0|       2|     36|          34|      30|   0|    0|
+|9  |seaRM-15 |beehner   |      1|     1.00|     1|       0|      3|           3|       3|   1|    0|
+|10 |seaRM-51 |entz      |      1|     0.50|     1|       0|      2|           1|       3|   0|    0|
+|11 |seaRM-8  |fong      |      1|     0.75|     1|       0|      4|           3|       5|   0|    1|
+|12 |seaRM-9  |harkness  |      1|     1.00|     0|       1|      5|           5|       5|   0|    0|
+|13 |seaRM-23 |sliva     |      0|     1.00|     0|       0|      3|           3|       2|   2|    0|
+|14 |seaRM-18 |uhrig-fox |      0|     0.50|     0|       0|      4|           2|       4|   1|    1|
+|15 |seaRM-14 |pickel    |      0|     0.92|     0|       0|     12|          11|       8|   0|    0|
+|16 |seaRM-21 |phan      |      0|     0.83|     0|       0|      6|           5|       5|   0|    0|
+|17 |seaRM-4  |schneider |      0|     1.00|     0|       0|      3|           3|       2|   0|    0|
+
 ## Player stats for vanNH <a id="home"></a>:
 
 points = goals + assists  
@@ -141,6 +162,33 @@ stats are cumulative for this game
 |20 |vanNH-89-underhill  |      1|     0|       1|  0|
 |21 |vanNH-24-yu         |      0|     0|       0|  4|
 |22 |vanNH-7-dandurand   |      0|     0|       0|  1|
+
+
+|   |player   |last       | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:----------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|18 |vanNH-72 |leduc      |      8|     1.00|     5|       3|      7|           7|      12|   0|    0|
+|19 |vanNH-98 |wong       |      7|     1.00|     5|       2|     13|          13|      17|   0|    0|
+|20 |vanNH-22 |berezan    |      7|     1.00|     4|       3|     17|          17|      21|   0|    0|
+|21 |vanNH-8  |hibbert    |      5|     1.00|     2|       3|     11|          11|      12|   1|    0|
+|22 |vanNH-21 |loach      |      5|     0.93|     1|       4|     28|          26|      29|   0|    0|
+|23 |vanNH-5  |norris     |      4|     1.00|     0|       4|     40|          40|      31|   0|    0|
+|24 |vanNH-10 |chatha     |      3|     0.82|     2|       1|     11|           9|      13|   0|    0|
+|25 |vanNH-91 |savage     |      3|     0.88|     1|       2|     24|          21|      20|   0|    2|
+|26 |vanNH-13 |tessarolo  |      2|     1.00|     2|       0|      1|           1|       3|   1|    0|
+|27 |vanNH-4  |doyle      |      2|       NA|     2|       0|      0|           0|       2|   1|    0|
+|28 |vanNH-27 |davis      |      2|     0.75|     2|       0|      4|           3|       5|   0|    0|
+|29 |vanNH-19 |knapp      |      2|     1.00|     1|       1|     30|          30|      21|   0|    0|
+|30 |vanNH-14 |eyrich     |      1|     0.50|     1|       0|      2|           1|       3|   1|    0|
+|31 |vanNH-37 |sinclair   |      1|       NA|     1|       0|      0|           0|       1|   0|    0|
+|32 |vanNH-18 |menzies    |      1|     0.78|     0|       1|      9|           7|       4|   0|    0|
+|33 |vanNH-31 |saito      |      1|     0.75|     0|       1|      4|           3|       4|   0|    0|
+|34 |vanNH-45 |cowan      |      1|     0.86|     0|       1|     14|          12|       8|   0|    0|
+|35 |vanNH-75 |bellavance |      1|     1.00|     0|       1|      5|           5|       5|   0|    0|
+|36 |vanNH-81 |tejpar     |      1|     0.75|     0|       1|      4|           3|       2|   0|    1|
+|37 |vanNH-89 |underhill  |      1|     0.96|     0|       1|     27|          26|      23|   0|    0|
+|38 |vanNH-24 |yu         |      0|     1.00|     0|       0|      3|           3|       3|   4|    0|
+|39 |vanNH-7  |dandurand  |      0|     1.00|     0|       0|      1|           1|       1|   1|    0|
+|40 |vanNH-33 |collins    |      0|     0.67|     0|       0|      3|           2|       1|   0|    1|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 

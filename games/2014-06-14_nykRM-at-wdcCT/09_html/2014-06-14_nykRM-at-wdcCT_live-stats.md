@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Sun Jul 13 15:00:51 2014
+#### last update Tue Jul 15 06:07:33 2014
 # nykRM 15
 # wdcCT 21
 ## game is complete
@@ -97,6 +97,30 @@ stats are cumulative for this game
 |16 |nykRM-89-mieser    |      0|     0|       0|  1|
 |17 |nykRM-9-walter     |      0|     0|       0|  1|
 
+
+|   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:---------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|1  |nykRM-6  |mazur     |      4|     0.88|     3|       1|     42|          37|      36|   1|    0|
+|2  |nykRM-1  |kuzmowycz |      4|     0.89|     1|       3|      9|           8|      10|   2|    0|
+|3  |nykRM-81 |murray    |      3|     1.00|     2|       1|      5|           5|       8|   1|    0|
+|4  |nykRM-18 |yz        |      3|     0.78|     2|       1|      9|           7|      11|   0|    0|
+|5  |nykRM-33 |herman    |      3|     0.83|     2|       1|      6|           5|       8|   0|    0|
+|6  |nykRM-14 |vuckovich |      3|     0.88|     1|       2|     17|          15|      18|   1|    0|
+|7  |nykRM-82 |brownlee  |      2|     1.00|     1|       1|      2|           2|       2|   1|    0|
+|8  |nykRM-19 |saul      |      2|     0.83|     0|       2|     30|          25|      23|   0|    0|
+|9  |nykRM-21 |anderson  |      2|     0.86|     0|       2|      7|           6|       7|   0|    0|
+|10 |nykRM-26 |bosco     |      1|     0.87|     1|       0|     15|          13|       8|   0|    0|
+|11 |nykRM-4  |hennessy  |      1|     0.92|     1|       0|     26|          24|      21|   0|    1|
+|12 |nykRM-47 |murphy    |      1|     0.87|     1|       0|     23|          20|      20|   0|    0|
+|13 |nykRM-15 |baum      |      1|     0.88|     0|       1|      8|           7|       5|   0|    0|
+|14 |nykRM-27 |wilson    |      0|     1.00|     0|       0|      9|           9|       7|   2|    0|
+|15 |nykRM-24 |glatt     |      0|     1.00|     0|       0|      5|           5|       5|   1|    0|
+|16 |nykRM-89 |mieser    |      0|     0.75|     0|       0|      4|           3|       4|   1|    0|
+|17 |nykRM-9  |walter    |      0|     0.86|     0|       0|      7|           6|       7|   1|    0|
+|18 |nykRM-44 |gillies   |      0|     1.00|     0|       0|      6|           6|       6|   0|    0|
+|19 |nykRM-45 |hard      |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|20 |nykRM-5  |sender    |      0|     1.00|     0|       0|      4|           4|       1|   0|    0|
+
 ## Player stats for wdcCT <a id="home"></a>:
 
 points = goals + assists  
@@ -129,6 +153,35 @@ stats are cumulative for this game
 |20 |wdcCT-7-boylan-kolchin |      1|     0|       1|  1|
 |21 |wdcCT-22-marshall      |      1|     0|       1|  0|
 |22 |wdcCT-61-salmi         |      0|     0|       0|  1|
+
+
+|   |player   |last           | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:--------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|21 |wdcCT-45 |wodatch        |      5|     1.00|     1|       4|     14|          14|      15|   0|    0|
+|22 |wdcCT-9  |doi            |      4|     1.00|     3|       1|      5|           5|       9|   0|    0|
+|23 |wdcCT-14 |blake          |      4|     0.90|     1|       3|     10|           9|       7|   0|    0|
+|24 |wdcCT-90 |shofner        |      3|     0.93|     2|       1|     14|          13|      13|   1|    0|
+|25 |wdcCT-32 |peters         |      3|     0.77|     1|       2|     13|          10|      10|   0|    1|
+|26 |wdcCT-4  |johnson        |      2|     1.00|     2|       0|      9|           9|       9|   3|    0|
+|27 |wdcCT-8  |prial          |      2|     0.88|     2|       0|     16|          14|      16|   2|    0|
+|28 |wdcCT-1  |kantor         |      2|     1.00|     1|       1|      4|           4|       3|   2|    0|
+|29 |wdcCT-2  |keegan         |      2|     0.91|     1|       1|     23|          21|      20|   0|    0|
+|30 |wdcCT-6  |gordon         |      2|     0.67|     1|       1|      3|           2|       4|   0|    0|
+|31 |wdcCT-20 |poole          |      2|     0.80|     0|       2|      5|           4|       5|   0|    0|
+|32 |wdcCT-99 |kolick         |      2|     0.88|     0|       2|     43|          38|      37|   0|    0|
+|33 |wdcCT-31 |cobb           |      1|     1.00|     1|       0|      2|           2|       2|   1|    0|
+|34 |wdcCT-17 |miner          |      1|     1.00|     1|       0|      1|           1|       2|   0|    0|
+|35 |wdcCT-21 |dulabon        |      1|     1.00|     1|       0|      3|           3|       4|   0|    0|
+|36 |wdcCT-27 |johnston       |      1|     1.00|     1|       0|      6|           6|       6|   0|    0|
+|37 |wdcCT-80 |grabowski      |      1|     1.00|     1|       0|      4|           4|       4|   0|    0|
+|38 |wdcCT-88 |oung           |      1|     0.93|     1|       0|     27|          25|      23|   0|    0|
+|39 |wdcCT-3  |fickley        |      1|     1.00|     0|       1|      7|           7|       4|   2|    0|
+|40 |wdcCT-7  |boylan-kolchin |      1|     0.71|     0|       1|      7|           5|       6|   1|    1|
+|41 |wdcCT-22 |marshall       |      1|     1.00|     0|       1|      3|           3|       3|   0|    0|
+|42 |wdcCT-61 |salmi          |      0|     1.00|     0|       0|     14|          14|      11|   1|    0|
+|43 |wdcCT-19 |maloney        |      0|     1.00|     0|       0|      3|           3|       3|   0|    0|
+|44 |wdcCT-23 |tsai           |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|45 |wdcCT-5  |cranston       |      0|     0.88|     0|       0|      8|           7|       7|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 

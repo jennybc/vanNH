@@ -4,6 +4,7 @@
   625 rows of game play found
   39 rows of point info play found
   player stat tables include 16 for bosWC and 20 for wdcCT
+  writing player stats to file
   scoring progression table has 39 rows
 [1] TRUE
 [1] TRUE

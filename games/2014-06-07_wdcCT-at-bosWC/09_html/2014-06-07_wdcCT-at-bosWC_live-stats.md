@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Sun Jul 13 14:43:58 2014
+#### last update Tue Jul 15 06:07:31 2014
 # wdcCT 21
 # bosWC 16
 ## game is complete
@@ -100,6 +100,34 @@ stats are cumulative for this game
 |18 |wdcCT-9-doi            |      1|     0|       1|  0|
 |19 |wdcCT-31-cobb          |      0|     0|       0|  2|
 
+
+|   |player   |last           | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:--------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|1  |wdcCT-8  |prial          |      6|     0.96|     3|       3|     27|          26|      31|   0|    0|
+|2  |wdcCT-45 |wodatch        |      4|     1.00|     3|       1|      9|           9|      12|   0|    0|
+|3  |wdcCT-90 |shofner        |      4|     0.88|     2|       2|     16|          14|      18|   1|    0|
+|4  |wdcCT-99 |kolick         |      4|     0.95|     0|       4|     38|          36|      33|   0|    0|
+|5  |wdcCT-2  |keegan         |      3|     0.91|     3|       0|     23|          21|      20|   0|    0|
+|6  |wdcCT-4  |johnson        |      3|     1.00|     1|       2|      8|           8|       9|   0|    0|
+|7  |wdcCT-80 |grabowski      |      3|     1.00|     1|       2|      3|           3|       4|   0|    0|
+|8  |wdcCT-7  |boylan-kolchin |      2|     1.00|     2|       0|      1|           1|       3|   0|    0|
+|9  |wdcCT-42 |gibson         |      2|     1.00|     1|       1|      3|           3|       2|   2|    0|
+|10 |wdcCT-88 |oung           |      2|     1.00|     1|       1|     15|          15|      12|   1|    0|
+|11 |wdcCT-1  |kantor         |      2|     0.75|     1|       1|      4|           3|       5|   0|    0|
+|12 |wdcCT-14 |blake          |      1|     0.95|     1|       0|     21|          20|      15|   0|    0|
+|13 |wdcCT-17 |miner          |      1|     1.00|     1|       0|      4|           4|       5|   0|    0|
+|14 |wdcCT-20 |poole          |      1|     1.00|     1|       0|      1|           1|       2|   0|    0|
+|15 |wdcCT-12 |bellinger      |      1|     1.00|     0|       1|      7|           7|       6|   1|    0|
+|16 |wdcCT-19 |maloney        |      1|     0.75|     0|       1|      4|           3|       4|   0|    0|
+|17 |wdcCT-24 |fleming        |      1|     1.00|     0|       1|      1|           1|       1|   0|    0|
+|18 |wdcCT-9  |doi            |      1|     1.00|     0|       1|     13|          13|      13|   0|    0|
+|19 |wdcCT-31 |cobb           |      0|       NA|     0|       0|      0|           0|       0|   2|    0|
+|20 |wdcCT-21 |dulabon        |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|21 |wdcCT-27 |johnston       |      0|     1.00|     0|       0|     11|          11|       5|   0|    0|
+|22 |wdcCT-32 |peters         |      0|     1.00|     0|       0|      5|           5|       4|   0|    0|
+|23 |wdcCT-5  |cranston       |      0|     0.80|     0|       0|      5|           4|       5|   0|    0|
+|24 |wdcCT-61 |salmi          |      0|     1.00|     0|       0|      5|           5|       4|   0|    0|
+
 ## Player stats for bosWC <a id="home"></a>:
 
 points = goals + assists  
@@ -128,6 +156,33 @@ stats are cumulative for this game
 |16 |bosWC-7-brecher       |      1|     0|       1|  0|
 |17 |bosWC-11-foster       |      0|     0|       0|  1|
 |18 |bosWC-43-hirschberger |      0|     0|       0|  1|
+
+
+|   |player   |last              | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:-----------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|25 |bosWC-1  |markette          |      5|     0.94|     0|       5|     17|          16|      16|   0|    0|
+|26 |bosWC-21 |graham            |      4|     1.00|     4|       0|     12|          12|      15|   0|    0|
+|27 |bosWC-17 |foster            |      4|     0.89|     3|       1|      9|           8|      12|   0|    0|
+|28 |bosWC-8  |cooper            |      3|     0.92|     1|       2|     13|          12|      10|   0|    0|
+|29 |bosWC-13 |malacek           |      3|     0.91|     0|       3|     33|          30|      21|   0|    1|
+|30 |bosWC-77 |clark             |      2|     0.93|     2|       0|     15|          14|      17|   0|    0|
+|31 |bosWC-4  |rebholz           |      2|     0.94|     1|       1|     33|          31|      29|   1|    0|
+|32 |bosWC-00 |taylor            |      1|     0.77|     1|       0|     13|          10|      12|   0|    1|
+|33 |bosWC-27 |hatchett          |      1|     1.00|     1|       0|      3|           3|       4|   0|    0|
+|34 |bosWC-29 |stevens           |      1|     1.00|     1|       0|      7|           7|       8|   0|    0|
+|35 |bosWC-3  |zid               |      1|     1.00|     1|       0|     10|          10|      11|   0|    0|
+|36 |bosWC-64 |farnsworth        |      1|     1.00|     1|       0|      3|           3|       4|   0|    0|
+|37 |bosWC-18 |browar-jarus      |      1|     0.88|     0|       1|      8|           7|       8|   1|    0|
+|38 |bosWC-10 |ingold-smith      |      1|     0.89|     0|       1|      9|           8|       9|   0|    0|
+|39 |bosWC-12 |simmons           |      1|     0.80|     0|       1|     10|           8|       9|   0|    0|
+|40 |bosWC-7  |brecher           |      1|     0.96|     0|       1|     23|          22|      20|   0|    0|
+|41 |bosWC-11 |foster            |      0|     0.83|     0|       0|      6|           5|       6|   1|    0|
+|42 |bosWC-43 |hirschberger      |      0|     1.00|     0|       0|      3|           3|       2|   1|    0|
+|43 |bosWC-14 |montgomery-butler |      0|     1.00|     0|       0|      9|           9|       6|   0|    0|
+|44 |bosWC-2  |reinhardt         |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|45 |bosWC-25 |mcdonnell         |      0|     1.00|     0|       0|      3|           3|       3|   0|    0|
+|46 |bosWC-6  |roth              |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
+|47 |bosWC-88 |meyers            |      0|     1.00|     0|       0|      7|           7|       6|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 

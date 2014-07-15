@@ -1,9 +1,10 @@
-2014-06-07_pdxST-at-sfoDF:
+2014-06-07_pdxST-at-sfoDF > 09_vanNH-nowPlaying.rmd:
   roster read for pdxST and sfoDF
   game YAML read; game status: upcoming
   634 rows of game play found
   33 rows of point info play found
   player stat tables include 16 for pdxST and 14 for sfoDF
+  writing player stats to file
   scoring progression table has 33 rows
 [1] TRUE
 [1] TRUE

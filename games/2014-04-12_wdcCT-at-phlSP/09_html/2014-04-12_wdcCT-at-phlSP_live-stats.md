@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Sun Jul 13 11:58:43 2014
+#### last update Tue Jul 15 06:06:47 2014
 # wdcCT 21
 # phlSP 18
 ## game is complete
@@ -103,6 +103,34 @@ stats are cumulative for this game
 |20 |wdcCT-5-cranston       |      0|     0|       0|  1|
 |21 |wdcCT-7-boylan-kolchin |      0|     0|       0|  1|
 
+
+|   |player   |last           | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:--------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|1  |wdcCT-8  |prial          |      6|     0.92|     4|       2|     12|          11|      16|   1|    1|
+|2  |wdcCT-32 |peters         |      5|     1.00|     3|       2|      9|           9|      11|   0|    0|
+|3  |wdcCT-99 |kolick         |      5|     0.96|     0|       5|     47|          45|      36|   1|    0|
+|4  |wdcCT-19 |maloney        |      3|     1.00|     3|       0|      2|           2|       5|   0|    0|
+|5  |wdcCT-9  |doi            |      3|     0.56|     2|       1|      9|           5|      11|   0|    3|
+|6  |wdcCT-2  |keegan         |      3|     0.83|     1|       2|     23|          19|      21|   0|    1|
+|7  |wdcCT-90 |shofner        |      3|     0.85|     1|       2|     26|          22|      21|   0|    0|
+|8  |wdcCT-23 |tsai           |      2|     0.77|     1|       1|     13|          10|      11|   1|    0|
+|9  |wdcCT-6  |gordon         |      2|     1.00|     1|       1|      1|           1|       2|   1|    0|
+|10 |wdcCT-22 |marshall       |      2|     0.67|     1|       1|      6|           4|       7|   0|    0|
+|11 |wdcCT-15 |castine        |      2|     0.92|     0|       2|     13|          12|       9|   1|    0|
+|12 |wdcCT-24 |fleming        |      1|       NA|     1|       0|      0|           0|       1|   1|    0|
+|13 |wdcCT-88 |oung           |      1|     1.00|     1|       0|     12|          12|       4|   1|    0|
+|14 |wdcCT-45 |wodatch        |      1|     1.00|     1|       0|      8|           8|       9|   0|    0|
+|15 |wdcCT-80 |grabowski      |      1|     1.00|     1|       0|      1|           1|       2|   0|    0|
+|16 |wdcCT-1  |kantor         |      1|     1.00|     0|       1|      4|           4|       4|   0|    0|
+|17 |wdcCT-27 |johnston       |      1|     0.88|     0|       1|      8|           7|       6|   0|    0|
+|18 |wdcCT-4  |johnson        |      0|     1.00|     0|       0|      5|           5|       4|   2|    0|
+|19 |wdcCT-12 |bellinger      |      0|     1.00|     0|       0|      8|           8|       6|   1|    0|
+|20 |wdcCT-5  |cranston       |      0|     0.89|     0|       0|      9|           8|       8|   1|    0|
+|21 |wdcCT-7  |boylan-kolchin |      0|     1.00|     0|       0|      2|           2|       2|   1|    0|
+|22 |wdcCT-21 |dulabon        |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|23 |wdcCT-25 |gordon         |      0|     1.00|     0|       0|      3|           3|       2|   0|    0|
+|24 |wdcCT-31 |cobb           |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
+
 ## Player stats for phlSP <a id="home"></a>:
 
 points = goals + assists  
@@ -129,6 +157,32 @@ stats are cumulative for this game
 |14 |phlSP-7-hirannet   |      1|     0|       1|  1|
 |15 |phlSP-13-brandolph |      1|     0|       1|  0|
 |16 |phlSP-31-lindsey   |      1|     0|       1|  0|
+
+
+|   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:---------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|25 |phlSP-11 |esser     |      3|     0.92|     3|       0|     12|          11|      15|   1|    0|
+|26 |phlSP-14 |glazer    |      3|     0.90|     3|       0|     10|           9|      13|   0|    0|
+|27 |phlSP-16 |shull     |      3|     0.85|     2|       1|     13|          11|      14|   1|    0|
+|28 |phlSP-32 |scharadin |      3|     1.00|     2|       1|     11|          11|      11|   1|    0|
+|29 |phlSP-9  |diviney   |      3|     1.00|     2|       1|      8|           8|      10|   1|    0|
+|30 |phlSP-27 |rainwater |      3|     1.00|     1|       2|     22|          22|      21|   2|    0|
+|31 |phlSP-21 |panna     |      3|     1.00|     1|       2|     23|          23|      17|   1|    0|
+|32 |phlSP-20 |baer      |      3|     0.89|     1|       2|     45|          40|      38|   0|    1|
+|33 |phlSP-71 |mcclellan |      3|     0.65|     1|       2|     17|          11|      13|   0|    1|
+|34 |phlSP-64 |brasz     |      2|     0.94|     0|       2|     18|          17|      14|   1|    0|
+|35 |phlSP-1  |peters    |      2|     0.92|     0|       2|     13|          12|      11|   0|    0|
+|36 |phlSP-22 |paparone  |      1|     1.00|     1|       0|      3|           3|       4|   2|    0|
+|37 |phlSP-6  |chou      |      1|     0.73|     1|       0|     11|           8|      11|   1|    0|
+|38 |phlSP-7  |hirannet  |      1|     0.87|     0|       1|     38|          33|      30|   1|    2|
+|39 |phlSP-13 |brandolph |      1|     0.89|     0|       1|     18|          16|      15|   0|    0|
+|40 |phlSP-31 |lindsey   |      1|     1.00|     0|       1|      4|           4|       4|   0|    0|
+|41 |phlSP-10 |casey     |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|42 |phlSP-12 |zumbrum   |      0|     1.00|     0|       0|      3|           3|       4|   0|    0|
+|43 |phlSP-2  |colton    |      0|     1.00|     0|       0|      3|           3|       1|   0|    0|
+|44 |phlSP-28 |baer      |      0|     1.00|     0|       0|      1|           1|       0|   0|    0|
+|45 |phlSP-41 |mathison  |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|46 |phlSP-88 |carter    |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 

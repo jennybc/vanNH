@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Sat Jul 12 13:36:45 2014
+#### last update Tue Jul 15 06:06:44 2014
 # vanNH 21
 # pdxST 23
 ## game is complete
@@ -103,6 +103,30 @@ stats are cumulative for this game
 |15 |vanNH-89-underhill  |      1|     0|       1|  1|
 |16 |vanNH-5-norris      |      1|     0|       1|  0|
 
+
+|   |player   |last       | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:----------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|1  |vanNH-22 |berezan    |      8|     0.94|     3|       5|     18|          17|      21|   1|    0|
+|2  |vanNH-98 |wong       |      7|     0.82|     5|       2|     11|           9|      16|   0|    1|
+|3  |vanNH-21 |loach      |      4|     0.80|     2|       2|     15|          12|      17|   0|    1|
+|4  |vanNH-10 |chatha     |      3|     1.00|     2|       1|      7|           7|       9|   0|    0|
+|5  |vanNH-8  |hibbert    |      3|     0.75|     0|       3|     12|           9|      12|   2|    1|
+|6  |vanNH-91 |savage     |      3|     1.00|     0|       3|     46|          46|      26|   1|    0|
+|7  |vanNH-72 |leduc      |      2|     1.00|     2|       0|      4|           4|       6|   0|    0|
+|8  |vanNH-81 |tejpar     |      2|     1.00|     1|       1|      7|           7|       8|   2|    0|
+|9  |vanNH-13 |tessarolo  |      2|     1.00|     1|       1|      1|           1|       2|   0|    0|
+|10 |vanNH-75 |bellavance |      2|     1.00|     1|       1|      5|           5|       5|   0|    0|
+|11 |vanNH-31 |saito      |      1|     0.83|     1|       0|      6|           5|       6|   1|    0|
+|12 |vanNH-33 |collins    |      1|     1.00|     1|       0|      5|           5|       4|   1|    0|
+|13 |vanNH-18 |menzies    |      1|     1.00|     1|       0|      9|           9|       8|   0|    0|
+|14 |vanNH-45 |cowan      |      1|     1.00|     1|       0|      4|           4|       4|   0|    0|
+|15 |vanNH-89 |underhill  |      1|     0.90|     0|       1|     30|          27|      25|   1|    1|
+|16 |vanNH-5  |norris     |      1|     0.84|     0|       1|     31|          26|      25|   0|    3|
+|17 |vanNH-24 |yu         |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
+|18 |vanNH-27 |davis      |      0|     1.00|     0|       0|      3|           3|       3|   0|    0|
+|19 |vanNH-37 |sinclair   |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
+|20 |vanNH-4  |doyle      |      0|     1.00|     0|       0|      3|           3|       2|   0|    0|
+
 ## Player stats for pdxST <a id="home"></a>:
 
 points = goals + assists  
@@ -129,6 +153,29 @@ stats are cumulative for this game
 |14 |pdxST-21-McGinn      |      1|     0|       1|  2|
 |15 |pdxST-8-Davis        |      1|     0|       1|  1|
 |16 |pdxST-22-Cole        |      0|     0|       0|  1|
+
+
+|   |player   |last         | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|21 |pdxST-13 |Perston      |     10|     0.88|     9|       1|     24|          21|      33|   0|    2|
+|22 |pdxST-7  |Friedman     |      6|     0.98|     2|       4|     55|          54|      40|   0|    0|
+|23 |pdxST-42 |Lohre        |      5|     0.93|     3|       2|     27|          25|      27|   0|    0|
+|24 |pdxST-16 |Burton       |      5|     0.90|     1|       4|     20|          18|      21|   0|    0|
+|25 |pdxST-6  |Bjorklund    |      4|     0.86|     2|       2|      7|           6|       8|   0|    0|
+|26 |pdxST-10 |Strout       |      3|     0.97|     1|       2|     31|          30|      31|   0|    1|
+|27 |pdxST-3  |Ferrea       |      2|     1.00|     2|       0|      2|           2|       3|   1|    0|
+|28 |pdxST-11 |Kenton       |      2|     0.94|     0|       2|     16|          15|      15|   0|    1|
+|29 |pdxST-24 |Norden       |      2|     0.98|     0|       2|     63|          62|      56|   0|    0|
+|30 |pdxST-88 |Suppnick     |      2|     0.82|     0|       2|     17|          14|      11|   0|    0|
+|31 |pdxST-17 |Hayes        |      1|     1.00|     1|       0|      3|           3|       4|   0|    0|
+|32 |pdxST-2  |Allison-Hall |      1|     0.89|     1|       0|     19|          17|      20|   0|    0|
+|33 |pdxST-4  |Blackman     |      1|     1.00|     1|       0|      7|           7|       8|   0|    0|
+|34 |pdxST-21 |McGinn       |      1|     1.00|     0|       1|     11|          11|       9|   2|    0|
+|35 |pdxST-8  |Davis        |      1|     1.00|     0|       1|      6|           6|       4|   1|    0|
+|36 |pdxST-22 |Cole         |      0|     1.00|     0|       0|      4|           4|       4|   1|    0|
+|37 |pdxST-14 |Adamson      |      0|     1.00|     0|       0|      4|           4|       4|   0|    0|
+|38 |pdxST-5  |Woodside     |      0|       NA|     0|       0|      0|           0|       1|   0|    0|
+|39 |pdxST-73 |King         |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 

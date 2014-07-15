@@ -4,6 +4,7 @@
   659 rows of game play found
   49 rows of point info play found
   player stat tables include 22 for wdcCT and 15 for nykRM
+  writing player stats to file
   ALERT point is missing time before and/or after:
         point: 1 clk_before: NA clk_after: NA
   ALERT point is missing time before and/or after:

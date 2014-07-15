@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Sun Jul 13 15:06:17 2014
+#### last update Tue Jul 15 06:07:43 2014
 # wdcCT 21
 # phlSP 19
 ## game is complete
@@ -104,6 +104,35 @@ stats are cumulative for this game
 |20 |wdcCT-12-bellinger     |      1|     0|       1|  0|
 |21 |wdcCT-23-tsai          |      0|     0|       0|  1|
 
+
+|   |player   |last           | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:--------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|1  |wdcCT-99 |kolick         |      5|     1.00|     3|       2|     18|          18|      14|   2|    0|
+|2  |wdcCT-90 |shofner        |      5|     0.77|     1|       4|     22|          17|      21|   2|    1|
+|3  |wdcCT-5  |cranston       |      4|     0.83|     2|       2|     12|          10|      14|   0|    0|
+|4  |wdcCT-61 |salmi          |      3|     0.93|     1|       2|     15|          14|      11|   0|    0|
+|5  |wdcCT-42 |gibson         |      2|     0.67|     2|       0|      3|           2|       4|   1|    0|
+|6  |wdcCT-1  |kantor         |      2|     1.00|     2|       0|      3|           3|       5|   0|    0|
+|7  |wdcCT-19 |maloney        |      2|     0.86|     1|       1|      7|           6|       7|   1|    0|
+|8  |wdcCT-2  |keegan         |      2|     1.00|     1|       1|     14|          14|      12|   0|    0|
+|9  |wdcCT-20 |poole          |      2|     1.00|     1|       1|      4|           4|       4|   0|    0|
+|10 |wdcCT-31 |cobb           |      2|     1.00|     1|       1|      4|           4|       5|   0|    0|
+|11 |wdcCT-9  |doi            |      2|     0.75|     1|       1|      4|           3|       5|   0|    1|
+|12 |wdcCT-14 |blake          |      2|     0.91|     0|       2|     11|          10|       9|   1|    0|
+|13 |wdcCT-3  |fickley        |      2|     0.83|     0|       2|     12|          10|       9|   0|    0|
+|14 |wdcCT-4  |johnson        |      1|     1.00|     1|       0|      3|           3|       4|   1|    0|
+|15 |wdcCT-45 |wodatch        |      1|     0.91|     1|       0|     11|          10|      12|   1|    0|
+|16 |wdcCT-17 |miner          |      1|     1.00|     1|       0|      9|           9|       9|   0|    0|
+|17 |wdcCT-7  |boylan-kolchin |      1|     1.00|     1|       0|      5|           5|       5|   0|    0|
+|18 |wdcCT-80 |grabowski      |      1|     0.83|     1|       0|      6|           5|       7|   0|    0|
+|19 |wdcCT-88 |oung           |      1|     0.94|     0|       1|     18|          17|       9|   3|    1|
+|20 |wdcCT-12 |bellinger      |      1|     0.75|     0|       1|     12|           9|       7|   0|    0|
+|21 |wdcCT-23 |tsai           |      0|     1.00|     0|       0|      9|           9|       8|   1|    0|
+|22 |wdcCT-21 |dulabon        |      0|     0.80|     0|       0|      5|           4|       4|   0|    0|
+|23 |wdcCT-25 |gordon         |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
+|24 |wdcCT-27 |johnston       |      0|     1.00|     0|       0|     14|          14|      14|   0|    0|
+|25 |wdcCT-6  |gordon         |      0|     0.75|     0|       0|      4|           3|       4|   0|    0|
+
 ## Player stats for phlSP <a id="home"></a>:
 
 points = goals + assists  
@@ -130,6 +159,30 @@ stats are cumulative for this game
 |14 |phlSP-64-brasz         |      1|     0|       1|  0|
 |15 |phlSP-6-chou           |      0|     0|       0|  2|
 |16 |phlSP-1-peters         |      0|     0|       0|  1|
+
+
+|   |player   |last          | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:-------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|26 |phlSP-3  |earles        |      8|     0.75|     4|       4|     24|          18|      23|   0|    2|
+|27 |phlSP-42 |ranii-dropcho |      6|     1.00|     2|       4|     20|          20|      21|   1|    0|
+|28 |phlSP-11 |esser         |      5|     1.00|     4|       1|     11|          11|      14|   1|    0|
+|29 |phlSP-76 |dillon        |      3|     1.00|     0|       3|     10|          10|       7|   0|    0|
+|30 |phlSP-16 |shull         |      2|     0.88|     2|       0|      8|           7|       9|   1|    0|
+|31 |phlSP-2  |colton        |      2|     0.92|     1|       1|     13|          12|      10|   1|    1|
+|32 |phlSP-22 |paparone      |      2|     1.00|     1|       1|      2|           2|       3|   0|    0|
+|33 |phlSP-23 |thorne        |      2|     0.91|     1|       1|     23|          21|      23|   0|    0|
+|34 |phlSP-25 |katzenbach    |      2|     0.95|     1|       1|     37|          35|      36|   0|    0|
+|35 |phlSP-13 |brandolph     |      2|     0.93|     0|       2|     45|          42|      37|   0|    0|
+|36 |phlSP-10 |casey         |      1|     1.00|     1|       0|      1|           1|       1|   0|    0|
+|37 |phlSP-31 |lindsey       |      1|     0.80|     1|       0|      5|           4|       5|   0|    0|
+|38 |phlSP-7  |hirannet      |      1|     0.92|     1|       0|     36|          33|      24|   0|    1|
+|39 |phlSP-64 |brasz         |      1|     1.00|     0|       1|     15|          15|      13|   0|    0|
+|40 |phlSP-6  |chou          |      0|     0.75|     0|       0|      4|           3|       4|   2|    0|
+|41 |phlSP-1  |peters        |      0|     0.75|     0|       0|      4|           3|       4|   1|    0|
+|42 |phlSP-14 |glazer        |      0|     0.94|     0|       0|     16|          15|      17|   0|    0|
+|43 |phlSP-33 |ward          |      0|     1.00|     0|       0|     11|          11|      10|   0|    0|
+|44 |phlSP-38 |wisch         |      0|     0.75|     0|       0|      8|           6|       8|   0|    0|
+|45 |phlSP-4  |damiano       |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 

@@ -4,6 +4,7 @@
   620 rows of game play found
   40 rows of point info play found
   player stat tables include 17 for nykRM and 22 for wdcCT
+  writing player stats to file
   scoring progression table has 40 rows
 [1] TRUE
 [1] TRUE

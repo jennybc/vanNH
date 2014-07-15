@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Sun Jul 13 00:05:15 2014
+#### last update Tue Jul 15 06:07:27 2014
 # pdxST 17
 # sfoDF 12
 ## game is upcoming -- any data here is fake and for set up purposes
@@ -89,6 +89,27 @@ stats are cumulative for this game
 |15 |pdxST-9-Hancock       |      1|     0|       1|  0|
 |16 |pdxST-15-Thornton     |      0|     0|       0|  1|
 
+
+|   |player   |last         | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|1  |pdxST-8  |Davis        |      4|     0.95|     3|       1|     20|          19|      23|   2|    0|
+|2  |pdxST-16 |Burton       |      4|     0.71|     2|       2|      7|           5|       9|   1|    2|
+|3  |pdxST-11 |Kenton       |      4|     1.00|     2|       2|     23|          23|      23|   0|    0|
+|4  |pdxST-42 |Lohre        |      4|     1.00|     2|       2|     21|          21|      23|   0|    0|
+|5  |pdxST-24 |Norden       |      3|     0.95|     0|       3|     42|          40|      31|   1|    1|
+|6  |pdxST-22 |Cole         |      2|     1.00|     2|       0|     17|          17|      16|   1|    0|
+|7  |pdxST-25 |Meinershagen |      2|     0.87|     2|       0|     15|          13|      17|   1|    0|
+|8  |pdxST-10 |Strout       |      2|     0.87|     1|       1|     23|          20|      22|   0|    1|
+|9  |pdxST-7  |Friedman     |      2|     0.97|     1|       1|     30|          29|      29|   0|    0|
+|10 |pdxST-21 |McGinn       |      2|     0.78|     0|       2|     32|          25|      20|   0|    0|
+|11 |pdxST-3  |Ferrea       |      1|     1.00|     1|       0|      8|           8|       7|   1|    0|
+|12 |pdxST-17 |Hayes        |      1|     1.00|     1|       0|      2|           2|       3|   0|    0|
+|13 |pdxST-2  |Allison-Hall |      1|     0.89|     0|       1|      9|           8|      10|   1|    0|
+|14 |pdxST-73 |King         |      1|     0.93|     0|       1|     27|          25|      22|   0|    0|
+|15 |pdxST-9  |Hancock      |      1|     1.00|     0|       1|      1|           1|       1|   0|    0|
+|16 |pdxST-15 |Thornton     |      0|     0.83|     0|       0|      6|           5|       6|   1|    0|
+|17 |pdxST-5  |Woodside     |      0|     1.00|     0|       0|      2|           2|       1|   0|    0|
+
 ## Player stats for sfoDF <a id="home"></a>:
 
 points = goals + assists  
@@ -113,6 +134,31 @@ stats are cumulative for this game
 |12 |sfoDF-16-Yeager   |      1|     0|       1|  0|
 |13 |sfoDF-19-Weiss    |      0|     0|       0|  1|
 |14 |sfoDF-7-Sheridan  |      0|     0|       0|  1|
+
+
+|   |player   |last          | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:-------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|18 |sfoDF-40 |Taylor        |      5|     0.75|     2|       3|     24|          18|      23|   0|    0|
+|19 |sfoDF-88 |Kissmann      |      4|     0.92|     3|       1|     12|          11|      14|   0|    0|
+|20 |sfoDF-34 |Boucher       |      3|     0.86|     1|       2|     14|          12|      14|   0|    0|
+|21 |sfoDF-6  |Kim           |      2|     1.00|     2|       0|     18|          18|      19|   2|    0|
+|22 |sfoDF-46 |McCarty       |      2|     0.83|     1|       1|      6|           5|       8|   0|    1|
+|23 |sfoDF-8  |Pollard       |      2|     0.90|     1|       1|     29|          26|      24|   0|    1|
+|24 |sfoDF-85 |Brydon        |      1|     1.00|     1|       0|      3|           3|       4|   1|    0|
+|25 |sfoDF-2  |Adamson       |      1|     1.00|     1|       0|      8|           8|       9|   0|    0|
+|26 |sfoDF-23 |Jeffery       |      1|     0.82|     0|       1|     11|           9|       7|   2|    0|
+|27 |sfoDF-13 |Grant         |      1|     0.92|     0|       1|     36|          33|      24|   1|    1|
+|28 |sfoDF-25 |Dixon         |      1|     1.00|     0|       1|      9|           9|       8|   1|    0|
+|29 |sfoDF-16 |Yeager        |      1|     0.91|     0|       1|     22|          20|      15|   0|    0|
+|30 |sfoDF-19 |Weiss         |      0|     0.86|     0|       0|      7|           6|       7|   1|    0|
+|31 |sfoDF-7  |Sheridan      |      0|     1.00|     0|       0|      1|           1|       1|   1|    0|
+|32 |sfoDF-1  |Ranahan       |      0|     0.85|     0|       0|     13|          11|       8|   0|    0|
+|33 |sfoDF-10 |Sugioka       |      0|     0.50|     0|       0|      4|           2|       4|   0|    1|
+|34 |sfoDF-11 |Lee           |      0|     0.78|     0|       0|      9|           7|       8|   0|    2|
+|35 |sfoDF-17 |Boyd-Meredith |      0|     1.00|     0|       0|      1|           1|       0|   0|    0|
+|36 |sfoDF-22 |Rivera        |      0|       NA|     0|       0|      0|           0|       1|   0|    0|
+|37 |sfoDF-24 |Caulfield     |      0|     0.86|     0|       0|      7|           6|       7|   0|    0|
+|38 |sfoDF-9  |Farren        |      0|     0.00|     0|       0|      1|           0|       1|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 

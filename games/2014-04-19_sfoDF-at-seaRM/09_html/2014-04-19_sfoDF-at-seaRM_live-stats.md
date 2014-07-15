@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Sat Jul 12 13:36:49 2014
+#### last update Tue Jul 15 06:06:51 2014
 # sfoDF 20
 # seaRM 21
 ## game is complete
@@ -105,6 +105,31 @@ stats are cumulative for this game
 |18 |sfoDF-25-Dixon         |      0|     0|       0|  1|
 |19 |sfoDF-8-Pollard        |      0|     0|       0|  1|
 
+
+|   |player   |last          | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:-------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|1  |sfoDF-34 |Boucher       |      7|     0.90|     2|       5|     39|          35|      33|   2|    1|
+|2  |sfoDF-24 |Caulfield     |      6|     1.00|     5|       1|     12|          12|      15|   1|    0|
+|3  |sfoDF-11 |Lee           |      4|     0.87|     3|       1|     23|          20|      17|   1|    0|
+|4  |sfoDF-83 |Husak         |      4|     0.70|     3|       1|     20|          14|      18|   0|    0|
+|5  |sfoDF-57 |Meyer         |      4|     0.86|     1|       3|     14|          12|      14|   0|    1|
+|6  |sfoDF-19 |Weiss         |      3|     1.00|     1|       2|      8|           8|       9|   0|    0|
+|7  |sfoDF-46 |McCarty       |      2|     1.00|     2|       0|      3|           3|       5|   1|    0|
+|8  |sfoDF-18 |Weaver        |      2|     0.78|     1|       1|      9|           7|       9|   0|    2|
+|9  |sfoDF-17 |Boyd-Meredith |      2|     1.00|     0|       2|      4|           4|       2|   0|    0|
+|10 |sfoDF-1  |Ranahan       |      1|     0.71|     1|       0|      7|           5|       5|   1|    2|
+|11 |sfoDF-37 |Hart          |      1|       NA|     1|       0|      0|           0|       1|   0|    0|
+|12 |sfoDF-21 |Stearns       |      1|     0.75|     0|       1|      8|           6|       8|   1|    1|
+|13 |sfoDF-14 |Hurst         |      1|     0.85|     0|       1|     20|          17|      16|   0|    0|
+|14 |sfoDF-7  |Sheridan      |      1|     1.00|     0|       1|      1|           1|       1|   0|    0|
+|15 |sfoDF-88 |Kissmann      |      1|     0.90|     0|       1|     21|          19|      16|   0|    0|
+|16 |sfoDF-85 |Brydon        |      0|     1.00|     0|       0|      5|           5|       6|   3|    0|
+|17 |sfoDF-12 |Bellinger     |      0|     0.80|     0|       0|      5|           4|       4|   1|    0|
+|18 |sfoDF-25 |Dixon         |      0|     0.50|     0|       0|      4|           2|       3|   1|    1|
+|19 |sfoDF-8  |Pollard       |      0|     0.87|     0|       0|     23|          20|      16|   1|    0|
+|20 |sfoDF-16 |Yeager        |      0|     1.00|     0|       0|      6|           6|       3|   0|    0|
+|21 |sfoDF-2  |Adamson       |      0|     1.00|     0|       0|      2|           2|       1|   0|    0|
+
 ## Player stats for seaRM <a id="home"></a>:
 
 points = goals + assists  
@@ -130,6 +155,28 @@ stats are cumulative for this game
 |13 |seaRM-21-phan      |      1|     0|       1|  3|
 |14 |seaRM-13-sewell    |      1|     0|       1|  1|
 |15 |seaRM-00-rupp      |      0|     0|       0|  1|
+
+
+|   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:---------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|22 |seaRM-6  |trytiak   |      8|     0.86|     5|       3|     14|          12|      18|   1|    0|
+|23 |seaRM-25 |rosatto   |      7|     0.92|     3|       4|     12|          11|      11|   1|    0|
+|24 |seaRM-17 |zemel     |      6|     0.94|     1|       5|     31|          29|      23|   0|    0|
+|25 |seaRM-99 |el-salaam |      5|     0.86|     4|       1|     14|          12|      18|   0|    0|
+|26 |seaRM-12 |gallagher |      2|     0.33|     2|       0|      3|           1|       5|   2|    1|
+|27 |seaRM-24 |duffel    |      2|     0.80|     2|       0|      5|           4|       8|   1|    0|
+|28 |seaRM-23 |sliva     |      2|     0.88|     1|       1|      8|           7|       8|   1|    0|
+|29 |seaRM-20 |simon     |      2|     0.85|     1|       1|     52|          44|      40|   0|    3|
+|30 |seaRM-29 |feeley    |      2|     0.81|     0|       2|     21|          17|      14|   2|    1|
+|31 |seaRM-5  |chu       |      2|     1.00|     0|       2|      9|           9|      10|   0|    0|
+|32 |seaRM-51 |entz      |      1|     0.88|     1|       0|      8|           7|       9|   1|    0|
+|33 |seaRM-18 |uhrig-fox |      1|     0.75|     1|       0|      4|           3|       5|   0|    1|
+|34 |seaRM-21 |phan      |      1|     0.88|     0|       1|     16|          14|      11|   3|    0|
+|35 |seaRM-13 |sewell    |      1|     1.00|     0|       1|      6|           6|       3|   1|    0|
+|36 |seaRM-00 |rupp      |      0|     0.96|     0|       0|     28|          27|      19|   1|    0|
+|37 |seaRM-15 |beehner   |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
+|38 |seaRM-16 |hooper    |      0|     0.00|     0|       0|      1|           0|       1|   0|    0|
+|39 |seaRM-2  |bubernak  |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 

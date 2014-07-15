@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Sat Jul 12 23:37:12 2014
+#### last update Tue Jul 15 06:07:12 2014
 # seaRM 25
 # pdxST 23
 ## game is complete
@@ -109,6 +109,36 @@ stats are cumulative for this game
 |17 |seaRM-28-linn      |      0|     0|       0|  2|
 |18 |seaRM-15-beehner   |      0|     0|       0|  1|
 
+
+|   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:---------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|1  |seaRM-48 |clark     |      7|     0.91|     5|       2|     11|          10|      15|   1|    0|
+|2  |seaRM-6  |trytiak   |      6|     0.87|     1|       5|     23|          20|      25|   0|    0|
+|3  |seaRM-20 |simon     |      5|     0.98|     2|       3|     44|          43|      39|   0|    0|
+|4  |seaRM-18 |uhrig-fox |      4|     0.80|     4|       0|      5|           4|       9|   0|    0|
+|5  |seaRM-8  |fong      |      3|     1.00|     2|       1|      2|           2|       4|   0|    0|
+|6  |seaRM-99 |el-salaam |      3|     0.89|     1|       2|     19|          17|      21|   1|    0|
+|7  |seaRM-17 |zemel     |      3|     1.00|     1|       2|     21|          21|      15|   0|    0|
+|8  |seaRM-21 |phan      |      3|     1.00|     0|       3|     10|          10|       7|   0|    0|
+|9  |seaRM-35 |koss      |      3|     0.83|     0|       3|     12|          10|       8|   0|    0|
+|10 |seaRM-23 |sliva     |      2|     1.00|     2|       0|      6|           6|       8|   1|    0|
+|11 |seaRM-12 |gallagher |      2|       NA|     2|       0|      0|           0|       2|   0|    0|
+|12 |seaRM-25 |rosatto   |      2|     0.67|     2|       0|      3|           2|       6|   0|    0|
+|13 |seaRM-1  |mckibben  |      2|     1.00|     1|       1|     30|          30|      17|   0|    0|
+|14 |seaRM-5  |chu       |      2|     1.00|     1|       1|      9|           9|      10|   0|    0|
+|15 |seaRM-29 |feeley    |      2|     0.96|     0|       2|     24|          23|      18|   0|    0|
+|16 |seaRM-9  |harkness  |      1|     1.00|     1|       0|      7|           7|       8|   0|    0|
+|17 |seaRM-28 |linn      |      0|     1.00|     0|       0|      2|           2|       2|   2|    0|
+|18 |seaRM-15 |beehner   |      0|     1.00|     0|       0|      2|           2|       3|   1|    0|
+|19 |seaRM-00 |rupp      |      0|     1.00|     0|       0|      5|           5|       4|   0|    0|
+|20 |seaRM-13 |sewell    |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
+|21 |seaRM-2  |bubernak  |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|22 |seaRM-24 |duffel    |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|23 |seaRM-3  |o'brien   |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|24 |seaRM-4  |schneider |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|25 |seaRM-51 |entz      |      0|     0.50|     0|       0|      4|           2|       4|   0|    0|
+|26 |seaRM-7  |cooper    |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+
 ## Player stats for pdxST <a id="home"></a>:
 
 points = goals + assists  
@@ -135,6 +165,29 @@ stats are cumulative for this game
 |14 |pdxST-9-Hancock      |      1|     1|       0|  0|
 |15 |pdxST-3-Ferrea       |      0|     0|       0|  1|
 |16 |pdxST-4-Blackman     |      0|     0|       0|  1|
+
+
+|   |player   |last         | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|27 |pdxST-6  |Bjorklund    |      9|     0.86|     4|       5|     22|          19|      27|   1|    0|
+|28 |pdxST-7  |Friedman     |      6|     0.96|     4|       2|     27|          26|      30|   1|    0|
+|29 |pdxST-16 |Burton       |      5|     1.00|     2|       3|      6|           6|       7|   0|    0|
+|30 |pdxST-2  |Allison-Hall |      4|     1.00|     4|       0|     14|          14|      18|   0|    0|
+|31 |pdxST-88 |Suppnick     |      4|     0.94|     0|       4|     17|          16|      10|   1|    0|
+|32 |pdxST-24 |Norden       |      4|     0.92|     0|       4|     51|          47|      40|   0|    0|
+|33 |pdxST-10 |Strout       |      3|     0.95|     2|       1|     40|          38|      39|   1|    0|
+|34 |pdxST-17 |Hayes        |      3|     1.00|     2|       1|      4|           4|       6|   0|    0|
+|35 |pdxST-8  |Davis        |      2|     0.84|     1|       1|     19|          16|      17|   1|    0|
+|36 |pdxST-11 |Kenton       |      2|     0.97|     0|       2|     39|          38|      30|   0|    0|
+|37 |pdxST-5  |Woodside     |      1|       NA|     1|       0|      0|           0|       1|   1|    0|
+|38 |pdxST-21 |McGinn       |      1|     0.90|     1|       0|     10|           9|       9|   0|    0|
+|39 |pdxST-73 |King         |      1|     1.00|     1|       0|     10|          10|       8|   0|    0|
+|40 |pdxST-9  |Hancock      |      1|     1.00|     1|       0|      2|           2|       1|   0|    0|
+|41 |pdxST-3  |Ferrea       |      0|     1.00|     0|       0|      1|           1|       1|   1|    0|
+|42 |pdxST-4  |Blackman     |      0|     1.00|     0|       0|      1|           1|       1|   1|    0|
+|43 |pdxST-14 |Adamson      |      0|     0.00|     0|       0|      1|           0|       1|   0|    0|
+|44 |pdxST-22 |Cole         |      0|     1.00|     0|       0|      7|           7|       7|   0|    0|
+|45 |pdxST-25 |Meinershagen |      0|     0.83|     0|       0|     12|          10|      11|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 
