@@ -33,13 +33,14 @@ game_play <- read.delim(in_file, stringsAsFactors = FALSE,
                         colClasses = list(pull_pnum = "character",
                                           recv_pnum = "character"))
 #str(game_play)
-message(game, ":\n  ", nrow(game_play), " rows of clean game play found")
+message(game, " > 05_sanity-check-game-play.r:\n  ", nrow(game_play),
+        " rows of clean game play found")
 
 ## detect pulls with no valid pull code
 pull_codes <- c('P', 'OBP')
 no_explicit_pull <- with(game_play, event == 1 & !(pull_code %in% pull_codes))
 if(any(no_explicit_pull)) {
-  message("\nALERT: point(s) with NO explicit pull code (P, OBP)")
+  message("\n  ALERT: point(s) with NO explicit pull code (P, OBP)")
   game_play[no_explicit_pull, ]
 }
 
@@ -47,7 +48,7 @@ if(any(no_explicit_pull)) {
 pickup_codes <- c('PU', 'PUA')
 no_explicit_pu <- with(game_play, event == 2 & !(recv_code %in% pickup_codes))
 if(any(no_explicit_pu)) {
-  message("\nALERT: point(s) with NO explicit pickup (PU, PUA) off the pull")
+  message("\n  ALERT: point(s) with NO explicit pickup (PU, PUA) off the pull")
   game_play[no_explicit_pu, ]
 }
 
