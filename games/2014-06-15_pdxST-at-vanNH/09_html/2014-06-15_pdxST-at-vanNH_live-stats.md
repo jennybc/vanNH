@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 13:37:53 2014
+#### last update Tue Jul 15 14:20:41 2014
 # pdxST 18
 # vanNH 20
 ## game is complete
@@ -115,10 +115,11 @@ stats are cumulative for this game
 |12 |pdxST-7  |Friedman     |      1|     0.96|     1|       0|     28|          27|      24|   1|    0|
 |13 |pdxST-73 |King         |      1|     0.93|     0|       1|     46|          43|      39|   0|    0|
 |14 |pdxST-88 |Suppnick     |      1|     0.83|     0|       1|     12|          10|       9|   0|    1|
-|15 |pdxST-12 |Bui          |      0|       NA|     0|       0|      0|           0|       0|   1|    0|
-|16 |pdxST-4  |Blackman     |      0|     1.00|     0|       0|      2|           2|       1|   1|    0|
-|17 |pdxST-1  |Cable        |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
-|18 |pdxST-14 |Adamson      |      0|       NA|     0|       0|      0|           0|       0|   0|    0|
+|15 |pdxST-?  |?name?       |      0|     0.80|     0|       0|      5|           4|       3|   1|    1|
+|16 |pdxST-12 |Bui          |      0|       NA|     0|       0|      0|           0|       0|   1|    0|
+|17 |pdxST-4  |Blackman     |      0|     1.00|     0|       0|      2|           2|       1|   1|    0|
+|18 |pdxST-1  |Cable        |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|19 |pdxST-14 |Adamson      |      0|       NA|     0|       0|      0|           0|       0|   0|    0|
 
 ## Player stats for vanNH <a id="home"></a>:
 
@@ -149,24 +150,25 @@ stats are cumulative for this game
 
 |   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
 |:--|:--------|:---------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
-|19 |vanNH-98 |wong      |      7|     0.92|     7|       0|     13|          12|      20|   1|    0|
-|20 |vanNH-5  |norris    |      7|     0.93|     2|       5|     46|          43|      33|   0|    0|
-|21 |vanNH-89 |underhill |      5|     0.98|     0|       5|     45|          44|      32|   0|    0|
-|22 |vanNH-22 |berezan   |      3|     0.87|     2|       1|     15|          13|      17|   0|    1|
-|23 |vanNH-21 |loach     |      3|     0.82|     1|       2|     17|          14|      17|   1|    0|
-|24 |vanNH-8  |hibbert   |      3|     0.92|     1|       2|     12|          11|      12|   1|    0|
-|25 |vanNH-10 |chatha    |      2|     0.89|     2|       0|     18|          16|      20|   0|    0|
-|26 |vanNH-4  |doyle     |      2|     0.67|     1|       1|      3|           2|       2|   1|    1|
-|27 |vanNH-72 |leduc     |      2|     0.75|     1|       1|      8|           6|       9|   0|    0|
-|28 |vanNH-11 |greer     |      2|     1.00|     0|       2|      7|           7|       6|   1|    0|
-|29 |vanNH-24 |yu        |      1|     0.75|     1|       0|      4|           3|       3|   2|    0|
-|30 |vanNH-31 |saito     |      1|     1.00|     1|       0|      1|           1|       2|   0|    0|
-|31 |vanNH-81 |tejpar    |      1|       NA|     1|       0|      0|           0|       1|   0|    0|
-|32 |vanNH-45 |cowan     |      1|     1.00|     0|       1|      5|           5|       2|   0|    0|
-|33 |vanNH-14 |eyrich    |      0|       NA|     0|       0|      0|           0|       0|   1|    0|
-|34 |vanNH-13 |tessarolo |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
-|35 |vanNH-27 |davis     |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
-|36 |vanNH-7  |dandurand |      0|     1.00|     0|       0|      1|           1|       0|   0|    0|
+|20 |vanNH-98 |wong      |      7|     0.92|     7|       0|     13|          12|      20|   1|    0|
+|21 |vanNH-5  |norris    |      7|     0.93|     2|       5|     46|          43|      33|   0|    0|
+|22 |vanNH-89 |underhill |      5|     0.98|     0|       5|     45|          44|      32|   0|    0|
+|23 |vanNH-22 |berezan   |      3|     0.87|     2|       1|     15|          13|      17|   0|    1|
+|24 |vanNH-21 |loach     |      3|     0.82|     1|       2|     17|          14|      17|   1|    0|
+|25 |vanNH-8  |hibbert   |      3|     0.92|     1|       2|     12|          11|      12|   1|    0|
+|26 |vanNH-10 |chatha    |      2|     0.89|     2|       0|     18|          16|      20|   0|    0|
+|27 |vanNH-4  |doyle     |      2|     0.67|     1|       1|      3|           2|       2|   1|    1|
+|28 |vanNH-72 |leduc     |      2|     0.75|     1|       1|      8|           6|       9|   0|    0|
+|29 |vanNH-11 |greer     |      2|     1.00|     0|       2|      7|           7|       6|   1|    0|
+|30 |vanNH-24 |yu        |      1|     0.75|     1|       0|      4|           3|       3|   2|    0|
+|31 |vanNH-31 |saito     |      1|     1.00|     1|       0|      1|           1|       2|   0|    0|
+|32 |vanNH-81 |tejpar    |      1|       NA|     1|       0|      0|           0|       1|   0|    0|
+|33 |vanNH-45 |cowan     |      1|     1.00|     0|       1|      5|           5|       2|   0|    0|
+|34 |vanNH-14 |eyrich    |      0|       NA|     0|       0|      0|           0|       0|   1|    0|
+|35 |vanNH-?  |?name?    |      0|       NA|     0|       0|      0|           0|       2|   0|    0|
+|36 |vanNH-13 |tessarolo |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
+|37 |vanNH-27 |davis     |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|38 |vanNH-7  |dandurand |      0|     1.00|     0|       0|      1|           1|       0|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 

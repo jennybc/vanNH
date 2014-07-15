@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 13:37:04 2014
+#### last update Tue Jul 15 14:19:52 2014
 # sfoDF 20
 # seaRM 21
 ## game is complete

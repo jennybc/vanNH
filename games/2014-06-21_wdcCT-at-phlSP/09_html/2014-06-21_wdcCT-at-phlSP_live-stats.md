@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 13:37:59 2014
+#### last update Tue Jul 15 14:20:47 2014
 # wdcCT 21
 # phlSP 19
 ## game is complete
