@@ -22,7 +22,8 @@ if(!exists("game")) {
   #game <- "2014-06-07_seaRM-at-vanNH"
   #game <- "2014-06-15_pdxST-at-vanNH"
   #game <- "2014-04-12_seaRM-at-sfoDF"
-  game <- "2014-05-03_sfoDF-at-pdxST"
+  #game <- "2014-05-03_sfoDF-at-pdxST"
+  game <- "2014-04-26_vanNH-at-seaRM"
   #game <- "2014-06-14_pdxST-at-seaRM"
   #game <- "2014-04-19_bosWC-at-wdcCT"
   }
@@ -134,10 +135,13 @@ sDat$pl_lname <-
 ## this seems to be triggered by a plain ? ... check into this
 name_unknown <- is.na(sDat$pl_lname) & !is.na(sDat$pl_team)
 if(any(name_unknown)) {
+  name_unknown <- which(name_unknown)
   sDat$pl_lname[name_unknown] <- "?name?"
-  message("last name unknown for player(s) involved in these plays:")
-  sDat[name_unknown, ]
-}
+  message("  ALERT last name unknown for player(s) involved in these plays:")
+  message(with(sDat[name_unknown, ],
+               paste("  point", point, "event", event, "team", pl_team, "number",
+                     pl_pnum, "code", pl_code, collapse = "\n")))
+  }
 
 ## fuse pl_team and pl_lname for humans to read
 sDat$player <- with(sDat, factor(paste(pl_team, pl_pnum, pl_lname, sep = "-")))
