@@ -1,0 +1,6 @@
+2014-06-07_pdxST-at-sfoDF > 05_sanity-check-game-play.r:
+  634 rows of clean game play found
+
+  sanity checks of clean game play DONE
+  2014-07-14 22:41:05
+

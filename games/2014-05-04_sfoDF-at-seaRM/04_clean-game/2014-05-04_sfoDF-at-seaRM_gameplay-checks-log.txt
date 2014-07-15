@@ -1,0 +1,6 @@
+2014-05-04_sfoDF-at-seaRM > 05_sanity-check-game-play.r:
+  614 rows of clean game play found
+
+  sanity checks of clean game play DONE
+  2014-07-14 22:41:00
+

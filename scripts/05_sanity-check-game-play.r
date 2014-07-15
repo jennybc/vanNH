@@ -69,5 +69,5 @@ if(any(no_explicit_pu)) {
 ## TO DO?
 ## detect points with no explicit goal and make sure it's at end of a period
 
-message("\n  sanity checks of clean game play DONE")
+message("  sanity checks of clean game play DONE")
 message("  ", Sys.time(), "\n")
