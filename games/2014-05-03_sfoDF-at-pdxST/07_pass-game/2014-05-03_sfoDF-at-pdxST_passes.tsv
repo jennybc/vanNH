@@ -298,11 +298,11 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 38	3	19	31	32	ao	0	O-PU	pdxST-24		D-D	sfoDF-18	TRUE	defd
 39	4	19	33	34	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-18	TRUE	compl
 39	4	19	34	35	ao	0	O-CTH	sfoDF-18		O-G	sfoDF-2	TRUE	compl
-40	1	20	1	2	ao	0	O-PU	pdxST-11		O-CTH	pdxST-10	TRUE	compl
-40	1	20	2	2	an	-1	O-CTH	pdxST-10		NA	pdxST-10	TRUE	taway
-41	2	20	3	4	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-85	TRUE	compl
-41	2	20	4	5	ao	0	O-CTH	sfoDF-85		O-CTH	sfoDF-12	TRUE	compl
-41	2	20	5	6	ao	0	O-CTH	sfoDF-12		O-G	sfoDF-13	TRUE	compl
+40	1	20	2	3	ao	0	O-PU	pdxST-11		O-CTH	pdxST-10	TRUE	compl
+40	1	20	3	3	an	-1	O-CTH	pdxST-10		NA	pdxST-10	TRUE	taway
+41	2	20	4	5	ao	0	O-PU	sfoDF-16		O-CTH	sfoDF-85	TRUE	compl
+41	2	20	5	6	ao	0	O-CTH	sfoDF-85		O-CTH	sfoDF-12	TRUE	compl
+41	2	20	6	7	ao	0	O-CTH	sfoDF-12		O-G	sfoDF-13	TRUE	compl
 42	1	21	2	3	ao	0	O-PU	pdxST-88		O-CTH	pdxST-21	TRUE	compl
 42	1	21	3	4	ao	0	O-CTH	pdxST-21		O-CTH	pdxST-88	TRUE	compl
 42	1	21	4	5	ao	0	O-CTH	pdxST-88		O-CTH	pdxST-6	TRUE	compl

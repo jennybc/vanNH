@@ -105,14 +105,15 @@ point	Offense	Defense
 7		61p
 7	20PU	
 7	25lg	
-8	2pu	NA
-8	99	NA
-8	8	NA
-8	88	NA
-8	5	NA
-8	99	NA
-8	88	NA
-8	5g	NA
+8		?P
+8	2pu	
+8	99	
+8	8	
+8	88	
+8	5	
+8	99	
+8	88	
+8	5g	
 9		15obp
 9	7PU	
 9	20	
@@ -140,7 +141,7 @@ point	Offense	Defense
 12	9	
 12	99g	
 13		2p
-13	7	
+13	7PU	
 13	20	
 13	7	
 13	25	

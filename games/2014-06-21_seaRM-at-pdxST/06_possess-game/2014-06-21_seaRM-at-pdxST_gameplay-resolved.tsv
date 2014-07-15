@@ -57,34 +57,36 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 1	1	pdxST	56	7	7	seaRM	seaRM	99	
 1	1	pdxST	57	7	7	seaRM	seaRM	5	A
 1	1	pdxST	58	7	7	seaRM	seaRM	21	LG
-1	2	pdxST	1	8	1	pdxST	pdxST	24	PU
-1	2	pdxST	2	8	1	pdxST	pdxST	21	
-1	2	pdxST	3	8	1	pdxST	pdxST	11	
-1	2	pdxST	4	8	1	pdxST	pdxST	17	
-1	2	pdxST	5	8	1	pdxST	pdxST	21	
-1	2	pdxST	6	8	1	pdxST	pdxST	2	
-1	2	pdxST	7	8	1	pdxST	pdxST	6	
-1	2	pdxST	8	9	2	seaRM	seaRM	24	PU
-1	2	pdxST	9	10	3	pdxST	pdxST	11	PU
-1	2	pdxST	10	10	3	pdxST	pdxST	2	TD
-1	2	pdxST	11	11	4	seaRM	seaRM	29	PUA
-1	2	pdxST	12	11	4	seaRM	seaRM	12	G
-1	3	pdxST	1	12	1	pdxST	pdxST	10	PU
-1	3	pdxST	2	12	1	pdxST	pdxST	9	
-1	3	pdxST	3	12	1	pdxST	pdxST	15	
-1	3	pdxST	4	12	1	pdxST	pdxST	42	
-1	3	pdxST	5	13	2	seaRM	seaRM	29	PU
-1	3	pdxST	6	13	2	seaRM	seaRM	10	
-1	3	pdxST	7	13	2	seaRM	seaRM	29	
-1	3	pdxST	8	13	2	seaRM	seaRM	23	
-1	3	pdxST	9	13	2	seaRM	seaRM	4	
-1	3	pdxST	10	13	2	seaRM	seaRM	10	
-1	3	pdxST	11	13	2	seaRM	seaRM	15	
-1	3	pdxST	12	13	2	seaRM	seaRM	10	
-1	3	pdxST	13	14	3	pdxST	pdxST	15	PU
-1	3	pdxST	14	14	3	pdxST	pdxST	20	
-1	3	pdxST	15	14	3	pdxST	pdxST	10	A
-1	3	pdxST	16	14	3	pdxST	pdxST	1	G
+1	2	seaRM	1	8	1	pdxST	seaRM	?	P
+1	2	seaRM	2	8	1	pdxST	pdxST	24	PU
+1	2	seaRM	3	8	1	pdxST	pdxST	21	
+1	2	seaRM	4	8	1	pdxST	pdxST	11	
+1	2	seaRM	5	8	1	pdxST	pdxST	17	
+1	2	seaRM	6	8	1	pdxST	pdxST	21	
+1	2	seaRM	7	8	1	pdxST	pdxST	2	
+1	2	seaRM	8	8	1	pdxST	pdxST	6	
+1	2	seaRM	9	9	2	seaRM	seaRM	24	PU
+1	2	seaRM	10	10	3	pdxST	pdxST	11	PU
+1	2	seaRM	11	10	3	pdxST	pdxST	2	TD
+1	2	seaRM	12	11	4	seaRM	seaRM	29	PUA
+1	2	seaRM	13	11	4	seaRM	seaRM	12	G
+1	3	seaRM	1	12	1	pdxST	seaRM	?	P
+1	3	seaRM	2	12	1	pdxST	pdxST	10	PU
+1	3	seaRM	3	12	1	pdxST	pdxST	9	
+1	3	seaRM	4	12	1	pdxST	pdxST	15	
+1	3	seaRM	5	12	1	pdxST	pdxST	42	
+1	3	seaRM	6	13	2	seaRM	seaRM	29	PU
+1	3	seaRM	7	13	2	seaRM	seaRM	10	
+1	3	seaRM	8	13	2	seaRM	seaRM	29	
+1	3	seaRM	9	13	2	seaRM	seaRM	23	
+1	3	seaRM	10	13	2	seaRM	seaRM	4	
+1	3	seaRM	11	13	2	seaRM	seaRM	10	
+1	3	seaRM	12	13	2	seaRM	seaRM	15	
+1	3	seaRM	13	13	2	seaRM	seaRM	10	
+1	3	seaRM	14	14	3	pdxST	pdxST	15	PU
+1	3	seaRM	15	14	3	pdxST	pdxST	20	
+1	3	seaRM	16	14	3	pdxST	pdxST	10	A
+1	3	seaRM	17	14	3	pdxST	pdxST	1	G
 1	4	pdxST	1	15	1	seaRM	pdxST	24	P
 1	4	pdxST	2	15	1	seaRM	seaRM	1	PU
 1	4	pdxST	3	16	2	pdxST	pdxST	17	PU
@@ -139,22 +141,23 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 2	7	seaRM	6	23	1	pdxST	pdxST	24	
 2	7	seaRM	7	23	1	pdxST	pdxST	6	LA
 2	7	seaRM	8	23	1	pdxST	pdxST	16	G
-2	8	seaRM	1	24	1	seaRM	seaRM	00	PU
-2	8	seaRM	2	24	1	seaRM	seaRM	1	
-2	8	seaRM	3	24	1	seaRM	seaRM	99	
-2	8	seaRM	4	24	1	seaRM	seaRM	1	
-2	8	seaRM	5	24	1	seaRM	seaRM	5	
-2	8	seaRM	6	24	1	seaRM	seaRM	21	
-2	8	seaRM	7	24	1	seaRM	seaRM	00	
-2	8	seaRM	8	24	1	seaRM	seaRM	1	
-2	8	seaRM	9	24	1	seaRM	seaRM	00	
-2	8	seaRM	10	24	1	seaRM	seaRM	21	
-2	8	seaRM	11	24	1	seaRM	pdxST	20	D
-2	8	seaRM	12	25	2	pdxST	pdxST	10	PU
-2	8	seaRM	13	25	2	pdxST	pdxST	9	
-2	8	seaRM	14	25	2	pdxST	pdxST	42	
-2	8	seaRM	15	25	2	pdxST	pdxST	15	A
-2	8	seaRM	16	25	2	pdxST	pdxST	14	LG
+2	8	pdxST	1	24	1	seaRM	pdxST	?	P
+2	8	pdxST	2	24	1	seaRM	seaRM	00	PU
+2	8	pdxST	3	24	1	seaRM	seaRM	1	
+2	8	pdxST	4	24	1	seaRM	seaRM	99	
+2	8	pdxST	5	24	1	seaRM	seaRM	1	
+2	8	pdxST	6	24	1	seaRM	seaRM	5	
+2	8	pdxST	7	24	1	seaRM	seaRM	21	
+2	8	pdxST	8	24	1	seaRM	seaRM	00	
+2	8	pdxST	9	24	1	seaRM	seaRM	1	
+2	8	pdxST	10	24	1	seaRM	seaRM	00	
+2	8	pdxST	11	24	1	seaRM	seaRM	21	
+2	8	pdxST	12	24	1	seaRM	pdxST	20	D
+2	8	pdxST	13	25	2	pdxST	pdxST	10	PU
+2	8	pdxST	14	25	2	pdxST	pdxST	9	
+2	8	pdxST	15	25	2	pdxST	pdxST	42	
+2	8	pdxST	16	25	2	pdxST	pdxST	15	A
+2	8	pdxST	17	25	2	pdxST	pdxST	14	LG
 2	9	pdxST	1	26	1	seaRM	pdxST	24	P
 2	9	pdxST	2	26	1	seaRM	seaRM	00	PU
 2	9	pdxST	3	26	1	seaRM	seaRM	1	

@@ -6,7 +6,7 @@ point	period	clk_before	clk_after	pull_team	n_poss	scor_team	h_or_b	phlSP	wdcCT
 5	1	4:28:00	2:56:00	phlSP	4	phlSP	break	3	2
 6	1	2:56:00	2:46:00	phlSP	1	wdcCT	hold	3	3
 7	1	2:46:00	2:38:00	wdcCT	1	phlSP	hold	4	3
-8	1	2:38:00	2:16:00	phlSP	1	wdcCT	break	4	4
+8	1	2:38:00	2:16:00	phlSP	1	wdcCT	hold	4	4
 9	1	2:16:00	1:59:00	wdcCT	1	phlSP	hold	5	4
 10	1	1:59:00	1:17:00	phlSP	3	wdcCT	hold	5	5
 11	1	1:17:00	1:04:00	wdcCT	1	phlSP	hold	6	5

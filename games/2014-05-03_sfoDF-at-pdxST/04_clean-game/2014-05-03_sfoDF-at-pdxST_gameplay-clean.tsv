@@ -354,12 +354,13 @@ point	event	pull_pnum	pull_code	recv_pnum	recv_code
 19	33	16	PU		
 19	34	18			
 19	35	2	G		
-20	1			11	PU
-20	2			10	
-20	3	16	PU		
-20	4	85			
-20	5	12			
-20	6	13	G		
+20	1	?	P		
+20	2			11	PU
+20	3			10	
+20	4	16	PU		
+20	5	85			
+20	6	12			
+20	7	13	G		
 21	1	12	P		
 21	2			88	PU
 21	3			21	

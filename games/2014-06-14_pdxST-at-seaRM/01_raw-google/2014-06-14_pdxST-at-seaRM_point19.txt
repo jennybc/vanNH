@@ -3,7 +3,6 @@ Period: 3
 Clock before point: 7:45:00
 Clock after point: 4:30:00
 Offense	Defense
-	8P offsides
 	8P
 1PU	
 99	

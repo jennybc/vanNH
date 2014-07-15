@@ -17,7 +17,7 @@ point	period	clk_before	clk_after	pull_team	n_poss	scor_team	h_or_b	pdxST	seaRM
 16	3	10:00:00	8:53:00	seaRM	1	pdxST	hold	7	7
 17	3	8:53:00	8:27:00	pdxST	1	seaRM	hold	7	8
 18	3	8:27:00	7:45:00	seaRM	1	pdxST	hold	8	8
-19	3	7:45:00	4:30:00	pdxST	7	pdxST	break	9	8
+19	3	7:45:00	4:30:00	pdxST	6	pdxST	break	9	8
 20	3	4:30:00	3:47:00	pdxST	1	seaRM	hold	9	9
 21	3	3:47:00	3:30:00	seaRM	1	pdxST	hold	10	9
 22	3	3:30:00	3:06:00	pdxST	1	seaRM	hold	10	10

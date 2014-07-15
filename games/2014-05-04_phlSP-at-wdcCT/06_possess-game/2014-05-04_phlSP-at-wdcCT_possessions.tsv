@@ -15,7 +15,7 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 1	5	phlSP	22	14	4	phlSP	phlSP	10	G	9	FALSE	TRUE	phlSP	d_line	G	G
 1	6	phlSP	4	15	1	wdcCT	wdcCT	80	LG	4	TRUE	TRUE	wdcCT	o_line	G	G
 1	7	wdcCT	3	16	1	phlSP	phlSP	25	LG	3	TRUE	TRUE	phlSP	o_line	G	G
-1	8	wdcCT	8	17	1	wdcCT	wdcCT	5	G	8	FALSE	TRUE	wdcCT	d_line	G	G
+1	8	phlSP	9	17	1	wdcCT	wdcCT	5	G	9	FALSE	TRUE	wdcCT	o_line	G	G
 1	9	wdcCT	6	18	1	phlSP	phlSP	32	LG	6	TRUE	TRUE	phlSP	o_line	G	G
 1	10	phlSP	5	19	1	wdcCT	wdcCT	88	TA	5	FALSE	FALSE	NA	o_line	TA	off -
 1	10	phlSP	6	20	2	phlSP	phlSP	1	TA	1	FALSE	FALSE	NA	d_line	TA	off -

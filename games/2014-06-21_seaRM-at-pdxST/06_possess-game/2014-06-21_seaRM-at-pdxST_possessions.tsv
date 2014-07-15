@@ -6,13 +6,13 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 1	1	pdxST	26	5	5	seaRM	seaRM	21	TA	2	FALSE	FALSE	NA	o_line	TA	off -
 1	1	pdxST	36	6	6	pdxST	pdxST	73	TA	10	FALSE	FALSE	NA	d_line	TA	off -
 1	1	pdxST	58	7	7	seaRM	seaRM	21	LG	22	TRUE	TRUE	seaRM	o_line	G	G
-1	2	pdxST	7	8	1	pdxST	pdxST	6	TA	7	FALSE	FALSE	NA	d_line	TA	off -
-1	2	pdxST	8	9	2	seaRM	seaRM	24	TA	1	FALSE	FALSE	NA	o_line	TA	off -
-1	2	pdxST	10	10	3	pdxST	pdxST	2	TD	2	FALSE	FALSE	NA	d_line	TD	off -
-1	2	pdxST	12	11	4	seaRM	seaRM	12	G	2	FALSE	TRUE	seaRM	o_line	G	G
-1	3	pdxST	4	12	1	pdxST	pdxST	42	TA	4	FALSE	FALSE	NA	d_line	TA	off -
-1	3	pdxST	12	13	2	seaRM	seaRM	10	TA	8	FALSE	FALSE	NA	o_line	TA	off -
-1	3	pdxST	16	14	3	pdxST	pdxST	1	G	4	FALSE	TRUE	pdxST	d_line	G	G
+1	2	seaRM	8	8	1	pdxST	pdxST	6	TA	8	FALSE	FALSE	NA	o_line	TA	off -
+1	2	seaRM	9	9	2	seaRM	seaRM	24	TA	1	FALSE	FALSE	NA	d_line	TA	off -
+1	2	seaRM	11	10	3	pdxST	pdxST	2	TD	2	FALSE	FALSE	NA	o_line	TD	off -
+1	2	seaRM	13	11	4	seaRM	seaRM	12	G	2	FALSE	TRUE	seaRM	d_line	G	G
+1	3	seaRM	5	12	1	pdxST	pdxST	42	TA	5	FALSE	FALSE	NA	o_line	TA	off -
+1	3	seaRM	13	13	2	seaRM	seaRM	10	TA	8	FALSE	FALSE	NA	d_line	TA	off -
+1	3	seaRM	17	14	3	pdxST	pdxST	1	G	4	FALSE	TRUE	pdxST	o_line	G	G
 1	4	pdxST	2	15	1	seaRM	seaRM	1	TA	2	FALSE	FALSE	NA	o_line	TA	off -
 1	4	pdxST	11	16	2	pdxST	pdxST	11	G	9	TRUE	TRUE	pdxST	d_line	G	G
 1	5	pdxST	11	17	1	seaRM	pdxST	88	FB	11	FALSE	FALSE	NA	o_line	D	def +
@@ -22,8 +22,8 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 1	6	pdxST	9	21	1	seaRM	seaRM	23	TA	9	FALSE	FALSE	NA	o_line	TA	off -
 1	6	pdxST	10	22	2	pdxST	pdxST	24	eop	1	FALSE	FALSE	NA	d_line	eop	eop
 2	7	seaRM	8	23	1	pdxST	pdxST	16	G	8	TRUE	TRUE	pdxST	o_line	G	G
-2	8	seaRM	11	24	1	seaRM	pdxST	20	D	11	FALSE	FALSE	NA	d_line	D	def +
-2	8	seaRM	16	25	2	pdxST	pdxST	14	LG	5	TRUE	TRUE	pdxST	o_line	G	G
+2	8	pdxST	12	24	1	seaRM	pdxST	20	D	12	FALSE	FALSE	NA	o_line	D	def +
+2	8	pdxST	17	25	2	pdxST	pdxST	14	LG	5	TRUE	TRUE	pdxST	d_line	G	G
 2	9	pdxST	8	26	1	seaRM	seaRM	77	TA	8	FALSE	FALSE	NA	o_line	TA	off -
 2	9	pdxST	20	27	2	pdxST	seaRM	00	D	12	FALSE	FALSE	NA	d_line	D	def +
 2	9	pdxST	22	28	3	seaRM	pdxST	21	HB	2	FALSE	FALSE	NA	o_line	D	def +

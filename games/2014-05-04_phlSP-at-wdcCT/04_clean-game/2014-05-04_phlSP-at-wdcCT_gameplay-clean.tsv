@@ -107,14 +107,15 @@ point	event	pull_pnum	pull_code	recv_pnum	recv_code
 7	1	61	P		
 7	2			20	PU
 7	3			25	LG
-8	1			2	PU
-8	2			99	
-8	3			8	
-8	4			88	
-8	5			5	
-8	6			99	
-8	7			88	
-8	8			5	G
+8	1	?	P		
+8	2			2	PU
+8	3			99	
+8	4			8	
+8	5			88	
+8	6			5	
+8	7			99	
+8	8			88	
+8	9			5	G
 9	1	15	OBP		
 9	2			7	PU
 9	3			20	
@@ -142,7 +143,7 @@ point	event	pull_pnum	pull_code	recv_pnum	recv_code
 12	6			9	
 12	7			99	G
 13	1	2	P		
-13	2			7	
+13	2			7	PU
 13	3			20	
 13	4			7	
 13	5			25	

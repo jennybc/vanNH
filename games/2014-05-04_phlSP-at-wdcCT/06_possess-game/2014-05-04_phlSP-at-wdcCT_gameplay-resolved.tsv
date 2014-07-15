@@ -107,14 +107,15 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 1	7	wdcCT	1	16	1	phlSP	wdcCT	61	P
 1	7	wdcCT	2	16	1	phlSP	phlSP	20	PUA
 1	7	wdcCT	3	16	1	phlSP	phlSP	25	LG
-1	8	wdcCT	1	17	1	wdcCT	wdcCT	2	PU
-1	8	wdcCT	2	17	1	wdcCT	wdcCT	99	
-1	8	wdcCT	3	17	1	wdcCT	wdcCT	8	
-1	8	wdcCT	4	17	1	wdcCT	wdcCT	88	
-1	8	wdcCT	5	17	1	wdcCT	wdcCT	5	
-1	8	wdcCT	6	17	1	wdcCT	wdcCT	99	
-1	8	wdcCT	7	17	1	wdcCT	wdcCT	88	A
-1	8	wdcCT	8	17	1	wdcCT	wdcCT	5	G
+1	8	phlSP	1	17	1	wdcCT	phlSP	?	P
+1	8	phlSP	2	17	1	wdcCT	wdcCT	2	PU
+1	8	phlSP	3	17	1	wdcCT	wdcCT	99	
+1	8	phlSP	4	17	1	wdcCT	wdcCT	8	
+1	8	phlSP	5	17	1	wdcCT	wdcCT	88	
+1	8	phlSP	6	17	1	wdcCT	wdcCT	5	
+1	8	phlSP	7	17	1	wdcCT	wdcCT	99	
+1	8	phlSP	8	17	1	wdcCT	wdcCT	88	A
+1	8	phlSP	9	17	1	wdcCT	wdcCT	5	G
 1	9	wdcCT	1	18	1	phlSP	wdcCT	15	OBP
 1	9	wdcCT	2	18	1	phlSP	phlSP	7	PU
 1	9	wdcCT	3	18	1	phlSP	phlSP	20	
@@ -142,7 +143,7 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 1	12	phlSP	6	23	1	wdcCT	wdcCT	9	A
 1	12	phlSP	7	23	1	wdcCT	wdcCT	99	G
 1	13	wdcCT	1	24	1	phlSP	wdcCT	2	P
-1	13	wdcCT	2	24	1	phlSP	phlSP	7	
+1	13	wdcCT	2	24	1	phlSP	phlSP	7	PU
 1	13	wdcCT	3	24	1	phlSP	phlSP	20	
 1	13	wdcCT	4	24	1	phlSP	phlSP	7	
 1	13	wdcCT	5	24	1	phlSP	phlSP	25	

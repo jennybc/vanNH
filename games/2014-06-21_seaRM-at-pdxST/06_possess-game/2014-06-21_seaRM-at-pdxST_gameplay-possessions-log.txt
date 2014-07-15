@@ -1,11 +1,11 @@
-2014-06-21_seaRM-at-pdxST:
-  563 rows of clean game play found
+2014-06-21_seaRM-at-pdxST > 06_resolve-possessions.r:
+  566 rows of clean game play found
   28 rows of point info play found
-  possession established directly for 555/563 = 98.58% of game play events
-  after first infer, possession established for 563/563 = 100% of game play events
-  563 rows of resolved game play will be written
+  possession established directly for 558/566 = 98.59% of game play events
+  after first infer, possession established for 566/566 = 100% of game play events
+  566 rows of resolved game play will be written
   78 rows of possessions will be written
   28 resolved points to be written
   pdxST: 13 seaRM: 12
-  2014-07-13 11:12:29
+  2014-07-14 22:48:48
 

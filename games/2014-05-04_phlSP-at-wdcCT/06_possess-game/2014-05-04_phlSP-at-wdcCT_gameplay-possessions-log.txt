@@ -1,12 +1,11 @@
 2014-05-04_phlSP-at-wdcCT > 06_resolve-possessions.r:
-  666 rows of clean game play found
+  667 rows of clean game play found
   52 rows of point info play found
-The following `from` values were not present in `x`: pull_team
-  possession established directly for 660/666 = 99.1% of game play events
-  after first infer, possession established for 666/666 = 100% of game play events
-  666 rows of resolved game play will be written
+  possession established directly for 661/667 = 99.1% of game play events
+  after first infer, possession established for 667/667 = 100% of game play events
+  667 rows of resolved game play will be written
   99 rows of possessions will be written
   52 resolved points to be written
   phlSP: 23 wdcCT: 25
-  2014-07-13 13:36:45
+  2014-07-14 22:37:57
 

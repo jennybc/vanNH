@@ -1,5 +1,5 @@
 2014-06-14_pdxST-at-seaRM > 07_resolve-passes.r:
-  664 rows of resolved game play found
+  663 rows of resolved game play found
   551/551 rows of pass data are whitelisted (100.0%)
   breakdown of passes:
 
@@ -9,5 +9,5 @@
   551 rows of pass data will be written
   roster read for pdxST and seaRM
   writing player stats to file: 20 for pdxST, 21 for seaRM
-  2014-07-14 11:38:49
+  2014-07-14 22:45:47
 

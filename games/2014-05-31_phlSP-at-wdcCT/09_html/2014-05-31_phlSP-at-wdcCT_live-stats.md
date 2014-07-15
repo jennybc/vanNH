@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Sun Jul 13 14:21:04 2014
+#### last update Mon Jul 14 22:43:42 2014
 # phlSP 16
 # wdcCT 22
 ## game is complete
@@ -36,7 +36,7 @@ Go to ...
 |    37|4      |3:28:00  |3:17:00 |00:11       |phlSP-13-brandolph to phlSP-14-glazer      |13    |21    |
 |    36|4      |3:40:00  |3:28:00 |00:12       |wdcCT-2-keegan to wdcCT-45-wodatch         |12    |21    |
 |    35|4      |4:36:00  |3:40:00 |00:56       |phlSP-2-colton to phlSP-22-paparone        |12    |20    |
-|    34|4      |6:13:00  |4:36:00 |01:37       |- no goal -                                |11    |20    |
+|    34|4      |6:13:00  |4:36:00 |01:37       |wdcCT-42-gibson to wdcCT-19-maloney        |11    |20    |
 |    33|4      |7:01:00  |6:13:00 |00:48       |wdcCT-21-dulabon to wdcCT-25-gordon        |11    |19    |
 |    32|4      |7:53:00  |7:01:00 |00:52       |wdcCT-7-boylan-kolchin to wdcCT-19-maloney |11    |18    |
 |    31|4      |8:38:00  |7:53:00 |00:45       |wdcCT-32-peters to wdcCT-1-kantor          |11    |17    |
@@ -102,6 +102,34 @@ stats are cumulative for this game
 |19 |phlSP-4-damiano        |      1|     0|       1|  0|
 |20 |phlSP-23-thorne        |      0|     0|       0|  1|
 
+
+|   |player   |last          | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:-------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|1  |phlSP-25 |katzenbach    |      3|     0.87|     3|       0|     23|          20|      25|   0|    1|
+|2  |phlSP-11 |esser         |      3|     0.89|     2|       1|      9|           8|      11|   1|    0|
+|3  |phlSP-13 |brandolph     |      3|     0.97|     1|       2|     34|          33|      27|   0|    1|
+|4  |phlSP-7  |hirannet      |      3|     0.95|     0|       3|     44|          42|      36|   0|    0|
+|5  |phlSP-14 |glazer        |      2|     0.94|     2|       0|     16|          15|      18|   0|    0|
+|6  |phlSP-6  |chou          |      2|     0.75|     2|       0|      8|           6|       9|   0|    0|
+|7  |phlSP-2  |colton        |      2|     0.92|     1|       1|     13|          12|       9|   1|    1|
+|8  |phlSP-42 |ranii-dropcho |      2|     0.80|     1|       1|      5|           4|       5|   0|    1|
+|9  |phlSP-64 |brasz         |      2|     0.79|     0|       2|     19|          15|      17|   0|    0|
+|10 |phlSP-31 |lindsey       |      1|     1.00|     1|       0|      7|           7|       7|   3|    0|
+|11 |phlSP-22 |paparone      |      1|     1.00|     1|       0|      6|           6|       7|   1|    0|
+|12 |phlSP-10 |casey         |      1|     1.00|     1|       0|      4|           4|       5|   0|    0|
+|13 |phlSP-76 |dillon        |      1|     0.67|     1|       0|      6|           4|       6|   0|    1|
+|14 |phlSP-20 |baer          |      1|     0.89|     0|       1|     18|          16|      14|   2|    1|
+|15 |phlSP-28 |baer          |      1|     1.00|     0|       1|      3|           3|       3|   1|    0|
+|16 |phlSP-9  |diviney       |      1|     0.62|     0|       1|     13|           8|      12|   1|    2|
+|17 |phlSP-16 |shull         |      1|     1.00|     0|       1|     10|          10|      11|   0|    0|
+|18 |phlSP-38 |wisch         |      1|     1.00|     0|       1|      4|           4|       4|   0|    0|
+|19 |phlSP-4  |damiano       |      1|     1.00|     0|       1|     11|          11|       9|   0|    0|
+|20 |phlSP-23 |thorne        |      0|     1.00|     0|       0|      4|           4|       2|   1|    0|
+|21 |phlSP-21 |panna         |      0|     0.77|     0|       0|     13|          10|      11|   0|    0|
+|22 |phlSP-3  |earles        |      0|     0.86|     0|       0|      7|           6|       4|   0|    0|
+|23 |phlSP-33 |ward          |      0|     1.00|     0|       0|      9|           9|       5|   0|    0|
+|24 |phlSP-8  |furfari       |      0|     0.00|     0|       0|      1|           0|       0|   0|    0|
+
 ## Player stats for wdcCT <a id="home"></a>:
 
 points = goals + assists  
@@ -115,8 +143,8 @@ stats are cumulative for this game
 |1  |wdcCT-99-kolick        |      5|     2|       3|  1|
 |2  |wdcCT-90-shofner       |      5|     0|       5|  0|
 |3  |wdcCT-8-prial          |      4|     2|       2|  1|
-|4  |wdcCT-5-cranston       |      3|     3|       0|  1|
-|5  |wdcCT-19-maloney       |      3|     1|       2|  0|
+|4  |wdcCT-19-maloney       |      4|     2|       2|  0|
+|5  |wdcCT-5-cranston       |      3|     3|       0|  1|
 |6  |wdcCT-61-salmi         |      3|     1|       2|  0|
 |7  |wdcCT-45-wodatch       |      2|     2|       0|  1|
 |8  |wdcCT-1-kantor         |      2|     2|       0|  0|
@@ -126,15 +154,44 @@ stats are cumulative for this game
 |12 |wdcCT-6-gordon         |      1|     1|       0|  1|
 |13 |wdcCT-88-oung          |      1|     1|       0|  1|
 |14 |wdcCT-14-blake         |      1|     1|       0|  0|
-|15 |wdcCT-21-dulabon       |      1|     0|       1|  1|
-|16 |wdcCT-7-boylan-kolchin |      1|     0|       1|  1|
-|17 |wdcCT-12-bellinger     |      1|     0|       1|  0|
-|18 |wdcCT-2-keegan         |      1|     0|       1|  0|
-|19 |wdcCT-22-marshall      |      1|     0|       1|  0|
-|20 |wdcCT-80-grabowski     |      1|     0|       1|  0|
-|21 |wdcCT-42-gibson        |      0|     0|       0|  3|
+|15 |wdcCT-42-gibson        |      1|     0|       1|  3|
+|16 |wdcCT-21-dulabon       |      1|     0|       1|  1|
+|17 |wdcCT-7-boylan-kolchin |      1|     0|       1|  1|
+|18 |wdcCT-12-bellinger     |      1|     0|       1|  0|
+|19 |wdcCT-2-keegan         |      1|     0|       1|  0|
+|20 |wdcCT-22-marshall      |      1|     0|       1|  0|
+|21 |wdcCT-80-grabowski     |      1|     0|       1|  0|
 |22 |wdcCT-27-johnston      |      0|     0|       0|  2|
 |23 |wdcCT-24-fleming       |      0|     0|       0|  1|
+
+
+|   |player   |last           | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:--------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|25 |wdcCT-99 |kolick         |      5|     0.85|     2|       3|     27|          23|      20|   1|    3|
+|26 |wdcCT-90 |shofner        |      5|     0.91|     0|       5|     11|          10|      10|   0|    0|
+|27 |wdcCT-8  |prial          |      4|     0.94|     2|       2|     18|          17|      19|   1|    0|
+|28 |wdcCT-19 |maloney        |      4|     0.88|     2|       2|      8|           7|       9|   0|    0|
+|29 |wdcCT-5  |cranston       |      3|     0.82|     3|       0|     17|          14|      19|   1|    1|
+|30 |wdcCT-61 |salmi          |      3|     1.00|     1|       2|      6|           6|       7|   0|    0|
+|31 |wdcCT-45 |wodatch        |      2|     1.00|     2|       0|      9|           9|      11|   1|    0|
+|32 |wdcCT-1  |kantor         |      2|     1.00|     2|       0|      3|           3|       4|   0|    0|
+|33 |wdcCT-25 |gordon         |      2|     1.00|     2|       0|      4|           4|       6|   0|    0|
+|34 |wdcCT-9  |doi            |      2|     0.67|     2|       0|      6|           4|       8|   0|    0|
+|35 |wdcCT-32 |peters         |      2|     0.92|     1|       1|     12|          11|      11|   0|    0|
+|36 |wdcCT-6  |gordon         |      1|     1.00|     1|       0|      4|           4|       5|   1|    0|
+|37 |wdcCT-88 |oung           |      1|     0.93|     1|       0|     15|          14|      10|   1|    0|
+|38 |wdcCT-14 |blake          |      1|     1.00|     1|       0|      6|           6|       5|   0|    0|
+|39 |wdcCT-42 |gibson         |      1|     1.00|     0|       1|      8|           8|       6|   3|    0|
+|40 |wdcCT-21 |dulabon        |      1|     0.80|     0|       1|      5|           4|       5|   1|    0|
+|41 |wdcCT-7  |boylan-kolchin |      1|     0.91|     0|       1|     11|          10|      11|   1|    1|
+|42 |wdcCT-12 |bellinger      |      1|     0.96|     0|       1|     23|          22|      14|   0|    0|
+|43 |wdcCT-2  |keegan         |      1|     0.86|     0|       1|     22|          19|      16|   0|    0|
+|44 |wdcCT-22 |marshall       |      1|     1.00|     0|       1|      3|           3|       3|   0|    0|
+|45 |wdcCT-80 |grabowski      |      1|     0.75|     0|       1|      4|           3|       4|   0|    0|
+|46 |wdcCT-27 |johnston       |      0|     0.77|     0|       0|     13|          10|       9|   2|    1|
+|47 |wdcCT-24 |fleming        |      0|     1.00|     0|       0|      1|           1|       0|   1|    0|
+|48 |wdcCT-17 |miner          |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
+|49 |wdcCT-31 |cobb           |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 
@@ -224,7 +281,8 @@ stats are cumulative for this game
 |    33|      4|wdcCT     |     4|       75|        1|phlSP     |wdcCT   |6       |D       |gordon         |wdcCT-6-gordon         |    11|    19|
 |    33|      4|wdcCT     |    15|       76|        2|wdcCT     |wdcCT   |21      |A       |dulabon        |wdcCT-21-dulabon       |    11|    19|
 |    33|      4|wdcCT     |    16|       76|        2|wdcCT     |wdcCT   |25      |G       |gordon         |wdcCT-25-gordon        |    11|    19|
-|    34|      4|wdcCT     |    NA|       NA|       NA|NA        |NA      |NA      |NA      |NA             |NA-NA-NA               |    11|    20|
+|    34|      4|wdcCT     |    14|       80|        4|wdcCT     |wdcCT   |42      |LA      |gibson         |wdcCT-42-gibson        |    11|    20|
+|    34|      4|wdcCT     |    15|       80|        4|wdcCT     |wdcCT   |19      |G       |maloney        |wdcCT-19-maloney       |    11|    20|
 |    35|      4|wdcCT     |    16|       81|        1|phlSP     |phlSP   |2       |A       |colton         |phlSP-2-colton         |    12|    20|
 |    35|      4|wdcCT     |    17|       81|        1|phlSP     |phlSP   |22      |G       |paparone       |phlSP-22-paparone      |    12|    20|
 |    36|      4|phlSP     |     4|       82|        1|wdcCT     |wdcCT   |2       |A       |keegan         |wdcCT-2-keegan         |    12|    21|
@@ -823,20 +881,21 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      4|    33|wdcCT     |    14|       76|        2|wdcCT     |wdcCT   |32      |        |
 |      4|    33|wdcCT     |    15|       76|        2|wdcCT     |wdcCT   |21      |A       |
 |      4|    33|wdcCT     |    16|       76|        2|wdcCT     |wdcCT   |25      |G       |
-|      4|    34|phlSP     |     1|       77|        1|phlSP     |phlSP   |21      |PU      |
-|      4|    34|phlSP     |     2|       77|        1|phlSP     |phlSP   |23      |        |
-|      4|    34|phlSP     |     3|       77|        1|phlSP     |phlSP   |16      |        |
-|      4|    34|phlSP     |     4|       77|        1|phlSP     |phlSP   |9       |        |
-|      4|    34|phlSP     |     5|       78|        2|wdcCT     |wdcCT   |12      |PU      |
-|      4|    34|phlSP     |     6|       78|        2|wdcCT     |wdcCT   |5       |        |
-|      4|    34|phlSP     |     7|       78|        2|wdcCT     |wdcCT   |7       |        |
-|      4|    34|phlSP     |     8|       78|        2|wdcCT     |wdcCT   |31      |TD      |
-|      4|    34|phlSP     |     9|       79|        3|phlSP     |phlSP   |33      |PU      |
-|      4|    34|phlSP     |    10|       79|        3|phlSP     |phlSP   |3       |        |
-|      4|    34|phlSP     |    11|       80|        4|wdcCT     |wdcCT   |12      |PU      |
-|      4|    34|phlSP     |    12|       80|        4|wdcCT     |wdcCT   |31      |        |
-|      4|    34|phlSP     |    13|       80|        4|wdcCT     |wdcCT   |42      |LA      |
-|      4|    34|phlSP     |    14|       80|        4|wdcCT     |wdcCT   |19      |G       |
+|      4|    34|wdcCT     |     1|       77|        1|phlSP     |wdcCT   |?       |P       |
+|      4|    34|wdcCT     |     2|       77|        1|phlSP     |phlSP   |21      |PU      |
+|      4|    34|wdcCT     |     3|       77|        1|phlSP     |phlSP   |23      |        |
+|      4|    34|wdcCT     |     4|       77|        1|phlSP     |phlSP   |16      |        |
+|      4|    34|wdcCT     |     5|       77|        1|phlSP     |phlSP   |9       |        |
+|      4|    34|wdcCT     |     6|       78|        2|wdcCT     |wdcCT   |12      |PU      |
+|      4|    34|wdcCT     |     7|       78|        2|wdcCT     |wdcCT   |5       |        |
+|      4|    34|wdcCT     |     8|       78|        2|wdcCT     |wdcCT   |7       |        |
+|      4|    34|wdcCT     |     9|       78|        2|wdcCT     |wdcCT   |31      |TD      |
+|      4|    34|wdcCT     |    10|       79|        3|phlSP     |phlSP   |33      |PU      |
+|      4|    34|wdcCT     |    11|       79|        3|phlSP     |phlSP   |3       |        |
+|      4|    34|wdcCT     |    12|       80|        4|wdcCT     |wdcCT   |12      |PU      |
+|      4|    34|wdcCT     |    13|       80|        4|wdcCT     |wdcCT   |31      |        |
+|      4|    34|wdcCT     |    14|       80|        4|wdcCT     |wdcCT   |42      |LA      |
+|      4|    34|wdcCT     |    15|       80|        4|wdcCT     |wdcCT   |19      |G       |
 |      4|    35|wdcCT     |     1|       81|        1|phlSP     |wdcCT   |21      |P       |
 |      4|    35|wdcCT     |     2|       81|        1|phlSP     |phlSP   |2       |PU      |
 |      4|    35|wdcCT     |     3|       81|        1|phlSP     |phlSP   |20      |        |

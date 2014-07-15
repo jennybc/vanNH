@@ -12,10 +12,10 @@ output:
 
 
 
-#### last update Sun Jul 13 11:12:31 2014
+#### last update Mon Jul 14 22:48:50 2014
 # seaRM 12
 # pdxST 13
-## game is upcoming -- any data here is fake and for set up purposes
+## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
@@ -48,13 +48,13 @@ Go to ...
 |    11|2      |5:22:00  |4:06:00 |01:16       |pdxST-16-Burton to pdxST-21-McGinn       |3     |7     |
 |    10|2      |6:40:00  |5:22:00 |01:18       |seaRM-29-feeley to seaRM-18-uhrig-fox    |3     |6     |
 |     9|2      |8:30:00  |6:40:00 |01:50       |pdxST-24-Norden to pdxST-6-Bjorklund     |2     |6     |
-|     8|2      |9:36:00  |8:30:00 |01:06       |- no goal -                              |2     |5     |
+|     8|2      |9:36:00  |8:30:00 |01:06       |pdxST-15-Thornton to pdxST-14-Adamson    |2     |5     |
 |     7|2      |10:00:00 |9:36:00 |00:24       |pdxST-6-Bjorklund to pdxST-16-Burton     |2     |4     |
 |     6|1      |0:29:00  |0:00:00 |00:29       |- no goal -                              |2     |3     |
 |     5|1      |2:31:00  |0:29:00 |02:02       |pdxST-88-Suppnick to pdxST-5-Woodside    |2     |3     |
 |     4|1      |3:12:00  |2:31:00 |00:41       |pdxST-6-Bjorklund to pdxST-11-Kenton     |2     |2     |
-|     3|1      |4:22:00  |3:12:00 |01:10       |- no goal -                              |2     |1     |
-|     2|1      |5:25:00  |4:22:00 |01:03       |- no goal -                              |2     |0     |
+|     3|1      |4:22:00  |3:12:00 |01:10       |pdxST-10-Strout to pdxST-1-Cable         |2     |1     |
+|     2|1      |5:25:00  |4:22:00 |01:03       |seaRM-29-feeley to seaRM-12-gallagher    |2     |0     |
 |     1|1      |10:00:00 |5:25:00 |04:35       |seaRM-5-chu to seaRM-21-phan             |1     |0     |
 
 ## Player stats for seaRM <a id="away"></a>:
@@ -71,16 +71,37 @@ stats are cumulative for this game
 |2  |seaRM-77-trotter   |      3|     1|       2|  0|
 |3  |seaRM-24-duffel    |      2|     2|       0|  0|
 |4  |seaRM-1-mckibben   |      2|     1|       1|  1|
-|5  |seaRM-21-phan      |      2|     1|       1|  0|
-|6  |seaRM-18-uhrig-fox |      1|     1|       0|  1|
-|7  |seaRM-23-sliva     |      1|     0|       1|  2|
-|8  |seaRM-12-gallagher |      1|     0|       1|  1|
-|9  |seaRM-2-bubernak   |      1|     0|       1|  0|
-|10 |seaRM-29-feeley    |      1|     0|       1|  0|
+|5  |seaRM-12-gallagher |      2|     1|       1|  1|
+|6  |seaRM-21-phan      |      2|     1|       1|  0|
+|7  |seaRM-29-feeley    |      2|     0|       2|  0|
+|8  |seaRM-18-uhrig-fox |      1|     1|       0|  1|
+|9  |seaRM-23-sliva     |      1|     0|       1|  2|
+|10 |seaRM-2-bubernak   |      1|     0|       1|  0|
 |11 |seaRM-5-chu        |      1|     0|       1|  0|
 |12 |seaRM-4-schneider  |      0|     0|       0|  2|
 |13 |seaRM-00-rupp      |      0|     0|       0|  1|
 |14 |seaRM-15-beehner   |      0|     0|       0|  1|
+
+
+|   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:---------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|1  |seaRM-99 |el-salaam |      7|     0.83|     5|       2|     18|          15|      23|   0|    0|
+|2  |seaRM-77 |trotter   |      3|     0.88|     1|       2|     17|          15|      18|   0|    0|
+|3  |seaRM-24 |duffel    |      2|     0.67|     2|       0|      3|           2|       4|   0|    0|
+|4  |seaRM-1  |mckibben  |      2|     0.94|     1|       1|     36|          34|      32|   1|    0|
+|5  |seaRM-12 |gallagher |      2|     0.75|     1|       1|      4|           3|       4|   1|    0|
+|6  |seaRM-21 |phan      |      2|     0.89|     1|       1|     19|          17|      19|   0|    0|
+|7  |seaRM-29 |feeley    |      2|     0.74|     0|       2|     23|          17|       9|   0|    2|
+|8  |seaRM-18 |uhrig-fox |      1|     1.00|     1|       0|      2|           2|       3|   1|    0|
+|9  |seaRM-23 |sliva     |      1|     0.78|     0|       1|      9|           7|       9|   2|    0|
+|10 |seaRM-2  |bubernak  |      1|     1.00|     0|       1|      3|           3|       3|   0|    0|
+|11 |seaRM-5  |chu       |      1|     1.00|     0|       1|      8|           8|       8|   0|    0|
+|12 |seaRM-4  |schneider |      0|     1.00|     0|       0|      3|           3|       3|   2|    0|
+|13 |seaRM-00 |rupp      |      0|     0.89|     0|       0|     38|          34|      28|   1|    0|
+|14 |seaRM-15 |beehner   |      0|     1.00|     0|       0|      3|           3|       3|   1|    0|
+|15 |seaRM-10 |kalmakis  |      0|     0.67|     0|       0|      3|           2|       3|   0|    0|
+|16 |seaRM-14 |pickel    |      0|     1.00|     0|       0|     16|          16|      14|   0|    0|
+|17 |seaRM-6  |trytiak   |      0|     0.86|     0|       0|     14|          12|      11|   0|    0|
 
 ## Player stats for pdxST <a id="home"></a>:
 
@@ -90,88 +111,120 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player               | points| goals| assists| Ds|
-|:--|:--------------------|------:|-----:|-------:|--:|
-|1  |pdxST-6-Bjorklund    |      4|     2|       2|  0|
-|2  |pdxST-5-Woodside     |      3|     3|       0|  0|
-|3  |pdxST-88-Suppnick    |      3|     1|       2|  1|
-|4  |pdxST-21-McGinn      |      2|     2|       0|  1|
-|5  |pdxST-11-Kenton      |      2|     1|       1|  0|
-|6  |pdxST-16-Burton      |      2|     1|       1|  0|
-|7  |pdxST-10-Strout      |      2|     0|       2|  0|
-|8  |pdxST-7-Friedman     |      1|     1|       0|  0|
-|9  |pdxST-22-Cole        |      1|     0|       1|  0|
-|10 |pdxST-24-Norden      |      1|     0|       1|  0|
-|11 |pdxST-42-Lohre       |      1|     0|       1|  0|
-|12 |pdxST-2-Allison-Hall |      0|     0|       0|  1|
+|   |player                | points| goals| assists| Ds|
+|:--|:---------------------|------:|-----:|-------:|--:|
+|1  |pdxST-6-Bjorklund     |      4|     2|       2|  0|
+|2  |pdxST-5-Woodside      |      3|     3|       0|  0|
+|3  |pdxST-88-Suppnick     |      3|     1|       2|  1|
+|4  |pdxST-10-Strout       |      3|     0|       3|  0|
+|5  |pdxST-21-McGinn       |      2|     2|       0|  1|
+|6  |pdxST-11-Kenton       |      2|     1|       1|  0|
+|7  |pdxST-16-Burton       |      2|     1|       1|  0|
+|8  |pdxST-1-Cable         |      1|     1|       0|  0|
+|9  |pdxST-14-Adamson      |      1|     1|       0|  0|
+|10 |pdxST-7-Friedman      |      1|     1|       0|  0|
+|11 |pdxST-15-Thornton     |      1|     0|       1|  0|
+|12 |pdxST-22-Cole         |      1|     0|       1|  0|
+|13 |pdxST-24-Norden       |      1|     0|       1|  0|
+|14 |pdxST-42-Lohre        |      1|     0|       1|  0|
+|15 |pdxST-2-Allison-Hall  |      0|     0|       0|  1|
+|16 |pdxST-20-Beach-Rehner |      0|     0|       0|  1|
+
+
+|   |player   |last         | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|18 |pdxST-6  |Bjorklund    |      4|     0.92|     2|       2|     13|          12|      14|   0|    0|
+|19 |pdxST-5  |Woodside     |      3|     1.00|     3|       0|      2|           2|       5|   0|    0|
+|20 |pdxST-88 |Suppnick     |      3|     0.81|     1|       2|     21|          17|      16|   1|    0|
+|21 |pdxST-10 |Strout       |      3|     0.96|     0|       3|     27|          26|      24|   0|    0|
+|22 |pdxST-21 |McGinn       |      2|     0.96|     2|       0|     27|          26|      24|   1|    0|
+|23 |pdxST-11 |Kenton       |      2|     0.89|     1|       1|     27|          24|      22|   0|    2|
+|24 |pdxST-16 |Burton       |      2|     0.75|     1|       1|      8|           6|       9|   0|    0|
+|25 |pdxST-1  |Cable        |      1|     1.00|     1|       0|      3|           3|       3|   0|    0|
+|26 |pdxST-14 |Adamson      |      1|     0.00|     1|       0|      1|           0|       2|   0|    0|
+|27 |pdxST-7  |Friedman     |      1|     0.87|     1|       0|     23|          20|      20|   0|    1|
+|28 |pdxST-15 |Thornton     |      1|     1.00|     0|       1|      4|           4|       3|   0|    0|
+|29 |pdxST-22 |Cole         |      1|     1.00|     0|       1|      8|           8|       7|   0|    0|
+|30 |pdxST-24 |Norden       |      1|     0.88|     0|       1|     40|          35|      31|   0|    0|
+|31 |pdxST-42 |Lohre        |      1|     0.92|     0|       1|     12|          11|      12|   0|    0|
+|32 |pdxST-2  |Allison-Hall |      0|     0.89|     0|       0|      9|           8|       9|   1|    0|
+|33 |pdxST-20 |Beach-Rehner |      0|     1.00|     0|       0|      2|           2|       2|   1|    0|
+|34 |pdxST-17 |Hayes        |      0|     1.00|     0|       0|      9|           9|       8|   0|    0|
+|35 |pdxST-4  |Blackman     |      0|     1.00|     0|       0|      5|           5|       5|   0|    0|
+|36 |pdxST-73 |King         |      0|     0.62|     0|       0|      8|           5|       7|   0|    0|
+|37 |pdxST-9  |Hancock      |      0|     1.00|     0|       0|      6|           6|       6|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 
 
-| point| period|pull_team | event| poss_abs| poss_rel|poss_team |pl_team |pl_pnum |pl_code |pl_lname     |player               | pdxST| seaRM|
-|-----:|------:|:---------|-----:|--------:|--------:|:---------|:-------|:-------|:-------|:------------|:--------------------|-----:|-----:|
-|     1|      1|pdxST     |    24|        4|        4|pdxST     |seaRM   |1       |HB      |mckibben     |seaRM-1-mckibben     |     0|     1|
-|     1|      1|pdxST     |    57|        7|        7|seaRM     |seaRM   |5       |A       |chu          |seaRM-5-chu          |     0|     1|
-|     1|      1|pdxST     |    58|        7|        7|seaRM     |seaRM   |21      |LG      |phan         |seaRM-21-phan        |     0|     1|
-|     2|      1|seaRM     |    NA|       NA|       NA|NA        |NA      |NA      |NA      |NA           |NA-NA-NA             |     0|     2|
-|     3|      1|seaRM     |    NA|       NA|       NA|NA        |NA      |NA      |NA      |NA           |NA-NA-NA             |     1|     2|
-|     4|      1|pdxST     |    10|       16|        2|pdxST     |pdxST   |6       |A       |Bjorklund    |pdxST-6-Bjorklund    |     2|     2|
-|     4|      1|pdxST     |    11|       16|        2|pdxST     |pdxST   |11      |G       |Kenton       |pdxST-11-Kenton      |     2|     2|
-|     5|      1|pdxST     |    11|       17|        1|seaRM     |pdxST   |88      |FB      |Suppnick     |pdxST-88-Suppnick    |     3|     2|
-|     5|      1|pdxST     |    24|       20|        4|pdxST     |pdxST   |88      |PUA     |Suppnick     |pdxST-88-Suppnick    |     3|     2|
-|     5|      1|pdxST     |    25|       20|        4|pdxST     |pdxST   |5       |LG      |Woodside     |pdxST-5-Woodside     |     3|     2|
-|     6|      1|pdxST     |    NA|       NA|       NA|NA        |NA      |NA      |NA      |NA           |NA-NA-NA             |     3|     2|
-|     7|      2|seaRM     |     7|       23|        1|pdxST     |pdxST   |6       |LA      |Bjorklund    |pdxST-6-Bjorklund    |     4|     2|
-|     7|      2|seaRM     |     8|       23|        1|pdxST     |pdxST   |16      |G       |Burton       |pdxST-16-Burton      |     4|     2|
-|     8|      2|pdxST     |    NA|       NA|       NA|NA        |NA      |NA      |NA      |NA           |NA-NA-NA             |     5|     2|
-|     9|      2|pdxST     |    20|       27|        2|pdxST     |seaRM   |00      |D       |rupp         |seaRM-00-rupp        |     6|     2|
-|     9|      2|pdxST     |    22|       28|        3|seaRM     |pdxST   |21      |HB      |McGinn       |pdxST-21-McGinn      |     6|     2|
-|     9|      2|pdxST     |    25|       29|        4|pdxST     |pdxST   |24      |A       |Norden       |pdxST-24-Norden      |     6|     2|
-|     9|      2|pdxST     |    26|       29|        4|pdxST     |pdxST   |6       |G       |Bjorklund    |pdxST-6-Bjorklund    |     6|     2|
-|    10|      2|pdxST     |     9|       31|        2|pdxST     |seaRM   |15      |D       |beehner      |seaRM-15-beehner     |     6|     3|
-|    10|      2|pdxST     |    15|       32|        3|seaRM     |seaRM   |29      |A       |feeley       |seaRM-29-feeley      |     6|     3|
-|    10|      2|pdxST     |    16|       32|        3|seaRM     |seaRM   |18      |LG      |uhrig-fox    |seaRM-18-uhrig-fox   |     6|     3|
-|    11|      2|seaRM     |     7|       33|        1|pdxST     |seaRM   |23      |D       |sliva        |seaRM-23-sliva       |     7|     3|
-|    11|      2|seaRM     |    14|       35|        3|pdxST     |pdxST   |16      |A       |Burton       |pdxST-16-Burton      |     7|     3|
-|    11|      2|seaRM     |    15|       35|        3|pdxST     |pdxST   |21      |LG      |McGinn       |pdxST-21-McGinn      |     7|     3|
-|    12|      2|pdxST     |    45|       39|        4|pdxST     |pdxST   |11      |A       |Kenton       |pdxST-11-Kenton      |     8|     3|
-|    12|      2|pdxST     |    46|       39|        4|pdxST     |pdxST   |21      |LG      |McGinn       |pdxST-21-McGinn      |     8|     3|
-|    13|      2|pdxST     |     6|       40|        1|seaRM     |seaRM   |99      |A       |el-salaam    |seaRM-99-el-salaam   |     8|     4|
-|    13|      2|pdxST     |     7|       40|        1|seaRM     |seaRM   |1       |G       |mckibben     |seaRM-1-mckibben     |     8|     4|
-|    14|      3|pdxST     |     7|       41|        1|seaRM     |seaRM   |1       |A       |mckibben     |seaRM-1-mckibben     |     8|     5|
-|    14|      3|pdxST     |     8|       41|        1|seaRM     |seaRM   |99      |LG      |el-salaam    |seaRM-99-el-salaam   |     8|     5|
-|    15|      3|seaRM     |    14|       42|        1|pdxST     |seaRM   |12      |D       |gallagher    |seaRM-12-gallagher   |     8|     6|
-|    15|      3|seaRM     |    20|       43|        2|seaRM     |pdxST   |2       |D       |Allison-Hall |pdxST-2-Allison-Hall |     8|     6|
-|    15|      3|seaRM     |    33|       45|        4|seaRM     |seaRM   |2       |A       |bubernak     |seaRM-2-bubernak     |     8|     6|
-|    15|      3|seaRM     |    34|       45|        4|seaRM     |seaRM   |24      |G       |duffel       |seaRM-24-duffel      |     8|     6|
-|    16|      3|seaRM     |    15|       47|        2|seaRM     |seaRM   |77      |A       |trotter      |seaRM-77-trotter     |     8|     7|
-|    16|      3|seaRM     |    17|       47|        2|seaRM     |seaRM   |99      |G       |el-salaam    |seaRM-99-el-salaam   |     8|     7|
-|    17|      3|seaRM     |     6|       48|        1|pdxST     |seaRM   |4       |D       |schneider    |seaRM-4-schneider    |     9|     7|
-|    17|      3|seaRM     |    20|       50|        3|pdxST     |seaRM   |18      |FB      |uhrig-fox    |seaRM-18-uhrig-fox   |     9|     7|
-|    17|      3|seaRM     |    43|       54|        7|pdxST     |pdxST   |10      |A       |Strout       |pdxST-10-Strout      |     9|     7|
-|    17|      3|seaRM     |    44|       54|        7|pdxST     |pdxST   |6       |G       |Bjorklund    |pdxST-6-Bjorklund    |     9|     7|
-|    18|      3|pdxST     |    10|       55|        1|seaRM     |seaRM   |99      |A       |el-salaam    |seaRM-99-el-salaam   |     9|     8|
-|    18|      3|pdxST     |    11|       55|        1|seaRM     |seaRM   |77      |G       |trotter      |seaRM-77-trotter     |     9|     8|
-|    19|      3|seaRM     |    20|       59|        4|seaRM     |seaRM   |77      |A       |trotter      |seaRM-77-trotter     |     9|     9|
-|    19|      3|seaRM     |    21|       59|        4|seaRM     |seaRM   |99      |G       |el-salaam    |seaRM-99-el-salaam   |     9|     9|
-|    20|      3|seaRM     |     5|       60|        1|pdxST     |pdxST   |22      |A       |Cole         |pdxST-22-Cole        |    10|     9|
-|    20|      3|seaRM     |     6|       60|        1|pdxST     |pdxST   |5       |LG      |Woodside     |pdxST-5-Woodside     |    10|     9|
-|    21|      3|pdxST     |    NA|       NA|       NA|NA        |NA      |NA      |NA      |NA           |NA-NA-NA             |    10|     9|
-|    22|      4|seaRM     |    21|       63|        1|pdxST     |pdxST   |10      |A       |Strout       |pdxST-10-Strout      |    11|     9|
-|    22|      4|seaRM     |    22|       63|        1|pdxST     |pdxST   |7       |G       |Friedman     |pdxST-7-Friedman     |    11|     9|
-|    23|      4|pdxST     |    36|       67|        4|pdxST     |pdxST   |88      |PUA     |Suppnick     |pdxST-88-Suppnick    |    12|     9|
-|    23|      4|pdxST     |    37|       67|        4|pdxST     |pdxST   |5       |G       |Woodside     |pdxST-5-Woodside     |    12|     9|
-|    24|      4|pdxST     |     6|       68|        1|seaRM     |seaRM   |21      |A       |phan         |seaRM-21-phan        |    12|    10|
-|    24|      4|pdxST     |     7|       68|        1|seaRM     |seaRM   |99      |G       |el-salaam    |seaRM-99-el-salaam   |    12|    10|
-|    25|      4|seaRM     |    15|       69|        1|pdxST     |seaRM   |4       |D       |schneider    |seaRM-4-schneider    |    12|    11|
-|    25|      4|seaRM     |    27|       72|        4|seaRM     |seaRM   |23      |A       |sliva        |seaRM-23-sliva       |    12|    11|
-|    25|      4|seaRM     |    28|       72|        4|seaRM     |seaRM   |24      |G       |duffel       |seaRM-24-duffel      |    12|    11|
-|    26|      4|seaRM     |    12|       73|        1|pdxST     |seaRM   |23      |D       |sliva        |seaRM-23-sliva       |    12|    12|
-|    26|      4|seaRM     |    15|       74|        2|seaRM     |seaRM   |12      |A       |gallagher    |seaRM-12-gallagher   |    12|    12|
-|    26|      4|seaRM     |    16|       74|        2|seaRM     |seaRM   |99      |LG      |el-salaam    |seaRM-99-el-salaam   |    12|    12|
-|    27|      4|seaRM     |     9|       75|        1|pdxST     |pdxST   |42      |A       |Lohre        |pdxST-42-Lohre       |    13|    12|
-|    27|      4|seaRM     |    10|       75|        1|pdxST     |pdxST   |88      |G       |Suppnick     |pdxST-88-Suppnick    |    13|    12|
-|    28|      4|pdxST     |    NA|       NA|       NA|NA        |NA      |NA      |NA      |NA           |NA-NA-NA             |    13|    12|
+| point| period|pull_team | event| poss_abs| poss_rel|poss_team |pl_team |pl_pnum |pl_code |pl_lname     |player                | pdxST| seaRM|
+|-----:|------:|:---------|-----:|--------:|--------:|:---------|:-------|:-------|:-------|:------------|:---------------------|-----:|-----:|
+|     1|      1|pdxST     |    24|        4|        4|pdxST     |seaRM   |1       |HB      |mckibben     |seaRM-1-mckibben      |     0|     1|
+|     1|      1|pdxST     |    57|        7|        7|seaRM     |seaRM   |5       |A       |chu          |seaRM-5-chu           |     0|     1|
+|     1|      1|pdxST     |    58|        7|        7|seaRM     |seaRM   |21      |LG      |phan         |seaRM-21-phan         |     0|     1|
+|     2|      1|seaRM     |    12|       11|        4|seaRM     |seaRM   |29      |PUA     |feeley       |seaRM-29-feeley       |     0|     2|
+|     2|      1|seaRM     |    13|       11|        4|seaRM     |seaRM   |12      |G       |gallagher    |seaRM-12-gallagher    |     0|     2|
+|     3|      1|seaRM     |    16|       14|        3|pdxST     |pdxST   |10      |A       |Strout       |pdxST-10-Strout       |     1|     2|
+|     3|      1|seaRM     |    17|       14|        3|pdxST     |pdxST   |1       |G       |Cable        |pdxST-1-Cable         |     1|     2|
+|     4|      1|pdxST     |    10|       16|        2|pdxST     |pdxST   |6       |A       |Bjorklund    |pdxST-6-Bjorklund     |     2|     2|
+|     4|      1|pdxST     |    11|       16|        2|pdxST     |pdxST   |11      |G       |Kenton       |pdxST-11-Kenton       |     2|     2|
+|     5|      1|pdxST     |    11|       17|        1|seaRM     |pdxST   |88      |FB      |Suppnick     |pdxST-88-Suppnick     |     3|     2|
+|     5|      1|pdxST     |    24|       20|        4|pdxST     |pdxST   |88      |PUA     |Suppnick     |pdxST-88-Suppnick     |     3|     2|
+|     5|      1|pdxST     |    25|       20|        4|pdxST     |pdxST   |5       |LG      |Woodside     |pdxST-5-Woodside      |     3|     2|
+|     6|      1|pdxST     |    NA|       NA|       NA|NA        |NA      |NA      |NA      |NA           |NA-NA-NA              |     3|     2|
+|     7|      2|seaRM     |     7|       23|        1|pdxST     |pdxST   |6       |LA      |Bjorklund    |pdxST-6-Bjorklund     |     4|     2|
+|     7|      2|seaRM     |     8|       23|        1|pdxST     |pdxST   |16      |G       |Burton       |pdxST-16-Burton       |     4|     2|
+|     8|      2|pdxST     |    12|       24|        1|seaRM     |pdxST   |20      |D       |Beach-Rehner |pdxST-20-Beach-Rehner |     5|     2|
+|     8|      2|pdxST     |    16|       25|        2|pdxST     |pdxST   |15      |A       |Thornton     |pdxST-15-Thornton     |     5|     2|
+|     8|      2|pdxST     |    17|       25|        2|pdxST     |pdxST   |14      |LG      |Adamson      |pdxST-14-Adamson      |     5|     2|
+|     9|      2|pdxST     |    20|       27|        2|pdxST     |seaRM   |00      |D       |rupp         |seaRM-00-rupp         |     6|     2|
+|     9|      2|pdxST     |    22|       28|        3|seaRM     |pdxST   |21      |HB      |McGinn       |pdxST-21-McGinn       |     6|     2|
+|     9|      2|pdxST     |    25|       29|        4|pdxST     |pdxST   |24      |A       |Norden       |pdxST-24-Norden       |     6|     2|
+|     9|      2|pdxST     |    26|       29|        4|pdxST     |pdxST   |6       |G       |Bjorklund    |pdxST-6-Bjorklund     |     6|     2|
+|    10|      2|pdxST     |     9|       31|        2|pdxST     |seaRM   |15      |D       |beehner      |seaRM-15-beehner      |     6|     3|
+|    10|      2|pdxST     |    15|       32|        3|seaRM     |seaRM   |29      |A       |feeley       |seaRM-29-feeley       |     6|     3|
+|    10|      2|pdxST     |    16|       32|        3|seaRM     |seaRM   |18      |LG      |uhrig-fox    |seaRM-18-uhrig-fox    |     6|     3|
+|    11|      2|seaRM     |     7|       33|        1|pdxST     |seaRM   |23      |D       |sliva        |seaRM-23-sliva        |     7|     3|
+|    11|      2|seaRM     |    14|       35|        3|pdxST     |pdxST   |16      |A       |Burton       |pdxST-16-Burton       |     7|     3|
+|    11|      2|seaRM     |    15|       35|        3|pdxST     |pdxST   |21      |LG      |McGinn       |pdxST-21-McGinn       |     7|     3|
+|    12|      2|pdxST     |    45|       39|        4|pdxST     |pdxST   |11      |A       |Kenton       |pdxST-11-Kenton       |     8|     3|
+|    12|      2|pdxST     |    46|       39|        4|pdxST     |pdxST   |21      |LG      |McGinn       |pdxST-21-McGinn       |     8|     3|
+|    13|      2|pdxST     |     6|       40|        1|seaRM     |seaRM   |99      |A       |el-salaam    |seaRM-99-el-salaam    |     8|     4|
+|    13|      2|pdxST     |     7|       40|        1|seaRM     |seaRM   |1       |G       |mckibben     |seaRM-1-mckibben      |     8|     4|
+|    14|      3|pdxST     |     7|       41|        1|seaRM     |seaRM   |1       |A       |mckibben     |seaRM-1-mckibben      |     8|     5|
+|    14|      3|pdxST     |     8|       41|        1|seaRM     |seaRM   |99      |LG      |el-salaam    |seaRM-99-el-salaam    |     8|     5|
+|    15|      3|seaRM     |    14|       42|        1|pdxST     |seaRM   |12      |D       |gallagher    |seaRM-12-gallagher    |     8|     6|
+|    15|      3|seaRM     |    20|       43|        2|seaRM     |pdxST   |2       |D       |Allison-Hall |pdxST-2-Allison-Hall  |     8|     6|
+|    15|      3|seaRM     |    33|       45|        4|seaRM     |seaRM   |2       |A       |bubernak     |seaRM-2-bubernak      |     8|     6|
+|    15|      3|seaRM     |    34|       45|        4|seaRM     |seaRM   |24      |G       |duffel       |seaRM-24-duffel       |     8|     6|
+|    16|      3|seaRM     |    15|       47|        2|seaRM     |seaRM   |77      |A       |trotter      |seaRM-77-trotter      |     8|     7|
+|    16|      3|seaRM     |    17|       47|        2|seaRM     |seaRM   |99      |G       |el-salaam    |seaRM-99-el-salaam    |     8|     7|
+|    17|      3|seaRM     |     6|       48|        1|pdxST     |seaRM   |4       |D       |schneider    |seaRM-4-schneider     |     9|     7|
+|    17|      3|seaRM     |    20|       50|        3|pdxST     |seaRM   |18      |FB      |uhrig-fox    |seaRM-18-uhrig-fox    |     9|     7|
+|    17|      3|seaRM     |    43|       54|        7|pdxST     |pdxST   |10      |A       |Strout       |pdxST-10-Strout       |     9|     7|
+|    17|      3|seaRM     |    44|       54|        7|pdxST     |pdxST   |6       |G       |Bjorklund    |pdxST-6-Bjorklund     |     9|     7|
+|    18|      3|pdxST     |    10|       55|        1|seaRM     |seaRM   |99      |A       |el-salaam    |seaRM-99-el-salaam    |     9|     8|
+|    18|      3|pdxST     |    11|       55|        1|seaRM     |seaRM   |77      |G       |trotter      |seaRM-77-trotter      |     9|     8|
+|    19|      3|seaRM     |    20|       59|        4|seaRM     |seaRM   |77      |A       |trotter      |seaRM-77-trotter      |     9|     9|
+|    19|      3|seaRM     |    21|       59|        4|seaRM     |seaRM   |99      |G       |el-salaam    |seaRM-99-el-salaam    |     9|     9|
+|    20|      3|seaRM     |     5|       60|        1|pdxST     |pdxST   |22      |A       |Cole         |pdxST-22-Cole         |    10|     9|
+|    20|      3|seaRM     |     6|       60|        1|pdxST     |pdxST   |5       |LG      |Woodside     |pdxST-5-Woodside      |    10|     9|
+|    21|      3|pdxST     |    NA|       NA|       NA|NA        |NA      |NA      |NA      |NA           |NA-NA-NA              |    10|     9|
+|    22|      4|seaRM     |    21|       63|        1|pdxST     |pdxST   |10      |A       |Strout       |pdxST-10-Strout       |    11|     9|
+|    22|      4|seaRM     |    22|       63|        1|pdxST     |pdxST   |7       |G       |Friedman     |pdxST-7-Friedman      |    11|     9|
+|    23|      4|pdxST     |    36|       67|        4|pdxST     |pdxST   |88      |PUA     |Suppnick     |pdxST-88-Suppnick     |    12|     9|
+|    23|      4|pdxST     |    37|       67|        4|pdxST     |pdxST   |5       |G       |Woodside     |pdxST-5-Woodside      |    12|     9|
+|    24|      4|pdxST     |     6|       68|        1|seaRM     |seaRM   |21      |A       |phan         |seaRM-21-phan         |    12|    10|
+|    24|      4|pdxST     |     7|       68|        1|seaRM     |seaRM   |99      |G       |el-salaam    |seaRM-99-el-salaam    |    12|    10|
+|    25|      4|seaRM     |    15|       69|        1|pdxST     |seaRM   |4       |D       |schneider    |seaRM-4-schneider     |    12|    11|
+|    25|      4|seaRM     |    27|       72|        4|seaRM     |seaRM   |23      |A       |sliva        |seaRM-23-sliva        |    12|    11|
+|    25|      4|seaRM     |    28|       72|        4|seaRM     |seaRM   |24      |G       |duffel       |seaRM-24-duffel       |    12|    11|
+|    26|      4|seaRM     |    12|       73|        1|pdxST     |seaRM   |23      |D       |sliva        |seaRM-23-sliva        |    12|    12|
+|    26|      4|seaRM     |    15|       74|        2|seaRM     |seaRM   |12      |A       |gallagher    |seaRM-12-gallagher    |    12|    12|
+|    26|      4|seaRM     |    16|       74|        2|seaRM     |seaRM   |99      |LG      |el-salaam    |seaRM-99-el-salaam    |    12|    12|
+|    27|      4|seaRM     |     9|       75|        1|pdxST     |pdxST   |42      |A       |Lohre        |pdxST-42-Lohre        |    13|    12|
+|    27|      4|seaRM     |    10|       75|        1|pdxST     |pdxST   |88      |G       |Suppnick     |pdxST-88-Suppnick     |    13|    12|
+|    28|      4|pdxST     |    NA|       NA|       NA|NA        |NA      |NA      |NA      |NA           |NA-NA-NA              |    13|    12|
 
 ## Full raw data<a id="rawData"></a>:
 
@@ -238,34 +291,36 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      1|     1|pdxST     |    56|        7|        7|seaRM     |seaRM   |99      |        |
 |      1|     1|pdxST     |    57|        7|        7|seaRM     |seaRM   |5       |A       |
 |      1|     1|pdxST     |    58|        7|        7|seaRM     |seaRM   |21      |LG      |
-|      1|     2|pdxST     |     1|        8|        1|pdxST     |pdxST   |24      |PU      |
-|      1|     2|pdxST     |     2|        8|        1|pdxST     |pdxST   |21      |        |
-|      1|     2|pdxST     |     3|        8|        1|pdxST     |pdxST   |11      |        |
-|      1|     2|pdxST     |     4|        8|        1|pdxST     |pdxST   |17      |        |
-|      1|     2|pdxST     |     5|        8|        1|pdxST     |pdxST   |21      |        |
-|      1|     2|pdxST     |     6|        8|        1|pdxST     |pdxST   |2       |        |
-|      1|     2|pdxST     |     7|        8|        1|pdxST     |pdxST   |6       |        |
-|      1|     2|pdxST     |     8|        9|        2|seaRM     |seaRM   |24      |PU      |
-|      1|     2|pdxST     |     9|       10|        3|pdxST     |pdxST   |11      |PU      |
-|      1|     2|pdxST     |    10|       10|        3|pdxST     |pdxST   |2       |TD      |
-|      1|     2|pdxST     |    11|       11|        4|seaRM     |seaRM   |29      |PUA     |
-|      1|     2|pdxST     |    12|       11|        4|seaRM     |seaRM   |12      |G       |
-|      1|     3|pdxST     |     1|       12|        1|pdxST     |pdxST   |10      |PU      |
-|      1|     3|pdxST     |     2|       12|        1|pdxST     |pdxST   |9       |        |
-|      1|     3|pdxST     |     3|       12|        1|pdxST     |pdxST   |15      |        |
-|      1|     3|pdxST     |     4|       12|        1|pdxST     |pdxST   |42      |        |
-|      1|     3|pdxST     |     5|       13|        2|seaRM     |seaRM   |29      |PU      |
-|      1|     3|pdxST     |     6|       13|        2|seaRM     |seaRM   |10      |        |
-|      1|     3|pdxST     |     7|       13|        2|seaRM     |seaRM   |29      |        |
-|      1|     3|pdxST     |     8|       13|        2|seaRM     |seaRM   |23      |        |
-|      1|     3|pdxST     |     9|       13|        2|seaRM     |seaRM   |4       |        |
-|      1|     3|pdxST     |    10|       13|        2|seaRM     |seaRM   |10      |        |
-|      1|     3|pdxST     |    11|       13|        2|seaRM     |seaRM   |15      |        |
-|      1|     3|pdxST     |    12|       13|        2|seaRM     |seaRM   |10      |        |
-|      1|     3|pdxST     |    13|       14|        3|pdxST     |pdxST   |15      |PU      |
-|      1|     3|pdxST     |    14|       14|        3|pdxST     |pdxST   |20      |        |
-|      1|     3|pdxST     |    15|       14|        3|pdxST     |pdxST   |10      |A       |
-|      1|     3|pdxST     |    16|       14|        3|pdxST     |pdxST   |1       |G       |
+|      1|     2|seaRM     |     1|        8|        1|pdxST     |seaRM   |?       |P       |
+|      1|     2|seaRM     |     2|        8|        1|pdxST     |pdxST   |24      |PU      |
+|      1|     2|seaRM     |     3|        8|        1|pdxST     |pdxST   |21      |        |
+|      1|     2|seaRM     |     4|        8|        1|pdxST     |pdxST   |11      |        |
+|      1|     2|seaRM     |     5|        8|        1|pdxST     |pdxST   |17      |        |
+|      1|     2|seaRM     |     6|        8|        1|pdxST     |pdxST   |21      |        |
+|      1|     2|seaRM     |     7|        8|        1|pdxST     |pdxST   |2       |        |
+|      1|     2|seaRM     |     8|        8|        1|pdxST     |pdxST   |6       |        |
+|      1|     2|seaRM     |     9|        9|        2|seaRM     |seaRM   |24      |PU      |
+|      1|     2|seaRM     |    10|       10|        3|pdxST     |pdxST   |11      |PU      |
+|      1|     2|seaRM     |    11|       10|        3|pdxST     |pdxST   |2       |TD      |
+|      1|     2|seaRM     |    12|       11|        4|seaRM     |seaRM   |29      |PUA     |
+|      1|     2|seaRM     |    13|       11|        4|seaRM     |seaRM   |12      |G       |
+|      1|     3|seaRM     |     1|       12|        1|pdxST     |seaRM   |?       |P       |
+|      1|     3|seaRM     |     2|       12|        1|pdxST     |pdxST   |10      |PU      |
+|      1|     3|seaRM     |     3|       12|        1|pdxST     |pdxST   |9       |        |
+|      1|     3|seaRM     |     4|       12|        1|pdxST     |pdxST   |15      |        |
+|      1|     3|seaRM     |     5|       12|        1|pdxST     |pdxST   |42      |        |
+|      1|     3|seaRM     |     6|       13|        2|seaRM     |seaRM   |29      |PU      |
+|      1|     3|seaRM     |     7|       13|        2|seaRM     |seaRM   |10      |        |
+|      1|     3|seaRM     |     8|       13|        2|seaRM     |seaRM   |29      |        |
+|      1|     3|seaRM     |     9|       13|        2|seaRM     |seaRM   |23      |        |
+|      1|     3|seaRM     |    10|       13|        2|seaRM     |seaRM   |4       |        |
+|      1|     3|seaRM     |    11|       13|        2|seaRM     |seaRM   |10      |        |
+|      1|     3|seaRM     |    12|       13|        2|seaRM     |seaRM   |15      |        |
+|      1|     3|seaRM     |    13|       13|        2|seaRM     |seaRM   |10      |        |
+|      1|     3|seaRM     |    14|       14|        3|pdxST     |pdxST   |15      |PU      |
+|      1|     3|seaRM     |    15|       14|        3|pdxST     |pdxST   |20      |        |
+|      1|     3|seaRM     |    16|       14|        3|pdxST     |pdxST   |10      |A       |
+|      1|     3|seaRM     |    17|       14|        3|pdxST     |pdxST   |1       |G       |
 |      1|     4|pdxST     |     1|       15|        1|seaRM     |pdxST   |24      |P       |
 |      1|     4|pdxST     |     2|       15|        1|seaRM     |seaRM   |1       |PU      |
 |      1|     4|pdxST     |     3|       16|        2|pdxST     |pdxST   |17      |PU      |
@@ -320,22 +375,23 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      2|     7|seaRM     |     6|       23|        1|pdxST     |pdxST   |24      |        |
 |      2|     7|seaRM     |     7|       23|        1|pdxST     |pdxST   |6       |LA      |
 |      2|     7|seaRM     |     8|       23|        1|pdxST     |pdxST   |16      |G       |
-|      2|     8|seaRM     |     1|       24|        1|seaRM     |seaRM   |00      |PU      |
-|      2|     8|seaRM     |     2|       24|        1|seaRM     |seaRM   |1       |        |
-|      2|     8|seaRM     |     3|       24|        1|seaRM     |seaRM   |99      |        |
-|      2|     8|seaRM     |     4|       24|        1|seaRM     |seaRM   |1       |        |
-|      2|     8|seaRM     |     5|       24|        1|seaRM     |seaRM   |5       |        |
-|      2|     8|seaRM     |     6|       24|        1|seaRM     |seaRM   |21      |        |
-|      2|     8|seaRM     |     7|       24|        1|seaRM     |seaRM   |00      |        |
-|      2|     8|seaRM     |     8|       24|        1|seaRM     |seaRM   |1       |        |
-|      2|     8|seaRM     |     9|       24|        1|seaRM     |seaRM   |00      |        |
-|      2|     8|seaRM     |    10|       24|        1|seaRM     |seaRM   |21      |        |
-|      2|     8|seaRM     |    11|       24|        1|seaRM     |pdxST   |20      |D       |
-|      2|     8|seaRM     |    12|       25|        2|pdxST     |pdxST   |10      |PU      |
-|      2|     8|seaRM     |    13|       25|        2|pdxST     |pdxST   |9       |        |
-|      2|     8|seaRM     |    14|       25|        2|pdxST     |pdxST   |42      |        |
-|      2|     8|seaRM     |    15|       25|        2|pdxST     |pdxST   |15      |A       |
-|      2|     8|seaRM     |    16|       25|        2|pdxST     |pdxST   |14      |LG      |
+|      2|     8|pdxST     |     1|       24|        1|seaRM     |pdxST   |?       |P       |
+|      2|     8|pdxST     |     2|       24|        1|seaRM     |seaRM   |00      |PU      |
+|      2|     8|pdxST     |     3|       24|        1|seaRM     |seaRM   |1       |        |
+|      2|     8|pdxST     |     4|       24|        1|seaRM     |seaRM   |99      |        |
+|      2|     8|pdxST     |     5|       24|        1|seaRM     |seaRM   |1       |        |
+|      2|     8|pdxST     |     6|       24|        1|seaRM     |seaRM   |5       |        |
+|      2|     8|pdxST     |     7|       24|        1|seaRM     |seaRM   |21      |        |
+|      2|     8|pdxST     |     8|       24|        1|seaRM     |seaRM   |00      |        |
+|      2|     8|pdxST     |     9|       24|        1|seaRM     |seaRM   |1       |        |
+|      2|     8|pdxST     |    10|       24|        1|seaRM     |seaRM   |00      |        |
+|      2|     8|pdxST     |    11|       24|        1|seaRM     |seaRM   |21      |        |
+|      2|     8|pdxST     |    12|       24|        1|seaRM     |pdxST   |20      |D       |
+|      2|     8|pdxST     |    13|       25|        2|pdxST     |pdxST   |10      |PU      |
+|      2|     8|pdxST     |    14|       25|        2|pdxST     |pdxST   |9       |        |
+|      2|     8|pdxST     |    15|       25|        2|pdxST     |pdxST   |42      |        |
+|      2|     8|pdxST     |    16|       25|        2|pdxST     |pdxST   |15      |A       |
+|      2|     8|pdxST     |    17|       25|        2|pdxST     |pdxST   |14      |LG      |
 |      2|     9|pdxST     |     1|       26|        1|seaRM     |pdxST   |24      |P       |
 |      2|     9|pdxST     |     2|       26|        1|seaRM     |seaRM   |00      |PU      |
 |      2|     9|pdxST     |     3|       26|        1|seaRM     |seaRM   |1       |        |

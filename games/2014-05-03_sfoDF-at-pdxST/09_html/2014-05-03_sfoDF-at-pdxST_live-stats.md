@@ -11,8 +11,69 @@ output:
 # sfoDF at pdxST 2014-05-03
 
 
+```
+##  [1] pdxST pdxST pdxST sfoDF sfoDF sfoDF sfoDF pdxST sfoDF pdxST pdxST
+## [12] pdxST pdxST sfoDF sfoDF pdxST pdxST pdxST sfoDF sfoDF sfoDF pdxST
+## [23] pdxST sfoDF pdxST sfoDF pdxST sfoDF pdxST sfoDF sfoDF pdxST sfoDF
+## [34] sfoDF pdxST pdxST sfoDF pdxST pdxST pdxST sfoDF pdxST
+## Levels: pdxST sfoDF
+```
 
-#### last update Sat Jul 12 16:06:59 2014
+```
+##  [1] pdxST pdxST pdxST sfoDF sfoDF sfoDF sfoDF pdxST sfoDF pdxST pdxST
+## [12] pdxST pdxST sfoDF sfoDF pdxST pdxST pdxST sfoDF sfoDF sfoDF pdxST
+## [23] pdxST sfoDF pdxST sfoDF pdxST sfoDF pdxST sfoDF sfoDF pdxST sfoDF
+## [34] sfoDF pdxST pdxST sfoDF pdxST pdxST pdxST sfoDF pdxST
+## Levels: pdxST sfoDF
+```
+
+```
+##       pi    sd point_info.pull_team....with.sDat..pull_team.event....1..
+## 1  pdxST pdxST                                                      TRUE
+## 2  pdxST pdxST                                                      TRUE
+## 3  pdxST pdxST                                                      TRUE
+## 4  sfoDF sfoDF                                                      TRUE
+## 5  sfoDF sfoDF                                                      TRUE
+## 6  sfoDF sfoDF                                                      TRUE
+## 7  sfoDF sfoDF                                                      TRUE
+## 8  pdxST pdxST                                                      TRUE
+## 9  sfoDF sfoDF                                                      TRUE
+## 10 pdxST pdxST                                                      TRUE
+## 11 pdxST pdxST                                                      TRUE
+## 12 pdxST pdxST                                                      TRUE
+## 13 pdxST pdxST                                                      TRUE
+## 14 sfoDF sfoDF                                                      TRUE
+## 15 sfoDF sfoDF                                                      TRUE
+## 16 pdxST pdxST                                                      TRUE
+## 17 pdxST pdxST                                                      TRUE
+## 18 pdxST pdxST                                                      TRUE
+## 19 sfoDF sfoDF                                                      TRUE
+## 20 sfoDF sfoDF                                                      TRUE
+## 21 sfoDF sfoDF                                                      TRUE
+## 22 pdxST pdxST                                                      TRUE
+## 23 pdxST pdxST                                                      TRUE
+## 24 sfoDF sfoDF                                                      TRUE
+## 25 pdxST pdxST                                                      TRUE
+## 26 sfoDF sfoDF                                                      TRUE
+## 27 pdxST pdxST                                                      TRUE
+## 28 sfoDF sfoDF                                                      TRUE
+## 29 pdxST pdxST                                                      TRUE
+## 30 sfoDF sfoDF                                                      TRUE
+## 31 sfoDF sfoDF                                                      TRUE
+## 32 pdxST pdxST                                                      TRUE
+## 33 sfoDF sfoDF                                                      TRUE
+## 34 sfoDF sfoDF                                                      TRUE
+## 35 pdxST pdxST                                                      TRUE
+## 36 pdxST pdxST                                                      TRUE
+## 37 sfoDF sfoDF                                                      TRUE
+## 38 pdxST pdxST                                                      TRUE
+## 39 pdxST pdxST                                                      TRUE
+## 40 pdxST pdxST                                                      TRUE
+## 41 sfoDF sfoDF                                                      TRUE
+## 42 pdxST pdxST                                                      TRUE
+```
+
+#### last update Mon Jul 14 22:26:13 2014
 # sfoDF 17
 # pdxST 21
 ## game is complete
@@ -50,7 +111,7 @@ Go to ...
 |    23|3      |5:13:00  |4:55:00 |00:18       |sfoDF-6-Kim to sfoDF-8-Pollard          |10    |11    |
 |    22|3      |5:36:00  |5:13:00 |00:23       |pdxST-22-Cole to pdxST-6-Bjorklund      |9     |11    |
 |    21|3      |6:31:00  |5:36:00 |00:55       |pdxST-88-Suppnick to pdxST-5-Woodside   |9     |10    |
-|    20|3      |7:04:00  |6:31:00 |00:33       |- no goal -                             |9     |9     |
+|    20|3      |7:04:00  |6:31:00 |00:33       |sfoDF-12-Bellinger to sfoDF-13-Grant    |9     |9     |
 |    19|3      |9:42:00  |7:04:00 |02:38       |sfoDF-18-Weaver to sfoDF-2-Adamson      |8     |9     |
 |    18|3      |10:00:00 |9:42:00 |00:18       |sfoDF-6-Kim to sfoDF-3-Weiss            |7     |9     |
 |    17|2      |0:11:00  |0:00:00 |00:11       |- no goal -                             |6     |9     |
@@ -79,22 +140,46 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player            | points| goals| assists| Ds|
-|:--|:-----------------|------:|-----:|-------:|--:|
-|1  |sfoDF-2-Adamson   |      7|     6|       1|  3|
-|2  |sfoDF-3-Weiss     |      5|     2|       3|  0|
-|3  |sfoDF-6-Kim       |      4|     1|       3|  0|
-|4  |sfoDF-5-Cascino   |      3|     1|       2|  0|
-|5  |sfoDF-8-Pollard   |      2|     1|       1|  1|
-|6  |sfoDF-85-Brydon   |      2|     1|       1|  0|
-|7  |sfoDF-1-Ranahan   |      2|     0|       2|  1|
-|8  |sfoDF-13-Grant    |      2|     0|       2|  0|
-|9  |sfoDF-46-McCarty  |      1|     1|       0|  1|
-|10 |sfoDF-11-Lee      |      1|     1|       0|  0|
-|11 |sfoDF-57-Meyer    |      1|     1|       0|  0|
-|12 |sfoDF-88-Kissmann |      1|     1|       0|  0|
-|13 |sfoDF-18-Weaver   |      1|     0|       1|  2|
-|14 |sfoDF-9-Farren    |      0|     0|       0|  1|
+|   |player             | points| goals| assists| Ds|
+|:--|:------------------|------:|-----:|-------:|--:|
+|1  |sfoDF-2-Adamson    |      7|     6|       1|  3|
+|2  |sfoDF-3-Weiss      |      5|     2|       3|  0|
+|3  |sfoDF-6-Kim        |      4|     1|       3|  0|
+|4  |sfoDF-13-Grant     |      3|     1|       2|  0|
+|5  |sfoDF-5-Cascino    |      3|     1|       2|  0|
+|6  |sfoDF-8-Pollard    |      2|     1|       1|  1|
+|7  |sfoDF-85-Brydon    |      2|     1|       1|  0|
+|8  |sfoDF-1-Ranahan    |      2|     0|       2|  1|
+|9  |sfoDF-46-McCarty   |      1|     1|       0|  1|
+|10 |sfoDF-11-Lee       |      1|     1|       0|  0|
+|11 |sfoDF-57-Meyer     |      1|     1|       0|  0|
+|12 |sfoDF-88-Kissmann  |      1|     1|       0|  0|
+|13 |sfoDF-18-Weaver    |      1|     0|       1|  2|
+|14 |sfoDF-12-Bellinger |      1|     0|       1|  0|
+|15 |sfoDF-9-Farren     |      0|     0|       0|  1|
+
+
+|   |player   |last          | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:-------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|1  |sfoDF-2  |Adamson       |      7|     0.88|     6|       1|      8|           7|      13|   3|    0|
+|2  |sfoDF-3  |Weiss         |      5|     0.91|     2|       3|     11|          10|      12|   0|    0|
+|3  |sfoDF-6  |Kim           |      4|     0.95|     1|       3|     20|          19|      21|   0|    0|
+|4  |sfoDF-13 |Grant         |      3|     0.88|     1|       2|      8|           7|       6|   0|    0|
+|5  |sfoDF-5  |Cascino       |      3|     0.85|     1|       2|     27|          23|      25|   0|    0|
+|6  |sfoDF-8  |Pollard       |      2|     0.93|     1|       1|     14|          13|      14|   1|    0|
+|7  |sfoDF-85 |Brydon        |      2|     1.00|     1|       1|      9|           9|      11|   0|    0|
+|8  |sfoDF-1  |Ranahan       |      2|     1.00|     0|       2|     10|          10|       7|   1|    0|
+|9  |sfoDF-46 |McCarty       |      1|     1.00|     1|       0|      2|           2|       3|   1|    0|
+|10 |sfoDF-11 |Lee           |      1|     0.92|     1|       0|     13|          12|      12|   0|    0|
+|11 |sfoDF-57 |Meyer         |      1|     0.93|     1|       0|     28|          26|      20|   0|    0|
+|12 |sfoDF-88 |Kissmann      |      1|     0.90|     1|       0|     30|          27|      30|   0|    0|
+|13 |sfoDF-18 |Weaver        |      1|     1.00|     0|       1|      2|           2|       2|   2|    0|
+|14 |sfoDF-12 |Bellinger     |      1|     0.83|     0|       1|     12|          10|       9|   0|    0|
+|15 |sfoDF-9  |Farren        |      0|     1.00|     0|       0|      2|           2|       2|   1|    0|
+|16 |sfoDF-16 |Yeager        |      0|     1.00|     0|       0|     13|          13|      10|   0|    0|
+|17 |sfoDF-17 |Boyd-Meredith |      0|     0.94|     0|       0|     16|          15|      10|   0|    0|
+|18 |sfoDF-21 |Stearns       |      0|     1.00|     0|       0|      3|           3|       3|   0|    0|
+|19 |sfoDF-22 |Rivera        |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
 
 ## Player stats for pdxST <a id="home"></a>:
 
@@ -126,6 +211,32 @@ stats are cumulative for this game
 |18 |pdxST-21-McGinn       |      1|     1|       0|  0|
 |19 |pdxST-73-King         |      1|     1|       0|  0|
 |20 |pdxST-20-Beach-Rehner |      0|     0|       0|  1|
+
+
+|   |player   |last         | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
+|:--|:--------|:------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
+|20 |pdxST-24 |Norden       |      5|     0.94|     0|       5|     50|          47|      45|   0|    0|
+|21 |pdxST-6  |Bjorklund    |      3|     1.00|     3|       0|      7|           7|      10|   2|    0|
+|22 |pdxST-42 |Lohre        |      3|     0.95|     3|       0|     21|          20|      24|   0|    0|
+|23 |pdxST-22 |Cole         |      3|     0.87|     2|       1|     15|          13|      15|   1|    0|
+|24 |pdxST-7  |Friedman     |      3|     1.00|     2|       1|     34|          34|      34|   1|    0|
+|25 |pdxST-8  |Davis        |      3|     0.93|     0|       3|     14|          13|      12|   2|    1|
+|26 |pdxST-10 |Strout       |      3|     0.97|     0|       3|     34|          33|      30|   0|    0|
+|27 |pdxST-16 |Burton       |      2|     0.92|     2|       0|     12|          11|      13|   0|    0|
+|28 |pdxST-14 |Adamson      |      2|     1.00|     1|       1|      2|           2|       3|   1|    0|
+|29 |pdxST-17 |Hayes        |      2|     1.00|     1|       1|      5|           5|       5|   0|    0|
+|30 |pdxST-2  |Allison-Hall |      2|     1.00|     1|       1|     13|          13|      14|   0|    0|
+|31 |pdxST-5  |Woodside     |      2|     1.00|     1|       1|      4|           4|       5|   0|    0|
+|32 |pdxST-3  |Ferrea       |      2|     1.00|     0|       2|      5|           5|       5|   1|    0|
+|33 |pdxST-88 |Suppnick     |      2|     1.00|     0|       2|     15|          15|      11|   0|    0|
+|34 |pdxST-12 |Bui          |      1|     1.00|     1|       0|      1|           1|       2|   1|    0|
+|35 |pdxST-11 |Kenton       |      1|     0.93|     1|       0|     27|          25|      22|   0|    0|
+|36 |pdxST-15 |Thornton     |      1|     0.88|     1|       0|      8|           7|       9|   0|    0|
+|37 |pdxST-21 |McGinn       |      1|     0.95|     1|       0|     19|          18|      15|   0|    0|
+|38 |pdxST-73 |King         |      1|     0.90|     1|       0|     10|           9|       7|   0|    0|
+|39 |pdxST-20 |Beach-Rehner |      0|     1.00|     0|       0|      3|           3|       3|   1|    0|
+|40 |pdxST-4  |Blackman     |      0|     1.00|     0|       0|      3|           3|       3|   0|    0|
+|41 |pdxST-9  |Hancock      |      0|     0.80|     0|       0|      5|           4|       5|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 
@@ -179,7 +290,8 @@ stats are cumulative for this game
 |    19|      3|sfoDF     |    32|       38|        3|pdxST     |sfoDF   |18      |D       |Weaver       |sfoDF-18-Weaver       |     9|     8|
 |    19|      3|sfoDF     |    34|       39|        4|sfoDF     |sfoDF   |18      |A       |Weaver       |sfoDF-18-Weaver       |     9|     8|
 |    19|      3|sfoDF     |    35|       39|        4|sfoDF     |sfoDF   |2       |G       |Adamson      |sfoDF-2-Adamson       |     9|     8|
-|    20|      3|sfoDF     |    NA|       NA|       NA|NA        |NA      |NA      |NA      |NA           |NA-NA-NA              |     9|     9|
+|    20|      3|sfoDF     |     6|       41|        2|sfoDF     |sfoDF   |12      |A       |Bellinger    |sfoDF-12-Bellinger    |     9|     9|
+|    20|      3|sfoDF     |     7|       41|        2|sfoDF     |sfoDF   |13      |G       |Grant        |sfoDF-13-Grant        |     9|     9|
 |    21|      3|sfoDF     |    15|       42|        1|pdxST     |pdxST   |88      |A       |Suppnick     |pdxST-88-Suppnick     |    10|     9|
 |    21|      3|sfoDF     |    17|       42|        1|pdxST     |pdxST   |5       |G       |Woodside     |pdxST-5-Woodside      |    10|     9|
 |    22|      3|pdxST     |     5|       43|        1|sfoDF     |pdxST   |22      |D       |Cole         |pdxST-22-Cole         |    11|     9|
@@ -591,12 +703,13 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      3|    19|sfoDF     |    33|       39|        4|sfoDF     |sfoDF   |16      |PU      |
 |      3|    19|sfoDF     |    34|       39|        4|sfoDF     |sfoDF   |18      |A       |
 |      3|    19|sfoDF     |    35|       39|        4|sfoDF     |sfoDF   |2       |G       |
-|      3|    20|pdxST     |     1|       40|        1|pdxST     |pdxST   |11      |PU      |
-|      3|    20|pdxST     |     2|       40|        1|pdxST     |pdxST   |10      |        |
-|      3|    20|pdxST     |     3|       41|        2|sfoDF     |sfoDF   |16      |PU      |
-|      3|    20|pdxST     |     4|       41|        2|sfoDF     |sfoDF   |85      |        |
-|      3|    20|pdxST     |     5|       41|        2|sfoDF     |sfoDF   |12      |A       |
-|      3|    20|pdxST     |     6|       41|        2|sfoDF     |sfoDF   |13      |G       |
+|      3|    20|sfoDF     |     1|       40|        1|pdxST     |sfoDF   |?       |P       |
+|      3|    20|sfoDF     |     2|       40|        1|pdxST     |pdxST   |11      |PU      |
+|      3|    20|sfoDF     |     3|       40|        1|pdxST     |pdxST   |10      |        |
+|      3|    20|sfoDF     |     4|       41|        2|sfoDF     |sfoDF   |16      |PU      |
+|      3|    20|sfoDF     |     5|       41|        2|sfoDF     |sfoDF   |85      |        |
+|      3|    20|sfoDF     |     6|       41|        2|sfoDF     |sfoDF   |12      |A       |
+|      3|    20|sfoDF     |     7|       41|        2|sfoDF     |sfoDF   |13      |G       |
 |      3|    21|sfoDF     |     1|       42|        1|pdxST     |sfoDF   |12      |P       |
 |      3|    21|sfoDF     |     2|       42|        1|pdxST     |pdxST   |88      |PU      |
 |      3|    21|sfoDF     |     3|       42|        1|pdxST     |pdxST   |21      |        |

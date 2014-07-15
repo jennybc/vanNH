@@ -1,5 +1,5 @@
 2014-05-03_sfoDF-at-pdxST > 07_resolve-passes.r:
-  657 rows of resolved game play found
+  658 rows of resolved game play found
   538/540 rows of pass data are whitelisted (99.6%)
   ALERT 2 rows of pass data are novel
     poss_abs poss_rel point beg_event end_event desc n_inn beg_code beg_plyr
@@ -23,5 +23,5 @@
   540 rows of pass data will be written
   roster read for sfoDF and pdxST
   writing player stats to file: 19 for sfoDF, 22 for pdxST
-  2014-07-14 11:38:27
+  2014-07-14 22:26:12
 

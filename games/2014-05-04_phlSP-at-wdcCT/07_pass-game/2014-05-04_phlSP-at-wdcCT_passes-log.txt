@@ -1,5 +1,5 @@
 2014-05-04_phlSP-at-wdcCT > 07_resolve-passes.r:
-  666 rows of resolved game play found
+  667 rows of resolved game play found
   528/528 rows of pass data are whitelisted (100.0%)
   breakdown of passes:
 
@@ -9,5 +9,5 @@
   528 rows of pass data will be written
   roster read for phlSP and wdcCT
   writing player stats to file: 20 for phlSP, 25 for wdcCT
-  2014-07-14 11:38:29
+  2014-07-14 22:37:58
 

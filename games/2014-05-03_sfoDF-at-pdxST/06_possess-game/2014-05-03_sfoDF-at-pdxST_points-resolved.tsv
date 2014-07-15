@@ -18,7 +18,7 @@ point	period	clk_before	clk_after	pull_team	n_poss	scor_team	h_or_b	pdxST	sfoDF
 17	2	0:11:00	0:00:00	pdxST	NA	NA	NA	9	6
 18	3	10:00:00	9:42:00	pdxST	1	sfoDF	hold	9	7
 19	3	9:42:00	7:04:00	sfoDF	4	sfoDF	break	9	8
-20	3	7:04:00	6:31:00	sfoDF	2	sfoDF	hold	9	9
+20	3	7:04:00	6:31:00	sfoDF	2	sfoDF	break	9	9
 21	3	6:31:00	5:36:00	sfoDF	1	pdxST	hold	10	9
 22	3	5:36:00	5:13:00	pdxST	2	pdxST	break	11	9
 23	3	5:13:00	4:55:00	pdxST	1	sfoDF	hold	11	10
