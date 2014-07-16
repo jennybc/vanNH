@@ -19,6 +19,11 @@ Now playing: <http://www.stat.ubc.ca/~jenny/notOcto/vanNH/vanNH_nowPlaying.html>
 
 [Figures for a finals preview article](2014-07-16_finals-preview.html)
 
+Statistics and figures for players by team:
+
+  * [vanNH](team-stats/vanNH_player-stats.html)
+  * [wdcCT](team-stats/wdcCT_player-stats.html)
+
 ```{r include = FALSE, message = FALSE}
 library(yaml)
 library(plyr)

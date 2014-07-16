@@ -1,0 +1,98 @@
+---
+output:
+  html_document:
+    toc: yes
+    keep_md: TRUE
+---
+
+<a href="index.html">Back to index</a>
+
+```{r include = FALSE, message = FALSE}
+library(plyr)
+library(knitr)
+library(ggplot2)
+
+knitr::opts_chunk$set(error = TRUE)
+
+pl_stats <- readRDS(file.path("..", "games",
+                              "2014_all-games", "2014_player-game-stats.rds"))
+#str(pl_stats)
+
+# when compiled via the control script, team will have been
+# read from command line and pre-stored in the environment
+# for interactive use and development, set the team here
+if(!exists("team")) {
+  #team <- "wdcCT"
+  team <- "vanNH"
+  }
+
+message(team, " > 25_player-stats.rmd:")
+
+pl_stats <- pl_stats[pl_stats$team == team, ]
+message("  ", nrow(pl_stats), " rows of player * game stats found")
+#str(pl_stats, max.level = 1)
+```
+
+# Player statistics for `r team`
+
+## Data
+
+Tables and figures below based on data from `r length(unique(pl_stats$game))` games. The dataset covers `r length(unique(pl_stats$player))` unique players. There are `r nrow(pl_stats)` rows of player-level statistics, each being a unique combination of a game and a player. 
+
+```{r include = FALSE, message = FALSE}
+jFun <- function(x) {
+  y <-
+    ddply(x, ~ player, summarize, points = sum(points), goals = sum(goals),
+          assists = sum(assists), throws = sum(throws),
+          completions = sum(completions), catches = sum(catches), def = sum(def),
+          drop = sum(drop))
+  y <- subset(y, rowSums(subset(y, select = -player)) > 0)
+  y$comp_pct <- round(with(y, completions / throws), 2)
+  y <- arrange(y, desc(points), desc(goals), desc(assists),
+               desc(def), desc(catches))
+  return(y)
+  }
+pl_stats_by_player <- jFun(pl_stats)
+#str(pl_stats_by_player, max.level = 1)
+pl_stats_by_player <- # get player last name back
+  suppressMessages(join(pl_stats_by_player, pl_stats[c('player', 'last')],
+                        match = "first"))
+
+  # vars_to_drop <- c('game', 'team', 'number')
+  # vars_to_show <- setdiff(names(pl_stats), vars_to_drop)
+# 
+# pretty_vars <- c("week", "stats_link", "links",
+#                  "status", "us", "them", "outcome",
+#                  "pt_diff")
+# vanNH_pretty <- vanNH_data[pretty_vars]
+# vanNH_pretty <- rename(vanNH_pretty, c("stats_link" = "date"))
+# 
+# ## convert to character, then add a last row with relevant summaries
+# vanNH_pretty <- as.matrix(colwise(as.character)(vanNH_pretty))
+# n <- nrow(vanNH_pretty)
+# vanNH_pretty <- vanNH_pretty[c(seq_len(n), n), ]
+# vanNH_pretty[n + 1, ] <- ""
+# vanNH_pretty[n + 1, "us"] <- paste0("vanNH: ", sum(vanNH_data$vanNH))
+# vanNH_pretty[n + 1, "them"] <- paste0("opp: ", sum(vanNH_data$oppScore))
+# vanNH_pretty[n + 1, "pt_diff"] <- as.character(sum(vanNH_data$pt_diff))
+# vanNH_pretty[n + 1, "outcome"] <- 
+#   with(vanNH_data, paste0(sum(outcome == "W"),
+#                           "W - ", sum(outcome == "L"), "L"))
+```
+
+## Player stat table<a id="player_stat_table"></a>:
+```{r echo = FALSE, results = 'asis'}
+vars_to_show <- c('last', 'player', 'points', 'goals', 'assists',
+                  'throws', 'completions', 'comp_pct',
+                  'def', 'catches', 'drop')
+kable(pl_stats_by_player[vars_to_show], row.names = FALSE)
+```
+
+## Scatterplot: completion percentage vs number of throws
+```{r comp_pct_vs_throws, echo = FALSE, warning = FALSE}
+#pl_stats_by_player
+p <- ggplot(pl_stats_by_player, aes(x = throws, y = comp_pct))
+#p + geom_point()
+p + geom_text(aes(label = last), size = 4)
+```
+
