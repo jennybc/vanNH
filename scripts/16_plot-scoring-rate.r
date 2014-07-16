@@ -9,12 +9,13 @@ jWidth <- 5
 jHeight <- 4
 
 mlu_cols <-
-  c(pdxST = "#4DB870", vanNH = "#CCCCCC", seaRM = "#88A5C3", sfoDF = "#FFAD5C")
+  c(pdxST = "#4DB870", vanNH = "#CCCCCC", seaRM = "#88A5C3", sfoDF = "#FFAD5C",
+    wdcCT = "orange", bosWC = "blue", phlSP = "red", nykRM = "gold")
 theme_set(theme_bw())
 
-input_dir <- file.path("..", "games", "2014_west")
-point_file <- file.path(input_dir, "2014_west_points.rds")
-str(point_dat <- readRDS(point_file), give.attr = FALSE) # 589 obs. of  17 vars
+input_dir <- file.path("..", "games", "2014_all-games")
+point_file <- file.path(input_dir, "2014_points.rds")
+str(point_dat <- readRDS(point_file), give.attr = FALSE) # 1314 obs. of  17 
 
 ## learn the date, home team, away team from the game ID
 game_dat <- with(point_dat,
@@ -24,14 +25,15 @@ game_dat <- with(game_dat,
                  data.frame(game, date,
                             colsplit(matchup, "-at-", c("away", "home"))))
 point_dat <- join(point_dat, game_dat[c('game', 'away', 'home')])
-str(point_dat) # 589 obs. of  19 vars
+str(point_dat) # 1314 obs. of  19 vars
 
 ## determine the receiving team
-point_dat <- ddply(point_dat, ~ game, function(x) {
-  x <- droplevels(x)
-  the_teams <- levels(x$pull_team)
-  data.frame(x, recv_team = the_teams[ifelse(unclass(x$pull_team) == 1, 2, 1)])
-})
+# point_dat <- ddply(point_dat, ~ game, function(x) {
+#   x <- droplevels(x)
+#   the_teams <- levels(x$pull_team)
+#   data.frame(x, recv_team = the_teams[ifelse(unclass(x$pull_team) == 1, 2, 1)])
+# })
+point_dat$recv_team <- with(point_dat, ifelse(pull_team == away, home, away))
 str(point_dat)
 
 hold_rate <- ddply(point_dat, ~ recv_team, function(x) {
