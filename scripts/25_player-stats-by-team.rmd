@@ -48,7 +48,7 @@ str(pl_stats_agg) # 30 obs. of  13 variables
 
 Tables and figures below based on data from `r length(unique(pl_stats$game))` games. The dataset covers `r length(unique(pl_stats$player))` unique players. There are `r nrow(pl_stats)` rows of player-level statistics, each being a unique combination of a game and a player. 
 
-## Player stat table<a id="player_stat_table"></a>:
+## Player stat table
 ```{r echo = FALSE, results = 'asis'}
 vars_to_show <- c('last', 'player', 'games', 'points', 'goals', 'assists',
                   'throws', 'completions', 'comp_pct',
@@ -68,4 +68,14 @@ p + geom_text(aes(label = last), size = 4)
 p <- ggplot(pl_stats_agg, aes(x = throws/games, y = comp_pct))
 #p + geom_point()
 p + geom_text(aes(label = last), size = 4)
+```
+
+## Barchart: player's share to total season goals
+```{r barchart_share_of_goals, echo = FALSE, warning = FALSE}
+tot_goals <- sum(pl_stats_agg$goals)
+tmp <- subset(pl_stats_agg, goals > 0)
+tmp$player <- with(tmp, paste(player, last, sep = "-"))
+tmp$player <- with(tmp, reorder(player, goals))
+p <- ggplot(tmp, aes(x = player, y = goals / tot_goals))
+p + geom_bar(stat = "identity") + coord_flip()
 ```

@@ -19,20 +19,35 @@ The figures below are based on data from all Western Conference games played in 
 
 ```{r echo = FALSE, warning = FALSE}
 library(ggplot2)
-pl_stats <-
+library(plyr)
+pl_stats_agg <-
   readRDS(file.path("..", "games",
                     "2014_all-games", "2014_player-stats-aggregated.rds"))
-pl_stats <- pl_stats[pl_stats$team %in% c('vanNH', 'wdcCT'), ]
-p <- ggplot(pl_stats, aes(x = throws, y = comp_pct))
+pl_stats_agg <- pl_stats_agg[pl_stats_agg$team %in% c('vanNH', 'wdcCT'), ]
+p <- ggplot(pl_stats_agg, aes(x = throws, y = comp_pct))
 #p + geom_point()
 p + geom_text(aes(label = last), size = 4) + facet_wrap(~ team)
 
-p <- ggplot(pl_stats, aes(x = throws/games, y = comp_pct))
+p <- ggplot(pl_stats_agg, aes(x = throws/games, y = comp_pct))
 #p + geom_point()
 p + geom_text(aes(label = last), size = 4) + facet_wrap(~ team)
-
 ```
 
+### Barchart: player's share of team's total season goals
+```{r barchart_share_of_goals, echo = FALSE, warning = FALSE, fig.height = 8}
+tmp <- ddply(pl_stats_agg, ~ team, function(x) {
+  x <- subset(x, select = c(last, player, goals, number))
+  tot_goals <- sum(x$goals)
+  x <- subset(x, goals > 0)
+  x$player <- with(x, paste(player, last, sep = "-"))
+  x$player <- with(x, reorder(player, goals))
+  x$goal_share <- x$goals/tot_goals
+  return(x)
+  })
+#str(tmp)
+p <- ggplot(tmp, aes(x = player, y = goal_share))
+p + geom_bar(stat = "identity") + coord_flip()
+```
 
 ### How possessions end, high-level.
 

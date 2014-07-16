@@ -9,7 +9,7 @@
 
 Tables and figures below based on data from 11 games. The dataset covers 33 unique players. There are 273 rows of player-level statistics, each being a unique combination of a game and a player. 
 
-## Player stat table<a id="player_stat_table"></a>:
+## Player stat table
 
 |last           |player   | games| points| goals| assists| throws| completions| comp_pct| def| catches| drop|
 |:--------------|:--------|-----:|------:|-----:|-------:|------:|-----------:|--------:|---:|-------:|----:|
@@ -52,3 +52,6 @@ Tables and figures below based on data from 11 games. The dataset covers 33 uniq
 
 ## Scatterplot: completion percentage vs throws per game
 ![plot of chunk comp_pct_vs_throws_per_game](./wdcCT_player-stats_files/figure-html/comp_pct_vs_throws_per_game.png) 
+
+## Barchart: player's share to total season goals
+![plot of chunk barchart_share_of_goals](./wdcCT_player-stats_files/figure-html/barchart_share_of_goals.png) 
