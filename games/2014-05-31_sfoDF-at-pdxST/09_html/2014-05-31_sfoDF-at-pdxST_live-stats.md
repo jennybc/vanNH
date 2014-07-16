@@ -12,10 +12,10 @@ output:
 
 
 
-#### last update Tue Jul 15 21:21:20 2014
+#### last update Tue Jul 15 21:33:28 2014
 # sfoDF 15
 # pdxST 20
-## game is upcoming -- any data here is fake and for set up purposes
+## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  

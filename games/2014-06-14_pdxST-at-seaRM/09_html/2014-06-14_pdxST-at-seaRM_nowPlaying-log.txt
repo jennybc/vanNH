@@ -1,6 +1,6 @@
 2014-06-14_pdxST-at-seaRM > 09_vanNH-nowPlaying.rmd:
   roster read for pdxST and seaRM
-  game YAML read; game status: upcoming
+  game YAML read; game status: complete
   663 rows of game play found
   37 rows of point info play found
   scoring progression table has 37 rows
