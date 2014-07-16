@@ -16,6 +16,8 @@ Now playing: <http://www.stat.ubc.ca/~jenny/notOcto/vanNH/vanNH_nowPlaying.html>
 
 [Figures for a play-off preview article](2014-06-25_playoff-preview.html)
 
+[Figures for a finals preview article](2014-07-16_finals-preview.html)
+
 ```{r include = FALSE, message = FALSE}
 library(yaml)
 library(plyr)
