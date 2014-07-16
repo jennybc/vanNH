@@ -20,6 +20,7 @@ if(length(options) < 1) {
   #game <- "2014-04-26_pdxST-at-sfoDF"
   #game <- "2014-06-28_vanNH-at-pdxST"
   #game <- "2014-04-19_bosWC-at-wdcCT"
+  #game <- "2014-05-04_phlSP-at-wdcCT"
   game <- "2014-05-04_phlSP-at-wdcCT"
 } else {
   game <- options[1]
@@ -130,8 +131,7 @@ game_play <- transform(game_play,
                        recv_code = jFun(recv_code),
                        pull_code = jFun(pull_code))
 
-## maybe announce
-## such transformations, in case it ever becomes trickier
+## maybe announce such transformations, in case it ever becomes trickier?
 
 ## function to find double game play rows
 find_double_game_plays <-

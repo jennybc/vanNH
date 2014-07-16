@@ -21,7 +21,8 @@ if(length(options) < 1) {
   #game <- "2014-06-15_pdxST-at-vanNH"
   #game <- "2014-05-04_sfoDF-at-seaRM"
   #game <- "2014-05-03_sfoDF-at-pdxST"
-  game <- "2014-04-12_wdcCT-at-phlSP"
+  #game <- "2014-04-12_wdcCT-at-phlSP"
+  game <- "2014-05-04_phlSP-at-wdcCT"
 } else {
   game <- options[1]
 }
@@ -100,46 +101,13 @@ jFun <- function(x) {
 }
 game_play <- ddply(game_play, ~ point, jFun)
 
-## assign the assist
-## Is there an advantage to doing this before/after determining possession?
-jFun <- function(x) {
-  n <- nrow(x)
-  point <- x$point[1]
-  its_a_goal <- grepl("L*G", x$pl_code)
-  if(sum(its_a_goal) > 1) {
-    message("point: ", point, " ... more than one goal code detected!")
-  }
-  ## I do it this way in case there is foul on the goal catch, which
-  ## means the n-th event is not the goal itself    
-  goal_row <- which(its_a_goal)
-  if(length(goal_row) > 0) {
-    goal_row <- max(goal_row)
-    sc_team <- x$pl_team[goal_row]
-    ## I do it this way in case there is an intervening defensive foul, which
-    ## means the assist is not in goal_row - 1
-    ## WARNING: this won't work correctly for a Callahan
-    assist_row <- rev(which(with(x, pl_team == sc_team)))[2]
-    ## in my experience, existing code can be '', 'L', 'PU'
-    assist_code <- x$pl_code[assist_row]
-    if(grepl("A", assist_code)) {
-      message("ALERT: point", x$point[1], "has an explicit assist (A)")
-    } else {
-      x$pl_code[assist_row] <- paste0(assist_code, 'A')
-    }
-  }
-  return(x)
-}
-game_play <- ddply(game_play, ~ point, jFun)
-
 ## determine who's got possession
 
-## define some code groups
+## define groups of codes that are unambiguously associated with off or def
 goal_codes <- c('G', 'LG')
-assist_codes <- c('A', 'LA', 'PUA')
 more_offense_codes <- c('', 'PU', 'L', 'TD', 'VST', 'VTT', 'TO')
-offense_codes <- c(more_offense_codes, goal_codes, assist_codes)
+offense_codes <- c(more_offense_codes, goal_codes)
 d_codes <- c('D', 'HB', 'FB')
-pickup_codes <- c('PU', 'PUA')
 
 ## determine who possesses the disc: the easy stuff, i.e. possession can be
 ## determined directly from the event code
@@ -296,6 +264,56 @@ game_play <-
 game_play <-
   ddply(game_play, ~ point, function(x) data.frame(x, pull_team = x$pl_team[1]))
 #str(game_play)
+
+## assign the assist and correct game play around Callahans
+jFun <- function(x) {
+  point <- x$point[1]
+  poss_abs <- x$poss_abs[1]
+  its_a_goal <- grepl("L*G", x$pl_code)
+  if(sum(its_a_goal) > 1) {
+    message("  ALERT point: ", point, ", poss_abs " , poss_abs,
+            "... more than one goal code detected!")
+  }
+  if(sum(its_a_goal) < 1) {
+    return(x)
+  }
+  n <- nrow(x)
+  if(n == 1) {
+    message("  ALERT point: ", point, ", poss_abs " , poss_abs,
+            "... Callahan detected!")
+    x <- x[c(1, 1), ] # duplicate this row
+    x$pl_code[1] <- 'D'                # credit interceptor with a D
+    x$poss_team[1] <- get_opponent(x$poss_team[1])
+    x$poss_abs[1] <- x$poss_abs[1] - 1 # attribute the D to previous possession
+    x$poss_rel[1] <- x$poss_rel[1] - 1 # attribute the D to previous possession
+    x$pl_code[2] <- 'CG' # special code for a Callahan
+    return(x)
+  }
+  ## I do it this way in case there is foul on the goal catch, which
+  ## means the n-th event is not the goal itself    
+  goal_row <- which(its_a_goal)
+  if(length(goal_row) > 0) {
+    goal_row <- max(goal_row)
+    sc_team <- x$pl_team[goal_row]
+    ## I do it this way in case there is an intervening defensive foul, which
+    ## means the assist is not in goal_row - 1
+    assist_row <- rev(which(with(x, pl_team == sc_team)))[2]
+    ## in my experience, existing code can be '', 'L', 'PU'
+    assist_code <- x$pl_code[assist_row]
+    if(grepl("A", assist_code)) {
+      message("  ALERT point: ", point, ", poss_abs " , poss_abs,
+              "... explicit assist (A) detected recorded data!")
+    } else {
+      x$pl_code[assist_row] <- paste0(assist_code, 'A')
+    }
+  }
+  return(x)
+}
+game_play <- ddply(game_play, ~ poss_abs, jFun)
+
+## renumber events, in case there was a Callahan, which causes event insertion
+jFun <- function(x) {x$event <- 1:nrow(x); return(x)}
+game_play <- ddply(game_play, ~ point, jFun)
 
 #' Tidy up and write game play to file.
 vars_how_i_want <- c('period', 'point', 'pull_team', 'event',

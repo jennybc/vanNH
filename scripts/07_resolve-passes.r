@@ -13,7 +13,8 @@ if(length(options) < 1) {
   #game <- "2014-05-24_pdxST-at-vanNH"
   #game <- "2014-05-31_vanNH-at-seaRM"
   #game <- "2014-06-07_seaRM-at-vanNH"
-  game <- "2014-06-15_pdxST-at-vanNH"
+  #game <- "2014-06-15_pdxST-at-vanNH"
+  game <- "2014-05-04_phlSP-at-wdcCT"
   #game <- "2014-05-04_sfoDF-at-seaRM"
   #game <- "2014-04-26_pdxST-at-sfoDF"
   #game <- "2014-05-03_sfoDF-at-pdxST"
@@ -191,6 +192,19 @@ jFun <- function(the_plyr) {
 }
 pl_stats <- ldply(pl_dat$player, jFun)
 #pl_stats
+
+## check for a Callahan, which will be a goal in the game play but won't appear
+## in pass_dat, since it was an interception
+callahan_goal <- game_play$pl_code == 'CG'
+if(any(callahan_goal)) {
+  callahan_goal <- which(callahan_goal)
+  callahan_player <-
+    with(game_play[callahan_goal, ], paste(pl_team, pl_pnum, sep = "-"))
+  pl_stats$goals[pl_stats$player == callahan_player] <- 
+    pl_stats$goals[pl_stats$player == callahan_player] + 1
+  pl_stats$points <- with(pl_stats, goals + assists)
+}
+
 pl_stats <- suppressMessages(join(pl_stats, pl_dat))
 pl_stats <- suppressMessages(join(pl_stats, dual_roster, type = "left"))
 pl_stats_by_team <- split(pl_stats, pl_stats$team)
