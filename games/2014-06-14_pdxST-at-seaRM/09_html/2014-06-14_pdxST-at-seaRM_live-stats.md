@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:39:25 2014
+#### last update Tue Jul 15 21:21:33 2014
 # pdxST 17
 # seaRM 16
 ## game is upcoming -- any data here is fake and for set up purposes
@@ -74,24 +74,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player                | points| goals| assists| Ds|
-|:--|:---------------------|------:|-----:|-------:|--:|
-|1  |pdxST-2-Allison-Hall  |      5|     4|       1|  0|
-|2  |pdxST-42-Lohre        |      5|     2|       3|  1|
-|3  |pdxST-7-Friedman      |      5|     2|       3|  0|
-|4  |pdxST-24-Norden       |      5|     0|       5|  0|
-|5  |pdxST-10-Strout       |      4|     3|       1|  0|
-|6  |pdxST-6-Bjorklund     |      2|     2|       0|  0|
-|7  |pdxST-17-Hayes        |      2|     0|       2|  1|
-|8  |pdxST-11-Kenton       |      2|     0|       2|  0|
-|9  |pdxST-22-Cole         |      1|     1|       0|  1|
-|10 |pdxST-14-Adamson      |      1|     1|       0|  0|
-|11 |pdxST-16-Burton       |      1|     1|       0|  0|
-|12 |pdxST-9-Hancock       |      1|     1|       0|  0|
-|13 |pdxST-8-Davis         |      0|     0|       0|  2|
-|14 |pdxST-25-Meinershagen |      0|     0|       0|  1|
-|15 |pdxST-3-Ferrea        |      0|     0|       0|  1|
-|16 |pdxST-5-Woodside      |      0|     0|       0|  1|
 
 
 |   |player   |last         | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -125,24 +107,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player             | points| goals| assists| Ds|
-|:--|:------------------|------:|-----:|-------:|--:|
-|1  |seaRM-99-el-salaam |      6|     3|       3|  0|
-|2  |seaRM-77-trotter   |      5|     2|       3|  1|
-|3  |seaRM-35-koss      |      4|     0|       4|  0|
-|4  |seaRM-1-mckibben   |      3|     2|       1|  1|
-|5  |seaRM-6-trytiak    |      3|     1|       2|  2|
-|6  |seaRM-9-harkness   |      2|     2|       0|  1|
-|7  |seaRM-5-chu        |      2|     2|       0|  0|
-|8  |seaRM-12-gallagher |      2|     1|       1|  1|
-|9  |seaRM-51-entz      |      2|     1|       1|  1|
-|10 |seaRM-15-beehner   |      2|     1|       1|  0|
-|11 |seaRM-25-rosatto   |      1|     1|       0|  0|
-|12 |seaRM-00-rupp      |      0|     0|       0|  1|
-|13 |seaRM-13-sewell    |      0|     0|       0|  1|
-|14 |seaRM-23-sliva     |      0|     0|       0|  1|
-|15 |seaRM-24-duffel    |      0|     0|       0|  1|
-|16 |seaRM-7-cooper     |      0|     0|       0|  1|
 
 
 |   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

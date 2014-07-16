@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:37:03 2014
+#### last update Tue Jul 15 21:20:47 2014
 # bosWC 17
 # wdcCT 18
 ## game is complete
@@ -74,25 +74,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player                     | points| goals| assists| Ds|
-|:--|:--------------------------|------:|-----:|-------:|--:|
-|1  |bosWC-21-graham            |      7|     5|       2|  2|
-|2  |bosWC-77-clark             |      6|     4|       2|  0|
-|3  |bosWC-1-markette           |      4|     0|       4|  0|
-|4  |bosWC-7-brecher            |      4|     0|       4|  0|
-|5  |bosWC-00-taylor            |      3|     1|       2|  0|
-|6  |bosWC-13-malacek           |      3|     1|       2|  0|
-|7  |bosWC-17-foster            |      2|     2|       0|  0|
-|8  |bosWC-27-hatchett          |      1|     1|       0|  2|
-|9  |bosWC-3-zid                |      1|     1|       0|  0|
-|10 |bosWC-4-rebholz            |      1|     1|       0|  0|
-|11 |bosWC-6-roth               |      1|     1|       0|  0|
-|12 |bosWC-14-montgomery-butler |      1|     0|       1|  0|
-|13 |bosWC-12-simmons           |      0|     0|       0|  1|
-|14 |bosWC-25-mcdonnell         |      0|     0|       0|  1|
-|15 |bosWC-28-trahey            |      0|     0|       0|  1|
-|16 |bosWC-43-hirschberger      |      0|     0|       0|  1|
-|17 |bosWC-5-doherty            |      0|     0|       0|  1|
 
 
 |   |player   |last              | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -125,24 +106,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player                 | points| goals| assists| Ds|
-|:--|:----------------------|------:|-----:|-------:|--:|
-|1  |wdcCT-99-kolick        |      7|     2|       5|  0|
-|2  |wdcCT-8-prial          |      6|     1|       5|  3|
-|3  |wdcCT-45-wodatch       |      4|     4|       0|  0|
-|4  |wdcCT-2-keegan         |      4|     2|       2|  0|
-|5  |wdcCT-32-peters        |      3|     3|       0|  2|
-|6  |wdcCT-80-grabowski     |      2|     2|       0|  0|
-|7  |wdcCT-6-gordon         |      2|     1|       1|  0|
-|8  |wdcCT-88-oung          |      2|     1|       1|  0|
-|9  |wdcCT-9-doi            |      2|     1|       1|  0|
-|10 |wdcCT-90-shofner       |      2|     0|       2|  0|
-|11 |wdcCT-22-marshall      |      1|     1|       0|  0|
-|12 |wdcCT-17-miner         |      1|     0|       1|  0|
-|13 |wdcCT-24-fleming       |      0|     0|       0|  2|
-|14 |wdcCT-21-dulabon       |      0|     0|       0|  1|
-|15 |wdcCT-5-cranston       |      0|     0|       0|  1|
-|16 |wdcCT-7-boylan-kolchin |      0|     0|       0|  1|
 
 
 |   |player   |last           | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:37:50 2014
+#### last update Tue Jul 15 21:21:03 2014
 # sfoDF 16
 # seaRM 18
 ## game is complete
@@ -74,25 +74,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player                 | points| goals| assists| Ds|
-|:--|:----------------------|------:|-----:|-------:|--:|
-|1  |sfoDF-2-Adamson        |      5|     4|       1|  1|
-|2  |sfoDF-16-Yeager        |      4|     0|       4|  1|
-|3  |sfoDF-88-Kissmann      |      3|     3|       0|  0|
-|4  |sfoDF-18-Weaver        |      3|     2|       1|  0|
-|5  |sfoDF-11-Lee           |      2|     2|       0|  1|
-|6  |sfoDF-9-Farren         |      2|     2|       0|  0|
-|7  |sfoDF-5-Cascino        |      2|     1|       1|  1|
-|8  |sfoDF-21-Stearns       |      2|     0|       2|  2|
-|9  |sfoDF-1-Ranahan        |      2|     0|       2|  0|
-|10 |sfoDF-12-Bellinger     |      1|     1|       0|  1|
-|11 |sfoDF-85-Brydon        |      1|     1|       0|  1|
-|12 |sfoDF-46-McCarty       |      1|     0|       1|  1|
-|13 |sfoDF-17-Boyd-Meredith |      1|     0|       1|  0|
-|14 |sfoDF-19-Weiss         |      1|     0|       1|  0|
-|15 |sfoDF-6-Kim            |      1|     0|       1|  0|
-|16 |sfoDF-8-Pollard        |      1|     0|       1|  0|
-|17 |sfoDF-14-Hurst         |      0|     0|       0|  1|
 
 
 |   |player   |last          | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -124,26 +105,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player             | points| goals| assists| Ds|
-|:--|:------------------|------:|-----:|-------:|--:|
-|1  |seaRM-48-clark     |      5|     3|       2|  3|
-|2  |seaRM-12-gallagher |      5|     2|       3|  3|
-|3  |seaRM-13-sewell    |      4|     3|       1|  0|
-|4  |seaRM-35-koss      |      4|     1|       3|  2|
-|5  |seaRM-29-feeley    |      3|     0|       3|  1|
-|6  |seaRM-18-uhrig-fox |      2|     2|       0|  1|
-|7  |seaRM-6-trytiak    |      2|     1|       1|  1|
-|8  |seaRM-5-chu        |      2|     1|       1|  0|
-|9  |seaRM-00-rupp      |      1|     1|       0|  0|
-|10 |seaRM-15-beehner   |      1|     1|       0|  0|
-|11 |seaRM-2-bubernak   |      1|     1|       0|  0|
-|12 |seaRM-51-entz      |      1|     1|       0|  0|
-|13 |seaRM-77-trotter   |      1|     1|       0|  0|
-|14 |seaRM-17-zemel     |      1|     0|       1|  1|
-|15 |seaRM-1-mckibben   |      1|     0|       1|  0|
-|16 |seaRM-21-phan      |      1|     0|       1|  0|
-|17 |seaRM-24-duffel    |      1|     0|       1|  0|
-|18 |seaRM-10-kalmakis  |      0|     0|       0|  1|
 
 
 |   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

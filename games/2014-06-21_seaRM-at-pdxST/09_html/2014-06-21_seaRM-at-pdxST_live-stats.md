@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:39:36 2014
+#### last update Tue Jul 15 21:21:37 2014
 # seaRM 12
 # pdxST 13
 ## game is complete
@@ -65,22 +65,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player             | points| goals| assists| Ds|
-|:--|:------------------|------:|-----:|-------:|--:|
-|1  |seaRM-99-el-salaam |      7|     5|       2|  0|
-|2  |seaRM-77-trotter   |      3|     1|       2|  0|
-|3  |seaRM-24-duffel    |      2|     2|       0|  0|
-|4  |seaRM-1-mckibben   |      2|     1|       1|  1|
-|5  |seaRM-12-gallagher |      2|     1|       1|  1|
-|6  |seaRM-21-phan      |      2|     1|       1|  0|
-|7  |seaRM-29-feeley    |      2|     0|       2|  0|
-|8  |seaRM-18-uhrig-fox |      1|     1|       0|  1|
-|9  |seaRM-23-sliva     |      1|     0|       1|  2|
-|10 |seaRM-2-bubernak   |      1|     0|       1|  0|
-|11 |seaRM-5-chu        |      1|     0|       1|  0|
-|12 |seaRM-4-schneider  |      0|     0|       0|  2|
-|13 |seaRM-00-rupp      |      0|     0|       0|  1|
-|14 |seaRM-15-beehner   |      0|     0|       0|  1|
 
 
 |   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -113,24 +97,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player                | points| goals| assists| Ds|
-|:--|:---------------------|------:|-----:|-------:|--:|
-|1  |pdxST-6-Bjorklund     |      4|     2|       2|  0|
-|2  |pdxST-5-Woodside      |      3|     3|       0|  0|
-|3  |pdxST-88-Suppnick     |      3|     1|       2|  1|
-|4  |pdxST-10-Strout       |      3|     0|       3|  0|
-|5  |pdxST-21-McGinn       |      2|     2|       0|  1|
-|6  |pdxST-11-Kenton       |      2|     1|       1|  0|
-|7  |pdxST-16-Burton       |      2|     1|       1|  0|
-|8  |pdxST-1-Cable         |      1|     1|       0|  0|
-|9  |pdxST-14-Adamson      |      1|     1|       0|  0|
-|10 |pdxST-7-Friedman      |      1|     1|       0|  0|
-|11 |pdxST-15-Thornton     |      1|     0|       1|  0|
-|12 |pdxST-22-Cole         |      1|     0|       1|  0|
-|13 |pdxST-24-Norden       |      1|     0|       1|  0|
-|14 |pdxST-42-Lohre        |      1|     0|       1|  0|
-|15 |pdxST-2-Allison-Hall  |      0|     0|       0|  1|
-|16 |pdxST-20-Beach-Rehner |      0|     0|       0|  1|
 
 
 |   |player   |last         | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

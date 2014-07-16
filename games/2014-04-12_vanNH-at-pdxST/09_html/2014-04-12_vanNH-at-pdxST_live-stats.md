@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:36:51 2014
+#### last update Tue Jul 15 21:20:43 2014
 # vanNH 21
 # pdxST 23
 ## game is complete
@@ -84,24 +84,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player              | points| goals| assists| Ds|
-|:--|:-------------------|------:|-----:|-------:|--:|
-|1  |vanNH-22-berezan    |      8|     3|       5|  1|
-|2  |vanNH-98-wong       |      7|     5|       2|  0|
-|3  |vanNH-21-loach      |      4|     2|       2|  0|
-|4  |vanNH-10-chatha     |      3|     2|       1|  0|
-|5  |vanNH-8-hibbert     |      3|     0|       3|  2|
-|6  |vanNH-91-savage     |      3|     0|       3|  1|
-|7  |vanNH-72-leduc      |      2|     2|       0|  0|
-|8  |vanNH-81-tejpar     |      2|     1|       1|  2|
-|9  |vanNH-13-tessarolo  |      2|     1|       1|  0|
-|10 |vanNH-75-bellavance |      2|     1|       1|  0|
-|11 |vanNH-31-saito      |      1|     1|       0|  1|
-|12 |vanNH-33-collins    |      1|     1|       0|  1|
-|13 |vanNH-18-menzies    |      1|     1|       0|  0|
-|14 |vanNH-45-cowan      |      1|     1|       0|  0|
-|15 |vanNH-89-underhill  |      1|     0|       1|  1|
-|16 |vanNH-5-norris      |      1|     0|       1|  0|
 
 
 |   |player   |last       | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -135,24 +117,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player               | points| goals| assists| Ds|
-|:--|:--------------------|------:|-----:|-------:|--:|
-|1  |pdxST-13-Perston     |     10|     9|       1|  0|
-|2  |pdxST-7-Friedman     |      6|     2|       4|  0|
-|3  |pdxST-42-Lohre       |      5|     3|       2|  0|
-|4  |pdxST-16-Burton      |      5|     1|       4|  0|
-|5  |pdxST-6-Bjorklund    |      4|     2|       2|  0|
-|6  |pdxST-10-Strout      |      3|     1|       2|  0|
-|7  |pdxST-3-Ferrea       |      2|     2|       0|  1|
-|8  |pdxST-11-Kenton      |      2|     0|       2|  0|
-|9  |pdxST-24-Norden      |      2|     0|       2|  0|
-|10 |pdxST-88-Suppnick    |      2|     0|       2|  0|
-|11 |pdxST-17-Hayes       |      1|     1|       0|  0|
-|12 |pdxST-2-Allison-Hall |      1|     1|       0|  0|
-|13 |pdxST-4-Blackman     |      1|     1|       0|  0|
-|14 |pdxST-21-McGinn      |      1|     0|       1|  2|
-|15 |pdxST-8-Davis        |      1|     0|       1|  1|
-|16 |pdxST-22-Cole        |      0|     0|       0|  1|
 
 
 |   |player   |last         | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

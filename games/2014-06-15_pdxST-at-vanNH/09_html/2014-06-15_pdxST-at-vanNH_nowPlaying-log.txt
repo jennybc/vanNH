@@ -5,8 +5,6 @@
   41 rows of point info play found
   ALERT last name unknown for player(s) involved in these plays:
   point 6 event 22 team pdxST number ? code D
-  player stat tables include 17 for pdxST and 15 for vanNH
-  writing player stats to file
   scoring progression table has 41 rows
 [1] TRUE
 [1] TRUE

@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:37:57 2014
+#### last update Tue Jul 15 21:21:05 2014
 # nykRM 15
 # wdcCT 28
 ## game is complete
@@ -84,26 +84,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player             | points| goals| assists| Ds|
-|:--|:------------------|------:|-----:|-------:|--:|
-|1  |nykRM-22-marsh     |      5|     2|       3|  0|
-|2  |nykRM-47-murphy    |      4|     2|       2|  0|
-|3  |nykRM-2-heljmen    |      4|     1|       3|  0|
-|4  |nykRM-6-mazur      |      3|     1|       2|  0|
-|5  |nykRM-14-vuckovich |      2|     2|       0|  1|
-|6  |nykRM-44-gillies   |      2|     2|       0|  0|
-|7  |nykRM-13-hunziker  |      2|     1|       1|  0|
-|8  |nykRM-18-yz        |      2|     0|       2|  0|
-|9  |nykRM-19-saul      |      1|     1|       0|  0|
-|10 |nykRM-3-cox        |      1|     1|       0|  0|
-|11 |nykRM-33-herman    |      1|     1|       0|  0|
-|12 |nykRM-41-faust     |      1|     1|       0|  0|
-|13 |nykRM-27-wilson    |      1|     0|       1|  0|
-|14 |nykRM-8-raymond    |      1|     0|       1|  0|
-|15 |nykRM-21-anderson  |      0|     0|       0|  2|
-|16 |nykRM-10-hennessy  |      0|     0|       0|  1|
-|17 |nykRM-4-hennessy   |      0|     0|       0|  1|
-|18 |nykRM-5-sender     |      0|     0|       0|  1|
 
 
 |   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -139,30 +119,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player             | points| goals| assists| Ds|
-|:--|:------------------|------:|-----:|-------:|--:|
-|1  |wdcCT-99-kolick    |      8|     2|       6|  0|
-|2  |wdcCT-8-prial      |      5|     4|       1|  0|
-|3  |wdcCT-90-shofner   |      5|     2|       3|  2|
-|4  |wdcCT-42-gibson    |      4|     1|       3|  0|
-|5  |wdcCT-80-grabowski |      3|     3|       0|  0|
-|6  |wdcCT-22-marshall  |      3|     2|       1|  3|
-|7  |wdcCT-4-johnson    |      3|     2|       1|  1|
-|8  |wdcCT-45-wodatch   |      3|     1|       2|  0|
-|9  |wdcCT-20-poole     |      3|     0|       3|  0|
-|10 |wdcCT-25-gordon    |      2|     2|       0|  2|
-|11 |wdcCT-9-doi        |      2|     2|       0|  1|
-|12 |wdcCT-5-cranston   |      2|     1|       1|  1|
-|13 |wdcCT-19-maloney   |      2|     1|       1|  0|
-|14 |wdcCT-32-peters    |      2|     1|       1|  0|
-|15 |wdcCT-14-blake     |      2|     0|       2|  0|
-|16 |wdcCT-17-miner     |      1|     1|       0|  2|
-|17 |wdcCT-6-gordon     |      1|     1|       0|  1|
-|18 |wdcCT-21-dulabon   |      1|     1|       0|  0|
-|19 |wdcCT-31-cobb      |      1|     1|       0|  0|
-|20 |wdcCT-12-bellinger |      1|     0|       1|  0|
-|21 |wdcCT-2-keegan     |      1|     0|       1|  0|
-|22 |wdcCT-3-fickley    |      1|     0|       1|  0|
 
 
 |   |player   |last           | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

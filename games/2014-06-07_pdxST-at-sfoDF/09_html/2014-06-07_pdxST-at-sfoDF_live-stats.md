@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:39:01 2014
+#### last update Tue Jul 15 21:21:25 2014
 # pdxST 17
 # sfoDF 12
 ## game is upcoming -- any data here is fake and for set up purposes
@@ -70,24 +70,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player                | points| goals| assists| Ds|
-|:--|:---------------------|------:|-----:|-------:|--:|
-|1  |pdxST-8-Davis         |      4|     3|       1|  2|
-|2  |pdxST-16-Burton       |      4|     2|       2|  1|
-|3  |pdxST-11-Kenton       |      4|     2|       2|  0|
-|4  |pdxST-42-Lohre        |      4|     2|       2|  0|
-|5  |pdxST-24-Norden       |      3|     0|       3|  1|
-|6  |pdxST-22-Cole         |      2|     2|       0|  1|
-|7  |pdxST-25-Meinershagen |      2|     2|       0|  1|
-|8  |pdxST-10-Strout       |      2|     1|       1|  0|
-|9  |pdxST-7-Friedman      |      2|     1|       1|  0|
-|10 |pdxST-21-McGinn       |      2|     0|       2|  0|
-|11 |pdxST-3-Ferrea        |      1|     1|       0|  1|
-|12 |pdxST-17-Hayes        |      1|     1|       0|  0|
-|13 |pdxST-2-Allison-Hall  |      1|     0|       1|  1|
-|14 |pdxST-73-King         |      1|     0|       1|  0|
-|15 |pdxST-9-Hancock       |      1|     0|       1|  0|
-|16 |pdxST-15-Thornton     |      0|     0|       0|  1|
 
 
 |   |player   |last         | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -119,22 +101,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player            | points| goals| assists| Ds|
-|:--|:-----------------|------:|-----:|-------:|--:|
-|1  |sfoDF-40-Taylor   |      5|     2|       3|  0|
-|2  |sfoDF-88-Kissmann |      4|     3|       1|  0|
-|3  |sfoDF-34-Boucher  |      3|     1|       2|  0|
-|4  |sfoDF-6-Kim       |      2|     2|       0|  2|
-|5  |sfoDF-46-McCarty  |      2|     1|       1|  0|
-|6  |sfoDF-8-Pollard   |      2|     1|       1|  0|
-|7  |sfoDF-85-Brydon   |      1|     1|       0|  1|
-|8  |sfoDF-2-Adamson   |      1|     1|       0|  0|
-|9  |sfoDF-23-Jeffery  |      1|     0|       1|  2|
-|10 |sfoDF-13-Grant    |      1|     0|       1|  1|
-|11 |sfoDF-25-Dixon    |      1|     0|       1|  1|
-|12 |sfoDF-16-Yeager   |      1|     0|       1|  0|
-|13 |sfoDF-19-Weiss    |      0|     0|       0|  1|
-|14 |sfoDF-7-Sheridan  |      0|     0|       0|  1|
 
 
 |   |player   |last          | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

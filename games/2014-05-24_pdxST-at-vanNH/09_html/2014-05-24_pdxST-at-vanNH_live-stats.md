@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:38:28 2014
+#### last update Tue Jul 15 21:21:16 2014
 # pdxST 19
 # vanNH 16
 ## game is complete
@@ -76,25 +76,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player                | points| goals| assists| Ds|
-|:--|:---------------------|------:|-----:|-------:|--:|
-|1  |pdxST-6-Bjorklund     |      5|     3|       2|  0|
-|2  |pdxST-7-Friedman      |      5|     2|       3|  1|
-|3  |pdxST-2-Allison-Hall  |      3|     3|       0|  0|
-|4  |pdxST-16-Burton       |      3|     2|       1|  0|
-|5  |pdxST-9-Hancock       |      3|     2|       1|  0|
-|6  |pdxST-11-Kenton       |      3|     0|       3|  0|
-|7  |pdxST-17-Hayes        |      2|     2|       0|  1|
-|8  |pdxST-42-Lohre        |      2|     2|       0|  1|
-|9  |pdxST-8-Davis         |      2|     0|       2|  3|
-|10 |pdxST-25-Meinershagen |      2|     0|       2|  1|
-|11 |pdxST-73-King         |      2|     0|       2|  0|
-|12 |pdxST-5-Woodside      |      1|     1|       0|  4|
-|13 |pdxST-20-Beach-Rehner |      1|     1|       0|  0|
-|14 |pdxST-4-Blackman      |      1|     1|       0|  0|
-|15 |pdxST-22-Cole         |      1|     0|       1|  1|
-|16 |pdxST-88-Suppnick     |      1|     0|       1|  1|
-|17 |pdxST-15-Thornton     |      1|     0|       1|  0|
 
 
 |   |player   |last         | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -126,25 +107,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player              | points| goals| assists| Ds|
-|:--|:-------------------|------:|-----:|-------:|--:|
-|1  |vanNH-98-wong       |      8|     6|       2|  0|
-|2  |vanNH-91-savage     |      5|     1|       4|  0|
-|3  |vanNH-10-chatha     |      3|     1|       2|  0|
-|4  |vanNH-24-yu         |      3|     1|       2|  0|
-|5  |vanNH-39-seraglia   |      2|     2|       0|  1|
-|6  |vanNH-22-berezan    |      2|     2|       0|  0|
-|7  |vanNH-19-knapp      |      1|     1|       0|  0|
-|8  |vanNH-45-cowan      |      1|     1|       0|  0|
-|9  |vanNH-75-bellavance |      1|     1|       0|  0|
-|10 |vanNH-72-leduc      |      1|     0|       1|  1|
-|11 |vanNH-8-hibbert     |      1|     0|       1|  1|
-|12 |vanNH-89-underhill  |      1|     0|       1|  1|
-|13 |vanNH-18-menzies    |      1|     0|       1|  0|
-|14 |vanNH-21-loach      |      1|     0|       1|  0|
-|15 |vanNH-81-tejpar     |      1|     0|       1|  0|
-|16 |vanNH-13-tessarolo  |      0|     0|       0|  1|
-|17 |vanNH-37-sinclair   |      0|     0|       0|  1|
 
 
 |   |player   |last       | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

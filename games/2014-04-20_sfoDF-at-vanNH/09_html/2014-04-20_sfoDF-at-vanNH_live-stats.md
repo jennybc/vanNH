@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:37:15 2014
+#### last update Tue Jul 15 21:20:51 2014
 # sfoDF 15
 # vanNH 26
 ## game is complete
@@ -82,21 +82,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player             | points| goals| assists| Ds|
-|:--|:------------------|------:|-----:|-------:|--:|
-|1  |sfoDF-34-Boucher   |      7|     3|       4|  1|
-|2  |sfoDF-8-Pollard    |      4|     0|       4|  0|
-|3  |sfoDF-21-Stearns   |      3|     2|       1|  0|
-|4  |sfoDF-83-Husak     |      3|     2|       1|  0|
-|5  |sfoDF-37-Hart      |      2|     2|       0|  0|
-|6  |sfoDF-88-Kissmann  |      2|     2|       0|  0|
-|7  |sfoDF-1-Ranahan    |      2|     1|       1|  0|
-|8  |sfoDF-3-Weiss      |      2|     1|       1|  0|
-|9  |sfoDF-24-Caulfield |      1|     1|       0|  0|
-|10 |sfoDF-57-Meyer     |      1|     1|       0|  0|
-|11 |sfoDF-18-Weaver    |      1|     0|       1|  1|
-|12 |sfoDF-13-Grant     |      1|     0|       1|  0|
-|13 |sfoDF-85-Brydon    |      1|     0|       1|  0|
 
 
 |   |player   |last          | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -132,31 +117,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player              | points| goals| assists| Ds|
-|:--|:-------------------|------:|-----:|-------:|--:|
-|1  |vanNH-98-wong       |     10|     7|       3|  0|
-|2  |vanNH-72-leduc      |      4|     3|       1|  0|
-|3  |vanNH-10-chatha     |      4|     2|       2|  1|
-|4  |vanNH-89-underhill  |      4|     1|       3|  0|
-|5  |vanNH-11-greer      |      4|     0|       4|  1|
-|6  |vanNH-21-loach      |      4|     0|       4|  0|
-|7  |vanNH-27-davis      |      3|     3|       0|  2|
-|8  |vanNH-14-eyrich     |      2|     2|       0|  1|
-|9  |vanNH-81-tejpar     |      2|     2|       0|  0|
-|10 |vanNH-39-seraglia   |      2|     1|       1|  2|
-|11 |vanNH-8-hibbert     |      2|     0|       2|  3|
-|12 |vanNH-18-menzies    |      1|     1|       0|  1|
-|13 |vanNH-19-knapp      |      1|     1|       0|  0|
-|14 |vanNH-33-collins    |      1|     1|       0|  0|
-|15 |vanNH-45-cowan      |      1|     1|       0|  0|
-|16 |vanNH-91-savage     |      1|     1|       0|  0|
-|17 |vanNH-22-berezan    |      1|     0|       1|  1|
-|18 |vanNH-4-doyle       |      1|     0|       1|  1|
-|19 |vanNH-37-sinclair   |      1|     0|       1|  0|
-|20 |vanNH-5-norris      |      1|     0|       1|  0|
-|21 |vanNH-6-gailits     |      1|     0|       1|  0|
-|22 |vanNH-75-bellavance |      1|     0|       1|  0|
-|23 |vanNH-13-tessarolo  |      0|     0|       0|  2|
 
 
 |   |player   |last       | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

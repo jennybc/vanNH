@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:37:21 2014
+#### last update Tue Jul 15 21:20:53 2014
 # pdxST 18
 # sfoDF 16
 ## game is complete
@@ -75,24 +75,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player               | points| goals| assists| Ds|
-|:--|:--------------------|------:|-----:|-------:|--:|
-|1  |pdxST-7-Friedman     |      6|     4|       2|  1|
-|2  |pdxST-10-Strout      |      4|     1|       3|  0|
-|3  |pdxST-8-Davis        |      4|     1|       3|  0|
-|4  |pdxST-11-Kenton      |      3|     2|       1|  0|
-|5  |pdxST-16-Burton      |      3|     2|       1|  0|
-|6  |pdxST-22-Cole        |      3|     1|       2|  0|
-|7  |pdxST-2-Allison-Hall |      2|     2|       0|  1|
-|8  |pdxST-6-Bjorklund    |      2|     1|       1|  2|
-|9  |pdxST-42-Lohre       |      2|     1|       1|  1|
-|10 |pdxST-21-McGinn      |      2|     0|       2|  1|
-|11 |pdxST-24-Norden      |      2|     0|       2|  0|
-|12 |pdxST-4-Blackman     |      1|     1|       0|  0|
-|13 |pdxST-5-Woodside     |      1|     1|       0|  0|
-|14 |pdxST-9-Hancock      |      1|     1|       0|  0|
-|15 |pdxST-14-Adamson     |      0|     0|       0|  1|
-|16 |pdxST-17-Hayes       |      0|     0|       0|  1|
 
 
 |   |player   |last         | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -122,26 +104,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player                 | points| goals| assists| Ds|
-|:--|:----------------------|------:|-----:|-------:|--:|
-|1  |sfoDF-40-Taylor        |      6|     1|       5|  0|
-|2  |sfoDF-24-Caulfield     |      4|     4|       0|  3|
-|3  |sfoDF-23-Jeffery       |      3|     3|       0|  0|
-|4  |sfoDF-21-Stearns       |      3|     1|       2|  1|
-|5  |sfoDF-13-Grant         |      3|     1|       2|  0|
-|6  |sfoDF-16-Yeager        |      3|     0|       3|  1|
-|7  |sfoDF-1-Ranahan        |      2|     2|       0|  1|
-|8  |sfoDF-34-Boucher       |      2|     0|       2|  0|
-|9  |sfoDF-37-Hart          |      1|     1|       0|  1|
-|10 |sfoDF-5-Cascino        |      1|     1|       0|  1|
-|11 |sfoDF-2-Adamson        |      1|     1|       0|  0|
-|12 |sfoDF-46-McCarty       |      1|     1|       0|  0|
-|13 |sfoDF-25-Dixon         |      1|     0|       1|  1|
-|14 |sfoDF-88-Kissmann      |      1|     0|       1|  0|
-|15 |sfoDF-10-Sugioka       |      0|     0|       0|  1|
-|16 |sfoDF-17-Boyd-Meredith |      0|     0|       0|  1|
-|17 |sfoDF-85-Brydon        |      0|     0|       0|  1|
-|18 |sfoDF-9-Farren         |      0|     0|       0|  1|
 
 
 |   |player   |last          | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

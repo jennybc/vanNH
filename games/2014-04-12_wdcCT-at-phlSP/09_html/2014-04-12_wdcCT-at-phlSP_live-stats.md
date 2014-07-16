@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:36:57 2014
+#### last update Tue Jul 15 21:20:45 2014
 # wdcCT 21
 # phlSP 18
 ## game is complete
@@ -79,29 +79,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player                 | points| goals| assists| Ds|
-|:--|:----------------------|------:|-----:|-------:|--:|
-|1  |wdcCT-8-prial          |      6|     4|       2|  1|
-|2  |wdcCT-32-peters        |      5|     3|       2|  0|
-|3  |wdcCT-99-kolick        |      5|     0|       5|  1|
-|4  |wdcCT-19-maloney       |      3|     3|       0|  0|
-|5  |wdcCT-9-doi            |      3|     2|       1|  0|
-|6  |wdcCT-2-keegan         |      3|     1|       2|  0|
-|7  |wdcCT-90-shofner       |      3|     1|       2|  0|
-|8  |wdcCT-23-tsai          |      2|     1|       1|  1|
-|9  |wdcCT-6-gordon         |      2|     1|       1|  1|
-|10 |wdcCT-22-marshall      |      2|     1|       1|  0|
-|11 |wdcCT-15-castine       |      2|     0|       2|  1|
-|12 |wdcCT-24-fleming       |      1|     1|       0|  1|
-|13 |wdcCT-88-oung          |      1|     1|       0|  1|
-|14 |wdcCT-45-wodatch       |      1|     1|       0|  0|
-|15 |wdcCT-80-grabowski     |      1|     1|       0|  0|
-|16 |wdcCT-1-kantor         |      1|     0|       1|  0|
-|17 |wdcCT-27-johnston      |      1|     0|       1|  0|
-|18 |wdcCT-4-johnson        |      0|     0|       0|  2|
-|19 |wdcCT-12-bellinger     |      0|     0|       0|  1|
-|20 |wdcCT-5-cranston       |      0|     0|       0|  1|
-|21 |wdcCT-7-boylan-kolchin |      0|     0|       0|  1|
 
 
 |   |player   |last           | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -139,24 +116,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player             | points| goals| assists| Ds|
-|:--|:------------------|------:|-----:|-------:|--:|
-|1  |phlSP-11-esser     |      3|     3|       0|  1|
-|2  |phlSP-14-glazer    |      3|     3|       0|  0|
-|3  |phlSP-16-shull     |      3|     2|       1|  1|
-|4  |phlSP-32-scharadin |      3|     2|       1|  1|
-|5  |phlSP-9-diviney    |      3|     2|       1|  1|
-|6  |phlSP-27-rainwater |      3|     1|       2|  2|
-|7  |phlSP-21-panna     |      3|     1|       2|  1|
-|8  |phlSP-20-baer      |      3|     1|       2|  0|
-|9  |phlSP-71-mcclellan |      3|     1|       2|  0|
-|10 |phlSP-64-brasz     |      2|     0|       2|  1|
-|11 |phlSP-1-peters     |      2|     0|       2|  0|
-|12 |phlSP-22-paparone  |      1|     1|       0|  2|
-|13 |phlSP-6-chou       |      1|     1|       0|  1|
-|14 |phlSP-7-hirannet   |      1|     0|       1|  1|
-|15 |phlSP-13-brandolph |      1|     0|       1|  0|
-|16 |phlSP-31-lindsey   |      1|     0|       1|  0|
 
 
 |   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

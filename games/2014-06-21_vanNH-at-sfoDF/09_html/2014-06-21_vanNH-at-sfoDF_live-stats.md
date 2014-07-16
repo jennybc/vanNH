@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:39:42 2014
+#### last update Tue Jul 15 21:21:39 2014
 # vanNH 17
 # sfoDF 15
 ## game is complete
@@ -73,25 +73,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player             | points| goals| assists| Ds|
-|:--|:------------------|------:|-----:|-------:|--:|
-|1  |vanNH-98-wong      |      7|     5|       2|  1|
-|2  |vanNH-5-norris     |      6|     1|       5|  0|
-|3  |vanNH-19-knapp     |      3|     2|       1|  0|
-|4  |vanNH-13-tessarolo |      3|     0|       3|  2|
-|5  |vanNH-31-saito     |      2|     2|       0|  3|
-|6  |vanNH-22-berezan   |      2|     1|       1|  2|
-|7  |vanNH-24-yu        |      2|     1|       1|  0|
-|8  |vanNH-8-hibbert    |      2|     1|       1|  0|
-|9  |vanNH-72-leduc     |      1|     1|       0|  1|
-|10 |vanNH-10-chatha    |      1|     1|       0|  0|
-|11 |vanNH-27-davis     |      1|     1|       0|  0|
-|12 |vanNH-37-sinclair  |      1|     1|       0|  0|
-|13 |vanNH-39-seraglia  |      1|     0|       1|  1|
-|14 |vanNH-45-cowan     |      1|     0|       1|  0|
-|15 |vanNH-89-underhill |      1|     0|       1|  0|
-|16 |vanNH-4-doyle      |      0|     0|       0|  1|
-|17 |vanNH-7-dandurand  |      0|     0|       0|  1|
 
 
 |   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -128,27 +109,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player                 | points| goals| assists| Ds|
-|:--|:----------------------|------:|-----:|-------:|--:|
-|1  |sfoDF-21-Stearns       |      3|     2|       1|  1|
-|2  |sfoDF-23-Jeffery       |      3|     1|       2|  2|
-|3  |sfoDF-24-Caulfield     |      2|     2|       0|  0|
-|4  |sfoDF-25-Dixon         |      2|     2|       0|  0|
-|5  |sfoDF-10-Sugioka       |      2|     1|       1|  2|
-|6  |sfoDF-40-Taylor        |      2|     1|       1|  1|
-|7  |sfoDF-11-Lee           |      2|     1|       1|  0|
-|8  |sfoDF-88-Kissmann      |      2|     1|       1|  0|
-|9  |sfoDF-17-Boyd-Meredith |      2|     0|       2|  1|
-|10 |sfoDF-16-Yeager        |      2|     0|       2|  0|
-|11 |sfoDF-85-Brydon        |      2|     0|       2|  0|
-|12 |sfoDF-13-Grant         |      1|     1|       0|  1|
-|13 |sfoDF-12-Bellinger     |      1|     1|       0|  0|
-|14 |sfoDF-18-Weaver        |      1|     1|       0|  0|
-|15 |sfoDF-57-Meyer         |      1|     1|       0|  0|
-|16 |sfoDF-22-Rivera        |      1|     0|       1|  0|
-|17 |sfoDF-8-Pollard        |      1|     0|       1|  0|
-|18 |sfoDF-5-Cascino        |      0|     0|       0|  1|
-|19 |sfoDF-7-Sheridan       |      0|     0|       0|  1|
 
 
 |   |player   |last          | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

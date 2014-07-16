@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:39:48 2014
+#### last update Tue Jul 15 21:21:41 2014
 # wdcCT 21
 # phlSP 19
 ## game is complete
@@ -80,29 +80,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player                 | points| goals| assists| Ds|
-|:--|:----------------------|------:|-----:|-------:|--:|
-|1  |wdcCT-99-kolick        |      5|     3|       2|  2|
-|2  |wdcCT-90-shofner       |      5|     1|       4|  2|
-|3  |wdcCT-5-cranston       |      4|     2|       2|  0|
-|4  |wdcCT-61-salmi         |      3|     1|       2|  0|
-|5  |wdcCT-42-gibson        |      2|     2|       0|  1|
-|6  |wdcCT-1-kantor         |      2|     2|       0|  0|
-|7  |wdcCT-19-maloney       |      2|     1|       1|  1|
-|8  |wdcCT-2-keegan         |      2|     1|       1|  0|
-|9  |wdcCT-20-poole         |      2|     1|       1|  0|
-|10 |wdcCT-31-cobb          |      2|     1|       1|  0|
-|11 |wdcCT-9-doi            |      2|     1|       1|  0|
-|12 |wdcCT-14-blake         |      2|     0|       2|  1|
-|13 |wdcCT-3-fickley        |      2|     0|       2|  0|
-|14 |wdcCT-4-johnson        |      1|     1|       0|  1|
-|15 |wdcCT-45-wodatch       |      1|     1|       0|  1|
-|16 |wdcCT-17-miner         |      1|     1|       0|  0|
-|17 |wdcCT-7-boylan-kolchin |      1|     1|       0|  0|
-|18 |wdcCT-80-grabowski     |      1|     1|       0|  0|
-|19 |wdcCT-88-oung          |      1|     0|       1|  3|
-|20 |wdcCT-12-bellinger     |      1|     0|       1|  0|
-|21 |wdcCT-23-tsai          |      0|     0|       0|  1|
 
 
 |   |player   |last           | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -143,24 +120,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player                 | points| goals| assists| Ds|
-|:--|:----------------------|------:|-----:|-------:|--:|
-|1  |phlSP-3-earles         |      8|     4|       4|  0|
-|2  |phlSP-42-ranii-dropcho |      6|     2|       4|  1|
-|3  |phlSP-11-esser         |      5|     4|       1|  1|
-|4  |phlSP-76-dillon        |      3|     0|       3|  0|
-|5  |phlSP-16-shull         |      2|     2|       0|  1|
-|6  |phlSP-2-colton         |      2|     1|       1|  1|
-|7  |phlSP-22-paparone      |      2|     1|       1|  0|
-|8  |phlSP-23-thorne        |      2|     1|       1|  0|
-|9  |phlSP-25-katzenbach    |      2|     1|       1|  0|
-|10 |phlSP-13-brandolph     |      2|     0|       2|  0|
-|11 |phlSP-10-casey         |      1|     1|       0|  0|
-|12 |phlSP-31-lindsey       |      1|     1|       0|  0|
-|13 |phlSP-7-hirannet       |      1|     1|       0|  0|
-|14 |phlSP-64-brasz         |      1|     0|       1|  0|
-|15 |phlSP-6-chou           |      0|     0|       0|  2|
-|16 |phlSP-1-peters         |      0|     0|       0|  1|
 
 
 |   |player   |last          | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

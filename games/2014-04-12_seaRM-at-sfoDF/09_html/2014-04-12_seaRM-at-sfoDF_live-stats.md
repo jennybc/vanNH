@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:36:45 2014
+#### last update Tue Jul 15 21:20:41 2014
 # seaRM 16
 # sfoDF 18
 ## game is complete
@@ -75,21 +75,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player             | points| goals| assists| Ds|
-|:--|:------------------|------:|-----:|-------:|--:|
-|1  |seaRM-9-harkness   |      7|     5|       2|  1|
-|2  |seaRM-48-clark     |      6|     6|       0|  1|
-|3  |seaRM-6-trytiak    |      5|     1|       4|  1|
-|4  |seaRM-35-koss      |      3|     1|       2|  2|
-|5  |seaRM-29-feeley    |      3|     1|       2|  0|
-|6  |seaRM-1-mckibben   |      2|     1|       1|  0|
-|7  |seaRM-20-simon     |      2|     0|       2|  1|
-|8  |seaRM-17-zemel     |      1|     1|       0|  0|
-|9  |seaRM-3-o'brien    |      1|     0|       1|  2|
-|10 |seaRM-21-phan      |      1|     0|       1|  1|
-|11 |seaRM-18-uhrig-fox |      1|     0|       1|  0|
-|12 |seaRM-15-beehner   |      0|     0|       0|  1|
-|13 |seaRM-28-linn      |      0|     0|       0|  1|
 
 
 |   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -119,27 +104,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player                 | points| goals| assists| Ds|
-|:--|:----------------------|------:|-----:|-------:|--:|
-|1  |sfoDF-34-Boucher       |      5|     2|       3|  1|
-|2  |sfoDF-12-Bellinger     |      5|     2|       3|  0|
-|3  |sfoDF-37-Hart          |      3|     1|       2|  1|
-|4  |sfoDF-40-Taylor        |      3|     1|       2|  0|
-|5  |sfoDF-5-Cascino        |      2|     2|       0|  1|
-|6  |sfoDF-8-Pollard        |      2|     2|       0|  0|
-|7  |sfoDF-13-Grant         |      2|     1|       1|  0|
-|8  |sfoDF-17-Boyd-Meredith |      2|     1|       1|  0|
-|9  |sfoDF-18-Weaver        |      2|     1|       1|  0|
-|10 |sfoDF-11-Lee           |      2|     0|       2|  0|
-|11 |sfoDF-23-Jeffery       |      2|     0|       2|  0|
-|12 |sfoDF-85-Brydon        |      1|     1|       0|  2|
-|13 |sfoDF-10-Sugioka       |      1|     1|       0|  1|
-|14 |sfoDF-2-Adamson        |      1|     1|       0|  1|
-|15 |sfoDF-24-Caulfield     |      1|     1|       0|  0|
-|16 |sfoDF-88-Kissmann      |      1|     1|       0|  0|
-|17 |sfoDF-16-Yeager        |      1|     0|       1|  0|
-|18 |sfoDF-46-McCarty       |      0|     0|       0|  2|
-|19 |sfoDF-83-Husak         |      0|     0|       0|  1|
 
 
 |   |player   |last          | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

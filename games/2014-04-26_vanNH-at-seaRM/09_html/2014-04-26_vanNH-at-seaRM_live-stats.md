@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:37:27 2014
+#### last update Tue Jul 15 21:20:55 2014
 # vanNH 15
 # seaRM 20
 ## game is complete
@@ -75,24 +75,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player             | points| goals| assists| Ds|
-|:--|:------------------|------:|-----:|-------:|--:|
-|1  |vanNH-98-wong      |      6|     4|       2|  0|
-|2  |vanNH-13-tessarolo |      3|     1|       2|  0|
-|3  |vanNH-8-hibbert    |      3|     1|       2|  0|
-|4  |vanNH-91-savage    |      3|     0|       3|  0|
-|5  |vanNH-22-berezan   |      2|     2|       0|  0|
-|6  |vanNH-45-cowan     |      2|     1|       1|  1|
-|7  |vanNH-89-underhill |      2|     1|       1|  1|
-|8  |vanNH-21-loach     |      2|     1|       1|  0|
-|9  |vanNH-5-norris     |      2|     1|       1|  0|
-|10 |vanNH-72-leduc     |      2|     1|       1|  0|
-|11 |vanNH-10-chatha    |      1|     1|       0|  0|
-|12 |vanNH-81-tejpar    |      1|     1|       0|  0|
-|13 |vanNH-18-menzies   |      1|     0|       1|  1|
-|14 |vanNH-14-eyrich    |      0|     0|       0|  1|
-|15 |vanNH-27-davis     |      0|     0|       0|  1|
-|16 |vanNH-33-collins   |      0|     0|       0|  1|
 
 
 |   |player   |last       | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -128,26 +110,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player             | points| goals| assists| Ds|
-|:--|:------------------|------:|-----:|-------:|--:|
-|1  |seaRM-6-trytiak    |      6|     2|       4|  0|
-|2  |seaRM-99-el-salaam |      5|     4|       1|  1|
-|3  |seaRM-21-phan      |      5|     0|       5|  0|
-|4  |seaRM-48-clark     |      4|     4|       0|  0|
-|5  |seaRM-3-o'brien    |      4|     0|       4|  2|
-|6  |seaRM-9-harkness   |      3|     3|       0|  3|
-|7  |seaRM-23-sliva     |      2|     2|       0|  0|
-|8  |seaRM-35-koss      |      2|     1|       1|  2|
-|9  |seaRM-17-zemel     |      2|     0|       2|  1|
-|10 |seaRM-2-bubernak   |      1|     1|       0|  1|
-|11 |seaRM-24-duffel    |      1|     1|       0|  0|
-|12 |seaRM-25-rosatto   |      1|     1|       0|  0|
-|13 |seaRM-51-entz      |      1|     1|       0|  0|
-|14 |seaRM-20-simon     |      1|     0|       1|  1|
-|15 |seaRM-29-feeley    |      1|     0|       1|  1|
-|16 |seaRM-4-schneider  |      1|     0|       1|  0|
-|17 |seaRM-00-rupp      |      0|     0|       0|  1|
-|18 |seaRM-13-sewell    |      0|     0|       0|  1|
 
 
 |   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

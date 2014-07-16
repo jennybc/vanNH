@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:39:13 2014
+#### last update Tue Jul 15 21:21:29 2014
 # wdcCT 21
 # bosWC 16
 ## game is complete
@@ -78,27 +78,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player                 | points| goals| assists| Ds|
-|:--|:----------------------|------:|-----:|-------:|--:|
-|1  |wdcCT-8-prial          |      6|     3|       3|  0|
-|2  |wdcCT-45-wodatch       |      4|     3|       1|  0|
-|3  |wdcCT-90-shofner       |      4|     2|       2|  1|
-|4  |wdcCT-99-kolick        |      4|     0|       4|  0|
-|5  |wdcCT-2-keegan         |      3|     3|       0|  0|
-|6  |wdcCT-4-johnson        |      3|     1|       2|  0|
-|7  |wdcCT-80-grabowski     |      3|     1|       2|  0|
-|8  |wdcCT-7-boylan-kolchin |      2|     2|       0|  0|
-|9  |wdcCT-42-gibson        |      2|     1|       1|  2|
-|10 |wdcCT-88-oung          |      2|     1|       1|  1|
-|11 |wdcCT-1-kantor         |      2|     1|       1|  0|
-|12 |wdcCT-14-blake         |      1|     1|       0|  0|
-|13 |wdcCT-17-miner         |      1|     1|       0|  0|
-|14 |wdcCT-20-poole         |      1|     1|       0|  0|
-|15 |wdcCT-12-bellinger     |      1|     0|       1|  1|
-|16 |wdcCT-19-maloney       |      1|     0|       1|  0|
-|17 |wdcCT-24-fleming       |      1|     0|       1|  0|
-|18 |wdcCT-9-doi            |      1|     0|       1|  0|
-|19 |wdcCT-31-cobb          |      0|     0|       0|  2|
 
 
 |   |player   |last           | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -137,26 +116,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player                | points| goals| assists| Ds|
-|:--|:---------------------|------:|-----:|-------:|--:|
-|1  |bosWC-1-markette      |      5|     0|       5|  0|
-|2  |bosWC-21-graham       |      4|     4|       0|  0|
-|3  |bosWC-17-foster       |      4|     3|       1|  0|
-|4  |bosWC-8-cooper        |      3|     1|       2|  0|
-|5  |bosWC-13-malacek      |      3|     0|       3|  0|
-|6  |bosWC-77-clark        |      2|     2|       0|  0|
-|7  |bosWC-4-rebholz       |      2|     1|       1|  1|
-|8  |bosWC-00-taylor       |      1|     1|       0|  0|
-|9  |bosWC-27-hatchett     |      1|     1|       0|  0|
-|10 |bosWC-29-stevens      |      1|     1|       0|  0|
-|11 |bosWC-3-zid           |      1|     1|       0|  0|
-|12 |bosWC-64-farnsworth   |      1|     1|       0|  0|
-|13 |bosWC-18-browar-jarus |      1|     0|       1|  1|
-|14 |bosWC-10-ingold-smith |      1|     0|       1|  0|
-|15 |bosWC-12-simmons      |      1|     0|       1|  0|
-|16 |bosWC-7-brecher       |      1|     0|       1|  0|
-|17 |bosWC-11-foster       |      0|     0|       0|  1|
-|18 |bosWC-43-hirschberger |      0|     0|       0|  1|
 
 
 |   |player   |last              | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

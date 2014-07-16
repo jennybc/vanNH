@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:38:48 2014
+#### last update Tue Jul 15 21:21:20 2014
 # sfoDF 15
 # pdxST 20
 ## game is upcoming -- any data here is fake and for set up purposes
@@ -76,23 +76,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player             | points| goals| assists| Ds|
-|:--|:------------------|------:|-----:|-------:|--:|
-|1  |sfoDF-6-Kim        |      6|     2|       4|  1|
-|2  |sfoDF-16-Yeager    |      4|     1|       3|  0|
-|3  |sfoDF-88-Kissmann  |      3|     1|       2|  0|
-|4  |sfoDF-13-Grant     |      2|     2|       0|  1|
-|5  |sfoDF-21-Stearns   |      2|     2|       0|  0|
-|6  |sfoDF-46-McCarty   |      2|     2|       0|  0|
-|7  |sfoDF-85-Brydon    |      2|     1|       1|  1|
-|8  |sfoDF-8-Pollard    |      2|     1|       1|  0|
-|9  |sfoDF-5-Cascino    |      1|     1|       0|  2|
-|10 |sfoDF-18-Weaver    |      1|     1|       0|  0|
-|11 |sfoDF-19-Weiss     |      1|     1|       0|  0|
-|12 |sfoDF-11-Lee       |      1|     0|       1|  2|
-|13 |sfoDF-22-Rivera    |      1|     0|       1|  1|
-|14 |sfoDF-10-Sugioka   |      1|     0|       1|  0|
-|15 |sfoDF-12-Bellinger |      1|     0|       1|  0|
 
 
 |   |player   |last          | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -125,27 +108,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player               | points| goals| assists| Ds|
-|:--|:--------------------|------:|-----:|-------:|--:|
-|1  |pdxST-6-Bjorklund    |      6|     5|       1|  0|
-|2  |pdxST-16-Burton      |      4|     3|       1|  0|
-|3  |pdxST-7-Friedman     |      4|     0|       4|  0|
-|4  |pdxST-17-Hayes       |      3|     2|       1|  0|
-|5  |pdxST-11-Kenton      |      3|     1|       2|  0|
-|6  |pdxST-42-Lohre       |      3|     1|       2|  0|
-|7  |pdxST-2-Allison-Hall |      2|     2|       0|  1|
-|8  |pdxST-3-Ferrea       |      2|     1|       1|  0|
-|9  |pdxST-88-Suppnick    |      2|     0|       2|  1|
-|10 |pdxST-21-McGinn      |      2|     0|       2|  0|
-|11 |pdxST-24-Norden      |      2|     0|       2|  0|
-|12 |pdxST-14-Adamson     |      1|     1|       0|  1|
-|13 |pdxST-8-Davis        |      1|     1|       0|  1|
-|14 |pdxST-12-Bui         |      1|     1|       0|  0|
-|15 |pdxST-4-Blackman     |      1|     1|       0|  0|
-|16 |pdxST-73-King        |      1|     1|       0|  0|
-|17 |pdxST-10-Strout      |      1|     0|       1|  0|
-|18 |pdxST-15-Thornton    |      1|     0|       1|  0|
-|19 |pdxST-5-Woodside     |      0|     0|       0|  1|
 
 
 |   |player   |last         | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

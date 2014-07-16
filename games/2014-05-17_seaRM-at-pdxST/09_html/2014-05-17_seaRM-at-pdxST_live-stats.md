@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:38:10 2014
+#### last update Tue Jul 15 21:21:09 2014
 # seaRM 25
 # pdxST 23
 ## game is complete
@@ -88,26 +88,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player             | points| goals| assists| Ds|
-|:--|:------------------|------:|-----:|-------:|--:|
-|1  |seaRM-48-clark     |      7|     5|       2|  1|
-|2  |seaRM-6-trytiak    |      6|     1|       5|  0|
-|3  |seaRM-20-simon     |      5|     2|       3|  0|
-|4  |seaRM-18-uhrig-fox |      4|     4|       0|  0|
-|5  |seaRM-8-fong       |      3|     2|       1|  0|
-|6  |seaRM-99-el-salaam |      3|     1|       2|  1|
-|7  |seaRM-17-zemel     |      3|     1|       2|  0|
-|8  |seaRM-21-phan      |      3|     0|       3|  0|
-|9  |seaRM-35-koss      |      3|     0|       3|  0|
-|10 |seaRM-23-sliva     |      2|     2|       0|  1|
-|11 |seaRM-12-gallagher |      2|     2|       0|  0|
-|12 |seaRM-25-rosatto   |      2|     2|       0|  0|
-|13 |seaRM-1-mckibben   |      2|     1|       1|  0|
-|14 |seaRM-5-chu        |      2|     1|       1|  0|
-|15 |seaRM-29-feeley    |      2|     0|       2|  0|
-|16 |seaRM-9-harkness   |      1|     1|       0|  0|
-|17 |seaRM-28-linn      |      0|     0|       0|  2|
-|18 |seaRM-15-beehner   |      0|     0|       0|  1|
 
 
 |   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -148,24 +128,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player               | points| goals| assists| Ds|
-|:--|:--------------------|------:|-----:|-------:|--:|
-|1  |pdxST-6-Bjorklund    |      9|     4|       5|  1|
-|2  |pdxST-7-Friedman     |      6|     4|       2|  1|
-|3  |pdxST-16-Burton      |      5|     2|       3|  0|
-|4  |pdxST-2-Allison-Hall |      4|     4|       0|  0|
-|5  |pdxST-88-Suppnick    |      4|     0|       4|  1|
-|6  |pdxST-24-Norden      |      4|     0|       4|  0|
-|7  |pdxST-10-Strout      |      3|     2|       1|  1|
-|8  |pdxST-17-Hayes       |      3|     2|       1|  0|
-|9  |pdxST-8-Davis        |      2|     1|       1|  1|
-|10 |pdxST-11-Kenton      |      2|     0|       2|  0|
-|11 |pdxST-5-Woodside     |      1|     1|       0|  1|
-|12 |pdxST-21-McGinn      |      1|     1|       0|  0|
-|13 |pdxST-73-King        |      1|     1|       0|  0|
-|14 |pdxST-9-Hancock      |      1|     1|       0|  0|
-|15 |pdxST-3-Ferrea       |      0|     0|       0|  1|
-|16 |pdxST-4-Blackman     |      0|     0|       0|  1|
 
 
 |   |player   |last         | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

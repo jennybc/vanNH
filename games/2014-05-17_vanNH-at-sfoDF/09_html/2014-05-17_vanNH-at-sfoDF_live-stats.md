@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:38:16 2014
+#### last update Tue Jul 15 21:21:11 2014
 # vanNH 12
 # sfoDF 13
 ## game is complete
@@ -67,25 +67,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player              | points| goals| assists| Ds|
-|:--|:-------------------|------:|-----:|-------:|--:|
-|1  |vanNH-89-underhill  |      4|     1|       3|  1|
-|2  |vanNH-98-wong       |      3|     2|       1|  1|
-|3  |vanNH-10-chatha     |      3|     2|       1|  0|
-|4  |vanNH-5-norris      |      3|     1|       2|  1|
-|5  |vanNH-8-hibbert     |      2|     1|       1|  2|
-|6  |vanNH-33-collins    |      2|     1|       1|  1|
-|7  |vanNH-72-leduc      |      2|     1|       1|  1|
-|8  |vanNH-21-loach      |      1|     1|       0|  1|
-|9  |vanNH-31-saito      |      1|     1|       0|  1|
-|10 |vanNH-13-tessarolo  |      1|     1|       0|  0|
-|11 |vanNH-39-seraglia   |      1|     0|       1|  1|
-|12 |vanNH-81-tejpar     |      1|     0|       1|  0|
-|13 |vanNH-22-berezan    |      0|     0|       0|  3|
-|14 |vanNH-75-bellavance |      0|     0|       0|  2|
-|15 |vanNH-14-eyrich     |      0|     0|       0|  1|
-|16 |vanNH-19-knapp      |      0|     0|       0|  1|
-|17 |vanNH-49-hayduk     |      0|     0|       0|  1|
 
 
 |   |player   |last       | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -121,24 +102,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player                 | points| goals| assists| Ds|
-|:--|:----------------------|------:|-----:|-------:|--:|
-|1  |sfoDF-18-Weaver        |      4|     4|       0|  1|
-|2  |sfoDF-6-Kim            |      4|     2|       2|  0|
-|3  |sfoDF-12-Bellinger     |      4|     1|       3|  4|
-|4  |sfoDF-34-Boucher       |      3|     1|       2|  5|
-|5  |sfoDF-21-Stearns       |      2|     2|       0|  2|
-|6  |sfoDF-10-Sugioka       |      2|     0|       2|  0|
-|7  |sfoDF-46-McCarty       |      1|     1|       0|  2|
-|8  |sfoDF-11-Lee           |      1|     1|       0|  0|
-|9  |sfoDF-17-Boyd-Meredith |      1|     1|       0|  0|
-|10 |sfoDF-85-Brydon        |      1|     0|       1|  4|
-|11 |sfoDF-16-Yeager        |      1|     0|       1|  1|
-|12 |sfoDF-2-Adamson        |      1|     0|       1|  1|
-|13 |sfoDF-40-Taylor        |      1|     0|       1|  0|
-|14 |sfoDF-23-Jeffery       |      0|     0|       0|  2|
-|15 |sfoDF-8-Pollard        |      0|     0|       0|  2|
-|16 |sfoDF-5-Cascino        |      0|     0|       0|  1|
 
 
 |   |player   |last          | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

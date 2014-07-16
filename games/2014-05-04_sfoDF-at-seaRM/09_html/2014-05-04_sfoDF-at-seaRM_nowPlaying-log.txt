@@ -3,8 +3,6 @@
   game YAML read; game status: complete
   614 rows of game play found
   37 rows of point info play found
-  player stat tables include 17 for sfoDF and 18 for seaRM
-  writing player stats to file
   scoring progression table has 37 rows
 [1] TRUE
 [1] TRUE

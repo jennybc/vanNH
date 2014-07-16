@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:38:55 2014
+#### last update Tue Jul 15 21:21:22 2014
 # vanNH 29
 # seaRM 24
 ## game is complete
@@ -95,26 +95,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player             | points| goals| assists| Ds|
-|:--|:------------------|------:|-----:|-------:|--:|
-|1  |vanNH-91-savage    |     10|     2|       8|  0|
-|2  |vanNH-10-chatha    |      8|     8|       0|  0|
-|3  |vanNH-19-knapp     |      6|     3|       3|  0|
-|4  |vanNH-98-wong      |      5|     3|       2|  1|
-|5  |vanNH-21-loach     |      5|     2|       3|  0|
-|6  |vanNH-89-underhill |      5|     1|       4|  1|
-|7  |vanNH-72-leduc     |      4|     3|       1|  0|
-|8  |vanNH-8-hibbert    |      2|     1|       1|  6|
-|9  |vanNH-11-greer     |      2|     1|       1|  1|
-|10 |vanNH-24-yu        |      2|     1|       1|  1|
-|11 |vanNH-27-davis     |      2|     1|       1|  0|
-|12 |vanNH-37-sinclair  |      2|     1|       1|  0|
-|13 |vanNH-45-cowan     |      1|     1|       0|  0|
-|14 |vanNH-49-hayduk    |      1|     1|       0|  0|
-|15 |vanNH-4-doyle      |      1|     0|       1|  2|
-|16 |vanNH-7-dandurand  |      1|     0|       1|  1|
-|17 |vanNH-22-berezan   |      1|     0|       1|  0|
-|18 |vanNH-13-tessarolo |      0|     0|       0|  1|
 
 
 |   |player   |last       | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -150,25 +130,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player             | points| goals| assists| Ds|
-|:--|:------------------|------:|-----:|-------:|--:|
-|1  |seaRM-6-trytiak    |      7|     3|       4|  1|
-|2  |seaRM-17-zemel     |      6|     2|       4|  0|
-|3  |seaRM-9-harkness   |      5|     3|       2|  0|
-|4  |seaRM-20-simon     |      4|     2|       2|  1|
-|5  |seaRM-18-uhrig-fox |      3|     2|       1|  4|
-|6  |seaRM-48-clark     |      3|     2|       1|  1|
-|7  |seaRM-1-mckibben   |      3|     2|       1|  0|
-|8  |seaRM-12-gallagher |      3|     2|       1|  0|
-|9  |seaRM-8-fong       |      3|     1|       2|  2|
-|10 |seaRM-29-feeley    |      3|     1|       2|  0|
-|11 |seaRM-21-phan      |      2|     1|       1|  1|
-|12 |seaRM-23-sliva     |      2|     1|       1|  1|
-|13 |seaRM-14-pickel    |      2|     1|       1|  0|
-|14 |seaRM-00-rupp      |      1|     1|       0|  0|
-|15 |seaRM-2-bubernak   |      1|     0|       1|  0|
-|16 |seaRM-15-beehner   |      0|     0|       0|  1|
-|17 |seaRM-4-schneider  |      0|     0|       0|  1|
 
 
 |   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

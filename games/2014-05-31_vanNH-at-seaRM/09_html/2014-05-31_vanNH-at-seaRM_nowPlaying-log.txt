@@ -3,8 +3,6 @@
   game YAML read; game status: complete
   791 rows of game play found
   58 rows of point info play found
-  player stat tables include 18 for vanNH and 17 for seaRM
-  writing player stats to file
   scoring progression table has 58 rows
 [1] TRUE
 [1] TRUE

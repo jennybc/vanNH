@@ -3,8 +3,6 @@
   game YAML read; game status: complete
   668 rows of game play found
   52 rows of point info play found
-  player stat tables include 17 for phlSP and 22 for wdcCT
-  writing player stats to file
   scoring progression table has 52 rows
 [1] TRUE
 [1] TRUE

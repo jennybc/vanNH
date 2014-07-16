@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:38:04 2014
+#### last update Tue Jul 15 21:21:07 2014
 # seaRM 23
 # vanNH 29
 ## game is complete
@@ -92,22 +92,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player             | points| goals| assists| Ds|
-|:--|:------------------|------:|-----:|-------:|--:|
-|1  |seaRM-48-clark     |     14|    12|       2|  1|
-|2  |seaRM-20-simon     |      7|     0|       7|  1|
-|3  |seaRM-6-trytiak    |      6|     3|       3|  0|
-|4  |seaRM-99-el-salaam |      6|     3|       3|  0|
-|5  |seaRM-25-rosatto   |      3|     1|       2|  0|
-|6  |seaRM-29-feeley    |      2|     1|       1|  0|
-|7  |seaRM-1-mckibben   |      2|     0|       2|  0|
-|8  |seaRM-17-zemel     |      2|     0|       2|  0|
-|9  |seaRM-15-beehner   |      1|     1|       0|  1|
-|10 |seaRM-51-entz      |      1|     1|       0|  0|
-|11 |seaRM-8-fong       |      1|     1|       0|  0|
-|12 |seaRM-9-harkness   |      1|     0|       1|  0|
-|13 |seaRM-23-sliva     |      0|     0|       0|  2|
-|14 |seaRM-18-uhrig-fox |      0|     0|       0|  1|
 
 
 |   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -140,30 +124,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player              | points| goals| assists| Ds|
-|:--|:-------------------|------:|-----:|-------:|--:|
-|1  |vanNH-72-leduc      |      8|     5|       3|  0|
-|2  |vanNH-98-wong       |      7|     5|       2|  0|
-|3  |vanNH-22-berezan    |      7|     4|       3|  0|
-|4  |vanNH-8-hibbert     |      5|     2|       3|  1|
-|5  |vanNH-21-loach      |      5|     1|       4|  0|
-|6  |vanNH-5-norris      |      4|     0|       4|  0|
-|7  |vanNH-10-chatha     |      3|     2|       1|  0|
-|8  |vanNH-91-savage     |      3|     1|       2|  0|
-|9  |vanNH-13-tessarolo  |      2|     2|       0|  1|
-|10 |vanNH-4-doyle       |      2|     2|       0|  1|
-|11 |vanNH-27-davis      |      2|     2|       0|  0|
-|12 |vanNH-19-knapp      |      2|     1|       1|  0|
-|13 |vanNH-14-eyrich     |      1|     1|       0|  1|
-|14 |vanNH-37-sinclair   |      1|     1|       0|  0|
-|15 |vanNH-18-menzies    |      1|     0|       1|  0|
-|16 |vanNH-31-saito      |      1|     0|       1|  0|
-|17 |vanNH-45-cowan      |      1|     0|       1|  0|
-|18 |vanNH-75-bellavance |      1|     0|       1|  0|
-|19 |vanNH-81-tejpar     |      1|     0|       1|  0|
-|20 |vanNH-89-underhill  |      1|     0|       1|  0|
-|21 |vanNH-24-yu         |      0|     0|       0|  4|
-|22 |vanNH-7-dandurand   |      0|     0|       0|  1|
 
 
 |   |player   |last       | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

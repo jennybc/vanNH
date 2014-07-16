@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:37:32 2014
+#### last update Tue Jul 15 21:20:57 2014
 # wdcCT 12
 # bosWC 17
 ## game is complete
@@ -69,21 +69,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player             | points| goals| assists| Ds|
-|:--|:------------------|------:|-----:|-------:|--:|
-|1  |wdcCT-45-wodatch   |      6|     4|       2|  0|
-|2  |wdcCT-80-grabowski |      3|     3|       0|  0|
-|3  |wdcCT-99-kolick    |      2|     1|       1|  1|
-|4  |wdcCT-15-castine   |      2|     0|       2|  2|
-|5  |wdcCT-88-oung      |      2|     0|       2|  0|
-|6  |wdcCT-90-shofner   |      2|     0|       2|  0|
-|7  |wdcCT-5-cranston   |      1|     1|       0|  2|
-|8  |wdcCT-1-kantor     |      1|     1|       0|  0|
-|9  |wdcCT-27-johnston  |      1|     1|       0|  0|
-|10 |wdcCT-32-peters    |      1|     1|       0|  0|
-|11 |wdcCT-14-blake     |      1|     0|       1|  1|
-|12 |wdcCT-9-doi        |      1|     0|       1|  1|
-|13 |wdcCT-23-tsai      |      1|     0|       1|  0|
 
 
 |   |player   |last           | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -119,23 +104,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player                     | points| goals| assists| Ds|
-|:--|:--------------------------|------:|-----:|-------:|--:|
-|1  |bosWC-17-foster            |      4|     3|       1|  0|
-|2  |bosWC-13-malacek           |      4|     2|       2|  0|
-|3  |bosWC-77-clark             |      4|     2|       2|  0|
-|4  |bosWC-4-rebholz            |      4|     0|       4|  0|
-|5  |bosWC-27-hatchett          |      3|     3|       0|  2|
-|6  |bosWC-1-markette           |      3|     3|       0|  1|
-|7  |bosWC-9-nixon              |      3|     2|       1|  0|
-|8  |bosWC-12-simmons           |      2|     0|       2|  0|
-|9  |bosWC-29-stevens           |      2|     0|       2|  0|
-|10 |bosWC-43-hirschberger      |      1|     1|       0|  2|
-|11 |bosWC-5-doherty            |      1|     1|       0|  0|
-|12 |bosWC-11-foster            |      1|     0|       1|  2|
-|13 |bosWC-14-montgomery-butler |      1|     0|       1|  1|
-|14 |bosWC-3-zid                |      1|     0|       1|  0|
-|15 |bosWC-00-taylor            |      0|     0|       0|  1|
 
 
 |   |player   |last              | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

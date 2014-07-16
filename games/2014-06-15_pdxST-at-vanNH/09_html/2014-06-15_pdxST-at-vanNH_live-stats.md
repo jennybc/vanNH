@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:39:31 2014
+#### last update Tue Jul 15 21:21:35 2014
 # pdxST 18
 # vanNH 20
 ## game is complete
@@ -78,25 +78,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player               | points| goals| assists| Ds|
-|:--|:--------------------|------:|-----:|-------:|--:|
-|1  |pdxST-6-Bjorklund    |      6|     4|       2|  0|
-|2  |pdxST-24-Norden      |      6|     2|       4|  1|
-|3  |pdxST-16-Burton      |      3|     2|       1|  0|
-|4  |pdxST-2-Allison-Hall |      3|     2|       1|  0|
-|5  |pdxST-3-Ferrea       |      3|     1|       2|  1|
-|6  |pdxST-42-Lohre       |      3|     1|       2|  0|
-|7  |pdxST-17-Hayes       |      2|     2|       0|  0|
-|8  |pdxST-21-McGinn      |      2|     1|       1|  1|
-|9  |pdxST-9-Hancock      |      2|     1|       1|  0|
-|10 |pdxST-8-Davis        |      2|     0|       2|  1|
-|11 |pdxST-5-Woodside     |      1|     1|       0|  1|
-|12 |pdxST-7-Friedman     |      1|     1|       0|  1|
-|13 |pdxST-73-King        |      1|     0|       1|  0|
-|14 |pdxST-88-Suppnick    |      1|     0|       1|  0|
-|15 |pdxST-?-?name?       |      0|     0|       0|  1|
-|16 |pdxST-12-Bui         |      0|     0|       0|  1|
-|17 |pdxST-4-Blackman     |      0|     0|       0|  1|
 
 
 |   |player   |last         | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -129,23 +110,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player             | points| goals| assists| Ds|
-|:--|:------------------|------:|-----:|-------:|--:|
-|1  |vanNH-98-wong      |      7|     7|       0|  1|
-|2  |vanNH-5-norris     |      7|     2|       5|  0|
-|3  |vanNH-89-underhill |      5|     0|       5|  0|
-|4  |vanNH-22-berezan   |      3|     2|       1|  0|
-|5  |vanNH-21-loach     |      3|     1|       2|  1|
-|6  |vanNH-8-hibbert    |      3|     1|       2|  1|
-|7  |vanNH-10-chatha    |      2|     2|       0|  0|
-|8  |vanNH-4-doyle      |      2|     1|       1|  1|
-|9  |vanNH-72-leduc     |      2|     1|       1|  0|
-|10 |vanNH-11-greer     |      2|     0|       2|  1|
-|11 |vanNH-24-yu        |      1|     1|       0|  2|
-|12 |vanNH-31-saito     |      1|     1|       0|  0|
-|13 |vanNH-81-tejpar    |      1|     1|       0|  0|
-|14 |vanNH-45-cowan     |      1|     0|       1|  0|
-|15 |vanNH-14-eyrich    |      0|     0|       0|  1|
 
 
 |   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|

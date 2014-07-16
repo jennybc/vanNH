@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 20:38:22 2014
+#### last update Tue Jul 15 21:21:14 2014
 # wdcCT 27
 # nykRM 18
 ## game is complete
@@ -86,30 +86,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player                 | points| goals| assists| Ds|
-|:--|:----------------------|------:|-----:|-------:|--:|
-|1  |wdcCT-90-shofner       |      7|     2|       5|  0|
-|2  |wdcCT-9-doi            |      6|     4|       2|  0|
-|3  |wdcCT-8-prial          |      5|     4|       1|  0|
-|4  |wdcCT-45-wodatch       |      4|     3|       1|  0|
-|5  |wdcCT-32-peters        |      4|     2|       2|  0|
-|6  |wdcCT-2-keegan         |      4|     1|       3|  1|
-|7  |wdcCT-12-bellinger     |      3|     3|       0|  0|
-|8  |wdcCT-14-blake         |      3|     1|       2|  1|
-|9  |wdcCT-24-fleming       |      2|     2|       0|  1|
-|10 |wdcCT-22-marshall      |      2|     1|       1|  3|
-|11 |wdcCT-25-gordon        |      2|     1|       1|  1|
-|12 |wdcCT-99-kolick        |      2|     1|       1|  0|
-|13 |wdcCT-5-cranston       |      2|     0|       2|  0|
-|14 |wdcCT-4-johnson        |      1|     1|       0|  1|
-|15 |wdcCT-6-gordon         |      1|     1|       0|  0|
-|16 |wdcCT-21-dulabon       |      1|     0|       1|  2|
-|17 |wdcCT-17-miner         |      1|     0|       1|  1|
-|18 |wdcCT-42-gibson        |      1|     0|       1|  1|
-|19 |wdcCT-27-johnston      |      1|     0|       1|  0|
-|20 |wdcCT-3-fickley        |      1|     0|       1|  0|
-|21 |wdcCT-7-boylan-kolchin |      1|     0|       1|  0|
-|22 |wdcCT-88-oung          |      0|     0|       0|  1|
 
 
 |   |player   |last           | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
@@ -149,23 +125,6 @@ Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot bloc
 stats are cumulative for this game
 
 
-|   |player             | points| goals| assists| Ds|
-|:--|:------------------|------:|-----:|-------:|--:|
-|1  |nykRM-19-saul      |      6|     0|       6|  0|
-|2  |nykRM-14-vuckovich |      5|     3|       2|  0|
-|3  |nykRM-41-faust     |      5|     3|       2|  0|
-|4  |nykRM-13-hunziker  |      4|     4|       0|  1|
-|5  |nykRM-4-hennessy   |      3|     2|       1|  1|
-|6  |nykRM-18-yz        |      2|     1|       1|  0|
-|7  |nykRM-33-herman    |      2|     1|       1|  0|
-|8  |nykRM-5-sender     |      2|     0|       2|  0|
-|9  |nykRM-10-hennessy  |      1|     1|       0|  1|
-|10 |nykRM-82-brownlee  |      1|     1|       0|  1|
-|11 |nykRM-1-kuzmowycz  |      1|     1|       0|  0|
-|12 |nykRM-15-baum      |      1|     1|       0|  0|
-|13 |nykRM-24-glatt     |      1|     0|       1|  1|
-|14 |nykRM-21-anderson  |      1|     0|       1|  0|
-|15 |nykRM-47-murphy    |      1|     0|       1|  0|
 
 
 |   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
