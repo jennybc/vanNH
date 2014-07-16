@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 14:20:37 2014
+#### last update Tue Jul 15 20:39:19 2014
 # nykRM 15
 # wdcCT 21
 ## game is complete
@@ -117,9 +117,10 @@ stats are cumulative for this game
 |15 |nykRM-24 |glatt     |      0|     1.00|     0|       0|      5|           5|       5|   1|    0|
 |16 |nykRM-89 |mieser    |      0|     0.75|     0|       0|      4|           3|       4|   1|    0|
 |17 |nykRM-9  |walter    |      0|     0.86|     0|       0|      7|           6|       7|   1|    0|
-|18 |nykRM-44 |gillies   |      0|     1.00|     0|       0|      6|           6|       6|   0|    0|
-|19 |nykRM-45 |hard      |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
-|20 |nykRM-5  |sender    |      0|     1.00|     0|       0|      4|           4|       1|   0|    0|
+|18 |nykRM-   |?name?    |      0|       NA|     0|       0|      0|           0|       0|   0|    0|
+|19 |nykRM-44 |gillies   |      0|     1.00|     0|       0|      6|           6|       6|   0|    0|
+|20 |nykRM-45 |hard      |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|21 |nykRM-5  |sender    |      0|     1.00|     0|       0|      4|           4|       1|   0|    0|
 
 ## Player stats for wdcCT <a id="home"></a>:
 
@@ -157,31 +158,32 @@ stats are cumulative for this game
 
 |   |player   |last           | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
 |:--|:--------|:--------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
-|21 |wdcCT-45 |wodatch        |      5|     1.00|     1|       4|     14|          14|      15|   0|    0|
-|22 |wdcCT-9  |doi            |      4|     1.00|     3|       1|      5|           5|       9|   0|    0|
-|23 |wdcCT-14 |blake          |      4|     0.90|     1|       3|     10|           9|       7|   0|    0|
-|24 |wdcCT-90 |shofner        |      3|     0.93|     2|       1|     14|          13|      13|   1|    0|
-|25 |wdcCT-32 |peters         |      3|     0.77|     1|       2|     13|          10|      10|   0|    1|
-|26 |wdcCT-4  |johnson        |      2|     1.00|     2|       0|      9|           9|       9|   3|    0|
-|27 |wdcCT-8  |prial          |      2|     0.88|     2|       0|     16|          14|      16|   2|    0|
-|28 |wdcCT-1  |kantor         |      2|     1.00|     1|       1|      4|           4|       3|   2|    0|
-|29 |wdcCT-2  |keegan         |      2|     0.91|     1|       1|     23|          21|      20|   0|    0|
-|30 |wdcCT-6  |gordon         |      2|     0.67|     1|       1|      3|           2|       4|   0|    0|
-|31 |wdcCT-20 |poole          |      2|     0.80|     0|       2|      5|           4|       5|   0|    0|
-|32 |wdcCT-99 |kolick         |      2|     0.88|     0|       2|     43|          38|      37|   0|    0|
-|33 |wdcCT-31 |cobb           |      1|     1.00|     1|       0|      2|           2|       2|   1|    0|
-|34 |wdcCT-17 |miner          |      1|     1.00|     1|       0|      1|           1|       2|   0|    0|
-|35 |wdcCT-21 |dulabon        |      1|     1.00|     1|       0|      3|           3|       4|   0|    0|
-|36 |wdcCT-27 |johnston       |      1|     1.00|     1|       0|      6|           6|       6|   0|    0|
-|37 |wdcCT-80 |grabowski      |      1|     1.00|     1|       0|      4|           4|       4|   0|    0|
-|38 |wdcCT-88 |oung           |      1|     0.93|     1|       0|     27|          25|      23|   0|    0|
-|39 |wdcCT-3  |fickley        |      1|     1.00|     0|       1|      7|           7|       4|   2|    0|
-|40 |wdcCT-7  |boylan-kolchin |      1|     0.71|     0|       1|      7|           5|       6|   1|    1|
-|41 |wdcCT-22 |marshall       |      1|     1.00|     0|       1|      3|           3|       3|   0|    0|
-|42 |wdcCT-61 |salmi          |      0|     1.00|     0|       0|     14|          14|      11|   1|    0|
-|43 |wdcCT-19 |maloney        |      0|     1.00|     0|       0|      3|           3|       3|   0|    0|
-|44 |wdcCT-23 |tsai           |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
-|45 |wdcCT-5  |cranston       |      0|     0.88|     0|       0|      8|           7|       7|   0|    0|
+|22 |wdcCT-45 |wodatch        |      5|     1.00|     1|       4|     14|          14|      15|   0|    0|
+|23 |wdcCT-9  |doi            |      4|     1.00|     3|       1|      5|           5|       9|   0|    0|
+|24 |wdcCT-14 |blake          |      4|     0.90|     1|       3|     10|           9|       7|   0|    0|
+|25 |wdcCT-90 |shofner        |      3|     0.93|     2|       1|     14|          13|      13|   1|    0|
+|26 |wdcCT-32 |peters         |      3|     0.77|     1|       2|     13|          10|      10|   0|    1|
+|27 |wdcCT-4  |johnson        |      2|     1.00|     2|       0|      9|           9|       9|   3|    0|
+|28 |wdcCT-8  |prial          |      2|     0.88|     2|       0|     16|          14|      16|   2|    0|
+|29 |wdcCT-1  |kantor         |      2|     1.00|     1|       1|      4|           4|       3|   2|    0|
+|30 |wdcCT-2  |keegan         |      2|     0.91|     1|       1|     23|          21|      20|   0|    0|
+|31 |wdcCT-6  |gordon         |      2|     0.67|     1|       1|      3|           2|       4|   0|    0|
+|32 |wdcCT-20 |poole          |      2|     0.80|     0|       2|      5|           4|       5|   0|    0|
+|33 |wdcCT-99 |kolick         |      2|     0.88|     0|       2|     43|          38|      37|   0|    0|
+|34 |wdcCT-31 |cobb           |      1|     1.00|     1|       0|      2|           2|       2|   1|    0|
+|35 |wdcCT-17 |miner          |      1|     1.00|     1|       0|      1|           1|       2|   0|    0|
+|36 |wdcCT-21 |dulabon        |      1|     1.00|     1|       0|      3|           3|       4|   0|    0|
+|37 |wdcCT-27 |johnston       |      1|     1.00|     1|       0|      6|           6|       6|   0|    0|
+|38 |wdcCT-80 |grabowski      |      1|     1.00|     1|       0|      4|           4|       4|   0|    0|
+|39 |wdcCT-88 |oung           |      1|     0.93|     1|       0|     27|          25|      23|   0|    0|
+|40 |wdcCT-3  |fickley        |      1|     1.00|     0|       1|      7|           7|       4|   2|    0|
+|41 |wdcCT-7  |boylan-kolchin |      1|     0.71|     0|       1|      7|           5|       6|   1|    1|
+|42 |wdcCT-22 |marshall       |      1|     1.00|     0|       1|      3|           3|       3|   0|    0|
+|43 |wdcCT-61 |salmi          |      0|     1.00|     0|       0|     14|          14|      11|   1|    0|
+|44 |wdcCT-   |?name?         |      0|       NA|     0|       0|      0|           0|       0|   0|    0|
+|45 |wdcCT-19 |maloney        |      0|     1.00|     0|       0|      3|           3|       3|   0|    0|
+|46 |wdcCT-23 |tsai           |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|47 |wdcCT-5  |cranston       |      0|     0.88|     0|       0|      8|           7|       7|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 

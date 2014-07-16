@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 14:20:39 2014
+#### last update Tue Jul 15 20:39:25 2014
 # pdxST 17
 # seaRM 16
 ## game is upcoming -- any data here is fake and for set up purposes
@@ -163,11 +163,13 @@ stats are cumulative for this game
 |34 |seaRM-23 |sliva     |      0|     0.67|     0|       0|      3|           2|       3|   1|    0|
 |35 |seaRM-24 |duffel    |      0|     1.00|     0|       0|      3|           3|       2|   1|    0|
 |36 |seaRM-7  |cooper    |      0|       NA|     0|       0|      0|           0|       0|   1|    0|
-|37 |seaRM-10 |kalmakis  |      0|     0.00|     0|       0|      1|           0|       1|   0|    1|
-|38 |seaRM-14 |pickel    |      0|     1.00|     0|       0|      1|           1|       0|   0|    0|
-|39 |seaRM-2  |bubernak  |      0|     1.00|     0|       0|      1|           1|       2|   0|    0|
-|40 |seaRM-28 |linn      |      0|     1.00|     0|       0|      2|           2|       1|   0|    0|
-|41 |seaRM-29 |feeley    |      0|     0.79|     0|       0|     14|          11|       7|   0|    0|
+|37 |seaRM-   |?name?    |      0|       NA|     0|       0|      0|           0|       0|   0|    0|
+|38 |seaRM-0  |?name?    |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|39 |seaRM-10 |kalmakis  |      0|     0.00|     0|       0|      1|           0|       1|   0|    1|
+|40 |seaRM-14 |pickel    |      0|     1.00|     0|       0|      1|           1|       0|   0|    0|
+|41 |seaRM-2  |bubernak  |      0|     1.00|     0|       0|      1|           1|       2|   0|    0|
+|42 |seaRM-28 |linn      |      0|     1.00|     0|       0|      2|           2|       1|   0|    0|
+|43 |seaRM-29 |feeley    |      0|     0.79|     0|       0|     14|          11|       7|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 

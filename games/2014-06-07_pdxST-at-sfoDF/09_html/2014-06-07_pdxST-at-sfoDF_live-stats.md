@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 14:20:31 2014
+#### last update Tue Jul 15 20:39:01 2014
 # pdxST 17
 # sfoDF 12
 ## game is upcoming -- any data here is fake and for set up purposes
@@ -108,7 +108,8 @@ stats are cumulative for this game
 |14 |pdxST-73 |King         |      1|     0.93|     0|       1|     27|          25|      22|   0|    0|
 |15 |pdxST-9  |Hancock      |      1|     1.00|     0|       1|      1|           1|       1|   0|    0|
 |16 |pdxST-15 |Thornton     |      0|     0.83|     0|       0|      6|           5|       6|   1|    0|
-|17 |pdxST-5  |Woodside     |      0|     1.00|     0|       0|      2|           2|       1|   0|    0|
+|17 |pdxST-   |?name?       |      0|       NA|     0|       0|      0|           0|       0|   0|    0|
+|18 |pdxST-5  |Woodside     |      0|     1.00|     0|       0|      2|           2|       1|   0|    0|
 
 ## Player stats for sfoDF <a id="home"></a>:
 
@@ -138,27 +139,28 @@ stats are cumulative for this game
 
 |   |player   |last          | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
 |:--|:--------|:-------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
-|18 |sfoDF-40 |Taylor        |      5|     0.75|     2|       3|     24|          18|      23|   0|    0|
-|19 |sfoDF-88 |Kissmann      |      4|     0.92|     3|       1|     12|          11|      14|   0|    0|
-|20 |sfoDF-34 |Boucher       |      3|     0.86|     1|       2|     14|          12|      14|   0|    0|
-|21 |sfoDF-6  |Kim           |      2|     1.00|     2|       0|     18|          18|      19|   2|    0|
-|22 |sfoDF-46 |McCarty       |      2|     0.83|     1|       1|      6|           5|       8|   0|    1|
-|23 |sfoDF-8  |Pollard       |      2|     0.90|     1|       1|     29|          26|      24|   0|    1|
-|24 |sfoDF-85 |Brydon        |      1|     1.00|     1|       0|      3|           3|       4|   1|    0|
-|25 |sfoDF-2  |Adamson       |      1|     1.00|     1|       0|      8|           8|       9|   0|    0|
-|26 |sfoDF-23 |Jeffery       |      1|     0.82|     0|       1|     11|           9|       7|   2|    0|
-|27 |sfoDF-13 |Grant         |      1|     0.92|     0|       1|     36|          33|      24|   1|    1|
-|28 |sfoDF-25 |Dixon         |      1|     1.00|     0|       1|      9|           9|       8|   1|    0|
-|29 |sfoDF-16 |Yeager        |      1|     0.91|     0|       1|     22|          20|      15|   0|    0|
-|30 |sfoDF-19 |Weiss         |      0|     0.86|     0|       0|      7|           6|       7|   1|    0|
-|31 |sfoDF-7  |Sheridan      |      0|     1.00|     0|       0|      1|           1|       1|   1|    0|
-|32 |sfoDF-1  |Ranahan       |      0|     0.85|     0|       0|     13|          11|       8|   0|    0|
-|33 |sfoDF-10 |Sugioka       |      0|     0.50|     0|       0|      4|           2|       4|   0|    1|
-|34 |sfoDF-11 |Lee           |      0|     0.78|     0|       0|      9|           7|       8|   0|    2|
-|35 |sfoDF-17 |Boyd-Meredith |      0|     1.00|     0|       0|      1|           1|       0|   0|    0|
-|36 |sfoDF-22 |Rivera        |      0|       NA|     0|       0|      0|           0|       1|   0|    0|
-|37 |sfoDF-24 |Caulfield     |      0|     0.86|     0|       0|      7|           6|       7|   0|    0|
-|38 |sfoDF-9  |Farren        |      0|     0.00|     0|       0|      1|           0|       1|   0|    0|
+|19 |sfoDF-40 |Taylor        |      5|     0.75|     2|       3|     24|          18|      23|   0|    0|
+|20 |sfoDF-88 |Kissmann      |      4|     0.92|     3|       1|     12|          11|      14|   0|    0|
+|21 |sfoDF-34 |Boucher       |      3|     0.86|     1|       2|     14|          12|      14|   0|    0|
+|22 |sfoDF-6  |Kim           |      2|     1.00|     2|       0|     18|          18|      19|   2|    0|
+|23 |sfoDF-46 |McCarty       |      2|     0.83|     1|       1|      6|           5|       8|   0|    1|
+|24 |sfoDF-8  |Pollard       |      2|     0.90|     1|       1|     29|          26|      24|   0|    1|
+|25 |sfoDF-85 |Brydon        |      1|     1.00|     1|       0|      3|           3|       4|   1|    0|
+|26 |sfoDF-2  |Adamson       |      1|     1.00|     1|       0|      8|           8|       9|   0|    0|
+|27 |sfoDF-23 |Jeffery       |      1|     0.82|     0|       1|     11|           9|       7|   2|    0|
+|28 |sfoDF-13 |Grant         |      1|     0.92|     0|       1|     36|          33|      24|   1|    1|
+|29 |sfoDF-25 |Dixon         |      1|     1.00|     0|       1|      9|           9|       8|   1|    0|
+|30 |sfoDF-16 |Yeager        |      1|     0.91|     0|       1|     22|          20|      15|   0|    0|
+|31 |sfoDF-19 |Weiss         |      0|     0.86|     0|       0|      7|           6|       7|   1|    0|
+|32 |sfoDF-7  |Sheridan      |      0|     1.00|     0|       0|      1|           1|       1|   1|    0|
+|33 |sfoDF-   |?name?        |      0|       NA|     0|       0|      0|           0|       0|   0|    0|
+|34 |sfoDF-1  |Ranahan       |      0|     0.85|     0|       0|     13|          11|       8|   0|    0|
+|35 |sfoDF-10 |Sugioka       |      0|     0.50|     0|       0|      4|           2|       4|   0|    1|
+|36 |sfoDF-11 |Lee           |      0|     0.78|     0|       0|      9|           7|       8|   0|    2|
+|37 |sfoDF-17 |Boyd-Meredith |      0|     1.00|     0|       0|      1|           1|       0|   0|    0|
+|38 |sfoDF-22 |Rivera        |      0|       NA|     0|       0|      0|           0|       1|   0|    0|
+|39 |sfoDF-24 |Caulfield     |      0|     0.86|     0|       0|      7|           6|       7|   0|    0|
+|40 |sfoDF-9  |Farren        |      0|     0.00|     0|       0|      1|           0|       1|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 

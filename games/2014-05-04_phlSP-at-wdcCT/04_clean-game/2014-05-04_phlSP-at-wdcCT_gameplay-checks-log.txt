@@ -1,5 +1,5 @@
 2014-05-04_phlSP-at-wdcCT > 05_sanity-check-game-play.r:
   667 rows of clean game play found
   sanity checks of clean game play DONE
-  2014-07-15 20:32:18
+  2014-07-15 20:37:41
 

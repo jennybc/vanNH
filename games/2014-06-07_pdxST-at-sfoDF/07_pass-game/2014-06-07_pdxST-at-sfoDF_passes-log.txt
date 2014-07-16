@@ -8,6 +8,6 @@
   469/520 passes were completed (90.2%)
   525 rows of pass data will be written
   roster read for pdxST and sfoDF
-  writing player stats to file: 17 for pdxST, 21 for sfoDF
-  2014-07-15 13:49:51
+  writing player stats to file: 18 for pdxST, 22 for sfoDF
+  2014-07-15 20:39:00
 

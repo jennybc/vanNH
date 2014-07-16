@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 14:20:21 2014
+#### last update Tue Jul 15 20:38:28 2014
 # pdxST 19
 # vanNH 16
 ## game is complete
@@ -166,11 +166,12 @@ stats are cumulative for this game
 |33 |vanNH-81 |tejpar     |      1|     1.00|     0|       1|      1|           1|       1|   0|    0|
 |34 |vanNH-13 |tessarolo  |      0|     1.00|     0|       0|      2|           2|       2|   1|    0|
 |35 |vanNH-37 |sinclair   |      0|     1.00|     0|       0|      2|           2|       2|   1|    0|
-|36 |vanNH-11 |greer      |      0|     0.50|     0|       0|      2|           1|       2|   0|    0|
-|37 |vanNH-27 |davis      |      0|     0.67|     0|       0|      3|           2|       2|   0|    0|
-|38 |vanNH-31 |saito      |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
-|39 |vanNH-33 |collins    |      0|     1.00|     0|       0|      4|           4|       3|   0|    0|
-|40 |vanNH-5  |norris     |      0|     0.82|     0|       0|     11|           9|       7|   0|    0|
+|36 |vanNH-?  |?name?     |      0|       NA|     0|       0|      0|           0|       0|   0|    0|
+|37 |vanNH-11 |greer      |      0|     0.50|     0|       0|      2|           1|       2|   0|    0|
+|38 |vanNH-27 |davis      |      0|     0.67|     0|       0|      3|           2|       2|   0|    0|
+|39 |vanNH-31 |saito      |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
+|40 |vanNH-33 |collins    |      0|     1.00|     0|       0|      4|           4|       3|   0|    0|
+|41 |vanNH-5  |norris     |      0|     0.82|     0|       0|     11|           9|       7|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 

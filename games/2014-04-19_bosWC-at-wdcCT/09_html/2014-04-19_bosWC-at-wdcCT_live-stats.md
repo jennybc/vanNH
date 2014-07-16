@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 14:19:50 2014
+#### last update Tue Jul 15 20:37:03 2014
 # bosWC 17
 # wdcCT 18
 ## game is complete

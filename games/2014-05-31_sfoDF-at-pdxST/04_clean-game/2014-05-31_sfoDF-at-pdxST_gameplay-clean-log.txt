@@ -1,7 +1,7 @@
-2014-05-31_sfoDF-at-pdxST:
+2014-05-31_sfoDF-at-pdxST > 04_clean-and-expand-game-play.r:
   675 rows of raw game play found
   found 15 rows with game play recorded for both teams
   no double game play rows remain
   690 rows of clean game play will be written
-  2014-07-13 00:00:46
+  2014-07-15 20:38:44
 

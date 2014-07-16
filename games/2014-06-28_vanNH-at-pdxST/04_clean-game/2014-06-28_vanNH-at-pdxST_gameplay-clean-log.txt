@@ -1,7 +1,7 @@
-2014-06-28_vanNH-at-pdxST:
+2014-06-28_vanNH-at-pdxST > 04_clean-and-expand-game-play.r:
   601 rows of raw game play found
   found 10 rows with game play recorded for both teams
   no double game play rows remain
   611 rows of clean game play will be written
-  2014-07-12 13:37:35
+  2014-07-15 20:39:56
 

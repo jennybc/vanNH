@@ -1,6 +1,5 @@
 2014-05-24_pdxST-at-vanNH > 05_sanity-check-game-play.r:
   622 rows of clean game play found
-
   sanity checks of clean game play DONE
-  2014-07-14 22:41:03
+  2014-07-15 20:38:25
 

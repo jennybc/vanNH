@@ -15,6 +15,7 @@ game	player	last	points	comp_pct	goals	assists	throws	completions	catches	def	dr
 2014-06-07_pdxST-at-sfoDF	pdxST-73	King	1	0.93	0	1	27	25	22	0	0	pdxST	73
 2014-06-07_pdxST-at-sfoDF	pdxST-9	Hancock	1	1	0	1	1	1	1	0	0	pdxST	9
 2014-06-07_pdxST-at-sfoDF	pdxST-15	Thornton	0	0.83	0	0	6	5	6	1	0	pdxST	15
+2014-06-07_pdxST-at-sfoDF	pdxST-	?name?	0	NA	0	0	0	0	0	0	0	pdxST	pdxST
 2014-06-07_pdxST-at-sfoDF	pdxST-5	Woodside	0	1	0	0	2	2	1	0	0	pdxST	5
 2014-06-07_pdxST-at-sfoDF	sfoDF-40	Taylor	5	0.75	2	3	24	18	23	0	0	sfoDF	40
 2014-06-07_pdxST-at-sfoDF	sfoDF-88	Kissmann	4	0.92	3	1	12	11	14	0	0	sfoDF	88
@@ -30,6 +31,7 @@ game	player	last	points	comp_pct	goals	assists	throws	completions	catches	def	dr
 2014-06-07_pdxST-at-sfoDF	sfoDF-16	Yeager	1	0.91	0	1	22	20	15	0	0	sfoDF	16
 2014-06-07_pdxST-at-sfoDF	sfoDF-19	Weiss	0	0.86	0	0	7	6	7	1	0	sfoDF	19
 2014-06-07_pdxST-at-sfoDF	sfoDF-7	Sheridan	0	1	0	0	1	1	1	1	0	sfoDF	7
+2014-06-07_pdxST-at-sfoDF	sfoDF-	?name?	0	NA	0	0	0	0	0	0	0	sfoDF	sfoDF
 2014-06-07_pdxST-at-sfoDF	sfoDF-1	Ranahan	0	0.85	0	0	13	11	8	0	0	sfoDF	1
 2014-06-07_pdxST-at-sfoDF	sfoDF-10	Sugioka	0	0.5	0	0	4	2	4	0	1	sfoDF	10
 2014-06-07_pdxST-at-sfoDF	sfoDF-11	Lee	0	0.78	0	0	9	7	8	0	2	sfoDF	11

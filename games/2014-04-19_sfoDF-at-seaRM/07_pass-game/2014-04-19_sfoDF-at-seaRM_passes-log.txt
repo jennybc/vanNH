@@ -8,6 +8,6 @@
   411/473 passes were completed (86.9%)
   474 rows of pass data will be written
   roster read for sfoDF and seaRM
-  writing player stats to file: 21 for sfoDF, 18 for seaRM
-  2014-07-15 13:49:27
+  writing player stats to file: 22 for sfoDF, 21 for seaRM
+  2014-07-15 20:37:08
 

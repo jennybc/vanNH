@@ -13,6 +13,6 @@
   474/509 passes were completed (93.1%)
   511 rows of pass data will be written
   roster read for pdxST and vanNH
-  writing player stats to file: 18 for pdxST, 18 for vanNH
-  2014-07-15 13:49:58
+  writing player stats to file: 19 for pdxST, 19 for vanNH
+  2014-07-15 20:39:30
 

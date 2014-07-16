@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 14:20:44 2014
+#### last update Tue Jul 15 20:39:36 2014
 # seaRM 12
 # pdxST 13
 ## game is complete
@@ -85,23 +85,25 @@ stats are cumulative for this game
 
 |   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
 |:--|:--------|:---------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
-|1  |seaRM-99 |el-salaam |      7|     0.83|     5|       2|     18|          15|      23|   0|    0|
-|2  |seaRM-77 |trotter   |      3|     0.88|     1|       2|     17|          15|      18|   0|    0|
-|3  |seaRM-24 |duffel    |      2|     0.67|     2|       0|      3|           2|       4|   0|    0|
-|4  |seaRM-1  |mckibben  |      2|     0.94|     1|       1|     36|          34|      32|   1|    0|
-|5  |seaRM-12 |gallagher |      2|     0.75|     1|       1|      4|           3|       4|   1|    0|
-|6  |seaRM-21 |phan      |      2|     0.89|     1|       1|     19|          17|      19|   0|    0|
-|7  |seaRM-29 |feeley    |      2|     0.74|     0|       2|     23|          17|       9|   0|    2|
-|8  |seaRM-18 |uhrig-fox |      1|     1.00|     1|       0|      2|           2|       3|   1|    0|
-|9  |seaRM-23 |sliva     |      1|     0.78|     0|       1|      9|           7|       9|   2|    0|
-|10 |seaRM-2  |bubernak  |      1|     1.00|     0|       1|      3|           3|       3|   0|    0|
-|11 |seaRM-5  |chu       |      1|     1.00|     0|       1|      8|           8|       8|   0|    0|
-|12 |seaRM-4  |schneider |      0|     1.00|     0|       0|      3|           3|       3|   2|    0|
-|13 |seaRM-00 |rupp      |      0|     0.89|     0|       0|     38|          34|      28|   1|    0|
-|14 |seaRM-15 |beehner   |      0|     1.00|     0|       0|      3|           3|       3|   1|    0|
-|15 |seaRM-10 |kalmakis  |      0|     0.67|     0|       0|      3|           2|       3|   0|    0|
-|16 |seaRM-14 |pickel    |      0|     1.00|     0|       0|     16|          16|      14|   0|    0|
-|17 |seaRM-6  |trytiak   |      0|     0.86|     0|       0|     14|          12|      11|   0|    0|
+|22 |seaRM-99 |el-salaam |      7|     0.83|     5|       2|     18|          15|      23|   0|    0|
+|23 |seaRM-77 |trotter   |      3|     0.88|     1|       2|     17|          15|      18|   0|    0|
+|24 |seaRM-24 |duffel    |      2|     0.67|     2|       0|      3|           2|       4|   0|    0|
+|25 |seaRM-1  |mckibben  |      2|     0.94|     1|       1|     36|          34|      32|   1|    0|
+|26 |seaRM-12 |gallagher |      2|     0.75|     1|       1|      4|           3|       4|   1|    0|
+|27 |seaRM-21 |phan      |      2|     0.89|     1|       1|     19|          17|      19|   0|    0|
+|28 |seaRM-29 |feeley    |      2|     0.74|     0|       2|     23|          17|       9|   0|    2|
+|29 |seaRM-18 |uhrig-fox |      1|     1.00|     1|       0|      2|           2|       3|   1|    0|
+|30 |seaRM-23 |sliva     |      1|     0.78|     0|       1|      9|           7|       9|   2|    0|
+|31 |seaRM-2  |bubernak  |      1|     1.00|     0|       1|      3|           3|       3|   0|    0|
+|32 |seaRM-5  |chu       |      1|     1.00|     0|       1|      8|           8|       8|   0|    0|
+|33 |seaRM-4  |schneider |      0|     1.00|     0|       0|      3|           3|       3|   2|    0|
+|34 |seaRM-00 |rupp      |      0|     0.89|     0|       0|     38|          34|      28|   1|    0|
+|35 |seaRM-15 |beehner   |      0|     1.00|     0|       0|      3|           3|       3|   1|    0|
+|36 |seaRM-   |?name?    |      0|       NA|     0|       0|      0|           0|       0|   0|    0|
+|37 |seaRM-10 |kalmakis  |      0|     0.67|     0|       0|      3|           2|       3|   0|    0|
+|38 |seaRM-14 |pickel    |      0|     1.00|     0|       0|     16|          16|      14|   0|    0|
+|39 |seaRM-6  |trytiak   |      0|     0.86|     0|       0|     14|          12|      11|   0|    0|
+|40 |seaRM-88 |?name?    |      0|     1.00|     0|       0|      1|           1|       0|   0|    0|
 
 ## Player stats for pdxST <a id="home"></a>:
 
@@ -133,26 +135,27 @@ stats are cumulative for this game
 
 |   |player   |last         | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
 |:--|:--------|:------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
-|18 |pdxST-6  |Bjorklund    |      4|     0.92|     2|       2|     13|          12|      14|   0|    0|
-|19 |pdxST-5  |Woodside     |      3|     1.00|     3|       0|      2|           2|       5|   0|    0|
-|20 |pdxST-88 |Suppnick     |      3|     0.81|     1|       2|     21|          17|      16|   1|    0|
-|21 |pdxST-10 |Strout       |      3|     0.96|     0|       3|     27|          26|      24|   0|    0|
-|22 |pdxST-21 |McGinn       |      2|     0.96|     2|       0|     27|          26|      24|   1|    0|
-|23 |pdxST-11 |Kenton       |      2|     0.89|     1|       1|     27|          24|      22|   0|    2|
-|24 |pdxST-16 |Burton       |      2|     0.75|     1|       1|      8|           6|       9|   0|    0|
-|25 |pdxST-1  |Cable        |      1|     1.00|     1|       0|      3|           3|       3|   0|    0|
-|26 |pdxST-14 |Adamson      |      1|     0.00|     1|       0|      1|           0|       2|   0|    0|
-|27 |pdxST-7  |Friedman     |      1|     0.87|     1|       0|     23|          20|      20|   0|    1|
-|28 |pdxST-15 |Thornton     |      1|     1.00|     0|       1|      4|           4|       3|   0|    0|
-|29 |pdxST-22 |Cole         |      1|     1.00|     0|       1|      8|           8|       7|   0|    0|
-|30 |pdxST-24 |Norden       |      1|     0.88|     0|       1|     40|          35|      31|   0|    0|
-|31 |pdxST-42 |Lohre        |      1|     0.92|     0|       1|     12|          11|      12|   0|    0|
-|32 |pdxST-2  |Allison-Hall |      0|     0.89|     0|       0|      9|           8|       9|   1|    0|
-|33 |pdxST-20 |Beach-Rehner |      0|     1.00|     0|       0|      2|           2|       2|   1|    0|
-|34 |pdxST-17 |Hayes        |      0|     1.00|     0|       0|      9|           9|       8|   0|    0|
-|35 |pdxST-4  |Blackman     |      0|     1.00|     0|       0|      5|           5|       5|   0|    0|
-|36 |pdxST-73 |King         |      0|     0.62|     0|       0|      8|           5|       7|   0|    0|
-|37 |pdxST-9  |Hancock      |      0|     1.00|     0|       0|      6|           6|       6|   0|    0|
+|1  |pdxST-6  |Bjorklund    |      4|     0.92|     2|       2|     13|          12|      14|   0|    0|
+|2  |pdxST-5  |Woodside     |      3|     1.00|     3|       0|      2|           2|       5|   0|    0|
+|3  |pdxST-88 |Suppnick     |      3|     0.81|     1|       2|     21|          17|      16|   1|    0|
+|4  |pdxST-10 |Strout       |      3|     0.96|     0|       3|     27|          26|      24|   0|    0|
+|5  |pdxST-21 |McGinn       |      2|     0.96|     2|       0|     27|          26|      24|   1|    0|
+|6  |pdxST-11 |Kenton       |      2|     0.89|     1|       1|     27|          24|      22|   0|    2|
+|7  |pdxST-16 |Burton       |      2|     0.75|     1|       1|      8|           6|       9|   0|    0|
+|8  |pdxST-1  |Cable        |      1|     1.00|     1|       0|      3|           3|       3|   0|    0|
+|9  |pdxST-14 |Adamson      |      1|     0.00|     1|       0|      1|           0|       2|   0|    0|
+|10 |pdxST-7  |Friedman     |      1|     0.87|     1|       0|     23|          20|      20|   0|    1|
+|11 |pdxST-15 |Thornton     |      1|     1.00|     0|       1|      4|           4|       3|   0|    0|
+|12 |pdxST-22 |Cole         |      1|     1.00|     0|       1|      8|           8|       7|   0|    0|
+|13 |pdxST-24 |Norden       |      1|     0.88|     0|       1|     40|          35|      31|   0|    0|
+|14 |pdxST-42 |Lohre        |      1|     0.92|     0|       1|     12|          11|      12|   0|    0|
+|15 |pdxST-2  |Allison-Hall |      0|     0.89|     0|       0|      9|           8|       9|   1|    0|
+|16 |pdxST-20 |Beach-Rehner |      0|     1.00|     0|       0|      2|           2|       2|   1|    0|
+|17 |pdxST-   |?name?       |      0|       NA|     0|       0|      0|           0|       0|   0|    0|
+|18 |pdxST-17 |Hayes        |      0|     1.00|     0|       0|      9|           9|       8|   0|    0|
+|19 |pdxST-4  |Blackman     |      0|     1.00|     0|       0|      5|           5|       5|   0|    0|
+|20 |pdxST-73 |King         |      0|     0.62|     0|       0|      8|           5|       7|   0|    0|
+|21 |pdxST-9  |Hancock      |      0|     1.00|     0|       0|      6|           6|       6|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 

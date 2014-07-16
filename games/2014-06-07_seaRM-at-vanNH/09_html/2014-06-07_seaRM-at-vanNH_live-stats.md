@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 14:20:33 2014
+#### last update Tue Jul 15 20:39:07 2014
 # seaRM 12
 # vanNH 27
 ## game is complete
@@ -112,8 +112,9 @@ stats are cumulative for this game
 |12 |seaRM-77 |trotter   |      1|     1.00|     0|       1|     14|          14|      14|   0|    0|
 |13 |seaRM-8  |fong      |      1|     1.00|     0|       1|     10|          10|      10|   0|    0|
 |14 |seaRM-4  |schneider |      0|     1.00|     0|       0|     10|          10|      10|   1|    0|
-|15 |seaRM-10 |kalmakis  |      0|     0.86|     0|       0|      7|           6|       6|   0|    0|
-|16 |seaRM-23 |sliva     |      0|     0.75|     0|       0|      8|           6|       8|   0|    0|
+|15 |seaRM-?  |?name?    |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
+|16 |seaRM-10 |kalmakis  |      0|     0.86|     0|       0|      7|           6|       6|   0|    0|
+|17 |seaRM-23 |sliva     |      0|     0.75|     0|       0|      8|           6|       8|   0|    0|
 
 ## Player stats for vanNH <a id="home"></a>:
 
@@ -151,29 +152,30 @@ stats are cumulative for this game
 
 |   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
 |:--|:--------|:---------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
-|17 |vanNH-98 |wong      |      4|     1.00|     4|       0|      8|           8|      12|   0|    0|
-|18 |vanNH-45 |cowan     |      4|     1.00|     2|       2|     12|          12|       8|   0|    0|
-|19 |vanNH-89 |underhill |      4|     0.97|     2|       2|     30|          29|      29|   0|    0|
-|20 |vanNH-21 |loach     |      4|     1.00|     1|       3|     14|          14|      15|   0|    0|
-|21 |vanNH-4  |doyle     |      3|     1.00|     3|       0|      4|           4|       7|   0|    0|
-|22 |vanNH-10 |chatha    |      3|     1.00|     2|       1|      8|           8|      10|   0|    0|
-|23 |vanNH-33 |collins   |      3|     1.00|     2|       1|      3|           3|       4|   0|    0|
-|24 |vanNH-37 |sinclair  |      3|     1.00|     2|       1|      5|           5|       6|   0|    0|
-|25 |vanNH-11 |greer     |      3|     0.75|     1|       2|      4|           3|       5|   1|    0|
-|26 |vanNH-8  |hibbert   |      3|     1.00|     0|       3|     17|          17|      15|   1|    0|
-|27 |vanNH-5  |norris    |      3|     0.93|     0|       3|     27|          25|      21|   0|    1|
-|28 |vanNH-13 |tessarolo |      2|     1.00|     2|       0|      4|           4|       5|   2|    0|
-|29 |vanNH-22 |berezan   |      2|     1.00|     2|       0|     10|          10|      12|   0|    0|
-|30 |vanNH-27 |davis     |      2|     0.83|     2|       0|      6|           5|       9|   0|    0|
-|31 |vanNH-7  |dandurand |      2|     1.00|     1|       1|      1|           1|       2|   0|    0|
-|32 |vanNH-14 |eyrich    |      2|     1.00|     0|       2|      2|           2|       2|   0|    0|
-|33 |vanNH-18 |menzies   |      2|     0.83|     0|       2|     12|          10|       7|   0|    0|
-|34 |vanNH-72 |leduc     |      2|     0.86|     0|       2|      7|           6|       7|   0|    0|
-|35 |vanNH-24 |yu        |      1|     0.90|     1|       0|     10|           9|       8|   0|    1|
-|36 |vanNH-31 |saito     |      1|     1.00|     0|       1|      8|           8|       7|   0|    0|
-|37 |vanNH-81 |tejpar    |      1|     0.75|     0|       1|      4|           3|       2|   0|    1|
-|38 |vanNH-91 |savage    |      0|     0.96|     0|       0|     26|          25|      19|   1|    0|
-|39 |vanNH-49 |hayduk    |      0|     1.00|     0|       0|      5|           5|       3|   0|    0|
+|18 |vanNH-98 |wong      |      4|     1.00|     4|       0|      8|           8|      12|   0|    0|
+|19 |vanNH-45 |cowan     |      4|     1.00|     2|       2|     12|          12|       8|   0|    0|
+|20 |vanNH-89 |underhill |      4|     0.97|     2|       2|     30|          29|      29|   0|    0|
+|21 |vanNH-21 |loach     |      4|     1.00|     1|       3|     14|          14|      15|   0|    0|
+|22 |vanNH-4  |doyle     |      3|     1.00|     3|       0|      4|           4|       7|   0|    0|
+|23 |vanNH-10 |chatha    |      3|     1.00|     2|       1|      8|           8|      10|   0|    0|
+|24 |vanNH-33 |collins   |      3|     1.00|     2|       1|      3|           3|       4|   0|    0|
+|25 |vanNH-37 |sinclair  |      3|     1.00|     2|       1|      5|           5|       6|   0|    0|
+|26 |vanNH-11 |greer     |      3|     0.75|     1|       2|      4|           3|       5|   1|    0|
+|27 |vanNH-8  |hibbert   |      3|     1.00|     0|       3|     17|          17|      15|   1|    0|
+|28 |vanNH-5  |norris    |      3|     0.93|     0|       3|     27|          25|      21|   0|    1|
+|29 |vanNH-13 |tessarolo |      2|     1.00|     2|       0|      4|           4|       5|   2|    0|
+|30 |vanNH-22 |berezan   |      2|     1.00|     2|       0|     10|          10|      12|   0|    0|
+|31 |vanNH-27 |davis     |      2|     0.83|     2|       0|      6|           5|       9|   0|    0|
+|32 |vanNH-7  |dandurand |      2|     1.00|     1|       1|      1|           1|       2|   0|    0|
+|33 |vanNH-14 |eyrich    |      2|     1.00|     0|       2|      2|           2|       2|   0|    0|
+|34 |vanNH-18 |menzies   |      2|     0.83|     0|       2|     12|          10|       7|   0|    0|
+|35 |vanNH-72 |leduc     |      2|     0.86|     0|       2|      7|           6|       7|   0|    0|
+|36 |vanNH-24 |yu        |      1|     0.90|     1|       0|     10|           9|       8|   0|    1|
+|37 |vanNH-31 |saito     |      1|     1.00|     0|       1|      8|           8|       7|   0|    0|
+|38 |vanNH-81 |tejpar    |      1|     0.75|     0|       1|      4|           3|       2|   0|    1|
+|39 |vanNH-91 |savage    |      0|     0.96|     0|       0|     26|          25|      19|   1|    0|
+|40 |vanNH-?  |?name?    |      0|       NA|     0|       0|      0|           0|       1|   0|    0|
+|41 |vanNH-49 |hayduk    |      0|     1.00|     0|       0|      5|           5|       3|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 

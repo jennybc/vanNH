@@ -8,6 +8,6 @@
   318/426 passes were completed (74.6%)
   429 rows of pass data will be written
   roster read for vanNH and sfoDF
-  writing player stats to file: 20 for vanNH, 22 for sfoDF
-  2014-07-15 13:49:42
+  writing player stats to file: 22 for vanNH, 24 for sfoDF
+  2014-07-15 20:38:15
 

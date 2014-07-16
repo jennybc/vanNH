@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 14:19:57 2014
+#### last update Tue Jul 15 20:37:21 2014
 # pdxST 18
 # sfoDF 16
 ## game is complete

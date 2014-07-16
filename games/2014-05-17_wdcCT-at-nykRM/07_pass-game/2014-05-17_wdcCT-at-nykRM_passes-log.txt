@@ -13,6 +13,6 @@
   475/521 passes were completed (91.2%)
   521 rows of pass data will be written
   roster read for wdcCT and nykRM
-  writing player stats to file: 25 for wdcCT, 19 for nykRM
-  2014-07-15 13:49:44
+  writing player stats to file: 26 for wdcCT, 19 for nykRM
+  2014-07-15 20:38:21
 

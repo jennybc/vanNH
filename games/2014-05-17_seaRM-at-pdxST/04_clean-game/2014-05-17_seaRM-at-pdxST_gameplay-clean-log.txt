@@ -1,4 +1,4 @@
-2014-05-17_seaRM-at-pdxST:
+2014-05-17_seaRM-at-pdxST > 04_clean-and-expand-game-play.r:
   660 rows of raw game play found
   found 15 rows with game play recorded for both teams
 Row 15 of point23 indicates events for both teams
@@ -9,5 +9,5 @@ Row 15 of point23 indicates events for both teams
 16    23     24PU                 24        PU                    
   no double game play rows remain
   675 rows of clean game play will be written
-  2014-07-12 23:37:09
+  2014-07-15 20:38:06
 

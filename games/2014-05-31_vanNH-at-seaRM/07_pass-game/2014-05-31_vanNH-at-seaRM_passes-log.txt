@@ -8,6 +8,6 @@
   574/629 passes were completed (91.3%)
   631 rows of pass data will be written
   roster read for vanNH and seaRM
-  writing player stats to file: 21 for vanNH, 20 for seaRM
-  2014-07-15 13:49:49
+  writing player stats to file: 22 for vanNH, 21 for seaRM
+  2014-07-15 20:38:54
 

@@ -24,6 +24,6 @@
   496/529 passes were completed (93.8%)
   538 rows of pass data will be written
   roster read for seaRM and pdxST
-  writing player stats to file: 26 for seaRM, 19 for pdxST
-  2014-07-15 13:49:41
+  writing player stats to file: 27 for seaRM, 20 for pdxST
+  2014-07-15 20:38:09
 

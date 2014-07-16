@@ -15,6 +15,7 @@ game	player	last	points	comp_pct	goals	assists	throws	completions	catches	def	dr
 2014-06-28_bosWC-at-wdcCT	bosWC-11	foster	1	1	0	1	4	4	6	1	0	bosWC	11
 2014-06-28_bosWC-at-wdcCT	bosWC-5	doherty	0	1	0	0	4	4	3	1	0	bosWC	5
 2014-06-28_bosWC-at-wdcCT	bosWC-6	roth	0	0.5	0	0	2	1	1	1	0	bosWC	6
+2014-06-28_bosWC-at-wdcCT	bosWC-	?name?	0	NA	0	0	0	0	0	0	0	bosWC	bosWC
 2014-06-28_bosWC-at-wdcCT	bosWC-00	taylor	0	0.91	0	0	11	10	8	0	0	bosWC	00
 2014-06-28_bosWC-at-wdcCT	bosWC-18	browar-jarus	0	0.75	0	0	4	3	2	0	0	bosWC	18
 2014-06-28_bosWC-at-wdcCT	bosWC-29	stevens	0	0.67	0	0	3	2	3	0	0	bosWC	29
@@ -41,6 +42,7 @@ game	player	last	points	comp_pct	goals	assists	throws	completions	catches	def	dr
 2014-06-28_bosWC-at-wdcCT	wdcCT-9	doi	1	0.86	0	1	7	6	7	0	1	wdcCT	9
 2014-06-28_bosWC-at-wdcCT	wdcCT-1	kantor	0	0.86	0	0	7	6	5	2	0	wdcCT	1
 2014-06-28_bosWC-at-wdcCT	wdcCT-6	gordon	0	1	0	0	5	5	4	1	0	wdcCT	6
+2014-06-28_bosWC-at-wdcCT	wdcCT-	?name?	0	NA	0	0	0	0	0	0	0	wdcCT	wdcCT
 2014-06-28_bosWC-at-wdcCT	wdcCT-27	johnston	0	0.75	0	0	8	6	4	0	0	wdcCT	27
 2014-06-28_bosWC-at-wdcCT	wdcCT-5	cranston	0	0.83	0	0	6	5	6	0	0	wdcCT	5
 2014-06-28_bosWC-at-wdcCT	wdcCT-61	salmi	0	1	0	0	3	3	3	0	0	wdcCT	61
