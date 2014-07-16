@@ -8,15 +8,18 @@ jWidth <- 5
 jHeight <- 4
 
 mlu_cols <-
-  c(pdxST = "#4DB870", vanNH = "#CCCCCC", seaRM = "#88A5C3", sfoDF = "#FFAD5C")
+  c(pdxST = "#4DB870", vanNH = "#CCCCCC", seaRM = "#88A5C3", sfoDF = "#FFAD5C",
+    wdcCT = "orange", bosWC = "blue", phlSP = "red", nykRM = "gold")
 theme_set(theme_bw())
 
-input_dir <- file.path("..", "games", "2014_west")
-point_file <- file.path(input_dir, "2014_west_points.rds")
-str(point_dat <- readRDS(point_file), give.attr = FALSE) # 589 obs. of  17 vars
+input_dir <- file.path("..", "games", "2014_all-games")
+point_file <- file.path(input_dir, "2014_points.rds")
+str(point_dat <- readRDS(point_file), give.attr = FALSE) # 1314 obs. of  17 variables
 
-table(point_dat$score) # 537 TRUE 52 FALSE
-str(point_dat <- subset(point_dat, score)) # 537 obs. of  17 var
+table(point_dat$scor_team, useNA = "always")
+# bosWC nykRM pdxST phlSP seaRM sfoDF vanNH wdcCT  <NA> 
+#   67    48   202    76   187   157   226   234   117 
+str(point_dat <- subset(point_dat, !is.na(scor_team))) # 1197 obs. of  17 var
 
 n_poss_freq <- ddply(point_dat, ~ n_poss, function(x) {
   data.frame(n_points = nrow(x))
@@ -36,10 +39,10 @@ p <- ggplot(n_poss_freq, aes(x = n_poss, y = cum_prop))
 p + ylim(0, 1) + geom_segment(aes(xend = n_poss, yend = 0), size = I(3))
 
 ## once we account for 95% of the goals scored, lump the rest together
-(n_poss_max <- max(which(n_poss_freq$cum_prop <= 0.95))) # 5 possessions
+(n_poss_max <- max(which(n_poss_freq$cum_prop <= 0.95))) # 4 possessions
 (catchall_convert_prop <- # weighted avg of convert_prop for the lump
    with(subset(n_poss_freq, n_poss > n_poss_max),
-        weighted.mean(convert_prop, n_points))) # 0.4079216
+        weighted.mean(convert_prop, n_points))) # 0.4570766
 
 ## remake this table, lumping the high poss together
 n_poss_freq <- n_poss_freq[c('n_poss', 'n_points')]
@@ -66,8 +69,8 @@ n_poss_freq$conf_rad <-
                                     (1 - convert_prop)))
 
 ## get overall goal conversion rate
-avg_convert_prop <- nrow(point_dat)/sum(point_dat$n_poss)   # 0.4306507
-  #with(n_poss_freq, weighted.mean(convert_prop, n_points)) # 0.4370408
+avg_convert_prop <- nrow(point_dat)/sum(point_dat$n_poss)   # 0.4659401
+  #with(n_poss_freq, weighted.mean(convert_prop, n_points)) # ?
 anno_text <- paste0("overall goal conversion rate =\n", nrow(point_dat),
                     " goals on ", sum(point_dat$n_poss), " possessions = ",
                     sprintf("%1.2f", avg_convert_prop))

@@ -5,15 +5,16 @@ library(plyr)
 neglength <- function(x) -1 * length(x)
 
 mlu_cols <-
-  c(pdxST = "#4DB870", vanNH = "#CCCCCC", seaRM = "#88A5C3", sfoDF = "#FFAD5C")
+  c(pdxST = "#4DB870", vanNH = "#CCCCCC", seaRM = "#88A5C3", sfoDF = "#FFAD5C",
+    wdcCT = "orange", bosWC = "blue", phlSP = "red", nykRM = "gold")
 theme_set(theme_bw())
 
 jWidth <- 5
 jHeight <- 4
 
-input_dir <- file.path("..", "games", "2014_west")
-poss_file <- file.path(input_dir, "2014_west_possessions.rds")
-str(poss_dat <- readRDS(poss_file), give.attr = FALSE) # 1355 obs. of 18 vars
+input_dir <- file.path("..", "games", "2014_all-games")
+poss_file <- file.path(input_dir, "2014_possessions.rds")
+str(poss_dat <- readRDS(poss_file), give.attr = FALSE) # 2830 obs. of  18 variables:
 
 poss_dat$c_code <-
   revalue(poss_dat$b_code,
