@@ -15,6 +15,20 @@ The figures below are based on data from all Western Conference games played in 
 
 *Note: I have removed all possessions that ended due to time running out, previously included with code `eop`.*
 
+### Scatterplot: completion percentage vs number of throws
+
+```{r echo = FALSE, warning = FALSE}
+library(ggplot2)
+pl_stats <-
+  readRDS(file.path("..", "games",
+                    "2014_all-games", "2014_player-stats-aggregated.rds"))
+pl_stats <- pl_stats[pl_stats$team %in% c('vanNH', 'wdcCT'), ]
+p <- ggplot(pl_stats, aes(x = throws, y = comp_pct))
+#p + geom_point()
+p + geom_text(aes(label = last), size = 4) + facet_wrap(~ team)
+```
+
+
 ### How possessions end, high-level.
 
 y = how possessions end   
