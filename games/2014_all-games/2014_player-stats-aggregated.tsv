@@ -1,245 +1,245 @@
-last	player	points	goals	assists	throws	completions	comp_pct	def	catches	drop
-clark	bosWC-77	16	11	5	59	55	0.93	0	70	1
-malacek	bosWC-13	16	6	10	144	133	0.92	0	106	3
-markette	bosWC-1	16	3	13	98	90	0.92	1	91	1
-graham	bosWC-21	13	10	3	76	75	0.99	2	82	0
-foster	bosWC-17	11	9	2	37	32	0.86	2	46	2
-brecher	bosWC-7	9	0	9	69	66	0.96	0	59	0
-hatchett	bosWC-27	7	5	2	15	13	0.87	5	18	0
-rebholz	bosWC-4	7	2	5	101	95	0.94	1	91	0
-nixon	bosWC-9	6	5	1	7	6	0.86	0	12	0
-simmons	bosWC-12	5	1	4	46	40	0.87	3	32	0
-taylor	bosWC-00	4	2	2	80	75	0.94	1	64	2
-farnsworth	bosWC-64	3	3	0	10	8	0.8	3	12	0
-zid	bosWC-3	3	2	1	26	24	0.92	0	28	0
-cooper	bosWC-8	3	1	2	30	26	0.87	0	24	0
-stevens	bosWC-29	3	1	2	22	19	0.86	0	23	0
-hirschberger	bosWC-43	2	2	0	9	7	0.78	5	9	0
-foster	bosWC-11	2	0	2	22	19	0.86	4	22	0
-montgomery-butler	bosWC-14	2	0	2	21	21	1	1	12	0
-mcdonnell	bosWC-25	1	1	0	6	6	1	2	6	0
-doherty	bosWC-5	1	1	0	6	6	1	2	6	0
-roth	bosWC-6	1	1	0	8	7	0.88	1	8	0
-macnaughton	bosWC-35	1	1	0	10	8	0.8	0	11	0
-browar-jarus	bosWC-18	1	0	1	16	14	0.88	1	14	0
-ingold-smith	bosWC-10	1	0	1	20	19	0.95	0	17	0
-trahey	bosWC-28	0	0	0	3	2	0.67	1	3	0
-meyers	bosWC-88	0	0	0	11	10	0.91	0	9	0
-reinhardt	bosWC-2	0	0	0	1	1	1	0	1	0
-smart	bosWC-93	0	0	0	0	0	NA	0	1	0
-vuckovich	nykRM-14	10	6	4	59	53	0.9	2	66	0
-saul	nykRM-19	9	1	8	105	91	0.87	0	93	2
-mazur	nykRM-6	7	4	3	73	61	0.84	1	58	0
-yz	nykRM-18	7	3	4	25	23	0.92	0	28	0
-hunziker	nykRM-13	6	5	1	11	9	0.82	1	15	0
-faust	nykRM-41	6	4	2	39	35	0.9	0	42	0
-herman	nykRM-33	6	4	2	18	17	0.94	0	22	0
-murphy	nykRM-47	6	3	3	71	63	0.89	0	59	0
-kuzmowycz	nykRM-1	5	2	3	16	14	0.88	2	18	0
-marsh	nykRM-22	5	2	3	20	18	0.9	0	22	0
-hennessy	nykRM-4	4	3	1	104	97	0.93	2	75	3
-heljmen	nykRM-2	4	1	3	21	19	0.9	0	21	0
-brownlee	nykRM-82	3	2	1	10	8	0.8	2	7	0
-murray	nykRM-81	3	2	1	8	7	0.88	1	11	0
-anderson	nykRM-21	3	0	3	23	20	0.87	2	21	1
-gillies	nykRM-44	2	2	0	11	10	0.91	0	13	0
-baum	nykRM-15	2	1	1	14	12	0.86	0	11	1
-sender	nykRM-5	2	0	2	29	28	0.97	1	18	0
-hennessy	nykRM-10	1	1	0	19	17	0.89	2	17	0
-bosco	nykRM-26	1	1	0	50	46	0.92	0	30	0
-cox	nykRM-3	1	1	0	0	0	NA	0	1	0
-wilson	nykRM-27	1	0	1	22	19	0.86	2	19	0
-glatt	nykRM-24	1	0	1	20	18	0.9	2	16	1
-raymond	nykRM-8	1	0	1	6	6	1	0	6	0
-walter	nykRM-9	0	0	0	7	6	0.86	1	7	0
-mieser	nykRM-89	0	0	0	4	3	0.75	1	4	0
-hard	nykRM-45	0	0	0	1	1	1	0	1	0
-Bjorklund	pdxST-6	43	28	15	168	151	0.9	5	188	1
-Friedman	pdxST-7	40	19	21	431	413	0.96	5	388	1
-Burton	pdxST-16	35	18	17	119	104	0.87	1	136	2
-Norden	pdxST-24	30	2	28	503	464	0.92	2	419	5
-Lohre	pdxST-42	28	15	13	211	201	0.95	3	216	2
-Strout	pdxST-10	26	9	17	279	265	0.95	2	257	2
-Allison-Hall	pdxST-2	24	20	4	149	140	0.94	4	170	1
-Davis	pdxST-8	22	7	15	152	141	0.93	15	131	2
-Kenton	pdxST-11	22	7	15	307	288	0.94	1	259	6
-Suppnick	pdxST-88	18	2	16	152	134	0.88	6	111	1
-Hayes	pdxST-17	16	11	5	46	45	0.98	4	51	0
-McGinn	pdxST-21	16	6	10	167	149	0.89	5	130	1
-Perston	pdxST-13	12	11	1	29	25	0.86	1	39	2
-Woodside	pdxST-5	11	10	1	23	20	0.87	8	32	0
-Cole	pdxST-22	11	6	5	89	83	0.93	6	85	2
-Ferrea	pdxST-3	10	5	5	27	27	1	6	27	0
-Hancock	pdxST-9	9	6	3	93	91	0.98	0	87	0
-King	pdxST-73	7	3	4	158	145	0.92	0	138	1
-Blackman	pdxST-4	6	6	0	31	30	0.97	2	35	0
-Adamson	pdxST-14	5	4	1	17	12	0.71	3	21	1
-Meinershagen	pdxST-25	5	2	3	44	40	0.91	3	44	0
-Thornton	pdxST-15	4	1	3	33	29	0.88	1	31	0
-Bui	pdxST-12	2	2	0	5	5	1	2	7	0
-Beach-Rehner	pdxST-20	1	1	0	10	9	0.9	2	10	0
-Cable	pdxST-1	1	1	0	6	6	1	0	4	0
-?name?	pdxST-?	0	0	0	5	4	0.8	1	5	1
-esser	phlSP-11	13	9	4	39	37	0.95	3	46	0
-katzenbach	phlSP-25	12	9	3	84	79	0.94	0	86	1
-shull	phlSP-16	10	7	3	37	34	0.92	3	43	0
-hirannet	phlSP-7	10	2	8	158	148	0.94	1	119	3
-brandolph	phlSP-13	9	4	5	105	99	0.94	0	90	1
-diviney	phlSP-9	9	3	6	33	26	0.79	2	34	2
-earles	phlSP-3	8	4	4	31	24	0.77	0	27	2
-ranii-dropcho	phlSP-42	8	3	5	25	24	0.96	1	26	1
-glazer	phlSP-14	7	6	1	69	64	0.93	1	74	0
-scharadin	phlSP-32	7	6	1	18	18	1	1	22	0
-baer	phlSP-20	7	2	5	111	99	0.89	3	91	4
-brasz	phlSP-64	7	0	7	64	57	0.89	1	55	0
-rainwater	phlSP-27	5	2	3	49	45	0.92	3	47	0
-colton	phlSP-2	5	2	3	33	31	0.94	2	23	2
-chou	phlSP-6	4	4	0	29	22	0.76	4	30	0
-paparone	phlSP-22	4	3	1	12	12	1	3	15	0
-panna	phlSP-21	4	2	2	52	46	0.88	2	37	2
-dillon	phlSP-76	4	1	3	16	14	0.88	0	13	1
-peters	phlSP-1	4	0	4	27	21	0.78	2	20	0
-casey	phlSP-10	3	3	0	6	6	1	0	8	0
-lindsey	phlSP-31	3	2	1	18	17	0.94	4	18	0
-mcclellan	phlSP-71	3	1	2	30	22	0.73	0	25	1
-thorne	phlSP-23	2	1	1	27	25	0.93	1	25	0
-baer	phlSP-28	1	0	1	4	4	1	1	3	0
-wisch	phlSP-38	1	0	1	12	10	0.83	0	12	0
-damiano	phlSP-4	1	0	1	13	13	1	0	11	0
-ward	phlSP-33	0	0	0	20	20	1	0	15	0
-zumbrum	phlSP-12	0	0	0	3	3	1	0	4	0
-carter	phlSP-88	0	0	0	3	2	0.67	0	3	0
-mathison	phlSP-41	0	0	0	1	1	1	0	1	0
-li	phlSP-77	0	0	0	1	1	1	0	1	0
-furfari	phlSP-8	0	0	0	1	0	0	0	0	0
-trytiak	seaRM-6	44	17	27	183	152	0.83	6	193	1
-clark	seaRM-48	39	32	7	51	41	0.8	7	81	2
-el-salaam	seaRM-99	32	20	12	95	84	0.88	2	116	1
-zemel	seaRM-17	25	6	19	225	202	0.9	2	191	5
-simon	seaRM-20	21	5	16	237	215	0.91	4	188	5
-feeley	seaRM-29	20	3	17	221	194	0.88	5	147	4
-harkness	seaRM-9	19	14	5	69	66	0.96	5	76	1
-mckibben	seaRM-1	19	11	8	289	274	0.95	2	237	0
-gallagher	seaRM-12	16	10	6	25	21	0.84	7	35	1
-koss	seaRM-35	16	3	13	103	87	0.84	6	82	4
-phan	seaRM-21	15	2	13	103	96	0.93	5	86	0
-uhrig-fox	seaRM-18	14	11	3	37	29	0.78	7	48	4
-rosatto	seaRM-25	14	8	6	63	55	0.87	1	62	0
-trotter	seaRM-77	10	4	6	51	49	0.96	1	52	0
-entz	seaRM-51	9	7	2	31	25	0.81	2	37	0
-sliva	seaRM-23	9	6	3	45	38	0.84	8	48	0
-chu	seaRM-5	9	4	5	42	40	0.95	0	47	0
-fong	seaRM-8	8	4	4	28	25	0.89	2	31	2
-duffel	seaRM-24	7	6	1	22	20	0.91	2	26	0
-beehner	seaRM-15	5	3	2	23	21	0.91	6	26	1
-sewell	seaRM-13	5	3	2	22	18	0.82	3	19	2
-o'brien	seaRM-3	5	0	5	103	91	0.88	4	66	3
-bubernak	seaRM-2	4	2	2	14	14	1	1	18	0
-pickel	seaRM-14	4	2	2	73	68	0.93	0	62	0
-rupp	seaRM-00	3	3	0	225	214	0.95	4	162	1
-barowski	seaRM-31	1	1	0	7	5	0.71	0	8	0
-schneider	seaRM-4	1	0	1	22	20	0.91	4	19	0
-linn	seaRM-28	0	0	0	20	19	0.95	3	20	1
-kalmakis	seaRM-10	0	0	0	16	12	0.75	1	14	1
-cooper	seaRM-7	0	0	0	3	3	1	1	3	0
-?name?	seaRM-?	0	0	0	6	5	0.83	0	3	1
-?name?	seaRM-26	0	0	0	3	3	1	0	3	0
-?name?	seaRM-0	0	0	0	1	1	1	0	1	0
-hooper	seaRM-16	0	0	0	1	0	0	0	1	0
-?name?	seaRM-27	0	0	0	1	1	1	0	1	0
-?name?	seaRM-32	0	0	0	1	1	1	0	1	0
-?name?	seaRM-88	0	0	0	1	1	1	0	0	0
-Boucher	sfoDF-34	27	9	18	166	139	0.84	9	141	7
-Kissmann	sfoDF-88	18	12	6	177	160	0.9	0	168	0
-Kim	sfoDF-6	17	7	10	80	74	0.92	3	84	1
-Taylor	sfoDF-40	17	5	12	95	79	0.83	1	87	1
-Adamson	sfoDF-2	16	13	3	35	32	0.91	6	47	0
-Stearns	sfoDF-21	16	9	7	55	49	0.89	7	64	2
-Yeager	sfoDF-16	16	1	15	174	143	0.82	3	110	8
-Weaver	sfoDF-18	15	10	5	52	46	0.88	4	57	2
-Caulfield	sfoDF-24	14	13	1	38	36	0.95	4	49	1
-Pollard	sfoDF-8	14	5	9	203	176	0.87	4	161	7
-Lee	sfoDF-11	13	8	5	102	88	0.86	4	82	2
-Grant	sfoDF-13	13	6	7	144	128	0.89	3	120	4
-Bellinger	sfoDF-12	13	5	8	93	73	0.78	6	58	4
-Brydon	sfoDF-85	11	5	6	56	46	0.82	13	63	3
-McCarty	sfoDF-46	10	8	2	44	40	0.91	7	54	2
-Cascino	sfoDF-5	9	6	3	112	97	0.87	7	92	6
-Jeffery	sfoDF-23	9	4	5	96	74	0.77	6	72	2
-Ranahan	sfoDF-1	9	4	5	80	70	0.88	3	61	3
-Boyd-Meredith	sfoDF-17	8	2	6	92	78	0.85	2	57	1
-Hart	sfoDF-37	7	5	2	12	11	0.92	2	17	1
-Husak	sfoDF-83	7	5	2	56	47	0.84	1	45	1
-Meyer	sfoDF-57	7	4	3	106	90	0.85	0	72	2
-Weiss	sfoDF-3	7	3	4	16	14	0.88	0	18	0
-Sugioka	sfoDF-10	6	2	4	17	13	0.76	4	18	1
-Weiss	sfoDF-19	5	2	3	33	31	0.94	1	35	0
-Dixon	sfoDF-25	4	2	2	67	58	0.87	3	51	3
-Farren	sfoDF-9	2	2	0	12	9	0.75	2	14	0
-Rivera	sfoDF-22	2	0	2	8	8	1	1	9	0
-Sheridan	sfoDF-7	1	0	1	4	2	0.5	2	4	0
-Hurst	sfoDF-14	1	0	1	30	26	0.87	1	24	1
-?name?	sfoDF-?	0	0	0	0	0	NA	0	3	0
-?name?	sfoDF-86	0	0	0	1	1	1	0	1	0
-wong	vanNH-98	67	50	17	155	136	0.88	4	202	1
-chatha	vanNH-10	35	25	10	122	105	0.86	1	145	4
-berezan	vanNH-22	30	18	12	150	139	0.93	7	168	3
-leduc	vanNH-72	29	17	12	52	46	0.88	3	69	1
-loach	vanNH-21	29	9	20	171	152	0.89	2	177	4
-underhill	vanNH-89	29	7	22	387	358	0.93	6	287	11
-norris	vanNH-5	29	5	24	298	254	0.85	1	213	9
-hibbert	vanNH-8	28	8	20	139	114	0.82	18	132	4
-savage	vanNH-91	25	5	20	251	235	0.94	2	188	3
-cowan	vanNH-45	15	7	8	93	84	0.9	2	56	1
-knapp	vanNH-19	14	8	6	195	185	0.95	2	145	4
-tessarolo	vanNH-13	13	7	6	20	18	0.9	11	24	1
-greer	vanNH-11	13	4	9	42	36	0.86	6	40	0
-doyle	vanNH-4	12	9	3	21	20	0.95	6	26	1
-davis	vanNH-27	11	9	2	34	30	0.88	3	41	0
-tejpar	vanNH-81	11	5	6	46	40	0.87	2	37	3
-yu	vanNH-24	10	5	5	61	48	0.79	9	41	3
-saito	vanNH-31	8	6	2	38	31	0.82	5	40	1
-sinclair	vanNH-37	8	5	3	24	21	0.88	1	28	2
-collins	vanNH-33	7	5	2	32	25	0.78	3	22	1
-menzies	vanNH-18	7	2	5	48	42	0.88	2	31	1
-seraglia	vanNH-39	6	3	3	15	11	0.73	5	17	1
-eyrich	vanNH-14	5	3	2	14	12	0.86	5	17	0
-bellavance	vanNH-75	5	2	3	37	32	0.86	2	24	0
-dandurand	vanNH-7	4	1	3	11	10	0.91	3	10	0
-hayduk	vanNH-49	1	1	0	5	5	1	1	4	0
-gailits	vanNH-6	1	0	1	13	11	0.85	0	12	0
-?name?	vanNH-?	0	0	0	0	0	NA	0	7	0
-?name?	vanNH-15	0	0	0	1	1	1	0	0	0
-?name?	vanNH-17	0	0	0	2	2	1	0	0	0
-kolick	wdcCT-99	51	15	36	431	407	0.94	7	364	5
-shofner	wdcCT-90	47	14	33	201	173	0.86	6	189	2
-prial	wdcCT-8	42	25	17	187	172	0.92	10	202	3
-wodatch	wdcCT-45	37	24	13	127	123	0.97	2	150	1
-keegan	wdcCT-2	30	15	15	239	217	0.91	3	196	1
-doi	wdcCT-9	28	17	11	95	82	0.86	2	113	6
-peters	wdcCT-32	23	14	9	125	114	0.91	3	115	1
-grabowski	wdcCT-80	18	14	4	35	32	0.91	0	46	1
-blake	wdcCT-14	16	6	10	129	122	0.95	3	97	0
-cranston	wdcCT-5	13	8	5	95	84	0.88	7	97	1
-maloney	wdcCT-19	13	8	5	46	40	0.87	1	44	1
-oung	wdcCT-88	13	6	7	174	164	0.94	9	124	2
-marshall	wdcCT-22	13	6	7	37	31	0.84	7	39	0
-kantor	wdcCT-1	11	8	3	49	46	0.94	5	52	0
-johnson	wdcCT-4	11	7	4	40	39	0.98	11	42	0
-gibson	wdcCT-42	11	5	6	26	25	0.96	8	26	0
-bellinger	wdcCT-12	11	3	8	106	98	0.92	2	73	1
-gordon	wdcCT-6	10	6	4	32	27	0.84	4	35	0
-salmi	wdcCT-61	8	3	5	56	51	0.91	1	47	0
-poole	wdcCT-20	8	2	6	22	20	0.91	0	18	1
-gordon	wdcCT-25	7	6	1	26	23	0.88	5	30	0
-dulabon	wdcCT-21	7	5	2	28	26	0.93	4	30	0
-miner	wdcCT-17	7	4	3	36	36	1	3	39	0
-boylan-kolchin	wdcCT-7	7	3	4	49	44	0.9	5	49	3
-cobb	wdcCT-31	5	4	1	21	18	0.86	3	25	0
-castine	wdcCT-15	5	0	5	43	39	0.91	4	33	1
-fickley	wdcCT-3	5	0	5	33	29	0.88	2	22	2
-fleming	wdcCT-24	4	3	1	12	10	0.83	7	14	1
-johnston	wdcCT-27	4	2	2	97	88	0.91	3	69	1
-tsai	wdcCT-23	3	1	2	36	32	0.89	2	32	0
-?name?	wdcCT-49	0	0	0	1	1	1	0	1	0
-?name?	wdcCT-82	0	0	0	1	1	1	0	1	0
+last	player	points	goals	assists	throws	completions	comp_pct	def	catches	drop	team	number
+clark	bosWC-77	16	11	5	59	55	0.93	0	70	1	bosWC	77
+malacek	bosWC-13	16	6	10	144	133	0.92	0	106	3	bosWC	13
+markette	bosWC-1	16	3	13	98	90	0.92	1	91	1	bosWC	1
+graham	bosWC-21	13	10	3	76	75	0.99	2	82	0	bosWC	21
+foster	bosWC-17	11	9	2	37	32	0.86	2	46	2	bosWC	17
+brecher	bosWC-7	9	0	9	69	66	0.96	0	59	0	bosWC	7
+hatchett	bosWC-27	7	5	2	15	13	0.87	5	18	0	bosWC	27
+rebholz	bosWC-4	7	2	5	101	95	0.94	1	91	0	bosWC	4
+nixon	bosWC-9	6	5	1	7	6	0.86	0	12	0	bosWC	9
+simmons	bosWC-12	5	1	4	46	40	0.87	3	32	0	bosWC	12
+taylor	bosWC-00	4	2	2	80	75	0.94	1	64	2	bosWC	0
+farnsworth	bosWC-64	3	3	0	10	8	0.8	3	12	0	bosWC	64
+zid	bosWC-3	3	2	1	26	24	0.92	0	28	0	bosWC	3
+cooper	bosWC-8	3	1	2	30	26	0.87	0	24	0	bosWC	8
+stevens	bosWC-29	3	1	2	22	19	0.86	0	23	0	bosWC	29
+hirschberger	bosWC-43	2	2	0	9	7	0.78	5	9	0	bosWC	43
+foster	bosWC-11	2	0	2	22	19	0.86	4	22	0	bosWC	11
+montgomery-butler	bosWC-14	2	0	2	21	21	1	1	12	0	bosWC	14
+mcdonnell	bosWC-25	1	1	0	6	6	1	2	6	0	bosWC	25
+doherty	bosWC-5	1	1	0	6	6	1	2	6	0	bosWC	5
+roth	bosWC-6	1	1	0	8	7	0.88	1	8	0	bosWC	6
+macnaughton	bosWC-35	1	1	0	10	8	0.8	0	11	0	bosWC	35
+browar-jarus	bosWC-18	1	0	1	16	14	0.88	1	14	0	bosWC	18
+ingold-smith	bosWC-10	1	0	1	20	19	0.95	0	17	0	bosWC	10
+trahey	bosWC-28	0	0	0	3	2	0.67	1	3	0	bosWC	28
+meyers	bosWC-88	0	0	0	11	10	0.91	0	9	0	bosWC	88
+reinhardt	bosWC-2	0	0	0	1	1	1	0	1	0	bosWC	2
+smart	bosWC-93	0	0	0	0	0	NA	0	1	0	bosWC	93
+vuckovich	nykRM-14	10	6	4	59	53	0.9	2	66	0	nykRM	14
+saul	nykRM-19	9	1	8	105	91	0.87	0	93	2	nykRM	19
+mazur	nykRM-6	7	4	3	73	61	0.84	1	58	0	nykRM	6
+yz	nykRM-18	7	3	4	25	23	0.92	0	28	0	nykRM	18
+hunziker	nykRM-13	6	5	1	11	9	0.82	1	15	0	nykRM	13
+faust	nykRM-41	6	4	2	39	35	0.9	0	42	0	nykRM	41
+herman	nykRM-33	6	4	2	18	17	0.94	0	22	0	nykRM	33
+murphy	nykRM-47	6	3	3	71	63	0.89	0	59	0	nykRM	47
+kuzmowycz	nykRM-1	5	2	3	16	14	0.88	2	18	0	nykRM	1
+marsh	nykRM-22	5	2	3	20	18	0.9	0	22	0	nykRM	22
+hennessy	nykRM-4	4	3	1	104	97	0.93	2	75	3	nykRM	4
+heljmen	nykRM-2	4	1	3	21	19	0.9	0	21	0	nykRM	2
+brownlee	nykRM-82	3	2	1	10	8	0.8	2	7	0	nykRM	82
+murray	nykRM-81	3	2	1	8	7	0.88	1	11	0	nykRM	81
+anderson	nykRM-21	3	0	3	23	20	0.87	2	21	1	nykRM	21
+gillies	nykRM-44	2	2	0	11	10	0.91	0	13	0	nykRM	44
+baum	nykRM-15	2	1	1	14	12	0.86	0	11	1	nykRM	15
+sender	nykRM-5	2	0	2	29	28	0.97	1	18	0	nykRM	5
+hennessy	nykRM-10	1	1	0	19	17	0.89	2	17	0	nykRM	10
+bosco	nykRM-26	1	1	0	50	46	0.92	0	30	0	nykRM	26
+cox	nykRM-3	1	1	0	0	0	NA	0	1	0	nykRM	3
+wilson	nykRM-27	1	0	1	22	19	0.86	2	19	0	nykRM	27
+glatt	nykRM-24	1	0	1	20	18	0.9	2	16	1	nykRM	24
+raymond	nykRM-8	1	0	1	6	6	1	0	6	0	nykRM	8
+walter	nykRM-9	0	0	0	7	6	0.86	1	7	0	nykRM	9
+mieser	nykRM-89	0	0	0	4	3	0.75	1	4	0	nykRM	89
+hard	nykRM-45	0	0	0	1	1	1	0	1	0	nykRM	45
+Bjorklund	pdxST-6	43	28	15	168	151	0.9	5	188	1	pdxST	6
+Friedman	pdxST-7	40	19	21	431	413	0.96	5	388	1	pdxST	7
+Burton	pdxST-16	35	18	17	119	104	0.87	1	136	2	pdxST	16
+Norden	pdxST-24	30	2	28	503	464	0.92	2	419	5	pdxST	24
+Lohre	pdxST-42	28	15	13	211	201	0.95	3	216	2	pdxST	42
+Strout	pdxST-10	26	9	17	279	265	0.95	2	257	2	pdxST	10
+Allison-Hall	pdxST-2	24	20	4	149	140	0.94	4	170	1	pdxST	2
+Davis	pdxST-8	22	7	15	152	141	0.93	15	131	2	pdxST	8
+Kenton	pdxST-11	22	7	15	307	288	0.94	1	259	6	pdxST	11
+Suppnick	pdxST-88	18	2	16	152	134	0.88	6	111	1	pdxST	88
+Hayes	pdxST-17	16	11	5	46	45	0.98	4	51	0	pdxST	17
+McGinn	pdxST-21	16	6	10	167	149	0.89	5	130	1	pdxST	21
+Perston	pdxST-13	12	11	1	29	25	0.86	1	39	2	pdxST	13
+Woodside	pdxST-5	11	10	1	23	20	0.87	8	32	0	pdxST	5
+Cole	pdxST-22	11	6	5	89	83	0.93	6	85	2	pdxST	22
+Ferrea	pdxST-3	10	5	5	27	27	1	6	27	0	pdxST	3
+Hancock	pdxST-9	9	6	3	93	91	0.98	0	87	0	pdxST	9
+King	pdxST-73	7	3	4	158	145	0.92	0	138	1	pdxST	73
+Blackman	pdxST-4	6	6	0	31	30	0.97	2	35	0	pdxST	4
+Adamson	pdxST-14	5	4	1	17	12	0.71	3	21	1	pdxST	14
+Meinershagen	pdxST-25	5	2	3	44	40	0.91	3	44	0	pdxST	25
+Thornton	pdxST-15	4	1	3	33	29	0.88	1	31	0	pdxST	15
+Bui	pdxST-12	2	2	0	5	5	1	2	7	0	pdxST	12
+Beach-Rehner	pdxST-20	1	1	0	10	9	0.9	2	10	0	pdxST	20
+Cable	pdxST-1	1	1	0	6	6	1	0	4	0	pdxST	1
+?name?	pdxST-?	0	0	0	5	4	0.8	1	5	1	pdxST	?
+esser	phlSP-11	13	9	4	39	37	0.95	3	46	0	phlSP	11
+katzenbach	phlSP-25	12	9	3	84	79	0.94	0	86	1	phlSP	25
+shull	phlSP-16	10	7	3	37	34	0.92	3	43	0	phlSP	16
+hirannet	phlSP-7	10	2	8	158	148	0.94	1	119	3	phlSP	7
+brandolph	phlSP-13	9	4	5	105	99	0.94	0	90	1	phlSP	13
+diviney	phlSP-9	9	3	6	33	26	0.79	2	34	2	phlSP	9
+earles	phlSP-3	8	4	4	31	24	0.77	0	27	2	phlSP	3
+ranii-dropcho	phlSP-42	8	3	5	25	24	0.96	1	26	1	phlSP	42
+glazer	phlSP-14	7	6	1	69	64	0.93	1	74	0	phlSP	14
+scharadin	phlSP-32	7	6	1	18	18	1	1	22	0	phlSP	32
+baer	phlSP-20	7	2	5	111	99	0.89	3	91	4	phlSP	20
+brasz	phlSP-64	7	0	7	64	57	0.89	1	55	0	phlSP	64
+rainwater	phlSP-27	5	2	3	49	45	0.92	3	47	0	phlSP	27
+colton	phlSP-2	5	2	3	33	31	0.94	2	23	2	phlSP	2
+chou	phlSP-6	4	4	0	29	22	0.76	4	30	0	phlSP	6
+paparone	phlSP-22	4	3	1	12	12	1	3	15	0	phlSP	22
+panna	phlSP-21	4	2	2	52	46	0.88	2	37	2	phlSP	21
+dillon	phlSP-76	4	1	3	16	14	0.88	0	13	1	phlSP	76
+peters	phlSP-1	4	0	4	27	21	0.78	2	20	0	phlSP	1
+casey	phlSP-10	3	3	0	6	6	1	0	8	0	phlSP	10
+lindsey	phlSP-31	3	2	1	18	17	0.94	4	18	0	phlSP	31
+mcclellan	phlSP-71	3	1	2	30	22	0.73	0	25	1	phlSP	71
+thorne	phlSP-23	2	1	1	27	25	0.93	1	25	0	phlSP	23
+baer	phlSP-28	1	0	1	4	4	1	1	3	0	phlSP	28
+wisch	phlSP-38	1	0	1	12	10	0.83	0	12	0	phlSP	38
+damiano	phlSP-4	1	0	1	13	13	1	0	11	0	phlSP	4
+ward	phlSP-33	0	0	0	20	20	1	0	15	0	phlSP	33
+zumbrum	phlSP-12	0	0	0	3	3	1	0	4	0	phlSP	12
+carter	phlSP-88	0	0	0	3	2	0.67	0	3	0	phlSP	88
+mathison	phlSP-41	0	0	0	1	1	1	0	1	0	phlSP	41
+li	phlSP-77	0	0	0	1	1	1	0	1	0	phlSP	77
+furfari	phlSP-8	0	0	0	1	0	0	0	0	0	phlSP	8
+trytiak	seaRM-6	44	17	27	183	152	0.83	6	193	1	seaRM	6
+clark	seaRM-48	39	32	7	51	41	0.8	7	81	2	seaRM	48
+el-salaam	seaRM-99	32	20	12	95	84	0.88	2	116	1	seaRM	99
+zemel	seaRM-17	25	6	19	225	202	0.9	2	191	5	seaRM	17
+simon	seaRM-20	21	5	16	237	215	0.91	4	188	5	seaRM	20
+feeley	seaRM-29	20	3	17	221	194	0.88	5	147	4	seaRM	29
+harkness	seaRM-9	19	14	5	69	66	0.96	5	76	1	seaRM	9
+mckibben	seaRM-1	19	11	8	289	274	0.95	2	237	0	seaRM	1
+gallagher	seaRM-12	16	10	6	25	21	0.84	7	35	1	seaRM	12
+koss	seaRM-35	16	3	13	103	87	0.84	6	82	4	seaRM	35
+phan	seaRM-21	15	2	13	103	96	0.93	5	86	0	seaRM	21
+uhrig-fox	seaRM-18	14	11	3	37	29	0.78	7	48	4	seaRM	18
+rosatto	seaRM-25	14	8	6	63	55	0.87	1	62	0	seaRM	25
+trotter	seaRM-77	10	4	6	51	49	0.96	1	52	0	seaRM	77
+entz	seaRM-51	9	7	2	31	25	0.81	2	37	0	seaRM	51
+sliva	seaRM-23	9	6	3	45	38	0.84	8	48	0	seaRM	23
+chu	seaRM-5	9	4	5	42	40	0.95	0	47	0	seaRM	5
+fong	seaRM-8	8	4	4	28	25	0.89	2	31	2	seaRM	8
+duffel	seaRM-24	7	6	1	22	20	0.91	2	26	0	seaRM	24
+beehner	seaRM-15	5	3	2	23	21	0.91	6	26	1	seaRM	15
+sewell	seaRM-13	5	3	2	22	18	0.82	3	19	2	seaRM	13
+o'brien	seaRM-3	5	0	5	103	91	0.88	4	66	3	seaRM	3
+bubernak	seaRM-2	4	2	2	14	14	1	1	18	0	seaRM	2
+pickel	seaRM-14	4	2	2	73	68	0.93	0	62	0	seaRM	14
+rupp	seaRM-00	3	3	0	225	214	0.95	4	162	1	seaRM	00
+barowski	seaRM-31	1	1	0	7	5	0.71	0	8	0	seaRM	31
+schneider	seaRM-4	1	0	1	22	20	0.91	4	19	0	seaRM	4
+linn	seaRM-28	0	0	0	20	19	0.95	3	20	1	seaRM	28
+kalmakis	seaRM-10	0	0	0	16	12	0.75	1	14	1	seaRM	10
+cooper	seaRM-7	0	0	0	3	3	1	1	3	0	seaRM	7
+?name?	seaRM-?	0	0	0	6	5	0.83	0	3	1	seaRM	?
+?name?	seaRM-26	0	0	0	3	3	1	0	3	0	seaRM	26
+?name?	seaRM-0	0	0	0	1	1	1	0	1	0	seaRM	0
+hooper	seaRM-16	0	0	0	1	0	0	0	1	0	seaRM	16
+?name?	seaRM-27	0	0	0	1	1	1	0	1	0	seaRM	27
+?name?	seaRM-32	0	0	0	1	1	1	0	1	0	seaRM	32
+?name?	seaRM-88	0	0	0	1	1	1	0	0	0	seaRM	88
+Boucher	sfoDF-34	27	9	18	166	139	0.84	9	141	7	sfoDF	34
+Kissmann	sfoDF-88	18	12	6	177	160	0.9	0	168	0	sfoDF	88
+Kim	sfoDF-6	17	7	10	80	74	0.92	3	84	1	sfoDF	6
+Taylor	sfoDF-40	17	5	12	95	79	0.83	1	87	1	sfoDF	40
+Adamson	sfoDF-2	16	13	3	35	32	0.91	6	47	0	sfoDF	2
+Stearns	sfoDF-21	16	9	7	55	49	0.89	7	64	2	sfoDF	21
+Yeager	sfoDF-16	16	1	15	174	143	0.82	3	110	8	sfoDF	16
+Weaver	sfoDF-18	15	10	5	52	46	0.88	4	57	2	sfoDF	18
+Caulfield	sfoDF-24	14	13	1	38	36	0.95	4	49	1	sfoDF	24
+Pollard	sfoDF-8	14	5	9	203	176	0.87	4	161	7	sfoDF	8
+Lee	sfoDF-11	13	8	5	102	88	0.86	4	82	2	sfoDF	11
+Grant	sfoDF-13	13	6	7	144	128	0.89	3	120	4	sfoDF	13
+Bellinger	sfoDF-12	13	5	8	93	73	0.78	6	58	4	sfoDF	12
+Brydon	sfoDF-85	11	5	6	56	46	0.82	13	63	3	sfoDF	85
+McCarty	sfoDF-46	10	8	2	44	40	0.91	7	54	2	sfoDF	46
+Cascino	sfoDF-5	9	6	3	112	97	0.87	7	92	6	sfoDF	5
+Jeffery	sfoDF-23	9	4	5	96	74	0.77	6	72	2	sfoDF	23
+Ranahan	sfoDF-1	9	4	5	80	70	0.88	3	61	3	sfoDF	1
+Boyd-Meredith	sfoDF-17	8	2	6	92	78	0.85	2	57	1	sfoDF	17
+Hart	sfoDF-37	7	5	2	12	11	0.92	2	17	1	sfoDF	37
+Husak	sfoDF-83	7	5	2	56	47	0.84	1	45	1	sfoDF	83
+Meyer	sfoDF-57	7	4	3	106	90	0.85	0	72	2	sfoDF	57
+Weiss	sfoDF-3	7	3	4	16	14	0.88	0	18	0	sfoDF	3
+Sugioka	sfoDF-10	6	2	4	17	13	0.76	4	18	1	sfoDF	10
+Weiss	sfoDF-19	5	2	3	33	31	0.94	1	35	0	sfoDF	19
+Dixon	sfoDF-25	4	2	2	67	58	0.87	3	51	3	sfoDF	25
+Farren	sfoDF-9	2	2	0	12	9	0.75	2	14	0	sfoDF	9
+Rivera	sfoDF-22	2	0	2	8	8	1	1	9	0	sfoDF	22
+Sheridan	sfoDF-7	1	0	1	4	2	0.5	2	4	0	sfoDF	7
+Hurst	sfoDF-14	1	0	1	30	26	0.87	1	24	1	sfoDF	14
+?name?	sfoDF-?	0	0	0	0	0	NA	0	3	0	sfoDF	?
+?name?	sfoDF-86	0	0	0	1	1	1	0	1	0	sfoDF	86
+wong	vanNH-98	67	50	17	155	136	0.88	4	202	1	vanNH	98
+chatha	vanNH-10	35	25	10	122	105	0.86	1	145	4	vanNH	10
+berezan	vanNH-22	30	18	12	150	139	0.93	7	168	3	vanNH	22
+leduc	vanNH-72	29	17	12	52	46	0.88	3	69	1	vanNH	72
+loach	vanNH-21	29	9	20	171	152	0.89	2	177	4	vanNH	21
+underhill	vanNH-89	29	7	22	387	358	0.93	6	287	11	vanNH	89
+norris	vanNH-5	29	5	24	298	254	0.85	1	213	9	vanNH	5
+hibbert	vanNH-8	28	8	20	139	114	0.82	18	132	4	vanNH	8
+savage	vanNH-91	25	5	20	251	235	0.94	2	188	3	vanNH	91
+cowan	vanNH-45	15	7	8	93	84	0.9	2	56	1	vanNH	45
+knapp	vanNH-19	14	8	6	195	185	0.95	2	145	4	vanNH	19
+tessarolo	vanNH-13	13	7	6	20	18	0.9	11	24	1	vanNH	13
+greer	vanNH-11	13	4	9	42	36	0.86	6	40	0	vanNH	11
+doyle	vanNH-4	12	9	3	21	20	0.95	6	26	1	vanNH	4
+davis	vanNH-27	11	9	2	34	30	0.88	3	41	0	vanNH	27
+tejpar	vanNH-81	11	5	6	46	40	0.87	2	37	3	vanNH	81
+yu	vanNH-24	10	5	5	61	48	0.79	9	41	3	vanNH	24
+saito	vanNH-31	8	6	2	38	31	0.82	5	40	1	vanNH	31
+sinclair	vanNH-37	8	5	3	24	21	0.88	1	28	2	vanNH	37
+collins	vanNH-33	7	5	2	32	25	0.78	3	22	1	vanNH	33
+menzies	vanNH-18	7	2	5	48	42	0.88	2	31	1	vanNH	18
+seraglia	vanNH-39	6	3	3	15	11	0.73	5	17	1	vanNH	39
+eyrich	vanNH-14	5	3	2	14	12	0.86	5	17	0	vanNH	14
+bellavance	vanNH-75	5	2	3	37	32	0.86	2	24	0	vanNH	75
+dandurand	vanNH-7	4	1	3	11	10	0.91	3	10	0	vanNH	7
+hayduk	vanNH-49	1	1	0	5	5	1	1	4	0	vanNH	49
+gailits	vanNH-6	1	0	1	13	11	0.85	0	12	0	vanNH	6
+?name?	vanNH-?	0	0	0	0	0	NA	0	7	0	vanNH	?
+?name?	vanNH-15	0	0	0	1	1	1	0	0	0	vanNH	15
+?name?	vanNH-17	0	0	0	2	2	1	0	0	0	vanNH	17
+kolick	wdcCT-99	51	15	36	431	407	0.94	7	364	5	wdcCT	99
+shofner	wdcCT-90	47	14	33	201	173	0.86	6	189	2	wdcCT	90
+prial	wdcCT-8	42	25	17	187	172	0.92	10	202	3	wdcCT	8
+wodatch	wdcCT-45	37	24	13	127	123	0.97	2	150	1	wdcCT	45
+keegan	wdcCT-2	30	15	15	239	217	0.91	3	196	1	wdcCT	2
+doi	wdcCT-9	28	17	11	95	82	0.86	2	113	6	wdcCT	9
+peters	wdcCT-32	23	14	9	125	114	0.91	3	115	1	wdcCT	32
+grabowski	wdcCT-80	18	14	4	35	32	0.91	0	46	1	wdcCT	80
+blake	wdcCT-14	16	6	10	129	122	0.95	3	97	0	wdcCT	14
+cranston	wdcCT-5	13	8	5	95	84	0.88	7	97	1	wdcCT	5
+maloney	wdcCT-19	13	8	5	46	40	0.87	1	44	1	wdcCT	19
+oung	wdcCT-88	13	6	7	174	164	0.94	9	124	2	wdcCT	88
+marshall	wdcCT-22	13	6	7	37	31	0.84	7	39	0	wdcCT	22
+kantor	wdcCT-1	11	8	3	49	46	0.94	5	52	0	wdcCT	1
+johnson	wdcCT-4	11	7	4	40	39	0.98	11	42	0	wdcCT	4
+gibson	wdcCT-42	11	5	6	26	25	0.96	8	26	0	wdcCT	42
+bellinger	wdcCT-12	11	3	8	106	98	0.92	2	73	1	wdcCT	12
+gordon	wdcCT-6	10	6	4	32	27	0.84	4	35	0	wdcCT	6
+salmi	wdcCT-61	8	3	5	56	51	0.91	1	47	0	wdcCT	61
+poole	wdcCT-20	8	2	6	22	20	0.91	0	18	1	wdcCT	20
+gordon	wdcCT-25	7	6	1	26	23	0.88	5	30	0	wdcCT	25
+dulabon	wdcCT-21	7	5	2	28	26	0.93	4	30	0	wdcCT	21
+miner	wdcCT-17	7	4	3	36	36	1	3	39	0	wdcCT	17
+boylan-kolchin	wdcCT-7	7	3	4	49	44	0.9	5	49	3	wdcCT	7
+cobb	wdcCT-31	5	4	1	21	18	0.86	3	25	0	wdcCT	31
+castine	wdcCT-15	5	0	5	43	39	0.91	4	33	1	wdcCT	15
+fickley	wdcCT-3	5	0	5	33	29	0.88	2	22	2	wdcCT	3
+fleming	wdcCT-24	4	3	1	12	10	0.83	7	14	1	wdcCT	24
+johnston	wdcCT-27	4	2	2	97	88	0.91	3	69	1	wdcCT	27
+tsai	wdcCT-23	3	1	2	36	32	0.89	2	32	0	wdcCT	23
+?name?	wdcCT-49	0	0	0	1	1	1	0	1	0	wdcCT	49
+?name?	wdcCT-82	0	0	0	1	1	1	0	1	0	wdcCT	82

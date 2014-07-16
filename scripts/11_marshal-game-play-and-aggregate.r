@@ -121,7 +121,7 @@ ps_by_player <- # get player last name back
 vars_how_i_want <- c('last', 'player',
                      'points', 'goals', 'assists',
                      'throws', 'completions', 'comp_pct',
-                     'def', 'catches', 'drop')
+                     'def', 'catches', 'drop',
                      'team', 'number')
 ps_by_player <- ps_by_player[vars_how_i_want]
 
