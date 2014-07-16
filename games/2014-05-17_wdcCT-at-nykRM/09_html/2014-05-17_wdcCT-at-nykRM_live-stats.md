@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 21:33:22 2014
+#### last update Tue Jul 15 22:49:25 2014
 # wdcCT 27
 # nykRM 18
 ## game is complete

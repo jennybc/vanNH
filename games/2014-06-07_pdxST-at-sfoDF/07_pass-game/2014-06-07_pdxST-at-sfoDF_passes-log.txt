@@ -9,5 +9,5 @@
   525 rows of pass data will be written
   roster read for pdxST and sfoDF
   writing player stats to file: 18 for pdxST, 22 for sfoDF
-  2014-07-15 20:39:00
+  2014-07-15 22:48:04
 
