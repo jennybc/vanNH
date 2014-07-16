@@ -26,6 +26,11 @@ pl_stats <- pl_stats[pl_stats$team %in% c('vanNH', 'wdcCT'), ]
 p <- ggplot(pl_stats, aes(x = throws, y = comp_pct))
 #p + geom_point()
 p + geom_text(aes(label = last), size = 4) + facet_wrap(~ team)
+
+p <- ggplot(pl_stats, aes(x = throws/games, y = comp_pct))
+#p + geom_point()
+p + geom_text(aes(label = last), size = 4) + facet_wrap(~ team)
+
 ```
 
 
