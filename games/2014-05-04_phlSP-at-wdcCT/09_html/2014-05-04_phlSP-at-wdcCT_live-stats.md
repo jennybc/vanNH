@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 22:49:13 2014
+#### last update Wed Jul 16 09:19:27 2014
 # phlSP 23
 # wdcCT 25
 ## game is complete
@@ -112,7 +112,7 @@ stats are cumulative for this game
 |17 |phlSP-31 |lindsey    |      0|     1.00|     0|       0|      2|           2|       2|   1|    0|
 |18 |phlSP-22 |paparone   |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
 |19 |phlSP-71 |mcclellan  |      0|     0.85|     0|       0|     13|          11|      12|   0|    0|
-|20 |phlSP-77 |?name?     |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|20 |phlSP-77 |li         |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
 |21 |phlSP-88 |carter     |      0|     0.50|     0|       0|      2|           1|       2|   0|    0|
 
 ## Player stats for wdcCT <a id="home"></a>:

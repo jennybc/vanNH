@@ -6,5 +6,5 @@
   found 6 rows with game play recorded for both teams
   no double game play rows remain
   667 rows of clean game play will be written
-  2014-07-15 20:37:40
+  2014-07-16 09:19:23
 
