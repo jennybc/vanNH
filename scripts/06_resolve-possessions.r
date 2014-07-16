@@ -104,7 +104,7 @@ game_play <- ddply(game_play, ~ point, jFun)
 ## determine who's got possession
 
 ## define groups of codes that are unambiguously associated with off or def
-goal_codes <- c('G', 'LG')
+goal_codes <- c('G', 'LG', 'CG')
 more_offense_codes <- c('', 'PU', 'L', 'TD', 'VST', 'VTT', 'TO')
 offense_codes <- c(more_offense_codes, goal_codes)
 d_codes <- c('D', 'HB', 'FB')
@@ -339,7 +339,7 @@ write.table(game_play, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
 #' * `scor_team` = who scored ... `NA` if nobody did
 #' * `who` = o_line vs. d_line
 poss_dat <- ddply(game_play, ~ poss_abs, function(x) {
-  score <- which(grepl("L*G", x$pl_code))
+  score <- which(grepl("[CL]*G", x$pl_code))
   ## Get rid of any rows after a goal. Why? because of cases like point 35 of
   ## 2014-04-12_vanNH-at-pdxST, in which a defensive foul is recorded after a
   ## successful goal; the goal was not being picked up here as the final event
@@ -393,8 +393,8 @@ poss_dat$pl_code <- with(poss_dat, reorder(pl_code, pl_code, neglength))
 
 poss_dat$a_code <- # a_code is coarser than pl_code but still detailed
   mapvalues(poss_dat$pl_code,
-            from = c('D', 'HB', 'FB', 'G', 'LG'),
-            to   = c('D',  'D',  'D', 'G',  'G'), warn_missing = FALSE)
+            from = c('D', 'HB', 'FB', 'G', 'LG', 'CG'),
+            to   = c('D',  'D',  'D', 'G',  'G',  'G'), warn_missing = FALSE)
 poss_dat$a_code <- with(poss_dat, reorder(a_code, a_code, neglength))
 #as.data.frame(table(poss_dat$a_code, dnn = "a_code"))
 
