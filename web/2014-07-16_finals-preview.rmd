@@ -9,7 +9,7 @@ output:
 
 <a href="index.html">Back to index</a>
 
-## Data
+### Data
 
 The figures below are based on data from all Western Conference games played in 2014 plus an increasing number of Eastern Conference games. In particular, all games involving the DC Current are already included.
 
@@ -24,6 +24,8 @@ pl_stats_agg <-
   readRDS(file.path("..", "games",
                     "2014_all-games", "2014_player-stats-aggregated.rds"))
 pl_stats_agg <- pl_stats_agg[pl_stats_agg$team %in% c('vanNH', 'wdcCT'), ]
+pl_stats_agg$pl_long <- with(pl_stats_agg, paste(player, last, sep = "-"))
+
 p <- ggplot(pl_stats_agg, aes(x = throws, y = comp_pct))
 #p + geom_point()
 p + geom_text(aes(label = last), size = 4) + facet_wrap(~ team)
@@ -36,17 +38,48 @@ p + geom_text(aes(label = last), size = 4) + facet_wrap(~ team)
 ### Barchart: player's share of team's total season goals
 ```{r barchart_share_of_goals, echo = FALSE, warning = FALSE, fig.height = 8}
 tmp <- ddply(pl_stats_agg, ~ team, function(x) {
-  x <- subset(x, select = c(last, player, goals, number))
+  x <- subset(x, select = c(pl_long, goals))
   tot_goals <- sum(x$goals)
   x <- subset(x, goals > 0)
-  x$player <- with(x, paste(player, last, sep = "-"))
-  x$player <- with(x, reorder(player, goals))
+  x$pl_long <- with(x, reorder(pl_long, goals))
   x$goal_share <- x$goals/tot_goals
   return(x)
   })
 #str(tmp)
-p <- ggplot(tmp, aes(x = player, y = goal_share))
+p <- ggplot(tmp, aes(x = pl_long, y = goal_share))
 p + geom_bar(stat = "identity") + coord_flip()
+```
+
+### Barchart: player's share of team's total season D's
+```{r barchart_share_of_ds, echo = FALSE, warning = FALSE, fig.height = 8}
+tmp <- ddply(pl_stats_agg, ~ team, function(x) {
+  x <- subset(x, select = c(pl_long, def))
+  tot_ds <- sum(x$def)
+  x <- subset(x, def > 0)
+  x$pl_long <- with(x, reorder(pl_long, def))
+  x$def_share <- x$def/tot_ds
+  return(x)
+  })
+#str(tmp)
+p <- ggplot(tmp, aes(x = pl_long, y = def_share))
+p + geom_bar(stat = "identity") + coord_flip()
+```
+
+### Scatterplot: player's share of total season goals vs D's
+```{r share_of_goals_vs_ds, echo = FALSE, warning = FALSE}
+tmp <- ddply(pl_stats_agg, ~ team, function(x) {
+  x <- subset(x, select = c(pl_long, def, goals, team, last))
+  total_goals <- sum(x$goals)
+  tot_ds <- sum(x$def)
+  x <- subset(x, def > 0 | goals > 0)
+  x$def_share <- x$def/tot_ds
+  x$goal_share <- x$goals/total_goals
+  return(x)
+  })
+#str(tmp)
+p <- ggplot(tmp, aes(x = def_share, y = goal_share))
+p + geom_text(aes(label = last)) + facet_wrap(~ team)
+p + geom_text(aes(label = last, color = team))
 ```
 
 ### How possessions end, high-level.
