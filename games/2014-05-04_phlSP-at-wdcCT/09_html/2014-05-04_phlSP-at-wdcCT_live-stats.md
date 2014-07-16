@@ -12,7 +12,7 @@ output:
 
 
 
-#### last update Tue Jul 15 16:34:04 2014
+#### last update Tue Jul 15 20:32:21 2014
 # phlSP 23
 # wdcCT 25
 ## game is complete
@@ -103,9 +103,9 @@ stats are cumulative for this game
 |10 |phlSP-1-peters      |      2|     0|       2|  1|
 |11 |phlSP-11-esser      |      2|     0|       2|  0|
 |12 |phlSP-64-brasz      |      2|     0|       2|  0|
-|13 |phlSP-6-chou        |      1|     1|       0|  1|
-|14 |phlSP-10-casey      |      1|     1|       0|  0|
-|15 |phlSP-21-panna      |      1|     1|       0|  0|
+|13 |phlSP-21-panna      |      1|     1|       0|  1|
+|14 |phlSP-6-chou        |      1|     1|       0|  1|
+|15 |phlSP-10-casey      |      1|     1|       0|  0|
 |16 |phlSP-2-colton      |      1|     0|       1|  0|
 |17 |phlSP-31-lindsey    |      0|     0|       0|  1|
 
@@ -124,11 +124,11 @@ stats are cumulative for this game
 |10 |phlSP-1  |peters     |      2|     0.60|     0|       2|     10|           6|       5|   1|    0|
 |11 |phlSP-11 |esser      |      2|     1.00|     0|       2|      7|           7|       6|   0|    0|
 |12 |phlSP-64 |brasz      |      2|     0.83|     0|       2|     12|          10|      11|   0|    0|
-|13 |phlSP-6  |chou       |      1|     0.83|     1|       0|      6|           5|       6|   1|    0|
-|14 |phlSP-10 |casey      |      1|       NA|     1|       0|      0|           0|       1|   0|    0|
-|15 |phlSP-2  |colton     |      1|     1.00|     0|       1|      4|           4|       3|   0|    0|
-|16 |phlSP-31 |lindsey    |      0|     1.00|     0|       0|      2|           2|       2|   1|    0|
-|17 |phlSP-21 |panna      |      0|     0.81|     0|       0|     16|          13|       9|   0|    2|
+|13 |phlSP-21 |panna      |      1|     0.81|     1|       0|     16|          13|       9|   1|    2|
+|14 |phlSP-6  |chou       |      1|     0.83|     1|       0|      6|           5|       6|   1|    0|
+|15 |phlSP-10 |casey      |      1|       NA|     1|       0|      0|           0|       1|   0|    0|
+|16 |phlSP-2  |colton     |      1|     1.00|     0|       1|      4|           4|       3|   0|    0|
+|17 |phlSP-31 |lindsey    |      0|     1.00|     0|       0|      2|           2|       2|   1|    0|
 |18 |phlSP-22 |paparone   |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
 |19 |phlSP-71 |mcclellan  |      0|     0.85|     0|       0|     13|          11|      12|   0|    0|
 |20 |phlSP-77 |?name?     |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
@@ -314,7 +314,8 @@ stats are cumulative for this game
 |    47|      4|phlSP     |     4|       91|        1|wdcCT     |wdcCT   |9       |G       |doi            |wdcCT-9-doi            |    20|    24|
 |    48|      4|wdcCT     |    10|       92|        1|phlSP     |phlSP   |14      |A       |glazer         |phlSP-14-glazer        |    21|    24|
 |    48|      4|wdcCT     |    11|       92|        1|phlSP     |phlSP   |13      |G       |brandolph      |phlSP-13-brandolph     |    21|    24|
-|    49|      4|phlSP     |    11|       96|        4|phlSP     |phlSP   |21      |G       |panna          |phlSP-21-panna         |    22|    24|
+|    49|      4|phlSP     |    11|       95|        3|wdcCT     |phlSP   |21      |D       |panna          |phlSP-21-panna         |    22|    24|
+|    49|      4|phlSP     |    12|       96|        4|phlSP     |phlSP   |21      |CG      |panna          |phlSP-21-panna         |    22|    24|
 |    50|      4|wdcCT     |     7|       97|        1|phlSP     |phlSP   |7       |A       |hirannet       |phlSP-7-hirannet       |    23|    24|
 |    50|      4|wdcCT     |     8|       97|        1|phlSP     |phlSP   |25      |G       |katzenbach     |phlSP-25-katzenbach    |    23|    24|
 |    51|      4|phlSP     |     6|       98|        1|wdcCT     |wdcCT   |15      |A       |castine        |wdcCT-15-castine       |    23|    25|
@@ -977,7 +978,8 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      4|    49|phlSP     |     8|       94|        2|phlSP     |phlSP   |1       |        |
 |      4|    49|phlSP     |     9|       95|        3|wdcCT     |wdcCT   |99      |PU      |
 |      4|    49|phlSP     |    10|       95|        3|wdcCT     |wdcCT   |2       |        |
-|      4|    49|phlSP     |    11|       96|        4|phlSP     |phlSP   |21      |G       |
+|      4|    49|phlSP     |    11|       95|        3|wdcCT     |phlSP   |21      |D       |
+|      4|    49|phlSP     |    12|       96|        4|phlSP     |phlSP   |21      |CG      |
 |      4|    50|wdcCT     |     1|       97|        1|phlSP     |wdcCT   |61      |P       |
 |      4|    50|wdcCT     |     2|       97|        1|phlSP     |phlSP   |25      |PU      |
 |      4|    50|wdcCT     |     3|       97|        1|phlSP     |phlSP   |7       |        |
