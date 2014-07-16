@@ -24,9 +24,10 @@ if(!exists("game")) {
   #game <- "2014-04-12_seaRM-at-sfoDF"
   #game <- "2014-05-03_sfoDF-at-pdxST"
   #game <- "2014-04-26_vanNH-at-seaRM"
-  game <- "2014-06-15_pdxST-at-vanNH"
+  #game <- "2014-06-15_pdxST-at-vanNH"
   #game <- "2014-06-14_pdxST-at-seaRM"
   #game <- "2014-04-19_bosWC-at-wdcCT"
+  game <- "2014-05-04_phlSP-at-wdcCT"
   }
 
 message(game, " > 09_vanNH-nowPlaying.rmd:")
@@ -40,7 +41,7 @@ home_team <- tmp[3]
 jTeams <- sort(c(away_team, home_team))
 
 ## define some groups of codes used in multiple places
-goal_codes <- c('G', 'LG')
+goal_codes <- c('G', 'LG', 'CG')
 assist_codes <- c('A', 'LA', 'PUA', 'DA')
 d_codes <- c('D', 'HB', 'FB', 'DA')
 keeper_codes <- c(goal_codes, assist_codes, d_codes)
