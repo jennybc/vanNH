@@ -1,11 +1,12 @@
 ---
 title: "In-house statistics for the Vancouver Nighthawks of Major League Ultimate"
 author: "Jenny Bryan"
-date: "3 July, 2014"
+date: "16 July, 2014"
 output:
   html_document:
     theme: readable
     toc: true
+    keep_md: TRUE
 ---
 
 Look under the hood: <https://github.com/jennybc/vanNH>
