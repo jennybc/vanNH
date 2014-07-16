@@ -3,40 +3,30 @@ library(plyr)
 ## useful inside reorder(), to invert the resulting factor levels
 neglength <- function(x) -1 * length(x)
 
-#' ### Bring in game play data.
+length(games <- list.files(file.path("..", "games"), pattern = "-at-")) # 32
 
-#' Whitelist of games for which game play will be read. Read 'em.
-games <- c("2014-04-12_vanNH-at-pdxST", "2014-04-20_sfoDF-at-vanNH",
-           "2014-04-26_vanNH-at-seaRM", "2014-05-10_seaRM-at-vanNH",
-           "2014-05-17_vanNH-at-sfoDF", "2014-05-24_pdxST-at-vanNH",
-           "2014-05-31_vanNH-at-seaRM", "2014-06-07_seaRM-at-vanNH",
-           "2014-06-15_pdxST-at-vanNH", "2014-06-21_vanNH-at-sfoDF",
-           "2014-06-28_vanNH-at-pdxST",
-           "2014-04-12_seaRM-at-sfoDF", "2014-04-19_sfoDF-at-seaRM",
-           "2014-04-26_pdxST-at-sfoDF", "2014-05-04_sfoDF-at-seaRM")
-game_file <- file.path("..", "games", games, "07_resolvedGame",
-                       paste0(games, "_gameplay-resolved.tsv"))
-names(game_file) <- games
-game_play <-
-  ldply(game_file, function(gg) read.delim(gg, stringsAsFactor = FALSE),
+#' ### Bring in, concatenate, and write possession data.
+poss_files <- list.files(file.path("..", "games", games, "06_possess-game"),
+                         pattern = "_possessions.tsv", full.names = TRUE)
+names(poss_files) <- games
+poss_dat <-
+  ldply(poss_files, function(gg) read.delim(gg, stringsAsFactor = FALSE),
         .id = "game")
-str(game_play)
+str(poss_dat) # 2830 obs. of  18 variables:
 
-#' ### Concatenate all game play data 
-
-out_dir <- file.path("..", "games", "2014_west")
+out_dir <- file.path("..", "games", "2014_all-games")
 if(!file.exists(out_dir)) dir.create(out_dir)
 
-out_file <- file.path(out_dir, "2014_west_gameplay.rds")
-saveRDS(game_play, out_file)
+out_file <- file.path(out_dir, "2014_possessions.rds")
+saveRDS(poss_dat, out_file)
 message("wrote ", out_file)
 
-out_file <- file.path(out_dir, "2014_west_gameplay.tsv")
-write.table(game_play, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
+out_file <- file.path(out_dir, "2014_possessions.tsv")
+write.table(poss_dat, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
 message("wrote ", out_file)
 
-out_file <- file.path(out_dir, "2014_west_gameplay.dput")
-dput(game_play, out_file)
+out_file <- file.path(out_dir, "2014_possessions.dput")
+dput(poss_dat, out_file)
 message("wrote ", out_file)
 
 
