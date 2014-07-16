@@ -5,7 +5,7 @@ output:
     keep_md: TRUE
 ---
 
-<a href="index.html">Back to index</a>
+<a href="../index.html">Back to index</a>
 
 ```{r include = FALSE, message = FALSE}
 library(plyr)
