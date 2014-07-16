@@ -101,13 +101,6 @@ sDat <- transform(sDat, pl_team = jFun(pl_team))
 point_info <- transform(point_info, pull_team = jFun(pull_team),
                         scor_team = jFun(scor_team))
 
-## DELETE THIS ONCE I'M DONE CHECKING OLD VS NEW PLAYER STATS
-## check pull_team in game_play against point_info
-# point_info$pull_team
-# with(sDat, pull_team[event == 1])
-# data.frame(pi = point_info$pull_team, sd = with(sDat, pull_team[event == 1]),
-#            point_info$pull_team == with(sDat, pull_team[event == 1]))
-
 ## save a version of sDat to display as raw data
 sDat_safe <- sDat
 
@@ -161,35 +154,37 @@ whereInGame <-
          upcoming = "game is upcoming -- any data here is fake and for set up purposes",
          paste("period", sDat$period[nrow(sDat)]))
 
+## move this to a script that checks player stats computed in
+## 07_resolve-passes.r
+
 ## tally events by player
-player_dat <- ddply(sDat, ~ player + pl_team, function(z) {
-  goals <- sum(z$pl_code %in% goal_codes)
-  assists <- sum(z$pl_code %in% assist_codes)
-  Ds  <-  sum(z$pl_code %in% d_codes)
-  c(points = goals + assists,
-    goals = goals, assists = assists, Ds = Ds)
-  })
-player_dat_by_team <- split(player_dat, player_dat$pl_team)
-player_dat_by_team <- llply(player_dat_by_team, function(z) {
-  z <- arrange(z, desc(points), desc(goals), desc(assists), desc(Ds))
-  rownames(z) <- NULL
-  subset(z, select = -pl_team)
-})
-message("  player stat tables include ", nrow(player_dat_by_team[[away_team]]),
-        " for ", away_team, " and ", nrow(player_dat_by_team[[home_team]]),
-        " for ", home_team)
-
-player_dat_by_team_combined <- do.call("rbind", player_dat_by_team)
-player_dat_by_team_combined <-
-  data.frame(game = game, player_dat_by_team_combined )
-
-message("  writing player stats to file")
-
-out_dir <- file.path("..", "games", game, "09_html")
-out_file <- file.path(out_dir, paste0(game, "_player-stats.tsv"))
-write.table(player_dat_by_team_combined, out_file,
-            quote = FALSE, sep = "\t", row.names = FALSE)
-
+# player_dat <- ddply(sDat, ~ player + pl_team, function(z) {
+#   goals <- sum(z$pl_code %in% goal_codes)
+#   assists <- sum(z$pl_code %in% assist_codes)
+#   Ds  <-  sum(z$pl_code %in% d_codes)
+#   c(points = goals + assists,
+#     goals = goals, assists = assists, Ds = Ds)
+#   })
+# player_dat_by_team <- split(player_dat, player_dat$pl_team)
+# player_dat_by_team <- llply(player_dat_by_team, function(z) {
+#   z <- arrange(z, desc(points), desc(goals), desc(assists), desc(Ds))
+#   rownames(z) <- NULL
+#   subset(z, select = -pl_team)
+# })
+# message("  player stat tables include ", nrow(player_dat_by_team[[away_team]]),
+#         " for ", away_team, " and ", nrow(player_dat_by_team[[home_team]]),
+#         " for ", home_team)
+# 
+# player_dat_by_team_combined <- do.call("rbind", player_dat_by_team)
+# player_dat_by_team_combined <-
+#   data.frame(game = game, player_dat_by_team_combined )
+# 
+# message("  writing player stats to file")
+# 
+# out_dir <- file.path("..", "games", game, "09_html")
+# out_file <- file.path(out_dir, paste0(game, "_player-stats.tsv"))
+# write.table(player_dat_by_team_combined, out_file,
+#             quote = FALSE, sep = "\t", row.names = FALSE)
 
 ## prepare game scoring progression table
 jFun <- function(z) {
@@ -282,7 +277,7 @@ tables sorted in decreasing order based on points (then goals, assists, Ds)
 Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot blocks (FB)  
 stats are cumulative for this game
 
-```{r results='asis', echo=FALSE}
+```{r results='asis', echo = FALSE, eval = FALSE}
 if(nrow(player_dat_by_team[[away_team]]) > 0) {
   kable(player_dat_by_team[[away_team]], row.names = TRUE)
   }
@@ -301,7 +296,7 @@ tables sorted in decreasing order based on points (then goals, assists, Ds)
 Ds = total of plain ol' D's + interceptions (D), hand blocks (HB), and foot blocks (FB)  
 stats are cumulative for this game
 
-```{r results='asis', echo=FALSE}
+```{r results='asis', echo = FALSE, eval = FALSE}
 if(nrow(player_dat_by_team[[home_team]]) > 0) {
   kable(player_dat_by_team[[home_team]], row.names = TRUE)
   }
