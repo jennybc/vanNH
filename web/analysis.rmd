@@ -1,6 +1,6 @@
 ---
 title: "Analysis of gameplay *(BETA)*"
-date: "27 June, 2014"
+date: "16 July, 2014"
 output:
   html_document:
     theme: readable
@@ -11,7 +11,7 @@ output:
 
 ## Data
 
-The figures below are based on data from all games the Vancouver Nighthawks played in 2014 (10 games) plus an increasing number of the "other" Western Conference games (eventually 10 more games). If you see a game listed [here](index.html), the data is included in these figures. Right now 4 of the 10 "other" games are included.
+The figures below are based on data from all Western Conference games played in 2014 plus an increasing number of Eastern Conference games. In particular, all games involving the DC Current are already included.
 
 ## How do possessions end?
 
@@ -43,10 +43,10 @@ x and y = *same as above*
 
 ### How possessions end, high-level and by team.
 
-Here we just confirm the ranking in the Western Conference:
+New observations?:
 
-  * pdxST (46% of possessions end in a goal) > vanNH (44%) > seaRM (40%) >> sfoDF (29%)
-  * The exact same ordering arises, in the reverse, when you look at how often the offense turns it over.
+  * ??
+  * ??
 
 x and y = *same as above*  
 
@@ -128,7 +128,7 @@ x = the number of possessions before a goal is finally scored
 y = the proportion of points scored after x exactly possessions (relative to all points scored by a team)  
 color indicates hold = receiving team scored vs. break = pulling team scored  
 
-Observations:
+Observations *not updated after recent large intake of games!*:
 
   * pdxST and seaRM stand out as deriving more of their points by scoring on their first possession
   * sfoDF D line seems much less effective on offense than other D lines
@@ -138,7 +138,7 @@ Observations:
 
 ## Cumulative distribution of number of possessions
 
-95% of all goals are scored in 5 or fewer possessions. Note: for this, I have removed points that end with time running out vs. someone scoring.
+95% of all goals are scored in 4 or fewer possessions. Note: for this, I have removed points that end with time running out vs. someone scoring.
 
 ![Alt text](figs/lineplot_cum_dist_poss_per_point.png)
 
@@ -157,7 +157,7 @@ y = goal conversion rate
 
 ## How many events in a possession?
 
-Although I can resolve individual throws from the data I have, I have not done so yet. For now, I measure the "length" of a possession in terms of the number of *events*, which is highly and positively correlated to the number of throws. There are more events in a possession than throws, since there are events for defensive fouls, time outs, pulls, etc. However, this affects all teams uniformly, so this "cheat" shouldn't distort the story below re: possession length.
+Although I can resolve individual throws from the data I have, I have not done so yet. *Actually I have now, so this figure will become obsolete soon!* For now, I measure the "length" of a possession in terms of the number of *events*, which is highly and positively correlated to the number of throws. There are more events in a possession than throws, since there are events for defensive fouls, time outs, pulls, etc. However, this affects all teams uniformly, so this "cheat" shouldn't distort the story below re: possession length.
 
 ### How long possessions last, high-level.
 
