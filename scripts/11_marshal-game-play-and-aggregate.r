@@ -103,7 +103,8 @@ message("wrote ", out_file)
 #' ### Aggregate player stats across games.
 jFun <- function(x) {
   y <-
-    ddply(x, ~ player, summarize, points = sum(points), goals = sum(goals),
+    ddply(x, ~ player, summarize, games = length(points),
+          points = sum(points), goals = sum(goals),
           assists = sum(assists), throws = sum(throws),
           completions = sum(completions), catches = sum(catches), def = sum(def),
           drop = sum(drop))
@@ -114,11 +115,11 @@ jFun <- function(x) {
   return(y)
 }
 ps_by_player <- ddply(ps_dat, ~ team, jFun)
-ps_by_player <- # get player last name back
+ps_by_player <- # get player last name and number back
   suppressMessages(join(ps_by_player,
                         ps_dat[c('team', 'player', 'last', 'number')],
                         match = "first"))
-vars_how_i_want <- c('last', 'player',
+vars_how_i_want <- c('last', 'player', 'games',
                      'points', 'goals', 'assists',
                      'throws', 'completions', 'comp_pct',
                      'def', 'catches', 'drop',
