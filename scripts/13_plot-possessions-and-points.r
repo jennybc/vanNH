@@ -8,7 +8,8 @@ jWidth <- 5
 jHeight <- 4
 
 mlu_cols <-
-  c(pdxST = "#4DB870", vanNH = "#CCCCCC", seaRM = "#88A5C3", sfoDF = "#FFAD5C")
+  c(pdxST = "#4DB870", vanNH = "#CCCCCC", seaRM = "#88A5C3", sfoDF = "#FFAD5C",
+    wdcCT = "orange", bosWC = "blue", phlSP = "red", nykRM = "gold")
 theme_set(theme_bw())
 
 ## function that counts how often each code occurs, computes as a proportion,
@@ -23,9 +24,16 @@ count_em_up <- function(code_var, x = poss_dat, cutoff = 0.08) {
   return(code_freq)
 }
 
-input_dir <- file.path("..", "games", "2014_west")
-poss_file <- file.path(input_dir, "2014_west_possessions.rds")
-str(poss_dat <- readRDS(poss_file), give.attr = FALSE) # 1355 obs. of 18 vars
+input_dir <- file.path("..", "games", "2014_all-games")
+poss_file <- file.path(input_dir, "2014_possessions.rds")
+str(poss_dat <- readRDS(poss_file), give.attr = FALSE) # 2830 obs. of  18 variables:
+
+## make poss_team into a factor
+# j_teams <- c('wdcCT', 'bosWC', 'phlSP', 'nykRM',
+#              'vanNH', 'pdxST', 'seaRM', 'sfoDF')
+j_teams <- c('wdcCT', 'vanNH', 'bosWC', 'pdxST',
+             'phlSP', 'seaRM', 'nykRM', 'sfoDF')
+poss_dat <- mutate(poss_dat, poss_team = factor(poss_team, levels = j_teams))
 
 ## loop over the coarse b_code or more detailed a_code; both codes capture how
 ## the possession ends
@@ -90,7 +98,7 @@ last_code_freq_by_team <-
 p <- ggplot(last_code_freq_by_team,
             aes_string(x = j_code, y = "Freq")) +
   geom_bar(stat = "identity", width = 0.9) +
-  facet_wrap(~ poss_team, scales = "free") +
+  facet_wrap(~ poss_team, scales = "free", ncol = 2) +
   xlab("how possessions end") + ylab("no. of possessions") +
   geom_text(aes(label = Freq), vjust = -0.2, size = 1.8,
             position = position_dodge(0.9)) +
@@ -111,7 +119,7 @@ last_code_freq_by_line_and_team <-
 p <- ggplot(last_code_freq_by_line_and_team,
             aes_string(x = j_code, y = "Freq", fill = "who")) +
   geom_bar(stat = "identity", width = 0.9, position = "dodge") +
-  facet_wrap(~ poss_team, scales="free") +
+  facet_wrap(~ poss_team, scales="free", ncol = 2) +
   xlab("how possessions end") + ylab("no. of possessions") +
   geom_text(aes(label = Freq), vjust = -0.2, size = s4,
             position = position_dodge(0.9)) +
@@ -131,7 +139,6 @@ out_file <- file.path("..", "web", "figs", out_file)
 ggsave(out_file, p, width = jWidth, height = jHeight)
 
 } # this ends the loop over b_code, a_code
-
 
 ## aggregate to points: record how many possessions, who scored (if anyone),
 ## and whether it was a hold or break
@@ -154,11 +161,11 @@ jFun <- function(x) {
   return(y)
 }
 point_dat <- ddply(poss_dat, ~ game + point, jFun)
-str(point_dat) # 589 obs. of  7 variables:
+str(point_dat) # 1314 obs. of  7 variables:
 
 ## get rid of points that end with no goal
 point_dat <- subset(point_dat, !is.na(status))
-str(point_dat) # 537 obs. of  7 variables:
+str(point_dat) # 1197 obs. of  7 variables:
 
 ## distribution of number of possessions
 n_poss_freq <- ddply(point_dat, ~ n_poss + status, summarize,
