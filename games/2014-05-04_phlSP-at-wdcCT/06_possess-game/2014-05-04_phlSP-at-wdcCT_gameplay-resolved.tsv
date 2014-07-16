@@ -645,10 +645,11 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 4	49	phlSP	5	94	2	phlSP	phlSP	1	PU
 4	49	phlSP	6	94	2	phlSP	phlSP	21	
 4	49	phlSP	7	94	2	phlSP	phlSP	6	
-4	49	phlSP	8	94	2	phlSP	phlSP	1	A
+4	49	phlSP	8	94	2	phlSP	phlSP	1	
 4	49	phlSP	9	95	3	wdcCT	wdcCT	99	PU
 4	49	phlSP	10	95	3	wdcCT	wdcCT	2	
-4	49	phlSP	11	96	4	phlSP	phlSP	21	G
+4	49	phlSP	11	95	3	wdcCT	phlSP	21	D
+4	49	phlSP	12	96	4	phlSP	phlSP	21	CG
 4	50	wdcCT	1	97	1	phlSP	wdcCT	61	P
 4	50	wdcCT	2	97	1	phlSP	phlSP	25	PU
 4	50	wdcCT	3	97	1	phlSP	phlSP	7	

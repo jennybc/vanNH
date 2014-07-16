@@ -514,7 +514,7 @@ poss_abs	poss_rel	point	beg_event	end_event	desc	n_inn	beg_code	beg_plyr	innards
 94	2	49	7	8	ao	0	O-CTH	phlSP-6		O-CTH	phlSP-1	TRUE	compl
 94	2	49	8	8	an	-1	O-CTH	phlSP-1		NA	phlSP-1	TRUE	taway
 95	3	49	9	10	ao	0	O-PU	wdcCT-99		O-CTH	wdcCT-2	TRUE	compl
-95	3	49	10	10	an	-1	O-CTH	wdcCT-2		NA	wdcCT-2	TRUE	taway
+95	3	49	10	11	ao	0	O-CTH	wdcCT-2		D-D	phlSP-21	TRUE	defd
 97	1	50	2	3	ao	0	O-PU	phlSP-25		O-CTH	phlSP-7	TRUE	compl
 97	1	50	3	4	ao	0	O-CTH	phlSP-7		O-CTH	phlSP-11	TRUE	compl
 97	1	50	4	5	ao	0	O-CTH	phlSP-11		O-CTH	phlSP-27	TRUE	compl

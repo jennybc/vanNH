@@ -3,9 +3,10 @@
   52 rows of point info play found
   possession established directly for 661/667 = 99.1% of game play events
   after first infer, possession established for 667/667 = 100% of game play events
+  ALERT point: 49, poss_abs 96... Callahan detected!
   667 rows of resolved game play will be written
   99 rows of possessions will be written
   52 resolved points to be written
   phlSP: 23 wdcCT: 25
-  2014-07-15 16:24:31
+  2014-07-15 16:34:02
 
