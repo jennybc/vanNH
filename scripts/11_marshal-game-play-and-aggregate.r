@@ -99,3 +99,40 @@ message("wrote ", out_file)
 out_file <- file.path(out_dir, "2014_player-game-stats.dput")
 dput(ps_dat, out_file)
 message("wrote ", out_file)
+
+#' ### Aggregate player stats across games.
+jFun <- function(x) {
+  y <-
+    ddply(x, ~ player, summarize, points = sum(points), goals = sum(goals),
+          assists = sum(assists), throws = sum(throws),
+          completions = sum(completions), catches = sum(catches), def = sum(def),
+          drop = sum(drop))
+  y <- subset(y, rowSums(subset(y, select = -player)) > 0)
+  y$comp_pct <- round(with(y, completions / throws), 2)
+  y <- arrange(y, desc(points), desc(goals), desc(assists),
+               desc(def), desc(catches))
+  return(y)
+}
+ps_by_player <- ddply(ps_dat, ~ team, jFun)
+ps_by_player <- # get player last name back
+  suppressMessages(join(ps_by_player,
+                        ps_dat[c('team', 'player', 'last', 'number')],
+                        match = "first"))
+vars_how_i_want <- c('last', 'player',
+                     'points', 'goals', 'assists',
+                     'throws', 'completions', 'comp_pct',
+                     'def', 'catches', 'drop')
+                     'team', 'number')
+ps_by_player <- ps_by_player[vars_how_i_want]
+
+out_file <- file.path(out_dir, "2014_player-stats-aggregated.rds")
+saveRDS(ps_by_player, out_file)
+message("wrote ", out_file)
+
+out_file <- file.path(out_dir, "2014_player-stats-aggregated.tsv")
+write.table(ps_by_player, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
+message("wrote ", out_file)
+
+out_file <- file.path(out_dir, "2014_player-stats-aggregated.dput")
+dput(ps_by_player, out_file)
+message("wrote ", out_file)
