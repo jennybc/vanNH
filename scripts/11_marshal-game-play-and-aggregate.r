@@ -13,6 +13,31 @@ neglength <- function(x) -1 * length(x)
 #' How many games have I ingested?
 length(games <- list.files(file.path("..", "games"), pattern = "-at-")) # 32
 
+out_dir <- file.path("..", "games", "2014_all-games")
+if(!file.exists(out_dir)) dir.create(out_dir)
+
+#' ### Bring in, concatenate, and write pass data.
+#' I start with pass data because I want to use it to enhance possession data.
+pass_files <- list.files(file.path("..", "games", games, "07_pass-game"),
+                         pattern = "_passes.tsv", full.names = TRUE)
+names(pass_files) <- games
+pass_dat <-
+  ldply(pass_files, function(gg) read.delim(gg, stringsAsFactor = FALSE),
+        .id = "game")
+str(pass_dat) # 16033 obs. of  15 variables:
+
+out_file <- file.path(out_dir, "2014_passes.rds")
+saveRDS(pass_dat, out_file)
+message("wrote ", out_file)
+
+out_file <- file.path(out_dir, "2014_passes.tsv")
+write.table(pass_dat, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
+message("wrote ", out_file)
+
+out_file <- file.path(out_dir, "2014_passes.dput")
+dput(pass_dat, out_file)
+message("wrote ", out_file)
+
 #' ### Bring in, concatenate, and write possession data.
 poss_files <- list.files(file.path("..", "games", games, "06_possess-game"),
                          pattern = "_possessions.tsv", full.names = TRUE)
@@ -22,8 +47,24 @@ poss_dat <-
         .id = "game")
 str(poss_dat) # 2830 obs. of  18 variables:
 
-out_dir <- file.path("..", "games", "2014_all-games")
-if(!file.exists(out_dir)) dir.create(out_dir)
+## this takes some time ... but less than a minute
+poss_dat <- ddply(poss_dat, ~ game + poss_abs, function(x) {
+  this_game <- as.character(x$game[1])
+  this_poss_abs <- x$poss_abs[1]
+  y <- subset(pass_dat, game == this_game & poss_abs == this_poss_abs)
+  return(data.frame(x, n_passes = sum(y$pclass != 'nopass'),
+                    end_code = rev(y$end_code)[1]))
+})
+str(poss_dat, max.level = 0) # 2830 obs. of  20 variables:
+
+## sanity check
+## for any possession ...
+## number of passes better be <= number of events
+# library(ggplot2)
+# p <- ggplot(poss_dat, aes(x = n_events, y = n_passes))
+# p + geom_point() + geom_abline(intercept = 0, slope = 1)
+## looks good
+with(poss_dat, table(n_events >= n_passes))
 
 out_file <- file.path(out_dir, "2014_possessions.rds")
 saveRDS(poss_dat, out_file)
@@ -58,26 +99,6 @@ out_file <- file.path(out_dir, "2014_points.dput")
 dput(point_dat, out_file)
 message("wrote ", out_file)
 
-#' ### Bring in, concatenate, and write pass data.
-pass_files <- list.files(file.path("..", "games", games, "07_pass-game"),
-                          pattern = "_passes.tsv", full.names = TRUE)
-names(pass_files) <- games
-pass_dat <-
-  ldply(pass_files, function(gg) read.delim(gg, stringsAsFactor = FALSE),
-        .id = "game")
-str(pass_dat) # 16033 obs. of  15 variables:
-
-out_file <- file.path(out_dir, "2014_passes.rds")
-saveRDS(pass_dat, out_file)
-message("wrote ", out_file)
-
-out_file <- file.path(out_dir, "2014_passes.tsv")
-write.table(pass_dat, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
-message("wrote ", out_file)
-
-out_file <- file.path(out_dir, "2014_passes.dput")
-dput(pass_dat, out_file)
-message("wrote ", out_file)
 
 #' ### Bring in, concatenate, and write player stats.
 ps_files <- list.files(file.path("..", "games", games, "07_pass-game"),
