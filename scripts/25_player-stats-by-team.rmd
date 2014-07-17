@@ -99,3 +99,18 @@ tmp <- subset(pl_stats_agg, def > 0 | goals > 0)
 p <- ggplot(tmp, aes(x = def / tot_ds, y = goals / tot_goals))
 p + geom_text(aes(label = last))
 ```
+
+```{r assist_perc_vs_incomp_perc, echo = FALSE, warning = FALSE, eval = FALSE}
+## Parinella plot
+tmp <- subset(pl_stats_agg, assists > 0,
+              select = c(pl_long, throws, comp_pct, games, assists, last))
+tmp <- mutate(tmp,
+              thr_per_game = throws/games,
+              incomp_pct = 1 - comp_pct,
+              assist_share = assists/throws)
+tmp
+p <- ggplot(tmp, aes(x = incomp_pct, y = assist_share))
+p + geom_point()
+p + geom_text(aes(label = last))
+## to do: if I finish this, use thr_per_game to designate low vs high touch
+```
