@@ -3,6 +3,7 @@ title: "Fodder for a finals preview article"
 date: "16 July, 2014"
 output:
   html_document:
+    keep_md: true
     theme: readable
     toc: true
 ---
@@ -20,6 +21,11 @@ The figures below are based on data from all Western Conference games played in 
 ```{r echo = FALSE, warning = FALSE}
 library(ggplot2)
 library(plyr)
+
+mlu_cols <-
+  c(pdxST = "#4DB870", vanNH = "#CC0000", seaRM = "#88A5C3", sfoDF = "#FFAD5C",
+    wdcCT = "#CCCCCC", bosWC = "#0099FF", phlSP = "#FE2E2E", nykRM = "#FFBF00")
+
 pl_stats_agg <-
   readRDS(file.path("..", "games",
                     "2014_all-games", "2014_player-stats-aggregated.rds"))
@@ -80,6 +86,77 @@ tmp <- ddply(pl_stats_agg, ~ team, function(x) {
 p <- ggplot(tmp, aes(x = def_share, y = goal_share))
 p + geom_text(aes(label = last)) + facet_wrap(~ team)
 p + geom_text(aes(label = last, color = team))
+```
+
+### Barchart of no. of passes in a possession
+vanNH turn it over more and sooner than wdcCT.
+```{r barchart_passes_per_possession, echo = FALSE, warning = FALSE}
+poss_dat <- readRDS(file.path("..", "games", "2014_all-games",
+                              "2014_possessions.rds"))
+#str(poss_dat)
+## make b_code a factor with rational levels
+poss_dat$b_code <- factor(poss_dat$b_code)
+poss_dat$b_code <- with(poss_dat, reorder(b_code, game, length))
+#table(poss_dat$b_code, useNA = "always")
+
+poss_table_by_team <-
+  as.data.frame(with(poss_dat, table(n_passes, b_code, poss_team)))
+poss_table_finals <-
+  droplevels(subset(poss_table_by_team, Freq > 0 & b_code != 'eop' &
+                      poss_team %in% c('vanNH', 'wdcCT')))
+#poss_table_finals
+#str(poss_table_finals)
+poss_table_finals <- mutate(poss_table_finals,
+                            n_passes = as.numeric(as.character(n_passes)))
+#poss_table_finals
+
+## barchart of # passes in possession
+## facetted by vanNH/wdcCT * how possession ends: goal, off -, def +
+p <- ggplot(poss_table_finals, aes(x = n_passes, y = Freq, fill = b_code))
+p + geom_bar(stat = "identity", width = 0.5) + facet_grid(b_code ~ poss_team)
+```
+
+### Densityplot of no. of passes in a possession
+```{r densityplot_passes_per_possession, echo = FALSE, warning = FALSE}
+## densityplot of # passes in possession
+## vanNH and wdcCT overlaid, using alpha transparency
+## facetted by how possession ends: goal, off -, def +
+p <- ggplot(subset(poss_dat, b_code != 'eop' &
+                     poss_team %in% c('vanNH', 'wdcCT')),
+            aes(x = n_passes, fill = poss_team))
+p + geom_density(alpha = 1/3) + facet_grid(b_code ~ .) +
+  scale_fill_manual(values = mlu_cols)
+```
+
+### Strip-and-boxplot of no. of passes in a possession (whole MLU)
+wdcCT resembles pdxST in terms of making more passes than teams like vanNH. Only sfoDF have shorter possessions than vanNH, but luckily vanNH's possessions end well more often.
+```{r strip_and_boxplot_passes_per_possession, echo = FALSE, warning = FALSE}
+tmp <- subset(poss_dat, b_code != "eop")
+tmp$poss_team <- with(tmp, reorder(poss_team, n_passes, median))
+p <- ggplot(tmp,
+            aes(x = poss_team, y = n_passes, fill = poss_team))
+p + geom_boxplot(outlier.colour = NA, width = 0.6) +
+  geom_jitter(alpha = 1/5, size = 1) + scale_fill_manual(values = mlu_cols) +
+  xlab("possessing team") + ylab("# passes in possession") +
+  coord_cartesian(ylim = c(-1, 23)) +
+  guides(fill = FALSE)
+```
+
+### Strip-and-boxplot of no. of passes in a possession (vanNH and wdcCT)
+Head-to-head demonstration of wdcCT making more passes, across all possession outcomes.
+```{r strip_and_boxplot_passes_per_possession_finals, echo = FALSE, warning = FALSE}
+tmp <- subset(poss_dat, b_code != "eop" & poss_team %in% c('vanNH', 'wdcCT'))
+tmp$poss_team <- with(tmp, reorder(poss_team, n_passes, median))
+p <- ggplot(tmp,
+            aes(x = b_code, y = n_passes, fill = poss_team))
+p + geom_boxplot(outlier.colour = NA, width = 0.6,
+                 position = position_dodge(width = 0.6)) +
+  geom_jitter(alpha = 1/5, size = 1) + scale_fill_manual(values = mlu_cols) +
+  xlab("how possession ends") + ylab("# passes in possession") +
+  coord_cartesian(ylim = c(-1, 18)) +
+  theme(legend.position = c(0.5, 1), legend.justification = c(0.5, 0.93),
+        legend.background = element_rect(fill = 0),
+        legend.direction = "horizontal")
 ```
 
 ### How possessions end, high-level.
