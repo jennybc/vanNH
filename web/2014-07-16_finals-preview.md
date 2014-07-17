@@ -11,7 +11,7 @@ The figures below are based on data from all Western Conference games played in 
 
 ### Scatterplot: completion percentage vs number of throws
 
-![plot of chunk unnamed-chunk-1](./2014-07-16_finals-preview_files/figure-html/unnamed-chunk-11.png) ![plot of chunk unnamed-chunk-1](./2014-07-16_finals-preview_files/figure-html/unnamed-chunk-12.png) 
+![plot of chunk scatterplot_comp_perc_vs_throws](./2014-07-16_finals-preview_files/figure-html/scatterplot_comp_perc_vs_throws1.png) ![plot of chunk scatterplot_comp_perc_vs_throws](./2014-07-16_finals-preview_files/figure-html/scatterplot_comp_perc_vs_throws2.png) 
 
 ### Barchart: player's share of team's total season goals
 ![plot of chunk barchart_share_of_goals](./2014-07-16_finals-preview_files/figure-html/barchart_share_of_goals.png) 
