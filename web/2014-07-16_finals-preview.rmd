@@ -35,6 +35,18 @@ pl_stats_agg$team_pretty <-
   revalue(pl_stats_agg$team,
           replace = c('vanNH' = "Vancouver Nighthawks",
                       'wdcCT' = "Washington DC Current"))
+
+poss_dat <- readRDS(file.path("..", "games", "2014_all-games",
+                              "2014_possessions.rds"))
+#str(poss_dat)
+## make b_code a factor with rational levels
+poss_dat$b_code <- factor(poss_dat$b_code)
+poss_dat$b_code <- with(poss_dat, reorder(b_code, game, length))
+#table(poss_dat$b_code, useNA = "always")
+poss_dat$poss_team_pretty <-
+  revalue(poss_dat$poss_team,
+          replace = c('vanNH' = "Vancouver Nighthawks",
+                      'wdcCT' = "Washington DC Current"))
 ```
 
 ### Scatterplot: completion percentage vs number of throws
@@ -70,7 +82,7 @@ p
 
 ### Barchart: player's share of team's total season goals
 
-Figure includes players with rank 15 or higher for total season scoring. Due to ties this may not produce exactly 15 players. Players with goal share > 0.05 are labelled.
+Figure includes players with rank 15 or better for total season scoring. Due to ties this may not produce exactly 15 players. Players with goal share > 0.05 are labelled.
 ```{r barchart_share_of_goals, echo = FALSE, warning = FALSE, fig.height = 8}
 tmp <- ddply(pl_stats_agg, ~ team, function(x) {
   x <- subset(x, select = c(pl_long, goals, team, last))
@@ -93,7 +105,7 @@ p + geom_bar(stat = "identity") + coord_flip() +
 ```
 
 ### Barchart: player's share of team's total season D's
-Figure includes players with rank 15 or higher for total season defenses. Due to ties this may not produce exactly 15 players. Players with defense share > 0.06 are labelled.
+Figure includes players with rank 15 or better for total season defenses. Due to ties this may not produce exactly 15 players. Players with defense share > 0.06 are labelled.
 ```{r barchart_share_of_ds, echo = FALSE, warning = FALSE, fig.height = 8}
 tmp <- ddply(pl_stats_agg, ~ team, function(x) {
   x <- subset(x, select = c(pl_long, def, team, last))
@@ -133,16 +145,11 @@ p + geom_text(aes(label = last, color = team))
 ```
 
 ### Barchart of no. of passes in a possession
-vanNH turn it over more and sooner than wdcCT.
-```{r barchart_passes_per_possession, echo = FALSE, warning = FALSE}
-poss_dat <- readRDS(file.path("..", "games", "2014_all-games",
-                              "2014_possessions.rds"))
-#str(poss_dat)
-## make b_code a factor with rational levels
-poss_dat$b_code <- factor(poss_dat$b_code)
-poss_dat$b_code <- with(poss_dat, reorder(b_code, game, length))
-#table(poss_dat$b_code, useNA = "always")
 
+I have excluded possessions that end due to end of period.
+
+Main observation: vanNH turn it over more and sooner than wdcCT.
+```{r barchart_passes_per_possession, echo = FALSE, warning = FALSE}
 poss_table_by_team <-
   as.data.frame(with(poss_dat, table(n_passes, b_code, poss_team)))
 poss_table_finals <-
@@ -153,11 +160,18 @@ poss_table_finals <-
 poss_table_finals <- mutate(poss_table_finals,
                             n_passes = as.numeric(as.character(n_passes)))
 #poss_table_finals
+poss_table_finals$poss_team_pretty <-
+  revalue(poss_table_finals$poss_team,
+          replace = c('vanNH' = "Vancouver Nighthawks",
+                      'wdcCT' = "Washington DC Current"))
 
 ## barchart of # passes in possession
 ## facetted by vanNH/wdcCT * how possession ends: goal, off -, def +
-p <- ggplot(poss_table_finals, aes(x = n_passes, y = Freq, fill = b_code))
-p + geom_bar(stat = "identity", width = 0.5) + facet_grid(b_code ~ poss_team)
+p <- ggplot(poss_table_finals, aes(x = n_passes, y = Freq, fill = poss_team))
+p + geom_bar(stat = "identity", width = 0.5) +
+  facet_grid(poss_team_pretty ~ b_code) +
+  scale_fill_manual(values = mlu_cols) + guides(fill = FALSE) +
+  xlab("number of passes in a possession") + ylab("number of possessions")
 ```
 
 ### Densityplot of no. of passes in a possession

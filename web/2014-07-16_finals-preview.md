@@ -19,18 +19,21 @@ The y positions (completion percentage) in the following two scatterplots are ra
 
 ### Barchart: player's share of team's total season goals
 
-Figure includes players with rank 15 or higher for total season scoring. Due to ties this may not produce exactly 15 players. Players with goal share > 0.05 are labelled.
+Figure includes players with rank 15 or better for total season scoring. Due to ties this may not produce exactly 15 players. Players with goal share > 0.05 are labelled.
 ![plot of chunk barchart_share_of_goals](./2014-07-16_finals-preview_files/figure-html/barchart_share_of_goals.png) 
 
 ### Barchart: player's share of team's total season D's
-Figure includes players with rank 15 or higher for total season defenses. Due to ties this may not produce exactly 15 players. Players with defense share > 0.06 are labelled.
+Figure includes players with rank 15 or better for total season defenses. Due to ties this may not produce exactly 15 players. Players with defense share > 0.06 are labelled.
 ![plot of chunk barchart_share_of_ds](./2014-07-16_finals-preview_files/figure-html/barchart_share_of_ds.png) 
 
 ### Scatterplot: player's share of total season goals vs D's
 ![plot of chunk share_of_goals_vs_ds](./2014-07-16_finals-preview_files/figure-html/share_of_goals_vs_ds1.png) ![plot of chunk share_of_goals_vs_ds](./2014-07-16_finals-preview_files/figure-html/share_of_goals_vs_ds2.png) 
 
 ### Barchart of no. of passes in a possession
-vanNH turn it over more and sooner than wdcCT.
+
+I have excluded possessions that end due to end of period.
+
+Main observation: vanNH turn it over more and sooner than wdcCT.
 ![plot of chunk barchart_passes_per_possession](./2014-07-16_finals-preview_files/figure-html/barchart_passes_per_possession.png) 
 
 ### Densityplot of no. of passes in a possession
