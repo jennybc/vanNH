@@ -1,0 +1,14 @@
+2014-04-12_nykRM-at-bosWC > 04_clean-and-expand-game-play.r:
+  524 rows of raw game play found
+  ALERT 1 instances of *L --> L*
+    point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+101     8     21GL                 21        GL                    
+  ALERT 2 instances of *L --> L*
+    point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+153    13              35GL                            35        GL
+304    23              11GL                            11        GL
+  found 5 rows with game play recorded for both teams
+  no double game play rows remain
+  529 rows of clean game play will be written
+  2014-07-18 16:38:41
+
