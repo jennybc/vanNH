@@ -7,16 +7,12 @@ In-house statistics for the Vancouver Nighthawks of Major League Ultimate
 
 To do
 
-  * Make sure I treat `LG` same as `GL`
-  * If a point is missing the `PU` on the pick up after the pull, in game resolving script, this is over-reported. I.e. other points are implicated that, in fact, do have the `PU` code. Fix that.
-  * 2014-06-15_pdxST-at-vanNH point 28: how to record offensive VP foul?
   * take comprehensive look at what's character vs factor
   * sort out the offline access for Google spreadsheet
   * add a comment column *have asked MLU to bless this but no response*
-  * resolve individual throws
   * get a handle on which offensive fouls cause posession to change and which ones don't
 
-Makefile notes
+Makefile notes *not updated in a long while ...*
   * __assuming the `GOOGAME` and `GAME` have been set up in the Makefile and are not being passed constantly via command line__
   * `make clean_raw` removes all data extracted from Google spreadsheet, sitting in `01_rawGoogleExtract`
   * `make eg_pt POINT=7` extracts raw data from the Google worksheet for point 7
