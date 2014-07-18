@@ -1,6 +1,6 @@
 ---
 title: "Fodder for a finals preview article"
-date: "16 July, 2014"
+date: "17 July, 2014"
 output:
   html_document:
     keep_md: true
@@ -14,31 +14,58 @@ output:
 
 The figures below are based on data from all Western Conference games played in 2014 plus an increasing number of Eastern Conference games. In particular, all games involving the DC Current are already included.
 
-*Note: I have removed all possessions that ended due to time running out, previously included with code `eop`.*
-
-### Scatterplot: completion percentage vs number of throws
-
-```{r scatterplot_comp_perc_vs_throws, echo = FALSE, warning = FALSE}
+```{r setup, include = FALSE}
 library(ggplot2)
 library(plyr)
 
 mlu_cols <-
   c(pdxST = "#4DB870", vanNH = "#CC0000", seaRM = "#88A5C3", sfoDF = "#FFAD5C",
     wdcCT = "#CCCCCC", bosWC = "#0099FF", phlSP = "#FE2E2E", nykRM = "#FFBF00")
+theme_set(theme_bw())
+```
 
+```{r load_data_sets, include = FALSE, echo = FALSE}
 pl_stats_agg <-
   readRDS(file.path("..", "games",
                     "2014_all-games", "2014_player-stats-aggregated.rds"))
 pl_stats_agg <- pl_stats_agg[pl_stats_agg$team %in% c('vanNH', 'wdcCT'), ]
 pl_stats_agg$pl_long <- with(pl_stats_agg, paste(player, last, sep = "-"))
+str(pl_stats_agg, max.level = 0)
+pl_stats_agg$team_pretty <-
+  revalue(pl_stats_agg$team,
+          replace = c('vanNH' = "Vancouver Nighthawks",
+                      'wdcCT' = "Washington DC Current"))
+```
 
-p <- ggplot(pl_stats_agg, aes(x = throws, y = comp_pct))
-#p + geom_point()
-p + geom_text(aes(label = last), size = 4) + facet_wrap(~ team)
+### Scatterplot: completion percentage vs number of throws
 
-p <- ggplot(pl_stats_agg, aes(x = throws/games, y = comp_pct))
-#p + geom_point()
-p + geom_text(aes(label = last), size = 4) + facet_wrap(~ team)
+The y positions (completion percentage) in the following two scatterplots are randomly jittered a bit to reduce overplotting. Excluding players with less than 5 throws.
+
+```{r scatterplot_comp_perc_vs_throws, echo = FALSE, warning = FALSE}
+tmp <- subset(pl_stats_agg, !grepl("?name?", last) & throws >= 5)
+
+set.seed(3)
+p <- ggplot(tmp, aes(x = throws, y = comp_pct, label = last))
+p <- p + geom_text(aes(colour = throws), size = 6, fontface = "bold",
+                   position = position_jitter(width = 0, height = 0.007)) +
+  facet_wrap(~ team_pretty) + guides(colour = FALSE) +
+  scale_colour_gradient(low = "#D8D8D8", high = "#404040") +
+  coord_cartesian(xlim = c(-85, 500)) +
+  #scale_x_log10() +
+  xlab("total throws") + ylab("completion percentage") +
+  theme(strip.text = element_text(face = "bold", size = rel(1.25)))
+p
+
+set.seed(3)
+p <- ggplot(tmp, aes(x = throws/games, y = comp_pct, label = last))
+p <- p + geom_text(aes(colour = throws/games), size = 6, fontface = "bold",
+                   position = position_jitter(width = 0, height = 0.007)) +
+  facet_wrap(~ team_pretty) + guides(colour = FALSE) +
+  scale_colour_gradient(low = "#D8D8D8", high = "#404040") +
+  coord_cartesian(xlim = c(-20, 52)) +
+  xlab("throws per game") + ylab("completion percentage") +
+  theme(strip.text = element_text(face = "bold", size = rel(1.25)))
+p
 ```
 
 ### Barchart: player's share of team's total season goals

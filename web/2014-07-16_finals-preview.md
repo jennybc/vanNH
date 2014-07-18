@@ -1,5 +1,5 @@
 # Fodder for a finals preview article
-16 July, 2014  
+17 July, 2014  
 
 <a href="index.html">Back to index</a>
 
@@ -7,9 +7,13 @@
 
 The figures below are based on data from all Western Conference games played in 2014 plus an increasing number of Eastern Conference games. In particular, all games involving the DC Current are already included.
 
-*Note: I have removed all possessions that ended due to time running out, previously included with code `eop`.*
+
+
+
 
 ### Scatterplot: completion percentage vs number of throws
+
+The y positions (completion percentage) in the following two scatterplots are randomly jittered a bit to reduce overplotting. Excluding players with less than 5 throws.
 
 ![plot of chunk scatterplot_comp_perc_vs_throws](./2014-07-16_finals-preview_files/figure-html/scatterplot_comp_perc_vs_throws1.png) ![plot of chunk scatterplot_comp_perc_vs_throws](./2014-07-16_finals-preview_files/figure-html/scatterplot_comp_perc_vs_throws2.png) 
 
