@@ -75,6 +75,7 @@ p <- p + geom_text(aes(colour = throws/games), size = 6, fontface = "bold",
   facet_wrap(~ team_pretty) + guides(colour = FALSE) +
   scale_colour_gradient(low = "#D8D8D8", high = "#404040") +
   coord_cartesian(xlim = c(-20, 52)) +
+  scale_x_continuous(breaks = c(0, 20, 40)) +
   xlab("throws per game") + ylab("completion percentage") +
   theme(strip.text = element_text(face = "bold", size = rel(1.25)))
 p
