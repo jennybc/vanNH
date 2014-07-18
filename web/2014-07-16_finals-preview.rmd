@@ -89,7 +89,9 @@ prep_for_share_of_figure <- function(x, stat_var = "goals", abs_min = 1,
   x <- x[x[[stat_var]] >= abs_min & rank(-x[[stat_var]]) <= rank_max, ]
   x$pl_long <- reorder(x$pl_long, x[[stat_var]])
   x$stat_share <- x[[stat_var]]/tot_of_stat
-  x$last <-with(x, ifelse(stat_share > label_share_min, last, ''))
+  x$share_pretty <- with(x, ifelse(stat_share > label_share_min,
+                                   sprintf("%0.2f", stat_share), ''))
+  x$last <- with(x, ifelse(stat_share > label_share_min, last, ''))
   share_var_name <- paste(stat_var, "share", sep = "_")
   x <- rename(x, c("stat_share" = share_var_name))
   return(x)
@@ -102,6 +104,7 @@ tmp <- ddply(pl_stats_agg, ~ team, prep_for_share_of_figure, stat_var = "goals")
 p <- ggplot(tmp, aes(x = pl_long, y = goals_share, fill = team))
 p + geom_bar(stat = "identity") + coord_flip() +
   geom_text(aes(label = last), hjust = -0.15, size = 3.5) + 
+  geom_text(aes(label = share_pretty), hjust = 1.15, size = 3.5) +
   scale_fill_manual(values = mlu_cols) +
   theme(axis.ticks = element_blank(), axis.title.y = element_blank()) +
   ylim(0, 0.24) +
@@ -117,6 +120,7 @@ tmp <- ddply(pl_stats_agg, ~ team, prep_for_share_of_figure,
 p <- ggplot(tmp, aes(x = pl_long, y = assists_share, fill = team))
 p + geom_bar(stat = "identity") + coord_flip() +
   geom_text(aes(label = last), hjust = -0.15, size = 3.5) + 
+  geom_text(aes(label = share_pretty), hjust = 1.15, size = 3.5) +
   scale_fill_manual(values = mlu_cols) +
   theme(axis.ticks = element_blank(), axis.title.y = element_blank()) +
   ylim(0, 0.18) +
@@ -131,6 +135,7 @@ tmp <- ddply(pl_stats_agg, ~ team, prep_for_share_of_figure, stat_var = "def",
 p <- ggplot(tmp, aes(x = pl_long, y = def_share, fill = team))
 p + geom_bar(stat = "identity") + coord_flip() +
   geom_text(aes(label = last), hjust = -0.15, size = 3.5) + 
+  geom_text(aes(label = share_pretty), hjust = 1.15, size = 3.5) +
   scale_fill_manual(values = mlu_cols) +
   theme(axis.ticks = element_blank(), axis.title.y = element_blank()) +
   ylim(0, 0.18) +
