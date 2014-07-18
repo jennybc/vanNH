@@ -12,6 +12,11 @@ library(plyr)
 library(knitr)
 library(ggplot2)
 
+theme_set(theme_bw())
+mlu_cols <-
+  c(pdxST = "#4DB870", vanNH = "#CC0000", seaRM = "#88A5C3", sfoDF = "#FFAD5C",
+    wdcCT = "#CCCCCC", bosWC = "#0099FF", phlSP = "#FE2E2E", nykRM = "#FFBF00")
+
 knitr::opts_chunk$set(error = TRUE)
 
 pl_stats <- readRDS(file.path("..", "games",
@@ -61,34 +66,86 @@ kable(pl_stats_agg[vars_to_show], row.names = FALSE)
 
 ## Scatterplot: completion percentage vs number of throws
 ```{r comp_pct_vs_throws, echo = FALSE, warning = FALSE}
-p <- ggplot(pl_stats_agg, aes(x = throws, y = comp_pct))
-#p + geom_point()
-p + geom_text(aes(label = last), size = 4)
+set.seed(3)
+p <- ggplot(subset(pl_stats_agg, !grepl("\\?", last)),
+            aes(x = throws, y = comp_pct, label = last))
+p <- p + geom_text(aes(colour = throws), size = 6, fontface = "bold",
+                   position = position_jitter(width = 0, height = 0.007)) +
+  guides(colour = FALSE) +
+  scale_colour_gradient(low = "#D8D8D8", high = "#404040") +
+  coord_cartesian(xlim = max(pl_stats_agg$throws) * c(-0.15, 1.15)) +
+  xlab("total throws") + ylab("completion percentage") 
+p
 ```
 
 ## Scatterplot: completion percentage vs throws per game
 ```{r comp_pct_vs_throws_per_game, echo = FALSE, warning = FALSE}
-p <- ggplot(pl_stats_agg, aes(x = throws/games, y = comp_pct))
-#p + geom_point()
-p + geom_text(aes(label = last), size = 4)
+set.seed(3)
+p <- ggplot(subset(pl_stats_agg, !grepl("\\?", last)),
+            aes(x = throws/games, y = comp_pct, label = last))
+p <- p + geom_text(aes(colour = throws/games), size = 6, fontface = "bold",
+                   position = position_jitter(width = 0, height = 0.007)) +
+  guides(colour = FALSE) +
+  scale_colour_gradient(low = "#D8D8D8", high = "#404040") +
+  coord_cartesian(xlim = with(pl_stats_agg, max(throws/games)) *
+                    c(-0.15, 1.15)) +
+  xlab("average throws per game") + ylab("completion percentage") 
+p
+```
+
+```{r function_to_complete_share_of, echo = FALSE, include = FALSE}
+prep_for_share_of_figure <- function(x, stat_var = "goals", abs_min = 1,
+                                     rank_max = 15, label_share_min = 0.05) {
+  tot_of_stat <- sum(x[[stat_var]])
+  x <- x[x[[stat_var]] >= abs_min & rank(-x[[stat_var]]) <= rank_max, ]
+  x$pl_long <- reorder(x$pl_long, x[[stat_var]])
+  x$stat_share <- x[[stat_var]]/tot_of_stat
+  x$share_pretty <- with(x, ifelse(stat_share > label_share_min,
+                                   sprintf("%0.2f", stat_share), ''))
+  x$last <- with(x, ifelse(stat_share > label_share_min, last, ''))
+  share_var_name <- paste(stat_var, "share", sep = "_")
+  x <- rename(x, c("stat_share" = share_var_name))
+  return(x)
+}
 ```
 
 ## Barchart: player's share of total season goals
 ```{r barchart_share_of_goals, echo = FALSE, warning = FALSE}
-tot_goals <- sum(pl_stats_agg$goals)
-tmp <- subset(pl_stats_agg, goals > 0)
-tmp$pl_long <- with(tmp, reorder(pl_long, goals))
-p <- ggplot(tmp, aes(x = pl_long, y = goals / tot_goals))
-p + geom_bar(stat = "identity") + coord_flip()
+tmp <- prep_for_share_of_figure(pl_stats_agg, stat_var = "goals")
+p <- ggplot(tmp, aes(x = pl_long, y = goals_share, fill = team))
+p + geom_bar(stat = "identity") + coord_flip() +
+  geom_text(aes(label = last), hjust = -0.15, size = 3.5) + 
+  geom_text(aes(label = share_pretty), hjust = 1.15, size = 3.5) +
+  scale_fill_manual(values = mlu_cols) +
+  theme(axis.ticks = element_blank(), axis.title.y = element_blank()) +
+  ylim(0, max(tmp$goals_share) * 1.15) +
+  ylab("player's share of team goals")  + guides(fill = FALSE)
+```
+
+## Barchart: player's share of total season assists
+```{r barchart_share_of_assists, echo = FALSE, warning = FALSE}
+tmp <- prep_for_share_of_figure(pl_stats_agg, stat_var = "assists")
+p <- ggplot(tmp, aes(x = pl_long, y = assists_share, fill = team))
+p + geom_bar(stat = "identity") + coord_flip() +
+  geom_text(aes(label = last), hjust = -0.15, size = 3.5) + 
+  geom_text(aes(label = share_pretty), hjust = 1.15, size = 3.5) +
+  scale_fill_manual(values = mlu_cols) +
+  theme(axis.ticks = element_blank(), axis.title.y = element_blank()) +
+  ylim(0, max(tmp$assists_share) * 1.15) +
+  ylab("player's share of team assists")  + guides(fill = FALSE)
 ```
 
 ## Barchart: player's share of total season D's
 ```{r barchart_share_of_ds, echo = FALSE, warning = FALSE}
-tot_ds <- sum(pl_stats_agg$def)
-tmp <- subset(pl_stats_agg, def > 0)
-tmp$pl_long <- with(tmp, reorder(pl_long, def))
-p <- ggplot(tmp, aes(x = pl_long, y = def / tot_ds))
-p + geom_bar(stat = "identity") + coord_flip()
+tmp <- prep_for_share_of_figure(pl_stats_agg, stat_var = "def")
+p <- ggplot(tmp, aes(x = pl_long, y = def_share, fill = team))
+p + geom_bar(stat = "identity") + coord_flip() +
+  geom_text(aes(label = last), hjust = -0.15, size = 3.5) + 
+  geom_text(aes(label = share_pretty), hjust = 1.15, size = 3.5) +
+  scale_fill_manual(values = mlu_cols) +
+  theme(axis.ticks = element_blank(), axis.title.y = element_blank()) +
+  ylim(0, max(tmp$def_share) * 1.15) +
+  ylab("player's share of team D's")  + guides(fill = FALSE)
 ```
 
 ## Scatterplot: player's share of total season goals vs D's
@@ -96,8 +153,17 @@ p + geom_bar(stat = "identity") + coord_flip()
 tot_goals <- sum(pl_stats_agg$goals)
 tot_ds <- sum(pl_stats_agg$def)
 tmp <- subset(pl_stats_agg, def > 0 | goals > 0)
-p <- ggplot(tmp, aes(x = def / tot_ds, y = goals / tot_goals))
-p + geom_text(aes(label = last))
+tmp <- mutate(tmp, def_share = def / tot_ds, goals_share = goals / tot_goals)
+set.seed(3)
+p <- ggplot(tmp, aes(x = def_share, y = goals_share, label = last))
+p + geom_text(aes(colour = goals_share + 1.5 * def_share),
+              size = 6, fontface = "bold",
+              position = position_jitter(width = 0, height = 0.007)) + 
+  guides(colour = FALSE) +
+  scale_colour_gradient(low = "#D8D8D8", high = "#404040") +
+  coord_cartesian(xlim = with(tmp, max(def_share)) * c(-0.15, 1.15)) +
+  xlab("player's share of team D's") + ylab("player's share of team goals") +
+  theme(strip.text = element_text(face = "bold", size = rel(1.25)))
 ```
 
 ```{r assist_perc_vs_incomp_perc, echo = FALSE, warning = FALSE, eval = FALSE}
