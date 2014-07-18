@@ -71,31 +71,43 @@ p
 ### Barchart: player's share of team's total season goals
 ```{r barchart_share_of_goals, echo = FALSE, warning = FALSE, fig.height = 8}
 tmp <- ddply(pl_stats_agg, ~ team, function(x) {
-  x <- subset(x, select = c(pl_long, goals))
+  x <- subset(x, select = c(pl_long, goals, team, last))
   tot_goals <- sum(x$goals)
   x <- subset(x, goals > 0)
   x$pl_long <- with(x, reorder(pl_long, goals))
   x$goal_share <- x$goals/tot_goals
+  x$last <-with(x, ifelse(goal_share > 0.05, last, ''))
   return(x)
   })
 #str(tmp)
-p <- ggplot(tmp, aes(x = pl_long, y = goal_share))
-p + geom_bar(stat = "identity") + coord_flip()
+p <- ggplot(tmp, aes(x = pl_long, y = goal_share, fill = team))
+p + geom_bar(stat = "identity") + coord_flip() +
+  geom_text(aes(label = last), hjust = -0.15, size = 3.5) + 
+  scale_fill_manual(values = mlu_cols) +
+  theme(axis.ticks = element_blank(), axis.title.y = element_blank()) +
+  ylim(0, 0.24) +
+  ylab("player's share of team goals")  + guides(fill = FALSE)
 ```
 
 ### Barchart: player's share of team's total season D's
 ```{r barchart_share_of_ds, echo = FALSE, warning = FALSE, fig.height = 8}
 tmp <- ddply(pl_stats_agg, ~ team, function(x) {
-  x <- subset(x, select = c(pl_long, def))
+  x <- subset(x, select = c(pl_long, def, team, last))
   tot_ds <- sum(x$def)
   x <- subset(x, def > 0)
   x$pl_long <- with(x, reorder(pl_long, def))
   x$def_share <- x$def/tot_ds
+  x$last <-with(x, ifelse(def_share > 0.06, last, ''))
   return(x)
   })
 #str(tmp)
-p <- ggplot(tmp, aes(x = pl_long, y = def_share))
-p + geom_bar(stat = "identity") + coord_flip()
+p <- ggplot(tmp, aes(x = pl_long, y = def_share, fill = team))
+p + geom_bar(stat = "identity") + coord_flip() +
+  geom_text(aes(label = last), hjust = -0.15, size = 3.5) + 
+  scale_fill_manual(values = mlu_cols) +
+  theme(axis.ticks = element_blank(), axis.title.y = element_blank()) +
+  ylim(0, 0.18) +
+  ylab("player's share of team D's")  + guides(fill = FALSE)
 ```
 
 ### Scatterplot: player's share of total season goals vs D's
