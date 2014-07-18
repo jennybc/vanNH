@@ -7,7 +7,9 @@ neglength <- function(x) -1 * length(x)
 jWidth <- 5
 jHeight <- 4
 
-mlu_cols <- c(vanNH = "#CCCCCC", wdcCT = "#88A5C3")
+mlu_cols <-
+  c(pdxST = "#4DB870", vanNH = "#CC0000", seaRM = "#88A5C3", sfoDF = "#FFAD5C",
+    wdcCT = "#CCCCCC", bosWC = "#0099FF", phlSP = "#FE2E2E", nykRM = "#FFBF00")
 theme_set(theme_bw())
 
 ## function that counts how often each code occurs, computes as a proportion,
@@ -79,8 +81,8 @@ p <- ggplot(subset(last_code_freq_by_team,
   xlab("how possessions end") + ylab("proportion of possessions") +
   geom_text(aes(label = pretty_prop), hjust = 1.5, size = s1,
             position = position_dodge(bw1)) +
-  scale_fill_manual(values = mlu_cols, guide = guide_legend(reverse = TRUE)) +
-  labs(fill = "who's got possession?") +
+  scale_fill_manual(values = mlu_cols) +
+  guides(fill = guide_legend(title = NULL, reverse = TRUE)) +
   theme(legend.position = c(1, 0), legend.justification = c(0.9, 0.1),
         legend.background = element_rect(fill = 0),
         axis.text.x = element_text(size = rel(at))) +
@@ -110,8 +112,8 @@ p <- ggplot(subset(last_code_freq_by_line_and_team,
   xlab("how possessions end") + ylab("proportion of possessions") +
   geom_text(aes(label = pretty_prop), hjust = h2, size = s2,
             position = position_dodge(bw1), angle = angle) +
-  scale_fill_manual(values = mlu_cols, guide = guide_legend(reverse = TRUE)) +
-  labs(fill = "who's got possession?") +
+  scale_fill_manual(values = mlu_cols) +
+  guides(fill = guide_legend(title = NULL, reverse = TRUE)) +
   theme(legend.position = c(1, 0), legend.justification = c(0.952, 0.15),
         legend.background = element_rect(fill = 0),
         axis.text.x = element_text(size = rel(at))) +
