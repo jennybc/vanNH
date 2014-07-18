@@ -181,6 +181,35 @@ p + geom_bar(stat = "identity", width = 0.5) +
   xlab("number of passes in a possession") + ylab("number of possessions")
 ```
 
+```{r barchart_passes_per_possession_by_line, echo = FALSE, warning = FALSE, eval = FALSE, include = FALSE}
+### Barchart of no. of passes in a possession by line
+##I have excluded possessions that end due to end of period.
+poss_table_by_team_by_line <-
+  as.data.frame(with(poss_dat, table(n_passes, b_code, who, poss_team)))
+poss_table_finals <-
+  droplevels(subset(poss_table_by_team_by_line, Freq > 0 & b_code != 'eop' &
+                      poss_team %in% c('vanNH', 'wdcCT')))
+#poss_table_finals
+#str(poss_table_finals)
+poss_table_finals <- mutate(poss_table_finals,
+                            n_passes = as.numeric(as.character(n_passes)))
+#poss_table_finals
+poss_table_finals$poss_team_pretty <-
+  revalue(poss_table_finals$poss_team,
+          replace = c('vanNH' = "Vancouver Nighthawks",
+                      'wdcCT' = "Washington DC Current"))
+
+## barchart of # passes in possession
+## facetted by vanNH/wdcCT * how possession ends: goal, off -, def +
+p <- ggplot(subset(poss_table_finals, who == 'd_line'),
+            aes(x = n_passes, y = Freq, fill = poss_team))
+p + geom_bar(stat = "identity", width = 0.5) +
+  facet_grid(poss_team_pretty ~ b_code) +
+  scale_fill_manual(values = mlu_cols) + guides(fill = FALSE) +
+  xlab("number of passes in a possession") + ylab("number of possessions")
+```
+
+
 ### Densityplot of no. of passes in a possession
 ```{r densityplot_passes_per_possession, echo = FALSE, warning = FALSE}
 ## densityplot of # passes in possession

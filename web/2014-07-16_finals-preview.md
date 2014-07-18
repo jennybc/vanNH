@@ -36,6 +36,9 @@ I have excluded possessions that end due to end of period.
 Main observation: vanNH turn it over more and sooner than wdcCT.
 ![plot of chunk barchart_passes_per_possession](./2014-07-16_finals-preview_files/figure-html/barchart_passes_per_possession.png) 
 
+
+
+
 ### Densityplot of no. of passes in a possession
 ![plot of chunk densityplot_passes_per_possession](./2014-07-16_finals-preview_files/figure-html/densityplot_passes_per_possession.png) 
 
