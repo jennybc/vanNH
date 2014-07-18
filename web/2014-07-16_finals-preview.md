@@ -38,7 +38,7 @@ Figure includes players with rank 15 or better for total season defenses. Due to
 
 ### Barchart of no. of passes in a possession
 
-I have excluded possessions that end due to end of period.
+I have excluded possessions that end due to end of period. What this means via example: Vancouver Nighthawks have had 226 possessions that end in a goal and the median number of passes was 5.
 
 Main observation: vanNH turn it over more and sooner than wdcCT.
 ![plot of chunk barchart_passes_per_possession](./2014-07-16_finals-preview_files/figure-html/barchart_passes_per_possession.png) 

@@ -169,7 +169,7 @@ p + geom_text(aes(colour = goal_share + 1.5 * def_share),
 
 ### Barchart of no. of passes in a possession
 
-I have excluded possessions that end due to end of period.
+I have excluded possessions that end due to end of period. What this means via example: Vancouver Nighthawks have had 226 possessions that end in a goal and the median number of passes was 5.
 
 Main observation: vanNH turn it over more and sooner than wdcCT.
 ```{r barchart_passes_per_possession, echo = FALSE, warning = FALSE}
@@ -178,6 +178,10 @@ poss_dat_filtered <-
                       b_code != 'eop'))
 facet_facts <- ddply(poss_dat_filtered, ~ poss_team + b_code, summarize,
                      Freq = length(b_code), median = median(n_passes))
+facet_facts$b_prop <-
+  unlist(dlply(facet_facts, ~ poss_team, function(x) x$Freq / sum(x$Freq)))
+facet_facts$b_prop_pretty <- sprintf("%0.0f", 100 * facet_facts$b_prop)
+
 poss_table_by_team <-
   as.data.frame(with(poss_dat_filtered, table(n_passes, b_code, poss_team)))
 poss_table_finals <- droplevels(subset(poss_table_by_team, Freq > 0))
@@ -192,8 +196,8 @@ facet_facts$poss_team_pretty <-
           replace = c('vanNH' = "Vancouver Nighthawks",
                       'wdcCT' = "Washington DC Current"))
 facet_facts$label <-
-  with(facet_facts,
-       paste0("~ ", median, " passes\n", Freq, " poss"))
+  with(facet_facts, paste0("~ ", median, " passes\n", Freq, " poss (",
+                           b_prop_pretty, "%)"))
 
 ## barchart of # passes in possession
 ## facetted by vanNH/wdcCT * how possession ends: goal, off -, def +
