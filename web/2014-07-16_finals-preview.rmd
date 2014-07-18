@@ -69,6 +69,8 @@ p
 ```
 
 ### Barchart: player's share of team's total season goals
+
+Figure includes players with rank 15 or higher for total season scoring. Due to ties this may not produce exactly 15 players. Players with goal share > 0.05 are labelled.
 ```{r barchart_share_of_goals, echo = FALSE, warning = FALSE, fig.height = 8}
 tmp <- ddply(pl_stats_agg, ~ team, function(x) {
   x <- subset(x, select = c(pl_long, goals, team, last))
@@ -77,6 +79,7 @@ tmp <- ddply(pl_stats_agg, ~ team, function(x) {
   x$pl_long <- with(x, reorder(pl_long, goals))
   x$goal_share <- x$goals/tot_goals
   x$last <-with(x, ifelse(goal_share > 0.05, last, ''))
+  x <- subset(x, rank(-goal_share) <= 15)
   return(x)
   })
 #str(tmp)
@@ -90,6 +93,7 @@ p + geom_bar(stat = "identity") + coord_flip() +
 ```
 
 ### Barchart: player's share of team's total season D's
+Figure includes players with rank 15 or higher for total season defenses. Due to ties this may not produce exactly 15 players. Players with defense share > 0.06 are labelled.
 ```{r barchart_share_of_ds, echo = FALSE, warning = FALSE, fig.height = 8}
 tmp <- ddply(pl_stats_agg, ~ team, function(x) {
   x <- subset(x, select = c(pl_long, def, team, last))
@@ -98,6 +102,7 @@ tmp <- ddply(pl_stats_agg, ~ team, function(x) {
   x$pl_long <- with(x, reorder(pl_long, def))
   x$def_share <- x$def/tot_ds
   x$last <-with(x, ifelse(def_share > 0.06, last, ''))
+  x <- subset(x, rank(-def_share) <= 15)
   return(x)
   })
 #str(tmp)

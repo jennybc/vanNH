@@ -18,9 +18,12 @@ The y positions (completion percentage) in the following two scatterplots are ra
 ![plot of chunk scatterplot_comp_perc_vs_throws](./2014-07-16_finals-preview_files/figure-html/scatterplot_comp_perc_vs_throws1.png) ![plot of chunk scatterplot_comp_perc_vs_throws](./2014-07-16_finals-preview_files/figure-html/scatterplot_comp_perc_vs_throws2.png) 
 
 ### Barchart: player's share of team's total season goals
+
+Figure includes players with rank 15 or higher for total season scoring. Due to ties this may not produce exactly 15 players. Players with goal share > 0.05 are labelled.
 ![plot of chunk barchart_share_of_goals](./2014-07-16_finals-preview_files/figure-html/barchart_share_of_goals.png) 
 
 ### Barchart: player's share of team's total season D's
+Figure includes players with rank 15 or higher for total season defenses. Due to ties this may not produce exactly 15 players. Players with defense share > 0.06 are labelled.
 ![plot of chunk barchart_share_of_ds](./2014-07-16_finals-preview_files/figure-html/barchart_share_of_ds.png) 
 
 ### Scatterplot: player's share of total season goals vs D's
