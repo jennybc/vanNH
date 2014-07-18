@@ -27,7 +27,7 @@ Figure includes players with rank 15 or better for total season defenses. Due to
 ![plot of chunk barchart_share_of_ds](./2014-07-16_finals-preview_files/figure-html/barchart_share_of_ds.png) 
 
 ### Scatterplot: player's share of total season goals vs D's
-![plot of chunk share_of_goals_vs_ds](./2014-07-16_finals-preview_files/figure-html/share_of_goals_vs_ds1.png) ![plot of chunk share_of_goals_vs_ds](./2014-07-16_finals-preview_files/figure-html/share_of_goals_vs_ds2.png) 
+![plot of chunk share_of_goals_vs_ds](./2014-07-16_finals-preview_files/figure-html/share_of_goals_vs_ds.png) 
 
 ### Barchart of no. of passes in a possession
 

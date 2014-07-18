@@ -129,7 +129,7 @@ p + geom_bar(stat = "identity") + coord_flip() +
 
 ### Scatterplot: player's share of total season goals vs D's
 ```{r share_of_goals_vs_ds, echo = FALSE, warning = FALSE}
-tmp <- ddply(pl_stats_agg, ~ team, function(x) {
+tmp <- ddply(pl_stats_agg, ~ team_pretty, function(x) {
   x <- subset(x, select = c(pl_long, def, goals, team, last))
   total_goals <- sum(x$goals)
   tot_ds <- sum(x$def)
@@ -139,9 +139,16 @@ tmp <- ddply(pl_stats_agg, ~ team, function(x) {
   return(x)
   })
 #str(tmp)
-p <- ggplot(tmp, aes(x = def_share, y = goal_share))
-p + geom_text(aes(label = last)) + facet_wrap(~ team)
-p + geom_text(aes(label = last, color = team))
+set.seed(3)
+p <- ggplot(tmp, aes(x = def_share, y = goal_share, label = last))
+p + geom_text(aes(colour = goal_share + 1.5 * def_share),
+              size = 6, fontface = "bold",
+              position = position_jitter(width = 0, height = 0.007)) + 
+  facet_wrap(~ team_pretty) + guides(colour = FALSE) +
+  scale_colour_gradient(low = "#D8D8D8", high = "#404040") +
+  coord_cartesian(xlim = c(-0.03, 0.2)) +
+  xlab("player's share of team D's") + ylab("player's share of team goals") +
+  theme(strip.text = element_text(face = "bold", size = rel(1.25)))
 ```
 
 ### Barchart of no. of passes in a possession
