@@ -1,0 +1,30 @@
+2014-04-19_phlSP-at-nykRM > 06_resolve-possessions.r:
+  753 rows of clean game play found
+  50 rows of point info play found
+  possession established directly for 722/753 = 95.88% of game play events
+  after first infer, possession established for 737/753 = 97.88% of game play events
+  check the possession resolution for these SO/SI clumps:
+    period point event pl_team pl_pnum pl_code poss_team
+109      1     8    21   nykRM      82      SO     nykRM
+110      1     8    22   phlSP      14      SO     nykRM
+111      1     8    23   nykRM       6      SI     nykRM
+112      1     8    24   phlSP       6      SI     nykRM
+494      4    35    28   nykRM      13      SO     phlSP
+495      4    35    29   nykRM      27      SI     phlSP
+569      4    40     6   nykRM      47      SO     nykRM
+570      4    40     7   phlSP       9      SO     nykRM
+571      4    40     8   nykRM       6      SI     nykRM
+572      4    40     9   phlSP      11      SI     nykRM
+683     OT    48    17   nykRM       3      SO     nykRM
+684     OT    48    18   nykRM      22      SI     nykRM
+719    2OT    50    11   phlSP      88      SO     phlSP
+720    2OT    50    12   nykRM      19      SO     phlSP
+721    2OT    50    13   phlSP       7      SI     phlSP
+722    2OT    50    14   nykRM       3      SI     phlSP
+  after addressing SO/SIs, possession established for 753/753 = 100% of game play events
+  753 rows of resolved game play will be written
+  104 rows of possessions will be written
+  50 resolved points to be written
+  nykRM: 24 phlSP: 23
+  2014-07-18 16:43:33
+

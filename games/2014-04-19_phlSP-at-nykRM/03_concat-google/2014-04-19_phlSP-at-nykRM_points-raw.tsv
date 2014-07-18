@@ -1,0 +1,51 @@
+point	Pulling.team	Period	Clock.before.point	Clock.after.point
+1	New York	1	10:00:00	9:18:00
+2	Philadelphia	1	9:18:00	8:48:00
+3	New York	1	8:48:00	8:18:00
+4	Philadelphia	1	8:18:00	7:35:00
+5	New York	1	7:35:00	7:04:00
+6	Philadelphia	1	7:04:00	6:33:00
+7	New York	1	6:33:00	4:45:00
+8	New York	1	4:45:00	0:56:01
+9	Philadelphia	1	0:56:01	0:33:00
+10	New York	1	0:33:00	0:00:00
+11	New York	2	10:00:00	9:38:00
+12	New York	2	9:38:00	8:29:00
+13	New York	2	8:29:00	7:09:00
+14	Philadelphia	2	7:09:00	6:01:00
+15	New York	2	6:01:00	4:45:00
+16	Philadelphia	2	4:45:00	3:29:00
+17	Philadelphia	2	3:29:00	2:52:00
+18	New York	2	2:52:00	2:22:00
+19	Philadelphia	2	2:22:00	0:50:03
+20	New York	2	0:53:03	0:10:07
+21	Philadelphia	2	0:10:07	0:00:00
+22	Philadelphia	3	10:00:00	9:38:00
+23	New York	3	9:38:00	8:51:00
+24	New York	3	8:51:00	6:20:00
+25	Philadelphia	3	6:20:00	6:01:00
+26	New York	3	6:01:00	5:08:00
+27	Philadelphia	3	5:08:00	4:12:00
+28	New York	3	4:12:00	3:44:00
+29	New York	3	3:44:00	3:31:00
+30	Philadelphia	3	3:31:00	2:57:00
+31	New York	3	2:57:00	2:09:00
+32	Philadelphia	3	2:09:00	1:01:00
+33	Philadelphia	3	1:01:00	0:09:04
+34	Philadelphia	3	0:09:04	0:00:00
+35	New York	4	10:00:00	7:05:00
+36	Philadelphia	4	7:05:00	6:46:00
+37	Philadelphia	4	6:46:00	5:05:00
+38	New York	4	5:05:00	3:57:00
+39	Philadelphia	4	3:57:00	3:31:00
+40	New York	4	3:31:00	2:41:00
+41	New York	4	2:41:00	2:13:00
+42	Philadelphia	4	2:13:00	1:28:00
+43	New York	4	1:28:00	0:50:07
+44	Philadelphia	4	0:50:07	0:03:09
+45	Philadelphia	4	0:03:09	0:00:00
+46	New York	OT	5:00:00	4:41:00
+47	Philadelphia	OT	4:41:00	3:00:00
+48	New York	OT	3:00:00	1:15:00
+49	New York	OT	1:15:00	0:00:00
+50	Philadelphia	2OT	0:00:00	0:00:00

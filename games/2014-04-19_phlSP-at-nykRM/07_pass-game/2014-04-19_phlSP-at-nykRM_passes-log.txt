@@ -1,0 +1,20 @@
+2014-04-19_phlSP-at-nykRM > 07_resolve-passes.r:
+  753 rows of resolved game play found
+  577/579 rows of pass data are whitelisted (99.7%)
+  ALERT 2 rows of pass data are novel
+    poss_abs poss_rel point beg_event end_event desc n_inn beg_code beg_plyr
+85        16        4     8        19        25   ao     5    O-CTH nykRM-81
+383       69        5    35        27        30   ao     2     O-PU  phlSP-7
+                    innards end_code end_plyr    wl
+85  D-F,O-SO,D-SO,O-SI,D-SI    O-CTH  nykRM-7 FALSE
+383               D-SO,D-SI    O-CTH phlSP-21 FALSE
+  breakdown of passes:
+
+ compl  ofoul  taway   defd   drop nopass   <NA> 
+   522      0     18     29      8      2      0 
+  522/577 passes were completed (90.5%)
+  579 rows of pass data will be written
+  roster read for phlSP and nykRM
+  writing player stats to file: 22 for phlSP, 23 for nykRM
+  2014-07-18 16:43:35
+
