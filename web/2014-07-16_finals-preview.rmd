@@ -171,7 +171,7 @@ p + geom_text(aes(colour = goal_share + 1.5 * def_share),
 
 I have excluded possessions that end due to end of period. What this means via example: Vancouver Nighthawks have had 226 possessions that end in a goal and the median number of passes was 5.
 
-Main observation: vanNH turn it over more and sooner than wdcCT.
+Main observation: vanNH turn it over more and sooner than wdcCT. But also take fewer passes to score.
 ```{r barchart_passes_per_possession, echo = FALSE, warning = FALSE}
 poss_dat_filtered <-
   droplevels(subset(poss_dat, poss_team %in% c('vanNH', 'wdcCT') &

@@ -51,11 +51,18 @@ Tables and figures below based on data from 11 games. The dataset covers 31 uniq
 ## Scatterplot: completion percentage vs throws per game
 ![plot of chunk comp_pct_vs_throws_per_game](./vanNH_player-stats_files/figure-html/comp_pct_vs_throws_per_game.png) 
 
+
+
 ## Barchart: player's share of total season goals
 ![plot of chunk barchart_share_of_goals](./vanNH_player-stats_files/figure-html/barchart_share_of_goals.png) 
+
+## Barchart: player's share of total season assists
+![plot of chunk barchart_share_of_assists](./vanNH_player-stats_files/figure-html/barchart_share_of_assists.png) 
 
 ## Barchart: player's share of total season D's
 ![plot of chunk barchart_share_of_ds](./vanNH_player-stats_files/figure-html/barchart_share_of_ds.png) 
 
 ## Scatterplot: player's share of total season goals vs D's
 ![plot of chunk share_of_goals_vs_ds](./vanNH_player-stats_files/figure-html/share_of_goals_vs_ds.png) 
+
+

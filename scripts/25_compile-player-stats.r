@@ -11,7 +11,8 @@ options <- commandArgs(trailingOnly = TRUE)
 if(length(options) < 1) {
   #team <- "wdcCT"
   #team <- "vanNH"
-  target_team <- c('vanNH', 'wdcCT')
+  target_team <- c('vanNH', 'wdcCT', 'pdxST', 'seaRM', 'sfoDF',
+                   'bosWC', 'nykRM', 'phlSP')
 } else {
   target_team <- options[1]
 }

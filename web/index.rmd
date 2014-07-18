@@ -23,6 +23,12 @@ Statistics and figures for players by team:
 
   * [vanNH](team-stats/vanNH_player-stats.html)
   * [wdcCT](team-stats/wdcCT_player-stats.html)
+  * [pdxST](team-stats/pdxST_player-stats.html)
+  * [seaRM](team-stats/seaRM_player-stats.html)
+  * [sfoDF](team-stats/sfoDF_player-stats.html)
+  * [phlSP](team-stats/phlSP_player-stats.html)
+  * [bosWC](team-stats/bosWC_player-stats.html)
+  * [nykRM](team-stats/nykRM_player-stats.html)
 
 ```{r include = FALSE, message = FALSE}
 library(yaml)
