@@ -173,26 +173,35 @@ I have excluded possessions that end due to end of period.
 
 Main observation: vanNH turn it over more and sooner than wdcCT.
 ```{r barchart_passes_per_possession, echo = FALSE, warning = FALSE}
+poss_dat_filtered <-
+  droplevels(subset(poss_dat, poss_team %in% c('vanNH', 'wdcCT') &
+                      b_code != 'eop'))
+facet_facts <- ddply(poss_dat_filtered, ~ poss_team + b_code, summarize,
+                     Freq = length(b_code), median = median(n_passes))
 poss_table_by_team <-
-  as.data.frame(with(poss_dat, table(n_passes, b_code, poss_team)))
-poss_table_finals <-
-  droplevels(subset(poss_table_by_team, Freq > 0 & b_code != 'eop' &
-                      poss_team %in% c('vanNH', 'wdcCT')))
-#poss_table_finals
-#str(poss_table_finals)
+  as.data.frame(with(poss_dat_filtered, table(n_passes, b_code, poss_team)))
+poss_table_finals <- droplevels(subset(poss_table_by_team, Freq > 0))
 poss_table_finals <- mutate(poss_table_finals,
                             n_passes = as.numeric(as.character(n_passes)))
-#poss_table_finals
 poss_table_finals$poss_team_pretty <-
   revalue(poss_table_finals$poss_team,
           replace = c('vanNH' = "Vancouver Nighthawks",
                       'wdcCT' = "Washington DC Current"))
+facet_facts$poss_team_pretty <-
+  revalue(facet_facts$poss_team,
+          replace = c('vanNH' = "Vancouver Nighthawks",
+                      'wdcCT' = "Washington DC Current"))
+facet_facts$label <-
+  with(facet_facts,
+       paste0("~ ", median, " passes\n", Freq, " poss"))
 
 ## barchart of # passes in possession
 ## facetted by vanNH/wdcCT * how possession ends: goal, off -, def +
 p <- ggplot(poss_table_finals, aes(x = n_passes, y = Freq, fill = poss_team))
 p + geom_bar(stat = "identity", width = 0.5) +
   facet_grid(poss_team_pretty ~ b_code) +
+  geom_text(x = 20, y = 32, aes(label = label), data = facet_facts,
+            hjust = 1, size = 4) + 
   scale_fill_manual(values = mlu_cols) + guides(fill = FALSE) +
   xlab("number of passes in a possession") + ylab("number of possessions")
 ```
