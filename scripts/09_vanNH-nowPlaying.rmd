@@ -10,6 +10,13 @@ output:
 library(plyr)
 library(yaml)
 library(knitr)
+library(ggplot2)
+
+mlu_cols <-
+  c(pdxST = "#4DB870", vanNH = "#CC0000", seaRM = "#88A5C3", sfoDF = "#FFAD5C",
+    wdcCT = "#CCCCCC", bosWC = "#0099FF", phlSP = "#FE2E2E", nykRM = "#FFBF00")
+theme_set(theme_bw())
+
 
 # when compiled via the control script, game identifier will have been
 # read from command line and pre-stored in the environment
@@ -28,7 +35,8 @@ if(!exists("game")) {
   #game <- "2014-06-14_pdxST-at-seaRM"
   #game <- "2014-04-19_bosWC-at-wdcCT"
   #game <- "2014-05-04_phlSP-at-wdcCT"
-  game <- "2014-06-21_bosWC-at-nykRM"
+  #game <- "2014-06-21_bosWC-at-nykRM"
+  game <- "2014-07-19_vanNH-at-wdcCT"
   }
 
 message(game, " > 09_vanNH-nowPlaying.rmd:")

@@ -1,0 +1,13 @@
+2014-07-19_vanNH-at-wdcCT > 06_resolve-possessions.r:
+  263 rows of clean game play found
+  20 rows of point info play found
+  possession established directly for 257/263 = 97.72% of game play events
+  after first infer, possession established for 262/263 = 99.62% of game play events
+  after second and LAST infer, possession established for 262/263 = 99.62% of game play events
+  ALERT proceeding with possession analysis although resolution was not 100%!
+  263 rows of resolved game play will be written
+  39 rows of possessions will be written
+  20 resolved points to be written
+  vanNH: 4 wdcCT: 13
+  2014-07-19 16:46:48
+

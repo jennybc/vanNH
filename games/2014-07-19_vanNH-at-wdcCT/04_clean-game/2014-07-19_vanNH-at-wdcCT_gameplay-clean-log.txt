@@ -1,0 +1,10 @@
+2014-07-19_vanNH-at-wdcCT > 04_clean-and-expand-game-play.r:
+  258 rows of raw game play found
+  ALERT these rows have game play that's not empty, not a TO, yet doesn't start with a digit
+    point   recv_raw pull_raw
+258    19 end of 2nd         
+  found 5 rows with game play recorded for both teams
+  no double game play rows remain
+  263 rows of clean game play will be written
+  2014-07-19 16:46:47
+

@@ -1,0 +1,40 @@
+period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code	n_events	huck	score	scor_team	who	a_code	b_code
+1	1	wdcCT	3	1	1	vanNH	vanNH	89	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+1	1	wdcCT	12	2	2	wdcCT	wdcCT	7	G	9	FALSE	TRUE	wdcCT	d_line	G	G
+1	2	wdcCT	8	3	1	vanNH	vanNH	5	VST	8	FALSE	FALSE	NA	o_line	VST	off -
+1	2	wdcCT	16	4	2	wdcCT	wdcCT	25	G	8	FALSE	TRUE	wdcCT	d_line	G	G
+1	3	wdcCT	13	5	1	vanNH	vanNH	10	G	13	FALSE	TRUE	vanNH	o_line	G	G
+1	4	vanNH	14	6	1	wdcCT	wdcCT	90	G	14	FALSE	TRUE	wdcCT	o_line	G	G
+1	5	wdcCT	8	7	1	vanNH	wdcCT	1	D	8	FALSE	FALSE	NA	o_line	D	def +
+1	5	wdcCT	16	8	2	wdcCT	wdcCT	17	G	8	FALSE	TRUE	wdcCT	d_line	G	G
+1	6	wdcCT	11	9	1	vanNH	vanNH	19	TA	11	FALSE	FALSE	NA	o_line	TA	off -
+1	6	wdcCT	21	10	2	wdcCT	wdcCT	61	G	9	FALSE	TRUE	wdcCT	d_line	G	G
+1	7	wdcCT	9	11	1	vanNH	wdcCT	1	D	9	FALSE	FALSE	NA	o_line	D	def +
+1	7	wdcCT	12	12	2	wdcCT	wdcCT	21	G	3	FALSE	TRUE	wdcCT	d_line	G	G
+1	8	wdcCT	9	13	1	vanNH	vanNH	98	G	9	TRUE	TRUE	vanNH	o_line	G	G
+1	9	vanNH	7	14	1	wdcCT	wdcCT	8	LG	7	TRUE	TRUE	wdcCT	o_line	G	G
+1	10	wdcCT	6	15	1	vanNH	wdcCT	4	D	6	FALSE	FALSE	NA	o_line	D	def +
+1	10	wdcCT	12	16	2	wdcCT	wdcCT	31	LG	6	TRUE	TRUE	wdcCT	d_line	G	G
+1	11	wdcCT	2	17	1	vanNH	vanNH	33	eop	2	FALSE	FALSE	NA	o_line	eop	eop
+2	12	vanNH	5	18	1	wdcCT	wdcCT	45	LG	5	TRUE	TRUE	wdcCT	o_line	G	G
+2	13	wdcCT	11	19	1	vanNH	vanNH	10	TD	11	FALSE	FALSE	NA	o_line	TD	off -
+2	13	wdcCT	14	20	2	wdcCT	vanNH	91	D	3	FALSE	FALSE	NA	d_line	D	def +
+2	13	wdcCT	20	21	3	vanNH	vanNH	?	TA	6	FALSE	FALSE	NA	o_line	TA	off -
+2	13	wdcCT	23	22	4	wdcCT	vanNH	11	D	3	FALSE	FALSE	NA	d_line	D	def +
+2	13	wdcCT	26	23	5	vanNH	vanNH	45	TD	3	FALSE	FALSE	NA	o_line	TD	off -
+2	13	wdcCT	28	24	6	wdcCT	wdcCT	14	G	2	FALSE	TRUE	wdcCT	d_line	G	G
+2	14	wdcCT	9	25	1	vanNH	wdcCT	17	D	9	FALSE	FALSE	NA	o_line	D	def +
+2	14	wdcCT	14	26	2	wdcCT	wdcCT	22	TD	5	FALSE	FALSE	NA	d_line	TD	off -
+2	14	wdcCT	18	27	3	vanNH	vanNH	6	LG	4	TRUE	TRUE	vanNH	o_line	G	G
+2	15	vanNH	11	28	1	wdcCT	wdcCT	9	TA	11	FALSE	FALSE	NA	o_line	TA	off -
+2	15	vanNH	18	29	2	vanNH	vanNH	11	TA	7	FALSE	FALSE	NA	d_line	TA	off -
+2	15	vanNH	22	30	3	wdcCT	wdcCT	80	G	4	TRUE	TRUE	wdcCT	o_line	G	G
+2	16	wdcCT	10	31	1	vanNH	vanNH	10	LG	10	TRUE	TRUE	vanNH	o_line	G	G
+2	17	vanNH	6	32	1	wdcCT	wdcCT	90	TA	6	FALSE	FALSE	NA	o_line	TA	off -
+2	17	vanNH	9	33	2	vanNH	wdcCT	88	D	3	FALSE	FALSE	NA	d_line	D	def +
+2	17	vanNH	16	34	3	wdcCT	wdcCT	45	G	7	FALSE	TRUE	wdcCT	o_line	G	G
+2	18	wdcCT	4	35	1	vanNH	wdcCT	22	D	4	FALSE	FALSE	NA	o_line	D	def +
+2	18	wdcCT	16	36	2	wdcCT	wdcCT	25	G	12	FALSE	TRUE	wdcCT	d_line	G	G
+2	19	wdcCT	4	37	1	vanNH	vanNH	5	TA	4	FALSE	FALSE	NA	o_line	TA	off -
+2	19	wdcCT	13	38	2	wdcCT	vanNH	18	D	9	FALSE	FALSE	NA	d_line	D	def +
+2	19	wdcCT	14	NA	NA	NA	vanNH		eop	1	FALSE	FALSE	NA	NA	eop	eop

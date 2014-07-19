@@ -1,0 +1,11 @@
+point: 20
+period: 3
+clk_before: '10:00:00'
+clk_after: .na.character
+pull_team: .na.character
+n_poss: .na.integer
+scor_team: .na.character
+h_or_b: .na.character
+vanNH: 4
+wdcCT: 13
+

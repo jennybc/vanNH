@@ -22,7 +22,7 @@ if(length(options) < 1) {
   #game <- "2014-05-04_sfoDF-at-seaRM"
   #game <- "2014-05-03_sfoDF-at-pdxST"
   #game <- "2014-04-12_wdcCT-at-phlSP"
-  game <- "2014-05-04_phlSP-at-wdcCT"
+  game <- "2014-07-19_vanNH-at-wdcCT"
 } else {
   game <- options[1]
 }
