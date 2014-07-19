@@ -59,6 +59,13 @@ for sheet_num in points_to_process:
     
     ## actual point-level info
     point_level_info = worksheet.col_values(4)
+    
+    ## if period, clock before, clock after not recorded, I think this list can
+    ## fewer than 4 elements ... trying to extend it to guarantee a length of 4
+    shortage = 4 - len(point_level_info)
+    if shortage > 0:
+        for i in range(abs(shortage)):
+            point_level_info.extend([""])
 
     ## TO DO: make this less stupid? is there a way to check and assign in bulk?
     ## should I be using a try-based strategy?
