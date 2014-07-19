@@ -1,0 +1,27 @@
+2014-05-24_nykRM-at-bosWC > 07_resolve-passes.r:
+  586 rows of resolved game play found
+  463/465 rows of pass data are whitelisted (99.6%)
+  ALERT 2 rows of pass data are novel
+    poss_abs poss_rel point beg_event end_event desc n_inn beg_code beg_plyr
+39        11        1     5         4         6   aa     1    O-CTH  nykRM-6
+223       47        9    17        49        50   aa     0    O-CTH nykRM-10
+    innards end_code end_plyr    wl
+39      D-F     O-PU nykRM-10 FALSE
+223             O-PU nykRM-38 FALSE
+  ALERT 2 rows of pass data end with pickup (PU)
+    poss_abs poss_rel point beg_event end_event desc n_inn beg_code beg_plyr
+39        11        1     5         4         6   aa     1    O-CTH  nykRM-6
+223       47        9    17        49        50   aa     0    O-CTH nykRM-10
+    innards end_code end_plyr    wl pclass
+39      D-F     O-PU nykRM-10 FALSE nopass
+223             O-PU nykRM-38 FALSE nopass
+  breakdown of passes:
+
+ compl  ofoul  taway   defd   drop nopass   <NA> 
+   398      1     14     26     21      5      0 
+  398/460 passes were completed (86.5%)
+  465 rows of pass data will be written
+  roster read for nykRM and bosWC
+  writing player stats to file: 15 for nykRM, 20 for bosWC
+  2014-07-19 14:09:37
+
