@@ -1,0 +1,31 @@
+2014-05-10_phlSP-at-bosWC > 07_resolve-passes.r:
+  610 rows of resolved game play found
+  480/483 rows of pass data are whitelisted (99.4%)
+  ALERT 3 rows of pass data are novel
+    poss_abs poss_rel point beg_event end_event desc n_inn beg_code beg_plyr
+64        10        2     5         7         9   aa     1     O-PU  bosWC-8
+343       57        1    33         4         6   aa     1    O-CTH  bosWC-7
+365       58        1    34        12        14   aa     1    O-CTH phlSP-13
+    innards end_code end_plyr    wl
+64      D-F     O-PU bosWC-14 FALSE
+343     D-F     O-PU  bosWC-3 FALSE
+365     D-F     O-PU phlSP-27 FALSE
+  ALERT 3 rows of pass data end with pickup (PU)
+    poss_abs poss_rel point beg_event end_event desc n_inn beg_code beg_plyr
+64        10        2     5         7         9   aa     1     O-PU  bosWC-8
+343       57        1    33         4         6   aa     1    O-CTH  bosWC-7
+365       58        1    34        12        14   aa     1    O-CTH phlSP-13
+    innards end_code end_plyr    wl pclass
+64      D-F     O-PU bosWC-14 FALSE nopass
+343     D-F     O-PU  bosWC-3 FALSE nopass
+365     D-F     O-PU phlSP-27 FALSE nopass
+  breakdown of passes:
+
+ compl  ofoul  taway   defd   drop nopass   <NA> 
+   446      2     16     11      5      3      0 
+  446/480 passes were completed (92.9%)
+  483 rows of pass data will be written
+  roster read for phlSP and bosWC
+  writing player stats to file: 21 for phlSP, 24 for bosWC
+  2014-07-19 09:28:40
+

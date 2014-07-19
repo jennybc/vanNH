@@ -1,0 +1,22 @@
+Pulling team: Philadelphia
+Period: 3
+Clock before point: 2:46:00
+Clock after point: 1:44:00
+Offense	Defense
+	1p
+4pu	
+13	
+4	
+	2pu
+	1
+	16
+	1
+	64
+	1
+	64
+	16
+	64
+	16
+	64
+	21
+	11lg

@@ -1,0 +1,15 @@
+2014-05-10_phlSP-at-bosWC > 09_vanNH-nowPlaying.rmd:
+  roster read for phlSP and bosWC
+  game YAML read; game status: complete
+  610 rows of game play found
+  46 rows of point info play found
+  ALERT point is missing time before and/or after:
+        point: 11 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 12 clk_before: NA clk_after: NA
+  ALERT point is missing time before and/or after:
+        point: 13 clk_before: NA clk_after: NA
+  scoring progression table has 46 rows
+[1] TRUE
+[1] TRUE
+[1] TRUE
