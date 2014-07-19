@@ -1,0 +1,13 @@
+2014-06-21_bosWC-at-nykRM > 07_resolve-passes.r:
+  605 rows of resolved game play found
+  474/474 rows of pass data are whitelisted (100.0%)
+  breakdown of passes:
+
+ compl  ofoul  taway   defd   drop nopass   <NA> 
+   424      1     13     21     12      3      0 
+  424/471 passes were completed (90.0%)
+  474 rows of pass data will be written
+  roster read for bosWC and nykRM
+  writing player stats to file: 23 for bosWC, 22 for nykRM
+  2014-07-19 14:48:40
+

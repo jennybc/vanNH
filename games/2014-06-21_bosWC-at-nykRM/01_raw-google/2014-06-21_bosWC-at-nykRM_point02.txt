@@ -1,0 +1,33 @@
+Pulling team: New York Rumble
+Period: 1
+Clock before point: 9:31:00
+Clock after point: 6:35:00
+Offense	Defense
+	81P
+00PU	
+13	
+7	
+21	
+1	
+	82D
+	24PU
+	47
+	24
+	47
+	5
+	24
+	27
+	21
+77f	81
+	5
+	47
+	82
+7PU	
+13	
+64	
+21	
+77L	27F
+7	
+1	
+13	
+7G	

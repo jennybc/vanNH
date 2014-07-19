@@ -1,0 +1,11 @@
+point: 40
+period: 4
+clk_before: '0:10:00'
+clk_after: '0:00:00'
+pull_team: bosWC
+n_poss: 1.0
+scor_team: nykRM
+h_or_b: hold
+bosWC: 21
+nykRM: 16
+

@@ -1,0 +1,86 @@
+period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code	n_events	huck	score	scor_team	who	a_code	b_code
+1	1	bosWC	8	1	1	nykRM	nykRM	6	G	8	FALSE	TRUE	nykRM	o_line	G	G
+1	2	nykRM	7	2	1	bosWC	nykRM	82	D	7	FALSE	FALSE	NA	o_line	D	def +
+1	2	nykRM	20	3	2	nykRM	nykRM	82	TA	13	FALSE	FALSE	NA	d_line	TA	off -
+1	2	nykRM	30	4	3	bosWC	bosWC	7	G	10	TRUE	TRUE	bosWC	o_line	G	G
+1	3	bosWC	10	5	1	nykRM	nykRM	6	G	10	FALSE	TRUE	nykRM	o_line	G	G
+1	4	nykRM	4	6	1	bosWC	bosWC	21	TD	4	FALSE	FALSE	NA	o_line	TD	off -
+1	4	nykRM	8	7	2	nykRM	nykRM	89	G	4	FALSE	TRUE	nykRM	d_line	G	G
+1	5	nykRM	10	8	1	bosWC	bosWC	17	G	10	FALSE	TRUE	bosWC	o_line	G	G
+1	6	bosWC	7	9	1	nykRM	bosWC	11	D	7	FALSE	FALSE	NA	o_line	D	def +
+1	6	bosWC	12	10	2	bosWC	bosWC	88	TA	5	FALSE	FALSE	NA	d_line	TA	off -
+1	6	bosWC	17	11	3	nykRM	nykRM	19	TA	5	FALSE	FALSE	NA	o_line	TA	off -
+1	6	bosWC	24	12	4	bosWC	nykRM	6	D	7	FALSE	FALSE	NA	d_line	D	def +
+1	6	bosWC	30	13	5	nykRM	nykRM	14	TD	6	FALSE	FALSE	NA	o_line	TD	off -
+1	6	bosWC	35	14	6	bosWC	nykRM	19	D	5	FALSE	FALSE	NA	d_line	D	def +
+1	6	bosWC	45	15	7	nykRM	nykRM	1	TA	10	FALSE	FALSE	NA	o_line	TA	off -
+1	6	bosWC	51	16	8	bosWC	nykRM	1	D	6	FALSE	FALSE	NA	d_line	D	def +
+1	6	bosWC	57	17	9	nykRM	nykRM	18	TA	6	FALSE	FALSE	NA	o_line	TA	off -
+1	6	bosWC	60	18	10	bosWC	bosWC	3	TD	3	FALSE	FALSE	NA	d_line	TD	off -
+1	6	bosWC	62	19	11	nykRM	nykRM	21	G	2	FALSE	TRUE	nykRM	o_line	G	G
+1	7	nykRM	8	20	1	bosWC	bosWC	43	G	8	FALSE	TRUE	bosWC	o_line	G	G
+1	8	bosWC	2	21	1	nykRM	nykRM	19	eop	2	FALSE	FALSE	NA	o_line	eop	eop
+2	9	nykRM	7	22	1	bosWC	bosWC	3	G	7	TRUE	TRUE	bosWC	o_line	G	G
+2	10	bosWC	8	23	1	nykRM	nykRM	33	VTT	8	FALSE	FALSE	NA	o_line	VTT	off -
+2	10	bosWC	18	24	2	bosWC	bosWC	88	TD	10	FALSE	FALSE	NA	d_line	TD	off -
+2	10	bosWC	22	25	3	nykRM	bosWC	14	D	4	FALSE	FALSE	NA	o_line	D	def +
+2	10	bosWC	25	26	4	bosWC	bosWC	11	TA	3	FALSE	FALSE	NA	d_line	TA	off -
+2	10	bosWC	27	27	5	nykRM	bosWC	27	D	2	FALSE	FALSE	NA	o_line	D	def +
+2	10	bosWC	29	28	6	bosWC	bosWC	11	LG	2	TRUE	TRUE	bosWC	d_line	G	G
+2	11	bosWC	7	29	1	nykRM	nykRM	27	TD	7	FALSE	FALSE	NA	o_line	TD	off -
+2	11	bosWC	9	30	2	bosWC	nykRM	1	D	2	FALSE	FALSE	NA	d_line	D	def +
+2	11	bosWC	11	31	3	nykRM	bosWC	17	D	2	FALSE	FALSE	NA	o_line	D	def +
+2	11	bosWC	20	32	4	bosWC	bosWC	21	TD	9	FALSE	FALSE	NA	d_line	TD	off -
+2	11	bosWC	26	33	5	nykRM	nykRM	82	LG	6	TRUE	TRUE	nykRM	o_line	G	G
+2	12	nykRM	9	34	1	bosWC	bosWC	8	G	9	FALSE	TRUE	bosWC	o_line	G	G
+2	13	bosWC	5	35	1	nykRM	nykRM	44	G	5	FALSE	TRUE	nykRM	o_line	G	G
+2	14	nykRM	10	36	1	bosWC	bosWC	1	G	10	TRUE	TRUE	bosWC	o_line	G	G
+2	15	bosWC	3	37	1	nykRM	nykRM	18	G	3	FALSE	TRUE	nykRM	o_line	G	G
+2	16	nykRM	8	38	1	bosWC	nykRM	27	D	8	FALSE	FALSE	NA	o_line	D	def +
+2	16	nykRM	12	39	2	nykRM	nykRM	81	TA	4	FALSE	FALSE	NA	d_line	TA	off -
+2	16	nykRM	19	40	3	bosWC	bosWC	77	TD	7	TRUE	FALSE	NA	o_line	TD	off -
+2	16	nykRM	23	41	4	nykRM	nykRM	81	TD	4	FALSE	FALSE	NA	d_line	TD	off -
+2	16	nykRM	28	42	5	bosWC	bosWC	3	G	5	FALSE	TRUE	bosWC	o_line	G	G
+2	17	bosWC	10	43	1	nykRM	nykRM	18	TD	10	FALSE	FALSE	NA	o_line	TD	off -
+2	17	bosWC	17	44	2	bosWC	bosWC	5	G	7	TRUE	TRUE	bosWC	d_line	G	G
+2	18	bosWC	8	45	1	nykRM	bosWC	77	eop	8	FALSE	FALSE	NA	o_line	eop	eop
+3	19	bosWC	6	46	1	nykRM	nykRM	26	TA	6	FALSE	FALSE	NA	o_line	TA	off -
+3	19	bosWC	11	47	2	bosWC	bosWC	11	G	5	FALSE	TRUE	bosWC	d_line	G	G
+3	20	bosWC	6	48	1	nykRM	nykRM	89	G	6	FALSE	TRUE	nykRM	o_line	G	G
+3	21	nykRM	8	49	1	bosWC	bosWC	13	TD	8	FALSE	FALSE	NA	o_line	TD	off -
+3	21	nykRM	21	50	2	nykRM	nykRM	89	TD	13	FALSE	FALSE	NA	d_line	TD	off -
+3	21	nykRM	30	51	3	bosWC	bosWC	7	G	9	FALSE	TRUE	bosWC	o_line	G	G
+3	22	bosWC	8	52	1	nykRM	nykRM	1	G	8	FALSE	TRUE	nykRM	o_line	G	G
+3	23	nykRM	3	53	1	bosWC	bosWC	13	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+3	23	nykRM	6	54	2	nykRM	bosWC	17	D	3	FALSE	FALSE	NA	d_line	D	def +
+3	23	nykRM	7	55	3	bosWC	bosWC	17	CG	1	FALSE	TRUE	bosWC	o_line	G	G
+3	24	nykRM	6	56	1	bosWC	nykRM	82	D	6	FALSE	FALSE	NA	o_line	D	def +
+3	24	nykRM	8	57	2	nykRM	nykRM	21	LG	2	TRUE	TRUE	nykRM	d_line	G	G
+3	25	nykRM	4	58	1	bosWC	nykRM	9	D	4	FALSE	FALSE	NA	o_line	D	def +
+3	25	nykRM	22	59	2	nykRM	nykRM	89	G	18	FALSE	TRUE	nykRM	d_line	G	G
+3	26	nykRM	17	60	1	bosWC	bosWC	43	G	17	FALSE	TRUE	bosWC	o_line	G	G
+3	27	bosWC	6	61	1	nykRM	nykRM	6	G	6	TRUE	TRUE	nykRM	o_line	G	G
+3	28	nykRM	12	62	1	bosWC	bosWC	13	G	12	FALSE	TRUE	bosWC	o_line	G	G
+3	29	bosWC	6	63	1	nykRM	nykRM	18	LG	6	TRUE	TRUE	nykRM	o_line	G	G
+3	30	nykRM	8	64	1	bosWC	bosWC	13	G	8	TRUE	TRUE	bosWC	o_line	G	G
+3	31	bosWC	10	65	1	nykRM	bosWC	27	D	10	FALSE	FALSE	NA	o_line	D	def +
+3	31	bosWC	15	66	2	bosWC	nykRM	44	D	5	FALSE	FALSE	NA	d_line	D	def +
+3	31	bosWC	21	67	3	nykRM	nykRM	4	TD	6	FALSE	FALSE	NA	o_line	TD	off -
+3	31	bosWC	27	68	4	bosWC	bosWC	88	G	6	FALSE	TRUE	bosWC	d_line	G	G
+3	32	bosWC	5	69	1	nykRM	nykRM	82	eop	5	FALSE	FALSE	NA	o_line	eop	eop
+4	33	nykRM	15	70	1	bosWC	bosWC	7	G	15	FALSE	TRUE	bosWC	o_line	G	G
+4	34	bosWC	14	71	1	nykRM	nykRM	1	G	14	FALSE	TRUE	nykRM	o_line	G	G
+4	35	nykRM	10	72	1	bosWC	nykRM	89	D	10	FALSE	FALSE	NA	o_line	D	def +
+4	35	nykRM	26	73	2	nykRM	bosWC	29	D	16	FALSE	FALSE	NA	d_line	D	def +
+4	35	nykRM	41	74	3	bosWC	bosWC	17	G	15	FALSE	TRUE	bosWC	o_line	G	G
+4	36	bosWC	7	75	1	nykRM	nykRM	18	TA	7	FALSE	FALSE	NA	o_line	TA	off -
+4	36	bosWC	11	76	2	bosWC	bosWC	6	TA	4	FALSE	FALSE	NA	d_line	TA	off -
+4	36	bosWC	13	77	3	nykRM	bosWC	6	D	2	FALSE	FALSE	NA	o_line	D	def +
+4	36	bosWC	19	78	4	bosWC	bosWC	2	TA	6	FALSE	FALSE	NA	d_line	TA	off -
+4	36	bosWC	24	79	5	nykRM	nykRM	33	G	5	FALSE	TRUE	nykRM	o_line	G	G
+4	37	nykRM	5	80	1	bosWC	bosWC	77	LG	5	TRUE	TRUE	bosWC	o_line	G	G
+4	38	bosWC	11	81	1	nykRM	bosWC	88	D	11	FALSE	FALSE	NA	o_line	D	def +
+4	38	bosWC	18	82	2	bosWC	bosWC	29	G	7	FALSE	TRUE	bosWC	d_line	G	G
+4	39	bosWC	7	83	1	nykRM	bosWC	2	D	7	FALSE	FALSE	NA	o_line	D	def +
+4	39	bosWC	29	84	2	bosWC	bosWC	43	G	22	FALSE	TRUE	bosWC	d_line	G	G
+4	40	bosWC	6	85	1	nykRM	nykRM	44	G	6	FALSE	TRUE	nykRM	o_line	G	G

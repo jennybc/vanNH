@@ -1,0 +1,41 @@
+point	Pulling.team	Period	Clock.before.point	Clock.after.point
+1	Boston Whitecaps	1	10:00:00	9:31:00
+2	New York Rumble	1	9:31:00	6:35:00
+3	Boston Whitecaps	1	6:35:00	6:02:00
+4	New York Rumble	1	6:02:00	5:43:00
+5	New York Rumble	1	5:43:00	5:13:00
+6	Boston Whitecaps	1	5:13:00	0:24:00
+7	New York Rumble	1	0:24:00	0:01:00
+8	Boston Whitecaps	1	0:01:00	0:00:00
+9	New York Rumble	2	10:00:00	9:32:00
+10	Boston Whitecaps	2	9:32:00	6:47:00
+11	Boston Whitecaps	2	6:47:00	4:31:00
+12	New York Rumble	2	4:31:00	4:02:00
+13	Boston Whitecaps	2	4:02:00	3:47:00
+14	New York Rumble	2	3:47:00	3:14:00
+15	Boston Whitecaps	2	3:14:00	2:56:00
+16	New York Rumble	2	2:56:00	0:45:00
+17	Boston Whitecaps	2	0:45:00	0:03:00
+18	Boston Whitecaps	2	0:03:00	0:00:00
+19	Boston Whitecaps	3	10:00:00	8:59:00
+20	Boston Whitecaps	3	8:59:00	8:40:00
+21	New York Rumble	3	8:40:00	6:40:00
+22	Boston Whitecaps	3	6:40:00	6:20:00
+23	New York Rumble	3	6:20:00	5:38:00
+24	New York Rumble	3	5:38:00	5:16:00
+25	New York Rumble	3	5:16:00	4:05:00
+26	New York Rumble	3	4:05:00	3:19:00
+27	Boston Whitecaps	3	3:19:00	2:55:00
+28	New York Rumble	3	2:55:00	2:18:00
+29	Boston Whitecaps	3	2:18:00	2:05:00
+30	New York Rumble	3	2:05:00	1:42:00
+31	Boston Whitecaps	3	1:42:00	0:08:00
+32	Boston Whitecaps	3	0:08:00	0:00:00
+33	New York Rumble	4	10:00:00	9:07:00
+34	Boston Whitecaps	4	9:07:00	8:05:00
+35	New York Rumble	4	8:05:00	5:25:00
+36	Boston Whitecaps	4	5:25:00	3:45:00
+37	New York Rumble	4	3:45:00	3:28:00
+38	Boston Whitecaps	4	3:28:00	2:01:00
+39	Boston Whitecaps	4	2:01:00	0:10:00
+40	Boston Whitecaps	4	0:10:00	0:00:00
