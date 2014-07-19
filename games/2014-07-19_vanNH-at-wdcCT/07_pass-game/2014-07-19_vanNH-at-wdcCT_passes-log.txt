@@ -1,5 +1,5 @@
 2014-07-19_vanNH-at-wdcCT > 07_resolve-passes.r:
-  263 rows of resolved game play found
+  262 rows of resolved game play found
   206/207 rows of pass data are whitelisted (99.5%)
   ALERT 1 rows of pass data are novel
     poss_abs poss_rel point beg_event end_event desc n_inn beg_code beg_plyr
@@ -19,5 +19,5 @@
   207 rows of pass data will be written
   roster read for vanNH and wdcCT
   writing player stats to file: 19 for vanNH, 25 for wdcCT
-  2014-07-19 16:46:49
+  2014-07-19 16:51:40
 

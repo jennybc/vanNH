@@ -36,5 +36,4 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 2	18	wdcCT	4	35	1	vanNH	wdcCT	22	D	4	FALSE	FALSE	NA	o_line	D	def +
 2	18	wdcCT	16	36	2	wdcCT	wdcCT	25	G	12	FALSE	TRUE	wdcCT	d_line	G	G
 2	19	wdcCT	4	37	1	vanNH	vanNH	5	TA	4	FALSE	FALSE	NA	o_line	TA	off -
-2	19	wdcCT	13	38	2	wdcCT	vanNH	18	D	9	FALSE	FALSE	NA	d_line	D	def +
-2	19	wdcCT	14	NA	NA	NA	vanNH		eop	1	FALSE	FALSE	NA	NA	eop	eop
+2	19	wdcCT	13	38	2	wdcCT	vanNH	18	eop	9	FALSE	FALSE	NA	d_line	eop	eop

@@ -1,12 +1,16 @@
 Loading required package: methods
 2014-07-19_vanNH-at-wdcCT > 09_vanNH-nowPlaying.rmd:
+The following `from` values were not present in `x`: pdxST
   roster read for vanNH and wdcCT
   game YAML read; game status: live
-  263 rows of game play found
+  262 rows of game play found
   20 rows of point info play found
   ALERT point is missing time before and/or after:
         point: 20 clk_before: NA clk_after: NA
   scoring progression table has 20 rows
+Warning messages:
+1: Removed 1 rows containing missing values (position_stack). 
+2: Removed 1 rows containing missing values (geom_text). 
 [1] TRUE
 [1] TRUE
 [1] TRUE
