@@ -1,0 +1,27 @@
+Pulling team: New York
+Period: 1
+Clock before point: 10:00:00
+Clock after point: 8:26:00
+Offense	Defense
+	6p
+20pu	
+7	
+27	
+7	
+1td	
+	6pu
+	38
+	5
+	27
+	5
+	13td
+25pu	
+7	
+27	
+7	
+20	
+7	
+9	
+20l	
+25	
+7g	
