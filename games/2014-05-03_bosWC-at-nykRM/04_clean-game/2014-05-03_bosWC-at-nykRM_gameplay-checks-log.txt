@@ -1,0 +1,9 @@
+2014-05-03_bosWC-at-nykRM > 05_sanity-check-game-play.r:
+  538 rows of clean game play found
+
+  ALERT: point(s) with NO explicit pickup (PU, PUA) off the pull
+    point event pull_pnum pull_code recv_pnum recv_code
+534    39     2                             6        TO
+  sanity checks of clean game play DONE
+  2014-07-19 09:19:18
+

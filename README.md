@@ -8,6 +8,7 @@ In-house statistics for the Vancouver Nighthawks of Major League Ultimate
 To do
 
   * 2014-04-19_phlSP-at-nykRM point 36: the second event is coded `TD` instead of `PU`; the player attempted to catch the pull but dropped it ...that's the first case of this; I need to take a deliberate look at what all my scripts do with that
+  * 2014-05-03_bosWC-at-nykRM point 39: the second event is coded `TO` instead of `PU`; apparently there was a timeout called even before a pickup;  I need to take a deliberate look at what all my scripts do with that
   * take comprehensive look at what's character vs factor
   * sort out the offline access for Google spreadsheet
   * add a comment column *have asked MLU to bless this but no response*
