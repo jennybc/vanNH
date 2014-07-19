@@ -1,0 +1,715 @@
+period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
+1	1	phlSP	1	1	1	bosWC	phlSP	1	P
+1	1	phlSP	2	1	1	bosWC	bosWC	00	PU
+1	1	phlSP	3	1	1	bosWC	bosWC	13	
+1	1	phlSP	4	1	1	bosWC	bosWC	1	
+1	1	phlSP	5	1	1	bosWC	bosWC	18	
+1	1	phlSP	6	1	1	bosWC	bosWC	8	A
+1	1	phlSP	7	1	1	bosWC	bosWC	1	G
+1	2	bosWC	1	2	1	phlSP	bosWC	43	P
+1	2	bosWC	2	2	1	phlSP	phlSP	7	PU
+1	2	bosWC	3	2	1	phlSP	phlSP	27	
+1	2	bosWC	4	2	1	phlSP	phlSP	7	
+1	2	bosWC	5	2	1	phlSP	phlSP	13	
+1	2	bosWC	6	2	1	phlSP	phlSP	14	
+1	2	bosWC	7	2	1	phlSP	phlSP	25	
+1	2	bosWC	8	2	1	phlSP	phlSP	27	
+1	2	bosWC	9	2	1	phlSP	phlSP	25	
+1	2	bosWC	10	2	1	phlSP	phlSP	13	
+1	2	bosWC	11	2	1	phlSP	phlSP	14	
+1	2	bosWC	12	2	1	phlSP	phlSP	7	
+1	2	bosWC	13	2	1	phlSP	phlSP	13	A
+1	2	bosWC	14	2	1	phlSP	phlSP	9	G
+1	3	phlSP	1	3	1	bosWC	phlSP	1	OBP
+1	3	phlSP	2	3	1	bosWC	bosWC	13	PU
+1	3	phlSP	3	3	1	bosWC	bosWC	8	
+1	3	phlSP	4	3	1	bosWC	bosWC	13	
+1	3	phlSP	5	3	1	bosWC	bosWC	1	
+1	3	phlSP	6	3	1	bosWC	bosWC	8	
+1	3	phlSP	7	3	1	bosWC	bosWC	13	
+1	3	phlSP	8	3	1	bosWC	bosWC	64	
+1	3	phlSP	9	3	1	bosWC	bosWC	00	
+1	3	phlSP	10	3	1	bosWC	bosWC	13	
+1	3	phlSP	11	3	1	bosWC	bosWC	18	A
+1	3	phlSP	12	3	1	bosWC	bosWC	9	G
+1	4	bosWC	1	4	1	phlSP	bosWC	43	P
+1	4	bosWC	2	4	1	phlSP	phlSP	25	PU
+1	4	bosWC	3	4	1	phlSP	phlSP	13	
+1	4	bosWC	4	4	1	phlSP	phlSP	7	A
+1	4	bosWC	5	4	1	phlSP	phlSP	9	LG
+1	5	phlSP	1	5	1	bosWC	phlSP	20	P
+1	5	phlSP	2	5	1	bosWC	bosWC	13	PU
+1	5	phlSP	3	5	1	bosWC	bosWC	8	
+1	5	phlSP	4	5	1	bosWC	bosWC	1	
+1	5	phlSP	5	5	1	bosWC	bosWC	9	
+1	5	phlSP	6	5	1	bosWC	bosWC	3	
+1	5	phlSP	7	5	1	bosWC	bosWC	29	A
+1	5	phlSP	8	5	1	bosWC	bosWC	13	LG
+1	6	bosWC	1	6	1	phlSP	bosWC	43	P
+1	6	bosWC	2	6	1	phlSP	phlSP	25	PU
+1	6	bosWC	3	6	1	phlSP	phlSP	13	
+1	6	bosWC	4	6	1	phlSP	phlSP	25	
+1	6	bosWC	5	6	1	phlSP	phlSP	4	
+1	6	bosWC	6	6	1	phlSP	phlSP	14	
+1	6	bosWC	7	6	1	phlSP	phlSP	27	
+1	6	bosWC	8	6	1	phlSP	phlSP	9	LA
+1	6	bosWC	9	6	1	phlSP	phlSP	4	G
+1	7	phlSP	1	7	1	bosWC	phlSP	1	P
+1	7	phlSP	2	7	1	bosWC	bosWC	00	PU
+1	7	phlSP	3	7	1	bosWC	bosWC	13	
+1	7	phlSP	4	7	1	bosWC	bosWC	00	
+1	7	phlSP	5	7	1	bosWC	bosWC	8	
+1	7	phlSP	6	7	1	bosWC	bosWC	13	A
+1	7	phlSP	7	7	1	bosWC	bosWC	9	LG
+1	8	bosWC	1	8	1	phlSP	bosWC	43	P
+1	8	bosWC	2	8	1	phlSP	phlSP	20	PU
+1	8	bosWC	3	8	1	phlSP	phlSP	7	
+1	8	bosWC	4	8	1	phlSP	phlSP	27	
+1	8	bosWC	5	8	1	phlSP	phlSP	25	
+1	8	bosWC	6	8	1	phlSP	phlSP	7	
+1	8	bosWC	7	8	1	phlSP	bosWC	10	F
+1	8	bosWC	8	8	1	phlSP	phlSP	25	
+1	8	bosWC	9	8	1	phlSP	phlSP	20	
+1	8	bosWC	10	8	1	phlSP	phlSP	7	
+1	8	bosWC	11	8	1	phlSP	phlSP	20	
+1	8	bosWC	12	8	1	phlSP	phlSP	11	
+1	8	bosWC	13	8	1	phlSP	phlSP	14	
+1	8	bosWC	14	8	1	phlSP	phlSP	25	
+1	8	bosWC	15	8	1	phlSP	phlSP	27	A
+1	8	bosWC	16	8	1	phlSP	phlSP	11	G
+1	9	phlSP	1	9	1	bosWC	phlSP	28	P
+1	9	phlSP	2	9	1	bosWC	bosWC	00	PU
+1	9	phlSP	3	9	1	bosWC	bosWC	13	
+1	9	phlSP	4	9	1	bosWC	bosWC	9	
+1	9	phlSP	5	9	1	bosWC	bosWC	12	
+1	9	phlSP	6	9	1	bosWC	bosWC	00	
+1	9	phlSP	7	9	1	bosWC	bosWC	13	
+1	9	phlSP	8	9	1	bosWC	bosWC	29	A
+1	9	phlSP	9	9	1	bosWC	bosWC	64	G
+1	10	bosWC	1	10	1	phlSP	bosWC	43	P
+1	10	bosWC	2	10	1	phlSP	phlSP	13	PU
+1	10	bosWC	3	10	1	phlSP	phlSP	7	
+1	10	bosWC	4	10	1	phlSP	phlSP	13	
+1	10	bosWC	5	10	1	phlSP	phlSP	7	
+1	10	bosWC	6	10	1	phlSP	phlSP	27	
+1	10	bosWC	7	10	1	phlSP	phlSP	71	
+1	10	bosWC	8	10	1	phlSP	phlSP	13	
+1	10	bosWC	9	10	1	phlSP	phlSP	71	
+1	10	bosWC	10	10	1	phlSP	phlSP	11	
+1	10	bosWC	11	10	1	phlSP	phlSP	7	
+1	10	bosWC	12	10	1	phlSP	phlSP	13	
+1	10	bosWC	13	10	1	phlSP	phlSP	25	
+1	10	bosWC	14	10	1	phlSP	phlSP	14	
+1	10	bosWC	15	10	1	phlSP	bosWC	4	D
+1	10	bosWC	16	11	2	bosWC	bosWC	4	PU
+1	10	bosWC	17	11	2	bosWC	bosWC	10	
+1	10	bosWC	18	11	2	bosWC	bosWC	12	A
+1	10	bosWC	19	11	2	bosWC	bosWC	27	G
+1	11	bosWC	1	12	1	phlSP	bosWC	18	P
+1	11	bosWC	2	12	1	phlSP	phlSP	20	PU
+1	11	bosWC	3	12	1	phlSP	bosWC	00	D
+1	11	bosWC	4	13	2	bosWC	bosWC	00	PU
+1	11	bosWC	5	13	2	bosWC	bosWC	8	
+1	11	bosWC	6	13	2	bosWC	bosWC	00	
+1	11	bosWC	7	13	2	bosWC	bosWC	8	
+1	11	bosWC	8	13	2	bosWC	bosWC	1	A
+1	11	bosWC	9	13	2	bosWC	bosWC	9	G
+1	12	bosWC	1	14	1	phlSP	bosWC	18	P
+1	12	bosWC	2	14	1	phlSP	phlSP	13	PU
+1	12	bosWC	3	14	1	phlSP	phlSP	7	
+1	12	bosWC	4	14	1	phlSP	phlSP	27	
+1	12	bosWC	5	14	1	phlSP	phlSP	11	
+1	12	bosWC	6	14	1	phlSP	phlSP	27	
+1	12	bosWC	7	14	1	phlSP	phlSP	7	
+1	12	bosWC	8	14	1	phlSP	phlSP	9	
+1	12	bosWC	9	15	2	bosWC	bosWC	00	PU
+1	12	bosWC	10	15	2	bosWC	bosWC	18	
+1	12	bosWC	11	15	2	bosWC	bosWC	29	TD
+1	12	bosWC	12	16	3	phlSP	phlSP	25	PU
+1	12	bosWC	13	16	3	phlSP	phlSP	7	
+1	12	bosWC	14	16	3	phlSP	phlSP	11	
+1	12	bosWC	15	16	3	phlSP	phlSP	9	A
+1	12	bosWC	16	16	3	phlSP	phlSP	11	G
+1	13	phlSP	1	17	1	bosWC	phlSP	1	P
+1	13	phlSP	2	17	1	bosWC	bosWC	21	PU
+1	13	phlSP	3	17	1	bosWC	bosWC	4	
+1	13	phlSP	4	17	1	bosWC	bosWC	21	LA
+1	13	phlSP	5	17	1	bosWC	bosWC	27	G
+1	13	phlSP	6	17	1	bosWC	phlSP	64	F
+1	14	bosWC	1	18	1	phlSP	bosWC	18	P
+1	14	bosWC	2	18	1	phlSP	phlSP	25	PU
+1	14	bosWC	3	18	1	phlSP	phlSP	13	
+1	14	bosWC	4	18	1	phlSP	phlSP	7	
+1	14	bosWC	5	18	1	phlSP	phlSP	13	
+1	14	bosWC	6	18	1	phlSP	phlSP	4	
+1	14	bosWC	7	18	1	phlSP	phlSP	25	
+1	14	bosWC	8	18	1	phlSP	phlSP	14	A
+1	14	bosWC	9	18	1	phlSP	phlSP	11	LG
+1	15	phlSP	1	19	1	bosWC	phlSP	20	P
+1	15	phlSP	2	19	1	bosWC	bosWC	10	PU
+1	15	phlSP	3	19	1	bosWC	bosWC	4	
+1	15	phlSP	4	19	1	bosWC	bosWC	21	
+1	15	phlSP	5	19	1	bosWC	bosWC	17	
+1	15	phlSP	6	19	1	bosWC	bosWC	21	
+1	15	phlSP	7	19	1	bosWC	bosWC	27	A
+1	15	phlSP	8	19	1	bosWC	bosWC	43	G
+1	16	bosWC	1	20	1	phlSP	bosWC	18	P
+1	16	bosWC	2	20	1	phlSP	phlSP	13	PU
+1	16	bosWC	3	20	1	phlSP	phlSP	7	
+1	16	bosWC	4	20	1	phlSP	phlSP	13	
+1	16	bosWC	5	20	1	phlSP	phlSP	14	
+1	16	bosWC	6	20	1	phlSP	phlSP	7	
+1	16	bosWC	7	20	1	phlSP	phlSP	13	
+1	16	bosWC	8	20	1	phlSP	phlSP	14	
+1	16	bosWC	9	20	1	phlSP	phlSP	13	
+1	16	bosWC	10	20	1	phlSP	phlSP	27	
+1	16	bosWC	11	20	1	phlSP	phlSP	25	A
+1	16	bosWC	12	20	1	phlSP	phlSP	7	G
+1	17	phlSP	1	21	1	bosWC	phlSP	1	OBP
+1	17	phlSP	2	21	1	bosWC	bosWC	4	PU
+1	17	phlSP	3	21	1	bosWC	bosWC	21	
+1	17	phlSP	4	21	1	bosWC	bosWC	10	
+1	17	phlSP	5	21	1	bosWC	bosWC	43	
+1	17	phlSP	6	21	1	bosWC	bosWC	4	
+1	17	phlSP	7	21	1	bosWC	phlSP	21	F
+1	17	phlSP	8	21	1	bosWC	bosWC	10	
+1	17	phlSP	9	21	1	bosWC	bosWC	4	
+1	17	phlSP	10	21	1	bosWC	bosWC	17	
+1	17	phlSP	11	21	1	bosWC	bosWC	10	
+1	17	phlSP	12	21	1	bosWC	bosWC	43	A
+1	17	phlSP	13	21	1	bosWC	bosWC	21	G
+1	18	bosWC	1	22	1	phlSP	bosWC	18	P
+1	18	bosWC	2	22	1	phlSP	phlSP	25	PU
+1	18	bosWC	3	22	1	phlSP	phlSP	7	
+1	18	bosWC	4	22	1	phlSP	phlSP	71	
+1	18	bosWC	5	22	1	phlSP	phlSP	7	A
+1	18	bosWC	6	22	1	phlSP	phlSP	27	LG
+1	19	phlSP	1	23	1	bosWC	phlSP	11	P
+1	19	phlSP	2	23	1	bosWC	bosWC	21	PU
+1	19	phlSP	3	23	1	bosWC	bosWC	43	
+1	19	phlSP	4	23	1	bosWC	bosWC	4	
+1	19	phlSP	5	23	1	bosWC	phlSP	25	D
+2	20	bosWC	1	24	1	phlSP	bosWC	18	P
+2	20	bosWC	2	24	1	phlSP	phlSP	13	PU
+2	20	bosWC	3	24	1	phlSP	phlSP	7	
+2	20	bosWC	4	24	1	phlSP	phlSP	13	
+2	20	bosWC	5	24	1	phlSP	phlSP	14	
+2	20	bosWC	6	24	1	phlSP	phlSP	7	
+2	20	bosWC	7	24	1	phlSP	phlSP	13	
+2	20	bosWC	8	24	1	phlSP	phlSP	14	
+2	20	bosWC	9	24	1	phlSP	phlSP	13	
+2	20	bosWC	10	24	1	phlSP	phlSP	7	
+2	20	bosWC	11	24	1	phlSP	phlSP	13	
+2	20	bosWC	12	24	1	phlSP	bosWC	13	F
+2	20	bosWC	13	24	1	phlSP	phlSP	7	
+2	20	bosWC	14	24	1	phlSP	phlSP	27	
+2	20	bosWC	15	24	1	phlSP	phlSP	7	
+2	20	bosWC	16	24	1	phlSP	phlSP	27	
+2	20	bosWC	17	24	1	phlSP	phlSP	25	
+2	20	bosWC	18	24	1	phlSP	phlSP	27	
+2	20	bosWC	19	24	1	phlSP	phlSP	14	
+2	20	bosWC	20	24	1	phlSP	phlSP	27	
+2	20	bosWC	21	24	1	phlSP	phlSP	14	
+2	20	bosWC	22	24	1	phlSP	phlSP	7	
+2	20	bosWC	23	24	1	phlSP	phlSP	27	A
+2	20	bosWC	24	24	1	phlSP	phlSP	25	G
+2	21	phlSP	1	25	1	bosWC	phlSP	1	P
+2	21	phlSP	2	25	1	bosWC	bosWC	4	PU
+2	21	phlSP	3	25	1	bosWC	bosWC	10	
+2	21	phlSP	4	25	1	bosWC	bosWC	4	
+2	21	phlSP	5	25	1	bosWC	bosWC	10	
+2	21	phlSP	6	25	1	bosWC	bosWC	3	
+2	21	phlSP	7	25	1	bosWC	bosWC	43	
+2	21	phlSP	8	25	1	bosWC	bosWC	4	A
+2	21	phlSP	9	25	1	bosWC	bosWC	21	LG
+2	22	bosWC	1	26	1	phlSP	bosWC	18	P
+2	22	bosWC	2	26	1	phlSP	phlSP	25	PU
+2	22	bosWC	3	26	1	phlSP	phlSP	13	
+2	22	bosWC	4	26	1	phlSP	phlSP	7	
+2	22	bosWC	5	26	1	phlSP	phlSP	13	
+2	22	bosWC	6	26	1	phlSP	phlSP	9	
+2	22	bosWC	7	26	1	phlSP	phlSP	14	
+2	22	bosWC	8	26	1	phlSP	phlSP	13	
+2	22	bosWC	9	26	1	phlSP	phlSP	9	
+2	22	bosWC	10	26	1	phlSP	phlSP	11	A
+2	22	bosWC	11	26	1	phlSP	phlSP	27	G
+2	23	phlSP	1	27	1	bosWC	phlSP	20	P
+2	23	phlSP	2	27	1	bosWC	bosWC	10	PU
+2	23	phlSP	3	27	1	bosWC	bosWC	4	
+2	23	phlSP	4	27	1	bosWC	bosWC	21	
+2	23	phlSP	5	27	1	bosWC	bosWC	4	
+2	23	phlSP	6	28	2	phlSP	phlSP	64	PU
+2	23	phlSP	7	28	2	phlSP	phlSP	20	
+2	23	phlSP	8	28	2	phlSP	phlSP	64	
+2	23	phlSP	9	28	2	phlSP	phlSP	21	
+2	23	phlSP	10	28	2	phlSP	phlSP	28	
+2	23	phlSP	11	28	2	phlSP	phlSP	21	A
+2	23	phlSP	12	28	2	phlSP	phlSP	27	G
+2	24	phlSP	1	29	1	bosWC	phlSP	16	P
+2	24	phlSP	2	29	1	bosWC	bosWC	00	PU
+2	24	phlSP	3	29	1	bosWC	bosWC	13	
+2	24	phlSP	4	29	1	bosWC	bosWC	1	
+2	24	phlSP	5	29	1	bosWC	bosWC	29	
+2	24	phlSP	6	29	1	bosWC	bosWC	9	
+2	24	phlSP	7	29	1	bosWC	bosWC	18	TD
+2	24	phlSP	8	30	2	phlSP	phlSP	77	PU
+2	24	phlSP	9	30	2	phlSP	phlSP	16	
+2	24	phlSP	10	30	2	phlSP	phlSP	33	
+2	24	phlSP	11	30	2	phlSP	phlSP	2	
+2	24	phlSP	12	30	2	phlSP	phlSP	12	
+2	24	phlSP	13	30	2	phlSP	phlSP	33	
+2	24	phlSP	14	30	2	phlSP	phlSP	77	
+2	24	phlSP	15	30	2	phlSP	phlSP	4	
+2	24	phlSP	16	30	2	phlSP	phlSP	16	
+2	24	phlSP	17	30	2	phlSP	phlSP	2	
+2	24	phlSP	18	30	2	phlSP	phlSP	77	
+2	24	phlSP	19	30	2	phlSP	phlSP	33	
+2	24	phlSP	20	30	2	phlSP	phlSP	22	
+2	24	phlSP	21	30	2	phlSP	phlSP	4	
+2	24	phlSP	22	30	2	phlSP	phlSP	77	
+2	24	phlSP	23	30	2	phlSP	phlSP	2	
+2	24	phlSP	24	30	2	phlSP	bosWC	1	HB
+2	24	phlSP	25	31	3	bosWC	bosWC	00	TO
+2	24	phlSP	26	31	3	bosWC	bosWC	4	PU
+2	24	phlSP	27	31	3	bosWC	bosWC	1	
+2	24	phlSP	28	31	3	bosWC	bosWC	4	
+2	24	phlSP	29	31	3	bosWC	bosWC	21	
+2	24	phlSP	30	31	3	bosWC	phlSP	10	F
+2	24	phlSP	31	31	3	bosWC	bosWC	27	
+2	24	phlSP	32	31	3	bosWC	bosWC	17	
+2	24	phlSP	33	31	3	bosWC	bosWC	4	
+2	24	phlSP	34	31	3	bosWC	bosWC	4	SO
+2	24	phlSP	35	31	3	bosWC	bosWC	8	SI
+2	24	phlSP	36	31	3	bosWC	bosWC	8	PUA
+2	24	phlSP	37	31	3	bosWC	bosWC	13	G
+2	25	bosWC	1	32	1	phlSP	bosWC	43	P
+2	25	bosWC	2	32	1	phlSP	phlSP	13	PU
+2	25	bosWC	3	32	1	phlSP	phlSP	7	
+2	25	bosWC	4	32	1	phlSP	phlSP	13	
+2	25	bosWC	5	32	1	phlSP	phlSP	14	
+2	25	bosWC	6	32	1	phlSP	phlSP	7	
+2	25	bosWC	7	32	1	phlSP	phlSP	27	
+2	25	bosWC	8	32	1	phlSP	phlSP	7	
+2	25	bosWC	9	32	1	phlSP	phlSP	13	
+2	25	bosWC	10	32	1	phlSP	phlSP	25	
+2	25	bosWC	11	32	1	phlSP	phlSP	7	
+2	25	bosWC	12	32	1	phlSP	phlSP	13	
+2	25	bosWC	13	32	1	phlSP	phlSP	14	
+2	25	bosWC	14	32	1	phlSP	phlSP	25	
+2	25	bosWC	15	32	1	phlSP	phlSP	7	
+2	25	bosWC	16	32	1	phlSP	phlSP	9	
+2	25	bosWC	17	32	1	phlSP	phlSP	14	
+2	25	bosWC	18	32	1	phlSP	phlSP	7	
+2	25	bosWC	19	32	1	phlSP	phlSP	13	
+2	25	bosWC	20	32	1	phlSP	phlSP	7	
+2	25	bosWC	21	32	1	phlSP	phlSP	25	
+2	25	bosWC	22	32	1	phlSP	phlSP	27	
+2	25	bosWC	23	32	1	phlSP	phlSP	13	
+2	25	bosWC	24	32	1	phlSP	phlSP	7	A
+2	25	bosWC	25	32	1	phlSP	phlSP	13	G
+2	26	phlSP	1	33	1	bosWC	phlSP	1	P
+2	26	phlSP	2	33	1	bosWC	bosWC	00	PU
+2	26	phlSP	3	33	1	bosWC	bosWC	13	
+2	26	phlSP	4	33	1	bosWC	phlSP	2	D
+2	26	phlSP	5	34	2	phlSP	phlSP	2	PU
+2	26	phlSP	6	34	2	phlSP	phlSP	1	
+2	26	phlSP	7	34	2	phlSP	phlSP	21	
+2	26	phlSP	8	34	2	phlSP	phlSP	1	
+2	26	phlSP	9	34	2	phlSP	phlSP	64	
+2	26	phlSP	10	34	2	phlSP	phlSP	21	
+2	26	phlSP	11	34	2	phlSP	phlSP	16	
+2	26	phlSP	12	34	2	phlSP	phlSP	22	
+2	26	phlSP	13	34	2	phlSP	phlSP	2	
+2	26	phlSP	14	34	2	phlSP	phlSP	64	
+2	26	phlSP	15	34	2	phlSP	bosWC	17	F
+2	26	phlSP	16	34	2	phlSP	phlSP	21	
+2	26	phlSP	17	34	2	phlSP	phlSP	64	
+2	26	phlSP	18	34	2	phlSP	phlSP	21	
+2	26	phlSP	19	34	2	phlSP	phlSP	2	A
+2	26	phlSP	20	34	2	phlSP	phlSP	16	G
+2	27	phlSP	1	35	1	bosWC	phlSP	11	P
+2	27	phlSP	2	35	1	bosWC	bosWC	8	PU
+2	27	phlSP	3	35	1	bosWC	bosWC	4	
+2	27	phlSP	4	35	1	bosWC	bosWC	10	
+2	27	phlSP	5	35	1	bosWC	bosWC	4	
+2	27	phlSP	6	35	1	bosWC	bosWC	10	
+2	27	phlSP	7	35	1	bosWC	bosWC	8	
+2	27	phlSP	8	35	1	bosWC	bosWC	10	
+2	27	phlSP	9	35	1	bosWC	bosWC	43	
+2	27	phlSP	10	35	1	bosWC	bosWC	10	
+2	27	phlSP	11	35	1	bosWC	bosWC	9	
+2	27	phlSP	12	35	1	bosWC	bosWC	10	
+2	27	phlSP	13	35	1	bosWC	bosWC	8	
+2	27	phlSP	14	35	1	bosWC	bosWC	4	A
+2	27	phlSP	15	35	1	bosWC	bosWC	9	LG
+2	28	bosWC	1	36	1	phlSP	bosWC	18	P
+2	28	bosWC	2	36	1	phlSP	phlSP	20	PU
+2	28	bosWC	3	36	1	phlSP	phlSP	7	
+2	28	bosWC	4	36	1	phlSP	phlSP	71	
+2	28	bosWC	5	36	1	phlSP	phlSP	27	
+2	28	bosWC	6	36	1	phlSP	phlSP	9	
+2	28	bosWC	7	36	1	phlSP	phlSP	27	
+2	28	bosWC	8	36	1	phlSP	phlSP	7	
+2	28	bosWC	9	36	1	phlSP	phlSP	9	
+2	28	bosWC	10	36	1	phlSP	bosWC	17	F
+2	28	bosWC	11	37	2	bosWC	bosWC	13	PU
+2	28	bosWC	12	37	2	bosWC	bosWC	21	
+2	28	bosWC	13	37	2	bosWC	bosWC	18	
+2	28	bosWC	14	37	2	bosWC	phlSP	9	D
+2	28	bosWC	15	38	3	phlSP	phlSP	9	PU
+2	28	bosWC	16	38	3	phlSP	phlSP	25	
+2	28	bosWC	17	38	3	phlSP	phlSP	20	
+2	28	bosWC	18	38	3	phlSP	phlSP	27	
+2	28	bosWC	19	38	3	phlSP	phlSP	71	
+3	29	phlSP	1	39	1	bosWC	phlSP	1	P
+3	29	phlSP	2	39	1	bosWC	bosWC	10	PU
+3	29	phlSP	3	39	1	bosWC	bosWC	4	
+3	29	phlSP	4	39	1	bosWC	bosWC	21	
+3	29	phlSP	5	39	1	bosWC	phlSP	21	D
+3	29	phlSP	6	40	2	phlSP	phlSP	64	PU
+3	29	phlSP	7	40	2	phlSP	phlSP	21	
+3	29	phlSP	8	40	2	phlSP	phlSP	64	
+3	29	phlSP	9	40	2	phlSP	phlSP	21	
+3	29	phlSP	10	40	2	phlSP	phlSP	2	
+3	29	phlSP	11	40	2	phlSP	phlSP	64	A
+3	29	phlSP	12	40	2	phlSP	phlSP	2	G
+3	30	phlSP	1	41	1	bosWC	phlSP	20	P
+3	30	phlSP	2	41	1	bosWC	bosWC	00	PU
+3	30	phlSP	3	41	1	bosWC	bosWC	13	
+3	30	phlSP	4	41	1	bosWC	bosWC	18	
+3	30	phlSP	5	41	1	bosWC	bosWC	1	A
+3	30	phlSP	6	41	1	bosWC	bosWC	8	G
+3	31	bosWC	1	42	1	phlSP	bosWC	43	P
+3	31	bosWC	2	42	1	phlSP	phlSP	4	PU
+3	31	bosWC	3	42	1	phlSP	phlSP	13	
+3	31	bosWC	4	42	1	phlSP	phlSP	27	
+3	31	bosWC	5	42	1	phlSP	phlSP	14	
+3	31	bosWC	6	42	1	phlSP	phlSP	7	
+3	31	bosWC	7	42	1	phlSP	phlSP	27	
+3	31	bosWC	8	42	1	phlSP	phlSP	14	
+3	31	bosWC	9	42	1	phlSP	phlSP	7	
+3	31	bosWC	10	43	2	bosWC	bosWC	4	PU
+3	31	bosWC	11	43	2	bosWC	bosWC	21	
+3	31	bosWC	12	43	2	bosWC	bosWC	43	
+3	31	bosWC	13	43	2	bosWC	bosWC	21	
+3	31	bosWC	14	43	2	bosWC	bosWC	10	
+3	31	bosWC	15	43	2	bosWC	bosWC	4	
+3	31	bosWC	16	43	2	bosWC	bosWC	43	
+3	31	bosWC	17	43	2	bosWC	bosWC	4	A
+3	31	bosWC	18	43	2	bosWC	bosWC	21	LG
+3	32	bosWC	1	44	1	phlSP	bosWC	13	P
+3	32	bosWC	2	44	1	phlSP	phlSP	20	PU
+3	32	bosWC	3	44	1	phlSP	phlSP	71	
+3	32	bosWC	4	44	1	phlSP	phlSP	1	
+3	32	bosWC	5	44	1	phlSP	phlSP	71	
+3	32	bosWC	6	44	1	phlSP	phlSP	21	
+3	32	bosWC	7	44	1	phlSP	phlSP	64	
+3	32	bosWC	8	44	1	phlSP	phlSP	11	
+3	32	bosWC	9	44	1	phlSP	phlSP	16	
+3	32	bosWC	10	44	1	phlSP	phlSP	21	
+3	32	bosWC	11	44	1	phlSP	phlSP	11	
+3	32	bosWC	12	44	1	phlSP	phlSP	64	
+3	32	bosWC	13	44	1	phlSP	phlSP	20	
+3	32	bosWC	14	44	1	phlSP	phlSP	71	A
+3	32	bosWC	15	44	1	phlSP	phlSP	21	G
+3	33	phlSP	1	45	1	bosWC	phlSP	28	P
+3	33	phlSP	2	45	1	bosWC	bosWC	4	PU
+3	33	phlSP	3	45	1	bosWC	bosWC	10	
+3	33	phlSP	4	45	1	bosWC	bosWC	17	A
+3	33	phlSP	5	45	1	bosWC	bosWC	27	LG
+3	34	bosWC	1	46	1	phlSP	bosWC	18	OBP
+3	34	bosWC	2	46	1	phlSP	phlSP	7	PU
+3	34	bosWC	3	46	1	phlSP	phlSP	25	
+3	34	bosWC	4	46	1	phlSP	phlSP	11	
+3	34	bosWC	5	46	1	phlSP	phlSP	9	
+3	34	bosWC	6	46	1	phlSP	phlSP	11	
+3	34	bosWC	7	46	1	phlSP	phlSP	14	
+3	34	bosWC	8	46	1	phlSP	phlSP	7	
+3	34	bosWC	9	46	1	phlSP	phlSP	27	A
+3	34	bosWC	10	46	1	phlSP	phlSP	9	LG
+3	35	phlSP	1	47	1	bosWC	phlSP	20	OBP
+3	35	phlSP	2	47	1	bosWC	bosWC	4	PU
+3	35	phlSP	3	47	1	bosWC	bosWC	27	
+3	35	phlSP	4	47	1	bosWC	phlSP	16	D
+3	35	phlSP	5	48	2	phlSP	phlSP	28	PU
+3	35	phlSP	6	48	2	phlSP	phlSP	20	
+3	35	phlSP	7	48	2	phlSP	phlSP	2	
+3	35	phlSP	8	48	2	phlSP	phlSP	20	
+3	35	phlSP	9	48	2	phlSP	phlSP	64	
+3	35	phlSP	10	48	2	phlSP	phlSP	31	
+3	35	phlSP	11	48	2	phlSP	phlSP	64	
+3	35	phlSP	12	48	2	phlSP	phlSP	10	
+3	35	phlSP	13	48	2	phlSP	phlSP	2	
+3	35	phlSP	14	48	2	phlSP	phlSP	20	
+3	35	phlSP	15	48	2	phlSP	phlSP	10	
+3	35	phlSP	16	48	2	phlSP	phlSP	64	
+3	35	phlSP	17	48	2	phlSP	phlSP	31	
+3	35	phlSP	18	48	2	phlSP	phlSP	64	A
+3	35	phlSP	19	48	2	phlSP	phlSP	16	G
+3	36	phlSP	1	49	1	bosWC	phlSP	1	P
+3	36	phlSP	2	49	1	bosWC	bosWC	8	PU
+3	36	phlSP	3	49	1	bosWC	bosWC	00	
+3	36	phlSP	4	49	1	bosWC	bosWC	29	
+3	36	phlSP	5	49	1	bosWC	bosWC	1	
+3	36	phlSP	6	49	1	bosWC	bosWC	29	A
+3	36	phlSP	7	49	1	bosWC	bosWC	64	LG
+3	37	bosWC	1	50	1	phlSP	bosWC	43	P
+3	37	bosWC	2	50	1	phlSP	phlSP	25	PU
+3	37	bosWC	3	50	1	phlSP	phlSP	14	
+3	37	bosWC	4	50	1	phlSP	phlSP	11	
+3	37	bosWC	5	50	1	phlSP	phlSP	14	
+3	37	bosWC	6	50	1	phlSP	phlSP	7	
+3	37	bosWC	7	50	1	phlSP	phlSP	11	
+3	37	bosWC	8	50	1	phlSP	phlSP	13	
+3	37	bosWC	9	50	1	phlSP	phlSP	7	
+3	37	bosWC	10	51	2	bosWC	bosWC	4	PU
+3	37	bosWC	11	51	2	bosWC	bosWC	10	
+3	37	bosWC	12	51	2	bosWC	bosWC	27	
+3	37	bosWC	13	51	2	bosWC	bosWC	21	
+3	37	bosWC	14	51	2	bosWC	bosWC	10	
+3	37	bosWC	15	51	2	bosWC	bosWC	21	
+3	37	bosWC	16	51	2	bosWC	bosWC	10	
+3	37	bosWC	17	51	2	bosWC	bosWC	17	A
+3	37	bosWC	18	51	2	bosWC	bosWC	43	G
+3	38	bosWC	1	52	1	phlSP	bosWC	13	P
+3	38	bosWC	2	52	1	phlSP	phlSP	20	PU
+3	38	bosWC	3	52	1	phlSP	phlSP	71	
+3	38	bosWC	4	52	1	phlSP	phlSP	20	
+3	38	bosWC	5	52	1	phlSP	phlSP	16	
+3	38	bosWC	6	52	1	phlSP	phlSP	71	
+3	38	bosWC	7	52	1	phlSP	phlSP	1	
+3	38	bosWC	8	52	1	phlSP	phlSP	20	
+3	38	bosWC	9	52	1	phlSP	phlSP	64	
+3	38	bosWC	10	52	1	phlSP	phlSP	21	
+3	38	bosWC	11	52	1	phlSP	phlSP	20	
+3	38	bosWC	12	52	1	phlSP	phlSP	4	
+3	38	bosWC	13	52	1	phlSP	phlSP	20	A
+3	38	bosWC	14	52	1	phlSP	phlSP	16	G
+3	39	phlSP	1	53	1	bosWC	phlSP	11	P
+3	39	phlSP	2	53	1	bosWC	bosWC	10	PU
+3	39	phlSP	3	53	1	bosWC	bosWC	4	
+3	39	phlSP	4	53	1	bosWC	bosWC	43	
+3	39	phlSP	5	53	1	bosWC	bosWC	10	
+3	39	phlSP	6	53	1	bosWC	bosWC	27	
+3	39	phlSP	7	53	1	bosWC	bosWC	21	
+3	39	phlSP	8	53	1	bosWC	bosWC	4	A
+3	39	phlSP	9	53	1	bosWC	bosWC	43	G
+3	40	bosWC	1	54	1	phlSP	bosWC	18	OBP
+3	40	bosWC	2	54	1	phlSP	phlSP	7	PU
+3	40	bosWC	3	54	1	phlSP	phlSP	13	
+3	40	bosWC	4	54	1	phlSP	phlSP	4	
+3	40	bosWC	5	54	1	phlSP	phlSP	7	
+3	40	bosWC	6	54	1	phlSP	phlSP	13	
+3	40	bosWC	7	54	1	phlSP	phlSP	4	
+3	40	bosWC	8	54	1	phlSP	phlSP	25	A
+3	40	bosWC	9	54	1	phlSP	phlSP	9	G
+3	41	phlSP	1	55	1	bosWC	phlSP	1	P
+3	41	phlSP	2	55	1	bosWC	bosWC	4	PU
+3	41	phlSP	3	55	1	bosWC	bosWC	10	
+3	41	phlSP	4	56	2	phlSP	phlSP	64	PU
+3	41	phlSP	5	56	2	phlSP	phlSP	2	
+3	41	phlSP	6	56	2	phlSP	phlSP	64	
+3	41	phlSP	7	56	2	phlSP	phlSP	21	
+3	41	phlSP	8	56	2	phlSP	phlSP	31	
+3	41	phlSP	9	56	2	phlSP	phlSP	64	
+3	41	phlSP	10	56	2	phlSP	phlSP	2	
+3	41	phlSP	11	56	2	phlSP	phlSP	64	
+3	41	phlSP	12	56	2	phlSP	phlSP	21	
+3	41	phlSP	13	56	2	phlSP	phlSP	16	
+3	41	phlSP	14	56	2	phlSP	phlSP	21	
+3	41	phlSP	15	56	2	phlSP	bosWC	27	D
+3	41	phlSP	16	57	3	bosWC	bosWC	21	PU
+3	41	phlSP	17	57	3	bosWC	bosWC	3	
+3	41	phlSP	18	57	3	bosWC	bosWC	10	
+3	41	phlSP	19	57	3	bosWC	bosWC	3	
+3	41	phlSP	20	57	3	bosWC	bosWC	43	
+3	41	phlSP	21	57	3	bosWC	bosWC	21	
+3	41	phlSP	22	57	3	bosWC	phlSP	10	D
+3	41	phlSP	23	58	4	phlSP	phlSP	10	PU
+3	41	phlSP	24	58	4	phlSP	phlSP	1	
+3	41	phlSP	25	58	4	phlSP	phlSP	1	TO
+3	41	phlSP	26	58	4	phlSP	phlSP	7	PU
+3	41	phlSP	27	58	4	phlSP	phlSP	27	
+3	41	phlSP	28	58	4	phlSP	phlSP	14	A
+3	41	phlSP	29	58	4	phlSP	phlSP	11	G
+3	42	phlSP	1	59	1	bosWC	phlSP	1	P
+3	42	phlSP	2	59	1	bosWC	bosWC	13	PU
+3	42	phlSP	3	59	1	bosWC	bosWC	4	
+3	42	phlSP	4	59	1	bosWC	bosWC	21	
+3	42	phlSP	5	59	1	bosWC	bosWC	17	
+3	42	phlSP	6	59	1	bosWC	bosWC	21	
+3	42	phlSP	7	59	1	bosWC	bosWC	13	
+3	42	phlSP	8	59	1	bosWC	bosWC	21	
+3	42	phlSP	9	59	1	bosWC	bosWC	17	
+4	43	bosWC	1	60	1	phlSP	bosWC	43	OBP
+4	43	bosWC	2	60	1	phlSP	phlSP	13	PU
+4	43	bosWC	3	60	1	phlSP	phlSP	25	
+4	43	bosWC	4	60	1	phlSP	phlSP	27	
+4	43	bosWC	5	60	1	phlSP	phlSP	14	
+4	43	bosWC	6	60	1	phlSP	phlSP	7	
+4	43	bosWC	7	60	1	phlSP	phlSP	7	F
+4	43	bosWC	8	60	1	phlSP	phlSP	13	
+4	43	bosWC	9	60	1	phlSP	phlSP	7	
+4	43	bosWC	10	60	1	phlSP	phlSP	13	
+4	43	bosWC	11	60	1	phlSP	phlSP	27	
+4	43	bosWC	12	60	1	phlSP	bosWC	27	D
+4	43	bosWC	13	61	2	bosWC	bosWC	4	PU
+4	43	bosWC	14	61	2	bosWC	bosWC	2	
+4	43	bosWC	15	61	2	bosWC	bosWC	43	
+4	43	bosWC	16	61	2	bosWC	bosWC	4	
+4	43	bosWC	17	61	2	bosWC	bosWC	27	
+4	43	bosWC	18	61	2	bosWC	bosWC	17	
+4	43	bosWC	19	61	2	bosWC	bosWC	4	
+4	43	bosWC	20	61	2	bosWC	bosWC	43	
+4	43	bosWC	21	61	2	bosWC	bosWC	17	
+4	43	bosWC	22	61	2	bosWC	bosWC	27	
+4	43	bosWC	23	61	2	bosWC	bosWC	43	
+4	43	bosWC	24	62	3	phlSP	phlSP	7	PU
+4	43	bosWC	25	62	3	phlSP	phlSP	25	
+4	43	bosWC	26	62	3	phlSP	phlSP	27	
+4	43	bosWC	27	62	3	phlSP	phlSP	11	A
+4	43	bosWC	28	62	3	phlSP	phlSP	9	G
+4	44	phlSP	1	63	1	bosWC	phlSP	1	P
+4	44	phlSP	2	63	1	bosWC	bosWC	00	PU
+4	44	phlSP	3	63	1	bosWC	bosWC	13	
+4	44	phlSP	4	63	1	bosWC	bosWC	1	
+4	44	phlSP	5	63	1	bosWC	bosWC	00	
+4	44	phlSP	6	63	1	bosWC	bosWC	18	
+4	44	phlSP	7	63	1	bosWC	bosWC	00	
+4	44	phlSP	8	63	1	bosWC	bosWC	8	A
+4	44	phlSP	9	63	1	bosWC	bosWC	9	G
+4	45	bosWC	1	64	1	phlSP	bosWC	43	P
+4	45	bosWC	2	64	1	phlSP	phlSP	13	PU
+4	45	bosWC	3	64	1	phlSP	phlSP	7	
+4	45	bosWC	4	64	1	phlSP	phlSP	25	L
+4	45	bosWC	5	64	1	phlSP	phlSP	14	A
+4	45	bosWC	6	64	1	phlSP	phlSP	11	G
+4	46	phlSP	1	65	1	bosWC	phlSP	20	P
+4	46	phlSP	2	65	1	bosWC	bosWC	8	PU
+4	46	phlSP	3	65	1	bosWC	bosWC	13	
+4	46	phlSP	4	65	1	bosWC	bosWC	00	TD
+4	46	phlSP	5	66	2	phlSP	phlSP	20	PU
+4	46	phlSP	6	66	2	phlSP	phlSP	2	
+4	46	phlSP	7	66	2	phlSP	phlSP	31	
+4	46	phlSP	8	66	2	phlSP	phlSP	16	
+4	46	phlSP	9	66	2	phlSP	phlSP	10	TD
+4	46	phlSP	10	67	3	bosWC	bosWC	13	PU
+4	46	phlSP	11	68	4	phlSP	phlSP	21	PU
+4	46	phlSP	12	69	5	bosWC	bosWC	18	PU
+4	46	phlSP	13	69	5	bosWC	bosWC	13	
+4	46	phlSP	14	69	5	bosWC	bosWC	1	
+4	46	phlSP	15	69	5	bosWC	bosWC	9	
+4	46	phlSP	16	69	5	bosWC	bosWC		TO
+4	46	phlSP	17	69	5	bosWC	bosWC	1	PU
+4	46	phlSP	18	69	5	bosWC	bosWC	21	
+4	46	phlSP	19	69	5	bosWC	bosWC	1	
+4	46	phlSP	20	69	5	bosWC	bosWC	4	
+4	46	phlSP	21	69	5	bosWC	bosWC	1	
+4	46	phlSP	22	69	5	bosWC	bosWC	4	A
+4	46	phlSP	23	69	5	bosWC	bosWC	9	G
+4	47	bosWC	1	70	1	phlSP	bosWC	43	P
+4	47	bosWC	2	70	1	phlSP	phlSP	13	PU
+4	47	bosWC	3	70	1	phlSP	phlSP	7	
+4	47	bosWC	4	70	1	phlSP	phlSP	27	
+4	47	bosWC	5	70	1	phlSP	phlSP	14	
+4	47	bosWC	6	70	1	phlSP	phlSP	9	
+4	47	bosWC	7	70	1	phlSP	bosWC	2	F
+4	47	bosWC	8	70	1	phlSP	phlSP	7	A
+4	47	bosWC	9	70	1	phlSP	phlSP	27	G
+4	48	phlSP	1	71	1	bosWC	phlSP	1	P
+4	48	phlSP	2	71	1	bosWC	bosWC	13	PU
+4	48	phlSP	3	71	1	bosWC	bosWC	21	
+4	48	phlSP	4	71	1	bosWC	bosWC	13	
+4	48	phlSP	5	71	1	bosWC	bosWC	3	
+4	48	phlSP	6	71	1	bosWC	bosWC	1	
+4	48	phlSP	7	71	1	bosWC	bosWC	17	
+4	48	phlSP	8	71	1	bosWC	bosWC	13	
+4	48	phlSP	9	71	1	bosWC	bosWC	9	A
+4	48	phlSP	10	71	1	bosWC	bosWC	1	G
+4	49	bosWC	1	72	1	phlSP	bosWC	43	P
+4	49	bosWC	2	72	1	phlSP	phlSP	13	PU
+4	49	bosWC	3	72	1	phlSP	phlSP	7	
+4	49	bosWC	4	72	1	phlSP	phlSP	14	
+4	49	bosWC	5	72	1	phlSP	phlSP	27	
+4	49	bosWC	6	72	1	phlSP	phlSP	7	
+4	49	bosWC	7	72	1	phlSP	phlSP	25	
+4	49	bosWC	8	72	1	phlSP	phlSP	7	
+4	49	bosWC	9	72	1	phlSP	phlSP	4	
+4	49	bosWC	10	72	1	phlSP	phlSP	14	
+4	49	bosWC	11	72	1	phlSP	phlSP	27	
+4	49	bosWC	12	72	1	phlSP	phlSP	25	
+4	49	bosWC	13	72	1	phlSP	phlSP	13	
+4	49	bosWC	14	72	1	phlSP	phlSP	7	
+4	49	bosWC	15	72	1	phlSP	phlSP	14	
+4	49	bosWC	16	72	1	phlSP	phlSP	25	
+4	49	bosWC	17	72	1	phlSP	phlSP	27	
+4	49	bosWC	18	72	1	phlSP	phlSP	14	
+4	49	bosWC	19	72	1	phlSP	phlSP	27	
+4	49	bosWC	20	72	1	phlSP	phlSP	7	A
+4	49	bosWC	21	72	1	phlSP	phlSP	13	G
+4	50	phlSP	1	73	1	bosWC	phlSP	20	P
+4	50	phlSP	2	73	1	bosWC	bosWC	00	PU
+4	50	phlSP	3	73	1	bosWC	bosWC	13	
+4	50	phlSP	4	73	1	bosWC	bosWC	00	
+4	50	phlSP	5	73	1	bosWC	bosWC	13	
+4	50	phlSP	6	73	1	bosWC	bosWC	17	
+4	50	phlSP	7	73	1	bosWC	bosWC	13	A
+4	50	phlSP	8	73	1	bosWC	bosWC	9	G
+4	51	bosWC	1	74	1	phlSP	bosWC	43	P
+4	51	bosWC	2	74	1	phlSP	phlSP	13	PU
+4	51	bosWC	3	74	1	phlSP	phlSP	7	
+4	51	bosWC	4	74	1	phlSP	phlSP	4	
+4	51	bosWC	5	74	1	phlSP	phlSP	14	
+4	51	bosWC	6	74	1	phlSP	phlSP	25	
+4	51	bosWC	7	74	1	phlSP	phlSP	14	
+4	51	bosWC	8	74	1	phlSP	phlSP	7	
+4	51	bosWC	9	74	1	phlSP	phlSP	27	
+4	51	bosWC	10	74	1	phlSP	phlSP	13	A
+4	51	bosWC	11	74	1	phlSP	phlSP	14	G
+4	52	phlSP	1	75	1	bosWC	phlSP	16	OBP
+4	52	phlSP	2	75	1	bosWC	bosWC	13	PUA
+4	52	phlSP	3	75	1	bosWC	bosWC	17	LG
+4	53	bosWC	1	76	1	phlSP	bosWC	43	P
+4	53	bosWC	2	76	1	phlSP	phlSP	13	PU
+4	53	bosWC	3	76	1	phlSP	phlSP	7	
+4	53	bosWC	4	76	1	phlSP	phlSP	13	
+4	53	bosWC	5	76	1	phlSP	phlSP	7	
+4	53	bosWC	6	76	1	phlSP	phlSP	11	
+4	53	bosWC	7	76	1	phlSP	phlSP	7	
+4	53	bosWC	8	76	1	phlSP	phlSP	4	
+4	53	bosWC	9	76	1	phlSP	phlSP	7	
+4	53	bosWC	10	76	1	phlSP	phlSP	14	
+4	53	bosWC	11	76	1	phlSP	phlSP	7	
+4	53	bosWC	12	76	1	phlSP	phlSP	27	
+4	53	bosWC	13	76	1	phlSP	phlSP	7	
+4	53	bosWC	14	76	1	phlSP	phlSP	4	
+4	53	bosWC	15	76	1	phlSP	phlSP	25	TO
+4	53	bosWC	16	76	1	phlSP	phlSP	7	PU
+4	53	bosWC	17	76	1	phlSP	bosWC	13	F
+4	53	bosWC	18	76	1	phlSP	phlSP	25	
+4	53	bosWC	19	76	1	phlSP	phlSP	11	
+4	53	bosWC	20	76	1	phlSP	phlSP	25	
+4	53	bosWC	21	76	1	phlSP	phlSP	7	
+4	53	bosWC	22	76	1	phlSP	phlSP	13	
+4	53	bosWC	23	76	1	phlSP	phlSP	25	
+4	53	bosWC	24	76	1	phlSP	phlSP	13	
+4	53	bosWC	25	76	1	phlSP	phlSP	14	
+4	53	bosWC	26	76	1	phlSP	phlSP	16	A
+4	53	bosWC	27	76	1	phlSP	phlSP	13	G
+4	54	phlSP	1	77	1	bosWC	phlSP	1	P
+4	54	phlSP	2	77	1	bosWC	bosWC	4	PU
+4	54	phlSP	3	77	1	bosWC	bosWC	17	
+4	54	phlSP	4	77	1	bosWC	bosWC	9	
+4	54	phlSP	5	77	1	bosWC	bosWC	1	A
+4	54	phlSP	6	77	1	bosWC	bosWC	64	G
+4	55	bosWC	1	78	1	phlSP	bosWC	13	OBP
+4	55	bosWC	2	78	1	phlSP	phlSP	7	PU
+4	55	bosWC	3	78	1	phlSP	phlSP	4	
+4	55	bosWC	4	78	1	phlSP	phlSP	13	TD
+4	55	bosWC	5	79	2	bosWC	bosWC	13	PU
+4	55	bosWC	6	79	2	bosWC	bosWC	8	
+4	55	bosWC	7	79	2	bosWC	bosWC	43	
+4	55	bosWC	8	79	2	bosWC	bosWC	10	
+4	55	bosWC	9	79	2	bosWC	bosWC		TO
+4	55	bosWC	10	79	2	bosWC	bosWC	1	PU
+4	55	bosWC	11	79	2	bosWC	phlSP	27	D

@@ -106,8 +106,11 @@
 #GOOGAME ?= "Official Statistics - 2014 - Week 4 - 5/3 - Whitecaps @ Rumble"  
 #GAME ?= 2014-05-03_bosWC-at-nykRM
 
-GOOGAME ?= "Official Statistics - 2014 - Week 5 - 5/10 - Spinners @ Whitecaps"  
-GAME ?= 2014-05-10_phlSP-at-bosWC
+#GOOGAME ?= "Official Statistics - 2014 - Week 5 - 5/10 - Spinners @ Whitecaps"  
+#GAME ?= 2014-05-10_phlSP-at-bosWC
+
+GOOGAME ?= "Official Statistics - 2014 - Week 6 - 5/18 - Whitecaps @ Spinners"  
+GAME ?= 2014-05-18_bosWC-at-phlSP
 
 #GOOGAME ?= "Official Statistics - 2014 - MLU Championship - 7/19 - Nighthawks @ Current"  
 #GAME ?= 2014-07-18_vanNH-at-wdcCT
