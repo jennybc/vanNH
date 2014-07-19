@@ -1,0 +1,85 @@
+period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code	n_events	huck	score	scor_team	who	a_code	b_code
+1	1	nykRM	18	1	1	phlSP	phlSP	27	G	18	FALSE	TRUE	phlSP	o_line	G	G
+1	2	phlSP	6	2	1	nykRM	nykRM	41	LG	6	TRUE	TRUE	nykRM	o_line	G	G
+1	3	nykRM	20	3	1	phlSP	phlSP	7	TA	20	FALSE	FALSE	NA	o_line	TA	off -
+1	3	nykRM	24	4	2	nykRM	nykRM	82	TA	4	FALSE	FALSE	NA	d_line	TA	off -
+1	3	nykRM	28	5	3	phlSP	phlSP	23	TA	4	FALSE	FALSE	NA	o_line	TA	off -
+1	3	nykRM	35	6	4	nykRM	nykRM	21	G	7	FALSE	TRUE	nykRM	d_line	G	G
+1	4	nykRM	5	7	1	phlSP	phlSP	4	G	5	FALSE	TRUE	phlSP	o_line	G	G
+1	5	phlSP	3	8	1	nykRM	nykRM	41	TD	3	FALSE	FALSE	NA	o_line	TD	off -
+1	5	phlSP	10	9	2	phlSP	nykRM	41	D	7	FALSE	FALSE	NA	d_line	D	def +
+1	5	phlSP	13	10	3	nykRM	nykRM	41	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+1	5	phlSP	17	11	4	phlSP	nykRM	6	D	4	FALSE	FALSE	NA	d_line	D	def +
+1	5	phlSP	31	12	5	nykRM	phlSP	2	D	14	FALSE	FALSE	NA	o_line	D	def +
+1	5	phlSP	48	13	6	phlSP	phlSP	27	G	17	FALSE	TRUE	phlSP	d_line	G	G
+1	6	phlSP	8	14	1	nykRM	nykRM	1	G	8	FALSE	TRUE	nykRM	o_line	G	G
+1	7	nykRM	7	15	1	phlSP	phlSP	42	G	7	TRUE	TRUE	phlSP	o_line	G	G
+1	8	phlSP	11	16	1	nykRM	phlSP	11	D	11	FALSE	FALSE	NA	o_line	D	def +
+1	8	phlSP	15	17	2	phlSP	phlSP	10	eop	4	FALSE	FALSE	NA	d_line	eop	eop
+2	9	phlSP	9	18	1	nykRM	nykRM	41	G	9	FALSE	TRUE	nykRM	o_line	G	G
+2	10	nykRM	8	19	1	phlSP	nykRM	82	D	8	FALSE	FALSE	NA	o_line	D	def +
+2	10	nykRM	14	20	2	nykRM	nykRM	5	G	6	FALSE	TRUE	nykRM	d_line	G	G
+2	11	nykRM	8	21	1	phlSP	phlSP	3	TA	8	FALSE	FALSE	NA	o_line	TA	off -
+2	11	nykRM	9	22	2	nykRM	nykRM	24	TA	1	FALSE	FALSE	NA	d_line	TA	off -
+2	11	nykRM	13	23	3	phlSP	phlSP	38	G	4	FALSE	TRUE	phlSP	o_line	G	G
+2	12	phlSP	10	24	1	nykRM	nykRM	1	G	10	FALSE	TRUE	nykRM	o_line	G	G
+2	13	nykRM	16	25	1	phlSP	phlSP	23	G	16	FALSE	TRUE	phlSP	o_line	G	G
+2	14	phlSP	4	26	1	nykRM	phlSP	11	D	4	FALSE	FALSE	NA	o_line	D	def +
+2	14	phlSP	20	27	2	phlSP	phlSP	11	G	16	FALSE	TRUE	phlSP	d_line	G	G
+2	15	phlSP	6	28	1	nykRM	nykRM	21	TA	6	FALSE	FALSE	NA	o_line	TA	off -
+2	15	phlSP	18	29	2	phlSP	phlSP	22	G	12	FALSE	TRUE	phlSP	d_line	G	G
+2	16	phlSP	7	30	1	nykRM	nykRM	1	G	7	FALSE	TRUE	nykRM	o_line	G	G
+2	17	nykRM	7	31	1	phlSP	phlSP	42	TA	7	FALSE	FALSE	NA	o_line	TA	off -
+2	17	nykRM	20	32	2	nykRM	phlSP	27	D	13	FALSE	FALSE	NA	d_line	D	def +
+2	17	nykRM	33	33	3	phlSP	phlSP	27	G	13	FALSE	TRUE	phlSP	o_line	G	G
+2	18	phlSP	6	34	1	nykRM	nykRM	44	TD	6	FALSE	FALSE	NA	o_line	TD	off -
+2	18	phlSP	7	35	2	phlSP	phlSP	2	TA	1	FALSE	FALSE	NA	d_line	TA	off -
+2	18	phlSP	10	36	3	nykRM	nykRM	14	G	3	FALSE	TRUE	nykRM	o_line	G	G
+2	19	nykRM	10	37	1	phlSP	phlSP	4	eop	10	FALSE	FALSE	NA	o_line	eop	eop
+3	20	nykRM	10	38	1	phlSP	nykRM	10	D	10	FALSE	FALSE	NA	o_line	D	def +
+3	20	nykRM	13	39	2	nykRM	nykRM	89	G	3	FALSE	TRUE	nykRM	d_line	G	G
+3	21	nykRM	10	40	1	phlSP	phlSP	14	G	10	FALSE	TRUE	phlSP	o_line	G	G
+3	22	phlSP	5	41	1	nykRM	nykRM	6	G	5	FALSE	TRUE	nykRM	o_line	G	G
+3	23	nykRM	5	42	1	phlSP	phlSP	25	LG	5	TRUE	TRUE	phlSP	o_line	G	G
+3	24	phlSP	3	43	1	nykRM	nykRM	18	LG	3	TRUE	TRUE	nykRM	o_line	G	G
+3	25	nykRM	16	44	1	phlSP	phlSP	42	G	16	FALSE	TRUE	phlSP	o_line	G	G
+3	26	phlSP	6	45	1	nykRM	nykRM	18	G	6	FALSE	TRUE	nykRM	o_line	G	G
+3	27	nykRM	13	46	1	phlSP	phlSP	27	G	13	FALSE	TRUE	phlSP	o_line	G	G
+3	28	phlSP	7	47	1	nykRM	nykRM	44	G	7	FALSE	TRUE	nykRM	o_line	G	G
+3	29	nykRM	10	48	1	phlSP	phlSP	14	G	10	FALSE	TRUE	phlSP	o_line	G	G
+3	30	phlSP	12	49	1	nykRM	nykRM	1	G	12	FALSE	TRUE	nykRM	o_line	G	G
+3	31	nykRM	15	50	1	phlSP	nykRM	82	D	15	FALSE	FALSE	NA	o_line	D	def +
+3	31	nykRM	21	51	2	nykRM	nykRM	44	LG	6	TRUE	TRUE	nykRM	d_line	G	G
+3	32	nykRM	7	52	1	phlSP	phlSP	25	LG	7	TRUE	TRUE	phlSP	o_line	G	G
+3	33	phlSP	12	53	1	nykRM	nykRM	6	G	12	FALSE	TRUE	nykRM	o_line	G	G
+3	34	nykRM	12	54	1	phlSP	phlSP	13	G	12	FALSE	TRUE	phlSP	o_line	G	G
+3	35	phlSP	9	55	1	nykRM	nykRM	14	TA	9	FALSE	FALSE	NA	o_line	TA	off -
+3	35	phlSP	15	56	2	phlSP	phlSP	16	TD	6	FALSE	FALSE	NA	d_line	TD	off -
+3	35	phlSP	20	57	3	nykRM	nykRM	44	G	5	FALSE	TRUE	nykRM	o_line	G	G
+3	36	nykRM	15	58	1	phlSP	phlSP	42	G	15	FALSE	TRUE	phlSP	o_line	G	G
+3	37	phlSP	6	59	1	nykRM	nykRM	44	TD	6	FALSE	FALSE	NA	o_line	TD	off -
+3	37	phlSP	10	60	2	phlSP	nykRM	6	eop	4	FALSE	FALSE	NA	d_line	eop	eop
+4	38	phlSP	6	61	1	nykRM	nykRM	1	TA	6	FALSE	FALSE	NA	o_line	TA	off -
+4	38	phlSP	10	62	2	phlSP	phlSP	6	LG	4	TRUE	TRUE	phlSP	d_line	G	G
+4	39	phlSP	3	63	1	nykRM	phlSP	76	D	3	FALSE	FALSE	NA	o_line	D	def +
+4	39	phlSP	6	64	2	phlSP	nykRM	82	D	3	FALSE	FALSE	NA	d_line	D	def +
+4	39	phlSP	14	65	3	nykRM	nykRM	18	G	8	FALSE	TRUE	nykRM	o_line	G	G
+4	40	nykRM	4	66	1	phlSP	phlSP	13	TA	4	FALSE	FALSE	NA	o_line	TA	off -
+4	40	nykRM	13	67	2	nykRM	nykRM	82	TA	8	FALSE	FALSE	NA	d_line	TA	off -
+4	40	nykRM	18	68	3	phlSP	phlSP	42	G	5	FALSE	TRUE	phlSP	o_line	G	G
+4	41	phlSP	5	69	1	nykRM	nykRM	44	TD	5	FALSE	FALSE	NA	o_line	TD	off -
+4	41	phlSP	10	70	2	phlSP	nykRM	26	D	5	FALSE	FALSE	NA	d_line	D	def +
+4	41	phlSP	13	71	3	nykRM	nykRM	14	LG	3	TRUE	TRUE	nykRM	o_line	G	G
+4	42	nykRM	12	72	1	phlSP	phlSP	14	G	12	FALSE	TRUE	phlSP	o_line	G	G
+4	43	phlSP	14	73	1	nykRM	nykRM	14	G	14	FALSE	TRUE	nykRM	o_line	G	G
+4	44	nykRM	10	74	1	phlSP	phlSP	42	TA	10	FALSE	FALSE	NA	o_line	TA	off -
+4	44	nykRM	12	75	2	nykRM	phlSP	14	D	2	FALSE	FALSE	NA	d_line	D	def +
+4	44	nykRM	15	76	3	phlSP	phlSP	25	G	3	FALSE	TRUE	phlSP	o_line	G	G
+4	45	phlSP	7	77	1	nykRM	nykRM	18	LG	7	TRUE	TRUE	nykRM	o_line	G	G
+4	46	nykRM	7	78	1	phlSP	phlSP	42	G	7	FALSE	TRUE	phlSP	o_line	G	G
+4	47	phlSP	5	79	1	nykRM	phlSP	64	D	5	FALSE	FALSE	NA	o_line	D	def +
+4	47	phlSP	7	80	2	phlSP	nykRM	44	D	2	FALSE	FALSE	NA	d_line	D	def +
+4	47	phlSP	14	81	3	nykRM	nykRM	44	G	7	FALSE	TRUE	nykRM	o_line	G	G
+4	48	nykRM	18	82	1	phlSP	phlSP	42	G	18	FALSE	TRUE	phlSP	o_line	G	G
+4	49	phlSP	4	83	1	nykRM	nykRM	1	TD	4	FALSE	FALSE	NA	o_line	TD	off -
+4	49	phlSP	17	84	2	phlSP	phlSP	7	eop	13	FALSE	FALSE	NA	d_line	eop	eop

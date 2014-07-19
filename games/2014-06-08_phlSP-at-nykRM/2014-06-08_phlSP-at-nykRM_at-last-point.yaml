@@ -1,0 +1,11 @@
+point: 49
+period: 4
+clk_before: .na.character
+clk_after: .na
+pull_team: phlSP
+n_poss: .na.integer
+scor_team: .na.character
+h_or_b: .na.character
+nykRM: 22
+phlSP: 23
+
