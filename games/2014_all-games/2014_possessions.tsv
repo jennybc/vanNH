@@ -1,4 +1,91 @@
 game	period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code	n_events	huck	score	scor_team	who	a_code	b_code	n_passes	end_code
+2014-04-12_nykRM-at-bosWC	1	1	nykRM	17	1	1	bosWC	bosWC	77	G	17	FALSE	TRUE	bosWC	o_line	G	G	14	O-G
+2014-04-12_nykRM-at-bosWC	1	2	bosWC	4	2	1	nykRM	bosWC	27	D	4	FALSE	FALSE	NA	o_line	D	def +	2	D-D
+2014-04-12_nykRM-at-bosWC	1	2	bosWC	8	3	2	bosWC	bosWC	12	TD	4	FALSE	FALSE	NA	d_line	TD	off -	3	O-TD
+2014-04-12_nykRM-at-bosWC	1	2	bosWC	17	4	3	nykRM	nykRM	44	TD	9	FALSE	FALSE	NA	o_line	TD	off -	8	O-TD
+2014-04-12_nykRM-at-bosWC	1	2	bosWC	19	5	4	bosWC	nykRM	44	HB	2	FALSE	FALSE	NA	d_line	D	def +	1	D-D
+2014-04-12_nykRM-at-bosWC	1	2	bosWC	21	6	5	nykRM	nykRM	44	G	2	FALSE	TRUE	nykRM	o_line	G	G	1	O-G
+2014-04-12_nykRM-at-bosWC	1	3	nykRM	5	7	1	bosWC	nykRM	13	D	5	FALSE	FALSE	NA	o_line	D	def +	3	D-D
+2014-04-12_nykRM-at-bosWC	1	3	nykRM	8	8	2	nykRM	bosWC	77	D	3	FALSE	FALSE	NA	d_line	D	def +	2	D-D
+2014-04-12_nykRM-at-bosWC	1	3	nykRM	14	9	3	bosWC	bosWC	1	G	6	FALSE	TRUE	bosWC	o_line	G	G	5	O-G
+2014-04-12_nykRM-at-bosWC	1	4	bosWC	3	10	1	nykRM	nykRM	6	TA	3	FALSE	FALSE	NA	o_line	TA	off -	2	NA
+2014-04-12_nykRM-at-bosWC	1	4	bosWC	6	11	2	bosWC	bosWC	8	TA	3	FALSE	FALSE	NA	d_line	TA	off -	3	NA
+2014-04-12_nykRM-at-bosWC	1	4	bosWC	10	12	3	nykRM	nykRM	6	TA	4	FALSE	FALSE	NA	o_line	TA	off -	4	NA
+2014-04-12_nykRM-at-bosWC	1	4	bosWC	15	13	4	bosWC	bosWC	5	LG	4	TRUE	TRUE	bosWC	d_line	G	G	3	O-G
+2014-04-12_nykRM-at-bosWC	1	5	bosWC	4	14	1	nykRM	nykRM	6	TD	4	FALSE	FALSE	NA	o_line	TD	off -	2	O-TD
+2014-04-12_nykRM-at-bosWC	1	5	bosWC	11	15	2	bosWC	bosWC	10	G	7	TRUE	TRUE	bosWC	d_line	G	G	6	O-G
+2014-04-12_nykRM-at-bosWC	1	6	bosWC	5	16	1	nykRM	bosWC	18	D	5	FALSE	FALSE	NA	o_line	D	def +	3	D-D
+2014-04-12_nykRM-at-bosWC	1	6	bosWC	10	17	2	bosWC	nykRM	21	D	5	FALSE	FALSE	NA	d_line	D	def +	3	D-D
+2014-04-12_nykRM-at-bosWC	1	6	bosWC	12	18	3	nykRM	bosWC	37	D	2	FALSE	FALSE	NA	o_line	D	def +	1	D-D
+2014-04-12_nykRM-at-bosWC	1	6	bosWC	14	19	4	bosWC	bosWC	5	G	2	FALSE	TRUE	bosWC	d_line	G	G	1	O-G
+2014-04-12_nykRM-at-bosWC	1	7	bosWC	8	20	1	nykRM	nykRM	4	G	8	FALSE	TRUE	nykRM	o_line	G	G	6	O-G
+2014-04-12_nykRM-at-bosWC	1	8	nykRM	4	21	1	bosWC	bosWC	21	LG	4	TRUE	TRUE	bosWC	o_line	G	G	2	O-G
+2014-04-12_nykRM-at-bosWC	1	9	bosWC	4	22	1	nykRM	bosWC	11	D	4	FALSE	FALSE	NA	o_line	D	def +	2	D-D
+2014-04-12_nykRM-at-bosWC	1	9	bosWC	8	23	2	bosWC	nykRM	19	D	4	FALSE	FALSE	NA	d_line	D	def +	3	D-D
+2014-04-12_nykRM-at-bosWC	1	9	bosWC	15	24	3	nykRM	nykRM	18	G	7	FALSE	TRUE	nykRM	o_line	G	G	6	O-G
+2014-04-12_nykRM-at-bosWC	1	10	nykRM	4	25	1	bosWC	nykRM	41	eop	4	FALSE	FALSE	NA	o_line	eop	eop	2	D-D
+2014-04-12_nykRM-at-bosWC	2	11	bosWC	11	26	1	nykRM	nykRM	41	G	11	FALSE	TRUE	nykRM	o_line	G	G	9	O-G
+2014-04-12_nykRM-at-bosWC	2	12	nykRM	5	27	1	bosWC	bosWC	9	LG	5	TRUE	TRUE	bosWC	o_line	G	G	3	O-G
+2014-04-12_nykRM-at-bosWC	2	13	bosWC	12	28	1	nykRM	nykRM	6	TA	12	FALSE	FALSE	NA	o_line	TA	off -	10	NA
+2014-04-12_nykRM-at-bosWC	2	13	bosWC	18	29	2	bosWC	bosWC	35	LG	6	TRUE	TRUE	bosWC	d_line	G	G	4	O-G
+2014-04-12_nykRM-at-bosWC	2	14	bosWC	5	30	1	nykRM	bosWC	64	D	5	FALSE	FALSE	NA	o_line	D	def +	3	D-D
+2014-04-12_nykRM-at-bosWC	2	14	bosWC	10	31	2	bosWC	bosWC	12	G	5	FALSE	TRUE	bosWC	d_line	G	G	4	O-G
+2014-04-12_nykRM-at-bosWC	2	15	bosWC	5	32	1	nykRM	nykRM	4	G	5	TRUE	TRUE	nykRM	o_line	G	G	3	O-G
+2014-04-12_nykRM-at-bosWC	2	16	nykRM	4	33	1	bosWC	bosWC	77	TD	4	FALSE	FALSE	NA	o_line	TD	off -	2	O-TD
+2014-04-12_nykRM-at-bosWC	2	16	nykRM	12	34	2	nykRM	nykRM	14	TA	8	FALSE	FALSE	NA	d_line	TA	off -	7	NA
+2014-04-12_nykRM-at-bosWC	2	16	nykRM	14	35	3	bosWC	bosWC	43	TA	2	FALSE	FALSE	NA	o_line	TA	off -	2	NA
+2014-04-12_nykRM-at-bosWC	2	16	nykRM	18	36	4	nykRM	nykRM	6	TA	4	FALSE	FALSE	NA	d_line	TA	off -	4	NA
+2014-04-12_nykRM-at-bosWC	2	16	nykRM	23	37	5	bosWC	bosWC	29	TD	5	FALSE	FALSE	NA	o_line	TD	off -	4	O-TD
+2014-04-12_nykRM-at-bosWC	2	16	nykRM	25	38	6	nykRM	nykRM	41	G	2	FALSE	TRUE	nykRM	d_line	G	G	1	O-G
+2014-04-12_nykRM-at-bosWC	2	17	nykRM	3	39	1	bosWC	nykRM	22	D	3	FALSE	FALSE	NA	o_line	D	def +	1	D-D
+2014-04-12_nykRM-at-bosWC	2	17	nykRM	11	40	2	nykRM	nykRM	3	G	8	FALSE	TRUE	nykRM	d_line	G	G	7	O-G
+2014-04-12_nykRM-at-bosWC	2	18	nykRM	4	41	1	bosWC	nykRM	13	D	4	FALSE	FALSE	NA	o_line	D	def +	2	D-D
+2014-04-12_nykRM-at-bosWC	2	18	nykRM	8	42	2	nykRM	bosWC	7	D	4	FALSE	FALSE	NA	d_line	D	def +	3	D-D
+2014-04-12_nykRM-at-bosWC	2	18	nykRM	9	43	3	bosWC	bosWC	7	TA	1	FALSE	FALSE	NA	o_line	TA	off -	1	NA
+2014-04-12_nykRM-at-bosWC	2	18	nykRM	17	44	4	nykRM	bosWC	18	D	8	FALSE	FALSE	NA	d_line	D	def +	6	D-D
+2014-04-12_nykRM-at-bosWC	2	18	nykRM	30	45	5	bosWC	bosWC	35	G	13	FALSE	TRUE	bosWC	o_line	G	G	11	O-G
+2014-04-12_nykRM-at-bosWC	2	19	bosWC	5	46	1	nykRM	bosWC	64	D	5	FALSE	FALSE	NA	o_line	D	def +	3	D-D
+2014-04-12_nykRM-at-bosWC	2	19	bosWC	6	47	2	bosWC	bosWC	4	eop	1	FALSE	FALSE	NA	d_line	eop	eop	1	NA
+2014-04-12_nykRM-at-bosWC	3	20	nykRM	10	48	1	bosWC	bosWC	77	G	10	TRUE	TRUE	bosWC	o_line	G	G	8	O-G
+2014-04-12_nykRM-at-bosWC	3	21	bosWC	11	49	1	nykRM	nykRM	19	TA	11	FALSE	FALSE	NA	o_line	TA	off -	10	NA
+2014-04-12_nykRM-at-bosWC	3	21	bosWC	19	50	2	bosWC	nykRM	41	D	8	FALSE	FALSE	NA	d_line	D	def +	7	D-D
+2014-04-12_nykRM-at-bosWC	3	21	bosWC	26	51	3	nykRM	nykRM	4	G	7	FALSE	TRUE	nykRM	o_line	G	G	6	O-G
+2014-04-12_nykRM-at-bosWC	3	22	nykRM	12	52	1	bosWC	bosWC	21	G	12	FALSE	TRUE	bosWC	o_line	G	G	10	O-G
+2014-04-12_nykRM-at-bosWC	3	23	bosWC	5	53	1	nykRM	nykRM	14	TD	5	FALSE	FALSE	NA	o_line	TD	off -	3	O-TD
+2014-04-12_nykRM-at-bosWC	3	23	bosWC	8	54	2	bosWC	bosWC	18	TA	3	FALSE	FALSE	NA	d_line	TA	off -	3	NA
+2014-04-12_nykRM-at-bosWC	3	23	bosWC	11	55	3	nykRM	nykRM	6	TA	3	FALSE	FALSE	NA	o_line	TA	off -	3	NA
+2014-04-12_nykRM-at-bosWC	3	23	bosWC	16	56	4	bosWC	bosWC	11	LG	5	TRUE	TRUE	bosWC	d_line	G	G	4	O-G
+2014-04-12_nykRM-at-bosWC	3	24	bosWC	5	57	1	nykRM	nykRM	41	LG	5	TRUE	TRUE	nykRM	o_line	G	G	3	O-G
+2014-04-12_nykRM-at-bosWC	3	25	nykRM	8	58	1	bosWC	bosWC	3	G	8	FALSE	TRUE	bosWC	o_line	G	G	6	O-G
+2014-04-12_nykRM-at-bosWC	3	26	bosWC	7	59	1	nykRM	nykRM	14	G	7	FALSE	TRUE	nykRM	o_line	G	G	5	O-G
+2014-04-12_nykRM-at-bosWC	3	27	nykRM	11	60	1	bosWC	bosWC	1	G	11	FALSE	TRUE	bosWC	o_line	G	G	9	O-G
+2014-04-12_nykRM-at-bosWC	3	28	bosWC	3	61	1	nykRM	nykRM	19	TA	3	FALSE	FALSE	NA	o_line	TA	off -	2	NA
+2014-04-12_nykRM-at-bosWC	3	28	bosWC	9	62	2	bosWC	bosWC	27	TA	6	FALSE	FALSE	NA	d_line	TA	off -	6	NA
+2014-04-12_nykRM-at-bosWC	3	28	bosWC	12	63	3	nykRM	nykRM	19	TA	3	FALSE	FALSE	NA	o_line	TA	off -	3	NA
+2014-04-12_nykRM-at-bosWC	3	28	bosWC	18	64	4	bosWC	bosWC	21	G	6	FALSE	TRUE	bosWC	d_line	G	G	4	O-G
+2014-04-12_nykRM-at-bosWC	3	29	bosWC	8	65	1	nykRM	bosWC	5	D	8	FALSE	FALSE	NA	o_line	D	def +	6	D-D
+2014-04-12_nykRM-at-bosWC	3	29	bosWC	11	66	2	bosWC	bosWC	25	G	3	FALSE	TRUE	bosWC	d_line	G	G	2	O-G
+2014-04-12_nykRM-at-bosWC	3	30	bosWC	4	67	1	nykRM	bosWC	12	D	4	FALSE	FALSE	NA	o_line	D	def +	2	D-D
+2014-04-12_nykRM-at-bosWC	3	30	bosWC	8	68	2	bosWC	nykRM	47	D	4	FALSE	FALSE	NA	d_line	D	def +	3	D-D
+2014-04-12_nykRM-at-bosWC	3	30	bosWC	11	69	3	nykRM	nykRM	13	TA	3	TRUE	FALSE	NA	o_line	TA	off -	3	NA
+2014-04-12_nykRM-at-bosWC	3	30	bosWC	17	70	4	bosWC	bosWC	64	G	6	TRUE	TRUE	bosWC	d_line	G	G	5	O-G
+2014-04-12_nykRM-at-bosWC	3	31	bosWC	6	71	1	nykRM	bosWC	77	eop	6	FALSE	FALSE	NA	o_line	eop	eop	4	D-D
+2014-04-12_nykRM-at-bosWC	4	32	bosWC	17	72	1	nykRM	nykRM	4	G	17	FALSE	TRUE	nykRM	o_line	G	G	15	O-G
+2014-04-12_nykRM-at-bosWC	4	33	nykRM	15	73	1	bosWC	bosWC	7	G	15	FALSE	TRUE	bosWC	o_line	G	G	13	O-G
+2014-04-12_nykRM-at-bosWC	4	34	bosWC	11	74	1	nykRM	nykRM	4	G	11	FALSE	TRUE	nykRM	o_line	G	G	9	O-G
+2014-04-12_nykRM-at-bosWC	4	35	nykRM	6	75	1	bosWC	bosWC	21	TA	6	FALSE	FALSE	NA	o_line	TA	off -	5	NA
+2014-04-12_nykRM-at-bosWC	4	35	nykRM	11	76	2	nykRM	nykRM	15	TA	5	FALSE	FALSE	NA	d_line	TA	off -	5	NA
+2014-04-12_nykRM-at-bosWC	4	35	nykRM	18	77	3	bosWC	bosWC	77	G	7	FALSE	TRUE	bosWC	o_line	G	G	6	O-G
+2014-04-12_nykRM-at-bosWC	4	36	bosWC	17	78	1	nykRM	nykRM	14	G	17	FALSE	TRUE	nykRM	o_line	G	G	15	O-G
+2014-04-12_nykRM-at-bosWC	4	37	nykRM	17	79	1	bosWC	bosWC	17	G	17	FALSE	TRUE	bosWC	o_line	G	G	15	O-G
+2014-04-12_nykRM-at-bosWC	4	38	bosWC	7	80	1	nykRM	nykRM	4	TD	7	FALSE	FALSE	NA	o_line	TD	off -	5	O-TD
+2014-04-12_nykRM-at-bosWC	4	38	bosWC	14	81	2	bosWC	bosWC	10	TA	7	FALSE	FALSE	NA	d_line	TA	off -	7	NA
+2014-04-12_nykRM-at-bosWC	4	38	bosWC	16	82	3	nykRM	nykRM	4	TA	2	FALSE	FALSE	NA	o_line	TA	off -	2	NA
+2014-04-12_nykRM-at-bosWC	4	38	bosWC	18	83	4	bosWC	bosWC	43	TA	2	FALSE	FALSE	NA	d_line	TA	off -	2	NA
+2014-04-12_nykRM-at-bosWC	4	38	bosWC	25	84	5	nykRM	bosWC	6	D	7	FALSE	FALSE	NA	o_line	D	def +	6	D-D
+2014-04-12_nykRM-at-bosWC	4	38	bosWC	30	85	6	bosWC	bosWC	43	G	5	FALSE	TRUE	bosWC	d_line	G	G	4	O-G
+2014-04-12_nykRM-at-bosWC	4	39	bosWC	7	86	1	nykRM	nykRM	19	G	7	FALSE	TRUE	nykRM	o_line	G	G	5	O-G
+2014-04-12_nykRM-at-bosWC	4	40	nykRM	5	87	1	bosWC	bosWC	77	eop	5	FALSE	FALSE	NA	o_line	eop	eop	4	NA
 2014-04-12_seaRM-at-sfoDF	1	1	sfoDF	5	1	1	seaRM	seaRM	48	LG	5	TRUE	TRUE	seaRM	o_line	G	G	3	O-G
 2014-04-12_seaRM-at-sfoDF	1	2	seaRM	7	2	1	sfoDF	sfoDF	11	TA	7	FALSE	FALSE	NA	o_line	TA	off -	6	NA
 2014-04-12_seaRM-at-sfoDF	1	2	seaRM	9	3	2	seaRM	seaRM	9	G	2	FALSE	TRUE	seaRM	d_line	G	G	1	O-G
@@ -346,6 +433,110 @@ game	period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl
 2014-04-19_bosWC-at-wdcCT	4	35	wdcCT	19	70	2	wdcCT	wdcCT	32	G	11	FALSE	TRUE	wdcCT	d_line	G	G	10	O-G
 2014-04-19_bosWC-at-wdcCT	4	36	wdcCT	15	71	1	bosWC	bosWC	21	G	15	FALSE	TRUE	bosWC	o_line	G	G	12	O-G
 2014-04-19_bosWC-at-wdcCT	4	37	bosWC	10	72	1	wdcCT	wdcCT	88	G	10	FALSE	TRUE	wdcCT	o_line	G	G	7	O-G
+2014-04-19_phlSP-at-nykRM	1	1	nykRM	4	1	1	phlSP	phlSP	1	TA	4	FALSE	FALSE	NA	o_line	TA	off -	3	NA
+2014-04-19_phlSP-at-nykRM	1	1	nykRM	6	2	2	nykRM	nykRM	21	TD	2	FALSE	FALSE	NA	d_line	TD	off -	1	O-TD
+2014-04-19_phlSP-at-nykRM	1	1	nykRM	8	3	3	phlSP	phlSP	20	G	2	FALSE	TRUE	phlSP	o_line	G	G	1	O-G
+2014-04-19_phlSP-at-nykRM	1	2	phlSP	11	4	1	nykRM	nykRM	14	G	11	FALSE	TRUE	nykRM	o_line	G	G	9	O-G
+2014-04-19_phlSP-at-nykRM	1	3	nykRM	11	5	1	phlSP	phlSP	27	G	11	TRUE	TRUE	phlSP	o_line	G	G	9	O-G
+2014-04-19_phlSP-at-nykRM	1	4	phlSP	12	6	1	nykRM	nykRM	44	G	12	TRUE	TRUE	nykRM	o_line	G	G	10	O-G
+2014-04-19_phlSP-at-nykRM	1	5	nykRM	10	7	1	phlSP	phlSP	7	G	10	FALSE	TRUE	phlSP	o_line	G	G	8	O-G
+2014-04-19_phlSP-at-nykRM	1	6	phlSP	13	8	1	nykRM	nykRM	19	G	13	FALSE	TRUE	nykRM	o_line	G	G	11	O-G
+2014-04-19_phlSP-at-nykRM	1	7	nykRM	10	9	1	phlSP	phlSP	13	TA	10	FALSE	FALSE	NA	o_line	TA	off -	9	NA
+2014-04-19_phlSP-at-nykRM	1	7	nykRM	15	10	2	nykRM	nykRM	38	TA	5	FALSE	FALSE	NA	d_line	TA	off -	5	NA
+2014-04-19_phlSP-at-nykRM	1	7	nykRM	18	11	3	phlSP	nykRM	21	D	3	FALSE	FALSE	NA	o_line	D	def +	2	D-D
+2014-04-19_phlSP-at-nykRM	1	7	nykRM	23	12	4	nykRM	nykRM	13	G	5	FALSE	TRUE	nykRM	d_line	G	G	4	O-G
+2014-04-19_phlSP-at-nykRM	1	8	nykRM	9	13	1	phlSP	nykRM	82	D	9	FALSE	FALSE	NA	o_line	D	def +	6	D-D
+2014-04-19_phlSP-at-nykRM	1	8	nykRM	11	14	2	nykRM	nykRM	27	TD	2	FALSE	FALSE	NA	d_line	TD	off -	1	O-TD
+2014-04-19_phlSP-at-nykRM	1	8	nykRM	14	15	3	phlSP	nykRM	82	D	3	FALSE	FALSE	NA	o_line	D	def +	1	D-D
+2014-04-19_phlSP-at-nykRM	1	8	nykRM	26	16	4	nykRM	nykRM	6	TA	12	FALSE	FALSE	NA	d_line	TA	off -	7	NA
+2014-04-19_phlSP-at-nykRM	1	8	nykRM	28	17	5	phlSP	nykRM	8	D	2	FALSE	FALSE	NA	o_line	D	def +	1	D-D
+2014-04-19_phlSP-at-nykRM	1	8	nykRM	34	18	6	nykRM	nykRM	81	TD	6	FALSE	FALSE	NA	d_line	TD	off -	5	O-TD
+2014-04-19_phlSP-at-nykRM	1	8	nykRM	48	19	7	phlSP	phlSP	9	G	14	TRUE	TRUE	phlSP	o_line	G	G	10	O-G
+2014-04-19_phlSP-at-nykRM	1	9	phlSP	9	20	1	nykRM	nykRM	41	G	9	FALSE	TRUE	nykRM	o_line	G	G	6	O-G
+2014-04-19_phlSP-at-nykRM	1	10	nykRM	5	21	1	phlSP	nykRM	21	D	5	TRUE	FALSE	NA	o_line	D	def +	3	D-D
+2014-04-19_phlSP-at-nykRM	1	10	nykRM	9	22	2	nykRM	nykRM	38	LG	4	TRUE	TRUE	nykRM	d_line	G	G	3	O-G
+2014-04-19_phlSP-at-nykRM	2	11	nykRM	3	23	1	phlSP	phlSP	20	TA	3	FALSE	FALSE	NA	o_line	TA	off -	2	NA
+2014-04-19_phlSP-at-nykRM	2	11	nykRM	7	24	2	nykRM	nykRM	22	G	4	FALSE	TRUE	nykRM	d_line	G	G	3	O-G
+2014-04-19_phlSP-at-nykRM	2	12	nykRM	6	25	1	phlSP	phlSP	64	TA	6	FALSE	FALSE	NA	o_line	TA	off -	5	NA
+2014-04-19_phlSP-at-nykRM	2	12	nykRM	15	26	2	nykRM	nykRM	81	G	9	FALSE	TRUE	nykRM	d_line	G	G	8	O-G
+2014-04-19_phlSP-at-nykRM	2	13	nykRM	5	27	1	phlSP	phlSP	32	TA	5	FALSE	FALSE	NA	o_line	TA	off -	4	NA
+2014-04-19_phlSP-at-nykRM	2	13	nykRM	9	28	2	nykRM	phlSP	32	D	4	FALSE	FALSE	NA	d_line	D	def +	3	D-D
+2014-04-19_phlSP-at-nykRM	2	13	nykRM	16	29	3	phlSP	phlSP	12	G	7	TRUE	TRUE	phlSP	o_line	G	G	4	O-G
+2014-04-19_phlSP-at-nykRM	2	14	phlSP	10	30	1	nykRM	nykRM	44	G	10	FALSE	TRUE	nykRM	o_line	G	G	7	O-G
+2014-04-19_phlSP-at-nykRM	2	15	nykRM	7	31	1	phlSP	phlSP	27	TA	7	FALSE	FALSE	NA	o_line	TA	off -	6	NA
+2014-04-19_phlSP-at-nykRM	2	15	nykRM	12	32	2	nykRM	nykRM	21	TD	5	FALSE	FALSE	NA	d_line	TD	off -	4	O-TD
+2014-04-19_phlSP-at-nykRM	2	15	nykRM	18	33	3	phlSP	phlSP	32	G	6	FALSE	TRUE	phlSP	o_line	G	G	5	O-G
+2014-04-19_phlSP-at-nykRM	2	16	phlSP	14	34	1	nykRM	phlSP	6	D	14	FALSE	FALSE	NA	o_line	D	def +	12	D-D
+2014-04-19_phlSP-at-nykRM	2	16	phlSP	22	35	2	phlSP	phlSP	11	G	8	FALSE	TRUE	phlSP	d_line	G	G	7	O-G
+2014-04-19_phlSP-at-nykRM	2	17	phlSP	12	36	1	nykRM	nykRM	44	G	12	FALSE	TRUE	nykRM	o_line	G	G	10	O-G
+2014-04-19_phlSP-at-nykRM	2	18	nykRM	7	37	1	phlSP	phlSP	32	G	7	FALSE	TRUE	phlSP	o_line	G	G	4	O-G
+2014-04-19_phlSP-at-nykRM	2	19	phlSP	6	38	1	nykRM	phlSP	11	D	6	FALSE	FALSE	NA	o_line	D	def +	4	D-D
+2014-04-19_phlSP-at-nykRM	2	19	phlSP	13	39	2	phlSP	phlSP	64	TA	7	FALSE	FALSE	NA	d_line	TA	off -	6	NA
+2014-04-19_phlSP-at-nykRM	2	19	phlSP	25	40	3	nykRM	nykRM	19	G	12	FALSE	TRUE	nykRM	o_line	G	G	11	O-G
+2014-04-19_phlSP-at-nykRM	2	20	nykRM	11	41	1	phlSP	phlSP	20	G	11	FALSE	TRUE	phlSP	o_line	G	G	9	O-G
+2014-04-19_phlSP-at-nykRM	2	21	phlSP	7	42	1	nykRM	phlSP	22	eop	7	FALSE	FALSE	NA	o_line	eop	eop	4	D-D
+2014-04-19_phlSP-at-nykRM	3	22	phlSP	8	43	1	nykRM	nykRM	14	G	8	FALSE	TRUE	nykRM	o_line	G	G	6	O-G
+2014-04-19_phlSP-at-nykRM	3	23	nykRM	9	44	1	phlSP	nykRM	21	D	9	FALSE	FALSE	NA	o_line	D	def +	7	D-D
+2014-04-19_phlSP-at-nykRM	3	23	nykRM	11	45	2	nykRM	nykRM	21	G	2	FALSE	TRUE	nykRM	d_line	G	G	1	O-G
+2014-04-19_phlSP-at-nykRM	3	24	nykRM	14	46	1	phlSP	phlSP	16	TD	14	FALSE	FALSE	NA	o_line	TD	off -	12	O-TD
+2014-04-19_phlSP-at-nykRM	3	24	nykRM	20	47	2	nykRM	nykRM	7	TA	6	FALSE	FALSE	NA	d_line	TA	off -	6	NA
+2014-04-19_phlSP-at-nykRM	3	24	nykRM	29	48	3	phlSP	phlSP	13	G	9	TRUE	TRUE	phlSP	o_line	G	G	8	O-G
+2014-04-19_phlSP-at-nykRM	3	25	phlSP	7	49	1	nykRM	nykRM	14	LG	7	TRUE	TRUE	nykRM	o_line	G	G	5	O-G
+2014-04-19_phlSP-at-nykRM	3	26	nykRM	6	50	1	phlSP	phlSP	32	TA	6	FALSE	FALSE	NA	o_line	TA	off -	5	NA
+2014-04-19_phlSP-at-nykRM	3	26	nykRM	10	51	2	nykRM	phlSP	1	HB	4	FALSE	FALSE	NA	d_line	D	def +	3	D-D
+2014-04-19_phlSP-at-nykRM	3	26	nykRM	13	52	3	phlSP	phlSP	11	G	3	FALSE	TRUE	phlSP	o_line	G	G	2	O-G
+2014-04-19_phlSP-at-nykRM	3	27	phlSP	17	53	1	nykRM	nykRM	44	G	17	FALSE	TRUE	nykRM	o_line	G	G	15	O-G
+2014-04-19_phlSP-at-nykRM	3	28	nykRM	5	54	1	phlSP	nykRM	38	D	5	FALSE	FALSE	NA	o_line	D	def +	3	D-D
+2014-04-19_phlSP-at-nykRM	3	28	nykRM	10	55	2	nykRM	nykRM	3	LG	5	TRUE	TRUE	nykRM	d_line	G	G	4	O-G
+2014-04-19_phlSP-at-nykRM	3	29	nykRM	5	56	1	phlSP	phlSP	16	LG	5	TRUE	TRUE	phlSP	o_line	G	G	3	O-G
+2014-04-19_phlSP-at-nykRM	3	30	phlSP	12	57	1	nykRM	nykRM	18	G	12	FALSE	TRUE	nykRM	o_line	G	G	10	O-G
+2014-04-19_phlSP-at-nykRM	3	31	nykRM	12	58	1	phlSP	phlSP	9	LG	12	TRUE	TRUE	phlSP	o_line	G	G	9	O-G
+2014-04-19_phlSP-at-nykRM	3	32	phlSP	7	59	1	nykRM	phlSP	11	D	7	FALSE	FALSE	NA	o_line	D	def +	5	D-D
+2014-04-19_phlSP-at-nykRM	3	32	phlSP	14	60	2	phlSP	phlSP	31	LG	7	TRUE	TRUE	phlSP	d_line	G	G	5	O-G
+2014-04-19_phlSP-at-nykRM	3	33	phlSP	10	61	1	nykRM	phlSP	8	D	10	FALSE	FALSE	NA	o_line	D	def +	8	D-D
+2014-04-19_phlSP-at-nykRM	3	33	phlSP	17	62	2	phlSP	phlSP	71	LG	7	TRUE	TRUE	phlSP	d_line	G	G	5	O-G
+2014-04-19_phlSP-at-nykRM	3	34	phlSP	5	63	1	nykRM	phlSP	31	D	5	FALSE	FALSE	NA	o_line	D	def +	3	D-D
+2014-04-19_phlSP-at-nykRM	3	34	phlSP	7	64	2	phlSP	nykRM	19	eop	2	FALSE	FALSE	NA	d_line	eop	eop	1	D-D
+2014-04-19_phlSP-at-nykRM	4	35	nykRM	9	65	1	phlSP	phlSP	7	TD	9	FALSE	FALSE	NA	o_line	TD	off -	7	O-TD
+2014-04-19_phlSP-at-nykRM	4	35	nykRM	11	66	2	nykRM	nykRM	7	TA	2	FALSE	FALSE	NA	d_line	TA	off -	2	NA
+2014-04-19_phlSP-at-nykRM	4	35	nykRM	14	67	3	phlSP	nykRM	13	D	3	FALSE	FALSE	NA	o_line	D	def +	2	D-D
+2014-04-19_phlSP-at-nykRM	4	35	nykRM	26	68	4	nykRM	nykRM	81	TD	12	FALSE	FALSE	NA	d_line	TD	off -	10	O-TD
+2014-04-19_phlSP-at-nykRM	4	35	nykRM	41	69	5	phlSP	phlSP	20	G	15	FALSE	TRUE	phlSP	o_line	G	G	12	O-G
+2014-04-19_phlSP-at-nykRM	4	36	phlSP	2	70	1	nykRM	nykRM	6	TD	2	FALSE	FALSE	NA	o_line	TD	off -	0	NA
+2014-04-19_phlSP-at-nykRM	4	36	phlSP	5	71	2	phlSP	phlSP	16	G	3	FALSE	TRUE	phlSP	d_line	G	G	2	O-G
+2014-04-19_phlSP-at-nykRM	4	37	phlSP	5	72	1	nykRM	nykRM	19	TA	5	FALSE	FALSE	NA	o_line	TA	off -	4	NA
+2014-04-19_phlSP-at-nykRM	4	37	phlSP	16	73	2	phlSP	nykRM	22	D	11	FALSE	FALSE	NA	d_line	D	def +	10	D-D
+2014-04-19_phlSP-at-nykRM	4	37	phlSP	25	74	3	nykRM	nykRM	4	G	9	FALSE	TRUE	nykRM	o_line	G	G	7	O-G
+2014-04-19_phlSP-at-nykRM	4	38	nykRM	5	75	1	phlSP	nykRM	13	D	5	FALSE	FALSE	NA	o_line	D	def +	3	D-D
+2014-04-19_phlSP-at-nykRM	4	38	nykRM	11	76	2	nykRM	nykRM	5	TA	6	FALSE	FALSE	NA	d_line	TA	off -	6	NA
+2014-04-19_phlSP-at-nykRM	4	38	nykRM	13	77	3	phlSP	nykRM	5	D	2	FALSE	FALSE	NA	o_line	D	def +	1	D-D
+2014-04-19_phlSP-at-nykRM	4	38	nykRM	17	78	4	nykRM	phlSP	21	D	4	FALSE	FALSE	NA	d_line	D	def +	2	D-D
+2014-04-19_phlSP-at-nykRM	4	38	nykRM	19	79	5	phlSP	phlSP	28	G	2	FALSE	TRUE	phlSP	o_line	G	G	1	O-G
+2014-04-19_phlSP-at-nykRM	4	39	phlSP	7	80	1	nykRM	nykRM	4	LG	7	TRUE	TRUE	nykRM	o_line	G	G	5	O-G
+2014-04-19_phlSP-at-nykRM	4	40	nykRM	5	81	1	phlSP	phlSP	9	TD	5	FALSE	FALSE	NA	o_line	TD	off -	3	O-TD
+2014-04-19_phlSP-at-nykRM	4	40	nykRM	20	82	2	nykRM	nykRM	3	G	15	FALSE	TRUE	nykRM	d_line	G	G	10	O-G
+2014-04-19_phlSP-at-nykRM	4	41	nykRM	11	83	1	phlSP	phlSP	71	G	11	FALSE	TRUE	phlSP	o_line	G	G	9	O-G
+2014-04-19_phlSP-at-nykRM	4	42	phlSP	13	84	1	nykRM	nykRM	22	G	13	FALSE	TRUE	nykRM	o_line	G	G	11	O-G
+2014-04-19_phlSP-at-nykRM	4	43	nykRM	13	85	1	phlSP	phlSP	32	LG	13	TRUE	TRUE	phlSP	o_line	G	G	11	O-G
+2014-04-19_phlSP-at-nykRM	4	44	phlSP	4	86	1	nykRM	phlSP	31	D	4	FALSE	FALSE	NA	o_line	D	def +	2	D-D
+2014-04-19_phlSP-at-nykRM	4	44	phlSP	15	87	2	phlSP	phlSP	11	G	11	FALSE	TRUE	phlSP	d_line	G	G	9	O-G
+2014-04-19_phlSP-at-nykRM	4	45	phlSP	3	88	1	nykRM	phlSP	27	eop	3	FALSE	FALSE	NA	o_line	eop	eop	1	D-D
+2014-04-19_phlSP-at-nykRM	OT	46	nykRM	7	89	1	phlSP	phlSP	13	LG	7	TRUE	TRUE	phlSP	o_line	G	G	5	O-G
+2014-04-19_phlSP-at-nykRM	OT	47	phlSP	5	90	1	nykRM	nykRM	14	VTT	5	FALSE	FALSE	NA	o_line	VTT	off -	3	O-OV
+2014-04-19_phlSP-at-nykRM	OT	47	phlSP	16	91	2	phlSP	nykRM	41	D	11	FALSE	FALSE	NA	d_line	D	def +	10	D-D
+2014-04-19_phlSP-at-nykRM	OT	47	phlSP	21	92	3	nykRM	nykRM	44	LG	5	TRUE	TRUE	nykRM	o_line	G	G	4	O-G
+2014-04-19_phlSP-at-nykRM	OT	48	nykRM	5	93	1	phlSP	nykRM	81	D	5	FALSE	FALSE	NA	o_line	D	def +	3	D-D
+2014-04-19_phlSP-at-nykRM	OT	48	nykRM	7	94	2	nykRM	phlSP	13	D	2	FALSE	FALSE	NA	d_line	D	def +	1	D-D
+2014-04-19_phlSP-at-nykRM	OT	48	nykRM	16	95	3	phlSP	nykRM	3	D	9	FALSE	FALSE	NA	o_line	D	def +	8	D-D
+2014-04-19_phlSP-at-nykRM	OT	48	nykRM	21	96	4	nykRM	nykRM	22	TA	5	FALSE	FALSE	NA	d_line	TA	off -	2	NA
+2014-04-19_phlSP-at-nykRM	OT	48	nykRM	23	97	5	phlSP	nykRM	41	D	2	FALSE	FALSE	NA	o_line	D	def +	1	D-D
+2014-04-19_phlSP-at-nykRM	OT	48	nykRM	25	98	6	nykRM	nykRM	6	G	2	FALSE	TRUE	nykRM	d_line	G	G	1	O-G
+2014-04-19_phlSP-at-nykRM	OT	49	nykRM	11	99	1	phlSP	phlSP	13	TA	11	FALSE	FALSE	NA	o_line	TA	off -	10	NA
+2014-04-19_phlSP-at-nykRM	OT	49	nykRM	15	100	2	nykRM	phlSP	13	D	4	FALSE	FALSE	NA	d_line	D	def +	3	D-D
+2014-04-19_phlSP-at-nykRM	OT	49	nykRM	17	101	3	phlSP	phlSP	11	G	2	FALSE	TRUE	phlSP	o_line	G	G	1	O-G
+2014-04-19_phlSP-at-nykRM	2OT	50	phlSP	10	102	1	nykRM	nykRM	22	TA	10	FALSE	FALSE	NA	o_line	TA	off -	9	NA
+2014-04-19_phlSP-at-nykRM	2OT	50	phlSP	28	103	2	phlSP	phlSP	13	TA	18	FALSE	FALSE	NA	d_line	TA	off -	13	NA
+2014-04-19_phlSP-at-nykRM	2OT	50	phlSP	45	104	3	nykRM	nykRM	6	G	17	FALSE	TRUE	nykRM	o_line	G	G	14	O-G
 2014-04-19_sfoDF-at-seaRM	1	1	sfoDF	14	1	1	seaRM	seaRM	6	G	14	TRUE	TRUE	seaRM	o_line	G	G	12	O-G
 2014-04-19_sfoDF-at-seaRM	1	2	seaRM	9	2	1	sfoDF	sfoDF	34	G	9	TRUE	TRUE	sfoDF	o_line	G	G	7	O-G
 2014-04-19_sfoDF-at-seaRM	1	3	sfoDF	7	3	1	seaRM	seaRM	25	G	7	FALSE	TRUE	seaRM	o_line	G	G	5	O-G
@@ -550,6 +741,99 @@ game	period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl
 2014-04-20_sfoDF-at-vanNH	4	45	sfoDF	4	97	1	vanNH	vanNH	19	TA	4	FALSE	FALSE	NA	o_line	TA	off -	3	NA
 2014-04-20_sfoDF-at-vanNH	4	45	sfoDF	12	98	2	sfoDF	sfoDF	25	TA	8	FALSE	FALSE	NA	d_line	TA	off -	8	NA
 2014-04-20_sfoDF-at-vanNH	4	45	sfoDF	15	99	3	vanNH	vanNH	19	eop	3	FALSE	FALSE	NA	o_line	eop	eop	3	NA
+2014-04-26_nykRM-at-phlSP	1	1	nykRM	6	1	1	phlSP	phlSP	1	TD	6	FALSE	FALSE	NA	o_line	TD	off -	4	O-TD
+2014-04-26_nykRM-at-phlSP	1	1	nykRM	12	2	2	nykRM	nykRM	13	TD	6	FALSE	FALSE	NA	d_line	TD	off -	5	O-TD
+2014-04-26_nykRM-at-phlSP	1	1	nykRM	22	3	3	phlSP	phlSP	7	G	10	TRUE	TRUE	phlSP	o_line	G	G	9	O-G
+2014-04-26_nykRM-at-phlSP	1	2	phlSP	13	4	1	nykRM	phlSP	11	D	13	FALSE	FALSE	NA	o_line	D	def +	8	D-D
+2014-04-26_nykRM-at-phlSP	1	2	phlSP	16	5	2	phlSP	nykRM	4	D	3	FALSE	FALSE	NA	d_line	D	def +	2	D-D
+2014-04-26_nykRM-at-phlSP	1	2	phlSP	22	6	3	nykRM	nykRM	26	VST	6	TRUE	FALSE	NA	o_line	VST	off -	4	O-OV
+2014-04-26_nykRM-at-phlSP	1	2	phlSP	27	7	4	phlSP	phlSP	64	TA	5	FALSE	FALSE	NA	d_line	TA	off -	5	NA
+2014-04-26_nykRM-at-phlSP	1	2	phlSP	30	8	5	nykRM	nykRM	22	TA	3	FALSE	FALSE	NA	o_line	TA	off -	3	NA
+2014-04-26_nykRM-at-phlSP	1	2	phlSP	35	9	6	phlSP	phlSP	64	TA	5	FALSE	FALSE	NA	d_line	TA	off -	5	NA
+2014-04-26_nykRM-at-phlSP	1	2	phlSP	45	10	7	nykRM	phlSP	16	D	10	FALSE	FALSE	NA	o_line	D	def +	9	D-D
+2014-04-26_nykRM-at-phlSP	1	2	phlSP	51	11	8	phlSP	phlSP	64	G	6	FALSE	TRUE	phlSP	d_line	G	G	5	O-G
+2014-04-26_nykRM-at-phlSP	1	3	phlSP	7	12	1	nykRM	nykRM	33	TD	7	FALSE	FALSE	NA	o_line	TD	off -	5	O-TD
+2014-04-26_nykRM-at-phlSP	1	3	phlSP	13	13	2	phlSP	phlSP	10	G	6	FALSE	TRUE	phlSP	d_line	G	G	5	O-G
+2014-04-26_nykRM-at-phlSP	1	4	phlSP	12	14	1	nykRM	nykRM	14	G	12	FALSE	TRUE	nykRM	o_line	G	G	10	O-G
+2014-04-26_nykRM-at-phlSP	1	5	nykRM	8	15	1	phlSP	phlSP	25	TA	8	FALSE	FALSE	NA	o_line	TA	off -	6	NA
+2014-04-26_nykRM-at-phlSP	1	5	nykRM	15	16	2	nykRM	nykRM	3	G	7	FALSE	TRUE	nykRM	d_line	G	G	5	O-G
+2014-04-26_nykRM-at-phlSP	1	6	nykRM	3	17	1	phlSP	nykRM	3	D	3	FALSE	FALSE	NA	o_line	D	def +	1	D-D
+2014-04-26_nykRM-at-phlSP	1	6	nykRM	12	18	2	nykRM	nykRM	6	G	9	FALSE	TRUE	nykRM	d_line	G	G	8	O-G
+2014-04-26_nykRM-at-phlSP	1	7	nykRM	7	19	1	phlSP	phlSP	20	eop	7	FALSE	FALSE	NA	o_line	eop	eop	6	NA
+2014-04-26_nykRM-at-phlSP	2	8	phlSP	8	20	1	nykRM	nykRM	22	LG	8	TRUE	TRUE	nykRM	o_line	G	G	6	O-G
+2014-04-26_nykRM-at-phlSP	2	9	nykRM	7	21	1	phlSP	phlSP	7	TA	7	FALSE	FALSE	NA	o_line	TA	off -	6	NA
+2014-04-26_nykRM-at-phlSP	2	9	nykRM	11	22	2	nykRM	nykRM	3	G	4	FALSE	TRUE	nykRM	d_line	G	G	3	O-G
+2014-04-26_nykRM-at-phlSP	2	10	nykRM	5	23	1	phlSP	nykRM	45	D	5	FALSE	FALSE	NA	o_line	D	def +	3	D-D
+2014-04-26_nykRM-at-phlSP	2	10	nykRM	8	24	2	nykRM	nykRM	3	TA	3	FALSE	FALSE	NA	d_line	TA	off -	3	NA
+2014-04-26_nykRM-at-phlSP	2	10	nykRM	11	25	3	phlSP	phlSP	21	G	3	FALSE	TRUE	phlSP	o_line	G	G	2	O-G
+2014-04-26_nykRM-at-phlSP	2	11	phlSP	10	26	1	nykRM	phlSP	10	D	10	FALSE	FALSE	NA	o_line	D	def +	8	D-D
+2014-04-26_nykRM-at-phlSP	2	11	phlSP	25	27	2	phlSP	nykRM	14	D	15	FALSE	FALSE	NA	d_line	D	def +	14	D-D
+2014-04-26_nykRM-at-phlSP	2	11	phlSP	29	28	3	nykRM	nykRM	2	TA	4	FALSE	FALSE	NA	o_line	TA	off -	4	NA
+2014-04-26_nykRM-at-phlSP	2	11	phlSP	34	29	4	phlSP	phlSP	10	TD	5	FALSE	FALSE	NA	d_line	TD	off -	4	O-TD
+2014-04-26_nykRM-at-phlSP	2	11	phlSP	43	30	5	nykRM	nykRM	6	VTT	9	FALSE	FALSE	NA	o_line	VTT	off -	7	O-OV
+2014-04-26_nykRM-at-phlSP	2	11	phlSP	45	31	6	phlSP	phlSP	16	TD	2	FALSE	FALSE	NA	d_line	TD	off -	1	O-TD
+2014-04-26_nykRM-at-phlSP	2	11	phlSP	54	32	7	nykRM	nykRM	2	G	9	FALSE	TRUE	nykRM	o_line	G	G	7	O-G
+2014-04-26_nykRM-at-phlSP	2	12	nykRM	8	33	1	phlSP	nykRM	27	D	8	FALSE	FALSE	NA	o_line	D	def +	6	D-D
+2014-04-26_nykRM-at-phlSP	2	12	nykRM	13	34	2	nykRM	nykRM	27	TA	5	FALSE	FALSE	NA	d_line	TA	off -	5	NA
+2014-04-26_nykRM-at-phlSP	2	12	nykRM	23	35	3	phlSP	phlSP	9	G	10	TRUE	TRUE	phlSP	o_line	G	G	9	O-G
+2014-04-26_nykRM-at-phlSP	2	13	phlSP	6	36	1	nykRM	nykRM	33	G	6	FALSE	TRUE	nykRM	o_line	G	G	4	O-G
+2014-04-26_nykRM-at-phlSP	2	14	nykRM	11	37	1	phlSP	phlSP	27	G	11	FALSE	TRUE	phlSP	o_line	G	G	9	O-G
+2014-04-26_nykRM-at-phlSP	2	15	phlSP	5	38	1	nykRM	phlSP	6	D	5	FALSE	FALSE	NA	o_line	D	def +	3	D-D
+2014-04-26_nykRM-at-phlSP	2	15	phlSP	18	39	2	phlSP	nykRM	10	eop	13	FALSE	FALSE	NA	d_line	eop	eop	11	D-D
+2014-04-26_nykRM-at-phlSP	3	16	nykRM	5	40	1	phlSP	nykRM	13	D	5	FALSE	FALSE	NA	o_line	D	def +	3	D-D
+2014-04-26_nykRM-at-phlSP	3	16	nykRM	14	41	2	nykRM	phlSP	7	D	9	FALSE	FALSE	NA	d_line	D	def +	8	D-D
+2014-04-26_nykRM-at-phlSP	3	16	nykRM	26	42	3	phlSP	phlSP	27	LG	12	TRUE	TRUE	phlSP	o_line	G	G	8	O-G
+2014-04-26_nykRM-at-phlSP	3	17	phlSP	9	43	1	nykRM	nykRM	22	TA	9	FALSE	FALSE	NA	o_line	TA	off -	8	NA
+2014-04-26_nykRM-at-phlSP	3	17	phlSP	16	44	2	phlSP	phlSP	1	G	7	FALSE	TRUE	phlSP	d_line	G	G	5	O-G
+2014-04-26_nykRM-at-phlSP	3	18	phlSP	12	45	1	nykRM	nykRM	2	G	12	FALSE	TRUE	nykRM	o_line	G	G	10	O-G
+2014-04-26_nykRM-at-phlSP	3	19	nykRM	7	46	1	phlSP	phlSP	20	TA	7	FALSE	FALSE	NA	o_line	TA	off -	6	NA
+2014-04-26_nykRM-at-phlSP	3	19	nykRM	15	47	2	nykRM	nykRM	13	TA	8	FALSE	FALSE	NA	d_line	TA	off -	8	NA
+2014-04-26_nykRM-at-phlSP	3	19	nykRM	20	48	3	phlSP	phlSP	20	G	5	FALSE	TRUE	phlSP	o_line	G	G	4	O-G
+2014-04-26_nykRM-at-phlSP	3	20	phlSP	12	49	1	nykRM	phlSP	28	D	12	FALSE	FALSE	NA	o_line	D	def +	10	D-D
+2014-04-26_nykRM-at-phlSP	3	20	phlSP	23	50	2	phlSP	nykRM	6	D	11	FALSE	FALSE	NA	d_line	D	def +	8	D-D
+2014-04-26_nykRM-at-phlSP	3	20	phlSP	25	51	3	nykRM	nykRM	1	TA	2	FALSE	FALSE	NA	o_line	TA	off -	2	NA
+2014-04-26_nykRM-at-phlSP	3	20	phlSP	26	52	4	phlSP	phlSP	21	TA	1	FALSE	FALSE	NA	d_line	TA	off -	1	NA
+2014-04-26_nykRM-at-phlSP	3	20	phlSP	33	53	5	nykRM	nykRM	41	G	6	FALSE	TRUE	nykRM	o_line	G	G	3	O-G
+2014-04-26_nykRM-at-phlSP	3	21	nykRM	4	54	1	phlSP	phlSP	1	TD	4	FALSE	FALSE	NA	o_line	TD	off -	2	O-TD
+2014-04-26_nykRM-at-phlSP	3	21	nykRM	14	55	2	nykRM	nykRM	3	TA	10	FALSE	FALSE	NA	d_line	TA	off -	9	NA
+2014-04-26_nykRM-at-phlSP	3	21	nykRM	18	56	3	phlSP	phlSP	9	eop	4	FALSE	FALSE	NA	o_line	eop	eop	3	NA
+2014-04-26_nykRM-at-phlSP	4	22	phlSP	10	57	1	nykRM	nykRM	2	TA	10	FALSE	FALSE	NA	o_line	TA	off -	9	NA
+2014-04-26_nykRM-at-phlSP	4	22	phlSP	11	58	2	phlSP	phlSP	21	TA	1	FALSE	FALSE	NA	d_line	TA	off -	1	NA
+2014-04-26_nykRM-at-phlSP	4	22	phlSP	13	59	3	nykRM	nykRM	4	TA	2	FALSE	FALSE	NA	o_line	TA	off -	2	NA
+2014-04-26_nykRM-at-phlSP	4	22	phlSP	21	60	4	phlSP	nykRM	19	D	8	FALSE	FALSE	NA	d_line	D	def +	7	D-D
+2014-04-26_nykRM-at-phlSP	4	22	phlSP	26	61	5	nykRM	nykRM	22	TA	5	FALSE	FALSE	NA	o_line	TA	off -	5	NA
+2014-04-26_nykRM-at-phlSP	4	22	phlSP	39	62	6	phlSP	phlSP	31	G	13	FALSE	TRUE	phlSP	d_line	G	G	12	O-G
+2014-04-26_nykRM-at-phlSP	4	23	phlSP	8	63	1	nykRM	phlSP	12	D	8	FALSE	FALSE	NA	o_line	D	def +	6	D-D
+2014-04-26_nykRM-at-phlSP	4	23	phlSP	14	64	2	phlSP	nykRM	4	D	6	FALSE	FALSE	NA	d_line	D	def +	5	D-D
+2014-04-26_nykRM-at-phlSP	4	23	phlSP	21	65	3	nykRM	nykRM	1	G	7	FALSE	TRUE	nykRM	o_line	G	G	6	O-G
+2014-04-26_nykRM-at-phlSP	4	24	nykRM	9	66	1	phlSP	nykRM	13	D	9	FALSE	FALSE	NA	o_line	D	def +	7	D-D
+2014-04-26_nykRM-at-phlSP	4	24	nykRM	23	67	2	nykRM	nykRM	21	TA	14	FALSE	FALSE	NA	d_line	TA	off -	14	NA
+2014-04-26_nykRM-at-phlSP	4	24	nykRM	33	68	3	phlSP	phlSP	20	TA	10	FALSE	FALSE	NA	o_line	TA	off -	10	NA
+2014-04-26_nykRM-at-phlSP	4	24	nykRM	42	69	4	nykRM	nykRM	10	G	9	FALSE	TRUE	nykRM	d_line	G	G	8	O-G
+2014-04-26_nykRM-at-phlSP	4	25	nykRM	8	70	1	phlSP	phlSP	6	G	8	FALSE	TRUE	phlSP	o_line	G	G	6	O-G
+2014-04-26_nykRM-at-phlSP	4	26	phlSP	9	71	1	nykRM	phlSP	11	D	9	FALSE	FALSE	NA	o_line	D	def +	7	D-D
+2014-04-26_nykRM-at-phlSP	4	26	phlSP	22	72	2	phlSP	phlSP	7	TD	13	FALSE	FALSE	NA	d_line	TD	off -	11	O-TD
+2014-04-26_nykRM-at-phlSP	4	26	phlSP	26	73	3	nykRM	phlSP	22	eop	4	FALSE	FALSE	NA	o_line	eop	eop	2	D-D
+2014-04-26_nykRM-at-phlSP	ot	27	nykRM	15	74	1	phlSP	phlSP	32	G	15	TRUE	TRUE	phlSP	o_line	G	G	13	O-G
+2014-04-26_nykRM-at-phlSP	ot	28	phlSP	7	75	1	nykRM	nykRM	41	TA	7	FALSE	FALSE	NA	o_line	TA	off -	6	NA
+2014-04-26_nykRM-at-phlSP	ot	28	phlSP	11	76	2	phlSP	phlSP	2	TD	4	FALSE	FALSE	NA	d_line	TD	off -	3	O-TD
+2014-04-26_nykRM-at-phlSP	ot	28	phlSP	13	77	3	nykRM	phlSP	21	D	2	FALSE	FALSE	NA	o_line	D	def +	1	D-D
+2014-04-26_nykRM-at-phlSP	ot	28	phlSP	15	78	4	phlSP	phlSP	6	TD	2	FALSE	FALSE	NA	d_line	TD	off -	1	O-TD
+2014-04-26_nykRM-at-phlSP	ot	28	phlSP	16	79	5	nykRM	nykRM	6	TA	1	FALSE	FALSE	NA	o_line	TA	off -	1	NA
+2014-04-26_nykRM-at-phlSP	ot	28	phlSP	22	80	6	phlSP	phlSP	6	TA	6	FALSE	FALSE	NA	d_line	TA	off -	6	NA
+2014-04-26_nykRM-at-phlSP	ot	28	phlSP	25	81	7	nykRM	nykRM	44	G	3	FALSE	TRUE	nykRM	o_line	G	G	2	O-G
+2014-04-26_nykRM-at-phlSP	ot	29	nykRM	5	82	1	phlSP	nykRM	10	D	5	FALSE	FALSE	NA	o_line	D	def +	3	D-D
+2014-04-26_nykRM-at-phlSP	ot	29	nykRM	11	83	2	nykRM	phlSP	9	D	6	FALSE	FALSE	NA	d_line	D	def +	5	D-D
+2014-04-26_nykRM-at-phlSP	ot	29	nykRM	12	84	3	phlSP	phlSP	9	TA	1	FALSE	FALSE	NA	o_line	TA	off -	1	NA
+2014-04-26_nykRM-at-phlSP	ot	29	nykRM	18	85	4	nykRM	phlSP	21	D	6	FALSE	FALSE	NA	d_line	D	def +	4	D-D
+2014-04-26_nykRM-at-phlSP	ot	29	nykRM	25	86	5	phlSP	phlSP	7	TD	7	FALSE	FALSE	NA	o_line	TD	off -	5	O-TD
+2014-04-26_nykRM-at-phlSP	ot	29	nykRM	26	87	6	nykRM	nykRM	6	eop	1	FALSE	FALSE	NA	d_line	eop	eop	1	NA
+2014-04-26_nykRM-at-phlSP	2ot	30	phlSP	9	88	1	nykRM	nykRM	3	TD	9	FALSE	FALSE	NA	o_line	TD	off -	6	O-TD
+2014-04-26_nykRM-at-phlSP	2ot	30	phlSP	11	89	2	phlSP	phlSP	6	TD	2	FALSE	FALSE	NA	d_line	TD	off -	1	O-TD
+2014-04-26_nykRM-at-phlSP	2ot	30	phlSP	15	90	3	nykRM	nykRM	22	TD	4	FALSE	FALSE	NA	o_line	TD	off -	3	O-TD
+2014-04-26_nykRM-at-phlSP	2ot	30	phlSP	16	91	4	phlSP	phlSP	21	TA	1	FALSE	FALSE	NA	d_line	TA	off -	1	NA
+2014-04-26_nykRM-at-phlSP	2ot	30	phlSP	26	92	5	nykRM	nykRM	3	TA	10	FALSE	FALSE	NA	o_line	TA	off -	10	NA
+2014-04-26_nykRM-at-phlSP	2ot	30	phlSP	28	93	6	phlSP	phlSP	64	LG	2	TRUE	TRUE	phlSP	d_line	G	G	1	O-G
 2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	7	1	1	pdxST	pdxST	11	TD	7	FALSE	FALSE	NA	o_line	TD	off -	5	O-TD
 2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	10	2	2	sfoDF	sfoDF	21	TD	3	FALSE	FALSE	NA	d_line	TD	off -	2	O-TD
 2014-04-26_pdxST-at-sfoDF	1	1	sfoDF	12	3	3	pdxST	pdxST	2	TA	2	FALSE	FALSE	NA	o_line	TA	off -	2	NA
@@ -815,6 +1099,84 @@ game	period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl
 2014-04-26_wdcCT-at-bosWC	4	32	bosWC	13	71	2	bosWC	wdcCT	15	D	10	FALSE	FALSE	NA	d_line	D	def +	8	D-D
 2014-04-26_wdcCT-at-bosWC	4	32	bosWC	20	72	3	wdcCT	wdcCT	90	TA	7	TRUE	FALSE	NA	o_line	TA	off -	7	NA
 2014-04-26_wdcCT-at-bosWC	4	32	bosWC	21	73	4	bosWC	bosWC	12	eop	1	FALSE	FALSE	NA	d_line	eop	eop	1	NA
+2014-05-03_bosWC-at-nykRM	1	1	bosWC	9	1	1	nykRM	nykRM	22	LG	9	TRUE	TRUE	nykRM	o_line	G	G	7	O-G
+2014-05-03_bosWC-at-nykRM	1	2	nykRM	9	2	1	bosWC	nykRM	21	D	9	FALSE	FALSE	NA	o_line	D	def +	7	D-D
+2014-05-03_bosWC-at-nykRM	1	2	nykRM	15	3	2	nykRM	nykRM	13	TA	6	FALSE	FALSE	NA	d_line	TA	off -	6	NA
+2014-05-03_bosWC-at-nykRM	1	2	nykRM	25	4	3	bosWC	bosWC	21	G	10	FALSE	TRUE	bosWC	o_line	G	G	9	O-G
+2014-05-03_bosWC-at-nykRM	1	3	bosWC	10	5	1	nykRM	nykRM	47	G	10	FALSE	TRUE	nykRM	o_line	G	G	6	O-G
+2014-05-03_bosWC-at-nykRM	1	4	nykRM	8	6	1	bosWC	nykRM	3	D	8	FALSE	FALSE	NA	o_line	D	def +	6	D-D
+2014-05-03_bosWC-at-nykRM	1	4	nykRM	15	7	2	nykRM	nykRM	38	VST	7	FALSE	FALSE	NA	d_line	VST	off -	6	O-OV
+2014-05-03_bosWC-at-nykRM	1	4	nykRM	20	8	3	bosWC	nykRM	13	D	5	FALSE	FALSE	NA	o_line	D	def +	4	D-D
+2014-05-03_bosWC-at-nykRM	1	4	nykRM	30	9	4	nykRM	nykRM	38	VTT	10	FALSE	FALSE	NA	d_line	VTT	off -	9	O-OV
+2014-05-03_bosWC-at-nykRM	1	4	nykRM	35	10	5	bosWC	bosWC	7	G	5	FALSE	TRUE	bosWC	o_line	G	G	4	O-G
+2014-05-03_bosWC-at-nykRM	1	5	bosWC	8	11	1	nykRM	nykRM	44	TD	8	FALSE	FALSE	NA	o_line	TD	off -	6	O-TD
+2014-05-03_bosWC-at-nykRM	1	5	bosWC	12	12	2	bosWC	bosWC	64	G	4	FALSE	TRUE	bosWC	d_line	G	G	2	O-G
+2014-05-03_bosWC-at-nykRM	1	6	bosWC	13	13	1	nykRM	nykRM	19	TA	13	FALSE	FALSE	NA	o_line	TA	off -	12	NA
+2014-05-03_bosWC-at-nykRM	1	6	bosWC	21	14	2	bosWC	nykRM	14	D	8	FALSE	FALSE	NA	d_line	D	def +	7	D-D
+2014-05-03_bosWC-at-nykRM	1	6	bosWC	28	15	3	nykRM	nykRM	19	G	7	FALSE	TRUE	nykRM	o_line	G	G	6	O-G
+2014-05-03_bosWC-at-nykRM	1	7	nykRM	8	16	1	bosWC	bosWC	13	LG	8	TRUE	TRUE	bosWC	o_line	G	G	6	O-G
+2014-05-03_bosWC-at-nykRM	1	8	bosWC	7	17	1	nykRM	nykRM	44	G	7	FALSE	TRUE	nykRM	o_line	G	G	5	O-G
+2014-05-03_bosWC-at-nykRM	1	9	nykRM	3	18	1	bosWC	bosWC	43	eop	3	TRUE	FALSE	NA	o_line	eop	eop	2	NA
+2014-05-03_bosWC-at-nykRM	2	10	nykRM	16	19	1	bosWC	bosWC	7	G	16	FALSE	TRUE	bosWC	o_line	G	G	14	O-G
+2014-05-03_bosWC-at-nykRM	2	11	bosWC	8	20	1	nykRM	bosWC	29	D	8	FALSE	FALSE	NA	o_line	D	def +	5	D-D
+2014-05-03_bosWC-at-nykRM	2	11	bosWC	16	21	2	bosWC	bosWC	13	VST	8	FALSE	FALSE	NA	d_line	VST	off -	6	O-OV
+2014-05-03_bosWC-at-nykRM	2	11	bosWC	17	22	3	nykRM	nykRM	6	TA	1	FALSE	FALSE	NA	o_line	TA	off -	1	NA
+2014-05-03_bosWC-at-nykRM	2	11	bosWC	22	23	4	bosWC	bosWC	21	VTT	5	FALSE	FALSE	NA	d_line	VTT	off -	4	O-OV
+2014-05-03_bosWC-at-nykRM	2	11	bosWC	29	24	5	nykRM	nykRM	21	TA	6	FALSE	FALSE	NA	o_line	TA	off -	6	NA
+2014-05-03_bosWC-at-nykRM	2	11	bosWC	40	25	6	bosWC	nykRM	6	D	11	FALSE	FALSE	NA	d_line	D	def +	10	D-D
+2014-05-03_bosWC-at-nykRM	2	11	bosWC	43	26	7	nykRM	bosWC	8	D	3	FALSE	FALSE	NA	o_line	D	def +	2	D-D
+2014-05-03_bosWC-at-nykRM	2	11	bosWC	47	27	8	bosWC	nykRM	21	D	4	FALSE	FALSE	NA	d_line	D	def +	3	D-D
+2014-05-03_bosWC-at-nykRM	2	11	bosWC	54	28	9	nykRM	nykRM	21	G	7	FALSE	TRUE	nykRM	o_line	G	G	6	O-G
+2014-05-03_bosWC-at-nykRM	2	12	nykRM	6	29	1	bosWC	nykRM	27	D	6	FALSE	FALSE	NA	o_line	D	def +	4	D-D
+2014-05-03_bosWC-at-nykRM	2	12	nykRM	12	30	2	nykRM	nykRM	41	G	6	TRUE	TRUE	nykRM	d_line	G	G	3	O-G
+2014-05-03_bosWC-at-nykRM	2	13	nykRM	8	31	1	bosWC	bosWC	27	TD	8	FALSE	FALSE	NA	o_line	TD	off -	6	O-TD
+2014-05-03_bosWC-at-nykRM	2	13	nykRM	10	32	2	nykRM	nykRM	15	VST	2	FALSE	FALSE	NA	d_line	VST	off -	0	O-OV
+2014-05-03_bosWC-at-nykRM	2	13	nykRM	12	33	3	bosWC	bosWC	21	G	2	FALSE	TRUE	bosWC	o_line	G	G	1	O-G
+2014-05-03_bosWC-at-nykRM	2	14	bosWC	16	34	1	nykRM	nykRM	6	G	16	FALSE	TRUE	nykRM	o_line	G	G	14	O-G
+2014-05-03_bosWC-at-nykRM	2	15	nykRM	4	35	1	bosWC	nykRM	82	eop	4	FALSE	FALSE	NA	o_line	eop	eop	2	D-D
+2014-05-03_bosWC-at-nykRM	3	16	bosWC	14	36	1	nykRM	nykRM	6	TD	14	FALSE	FALSE	NA	o_line	TD	off -	12	O-TD
+2014-05-03_bosWC-at-nykRM	3	16	bosWC	16	37	2	bosWC	bosWC	27	VST	2	FALSE	FALSE	NA	d_line	VST	off -	1	O-OV
+2014-05-03_bosWC-at-nykRM	3	16	bosWC	18	38	3	nykRM	nykRM	41	G	2	FALSE	TRUE	nykRM	o_line	G	G	1	O-G
+2014-05-03_bosWC-at-nykRM	3	17	nykRM	5	39	1	bosWC	bosWC	21	VST	5	FALSE	FALSE	NA	o_line	VST	off -	2	O-OV
+2014-05-03_bosWC-at-nykRM	3	17	nykRM	18	40	2	nykRM	nykRM	5	G	13	FALSE	TRUE	nykRM	d_line	G	G	10	O-G
+2014-05-03_bosWC-at-nykRM	3	18	nykRM	9	41	1	bosWC	bosWC	18	LG	9	TRUE	TRUE	bosWC	o_line	G	G	7	O-G
+2014-05-03_bosWC-at-nykRM	3	19	bosWC	5	42	1	nykRM	nykRM	44	LG	5	TRUE	TRUE	nykRM	o_line	G	G	3	O-G
+2014-05-03_bosWC-at-nykRM	3	20	nykRM	7	43	1	bosWC	bosWC	18	LG	7	TRUE	TRUE	bosWC	o_line	G	G	5	O-G
+2014-05-03_bosWC-at-nykRM	3	21	bosWC	8	44	1	nykRM	nykRM	22	LG	8	TRUE	TRUE	nykRM	o_line	G	G	6	O-G
+2014-05-03_bosWC-at-nykRM	3	22	nykRM	3	45	1	bosWC	bosWC	13	TA	3	FALSE	FALSE	NA	o_line	TA	off -	2	NA
+2014-05-03_bosWC-at-nykRM	3	22	nykRM	10	46	2	nykRM	nykRM	41	G	7	FALSE	TRUE	nykRM	d_line	G	G	6	O-G
+2014-05-03_bosWC-at-nykRM	3	23	nykRM	12	47	1	bosWC	bosWC	3	G	12	FALSE	TRUE	bosWC	o_line	G	G	9	O-G
+2014-05-03_bosWC-at-nykRM	3	24	bosWC	5	48	1	nykRM	nykRM	19	TA	5	FALSE	FALSE	NA	o_line	TA	off -	4	NA
+2014-05-03_bosWC-at-nykRM	3	24	bosWC	11	49	2	bosWC	bosWC	43	TD	6	FALSE	FALSE	NA	d_line	TD	off -	5	O-TD
+2014-05-03_bosWC-at-nykRM	3	24	bosWC	19	50	3	nykRM	nykRM	6	G	8	FALSE	TRUE	nykRM	o_line	G	G	7	O-G
+2014-05-03_bosWC-at-nykRM	3	25	nykRM	19	51	1	bosWC	bosWC	18	G	19	FALSE	TRUE	bosWC	o_line	G	G	17	O-G
+2014-05-03_bosWC-at-nykRM	3	26	bosWC	5	52	1	nykRM	bosWC	27	eop	5	FALSE	FALSE	NA	o_line	eop	eop	3	D-D
+2014-05-03_bosWC-at-nykRM	4	27	nykRM	5	53	1	bosWC	bosWC	77	LG	5	TRUE	TRUE	bosWC	o_line	G	G	3	O-G
+2014-05-03_bosWC-at-nykRM	4	28	bosWC	14	54	1	nykRM	nykRM	2	G	14	FALSE	TRUE	nykRM	o_line	G	G	12	O-G
+2014-05-03_bosWC-at-nykRM	4	29	nykRM	7	55	1	bosWC	bosWC	17	G	7	TRUE	TRUE	bosWC	o_line	G	G	5	O-G
+2014-05-03_bosWC-at-nykRM	4	30	bosWC	5	56	1	nykRM	nykRM	44	LG	5	TRUE	TRUE	nykRM	o_line	G	G	3	O-G
+2014-05-03_bosWC-at-nykRM	4	31	nykRM	4	57	1	bosWC	nykRM	13	D	4	FALSE	FALSE	NA	o_line	D	def +	2	D-D
+2014-05-03_bosWC-at-nykRM	4	31	nykRM	10	58	2	nykRM	nykRM	38	TA	6	FALSE	FALSE	NA	d_line	TA	off -	4	NA
+2014-05-03_bosWC-at-nykRM	4	31	nykRM	16	59	3	bosWC	bosWC	0	TD	5	FALSE	FALSE	NA	o_line	TD	off -	4	O-TD
+2014-05-03_bosWC-at-nykRM	4	31	nykRM	18	60	4	nykRM	nykRM	38	VTT	2	FALSE	FALSE	NA	d_line	VTT	off -	1	O-OV
+2014-05-03_bosWC-at-nykRM	4	31	nykRM	23	61	5	bosWC	nykRM	10	D	5	FALSE	FALSE	NA	o_line	D	def +	2	D-D
+2014-05-03_bosWC-at-nykRM	4	31	nykRM	25	62	6	nykRM	nykRM	3	LG	2	TRUE	TRUE	nykRM	d_line	G	G	1	O-G
+2014-05-03_bosWC-at-nykRM	4	32	nykRM	5	63	1	bosWC	bosWC	11	LG	5	TRUE	TRUE	bosWC	o_line	G	G	3	O-G
+2014-05-03_bosWC-at-nykRM	4	33	bosWC	10	64	1	nykRM	nykRM	6	TA	10	FALSE	FALSE	NA	o_line	TA	off -	9	NA
+2014-05-03_bosWC-at-nykRM	4	33	bosWC	22	65	2	bosWC	nykRM	14	D	12	FALSE	FALSE	NA	d_line	D	def +	11	D-D
+2014-05-03_bosWC-at-nykRM	4	33	bosWC	30	66	3	nykRM	bosWC	27	D	8	FALSE	FALSE	NA	o_line	D	def +	7	D-D
+2014-05-03_bosWC-at-nykRM	4	33	bosWC	39	67	4	bosWC	bosWC	21	G	9	FALSE	TRUE	bosWC	d_line	G	G	7	O-G
+2014-05-03_bosWC-at-nykRM	4	34	bosWC	7	68	1	nykRM	bosWC	12	D	7	FALSE	FALSE	NA	o_line	D	def +	5	D-D
+2014-05-03_bosWC-at-nykRM	4	34	bosWC	12	69	2	bosWC	nykRM	6	D	5	FALSE	FALSE	NA	d_line	D	def +	4	D-D
+2014-05-03_bosWC-at-nykRM	4	34	bosWC	20	70	3	nykRM	nykRM	22	G	8	FALSE	TRUE	nykRM	o_line	G	G	7	O-G
+2014-05-03_bosWC-at-nykRM	4	35	nykRM	5	71	1	bosWC	bosWC	77	LG	5	TRUE	TRUE	bosWC	o_line	G	G	3	O-G
+2014-05-03_bosWC-at-nykRM	4	36	bosWC	7	72	1	nykRM	nykRM	14	TA	7	FALSE	FALSE	NA	o_line	TA	off -	6	NA
+2014-05-03_bosWC-at-nykRM	4	36	bosWC	9	73	2	bosWC	bosWC	13	TA	2	FALSE	FALSE	NA	d_line	TA	off -	1	NA
+2014-05-03_bosWC-at-nykRM	4	36	bosWC	12	74	3	nykRM	bosWC	7	HB	3	FALSE	FALSE	NA	o_line	D	def +	2	D-D
+2014-05-03_bosWC-at-nykRM	4	36	bosWC	14	75	4	bosWC	bosWC	17	G	2	FALSE	TRUE	bosWC	d_line	G	G	1	O-G
+2014-05-03_bosWC-at-nykRM	4	37	bosWC	8	76	1	nykRM	nykRM	22	G	8	TRUE	TRUE	nykRM	o_line	G	G	6	O-G
+2014-05-03_bosWC-at-nykRM	4	38	nykRM	4	77	1	bosWC	bosWC	77	G	4	TRUE	TRUE	bosWC	o_line	G	G	2	O-G
+2014-05-03_bosWC-at-nykRM	4	39	bosWC	6	78	1	nykRM	nykRM	14	eop	6	FALSE	FALSE	NA	o_line	eop	eop	3	NA
 2014-05-03_sfoDF-at-pdxST	1	1	pdxST	27	1	1	sfoDF	sfoDF	57	TA	27	FALSE	FALSE	NA	o_line	TA	off -	26	NA
 2014-05-03_sfoDF-at-pdxST	1	1	pdxST	30	2	2	pdxST	sfoDF	8	HB	3	FALSE	FALSE	NA	d_line	D	def +	2	D-D
 2014-05-03_sfoDF-at-pdxST	1	1	pdxST	36	3	3	sfoDF	pdxST	6	D	6	FALSE	FALSE	NA	o_line	D	def +	5	D-D
@@ -1166,6 +1528,83 @@ game	period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl
 2014-05-10_nykRM-at-wdcCT	4	46	wdcCT	5	90	1	nykRM	nykRM	22	LG	5	TRUE	TRUE	nykRM	o_line	G	G	3	O-G
 2014-05-10_nykRM-at-wdcCT	4	47	nykRM	13	91	1	wdcCT	wdcCT	14	TA	13	FALSE	FALSE	NA	o_line	TA	off -	12	NA
 2014-05-10_nykRM-at-wdcCT	4	47	nykRM	26	92	2	nykRM	wdcCT	9	eop	13	FALSE	FALSE	NA	d_line	eop	eop	12	D-D
+2014-05-10_phlSP-at-bosWC	1	1	bosWC	6	1	1	phlSP	phlSP	9	LG	6	TRUE	TRUE	phlSP	o_line	G	G	4	O-G
+2014-05-10_phlSP-at-bosWC	1	2	phlSP	22	2	1	bosWC	bosWC	4	G	22	FALSE	TRUE	bosWC	o_line	G	G	20	O-G
+2014-05-10_phlSP-at-bosWC	1	3	bosWC	4	3	1	phlSP	bosWC	27	D	4	FALSE	FALSE	NA	o_line	D	def +	2	D-D
+2014-05-10_phlSP-at-bosWC	1	3	bosWC	6	4	2	bosWC	bosWC	18	TA	2	FALSE	FALSE	NA	d_line	TA	off -	2	NA
+2014-05-10_phlSP-at-bosWC	1	3	bosWC	14	5	3	phlSP	bosWC	28	D	8	FALSE	FALSE	NA	o_line	D	def +	7	D-D
+2014-05-10_phlSP-at-bosWC	1	3	bosWC	24	6	4	bosWC	bosWC	64	G	10	FALSE	TRUE	bosWC	d_line	G	G	9	O-G
+2014-05-10_phlSP-at-bosWC	1	4	bosWC	15	7	1	phlSP	bosWC	5	D	15	FALSE	FALSE	NA	o_line	D	def +	13	D-D
+2014-05-10_phlSP-at-bosWC	1	4	bosWC	18	8	2	bosWC	bosWC	25	G	3	TRUE	TRUE	bosWC	d_line	G	G	2	O-G
+2014-05-10_phlSP-at-bosWC	1	5	bosWC	6	9	1	phlSP	bosWC	14	D	6	FALSE	FALSE	NA	o_line	D	def +	4	D-D
+2014-05-10_phlSP-at-bosWC	1	5	bosWC	10	10	2	bosWC	bosWC	27	G	4	FALSE	TRUE	bosWC	d_line	G	G	1	O-G
+2014-05-10_phlSP-at-bosWC	1	6	bosWC	7	11	1	phlSP	phlSP	9	LG	7	TRUE	TRUE	phlSP	o_line	G	G	5	O-G
+2014-05-10_phlSP-at-bosWC	1	7	phlSP	10	12	1	bosWC	bosWC	3	G	10	FALSE	TRUE	bosWC	o_line	G	G	8	O-G
+2014-05-10_phlSP-at-bosWC	1	8	bosWC	13	13	1	phlSP	phlSP	7	G	13	FALSE	TRUE	phlSP	o_line	G	G	11	O-G
+2014-05-10_phlSP-at-bosWC	1	9	phlSP	9	14	1	bosWC	bosWC	1	G	9	FALSE	TRUE	bosWC	o_line	G	G	7	O-G
+2014-05-10_phlSP-at-bosWC	1	10	bosWC	16	15	1	phlSP	phlSP	9	G	16	FALSE	TRUE	phlSP	o_line	G	G	14	O-G
+2014-05-10_phlSP-at-bosWC	1	11	phlSP	8	16	1	bosWC	bosWC	17	TD	8	FALSE	FALSE	NA	o_line	TD	off -	6	O-TD
+2014-05-10_phlSP-at-bosWC	1	11	phlSP	11	17	2	phlSP	phlSP	2	LG	3	TRUE	TRUE	phlSP	d_line	G	G	2	O-G
+2014-05-10_phlSP-at-bosWC	1	12	phlSP	10	18	1	bosWC	bosWC	1	LG	10	TRUE	TRUE	bosWC	o_line	G	G	8	O-G
+2014-05-10_phlSP-at-bosWC	1	13	bosWC	7	19	1	phlSP	phlSP	13	eop	7	FALSE	FALSE	NA	o_line	eop	eop	6	NA
+2014-05-10_phlSP-at-bosWC	2	14	phlSP	14	20	1	bosWC	bosWC	13	G	14	FALSE	TRUE	bosWC	o_line	G	G	12	O-G
+2014-05-10_phlSP-at-bosWC	2	15	bosWC	4	21	1	phlSP	bosWC	27	D	4	FALSE	FALSE	NA	o_line	D	def +	2	D-D
+2014-05-10_phlSP-at-bosWC	2	15	bosWC	11	22	2	bosWC	bosWC	17	G	7	FALSE	TRUE	bosWC	d_line	G	G	5	O-G
+2014-05-10_phlSP-at-bosWC	2	16	bosWC	13	23	1	phlSP	phlSP	11	G	13	FALSE	TRUE	phlSP	o_line	G	G	11	O-G
+2014-05-10_phlSP-at-bosWC	2	17	phlSP	4	24	1	bosWC	bosWC	3	G	4	FALSE	TRUE	bosWC	o_line	G	G	2	O-G
+2014-05-10_phlSP-at-bosWC	2	18	bosWC	8	25	1	phlSP	phlSP	9	LG	8	TRUE	TRUE	phlSP	o_line	G	G	6	O-G
+2014-05-10_phlSP-at-bosWC	2	19	phlSP	11	26	1	bosWC	bosWC	13	G	11	FALSE	TRUE	bosWC	o_line	G	G	9	O-G
+2014-05-10_phlSP-at-bosWC	2	20	bosWC	5	27	1	phlSP	phlSP	71	TA	5	FALSE	FALSE	NA	o_line	TA	off -	4	NA
+2014-05-10_phlSP-at-bosWC	2	20	bosWC	13	28	2	bosWC	bosWC	5	TA	8	FALSE	FALSE	NA	d_line	TA	off -	7	O-F
+2014-05-10_phlSP-at-bosWC	2	20	bosWC	15	29	3	phlSP	phlSP	14	TD	2	FALSE	FALSE	NA	o_line	TD	off -	1	O-TD
+2014-05-10_phlSP-at-bosWC	2	20	bosWC	20	30	4	bosWC	bosWC	5	G	5	FALSE	TRUE	bosWC	d_line	G	G	4	O-G
+2014-05-10_phlSP-at-bosWC	2	21	bosWC	4	31	1	phlSP	phlSP	16	TA	4	FALSE	FALSE	NA	o_line	TA	off -	3	NA
+2014-05-10_phlSP-at-bosWC	2	21	bosWC	8	32	2	bosWC	bosWC	29	G	4	TRUE	TRUE	bosWC	d_line	G	G	3	O-G
+2014-05-10_phlSP-at-bosWC	2	22	bosWC	6	33	1	phlSP	phlSP	4	TA	6	FALSE	FALSE	NA	o_line	TA	off -	5	NA
+2014-05-10_phlSP-at-bosWC	2	22	bosWC	13	34	2	bosWC	bosWC	17	G	7	FALSE	TRUE	bosWC	d_line	G	G	5	O-G
+2014-05-10_phlSP-at-bosWC	2	23	bosWC	4	35	1	phlSP	phlSP	14	TA	4	FALSE	FALSE	NA	o_line	TA	off -	3	NA
+2014-05-10_phlSP-at-bosWC	2	23	bosWC	8	36	2	bosWC	bosWC	28	G	4	FALSE	TRUE	bosWC	d_line	G	G	3	O-G
+2014-05-10_phlSP-at-bosWC	2	24	bosWC	3	37	1	phlSP	phlSP	1	TA	3	FALSE	FALSE	NA	o_line	TA	off -	2	NA
+2014-05-10_phlSP-at-bosWC	2	24	bosWC	17	38	2	bosWC	bosWC	25	TA	14	FALSE	FALSE	NA	d_line	TA	off -	13	NA
+2014-05-10_phlSP-at-bosWC	2	24	bosWC	25	39	3	phlSP	bosWC	64	D	8	FALSE	FALSE	NA	o_line	D	def +	6	D-D
+2014-05-10_phlSP-at-bosWC	2	24	bosWC	27	40	4	bosWC	bosWC	27	LG	2	TRUE	TRUE	bosWC	d_line	G	G	1	O-G
+2014-05-10_phlSP-at-bosWC	2	25	bosWC	5	41	1	phlSP	phlSP	27	eop	5	FALSE	FALSE	NA	o_line	eop	eop	4	NA
+2014-05-10_phlSP-at-bosWC	3	26	bosWC	9	42	1	phlSP	phlSP	20	G	9	TRUE	TRUE	phlSP	o_line	G	G	7	O-G
+2014-05-10_phlSP-at-bosWC	3	27	phlSP	7	43	1	bosWC	bosWC	77	TA	7	FALSE	FALSE	NA	o_line	TA	off -	6	NA
+2014-05-10_phlSP-at-bosWC	3	27	phlSP	12	44	2	phlSP	bosWC	27	D	5	FALSE	FALSE	NA	d_line	D	def +	2	D-D
+2014-05-10_phlSP-at-bosWC	3	27	phlSP	15	45	3	bosWC	bosWC	8	TA	3	FALSE	FALSE	NA	o_line	TA	off -	3	NA
+2014-05-10_phlSP-at-bosWC	3	27	phlSP	21	46	4	phlSP	phlSP	27	G	6	FALSE	TRUE	phlSP	d_line	G	G	4	O-G
+2014-05-10_phlSP-at-bosWC	3	28	phlSP	9	47	1	bosWC	bosWC	13	G	9	FALSE	TRUE	bosWC	o_line	G	G	7	O-G
+2014-05-10_phlSP-at-bosWC	3	29	bosWC	15	48	1	phlSP	phlSP	27	G	15	FALSE	TRUE	phlSP	o_line	G	G	12	O-G
+2014-05-10_phlSP-at-bosWC	3	30	phlSP	14	49	1	bosWC	bosWC	77	G	14	FALSE	TRUE	bosWC	o_line	G	G	12	O-G
+2014-05-10_phlSP-at-bosWC	3	31	bosWC	5	50	1	phlSP	bosWC	27	D	5	FALSE	FALSE	NA	o_line	D	def +	3	D-D
+2014-05-10_phlSP-at-bosWC	3	31	bosWC	15	51	2	bosWC	bosWC	27	TD	10	FALSE	FALSE	NA	d_line	TD	off -	9	O-TD
+2014-05-10_phlSP-at-bosWC	3	31	bosWC	21	52	3	phlSP	phlSP	11	off F	6	FALSE	FALSE	NA	o_line	off F	off -	3	O-F
+2014-05-10_phlSP-at-bosWC	3	31	bosWC	25	53	4	bosWC	bosWC	64	TD	4	FALSE	FALSE	NA	d_line	TD	off -	3	O-TD
+2014-05-10_phlSP-at-bosWC	3	31	bosWC	37	54	5	phlSP	phlSP	13	G	12	FALSE	TRUE	phlSP	o_line	G	G	11	O-G
+2014-05-10_phlSP-at-bosWC	3	32	phlSP	4	55	1	bosWC	bosWC	4	TA	4	FALSE	FALSE	NA	o_line	TA	off -	3	NA
+2014-05-10_phlSP-at-bosWC	3	32	phlSP	17	56	2	phlSP	phlSP	11	LG	13	TRUE	TRUE	phlSP	d_line	G	G	12	O-G
+2014-05-10_phlSP-at-bosWC	3	33	phlSP	17	57	1	bosWC	bosWC	21	G	17	FALSE	TRUE	bosWC	o_line	G	G	13	O-G
+2014-05-10_phlSP-at-bosWC	3	34	bosWC	15	58	1	phlSP	phlSP	14	G	15	FALSE	TRUE	phlSP	o_line	G	G	11	O-G
+2014-05-10_phlSP-at-bosWC	3	35	phlSP	4	59	1	bosWC	phlSP	41	eop	4	FALSE	FALSE	NA	o_line	eop	eop	2	D-D
+2014-05-10_phlSP-at-bosWC	4	36	phlSP	7	60	1	bosWC	bosWC	9	TD	7	FALSE	FALSE	NA	o_line	TD	off -	5	O-TD
+2014-05-10_phlSP-at-bosWC	4	36	phlSP	18	61	2	phlSP	bosWC	27	D	11	FALSE	FALSE	NA	d_line	D	def +	6	D-D
+2014-05-10_phlSP-at-bosWC	4	36	phlSP	24	62	3	bosWC	bosWC	21	G	6	FALSE	TRUE	bosWC	o_line	G	G	5	O-G
+2014-05-10_phlSP-at-bosWC	4	37	bosWC	12	63	1	phlSP	phlSP	14	G	12	FALSE	TRUE	phlSP	o_line	G	G	10	O-G
+2014-05-10_phlSP-at-bosWC	4	38	phlSP	9	64	1	bosWC	phlSP	10	D	9	FALSE	FALSE	NA	o_line	D	def +	7	D-D
+2014-05-10_phlSP-at-bosWC	4	38	phlSP	23	65	2	phlSP	phlSP	6	G	14	FALSE	TRUE	phlSP	d_line	G	G	13	O-G
+2014-05-10_phlSP-at-bosWC	4	39	phlSP	7	66	1	bosWC	bosWC	12	TA	7	FALSE	FALSE	NA	o_line	TA	off -	6	NA
+2014-05-10_phlSP-at-bosWC	4	39	phlSP	11	67	2	phlSP	phlSP	2	TA	4	FALSE	FALSE	NA	d_line	TA	off -	4	NA
+2014-05-10_phlSP-at-bosWC	4	39	phlSP	19	68	3	bosWC	bosWC	1	G	8	FALSE	TRUE	bosWC	o_line	G	G	5	O-G
+2014-05-10_phlSP-at-bosWC	4	40	bosWC	14	69	1	phlSP	phlSP	14	G	14	FALSE	TRUE	phlSP	o_line	G	G	12	O-G
+2014-05-10_phlSP-at-bosWC	4	41	phlSP	7	70	1	bosWC	bosWC	21	G	7	FALSE	TRUE	bosWC	o_line	G	G	4	O-G
+2014-05-10_phlSP-at-bosWC	4	42	bosWC	10	71	1	phlSP	phlSP	71	TA	10	FALSE	FALSE	NA	o_line	TA	off -	9	NA
+2014-05-10_phlSP-at-bosWC	4	42	bosWC	14	72	2	bosWC	bosWC	6	VST	4	FALSE	FALSE	NA	d_line	VST	off -	3	O-OV
+2014-05-10_phlSP-at-bosWC	4	42	bosWC	17	73	3	phlSP	phlSP	71	G	3	FALSE	TRUE	phlSP	o_line	G	G	2	O-G
+2014-05-10_phlSP-at-bosWC	4	43	phlSP	4	74	1	bosWC	bosWC	21	LG	4	TRUE	TRUE	bosWC	o_line	G	G	2	O-G
+2014-05-10_phlSP-at-bosWC	4	44	bosWC	12	75	1	phlSP	phlSP	9	LG	12	TRUE	TRUE	phlSP	o_line	G	G	10	O-G
+2014-05-10_phlSP-at-bosWC	4	45	phlSP	12	76	1	bosWC	bosWC	13	G	12	FALSE	TRUE	bosWC	o_line	G	G	10	O-G
+2014-05-10_phlSP-at-bosWC	4	46	bosWC	3	77	1	phlSP	phlSP	71	eop	3	FALSE	FALSE	NA	o_line	eop	eop	2	NA
 2014-05-10_seaRM-at-vanNH	1	1	seaRM	21	1	1	vanNH	vanNH	10	G	21	FALSE	TRUE	vanNH	o_line	G	G	18	O-G
 2014-05-10_seaRM-at-vanNH	1	2	vanNH	4	2	1	seaRM	seaRM	51	TA	4	FALSE	FALSE	NA	o_line	TA	off -	3	NA
 2014-05-10_seaRM-at-vanNH	1	2	vanNH	8	3	2	vanNH	vanNH	18	TA	4	FALSE	FALSE	NA	d_line	TA	off -	4	NA
@@ -1571,6 +2010,177 @@ game	period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl
 2014-05-17_wdcCT-at-nykRM	4	49	wdcCT	9	91	2	wdcCT	wdcCT	25	TD	4	FALSE	FALSE	NA	d_line	TD	off -	3	O-TD
 2014-05-17_wdcCT-at-nykRM	4	49	wdcCT	27	92	3	nykRM	wdcCT	25	D	18	FALSE	FALSE	NA	o_line	D	def +	15	D-D
 2014-05-17_wdcCT-at-nykRM	4	49	wdcCT	32	93	4	wdcCT	wdcCT	31	eop	5	FALSE	FALSE	NA	d_line	eop	eop	5	NA
+2014-05-18_bosWC-at-phlSP	1	1	phlSP	7	1	1	bosWC	bosWC	1	G	7	FALSE	TRUE	bosWC	o_line	G	G	5	O-G
+2014-05-18_bosWC-at-phlSP	1	2	bosWC	14	2	1	phlSP	phlSP	9	G	14	FALSE	TRUE	phlSP	o_line	G	G	12	O-G
+2014-05-18_bosWC-at-phlSP	1	3	phlSP	12	3	1	bosWC	bosWC	9	G	12	FALSE	TRUE	bosWC	o_line	G	G	10	O-G
+2014-05-18_bosWC-at-phlSP	1	4	bosWC	5	4	1	phlSP	phlSP	9	LG	5	TRUE	TRUE	phlSP	o_line	G	G	3	O-G
+2014-05-18_bosWC-at-phlSP	1	5	phlSP	8	5	1	bosWC	bosWC	13	LG	8	TRUE	TRUE	bosWC	o_line	G	G	6	O-G
+2014-05-18_bosWC-at-phlSP	1	6	bosWC	9	6	1	phlSP	phlSP	4	G	9	TRUE	TRUE	phlSP	o_line	G	G	7	O-G
+2014-05-18_bosWC-at-phlSP	1	7	phlSP	7	7	1	bosWC	bosWC	9	LG	7	TRUE	TRUE	bosWC	o_line	G	G	5	O-G
+2014-05-18_bosWC-at-phlSP	1	8	bosWC	16	8	1	phlSP	phlSP	11	G	16	FALSE	TRUE	phlSP	o_line	G	G	13	O-G
+2014-05-18_bosWC-at-phlSP	1	9	phlSP	9	9	1	bosWC	bosWC	64	G	9	FALSE	TRUE	bosWC	o_line	G	G	7	O-G
+2014-05-18_bosWC-at-phlSP	1	10	bosWC	15	10	1	phlSP	bosWC	4	D	15	FALSE	FALSE	NA	o_line	D	def +	13	D-D
+2014-05-18_bosWC-at-phlSP	1	10	bosWC	19	11	2	bosWC	bosWC	27	G	4	FALSE	TRUE	bosWC	d_line	G	G	3	O-G
+2014-05-18_bosWC-at-phlSP	1	11	bosWC	3	12	1	phlSP	bosWC	0	D	3	FALSE	FALSE	NA	o_line	D	def +	1	D-D
+2014-05-18_bosWC-at-phlSP	1	11	bosWC	9	13	2	bosWC	bosWC	9	G	6	FALSE	TRUE	bosWC	d_line	G	G	5	O-G
+2014-05-18_bosWC-at-phlSP	1	12	bosWC	8	14	1	phlSP	phlSP	9	TA	8	FALSE	FALSE	NA	o_line	TA	off -	7	NA
+2014-05-18_bosWC-at-phlSP	1	12	bosWC	11	15	2	bosWC	bosWC	29	TD	3	FALSE	FALSE	NA	d_line	TD	off -	2	O-TD
+2014-05-18_bosWC-at-phlSP	1	12	bosWC	16	16	3	phlSP	phlSP	11	G	5	FALSE	TRUE	phlSP	o_line	G	G	4	O-G
+2014-05-18_bosWC-at-phlSP	1	13	phlSP	5	17	1	bosWC	bosWC	27	G	5	TRUE	TRUE	bosWC	o_line	G	G	3	O-G
+2014-05-18_bosWC-at-phlSP	1	14	bosWC	9	18	1	phlSP	phlSP	11	LG	9	TRUE	TRUE	phlSP	o_line	G	G	7	O-G
+2014-05-18_bosWC-at-phlSP	1	15	phlSP	8	19	1	bosWC	bosWC	43	G	8	FALSE	TRUE	bosWC	o_line	G	G	6	O-G
+2014-05-18_bosWC-at-phlSP	1	16	bosWC	12	20	1	phlSP	phlSP	7	G	12	FALSE	TRUE	phlSP	o_line	G	G	10	O-G
+2014-05-18_bosWC-at-phlSP	1	17	phlSP	13	21	1	bosWC	bosWC	21	G	13	FALSE	TRUE	bosWC	o_line	G	G	10	O-G
+2014-05-18_bosWC-at-phlSP	1	18	bosWC	6	22	1	phlSP	phlSP	27	LG	6	TRUE	TRUE	phlSP	o_line	G	G	4	O-G
+2014-05-18_bosWC-at-phlSP	1	19	phlSP	5	23	1	bosWC	phlSP	25	eop	5	FALSE	FALSE	NA	o_line	eop	eop	3	D-D
+2014-05-18_bosWC-at-phlSP	2	20	bosWC	24	24	1	phlSP	phlSP	25	G	24	FALSE	TRUE	phlSP	o_line	G	G	21	O-G
+2014-05-18_bosWC-at-phlSP	2	21	phlSP	9	25	1	bosWC	bosWC	21	LG	9	TRUE	TRUE	bosWC	o_line	G	G	7	O-G
+2014-05-18_bosWC-at-phlSP	2	22	bosWC	11	26	1	phlSP	phlSP	27	G	11	FALSE	TRUE	phlSP	o_line	G	G	9	O-G
+2014-05-18_bosWC-at-phlSP	2	23	phlSP	5	27	1	bosWC	bosWC	4	TA	5	FALSE	FALSE	NA	o_line	TA	off -	4	NA
+2014-05-18_bosWC-at-phlSP	2	23	phlSP	12	28	2	phlSP	phlSP	27	G	7	FALSE	TRUE	phlSP	d_line	G	G	6	O-G
+2014-05-18_bosWC-at-phlSP	2	24	phlSP	7	29	1	bosWC	bosWC	18	TD	7	FALSE	FALSE	NA	o_line	TD	off -	5	O-TD
+2014-05-18_bosWC-at-phlSP	2	24	phlSP	24	30	2	phlSP	bosWC	1	HB	17	FALSE	FALSE	NA	d_line	D	def +	16	D-D
+2014-05-18_bosWC-at-phlSP	2	24	phlSP	37	31	3	bosWC	bosWC	13	G	13	FALSE	TRUE	bosWC	o_line	G	G	7	O-G
+2014-05-18_bosWC-at-phlSP	2	25	bosWC	25	32	1	phlSP	phlSP	13	G	25	FALSE	TRUE	phlSP	o_line	G	G	23	O-G
+2014-05-18_bosWC-at-phlSP	2	26	phlSP	4	33	1	bosWC	phlSP	2	D	4	FALSE	FALSE	NA	o_line	D	def +	2	D-D
+2014-05-18_bosWC-at-phlSP	2	26	phlSP	20	34	2	phlSP	phlSP	16	G	16	FALSE	TRUE	phlSP	d_line	G	G	14	O-G
+2014-05-18_bosWC-at-phlSP	2	27	phlSP	15	35	1	bosWC	bosWC	9	LG	15	TRUE	TRUE	bosWC	o_line	G	G	13	O-G
+2014-05-18_bosWC-at-phlSP	2	28	bosWC	9	36	1	phlSP	phlSP	9	TA	9	FALSE	FALSE	NA	o_line	TA	off -	8	NA
+2014-05-18_bosWC-at-phlSP	2	28	bosWC	14	37	2	bosWC	phlSP	9	D	4	FALSE	FALSE	NA	d_line	D	def +	3	D-D
+2014-05-18_bosWC-at-phlSP	2	28	bosWC	19	38	3	phlSP	phlSP	71	eop	5	FALSE	FALSE	NA	o_line	eop	eop	5	NA
+2014-05-18_bosWC-at-phlSP	3	29	phlSP	5	39	1	bosWC	phlSP	21	D	5	FALSE	FALSE	NA	o_line	D	def +	3	D-D
+2014-05-18_bosWC-at-phlSP	3	29	phlSP	12	40	2	phlSP	phlSP	2	G	7	FALSE	TRUE	phlSP	d_line	G	G	6	O-G
+2014-05-18_bosWC-at-phlSP	3	30	phlSP	6	41	1	bosWC	bosWC	8	G	6	FALSE	TRUE	bosWC	o_line	G	G	4	O-G
+2014-05-18_bosWC-at-phlSP	3	31	bosWC	9	42	1	phlSP	phlSP	7	TA	9	FALSE	FALSE	NA	o_line	TA	off -	8	NA
+2014-05-18_bosWC-at-phlSP	3	31	bosWC	18	43	2	bosWC	bosWC	21	LG	9	TRUE	TRUE	bosWC	d_line	G	G	8	O-G
+2014-05-18_bosWC-at-phlSP	3	32	bosWC	15	44	1	phlSP	phlSP	21	G	15	FALSE	TRUE	phlSP	o_line	G	G	13	O-G
+2014-05-18_bosWC-at-phlSP	3	33	phlSP	5	45	1	bosWC	bosWC	27	LG	5	TRUE	TRUE	bosWC	o_line	G	G	3	O-G
+2014-05-18_bosWC-at-phlSP	3	34	bosWC	10	46	1	phlSP	phlSP	9	LG	10	TRUE	TRUE	phlSP	o_line	G	G	8	O-G
+2014-05-18_bosWC-at-phlSP	3	35	phlSP	4	47	1	bosWC	phlSP	16	D	4	FALSE	FALSE	NA	o_line	D	def +	2	D-D
+2014-05-18_bosWC-at-phlSP	3	35	phlSP	19	48	2	phlSP	phlSP	16	G	15	FALSE	TRUE	phlSP	d_line	G	G	14	O-G
+2014-05-18_bosWC-at-phlSP	3	36	phlSP	7	49	1	bosWC	bosWC	64	LG	7	TRUE	TRUE	bosWC	o_line	G	G	5	O-G
+2014-05-18_bosWC-at-phlSP	3	37	bosWC	9	50	1	phlSP	phlSP	7	TA	9	FALSE	FALSE	NA	o_line	TA	off -	8	NA
+2014-05-18_bosWC-at-phlSP	3	37	bosWC	18	51	2	bosWC	bosWC	43	G	9	FALSE	TRUE	bosWC	d_line	G	G	8	O-G
+2014-05-18_bosWC-at-phlSP	3	38	bosWC	14	52	1	phlSP	phlSP	16	G	14	FALSE	TRUE	phlSP	o_line	G	G	12	O-G
+2014-05-18_bosWC-at-phlSP	3	39	phlSP	9	53	1	bosWC	bosWC	43	G	9	FALSE	TRUE	bosWC	o_line	G	G	7	O-G
+2014-05-18_bosWC-at-phlSP	3	40	bosWC	9	54	1	phlSP	phlSP	9	G	9	FALSE	TRUE	phlSP	o_line	G	G	7	O-G
+2014-05-18_bosWC-at-phlSP	3	41	phlSP	3	55	1	bosWC	bosWC	10	TA	3	FALSE	FALSE	NA	o_line	TA	off -	2	NA
+2014-05-18_bosWC-at-phlSP	3	41	phlSP	15	56	2	phlSP	bosWC	27	D	12	FALSE	FALSE	NA	d_line	D	def +	11	D-D
+2014-05-18_bosWC-at-phlSP	3	41	phlSP	22	57	3	bosWC	phlSP	10	D	7	FALSE	FALSE	NA	o_line	D	def +	6	D-D
+2014-05-18_bosWC-at-phlSP	3	41	phlSP	29	58	4	phlSP	phlSP	11	G	7	FALSE	TRUE	phlSP	d_line	G	G	4	O-G
+2014-05-18_bosWC-at-phlSP	3	42	phlSP	9	59	1	bosWC	bosWC	17	eop	9	FALSE	FALSE	NA	o_line	eop	eop	8	NA
+2014-05-18_bosWC-at-phlSP	4	43	bosWC	12	60	1	phlSP	bosWC	27	D	12	FALSE	FALSE	NA	o_line	D	def +	9	D-D
+2014-05-18_bosWC-at-phlSP	4	43	bosWC	23	61	2	bosWC	bosWC	43	TA	11	FALSE	FALSE	NA	d_line	TA	off -	11	NA
+2014-05-18_bosWC-at-phlSP	4	43	bosWC	28	62	3	phlSP	phlSP	9	G	5	FALSE	TRUE	phlSP	o_line	G	G	4	O-G
+2014-05-18_bosWC-at-phlSP	4	44	phlSP	9	63	1	bosWC	bosWC	9	G	9	FALSE	TRUE	bosWC	o_line	G	G	7	O-G
+2014-05-18_bosWC-at-phlSP	4	45	bosWC	6	64	1	phlSP	phlSP	11	G	6	TRUE	TRUE	phlSP	o_line	G	G	4	O-G
+2014-05-18_bosWC-at-phlSP	4	46	phlSP	4	65	1	bosWC	bosWC	0	TD	4	FALSE	FALSE	NA	o_line	TD	off -	2	O-TD
+2014-05-18_bosWC-at-phlSP	4	46	phlSP	9	66	2	phlSP	phlSP	10	TD	5	FALSE	FALSE	NA	d_line	TD	off -	4	O-TD
+2014-05-18_bosWC-at-phlSP	4	46	phlSP	10	67	3	bosWC	bosWC	13	TA	1	FALSE	FALSE	NA	o_line	TA	off -	1	NA
+2014-05-18_bosWC-at-phlSP	4	46	phlSP	11	68	4	phlSP	phlSP	21	TA	1	FALSE	FALSE	NA	d_line	TA	off -	1	NA
+2014-05-18_bosWC-at-phlSP	4	46	phlSP	23	69	5	bosWC	bosWC	9	G	12	FALSE	TRUE	bosWC	o_line	G	G	9	O-G
+2014-05-18_bosWC-at-phlSP	4	47	bosWC	9	70	1	phlSP	phlSP	27	G	9	FALSE	TRUE	phlSP	o_line	G	G	6	O-G
+2014-05-18_bosWC-at-phlSP	4	48	phlSP	10	71	1	bosWC	bosWC	1	G	10	FALSE	TRUE	bosWC	o_line	G	G	8	O-G
+2014-05-18_bosWC-at-phlSP	4	49	bosWC	21	72	1	phlSP	phlSP	13	G	21	FALSE	TRUE	phlSP	o_line	G	G	19	O-G
+2014-05-18_bosWC-at-phlSP	4	50	phlSP	8	73	1	bosWC	bosWC	9	G	8	FALSE	TRUE	bosWC	o_line	G	G	6	O-G
+2014-05-18_bosWC-at-phlSP	4	51	bosWC	11	74	1	phlSP	phlSP	14	G	11	FALSE	TRUE	phlSP	o_line	G	G	9	O-G
+2014-05-18_bosWC-at-phlSP	4	52	phlSP	3	75	1	bosWC	bosWC	17	LG	3	TRUE	TRUE	bosWC	o_line	G	G	1	O-G
+2014-05-18_bosWC-at-phlSP	4	53	bosWC	27	76	1	phlSP	phlSP	13	G	27	FALSE	TRUE	phlSP	o_line	G	G	23	O-G
+2014-05-18_bosWC-at-phlSP	4	54	phlSP	6	77	1	bosWC	bosWC	64	G	6	FALSE	TRUE	bosWC	o_line	G	G	4	O-G
+2014-05-18_bosWC-at-phlSP	4	55	bosWC	4	78	1	phlSP	phlSP	13	TD	4	FALSE	FALSE	NA	o_line	TD	off -	2	O-TD
+2014-05-18_bosWC-at-phlSP	4	55	bosWC	11	79	2	bosWC	phlSP	27	eop	7	FALSE	FALSE	NA	d_line	eop	eop	4	D-D
+2014-05-24_nykRM-at-bosWC	1	1	bosWC	5	1	1	nykRM	nykRM	47	TD	5	FALSE	FALSE	NA	o_line	TD	off -	3	O-TD
+2014-05-24_nykRM-at-bosWC	1	1	bosWC	8	2	2	bosWC	bosWC	6	G	3	FALSE	TRUE	bosWC	d_line	G	G	2	O-G
+2014-05-24_nykRM-at-bosWC	1	2	bosWC	8	3	1	nykRM	nykRM	81	TD	8	FALSE	FALSE	NA	o_line	TD	off -	6	O-TD
+2014-05-24_nykRM-at-bosWC	1	2	bosWC	12	4	2	bosWC	bosWC	29	G	4	FALSE	TRUE	bosWC	d_line	G	G	3	O-G
+2014-05-24_nykRM-at-bosWC	1	3	bosWC	8	5	1	nykRM	bosWC	13	D	8	FALSE	FALSE	NA	o_line	D	def +	6	D-D
+2014-05-24_nykRM-at-bosWC	1	3	bosWC	9	6	2	bosWC	bosWC	13	TA	1	FALSE	FALSE	NA	d_line	TA	off -	1	NA
+2014-05-24_nykRM-at-bosWC	1	3	bosWC	11	7	3	nykRM	bosWC	1	D	2	FALSE	FALSE	NA	o_line	D	def +	1	D-D
+2014-05-24_nykRM-at-bosWC	1	3	bosWC	15	8	4	bosWC	bosWC	13	G	4	FALSE	TRUE	bosWC	d_line	G	G	3	O-G
+2014-05-24_nykRM-at-bosWC	1	4	bosWC	10	9	1	nykRM	bosWC	25	HB	10	FALSE	FALSE	NA	o_line	D	def +	8	D-D
+2014-05-24_nykRM-at-bosWC	1	4	bosWC	14	10	2	bosWC	bosWC	11	G	4	TRUE	TRUE	bosWC	d_line	G	G	3	O-G
+2014-05-24_nykRM-at-bosWC	1	5	bosWC	8	11	1	nykRM	bosWC	3	D	8	FALSE	FALSE	NA	o_line	D	def +	4	D-D
+2014-05-24_nykRM-at-bosWC	1	5	bosWC	21	12	2	bosWC	bosWC	10	TA	13	FALSE	FALSE	NA	d_line	TA	off -	13	NA
+2014-05-24_nykRM-at-bosWC	1	5	bosWC	24	13	3	nykRM	nykRM	38	TD	3	FALSE	FALSE	NA	o_line	TD	off -	2	O-TD
+2014-05-24_nykRM-at-bosWC	1	5	bosWC	27	14	4	bosWC	bosWC	3	G	3	FALSE	TRUE	bosWC	d_line	G	G	2	O-G
+2014-05-24_nykRM-at-bosWC	1	6	bosWC	8	15	1	nykRM	nykRM	6	TD	8	FALSE	FALSE	NA	o_line	TD	off -	6	O-TD
+2014-05-24_nykRM-at-bosWC	1	6	bosWC	22	16	2	bosWC	bosWC	4	TA	14	FALSE	FALSE	NA	d_line	TA	off -	14	NA
+2014-05-24_nykRM-at-bosWC	1	6	bosWC	26	17	3	nykRM	nykRM	81	TD	4	FALSE	FALSE	NA	o_line	TD	off -	3	O-TD
+2014-05-24_nykRM-at-bosWC	1	6	bosWC	31	18	4	bosWC	bosWC	4	G	5	FALSE	TRUE	bosWC	d_line	G	G	4	O-G
+2014-05-24_nykRM-at-bosWC	1	7	bosWC	8	19	1	nykRM	bosWC	1	D	8	FALSE	FALSE	NA	o_line	D	def +	6	D-D
+2014-05-24_nykRM-at-bosWC	1	7	bosWC	12	20	2	bosWC	nykRM	19	D	4	FALSE	FALSE	NA	d_line	D	def +	3	D-D
+2014-05-24_nykRM-at-bosWC	1	7	bosWC	16	21	3	nykRM	nykRM	9	G	4	FALSE	TRUE	nykRM	o_line	G	G	3	O-G
+2014-05-24_nykRM-at-bosWC	1	8	nykRM	8	22	1	bosWC	bosWC	29	LG	8	TRUE	TRUE	bosWC	o_line	G	G	6	O-G
+2014-05-24_nykRM-at-bosWC	1	9	bosWC	4	23	1	nykRM	bosWC	14	eop	4	FALSE	FALSE	NA	o_line	eop	eop	2	D-D
+2014-05-24_nykRM-at-bosWC	2	10	nykRM	7	24	1	bosWC	nykRM	82	D	7	FALSE	FALSE	NA	o_line	D	def +	5	D-D
+2014-05-24_nykRM-at-bosWC	2	10	nykRM	10	25	2	nykRM	nykRM	10	TD	3	FALSE	FALSE	NA	d_line	TD	off -	2	O-TD
+2014-05-24_nykRM-at-bosWC	2	10	nykRM	13	26	3	bosWC	bosWC	21	G	3	FALSE	TRUE	bosWC	o_line	G	G	2	O-G
+2014-05-24_nykRM-at-bosWC	2	11	bosWC	8	27	1	nykRM	bosWC	8	D	8	FALSE	FALSE	NA	o_line	D	def +	6	D-D
+2014-05-24_nykRM-at-bosWC	2	11	bosWC	12	28	2	bosWC	bosWC	6	LG	4	TRUE	TRUE	bosWC	d_line	G	G	3	O-G
+2014-05-24_nykRM-at-bosWC	2	12	bosWC	11	29	1	nykRM	nykRM	10	G	11	FALSE	TRUE	nykRM	o_line	G	G	9	O-G
+2014-05-24_nykRM-at-bosWC	2	13	nykRM	11	30	1	bosWC	bosWC	14	TA	11	FALSE	FALSE	NA	o_line	TA	off -	8	NA
+2014-05-24_nykRM-at-bosWC	2	13	nykRM	15	31	2	nykRM	nykRM	19	TD	4	FALSE	FALSE	NA	d_line	TD	off -	3	O-TD
+2014-05-24_nykRM-at-bosWC	2	13	nykRM	17	32	3	bosWC	bosWC	13	G	2	FALSE	TRUE	bosWC	o_line	G	G	1	O-G
+2014-05-24_nykRM-at-bosWC	2	14	bosWC	9	33	1	nykRM	nykRM	45	LG	9	TRUE	TRUE	nykRM	o_line	G	G	7	O-G
+2014-05-24_nykRM-at-bosWC	2	15	nykRM	10	34	1	bosWC	bosWC	5	G	10	FALSE	TRUE	bosWC	o_line	G	G	8	O-G
+2014-05-24_nykRM-at-bosWC	2	16	bosWC	12	35	1	nykRM	nykRM	8	TD	12	FALSE	FALSE	NA	o_line	TD	off -	10	O-TD
+2014-05-24_nykRM-at-bosWC	2	16	bosWC	17	36	2	bosWC	nykRM	45	D	5	FALSE	FALSE	NA	d_line	D	def +	4	D-D
+2014-05-24_nykRM-at-bosWC	2	16	bosWC	21	37	3	nykRM	bosWC	11	D	4	FALSE	FALSE	NA	o_line	D	def +	3	D-D
+2014-05-24_nykRM-at-bosWC	2	16	bosWC	29	38	4	bosWC	bosWC	21	G	8	FALSE	TRUE	bosWC	d_line	G	G	5	O-G
+2014-05-24_nykRM-at-bosWC	2	17	bosWC	9	39	1	nykRM	nykRM	2	TA	9	FALSE	FALSE	NA	o_line	TA	off -	8	NA
+2014-05-24_nykRM-at-bosWC	2	17	bosWC	15	40	2	bosWC	nykRM	81	D	6	FALSE	FALSE	NA	d_line	D	def +	5	D-D
+2014-05-24_nykRM-at-bosWC	2	17	bosWC	20	41	3	nykRM	nykRM	81	VST	5	TRUE	FALSE	NA	o_line	VST	off -	3	O-OV
+2014-05-24_nykRM-at-bosWC	2	17	bosWC	27	42	4	bosWC	bosWC	29	TA	7	FALSE	FALSE	NA	d_line	TA	off -	7	NA
+2014-05-24_nykRM-at-bosWC	2	17	bosWC	32	43	5	nykRM	bosWC	29	D	5	FALSE	FALSE	NA	o_line	D	def +	4	D-D
+2014-05-24_nykRM-at-bosWC	2	17	bosWC	39	44	6	bosWC	bosWC	17	TD	7	FALSE	FALSE	NA	d_line	TD	off -	4	O-TD
+2014-05-24_nykRM-at-bosWC	2	17	bosWC	42	45	7	nykRM	nykRM	8	TD	3	FALSE	FALSE	NA	o_line	TD	off -	2	O-TD
+2014-05-24_nykRM-at-bosWC	2	17	bosWC	45	46	8	bosWC	nykRM	9	D	3	FALSE	FALSE	NA	d_line	D	def +	2	D-D
+2014-05-24_nykRM-at-bosWC	2	17	bosWC	53	47	9	nykRM	nykRM	45	G	8	FALSE	TRUE	nykRM	o_line	G	G	5	O-G
+2014-05-24_nykRM-at-bosWC	2	18	nykRM	5	48	1	bosWC	bosWC	29	LG	5	TRUE	TRUE	bosWC	o_line	G	G	3	O-G
+2014-05-24_nykRM-at-bosWC	3	19	bosWC	5	49	1	nykRM	nykRM	82	TD	5	FALSE	FALSE	NA	o_line	TD	off -	3	O-TD
+2014-05-24_nykRM-at-bosWC	3	19	bosWC	8	50	2	bosWC	bosWC	11	TD	3	FALSE	FALSE	NA	d_line	TD	off -	2	O-TD
+2014-05-24_nykRM-at-bosWC	3	19	bosWC	19	51	3	nykRM	nykRM	82	TA	11	FALSE	FALSE	NA	o_line	TA	off -	10	NA
+2014-05-24_nykRM-at-bosWC	3	19	bosWC	25	52	4	bosWC	bosWC	28	TD	6	TRUE	FALSE	NA	d_line	TD	off -	5	O-TD
+2014-05-24_nykRM-at-bosWC	3	19	bosWC	28	53	5	nykRM	nykRM	82	LG	3	TRUE	TRUE	nykRM	o_line	G	G	2	O-G
+2014-05-24_nykRM-at-bosWC	3	20	nykRM	14	54	1	bosWC	bosWC	7	TD	14	FALSE	FALSE	NA	o_line	TD	off -	12	O-TD
+2014-05-24_nykRM-at-bosWC	3	20	nykRM	17	55	2	nykRM	bosWC	17	D	3	FALSE	FALSE	NA	d_line	D	def +	2	D-D
+2014-05-24_nykRM-at-bosWC	3	20	nykRM	21	56	3	bosWC	bosWC	17	G	4	FALSE	TRUE	bosWC	o_line	G	G	3	O-G
+2014-05-24_nykRM-at-bosWC	3	21	bosWC	10	57	1	nykRM	bosWC	10	D	10	FALSE	FALSE	NA	o_line	D	def +	8	D-D
+2014-05-24_nykRM-at-bosWC	3	21	bosWC	21	58	2	bosWC	bosWC	11	G	11	FALSE	TRUE	bosWC	d_line	G	G	8	O-G
+2014-05-24_nykRM-at-bosWC	3	22	bosWC	7	59	1	nykRM	nykRM	15	TA	7	FALSE	FALSE	NA	o_line	TA	off -	6	NA
+2014-05-24_nykRM-at-bosWC	3	22	bosWC	21	60	2	bosWC	nykRM	38	D	14	FALSE	FALSE	NA	d_line	D	def +	13	D-D
+2014-05-24_nykRM-at-bosWC	3	22	bosWC	27	61	3	nykRM	nykRM	15	G	6	FALSE	TRUE	nykRM	o_line	G	G	5	O-G
+2014-05-24_nykRM-at-bosWC	3	23	nykRM	7	62	1	bosWC	bosWC	6	TD	7	FALSE	FALSE	NA	o_line	TD	off -	5	O-TD
+2014-05-24_nykRM-at-bosWC	3	23	nykRM	10	63	2	nykRM	bosWC	64	D	3	FALSE	FALSE	NA	d_line	D	def +	2	D-D
+2014-05-24_nykRM-at-bosWC	3	23	nykRM	18	64	3	bosWC	bosWC	5	G	8	FALSE	TRUE	bosWC	o_line	G	G	6	O-G
+2014-05-24_nykRM-at-bosWC	3	24	bosWC	7	65	1	nykRM	bosWC	29	D	7	FALSE	FALSE	NA	o_line	D	def +	5	D-D
+2014-05-24_nykRM-at-bosWC	3	24	bosWC	20	66	2	bosWC	bosWC	29	TD	13	FALSE	FALSE	NA	d_line	TD	off -	12	O-TD
+2014-05-24_nykRM-at-bosWC	3	24	bosWC	32	67	3	nykRM	nykRM	38	off F	12	FALSE	FALSE	NA	o_line	off F	off -	11	O-F
+2014-05-24_nykRM-at-bosWC	3	24	bosWC	35	68	4	bosWC	nykRM	15	D	3	FALSE	FALSE	NA	d_line	D	def +	2	D-D
+2014-05-24_nykRM-at-bosWC	3	24	bosWC	36	69	5	nykRM	nykRM	15	eop	1	FALSE	FALSE	NA	o_line	eop	eop	1	NA
+2014-05-24_nykRM-at-bosWC	4	25	nykRM	15	70	1	bosWC	bosWC	4	TD	15	FALSE	FALSE	NA	o_line	TD	off -	13	O-TD
+2014-05-24_nykRM-at-bosWC	4	25	nykRM	19	71	2	nykRM	nykRM	38	TA	4	FALSE	FALSE	NA	d_line	TA	off -	4	NA
+2014-05-24_nykRM-at-bosWC	4	25	nykRM	30	72	3	bosWC	bosWC	17	G	11	FALSE	TRUE	bosWC	o_line	G	G	10	O-G
+2014-05-24_nykRM-at-bosWC	4	26	bosWC	7	73	1	nykRM	bosWC	8	D	7	FALSE	FALSE	NA	o_line	D	def +	5	D-D
+2014-05-24_nykRM-at-bosWC	4	26	bosWC	16	74	2	bosWC	bosWC	10	TA	9	FALSE	FALSE	NA	d_line	TA	off -	8	NA
+2014-05-24_nykRM-at-bosWC	4	26	bosWC	21	75	3	nykRM	nykRM	81	TD	5	FALSE	FALSE	NA	o_line	TD	off -	4	O-TD
+2014-05-24_nykRM-at-bosWC	4	26	bosWC	24	76	4	bosWC	bosWC	11	G	3	TRUE	TRUE	bosWC	d_line	G	G	2	O-G
+2014-05-24_nykRM-at-bosWC	4	27	bosWC	7	77	1	nykRM	nykRM	9	TD	7	FALSE	FALSE	NA	o_line	TD	off -	5	O-TD
+2014-05-24_nykRM-at-bosWC	4	27	bosWC	12	78	2	bosWC	nykRM	8	D	5	FALSE	FALSE	NA	d_line	D	def +	4	D-D
+2014-05-24_nykRM-at-bosWC	4	27	bosWC	19	79	3	nykRM	nykRM	10	TD	7	FALSE	FALSE	NA	o_line	TD	off -	6	O-TD
+2014-05-24_nykRM-at-bosWC	4	27	bosWC	23	80	4	bosWC	bosWC	25	G	4	TRUE	TRUE	bosWC	d_line	G	G	3	O-G
+2014-05-24_nykRM-at-bosWC	4	28	bosWC	3	81	1	nykRM	nykRM	6	TA	3	FALSE	FALSE	NA	o_line	TA	off -	2	NA
+2014-05-24_nykRM-at-bosWC	4	28	bosWC	7	82	2	bosWC	bosWC	10	G	4	FALSE	TRUE	bosWC	d_line	G	G	3	O-G
+2014-05-24_nykRM-at-bosWC	4	29	bosWC	8	83	1	nykRM	bosWC	1	D	8	FALSE	FALSE	NA	o_line	D	def +	6	D-D
+2014-05-24_nykRM-at-bosWC	4	29	bosWC	16	84	2	bosWC	bosWC	28	TA	8	FALSE	FALSE	NA	d_line	TA	off -	8	NA
+2014-05-24_nykRM-at-bosWC	4	29	bosWC	19	85	3	nykRM	nykRM	47	TD	3	FALSE	FALSE	NA	o_line	TD	off -	2	O-TD
+2014-05-24_nykRM-at-bosWC	4	29	bosWC	21	86	4	bosWC	bosWC	13	G	2	FALSE	TRUE	bosWC	d_line	G	G	1	O-G
+2014-05-24_nykRM-at-bosWC	4	30	bosWC	8	87	1	nykRM	bosWC	5	D	8	FALSE	FALSE	NA	o_line	D	def +	6	D-D
+2014-05-24_nykRM-at-bosWC	4	30	bosWC	15	88	2	bosWC	bosWC	37	G	7	FALSE	TRUE	bosWC	d_line	G	G	6	O-G
+2014-05-24_nykRM-at-bosWC	4	31	bosWC	6	89	1	nykRM	bosWC	6	D	6	FALSE	FALSE	NA	o_line	D	def +	4	D-D
+2014-05-24_nykRM-at-bosWC	4	31	bosWC	12	90	2	bosWC	bosWC	1	LG	6	TRUE	TRUE	bosWC	d_line	G	G	5	O-G
+2014-05-24_nykRM-at-bosWC	4	32	bosWC	8	91	1	nykRM	bosWC	37	D	8	FALSE	FALSE	NA	o_line	D	def +	6	D-D
+2014-05-24_nykRM-at-bosWC	4	32	bosWC	9	92	2	bosWC	bosWC	37	eop	1	FALSE	FALSE	NA	d_line	eop	eop	1	NA
 2014-05-24_pdxST-at-vanNH	1	1	vanNH	10	1	1	pdxST	pdxST	6	LG	10	TRUE	TRUE	pdxST	o_line	G	G	8	O-G
 2014-05-24_pdxST-at-vanNH	1	2	pdxST	5	2	1	vanNH	vanNH	98	TA	5	FALSE	FALSE	NA	o_line	TA	off -	4	NA
 2014-05-24_pdxST-at-vanNH	1	2	pdxST	9	3	2	pdxST	pdxST	88	TA	4	FALSE	FALSE	NA	d_line	TA	off -	4	NA
@@ -2156,6 +2766,90 @@ game	period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl
 2014-06-07_wdcCT-at-bosWC	4	40	wdcCT	19	67	2	wdcCT	wdcCT	19	TA	11	FALSE	FALSE	NA	d_line	TA	off -	10	O-F
 2014-06-07_wdcCT-at-bosWC	4	40	wdcCT	25	68	3	bosWC	bosWC	64	G	6	FALSE	TRUE	bosWC	o_line	G	G	5	O-G
 2014-06-07_wdcCT-at-bosWC	4	41	bosWC	3	69	1	wdcCT	wdcCT	14	eop	3	FALSE	FALSE	NA	o_line	eop	eop	2	NA
+2014-06-08_phlSP-at-nykRM	1	1	nykRM	18	1	1	phlSP	phlSP	27	G	18	FALSE	TRUE	phlSP	o_line	G	G	13	O-G
+2014-06-08_phlSP-at-nykRM	1	2	phlSP	6	2	1	nykRM	nykRM	41	LG	6	TRUE	TRUE	nykRM	o_line	G	G	4	O-G
+2014-06-08_phlSP-at-nykRM	1	3	nykRM	20	3	1	phlSP	phlSP	7	TA	20	FALSE	FALSE	NA	o_line	TA	off -	16	NA
+2014-06-08_phlSP-at-nykRM	1	3	nykRM	24	4	2	nykRM	nykRM	82	TA	4	FALSE	FALSE	NA	d_line	TA	off -	4	NA
+2014-06-08_phlSP-at-nykRM	1	3	nykRM	28	5	3	phlSP	phlSP	23	TA	4	FALSE	FALSE	NA	o_line	TA	off -	4	NA
+2014-06-08_phlSP-at-nykRM	1	3	nykRM	35	6	4	nykRM	nykRM	21	G	7	FALSE	TRUE	nykRM	d_line	G	G	6	O-G
+2014-06-08_phlSP-at-nykRM	1	4	nykRM	5	7	1	phlSP	phlSP	4	G	5	FALSE	TRUE	phlSP	o_line	G	G	2	O-G
+2014-06-08_phlSP-at-nykRM	1	5	phlSP	3	8	1	nykRM	nykRM	41	TD	3	FALSE	FALSE	NA	o_line	TD	off -	1	O-TD
+2014-06-08_phlSP-at-nykRM	1	5	phlSP	10	9	2	phlSP	nykRM	41	D	7	FALSE	FALSE	NA	d_line	D	def +	6	D-D
+2014-06-08_phlSP-at-nykRM	1	5	phlSP	13	10	3	nykRM	nykRM	41	TA	3	FALSE	FALSE	NA	o_line	TA	off -	3	NA
+2014-06-08_phlSP-at-nykRM	1	5	phlSP	17	11	4	phlSP	nykRM	6	D	4	FALSE	FALSE	NA	d_line	D	def +	3	D-D
+2014-06-08_phlSP-at-nykRM	1	5	phlSP	31	12	5	nykRM	phlSP	2	D	14	FALSE	FALSE	NA	o_line	D	def +	12	D-D
+2014-06-08_phlSP-at-nykRM	1	5	phlSP	48	13	6	phlSP	phlSP	27	G	17	FALSE	TRUE	phlSP	d_line	G	G	14	O-G
+2014-06-08_phlSP-at-nykRM	1	6	phlSP	8	14	1	nykRM	nykRM	1	G	8	FALSE	TRUE	nykRM	o_line	G	G	6	O-G
+2014-06-08_phlSP-at-nykRM	1	7	nykRM	7	15	1	phlSP	phlSP	42	G	7	TRUE	TRUE	phlSP	o_line	G	G	5	O-G
+2014-06-08_phlSP-at-nykRM	1	8	phlSP	11	16	1	nykRM	phlSP	11	D	11	FALSE	FALSE	NA	o_line	D	def +	9	D-D
+2014-06-08_phlSP-at-nykRM	1	8	phlSP	15	17	2	phlSP	phlSP	10	eop	4	FALSE	FALSE	NA	d_line	eop	eop	3	O-TD
+2014-06-08_phlSP-at-nykRM	2	9	phlSP	9	18	1	nykRM	nykRM	41	G	9	FALSE	TRUE	nykRM	o_line	G	G	7	O-G
+2014-06-08_phlSP-at-nykRM	2	10	nykRM	8	19	1	phlSP	nykRM	82	D	8	FALSE	FALSE	NA	o_line	D	def +	6	D-D
+2014-06-08_phlSP-at-nykRM	2	10	nykRM	14	20	2	nykRM	nykRM	5	G	6	FALSE	TRUE	nykRM	d_line	G	G	4	O-G
+2014-06-08_phlSP-at-nykRM	2	11	nykRM	8	21	1	phlSP	phlSP	3	TA	8	FALSE	FALSE	NA	o_line	TA	off -	7	NA
+2014-06-08_phlSP-at-nykRM	2	11	nykRM	9	22	2	nykRM	nykRM	24	TA	1	FALSE	FALSE	NA	d_line	TA	off -	1	NA
+2014-06-08_phlSP-at-nykRM	2	11	nykRM	13	23	3	phlSP	phlSP	38	G	4	FALSE	TRUE	phlSP	o_line	G	G	1	O-G
+2014-06-08_phlSP-at-nykRM	2	12	phlSP	10	24	1	nykRM	nykRM	1	G	10	FALSE	TRUE	nykRM	o_line	G	G	7	O-G
+2014-06-08_phlSP-at-nykRM	2	13	nykRM	16	25	1	phlSP	phlSP	23	G	16	FALSE	TRUE	phlSP	o_line	G	G	14	O-G
+2014-06-08_phlSP-at-nykRM	2	14	phlSP	4	26	1	nykRM	phlSP	11	D	4	FALSE	FALSE	NA	o_line	D	def +	2	D-D
+2014-06-08_phlSP-at-nykRM	2	14	phlSP	20	27	2	phlSP	phlSP	11	G	16	FALSE	TRUE	phlSP	d_line	G	G	14	O-G
+2014-06-08_phlSP-at-nykRM	2	15	phlSP	6	28	1	nykRM	nykRM	21	TA	6	FALSE	FALSE	NA	o_line	TA	off -	5	NA
+2014-06-08_phlSP-at-nykRM	2	15	phlSP	18	29	2	phlSP	phlSP	22	G	12	FALSE	TRUE	phlSP	d_line	G	G	9	O-G
+2014-06-08_phlSP-at-nykRM	2	16	phlSP	7	30	1	nykRM	nykRM	1	G	7	FALSE	TRUE	nykRM	o_line	G	G	4	O-G
+2014-06-08_phlSP-at-nykRM	2	17	nykRM	7	31	1	phlSP	phlSP	42	TA	7	FALSE	FALSE	NA	o_line	TA	off -	6	NA
+2014-06-08_phlSP-at-nykRM	2	17	nykRM	20	32	2	nykRM	phlSP	27	D	13	FALSE	FALSE	NA	d_line	D	def +	12	D-D
+2014-06-08_phlSP-at-nykRM	2	17	nykRM	33	33	3	phlSP	phlSP	27	G	13	FALSE	TRUE	phlSP	o_line	G	G	12	O-G
+2014-06-08_phlSP-at-nykRM	2	18	phlSP	6	34	1	nykRM	nykRM	44	TD	6	FALSE	FALSE	NA	o_line	TD	off -	4	O-TD
+2014-06-08_phlSP-at-nykRM	2	18	phlSP	7	35	2	phlSP	phlSP	2	TA	1	FALSE	FALSE	NA	d_line	TA	off -	1	NA
+2014-06-08_phlSP-at-nykRM	2	18	phlSP	10	36	3	nykRM	nykRM	14	G	3	FALSE	TRUE	nykRM	o_line	G	G	2	O-G
+2014-06-08_phlSP-at-nykRM	2	19	nykRM	10	37	1	phlSP	phlSP	4	eop	10	FALSE	FALSE	NA	o_line	eop	eop	9	NA
+2014-06-08_phlSP-at-nykRM	3	20	nykRM	10	38	1	phlSP	nykRM	10	D	10	FALSE	FALSE	NA	o_line	D	def +	7	D-D
+2014-06-08_phlSP-at-nykRM	3	20	nykRM	13	39	2	nykRM	nykRM	89	G	3	FALSE	TRUE	nykRM	d_line	G	G	2	O-G
+2014-06-08_phlSP-at-nykRM	3	21	nykRM	10	40	1	phlSP	phlSP	14	G	10	FALSE	TRUE	phlSP	o_line	G	G	8	O-G
+2014-06-08_phlSP-at-nykRM	3	22	phlSP	5	41	1	nykRM	nykRM	6	G	5	FALSE	TRUE	nykRM	o_line	G	G	3	O-G
+2014-06-08_phlSP-at-nykRM	3	23	nykRM	5	42	1	phlSP	phlSP	25	LG	5	TRUE	TRUE	phlSP	o_line	G	G	3	O-G
+2014-06-08_phlSP-at-nykRM	3	24	phlSP	3	43	1	nykRM	nykRM	18	LG	3	TRUE	TRUE	nykRM	o_line	G	G	1	O-G
+2014-06-08_phlSP-at-nykRM	3	25	nykRM	16	44	1	phlSP	phlSP	42	G	16	FALSE	TRUE	phlSP	o_line	G	G	14	O-G
+2014-06-08_phlSP-at-nykRM	3	26	phlSP	6	45	1	nykRM	nykRM	18	G	6	FALSE	TRUE	nykRM	o_line	G	G	4	O-G
+2014-06-08_phlSP-at-nykRM	3	27	nykRM	13	46	1	phlSP	phlSP	27	G	13	FALSE	TRUE	phlSP	o_line	G	G	11	O-G
+2014-06-08_phlSP-at-nykRM	3	28	phlSP	7	47	1	nykRM	nykRM	44	G	7	FALSE	TRUE	nykRM	o_line	G	G	4	O-G
+2014-06-08_phlSP-at-nykRM	3	29	nykRM	10	48	1	phlSP	phlSP	14	G	10	FALSE	TRUE	phlSP	o_line	G	G	8	O-G
+2014-06-08_phlSP-at-nykRM	3	30	phlSP	12	49	1	nykRM	nykRM	1	G	12	FALSE	TRUE	nykRM	o_line	G	G	10	O-G
+2014-06-08_phlSP-at-nykRM	3	31	nykRM	15	50	1	phlSP	nykRM	82	D	15	FALSE	FALSE	NA	o_line	D	def +	13	D-D
+2014-06-08_phlSP-at-nykRM	3	31	nykRM	21	51	2	nykRM	nykRM	44	LG	6	TRUE	TRUE	nykRM	d_line	G	G	3	O-G
+2014-06-08_phlSP-at-nykRM	3	32	nykRM	7	52	1	phlSP	phlSP	25	LG	7	TRUE	TRUE	phlSP	o_line	G	G	5	O-G
+2014-06-08_phlSP-at-nykRM	3	33	phlSP	12	53	1	nykRM	nykRM	6	G	12	FALSE	TRUE	nykRM	o_line	G	G	10	O-G
+2014-06-08_phlSP-at-nykRM	3	34	nykRM	12	54	1	phlSP	phlSP	13	G	12	FALSE	TRUE	phlSP	o_line	G	G	10	O-G
+2014-06-08_phlSP-at-nykRM	3	35	phlSP	9	55	1	nykRM	nykRM	14	TA	9	FALSE	FALSE	NA	o_line	TA	off -	8	NA
+2014-06-08_phlSP-at-nykRM	3	35	phlSP	15	56	2	phlSP	phlSP	16	TD	6	FALSE	FALSE	NA	d_line	TD	off -	5	O-TD
+2014-06-08_phlSP-at-nykRM	3	35	phlSP	20	57	3	nykRM	nykRM	44	G	5	FALSE	TRUE	nykRM	o_line	G	G	4	O-G
+2014-06-08_phlSP-at-nykRM	3	36	nykRM	15	58	1	phlSP	phlSP	42	G	15	FALSE	TRUE	phlSP	o_line	G	G	13	O-G
+2014-06-08_phlSP-at-nykRM	3	37	phlSP	6	59	1	nykRM	nykRM	44	TD	6	FALSE	FALSE	NA	o_line	TD	off -	4	O-TD
+2014-06-08_phlSP-at-nykRM	3	37	phlSP	10	60	2	phlSP	nykRM	6	eop	4	FALSE	FALSE	NA	d_line	eop	eop	3	D-D
+2014-06-08_phlSP-at-nykRM	4	38	phlSP	6	61	1	nykRM	nykRM	1	TA	6	FALSE	FALSE	NA	o_line	TA	off -	5	NA
+2014-06-08_phlSP-at-nykRM	4	38	phlSP	10	62	2	phlSP	phlSP	6	LG	4	TRUE	TRUE	phlSP	d_line	G	G	3	O-G
+2014-06-08_phlSP-at-nykRM	4	39	phlSP	3	63	1	nykRM	phlSP	76	D	3	FALSE	FALSE	NA	o_line	D	def +	1	D-D
+2014-06-08_phlSP-at-nykRM	4	39	phlSP	6	64	2	phlSP	nykRM	82	D	3	FALSE	FALSE	NA	d_line	D	def +	2	D-D
+2014-06-08_phlSP-at-nykRM	4	39	phlSP	14	65	3	nykRM	nykRM	18	G	8	FALSE	TRUE	nykRM	o_line	G	G	7	O-G
+2014-06-08_phlSP-at-nykRM	4	40	nykRM	4	66	1	phlSP	phlSP	13	TA	4	FALSE	FALSE	NA	o_line	TA	off -	3	NA
+2014-06-08_phlSP-at-nykRM	4	40	nykRM	13	67	2	nykRM	nykRM	82	TA	8	FALSE	FALSE	NA	d_line	TA	off -	8	NA
+2014-06-08_phlSP-at-nykRM	4	40	nykRM	18	68	3	phlSP	phlSP	42	G	5	FALSE	TRUE	phlSP	o_line	G	G	4	O-G
+2014-06-08_phlSP-at-nykRM	4	41	phlSP	5	69	1	nykRM	nykRM	44	TD	5	FALSE	FALSE	NA	o_line	TD	off -	3	O-TD
+2014-06-08_phlSP-at-nykRM	4	41	phlSP	10	70	2	phlSP	nykRM	26	D	5	FALSE	FALSE	NA	d_line	D	def +	4	D-D
+2014-06-08_phlSP-at-nykRM	4	41	phlSP	13	71	3	nykRM	nykRM	14	LG	3	TRUE	TRUE	nykRM	o_line	G	G	2	O-G
+2014-06-08_phlSP-at-nykRM	4	42	nykRM	12	72	1	phlSP	phlSP	14	G	12	FALSE	TRUE	phlSP	o_line	G	G	10	O-G
+2014-06-08_phlSP-at-nykRM	4	43	phlSP	14	73	1	nykRM	nykRM	14	G	14	FALSE	TRUE	nykRM	o_line	G	G	12	O-G
+2014-06-08_phlSP-at-nykRM	4	44	nykRM	10	74	1	phlSP	phlSP	42	TA	10	FALSE	FALSE	NA	o_line	TA	off -	9	NA
+2014-06-08_phlSP-at-nykRM	4	44	nykRM	12	75	2	nykRM	phlSP	14	D	2	FALSE	FALSE	NA	d_line	D	def +	1	D-D
+2014-06-08_phlSP-at-nykRM	4	44	nykRM	15	76	3	phlSP	phlSP	25	G	3	FALSE	TRUE	phlSP	o_line	G	G	2	O-G
+2014-06-08_phlSP-at-nykRM	4	45	phlSP	7	77	1	nykRM	nykRM	18	LG	7	TRUE	TRUE	nykRM	o_line	G	G	4	O-G
+2014-06-08_phlSP-at-nykRM	4	46	nykRM	7	78	1	phlSP	phlSP	42	G	7	FALSE	TRUE	phlSP	o_line	G	G	5	O-G
+2014-06-08_phlSP-at-nykRM	4	47	phlSP	5	79	1	nykRM	phlSP	64	D	5	FALSE	FALSE	NA	o_line	D	def +	3	D-D
+2014-06-08_phlSP-at-nykRM	4	47	phlSP	7	80	2	phlSP	nykRM	44	D	2	FALSE	FALSE	NA	d_line	D	def +	1	D-D
+2014-06-08_phlSP-at-nykRM	4	47	phlSP	14	81	3	nykRM	nykRM	44	G	7	FALSE	TRUE	nykRM	o_line	G	G	6	O-G
+2014-06-08_phlSP-at-nykRM	4	48	nykRM	18	82	1	phlSP	phlSP	42	G	18	FALSE	TRUE	phlSP	o_line	G	G	14	O-G
+2014-06-08_phlSP-at-nykRM	4	49	phlSP	4	83	1	nykRM	nykRM	1	TD	4	FALSE	FALSE	NA	o_line	TD	off -	2	O-TD
+2014-06-08_phlSP-at-nykRM	4	49	phlSP	17	84	2	phlSP	phlSP	7	eop	13	FALSE	FALSE	NA	d_line	eop	eop	11	NA
 2014-06-14_nykRM-at-wdcCT	1	1	nykRM	8	1	1	wdcCT	wdcCT	8	TA	8	FALSE	FALSE	NA	o_line	TA	off -	7	NA
 2014-06-14_nykRM-at-wdcCT	1	1	nykRM	14	2	2	nykRM	wdcCT	90	D	6	FALSE	FALSE	NA	d_line	D	def +	5	D-D
 2014-06-14_nykRM-at-wdcCT	1	1	nykRM	22	3	3	wdcCT	wdcCT	90	G	8	FALSE	TRUE	wdcCT	o_line	G	G	7	O-G
@@ -2320,6 +3014,89 @@ game	period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl
 2014-06-14_pdxST-at-seaRM	4	36	pdxST	5	73	1	seaRM	seaRM	51	LG	5	TRUE	TRUE	seaRM	o_line	G	G	3	O-G
 2014-06-14_pdxST-at-seaRM	4	37	seaRM	4	74	1	pdxST	seaRM	7	D	4	FALSE	FALSE	NA	o_line	D	def +	2	D-D
 2014-06-14_pdxST-at-seaRM	4	37	seaRM	7	75	2	seaRM	seaRM	99	eop	3	FALSE	FALSE	NA	d_line	eop	eop	3	NA
+2014-06-15_bosWC-at-phlSP	1	1	phlSP	9	1	1	bosWC	bosWC	9	G	9	FALSE	TRUE	bosWC	o_line	G	G	7	O-G
+2014-06-15_bosWC-at-phlSP	1	2	bosWC	9	2	1	phlSP	phlSP	27	TA	9	FALSE	FALSE	NA	o_line	TA	off -	8	NA
+2014-06-15_bosWC-at-phlSP	1	2	bosWC	16	3	2	bosWC	bosWC	27	G	7	FALSE	TRUE	bosWC	d_line	G	G	6	O-G
+2014-06-15_bosWC-at-phlSP	1	3	bosWC	11	4	1	phlSP	phlSP	4	G	11	FALSE	TRUE	phlSP	o_line	G	G	9	O-G
+2014-06-15_bosWC-at-phlSP	1	4	phlSP	4	5	1	bosWC	bosWC	21	LG	4	TRUE	TRUE	bosWC	o_line	G	G	2	O-G
+2014-06-15_bosWC-at-phlSP	1	5	bosWC	12	6	1	phlSP	phlSP	13	G	12	FALSE	TRUE	phlSP	o_line	G	G	8	O-G
+2014-06-15_bosWC-at-phlSP	1	6	phlSP	8	7	1	bosWC	bosWC	9	G	8	FALSE	TRUE	bosWC	o_line	G	G	6	O-G
+2014-06-15_bosWC-at-phlSP	1	7	bosWC	11	8	1	phlSP	bosWC	12	D	11	FALSE	FALSE	NA	o_line	D	def +	9	D-D
+2014-06-15_bosWC-at-phlSP	1	7	bosWC	13	9	2	bosWC	bosWC	6	G	2	FALSE	TRUE	bosWC	d_line	G	G	1	O-G
+2014-06-15_bosWC-at-phlSP	1	8	bosWC	11	10	1	phlSP	phlSP	3	G	11	FALSE	TRUE	phlSP	o_line	G	G	9	O-G
+2014-06-15_bosWC-at-phlSP	1	9	phlSP	13	11	1	bosWC	bosWC	21	G	13	FALSE	TRUE	bosWC	o_line	G	G	10	O-G
+2014-06-15_bosWC-at-phlSP	1	10	bosWC	8	12	1	phlSP	phlSP	27	LG	8	TRUE	TRUE	phlSP	o_line	G	G	5	O-G
+2014-06-15_bosWC-at-phlSP	1	11	phlSP	12	13	1	bosWC	bosWC	1	G	12	FALSE	TRUE	bosWC	o_line	G	G	10	O-G
+2014-06-15_bosWC-at-phlSP	1	12	bosWC	8	14	1	phlSP	phlSP	23	TD	8	FALSE	FALSE	NA	o_line	TD	off -	6	O-TD
+2014-06-15_bosWC-at-phlSP	1	12	bosWC	11	15	2	bosWC	bosWC	18	TA	3	FALSE	FALSE	NA	d_line	TA	off -	3	NA
+2014-06-15_bosWC-at-phlSP	1	12	bosWC	17	16	3	phlSP	phlSP	14	G	6	TRUE	TRUE	phlSP	o_line	G	G	5	O-G
+2014-06-15_bosWC-at-phlSP	1	13	phlSP	7	17	1	bosWC	bosWC	44	G	7	TRUE	TRUE	bosWC	o_line	G	G	5	O-G
+2014-06-15_bosWC-at-phlSP	1	14	bosWC	18	18	1	phlSP	phlSP	25	G	18	FALSE	TRUE	phlSP	o_line	G	G	16	O-G
+2014-06-15_bosWC-at-phlSP	1	15	phlSP	4	19	1	bosWC	bosWC	1	TA	4	FALSE	FALSE	NA	o_line	TA	off -	3	NA
+2014-06-15_bosWC-at-phlSP	1	15	phlSP	7	20	2	phlSP	phlSP	25	TA	3	FALSE	FALSE	NA	d_line	TA	off -	2	NA
+2014-06-15_bosWC-at-phlSP	1	15	phlSP	12	21	3	bosWC	phlSP	31	eop	5	FALSE	FALSE	NA	o_line	eop	eop	3	D-D
+2014-06-15_bosWC-at-phlSP	2	16	bosWC	29	22	1	phlSP	phlSP	13	G	29	FALSE	TRUE	phlSP	o_line	G	G	23	O-G
+2014-06-15_bosWC-at-phlSP	2	17	phlSP	9	23	1	bosWC	bosWC	9	G	9	FALSE	TRUE	bosWC	o_line	G	G	6	O-G
+2014-06-15_bosWC-at-phlSP	2	18	bosWC	10	24	1	phlSP	phlSP	4	TA	10	FALSE	FALSE	NA	o_line	TA	off -	9	NA
+2014-06-15_bosWC-at-phlSP	2	18	bosWC	16	25	2	bosWC	bosWC	43	G	6	FALSE	TRUE	bosWC	d_line	G	G	5	O-G
+2014-06-15_bosWC-at-phlSP	2	19	bosWC	15	26	1	phlSP	phlSP	33	G	15	FALSE	TRUE	phlSP	o_line	G	G	13	O-G
+2014-06-15_bosWC-at-phlSP	2	20	phlSP	7	27	1	bosWC	phlSP	76	D	7	FALSE	FALSE	NA	o_line	D	def +	5	D-D
+2014-06-15_bosWC-at-phlSP	2	20	phlSP	11	28	2	phlSP	phlSP	11	LG	4	TRUE	TRUE	phlSP	d_line	G	G	3	O-G
+2014-06-15_bosWC-at-phlSP	2	21	phlSP	6	29	1	bosWC	bosWC	13	VTT	6	FALSE	FALSE	NA	o_line	VTT	off -	4	O-OV
+2014-06-15_bosWC-at-phlSP	2	21	phlSP	10	30	2	phlSP	bosWC	21	D	4	FALSE	FALSE	NA	d_line	D	def +	3	D-D
+2014-06-15_bosWC-at-phlSP	2	21	phlSP	13	31	3	bosWC	bosWC	21	TD	3	FALSE	FALSE	NA	o_line	TD	off -	2	O-TD
+2014-06-15_bosWC-at-phlSP	2	21	phlSP	27	32	4	phlSP	phlSP	3	G	14	FALSE	TRUE	phlSP	d_line	G	G	13	O-G
+2014-06-15_bosWC-at-phlSP	2	22	phlSP	8	33	1	bosWC	bosWC	9	TD	8	FALSE	FALSE	NA	o_line	TD	off -	6	O-TD
+2014-06-15_bosWC-at-phlSP	2	22	phlSP	16	34	2	phlSP	phlSP	76	TD	8	FALSE	FALSE	NA	d_line	TD	off -	7	O-TD
+2014-06-15_bosWC-at-phlSP	2	22	phlSP	18	35	3	bosWC	bosWC	18	TA	2	TRUE	FALSE	NA	o_line	TA	off -	2	NA
+2014-06-15_bosWC-at-phlSP	2	22	phlSP	23	36	4	phlSP	phlSP	76	G	5	TRUE	TRUE	phlSP	d_line	G	G	4	O-G
+2014-06-15_bosWC-at-phlSP	2	23	phlSP	3	37	1	bosWC	bosWC	13	TA	3	FALSE	FALSE	NA	o_line	TA	off -	2	NA
+2014-06-15_bosWC-at-phlSP	2	23	phlSP	7	38	2	phlSP	bosWC	0	D	4	FALSE	FALSE	NA	d_line	D	def +	3	D-D
+2014-06-15_bosWC-at-phlSP	2	23	phlSP	9	39	3	bosWC	bosWC	3	G	2	FALSE	TRUE	bosWC	o_line	G	G	1	O-G
+2014-06-15_bosWC-at-phlSP	2	24	bosWC	10	40	1	phlSP	phlSP	25	G	10	FALSE	TRUE	phlSP	o_line	G	G	8	O-G
+2014-06-15_bosWC-at-phlSP	2	25	phlSP	3	41	1	bosWC	bosWC	13	TA	3	FALSE	FALSE	NA	o_line	TA	off -	2	NA
+2014-06-15_bosWC-at-phlSP	2	25	phlSP	5	42	2	phlSP	phlSP	25	eop	2	FALSE	FALSE	NA	d_line	eop	eop	2	NA
+2014-06-15_bosWC-at-phlSP	3	26	phlSP	6	43	1	bosWC	bosWC	1	LG	6	TRUE	TRUE	bosWC	o_line	G	G	4	O-G
+2014-06-15_bosWC-at-phlSP	3	27	bosWC	17	44	1	phlSP	phlSP	14	G	17	FALSE	TRUE	phlSP	o_line	G	G	15	O-G
+2014-06-15_bosWC-at-phlSP	3	28	phlSP	8	45	1	bosWC	phlSP	16	D	8	FALSE	FALSE	NA	o_line	D	def +	6	D-D
+2014-06-15_bosWC-at-phlSP	3	28	phlSP	21	46	2	phlSP	phlSP	6	G	13	FALSE	TRUE	phlSP	d_line	G	G	10	O-G
+2014-06-15_bosWC-at-phlSP	3	29	phlSP	4	47	1	bosWC	bosWC	11	TA	4	FALSE	FALSE	NA	o_line	TA	off -	3	NA
+2014-06-15_bosWC-at-phlSP	3	29	phlSP	7	48	2	phlSP	phlSP	10	LG	3	TRUE	TRUE	phlSP	d_line	G	G	2	O-G
+2014-06-15_bosWC-at-phlSP	3	30	phlSP	3	49	1	bosWC	phlSP	16	D	3	FALSE	FALSE	NA	o_line	D	def +	1	D-D
+2014-06-15_bosWC-at-phlSP	3	30	phlSP	6	50	2	phlSP	phlSP	28	TA	3	FALSE	FALSE	NA	d_line	TA	off -	3	NA
+2014-06-15_bosWC-at-phlSP	3	30	phlSP	12	51	3	bosWC	phlSP	76	D	6	FALSE	FALSE	NA	o_line	D	def +	5	D-D
+2014-06-15_bosWC-at-phlSP	3	30	phlSP	14	52	4	phlSP	phlSP	76	LG	2	TRUE	TRUE	phlSP	d_line	G	G	1	O-G
+2014-06-15_bosWC-at-phlSP	3	31	phlSP	16	53	1	bosWC	bosWC	13	G	16	FALSE	TRUE	bosWC	o_line	G	G	14	O-G
+2014-06-15_bosWC-at-phlSP	3	32	bosWC	4	54	1	phlSP	bosWC	29	D	4	FALSE	FALSE	NA	o_line	D	def +	2	D-D
+2014-06-15_bosWC-at-phlSP	3	32	bosWC	10	55	2	bosWC	phlSP	42	D	6	FALSE	FALSE	NA	d_line	D	def +	5	D-D
+2014-06-15_bosWC-at-phlSP	3	32	bosWC	27	56	3	phlSP	phlSP	13	G	17	FALSE	TRUE	phlSP	o_line	G	G	14	O-G
+2014-06-15_bosWC-at-phlSP	3	33	phlSP	10	57	1	bosWC	phlSP	16	D	10	FALSE	FALSE	NA	o_line	D	def +	8	D-D
+2014-06-15_bosWC-at-phlSP	3	33	phlSP	32	58	2	phlSP	bosWC	0	D	22	FALSE	FALSE	NA	d_line	D	def +	19	D-D
+2014-06-15_bosWC-at-phlSP	3	33	phlSP	38	59	3	bosWC	bosWC	11	G	6	FALSE	TRUE	bosWC	o_line	G	G	4	O-G
+2014-06-15_bosWC-at-phlSP	3	34	bosWC	3	60	1	phlSP	phlSP	42	eop	3	FALSE	FALSE	NA	o_line	eop	eop	2	NA
+2014-06-15_bosWC-at-phlSP	4	35	bosWC	12	61	1	phlSP	phlSP	42	G	12	FALSE	TRUE	phlSP	o_line	G	G	10	O-G
+2014-06-15_bosWC-at-phlSP	4	36	phlSP	9	62	1	bosWC	bosWC	0	TA	9	FALSE	FALSE	NA	o_line	TA	off -	7	NA
+2014-06-15_bosWC-at-phlSP	4	36	phlSP	11	63	2	phlSP	phlSP	1	TA	2	FALSE	FALSE	NA	d_line	TA	off -	2	NA
+2014-06-15_bosWC-at-phlSP	4	36	phlSP	19	64	3	bosWC	bosWC	13	LG	8	TRUE	TRUE	bosWC	o_line	G	G	5	O-G
+2014-06-15_bosWC-at-phlSP	4	37	bosWC	17	65	1	phlSP	phlSP	13	TA	17	FALSE	FALSE	NA	o_line	TA	off -	16	NA
+2014-06-15_bosWC-at-phlSP	4	37	bosWC	24	66	2	bosWC	bosWC	9	G	7	TRUE	TRUE	bosWC	d_line	G	G	5	O-G
+2014-06-15_bosWC-at-phlSP	4	38	bosWC	3	67	1	phlSP	phlSP	20	TD	3	FALSE	FALSE	NA	o_line	TD	off -	1	O-TD
+2014-06-15_bosWC-at-phlSP	4	38	bosWC	6	68	2	bosWC	bosWC	21	G	3	FALSE	TRUE	bosWC	d_line	G	G	2	O-G
+2014-06-15_bosWC-at-phlSP	4	39	bosWC	11	69	1	phlSP	phlSP	13	G	11	FALSE	TRUE	phlSP	o_line	G	G	9	O-G
+2014-06-15_bosWC-at-phlSP	4	40	phlSP	10	70	1	bosWC	bosWC	13	TA	10	FALSE	FALSE	NA	o_line	TA	off -	9	NA
+2014-06-15_bosWC-at-phlSP	4	40	phlSP	15	71	2	phlSP	phlSP	3	VTT	5	FALSE	FALSE	NA	d_line	VTT	off -	2	O-OV
+2014-06-15_bosWC-at-phlSP	4	40	phlSP	19	72	3	bosWC	bosWC	8	G	4	FALSE	TRUE	bosWC	o_line	G	G	3	O-G
+2014-06-15_bosWC-at-phlSP	4	41	bosWC	13	73	1	phlSP	bosWC	27	D	13	FALSE	FALSE	NA	o_line	D	def +	10	D-D
+2014-06-15_bosWC-at-phlSP	4	41	bosWC	20	74	2	bosWC	phlSP	6	D	7	FALSE	FALSE	NA	d_line	D	def +	4	D-D
+2014-06-15_bosWC-at-phlSP	4	41	bosWC	25	75	3	phlSP	phlSP	10	G	5	FALSE	TRUE	phlSP	o_line	G	G	4	O-G
+2014-06-15_bosWC-at-phlSP	4	42	phlSP	5	76	1	bosWC	bosWC	43	TD	5	FALSE	FALSE	NA	o_line	TD	off -	3	O-TD
+2014-06-15_bosWC-at-phlSP	4	42	phlSP	7	77	2	phlSP	bosWC	21	D	2	FALSE	FALSE	NA	d_line	D	def +	1	D-D
+2014-06-15_bosWC-at-phlSP	4	42	phlSP	10	78	3	bosWC	phlSP	7	D	3	FALSE	FALSE	NA	o_line	D	def +	2	D-D
+2014-06-15_bosWC-at-phlSP	4	42	phlSP	14	79	4	phlSP	phlSP	38	TA	4	FALSE	FALSE	NA	d_line	TA	off -	4	NA
+2014-06-15_bosWC-at-phlSP	4	42	phlSP	18	80	5	bosWC	bosWC	3	TA	4	FALSE	FALSE	NA	o_line	TA	off -	4	NA
+2014-06-15_bosWC-at-phlSP	4	42	phlSP	23	81	6	phlSP	phlSP	22	G	5	TRUE	TRUE	phlSP	d_line	G	G	4	O-G
+2014-06-15_bosWC-at-phlSP	4	43	phlSP	3	82	1	bosWC	bosWC	14	TA	3	FALSE	FALSE	NA	o_line	TA	off -	2	NA
+2014-06-15_bosWC-at-phlSP	4	43	phlSP	9	83	2	phlSP	phlSP	1	eop	6	FALSE	FALSE	NA	d_line	eop	eop	6	NA
 2014-06-15_pdxST-at-vanNH	1	1	pdxST	9	1	1	vanNH	vanNH	98	G	9	FALSE	TRUE	vanNH	o_line	G	G	7	O-G
 2014-06-15_pdxST-at-vanNH	1	2	vanNH	12	2	1	pdxST	vanNH	11	D	12	FALSE	FALSE	NA	o_line	D	def +	10	D-D
 2014-06-15_pdxST-at-vanNH	1	2	vanNH	14	3	2	vanNH	vanNH	81	G	2	FALSE	TRUE	vanNH	d_line	G	G	1	O-G
@@ -2395,6 +3172,91 @@ game	period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl
 2014-06-15_pdxST-at-vanNH	4	40	vanNH	14	73	1	pdxST	vanNH	14	D	14	FALSE	FALSE	NA	o_line	D	def +	12	D-D
 2014-06-15_pdxST-at-vanNH	4	40	vanNH	22	74	2	vanNH	vanNH	98	G	8	FALSE	TRUE	vanNH	d_line	G	G	5	O-G
 2014-06-15_pdxST-at-vanNH	4	41	vanNH	4	75	1	pdxST	pdxST	73	eop	4	FALSE	FALSE	NA	o_line	eop	eop	3	NA
+2014-06-21_bosWC-at-nykRM	1	1	bosWC	8	1	1	nykRM	nykRM	6	G	8	FALSE	TRUE	nykRM	o_line	G	G	6	O-G
+2014-06-21_bosWC-at-nykRM	1	2	nykRM	7	2	1	bosWC	nykRM	82	D	7	FALSE	FALSE	NA	o_line	D	def +	5	D-D
+2014-06-21_bosWC-at-nykRM	1	2	nykRM	20	3	2	nykRM	nykRM	82	TA	13	FALSE	FALSE	NA	d_line	TA	off -	12	NA
+2014-06-21_bosWC-at-nykRM	1	2	nykRM	30	4	3	bosWC	bosWC	7	G	10	TRUE	TRUE	bosWC	o_line	G	G	8	O-G
+2014-06-21_bosWC-at-nykRM	1	3	bosWC	10	5	1	nykRM	nykRM	6	G	10	FALSE	TRUE	nykRM	o_line	G	G	8	O-G
+2014-06-21_bosWC-at-nykRM	1	4	nykRM	4	6	1	bosWC	bosWC	21	TD	4	FALSE	FALSE	NA	o_line	TD	off -	2	O-TD
+2014-06-21_bosWC-at-nykRM	1	4	nykRM	8	7	2	nykRM	nykRM	89	G	4	FALSE	TRUE	nykRM	d_line	G	G	3	O-G
+2014-06-21_bosWC-at-nykRM	1	5	nykRM	10	8	1	bosWC	bosWC	17	G	10	FALSE	TRUE	bosWC	o_line	G	G	8	O-G
+2014-06-21_bosWC-at-nykRM	1	6	bosWC	7	9	1	nykRM	bosWC	11	D	7	FALSE	FALSE	NA	o_line	D	def +	5	D-D
+2014-06-21_bosWC-at-nykRM	1	6	bosWC	12	10	2	bosWC	bosWC	88	TA	5	FALSE	FALSE	NA	d_line	TA	off -	5	NA
+2014-06-21_bosWC-at-nykRM	1	6	bosWC	17	11	3	nykRM	nykRM	19	TA	5	FALSE	FALSE	NA	o_line	TA	off -	5	NA
+2014-06-21_bosWC-at-nykRM	1	6	bosWC	24	12	4	bosWC	nykRM	6	D	7	FALSE	FALSE	NA	d_line	D	def +	6	D-D
+2014-06-21_bosWC-at-nykRM	1	6	bosWC	30	13	5	nykRM	nykRM	14	TD	6	FALSE	FALSE	NA	o_line	TD	off -	5	O-TD
+2014-06-21_bosWC-at-nykRM	1	6	bosWC	35	14	6	bosWC	nykRM	19	D	5	FALSE	FALSE	NA	d_line	D	def +	4	D-D
+2014-06-21_bosWC-at-nykRM	1	6	bosWC	45	15	7	nykRM	nykRM	1	TA	10	FALSE	FALSE	NA	o_line	TA	off -	8	NA
+2014-06-21_bosWC-at-nykRM	1	6	bosWC	51	16	8	bosWC	nykRM	1	D	6	FALSE	FALSE	NA	d_line	D	def +	5	D-D
+2014-06-21_bosWC-at-nykRM	1	6	bosWC	57	17	9	nykRM	nykRM	18	TA	6	FALSE	FALSE	NA	o_line	TA	off -	6	NA
+2014-06-21_bosWC-at-nykRM	1	6	bosWC	60	18	10	bosWC	bosWC	3	TD	3	FALSE	FALSE	NA	d_line	TD	off -	1	O-TD
+2014-06-21_bosWC-at-nykRM	1	6	bosWC	62	19	11	nykRM	nykRM	21	G	2	FALSE	TRUE	nykRM	o_line	G	G	1	O-G
+2014-06-21_bosWC-at-nykRM	1	7	nykRM	8	20	1	bosWC	bosWC	43	G	8	FALSE	TRUE	bosWC	o_line	G	G	6	O-G
+2014-06-21_bosWC-at-nykRM	1	8	bosWC	2	21	1	nykRM	nykRM	19	eop	2	FALSE	FALSE	NA	o_line	eop	eop	1	NA
+2014-06-21_bosWC-at-nykRM	2	9	nykRM	7	22	1	bosWC	bosWC	3	G	7	TRUE	TRUE	bosWC	o_line	G	G	4	O-G
+2014-06-21_bosWC-at-nykRM	2	10	bosWC	8	23	1	nykRM	nykRM	33	VTT	8	FALSE	FALSE	NA	o_line	VTT	off -	6	O-OV
+2014-06-21_bosWC-at-nykRM	2	10	bosWC	18	24	2	bosWC	bosWC	88	TD	10	FALSE	FALSE	NA	d_line	TD	off -	9	O-TD
+2014-06-21_bosWC-at-nykRM	2	10	bosWC	22	25	3	nykRM	bosWC	14	D	4	FALSE	FALSE	NA	o_line	D	def +	3	D-D
+2014-06-21_bosWC-at-nykRM	2	10	bosWC	25	26	4	bosWC	bosWC	11	TA	3	FALSE	FALSE	NA	d_line	TA	off -	3	NA
+2014-06-21_bosWC-at-nykRM	2	10	bosWC	27	27	5	nykRM	bosWC	27	D	2	FALSE	FALSE	NA	o_line	D	def +	1	D-D
+2014-06-21_bosWC-at-nykRM	2	10	bosWC	29	28	6	bosWC	bosWC	11	LG	2	TRUE	TRUE	bosWC	d_line	G	G	1	O-G
+2014-06-21_bosWC-at-nykRM	2	11	bosWC	7	29	1	nykRM	nykRM	27	TD	7	FALSE	FALSE	NA	o_line	TD	off -	5	O-TD
+2014-06-21_bosWC-at-nykRM	2	11	bosWC	9	30	2	bosWC	nykRM	1	D	2	FALSE	FALSE	NA	d_line	D	def +	1	D-D
+2014-06-21_bosWC-at-nykRM	2	11	bosWC	11	31	3	nykRM	bosWC	17	D	2	FALSE	FALSE	NA	o_line	D	def +	1	D-D
+2014-06-21_bosWC-at-nykRM	2	11	bosWC	20	32	4	bosWC	bosWC	21	TD	9	FALSE	FALSE	NA	d_line	TD	off -	7	O-TD
+2014-06-21_bosWC-at-nykRM	2	11	bosWC	26	33	5	nykRM	nykRM	82	LG	6	TRUE	TRUE	nykRM	o_line	G	G	5	O-G
+2014-06-21_bosWC-at-nykRM	2	12	nykRM	9	34	1	bosWC	bosWC	8	G	9	FALSE	TRUE	bosWC	o_line	G	G	7	O-G
+2014-06-21_bosWC-at-nykRM	2	13	bosWC	5	35	1	nykRM	nykRM	44	G	5	FALSE	TRUE	nykRM	o_line	G	G	2	O-G
+2014-06-21_bosWC-at-nykRM	2	14	nykRM	10	36	1	bosWC	bosWC	1	G	10	TRUE	TRUE	bosWC	o_line	G	G	8	O-G
+2014-06-21_bosWC-at-nykRM	2	15	bosWC	3	37	1	nykRM	nykRM	18	G	3	FALSE	TRUE	nykRM	o_line	G	G	1	O-G
+2014-06-21_bosWC-at-nykRM	2	16	nykRM	8	38	1	bosWC	nykRM	27	D	8	FALSE	FALSE	NA	o_line	D	def +	6	D-D
+2014-06-21_bosWC-at-nykRM	2	16	nykRM	12	39	2	nykRM	nykRM	81	TA	4	FALSE	FALSE	NA	d_line	TA	off -	4	NA
+2014-06-21_bosWC-at-nykRM	2	16	nykRM	19	40	3	bosWC	bosWC	77	TD	7	TRUE	FALSE	NA	o_line	TD	off -	6	O-TD
+2014-06-21_bosWC-at-nykRM	2	16	nykRM	23	41	4	nykRM	nykRM	81	TD	4	FALSE	FALSE	NA	d_line	TD	off -	3	O-TD
+2014-06-21_bosWC-at-nykRM	2	16	nykRM	28	42	5	bosWC	bosWC	3	G	5	FALSE	TRUE	bosWC	o_line	G	G	4	O-G
+2014-06-21_bosWC-at-nykRM	2	17	bosWC	10	43	1	nykRM	nykRM	18	TD	10	FALSE	FALSE	NA	o_line	TD	off -	8	O-TD
+2014-06-21_bosWC-at-nykRM	2	17	bosWC	17	44	2	bosWC	bosWC	5	G	7	TRUE	TRUE	bosWC	d_line	G	G	2	O-G
+2014-06-21_bosWC-at-nykRM	2	18	bosWC	8	45	1	nykRM	bosWC	77	eop	8	FALSE	FALSE	NA	o_line	eop	eop	5	D-D
+2014-06-21_bosWC-at-nykRM	3	19	bosWC	6	46	1	nykRM	nykRM	26	TA	6	FALSE	FALSE	NA	o_line	TA	off -	5	NA
+2014-06-21_bosWC-at-nykRM	3	19	bosWC	11	47	2	bosWC	bosWC	11	G	5	FALSE	TRUE	bosWC	d_line	G	G	4	O-G
+2014-06-21_bosWC-at-nykRM	3	20	bosWC	6	48	1	nykRM	nykRM	89	G	6	FALSE	TRUE	nykRM	o_line	G	G	4	O-G
+2014-06-21_bosWC-at-nykRM	3	21	nykRM	8	49	1	bosWC	bosWC	13	TD	8	FALSE	FALSE	NA	o_line	TD	off -	6	O-TD
+2014-06-21_bosWC-at-nykRM	3	21	nykRM	21	50	2	nykRM	nykRM	89	TD	13	FALSE	FALSE	NA	d_line	TD	off -	11	O-TD
+2014-06-21_bosWC-at-nykRM	3	21	nykRM	30	51	3	bosWC	bosWC	7	G	9	FALSE	TRUE	bosWC	o_line	G	G	8	O-G
+2014-06-21_bosWC-at-nykRM	3	22	bosWC	8	52	1	nykRM	nykRM	1	G	8	FALSE	TRUE	nykRM	o_line	G	G	6	O-G
+2014-06-21_bosWC-at-nykRM	3	23	nykRM	3	53	1	bosWC	bosWC	13	TA	3	FALSE	FALSE	NA	o_line	TA	off -	2	NA
+2014-06-21_bosWC-at-nykRM	3	23	nykRM	6	54	2	nykRM	bosWC	17	D	3	FALSE	FALSE	NA	d_line	D	def +	2	D-D
+2014-06-21_bosWC-at-nykRM	3	23	nykRM	7	55	3	bosWC	bosWC	17	CG	1	FALSE	TRUE	bosWC	o_line	G	G	0	NA
+2014-06-21_bosWC-at-nykRM	3	24	nykRM	6	56	1	bosWC	nykRM	82	D	6	FALSE	FALSE	NA	o_line	D	def +	4	D-D
+2014-06-21_bosWC-at-nykRM	3	24	nykRM	8	57	2	nykRM	nykRM	21	LG	2	TRUE	TRUE	nykRM	d_line	G	G	1	O-G
+2014-06-21_bosWC-at-nykRM	3	25	nykRM	4	58	1	bosWC	nykRM	9	D	4	FALSE	FALSE	NA	o_line	D	def +	2	D-D
+2014-06-21_bosWC-at-nykRM	3	25	nykRM	22	59	2	nykRM	nykRM	89	G	18	FALSE	TRUE	nykRM	d_line	G	G	16	O-G
+2014-06-21_bosWC-at-nykRM	3	26	nykRM	17	60	1	bosWC	bosWC	43	G	17	FALSE	TRUE	bosWC	o_line	G	G	15	O-G
+2014-06-21_bosWC-at-nykRM	3	27	bosWC	6	61	1	nykRM	nykRM	6	G	6	TRUE	TRUE	nykRM	o_line	G	G	4	O-G
+2014-06-21_bosWC-at-nykRM	3	28	nykRM	12	62	1	bosWC	bosWC	13	G	12	FALSE	TRUE	bosWC	o_line	G	G	10	O-G
+2014-06-21_bosWC-at-nykRM	3	29	bosWC	6	63	1	nykRM	nykRM	18	LG	6	TRUE	TRUE	nykRM	o_line	G	G	4	O-G
+2014-06-21_bosWC-at-nykRM	3	30	nykRM	8	64	1	bosWC	bosWC	13	G	8	TRUE	TRUE	bosWC	o_line	G	G	6	O-G
+2014-06-21_bosWC-at-nykRM	3	31	bosWC	10	65	1	nykRM	bosWC	27	D	10	FALSE	FALSE	NA	o_line	D	def +	7	D-D
+2014-06-21_bosWC-at-nykRM	3	31	bosWC	15	66	2	bosWC	nykRM	44	D	5	FALSE	FALSE	NA	d_line	D	def +	4	D-D
+2014-06-21_bosWC-at-nykRM	3	31	bosWC	21	67	3	nykRM	nykRM	4	TD	6	FALSE	FALSE	NA	o_line	TD	off -	5	O-TD
+2014-06-21_bosWC-at-nykRM	3	31	bosWC	27	68	4	bosWC	bosWC	88	G	6	FALSE	TRUE	bosWC	d_line	G	G	5	O-G
+2014-06-21_bosWC-at-nykRM	3	32	bosWC	5	69	1	nykRM	nykRM	82	eop	5	FALSE	FALSE	NA	o_line	eop	eop	4	NA
+2014-06-21_bosWC-at-nykRM	4	33	nykRM	15	70	1	bosWC	bosWC	7	G	15	FALSE	TRUE	bosWC	o_line	G	G	13	O-G
+2014-06-21_bosWC-at-nykRM	4	34	bosWC	14	71	1	nykRM	nykRM	1	G	14	FALSE	TRUE	nykRM	o_line	G	G	11	O-G
+2014-06-21_bosWC-at-nykRM	4	35	nykRM	10	72	1	bosWC	nykRM	89	D	10	FALSE	FALSE	NA	o_line	D	def +	8	D-D
+2014-06-21_bosWC-at-nykRM	4	35	nykRM	26	73	2	nykRM	bosWC	29	D	16	FALSE	FALSE	NA	d_line	D	def +	13	D-D
+2014-06-21_bosWC-at-nykRM	4	35	nykRM	41	74	3	bosWC	bosWC	17	G	15	FALSE	TRUE	bosWC	o_line	G	G	12	O-G
+2014-06-21_bosWC-at-nykRM	4	36	bosWC	7	75	1	nykRM	nykRM	18	TA	7	FALSE	FALSE	NA	o_line	TA	off -	6	NA
+2014-06-21_bosWC-at-nykRM	4	36	bosWC	11	76	2	bosWC	bosWC	6	TA	4	FALSE	FALSE	NA	d_line	TA	off -	4	NA
+2014-06-21_bosWC-at-nykRM	4	36	bosWC	13	77	3	nykRM	bosWC	6	D	2	FALSE	FALSE	NA	o_line	D	def +	1	D-D
+2014-06-21_bosWC-at-nykRM	4	36	bosWC	19	78	4	bosWC	bosWC	2	TA	6	FALSE	FALSE	NA	d_line	TA	off -	5	O-F
+2014-06-21_bosWC-at-nykRM	4	36	bosWC	24	79	5	nykRM	nykRM	33	G	5	FALSE	TRUE	nykRM	o_line	G	G	4	O-G
+2014-06-21_bosWC-at-nykRM	4	37	nykRM	5	80	1	bosWC	bosWC	77	LG	5	TRUE	TRUE	bosWC	o_line	G	G	3	O-G
+2014-06-21_bosWC-at-nykRM	4	38	bosWC	11	81	1	nykRM	bosWC	88	D	11	FALSE	FALSE	NA	o_line	D	def +	8	D-D
+2014-06-21_bosWC-at-nykRM	4	38	bosWC	18	82	2	bosWC	bosWC	29	G	7	FALSE	TRUE	bosWC	d_line	G	G	6	O-G
+2014-06-21_bosWC-at-nykRM	4	39	bosWC	7	83	1	nykRM	bosWC	2	D	7	FALSE	FALSE	NA	o_line	D	def +	5	D-D
+2014-06-21_bosWC-at-nykRM	4	39	bosWC	29	84	2	bosWC	bosWC	43	G	22	FALSE	TRUE	bosWC	d_line	G	G	21	O-G
+2014-06-21_bosWC-at-nykRM	4	40	bosWC	6	85	1	nykRM	nykRM	44	G	6	FALSE	TRUE	nykRM	o_line	G	G	4	O-G
 2014-06-21_seaRM-at-pdxST	1	1	pdxST	2	1	1	seaRM	seaRM	0	TA	2	FALSE	FALSE	NA	o_line	TA	off -	1	NA
 2014-06-21_seaRM-at-pdxST	1	1	pdxST	5	2	2	pdxST	pdxST	7	TA	3	FALSE	FALSE	NA	d_line	TA	off -	3	NA
 2014-06-21_seaRM-at-pdxST	1	1	pdxST	17	3	3	seaRM	seaRM	0	TA	12	FALSE	FALSE	NA	o_line	TA	off -	12	NA

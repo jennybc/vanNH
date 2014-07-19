@@ -11,7 +11,7 @@ library(plyr)
 neglength <- function(x) -1 * length(x)
 
 #' How many games have I ingested?
-length(games <- list.files(file.path("..", "games"), pattern = "-at-")) # 32
+length(games <- list.files(file.path("..", "games"), pattern = "-at-")) # 42
 
 out_dir <- file.path("..", "games", "2014_all-games")
 if(!file.exists(out_dir)) dir.create(out_dir)
@@ -24,7 +24,7 @@ names(pass_files) <- games
 pass_dat <-
   ldply(pass_files, function(gg) read.delim(gg, stringsAsFactor = FALSE),
         .id = "game")
-str(pass_dat) # 16033 obs. of  15 variables:
+str(pass_dat) # 20964 obs. of  15 variables:
 
 out_file <- file.path(out_dir, "2014_passes.rds")
 saveRDS(pass_dat, out_file)
@@ -45,9 +45,10 @@ names(poss_files) <- games
 poss_dat <-
   ldply(poss_files, function(gg) read.delim(gg, stringsAsFactor = FALSE),
         .id = "game")
-str(poss_dat) # 2830 obs. of  18 variables:
+str(poss_dat) # 3692 obs. of  18 variables:
 
-## this takes some time ... but less than a minute
+## this took less than 40 seconds
+system.time(
 poss_dat <- ddply(poss_dat, ~ game + poss_abs, function(x) {
   this_game <- as.character(x$game[1])
   this_poss_abs <- x$poss_abs[1]
@@ -55,7 +56,8 @@ poss_dat <- ddply(poss_dat, ~ game + poss_abs, function(x) {
   return(data.frame(x, n_passes = sum(y$pclass != 'nopass'),
                     end_code = rev(y$end_code)[1]))
 })
-str(poss_dat, max.level = 0) # 2830 obs. of  20 variables:
+)
+str(poss_dat, max.level = 0) # 3692 obs. of  20 variables:
 
 ## sanity check
 ## for any possession ...
@@ -85,7 +87,7 @@ names(point_files) <- games
 point_dat <-
   ldply(point_files, function(gg) read.delim(gg, stringsAsFactor = FALSE),
         .id = "game")
-str(point_dat) # 1314 obs. of  17 variables:
+str(point_dat) # 1738 obs. of  17 variables:
 
 out_file <- file.path(out_dir, "2014_points.rds")
 saveRDS(point_dat, out_file)
@@ -107,7 +109,7 @@ names(ps_files) <- games
 ps_dat <-
   ldply(ps_files, function(gg) read.delim(gg, stringsAsFactor = FALSE),
         .id = "game")
-str(ps_dat) # 1400 obs. of  14 variables:
+str(ps_dat) # 1839 obs. of  14 variables:
 
 out_file <- file.path(out_dir, "2014_player-game-stats.rds")
 saveRDS(ps_dat, out_file)
@@ -158,3 +160,4 @@ message("wrote ", out_file)
 out_file <- file.path(out_dir, "2014_player-stats-aggregated.dput")
 dput(ps_by_player, out_file)
 message("wrote ", out_file)
+
