@@ -1,0 +1,84 @@
+period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code	n_events	huck	score	scor_team	who	a_code	b_code
+1	1	phlSP	9	1	1	bosWC	bosWC	9	G	9	FALSE	TRUE	bosWC	o_line	G	G
+1	2	bosWC	9	2	1	phlSP	phlSP	27	TA	9	FALSE	FALSE	NA	o_line	TA	off -
+1	2	bosWC	16	3	2	bosWC	bosWC	27	G	7	FALSE	TRUE	bosWC	d_line	G	G
+1	3	bosWC	11	4	1	phlSP	phlSP	4	G	11	FALSE	TRUE	phlSP	o_line	G	G
+1	4	phlSP	4	5	1	bosWC	bosWC	21	LG	4	TRUE	TRUE	bosWC	o_line	G	G
+1	5	bosWC	12	6	1	phlSP	phlSP	13	G	12	FALSE	TRUE	phlSP	o_line	G	G
+1	6	phlSP	8	7	1	bosWC	bosWC	9	G	8	FALSE	TRUE	bosWC	o_line	G	G
+1	7	bosWC	11	8	1	phlSP	bosWC	12	D	11	FALSE	FALSE	NA	o_line	D	def +
+1	7	bosWC	13	9	2	bosWC	bosWC	6	G	2	FALSE	TRUE	bosWC	d_line	G	G
+1	8	bosWC	11	10	1	phlSP	phlSP	3	G	11	FALSE	TRUE	phlSP	o_line	G	G
+1	9	phlSP	13	11	1	bosWC	bosWC	21	G	13	FALSE	TRUE	bosWC	o_line	G	G
+1	10	bosWC	8	12	1	phlSP	phlSP	27	LG	8	TRUE	TRUE	phlSP	o_line	G	G
+1	11	phlSP	12	13	1	bosWC	bosWC	1	G	12	FALSE	TRUE	bosWC	o_line	G	G
+1	12	bosWC	8	14	1	phlSP	phlSP	23	TD	8	FALSE	FALSE	NA	o_line	TD	off -
+1	12	bosWC	11	15	2	bosWC	bosWC	18	TA	3	FALSE	FALSE	NA	d_line	TA	off -
+1	12	bosWC	17	16	3	phlSP	phlSP	14	G	6	TRUE	TRUE	phlSP	o_line	G	G
+1	13	phlSP	7	17	1	bosWC	bosWC	44	G	7	TRUE	TRUE	bosWC	o_line	G	G
+1	14	bosWC	18	18	1	phlSP	phlSP	25	G	18	FALSE	TRUE	phlSP	o_line	G	G
+1	15	phlSP	4	19	1	bosWC	bosWC	1	TA	4	FALSE	FALSE	NA	o_line	TA	off -
+1	15	phlSP	7	20	2	phlSP	phlSP	25	TA	3	FALSE	FALSE	NA	d_line	TA	off -
+1	15	phlSP	12	21	3	bosWC	phlSP	31	eop	5	FALSE	FALSE	NA	o_line	eop	eop
+2	16	bosWC	29	22	1	phlSP	phlSP	13	G	29	FALSE	TRUE	phlSP	o_line	G	G
+2	17	phlSP	9	23	1	bosWC	bosWC	9	G	9	FALSE	TRUE	bosWC	o_line	G	G
+2	18	bosWC	10	24	1	phlSP	phlSP	4	TA	10	FALSE	FALSE	NA	o_line	TA	off -
+2	18	bosWC	16	25	2	bosWC	bosWC	43	G	6	FALSE	TRUE	bosWC	d_line	G	G
+2	19	bosWC	15	26	1	phlSP	phlSP	33	G	15	FALSE	TRUE	phlSP	o_line	G	G
+2	20	phlSP	7	27	1	bosWC	phlSP	76	D	7	FALSE	FALSE	NA	o_line	D	def +
+2	20	phlSP	11	28	2	phlSP	phlSP	11	LG	4	TRUE	TRUE	phlSP	d_line	G	G
+2	21	phlSP	6	29	1	bosWC	bosWC	13	VTT	6	FALSE	FALSE	NA	o_line	VTT	off -
+2	21	phlSP	10	30	2	phlSP	bosWC	21	D	4	FALSE	FALSE	NA	d_line	D	def +
+2	21	phlSP	13	31	3	bosWC	bosWC	21	TD	3	FALSE	FALSE	NA	o_line	TD	off -
+2	21	phlSP	27	32	4	phlSP	phlSP	3	G	14	FALSE	TRUE	phlSP	d_line	G	G
+2	22	phlSP	8	33	1	bosWC	bosWC	9	TD	8	FALSE	FALSE	NA	o_line	TD	off -
+2	22	phlSP	16	34	2	phlSP	phlSP	76	TD	8	FALSE	FALSE	NA	d_line	TD	off -
+2	22	phlSP	18	35	3	bosWC	bosWC	18	TA	2	TRUE	FALSE	NA	o_line	TA	off -
+2	22	phlSP	23	36	4	phlSP	phlSP	76	G	5	TRUE	TRUE	phlSP	d_line	G	G
+2	23	phlSP	3	37	1	bosWC	bosWC	13	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+2	23	phlSP	7	38	2	phlSP	bosWC	00	D	4	FALSE	FALSE	NA	d_line	D	def +
+2	23	phlSP	9	39	3	bosWC	bosWC	3	G	2	FALSE	TRUE	bosWC	o_line	G	G
+2	24	bosWC	10	40	1	phlSP	phlSP	25	G	10	FALSE	TRUE	phlSP	o_line	G	G
+2	25	phlSP	3	41	1	bosWC	bosWC	13	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+2	25	phlSP	5	42	2	phlSP	phlSP	25	eop	2	FALSE	FALSE	NA	d_line	eop	eop
+3	26	phlSP	6	43	1	bosWC	bosWC	1	LG	6	TRUE	TRUE	bosWC	o_line	G	G
+3	27	bosWC	17	44	1	phlSP	phlSP	14	G	17	FALSE	TRUE	phlSP	o_line	G	G
+3	28	phlSP	8	45	1	bosWC	phlSP	16	D	8	FALSE	FALSE	NA	o_line	D	def +
+3	28	phlSP	21	46	2	phlSP	phlSP	6	G	13	FALSE	TRUE	phlSP	d_line	G	G
+3	29	phlSP	4	47	1	bosWC	bosWC	11	TA	4	FALSE	FALSE	NA	o_line	TA	off -
+3	29	phlSP	7	48	2	phlSP	phlSP	10	LG	3	TRUE	TRUE	phlSP	d_line	G	G
+3	30	phlSP	3	49	1	bosWC	phlSP	16	D	3	FALSE	FALSE	NA	o_line	D	def +
+3	30	phlSP	6	50	2	phlSP	phlSP	28	TA	3	FALSE	FALSE	NA	d_line	TA	off -
+3	30	phlSP	12	51	3	bosWC	phlSP	76	D	6	FALSE	FALSE	NA	o_line	D	def +
+3	30	phlSP	14	52	4	phlSP	phlSP	76	LG	2	TRUE	TRUE	phlSP	d_line	G	G
+3	31	phlSP	16	53	1	bosWC	bosWC	13	G	16	FALSE	TRUE	bosWC	o_line	G	G
+3	32	bosWC	4	54	1	phlSP	bosWC	29	D	4	FALSE	FALSE	NA	o_line	D	def +
+3	32	bosWC	10	55	2	bosWC	phlSP	42	D	6	FALSE	FALSE	NA	d_line	D	def +
+3	32	bosWC	27	56	3	phlSP	phlSP	13	G	17	FALSE	TRUE	phlSP	o_line	G	G
+3	33	phlSP	10	57	1	bosWC	phlSP	16	D	10	FALSE	FALSE	NA	o_line	D	def +
+3	33	phlSP	32	58	2	phlSP	bosWC	00	D	22	FALSE	FALSE	NA	d_line	D	def +
+3	33	phlSP	38	59	3	bosWC	bosWC	11	G	6	FALSE	TRUE	bosWC	o_line	G	G
+3	34	bosWC	3	60	1	phlSP	phlSP	42	eop	3	FALSE	FALSE	NA	o_line	eop	eop
+4	35	bosWC	12	61	1	phlSP	phlSP	42	G	12	FALSE	TRUE	phlSP	o_line	G	G
+4	36	phlSP	9	62	1	bosWC	bosWC	00	TA	9	FALSE	FALSE	NA	o_line	TA	off -
+4	36	phlSP	11	63	2	phlSP	phlSP	1	TA	2	FALSE	FALSE	NA	d_line	TA	off -
+4	36	phlSP	19	64	3	bosWC	bosWC	13	LG	8	TRUE	TRUE	bosWC	o_line	G	G
+4	37	bosWC	17	65	1	phlSP	phlSP	13	TA	17	FALSE	FALSE	NA	o_line	TA	off -
+4	37	bosWC	24	66	2	bosWC	bosWC	9	G	7	TRUE	TRUE	bosWC	d_line	G	G
+4	38	bosWC	3	67	1	phlSP	phlSP	20	TD	3	FALSE	FALSE	NA	o_line	TD	off -
+4	38	bosWC	6	68	2	bosWC	bosWC	21	G	3	FALSE	TRUE	bosWC	d_line	G	G
+4	39	bosWC	11	69	1	phlSP	phlSP	13	G	11	FALSE	TRUE	phlSP	o_line	G	G
+4	40	phlSP	10	70	1	bosWC	bosWC	13	TA	10	FALSE	FALSE	NA	o_line	TA	off -
+4	40	phlSP	15	71	2	phlSP	phlSP	3	VTT	5	FALSE	FALSE	NA	d_line	VTT	off -
+4	40	phlSP	19	72	3	bosWC	bosWC	8	G	4	FALSE	TRUE	bosWC	o_line	G	G
+4	41	bosWC	13	73	1	phlSP	bosWC	27	D	13	FALSE	FALSE	NA	o_line	D	def +
+4	41	bosWC	20	74	2	bosWC	phlSP	6	D	7	FALSE	FALSE	NA	d_line	D	def +
+4	41	bosWC	25	75	3	phlSP	phlSP	10	G	5	FALSE	TRUE	phlSP	o_line	G	G
+4	42	phlSP	5	76	1	bosWC	bosWC	43	TD	5	FALSE	FALSE	NA	o_line	TD	off -
+4	42	phlSP	7	77	2	phlSP	bosWC	21	D	2	FALSE	FALSE	NA	d_line	D	def +
+4	42	phlSP	10	78	3	bosWC	phlSP	7	D	3	FALSE	FALSE	NA	o_line	D	def +
+4	42	phlSP	14	79	4	phlSP	phlSP	38	TA	4	FALSE	FALSE	NA	d_line	TA	off -
+4	42	phlSP	18	80	5	bosWC	bosWC	3	TA	4	FALSE	FALSE	NA	o_line	TA	off -
+4	42	phlSP	23	81	6	phlSP	phlSP	22	G	5	TRUE	TRUE	phlSP	d_line	G	G
+4	43	phlSP	3	82	1	bosWC	bosWC	14	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+4	43	phlSP	9	83	2	phlSP	phlSP	1	eop	6	FALSE	FALSE	NA	d_line	eop	eop

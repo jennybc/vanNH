@@ -1,0 +1,7 @@
+2014-06-15_bosWC-at-phlSP > 04_clean-and-expand-game-play.r:
+  611 rows of raw game play found
+  found 11 rows with game play recorded for both teams
+  no double game play rows remain
+  622 rows of clean game play will be written
+  2014-07-19 14:28:17
+
