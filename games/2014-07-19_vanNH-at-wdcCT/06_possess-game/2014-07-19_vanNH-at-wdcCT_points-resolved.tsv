@@ -31,3 +31,14 @@ point	period	clk_before	clk_after	pull_team	n_poss	scor_team	h_or_b	vanNH	wdcCT
 30	3	1:25:00	0:45:00	vanNH	2	vanNH	break	12	16
 31	3	0:45:00	0:05:00	vanNH	1	wdcCT	hold	12	17
 32	3	0:05:00	0:00:00	wdcCT	1	vanNH	hold	13	17
+33	4	10:00:00	7:13:00	vanNH	5	wdcCT	hold	13	18
+34	4	7:13:00	6:09:00	wdcCT	2	wdcCT	break	13	19
+35	4	6:09:00	5:12:00	wdcCT	3	vanNH	hold	14	19
+36	4	5:12:00	4:44:00	vanNH	2	vanNH	break	15	19
+37	4	4:44:00	4:06:00	vanNH	1	wdcCT	hold	15	20
+38	4	4:06:00	3:46:00	wdcCT	1	vanNH	hold	16	20
+39	4	3:46:00	1:43:00	vanNH	3	wdcCT	hold	16	21
+40	4	1:43:00	1:25:00	wdcCT	1	vanNH	hold	17	21
+41	4	1:25:00	1:06:00	vanNH	1	wdcCT	hold	17	22
+42	4	1:06:00	0:07:00	wdcCT	2	wdcCT	break	17	23
+43	4	0:06:00	0:00:00	wdcCT	NA	NA	NA	17	23

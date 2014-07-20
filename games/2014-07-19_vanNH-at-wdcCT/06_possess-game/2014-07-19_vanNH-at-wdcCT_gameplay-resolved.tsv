@@ -421,3 +421,151 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 3	32	wdcCT	2	63	1	vanNH	vanNH	91	PU
 3	32	wdcCT	3	63	1	vanNH	vanNH	11	A
 3	32	wdcCT	4	63	1	vanNH	vanNH	89	LG
+4	33	vanNH	1	64	1	wdcCT	vanNH	8	P
+4	33	vanNH	2	64	1	wdcCT	wdcCT	88	PU
+4	33	vanNH	3	64	1	wdcCT	wdcCT	2	
+4	33	vanNH	4	64	1	wdcCT	wdcCT	14	
+4	33	vanNH	5	64	1	wdcCT	wdcCT	45	
+4	33	vanNH	6	64	1	wdcCT	wdcCT	88	
+4	33	vanNH	7	64	1	wdcCT	wdcCT	9	
+4	33	vanNH	8	64	1	wdcCT	wdcCT	45	
+4	33	vanNH	9	64	1	wdcCT	vanNH	4	D
+4	33	vanNH	10	65	2	vanNH	vanNH	18	PU
+4	33	vanNH	11	65	2	vanNH	wdcCT	2	SO
+4	33	vanNH	12	65	2	vanNH	wdcCT	5	SI
+4	33	vanNH	13	65	2	vanNH	vanNH	24	
+4	33	vanNH	14	65	2	vanNH	vanNH	45	
+4	33	vanNH	15	65	2	vanNH	vanNH	24	
+4	33	vanNH	16	65	2	vanNH	vanNH	45	
+4	33	vanNH	17	65	2	vanNH	vanNH	4	
+4	33	vanNH	18	65	2	vanNH	wdcCT	88	D
+4	33	vanNH	19	66	3	wdcCT	wdcCT	14	PU
+4	33	vanNH	20	66	3	wdcCT	wdcCT	6	L
+4	33	vanNH	21	66	3	wdcCT	wdcCT	9	
+4	33	vanNH	22	66	3	wdcCT	vanNH	45	D
+4	33	vanNH	23	67	4	vanNH	vanNH	19	PU
+4	33	vanNH	24	67	4	vanNH	vanNH	24	
+4	33	vanNH	25	67	4	vanNH	vanNH	45	
+4	33	vanNH	26	67	4	vanNH	wdcCT	14	D
+4	33	vanNH	27	68	5	wdcCT	wdcCT	14	
+4	33	vanNH	28	68	5	wdcCT	wdcCT	5	
+4	33	vanNH	29	68	5	wdcCT	wdcCT		TO
+4	33	vanNH	30	68	5	wdcCT	wdcCT	2	PU
+4	33	vanNH	31	68	5	wdcCT	wdcCT	88	
+4	33	vanNH	32	68	5	wdcCT	wdcCT	2	
+4	33	vanNH	33	68	5	wdcCT	wdcCT	5	
+4	33	vanNH	34	68	5	wdcCT	wdcCT	88	
+4	33	vanNH	35	68	5	wdcCT	wdcCT	5	A
+4	33	vanNH	36	68	5	wdcCT	vanNH	8	F
+4	33	vanNH	37	68	5	wdcCT	wdcCT	90	G
+4	34	wdcCT	1	69	1	vanNH	wdcCT	61	P
+4	34	wdcCT	2	69	1	vanNH	vanNH	91	PU
+4	34	wdcCT	3	69	1	vanNH	vanNH	89	
+4	34	wdcCT	4	70	2	wdcCT	wdcCT	23	PU
+4	34	wdcCT	5	70	2	wdcCT	wdcCT	7	
+4	34	wdcCT	6	70	2	wdcCT	wdcCT	42	
+4	34	wdcCT	7	70	2	wdcCT	wdcCT	7	
+4	34	wdcCT	8	70	2	wdcCT	wdcCT	61	
+4	34	wdcCT	9	70	2	wdcCT	wdcCT	32	
+4	34	wdcCT	10	70	2	wdcCT	wdcCT	23	
+4	34	wdcCT	11	70	2	wdcCT	wdcCT	7	
+4	34	wdcCT	12	70	2	wdcCT	wdcCT	32	
+4	34	wdcCT	13	70	2	wdcCT	wdcCT	19	A
+4	34	wdcCT	14	70	2	wdcCT	wdcCT	61	G
+4	35	wdcCT	1	71	1	vanNH	wdcCT	22	P
+4	35	wdcCT	2	71	1	vanNH	vanNH	5	PU
+4	35	wdcCT	3	71	1	vanNH	vanNH	19	
+4	35	wdcCT	4	72	2	wdcCT	wdcCT	4	PU
+4	35	wdcCT	5	72	2	wdcCT	wdcCT	27	
+4	35	wdcCT	6	72	2	wdcCT	wdcCT	25	
+4	35	wdcCT	7	72	2	wdcCT	wdcCT	4	TD
+4	35	wdcCT	8	73	3	vanNH	vanNH	89	PU
+4	35	wdcCT	9	73	3	vanNH	vanNH	5	
+4	35	wdcCT	10	73	3	vanNH	vanNH	22	
+4	35	wdcCT	11	73	3	vanNH	vanNH	10	
+4	35	wdcCT	12	73	3	vanNH	vanNH	5	
+4	35	wdcCT	13	73	3	vanNH	vanNH	19	A
+4	35	wdcCT	14	73	3	vanNH	vanNH	89	G
+4	36	vanNH	1	74	1	wdcCT	vanNH	8	P
+4	36	vanNH	2	74	1	wdcCT	wdcCT	14	PU
+4	36	vanNH	3	74	1	wdcCT	wdcCT	2	
+4	36	vanNH	4	74	1	wdcCT	vanNH	13	D
+4	36	vanNH	5	75	2	vanNH	vanNH	37	
+4	36	vanNH	6	75	2	vanNH	vanNH	8	
+4	36	vanNH	7	75	2	vanNH	vanNH	13	
+4	36	vanNH	8	75	2	vanNH	vanNH	45	A
+4	36	vanNH	9	75	2	vanNH	vanNH	37	G
+4	37	vanNH	1	76	1	wdcCT	vanNH	33	P
+4	37	vanNH	2	76	1	wdcCT	wdcCT	2	PU
+4	37	vanNH	3	76	1	wdcCT	wdcCT	88	
+4	37	vanNH	4	76	1	wdcCT	wdcCT	32	
+4	37	vanNH	5	76	1	wdcCT	wdcCT	88	
+4	37	vanNH	6	76	1	wdcCT	wdcCT	45	
+4	37	vanNH	7	76	1	wdcCT	wdcCT	32	
+4	37	vanNH	8	76	1	wdcCT	wdcCT	9	
+4	37	vanNH	9	76	1	wdcCT	wdcCT	2	
+4	37	vanNH	10	76	1	wdcCT	wdcCT	9	A
+4	37	vanNH	11	76	1	wdcCT	wdcCT	90	G
+4	38	wdcCT	1	77	1	vanNH	wdcCT	61	P
+4	38	wdcCT	2	77	1	vanNH	vanNH	89	PU
+4	38	wdcCT	3	77	1	vanNH	vanNH	19	
+4	38	wdcCT	4	77	1	vanNH	vanNH	10	
+4	38	wdcCT	5	77	1	vanNH	vanNH	98	LA
+4	38	wdcCT	6	77	1	vanNH	vanNH	89	G
+4	39	vanNH	1	78	1	wdcCT	vanNH	8	P
+4	39	vanNH	2	78	1	wdcCT	wdcCT	88	PU
+4	39	vanNH	3	78	1	wdcCT	wdcCT	2	
+4	39	vanNH	4	78	1	wdcCT	wdcCT	9	
+4	39	vanNH	5	78	1	wdcCT	wdcCT	2	
+4	39	vanNH	6	78	1	wdcCT	wdcCT	27	
+4	39	vanNH	7	78	1	wdcCT	wdcCT	45	
+4	39	vanNH	8	78	1	wdcCT	wdcCT	88	
+4	39	vanNH	9	78	1	wdcCT	wdcCT	9	
+4	39	vanNH	10	78	1	wdcCT	wdcCT	88	
+4	39	vanNH	11	78	1	wdcCT	wdcCT	14	
+4	39	vanNH	12	78	1	wdcCT	wdcCT	88	
+4	39	vanNH	13	78	1	wdcCT	wdcCT	27	
+4	39	vanNH	14	78	1	wdcCT	vanNH	8	D
+4	39	vanNH	15	79	2	vanNH	vanNH	45	PU
+4	39	vanNH	16	79	2	vanNH	vanNH	8	
+4	39	vanNH	17	79	2	vanNH	wdcCT	32	D
+4	39	vanNH	18	80	3	wdcCT	wdcCT	88	PU
+4	39	vanNH	19	80	3	wdcCT	wdcCT	14	
+4	39	vanNH	20	80	3	wdcCT	wdcCT	2	
+4	39	vanNH	21	80	3	wdcCT	wdcCT	45	
+4	39	vanNH	22	80	3	wdcCT	wdcCT	2	
+4	39	vanNH	23	80	3	wdcCT	wdcCT	9	
+4	39	vanNH	24	80	3	wdcCT	wdcCT	14	A
+4	39	vanNH	25	80	3	wdcCT	wdcCT	45	G
+4	40	wdcCT	1	81	1	vanNH	wdcCT	22	P
+4	40	wdcCT	2	81	1	vanNH	vanNH	19	PU
+4	40	wdcCT	3	81	1	vanNH	vanNH	91	
+4	40	wdcCT	4	81	1	vanNH	vanNH	11	A
+4	40	wdcCT	5	81	1	vanNH	vanNH	10	G
+4	41	vanNH	1	82	1	wdcCT	vanNH	8	P
+4	41	vanNH	2	82	1	wdcCT	wdcCT	88	PU
+4	41	vanNH	3	82	1	wdcCT	wdcCT	2	
+4	41	vanNH	4	82	1	wdcCT	wdcCT	90	
+4	41	vanNH	5	82	1	wdcCT	wdcCT	80	L
+4	41	vanNH	6	82	1	wdcCT	wdcCT	27	A
+4	41	vanNH	7	82	1	wdcCT	wdcCT	9	G
+4	42	wdcCT	1	83	1	vanNH	wdcCT	24	P
+4	42	wdcCT	2	83	1	vanNH	vanNH	89	PU
+4	42	wdcCT	3	83	1	vanNH	vanNH	11	
+4	42	wdcCT	4	83	1	vanNH	wdcCT	98	D
+4	42	wdcCT	5	84	2	wdcCT	wdcCT	61	PU
+4	42	wdcCT	6	84	2	wdcCT	wdcCT	24	
+4	42	wdcCT	7	84	2	wdcCT	wdcCT	61	
+4	42	wdcCT	8	84	2	wdcCT	wdcCT	18	
+4	42	wdcCT	9	84	2	wdcCT	wdcCT	7	
+4	42	wdcCT	10	84	2	wdcCT	wdcCT	23	
+4	42	wdcCT	11	84	2	wdcCT	wdcCT	7	
+4	42	wdcCT	12	84	2	wdcCT	wdcCT	61	
+4	42	wdcCT	13	84	2	wdcCT	wdcCT	24	
+4	42	wdcCT	14	84	2	wdcCT	wdcCT	19	
+4	42	wdcCT	15	84	2	wdcCT	vanNH	89	F
+4	42	wdcCT	16	84	2	wdcCT	wdcCT	23	A
+4	42	wdcCT	17	84	2	wdcCT	wdcCT	24	G
+4	43	wdcCT	1	85	1	vanNH	wdcCT	22	P
+4	43	wdcCT	2	85	1	vanNH	vanNH	91	PU
+4	43	wdcCT	3	85	1	vanNH	wdcCT	31	D

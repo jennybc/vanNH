@@ -1,7 +1,19 @@
 2014-07-19_vanNH-at-wdcCT > 04_clean-and-expand-game-play.r:
-  414 rows of raw game play found
-  found 8 rows with game play recorded for both teams
+  558 rows of raw game play found
+  found 12 rows with game play recorded for both teams
+Row 17 of point33 indicates events for both teams
+, but it's a novel code combination. LOOK AT THIS DATA!
+   point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+16    33                45                            45          
+17    33      88d        4        88         D         4          
+18    33     14pu                 14        PU                    
+Row 7 of point35 indicates events for both teams
+, but it's a novel code combination. LOOK AT THIS DATA!
+  point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+6    35                25                            25          
+7    35     89pu      4td        89        PU         4        TD
+8    35        5                  5                              
   no double game play rows remain
-  422 rows of clean game play will be written
-  2014-07-19 17:28:22
+  570 rows of clean game play will be written
+  2014-07-19 17:59:11
 

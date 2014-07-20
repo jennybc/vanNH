@@ -1,11 +1,11 @@
-point: 32
-period: 3
-clk_before: '0:05:00'
+point: 43
+period: 4
+clk_before: '0:06:00'
 clk_after: '0:00:00'
 pull_team: wdcCT
-n_poss: 1
-scor_team: vanNH
-h_or_b: hold
-vanNH: 13
-wdcCT: 17
+n_poss: .na.integer
+scor_team: .na.character
+h_or_b: .na.character
+vanNH: 17
+wdcCT: 23
 

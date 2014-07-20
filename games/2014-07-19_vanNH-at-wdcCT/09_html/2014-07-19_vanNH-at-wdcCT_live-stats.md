@@ -12,10 +12,10 @@ output:
 
 
 
-#### last update Sat Jul 19 17:28:25 2014
-# vanNH 13
-# wdcCT 17
-## period 3
+#### last update Sat Jul 19 17:59:14 2014
+# vanNH 17
+# wdcCT 23
+## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
@@ -29,6 +29,17 @@ Go to ...
 
 | point|period |begin    |end     |pt_duration |desc                                     |vanNH |wdcCT |
 |-----:|:------|:--------|:-------|:-----------|:----------------------------------------|:-----|:-----|
+|    43|4      |0:06:00  |0:00:00 |00:06       |- no goal -                              |17    |23    |
+|    42|4      |1:06:00  |0:07:00 |00:59       |wdcCT-23-tsai to wdcCT-24-fleming        |17    |23    |
+|    41|4      |1:25:00  |1:06:00 |00:19       |wdcCT-27-johnston to wdcCT-9-doi         |17    |22    |
+|    40|4      |1:43:00  |1:25:00 |00:18       |vanNH-11-greer to vanNH-10-chatha        |17    |21    |
+|    39|4      |3:46:00  |1:43:00 |02:03       |wdcCT-14-blake to wdcCT-45-wodatch       |16    |21    |
+|    38|4      |4:06:00  |3:46:00 |00:20       |vanNH-98-wong to vanNH-89-underhill      |16    |20    |
+|    37|4      |4:44:00  |4:06:00 |00:38       |wdcCT-9-doi to wdcCT-90-shofner          |15    |20    |
+|    36|4      |5:12:00  |4:44:00 |00:28       |vanNH-45-cowan to vanNH-37-sinclair      |15    |19    |
+|    35|4      |6:09:00  |5:12:00 |00:57       |vanNH-19-knapp to vanNH-89-underhill     |14    |19    |
+|    34|4      |7:13:00  |6:09:00 |01:04       |wdcCT-19-maloney to wdcCT-61-salmi       |13    |19    |
+|    33|4      |10:00:00 |7:13:00 |02:47       |wdcCT-5-cranston to wdcCT-90-shofner     |13    |18    |
 |    32|3      |0:05:00  |0:00:00 |00:05       |vanNH-11-greer to vanNH-89-underhill     |13    |17    |
 |    31|3      |0:45:00  |0:05:00 |00:40       |wdcCT-14-blake to wdcCT-2-keegan         |12    |17    |
 |    30|3      |1:25:00  |0:45:00 |00:40       |vanNH-11-greer to vanNH-81-tejpar        |12    |16    |
@@ -93,29 +104,29 @@ stats are cumulative for this game
 
 |   |player   |last      | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
 |:--|:--------|:---------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
-|1  |vanNH-11 |greer     |      5|     0.86|     1|       4|     14|          12|      15|   1|    1|
-|2  |vanNH-19 |knapp     |      3|     0.96|     3|       0|     24|          23|      18|   1|    0|
-|3  |vanNH-6  |gailits   |      3|     1.00|     2|       1|     10|          10|      12|   1|    0|
-|4  |vanNH-91 |savage    |      3|     0.80|     0|       3|     20|          16|      15|   1|    1|
-|5  |vanNH-10 |chatha    |      2|     0.92|     2|       0|     12|          11|      15|   0|    0|
-|6  |vanNH-13 |tessarolo |      2|     1.00|     1|       1|      2|           2|       3|   0|    0|
-|7  |vanNH-98 |wong      |      2|     1.00|     1|       1|     10|          10|      11|   0|    0|
-|8  |vanNH-4  |doyle     |      1|     1.00|     1|       0|      4|           4|       1|   1|    0|
-|9  |vanNH-81 |tejpar    |      1|     1.00|     1|       0|      2|           2|       2|   0|    0|
-|10 |vanNH-89 |underhill |      1|     0.86|     1|       0|     21|          18|      18|   0|    1|
-|11 |vanNH-18 |menzies   |      1|     1.00|     0|       1|      8|           8|       6|   1|    0|
-|12 |vanNH-8  |hibbert   |      1|     0.75|     0|       1|      8|           6|       7|   1|    1|
-|13 |vanNH-27 |davis     |      1|     1.00|     0|       1|      4|           4|       4|   0|    0|
-|14 |vanNH-?  |?name?    |      0|     0.00|     0|       0|      1|           0|       0|   0|    0|
-|15 |vanNH-14 |eyrich    |      0|     0.00|     0|       0|      1|           0|       1|   0|    1|
-|16 |vanNH-21 |loach     |      0|     1.00|     0|       0|      1|           1|       0|   0|    0|
-|17 |vanNH-22 |berezan   |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
-|18 |vanNH-24 |yu        |      0|     1.00|     0|       0|      6|           6|       6|   0|    0|
-|19 |vanNH-31 |saito     |      0|     1.00|     0|       0|      2|           2|       1|   0|    0|
-|20 |vanNH-33 |collins   |      0|     0.50|     0|       0|      4|           2|       3|   0|    0|
-|21 |vanNH-37 |sinclair  |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
-|22 |vanNH-45 |cowan     |      0|     1.00|     0|       0|      5|           5|       4|   0|    0|
-|23 |vanNH-5  |norris    |      0|     0.89|     0|       0|      9|           8|       8|   0|    0|
+|1  |vanNH-11 |greer     |      6|     0.81|     1|       5|     16|          13|      17|   1|    1|
+|2  |vanNH-19 |knapp     |      4|     0.93|     3|       1|     29|          27|      21|   1|    0|
+|3  |vanNH-10 |chatha    |      3|     0.93|     3|       0|     14|          13|      18|   0|    0|
+|4  |vanNH-89 |underhill |      3|     0.84|     3|       0|     25|          21|      21|   0|    1|
+|5  |vanNH-6  |gailits   |      3|     1.00|     2|       1|     10|          10|      12|   1|    0|
+|6  |vanNH-98 |wong      |      3|     1.00|     1|       2|     11|          11|      12|   0|    0|
+|7  |vanNH-91 |savage    |      3|     0.78|     0|       3|     23|          18|      16|   1|    1|
+|8  |vanNH-13 |tessarolo |      2|     1.00|     1|       1|      3|           3|       4|   1|    0|
+|9  |vanNH-4  |doyle     |      1|     0.80|     1|       0|      5|           4|       2|   2|    0|
+|10 |vanNH-37 |sinclair  |      1|     1.00|     1|       0|      3|           3|       3|   0|    0|
+|11 |vanNH-81 |tejpar    |      1|     1.00|     1|       0|      2|           2|       2|   0|    0|
+|12 |vanNH-8  |hibbert   |      1|     0.70|     0|       1|     10|           7|       9|   2|    1|
+|13 |vanNH-18 |menzies   |      1|     1.00|     0|       1|      9|           9|       6|   1|    0|
+|14 |vanNH-45 |cowan     |      1|     0.90|     0|       1|     10|           9|       8|   1|    0|
+|15 |vanNH-27 |davis     |      1|     1.00|     0|       1|      4|           4|       4|   0|    0|
+|16 |vanNH-?  |?name?    |      0|     0.00|     0|       0|      1|           0|       0|   0|    0|
+|17 |vanNH-14 |eyrich    |      0|     0.00|     0|       0|      1|           0|       1|   0|    1|
+|18 |vanNH-21 |loach     |      0|     1.00|     0|       0|      1|           1|       0|   0|    0|
+|19 |vanNH-22 |berezan   |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
+|20 |vanNH-24 |yu        |      0|     1.00|     0|       0|      9|           9|       9|   0|    0|
+|21 |vanNH-31 |saito     |      0|     1.00|     0|       0|      2|           2|       1|   0|    0|
+|22 |vanNH-33 |collins   |      0|     0.50|     0|       0|      4|           2|       3|   0|    0|
+|23 |vanNH-5  |norris    |      0|     0.92|     0|       0|     12|          11|      10|   0|    0|
 |24 |vanNH-62 |?name?    |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
 |25 |vanNH-72 |leduc     |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
 
@@ -131,33 +142,36 @@ stats are cumulative for this game
 
 |   |player   |last           | points| comp_pct| goals| assists| throws| completions| catches| def| drop|
 |:--|:--------|:--------------|------:|--------:|-----:|-------:|------:|-----------:|-------:|---:|----:|
-|26 |wdcCT-90 |shofner        |      4|     0.80|     2|       2|     10|           8|      10|   0|    0|
-|27 |wdcCT-2  |keegan         |      4|     0.83|     1|       3|     18|          15|      17|   0|    0|
-|28 |wdcCT-45 |wodatch        |      3|     1.00|     2|       1|      5|           5|       7|   0|    0|
-|29 |wdcCT-88 |oung           |      3|     0.95|     1|       2|     19|          18|      15|   1|    0|
-|30 |wdcCT-27 |johnston       |      3|     0.90|     0|       3|     10|           9|       8|   0|    1|
-|31 |wdcCT-25 |gordon         |      2|     1.00|     2|       0|      3|           3|       5|   0|    0|
-|32 |wdcCT-14 |blake          |      2|     1.00|     1|       1|     16|          16|       9|   0|    0|
-|33 |wdcCT-9  |doi            |      2|     0.83|     1|       1|      6|           5|       7|   0|    0|
-|34 |wdcCT-17 |miner          |      1|     1.00|     1|       0|      3|           3|       3|   1|    0|
-|35 |wdcCT-21 |dulabon        |      1|     1.00|     1|       0|      2|           2|       2|   0|    0|
-|36 |wdcCT-31 |cobb           |      1|     1.00|     1|       0|      1|           1|       2|   0|    0|
-|37 |wdcCT-61 |salmi          |      1|     1.00|     1|       0|      3|           3|       2|   0|    0|
-|38 |wdcCT-7  |boylan-kolchin |      1|     1.00|     1|       0|      2|           2|       3|   0|    0|
-|39 |wdcCT-8  |prial          |      1|     1.00|     1|       0|      4|           4|       5|   0|    0|
-|40 |wdcCT-80 |grabowski      |      1|     1.00|     1|       0|      1|           1|       2|   0|    0|
-|41 |wdcCT-1  |kantor         |      1|     1.00|     0|       1|      7|           7|       4|   2|    0|
-|42 |wdcCT-4  |johnson        |      1|     0.86|     0|       1|      7|           6|       6|   1|    0|
-|43 |wdcCT-23 |tsai           |      1|     0.75|     0|       1|      4|           3|       4|   0|    0|
-|44 |wdcCT-6  |gordon         |      1|     1.00|     0|       1|      5|           5|       5|   0|    0|
-|45 |wdcCT-22 |marshall       |      0|     0.75|     0|       0|      8|           6|       7|   1|    0|
-|46 |wdcCT-   |?name?         |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
-|47 |wdcCT-19 |maloney        |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
-|48 |wdcCT-32 |peters         |      0|     1.00|     0|       0|      6|           6|       4|   0|    0|
-|49 |wdcCT-42 |gibson         |      0|     1.00|     0|       0|      2|           2|       2|   0|    0|
-|50 |wdcCT-43 |?name?         |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
-|51 |wdcCT-5  |cranston       |      0|     0.67|     0|       0|      6|           4|       6|   0|    0|
-|52 |wdcCT-81 |?name?         |      0|     1.00|     0|       0|      1|           1|       0|   0|    0|
+|26 |wdcCT-90 |shofner        |      6|     0.82|     4|       2|     11|           9|      13|   0|    0|
+|27 |wdcCT-45 |wodatch        |      4|     0.90|     3|       1|     10|           9|      13|   0|    0|
+|28 |wdcCT-9  |doi            |      4|     0.85|     2|       2|     13|          11|      15|   0|    0|
+|29 |wdcCT-2  |keegan         |      4|     0.86|     1|       3|     29|          25|      26|   0|    0|
+|30 |wdcCT-27 |johnston       |      4|     0.86|     0|       4|     14|          12|      12|   0|    1|
+|31 |wdcCT-88 |oung           |      3|     0.97|     1|       2|     31|          30|      23|   2|    0|
+|32 |wdcCT-14 |blake          |      3|     1.00|     1|       2|     23|          23|      13|   1|    0|
+|33 |wdcCT-25 |gordon         |      2|     0.75|     2|       0|      4|           3|       6|   0|    1|
+|34 |wdcCT-61 |salmi          |      2|     1.00|     2|       0|      7|           7|       6|   0|    0|
+|35 |wdcCT-23 |tsai           |      2|     0.88|     0|       2|      8|           7|       7|   0|    0|
+|36 |wdcCT-17 |miner          |      1|     1.00|     1|       0|      3|           3|       3|   1|    0|
+|37 |wdcCT-31 |cobb           |      1|     1.00|     1|       0|      1|           1|       2|   1|    0|
+|38 |wdcCT-21 |dulabon        |      1|     1.00|     1|       0|      2|           2|       2|   0|    0|
+|39 |wdcCT-24 |fleming        |      1|     1.00|     1|       0|      2|           2|       3|   0|    0|
+|40 |wdcCT-7  |boylan-kolchin |      1|     1.00|     1|       0|      7|           7|       8|   0|    0|
+|41 |wdcCT-8  |prial          |      1|     1.00|     1|       0|      4|           4|       5|   0|    0|
+|42 |wdcCT-80 |grabowski      |      1|     1.00|     1|       0|      2|           2|       3|   0|    0|
+|43 |wdcCT-1  |kantor         |      1|     1.00|     0|       1|      7|           7|       4|   2|    0|
+|44 |wdcCT-4  |johnson        |      1|     0.88|     0|       1|      8|           7|       6|   1|    0|
+|45 |wdcCT-19 |maloney        |      1|     1.00|     0|       1|      4|           4|       4|   0|    0|
+|46 |wdcCT-5  |cranston       |      1|     0.75|     0|       1|      8|           6|       9|   0|    0|
+|47 |wdcCT-6  |gordon         |      1|     1.00|     0|       1|      6|           6|       6|   0|    0|
+|48 |wdcCT-22 |marshall       |      0|     0.75|     0|       0|      8|           6|       7|   1|    0|
+|49 |wdcCT-32 |peters         |      0|     1.00|     0|       0|     10|          10|       8|   1|    0|
+|50 |wdcCT-98 |?name?         |      0|       NA|     0|       0|      0|           0|       0|   1|    0|
+|51 |wdcCT-   |?name?         |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|52 |wdcCT-18 |?name?         |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|53 |wdcCT-42 |gibson         |      0|     1.00|     0|       0|      3|           3|       3|   0|    0|
+|54 |wdcCT-43 |?name?         |      0|     1.00|     0|       0|      1|           1|       1|   0|    0|
+|55 |wdcCT-81 |?name?         |      0|     1.00|     0|       0|      1|           1|       0|   0|    0|
 
 ## Raw data on select events (goals, assists, D's)<a id="selectData"></a>:
 
@@ -238,6 +252,35 @@ stats are cumulative for this game
 |    31|      3|vanNH     |    14|       62|        1|wdcCT     |wdcCT   |2       |G       |keegan         |wdcCT-2-keegan         |    12|    17|
 |    32|      3|wdcCT     |     3|       63|        1|vanNH     |vanNH   |11      |A       |greer          |vanNH-11-greer         |    13|    17|
 |    32|      3|wdcCT     |     4|       63|        1|vanNH     |vanNH   |89      |LG      |underhill      |vanNH-89-underhill     |    13|    17|
+|    33|      4|vanNH     |     9|       64|        1|wdcCT     |vanNH   |4       |D       |doyle          |vanNH-4-doyle          |    13|    18|
+|    33|      4|vanNH     |    18|       65|        2|vanNH     |wdcCT   |88      |D       |oung           |wdcCT-88-oung          |    13|    18|
+|    33|      4|vanNH     |    22|       66|        3|wdcCT     |vanNH   |45      |D       |cowan          |vanNH-45-cowan         |    13|    18|
+|    33|      4|vanNH     |    26|       67|        4|vanNH     |wdcCT   |14      |D       |blake          |wdcCT-14-blake         |    13|    18|
+|    33|      4|vanNH     |    35|       68|        5|wdcCT     |wdcCT   |5       |A       |cranston       |wdcCT-5-cranston       |    13|    18|
+|    33|      4|vanNH     |    37|       68|        5|wdcCT     |wdcCT   |90      |G       |shofner        |wdcCT-90-shofner       |    13|    18|
+|    34|      4|wdcCT     |    13|       70|        2|wdcCT     |wdcCT   |19      |A       |maloney        |wdcCT-19-maloney       |    13|    19|
+|    34|      4|wdcCT     |    14|       70|        2|wdcCT     |wdcCT   |61      |G       |salmi          |wdcCT-61-salmi         |    13|    19|
+|    35|      4|wdcCT     |    13|       73|        3|vanNH     |vanNH   |19      |A       |knapp          |vanNH-19-knapp         |    14|    19|
+|    35|      4|wdcCT     |    14|       73|        3|vanNH     |vanNH   |89      |G       |underhill      |vanNH-89-underhill     |    14|    19|
+|    36|      4|vanNH     |     4|       74|        1|wdcCT     |vanNH   |13      |D       |tessarolo      |vanNH-13-tessarolo     |    15|    19|
+|    36|      4|vanNH     |     8|       75|        2|vanNH     |vanNH   |45      |A       |cowan          |vanNH-45-cowan         |    15|    19|
+|    36|      4|vanNH     |     9|       75|        2|vanNH     |vanNH   |37      |G       |sinclair       |vanNH-37-sinclair      |    15|    19|
+|    37|      4|vanNH     |    10|       76|        1|wdcCT     |wdcCT   |9       |A       |doi            |wdcCT-9-doi            |    15|    20|
+|    37|      4|vanNH     |    11|       76|        1|wdcCT     |wdcCT   |90      |G       |shofner        |wdcCT-90-shofner       |    15|    20|
+|    38|      4|wdcCT     |     5|       77|        1|vanNH     |vanNH   |98      |LA      |wong           |vanNH-98-wong          |    16|    20|
+|    38|      4|wdcCT     |     6|       77|        1|vanNH     |vanNH   |89      |G       |underhill      |vanNH-89-underhill     |    16|    20|
+|    39|      4|vanNH     |    14|       78|        1|wdcCT     |vanNH   |8       |D       |hibbert        |vanNH-8-hibbert        |    16|    21|
+|    39|      4|vanNH     |    17|       79|        2|vanNH     |wdcCT   |32      |D       |peters         |wdcCT-32-peters        |    16|    21|
+|    39|      4|vanNH     |    24|       80|        3|wdcCT     |wdcCT   |14      |A       |blake          |wdcCT-14-blake         |    16|    21|
+|    39|      4|vanNH     |    25|       80|        3|wdcCT     |wdcCT   |45      |G       |wodatch        |wdcCT-45-wodatch       |    16|    21|
+|    40|      4|wdcCT     |     4|       81|        1|vanNH     |vanNH   |11      |A       |greer          |vanNH-11-greer         |    17|    21|
+|    40|      4|wdcCT     |     5|       81|        1|vanNH     |vanNH   |10      |G       |chatha         |vanNH-10-chatha        |    17|    21|
+|    41|      4|vanNH     |     6|       82|        1|wdcCT     |wdcCT   |27      |A       |johnston       |wdcCT-27-johnston      |    17|    22|
+|    41|      4|vanNH     |     7|       82|        1|wdcCT     |wdcCT   |9       |G       |doi            |wdcCT-9-doi            |    17|    22|
+|    42|      4|wdcCT     |     4|       83|        1|vanNH     |wdcCT   |98      |D       |?name?         |wdcCT-98-?name?        |    17|    23|
+|    42|      4|wdcCT     |    16|       84|        2|wdcCT     |wdcCT   |23      |A       |tsai           |wdcCT-23-tsai          |    17|    23|
+|    42|      4|wdcCT     |    17|       84|        2|wdcCT     |wdcCT   |24      |G       |fleming        |wdcCT-24-fleming       |    17|    23|
+|    43|      4|wdcCT     |     3|       85|        1|vanNH     |wdcCT   |31      |D       |cobb           |wdcCT-31-cobb          |    17|    23|
 
 ## Full raw data<a id="rawData"></a>:
 
@@ -668,6 +711,154 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
 |      3|    32|wdcCT     |     2|       63|        1|vanNH     |vanNH   |91      |PU      |
 |      3|    32|wdcCT     |     3|       63|        1|vanNH     |vanNH   |11      |A       |
 |      3|    32|wdcCT     |     4|       63|        1|vanNH     |vanNH   |89      |LG      |
+|      4|    33|vanNH     |     1|       64|        1|wdcCT     |vanNH   |8       |P       |
+|      4|    33|vanNH     |     2|       64|        1|wdcCT     |wdcCT   |88      |PU      |
+|      4|    33|vanNH     |     3|       64|        1|wdcCT     |wdcCT   |2       |        |
+|      4|    33|vanNH     |     4|       64|        1|wdcCT     |wdcCT   |14      |        |
+|      4|    33|vanNH     |     5|       64|        1|wdcCT     |wdcCT   |45      |        |
+|      4|    33|vanNH     |     6|       64|        1|wdcCT     |wdcCT   |88      |        |
+|      4|    33|vanNH     |     7|       64|        1|wdcCT     |wdcCT   |9       |        |
+|      4|    33|vanNH     |     8|       64|        1|wdcCT     |wdcCT   |45      |        |
+|      4|    33|vanNH     |     9|       64|        1|wdcCT     |vanNH   |4       |D       |
+|      4|    33|vanNH     |    10|       65|        2|vanNH     |vanNH   |18      |PU      |
+|      4|    33|vanNH     |    11|       65|        2|vanNH     |wdcCT   |2       |SO      |
+|      4|    33|vanNH     |    12|       65|        2|vanNH     |wdcCT   |5       |SI      |
+|      4|    33|vanNH     |    13|       65|        2|vanNH     |vanNH   |24      |        |
+|      4|    33|vanNH     |    14|       65|        2|vanNH     |vanNH   |45      |        |
+|      4|    33|vanNH     |    15|       65|        2|vanNH     |vanNH   |24      |        |
+|      4|    33|vanNH     |    16|       65|        2|vanNH     |vanNH   |45      |        |
+|      4|    33|vanNH     |    17|       65|        2|vanNH     |vanNH   |4       |        |
+|      4|    33|vanNH     |    18|       65|        2|vanNH     |wdcCT   |88      |D       |
+|      4|    33|vanNH     |    19|       66|        3|wdcCT     |wdcCT   |14      |PU      |
+|      4|    33|vanNH     |    20|       66|        3|wdcCT     |wdcCT   |6       |L       |
+|      4|    33|vanNH     |    21|       66|        3|wdcCT     |wdcCT   |9       |        |
+|      4|    33|vanNH     |    22|       66|        3|wdcCT     |vanNH   |45      |D       |
+|      4|    33|vanNH     |    23|       67|        4|vanNH     |vanNH   |19      |PU      |
+|      4|    33|vanNH     |    24|       67|        4|vanNH     |vanNH   |24      |        |
+|      4|    33|vanNH     |    25|       67|        4|vanNH     |vanNH   |45      |        |
+|      4|    33|vanNH     |    26|       67|        4|vanNH     |wdcCT   |14      |D       |
+|      4|    33|vanNH     |    27|       68|        5|wdcCT     |wdcCT   |14      |        |
+|      4|    33|vanNH     |    28|       68|        5|wdcCT     |wdcCT   |5       |        |
+|      4|    33|vanNH     |    29|       68|        5|wdcCT     |wdcCT   |        |TO      |
+|      4|    33|vanNH     |    30|       68|        5|wdcCT     |wdcCT   |2       |PU      |
+|      4|    33|vanNH     |    31|       68|        5|wdcCT     |wdcCT   |88      |        |
+|      4|    33|vanNH     |    32|       68|        5|wdcCT     |wdcCT   |2       |        |
+|      4|    33|vanNH     |    33|       68|        5|wdcCT     |wdcCT   |5       |        |
+|      4|    33|vanNH     |    34|       68|        5|wdcCT     |wdcCT   |88      |        |
+|      4|    33|vanNH     |    35|       68|        5|wdcCT     |wdcCT   |5       |A       |
+|      4|    33|vanNH     |    36|       68|        5|wdcCT     |vanNH   |8       |F       |
+|      4|    33|vanNH     |    37|       68|        5|wdcCT     |wdcCT   |90      |G       |
+|      4|    34|wdcCT     |     1|       69|        1|vanNH     |wdcCT   |61      |P       |
+|      4|    34|wdcCT     |     2|       69|        1|vanNH     |vanNH   |91      |PU      |
+|      4|    34|wdcCT     |     3|       69|        1|vanNH     |vanNH   |89      |        |
+|      4|    34|wdcCT     |     4|       70|        2|wdcCT     |wdcCT   |23      |PU      |
+|      4|    34|wdcCT     |     5|       70|        2|wdcCT     |wdcCT   |7       |        |
+|      4|    34|wdcCT     |     6|       70|        2|wdcCT     |wdcCT   |42      |        |
+|      4|    34|wdcCT     |     7|       70|        2|wdcCT     |wdcCT   |7       |        |
+|      4|    34|wdcCT     |     8|       70|        2|wdcCT     |wdcCT   |61      |        |
+|      4|    34|wdcCT     |     9|       70|        2|wdcCT     |wdcCT   |32      |        |
+|      4|    34|wdcCT     |    10|       70|        2|wdcCT     |wdcCT   |23      |        |
+|      4|    34|wdcCT     |    11|       70|        2|wdcCT     |wdcCT   |7       |        |
+|      4|    34|wdcCT     |    12|       70|        2|wdcCT     |wdcCT   |32      |        |
+|      4|    34|wdcCT     |    13|       70|        2|wdcCT     |wdcCT   |19      |A       |
+|      4|    34|wdcCT     |    14|       70|        2|wdcCT     |wdcCT   |61      |G       |
+|      4|    35|wdcCT     |     1|       71|        1|vanNH     |wdcCT   |22      |P       |
+|      4|    35|wdcCT     |     2|       71|        1|vanNH     |vanNH   |5       |PU      |
+|      4|    35|wdcCT     |     3|       71|        1|vanNH     |vanNH   |19      |        |
+|      4|    35|wdcCT     |     4|       72|        2|wdcCT     |wdcCT   |4       |PU      |
+|      4|    35|wdcCT     |     5|       72|        2|wdcCT     |wdcCT   |27      |        |
+|      4|    35|wdcCT     |     6|       72|        2|wdcCT     |wdcCT   |25      |        |
+|      4|    35|wdcCT     |     7|       72|        2|wdcCT     |wdcCT   |4       |TD      |
+|      4|    35|wdcCT     |     8|       73|        3|vanNH     |vanNH   |89      |PU      |
+|      4|    35|wdcCT     |     9|       73|        3|vanNH     |vanNH   |5       |        |
+|      4|    35|wdcCT     |    10|       73|        3|vanNH     |vanNH   |22      |        |
+|      4|    35|wdcCT     |    11|       73|        3|vanNH     |vanNH   |10      |        |
+|      4|    35|wdcCT     |    12|       73|        3|vanNH     |vanNH   |5       |        |
+|      4|    35|wdcCT     |    13|       73|        3|vanNH     |vanNH   |19      |A       |
+|      4|    35|wdcCT     |    14|       73|        3|vanNH     |vanNH   |89      |G       |
+|      4|    36|vanNH     |     1|       74|        1|wdcCT     |vanNH   |8       |P       |
+|      4|    36|vanNH     |     2|       74|        1|wdcCT     |wdcCT   |14      |PU      |
+|      4|    36|vanNH     |     3|       74|        1|wdcCT     |wdcCT   |2       |        |
+|      4|    36|vanNH     |     4|       74|        1|wdcCT     |vanNH   |13      |D       |
+|      4|    36|vanNH     |     5|       75|        2|vanNH     |vanNH   |37      |        |
+|      4|    36|vanNH     |     6|       75|        2|vanNH     |vanNH   |8       |        |
+|      4|    36|vanNH     |     7|       75|        2|vanNH     |vanNH   |13      |        |
+|      4|    36|vanNH     |     8|       75|        2|vanNH     |vanNH   |45      |A       |
+|      4|    36|vanNH     |     9|       75|        2|vanNH     |vanNH   |37      |G       |
+|      4|    37|vanNH     |     1|       76|        1|wdcCT     |vanNH   |33      |P       |
+|      4|    37|vanNH     |     2|       76|        1|wdcCT     |wdcCT   |2       |PU      |
+|      4|    37|vanNH     |     3|       76|        1|wdcCT     |wdcCT   |88      |        |
+|      4|    37|vanNH     |     4|       76|        1|wdcCT     |wdcCT   |32      |        |
+|      4|    37|vanNH     |     5|       76|        1|wdcCT     |wdcCT   |88      |        |
+|      4|    37|vanNH     |     6|       76|        1|wdcCT     |wdcCT   |45      |        |
+|      4|    37|vanNH     |     7|       76|        1|wdcCT     |wdcCT   |32      |        |
+|      4|    37|vanNH     |     8|       76|        1|wdcCT     |wdcCT   |9       |        |
+|      4|    37|vanNH     |     9|       76|        1|wdcCT     |wdcCT   |2       |        |
+|      4|    37|vanNH     |    10|       76|        1|wdcCT     |wdcCT   |9       |A       |
+|      4|    37|vanNH     |    11|       76|        1|wdcCT     |wdcCT   |90      |G       |
+|      4|    38|wdcCT     |     1|       77|        1|vanNH     |wdcCT   |61      |P       |
+|      4|    38|wdcCT     |     2|       77|        1|vanNH     |vanNH   |89      |PU      |
+|      4|    38|wdcCT     |     3|       77|        1|vanNH     |vanNH   |19      |        |
+|      4|    38|wdcCT     |     4|       77|        1|vanNH     |vanNH   |10      |        |
+|      4|    38|wdcCT     |     5|       77|        1|vanNH     |vanNH   |98      |LA      |
+|      4|    38|wdcCT     |     6|       77|        1|vanNH     |vanNH   |89      |G       |
+|      4|    39|vanNH     |     1|       78|        1|wdcCT     |vanNH   |8       |P       |
+|      4|    39|vanNH     |     2|       78|        1|wdcCT     |wdcCT   |88      |PU      |
+|      4|    39|vanNH     |     3|       78|        1|wdcCT     |wdcCT   |2       |        |
+|      4|    39|vanNH     |     4|       78|        1|wdcCT     |wdcCT   |9       |        |
+|      4|    39|vanNH     |     5|       78|        1|wdcCT     |wdcCT   |2       |        |
+|      4|    39|vanNH     |     6|       78|        1|wdcCT     |wdcCT   |27      |        |
+|      4|    39|vanNH     |     7|       78|        1|wdcCT     |wdcCT   |45      |        |
+|      4|    39|vanNH     |     8|       78|        1|wdcCT     |wdcCT   |88      |        |
+|      4|    39|vanNH     |     9|       78|        1|wdcCT     |wdcCT   |9       |        |
+|      4|    39|vanNH     |    10|       78|        1|wdcCT     |wdcCT   |88      |        |
+|      4|    39|vanNH     |    11|       78|        1|wdcCT     |wdcCT   |14      |        |
+|      4|    39|vanNH     |    12|       78|        1|wdcCT     |wdcCT   |88      |        |
+|      4|    39|vanNH     |    13|       78|        1|wdcCT     |wdcCT   |27      |        |
+|      4|    39|vanNH     |    14|       78|        1|wdcCT     |vanNH   |8       |D       |
+|      4|    39|vanNH     |    15|       79|        2|vanNH     |vanNH   |45      |PU      |
+|      4|    39|vanNH     |    16|       79|        2|vanNH     |vanNH   |8       |        |
+|      4|    39|vanNH     |    17|       79|        2|vanNH     |wdcCT   |32      |D       |
+|      4|    39|vanNH     |    18|       80|        3|wdcCT     |wdcCT   |88      |PU      |
+|      4|    39|vanNH     |    19|       80|        3|wdcCT     |wdcCT   |14      |        |
+|      4|    39|vanNH     |    20|       80|        3|wdcCT     |wdcCT   |2       |        |
+|      4|    39|vanNH     |    21|       80|        3|wdcCT     |wdcCT   |45      |        |
+|      4|    39|vanNH     |    22|       80|        3|wdcCT     |wdcCT   |2       |        |
+|      4|    39|vanNH     |    23|       80|        3|wdcCT     |wdcCT   |9       |        |
+|      4|    39|vanNH     |    24|       80|        3|wdcCT     |wdcCT   |14      |A       |
+|      4|    39|vanNH     |    25|       80|        3|wdcCT     |wdcCT   |45      |G       |
+|      4|    40|wdcCT     |     1|       81|        1|vanNH     |wdcCT   |22      |P       |
+|      4|    40|wdcCT     |     2|       81|        1|vanNH     |vanNH   |19      |PU      |
+|      4|    40|wdcCT     |     3|       81|        1|vanNH     |vanNH   |91      |        |
+|      4|    40|wdcCT     |     4|       81|        1|vanNH     |vanNH   |11      |A       |
+|      4|    40|wdcCT     |     5|       81|        1|vanNH     |vanNH   |10      |G       |
+|      4|    41|vanNH     |     1|       82|        1|wdcCT     |vanNH   |8       |P       |
+|      4|    41|vanNH     |     2|       82|        1|wdcCT     |wdcCT   |88      |PU      |
+|      4|    41|vanNH     |     3|       82|        1|wdcCT     |wdcCT   |2       |        |
+|      4|    41|vanNH     |     4|       82|        1|wdcCT     |wdcCT   |90      |        |
+|      4|    41|vanNH     |     5|       82|        1|wdcCT     |wdcCT   |80      |L       |
+|      4|    41|vanNH     |     6|       82|        1|wdcCT     |wdcCT   |27      |A       |
+|      4|    41|vanNH     |     7|       82|        1|wdcCT     |wdcCT   |9       |G       |
+|      4|    42|wdcCT     |     1|       83|        1|vanNH     |wdcCT   |24      |P       |
+|      4|    42|wdcCT     |     2|       83|        1|vanNH     |vanNH   |89      |PU      |
+|      4|    42|wdcCT     |     3|       83|        1|vanNH     |vanNH   |11      |        |
+|      4|    42|wdcCT     |     4|       83|        1|vanNH     |wdcCT   |98      |D       |
+|      4|    42|wdcCT     |     5|       84|        2|wdcCT     |wdcCT   |61      |PU      |
+|      4|    42|wdcCT     |     6|       84|        2|wdcCT     |wdcCT   |24      |        |
+|      4|    42|wdcCT     |     7|       84|        2|wdcCT     |wdcCT   |61      |        |
+|      4|    42|wdcCT     |     8|       84|        2|wdcCT     |wdcCT   |18      |        |
+|      4|    42|wdcCT     |     9|       84|        2|wdcCT     |wdcCT   |7       |        |
+|      4|    42|wdcCT     |    10|       84|        2|wdcCT     |wdcCT   |23      |        |
+|      4|    42|wdcCT     |    11|       84|        2|wdcCT     |wdcCT   |7       |        |
+|      4|    42|wdcCT     |    12|       84|        2|wdcCT     |wdcCT   |61      |        |
+|      4|    42|wdcCT     |    13|       84|        2|wdcCT     |wdcCT   |24      |        |
+|      4|    42|wdcCT     |    14|       84|        2|wdcCT     |wdcCT   |19      |        |
+|      4|    42|wdcCT     |    15|       84|        2|wdcCT     |vanNH   |89      |F       |
+|      4|    42|wdcCT     |    16|       84|        2|wdcCT     |wdcCT   |23      |A       |
+|      4|    42|wdcCT     |    17|       84|        2|wdcCT     |wdcCT   |24      |G       |
+|      4|    43|wdcCT     |     1|       85|        1|vanNH     |wdcCT   |22      |P       |
+|      4|    43|wdcCT     |     2|       85|        1|vanNH     |vanNH   |91      |PU      |
+|      4|    43|wdcCT     |     3|       85|        1|vanNH     |wdcCT   |31      |D       |
 
 
 

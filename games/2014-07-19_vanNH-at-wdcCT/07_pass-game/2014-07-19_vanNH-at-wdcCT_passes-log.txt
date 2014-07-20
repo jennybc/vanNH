@@ -1,11 +1,13 @@
 2014-07-19_vanNH-at-wdcCT > 07_resolve-passes.r:
-  422 rows of resolved game play found
-  326/327 rows of pass data are whitelisted (99.7%)
-  ALERT 1 rows of pass data are novel
+  570 rows of resolved game play found
+  437/439 rows of pass data are whitelisted (99.5%)
+  ALERT 2 rows of pass data are novel
     poss_abs poss_rel point beg_event end_event desc n_inn beg_code beg_plyr
 123       21        3    13        19        20   aa     0    O-CTH vanNH-10
-    innards end_code end_plyr    wl
-123             O-PU  vanNH-? FALSE
+335       65        2    33        10        13   ao     2     O-PU vanNH-18
+      innards end_code end_plyr    wl
+123               O-PU  vanNH-? FALSE
+335 D-SO,D-SI    O-CTH vanNH-24 FALSE
   ALERT 1 rows of pass data end with pickup (PU)
     poss_abs poss_rel point beg_event end_event desc n_inn beg_code beg_plyr
 123       21        3    13        19        20   aa     0    O-CTH vanNH-10
@@ -14,10 +16,10 @@
   breakdown of passes:
 
  compl  ofoul  taway   defd   drop nopass   <NA> 
-   294      0     13     13      6      1      0 
-  294/326 passes were completed (90.2%)
-  327 rows of pass data will be written
+   393      0     15     22      7      2      0 
+  393/437 passes were completed (89.9%)
+  439 rows of pass data will be written
   roster read for vanNH and wdcCT
-  writing player stats to file: 25 for vanNH, 27 for wdcCT
-  2014-07-19 17:28:24
+  writing player stats to file: 25 for vanNH, 30 for wdcCT
+  2014-07-19 17:59:13
 
