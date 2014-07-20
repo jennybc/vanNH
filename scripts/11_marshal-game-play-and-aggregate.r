@@ -11,7 +11,7 @@ library(plyr)
 neglength <- function(x) -1 * length(x)
 
 #' How many games have I ingested?
-length(games <- list.files(file.path("..", "games"), pattern = "-at-")) # 42
+length(games <- list.files(file.path("..", "games"), pattern = "-at-")) # 43
 
 out_dir <- file.path("..", "games", "2014_all-games")
 if(!file.exists(out_dir)) dir.create(out_dir)
@@ -24,7 +24,7 @@ names(pass_files) <- games
 pass_dat <-
   ldply(pass_files, function(gg) read.delim(gg, stringsAsFactor = FALSE),
         .id = "game")
-str(pass_dat) # 20964 obs. of  15 variables:
+str(pass_dat) # 21403 obs. of  15 variables:
 
 out_file <- file.path(out_dir, "2014_passes.rds")
 saveRDS(pass_dat, out_file)
@@ -45,7 +45,7 @@ names(poss_files) <- games
 poss_dat <-
   ldply(poss_files, function(gg) read.delim(gg, stringsAsFactor = FALSE),
         .id = "game")
-str(poss_dat) # 3692 obs. of  18 variables:
+str(poss_dat) # 3777 obs. of  18 variables:
 
 ## this took less than 40 seconds
 system.time(
@@ -57,7 +57,7 @@ poss_dat <- ddply(poss_dat, ~ game + poss_abs, function(x) {
                     end_code = rev(y$end_code)[1]))
 })
 )
-str(poss_dat, max.level = 0) # 3692 obs. of  20 variables:
+str(poss_dat, max.level = 0) # 3777 obs. of  20 variables:
 
 ## sanity check
 ## for any possession ...
@@ -67,6 +67,19 @@ str(poss_dat, max.level = 0) # 3692 obs. of  20 variables:
 # p + geom_point() + geom_abline(intercept = 0, slope = 1)
 ## looks good
 with(poss_dat, table(n_events >= n_passes))
+
+## make b_code a factor with rational levels
+poss_dat$b_code <- factor(poss_dat$b_code)
+poss_dat$b_code <- with(poss_dat, reorder(b_code, game, length))
+table(poss_dat$b_code, useNA = "always")
+
+#with(poss_dat, addmargins(table(n_passes, b_code)))
+#subset(poss_dat, n_passes == 0 & b_code == 'off -')
+
+## make a_code a factor with rational levels
+poss_dat$a_code <- factor(poss_dat$a_code)
+poss_dat$a_code <- with(poss_dat, reorder(a_code, game, length))
+table(poss_dat$a_code, useNA = "always")
 
 out_file <- file.path(out_dir, "2014_possessions.rds")
 saveRDS(poss_dat, out_file)
@@ -87,7 +100,7 @@ names(point_files) <- games
 point_dat <-
   ldply(point_files, function(gg) read.delim(gg, stringsAsFactor = FALSE),
         .id = "game")
-str(point_dat) # 1738 obs. of  17 variables:
+str(point_dat) # 1781 obs. of  17 variables:
 
 out_file <- file.path(out_dir, "2014_points.rds")
 saveRDS(point_dat, out_file)
@@ -109,7 +122,7 @@ names(ps_files) <- games
 ps_dat <-
   ldply(ps_files, function(gg) read.delim(gg, stringsAsFactor = FALSE),
         .id = "game")
-str(ps_dat) # 1839 obs. of  14 variables:
+str(ps_dat) # 1894 obs. of  14 variables:
 
 out_file <- file.path(out_dir, "2014_player-game-stats.rds")
 saveRDS(ps_dat, out_file)
