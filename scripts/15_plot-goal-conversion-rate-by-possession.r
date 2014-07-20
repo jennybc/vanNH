@@ -7,9 +7,9 @@ neglength <- function(x) -1 * length(x)
 jWidth <- 5
 jHeight <- 4
 
-mlu_cols <-
-  c(pdxST = "#4DB870", vanNH = "#CCCCCC", seaRM = "#88A5C3", sfoDF = "#FFAD5C",
-    wdcCT = "orange", bosWC = "blue", phlSP = "red", nykRM = "gold")
+mlu_teams <- read.delim(file.path("..", "data", "mlu-teams.tsv"),
+                        stringsAsFactors = FALSE)
+mlu_cols <- with(mlu_teams, setNames(color, team))
 theme_set(theme_bw())
 
 input_dir <- file.path("..", "games", "2014_all-games")

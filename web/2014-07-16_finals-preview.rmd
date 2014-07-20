@@ -18,9 +18,9 @@ The figures below are based on data from all Western Conference games played in 
 library(ggplot2)
 library(plyr)
 
-mlu_cols <-
-  c(pdxST = "#4DB870", vanNH = "#CC0000", seaRM = "#88A5C3", sfoDF = "#FFAD5C",
-    wdcCT = "#CCCCCC", bosWC = "#0099FF", phlSP = "#FE2E2E", nykRM = "#FFBF00")
+mlu_teams <- read.delim(file.path("..", "data", "mlu-teams.tsv"),
+                        stringsAsFactors = FALSE)
+mlu_cols <- with(mlu_teams, setNames(color, team))
 theme_set(theme_bw())
 ```
 
@@ -329,3 +329,26 @@ x = proportion of possessions that end a certain way
 x and y and meaning of `o_line` and `d_line` = *same as above*  
 
 ![Alt text](figs/fp_barchart_how_possessions_end_detailed_by_line_and_poss_team.png)
+
+### Epilogue
+
+A quick look at the game after the fact. Ok we lost 23 to 17 but that came mostly from a really grim first quarter. I wondered ... if we erased the first *x* points, who wins the game? Obviously if *x = 0*, we get the actual score and result. 
+
+```{r}
+points_dat <-
+  read.delim(
+    file.path("..", "games", "2014-07-19_vanNH-at-wdcCT", "06_possess-game",
+              "2014-07-19_vanNH-at-wdcCT_points-resolved.tsv"),
+    stringsAsFactors = FALSE)
+str(points_dat)
+n_points <- nrow(points_dat)
+foo <- data.frame(pts_removed = seq_len(n_points) - 1)
+foo <- mutate(foo,
+              vanNH = max(points_dat$vanNH) - c(0, points_dat$vanNH[-n_points]),
+              wdcCT = max(points_dat$wdcCT) - c(0, points_dat$wdcCT[-n_points]),
+              winner = ifelse(vanNH > wdcCT, 'vanNH',
+                              ifelse(vanNH == wdcCT, 'tie', 'wdcCT')),
+              spread = vanNH - wdcCT,
+              time = )
+```
+

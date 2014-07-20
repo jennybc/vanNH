@@ -7,13 +7,9 @@ neglength <- function(x) -1 * length(x)
 jWidth <- 5
 jHeight <- 4
 
-## I hated the yellow-red Oscar Mayer wiener colors this produced for pdxST +
-## vanNH plots
-# mlu_cols <-
-#   c(pdxST = "#FFCC00", vanNH = "#E64848", seaRM = "#19A347", sfoDF = "#88A5C3")
-
-mlu_cols <-
-  c(pdxST = "#4DB870", vanNH = "#CCCCCC", seaRM = "#19A347", sfoDF = "#88A5C3")
+mlu_teams <- read.delim(file.path("..", "data", "mlu-teams.tsv"),
+                        stringsAsFactors = FALSE)
+mlu_cols <- with(mlu_teams, setNames(color, team))
 theme_set(theme_bw())
 
 ## function that counts how often each code occurs, computes as a proportion,

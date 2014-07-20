@@ -234,4 +234,4 @@ write.table(pl_stats_combined, out_file,
             quote = FALSE, sep = "\t", row.names = FALSE)
 #message("wrote ", out_file)
 
-message("  ", Sys.time(), "\n")
+#message("  ", Sys.time(), "\n")

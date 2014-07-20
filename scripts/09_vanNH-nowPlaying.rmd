@@ -12,9 +12,9 @@ library(yaml)
 library(knitr)
 library(ggplot2)
 
-mlu_cols <-
-  c(pdxST = "#4DB870", vanNH = "#CC0000", seaRM = "#88A5C3", sfoDF = "#FFAD5C",
-    wdcCT = "#CCCCCC", bosWC = "#0099FF", phlSP = "#FE2E2E", nykRM = "#FFBF00")
+mlu_teams <- read.delim(file.path("..", "data", "mlu-teams.tsv"),
+                        stringsAsFactors = FALSE)
+mlu_cols <- with(mlu_teams, setNames(color, team))
 theme_set(theme_bw())
 
 # when compiled via the control script, game identifier will have been
@@ -30,12 +30,12 @@ if(!exists("game")) {
   #game <- "2014-04-12_seaRM-at-sfoDF"
   #game <- "2014-05-03_sfoDF-at-pdxST"
   #game <- "2014-04-26_vanNH-at-seaRM"
-  game <- "2014-06-15_pdxST-at-vanNH"
+  #game <- "2014-06-15_pdxST-at-vanNH"
   #game <- "2014-06-14_pdxST-at-seaRM"
   #game <- "2014-04-19_bosWC-at-wdcCT"
   #game <- "2014-05-04_phlSP-at-wdcCT"
   #game <- "2014-06-21_bosWC-at-nykRM"
-  #game <- "2014-07-19_vanNH-at-wdcCT"
+  game <- "2014-07-19_vanNH-at-wdcCT"
   }
 
 message(game, " > 09_vanNH-nowPlaying.rmd:")
@@ -63,10 +63,9 @@ pl_stats <- read.delim(pl_stats_file,
                                          number = "character"))
 pl_stats$pl_long <- with(pl_stats, paste(player, last, sep = "-"))
 #str(pl_stats, max.level = 0)
-pl_stats$team_pretty <- revalue(pl_stats$team,
-                                replace = c('vanNH' = "Vancouver Nighthawks",
-                                            'wdcCT' = "Washington DC Current",
-                                            'pdxST' = "Portland Stags"))
+pl_stats$team_pretty <-
+  mapvalues(pl_stats$team, from = mlu_teams$team,
+            to = mlu_teams$longName, warn_missing = FALSE)
 #str(pl_stats)
 pl_stats_by_team <- split(pl_stats, pl_stats$team)
 vars_to_drop <- c('game', 'team', 'number', 'pl_long', 'team_pretty')
@@ -209,28 +208,13 @@ jFun <- function(z) {
   home_score <- z[[home_team]][n]
   #comment <- z$comment[nrow(z)]
   
+  pt_dur <- unlist(point_info[point_info$point == pt,
+                              grep("pt_dur", names(point_info))])
+  point_duration_text <- unname(pt_dur["pt_dur_txt"])
+  
   time_before_after <-
-    unlist(point_info[point_info$point == pt,
-                      grep("clk", names(point_info))])
-  names(time_before_after) <- NULL
-  time_NA <- is.na(time_before_after)
-  if(any(time_NA)) {
-    time_before_after[time_NA] <- point_duration_text <- "???"
-    message("  ALERT point is missing time before and/or after:")
-    message("        point: ", pt, " clk_before: ",
-            time_before_after["clk_before"], " clk_after: ",
-            time_before_after["clk_after"])
-    } else {
-      point_duration <-
-        -1 * diff(laply(strsplit(time_before_after, split = ":"),
-                        function(x) {
-                          x <- as.numeric(x)
-                          x[1] * 60 + x[2]
-                          }))
-      point_duration_text <-
-        sprintf("%02d:%02d",
-                point_duration %/% 60, point_duration %% 60)
-      }
+    unname(unlist(point_info[point_info$point == pt,
+                             grep("clk", names(point_info))]))
   
   is_a_goal <- z$pl_code %in% goal_codes
   if(any(is_a_goal)) {
@@ -267,7 +251,6 @@ gDat <- gDat[rev(seq_len(nrow(gDat))), ]
 message("  scoring progression table has ", nrow(gDat), " rows")
 ```
 
-#### last update `r date()`
 # `r away_team` `r sDat[[away_team]][nrow(sDat)]`
 # `r home_team` `r sDat[[home_team]][nrow(sDat)]`
 ## `r whereInGame`

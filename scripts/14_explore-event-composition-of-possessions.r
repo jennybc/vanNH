@@ -4,9 +4,9 @@ library(plyr)
 ## useful inside reorder(), to invert the resulting factor levels
 neglength <- function(x) -1 * length(x)
 
-mlu_cols <-
-  c(pdxST = "#4DB870", vanNH = "#CCCCCC", seaRM = "#88A5C3", sfoDF = "#FFAD5C",
-    wdcCT = "orange", bosWC = "blue", phlSP = "red", nykRM = "gold")
+mlu_teams <- read.delim(file.path("..", "data", "mlu-teams.tsv"),
+                        stringsAsFactors = FALSE)
+mlu_cols <- with(mlu_teams, setNames(color, team))
 theme_set(theme_bw())
 
 jWidth <- 5

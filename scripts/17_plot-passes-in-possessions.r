@@ -2,9 +2,9 @@ library(plyr)
 library(ggplot2)
 
 theme_set(theme_bw())
-mlu_cols <-
-  c(pdxST = "#4DB870", vanNH = "#CC0000", seaRM = "#88A5C3", sfoDF = "#FFAD5C",
-    wdcCT = "#CCCCCC", bosWC = "#0099FF", phlSP = "#FE2E2E", nykRM = "#FFBF00")
+mlu_teams <- read.delim(file.path("..", "data", "mlu-teams.tsv"),
+                        stringsAsFactors = FALSE)
+mlu_cols <- with(mlu_teams, setNames(color, team))
 
 in_dir <- file.path("..", "games", "2014_all-games")
 poss_file <- file.path(in_dir, "2014_possessions.rds")

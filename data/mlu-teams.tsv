@@ -1,9 +1,1 @@
-longName	team
-Vancouver Nighthawks	vanNH
-Portland Stags	pdxST
-Seattle Rainmakers	seaRM
-San Francisco Dogfish	sfoDF
-Boston Whitecaps	bosWC
-Philadelphia Spinners	phlSP
-New York Rumble	nykRM
-Washington DC Current	wdcCT
+longName	team	colorVancouver Nighthawks	vanNH	#CC0000Portland Stags	pdxST	#4DB870Seattle Rainmakers	seaRM	#88A5C3San Francisco Dogfish	sfoDF	#FFAD5CBoston Whitecaps	bosWC	#0099FFPhiladelphia Spinners	phlSP	#FE2E2ENew York Rumble	nykRM	#FFBF00Washington DC Current	wdcCT	#CCCCCC

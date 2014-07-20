@@ -7,9 +7,9 @@ neglength <- function(x) -1 * length(x)
 jWidth <- 5
 jHeight <- 4
 
-mlu_cols <-
-  c(pdxST = "#4DB870", vanNH = "#CC0000", seaRM = "#88A5C3", sfoDF = "#FFAD5C",
-    wdcCT = "#CCCCCC", bosWC = "#0099FF", phlSP = "#FE2E2E", nykRM = "#FFBF00")
+mlu_teams <- read.delim(file.path("..", "data", "mlu-teams.tsv"),
+                        stringsAsFactors = FALSE)
+mlu_cols <- with(mlu_teams, setNames(color, team))
 theme_set(theme_bw())
 
 ## function that counts how often each code occurs, computes as a proportion,

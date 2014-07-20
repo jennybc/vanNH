@@ -211,7 +211,7 @@ the_vars <-
 game_play <- game_play[the_vars]
 
 message("  ", nrow(game_play), " rows of clean game play will be written")
-message("  ", Sys.time(), "\n")
+#message("  ", Sys.time(), "\n")
 
 out_dir <- file.path("..", "games", game, "04_clean-game")
 if(!file.exists(out_dir)) dir.create(out_dir)
