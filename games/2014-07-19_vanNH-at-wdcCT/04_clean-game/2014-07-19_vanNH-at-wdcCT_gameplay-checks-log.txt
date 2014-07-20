@@ -1,5 +1,5 @@
 2014-07-19_vanNH-at-wdcCT > 05_sanity-check-game-play.r:
-  262 rows of clean game play found
+  422 rows of clean game play found
   sanity checks of clean game play DONE
-  2014-07-19 16:51:39
+  2014-07-19 17:28:22
 

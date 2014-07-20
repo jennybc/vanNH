@@ -37,3 +37,28 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 2	18	wdcCT	16	36	2	wdcCT	wdcCT	25	G	12	FALSE	TRUE	wdcCT	d_line	G	G
 2	19	wdcCT	4	37	1	vanNH	vanNH	5	TA	4	FALSE	FALSE	NA	o_line	TA	off -
 2	19	wdcCT	13	38	2	wdcCT	vanNH	18	eop	9	FALSE	FALSE	NA	d_line	eop	eop
+3	20	wdcCT	12	39	1	vanNH	vanNH	6	G	12	FALSE	TRUE	vanNH	o_line	G	G
+3	21	vanNH	5	40	1	wdcCT	wdcCT	90	G	5	TRUE	TRUE	wdcCT	o_line	G	G
+3	22	wdcCT	4	41	1	vanNH	vanNH	11	TD	4	FALSE	FALSE	NA	o_line	TD	off -
+3	22	wdcCT	8	42	2	wdcCT	vanNH	6	HB	4	FALSE	FALSE	NA	d_line	D	def +
+3	22	wdcCT	15	43	3	vanNH	vanNH	19	G	7	FALSE	TRUE	vanNH	o_line	G	G
+3	23	vanNH	7	44	1	wdcCT	wdcCT	9	G	7	FALSE	TRUE	wdcCT	o_line	G	G
+3	24	wdcCT	9	45	1	vanNH	vanNH	19	G	9	FALSE	TRUE	vanNH	o_line	G	G
+3	25	vanNH	5	46	1	wdcCT	vanNH	4	D	5	FALSE	FALSE	NA	o_line	D	def +
+3	25	vanNH	15	47	2	vanNH	vanNH	4	G	10	FALSE	TRUE	vanNH	d_line	G	G
+3	26	vanNH	5	48	1	wdcCT	wdcCT	2	TA	5	FALSE	FALSE	NA	o_line	TA	off -
+3	26	vanNH	20	49	2	vanNH	vanNH	11	G	15	FALSE	TRUE	vanNH	d_line	G	G
+3	27	vanNH	4	50	1	wdcCT	wdcCT	22	TA	4	FALSE	FALSE	NA	o_line	TA	off -
+3	27	vanNH	9	51	2	vanNH	vanNH	31	TD	5	FALSE	FALSE	NA	d_line	TD	off -
+3	27	vanNH	13	52	3	wdcCT	wdcCT	4	TA	4	FALSE	FALSE	NA	o_line	TA	off -
+3	27	vanNH	20	53	4	vanNH	vanNH	13	G	7	FALSE	TRUE	vanNH	d_line	G	G
+3	28	vanNH	7	54	1	wdcCT	wdcCT	88	TA	7	FALSE	FALSE	NA	o_line	TA	off -
+3	28	vanNH	9	55	2	vanNH	vanNH	33	TA	2	FALSE	FALSE	NA	d_line	TA	off -
+3	28	vanNH	11	56	3	wdcCT	wdcCT	88	G	2	FALSE	TRUE	wdcCT	o_line	G	G
+3	29	wdcCT	5	57	1	vanNH	vanNH	19	TD	5	FALSE	FALSE	NA	o_line	TD	off -
+3	29	wdcCT	7	58	2	wdcCT	vanNH	19	HB	2	FALSE	FALSE	NA	d_line	D	def +
+3	29	wdcCT	14	59	3	vanNH	vanNH	19	G	7	FALSE	TRUE	vanNH	o_line	G	G
+3	30	vanNH	4	60	1	wdcCT	vanNH	8	D	4	FALSE	FALSE	NA	o_line	D	def +
+3	30	vanNH	14	61	2	vanNH	vanNH	81	G	10	FALSE	TRUE	vanNH	d_line	G	G
+3	31	vanNH	14	62	1	wdcCT	wdcCT	2	G	14	FALSE	TRUE	wdcCT	o_line	G	G
+3	32	wdcCT	4	63	1	vanNH	vanNH	89	LG	4	TRUE	TRUE	vanNH	o_line	G	G

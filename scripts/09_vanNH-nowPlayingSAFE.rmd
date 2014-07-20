@@ -17,6 +17,7 @@ mlu_cols <-
     wdcCT = "#CCCCCC", bosWC = "#0099FF", phlSP = "#FE2E2E", nykRM = "#FFBF00")
 theme_set(theme_bw())
 
+
 # when compiled via the control script, game identifier will have been
 # read from command line and pre-stored in the environment
 # for interactive use and development, set the game here
@@ -30,12 +31,12 @@ if(!exists("game")) {
   #game <- "2014-04-12_seaRM-at-sfoDF"
   #game <- "2014-05-03_sfoDF-at-pdxST"
   #game <- "2014-04-26_vanNH-at-seaRM"
-  game <- "2014-06-15_pdxST-at-vanNH"
+  #game <- "2014-06-15_pdxST-at-vanNH"
   #game <- "2014-06-14_pdxST-at-seaRM"
   #game <- "2014-04-19_bosWC-at-wdcCT"
   #game <- "2014-05-04_phlSP-at-wdcCT"
   #game <- "2014-06-21_bosWC-at-nykRM"
-  #game <- "2014-07-19_vanNH-at-wdcCT"
+  game <- "2014-07-19_vanNH-at-wdcCT"
   }
 
 message(game, " > 09_vanNH-nowPlaying.rmd:")
@@ -61,15 +62,9 @@ pl_stats <- read.delim(pl_stats_file,
                        colClasses = list(player = "character", 
                                          last = "character",
                                          number = "character"))
-pl_stats$pl_long <- with(pl_stats, paste(player, last, sep = "-"))
-#str(pl_stats, max.level = 0)
-pl_stats$team_pretty <- revalue(pl_stats$team,
-                                replace = c('vanNH' = "Vancouver Nighthawks",
-                                            'wdcCT' = "Washington DC Current",
-                                            'pdxST' = "Portland Stags"))
 #str(pl_stats)
 pl_stats_by_team <- split(pl_stats, pl_stats$team)
-vars_to_drop <- c('game', 'team', 'number', 'pl_long', 'team_pretty')
+vars_to_drop <- c('game', 'team', 'number')
 vars_to_show <- setdiff(names(pl_stats), vars_to_drop)
 ```
 
@@ -274,7 +269,6 @@ message("  scoring progression table has ", nrow(gDat), " rows")
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
-  * [Player stats via figures](#pl_figs)  
   * [Player stats for `r away_team`](#away)  
   * [Player stats for `r home_team`](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -283,77 +277,6 @@ Go to ...
 ## Scoring progression<a id="scoringProgression"></a>:
 ```{r echo = FALSE, results = 'asis'}
 kable(gDat, row.names = FALSE)
-```
-
-## Player stats via figures<a id="pl_figs"></a>:
-
-```{r function_to_prep_barchart, echo = FALSE, include = FALSE}
-prep_for_barchart <- function(x, stat_var = "goals", abs_min = 1,
-                              rank_max = 15) {
-  x <- x[x[[stat_var]] >= abs_min, ]
-  x$pl_long <- reorder(x$pl_long, x[[stat_var]])
-  return(x)
-  }
-```
-
-### Points = goals + assists
-
-```{r barchart_points, echo = FALSE, warning = FALSE, fig.height = 8}
-tmp <- ddply(pl_stats, ~ team, prep_for_barchart, stat_var = "points")
-p <- ggplot(tmp, aes(x = pl_long, y = points, fill = team))
-p + geom_bar(stat = "identity") + coord_flip() +
-  #geom_text(aes(label = last), hjust = -0.15, size = 3.5) +
-  geom_text(aes(label = points), hjust = -0.15, size = 3.5) +
-  scale_fill_manual(values = mlu_cols) +
-  ylim(0, max(tmp$points) * 1.05) +
-  theme(legend.position = c(1, 0), legend.justification = c(0.88, 0.1),
-        legend.background = element_rect(fill = 0),
-        axis.text.x = element_text(size = rel(1)),
-        axis.ticks = element_blank(), axis.title.y = element_blank())
-```
-
-### Goals
-
-```{r barchart_goals, echo = FALSE, warning = FALSE, fig.height = 8}
-tmp <- ddply(pl_stats, ~ team, prep_for_barchart, stat_var = "goals")
-p <- ggplot(tmp, aes(x = pl_long, y = goals, fill = team))
-p + geom_bar(stat = "identity") + coord_flip() +
-  geom_text(aes(label = goals), hjust = -0.15, size = 3.5) +
-  scale_fill_manual(values = mlu_cols) +
-  ylim(0, max(tmp$goals) * 1.05) +
-  theme(legend.position = c(1, 0), legend.justification = c(0.88, 0.1),
-        legend.background = element_rect(fill = 0),
-        axis.text.x = element_text(size = rel(1)),
-        axis.ticks = element_blank(), axis.title.y = element_blank())
-```
-
-### Assists
-
-```{r barchart_assists, echo = FALSE, warning = FALSE, fig.height = 8}
-tmp <- ddply(pl_stats, ~ team, prep_for_barchart, stat_var = "assists")
-p <- ggplot(tmp, aes(x = pl_long, y = assists, fill = team))
-p + geom_bar(stat = "identity") + coord_flip() +
-  geom_text(aes(label = assists), hjust = -0.15, size = 3.5) +
-  scale_fill_manual(values = mlu_cols) +
-  ylim(0, max(tmp$assists) * 1.05) +
-  theme(legend.position = c(1, 0), legend.justification = c(0.88, 0.1),
-        legend.background = element_rect(fill = 0),
-        axis.text.x = element_text(size = rel(1)),
-        axis.ticks = element_blank(), axis.title.y = element_blank())
-```
-
-### D's
-```{r barchart_ds, echo = FALSE, warning = FALSE, fig.height = 8}
-tmp <- ddply(pl_stats, ~ team, prep_for_barchart, stat_var = "def")
-p <- ggplot(tmp, aes(x = pl_long, y = def, fill = team))
-p + geom_bar(stat = "identity") + coord_flip() +
-  geom_text(aes(label = def), hjust = -0.15, size = 3.5) +
-  scale_fill_manual(values = mlu_cols) +
-  ylim(0, max(tmp$def) * 1.05) +
-  theme(legend.position = c(1, 0), legend.justification = c(0.88, 0.1),
-        legend.background = element_rect(fill = 0),
-        axis.text.x = element_text(size = rel(1)),
-        axis.ticks = element_blank(), axis.title.y = element_blank())
 ```
 
 ## Player stats for `r away_team` <a id="away"></a>:

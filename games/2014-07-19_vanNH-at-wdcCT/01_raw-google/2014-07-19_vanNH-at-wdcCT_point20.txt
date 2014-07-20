@@ -1,5 +1,16 @@
-Pulling team: NA
+Pulling team: Washington DC Current
 Period: 3
 Clock before point: 10:00:00
-Clock after point: NA
+Clock after point: 9:18:00
 Offense	Defense
+	22p
+21pu	
+89	
+19	
+98	
+11	22f
+10	
+89	
+19	
+11	
+6g	

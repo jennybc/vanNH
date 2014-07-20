@@ -3,14 +3,9 @@ Loading required package: methods
 The following `from` values were not present in `x`: pdxST
   roster read for vanNH and wdcCT
   game YAML read; game status: live
-  262 rows of game play found
-  20 rows of point info play found
-  ALERT point is missing time before and/or after:
-        point: 20 clk_before: NA clk_after: NA
-  scoring progression table has 20 rows
-Warning messages:
-1: Removed 1 rows containing missing values (position_stack). 
-2: Removed 1 rows containing missing values (geom_text). 
+  422 rows of game play found
+  32 rows of point info play found
+  scoring progression table has 32 rows
 [1] TRUE
 [1] TRUE
 [1] TRUE

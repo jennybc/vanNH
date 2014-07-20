@@ -1,10 +1,13 @@
 desc	n_inn	Freq
 ao	-1	0
-an	-1	7
+an	-1	12
 aa	-1	0
-ao	0	194
+ao	0	305
 an	0	1
 aa	0	1
-ao	1	4
+ao	1	7
 an	1	0
 aa	1	0
+ao	2	1
+an	2	0
+aa	2	0

@@ -218,7 +218,9 @@ r_bits: clean_cat clean_clean clean_possess clean_pass cat_goog clean_game check
 
 pt_fix: eg_pt clean_cat clean_clean clean_possess clean_pass cat_goog clean_game check_clean possess_game pass_game web web_copy
 
-yo: eg_pt clean_cat clean_clean clean_possess cat_goog clean_game check_clean possess_game pass_game web web_copy set_web sync
+yo: eg_pt clean_cat clean_clean clean_possess cat_goog clean_game check_clean possess_game pass_game web web_copy
+
+foo: set_web sync
 
 sync:
 	cd ../web; rsync -av --exclude-from=/Users/jenny/.rsync/exclude ./ jenny@stat.ubc.ca:public_html/notOcto/vanNH/

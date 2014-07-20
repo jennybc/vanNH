@@ -1,7 +1,7 @@
 2014-07-19_vanNH-at-wdcCT > 04_clean-and-expand-game-play.r:
-  257 rows of raw game play found
-  found 5 rows with game play recorded for both teams
+  414 rows of raw game play found
+  found 8 rows with game play recorded for both teams
   no double game play rows remain
-  262 rows of clean game play will be written
-  2014-07-19 16:51:38
+  422 rows of clean game play will be written
+  2014-07-19 17:28:22
 
