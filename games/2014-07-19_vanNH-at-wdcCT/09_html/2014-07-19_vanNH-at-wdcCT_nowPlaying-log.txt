@@ -1,6 +1,5 @@
 Loading required package: methods
 2014-07-19_vanNH-at-wdcCT > 09_vanNH-nowPlaying.rmd:
-The following `from` values were not present in `x`: pdxST
   roster read for vanNH and wdcCT
   game YAML read; game status: complete
   570 rows of game play found

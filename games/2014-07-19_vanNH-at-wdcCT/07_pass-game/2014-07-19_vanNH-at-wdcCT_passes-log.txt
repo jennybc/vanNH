@@ -21,5 +21,3 @@
   439 rows of pass data will be written
   roster read for vanNH and wdcCT
   writing player stats to file: 25 for vanNH, 30 for wdcCT
-  2014-07-19 17:59:13
-

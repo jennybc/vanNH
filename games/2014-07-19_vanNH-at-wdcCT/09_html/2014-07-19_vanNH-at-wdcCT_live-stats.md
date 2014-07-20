@@ -12,7 +12,6 @@ output:
 
 
 
-#### last update Sat Jul 19 17:59:14 2014
 # vanNH 17
 # wdcCT 23
 ## game is complete

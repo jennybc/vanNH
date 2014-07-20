@@ -1,5 +1,6 @@
 library(plyr)
 library(yaml)
+library(stringr)
 
 ## I predict these functions will be moved to a file of helper functions and,
 ## ultimately, into a helper package
@@ -418,6 +419,7 @@ write.table(poss_dat, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
 ## n_poss = number of possessions
 ## <away> = away score
 ## <home> = home score
+## pt_dur and pt_dur_txt
 just_goals <-
   subset(poss_dat, score, select = c(point, pull_team, poss_rel, scor_team))
 just_goals$h_or_b <-
@@ -434,13 +436,32 @@ point_info$teamTwo <- cumsum(jFun(with(point_info, scor_team == jTeams[2])))
 point_info <-
   rename(point_info, c("teamOne" = jTeams[1], "teamTwo" = jTeams[2]))
 
+## compute point duration
+clk_missing <- with(point_info, is.na(clk_before) | is.na(clk_after))
+if(any(clk_missing)) {
+  message("  ALERT these points are missing time before and/or after:\n  ",
+          paste(point_info$point[clk_missing]), collapse = " ")
+}
+secs_left_in_quarter <- function(x) {
+  y <- str_split_fixed(x, ":", 3)
+  y <- aaply(y, 1, as.numeric)
+  return(y[, 1] * 60 + y[, 2])
+}
+point_info$pt_dur <- NA_real_
+point_info$pt_dur[!clk_missing] <-
+  with(point_info[!clk_missing, ], secs_left_in_quarter(clk_before) -
+         secs_left_in_quarter(clk_after))
+point_info$pt_dur_txt <- '???'
+point_info$pt_dur_txt[!clk_missing] <-
+  with(point_info, sprintf("%02d:%02d", pt_dur %/% 60, pt_dur %% 60))
+
 latest_score <- point_info[nrow(point_info), jTeams]
 
 message("  ", nrow(point_info), " resolved points to be written")
 message("  ",
         paste(paste(names(latest_score), latest_score[1, ], sep = ": "),
               collapse = " "))
-message("  ", Sys.time(), "\n")
+#message("  ", Sys.time(), "\n")
 
 out_file <- file.path(out_dir, paste0(game, "_points-resolved.tsv"))
 write.table(point_info, out_file, quote = FALSE, sep = "\t", row.names = FALSE)
