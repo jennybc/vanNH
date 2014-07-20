@@ -1,13 +1,7 @@
+Loading required package: methods
 2014-05-31_sfoDF-at-pdxST > 09_vanNH-nowPlaying.rmd:
   roster read for sfoDF and pdxST
   game YAML read; game status: complete
   690 rows of game play found
   39 rows of point info play found
-  ALERT point is missing time before and/or after:
-        point: 32 clk_before: NA clk_after: NA
-  ALERT point is missing time before and/or after:
-        point: 33 clk_before: NA clk_after: NA
   scoring progression table has 39 rows
-[1] TRUE
-[1] TRUE
-[1] TRUE

@@ -1,10 +1,3 @@
----
-output:
-  html_document:
-    theme: readable
-    includes:
-      before_body: 08_before-body-back-to-index-href.txt
----
 
 
 
@@ -12,13 +5,13 @@ output:
 
 
 
-#### last update Sat Jul 19 14:22:40 2014
 # phlSP 23
 # nykRM 22
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for phlSP](#away)  
   * [Player stats for nykRM](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -28,55 +21,74 @@ Go to ...
 
 | point|period |begin    |end |pt_duration |desc                                          |phlSP |nykRM |
 |-----:|:------|:--------|:---|:-----------|:---------------------------------------------|:-----|:-----|
-|    49|4      |???      |??? |???         |- no goal -                                   |23    |22    |
-|    48|4      |???      |??? |???         |phlSP-27-rainwater to phlSP-42-ranii-dropcho  |23    |22    |
-|    47|4      |???      |??? |???         |nykRM-18-yz to nykRM-44-gillies               |22    |22    |
-|    46|4      |???      |??? |???         |phlSP-13-brandolph to phlSP-42-ranii-dropcho  |22    |21    |
-|    45|4      |???      |??? |???         |nykRM-14-vuckovich to nykRM-18-yz             |21    |21    |
-|    44|4      |???      |??? |???         |phlSP-7-hirannet to phlSP-25-katzenbach       |21    |20    |
-|    43|4      |???      |??? |???         |nykRM-18-yz to nykRM-14-vuckovich             |20    |20    |
-|    42|4      |???      |??? |???         |phlSP-7-hirannet to phlSP-14-glazer           |20    |19    |
-|    41|4      |6:57:00  |??? |???         |nykRM-26-bosco to nykRM-14-vuckovich          |19    |19    |
-|    40|4      |???      |??? |???         |phlSP-14-glazer to phlSP-42-ranii-dropcho     |19    |18    |
-|    39|4      |???      |??? |???         |nykRM-6-mazur to nykRM-18-yz                  |18    |18    |
-|    38|4      |???      |??? |???         |phlSP-16-shull to phlSP-6-chou                |18    |17    |
-|    37|3      |???      |??? |???         |- no goal -                                   |17    |17    |
-|    36|3      |???      |??? |???         |phlSP-25-katzenbach to phlSP-42-ranii-dropcho |17    |17    |
-|    35|3      |???      |??? |???         |nykRM-19-saul to nykRM-44-gillies             |16    |17    |
-|    34|3      |???      |??? |???         |phlSP-25-katzenbach to phlSP-13-brandolph     |16    |16    |
-|    33|3      |3:38:00  |??? |???         |nykRM-41-faust to nykRM-6-mazur               |15    |16    |
-|    32|3      |???      |??? |???         |phlSP-27-rainwater to phlSP-25-katzenbach     |15    |15    |
-|    31|3      |???      |??? |???         |nykRM-1-kuzmowycz to nykRM-44-gillies         |14    |15    |
-|    30|3      |???      |??? |???         |nykRM-19-saul to nykRM-1-kuzmowycz            |14    |14    |
-|    29|3      |???      |??? |???         |phlSP-7-hirannet to phlSP-14-glazer           |14    |13    |
-|    28|3      |???      |??? |???         |nykRM-6-mazur to nykRM-44-gillies             |13    |13    |
-|    27|3      |???      |??? |???         |phlSP-14-glazer to phlSP-27-rainwater         |13    |12    |
-|    26|3      |???      |??? |???         |nykRM-41-faust to nykRM-18-yz                 |12    |12    |
-|    25|3      |???      |??? |???         |phlSP-7-hirannet to phlSP-42-ranii-dropcho    |12    |11    |
-|    24|3      |???      |??? |???         |nykRM-6-mazur to nykRM-18-yz                  |11    |11    |
-|    23|3      |???      |??? |???         |phlSP-27-rainwater to phlSP-25-katzenbach     |11    |10    |
-|    22|3      |???      |??? |???         |nykRM-14-vuckovich to nykRM-6-mazur           |10    |10    |
-|    21|3      |???      |??? |???         |phlSP-42-ranii-dropcho to phlSP-14-glazer     |10    |9     |
-|    20|3      |???      |??? |???         |nykRM-24-glatt to nykRM-89-mieser             |9     |9     |
-|    19|2      |???      |??? |???         |- no goal -                                   |9     |8     |
-|    18|2      |???      |??? |???         |nykRM-6-mazur to nykRM-14-vuckovich           |9     |8     |
-|    17|2      |???      |??? |???         |phlSP-7-hirannet to phlSP-27-rainwater        |9     |7     |
-|    16|2      |???      |??? |???         |nykRM-6-mazur to nykRM-1-kuzmowycz            |8     |7     |
-|    15|2      |???      |??? |???         |phlSP-7-hirannet to phlSP-22-paparone         |8     |6     |
-|    14|2      |???      |??? |???         |phlSP-21-panna to phlSP-11-esser              |7     |6     |
-|    13|2      |???      |??? |???         |phlSP-7-hirannet to phlSP-23-thorne           |6     |6     |
-|    12|2      |???      |??? |???         |nykRM-33-herman to nykRM-1-kuzmowycz          |5     |6     |
-|    11|2      |???      |??? |???         |phlSP-7-hirannet to phlSP-38-wisch            |5     |5     |
-|    10|2      |???      |??? |???         |nykRM-10-hennessy to nykRM-5-sender           |4     |5     |
-|     9|2      |???      |??? |???         |nykRM-4-hennessy to nykRM-41-faust            |4     |4     |
-|     8|1      |???      |??? |???         |- no goal -                                   |4     |3     |
-|     7|1      |???      |??? |???         |phlSP-27-rainwater to phlSP-42-ranii-dropcho  |4     |3     |
-|     6|1      |???      |??? |???         |nykRM-44-gillies to nykRM-1-kuzmowycz         |3     |3     |
-|     5|1      |???      |??? |???         |phlSP-14-glazer to phlSP-27-rainwater         |3     |2     |
-|     4|1      |???      |??? |???         |phlSP-11-esser to phlSP-4-damiano             |2     |2     |
-|     3|1      |???      |??? |???         |nykRM-9-walter to nykRM-21-anderson           |1     |2     |
-|     2|1      |???      |??? |???         |nykRM-4-hennessy to nykRM-41-faust            |1     |1     |
-|     1|1      |10:00:00 |??? |???         |phlSP-7-hirannet to phlSP-27-rainwater        |1     |0     |
+|    49|4      |NA       |NA  |???         |- no goal -                                   |23    |22    |
+|    48|4      |NA       |NA  |???         |phlSP-27-rainwater to phlSP-42-ranii-dropcho  |23    |22    |
+|    47|4      |NA       |NA  |???         |nykRM-18-yz to nykRM-44-gillies               |22    |22    |
+|    46|4      |NA       |NA  |???         |phlSP-13-brandolph to phlSP-42-ranii-dropcho  |22    |21    |
+|    45|4      |NA       |NA  |???         |nykRM-14-vuckovich to nykRM-18-yz             |21    |21    |
+|    44|4      |NA       |NA  |???         |phlSP-7-hirannet to phlSP-25-katzenbach       |21    |20    |
+|    43|4      |NA       |NA  |???         |nykRM-18-yz to nykRM-14-vuckovich             |20    |20    |
+|    42|4      |NA       |NA  |???         |phlSP-7-hirannet to phlSP-14-glazer           |20    |19    |
+|    41|4      |6:57:00  |NA  |???         |nykRM-26-bosco to nykRM-14-vuckovich          |19    |19    |
+|    40|4      |NA       |NA  |???         |phlSP-14-glazer to phlSP-42-ranii-dropcho     |19    |18    |
+|    39|4      |NA       |NA  |???         |nykRM-6-mazur to nykRM-18-yz                  |18    |18    |
+|    38|4      |NA       |NA  |???         |phlSP-16-shull to phlSP-6-chou                |18    |17    |
+|    37|3      |NA       |NA  |???         |- no goal -                                   |17    |17    |
+|    36|3      |NA       |NA  |???         |phlSP-25-katzenbach to phlSP-42-ranii-dropcho |17    |17    |
+|    35|3      |NA       |NA  |???         |nykRM-19-saul to nykRM-44-gillies             |16    |17    |
+|    34|3      |NA       |NA  |???         |phlSP-25-katzenbach to phlSP-13-brandolph     |16    |16    |
+|    33|3      |3:38:00  |NA  |???         |nykRM-41-faust to nykRM-6-mazur               |15    |16    |
+|    32|3      |NA       |NA  |???         |phlSP-27-rainwater to phlSP-25-katzenbach     |15    |15    |
+|    31|3      |NA       |NA  |???         |nykRM-1-kuzmowycz to nykRM-44-gillies         |14    |15    |
+|    30|3      |NA       |NA  |???         |nykRM-19-saul to nykRM-1-kuzmowycz            |14    |14    |
+|    29|3      |NA       |NA  |???         |phlSP-7-hirannet to phlSP-14-glazer           |14    |13    |
+|    28|3      |NA       |NA  |???         |nykRM-6-mazur to nykRM-44-gillies             |13    |13    |
+|    27|3      |NA       |NA  |???         |phlSP-14-glazer to phlSP-27-rainwater         |13    |12    |
+|    26|3      |NA       |NA  |???         |nykRM-41-faust to nykRM-18-yz                 |12    |12    |
+|    25|3      |NA       |NA  |???         |phlSP-7-hirannet to phlSP-42-ranii-dropcho    |12    |11    |
+|    24|3      |NA       |NA  |???         |nykRM-6-mazur to nykRM-18-yz                  |11    |11    |
+|    23|3      |NA       |NA  |???         |phlSP-27-rainwater to phlSP-25-katzenbach     |11    |10    |
+|    22|3      |NA       |NA  |???         |nykRM-14-vuckovich to nykRM-6-mazur           |10    |10    |
+|    21|3      |NA       |NA  |???         |phlSP-42-ranii-dropcho to phlSP-14-glazer     |10    |9     |
+|    20|3      |NA       |NA  |???         |nykRM-24-glatt to nykRM-89-mieser             |9     |9     |
+|    19|2      |NA       |NA  |???         |- no goal -                                   |9     |8     |
+|    18|2      |NA       |NA  |???         |nykRM-6-mazur to nykRM-14-vuckovich           |9     |8     |
+|    17|2      |NA       |NA  |???         |phlSP-7-hirannet to phlSP-27-rainwater        |9     |7     |
+|    16|2      |NA       |NA  |???         |nykRM-6-mazur to nykRM-1-kuzmowycz            |8     |7     |
+|    15|2      |NA       |NA  |???         |phlSP-7-hirannet to phlSP-22-paparone         |8     |6     |
+|    14|2      |NA       |NA  |???         |phlSP-21-panna to phlSP-11-esser              |7     |6     |
+|    13|2      |NA       |NA  |???         |phlSP-7-hirannet to phlSP-23-thorne           |6     |6     |
+|    12|2      |NA       |NA  |???         |nykRM-33-herman to nykRM-1-kuzmowycz          |5     |6     |
+|    11|2      |NA       |NA  |???         |phlSP-7-hirannet to phlSP-38-wisch            |5     |5     |
+|    10|2      |NA       |NA  |???         |nykRM-10-hennessy to nykRM-5-sender           |4     |5     |
+|     9|2      |NA       |NA  |???         |nykRM-4-hennessy to nykRM-41-faust            |4     |4     |
+|     8|1      |NA       |NA  |???         |- no goal -                                   |4     |3     |
+|     7|1      |NA       |NA  |???         |phlSP-27-rainwater to phlSP-42-ranii-dropcho  |4     |3     |
+|     6|1      |NA       |NA  |???         |nykRM-44-gillies to nykRM-1-kuzmowycz         |3     |3     |
+|     5|1      |NA       |NA  |???         |phlSP-14-glazer to phlSP-27-rainwater         |3     |2     |
+|     4|1      |NA       |NA  |???         |phlSP-11-esser to phlSP-4-damiano             |2     |2     |
+|     3|1      |NA       |NA  |???         |nykRM-9-walter to nykRM-21-anderson           |1     |2     |
+|     2|1      |NA       |NA  |???         |nykRM-4-hennessy to nykRM-41-faust            |1     |1     |
+|     1|1      |10:00:00 |NA  |???         |phlSP-7-hirannet to phlSP-27-rainwater        |1     |0     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+![plot of chunk barchart_points](./2014-06-08_phlSP-at-nykRM_live-stats_files/figure-html/barchart_points.png) 
+
+### Goals
+
+![plot of chunk barchart_goals](./2014-06-08_phlSP-at-nykRM_live-stats_files/figure-html/barchart_goals.png) 
+
+### Assists
+
+![plot of chunk barchart_assists](./2014-06-08_phlSP-at-nykRM_live-stats_files/figure-html/barchart_assists.png) 
+
+### D's
+![plot of chunk barchart_ds](./2014-06-08_phlSP-at-nykRM_live-stats_files/figure-html/barchart_ds.png) 
 
 ## Player stats for phlSP <a id="away"></a>:
 

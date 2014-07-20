@@ -1,35 +1,7 @@
+Loading required package: methods
 2014-05-03_bosWC-at-nykRM > 09_vanNH-nowPlaying.rmd:
   roster read for bosWC and nykRM
   game YAML read; game status: complete
   538 rows of game play found
   39 rows of point info play found
-  ALERT point is missing time before and/or after:
-        point: 17 clk_before: NA clk_after: NA
-  ALERT point is missing time before and/or after:
-        point: 18 clk_before: NA clk_after: NA
-  ALERT point is missing time before and/or after:
-        point: 19 clk_before: NA clk_after: NA
-  ALERT point is missing time before and/or after:
-        point: 20 clk_before: NA clk_after: NA
-  ALERT point is missing time before and/or after:
-        point: 21 clk_before: NA clk_after: NA
-  ALERT point is missing time before and/or after:
-        point: 22 clk_before: NA clk_after: NA
-  ALERT point is missing time before and/or after:
-        point: 23 clk_before: NA clk_after: NA
-  ALERT point is missing time before and/or after:
-        point: 24 clk_before: NA clk_after: NA
-  ALERT point is missing time before and/or after:
-        point: 25 clk_before: NA clk_after: NA
-  ALERT point is missing time before and/or after:
-        point: 26 clk_before: NA clk_after: NA
-  ALERT point is missing time before and/or after:
-        point: 34 clk_before: NA clk_after: NA
-  ALERT point is missing time before and/or after:
-        point: 35 clk_before: NA clk_after: NA
-  ALERT point is missing time before and/or after:
-        point: 38 clk_before: NA clk_after: NA
   scoring progression table has 39 rows
-[1] TRUE
-[1] TRUE
-[1] TRUE

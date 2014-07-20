@@ -5,6 +5,3 @@ Loading required package: methods
   714 rows of game play found
   55 rows of point info play found
   scoring progression table has 55 rows
-[1] TRUE
-[1] TRUE
-[1] TRUE

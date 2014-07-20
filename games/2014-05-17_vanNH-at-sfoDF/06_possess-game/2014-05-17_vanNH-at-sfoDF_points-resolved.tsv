@@ -1,31 +1,31 @@
-point	period	clk_before	clk_after	pull_team	n_poss	scor_team	h_or_b	sfoDF	vanNH
-1	1	10:00:00	7:56:00	sfoDF	10	sfoDF	break	1	0
-2	1	7:56:00	6:55:00	sfoDF	2	sfoDF	break	2	0
-3	1	6:55:00	6:03:00	sfoDF	1	vanNH	hold	2	1
-4	1	6:03:00	5:06:00	vanNH	2	vanNH	break	2	2
-5	1	5:06:00	3:49:00	vanNH	5	sfoDF	hold	3	2
-6	1	3:49:00	2:06:00	sfoDF	3	vanNH	hold	3	3
-7	1	2:06:00	1:36:00	vanNH	1	sfoDF	hold	4	3
-8	1	1:36:00	0:38:00	sfoDF	5	vanNH	hold	4	4
-9	1	0:38:00	0:00:00	vanNH	NA	NA	NA	4	4
-10	2	10:00:00	9:43:00	vanNH	1	sfoDF	hold	5	4
-11	2	9:43:00	8:58:00	sfoDF	2	sfoDF	break	6	4
-12	2	8:58:00	7:55:00	sfoDF	5	vanNH	hold	6	5
-13	2	7:55:00	6:17:00	vanNH	7	sfoDF	hold	7	5
-14	2	6:17:00	3:42:00	sfoDF	9	vanNH	hold	7	6
-15	2	3:42:00	2:27:00	vanNH	3	sfoDF	hold	8	6
-16	2	2:27:00	2:13:00	sfoDF	1	vanNH	hold	8	7
-17	2	2:13:00	0:18:00	vanNH	6	vanNH	break	8	8
-18	2	0:18:00	0:00:00	vanNH	NA	NA	NA	8	8
-19	3	10:00:00	8:52:00	sfoDF	2	sfoDF	break	9	8
-20	3	8:52:00	7:53:00	sfoDF	3	vanNH	hold	9	9
-21	3	7:53:00	7:41:00	vanNH	1	sfoDF	hold	10	9
-22	3	7:41:00	3:37:00	sfoDF	11	vanNH	hold	10	10
-23	3	3:37:00	0:22:00	vanNH	12	vanNH	break	10	11
-24	3	0:22:00	0:08:00	vanNH	2	vanNH	break	10	12
-25	3	0:08:00	0:00:00	vanNH	NA	NA	NA	10	12
-26	4	10:00:00	3:16:00	vanNH	17	sfoDF	hold	11	12
-27	4	3:16:00	1:47:00	sfoDF	4	sfoDF	break	12	12
-28	4	1:46:00	0:00:00	sfoDF	NA	NA	NA	12	12
-29	5	5:00:00	3:23:00	sfoDF	6	sfoDF	break	13	12
-30	5	3:23:00	0:00:00	sfoDF	NA	NA	NA	13	12
+point	period	clk_before	clk_after	pull_team	n_poss	scor_team	h_or_b	sfoDF	vanNH	pt_dur	pt_dur_txt
+1	1	10:00:00	7:56:00	sfoDF	10	sfoDF	break	1	0	124	02:04
+2	1	7:56:00	6:55:00	sfoDF	2	sfoDF	break	2	0	61	01:01
+3	1	6:55:00	6:03:00	sfoDF	1	vanNH	hold	2	1	52	00:52
+4	1	6:03:00	5:06:00	vanNH	2	vanNH	break	2	2	57	00:57
+5	1	5:06:00	3:49:00	vanNH	5	sfoDF	hold	3	2	77	01:17
+6	1	3:49:00	2:06:00	sfoDF	3	vanNH	hold	3	3	103	01:43
+7	1	2:06:00	1:36:00	vanNH	1	sfoDF	hold	4	3	30	00:30
+8	1	1:36:00	0:38:00	sfoDF	5	vanNH	hold	4	4	58	00:58
+9	1	0:38:00	0:00:00	vanNH	NA	NA	NA	4	4	38	00:38
+10	2	10:00:00	9:43:00	vanNH	1	sfoDF	hold	5	4	17	00:17
+11	2	9:43:00	8:58:00	sfoDF	2	sfoDF	break	6	4	45	00:45
+12	2	8:58:00	7:55:00	sfoDF	5	vanNH	hold	6	5	63	01:03
+13	2	7:55:00	6:17:00	vanNH	7	sfoDF	hold	7	5	98	01:38
+14	2	6:17:00	3:42:00	sfoDF	9	vanNH	hold	7	6	155	02:35
+15	2	3:42:00	2:27:00	vanNH	3	sfoDF	hold	8	6	75	01:15
+16	2	2:27:00	2:13:00	sfoDF	1	vanNH	hold	8	7	14	00:14
+17	2	2:13:00	0:18:00	vanNH	6	vanNH	break	8	8	115	01:55
+18	2	0:18:00	0:00:00	vanNH	NA	NA	NA	8	8	18	00:18
+19	3	10:00:00	8:52:00	sfoDF	2	sfoDF	break	9	8	68	01:08
+20	3	8:52:00	7:53:00	sfoDF	3	vanNH	hold	9	9	59	00:59
+21	3	7:53:00	7:41:00	vanNH	1	sfoDF	hold	10	9	12	00:12
+22	3	7:41:00	3:37:00	sfoDF	11	vanNH	hold	10	10	244	04:04
+23	3	3:37:00	0:22:00	vanNH	12	vanNH	break	10	11	195	03:15
+24	3	0:22:00	0:08:00	vanNH	2	vanNH	break	10	12	14	00:14
+25	3	0:08:00	0:00:00	vanNH	NA	NA	NA	10	12	8	00:08
+26	4	10:00:00	3:16:00	vanNH	17	sfoDF	hold	11	12	404	06:44
+27	4	3:16:00	1:47:00	sfoDF	4	sfoDF	break	12	12	89	01:29
+28	4	1:46:00	0:00:00	sfoDF	NA	NA	NA	12	12	106	01:46
+29	5	5:00:00	3:23:00	sfoDF	6	sfoDF	break	13	12	97	01:37
+30	5	3:23:00	0:00:00	sfoDF	NA	NA	NA	13	12	203	03:23

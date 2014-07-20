@@ -1,10 +1,3 @@
----
-output:
-  html_document:
-    theme: readable
-    includes:
-      before_body: 08_before-body-back-to-index-href.txt
----
 
 
 
@@ -12,13 +5,13 @@ output:
 
 
 
-#### last update Tue Jul 15 22:48:58 2014
 # bosWC 17
 # wdcCT 18
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for bosWC](#away)  
   * [Player stats for wdcCT](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -65,6 +58,25 @@ Go to ...
 |     3|1      |8:17:00  |8:02:00 |00:15       |bosWC-21-graham to bosWC-77-clark               |2     |1     |
 |     2|1      |8:45:00  |8:17:00 |00:28       |wdcCT-9-doi to wdcCT-45-wodatch                 |1     |1     |
 |     1|1      |10:00:00 |8:45:00 |01:15       |bosWC-1-markette to bosWC-00-taylor             |1     |0     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+![plot of chunk barchart_points](./2014-04-19_bosWC-at-wdcCT_live-stats_files/figure-html/barchart_points.png) 
+
+### Goals
+
+![plot of chunk barchart_goals](./2014-04-19_bosWC-at-wdcCT_live-stats_files/figure-html/barchart_goals.png) 
+
+### Assists
+
+![plot of chunk barchart_assists](./2014-04-19_bosWC-at-wdcCT_live-stats_files/figure-html/barchart_assists.png) 
+
+### D's
+![plot of chunk barchart_ds](./2014-04-19_bosWC-at-wdcCT_live-stats_files/figure-html/barchart_ds.png) 
 
 ## Player stats for bosWC <a id="away"></a>:
 

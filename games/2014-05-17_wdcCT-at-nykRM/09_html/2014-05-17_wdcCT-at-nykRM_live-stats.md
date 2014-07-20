@@ -1,10 +1,3 @@
----
-output:
-  html_document:
-    theme: readable
-    includes:
-      before_body: 08_before-body-back-to-index-href.txt
----
 
 
 
@@ -12,13 +5,13 @@ output:
 
 
 
-#### last update Tue Jul 15 22:49:25 2014
 # wdcCT 27
 # nykRM 18
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for wdcCT](#away)  
   * [Player stats for nykRM](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -28,55 +21,74 @@ Go to ...
 
 | point|period |begin    |end     |pt_duration |desc                                      |wdcCT |nykRM |
 |-----:|:------|:--------|:-------|:-----------|:-----------------------------------------|:-----|:-----|
-|    49|4      |???      |0:00:00 |???         |- no goal -                               |27    |18    |
-|    48|4      |???      |???     |???         |wdcCT-45-wodatch to wdcCT-8-prial         |27    |18    |
-|    47|4      |???      |???     |???         |nykRM-18-yz to nykRM-41-faust             |26    |18    |
-|    46|4      |???      |???     |???         |wdcCT-2-keegan to wdcCT-90-shofner        |26    |17    |
-|    45|4      |???      |???     |???         |nykRM-19-saul to nykRM-1-kuzmowycz        |25    |17    |
-|    44|4      |???      |???     |???         |wdcCT-2-keegan to wdcCT-8-prial           |25    |16    |
-|    43|4      |???      |???     |???         |nykRM-47-murphy to nykRM-15-baum          |24    |16    |
-|    42|4      |???      |???     |???         |wdcCT-42-gibson to wdcCT-12-bellinger     |24    |15    |
-|    41|4      |???      |???     |???         |wdcCT-5-cranston to wdcCT-8-prial         |23    |15    |
-|    40|4      |???      |???     |???         |nykRM-5-sender to nykRM-10-hennessy       |22    |15    |
-|    39|3      |???      |???     |???         |- no goal -                               |22    |14    |
-|    38|3      |1:10:00  |???     |???         |wdcCT-9-doi to wdcCT-32-peters            |22    |14    |
-|    37|3      |???      |???     |???         |nykRM-14-vuckovich to nykRM-18-yz         |21    |14    |
-|    36|3      |???      |???     |???         |wdcCT-90-shofner to wdcCT-2-keegan        |21    |13    |
-|    35|3      |???      |???     |???         |nykRM-4-hennessy to nykRM-33-herman       |20    |13    |
-|    34|3      |???      |???     |???         |wdcCT-90-shofner to wdcCT-32-peters       |20    |12    |
-|    33|3      |???      |???     |???         |nykRM-19-saul to nykRM-14-vuckovich       |19    |12    |
-|    32|3      |???      |???     |???         |wdcCT-32-peters to wdcCT-45-wodatch       |19    |11    |
-|    31|3      |5:28:00  |???     |???         |nykRM-19-saul to nykRM-13-hunziker        |18    |11    |
-|    30|3      |???      |???     |???         |wdcCT-14-blake to wdcCT-45-wodatch        |18    |10    |
-|    29|3      |???      |???     |???         |nykRM-24-glatt to nykRM-14-vuckovich      |17    |10    |
-|    28|3      |???      |???     |???         |wdcCT-27-johnston to wdcCT-22-marshall    |17    |9     |
-|    27|3      |???      |???     |???         |wdcCT-99-kolick to wdcCT-9-doi            |16    |9     |
-|    26|3      |???      |???     |???         |nykRM-41-faust to nykRM-13-hunziker       |15    |9     |
-|    25|3      |???      |???     |???         |wdcCT-90-shofner to wdcCT-9-doi           |15    |8     |
-|    24|3      |10:00:00 |???     |???         |nykRM-41-faust to nykRM-13-hunziker       |14    |8     |
+|    49|4      |NA       |0:00:00 |???         |- no goal -                               |27    |18    |
+|    48|4      |NA       |NA      |???         |wdcCT-45-wodatch to wdcCT-8-prial         |27    |18    |
+|    47|4      |NA       |NA      |???         |nykRM-18-yz to nykRM-41-faust             |26    |18    |
+|    46|4      |NA       |NA      |???         |wdcCT-2-keegan to wdcCT-90-shofner        |26    |17    |
+|    45|4      |NA       |NA      |???         |nykRM-19-saul to nykRM-1-kuzmowycz        |25    |17    |
+|    44|4      |NA       |NA      |???         |wdcCT-2-keegan to wdcCT-8-prial           |25    |16    |
+|    43|4      |NA       |NA      |???         |nykRM-47-murphy to nykRM-15-baum          |24    |16    |
+|    42|4      |NA       |NA      |???         |wdcCT-42-gibson to wdcCT-12-bellinger     |24    |15    |
+|    41|4      |NA       |NA      |???         |wdcCT-5-cranston to wdcCT-8-prial         |23    |15    |
+|    40|4      |NA       |NA      |???         |nykRM-5-sender to nykRM-10-hennessy       |22    |15    |
+|    39|3      |NA       |NA      |???         |- no goal -                               |22    |14    |
+|    38|3      |1:10:00  |NA      |???         |wdcCT-9-doi to wdcCT-32-peters            |22    |14    |
+|    37|3      |NA       |NA      |???         |nykRM-14-vuckovich to nykRM-18-yz         |21    |14    |
+|    36|3      |NA       |NA      |???         |wdcCT-90-shofner to wdcCT-2-keegan        |21    |13    |
+|    35|3      |NA       |NA      |???         |nykRM-4-hennessy to nykRM-33-herman       |20    |13    |
+|    34|3      |NA       |NA      |???         |wdcCT-90-shofner to wdcCT-32-peters       |20    |12    |
+|    33|3      |NA       |NA      |???         |nykRM-19-saul to nykRM-14-vuckovich       |19    |12    |
+|    32|3      |NA       |NA      |???         |wdcCT-32-peters to wdcCT-45-wodatch       |19    |11    |
+|    31|3      |5:28:00  |NA      |???         |nykRM-19-saul to nykRM-13-hunziker        |18    |11    |
+|    30|3      |NA       |NA      |???         |wdcCT-14-blake to wdcCT-45-wodatch        |18    |10    |
+|    29|3      |NA       |NA      |???         |nykRM-24-glatt to nykRM-14-vuckovich      |17    |10    |
+|    28|3      |NA       |NA      |???         |wdcCT-27-johnston to wdcCT-22-marshall    |17    |9     |
+|    27|3      |NA       |NA      |???         |wdcCT-99-kolick to wdcCT-9-doi            |16    |9     |
+|    26|3      |NA       |NA      |???         |nykRM-41-faust to nykRM-13-hunziker       |15    |9     |
+|    25|3      |NA       |NA      |???         |wdcCT-90-shofner to wdcCT-9-doi           |15    |8     |
+|    24|3      |10:00:00 |NA      |???         |nykRM-41-faust to nykRM-13-hunziker       |14    |8     |
 |    23|2      |7:00:00  |0:00:00 |07:00       |- no goal -                               |14    |7     |
-|    22|2      |???      |7:00:00 |???         |wdcCT-7-boylan-kolchin to wdcCT-25-gordon |14    |7     |
-|    21|2      |???      |???     |???         |nykRM-19-saul to nykRM-41-faust           |13    |7     |
-|    20|2      |???      |???     |???         |wdcCT-90-shofner to wdcCT-45-wodatch      |13    |6     |
-|    19|2      |???      |???     |???         |nykRM-14-vuckovich to nykRM-4-hennessy    |12    |6     |
-|    18|2      |???      |???     |???         |wdcCT-8-prial to wdcCT-9-doi              |12    |5     |
-|    17|2      |???      |???     |???         |nykRM-33-herman to nykRM-4-hennessy       |11    |5     |
-|    16|2      |???      |???     |???         |wdcCT-32-peters to wdcCT-90-shofner       |11    |4     |
-|    15|2      |7:00:00  |???     |???         |nykRM-19-saul to nykRM-14-vuckovich       |10    |4     |
-|    14|2      |???      |7:00:00 |???         |wdcCT-2-keegan to wdcCT-9-doi             |10    |3     |
-|    13|2      |???      |???     |???         |wdcCT-25-gordon to wdcCT-4-johnson        |9     |3     |
-|    12|2      |???      |???     |???         |wdcCT-22-marshall to wdcCT-6-gordon       |8     |3     |
-|    11|2      |???      |???     |???         |wdcCT-5-cranston to wdcCT-12-bellinger    |7     |3     |
-|    10|2      |???      |???     |???         |wdcCT-17-miner to wdcCT-24-fleming        |6     |3     |
-|     9|2      |10:00:00 |???     |???         |wdcCT-14-blake to wdcCT-99-kolick         |5     |3     |
-|     8|1      |???      |???     |???         |- no goal -                               |4     |3     |
-|     7|1      |???      |???     |???         |wdcCT-90-shofner to wdcCT-14-blake        |4     |3     |
-|     6|1      |???      |???     |???         |nykRM-21-anderson to nykRM-82-brownlee    |3     |3     |
-|     5|1      |???      |???     |???         |nykRM-19-saul to nykRM-41-faust           |3     |2     |
-|     4|1      |???      |???     |???         |wdcCT-9-doi to wdcCT-8-prial              |3     |1     |
-|     3|1      |???      |???     |???         |nykRM-5-sender to nykRM-13-hunziker       |2     |1     |
-|     2|1      |???      |???     |???         |wdcCT-21-dulabon to wdcCT-24-fleming      |2     |0     |
-|     1|1      |10:00:00 |???     |???         |wdcCT-3-fickley to wdcCT-12-bellinger     |1     |0     |
+|    22|2      |NA       |7:00:00 |???         |wdcCT-7-boylan-kolchin to wdcCT-25-gordon |14    |7     |
+|    21|2      |NA       |NA      |???         |nykRM-19-saul to nykRM-41-faust           |13    |7     |
+|    20|2      |NA       |NA      |???         |wdcCT-90-shofner to wdcCT-45-wodatch      |13    |6     |
+|    19|2      |NA       |NA      |???         |nykRM-14-vuckovich to nykRM-4-hennessy    |12    |6     |
+|    18|2      |NA       |NA      |???         |wdcCT-8-prial to wdcCT-9-doi              |12    |5     |
+|    17|2      |NA       |NA      |???         |nykRM-33-herman to nykRM-4-hennessy       |11    |5     |
+|    16|2      |NA       |NA      |???         |wdcCT-32-peters to wdcCT-90-shofner       |11    |4     |
+|    15|2      |7:00:00  |NA      |???         |nykRM-19-saul to nykRM-14-vuckovich       |10    |4     |
+|    14|2      |NA       |7:00:00 |???         |wdcCT-2-keegan to wdcCT-9-doi             |10    |3     |
+|    13|2      |NA       |NA      |???         |wdcCT-25-gordon to wdcCT-4-johnson        |9     |3     |
+|    12|2      |NA       |NA      |???         |wdcCT-22-marshall to wdcCT-6-gordon       |8     |3     |
+|    11|2      |NA       |NA      |???         |wdcCT-5-cranston to wdcCT-12-bellinger    |7     |3     |
+|    10|2      |NA       |NA      |???         |wdcCT-17-miner to wdcCT-24-fleming        |6     |3     |
+|     9|2      |10:00:00 |NA      |???         |wdcCT-14-blake to wdcCT-99-kolick         |5     |3     |
+|     8|1      |NA       |NA      |???         |- no goal -                               |4     |3     |
+|     7|1      |NA       |NA      |???         |wdcCT-90-shofner to wdcCT-14-blake        |4     |3     |
+|     6|1      |NA       |NA      |???         |nykRM-21-anderson to nykRM-82-brownlee    |3     |3     |
+|     5|1      |NA       |NA      |???         |nykRM-19-saul to nykRM-41-faust           |3     |2     |
+|     4|1      |NA       |NA      |???         |wdcCT-9-doi to wdcCT-8-prial              |3     |1     |
+|     3|1      |NA       |NA      |???         |nykRM-5-sender to nykRM-13-hunziker       |2     |1     |
+|     2|1      |NA       |NA      |???         |wdcCT-21-dulabon to wdcCT-24-fleming      |2     |0     |
+|     1|1      |10:00:00 |NA      |???         |wdcCT-3-fickley to wdcCT-12-bellinger     |1     |0     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+![plot of chunk barchart_points](./2014-05-17_wdcCT-at-nykRM_live-stats_files/figure-html/barchart_points.png) 
+
+### Goals
+
+![plot of chunk barchart_goals](./2014-05-17_wdcCT-at-nykRM_live-stats_files/figure-html/barchart_goals.png) 
+
+### Assists
+
+![plot of chunk barchart_assists](./2014-05-17_wdcCT-at-nykRM_live-stats_files/figure-html/barchart_assists.png) 
+
+### D's
+![plot of chunk barchart_ds](./2014-05-17_wdcCT-at-nykRM_live-stats_files/figure-html/barchart_ds.png) 
 
 ## Player stats for wdcCT <a id="away"></a>:
 

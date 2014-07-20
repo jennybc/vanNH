@@ -1,33 +1,33 @@
-point	period	clk_before	clk_after	pull_team	n_poss	scor_team	h_or_b	bosWC	nykRM
-1	1	10:00:00	9:34:00	bosWC	2	bosWC	break	1	0
-2	1	9:34:00	8:47:00	bosWC	2	bosWC	break	2	0
-3	1	8:47:00	7:38:00	bosWC	4	bosWC	break	3	0
-4	1	7:38:00	6:32:00	bosWC	2	bosWC	break	4	0
-5	1	6:32:00	3:48:00	bosWC	4	bosWC	break	5	0
-6	1	3:48:00	1:29:00	bosWC	4	bosWC	break	6	0
-7	1	1:29:00	0:23:00	bosWC	3	nykRM	hold	6	1
-8	1	0:23:00	0:04:00	nykRM	1	bosWC	hold	7	1
-9	1	0:04:00	0:00:00	bosWC	NA	NA	NA	7	1
-10	2	10:00:00	9:17:00	nykRM	3	bosWC	hold	8	1
-11	2	9:17:00	8:37:00	bosWC	2	bosWC	break	9	1
-12	2	8:37:00	8:14:00	bosWC	1	nykRM	hold	9	2
-13	2	8:14:00	7:12:00	nykRM	3	bosWC	hold	10	2
-14	2	7:12:00	6:38:00	bosWC	1	nykRM	hold	10	3
-15	2	6:38:00	6:01:00	nykRM	1	bosWC	hold	11	3
-16	2	6:01:00	4:01:00	bosWC	4	bosWC	break	12	3
-17	2	4:01:00	0:08:00	bosWC	9	nykRM	hold	12	4
-18	2	0:08:00	0:00:00	nykRM	1	bosWC	hold	13	4
-19	3	10:00:00	7:46:00	bosWC	5	nykRM	hold	13	5
-20	3	7:46:00	6:28:00	nykRM	3	bosWC	hold	14	5
-21	3	6:28:00	5:27:00	bosWC	2	bosWC	break	15	5
-22	3	5:27:00	3:29:00	bosWC	3	nykRM	hold	15	6
-23	3	3:29:00	2:06:00	nykRM	3	bosWC	hold	16	6
-24	3	2:06:00	0:00:00	bosWC	NA	NA	NA	16	6
-25	4	10:00:00	7:57:00	nykRM	3	bosWC	hold	17	6
-26	4	7:57:00	5:52:00	bosWC	4	bosWC	break	18	6
-27	4	5:52:00	4:04:00	bosWC	4	bosWC	break	19	6
-28	4	4:04:00	3:16:00	bosWC	2	bosWC	break	20	6
-29	4	3:16:00	1:54:00	bosWC	4	bosWC	break	21	6
-30	4	1:54:00	1:01:00	bosWC	2	bosWC	break	22	6
-31	4	1:01:00	0:12:00	bosWC	2	bosWC	break	23	6
-32	4	0:12:00	0:00:00	bosWC	NA	NA	NA	23	6
+point	period	clk_before	clk_after	pull_team	n_poss	scor_team	h_or_b	bosWC	nykRM	pt_dur	pt_dur_txt
+1	1	10:00:00	9:34:00	bosWC	2	bosWC	break	1	0	26	00:26
+2	1	9:34:00	8:47:00	bosWC	2	bosWC	break	2	0	47	00:47
+3	1	8:47:00	7:38:00	bosWC	4	bosWC	break	3	0	69	01:09
+4	1	7:38:00	6:32:00	bosWC	2	bosWC	break	4	0	66	01:06
+5	1	6:32:00	3:48:00	bosWC	4	bosWC	break	5	0	164	02:44
+6	1	3:48:00	1:29:00	bosWC	4	bosWC	break	6	0	139	02:19
+7	1	1:29:00	0:23:00	bosWC	3	nykRM	hold	6	1	66	01:06
+8	1	0:23:00	0:04:00	nykRM	1	bosWC	hold	7	1	19	00:19
+9	1	0:04:00	0:00:00	bosWC	NA	NA	NA	7	1	4	00:04
+10	2	10:00:00	9:17:00	nykRM	3	bosWC	hold	8	1	43	00:43
+11	2	9:17:00	8:37:00	bosWC	2	bosWC	break	9	1	40	00:40
+12	2	8:37:00	8:14:00	bosWC	1	nykRM	hold	9	2	23	00:23
+13	2	8:14:00	7:12:00	nykRM	3	bosWC	hold	10	2	62	01:02
+14	2	7:12:00	6:38:00	bosWC	1	nykRM	hold	10	3	34	00:34
+15	2	6:38:00	6:01:00	nykRM	1	bosWC	hold	11	3	37	00:37
+16	2	6:01:00	4:01:00	bosWC	4	bosWC	break	12	3	120	02:00
+17	2	4:01:00	0:08:00	bosWC	9	nykRM	hold	12	4	233	03:53
+18	2	0:08:00	0:00:00	nykRM	1	bosWC	hold	13	4	8	00:08
+19	3	10:00:00	7:46:00	bosWC	5	nykRM	hold	13	5	134	02:14
+20	3	7:46:00	6:28:00	nykRM	3	bosWC	hold	14	5	78	01:18
+21	3	6:28:00	5:27:00	bosWC	2	bosWC	break	15	5	61	01:01
+22	3	5:27:00	3:29:00	bosWC	3	nykRM	hold	15	6	118	01:58
+23	3	3:29:00	2:06:00	nykRM	3	bosWC	hold	16	6	83	01:23
+24	3	2:06:00	0:00:00	bosWC	NA	NA	NA	16	6	126	02:06
+25	4	10:00:00	7:57:00	nykRM	3	bosWC	hold	17	6	123	02:03
+26	4	7:57:00	5:52:00	bosWC	4	bosWC	break	18	6	125	02:05
+27	4	5:52:00	4:04:00	bosWC	4	bosWC	break	19	6	108	01:48
+28	4	4:04:00	3:16:00	bosWC	2	bosWC	break	20	6	48	00:48
+29	4	3:16:00	1:54:00	bosWC	4	bosWC	break	21	6	82	01:22
+30	4	1:54:00	1:01:00	bosWC	2	bosWC	break	22	6	53	00:53
+31	4	1:01:00	0:12:00	bosWC	2	bosWC	break	23	6	49	00:49
+32	4	0:12:00	0:00:00	bosWC	NA	NA	NA	23	6	12	00:12

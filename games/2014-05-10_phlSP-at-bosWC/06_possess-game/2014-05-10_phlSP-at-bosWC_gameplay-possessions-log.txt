@@ -14,9 +14,6 @@
   610 rows of resolved game play will be written
   77 rows of possessions will be written
   ALERT these points are missing time before and/or after:
-  111213 
-Warning message:
-In point_info$pt_dur_txt[!clk_missing] <- with(point_info, sprintf("%02d:%02d",  :
-  number of items to replace is not a multiple of replacement length
+  11 12 13
   46 resolved points to be written
   bosWC: 24 phlSP: 18

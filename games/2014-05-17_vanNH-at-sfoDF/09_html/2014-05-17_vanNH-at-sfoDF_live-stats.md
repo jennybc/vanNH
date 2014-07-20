@@ -1,10 +1,3 @@
----
-output:
-  html_document:
-    theme: readable
-    includes:
-      before_body: 08_before-body-back-to-index-href.txt
----
 
 
 
@@ -12,13 +5,13 @@ output:
 
 
 
-#### last update Tue Jul 15 22:49:23 2014
 # vanNH 12
 # sfoDF 13
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for vanNH](#away)  
   * [Player stats for sfoDF](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -58,6 +51,25 @@ Go to ...
 |     3|1      |6:55:00  |6:03:00 |00:52       |vanNH-89-underhill to vanNH-98-wong       |1     |2     |
 |     2|1      |7:56:00  |6:55:00 |01:01       |sfoDF-40-Taylor to sfoDF-6-Kim            |0     |2     |
 |     1|1      |10:00:00 |7:56:00 |02:04       |sfoDF-12-Bellinger to sfoDF-21-Stearns    |0     |1     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+![plot of chunk barchart_points](./2014-05-17_vanNH-at-sfoDF_live-stats_files/figure-html/barchart_points.png) 
+
+### Goals
+
+![plot of chunk barchart_goals](./2014-05-17_vanNH-at-sfoDF_live-stats_files/figure-html/barchart_goals.png) 
+
+### Assists
+
+![plot of chunk barchart_assists](./2014-05-17_vanNH-at-sfoDF_live-stats_files/figure-html/barchart_assists.png) 
+
+### D's
+![plot of chunk barchart_ds](./2014-05-17_vanNH-at-sfoDF_live-stats_files/figure-html/barchart_ds.png) 
 
 ## Player stats for vanNH <a id="away"></a>:
 

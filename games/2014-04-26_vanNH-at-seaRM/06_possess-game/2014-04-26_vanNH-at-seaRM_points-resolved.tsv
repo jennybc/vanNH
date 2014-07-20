@@ -1,39 +1,39 @@
-point	period	clk_before	clk_after	pull_team	n_poss	scor_team	h_or_b	seaRM	vanNH
-1	1	10:00:00	9:26:00	vanNH	1	seaRM	hold	1	0
-2	1	9:26:00	7:19:00	seaRM	4	seaRM	break	2	0
-3	1	7:19:00	6:52:00	seaRM	2	seaRM	break	3	0
-4	1	6:52:00	6:31:00	seaRM	1	vanNH	hold	3	1
-5	1	6:31:00	6:02:00	vanNH	1	seaRM	hold	4	1
-6	1	6:02:00	5:15:00	seaRM	1	vanNH	hold	4	2
-7	1	5:15:00	4:40:00	vanNH	2	vanNH	break	4	3
-8	1	4:40:00	1:58:00	vanNH	5	seaRM	hold	5	3
-9	1	1:58:00	1:40:00	seaRM	1	vanNH	hold	5	4
-10	1	1:40:00	0:46:00	vanNH	2	vanNH	break	5	5
-11	1	0:46:00	0:00:00	vanNH	NA	NA	NA	5	5
-12	2	10:00:00	7:56:00	vanNH	4	vanNH	break	5	6
-13	2	7:56:00	7:32:00	vanNH	1	seaRM	hold	6	6
-14	2	7:32:00	6:52:00	seaRM	2	seaRM	break	7	6
-15	2	6:52:00	5:17:00	seaRM	4	seaRM	break	8	6
-16	2	5:17:00	4:53:00	seaRM	1	vanNH	hold	8	7
-17	2	4:53:00	4:33:00	vanNH	1	seaRM	hold	9	7
-18	2	4:33:00	2:16:00	seaRM	5	vanNH	hold	9	8
-19	2	2:16:00	0:54:00	vanNH	3	seaRM	hold	10	8
-20	2	0:54:00	0:00:00	seaRM	3	vanNH	hold	10	9
-21	3	10:00:00	9:13:00	seaRM	2	seaRM	break	11	9
-22	3	9:13:00	9:01:00	seaRM	1	vanNH	hold	11	10
-23	3	9:01:00	7:39:00	vanNH	1	seaRM	hold	12	10
-24	3	7:39:00	6:51:00	seaRM	1	vanNH	hold	12	11
-25	3	6:51:00	3:30:00	vanNH	4	vanNH	break	12	12
-26	3	3:30:00	2:52:00	vanNH	1	seaRM	hold	13	12
-27	3	2:52:00	1:06:00	seaRM	4	seaRM	break	14	12
-28	3	1:06:00	0:00:00	seaRM	NA	NA	NA	14	12
-29	4	10:00:00	8:39:00	seaRM	2	seaRM	break	15	12
-30	4	8:39:00	8:23:00	seaRM	1	vanNH	hold	15	13
-31	4	8:23:00	6:46:00	vanNH	3	seaRM	hold	16	13
-32	4	6:46:00	6:21:00	seaRM	1	vanNH	hold	16	14
-33	4	6:21:00	6:11:00	vanNH	1	seaRM	hold	17	14
-34	4	6:11:00	5:51:00	seaRM	1	vanNH	hold	17	15
-35	4	5:51:00	2:33:00	vanNH	7	seaRM	hold	18	15
-36	4	2:33:00	0:39:07	seaRM	2	seaRM	break	19	15
-37	4	0:39:07	0:12:07	seaRM	2	seaRM	break	20	15
-38	4	0:12:00	0:00:00	seaRM	NA	NA	NA	20	15
+point	period	clk_before	clk_after	pull_team	n_poss	scor_team	h_or_b	seaRM	vanNH	pt_dur	pt_dur_txt
+1	1	10:00:00	9:26:00	vanNH	1	seaRM	hold	1	0	34	00:34
+2	1	9:26:00	7:19:00	seaRM	4	seaRM	break	2	0	127	02:07
+3	1	7:19:00	6:52:00	seaRM	2	seaRM	break	3	0	27	00:27
+4	1	6:52:00	6:31:00	seaRM	1	vanNH	hold	3	1	21	00:21
+5	1	6:31:00	6:02:00	vanNH	1	seaRM	hold	4	1	29	00:29
+6	1	6:02:00	5:15:00	seaRM	1	vanNH	hold	4	2	47	00:47
+7	1	5:15:00	4:40:00	vanNH	2	vanNH	break	4	3	35	00:35
+8	1	4:40:00	1:58:00	vanNH	5	seaRM	hold	5	3	162	02:42
+9	1	1:58:00	1:40:00	seaRM	1	vanNH	hold	5	4	18	00:18
+10	1	1:40:00	0:46:00	vanNH	2	vanNH	break	5	5	54	00:54
+11	1	0:46:00	0:00:00	vanNH	NA	NA	NA	5	5	46	00:46
+12	2	10:00:00	7:56:00	vanNH	4	vanNH	break	5	6	124	02:04
+13	2	7:56:00	7:32:00	vanNH	1	seaRM	hold	6	6	24	00:24
+14	2	7:32:00	6:52:00	seaRM	2	seaRM	break	7	6	40	00:40
+15	2	6:52:00	5:17:00	seaRM	4	seaRM	break	8	6	95	01:35
+16	2	5:17:00	4:53:00	seaRM	1	vanNH	hold	8	7	24	00:24
+17	2	4:53:00	4:33:00	vanNH	1	seaRM	hold	9	7	20	00:20
+18	2	4:33:00	2:16:00	seaRM	5	vanNH	hold	9	8	137	02:17
+19	2	2:16:00	0:54:00	vanNH	3	seaRM	hold	10	8	82	01:22
+20	2	0:54:00	0:00:00	seaRM	3	vanNH	hold	10	9	54	00:54
+21	3	10:00:00	9:13:00	seaRM	2	seaRM	break	11	9	47	00:47
+22	3	9:13:00	9:01:00	seaRM	1	vanNH	hold	11	10	12	00:12
+23	3	9:01:00	7:39:00	vanNH	1	seaRM	hold	12	10	82	01:22
+24	3	7:39:00	6:51:00	seaRM	1	vanNH	hold	12	11	48	00:48
+25	3	6:51:00	3:30:00	vanNH	4	vanNH	break	12	12	201	03:21
+26	3	3:30:00	2:52:00	vanNH	1	seaRM	hold	13	12	38	00:38
+27	3	2:52:00	1:06:00	seaRM	4	seaRM	break	14	12	106	01:46
+28	3	1:06:00	0:00:00	seaRM	NA	NA	NA	14	12	66	01:06
+29	4	10:00:00	8:39:00	seaRM	2	seaRM	break	15	12	81	01:21
+30	4	8:39:00	8:23:00	seaRM	1	vanNH	hold	15	13	16	00:16
+31	4	8:23:00	6:46:00	vanNH	3	seaRM	hold	16	13	97	01:37
+32	4	6:46:00	6:21:00	seaRM	1	vanNH	hold	16	14	25	00:25
+33	4	6:21:00	6:11:00	vanNH	1	seaRM	hold	17	14	10	00:10
+34	4	6:11:00	5:51:00	seaRM	1	vanNH	hold	17	15	20	00:20
+35	4	5:51:00	2:33:00	vanNH	7	seaRM	hold	18	15	198	03:18
+36	4	2:33:00	0:39:07	seaRM	2	seaRM	break	19	15	114	01:54
+37	4	0:39:07	0:12:07	seaRM	2	seaRM	break	20	15	27	00:27
+38	4	0:12:00	0:00:00	seaRM	NA	NA	NA	20	15	12	00:12

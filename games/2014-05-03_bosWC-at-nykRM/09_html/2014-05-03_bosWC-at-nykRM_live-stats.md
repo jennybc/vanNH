@@ -1,10 +1,3 @@
----
-output:
-  html_document:
-    theme: readable
-    includes:
-      before_body: 08_before-body-back-to-index-href.txt
----
 
 
 
@@ -12,13 +5,13 @@ output:
 
 
 
-#### last update Sat Jul 19 09:19:21 2014
 # bosWC 17
 # nykRM 18
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for bosWC](#away)  
   * [Player stats for nykRM](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -29,11 +22,11 @@ Go to ...
 | point|period |begin    |end     |pt_duration |desc                                      |bosWC |nykRM |
 |-----:|:------|:--------|:-------|:-----------|:-----------------------------------------|:-----|:-----|
 |    39|4      |0:22:00  |0:00:00 |00:22       |- no goal -                               |17    |18    |
-|    38|4      |???      |0:22:00 |???         |bosWC-5-doherty to bosWC-77-clark         |17    |18    |
+|    38|4      |NA       |0:22:00 |???         |bosWC-5-doherty to bosWC-77-clark         |17    |18    |
 |    37|4      |0:46:00  |0:30:00 |00:16       |nykRM-2-heljmen to nykRM-22-marsh         |16    |18    |
 |    36|4      |1:42:00  |0:46:00 |00:56       |bosWC-7-brecher to bosWC-17-foster        |16    |17    |
-|    35|4      |???      |???     |???         |bosWC-21-graham to bosWC-77-clark         |15    |17    |
-|    34|4      |3:30:00  |???     |???         |nykRM-6-mazur to nykRM-22-marsh           |14    |17    |
+|    35|4      |NA       |NA      |???         |bosWC-21-graham to bosWC-77-clark         |15    |17    |
+|    34|4      |3:30:00  |NA      |???         |nykRM-6-mazur to nykRM-22-marsh           |14    |17    |
 |    33|4      |5:58:00  |3:30:00 |02:28       |bosWC-13-malacek to bosWC-21-graham       |14    |16    |
 |    32|4      |6:10:00  |5:58:00 |00:12       |bosWC-17-foster to bosWC-11-foster        |13    |16    |
 |    31|4      |8:18:00  |6:31:00 |01:47       |nykRM-6-mazur to nykRM-3-cox              |12    |16    |
@@ -41,16 +34,16 @@ Go to ...
 |    29|4      |8:57:00  |8:30:00 |00:27       |bosWC-77-clark to bosWC-17-foster         |12    |14    |
 |    28|4      |9:49:00  |8:57:00 |00:52       |nykRM-47-murphy to nykRM-2-heljmen        |11    |14    |
 |    27|4      |10:00:00 |9:49:00 |00:11       |bosWC-17-foster to bosWC-77-clark         |11    |13    |
-|    26|3      |???      |0:00:00 |???         |- no goal -                               |10    |13    |
-|    25|3      |1:15:00  |???     |???         |bosWC-21-graham to bosWC-18-browar-jarus  |10    |13    |
-|    24|3      |???      |???     |???         |nykRM-19-saul to nykRM-6-mazur            |9     |13    |
-|    23|3      |???      |???     |???         |bosWC-8-cooper to bosWC-3-zid             |9     |12    |
-|    22|3      |???      |???     |???         |nykRM-3-cox to nykRM-41-faust             |8     |12    |
-|    21|3      |???      |???     |???         |nykRM-41-faust to nykRM-22-marsh          |8     |11    |
-|    20|3      |???      |???     |???         |bosWC-7-brecher to bosWC-18-browar-jarus  |8     |10    |
-|    19|3      |???      |???     |???         |nykRM-6-mazur to nykRM-44-gillies         |7     |10    |
-|    18|3      |???      |???     |???         |bosWC-13-malacek to bosWC-18-browar-jarus |7     |9     |
-|    17|3      |8:12:00  |???     |???         |nykRM-38-banerji to nykRM-5-sender        |6     |9     |
+|    26|3      |NA       |0:00:00 |???         |- no goal -                               |10    |13    |
+|    25|3      |1:15:00  |NA      |???         |bosWC-21-graham to bosWC-18-browar-jarus  |10    |13    |
+|    24|3      |NA       |NA      |???         |nykRM-19-saul to nykRM-6-mazur            |9     |13    |
+|    23|3      |NA       |NA      |???         |bosWC-8-cooper to bosWC-3-zid             |9     |12    |
+|    22|3      |NA       |NA      |???         |nykRM-3-cox to nykRM-41-faust             |8     |12    |
+|    21|3      |NA       |NA      |???         |nykRM-41-faust to nykRM-22-marsh          |8     |11    |
+|    20|3      |NA       |NA      |???         |bosWC-7-brecher to bosWC-18-browar-jarus  |8     |10    |
+|    19|3      |NA       |NA      |???         |nykRM-6-mazur to nykRM-44-gillies         |7     |10    |
+|    18|3      |NA       |NA      |???         |bosWC-13-malacek to bosWC-18-browar-jarus |7     |9     |
+|    17|3      |8:12:00  |NA      |???         |nykRM-38-banerji to nykRM-5-sender        |6     |9     |
 |    16|3      |10:00:00 |8:12:00 |01:48       |nykRM-19-saul to nykRM-41-faust           |6     |8     |
 |    15|2      |0:05:00  |0:00:00 |00:05       |- no goal -                               |6     |7     |
 |    14|2      |0:56:00  |0:05:00 |00:51       |nykRM-47-murphy to nykRM-6-mazur          |6     |7     |
@@ -67,6 +60,25 @@ Go to ...
 |     3|1      |7:44:00  |6:59:00 |00:45       |nykRM-19-saul to nykRM-47-murphy          |1     |2     |
 |     2|1      |9:34:00  |7:44:00 |01:50       |bosWC-3-zid to bosWC-21-graham            |1     |1     |
 |     1|1      |10:00:00 |9:34:00 |00:26       |nykRM-6-mazur to nykRM-22-marsh           |0     |1     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+![plot of chunk barchart_points](./2014-05-03_bosWC-at-nykRM_live-stats_files/figure-html/barchart_points.png) 
+
+### Goals
+
+![plot of chunk barchart_goals](./2014-05-03_bosWC-at-nykRM_live-stats_files/figure-html/barchart_goals.png) 
+
+### Assists
+
+![plot of chunk barchart_assists](./2014-05-03_bosWC-at-nykRM_live-stats_files/figure-html/barchart_assists.png) 
+
+### D's
+![plot of chunk barchart_ds](./2014-05-03_bosWC-at-nykRM_live-stats_files/figure-html/barchart_ds.png) 
 
 ## Player stats for bosWC <a id="away"></a>:
 

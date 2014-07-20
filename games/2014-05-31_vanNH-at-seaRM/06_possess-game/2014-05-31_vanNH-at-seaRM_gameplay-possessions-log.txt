@@ -16,5 +16,3 @@
   108 rows of possessions will be written
   58 resolved points to be written
   seaRM: 24 vanNH: 29
-  2014-07-15 22:44:18
-

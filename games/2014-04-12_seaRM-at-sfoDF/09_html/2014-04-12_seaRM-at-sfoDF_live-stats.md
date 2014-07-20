@@ -1,10 +1,3 @@
----
-output:
-  html_document:
-    theme: readable
-    includes:
-      before_body: 08_before-body-back-to-index-href.txt
----
 
 
 
@@ -12,13 +5,13 @@ output:
 
 
 
-#### last update Tue Jul 15 22:48:52 2014
 # seaRM 16
 # sfoDF 18
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for seaRM](#away)  
   * [Player stats for sfoDF](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -28,44 +21,63 @@ Go to ...
 
 | point|period |begin    |end |pt_duration |desc                                         |seaRM |sfoDF |
 |-----:|:------|:--------|:---|:-----------|:--------------------------------------------|:-----|:-----|
-|    38|4      |???      |??? |???         |- no goal -                                  |16    |18    |
-|    37|4      |???      |??? |???         |sfoDF-37-Hart to sfoDF-12-Bellinger          |16    |18    |
-|    36|4      |???      |??? |???         |sfoDF-23-Jeffery to sfoDF-13-Grant           |16    |17    |
-|    35|4      |???      |??? |???         |seaRM-20-simon to seaRM-9-harkness           |16    |16    |
-|    34|3      |???      |??? |???         |- no goal -                                  |15    |16    |
-|    33|3      |???      |??? |???         |sfoDF-16-Yeager to sfoDF-2-Adamson           |15    |16    |
-|    32|3      |???      |??? |???         |sfoDF-12-Bellinger to sfoDF-17-Boyd-Meredith |15    |15    |
-|    31|3      |???      |??? |???         |sfoDF-11-Lee to sfoDF-5-Cascino              |15    |14    |
-|    30|3      |???      |??? |???         |seaRM-9-harkness to seaRM-48-clark           |15    |13    |
-|    29|3      |???      |??? |???         |sfoDF-12-Bellinger to sfoDF-37-Hart          |14    |13    |
-|    28|3      |???      |??? |???         |sfoDF-11-Lee to sfoDF-5-Cascino              |14    |12    |
-|    27|3      |???      |??? |???         |seaRM-29-feeley to seaRM-35-koss             |14    |11    |
-|    26|3      |???      |??? |???         |seaRM-35-koss to seaRM-48-clark              |13    |11    |
-|    25|3      |???      |??? |???         |seaRM-21-phan to seaRM-29-feeley             |12    |11    |
-|    24|3      |???      |??? |???         |seaRM-1-mckibben to seaRM-48-clark           |11    |11    |
-|    23|3      |10:00:00 |??? |???         |sfoDF-37-Hart to sfoDF-10-Sugioka            |10    |11    |
-|    22|2      |???      |??? |???         |- no goal -                                  |10    |10    |
-|    21|2      |???      |??? |???         |seaRM-35-koss to seaRM-9-harkness            |10    |10    |
-|    20|2      |???      |??? |???         |sfoDF-34-Boucher to sfoDF-8-Pollard          |9     |10    |
-|    19|2      |???      |??? |???         |seaRM-6-trytiak to seaRM-17-zemel            |9     |9     |
-|    18|2      |???      |??? |???         |sfoDF-40-Taylor to sfoDF-24-Caulfield        |8     |9     |
-|    17|2      |???      |??? |???         |seaRM-6-trytiak to seaRM-9-harkness          |8     |8     |
-|    16|2      |???      |??? |???         |sfoDF-18-Weaver to sfoDF-85-Brydon           |7     |8     |
-|    15|2      |???      |??? |???         |sfoDF-34-Boucher to sfoDF-88-Kissmann        |7     |7     |
-|    14|2      |???      |??? |???         |sfoDF-40-Taylor to sfoDF-8-Pollard           |7     |6     |
-|    13|2      |???      |??? |???         |seaRM-6-trytiak to seaRM-48-clark            |7     |5     |
-|    12|2      |10:00:00 |??? |???         |sfoDF-17-Boyd-Meredith to sfoDF-12-Bellinger |6     |5     |
-|    11|1      |???      |??? |???         |- no goal -                                  |6     |4     |
-|    10|1      |???      |??? |???         |seaRM-3-o'brien to seaRM-9-harkness          |6     |4     |
-|     9|1      |???      |??? |???         |seaRM-6-trytiak to seaRM-48-clark            |5     |4     |
-|     8|1      |???      |??? |???         |sfoDF-13-Grant to sfoDF-34-Boucher           |4     |4     |
-|     7|1      |???      |??? |???         |seaRM-9-harkness to seaRM-1-mckibben         |4     |3     |
-|     6|1      |???      |??? |???         |sfoDF-12-Bellinger to sfoDF-18-Weaver        |3     |3     |
-|     5|1      |???      |??? |???         |sfoDF-23-Jeffery to sfoDF-34-Boucher         |3     |2     |
-|     4|1      |???      |??? |???         |seaRM-18-uhrig-fox to seaRM-6-trytiak        |3     |1     |
-|     3|1      |???      |??? |???         |sfoDF-34-Boucher to sfoDF-40-Taylor          |2     |1     |
-|     2|1      |???      |??? |???         |seaRM-29-feeley to seaRM-9-harkness          |2     |0     |
-|     1|1      |10:00:00 |??? |???         |seaRM-20-simon to seaRM-48-clark             |1     |0     |
+|    38|4      |NA       |NA  |???         |- no goal -                                  |16    |18    |
+|    37|4      |NA       |NA  |???         |sfoDF-37-Hart to sfoDF-12-Bellinger          |16    |18    |
+|    36|4      |NA       |NA  |???         |sfoDF-23-Jeffery to sfoDF-13-Grant           |16    |17    |
+|    35|4      |NA       |NA  |???         |seaRM-20-simon to seaRM-9-harkness           |16    |16    |
+|    34|3      |NA       |NA  |???         |- no goal -                                  |15    |16    |
+|    33|3      |NA       |NA  |???         |sfoDF-16-Yeager to sfoDF-2-Adamson           |15    |16    |
+|    32|3      |NA       |NA  |???         |sfoDF-12-Bellinger to sfoDF-17-Boyd-Meredith |15    |15    |
+|    31|3      |NA       |NA  |???         |sfoDF-11-Lee to sfoDF-5-Cascino              |15    |14    |
+|    30|3      |NA       |NA  |???         |seaRM-9-harkness to seaRM-48-clark           |15    |13    |
+|    29|3      |NA       |NA  |???         |sfoDF-12-Bellinger to sfoDF-37-Hart          |14    |13    |
+|    28|3      |NA       |NA  |???         |sfoDF-11-Lee to sfoDF-5-Cascino              |14    |12    |
+|    27|3      |NA       |NA  |???         |seaRM-29-feeley to seaRM-35-koss             |14    |11    |
+|    26|3      |NA       |NA  |???         |seaRM-35-koss to seaRM-48-clark              |13    |11    |
+|    25|3      |NA       |NA  |???         |seaRM-21-phan to seaRM-29-feeley             |12    |11    |
+|    24|3      |NA       |NA  |???         |seaRM-1-mckibben to seaRM-48-clark           |11    |11    |
+|    23|3      |10:00:00 |NA  |???         |sfoDF-37-Hart to sfoDF-10-Sugioka            |10    |11    |
+|    22|2      |NA       |NA  |???         |- no goal -                                  |10    |10    |
+|    21|2      |NA       |NA  |???         |seaRM-35-koss to seaRM-9-harkness            |10    |10    |
+|    20|2      |NA       |NA  |???         |sfoDF-34-Boucher to sfoDF-8-Pollard          |9     |10    |
+|    19|2      |NA       |NA  |???         |seaRM-6-trytiak to seaRM-17-zemel            |9     |9     |
+|    18|2      |NA       |NA  |???         |sfoDF-40-Taylor to sfoDF-24-Caulfield        |8     |9     |
+|    17|2      |NA       |NA  |???         |seaRM-6-trytiak to seaRM-9-harkness          |8     |8     |
+|    16|2      |NA       |NA  |???         |sfoDF-18-Weaver to sfoDF-85-Brydon           |7     |8     |
+|    15|2      |NA       |NA  |???         |sfoDF-34-Boucher to sfoDF-88-Kissmann        |7     |7     |
+|    14|2      |NA       |NA  |???         |sfoDF-40-Taylor to sfoDF-8-Pollard           |7     |6     |
+|    13|2      |NA       |NA  |???         |seaRM-6-trytiak to seaRM-48-clark            |7     |5     |
+|    12|2      |10:00:00 |NA  |???         |sfoDF-17-Boyd-Meredith to sfoDF-12-Bellinger |6     |5     |
+|    11|1      |NA       |NA  |???         |- no goal -                                  |6     |4     |
+|    10|1      |NA       |NA  |???         |seaRM-3-o'brien to seaRM-9-harkness          |6     |4     |
+|     9|1      |NA       |NA  |???         |seaRM-6-trytiak to seaRM-48-clark            |5     |4     |
+|     8|1      |NA       |NA  |???         |sfoDF-13-Grant to sfoDF-34-Boucher           |4     |4     |
+|     7|1      |NA       |NA  |???         |seaRM-9-harkness to seaRM-1-mckibben         |4     |3     |
+|     6|1      |NA       |NA  |???         |sfoDF-12-Bellinger to sfoDF-18-Weaver        |3     |3     |
+|     5|1      |NA       |NA  |???         |sfoDF-23-Jeffery to sfoDF-34-Boucher         |3     |2     |
+|     4|1      |NA       |NA  |???         |seaRM-18-uhrig-fox to seaRM-6-trytiak        |3     |1     |
+|     3|1      |NA       |NA  |???         |sfoDF-34-Boucher to sfoDF-40-Taylor          |2     |1     |
+|     2|1      |NA       |NA  |???         |seaRM-29-feeley to seaRM-9-harkness          |2     |0     |
+|     1|1      |10:00:00 |NA  |???         |seaRM-20-simon to seaRM-48-clark             |1     |0     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+![plot of chunk barchart_points](./2014-04-12_seaRM-at-sfoDF_live-stats_files/figure-html/barchart_points.png) 
+
+### Goals
+
+![plot of chunk barchart_goals](./2014-04-12_seaRM-at-sfoDF_live-stats_files/figure-html/barchart_goals.png) 
+
+### Assists
+
+![plot of chunk barchart_assists](./2014-04-12_seaRM-at-sfoDF_live-stats_files/figure-html/barchart_assists.png) 
+
+### D's
+![plot of chunk barchart_ds](./2014-04-12_seaRM-at-sfoDF_live-stats_files/figure-html/barchart_ds.png) 
 
 ## Player stats for seaRM <a id="away"></a>:
 

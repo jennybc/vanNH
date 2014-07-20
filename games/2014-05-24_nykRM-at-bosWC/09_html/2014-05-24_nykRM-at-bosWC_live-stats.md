@@ -1,10 +1,3 @@
----
-output:
-  html_document:
-    theme: readable
-    includes:
-      before_body: 08_before-body-back-to-index-href.txt
----
 
 
 
@@ -12,13 +5,13 @@ output:
 
 
 
-#### last update Sat Jul 19 14:09:38 2014
 # nykRM 6
 # bosWC 23
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for nykRM](#away)  
   * [Player stats for bosWC](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -60,6 +53,25 @@ Go to ...
 |     3|1      |8:47:00  |7:38:00 |01:09       |bosWC-8-cooper to bosWC-13-malacek       |0     |3     |
 |     2|1      |9:34:00  |8:47:00 |00:47       |bosWC-6-roth to bosWC-29-stevens         |0     |2     |
 |     1|1      |10:00:00 |9:34:00 |00:26       |bosWC-29-stevens to bosWC-6-roth         |0     |1     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+![plot of chunk barchart_points](./2014-05-24_nykRM-at-bosWC_live-stats_files/figure-html/barchart_points.png) 
+
+### Goals
+
+![plot of chunk barchart_goals](./2014-05-24_nykRM-at-bosWC_live-stats_files/figure-html/barchart_goals.png) 
+
+### Assists
+
+![plot of chunk barchart_assists](./2014-05-24_nykRM-at-bosWC_live-stats_files/figure-html/barchart_assists.png) 
+
+### D's
+![plot of chunk barchart_ds](./2014-05-24_nykRM-at-bosWC_live-stats_files/figure-html/barchart_ds.png) 
 
 ## Player stats for nykRM <a id="away"></a>:
 

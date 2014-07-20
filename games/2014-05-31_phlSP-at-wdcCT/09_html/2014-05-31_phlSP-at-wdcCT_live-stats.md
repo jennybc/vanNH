@@ -1,10 +1,3 @@
----
-output:
-  html_document:
-    theme: readable
-    includes:
-      before_body: 08_before-body-back-to-index-href.txt
----
 
 
 
@@ -77,18 +70,18 @@ Go to ...
 
 ### Points = goals + assists
 
-<img src="./2014-05-31_phlSP-at-wdcCT_live-stats_files/figure-html/barchart_points.png" title="plot of chunk barchart_points" alt="plot of chunk barchart_points" width="672" />
+![plot of chunk barchart_points](./2014-05-31_phlSP-at-wdcCT_live-stats_files/figure-html/barchart_points.png) 
 
 ### Goals
 
-<img src="./2014-05-31_phlSP-at-wdcCT_live-stats_files/figure-html/barchart_goals.png" title="plot of chunk barchart_goals" alt="plot of chunk barchart_goals" width="672" />
+![plot of chunk barchart_goals](./2014-05-31_phlSP-at-wdcCT_live-stats_files/figure-html/barchart_goals.png) 
 
 ### Assists
 
-<img src="./2014-05-31_phlSP-at-wdcCT_live-stats_files/figure-html/barchart_assists.png" title="plot of chunk barchart_assists" alt="plot of chunk barchart_assists" width="672" />
+![plot of chunk barchart_assists](./2014-05-31_phlSP-at-wdcCT_live-stats_files/figure-html/barchart_assists.png) 
 
 ### D's
-<img src="./2014-05-31_phlSP-at-wdcCT_live-stats_files/figure-html/barchart_ds.png" title="plot of chunk barchart_ds" alt="plot of chunk barchart_ds" width="672" />
+![plot of chunk barchart_ds](./2014-05-31_phlSP-at-wdcCT_live-stats_files/figure-html/barchart_ds.png) 
 
 ## Player stats for phlSP <a id="away"></a>:
 

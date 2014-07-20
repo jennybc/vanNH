@@ -1,10 +1,3 @@
----
-output:
-  html_document:
-    theme: readable
-    includes:
-      before_body: 08_before-body-back-to-index-href.txt
----
 
 
 
@@ -12,13 +5,13 @@ output:
 
 
 
-#### last update Tue Jul 15 22:49:04 2014
 # pdxST 18
 # sfoDF 16
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for pdxST](#away)  
   * [Player stats for sfoDF](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -66,6 +59,25 @@ Go to ...
 |     3|1      |6:26:00  |5:45:00 |00:41       |sfoDF-40-Taylor to sfoDF-23-Jeffery     |1     |2     |
 |     2|1      |8:37:00  |6:26:00 |02:11       |pdxST-10-Strout to pdxST-16-Burton      |1     |1     |
 |     1|1      |10:00:00 |8:37:00 |01:23       |sfoDF-16-Yeager to sfoDF-37-Hart        |0     |1     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+![plot of chunk barchart_points](./2014-04-26_pdxST-at-sfoDF_live-stats_files/figure-html/barchart_points.png) 
+
+### Goals
+
+![plot of chunk barchart_goals](./2014-04-26_pdxST-at-sfoDF_live-stats_files/figure-html/barchart_goals.png) 
+
+### Assists
+
+![plot of chunk barchart_assists](./2014-04-26_pdxST-at-sfoDF_live-stats_files/figure-html/barchart_assists.png) 
+
+### D's
+![plot of chunk barchart_ds](./2014-04-26_pdxST-at-sfoDF_live-stats_files/figure-html/barchart_ds.png) 
 
 ## Player stats for pdxST <a id="away"></a>:
 

@@ -8,6 +8,3 @@ Loading required package: methods
   point 11 event 11 team bosWC number 44 code A
   point 13 event 7 team bosWC number 44 code G
   scoring progression table has 43 rows
-[1] TRUE
-[1] TRUE
-[1] TRUE

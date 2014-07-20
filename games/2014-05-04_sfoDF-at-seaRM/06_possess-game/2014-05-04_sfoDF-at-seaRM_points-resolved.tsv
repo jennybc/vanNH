@@ -1,38 +1,38 @@
-point	period	clk_before	clk_after	pull_team	n_poss	scor_team	h_or_b	seaRM	sfoDF
-1	1	10:00:00	7:45:00	sfoDF	3	seaRM	hold	1	0
-2	1	7:45:00	7:27:00	seaRM	2	seaRM	break	2	0
-3	1	7:27:00	6:43:00	seaRM	2	seaRM	break	3	0
-4	1	6:43:00	4:21:00	seaRM	5	sfoDF	hold	3	1
-5	1	4:21:00	2:45:00	sfoDF	3	seaRM	hold	4	1
-6	1	2:45:00	1:28:00	seaRM	2	seaRM	break	5	1
-7	1	1:28:00	0:45:00	seaRM	2	seaRM	break	6	1
-8	1	0:45:00	0:34:00	seaRM	1	sfoDF	hold	6	2
-9	1	0:34:00	0:07:00	sfoDF	1	seaRM	hold	7	2
-10	1	0:07:00	0:00:00	seaRM	NA	NA	NA	7	2
-11	2	10:00:00	8:14:00	seaRM	4	seaRM	break	8	2
-12	2	8:14:00	7:57:00	seaRM	2	seaRM	break	9	2
-13	2	7:57:00	6:19:00	seaRM	3	sfoDF	hold	9	3
-14	2	6:19:00	5:12:00	sfoDF	3	seaRM	hold	10	3
-15	2	5:12:00	4:15:00	seaRM	2	seaRM	break	11	3
-16	2	4:15:00	3:52:00	seaRM	2	seaRM	break	12	3
-17	2	3:52:00	3:11:00	seaRM	1	sfoDF	hold	12	4
-18	2	3:11:00	0:21:00	sfoDF	4	sfoDF	break	12	5
-19	2	0:21:00	0:00:00	sfoDF	NA	NA	NA	12	5
-20	3	10:00:00	9:24:00	sfoDF	2	sfoDF	break	12	6
-21	3	9:24:00	9:13:00	sfoDF	1	seaRM	hold	13	6
-22	3	9:13:00	8:25:00	seaRM	1	sfoDF	hold	13	7
-23	3	8:25:00	7:14:00	sfoDF	2	sfoDF	break	13	8
-24	3	7:14:00	5:41:00	sfoDF	4	sfoDF	break	13	9
-25	3	5:41:00	4:40:00	sfoDF	2	sfoDF	break	13	10
-26	3	4:40:00	3:14:00	sfoDF	3	seaRM	hold	14	10
-27	3	3:14:00	2:55:00	seaRM	1	sfoDF	hold	14	11
-28	3	2:55:00	0:00:00	sfoDF	7	seaRM	hold	15	11
-29	4	10:00:00	8:45:00	seaRM	2	seaRM	break	16	11
-30	4	8:45:00	7:39:00	seaRM	3	sfoDF	hold	16	12
-31	4	7:39:00	7:20:00	sfoDF	1	seaRM	hold	17	12
-32	4	7:20:00	5:46:00	seaRM	3	sfoDF	hold	17	13
-33	4	5:46:00	4:33:00	sfoDF	2	sfoDF	break	17	14
-34	4	4:33:00	4:02:00	sfoDF	1	seaRM	hold	18	14
-35	4	4:02:00	3:28:00	seaRM	1	sfoDF	hold	18	15
-36	4	3:28:00	2:13:00	sfoDF	2	sfoDF	break	18	16
-37	4	2:13:00	0:00:00	sfoDF	NA	NA	NA	18	16
+point	period	clk_before	clk_after	pull_team	n_poss	scor_team	h_or_b	seaRM	sfoDF	pt_dur	pt_dur_txt
+1	1	10:00:00	7:45:00	sfoDF	3	seaRM	hold	1	0	135	02:15
+2	1	7:45:00	7:27:00	seaRM	2	seaRM	break	2	0	18	00:18
+3	1	7:27:00	6:43:00	seaRM	2	seaRM	break	3	0	44	00:44
+4	1	6:43:00	4:21:00	seaRM	5	sfoDF	hold	3	1	142	02:22
+5	1	4:21:00	2:45:00	sfoDF	3	seaRM	hold	4	1	96	01:36
+6	1	2:45:00	1:28:00	seaRM	2	seaRM	break	5	1	77	01:17
+7	1	1:28:00	0:45:00	seaRM	2	seaRM	break	6	1	43	00:43
+8	1	0:45:00	0:34:00	seaRM	1	sfoDF	hold	6	2	11	00:11
+9	1	0:34:00	0:07:00	sfoDF	1	seaRM	hold	7	2	27	00:27
+10	1	0:07:00	0:00:00	seaRM	NA	NA	NA	7	2	7	00:07
+11	2	10:00:00	8:14:00	seaRM	4	seaRM	break	8	2	106	01:46
+12	2	8:14:00	7:57:00	seaRM	2	seaRM	break	9	2	17	00:17
+13	2	7:57:00	6:19:00	seaRM	3	sfoDF	hold	9	3	98	01:38
+14	2	6:19:00	5:12:00	sfoDF	3	seaRM	hold	10	3	67	01:07
+15	2	5:12:00	4:15:00	seaRM	2	seaRM	break	11	3	57	00:57
+16	2	4:15:00	3:52:00	seaRM	2	seaRM	break	12	3	23	00:23
+17	2	3:52:00	3:11:00	seaRM	1	sfoDF	hold	12	4	41	00:41
+18	2	3:11:00	0:21:00	sfoDF	4	sfoDF	break	12	5	170	02:50
+19	2	0:21:00	0:00:00	sfoDF	NA	NA	NA	12	5	21	00:21
+20	3	10:00:00	9:24:00	sfoDF	2	sfoDF	break	12	6	36	00:36
+21	3	9:24:00	9:13:00	sfoDF	1	seaRM	hold	13	6	11	00:11
+22	3	9:13:00	8:25:00	seaRM	1	sfoDF	hold	13	7	48	00:48
+23	3	8:25:00	7:14:00	sfoDF	2	sfoDF	break	13	8	71	01:11
+24	3	7:14:00	5:41:00	sfoDF	4	sfoDF	break	13	9	93	01:33
+25	3	5:41:00	4:40:00	sfoDF	2	sfoDF	break	13	10	61	01:01
+26	3	4:40:00	3:14:00	sfoDF	3	seaRM	hold	14	10	86	01:26
+27	3	3:14:00	2:55:00	seaRM	1	sfoDF	hold	14	11	19	00:19
+28	3	2:55:00	0:00:00	sfoDF	7	seaRM	hold	15	11	175	02:55
+29	4	10:00:00	8:45:00	seaRM	2	seaRM	break	16	11	75	01:15
+30	4	8:45:00	7:39:00	seaRM	3	sfoDF	hold	16	12	66	01:06
+31	4	7:39:00	7:20:00	sfoDF	1	seaRM	hold	17	12	19	00:19
+32	4	7:20:00	5:46:00	seaRM	3	sfoDF	hold	17	13	94	01:34
+33	4	5:46:00	4:33:00	sfoDF	2	sfoDF	break	17	14	73	01:13
+34	4	4:33:00	4:02:00	sfoDF	1	seaRM	hold	18	14	31	00:31
+35	4	4:02:00	3:28:00	seaRM	1	sfoDF	hold	18	15	34	00:34
+36	4	3:28:00	2:13:00	sfoDF	2	sfoDF	break	18	16	75	01:15
+37	4	2:13:00	0:00:00	sfoDF	NA	NA	NA	18	16	133	02:13

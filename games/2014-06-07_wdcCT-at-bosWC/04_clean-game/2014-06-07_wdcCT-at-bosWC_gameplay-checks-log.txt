@@ -1,5 +1,3 @@
 2014-06-07_wdcCT-at-bosWC > 05_sanity-check-game-play.r:
   596 rows of clean game play found
   sanity checks of clean game play DONE
-  2014-07-15 20:39:10
-

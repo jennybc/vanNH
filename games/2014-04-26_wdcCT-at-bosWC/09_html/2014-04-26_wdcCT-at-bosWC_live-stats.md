@@ -1,10 +1,3 @@
----
-output:
-  html_document:
-    theme: readable
-    includes:
-      before_body: 08_before-body-back-to-index-href.txt
----
 
 
 
@@ -12,13 +5,13 @@ output:
 
 
 
-#### last update Tue Jul 15 22:49:08 2014
 # wdcCT 12
 # bosWC 17
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for wdcCT](#away)  
   * [Player stats for bosWC](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -60,6 +53,25 @@ Go to ...
 |     3|1      |7:03:00  |5:10:00 |01:53       |bosWC-4-rebholz to bosWC-13-malacek                 |2     |1     |
 |     2|1      |9:26:00  |7:03:00 |02:23       |wdcCT-9-doi to wdcCT-45-wodatch                     |2     |0     |
 |     1|1      |10:00:00 |9:26:00 |00:34       |wdcCT-88-oung to wdcCT-27-johnston                  |1     |0     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+![plot of chunk barchart_points](./2014-04-26_wdcCT-at-bosWC_live-stats_files/figure-html/barchart_points.png) 
+
+### Goals
+
+![plot of chunk barchart_goals](./2014-04-26_wdcCT-at-bosWC_live-stats_files/figure-html/barchart_goals.png) 
+
+### Assists
+
+![plot of chunk barchart_assists](./2014-04-26_wdcCT-at-bosWC_live-stats_files/figure-html/barchart_assists.png) 
+
+### D's
+![plot of chunk barchart_ds](./2014-04-26_wdcCT-at-bosWC_live-stats_files/figure-html/barchart_ds.png) 
 
 ## Player stats for wdcCT <a id="away"></a>:
 

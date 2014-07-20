@@ -1,10 +1,3 @@
----
-output:
-  html_document:
-    theme: readable
-    includes:
-      before_body: 08_before-body-back-to-index-href.txt
----
 
 
 
@@ -12,13 +5,13 @@ output:
 
 
 
-#### last update Sat Jul 19 14:48:41 2014
 # bosWC 21
 # nykRM 16
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for bosWC](#away)  
   * [Player stats for nykRM](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -68,6 +61,25 @@ Go to ...
 |     3|1      |6:35:00  |6:02:00 |00:33       |nykRM-4-hennessy to nykRM-6-mazur             |1     |2     |
 |     2|1      |9:31:00  |6:35:00 |02:56       |bosWC-13-malacek to bosWC-7-brecher           |1     |1     |
 |     1|1      |10:00:00 |9:31:00 |00:29       |nykRM-44-gillies to nykRM-6-mazur             |0     |1     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+![plot of chunk barchart_points](./2014-06-21_bosWC-at-nykRM_live-stats_files/figure-html/barchart_points.png) 
+
+### Goals
+
+![plot of chunk barchart_goals](./2014-06-21_bosWC-at-nykRM_live-stats_files/figure-html/barchart_goals.png) 
+
+### Assists
+
+![plot of chunk barchart_assists](./2014-06-21_bosWC-at-nykRM_live-stats_files/figure-html/barchart_assists.png) 
+
+### D's
+![plot of chunk barchart_ds](./2014-06-21_bosWC-at-nykRM_live-stats_files/figure-html/barchart_ds.png) 
 
 ## Player stats for bosWC <a id="away"></a>:
 

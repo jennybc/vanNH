@@ -9,5 +9,3 @@
   551 rows of pass data will be written
   roster read for pdxST and seaRM
   writing player stats to file: 20 for pdxST, 23 for seaRM
-  2014-07-15 22:48:09
-

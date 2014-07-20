@@ -1,10 +1,3 @@
----
-output:
-  html_document:
-    theme: readable
-    includes:
-      before_body: 08_before-body-back-to-index-href.txt
----
 
 
 
@@ -12,13 +5,13 @@ output:
 
 
 
-#### last update Tue Jul 15 22:49:32 2014
 # sfoDF 15
 # pdxST 20
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for sfoDF](#away)  
   * [Player stats for pdxST](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -34,8 +27,8 @@ Go to ...
 |    36|4      |3:41:00  |3:15:00 |00:26       |sfoDF-11-Lee to sfoDF-21-Stearns          |15    |18    |
 |    35|4      |4:17:00  |3:41:00 |00:36       |sfoDF-88-Kissmann to sfoDF-46-McCarty     |14    |18    |
 |    34|4      |6:38:00  |4:17:00 |02:21       |pdxST-17-Hayes to pdxST-4-Blackman        |13    |18    |
-|    33|4      |???      |6:38:00 |???         |sfoDF-6-Kim to sfoDF-16-Yeager            |13    |17    |
-|    32|4      |7:31:00  |???     |???         |pdxST-3-Ferrea to pdxST-12-Bui            |12    |17    |
+|    33|4      |NA       |6:38:00 |???         |sfoDF-6-Kim to sfoDF-16-Yeager            |13    |17    |
+|    32|4      |7:31:00  |NA      |???         |pdxST-3-Ferrea to pdxST-12-Bui            |12    |17    |
 |    31|4      |7:52:00  |7:31:00 |00:21       |pdxST-42-Lohre to pdxST-6-Bjorklund       |12    |16    |
 |    30|4      |10:00:00 |7:52:00 |02:08       |sfoDF-85-Brydon to sfoDF-18-Weaver        |12    |15    |
 |    29|3      |0:08:00  |0:00:00 |00:08       |- no goal -                               |11    |15    |
@@ -67,6 +60,25 @@ Go to ...
 |     3|1      |7:49:00  |6:58:00 |00:51       |sfoDF-6-Kim to sfoDF-13-Grant             |2     |1     |
 |     2|1      |8:28:00  |7:49:00 |00:39       |pdxST-42-Lohre to pdxST-2-Allison-Hall    |1     |1     |
 |     1|1      |10:00:00 |8:28:00 |01:32       |sfoDF-16-Yeager to sfoDF-88-Kissmann      |1     |0     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+![plot of chunk barchart_points](./2014-05-31_sfoDF-at-pdxST_live-stats_files/figure-html/barchart_points.png) 
+
+### Goals
+
+![plot of chunk barchart_goals](./2014-05-31_sfoDF-at-pdxST_live-stats_files/figure-html/barchart_goals.png) 
+
+### Assists
+
+![plot of chunk barchart_assists](./2014-05-31_sfoDF-at-pdxST_live-stats_files/figure-html/barchart_assists.png) 
+
+### D's
+![plot of chunk barchart_ds](./2014-05-31_sfoDF-at-pdxST_live-stats_files/figure-html/barchart_ds.png) 
 
 ## Player stats for sfoDF <a id="away"></a>:
 

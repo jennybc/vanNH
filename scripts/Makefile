@@ -31,8 +31,8 @@
 #GOOGAME ?= "Official Statistics - 2014 - Playoffs - 6/28 - Nighthawks @ Stags"
 #GAME ?= 2014-06-28_vanNH-at-pdxST
 
-#GOOGAME ?= "Official Statistics - 2014 - Week 1 - 4/12 - Rainmakers @ Dogfish"
-#GAME ?= 2014-04-12_seaRM-at-sfoDF
+GOOGAME ?= "Official Statistics - 2014 - Week 1 - 4/12 - Rainmakers @ Dogfish"
+GAME ?= 2014-04-12_seaRM-at-sfoDF
 
 #GOOGAME ?= "Official Statistics - 2014 - Week 2 - 4/19 - Dogfish @ Rainmakers"
 #GAME ?= 2014-04-19_sfoDF-at-seaRM
@@ -124,8 +124,8 @@
 #GOOGAME ?= "Official Statistics - 2014 - Week 11 - 6/21 - Whitecaps @ Rumble"  
 #GAME ?= 2014-06-21_bosWC-at-nykRM
 
-GOOGAME ?= "Official Statistics - 2014 - MLU Championship - 7/19 - Nighthawks @ Current"  
-GAME ?= 2014-07-19_vanNH-at-wdcCT
+#GOOGAME ?= "Official Statistics - 2014 - MLU Championship - 7/19 - Nighthawks @ Current"  
+#GAME ?= 2014-07-19_vanNH-at-wdcCT
 
 ## just in case GAME has some trailing whitespace ...
 GAME := $(strip $(GAME))

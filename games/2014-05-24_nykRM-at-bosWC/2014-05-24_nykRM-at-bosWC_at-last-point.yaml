@@ -8,4 +8,6 @@ scor_team: .na.character
 h_or_b: .na.character
 bosWC: 23
 nykRM: 6
+pt_dur: 12.0
+pt_dur_txt: '00:12'
 

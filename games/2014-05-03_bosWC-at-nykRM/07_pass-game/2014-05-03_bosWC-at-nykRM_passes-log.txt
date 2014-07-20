@@ -27,5 +27,3 @@
   416 rows of pass data will be written
   roster read for bosWC and nykRM
   writing player stats to file: 22 for bosWC, 21 for nykRM
-  2014-07-19 09:19:20
-

@@ -1,3 +1,4 @@
+Loading required package: methods
 2014-06-15_pdxST-at-vanNH > 09_vanNH-nowPlaying.rmd:
   roster read for pdxST and vanNH
   game YAML read; game status: complete
@@ -6,6 +7,3 @@
   ALERT last name unknown for player(s) involved in these plays:
   point 6 event 22 team pdxST number ? code D
   scoring progression table has 41 rows
-[1] TRUE
-[1] TRUE
-[1] TRUE

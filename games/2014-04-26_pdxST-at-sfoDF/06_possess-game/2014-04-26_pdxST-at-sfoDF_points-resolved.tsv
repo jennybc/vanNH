@@ -1,39 +1,39 @@
-point	period	clk_before	clk_after	pull_team	n_poss	scor_team	h_or_b	pdxST	sfoDF
-1	1	10:00:00	8:37:00	sfoDF	4	sfoDF	break	0	1
-2	1	8:37:00	6:26:00	sfoDF	5	pdxST	hold	1	1
-3	1	6:26:00	5:45:00	pdxST	3	sfoDF	hold	1	2
-4	1	5:45:00	3:35:00	sfoDF	4	sfoDF	break	1	3
-5	1	3:35:00	2:03:00	sfoDF	3	pdxST	hold	2	3
-6	1	2:03:00	1:35:00	pdxST	2	pdxST	break	3	3
-7	1	1:35:00	1:11:00	pdxST	1	sfoDF	hold	3	4
-8	1	1:11:00	0:39:00	sfoDF	1	pdxST	hold	4	4
-9	1	0:39:00	0:00:00	pdxST	5	sfoDF	hold	4	5
-10	2	10:00:00	9:36:00	pdxST	1	sfoDF	hold	4	6
-11	2	9:36:00	8:18:00	sfoDF	3	pdxST	hold	5	6
-12	2	8:18:00	6:18:00	pdxST	3	sfoDF	hold	5	7
-13	2	6:18:00	4:31:00	sfoDF	5	pdxST	hold	6	7
-14	2	4:31:00	2:06:00	pdxST	3	sfoDF	hold	6	8
-15	1	2:06:00	1:41:00	sfoDF	1	pdxST	hold	7	8
-16	2	1:41:00	1:25:00	pdxST	1	sfoDF	hold	7	9
-17	2	1:25:00	0:09:08	sfoDF	3	pdxST	hold	8	9
-18	2	0:09:08	0:00:00	pdxST	NA	NA	NA	8	9
-19	3	10:00:00	8:52:00	sfoDF	4	sfoDF	break	8	10
-20	3	8:52:00	8:04:00	sfoDF	2	sfoDF	break	8	11
-21	3	8:04:00	5:27:00	sfoDF	6	sfoDF	break	8	12
-22	3	5:27:00	5:02:00	sfoDF	2	sfoDF	break	8	13
-23	3	5:02:00	3:30:00	sfoDF	3	pdxST	hold	9	13
-24	3	3:30:00	1:51:00	pdxST	2	pdxST	break	10	13
-25	3	1:51:00	1:24:00	pdxST	1	sfoDF	hold	10	14
-26	3	1:24:00	0:00:00	sfoDF	NA	NA	NA	10	14
-27	4	10:00:00	9:24:00	pdxST	2	pdxST	break	11	14
-28	4	9:24:00	8:39:00	pdxST	2	pdxST	break	12	14
-29	4	8:39:00	7:58:00	pdxST	2	pdxST	break	13	14
-30	4	7:58:00	7:37:00	pdxST	1	sfoDF	hold	13	15
-31	4	7:37:00	6:56:00	sfoDF	3	pdxST	hold	14	15
-32	4	6:56:00	6:11:00	pdxST	3	sfoDF	hold	14	16
-33	4	6:11:00	5:28:00	sfoDF	1	pdxST	hold	15	16
-34	4	5:28:00	0:08:07	pdxST	8	pdxST	break	16	16
-35	4	0:08:07	0:00:00	pdxST	NA	NA	NA	16	16
-36	5	5:00:00	3:37:00	sfoDF	3	pdxST	hold	17	16
-37	5	3:37:00	0:11:00	pdxST	6	pdxST	break	18	16
-38	5	0:11:00	0:00:00	pdxST	NA	NA	NA	18	16
+point	period	clk_before	clk_after	pull_team	n_poss	scor_team	h_or_b	pdxST	sfoDF	pt_dur	pt_dur_txt
+1	1	10:00:00	8:37:00	sfoDF	4	sfoDF	break	0	1	83	01:23
+2	1	8:37:00	6:26:00	sfoDF	5	pdxST	hold	1	1	131	02:11
+3	1	6:26:00	5:45:00	pdxST	3	sfoDF	hold	1	2	41	00:41
+4	1	5:45:00	3:35:00	sfoDF	4	sfoDF	break	1	3	130	02:10
+5	1	3:35:00	2:03:00	sfoDF	3	pdxST	hold	2	3	92	01:32
+6	1	2:03:00	1:35:00	pdxST	2	pdxST	break	3	3	28	00:28
+7	1	1:35:00	1:11:00	pdxST	1	sfoDF	hold	3	4	24	00:24
+8	1	1:11:00	0:39:00	sfoDF	1	pdxST	hold	4	4	32	00:32
+9	1	0:39:00	0:00:00	pdxST	5	sfoDF	hold	4	5	39	00:39
+10	2	10:00:00	9:36:00	pdxST	1	sfoDF	hold	4	6	24	00:24
+11	2	9:36:00	8:18:00	sfoDF	3	pdxST	hold	5	6	78	01:18
+12	2	8:18:00	6:18:00	pdxST	3	sfoDF	hold	5	7	120	02:00
+13	2	6:18:00	4:31:00	sfoDF	5	pdxST	hold	6	7	107	01:47
+14	2	4:31:00	2:06:00	pdxST	3	sfoDF	hold	6	8	145	02:25
+15	1	2:06:00	1:41:00	sfoDF	1	pdxST	hold	7	8	25	00:25
+16	2	1:41:00	1:25:00	pdxST	1	sfoDF	hold	7	9	16	00:16
+17	2	1:25:00	0:09:08	sfoDF	3	pdxST	hold	8	9	76	01:16
+18	2	0:09:08	0:00:00	pdxST	NA	NA	NA	8	9	9	00:09
+19	3	10:00:00	8:52:00	sfoDF	4	sfoDF	break	8	10	68	01:08
+20	3	8:52:00	8:04:00	sfoDF	2	sfoDF	break	8	11	48	00:48
+21	3	8:04:00	5:27:00	sfoDF	6	sfoDF	break	8	12	157	02:37
+22	3	5:27:00	5:02:00	sfoDF	2	sfoDF	break	8	13	25	00:25
+23	3	5:02:00	3:30:00	sfoDF	3	pdxST	hold	9	13	92	01:32
+24	3	3:30:00	1:51:00	pdxST	2	pdxST	break	10	13	99	01:39
+25	3	1:51:00	1:24:00	pdxST	1	sfoDF	hold	10	14	27	00:27
+26	3	1:24:00	0:00:00	sfoDF	NA	NA	NA	10	14	84	01:24
+27	4	10:00:00	9:24:00	pdxST	2	pdxST	break	11	14	36	00:36
+28	4	9:24:00	8:39:00	pdxST	2	pdxST	break	12	14	45	00:45
+29	4	8:39:00	7:58:00	pdxST	2	pdxST	break	13	14	41	00:41
+30	4	7:58:00	7:37:00	pdxST	1	sfoDF	hold	13	15	21	00:21
+31	4	7:37:00	6:56:00	sfoDF	3	pdxST	hold	14	15	41	00:41
+32	4	6:56:00	6:11:00	pdxST	3	sfoDF	hold	14	16	45	00:45
+33	4	6:11:00	5:28:00	sfoDF	1	pdxST	hold	15	16	43	00:43
+34	4	5:28:00	0:08:07	pdxST	8	pdxST	break	16	16	320	05:20
+35	4	0:08:07	0:00:00	pdxST	NA	NA	NA	16	16	8	00:08
+36	5	5:00:00	3:37:00	sfoDF	3	pdxST	hold	17	16	83	01:23
+37	5	3:37:00	0:11:00	pdxST	6	pdxST	break	18	16	206	03:26
+38	5	0:11:00	0:00:00	pdxST	NA	NA	NA	18	16	11	00:11

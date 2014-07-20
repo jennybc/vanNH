@@ -1,10 +1,3 @@
----
-output:
-  html_document:
-    theme: readable
-    includes:
-      before_body: 08_before-body-back-to-index-href.txt
----
 
 
 
@@ -12,13 +5,13 @@ output:
 
 
 
-#### last update Tue Jul 15 22:49:21 2014
 # seaRM 25
 # pdxST 23
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for seaRM](#away)  
   * [Player stats for pdxST](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -79,6 +72,25 @@ Go to ...
 |     3|1      |9:11:00  |8:27:00 |00:44       |seaRM-6-trytiak to seaRM-25-rosatto       |2     |1     |
 |     2|1      |9:52:00  |9:11:00 |00:41       |pdxST-16-Burton to pdxST-7-Friedman       |1     |1     |
 |     1|1      |10:00:00 |9:52:00 |00:08       |seaRM-8-fong to seaRM-48-clark            |1     |0     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+![plot of chunk barchart_points](./2014-05-17_seaRM-at-pdxST_live-stats_files/figure-html/barchart_points.png) 
+
+### Goals
+
+![plot of chunk barchart_goals](./2014-05-17_seaRM-at-pdxST_live-stats_files/figure-html/barchart_goals.png) 
+
+### Assists
+
+![plot of chunk barchart_assists](./2014-05-17_seaRM-at-pdxST_live-stats_files/figure-html/barchart_assists.png) 
+
+### D's
+![plot of chunk barchart_ds](./2014-05-17_seaRM-at-pdxST_live-stats_files/figure-html/barchart_ds.png) 
 
 ## Player stats for seaRM <a id="away"></a>:
 

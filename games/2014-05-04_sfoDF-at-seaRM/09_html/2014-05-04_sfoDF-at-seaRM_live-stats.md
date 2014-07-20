@@ -1,10 +1,3 @@
----
-output:
-  html_document:
-    theme: readable
-    includes:
-      before_body: 08_before-body-back-to-index-href.txt
----
 
 
 
@@ -12,13 +5,13 @@ output:
 
 
 
-#### last update Tue Jul 15 22:49:15 2014
 # sfoDF 16
 # seaRM 18
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for sfoDF](#away)  
   * [Player stats for seaRM](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -65,6 +58,25 @@ Go to ...
 |     3|1      |7:27:00  |6:43:00 |00:44       |seaRM-35-koss to seaRM-12-gallagher       |0     |3     |
 |     2|1      |7:45:00  |7:27:00 |00:18       |seaRM-13-sewell to seaRM-18-uhrig-fox     |0     |2     |
 |     1|1      |10:00:00 |7:45:00 |02:15       |seaRM-48-clark to seaRM-5-chu             |0     |1     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+![plot of chunk barchart_points](./2014-05-04_sfoDF-at-seaRM_live-stats_files/figure-html/barchart_points.png) 
+
+### Goals
+
+![plot of chunk barchart_goals](./2014-05-04_sfoDF-at-seaRM_live-stats_files/figure-html/barchart_goals.png) 
+
+### Assists
+
+![plot of chunk barchart_assists](./2014-05-04_sfoDF-at-seaRM_live-stats_files/figure-html/barchart_assists.png) 
+
+### D's
+![plot of chunk barchart_ds](./2014-05-04_sfoDF-at-seaRM_live-stats_files/figure-html/barchart_ds.png) 
 
 ## Player stats for sfoDF <a id="away"></a>:
 

@@ -1,10 +1,3 @@
----
-output:
-  html_document:
-    theme: readable
-    includes:
-      before_body: 08_before-body-back-to-index-href.txt
----
 
 
 
@@ -12,13 +5,13 @@ output:
 
 
 
-#### last update Tue Jul 15 22:49:56 2014
 # vanNH 14
 # pdxST 13
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for vanNH](#away)  
   * [Player stats for pdxST](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -59,6 +52,25 @@ Go to ...
 |     3|1      |7:36:00  |1:43:00 |05:53       |vanNH-72-leduc to vanNH-22-berezan        |3     |0     |
 |     2|1      |9:30:00  |7:36:00 |01:54       |vanNH-7-dandurand to vanNH-4-doyle        |2     |0     |
 |     1|1      |10:00:00 |9:30:00 |00:30       |vanNH-45-cowan to vanNH-31-saito          |1     |0     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+![plot of chunk barchart_points](./2014-06-28_vanNH-at-pdxST_live-stats_files/figure-html/barchart_points.png) 
+
+### Goals
+
+![plot of chunk barchart_goals](./2014-06-28_vanNH-at-pdxST_live-stats_files/figure-html/barchart_goals.png) 
+
+### Assists
+
+![plot of chunk barchart_assists](./2014-06-28_vanNH-at-pdxST_live-stats_files/figure-html/barchart_assists.png) 
+
+### D's
+![plot of chunk barchart_ds](./2014-06-28_vanNH-at-pdxST_live-stats_files/figure-html/barchart_ds.png) 
 
 ## Player stats for vanNH <a id="away"></a>:
 

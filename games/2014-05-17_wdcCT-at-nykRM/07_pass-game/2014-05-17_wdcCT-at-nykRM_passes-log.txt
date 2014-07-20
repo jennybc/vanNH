@@ -14,5 +14,3 @@
   521 rows of pass data will be written
   roster read for wdcCT and nykRM
   writing player stats to file: 26 for wdcCT, 19 for nykRM
-  2014-07-15 22:47:57
-

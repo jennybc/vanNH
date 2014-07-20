@@ -13,7 +13,7 @@
   after second and LAST infer, possession established for 596/596 = 100% of game play events
   596 rows of resolved game play will be written
   69 rows of possessions will be written
+  ALERT these points are missing time before and/or after:
+  1 2 3
   41 resolved points to be written
   bosWC: 16 wdcCT: 21
-  2014-07-15 22:44:21
-

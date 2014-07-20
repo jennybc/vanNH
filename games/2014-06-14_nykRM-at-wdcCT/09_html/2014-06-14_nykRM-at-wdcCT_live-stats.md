@@ -1,10 +1,3 @@
----
-output:
-  html_document:
-    theme: readable
-    includes:
-      before_body: 08_before-body-back-to-index-href.txt
----
 
 
 
@@ -12,13 +5,13 @@ output:
 
 
 
-#### last update Tue Jul 15 22:49:42 2014
 # nykRM 15
 # wdcCT 21
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for nykRM](#away)  
   * [Player stats for wdcCT](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -68,6 +61,25 @@ Go to ...
 |     3|1      |7:30:00  |6:16:00 |01:14       |nykRM-21-anderson to nykRM-81-murray      |2     |1     |
 |     2|1      |8:55:00  |7:30:00 |01:25       |nykRM-6-mazur to nykRM-1-kuzmowycz        |1     |1     |
 |     1|1      |10:00:00 |8:55:00 |01:05       |wdcCT-45-wodatch to wdcCT-90-shofner      |0     |1     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+![plot of chunk barchart_points](./2014-06-14_nykRM-at-wdcCT_live-stats_files/figure-html/barchart_points.png) 
+
+### Goals
+
+![plot of chunk barchart_goals](./2014-06-14_nykRM-at-wdcCT_live-stats_files/figure-html/barchart_goals.png) 
+
+### Assists
+
+![plot of chunk barchart_assists](./2014-06-14_nykRM-at-wdcCT_live-stats_files/figure-html/barchart_assists.png) 
+
+### D's
+![plot of chunk barchart_ds](./2014-06-14_nykRM-at-wdcCT_live-stats_files/figure-html/barchart_ds.png) 
 
 ## Player stats for nykRM <a id="away"></a>:
 

@@ -5,7 +5,7 @@
   after first infer, possession established for 529/529 = 100% of game play events
   529 rows of resolved game play will be written
   87 rows of possessions will be written
+  ALERT these points are missing time before and/or after:
+  15
   40 resolved points to be written
   bosWC: 22 nykRM: 14
-  2014-07-18 16:38:42
-

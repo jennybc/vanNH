@@ -8,4 +8,6 @@ scor_team: .na.character
 h_or_b: .na.character
 nykRM: 18
 wdcCT: 27
+pt_dur: .na.real
+pt_dur_txt: ???
 

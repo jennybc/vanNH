@@ -8,4 +8,6 @@ scor_team: nykRM
 h_or_b: hold
 bosWC: 21
 nykRM: 16
+pt_dur: 10.0
+pt_dur_txt: '00:10'
 

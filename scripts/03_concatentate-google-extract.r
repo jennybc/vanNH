@@ -5,7 +5,8 @@ options <- commandArgs(trailingOnly = TRUE)
 
 if(length(options) < 1) {
   #game <- "2014-04-12_vanNH-at-pdxST"
-  game <- "2014-04-26_vanNH-at-seaRM"
+  #game <- "2014-04-26_vanNH-at-seaRM"
+  game <- "2014-04-12_seaRM-at-sfoDF"
   #game <- "2014-04-20_sfoDF-at-vanNH"
   #game <- "foo"
 } else {

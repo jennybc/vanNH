@@ -8,4 +8,6 @@ scor_team: .na.character
 h_or_b: .na.character
 sfoDF: 13
 vanNH: 12
+pt_dur: 203.0
+pt_dur_txt: '03:23'
 

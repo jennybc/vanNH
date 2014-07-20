@@ -14,5 +14,3 @@
   508 rows of pass data will be written
   roster read for vanNH and pdxST
   writing player stats to file: 25 for vanNH, 19 for pdxST
-  2014-07-15 22:48:17
-

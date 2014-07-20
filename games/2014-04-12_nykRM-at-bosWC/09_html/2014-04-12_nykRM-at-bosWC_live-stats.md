@@ -1,10 +1,3 @@
----
-output:
-  html_document:
-    theme: readable
-    includes:
-      before_body: 08_before-body-back-to-index-href.txt
----
 
 
 
@@ -12,13 +5,13 @@ output:
 
 
 
-#### last update Fri Jul 18 16:40:35 2014
 # nykRM 14
 # bosWC 22
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for nykRM](#away)  
   * [Player stats for bosWC](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -53,7 +46,7 @@ Go to ...
 |    18|2      |3:10:00  |0:18:00 |02:52       |bosWC-00-taylor to bosWC-35-macnaughton    |7     |10    |
 |    17|2      |3:54:00  |3:10:00 |00:44       |nykRM-22-marsh to nykRM-3-cox              |7     |9     |
 |    16|2      |6:33:00  |3:54:00 |02:39       |nykRM-4-hennessy to nykRM-41-faust         |6     |9     |
-|    15|2      |6:23:00  |???     |???         |nykRM-21-anderson to nykRM-4-hennessy      |5     |9     |
+|    15|2      |6:23:00  |NA      |???         |nykRM-21-anderson to nykRM-4-hennessy      |5     |9     |
 |    14|2      |7:19:00  |6:23:00 |00:56       |bosWC-29-stevens to bosWC-12-simmons       |4     |9     |
 |    13|2      |9:19:00  |7:19:00 |02:00       |bosWC-21-graham to bosWC-35-macnaughton    |4     |8     |
 |    12|2      |9:33:00  |9:19:00 |00:14       |bosWC-17-foster to bosWC-9-nixon           |4     |7     |
@@ -68,6 +61,25 @@ Go to ...
 |     3|1      |7:54:00  |6:58:00 |00:56       |bosWC-21-graham to bosWC-1-markette        |1     |2     |
 |     2|1      |8:50:00  |7:54:00 |00:56       |nykRM-19-saul to nykRM-44-gillies          |1     |1     |
 |     1|1      |10:00:00 |8:50:00 |01:10       |bosWC-21-graham to bosWC-77-clark          |0     |1     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+![plot of chunk barchart_points](./2014-04-12_nykRM-at-bosWC_live-stats_files/figure-html/barchart_points.png) 
+
+### Goals
+
+![plot of chunk barchart_goals](./2014-04-12_nykRM-at-bosWC_live-stats_files/figure-html/barchart_goals.png) 
+
+### Assists
+
+![plot of chunk barchart_assists](./2014-04-12_nykRM-at-bosWC_live-stats_files/figure-html/barchart_assists.png) 
+
+### D's
+![plot of chunk barchart_ds](./2014-04-12_nykRM-at-bosWC_live-stats_files/figure-html/barchart_ds.png) 
 
 ## Player stats for nykRM <a id="away"></a>:
 

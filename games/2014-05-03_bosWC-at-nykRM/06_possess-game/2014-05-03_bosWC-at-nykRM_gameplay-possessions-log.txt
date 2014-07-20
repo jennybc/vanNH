@@ -12,7 +12,7 @@
   after addressing SO/SIs, possession established for 538/538 = 100% of game play events
   538 rows of resolved game play will be written
   78 rows of possessions will be written
+  ALERT these points are missing time before and/or after:
+  17 18 19 20 21 22 23 24 25 26 34 35 38
   39 resolved points to be written
   bosWC: 17 nykRM: 18
-  2014-07-19 09:19:19
-

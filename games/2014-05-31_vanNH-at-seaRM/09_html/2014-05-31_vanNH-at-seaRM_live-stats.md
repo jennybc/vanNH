@@ -1,10 +1,3 @@
----
-output:
-  html_document:
-    theme: readable
-    includes:
-      before_body: 08_before-body-back-to-index-href.txt
----
 
 
 
@@ -12,13 +5,13 @@ output:
 
 
 
-#### last update Tue Jul 15 22:49:34 2014
 # vanNH 29
 # seaRM 24
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for vanNH](#away)  
   * [Player stats for seaRM](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -86,6 +79,25 @@ Go to ...
 |     3|1      |9:09:00  |8:22:00 |00:47       |seaRM-2-bubernak to seaRM-12-gallagher |1     |2     |
 |     2|1      |9:19:00  |9:09:00 |00:10       |seaRM-6-trytiak to seaRM-8-fong        |1     |1     |
 |     1|1      |10:00:00 |9:19:00 |00:41       |vanNH-91-savage to vanNH-10-chatha     |1     |0     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+![plot of chunk barchart_points](./2014-05-31_vanNH-at-seaRM_live-stats_files/figure-html/barchart_points.png) 
+
+### Goals
+
+![plot of chunk barchart_goals](./2014-05-31_vanNH-at-seaRM_live-stats_files/figure-html/barchart_goals.png) 
+
+### Assists
+
+![plot of chunk barchart_assists](./2014-05-31_vanNH-at-seaRM_live-stats_files/figure-html/barchart_assists.png) 
+
+### D's
+![plot of chunk barchart_ds](./2014-05-31_vanNH-at-seaRM_live-stats_files/figure-html/barchart_ds.png) 
 
 ## Player stats for vanNH <a id="away"></a>:
 

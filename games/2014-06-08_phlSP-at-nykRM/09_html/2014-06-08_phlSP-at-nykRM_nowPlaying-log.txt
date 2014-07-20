@@ -3,7 +3,5 @@ Loading required package: methods
   roster read for phlSP and nykRM
   game YAML read; game status: complete
   659 rows of game play found
-Quitting from lines 78-252 (09_vanNH-nowPlaying.rmd) 
-Error in file(file, "rt") : cannot open the connection
-Calls: render ... withVisible -> eval -> eval -> read.delim -> read.table -> file
-Execution halted
+  49 rows of point info play found
+  scoring progression table has 49 rows

@@ -12,5 +12,3 @@
   73 rows of possessions will be written
   32 resolved points to be written
   bosWC: 17 wdcCT: 12
-  2014-07-15 22:44:06
-

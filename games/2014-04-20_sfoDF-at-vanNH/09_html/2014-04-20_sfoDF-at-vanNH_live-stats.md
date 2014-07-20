@@ -1,10 +1,3 @@
----
-output:
-  html_document:
-    theme: readable
-    includes:
-      before_body: 08_before-body-back-to-index-href.txt
----
 
 
 
@@ -12,13 +5,13 @@ output:
 
 
 
-#### last update Tue Jul 15 22:49:02 2014
 # sfoDF 15
 # vanNH 26
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for sfoDF](#away)  
   * [Player stats for vanNH](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -73,6 +66,25 @@ Go to ...
 |     3|1      |8:09:00  |7:10:00 |00:59       |vanNH-22-berezan to vanNH-91-savage   |1     |2     |
 |     2|1      |8:22:00  |8:09:00 |00:13       |sfoDF-34-Boucher to sfoDF-3-Weiss     |1     |1     |
 |     1|1      |10:00:00 |8:22:00 |01:38       |vanNH-39-seraglia to vanNH-81-tejpar  |0     |1     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+![plot of chunk barchart_points](./2014-04-20_sfoDF-at-vanNH_live-stats_files/figure-html/barchart_points.png) 
+
+### Goals
+
+![plot of chunk barchart_goals](./2014-04-20_sfoDF-at-vanNH_live-stats_files/figure-html/barchart_goals.png) 
+
+### Assists
+
+![plot of chunk barchart_assists](./2014-04-20_sfoDF-at-vanNH_live-stats_files/figure-html/barchart_assists.png) 
+
+### D's
+![plot of chunk barchart_ds](./2014-04-20_sfoDF-at-vanNH_live-stats_files/figure-html/barchart_ds.png) 
 
 ## Player stats for sfoDF <a id="away"></a>:
 

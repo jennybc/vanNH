@@ -8,4 +8,6 @@ scor_team: .na.character
 h_or_b: .na.character
 pdxST: 13
 seaRM: 12
+pt_dur: 111.0
+pt_dur_txt: '01:51'
 
