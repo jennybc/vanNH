@@ -12,13 +12,13 @@ output:
 
 
 
-#### last update Fri Jul 18 17:12:34 2014
 # nykRM 12
 # phlSP 13
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for nykRM](#away)  
   * [Player stats for phlSP](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -58,6 +58,25 @@ Go to ...
 |     3|1      |4:03:00  |3:02:00 |01:01       |phlSP-28-baer to phlSP-10-casey          |0     |3     |
 |     2|1      |8:26:00  |4:03:00 |04:23       |phlSP-6-chou to phlSP-64-brasz           |0     |2     |
 |     1|1      |10:00:00 |8:26:00 |01:34       |phlSP-25-katzenbach to phlSP-7-hirannet  |0     |1     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+<img src="./2014-04-26_nykRM-at-phlSP_live-stats_files/figure-html/barchart_points.png" title="plot of chunk barchart_points" alt="plot of chunk barchart_points" width="672" />
+
+### Goals
+
+<img src="./2014-04-26_nykRM-at-phlSP_live-stats_files/figure-html/barchart_goals.png" title="plot of chunk barchart_goals" alt="plot of chunk barchart_goals" width="672" />
+
+### Assists
+
+<img src="./2014-04-26_nykRM-at-phlSP_live-stats_files/figure-html/barchart_assists.png" title="plot of chunk barchart_assists" alt="plot of chunk barchart_assists" width="672" />
+
+### D's
+<img src="./2014-04-26_nykRM-at-phlSP_live-stats_files/figure-html/barchart_ds.png" title="plot of chunk barchart_ds" alt="plot of chunk barchart_ds" width="672" />
 
 ## Player stats for nykRM <a id="away"></a>:
 

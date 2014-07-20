@@ -1,3 +1,4 @@
+Loading required package: methods
 2014-05-18_bosWC-at-phlSP > 09_vanNH-nowPlaying.rmd:
   roster read for bosWC and phlSP
   game YAML read; game status: complete

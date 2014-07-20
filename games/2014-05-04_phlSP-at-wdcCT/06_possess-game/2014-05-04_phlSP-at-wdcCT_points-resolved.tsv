@@ -1,53 +1,53 @@
-point	period	clk_before	clk_after	pull_team	n_poss	scor_team	h_or_b	phlSP	wdcCT
-1	1	10:00:00	7:42:00	phlSP	3	wdcCT	hold	0	1
-2	1	7:42:00	5:44:00	wdcCT	3	phlSP	hold	1	1
-3	1	5:44:00	5:12:00	phlSP	1	wdcCT	hold	1	2
-4	1	5:12:00	4:28:00	wdcCT	3	phlSP	hold	2	2
-5	1	4:28:00	2:56:00	phlSP	4	phlSP	break	3	2
-6	1	2:56:00	2:46:00	phlSP	1	wdcCT	hold	3	3
-7	1	2:46:00	2:38:00	wdcCT	1	phlSP	hold	4	3
-8	1	2:38:00	2:16:00	phlSP	1	wdcCT	hold	4	4
-9	1	2:16:00	1:59:00	wdcCT	1	phlSP	hold	5	4
-10	1	1:59:00	1:17:00	phlSP	3	wdcCT	hold	5	5
-11	1	1:17:00	1:04:00	wdcCT	1	phlSP	hold	6	5
-12	1	1:04:00	0:47:00	phlSP	1	wdcCT	hold	6	6
-13	1	0:47:00	0:02:00	wdcCT	1	phlSP	hold	7	6
-14	1	0:02:00	0:00:00	phlSP	NA	NA	NA	7	6
-15	2	10:00:00	9:16:00	phlSP	1	wdcCT	hold	7	7
-16	2	9:16:00	7:43:00	wdcCT	2	wdcCT	break	7	8
-17	2	7:43:00	6:58:00	wdcCT	1	phlSP	hold	8	8
-18	2	6:58:00	5:20:00	phlSP	5	wdcCT	hold	8	9
-19	2	5:20:00	4:43:00	wdcCT	1	phlSP	hold	9	9
-20	2	4:43:00	4:12:00	phlSP	1	wdcCT	hold	9	10
-21	2	4:12:00	3:02:00	wdcCT	3	phlSP	hold	10	10
-22	2	3:02:00	2:24:00	phlSP	1	wdcCT	hold	10	11
-23	2	2:24:00	2:06:00	wdcCT	1	phlSP	hold	11	11
-24	2	2:06:00	0:58:00	phlSP	2	phlSP	break	12	11
-25	2	0:58:00	0:05:00	phlSP	1	wdcCT	hold	12	12
-26	2	0:05:00	0:00:00	wdcCT	NA	NA	NA	12	12
-27	3	10:00:00	8:32:00	phlSP	3	wdcCT	hold	12	13
-28	3	8:32:00	8:18:00	wdcCT	2	wdcCT	break	12	14
-29	3	8:18:00	5:53:00	wdcCT	6	wdcCT	break	12	15
-30	3	5:53:00	5:06:00	wdcCT	1	phlSP	hold	13	15
-31	3	5:06:00	3:24:00	phlSP	5	wdcCT	hold	13	16
-32	3	3:24:00	1:46:00	wdcCT	4	wdcCT	break	13	17
-33	3	1:46:00	0:56:00	wdcCT	2	wdcCT	break	13	18
-34	3	0:56:00	0:00:00	wdcCT	NA	NA	NA	13	18
-35	4	10:00:00	8:47:00	wdcCT	2	wdcCT	break	13	19
-36	4	8:47:00	8:46:00	wdcCT	1	phlSP	hold	14	19
-37	4	8:46:00	8:01:00	phlSP	1	wdcCT	hold	14	20
-38	4	8:01:00	7:43:00	wdcCT	1	phlSP	hold	15	20
-39	4	7:43:00	7:27:00	phlSP	1	wdcCT	hold	15	21
-40	4	7:27:00	7:00:00	wdcCT	1	phlSP	hold	16	21
-41	4	7:00:00	6:35:00	phlSP	1	wdcCT	hold	16	22
-42	4	6:35:00	5:03:00	wdcCT	3	phlSP	hold	17	22
-43	4	5:03:00	4:06:00	phlSP	3	wdcCT	hold	17	23
-44	4	4:06:00	3:10:00	wdcCT	1	phlSP	hold	18	23
-45	4	3:10:00	2:35:00	phlSP	2	phlSP	break	19	23
-46	4	2:35:00	2:16:00	phlSP	2	phlSP	break	20	23
-47	4	2:16:00	2:09:00	phlSP	1	wdcCT	hold	20	24
-48	4	2:09:00	1:40:00	wdcCT	1	phlSP	hold	21	24
-49	4	1:40:00	0:36:00	phlSP	4	phlSP	break	22	24
-50	4	0:36:00	0:19:00	wdcCT	1	phlSP	hold	23	24
-51	4	0:19:00	0:06:00	phlSP	1	wdcCT	hold	23	25
-52	4	0:06:00	0:00:00	wdcCT	NA	NA	NA	23	25
+point	period	clk_before	clk_after	pull_team	n_poss	scor_team	h_or_b	phlSP	wdcCT	pt_dur	pt_dur_txt
+1	1	10:00:00	7:42:00	phlSP	3	wdcCT	hold	0	1	138	02:18
+2	1	7:42:00	5:44:00	wdcCT	3	phlSP	hold	1	1	118	01:58
+3	1	5:44:00	5:12:00	phlSP	1	wdcCT	hold	1	2	32	00:32
+4	1	5:12:00	4:28:00	wdcCT	3	phlSP	hold	2	2	44	00:44
+5	1	4:28:00	2:56:00	phlSP	4	phlSP	break	3	2	92	01:32
+6	1	2:56:00	2:46:00	phlSP	1	wdcCT	hold	3	3	10	00:10
+7	1	2:46:00	2:38:00	wdcCT	1	phlSP	hold	4	3	8	00:08
+8	1	2:38:00	2:16:00	phlSP	1	wdcCT	hold	4	4	22	00:22
+9	1	2:16:00	1:59:00	wdcCT	1	phlSP	hold	5	4	17	00:17
+10	1	1:59:00	1:17:00	phlSP	3	wdcCT	hold	5	5	42	00:42
+11	1	1:17:00	1:04:00	wdcCT	1	phlSP	hold	6	5	13	00:13
+12	1	1:04:00	0:47:00	phlSP	1	wdcCT	hold	6	6	17	00:17
+13	1	0:47:00	0:02:00	wdcCT	1	phlSP	hold	7	6	45	00:45
+14	1	0:02:00	0:00:00	phlSP	NA	NA	NA	7	6	2	00:02
+15	2	10:00:00	9:16:00	phlSP	1	wdcCT	hold	7	7	44	00:44
+16	2	9:16:00	7:43:00	wdcCT	2	wdcCT	break	7	8	93	01:33
+17	2	7:43:00	6:58:00	wdcCT	1	phlSP	hold	8	8	45	00:45
+18	2	6:58:00	5:20:00	phlSP	5	wdcCT	hold	8	9	98	01:38
+19	2	5:20:00	4:43:00	wdcCT	1	phlSP	hold	9	9	37	00:37
+20	2	4:43:00	4:12:00	phlSP	1	wdcCT	hold	9	10	31	00:31
+21	2	4:12:00	3:02:00	wdcCT	3	phlSP	hold	10	10	70	01:10
+22	2	3:02:00	2:24:00	phlSP	1	wdcCT	hold	10	11	38	00:38
+23	2	2:24:00	2:06:00	wdcCT	1	phlSP	hold	11	11	18	00:18
+24	2	2:06:00	0:58:00	phlSP	2	phlSP	break	12	11	68	01:08
+25	2	0:58:00	0:05:00	phlSP	1	wdcCT	hold	12	12	53	00:53
+26	2	0:05:00	0:00:00	wdcCT	NA	NA	NA	12	12	5	00:05
+27	3	10:00:00	8:32:00	phlSP	3	wdcCT	hold	12	13	88	01:28
+28	3	8:32:00	8:18:00	wdcCT	2	wdcCT	break	12	14	14	00:14
+29	3	8:18:00	5:53:00	wdcCT	6	wdcCT	break	12	15	145	02:25
+30	3	5:53:00	5:06:00	wdcCT	1	phlSP	hold	13	15	47	00:47
+31	3	5:06:00	3:24:00	phlSP	5	wdcCT	hold	13	16	102	01:42
+32	3	3:24:00	1:46:00	wdcCT	4	wdcCT	break	13	17	98	01:38
+33	3	1:46:00	0:56:00	wdcCT	2	wdcCT	break	13	18	50	00:50
+34	3	0:56:00	0:00:00	wdcCT	NA	NA	NA	13	18	56	00:56
+35	4	10:00:00	8:47:00	wdcCT	2	wdcCT	break	13	19	73	01:13
+36	4	8:47:00	8:46:00	wdcCT	1	phlSP	hold	14	19	1	00:01
+37	4	8:46:00	8:01:00	phlSP	1	wdcCT	hold	14	20	45	00:45
+38	4	8:01:00	7:43:00	wdcCT	1	phlSP	hold	15	20	18	00:18
+39	4	7:43:00	7:27:00	phlSP	1	wdcCT	hold	15	21	16	00:16
+40	4	7:27:00	7:00:00	wdcCT	1	phlSP	hold	16	21	27	00:27
+41	4	7:00:00	6:35:00	phlSP	1	wdcCT	hold	16	22	25	00:25
+42	4	6:35:00	5:03:00	wdcCT	3	phlSP	hold	17	22	92	01:32
+43	4	5:03:00	4:06:00	phlSP	3	wdcCT	hold	17	23	57	00:57
+44	4	4:06:00	3:10:00	wdcCT	1	phlSP	hold	18	23	56	00:56
+45	4	3:10:00	2:35:00	phlSP	2	phlSP	break	19	23	35	00:35
+46	4	2:35:00	2:16:00	phlSP	2	phlSP	break	20	23	19	00:19
+47	4	2:16:00	2:09:00	phlSP	1	wdcCT	hold	20	24	7	00:07
+48	4	2:09:00	1:40:00	wdcCT	1	phlSP	hold	21	24	29	00:29
+49	4	1:40:00	0:36:00	phlSP	4	phlSP	break	22	24	64	01:04
+50	4	0:36:00	0:19:00	wdcCT	1	phlSP	hold	23	24	17	00:17
+51	4	0:19:00	0:06:00	phlSP	1	wdcCT	hold	23	25	13	00:13
+52	4	0:06:00	0:00:00	wdcCT	NA	NA	NA	23	25	6	00:06

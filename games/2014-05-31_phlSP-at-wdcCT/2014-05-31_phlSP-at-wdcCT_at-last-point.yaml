@@ -8,4 +8,6 @@ scor_team: .na.character
 h_or_b: .na.character
 phlSP: 16
 wdcCT: 22
+pt_dur: 23.0
+pt_dur_txt: '00:23'
 

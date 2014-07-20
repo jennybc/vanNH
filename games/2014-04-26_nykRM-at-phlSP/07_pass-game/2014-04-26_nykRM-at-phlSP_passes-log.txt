@@ -27,5 +27,3 @@
   514 rows of pass data will be written
   roster read for nykRM and phlSP
   writing player stats to file: 23 for nykRM, 21 for phlSP
-  2014-07-18 17:12:33
-

@@ -9,5 +9,3 @@
   528 rows of pass data will be written
   roster read for phlSP and wdcCT
   writing player stats to file: 21 for phlSP, 25 for wdcCT
-  2014-07-16 09:19:26
-

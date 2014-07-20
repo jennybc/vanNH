@@ -26,5 +26,3 @@
   104 rows of possessions will be written
   50 resolved points to be written
   nykRM: 24 phlSP: 23
-  2014-07-18 16:43:33
-

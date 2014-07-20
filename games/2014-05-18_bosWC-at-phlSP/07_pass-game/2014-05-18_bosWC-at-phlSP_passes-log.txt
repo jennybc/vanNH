@@ -14,5 +14,3 @@
   574 rows of pass data will be written
   roster read for bosWC and phlSP
   writing player stats to file: 18 for bosWC, 22 for phlSP
-  2014-07-19 13:59:52
-

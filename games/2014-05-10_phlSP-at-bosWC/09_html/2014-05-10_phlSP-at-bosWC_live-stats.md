@@ -12,13 +12,13 @@ output:
 
 
 
-#### last update Sat Jul 19 09:28:41 2014
 # phlSP 18
 # bosWC 24
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for phlSP](#away)  
   * [Player stats for bosWC](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -28,42 +28,42 @@ Go to ...
 
 | point|period |begin    |end     |pt_duration |desc                                            |phlSP |bosWC |
 |-----:|:------|:--------|:-------|:-----------|:-----------------------------------------------|:-----|:-----|
-|    46|4      |0:05:00  |0:00:00 |00:05       |- no goal -                                     |18    |24    |
-|    45|4      |0:45:00  |0:05:00 |00:40       |bosWC-77-clark to bosWC-13-malacek              |18    |24    |
-|    44|4      |1:42:00  |0:45:00 |00:57       |phlSP-11-esser to phlSP-9-diviney               |18    |23    |
-|    43|4      |1:56:00  |1:42:00 |00:14       |bosWC-4-rebholz to bosWC-21-graham              |17    |23    |
-|    42|4      |3:38:00  |1:56:00 |01:42       |phlSP-7-hirannet to phlSP-71-mcclellan          |17    |22    |
-|    41|4      |4:09:00  |3:38:00 |00:31       |bosWC-77-clark to bosWC-21-graham               |16    |22    |
-|    40|4      |5:01:00  |4:09:00 |00:52       |phlSP-9-diviney to phlSP-14-glazer              |16    |21    |
-|    39|4      |6:37:00  |5:01:00 |01:36       |bosWC-21-graham to bosWC-1-markette             |15    |21    |
-|    38|4      |8:08:00  |6:37:00 |01:31       |phlSP-21-panna to phlSP-6-chou                  |15    |20    |
-|    37|4      |8:42:00  |8:08:00 |00:34       |phlSP-13-brandolph to phlSP-14-glazer           |14    |20    |
-|    36|4      |10:00:00 |8:42:00 |01:18       |bosWC-13-malacek to bosWC-21-graham             |13    |20    |
-|    35|3      |0:06:00  |0:00:00 |00:06       |- no goal -                                     |13    |19    |
-|    34|3      |0:39:00  |0:06:00 |00:33       |phlSP-27-rainwater to phlSP-14-glazer           |13    |19    |
-|    33|3      |1:44:00  |0:39:00 |01:05       |bosWC-1-markette to bosWC-21-graham             |12    |19    |
-|    32|3      |2:46:00  |1:44:00 |01:02       |phlSP-21-panna to phlSP-11-esser                |12    |18    |
-|    31|3      |5:55:00  |2:46:00 |03:09       |phlSP-11-esser to phlSP-13-brandolph            |11    |18    |
-|    30|3      |6:38:00  |5:55:00 |00:43       |bosWC-1-markette to bosWC-77-clark              |10    |18    |
-|    29|3      |7:24:00  |6:38:00 |00:46       |phlSP-7-hirannet to phlSP-27-rainwater          |10    |17    |
-|    28|3      |7:49:00  |7:24:00 |00:25       |bosWC-1-markette to bosWC-13-malacek            |9     |17    |
-|    27|3      |9:28:00  |7:49:00 |01:39       |phlSP-11-esser to phlSP-27-rainwater            |9     |16    |
-|    26|3      |10:00:00 |9:28:00 |00:32       |phlSP-14-glazer to phlSP-20-baer                |8     |16    |
-|    25|2      |0:13:00  |0:00:00 |00:13       |- no goal -                                     |7     |16    |
-|    24|2      |2:41:00  |0:13:00 |02:28       |bosWC-18-browar-jarus to bosWC-27-hatchett      |7     |16    |
-|    23|2      |3:09:00  |2:41:00 |00:28       |bosWC-7-brecher to bosWC-28-trahey              |7     |15    |
-|    22|2      |4:06:00  |3:09:00 |00:57       |bosWC-77-clark to bosWC-17-foster               |7     |14    |
-|    21|2      |4:42:00  |4:06:00 |00:36       |bosWC-64-farnsworth to bosWC-29-stevens         |7     |13    |
-|    20|2      |6:27:00  |4:42:00 |01:45       |bosWC-7-brecher to bosWC-5-doherty              |7     |12    |
-|    19|2      |7:21:00  |6:27:00 |00:54       |bosWC-4-rebholz to bosWC-13-malacek             |7     |11    |
-|    18|2      |7:41:00  |7:21:00 |00:20       |phlSP-4-damiano to phlSP-9-diviney              |7     |10    |
-|    17|2      |7:52:00  |7:41:00 |00:11       |bosWC-77-clark to bosWC-3-zid                   |6     |10    |
-|    16|2      |8:26:00  |7:52:00 |00:34       |phlSP-27-rainwater to phlSP-11-esser            |6     |9     |
-|    15|2      |9:26:00  |8:26:00 |01:00       |bosWC-1-markette to bosWC-17-foster             |5     |9     |
-|    14|2      |10:00:00 |9:26:00 |00:34       |bosWC-4-rebholz to bosWC-13-malacek             |5     |8     |
-|    13|1      |???      |0:00:00 |???         |- no goal -                                     |5     |7     |
-|    12|1      |???      |???     |???         |bosWC-7-brecher to bosWC-1-markette             |5     |7     |
-|    11|1      |2:19:00  |???     |???         |phlSP-1-peters to phlSP-2-colton                |5     |6     |
+|    46|4      |0:05:00  |0:00:00 |00:14       |- no goal -                                     |18    |24    |
+|    45|4      |0:45:00  |0:05:00 |01:42       |bosWC-77-clark to bosWC-13-malacek              |18    |24    |
+|    44|4      |1:42:00  |0:45:00 |00:31       |phlSP-11-esser to phlSP-9-diviney               |18    |23    |
+|    43|4      |1:56:00  |1:42:00 |00:52       |bosWC-4-rebholz to bosWC-21-graham              |17    |23    |
+|    42|4      |3:38:00  |1:56:00 |01:36       |phlSP-7-hirannet to phlSP-71-mcclellan          |17    |22    |
+|    41|4      |4:09:00  |3:38:00 |01:31       |bosWC-77-clark to bosWC-21-graham               |16    |22    |
+|    40|4      |5:01:00  |4:09:00 |00:34       |phlSP-9-diviney to phlSP-14-glazer              |16    |21    |
+|    39|4      |6:37:00  |5:01:00 |01:18       |bosWC-21-graham to bosWC-1-markette             |15    |21    |
+|    38|4      |8:08:00  |6:37:00 |00:06       |phlSP-21-panna to phlSP-6-chou                  |15    |20    |
+|    37|4      |8:42:00  |8:08:00 |00:33       |phlSP-13-brandolph to phlSP-14-glazer           |14    |20    |
+|    36|4      |10:00:00 |8:42:00 |01:05       |bosWC-13-malacek to bosWC-21-graham             |13    |20    |
+|    35|3      |0:06:00  |0:00:00 |01:02       |- no goal -                                     |13    |19    |
+|    34|3      |0:39:00  |0:06:00 |03:09       |phlSP-27-rainwater to phlSP-14-glazer           |13    |19    |
+|    33|3      |1:44:00  |0:39:00 |00:43       |bosWC-1-markette to bosWC-21-graham             |12    |19    |
+|    32|3      |2:46:00  |1:44:00 |00:46       |phlSP-21-panna to phlSP-11-esser                |12    |18    |
+|    31|3      |5:55:00  |2:46:00 |00:25       |phlSP-11-esser to phlSP-13-brandolph            |11    |18    |
+|    30|3      |6:38:00  |5:55:00 |01:39       |bosWC-1-markette to bosWC-77-clark              |10    |18    |
+|    29|3      |7:24:00  |6:38:00 |00:32       |phlSP-7-hirannet to phlSP-27-rainwater          |10    |17    |
+|    28|3      |7:49:00  |7:24:00 |00:13       |bosWC-1-markette to bosWC-13-malacek            |9     |17    |
+|    27|3      |9:28:00  |7:49:00 |02:28       |phlSP-11-esser to phlSP-27-rainwater            |9     |16    |
+|    26|3      |10:00:00 |9:28:00 |00:28       |phlSP-14-glazer to phlSP-20-baer                |8     |16    |
+|    25|2      |0:13:00  |0:00:00 |00:57       |- no goal -                                     |7     |16    |
+|    24|2      |2:41:00  |0:13:00 |00:36       |bosWC-18-browar-jarus to bosWC-27-hatchett      |7     |16    |
+|    23|2      |3:09:00  |2:41:00 |01:45       |bosWC-7-brecher to bosWC-28-trahey              |7     |15    |
+|    22|2      |4:06:00  |3:09:00 |00:54       |bosWC-77-clark to bosWC-17-foster               |7     |14    |
+|    21|2      |4:42:00  |4:06:00 |00:20       |bosWC-64-farnsworth to bosWC-29-stevens         |7     |13    |
+|    20|2      |6:27:00  |4:42:00 |00:11       |bosWC-7-brecher to bosWC-5-doherty              |7     |12    |
+|    19|2      |7:21:00  |6:27:00 |00:34       |bosWC-4-rebholz to bosWC-13-malacek             |7     |11    |
+|    18|2      |7:41:00  |7:21:00 |01:00       |phlSP-4-damiano to phlSP-9-diviney              |7     |10    |
+|    17|2      |7:52:00  |7:41:00 |00:34       |bosWC-77-clark to bosWC-3-zid                   |6     |10    |
+|    16|2      |8:26:00  |7:52:00 |NA:NA       |phlSP-27-rainwater to phlSP-11-esser            |6     |9     |
+|    15|2      |9:26:00  |8:26:00 |NA:NA       |bosWC-1-markette to bosWC-17-foster             |5     |9     |
+|    14|2      |10:00:00 |9:26:00 |NA:NA       |bosWC-4-rebholz to bosWC-13-malacek             |5     |8     |
+|    13|1      |NA       |0:00:00 |???         |- no goal -                                     |5     |7     |
+|    12|1      |NA       |NA      |???         |bosWC-7-brecher to bosWC-1-markette             |5     |7     |
+|    11|1      |2:19:00  |NA      |???         |phlSP-1-peters to phlSP-2-colton                |5     |6     |
 |    10|1      |2:54:00  |2:19:00 |00:35       |phlSP-4-damiano to phlSP-9-diviney              |4     |6     |
 |     9|1      |2:57:00  |2:54:00 |00:03       |bosWC-13-malacek to bosWC-1-markette            |3     |6     |
 |     8|1      |3:37:00  |2:57:00 |00:40       |phlSP-27-rainwater to phlSP-7-hirannet          |3     |5     |
@@ -74,6 +74,25 @@ Go to ...
 |     3|1      |8:53:00  |6:02:00 |02:51       |bosWC-18-browar-jarus to bosWC-64-farnsworth    |1     |2     |
 |     2|1      |9:42:00  |8:53:00 |00:49       |bosWC-1-markette to bosWC-4-rebholz             |1     |1     |
 |     1|1      |10:00:00 |9:42:00 |00:18       |phlSP-20-baer to phlSP-9-diviney                |1     |0     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+<img src="./2014-05-10_phlSP-at-bosWC_live-stats_files/figure-html/barchart_points.png" title="plot of chunk barchart_points" alt="plot of chunk barchart_points" width="672" />
+
+### Goals
+
+<img src="./2014-05-10_phlSP-at-bosWC_live-stats_files/figure-html/barchart_goals.png" title="plot of chunk barchart_goals" alt="plot of chunk barchart_goals" width="672" />
+
+### Assists
+
+<img src="./2014-05-10_phlSP-at-bosWC_live-stats_files/figure-html/barchart_assists.png" title="plot of chunk barchart_assists" alt="plot of chunk barchart_assists" width="672" />
+
+### D's
+<img src="./2014-05-10_phlSP-at-bosWC_live-stats_files/figure-html/barchart_ds.png" title="plot of chunk barchart_ds" alt="plot of chunk barchart_ds" width="672" />
 
 ## Player stats for phlSP <a id="away"></a>:
 

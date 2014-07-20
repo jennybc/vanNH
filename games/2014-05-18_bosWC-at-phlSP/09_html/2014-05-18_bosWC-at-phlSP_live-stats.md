@@ -12,13 +12,13 @@ output:
 
 
 
-#### last update Sat Jul 19 13:59:53 2014
 # bosWC 25
 # phlSP 26
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for bosWC](#away)  
   * [Player stats for phlSP](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -83,6 +83,25 @@ Go to ...
 |     3|1      |9:05:00  |8:17:00 |00:48       |bosWC-18-browar-jarus to bosWC-9-nixon     |2     |1     |
 |     2|1      |9:34:00  |9:05:00 |00:29       |phlSP-13-brandolph to phlSP-9-diviney      |1     |1     |
 |     1|1      |10:00:00 |9:34:00 |00:26       |bosWC-8-cooper to bosWC-1-markette         |1     |0     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+<img src="./2014-05-18_bosWC-at-phlSP_live-stats_files/figure-html/barchart_points.png" title="plot of chunk barchart_points" alt="plot of chunk barchart_points" width="672" />
+
+### Goals
+
+<img src="./2014-05-18_bosWC-at-phlSP_live-stats_files/figure-html/barchart_goals.png" title="plot of chunk barchart_goals" alt="plot of chunk barchart_goals" width="672" />
+
+### Assists
+
+<img src="./2014-05-18_bosWC-at-phlSP_live-stats_files/figure-html/barchart_assists.png" title="plot of chunk barchart_assists" alt="plot of chunk barchart_assists" width="672" />
+
+### D's
+<img src="./2014-05-18_bosWC-at-phlSP_live-stats_files/figure-html/barchart_ds.png" title="plot of chunk barchart_ds" alt="plot of chunk barchart_ds" width="672" />
 
 ## Player stats for bosWC <a id="away"></a>:
 

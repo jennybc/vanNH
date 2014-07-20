@@ -1,3 +1,4 @@
+Loading required package: methods
 2014-05-04_phlSP-at-wdcCT > 09_vanNH-nowPlaying.rmd:
   roster read for phlSP and wdcCT
   game YAML read; game status: complete

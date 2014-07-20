@@ -8,4 +8,6 @@ scor_team: .na.character
 h_or_b: .na.character
 bosWC: 18
 phlSP: 21
+pt_dur: 48.0
+pt_dur_txt: '00:48'
 

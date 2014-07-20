@@ -12,13 +12,13 @@ output:
 
 
 
-#### last update Wed Jul 16 09:19:27 2014
 # phlSP 23
 # wdcCT 25
 ## game is complete
 
 Go to ...  
   * [Scoring progression](#scoringProgression)  
+  * [Player stats via figures](#pl_figs)  
   * [Player stats for phlSP](#away)  
   * [Player stats for wdcCT](#home)  
   * [Data on goals, assists, D's](#selectData)  
@@ -80,6 +80,25 @@ Go to ...
 |     3|1      |5:44:00  |5:12:00 |00:32       |wdcCT-9-doi to wdcCT-8-prial              |1     |2     |
 |     2|1      |7:42:00  |5:44:00 |01:58       |phlSP-25-katzenbach to phlSP-32-scharadin |1     |1     |
 |     1|1      |10:00:00 |7:42:00 |02:18       |wdcCT-8-prial to wdcCT-2-keegan           |0     |1     |
+
+## Player stats via figures<a id="pl_figs"></a>:
+
+
+
+### Points = goals + assists
+
+<img src="./2014-05-04_phlSP-at-wdcCT_live-stats_files/figure-html/barchart_points.png" title="plot of chunk barchart_points" alt="plot of chunk barchart_points" width="672" />
+
+### Goals
+
+<img src="./2014-05-04_phlSP-at-wdcCT_live-stats_files/figure-html/barchart_goals.png" title="plot of chunk barchart_goals" alt="plot of chunk barchart_goals" width="672" />
+
+### Assists
+
+<img src="./2014-05-04_phlSP-at-wdcCT_live-stats_files/figure-html/barchart_assists.png" title="plot of chunk barchart_assists" alt="plot of chunk barchart_assists" width="672" />
+
+### D's
+<img src="./2014-05-04_phlSP-at-wdcCT_live-stats_files/figure-html/barchart_ds.png" title="plot of chunk barchart_ds" alt="plot of chunk barchart_ds" width="672" />
 
 ## Player stats for phlSP <a id="away"></a>:
 
