@@ -31,8 +31,8 @@
 #GOOGAME ?= "Official Statistics - 2014 - Playoffs - 6/28 - Nighthawks @ Stags"
 #GAME ?= 2014-06-28_vanNH-at-pdxST
 
-GOOGAME ?= "Official Statistics - 2014 - Week 1 - 4/12 - Rainmakers @ Dogfish"
-GAME ?= 2014-04-12_seaRM-at-sfoDF
+#GOOGAME ?= "Official Statistics - 2014 - Week 1 - 4/12 - Rainmakers @ Dogfish"
+#GAME ?= 2014-04-12_seaRM-at-sfoDF
 
 #GOOGAME ?= "Official Statistics - 2014 - Week 2 - 4/19 - Dogfish @ Rainmakers"
 #GAME ?= 2014-04-19_sfoDF-at-seaRM
@@ -124,8 +124,8 @@ GAME ?= 2014-04-12_seaRM-at-sfoDF
 #GOOGAME ?= "Official Statistics - 2014 - Week 11 - 6/21 - Whitecaps @ Rumble"  
 #GAME ?= 2014-06-21_bosWC-at-nykRM
 
-#GOOGAME ?= "Official Statistics - 2014 - MLU Championship - 7/19 - Nighthawks @ Current"  
-#GAME ?= 2014-07-19_vanNH-at-wdcCT
+GOOGAME ?= "Official Statistics - 2014 - MLU Championship - 7/19 - Nighthawks @ Current"  
+GAME ?= 2014-07-19_vanNH-at-wdcCT
 
 ## just in case GAME has some trailing whitespace ...
 GAME := $(strip $(GAME))
@@ -193,7 +193,7 @@ web:
 	@./08_compile-HTML.r $(GAME) 2>&1 | tee ../games/$(GAME)/09_html/$(GAME)_live-stats-log.txt
 
 web_copy:
-	cp ../games/$(GAME)/09_html/$(GAME)_live-stats.html ../web/
+	cp ../games/$(GAME)/09_html/$(GAME)_live-stats.html ../web/game-stats/
 
 ## the resulting symlink does not work on the server; gets this error:
 ## Forbidden
@@ -202,16 +202,12 @@ web_copy:
 ##	ln -s ../web/$(GAME)_live-stats.html ../web/vanNH_nowPlaying.html
 
 set_web:
-	cd ../web; cp $(GAME)_live-stats.html vanNH_nowPlaying.html
-
-# this works if not using Preview version of RStudio, new rmarkdown package, very recent version of Pandoc
-#index.html: ../web/index.md 
-#	cd ../web; Rscript -e "library(markdown); markdownToHTML('index.md', output = 'index.html', stylesheet = file.path(path.expand('~/'), 'resources/css/jasonm23-markdown-css-themes', 'markdown7.css'))"
+	cd ../web; cp game-stats/$(GAME)_live-stats.html vanNH_nowPlaying.html
 
 marshal: 11_marshal-game-play-and-aggregate.r ../games/2014*/07_resolvedGame/*_gameplay-resolved.tsv
 	$(tidy-spin)
 
-index.html: ../web/index.rmd ../games/2014*/*at-last-point.yaml
+index.html: ../web/index.rmd ../games/2014*/*at-last-point.yaml ../data/2014_mlu-game-info.tsv
 	cd ../web; Rscript -e "rmarkdown::render('index.rmd', quiet = TRUE)"
 
 r_bits: clean_cat clean_clean clean_possess clean_pass cat_goog clean_game check_clean possess_game pass_game web web_copy

@@ -1,7 +1,7 @@
 ---
 title: "In-house statistics for the Vancouver Nighthawks of Major League Ultimate"
 author: "Jenny Bryan"
-date: "16 July, 2014"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_document:
     theme: readable
@@ -84,7 +84,8 @@ htmlify <- function(href, link_text = "LINK_TEXT", newtab = FALSE) {
   }
 game_data <-
   mutate(game_data,
-         stats_link = htmlify(paste0(game, '_live-stats.html'), date),
+         stats_link = htmlify(file.path("game-stats",
+                                        paste0(game, '_live-stats.html')),date),
          gspread_link = htmlify(gspread_url, "G", newtab = TRUE),
          youtube_link = htmlify(youtube_url, "YT", newtab = TRUE),
          links = paste(gspread_link, youtube_link, sep = " | "))
