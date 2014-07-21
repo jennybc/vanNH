@@ -1,0 +1,10 @@
+2014-05-24_nykRM-at-bosWC > 09_vanNH-nowPlaying.rmd:
+  roster read for nykRM and bosWC
+  game YAML read; game status: complete
+  586 rows of game play found
+  32 rows of point info play found
+  ALERT last name unknown for player(s) involved in these plays:
+  point 30 event 15 team bosWC number 37 code G
+  point 32 event 8 team bosWC number 37 code D
+  scoring progression table has 32 rows
+

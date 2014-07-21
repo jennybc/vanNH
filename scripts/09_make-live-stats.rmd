@@ -8,12 +8,15 @@ output:
       before_body: 08_before-body-back-to-index-href.txt
 ---
 
-```{r, echo = FALSE, message = FALSE}
+```{r setup, include = FALSE, cache = FALSE}
+knitr::opts_chunk$set(error = TRUE)
 library(plyr)
 library(yaml)
 library(knitr)
-library(ggplot2)
+suppressPackageStartupMessages(library(ggplot2))
+```
 
+```{r, echo = FALSE, message = FALSE}
 mlu_teams <- read.delim(file.path("..", "data", "mlu-teams.tsv"),
                         stringsAsFactors = FALSE)
 mlu_cols <- with(mlu_teams, setNames(color, team))
@@ -250,7 +253,7 @@ jFun <- function(z) {
   }
 gDat <- ddply(sDat, ~ point, jFun)
 gDat <- gDat[rev(seq_len(nrow(gDat))), ]
-message("  scoring progression table has ", nrow(gDat), " rows")
+message("  scoring progression table has ", nrow(gDat), " rows\n")
 ```
 
 # `r away_team` `r sDat[[away_team]][nrow(sDat)]`

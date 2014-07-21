@@ -1,0 +1,7 @@
+2014-04-12_vanNH-at-pdxST > 09_vanNH-nowPlaying.rmd:
+  roster read for vanNH and pdxST
+  game YAML read; game status: complete
+  673 rows of game play found
+  47 rows of point info play found
+  scoring progression table has 47 rows
+

@@ -1,0 +1,7 @@
+2014-05-17_wdcCT-at-nykRM > 09_vanNH-nowPlaying.rmd:
+  roster read for wdcCT and nykRM
+  game YAML read; game status: complete
+  659 rows of game play found
+  49 rows of point info play found
+  scoring progression table has 49 rows
+

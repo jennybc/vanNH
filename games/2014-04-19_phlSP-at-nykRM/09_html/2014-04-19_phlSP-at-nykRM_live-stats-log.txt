@@ -1,0 +1,7 @@
+2014-04-19_phlSP-at-nykRM > 09_vanNH-nowPlaying.rmd:
+  roster read for phlSP and nykRM
+  game YAML read; game status: complete
+  753 rows of game play found
+  50 rows of point info play found
+  scoring progression table has 50 rows
+

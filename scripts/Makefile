@@ -190,7 +190,7 @@ clean_web:
 	rm -rf ../games/$(GAME)/09_html/*
 
 web: 
-	@./08_compile-HTML.r $(GAME) 2>&1 | tee ../games/$(GAME)/09_html/$(GAME)_nowPlaying-log.txt
+	@./08_compile-HTML.r $(GAME) 2>&1 | tee ../games/$(GAME)/09_html/$(GAME)_live-stats-log.txt
 
 web_copy:
 	cp ../games/$(GAME)/09_html/$(GAME)_live-stats.html ../web/

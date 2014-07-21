@@ -1,0 +1,7 @@
+2014-04-12_seaRM-at-sfoDF > 09_vanNH-nowPlaying.rmd:
+  roster read for seaRM and sfoDF
+  game YAML read; game status: complete
+  586 rows of game play found
+  38 rows of point info play found
+  scoring progression table has 38 rows
+

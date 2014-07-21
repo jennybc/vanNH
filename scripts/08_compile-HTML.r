@@ -30,7 +30,7 @@ local_html_file <- paste0(game, "_live-stats.html")
 local_md_file <- paste0(game, "_live-stats.md")
 local_figure_dir <- file.path(paste0(game, "_live-stats_files"), "figure-html")
 
-render('09_vanNH-nowPlaying.rmd', output_file = local_html_file, quiet = TRUE)
+render('09_make-live-stats.rmd', output_file = local_html_file, quiet = TRUE)
 
 game_html_dir <- file.path("..", "games", game, "09_html")
 game_figure_dir <- file.path(game_html_dir, paste0(game, "_live-stats_files"),

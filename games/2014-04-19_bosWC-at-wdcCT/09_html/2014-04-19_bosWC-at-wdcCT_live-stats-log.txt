@@ -1,0 +1,7 @@
+2014-04-19_bosWC-at-wdcCT > 09_vanNH-nowPlaying.rmd:
+  roster read for bosWC and wdcCT
+  game YAML read; game status: complete
+  598 rows of game play found
+  37 rows of point info play found
+  scoring progression table has 37 rows
+

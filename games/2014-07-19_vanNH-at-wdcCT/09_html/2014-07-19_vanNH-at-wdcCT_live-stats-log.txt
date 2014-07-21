@@ -1,0 +1,9 @@
+2014-07-19_vanNH-at-wdcCT > 09_vanNH-nowPlaying.rmd:
+  roster read for vanNH and wdcCT
+  game YAML read; game status: complete
+  570 rows of game play found
+  43 rows of point info play found
+  ALERT last name unknown for player(s) involved in these plays:
+  point 42 event 4 team wdcCT number 98 code D
+  scoring progression table has 43 rows
+

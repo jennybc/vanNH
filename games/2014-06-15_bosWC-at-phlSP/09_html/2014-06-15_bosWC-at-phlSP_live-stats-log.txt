@@ -1,0 +1,10 @@
+2014-06-15_bosWC-at-phlSP > 09_vanNH-nowPlaying.rmd:
+  roster read for bosWC and phlSP
+  game YAML read; game status: complete
+  622 rows of game play found
+  43 rows of point info play found
+  ALERT last name unknown for player(s) involved in these plays:
+  point 11 event 11 team bosWC number 44 code A
+  point 13 event 7 team bosWC number 44 code G
+  scoring progression table has 43 rows
+

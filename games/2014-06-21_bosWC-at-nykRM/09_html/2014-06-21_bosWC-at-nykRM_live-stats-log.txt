@@ -1,0 +1,7 @@
+2014-06-21_bosWC-at-nykRM > 09_vanNH-nowPlaying.rmd:
+  roster read for bosWC and nykRM
+  game YAML read; game status: complete
+  605 rows of game play found
+  40 rows of point info play found
+  scoring progression table has 40 rows
+
