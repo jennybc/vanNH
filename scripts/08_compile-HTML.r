@@ -27,19 +27,26 @@ if(length(options) < 1) {
 }
 
 local_html_file <- paste0(game, "_live-stats.html")
-local_knit_file <- '09_vanNH-nowPlaying.knit.md'
-local_utf8_file <- '09_vanNH-nowPlaying.utf8.md'
+local_md_file <- paste0(game, "_live-stats.md")
+local_figure_dir <- file.path(paste0(game, "_live-stats_files"), "figure-html")
 
-render('09_vanNH-nowPlaying.rmd', output_file = local_html_file,
-       clean = FALSE, quiet = TRUE)
+render('09_vanNH-nowPlaying.rmd', output_file = local_html_file, quiet = TRUE)
 
 game_html_dir <- file.path("..", "games", game, "09_html")
+game_figure_dir <- file.path(game_html_dir, paste0(game, "_live-stats_files"),
+                             "figure-html")
 if(!file.exists(game_html_dir)) dir.create(game_html_dir)
+if(!file.exists(game_figure_dir)) {
+  dir.create(game_figure_dir, recursive = TRUE)
+} else {
+  foo <- file.remove(list.files(game_figure_dir, full.names = TRUE))
+}
 game_md_file <- file.path(game_html_dir, paste0(game, "_live-stats.md"))
 game_html_file <- file.path(game_html_dir, paste0(game, "_live-stats.html"))
 
-file.rename(local_utf8_file, game_md_file)
+foo <- file.rename(local_md_file, game_md_file)
 #message("wrote ", game_md_file)
-file.rename(local_html_file, game_html_file)
+foo <- file.rename(local_html_file, game_html_file)
 #message("wrote ", game_html_file)
-file.remove(local_knit_file)
+foo <- file.rename(local_figure_dir, game_figure_dir)
+foo <- file.remove(dirname(local_figure_dir))

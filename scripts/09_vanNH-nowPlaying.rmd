@@ -1,6 +1,8 @@
 ---
 output:
   html_document:
+    toc: yes
+    keep_md: TRUE
     theme: readable
     includes:
       before_body: 08_before-body-back-to-index-href.txt
