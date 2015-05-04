@@ -1,0 +1,23 @@
+2015-05-03_pdxST-at-vanNH > 07_resolve-passes.r:
+  640 rows of resolved game play found
+  508/510 rows of pass data are whitelisted (99.6%)
+  ALERT 2 rows of pass data are novel
+    poss_abs poss_rel point beg_event end_event desc n_inn beg_code beg_plyr
+290       40        2    25        15        16   aa     0    O-CTH  vanNH-1
+414       66        2    42        12        16   ao     3    O-CTH pdxST-88
+          innards end_code end_plyr    wl
+290                   O-PU vanNH-88 FALSE
+414 D-F,D-SO,D-SI     O-TO   pdxST- FALSE
+  ALERT 1 rows of pass data end with pickup (PU)
+    poss_abs poss_rel point beg_event end_event desc n_inn beg_code beg_plyr
+290       40        2    25        15        16   aa     0    O-CTH  vanNH-1
+    innards end_code end_plyr    wl pclass
+290             O-PU vanNH-88 FALSE nopass
+  breakdown of passes:
+
+ compl  ofoul  taway   defd   drop nopass   <NA> 
+   463      0     22     16      5      4      0 
+  463/506 passes were completed (91.5%)
+  510 rows of pass data will be written
+  roster read for pdxST and vanNH
+  writing player stats to file: 26 for pdxST, 20 for vanNH

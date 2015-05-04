@@ -124,8 +124,11 @@
 #GOOGAME ?= "Official Statistics - 2014 - Week 11 - 6/21 - Whitecaps @ Rumble"  
 #GAME ?= 2014-06-21_bosWC-at-nykRM
 
-GOOGAME ?= "Official Statistics - 2014 - MLU Championship - 7/19 - Nighthawks @ Current"  
-GAME ?= 2014-07-19_vanNH-at-wdcCT
+#GOOGAME ?= "Official Statistics - 2014 - MLU Championship - 7/19 - Nighthawks @ Current"  
+#GAME ?= 2014-07-19_vanNH-at-wdcCT
+
+GOOGAME ?= "2015-05-03_pdxST-at-vanNH"
+GAME ?= 2015-05-03_pdxST-at-vanNH
 
 ## just in case GAME has some trailing whitespace ...
 GAME := $(strip $(GAME))
@@ -214,7 +217,7 @@ r_bits: clean_cat clean_clean clean_possess clean_pass cat_goog clean_game check
 
 pt_fix: eg_pt clean_cat clean_clean clean_possess clean_pass cat_goog clean_game check_clean possess_game pass_game web web_copy
 
-yo: eg_pt clean_cat clean_clean clean_possess cat_goog clean_game check_clean possess_game pass_game web web_copy
+yo: eg_pt clean_cat clean_clean clean_possess cat_goog clean_game check_clean possess_game pass_game web web_copy set_web 
 
 foo: set_web sync
 

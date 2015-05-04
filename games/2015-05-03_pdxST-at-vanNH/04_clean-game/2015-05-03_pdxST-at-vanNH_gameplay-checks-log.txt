@@ -1,0 +1,9 @@
+2015-05-03_pdxST-at-vanNH > 05_sanity-check-game-play.r:
+  640 rows of clean game play found
+
+  ALERT: point(s) with NO explicit pickup (PU, PUA) off the pull
+    point event pull_pnum pull_code recv_pnum recv_code
+89      5     2                            91          
+105     6     2                            11          
+263    18     2                            21          
+  sanity checks of clean game play DONE

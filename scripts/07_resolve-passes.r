@@ -133,7 +133,7 @@ write.table(as.data.frame(with(pass_dat, table(desc, n_inn))), out_file,
 
 ## moving on to player summaries
 build_roster_path <- function(team) {
-  file.path("..", "rosters", paste0("2014_", team, "-roster.tsv"))}
+  file.path("..", "rosters", paste0("2015_", team, "-roster.tsv"))}
 away_roster_file <- build_roster_path(away_team)
 home_roster_file <- build_roster_path(home_team)
 read_roster <- function(roster_file) {

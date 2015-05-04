@@ -1,0 +1,83 @@
+2015-05-03_pdxST-at-vanNH > 04_clean-and-expand-game-play.r:
+  615 rows of raw game play found
+  found 25 rows with game play recorded for both teams
+Row 18 of point2 indicates events for both teams
+, but it's a novel code combination. LOOK AT THIS DATA!
+   point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+17     2                11                            11          
+18     2       1D        8         1         D         8          
+19     2      1pu                  1        PU                    
+Row 31 of point2 indicates events for both teams
+, but it's a novel code combination. LOOK AT THIS DATA!
+   point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+29     2                21                            21          
+30     2      12D       14        12         D        14          
+31     2     22pu                 22        PU                    
+Row 9 of point5 indicates events for both teams
+, but it's a novel code combination. LOOK AT THIS DATA!
+   point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+8      5       14                 14                              
+9      5       98       5D        98                   5         D
+10     5              36PU                            36        PU
+Row 6 of point7 indicates events for both teams
+, but it's a novel code combination. LOOK AT THIS DATA!
+  point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+5     7        ?                  ?                              
+6     7        8      41D         8                  41         D
+7     7              41pu                            41        PU
+Row 4 of point9 indicates events for both teams
+, but it's a novel code combination. LOOK AT THIS DATA!
+   point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+3      9       45                 45                              
+4      9       91       ?D        91                   ?         D
+NA    NA     <NA>     <NA>      <NA>      <NA>      <NA>      <NA>
+Row 7 of point12 indicates events for both teams
+, but it's a novel code combination. LOOK AT THIS DATA!
+  point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+6    12       78                 78                              
+7    12       12      88D        12                  88         D
+8    12              88pu                            88        PU
+Row 3 of point18 indicates events for both teams
+, but it's a novel code combination. LOOK AT THIS DATA!
+  point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+2    18       21                 21                              
+3    18       45       5D        45                   5         D
+4    18                67                            67          
+Row 4 of point33 indicates events for both teams
+, but it's a novel code combination. LOOK AT THIS DATA!
+  point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+3    33       16                 16                              
+4    33        6      41D         6                  41         D
+5    33              90pu                            90        PU
+Row 7 of point35 indicates events for both teams
+, but it's a novel code combination. LOOK AT THIS DATA!
+  point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+6    35                88                            88          
+7    35      45D       24        45         D        24          
+8    35     91pu                 91        PU                    
+Row 3 of point41 indicates events for both teams
+, but it's a novel code combination. LOOK AT THIS DATA!
+   point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+2     41     91pu                 91        PU                    
+3     41       21       5D        21                   5         D
+NA    NA     <NA>     <NA>      <NA>      <NA>      <NA>      <NA>
+Row 18 of point45 indicates events for both teams
+, but it's a novel code combination. LOOK AT THIS DATA!
+   point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+16    45       91                 91                              
+17    45       78      12D        78                  12         D
+18    45              22pu                            22        PU
+Row 25 of point45 indicates events for both teams
+, but it's a novel code combination. LOOK AT THIS DATA!
+   point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+22    45                12                            12          
+23    45      78D       31        78         D        31          
+24    45     91pu                 91        PU                    
+Row 4 of point48 indicates events for both teams
+, but it's a novel code combination. LOOK AT THIS DATA!
+   point recv_raw pull_raw recv_pnum recv_code pull_pnum pull_code
+3     48       41                 41                              
+4     48       21      12D        21                  12         D
+NA    NA     <NA>     <NA>      <NA>      <NA>      <NA>      <NA>
+  no double game play rows remain
+  640 rows of clean game play will be written

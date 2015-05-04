@@ -25,7 +25,8 @@ if(length(options) < 1) {
   #game <- "2014-04-12_wdcCT-at-phlSP"
   #game <- "2014-07-19_vanNH-at-wdcCT"
   #game <- "2014-04-12_seaRM-at-sfoDF"
-  game <- "2014-05-17_wdcCT-at-nykRM"
+  #game <- "2014-05-17_wdcCT-at-nykRM"
+  game <- "2015-05-03_pdxST-at-vanNH"
 } else {
   game <- options[1]
 }
@@ -52,7 +53,7 @@ game_dir <- file.path("..", "games", game, "03_concat-google")
 in_file <- file.path(game_dir, paste0(game, "_points-raw.tsv"))
 point_info <- read.delim(in_file, stringsAsFactors = FALSE)
 #str(point_info)
-message("  ", nrow(point_info), " rows of point info play found")
+message("  ", nrow(point_info), " rows of point info found")
 
 ## replace long team names with my official short versions
 mlu_teams <- read.delim(file.path("..", "data", "mlu-teams.tsv"))
