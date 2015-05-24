@@ -1,0 +1,13 @@
+point: 48
+period: 4
+clk_before: '1:53:00'
+clk_after: '0:00:00'
+pull_team: seaRM
+n_poss: .na.integer
+scor_team: .na.character
+h_or_b: .na.character
+seaRM: 26
+vanNH: 18
+pt_dur: 113.0
+pt_dur_txt: '01:53'
+

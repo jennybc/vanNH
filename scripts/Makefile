@@ -127,8 +127,11 @@
 #GOOGAME ?= "Official Statistics - 2014 - MLU Championship - 7/19 - Nighthawks @ Current"  
 #GAME ?= 2014-07-19_vanNH-at-wdcCT
 
-GOOGAME ?= "2015-05-03_pdxST-at-vanNH"
-GAME ?= 2015-05-03_pdxST-at-vanNH
+#GOOGAME ?= "2015-05-03_pdxST-at-vanNH"
+#GAME ?= 2015-05-03_pdxST-at-vanNH
+
+GOOGAME ?= "2015-05-23_seaRM-at-vanNH"
+GAME ?= 2015-05-23_seaRM-at-vanNH
 
 ## just in case GAME has some trailing whitespace ...
 GAME := $(strip $(GAME))

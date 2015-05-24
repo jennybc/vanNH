@@ -1,0 +1,23 @@
+2015-05-23_seaRM-at-vanNH > 07_resolve-passes.r:
+  621 rows of resolved game play found
+  484/485 rows of pass data are whitelisted (99.8%)
+  ALERT 1 rows of pass data are novel
+    poss_abs poss_rel point beg_event end_event desc n_inn beg_code beg_plyr
+408       79        3    42         9        11   aa     1     O-PU vanNH-45
+    innards end_code end_plyr    wl
+408     D-F     O-PU vanNH-12 FALSE
+  ALERT 2 rows of pass data end with pickup (PU)
+    poss_abs poss_rel point beg_event end_event desc n_inn beg_code beg_plyr
+306       64        4    32        29        33   aa     3    O-CTH seaRM-44
+408       79        3    42         9        11   aa     1     O-PU vanNH-45
+          innards end_code end_plyr    wl pclass
+306 D-F,O-SO,O-SI     O-PU seaRM-16  TRUE nopass
+408           D-F     O-PU vanNH-12 FALSE nopass
+  breakdown of passes:
+
+ compl  ofoul  taway   defd   drop nopass   <NA> 
+   429      0     24     24      6      2      0 
+  429/483 passes were completed (88.8%)
+  485 rows of pass data will be written
+  roster read for seaRM and vanNH
+  writing player stats to file: 24 for seaRM, 23 for vanNH

@@ -1,0 +1,10 @@
+2015-05-23_seaRM-at-vanNH > 09_vanNH-nowPlaying.rmd:
+  roster read for seaRM and vanNH
+  game YAML read; game status: complete
+  621 rows of game play found
+  48 rows of point info play found
+  ALERT last name unknown for player(s) involved in these plays:
+  point 2 event 8 team seaRM number ? code D
+  point 18 event 7 team seaRM number ? code A
+  scoring progression table has 48 rows
+

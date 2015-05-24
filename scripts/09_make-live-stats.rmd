@@ -39,8 +39,9 @@ if(!exists("game")) {
   #game <- "2014-04-19_bosWC-at-wdcCT"
   #game <- "2014-05-04_phlSP-at-wdcCT"
   #game <- "2014-06-21_bosWC-at-nykRM"
-  game <- "2014-07-19_vanNH-at-wdcCT"
-  }
+  #game <- "2014-07-19_vanNH-at-wdcCT"
+  game <- "2015-05-23_seaRM-at-vanNH"
+}
 
 message(game, " > 09_vanNH-nowPlaying.rmd:")
 
