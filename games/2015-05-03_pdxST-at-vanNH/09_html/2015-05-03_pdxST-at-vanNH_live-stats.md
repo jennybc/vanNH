@@ -23,7 +23,6 @@ Go to ...
 
  point  period   begin      end       pt_duration   desc                                        pdxST   vanNH 
 ------  -------  ---------  --------  ------------  ------------------------------------------  ------  ------
-    49  4        0:00       NA        ???           - no goal -                                 24      20    
     48  4        0:13       0:00      00:13         - no goal -                                 24      20    
     47  4        0:41       0:13      00:28         pdxST-6-Bjorklund to pdxST-13-Perston       24      20    
     46  4        1:38       0:41      00:57         vanNH-90-nadon to vanNH-88-leross           23      20    
@@ -274,7 +273,6 @@ stats are cumulative for this game
     47        4  vanNH           10         78          1  pdxST       pdxST     6         A         Bjorklund      pdxST-6-Bjorklund           24      20
     47        4  vanNH           11         78          1  pdxST       pdxST     13        G         Perston        pdxST-13-Perston            24      20
     48        4  pdxST            4         79          1  vanNH       pdxST     12        D         Meinershagen   pdxST-12-Meinershagen       24      20
-    49        4  NA              NA         NA         NA  NA          NA        NA        NA        NA             NA-NA-NA                    24      20
 
 ## Full raw data<a id="rawData"></a>:
 

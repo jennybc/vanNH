@@ -2,9 +2,9 @@
   roster read for pdxST and vanNH
   game YAML read; game status: complete
   640 rows of game play found
-  49 rows of point info play found
+  48 rows of point info play found
   ALERT last name unknown for player(s) involved in these plays:
   point 3 event 5 team pdxST number ? code D
   point 9 event 4 team pdxST number ? code D
-  scoring progression table has 49 rows
+  scoring progression table has 48 rows
 

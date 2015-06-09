@@ -47,4 +47,3 @@ point	period	clk_before	clk_after	pull_team	n_poss	scor_team	h_or_b	pdxST	vanNH	
 46	4	1:38	0:41	pdxST	3	vanNH	hold	23	20	57	00:57
 47	4	0:41	0:13	vanNH	1	pdxST	hold	24	20	28	00:28
 48	4	0:13	0:00	pdxST	NA	NA	NA	24	20	13	00:13
-49	4	0:00	NA	NA	NA	NA	NA	24	20	NA	???
