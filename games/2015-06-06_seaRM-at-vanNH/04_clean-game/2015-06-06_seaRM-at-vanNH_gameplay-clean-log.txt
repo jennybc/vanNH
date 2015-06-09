@@ -1,0 +1,9 @@
+2015-06-06_seaRM-at-vanNH > 04_clean-and-expand-game-play.r:
+  664 rows of raw game play found
+perl is deprecated. Please use regexp instead
+perl is deprecated. Please use regexp instead
+perl is deprecated. Please use regexp instead
+perl is deprecated. Please use regexp instead
+  found 1 rows with game play recorded for both teams
+  no double game play rows remain
+  665 rows of clean game play will be written

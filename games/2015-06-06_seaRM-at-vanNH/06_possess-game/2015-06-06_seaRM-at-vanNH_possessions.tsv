@@ -1,0 +1,96 @@
+period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code	n_events	huck	score	scor_team	who	a_code	b_code
+1	1	seaRM	11	1	1	vanNH	vanNH	91	G	11	FALSE	TRUE	vanNH	o_line	G	G
+1	2	vanNH	9	2	1	seaRM	seaRM	23	G	9	FALSE	TRUE	seaRM	o_line	G	G
+1	3	seaRM	14	3	1	vanNH	vanNH	8	G	14	FALSE	TRUE	vanNH	o_line	G	G
+1	4	vanNH	6	4	1	seaRM	vanNH	17	D	6	FALSE	FALSE	NA	o_line	D	def +
+1	4	vanNH	10	5	2	vanNH	vanNH	45	G	4	FALSE	TRUE	vanNH	d_line	G	G
+1	5	vanNH	6	6	1	seaRM	seaRM	14	G	6	FALSE	TRUE	seaRM	o_line	G	G
+1	6	seaRM	16	7	1	vanNH	vanNH	8	G	16	FALSE	TRUE	vanNH	o_line	G	G
+1	7	vanNH	3	8	1	seaRM	seaRM	6	VST	3	FALSE	FALSE	NA	o_line	VST	off -
+1	7	vanNH	5	9	2	vanNH	vanNH	19	G	2	FALSE	TRUE	vanNH	d_line	G	G
+1	8	vanNH	5	10	1	seaRM	vanNH	41	D	5	FALSE	FALSE	NA	o_line	D	def +
+1	8	vanNH	9	11	2	vanNH	seaRM	16	D	4	FALSE	FALSE	NA	d_line	D	def +
+1	8	vanNH	16	12	3	seaRM	seaRM	3	TA	7	FALSE	FALSE	NA	o_line	TA	off -
+1	8	vanNH	20	13	4	vanNH	seaRM	13	D	4	FALSE	FALSE	NA	d_line	D	def +
+1	8	vanNH	26	14	5	seaRM	seaRM	27	TA	6	FALSE	FALSE	NA	o_line	TA	off -
+1	8	vanNH	36	15	6	vanNH	seaRM	14	D	10	FALSE	FALSE	NA	d_line	D	def +
+1	8	vanNH	40	16	7	seaRM	seaRM	44	G	4	FALSE	TRUE	seaRM	o_line	G	G
+1	9	seaRM	2	17	1	vanNH	vanNH	1	TA	2	FALSE	FALSE	NA	o_line	TA	off -
+1	9	seaRM	4	18	2	seaRM	seaRM	22	G	2	FALSE	TRUE	seaRM	d_line	G	G
+1	10	seaRM	5	19	1	vanNH	vanNH	14	TA	5	FALSE	FALSE	NA	o_line	TA	off -
+1	10	seaRM	11	20	2	seaRM	seaRM	98	G	6	FALSE	TRUE	seaRM	d_line	G	G
+1	11	seaRM	11	21	1	vanNH	vanNH	91	G	11	FALSE	TRUE	vanNH	o_line	G	G
+1	12	vanNH	8	22	1	seaRM	seaRM	98	TA	8	FALSE	FALSE	NA	o_line	TA	off -
+1	12	vanNH	10	23	2	vanNH	vanNH	41	eop	2	FALSE	FALSE	NA	d_line	eop	eop
+2	13	vanNH	18	24	1	seaRM	seaRM	16	G	18	FALSE	TRUE	seaRM	o_line	G	G
+2	14	seaRM	8	25	1	vanNH	vanNH	98	G	8	FALSE	TRUE	vanNH	o_line	G	G
+2	15	vanNH	10	26	1	seaRM	seaRM	97	G	10	FALSE	TRUE	seaRM	o_line	G	G
+2	16	vanNH	12	27	1	seaRM	vanNH	98	D	12	FALSE	FALSE	NA	o_line	D	def +
+2	16	vanNH	13	28	2	vanNH	vanNH	42	TA	1	FALSE	FALSE	NA	d_line	TA	off -
+2	16	vanNH	14	29	3	seaRM	seaRM	47	TA	1	FALSE	FALSE	NA	o_line	TA	off -
+2	16	vanNH	18	30	4	vanNH	vanNH	47	G	4	FALSE	TRUE	vanNH	d_line	G	G
+2	17	vanNH	10	31	1	seaRM	seaRM	16	G	10	FALSE	TRUE	seaRM	o_line	G	G
+2	18	seaRM	7	32	1	vanNH	vanNH	14	G	7	FALSE	TRUE	vanNH	o_line	G	G
+2	19	vanNH	11	33	1	seaRM	seaRM	16	G	11	FALSE	TRUE	seaRM	o_line	G	G
+2	20	seaRM	10	34	1	vanNH	vanNH	14	G	10	FALSE	TRUE	vanNH	o_line	G	G
+2	21	vanNH	15	35	1	seaRM	seaRM	97	G	15	FALSE	TRUE	seaRM	o_line	G	G
+2	22	seaRM	10	36	1	vanNH	vanNH	8	TA	10	FALSE	FALSE	NA	o_line	TA	off -
+2	22	seaRM	14	37	2	seaRM	vanNH	14	D	4	FALSE	FALSE	NA	d_line	D	def +
+2	22	seaRM	20	38	3	vanNH	vanNH	14	G	6	FALSE	TRUE	vanNH	o_line	G	G
+2	23	vanNH	5	39	1	seaRM	vanNH	10	D	5	FALSE	FALSE	NA	o_line	D	def +
+2	23	vanNH	10	40	2	vanNH	vanNH	19	G	5	FALSE	TRUE	vanNH	d_line	G	G
+2	24	vanNH	12	41	1	seaRM	seaRM	97	G	12	FALSE	TRUE	seaRM	o_line	G	G
+2	25	seaRM	10	42	1	vanNH	seaRM	7	D	10	FALSE	FALSE	NA	o_line	D	def +
+2	25	seaRM	15	43	2	seaRM	seaRM	7	G	5	FALSE	TRUE	seaRM	d_line	G	G
+2	26	seaRM	8	44	1	vanNH	vanNH	47	G	8	FALSE	TRUE	vanNH	o_line	G	G
+2	27	vanNH	9	45	1	seaRM	vanNH	49	eop	9	FALSE	FALSE	NA	o_line	eop	eop
+3	28	seaRM	14	46	1	vanNH	vanNH	14	G	14	FALSE	TRUE	vanNH	o_line	G	G
+3	29	vanNH	7	47	1	seaRM	seaRM	0	TA	7	FALSE	FALSE	NA	o_line	TA	off -
+3	29	vanNH	12	48	2	vanNH	vanNH	41	G	5	FALSE	TRUE	vanNH	d_line	G	G
+3	30	vanNH	5	49	1	seaRM	seaRM	16	G	5	FALSE	TRUE	seaRM	o_line	G	G
+3	31	seaRM	11	50	1	vanNH	vanNH	98	G	11	FALSE	TRUE	vanNH	o_line	G	G
+3	32	vanNH	11	51	1	seaRM	seaRM	3	G	11	FALSE	TRUE	seaRM	o_line	G	G
+3	33	seaRM	6	52	1	vanNH	vanNH	78	G	6	FALSE	TRUE	vanNH	o_line	G	G
+3	34	vanNH	5	53	1	seaRM	seaRM	16	G	5	FALSE	TRUE	seaRM	o_line	G	G
+3	35	seaRM	3	54	1	vanNH	seaRM	4	D	3	FALSE	FALSE	NA	o_line	D	def +
+3	35	seaRM	16	55	2	seaRM	seaRM	3	G	13	FALSE	TRUE	seaRM	d_line	G	G
+3	36	seaRM	8	56	1	vanNH	vanNH	90	G	8	FALSE	TRUE	vanNH	o_line	G	G
+3	37	vanNH	9	57	1	seaRM	seaRM	3	G	9	FALSE	TRUE	seaRM	o_line	G	G
+3	38	seaRM	5	58	1	vanNH	seaRM	22	D	5	FALSE	FALSE	NA	o_line	D	def +
+3	38	seaRM	8	59	2	seaRM	seaRM	22	G	3	FALSE	TRUE	seaRM	d_line	G	G
+3	39	seaRM	7	60	1	vanNH	vanNH	14	TA	7	FALSE	FALSE	NA	o_line	TA	off -
+3	39	seaRM	14	61	2	seaRM	vanNH	78	D	7	FALSE	FALSE	NA	d_line	D	def +
+3	39	seaRM	17	62	3	vanNH	seaRM	42	D	3	FALSE	FALSE	NA	o_line	D	def +
+3	39	seaRM	19	63	4	seaRM	seaRM	22	G	2	FALSE	TRUE	seaRM	d_line	G	G
+3	40	seaRM	10	64	1	vanNH	seaRM	14	D	10	FALSE	FALSE	NA	o_line	D	def +
+3	40	seaRM	17	65	2	seaRM	vanNH	78	D	7	FALSE	FALSE	NA	d_line	D	def +
+3	40	seaRM	27	66	3	vanNH	vanNH	98	G	10	FALSE	TRUE	vanNH	o_line	G	G
+3	41	vanNH	4	67	1	seaRM	seaRM	16	G	4	FALSE	TRUE	seaRM	o_line	G	G
+3	42	seaRM	15	68	1	vanNH	vanNH	47	G	15	FALSE	TRUE	vanNH	o_line	G	G
+3	43	vanNH	5	69	1	seaRM	vanNH	14	eop	5	FALSE	FALSE	NA	o_line	eop	eop
+4	44	vanNH	6	70	1	seaRM	vanNH	19	D	6	FALSE	FALSE	NA	o_line	D	def +
+4	44	vanNH	9	71	2	vanNH	vanNH	10	G	3	FALSE	TRUE	vanNH	d_line	G	G
+4	45	vanNH	13	72	1	seaRM	seaRM	16	G	13	FALSE	TRUE	seaRM	o_line	G	G
+4	46	seaRM	5	73	1	vanNH	seaRM	4	D	5	FALSE	FALSE	NA	o_line	D	def +
+4	46	seaRM	8	74	2	seaRM	seaRM	22	TD	3	FALSE	FALSE	NA	d_line	TD	off -
+4	46	seaRM	14	75	3	vanNH	vanNH	21	TA	6	FALSE	FALSE	NA	o_line	TA	off -
+4	46	seaRM	20	76	4	seaRM	seaRM	22	G	6	FALSE	TRUE	seaRM	d_line	G	G
+4	47	seaRM	7	77	1	vanNH	vanNH	10	G	7	FALSE	TRUE	vanNH	o_line	G	G
+4	48	vanNH	13	78	1	seaRM	seaRM	16	G	13	FALSE	TRUE	seaRM	o_line	G	G
+4	49	seaRM	7	79	1	vanNH	vanNH	8	G	7	FALSE	TRUE	vanNH	o_line	G	G
+4	50	vanNH	9	80	1	seaRM	vanNH	19	D	9	FALSE	FALSE	NA	o_line	D	def +
+4	50	vanNH	12	81	2	vanNH	seaRM	1	D	3	FALSE	FALSE	NA	d_line	D	def +
+4	50	vanNH	14	82	3	seaRM	seaRM	16	G	2	FALSE	TRUE	seaRM	o_line	G	G
+4	51	seaRM	11	83	1	vanNH	vanNH	46	G	11	FALSE	TRUE	vanNH	o_line	G	G
+4	52	vanNH	4	84	1	seaRM	vanNH	8	D	4	FALSE	FALSE	NA	o_line	D	def +
+4	52	vanNH	10	85	2	vanNH	vanNH	41	TA	6	FALSE	FALSE	NA	d_line	TA	off -
+4	52	vanNH	15	86	3	seaRM	seaRM	16	G	5	FALSE	TRUE	seaRM	o_line	G	G
+4	53	seaRM	3	87	1	vanNH	vanNH	8	TA	3	FALSE	FALSE	NA	o_line	TA	off -
+4	53	seaRM	5	88	2	seaRM	seaRM	16	G	2	FALSE	TRUE	seaRM	d_line	G	G
+4	54	seaRM	13	89	1	vanNH	vanNH	14	G	13	FALSE	TRUE	vanNH	o_line	G	G
+4	55	vanNH	3	90	1	seaRM	vanNH	10	D	3	FALSE	FALSE	NA	o_line	D	def +
+4	55	vanNH	5	91	2	vanNH	vanNH	6	G	2	FALSE	TRUE	vanNH	d_line	G	G
+4	56	vanNH	8	92	1	seaRM	seaRM	24	G	8	FALSE	TRUE	seaRM	o_line	G	G
+4	57	seaRM	6	93	1	vanNH	vanNH	8	G	6	FALSE	TRUE	vanNH	o_line	G	G
+4	58	vanNH	13	94	1	seaRM	seaRM	29	G	13	FALSE	TRUE	seaRM	o_line	G	G
+4	59	seaRM	3	95	1	vanNH	seaRM	51	eop	3	FALSE	FALSE	NA	o_line	eop	eop

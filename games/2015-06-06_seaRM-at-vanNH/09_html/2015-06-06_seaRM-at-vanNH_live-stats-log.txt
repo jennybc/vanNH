@@ -1,0 +1,7 @@
+2015-06-06_seaRM-at-vanNH > 09_vanNH-nowPlaying.rmd:
+  roster read for seaRM and vanNH
+  game YAML read; game status: complete
+  665 rows of game play found
+  59 rows of point info play found
+  scoring progression table has 59 rows
+
