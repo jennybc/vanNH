@@ -120,10 +120,10 @@ stats are cumulative for this game
 15   seaRM-98   bailey                  1       0.83       1         0        6             5         7     1      0
 16   seaRM-31   dewey-valentine         1       1.00       1         0        7             7         8     0      0
 17   seaRM-97   marcus                  1         NA       1         0        0             0         1     0      0
-18   seaRM-?    ?name?                  1       1.00       0         1        7             7         5     1      0
-19   seaRM-19   simmons                 0       0.75       0         0        4             3         3     1      0
+18   seaRM-?    ?name?                  1       1.00       0         1        6             6         4     1      0
+19   seaRM-19   simons                  0       0.75       0         0        4             3         3     1      0
 20   seaRM-4    breen                   0       1.00       0         0        2             2         2     1      0
-21   seaRM-0    rupp                    0       0.90       0         0       10             9         8     0      0
+21   seaRM-0    rupp                    0       0.91       0         0       11            10         9     0      0
 22   seaRM-10   laws                    0       1.00       0         0        1             1         1     0      0
 23   seaRM-17   bender                  0       1.00       0         0        1             1         1     0      0
 24   seaRM-51   entz                    0       1.00       0         0        1             1         1     0      0
@@ -176,7 +176,7 @@ stats are cumulative for this game
      2        1  seaRM           13          3          2  seaRM       seaRM     7         G         phan              seaRM-7-phan                    2       0
      3        1  seaRM            9          4          1  vanNH       vanNH     8         A         hibbert           vanNH-8-hibbert                 2       1
      3        1  seaRM           11          4          1  vanNH       vanNH     98        G         wong              vanNH-98-wong                   2       1
-     4        1  vanNH            5          5          1  seaRM       seaRM     3         A         el-salaam         seaRM-3-el-salaam               3       1
+     4        1  vanNH            5          5          1  seaRM       seaRM     3         LA        el-salaam         seaRM-3-el-salaam               3       1
      4        1  vanNH            6          5          1  seaRM       seaRM     1         G         mckibben          seaRM-1-mckibben                3       1
      5        1  seaRM            6          6          1  vanNH       seaRM     44        D         byerly            seaRM-44-byerly                 3       2
      5        1  seaRM           11          8          3  vanNH       vanNH     8         A         hibbert           vanNH-8-hibbert                 3       2
@@ -213,7 +213,7 @@ stats are cumulative for this game
     17        2  vanNH            9         34          3  seaRM       seaRM     1         G         mckibben          seaRM-1-mckibben               10       6
     18        2  seaRM            7         36          2  seaRM       seaRM     ?         A         ?name?            seaRM-?-?name?                 11       6
     18        2  seaRM            8         36          2  seaRM       seaRM     18        G         neeley            seaRM-18-neeley                11       6
-    19        2  seaRM            9         37          1  vanNH       seaRM     19        D         simmons           seaRM-19-simmons               12       6
+    19        2  seaRM            9         37          1  vanNH       seaRM     19        D         simons            seaRM-19-simons                12       6
     19        2  seaRM           15         38          2  seaRM       seaRM     42        A         quandt            seaRM-42-quandt                12       6
     19        2  seaRM           16         38          2  seaRM       seaRM     44        G         byerly            seaRM-44-byerly                12       6
     20        2  seaRM            6         39          1  vanNH       vanNH     6         A         chu               vanNH-6-chu                    12       7
@@ -337,7 +337,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
       1       4  vanNH            2          5          1  seaRM       seaRM     1         PU      
       1       4  vanNH            3          5          1  seaRM       seaRM     6                 
       1       4  vanNH            4          5          1  seaRM       seaRM     16                
-      1       4  vanNH            5          5          1  seaRM       seaRM     3         A       
+      1       4  vanNH            5          5          1  seaRM       seaRM     3         LA      
       1       4  vanNH            6          5          1  seaRM       seaRM     1         G       
       1       5  seaRM            1          6          1  vanNH       seaRM     44        P       
       1       5  seaRM            2          6          1  vanNH       vanNH     12        PU      
@@ -849,7 +849,7 @@ __Note: just for display purposes.__ Raw data in more useful forms can be found 
       4      43  seaRM           13         81          1  vanNH       vanNH     90        G       
       4      44  vanNH            1         82          1  seaRM       vanNH     41        P       
       4      44  vanNH            2         82          1  seaRM       seaRM     6         PU      
-      4      44  vanNH            3         82          1  seaRM       seaRM     ?                 
+      4      44  vanNH            3         82          1  seaRM       seaRM     0                 
       4      44  vanNH            4         82          1  seaRM       seaRM     3         A       
       4      44  vanNH            5         82          1  seaRM       seaRM     24        G       
       4      45  seaRM            1         83          1  vanNH       seaRM     42        P       

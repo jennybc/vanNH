@@ -7,5 +7,5 @@ Offense	Defense
 1pu	
 6	
 16	
-3	
+3L	
 1G	

@@ -46,7 +46,7 @@ point	event	pull_pnum	pull_code	recv_pnum	recv_code
 4	2			1	PU
 4	3			6	
 4	4			16	
-4	5			3	
+4	5			3	L
 4	6			1	G
 5	1	44	P		
 5	2			12	PU
@@ -558,7 +558,7 @@ point	event	pull_pnum	pull_code	recv_pnum	recv_code
 43	13			90	G
 44	1	41	P		
 44	2			6	PU
-44	3			?	
+44	3			0	
 44	4			3	
 44	5			24	G
 45	1	42	P		

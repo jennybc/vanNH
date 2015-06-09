@@ -46,7 +46,7 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 1	4	vanNH	2	5	1	seaRM	seaRM	1	PU
 1	4	vanNH	3	5	1	seaRM	seaRM	6	
 1	4	vanNH	4	5	1	seaRM	seaRM	16	
-1	4	vanNH	5	5	1	seaRM	seaRM	3	A
+1	4	vanNH	5	5	1	seaRM	seaRM	3	LA
 1	4	vanNH	6	5	1	seaRM	seaRM	1	G
 1	5	seaRM	1	6	1	vanNH	seaRM	44	P
 1	5	seaRM	2	6	1	vanNH	vanNH	12	PU
@@ -558,7 +558,7 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 4	43	seaRM	13	81	1	vanNH	vanNH	90	G
 4	44	vanNH	1	82	1	seaRM	vanNH	41	P
 4	44	vanNH	2	82	1	seaRM	seaRM	6	PU
-4	44	vanNH	3	82	1	seaRM	seaRM	?	
+4	44	vanNH	3	82	1	seaRM	seaRM	0	
 4	44	vanNH	4	82	1	seaRM	seaRM	3	A
 4	44	vanNH	5	82	1	seaRM	seaRM	24	G
 4	45	seaRM	1	83	1	vanNH	seaRM	42	P

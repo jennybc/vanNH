@@ -3,7 +3,7 @@ period	point	pull_team	event	poss_abs	poss_rel	poss_team	pl_team	pl_pnum	pl_code
 1	2	seaRM	8	2	1	vanNH	seaRM	?	D	8	FALSE	FALSE	NA	o_line	D	def +
 1	2	seaRM	13	3	2	seaRM	seaRM	7	G	5	FALSE	TRUE	seaRM	d_line	G	G
 1	3	seaRM	11	4	1	vanNH	vanNH	98	G	11	FALSE	TRUE	vanNH	o_line	G	G
-1	4	vanNH	6	5	1	seaRM	seaRM	1	G	6	FALSE	TRUE	seaRM	o_line	G	G
+1	4	vanNH	6	5	1	seaRM	seaRM	1	G	6	TRUE	TRUE	seaRM	o_line	G	G
 1	5	seaRM	7	6	1	vanNH	vanNH	47	TA	7	FALSE	FALSE	NA	o_line	TA	off -
 1	5	seaRM	9	7	2	seaRM	seaRM	98	TA	2	FALSE	FALSE	NA	d_line	TA	off -
 1	5	seaRM	12	8	3	vanNH	vanNH	47	G	3	FALSE	TRUE	vanNH	o_line	G	G
